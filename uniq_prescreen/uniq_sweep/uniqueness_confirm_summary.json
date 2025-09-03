@@ -1,0 +1,169 @@
+{
+  "model_class": {
+    "routes": "NA-only SPOKE/GRID/RAILFENCE/HALF/IDENTITY",
+    "classings": [
+      "c6a",
+      "c6b"
+    ],
+    "families": [
+      "vigenere",
+      "variant_beaufort",
+      "beaufort"
+    ],
+    "periods": [
+      10,
+      22
+    ],
+    "phases": "0..L-1",
+    "option_A": true
+  },
+  "phrase_gate_policy": {
+    "combine": "AND",
+    "tokenization_v2": true,
+    "generic": {
+      "percentile_top": 1,
+      "pos_threshold": 0.6,
+      "min_content_words": 6,
+      "max_repeat": 2
+    }
+  },
+  "candidates": [
+    {
+      "label": "cand_001",
+      "pt_sha256": "09c85ebcd840d8f8847bebe16888208a7bf56bba0d60d6f57dbd139772a20217",
+      "route_id": "SPOKE_NE_NF_w1",
+      "feasible": true,
+      "near_gate": true,
+      "phrase_gate": {
+        "tracks": [
+          "flint_v2",
+          "generic"
+        ],
+        "pass": true
+      },
+      "holm_adj_p": {
+        "coverage": 0.00019998000199980003,
+        "f_words": 9.999000099990002e-05
+      },
+      "publishable": true
+    },
+    {
+      "label": "cand_002",
+      "pt_sha256": "a78901b014199bc203b4424cdfe2c812e0eaf0b6755a4e657f5bbb3f2b1df11e",
+      "route_id": "SPOKE_E_FN_w1",
+      "feasible": true,
+      "near_gate": true,
+      "phrase_gate": {
+        "tracks": [
+          "generic"
+        ],
+        "pass": false
+      },
+      "holm_adj_p": {
+        "coverage": null,
+        "f_words": null
+      },
+      "publishable": false
+    },
+    {
+      "label": "cand_003",
+      "pt_sha256": "e0c71bd07f136d60107dcefda80bbfc0acec5d6536254993aaa38d86c96287c6",
+      "route_id": "SPOKE_ENE_NF_w2",
+      "feasible": true,
+      "near_gate": true,
+      "phrase_gate": {
+        "tracks": [
+          "flint_v2",
+          "generic"
+        ],
+        "pass": true
+      },
+      "holm_adj_p": {
+        "coverage": 0.00019998000199980003,
+        "f_words": 9.999000099990002e-05
+      },
+      "publishable": true
+    },
+    {
+      "label": "cand_004",
+      "pt_sha256": "50616118b3b9dd2909f989e1fbf905061a72aeda47c22d97501c3391e876301a",
+      "route_id": "GRID_W10_NW",
+      "feasible": true,
+      "near_gate": true,
+      "phrase_gate": {
+        "tracks": [
+          "flint_v2",
+          "generic"
+        ],
+        "pass": true
+      },
+      "holm_adj_p": {
+        "coverage": 0.00019998000199980003,
+        "f_words": 9.999000099990002e-05
+      },
+      "publishable": true
+    },
+    {
+      "label": "cand_005",
+      "pt_sha256": "595673454befe63b02053f311d1a966e3f08ce232d5d744d3afbc2ea04d3d769",
+      "route_id": "GRID_W14_ROWS",
+      "feasible": true,
+      "near_gate": true,
+      "phrase_gate": {
+        "tracks": [
+          "flint_v2",
+          "generic"
+        ],
+        "pass": true
+      },
+      "holm_adj_p": {
+        "coverage": 0.00019998000199980003,
+        "f_words": 9.999000099990002e-05
+      },
+      "publishable": true
+    },
+    {
+      "label": "cand_006",
+      "pt_sha256": "4f5fcd640bea2c76c716087351f08e9f27eeb795b67e1284fe8e50c197296d71",
+      "route_id": "RAILFENCE_R3_INVERTED",
+      "feasible": true,
+      "near_gate": true,
+      "phrase_gate": {
+        "tracks": [
+          "flint_v2",
+          "generic"
+        ],
+        "pass": true
+      },
+      "holm_adj_p": {
+        "coverage": 0.00019998000199980003,
+        "f_words": 9.999000099990002e-05
+      },
+      "publishable": true
+    },
+    {
+      "label": "cand_009",
+      "pt_sha256": "26e3417f5b8a607e2cbc6ef7d49739c29f4f5f5278ca67fe2af85586487697c0",
+      "route_id": "SPOKE_NE_NF_w1",
+      "feasible": true,
+      "near_gate": true,
+      "phrase_gate": {
+        "tracks": [
+          "flint_v2",
+          "generic"
+        ],
+        "pass": true
+      },
+      "holm_adj_p": {
+        "coverage": 0.00019998000199980003,
+        "f_words": 9.999000099990002e-05
+      },
+      "publishable": true
+    }
+  ],
+  "uniqueness": {
+    "unique": false,
+    "reason": "multiple_publishable_selected_by_perplexity",
+    "selected": "cand_004"
+  }
+}

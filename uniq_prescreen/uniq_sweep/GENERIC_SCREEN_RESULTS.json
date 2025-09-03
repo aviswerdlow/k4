@@ -1,0 +1,102 @@
+{
+  "screening_results": [
+    {
+      "candidate_label": "cand_001",
+      "head_content": 11,
+      "perplexity_percentile": 0.11399999999999999,
+      "pos_score": 0.6000000000000001,
+      "max_repeat": 2,
+      "generic_pass": true,
+      "head_text": "WECANSEETHETEXTISREALEASTNORTH..."
+    },
+    {
+      "candidate_label": "cand_002",
+      "head_content": 12,
+      "perplexity_percentile": 0.1,
+      "pos_score": 0.6000000000000001,
+      "max_repeat": 2,
+      "generic_pass": true,
+      "head_text": "WECANSEETHETEXTISTRUEEASTNORTH..."
+    },
+    {
+      "candidate_label": "cand_003",
+      "head_content": 11,
+      "perplexity_percentile": 0.128,
+      "pos_score": 0.6000000000000001,
+      "max_repeat": 2,
+      "generic_pass": true,
+      "head_text": "WECANSEETHETEXTISFACTEASTNORTH..."
+    },
+    {
+      "candidate_label": "cand_004",
+      "head_content": 11,
+      "perplexity_percentile": 0.1,
+      "pos_score": 0.6000000000000001,
+      "max_repeat": 2,
+      "generic_pass": true,
+      "head_text": "WECANSEETHETEXTISAMAPEASTNORTH..."
+    },
+    {
+      "candidate_label": "cand_005",
+      "head_content": 12,
+      "perplexity_percentile": 0.1,
+      "pos_score": 0.6000000000000001,
+      "max_repeat": 2,
+      "generic_pass": true,
+      "head_text": "WECANSEETHETEXTISCODEEASTNORTH..."
+    },
+    {
+      "candidate_label": "cand_006",
+      "head_content": 11,
+      "perplexity_percentile": 0.8500000000000001,
+      "pos_score": 0.6000000000000001,
+      "max_repeat": 2,
+      "generic_pass": true,
+      "head_text": "WECANSEETHETEXTISDATAEASTNORTH..."
+    },
+    {
+      "candidate_label": "cand_007",
+      "head_content": 12,
+      "perplexity_percentile": 1.252,
+      "pos_score": null,
+      "max_repeat": 2,
+      "generic_pass": false,
+      "head_text": "WECANSEETHETEXTISMARKEASTNORTH..."
+    },
+    {
+      "candidate_label": "cand_008",
+      "head_content": 11,
+      "perplexity_percentile": 1.082,
+      "pos_score": null,
+      "max_repeat": 2,
+      "generic_pass": false,
+      "head_text": "WECANSEETHETEXTISSIGNEASTNORTH..."
+    },
+    {
+      "candidate_label": "cand_009",
+      "head_content": 11,
+      "perplexity_percentile": 0.32999999999999996,
+      "pos_score": 0.6000000000000001,
+      "max_repeat": 2,
+      "generic_pass": true,
+      "head_text": "WECANSEETHETEXTISFIRMEASTNORTH..."
+    },
+    {
+      "candidate_label": "cand_010",
+      "head_content": 11,
+      "perplexity_percentile": 1.2,
+      "pos_score": null,
+      "max_repeat": 2,
+      "generic_pass": false,
+      "head_text": "WECANSEETHETEXTISALIEEASTNORTH..."
+    }
+  ],
+  "summary": {
+    "total_candidates": 10,
+    "generic_passers": 7,
+    "thresholds_used": {
+      "percentile_top": 1,
+      "pos_threshold": 1.0
+    }
+  }
+}

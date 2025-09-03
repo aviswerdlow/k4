@@ -1,0 +1,102 @@
+{
+  "model_class": {
+    "routes": "GRID_W{10,12,14}_{ROWS|BOU|NE|NW}",
+    "classings": [
+      "c6a",
+      "c6b"
+    ],
+    "families": [
+      "vigenere",
+      "variant_beaufort",
+      "beaufort"
+    ],
+    "periods": [
+      10,
+      22
+    ],
+    "phases": "0..L-1",
+    "option_A": true
+  },
+  "phrase_gate_policy": {
+    "combine": "AND",
+    "tokenization_v2": true,
+    "generic": {
+      "percentile_top": 1,
+      "pos_threshold": 0.6,
+      "min_content_words": 6,
+      "max_repeat": 2
+    }
+  },
+  "tie_breakers": [
+    "holm_adj_p_min",
+    "perplexity_percentile",
+    "coverage",
+    "route_complexity"
+  ],
+  "candidates": [
+    {
+      "label": "cand_004",
+      "pt_sha256": "50616118b3b9dd2909f989e1fbf905061a72aeda47c22d97501c3391e876301a",
+      "route_id": "GRID_W10_NW",
+      "feasible": true,
+      "near_gate": true,
+      "phrase_gate": {
+        "tracks": [
+          "flint_v2",
+          "generic"
+        ],
+        "pass": true
+      },
+      "holm_adj_p": {
+        "coverage": 0.00019998000199980003,
+        "f_words": 9.999000099990002e-05
+      },
+      "holm_adj_p_min": 9.999000099990002e-05,
+      "coverage": 0.8846153846153846,
+      "perplexity_percentile": 0.1,
+      "publishable": true
+    },
+    {
+      "label": "cand_005",
+      "pt_sha256": "595673454befe63b02053f311d1a966e3f08ce232d5d744d3afbc2ea04d3d769",
+      "route_id": "GRID_W14_ROWS",
+      "feasible": true,
+      "near_gate": true,
+      "phrase_gate": {
+        "tracks": [
+          "flint_v2",
+          "generic"
+        ],
+        "pass": true
+      },
+      "holm_adj_p": {
+        "coverage": 0.00019998000199980003,
+        "f_words": 9.999000099990002e-05
+      },
+      "holm_adj_p_min": 9.999000099990002e-05,
+      "coverage": 0.9230769230769231,
+      "perplexity_percentile": 0.1,
+      "publishable": true
+    }
+  ],
+  "uniqueness": {
+    "unique": true,
+    "reason": "GRID_only_AND_gate_with_tie_breakers",
+    "winner": "cand_005",
+    "tie_breaker_used": "tie_breaker_route_complexity",
+    "comparison": {
+      "cand_004": {
+        "holm_adj_p_min": 9.999000099990002e-05,
+        "perplexity_percentile": 0.1,
+        "coverage": 0.8846153846153846,
+        "route_complexity": 101
+      },
+      "cand_005": {
+        "holm_adj_p_min": 9.999000099990002e-05,
+        "perplexity_percentile": 0.1,
+        "coverage": 0.9230769230769231,
+        "route_complexity": 141
+      }
+    }
+  }
+}

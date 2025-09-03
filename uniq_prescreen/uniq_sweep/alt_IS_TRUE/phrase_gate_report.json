@@ -1,0 +1,23 @@
+{
+  "flint_v2": {
+    "declination_found": false,
+    "declination_type": null,
+    "instrument_verb_found": false,
+    "instrument_verb": null,
+    "direction_tokens": [],
+    "instrument_noun_found": false,
+    "instrument_noun": null,
+    "content_words": 0,
+    "max_repeat_non_anchor": 0,
+    "passed": false
+  },
+  "generic": {
+    "perplexity_percentile": 8.252317124621513,
+    "pos_score": null,
+    "content_words": 0,
+    "max_repeat_non_anchor": 0,
+    "passed": false
+  },
+  "accepted_by": [],
+  "passed": false
+}

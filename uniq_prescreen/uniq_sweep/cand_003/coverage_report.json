@@ -1,0 +1,26 @@
+{
+  "pt_sha256": "e0c71bd07f136d60107dcefda80bbfc0acec5d6536254993aaa38d86c96287c6",
+  "ct_sha256": "eea813570c7f1fd3b34674e47b5c3da8948026f5cefee612a0b38ffaa515ceab",
+  "t2_sha256": "e86b2c9b3e543f202db4aef21bcf7eb42b0b8bd70c5096f1c655220bc6d5e908",
+  "encrypts_to_ct": true,
+  "rails_valid": true,
+  "near_gate": {
+    "coverage": 0.8846153846153846,
+    "function_words": 10,
+    "has_verb": true,
+    "passed": true
+  },
+  "phrase_gate": {
+    "tracks": [
+      "flint_v2",
+      "generic"
+    ],
+    "pass": true
+  },
+  "nulls": {
+    "status": "ran",
+    "p_cov_holm": 0.00019998000199980003,
+    "p_fw_holm": 9.999000099990002e-05,
+    "publishable": true
+  }
+}

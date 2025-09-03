@@ -1,0 +1,18 @@
+{
+  "pt_sha256": "50616118b3b9dd2909f989e1fbf905061a72aeda47c22d97501c3391e876301a",
+  "ct_sha256": "eea813570c7f1fd3b34674e47b5c3da8948026f5cefee612a0b38ffaa515ceab",
+  "encrypts_to_ct": true,
+  "rails_valid": true,
+  "near_gate": {
+    "coverage": 0.8846153846153846,
+    "function_words": 10,
+    "has_verb": true,
+    "passed": true
+  },
+  "phrase_gate": {
+    "tracks": [
+      "flint_v2"
+    ],
+    "pass": false
+  }
+}

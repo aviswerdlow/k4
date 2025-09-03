@@ -1,0 +1,43 @@
+{
+  "combine": "AND",
+  "tokenization_v2": true,
+  "flint_v2": {
+    "declination_patterns": [
+      "SET COURSE TRUE",
+      "CORRECT BEARING TRUE",
+      "REDUCE COURSE TRUE",
+      "APPLY DECLINATION",
+      "BRING TRUE MERIDIAN"
+    ],
+    "instrument_verbs": [
+      "READ",
+      "SEE",
+      "NOTE",
+      "SIGHT",
+      "OBSERVE"
+    ],
+    "direction_tokens": [
+      "EAST",
+      "NORTHEAST"
+    ],
+    "instrument_nouns": [
+      "BERLIN",
+      "CLOCK",
+      "BERLINCLOCK",
+      "DIAL"
+    ],
+    "min_content_words": 6,
+    "max_repeat_non_anchor": 2
+  },
+  "generic": {
+    "percentile_top": 1,
+    "pos_threshold": 1.0,
+    "min_content_words": 6,
+    "max_repeat": 2,
+    "calib_files": {
+      "perplexity": "9bbcf015635ccf5b1a3b225f9732d9a587c32eb97ab1eaeb3f52742aecdc45db",
+      "pos_trigrams": "a5fad7d87294b1c968e58e43e0106bbb49b377e952cdb420db92ce65cdfda3b9",
+      "pos_threshold": "7d680231e9793ecd6ad7252404e91c726e564cd57fcbf140289b9256e077143d"
+    }
+  }
+}

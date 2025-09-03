@@ -1,0 +1,29 @@
+{
+  "flint_v2": {
+    "declination_found": true,
+    "declination_type": "SET COURSE TRUE",
+    "instrument_verb_found": true,
+    "instrument_verb": "READ",
+    "direction_tokens": [
+      "EAST",
+      "NORTHEAST"
+    ],
+    "instrument_noun_found": true,
+    "instrument_noun": "BERLIN",
+    "content_words": 11,
+    "max_repeat_non_anchor": 2,
+    "passed": true
+  },
+  "generic": {
+    "perplexity_percentile": 0.32999999999999996,
+    "pos_score": 0.6000000000000001,
+    "content_words": 11,
+    "max_repeat_non_anchor": 2,
+    "passed": true
+  },
+  "accepted_by": [
+    "flint_v2",
+    "generic"
+  ],
+  "passed": true
+}
