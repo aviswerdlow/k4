@@ -1,0 +1,54 @@
+{
+  "model_class": {
+    "routes": "NA-only SPOKE/GRID/RAILFENCE/HALF/IDENTITY",
+    "classings": [
+      "c6a",
+      "c6b"
+    ],
+    "families": [
+      "vigenere",
+      "variant_beaufort",
+      "beaufort"
+    ],
+    "periods": [
+      10,
+      22
+    ],
+    "phases": "0..L-1",
+    "option_A": true
+  },
+  "candidates": [
+    {
+      "label": "baseline_IS_REAL",
+      "pt_sha256": "09c85ebcd840d8f8847bebe16888208a7bf56bba0d60d6f57dbd139772a20217",
+      "folder": "baseline_IS_REAL",
+      "proof_sha256": "c20559e2ae506254165f8195edf29aa3f4d93a746151608cde38593a4bd84f78",
+      "feasible": true,
+      "route_id": "SPOKE_NE_NF_w1"
+    },
+    {
+      "label": "alt_IS_TRUE",
+      "pt_sha256": "a78901b014199bc203b4424cdfe2c812e0eaf0b6755a4e657f5bbb3f2b1df11e",
+      "folder": "alt_IS_TRUE",
+      "proof_sha256": "abe5239a85402667e609bf6d778299a5a8057cad848a106acc0a1e560131ad39",
+      "feasible": true,
+      "route_id": "SPOKE_NE_NF_w1"
+    },
+    {
+      "label": "alt_IS_FACT",
+      "pt_sha256": "e0c71bd07f136d60107dcefda80bbfc0acec5d6536254993aaa38d86c96287c6",
+      "folder": "alt_IS_FACT",
+      "proof_sha256": "098b8e45bcc30f355c6316da02844d36ca14b5e295cab9e085964f892d5288fe",
+      "feasible": true,
+      "route_id": "SPOKE_NE_NF_w1"
+    },
+    {
+      "label": "alt_IS_A_MAP",
+      "pt_sha256": "50616118b3b9dd2909f989e1fbf905061a72aeda47c22d97501c3391e876301a",
+      "folder": "alt_IS_A_MAP",
+      "proof_sha256": "155df4e4b31578860c4fff42c8edf9549967bb7719a43a615c26f14bd5d4de77",
+      "feasible": true,
+      "route_id": "SPOKE_NE_NF_w1"
+    }
+  ]
+}
