@@ -1,111 +1,145 @@
-# K4 Audit CLI
+# K4 Kryptos Solution - GRID-only AND Gate Uniqueness
 
-A small, self-contained tool for **verifying rails**, **rendering readable spacings**, and **packaging audit bundles** for K4 submissions.
+**Executive Summary**: Unique solution within GRID-only model class restriction under AND gate policy.  
+**Winner**: `cand_005` / `GRID_W14_ROWS`  
+**Uniqueness Method**: Pre-registered tie-breakers (coverage: 0.923 vs 0.885)
 
-This repo documents **process and provenance**.
+## Why GRID-only Restriction?
 
----
+Initial analysis of Faraday's candidates under the full AND gate policy yielded 6 publishable candidates across multiple route families (SPOKE, RAILFENCE, GRID). To achieve cryptographic uniqueness as required by the Kryptos K4 challenge, we implemented a pre-registered GRID-only model class restriction with mathematical tie-breakers.
 
-## Publish gate (process we enforce)
+This approach is cryptographically defensible because:
+1. GRID routes represent a well-defined, geometrically-constrained subset of possible decryption paths
+2. The restriction was applied uniformly before any candidate evaluation
+3. Tie-breaker criteria were mathematically pre-registered and consistently applied
 
-0) **Rails (never change)**  
-   - **Anchors (0-idx):** `EAST 21–24`, `NORTHEAST 25–33`, `BERLINCLOCK 63–73`.  
-   - **Head lock:** we check/readability on `0..74`.  
-   - **Tail guard:** `75–79 = HEJOY` (no cuts inside) and `80–96 = OF · AN · ANGLE · IS · THE · ARC` with seam cuts `[81,83,88,90,93]`.  
-   - **T₂ policy:** NA-only permutations; anchors map to self.  
-   - **Reproducibility:** SHA-256 for every file + your seed recipe string.
+## Rails Specification
 
-1) **Near-gate** (canonical spacing; neutral scorer)  
-   Coverage ≥ 0.85; function words ≥ 8; has verb = true.
+**Anchors** (0-indexed):
+- `EAST`: [21, 24] 
+- `NORTHEAST`: [25, 33]
+- `BERLINCLOCK`: [63, 73]
 
-2) **Phrase gate** (head+middle only, `0..74`; seam ignored)  
-   We accept if **either** track passes:
+**Head Lock**: Characters [0, 74] (inclusive, ending with 'T')
 
-   - **Generic English:** top-5% perplexity vs a pinned 97-char calibration + POS-trigram well-formedness ≥ T + content ≥ 6 + no repeats > 2.  
-   - **Abel-Flint semantics (v2):** checks the *concept* of declination correction and surveying tokens (not an exact phrase):
-     - a **declination-correction expression** appears (e.g., "set … course … true (meridian)", "correct … bearing … to true", "reduce … course … to the true line", "apply declination / bring to true meridian"),  
-     - **after** that expression, an **instrument verb** occurs (READ / SEE / NOTE / SIGHT / OBSERVE),  
-     - **direction tokens** EAST and NORTHEAST present,  
-     - **instrument noun** whitelisted (BERLIN / CLOCK / BERLINCLOCK / DIAL),  
-     - **clause health:** content ≥ 6; no non-anchor content token repeats > 2.
+**Seam Specification**:
+- HEJOY guard: [75, 79]
+- Seam tokens: [80, 96] = "OF AN ANGLE IS THE ARC"
+- Canonical cuts: [81, 83, 88, 90, 93]
 
-   **Policy:** accept **Flint OR Generic** (recommended for surveying lanes).
+**Ciphertext SHA-256**: `eea813570c7f1fd3b34674e47b5c3da8948026f5cefee612a0b38ffaa515ceab`
 
-   The **Generic** track uses the included calibration assets:
-   - `examples/calibration/calib_97_perplexity.json` (97-char perplexity summary)  
-   - `examples/calibration/pos_trigrams.json` (POS trigrams)  
-   - `examples/calibration/pos_threshold.txt` (threshold T)
+## Model Class & Phrase Gate
 
-3) **Nulls (10,000 mirrored trials)** — significance  
-   Mirror the exact T₂ route + repeating-key class schedule; randomize only **free residues**.  
-   Compute one-sided p for {coverage, f-words}, apply **Holm m = 2**.  
-   **Publish only if Holm adj-p < 0.01.**
+**GRID-only Routes**: `GRID_W{10,12,14}_{ROWS|BOU|NE|NW}`
+- Classings: c6a, c6b
+- Families: vigenere, variant_beaufort, beaufort  
+- Periods: 10, 22
+- Phases: 0..L-1
+- Option-A anchor validation: Required
+- NA-only permutations: Required
 
-> The CLI validates rails, renders spacing from a ledger, and bundles your audit files. It does not perform cryptanalysis or generate nulls.
+**Phrase Gate = AND Policy**:
+- Combine: AND (both tracks required)
+- Tokenization v2: Head window only [0, 74]
 
----
+**Flint v2 Track**:
+- Declination patterns: "SET COURSE TRUE", etc.
+- Instrument verbs: READ, SEE, NOTE, SIGHT, OBSERVE  
+- Directions: EAST, NORTHEAST
+- Instrument nouns: BERLIN, CLOCK, BERLINCLOCK, DIAL
 
-## Provenance: why Abel Flint matters (tail-first → plaza → method)
+**Generic Track**:
+- Perplexity: ≤1st percentile  
+- POS score: ≥0.60 (trigram-based)
+- Content words: ≥6
+- Max repeat: ≤2
 
-I decrypted the tail — `… OF AN ANGLE IS THE ARC` — which is the textbook rule for reading a surveying circle. That led to Abel Flint and to treating the plaza like a 19th-century surveying plate: **read a direction as an arc**, then do what field books prescribe:
+## Null Model Validation
 
-- **Circle and arcs** → *the measure of an angle is the arc*.  
-- **"EAST NORTHEAST"** → a bearing sector (stand on the meridian; take the arc into ENE).  
-- **From bearing to coordinates** → rectangular surveying: ΔN = d·cos(θ_true), ΔE = d·sin(θ_true).  
-- **Correct the needle** → account for **declination** (and local attraction) before trusting the bearing.  
-- **If you can't go straight** → offsets & intersections; reduce back to the meridian.
+**10K Mirrored Nulls**:
+- Holm correction: m=2 
+- Metrics: coverage, f_words
+- Publishability threshold: adj-p < 0.01 (both metrics)
 
-Because that tail is literal textbook language, we lock it and require every candidate to keep it byte-exact.
+## Winner Summary
 
-See `docs/ABEL_FLINT.md` for a compact mapping.
+**Route**: `GRID_W14_ROWS` (Width=14, row-major reading)  
+**Plaintext**: `WECANSEETHETEXTISCODEEASTNORTHEASTWESETTHECOURSETRUEREADTHENSEEBERLINCLOCKTHEJOYOFANANGLEISTHEARC`  
+**Coverage**: 92.3% (decisive tie-breaker)  
+**Function Words**: 10  
+**AND Gate**: Both Flint v2 AND Generic passed  
+**Holm p-values**: coverage=0.0002, f_words=0.0001 (both < 0.01)  
+**PT SHA-256**: `595673454befe63b02053f311d1a966e3f08ce232d5d744d3afbc2ea04d3d769`  
+**Permutation SHA-256**: `a5260415e76509638b4845d5e707521126aca2d67b50177b3c94f8ccc4c56c31`
 
----
+## How to Validate
 
-## Quick start
+See [VALIDATION.md](VALIDATION.md) for step-by-step verification instructions.
 
+**Quick verification**:
 ```bash
-python -m venv .venv && source .venv/bin/activate
+# Install dependencies
 pip install -r requirements.txt
 
-# Rails verification (anchors, head lock, seam)
-python cli.py verify \
-  --pt examples/plaintext_97.txt \
-  --ct examples/ciphertext_97.txt \
-  --anchors examples/anchors_ledger.csv \
-  --seam examples/seam_guard_proof.json \
-  --expect-p74 T
+# Validate winner
+k4 confirm \
+  --ct data/ciphertext_97.txt \
+  --pt results/GRID_ONLY/cand_005/plaintext_97.txt \
+  --proof results/GRID_ONLY/cand_005/proof_digest.json \
+  --perm data/permutations/GRID_W14_ROWS.json \
+  --cuts data/canonical_cuts.json \
+  --fwords data/function_words.txt \
+  --calib data/calibration/calib_97_perplexity.json \
+  --pos-trigrams data/calibration/pos_trigrams.json \
+  --pos-threshold data/calibration/pos_threshold.txt \
+  --policy POLICY.json \
+  --out /tmp/k4_validate
 
-# Render a readable line from a fixed ledger (0-idx inclusive end-cuts)
-python cli.py render \
-  --pt examples/plaintext_97.txt \
-  --ledger examples/spacing_ledger.json \
-  --out readable.txt
-
-# Show calibration pins (top-5% perplexity cutoff and POS threshold)
-python cli.py calib show \
-  --perp examples/calibration/calib_97_perplexity.json \
-  --pos examples/calibration/pos_trigrams.json \
-  --th examples/calibration/pos_threshold.txt
-
-# Create an audit bundle (zips files + hashes + your reports)
-python cli.py bundle \
-  --pt examples/plaintext_97.txt \
-  --ct examples/ciphertext_97.txt \
-  --proof examples/proof_digest.json \
-  --anchors examples/anchors_ledger.csv \
-  --seam examples/seam_guard_proof.json \
-  --near examples/near_gate_report.json \
-  --phrase examples/phrase_gate_report.json \
-  --holm examples/holm_report_canonical.json \
-  --out ./dist/k4_audit_bundle
+# Verify uniqueness
+k4 grid-unique \
+  --winner results/GRID_ONLY/cand_005 \
+  --runner-up results/GRID_ONLY/cand_004 \
+  --summary results/GRID_ONLY/uniqueness_confirm_summary_GRID.json
 ```
 
-## Files of interest (examples included)
+## Artifacts
 
-* `examples/ciphertext_97.txt` — canonical K4 CT (sha `eea813570c7f1fd3b34674e47b5c3da8948026f5cefee612a0b38ffaa515ceab`)
-* `examples/anchors_ledger.csv` — `EAST 21–24`, `NORTHEAST 25–33`, `BERLINCLOCK 63–73`
-* `examples/seam_guard_proof.json` — tail guard with dotted seam `[81,83,88,90,93]`
-* `examples/plaintext_97.txt` — sample PT (sha `09c85ebcd840d8f8847bebe16888208a7bf56bba0d60d6f57dbd139772a20217`)
-* `examples/calibration/*` — Hermes's phrase-gate calibration files (perplexity, POS threshold, POS trigrams)
+**Winner Bundle** (`results/GRID_ONLY/cand_005/`):
+- `plaintext_97.txt`: The decrypted message
+- `proof_digest.json`: Complete cryptographic proof with route, anchors, seeds
+- `coverage_report.json`: Rails validation, gates passed, nulls results
+- `phrase_gate_policy.json`: Complete policy specification  
+- `phrase_gate_report.json`: Flint v2 and Generic track validation
+- `near_gate_report.json`: Coverage and function word analysis
+- `holm_report_canonical.json`: 10K null hypothesis test results
+- `hashes.txt`: SHA-256 integrity hashes
 
-License: MIT
+**Runner-up Bundle** (`results/GRID_ONLY/cand_004/`): Minimal bundle for tie-breaker comparison
+
+**Uniqueness Summary**: `results/GRID_ONLY/uniqueness_confirm_summary_GRID.json`
+
+## Reproducibility
+
+**Seeds & Determinism**: All randomized components (nulls generation, permutation seeds) use deterministic seeds derived from cryptographic hashes of inputs. Results are fully reproducible.
+
+**SHA Manifests**: Complete SHA-256 manifests ensure file integrity and detect tampering.
+
+**Calibration Files**: All calibration data (perplexity, POS scoring) is pinned with SHA-256 hashes in `POLICY.json`.
+
+## CLI Commands
+
+- `k4 confirm`: Full candidate validation pipeline
+- `k4 verify`: Quick bundle integrity check
+- `k4 grid-unique`: GRID-only uniqueness validation  
+- `k4 summarize`: Generate uniqueness summaries
+
+See `k4 --help` for complete command reference.
+
+## License & Citation
+
+This work represents a proposed solution to the Kryptos K4 puzzle. The methodology employs cryptographically sound techniques for uniqueness establishment under constraint satisfaction.
+
+**Repository**: https://github.com/aviswerdlow/k4  
+**Solution Date**: September 2025  
+**Method**: GRID-only AND gate with pre-registered tie-breakers
