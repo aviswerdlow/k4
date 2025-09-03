@@ -10,6 +10,50 @@ We use 0-indexed positions throughout (leftmost index \= 0).
 
 ---
 
+## **What Sanborn would need in 1990 (pencil \+ paper)**
+
+He’d be using nothing fancier than classical, hand-doable components:
+
+1. **A simple letter-to-letter substitution that repeats**  
+    That’s just Vigenère/Beaufort/Variant-Beaufort — the same families people have done on paper for a century. We happen to organize it as **6 repeating tracks** (a regular pattern like “every other letter” crossed with “every third letter”); you can think of it as six little Vigenère-like ciphers interleaved. That’s easy to run with pencil tables.
+
+2. **A tidy transposition (permutation) that never moves the “public words”**  
+    A spoke/grid/ringskip pattern over the **non-anchor** letters only. On paper, you list the non-anchor positions and copy letters to their destinations — just like any transposition puzzle — and you leave the anchor boxes untouched.
+
+3. **A few “cribbed” letters that force the keys at the anchor spots**  
+    He wants the plaintext to show EAST, NORTHEAST, and BERLINCLOCK in specific positions. At those indices, the substitution rule tells you **what key letter must be there** so ciphertext → plaintext. That’s one-line modular arithmetic per letter — a normal hand step for polyalphabetic ciphers.
+
+Put differently: the “structure” is just “repeat a small key pattern across the line” \+ “shuffle the non-anchor positions by a neat route.” Both are pencil-friendly.
+
+---
+
+## **A 60-second sketch of the hand process**
+
+1. Draw 97 boxes in a row; mark the three anchor spans (21–24, 25–33, 63–73) and pre-fill the tail boxes:  
+    75–79 `HEJOY`; 80–96 `OFANANGLEISTHEARC`.
+
+2. Pick a neat **non-anchor permutation** (spoke/grid/etc.). Write an index-to-index table for those positions only.  
+    (Anchors map to themselves.)
+
+3. Pick a **repeating-key pattern** for substitution (e.g., six little Vigenère/Beaufort tracks by a regular index rule).
+
+4. **At anchors**, compute the key letters that force ciphertext → the anchor words (one mod-26 subtraction or addition per letter).
+
+5. Fill the rest of the keys and run the substitution across all positions, then apply your non-anchor permutation.  
+    Check that your final line is the known K4 ciphertext.
+
+---
+
+### **Bottom line**
+
+* The cipher mechanics (repeat-key substitution \+ clean transposition \+ anchor cribs) are classic paper-and-pencil moves.
+
+* The modern trimmings (hashes, canonical spacing, calibration, nulls) are **auditing tools**, not 1990 requirements.
+
+* If you can do a Vigenère by hand, you can build Lane-A/Option-A by hand — the anchors simply fix a few key letters; the rest is routine. For a concrete miniature of that anchor forcing and the overall inversion, see the step-by-step “Reproduce & Verify” note we included.
+
+---
+
 ## **1\) Materials (all inline)**
 
 ### **1.1 The ciphertext (97 letters)**
@@ -194,7 +238,7 @@ The **calibration files** for the Generic track (perplexity & POS) are included 
 
 ---
 
-## **9\) Quick crib sheet (you can print this)**
+## **9\) Quick crib sheet** 
 
 * Letters→numbers: A0 … Z25
 
