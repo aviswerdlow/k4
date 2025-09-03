@@ -1,0 +1,461 @@
+{
+  "ct_sha256": "eea813570c7f1fd3b34674e47b5c3da8948026f5cefee612a0b38ffaa515ceab",
+  "N": 97,
+  "NA_len": 73,
+  "anchors": [
+    [
+      21,
+      24
+    ],
+    [
+      25,
+      33
+    ],
+    [
+      63,
+      73
+    ]
+  ],
+  "routes": [
+    {
+      "id": "SPOKE_NE_NF_w1",
+      "family": "SPOKE",
+      "params": {
+        "center_deg": 45.0,
+        "order": "NF",
+        "width_deg": 1.0
+      },
+      "seed_u64": 1596881859534848920,
+      "path": "permutations/SPOKE_NE_NF_w1.json"
+    },
+    {
+      "id": "SPOKE_NE_FN_w1",
+      "family": "SPOKE",
+      "params": {
+        "center_deg": 45.0,
+        "order": "FN",
+        "width_deg": 1.0
+      },
+      "seed_u64": 8845263105804031648,
+      "path": "permutations/SPOKE_NE_FN_w1.json"
+    },
+    {
+      "id": "SPOKE_NE_NF_w2",
+      "family": "SPOKE",
+      "params": {
+        "center_deg": 45.0,
+        "order": "NF",
+        "width_deg": 2.0
+      },
+      "seed_u64": 1690053088534653612,
+      "path": "permutations/SPOKE_NE_NF_w2.json"
+    },
+    {
+      "id": "SPOKE_NE_FN_w2",
+      "family": "SPOKE",
+      "params": {
+        "center_deg": 45.0,
+        "order": "FN",
+        "width_deg": 2.0
+      },
+      "seed_u64": 15680169585983780670,
+      "path": "permutations/SPOKE_NE_FN_w2.json"
+    },
+    {
+      "id": "SPOKE_E_NF_w1",
+      "family": "SPOKE",
+      "params": {
+        "center_deg": 90.0,
+        "order": "NF",
+        "width_deg": 1.0
+      },
+      "seed_u64": 11383793146383998510,
+      "path": "permutations/SPOKE_E_NF_w1.json"
+    },
+    {
+      "id": "SPOKE_E_FN_w1",
+      "family": "SPOKE",
+      "params": {
+        "center_deg": 90.0,
+        "order": "FN",
+        "width_deg": 1.0
+      },
+      "seed_u64": 4628871214978469331,
+      "path": "permutations/SPOKE_E_FN_w1.json"
+    },
+    {
+      "id": "SPOKE_E_NF_w2",
+      "family": "SPOKE",
+      "params": {
+        "center_deg": 90.0,
+        "order": "NF",
+        "width_deg": 2.0
+      },
+      "seed_u64": 10558867206639781410,
+      "path": "permutations/SPOKE_E_NF_w2.json"
+    },
+    {
+      "id": "SPOKE_E_FN_w2",
+      "family": "SPOKE",
+      "params": {
+        "center_deg": 90.0,
+        "order": "FN",
+        "width_deg": 2.0
+      },
+      "seed_u64": 1251086733003215507,
+      "path": "permutations/SPOKE_E_FN_w2.json"
+    },
+    {
+      "id": "SPOKE_ENE_NF_w1",
+      "family": "SPOKE",
+      "params": {
+        "center_deg": 67.5,
+        "order": "NF",
+        "width_deg": 1.0
+      },
+      "seed_u64": 4071825784939295323,
+      "path": "permutations/SPOKE_ENE_NF_w1.json"
+    },
+    {
+      "id": "SPOKE_ENE_FN_w1",
+      "family": "SPOKE",
+      "params": {
+        "center_deg": 67.5,
+        "order": "FN",
+        "width_deg": 1.0
+      },
+      "seed_u64": 3014456278038869032,
+      "path": "permutations/SPOKE_ENE_FN_w1.json"
+    },
+    {
+      "id": "SPOKE_ENE_NF_w2",
+      "family": "SPOKE",
+      "params": {
+        "center_deg": 67.5,
+        "order": "NF",
+        "width_deg": 2.0
+      },
+      "seed_u64": 1255024571222001965,
+      "path": "permutations/SPOKE_ENE_NF_w2.json"
+    },
+    {
+      "id": "SPOKE_ENE_FN_w2",
+      "family": "SPOKE",
+      "params": {
+        "center_deg": 67.5,
+        "order": "FN",
+        "width_deg": 2.0
+      },
+      "seed_u64": 15163683394640852987,
+      "path": "permutations/SPOKE_ENE_FN_w2.json"
+    },
+    {
+      "id": "GRID_W10_ROWS",
+      "family": "GRID",
+      "params": {
+        "W": 10,
+        "reader": "ROWS",
+        "anchor_pins": "rows/cols that touch anchors"
+      },
+      "seed_u64": 15937155776967956168,
+      "path": "permutations/GRID_W10_ROWS.json"
+    },
+    {
+      "id": "GRID_W10_BOU",
+      "family": "GRID",
+      "params": {
+        "W": 10,
+        "reader": "BOU",
+        "anchor_pins": "rows/cols that touch anchors"
+      },
+      "seed_u64": 7473248729852298027,
+      "path": "permutations/GRID_W10_BOU.json"
+    },
+    {
+      "id": "GRID_W10_NE",
+      "family": "GRID",
+      "params": {
+        "W": 10,
+        "reader": "NE",
+        "anchor_pins": "rows/cols that touch anchors"
+      },
+      "seed_u64": 374412061761085644,
+      "path": "permutations/GRID_W10_NE.json"
+    },
+    {
+      "id": "GRID_W10_NW",
+      "family": "GRID",
+      "params": {
+        "W": 10,
+        "reader": "NW",
+        "anchor_pins": "rows/cols that touch anchors"
+      },
+      "seed_u64": 9036577827699041133,
+      "path": "permutations/GRID_W10_NW.json"
+    },
+    {
+      "id": "GRID_W12_ROWS",
+      "family": "GRID",
+      "params": {
+        "W": 12,
+        "reader": "ROWS",
+        "anchor_pins": "rows/cols that touch anchors"
+      },
+      "seed_u64": 2247718776995553240,
+      "path": "permutations/GRID_W12_ROWS.json"
+    },
+    {
+      "id": "GRID_W12_BOU",
+      "family": "GRID",
+      "params": {
+        "W": 12,
+        "reader": "BOU",
+        "anchor_pins": "rows/cols that touch anchors"
+      },
+      "seed_u64": 7643921677767336285,
+      "path": "permutations/GRID_W12_BOU.json"
+    },
+    {
+      "id": "GRID_W12_NE",
+      "family": "GRID",
+      "params": {
+        "W": 12,
+        "reader": "NE",
+        "anchor_pins": "rows/cols that touch anchors"
+      },
+      "seed_u64": 9749690018795417436,
+      "path": "permutations/GRID_W12_NE.json"
+    },
+    {
+      "id": "GRID_W12_NW",
+      "family": "GRID",
+      "params": {
+        "W": 12,
+        "reader": "NW",
+        "anchor_pins": "rows/cols that touch anchors"
+      },
+      "seed_u64": 13780567761070182591,
+      "path": "permutations/GRID_W12_NW.json"
+    },
+    {
+      "id": "GRID_W14_ROWS",
+      "family": "GRID",
+      "params": {
+        "W": 14,
+        "reader": "ROWS",
+        "anchor_pins": "rows/cols that touch anchors"
+      },
+      "seed_u64": 4545139032510586069,
+      "path": "permutations/GRID_W14_ROWS.json"
+    },
+    {
+      "id": "GRID_W14_BOU",
+      "family": "GRID",
+      "params": {
+        "W": 14,
+        "reader": "BOU",
+        "anchor_pins": "rows/cols that touch anchors"
+      },
+      "seed_u64": 6079105684061866106,
+      "path": "permutations/GRID_W14_BOU.json"
+    },
+    {
+      "id": "GRID_W14_NE",
+      "family": "GRID",
+      "params": {
+        "W": 14,
+        "reader": "NE",
+        "anchor_pins": "rows/cols that touch anchors"
+      },
+      "seed_u64": 17200973894472523305,
+      "path": "permutations/GRID_W14_NE.json"
+    },
+    {
+      "id": "GRID_W14_NW",
+      "family": "GRID",
+      "params": {
+        "W": 14,
+        "reader": "NW",
+        "anchor_pins": "rows/cols that touch anchors"
+      },
+      "seed_u64": 16205082871820337035,
+      "path": "permutations/GRID_W14_NW.json"
+    },
+    {
+      "id": "RAILFENCE_R3_STRAIGHT",
+      "family": "RAILFENCE",
+      "params": {
+        "R": 3,
+        "mode": "STRAIGHT"
+      },
+      "seed_u64": 9425496383390820404,
+      "path": "permutations/RAILFENCE_R3_STRAIGHT.json"
+    },
+    {
+      "id": "RAILFENCE_R3_INVERTED",
+      "family": "RAILFENCE",
+      "params": {
+        "R": 3,
+        "mode": "INVERTED"
+      },
+      "seed_u64": 16519748640649912890,
+      "path": "permutations/RAILFENCE_R3_INVERTED.json"
+    },
+    {
+      "id": "RAILFENCE_R4_STRAIGHT",
+      "family": "RAILFENCE",
+      "params": {
+        "R": 4,
+        "mode": "STRAIGHT"
+      },
+      "seed_u64": 14181189188872935087,
+      "path": "permutations/RAILFENCE_R4_STRAIGHT.json"
+    },
+    {
+      "id": "RAILFENCE_R4_INVERTED",
+      "family": "RAILFENCE",
+      "params": {
+        "R": 4,
+        "mode": "INVERTED"
+      },
+      "seed_u64": 8890089021767136054,
+      "path": "permutations/RAILFENCE_R4_INVERTED.json"
+    },
+    {
+      "id": "RAILFENCE_R5_STRAIGHT",
+      "family": "RAILFENCE",
+      "params": {
+        "R": 5,
+        "mode": "STRAIGHT"
+      },
+      "seed_u64": 5267763463109014455,
+      "path": "permutations/RAILFENCE_R5_STRAIGHT.json"
+    },
+    {
+      "id": "RAILFENCE_R5_INVERTED",
+      "family": "RAILFENCE",
+      "params": {
+        "R": 5,
+        "mode": "INVERTED"
+      },
+      "seed_u64": 16196244821380056218,
+      "path": "permutations/RAILFENCE_R5_INVERTED.json"
+    },
+    {
+      "id": "RAILFENCE_R6_STRAIGHT",
+      "family": "RAILFENCE",
+      "params": {
+        "R": 6,
+        "mode": "STRAIGHT"
+      },
+      "seed_u64": 1363142885321313893,
+      "path": "permutations/RAILFENCE_R6_STRAIGHT.json"
+    },
+    {
+      "id": "RAILFENCE_R6_INVERTED",
+      "family": "RAILFENCE",
+      "params": {
+        "R": 6,
+        "mode": "INVERTED"
+      },
+      "seed_u64": 13356447644672457222,
+      "path": "permutations/RAILFENCE_R6_INVERTED.json"
+    },
+    {
+      "id": "RAILFENCE_R7_STRAIGHT",
+      "family": "RAILFENCE",
+      "params": {
+        "R": 7,
+        "mode": "STRAIGHT"
+      },
+      "seed_u64": 15842667343654134455,
+      "path": "permutations/RAILFENCE_R7_STRAIGHT.json"
+    },
+    {
+      "id": "RAILFENCE_R7_INVERTED",
+      "family": "RAILFENCE",
+      "params": {
+        "R": 7,
+        "mode": "INVERTED"
+      },
+      "seed_u64": 4034382880873699789,
+      "path": "permutations/RAILFENCE_R7_INVERTED.json"
+    },
+    {
+      "id": "RAILFENCE_R8_STRAIGHT",
+      "family": "RAILFENCE",
+      "params": {
+        "R": 8,
+        "mode": "STRAIGHT"
+      },
+      "seed_u64": 17186885456798603958,
+      "path": "permutations/RAILFENCE_R8_STRAIGHT.json"
+    },
+    {
+      "id": "RAILFENCE_R8_INVERTED",
+      "family": "RAILFENCE",
+      "params": {
+        "R": 8,
+        "mode": "INVERTED"
+      },
+      "seed_u64": 3641803797393507990,
+      "path": "permutations/RAILFENCE_R8_INVERTED.json"
+    },
+    {
+      "id": "GRID_W12_BOU",
+      "family": "GRID",
+      "params": {
+        "W": 12,
+        "reader": "BOU",
+        "anchor_pins": "rows/cols that touch anchors"
+      },
+      "seed_u64": 7643921677767336285,
+      "path": "permutations/GRID_W12_BOU.json"
+    },
+    {
+      "id": "GRID_W10_BOU",
+      "family": "GRID",
+      "params": {
+        "W": 10,
+        "reader": "BOU",
+        "anchor_pins": "rows/cols that touch anchors"
+      },
+      "seed_u64": 7473248729852298027,
+      "path": "permutations/GRID_W10_BOU.json"
+    },
+    {
+      "id": "HALF_INTERLEAVE_delta-5",
+      "family": "HALF_INTERLEAVE",
+      "params": {
+        "delta_deg": -5.0
+      },
+      "seed_u64": 6076517217644385300,
+      "path": "permutations/HALF_INTERLEAVE_delta-5.json"
+    },
+    {
+      "id": "HALF_INTERLEAVE_delta0",
+      "family": "HALF_INTERLEAVE",
+      "params": {
+        "delta_deg": 0.0
+      },
+      "seed_u64": 12225756644343508220,
+      "path": "permutations/HALF_INTERLEAVE_delta0.json"
+    },
+    {
+      "id": "HALF_INTERLEAVE_delta5",
+      "family": "HALF_INTERLEAVE",
+      "params": {
+        "delta_deg": 5.0
+      },
+      "seed_u64": 10962344434061192803,
+      "path": "permutations/HALF_INTERLEAVE_delta5.json"
+    },
+    {
+      "id": "IDENTITY",
+      "family": "IDENTITY",
+      "params": {},
+      "seed_u64": 5841174982052225888,
+      "path": "permutations/IDENTITY.json"
+    }
+  ]
+}
