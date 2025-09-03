@@ -1,0 +1,25 @@
+{
+  "candidates": [
+    {
+      "label": "baseline_IS_REAL",
+      "pt_sha256": "09c85ebcd840d8f8847bebe16888208a7bf56bba0d60d6f57dbd139772a20217",
+      "publishable": true
+    },
+    {
+      "label": "alt_IS_TRUE",
+      "pt_sha256": "a78901b014199bc203b4424cdfe2c812e0eaf0b6755a4e657f5bbb3f2b1df11e",
+      "publishable": true
+    },
+    {
+      "label": "alt_IS_FACT",
+      "pt_sha256": "e0c71bd07f136d60107dcefda80bbfc0acec5d6536254993aaa38d86c96287c6",
+      "publishable": true
+    },
+    {
+      "label": "alt_IS_A_MAP",
+      "pt_sha256": "50616118b3b9dd2909f989e1fbf905061a72aeda47c22d97501c3391e876301a",
+      "publishable": true
+    }
+  ],
+  "unique": false
+}
