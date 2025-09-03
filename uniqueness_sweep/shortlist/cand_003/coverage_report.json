@@ -1,0 +1,36 @@
+{
+  "pt_sha256": "e0c71bd07f136d60107dcefda80bbfc0acec5d6536254993aaa38d86c96287c6",
+  "ct_sha256": "eea813570c7f1fd3b34674e47b5c3da8948026f5cefee612a0b38ffaa515ceab",
+  "proof_sha256": "e2526f7a7f5db21f4dffba8e917d058234fac5c0b78775e3e6634a4d7086e809",
+  "near_gate": {
+    "coverage": 0.8846153846153846,
+    "function_words": 10,
+    "has_verb": true,
+    "passed": true
+  },
+  "phrase_gate": {
+    "flint_v2_passed": true,
+    "generic_passed": true,
+    "accepted_by": "flint_v2",
+    "passed": true,
+    "head_content_count": 11
+  },
+  "holm_nulls": {
+    "num_trials": 10000,
+    "free_positions": 55,
+    "near_gate_null_passes": 0,
+    "phrase_gate_null_passes": 0,
+    "p_near": 0.0,
+    "p_phrase": 0.0,
+    "holm_corrected_rejection": {
+      "near_gate": true,
+      "phrase_gate": true
+    },
+    "significant": true,
+    "alpha": 0.05,
+    "m": 2
+  },
+  "encrypts_to_ct": true,
+  "rails_valid": true,
+  "passes_all_gates": true
+}

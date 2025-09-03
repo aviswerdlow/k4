@@ -1,0 +1,267 @@
+{
+  "model_class": {
+    "routes": "NA-only SPOKE/GRID/RAILFENCE/HALF/IDENTITY",
+    "classings": [
+      "c6a",
+      "c6b"
+    ],
+    "families": [
+      "vigenere",
+      "variant_beaufort",
+      "beaufort"
+    ],
+    "periods": [
+      10,
+      22
+    ],
+    "phases": "0..L-1",
+    "option_A": true
+  },
+  "generation": {
+    "K": 10,
+    "kept": 10,
+    "seed": "deterministic_head_list_v1"
+  },
+  "shortlist": [
+    {
+      "label": "cand_001",
+      "folder": "uniq_sweep/cand_001",
+      "pt_sha256": "09c85ebcd840d8f8847bebe16888208a7bf56bba0d60d6f57dbd139772a20217",
+      "proof_sha256": "31981c649cda5bf343289489c5d1b6b5bf1aa81fcb71efce779629c1f6af20f5",
+      "route_id": "SPOKE_NE_NF_w1",
+      "classing": "c6a",
+      "near_gate": {
+        "coverage": 0.98,
+        "f_words": 6,
+        "has_verb": true,
+        "pass": false
+      },
+      "phrase_gate": {
+        "flint_v2": true,
+        "generic": true,
+        "accepted_by": "flint_v2"
+      },
+      "precheck_neighbors": {
+        "tested": 10,
+        "feasible": 10,
+        "passed_phrase": 0
+      }
+    },
+    {
+      "label": "cand_002",
+      "folder": "uniq_sweep/cand_002",
+      "pt_sha256": "a78901b014199bc203b4424cdfe2c812e0eaf0b6755a4e657f5bbb3f2b1df11e",
+      "proof_sha256": "269ec494f6a7d7156bc1ef02446c2767c79b9f6bbe8938274fa9869a8df76939",
+      "route_id": "SPOKE_E_FN_w1",
+      "classing": "c6a",
+      "near_gate": {
+        "coverage": 0.98,
+        "f_words": 6,
+        "has_verb": true,
+        "pass": false
+      },
+      "phrase_gate": {
+        "flint_v2": true,
+        "generic": true,
+        "accepted_by": "flint_v2"
+      },
+      "precheck_neighbors": {
+        "tested": 10,
+        "feasible": 10,
+        "passed_phrase": 0
+      }
+    },
+    {
+      "label": "cand_003",
+      "folder": "uniq_sweep/cand_003",
+      "pt_sha256": "e0c71bd07f136d60107dcefda80bbfc0acec5d6536254993aaa38d86c96287c6",
+      "proof_sha256": "a4947f391df8829e8147f7075d8106f28b93a26d819aae89bf87c8b77bb47d51",
+      "route_id": "SPOKE_ENE_NF_w2",
+      "classing": "c6a",
+      "near_gate": {
+        "coverage": 0.98,
+        "f_words": 6,
+        "has_verb": true,
+        "pass": false
+      },
+      "phrase_gate": {
+        "flint_v2": true,
+        "generic": true,
+        "accepted_by": "flint_v2"
+      },
+      "precheck_neighbors": {
+        "tested": 10,
+        "feasible": 10,
+        "passed_phrase": 0
+      }
+    },
+    {
+      "label": "cand_004",
+      "folder": "uniq_sweep/cand_004",
+      "pt_sha256": "50616118b3b9dd2909f989e1fbf905061a72aeda47c22d97501c3391e876301a",
+      "proof_sha256": "4375eba35a8f8fe0a1595ac32031dc1b2ffcf1cbc45c31a83112fe640bacf634",
+      "route_id": "GRID_W10_NW",
+      "classing": "c6a",
+      "near_gate": {
+        "coverage": 0.98,
+        "f_words": 6,
+        "has_verb": true,
+        "pass": false
+      },
+      "phrase_gate": {
+        "flint_v2": true,
+        "generic": true,
+        "accepted_by": "flint_v2"
+      },
+      "precheck_neighbors": {
+        "tested": 10,
+        "feasible": 10,
+        "passed_phrase": 0
+      }
+    },
+    {
+      "label": "cand_005",
+      "folder": "uniq_sweep/cand_005",
+      "pt_sha256": "595673454befe63b02053f311d1a966e3f08ce232d5d744d3afbc2ea04d3d769",
+      "proof_sha256": "3e9db9e5b21c423661488efdfb7d5e17a28cc00bda5f874393f06b4ebf56781d",
+      "route_id": "GRID_W14_ROWS",
+      "classing": "c6a",
+      "near_gate": {
+        "coverage": 0.98,
+        "f_words": 6,
+        "has_verb": true,
+        "pass": false
+      },
+      "phrase_gate": {
+        "flint_v2": true,
+        "generic": true,
+        "accepted_by": "flint_v2"
+      },
+      "precheck_neighbors": {
+        "tested": 10,
+        "feasible": 10,
+        "passed_phrase": 0
+      }
+    },
+    {
+      "label": "cand_006",
+      "folder": "uniq_sweep/cand_006",
+      "pt_sha256": "4f5fcd640bea2c76c716087351f08e9f27eeb795b67e1284fe8e50c197296d71",
+      "proof_sha256": "9fed73575a372f23ff0f04cb6c28e6be8d7451cc1fa51725a7529caa5b97f407",
+      "route_id": "RAILFENCE_R3_INVERTED",
+      "classing": "c6a",
+      "near_gate": {
+        "coverage": 0.98,
+        "f_words": 6,
+        "has_verb": true,
+        "pass": false
+      },
+      "phrase_gate": {
+        "flint_v2": true,
+        "generic": true,
+        "accepted_by": "flint_v2"
+      },
+      "precheck_neighbors": {
+        "tested": 10,
+        "feasible": 10,
+        "passed_phrase": 0
+      }
+    },
+    {
+      "label": "cand_007",
+      "folder": "uniq_sweep/cand_007",
+      "pt_sha256": "eef78922849c2554f739b88c95e4152bfe4aca883c9dd5b5c44c5d1d14802aeb",
+      "proof_sha256": "9eaa6e1fd7f3728f7f9658aa2b4bb63b9f4654f2a600ddfa977955419f6c1d47",
+      "route_id": "RAILFENCE_R6_STRAIGHT",
+      "classing": "c6a",
+      "near_gate": {
+        "coverage": 0.98,
+        "f_words": 6,
+        "has_verb": true,
+        "pass": false
+      },
+      "phrase_gate": {
+        "flint_v2": true,
+        "generic": true,
+        "accepted_by": "flint_v2"
+      },
+      "precheck_neighbors": {
+        "tested": 10,
+        "feasible": 10,
+        "passed_phrase": 0
+      }
+    },
+    {
+      "label": "cand_008",
+      "folder": "uniq_sweep/cand_008",
+      "pt_sha256": "654883ec67b7d65548c8df6ceed23dd8392d967104f0c89b6f19da1976864002",
+      "proof_sha256": "5c26d9fa115f2ff46ae70f805e9677dac5865dfa7eceef05e161e2b20e68c4d0",
+      "route_id": "RAILFENCE_R8_INVERTED",
+      "classing": "c6a",
+      "near_gate": {
+        "coverage": 0.98,
+        "f_words": 6,
+        "has_verb": true,
+        "pass": false
+      },
+      "phrase_gate": {
+        "flint_v2": true,
+        "generic": true,
+        "accepted_by": "flint_v2"
+      },
+      "precheck_neighbors": {
+        "tested": 10,
+        "feasible": 10,
+        "passed_phrase": 0
+      }
+    },
+    {
+      "label": "cand_009",
+      "folder": "uniq_sweep/cand_009",
+      "pt_sha256": "26e3417f5b8a607e2cbc6ef7d49739c29f4f5f5278ca67fe2af85586487697c0",
+      "proof_sha256": "f9d49e67f52abcc5c150a46ced766b4e7309b47c5ea62c3e927b4aea19886169",
+      "route_id": "SPOKE_NE_NF_w1",
+      "classing": "c6a",
+      "near_gate": {
+        "coverage": 0.98,
+        "f_words": 6,
+        "has_verb": true,
+        "pass": false
+      },
+      "phrase_gate": {
+        "flint_v2": true,
+        "generic": true,
+        "accepted_by": "flint_v2"
+      },
+      "precheck_neighbors": {
+        "tested": 10,
+        "feasible": 10,
+        "passed_phrase": 0
+      }
+    },
+    {
+      "label": "cand_010",
+      "folder": "uniq_sweep/cand_010",
+      "pt_sha256": "7c340ef595cda62b706061d5a63dc5ff6f5d82a23ad7b5f2ad0fe71e8e9e076c",
+      "proof_sha256": "eabe3515333ad64e80e6a866b7abe36bd9ab2f4fddcbdb43338fc980a978d10b",
+      "route_id": "SPOKE_E_FN_w1",
+      "classing": "c6a",
+      "near_gate": {
+        "coverage": 0.98,
+        "f_words": 6,
+        "has_verb": true,
+        "pass": false
+      },
+      "phrase_gate": {
+        "flint_v2": true,
+        "generic": true,
+        "accepted_by": "flint_v2"
+      },
+      "precheck_neighbors": {
+        "tested": 10,
+        "feasible": 10,
+        "passed_phrase": 0
+      }
+    }
+  ]
+}

@@ -1,0 +1,163 @@
+{
+  "candidate_id": "cand_001",
+  "original_pt_sha256": "09c85ebcd840d8f8847bebe16888208a7bf56bba0d60d6f57dbd139772a20217",
+  "neighbors_tested": 14,
+  "neighbors_feasible": 14,
+  "neighbors_passed_phrase": 13,
+  "variants": [
+    {
+      "variant_id": 0,
+      "pt_sha256": "a78901b014199bc203b4424cdfe2c812e0eaf0b6755a4e657f5bbb3f2b1df11e",
+      "rails_valid": true,
+      "phrase_passed": false,
+      "positions_changed": [
+        17,
+        21
+      ],
+      "new_text": "TRUE"
+    },
+    {
+      "variant_id": 1,
+      "pt_sha256": "e0c71bd07f136d60107dcefda80bbfc0acec5d6536254993aaa38d86c96287c6",
+      "rails_valid": true,
+      "phrase_passed": true,
+      "positions_changed": [
+        17,
+        21
+      ],
+      "new_text": "FACT"
+    },
+    {
+      "variant_id": 2,
+      "pt_sha256": "50616118b3b9dd2909f989e1fbf905061a72aeda47c22d97501c3391e876301a",
+      "rails_valid": true,
+      "phrase_passed": true,
+      "positions_changed": [
+        17,
+        21
+      ],
+      "new_text": "AMAP"
+    },
+    {
+      "variant_id": 3,
+      "pt_sha256": "cd2dd4fbb487ac7214571bb4b8ca9c128303ed3528e55e6521e44a9f891f78d8",
+      "rails_valid": true,
+      "phrase_passed": true,
+      "positions_changed": [
+        17,
+        21
+      ],
+      "new_text": "HERE"
+    },
+    {
+      "variant_id": 4,
+      "pt_sha256": "d75ef26572ff627c8ecd96796a6c400d10c8e63009a48ace2983e9d67e68b967",
+      "rails_valid": true,
+      "phrase_passed": true,
+      "positions_changed": [
+        17,
+        21
+      ],
+      "new_text": "GOOD"
+    },
+    {
+      "variant_id": 5,
+      "pt_sha256": "ddb24d653270d956bc43a80e606cb5ec5f71290c182fca71f8e1a1d1579efb35",
+      "rails_valid": true,
+      "phrase_passed": true,
+      "positions_changed": [
+        17,
+        21
+      ],
+      "new_text": "SAFE"
+    },
+    {
+      "variant_id": 6,
+      "pt_sha256": "7df90c90338c8331194c2493cc5b70682a6d12f0b07bbb3561631811e1f4f006",
+      "rails_valid": true,
+      "phrase_passed": true,
+      "positions_changed": [
+        17,
+        21
+      ],
+      "new_text": "OURS"
+    },
+    {
+      "variant_id": 7,
+      "pt_sha256": "595673454befe63b02053f311d1a966e3f08ce232d5d744d3afbc2ea04d3d769",
+      "rails_valid": true,
+      "phrase_passed": true,
+      "positions_changed": [
+        17,
+        21
+      ],
+      "new_text": "CODE"
+    },
+    {
+      "variant_id": 8,
+      "pt_sha256": "4c03200070cc620a3c88acb0ffed453bbd62d81b4310a51b695bee029b49be4f",
+      "rails_valid": true,
+      "phrase_passed": true,
+      "positions_changed": [
+        17,
+        21
+      ],
+      "new_text": "DONE"
+    },
+    {
+      "variant_id": 9,
+      "pt_sha256": "04257cc85fc69829eebf01d7130fd96558ee340f2d88ed352818e3df025379ea",
+      "rails_valid": true,
+      "phrase_passed": true,
+      "positions_changed": [
+        17,
+        21
+      ],
+      "new_text": "FINE"
+    },
+    {
+      "variant_id": 10,
+      "pt_sha256": "2ec1e2fb2873016cfc606e0275b6008e5ab2c53812893b395cf42fb807c66762",
+      "rails_valid": true,
+      "phrase_passed": true,
+      "positions_changed": [
+        17,
+        21
+      ],
+      "new_text": "NEAR"
+    },
+    {
+      "variant_id": 11,
+      "pt_sha256": "6723be6ae12e3d81efb4979a54887d58491b0e7587037445ffdf943e7b4cd4d7",
+      "rails_valid": true,
+      "phrase_passed": true,
+      "positions_changed": [
+        17,
+        21
+      ],
+      "new_text": "LOST"
+    },
+    {
+      "variant_id": 12,
+      "pt_sha256": "6dacbd24b3750770e5513172ad8b77682d88cbefad626fe10a3baa3abd05357b",
+      "rails_valid": true,
+      "phrase_passed": true,
+      "positions_changed": [
+        17,
+        21
+      ],
+      "new_text": "KEPT"
+    },
+    {
+      "variant_id": 13,
+      "pt_sha256": "276496bce2bca6a450d7628d05c8d6956b59fccdf773c0af86eb4f001bd1ec8c",
+      "rails_valid": true,
+      "phrase_passed": true,
+      "positions_changed": [
+        17,
+        21
+      ],
+      "new_text": "SENT"
+    }
+  ]
+}

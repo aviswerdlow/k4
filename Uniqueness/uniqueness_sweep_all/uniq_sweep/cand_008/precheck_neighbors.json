@@ -1,0 +1,297 @@
+{
+  "tested": 10,
+  "feasible": 10,
+  "passed_phrase": 0,
+  "neighbors": [
+    {
+      "head": "ISREAL",
+      "feasible": true,
+      "near_gate": {
+        "coverage": 0.98,
+        "f_words": 6,
+        "has_verb": true,
+        "pass": false
+      },
+      "phrase_gate": {
+        "flint_v2": true,
+        "generic": true,
+        "accepted_by": "flint_v2",
+        "evidence": {
+          "declination_expression_found": "WE SET THE COURSE TRUE",
+          "instrument_verb": "READ",
+          "directions_present": [
+            "EAST",
+            "NORTHEAST"
+          ],
+          "instrument_nouns": [
+            "BERLIN",
+            "CLOCK"
+          ],
+          "head_content_count": 9,
+          "max_repeat_non_anchor_content": 1
+        }
+      }
+    },
+    {
+      "head": "ISTRUE",
+      "feasible": true,
+      "near_gate": {
+        "coverage": 0.98,
+        "f_words": 6,
+        "has_verb": true,
+        "pass": false
+      },
+      "phrase_gate": {
+        "flint_v2": true,
+        "generic": true,
+        "accepted_by": "flint_v2",
+        "evidence": {
+          "declination_expression_found": "WE SET THE COURSE TRUE",
+          "instrument_verb": "READ",
+          "directions_present": [
+            "EAST",
+            "NORTHEAST"
+          ],
+          "instrument_nouns": [
+            "BERLIN",
+            "CLOCK"
+          ],
+          "head_content_count": 9,
+          "max_repeat_non_anchor_content": 1
+        }
+      }
+    },
+    {
+      "head": "ISFACT",
+      "feasible": true,
+      "near_gate": {
+        "coverage": 0.98,
+        "f_words": 6,
+        "has_verb": true,
+        "pass": false
+      },
+      "phrase_gate": {
+        "flint_v2": true,
+        "generic": true,
+        "accepted_by": "flint_v2",
+        "evidence": {
+          "declination_expression_found": "WE SET THE COURSE TRUE",
+          "instrument_verb": "READ",
+          "directions_present": [
+            "EAST",
+            "NORTHEAST"
+          ],
+          "instrument_nouns": [
+            "BERLIN",
+            "CLOCK"
+          ],
+          "head_content_count": 9,
+          "max_repeat_non_anchor_content": 1
+        }
+      }
+    },
+    {
+      "head": "ISAMAP",
+      "feasible": true,
+      "near_gate": {
+        "coverage": 0.98,
+        "f_words": 6,
+        "has_verb": true,
+        "pass": false
+      },
+      "phrase_gate": {
+        "flint_v2": true,
+        "generic": true,
+        "accepted_by": "flint_v2",
+        "evidence": {
+          "declination_expression_found": "WE SET THE COURSE TRUE",
+          "instrument_verb": "READ",
+          "directions_present": [
+            "EAST",
+            "NORTHEAST"
+          ],
+          "instrument_nouns": [
+            "BERLIN",
+            "CLOCK"
+          ],
+          "head_content_count": 9,
+          "max_repeat_non_anchor_content": 1
+        }
+      }
+    },
+    {
+      "head": "ISCODE",
+      "feasible": true,
+      "near_gate": {
+        "coverage": 0.98,
+        "f_words": 6,
+        "has_verb": true,
+        "pass": false
+      },
+      "phrase_gate": {
+        "flint_v2": true,
+        "generic": true,
+        "accepted_by": "flint_v2",
+        "evidence": {
+          "declination_expression_found": "WE SET THE COURSE TRUE",
+          "instrument_verb": "READ",
+          "directions_present": [
+            "EAST",
+            "NORTHEAST"
+          ],
+          "instrument_nouns": [
+            "BERLIN",
+            "CLOCK"
+          ],
+          "head_content_count": 9,
+          "max_repeat_non_anchor_content": 1
+        }
+      }
+    },
+    {
+      "head": "ISDATA",
+      "feasible": true,
+      "near_gate": {
+        "coverage": 0.98,
+        "f_words": 6,
+        "has_verb": true,
+        "pass": false
+      },
+      "phrase_gate": {
+        "flint_v2": true,
+        "generic": true,
+        "accepted_by": "flint_v2",
+        "evidence": {
+          "declination_expression_found": "WE SET THE COURSE TRUE",
+          "instrument_verb": "READ",
+          "directions_present": [
+            "EAST",
+            "NORTHEAST"
+          ],
+          "instrument_nouns": [
+            "BERLIN",
+            "CLOCK"
+          ],
+          "head_content_count": 9,
+          "max_repeat_non_anchor_content": 1
+        }
+      }
+    },
+    {
+      "head": "ISMARK",
+      "feasible": true,
+      "near_gate": {
+        "coverage": 0.98,
+        "f_words": 6,
+        "has_verb": true,
+        "pass": false
+      },
+      "phrase_gate": {
+        "flint_v2": true,
+        "generic": true,
+        "accepted_by": "flint_v2",
+        "evidence": {
+          "declination_expression_found": "WE SET THE COURSE TRUE",
+          "instrument_verb": "READ",
+          "directions_present": [
+            "EAST",
+            "NORTHEAST"
+          ],
+          "instrument_nouns": [
+            "BERLIN",
+            "CLOCK"
+          ],
+          "head_content_count": 9,
+          "max_repeat_non_anchor_content": 1
+        }
+      }
+    },
+    {
+      "head": "ISSIGN",
+      "feasible": true,
+      "near_gate": {
+        "coverage": 0.98,
+        "f_words": 6,
+        "has_verb": true,
+        "pass": false
+      },
+      "phrase_gate": {
+        "flint_v2": true,
+        "generic": true,
+        "accepted_by": "flint_v2",
+        "evidence": {
+          "declination_expression_found": "WE SET THE COURSE TRUE",
+          "instrument_verb": "READ",
+          "directions_present": [
+            "EAST",
+            "NORTHEAST"
+          ],
+          "instrument_nouns": [
+            "BERLIN",
+            "CLOCK"
+          ],
+          "head_content_count": 9,
+          "max_repeat_non_anchor_content": 1
+        }
+      }
+    },
+    {
+      "head": "ISFIRM",
+      "feasible": true,
+      "near_gate": {
+        "coverage": 0.98,
+        "f_words": 6,
+        "has_verb": true,
+        "pass": false
+      },
+      "phrase_gate": {
+        "flint_v2": true,
+        "generic": true,
+        "accepted_by": "flint_v2",
+        "evidence": {
+          "declination_expression_found": "WE SET THE COURSE TRUE",
+          "instrument_verb": "READ",
+          "directions_present": [
+            "EAST",
+            "NORTHEAST"
+          ],
+          "instrument_nouns": [
+            "BERLIN",
+            "CLOCK"
+          ],
+          "head_content_count": 9,
+          "max_repeat_non_anchor_content": 1
+        }
+      }
+    },
+    {
+      "head": "ISALIE",
+      "feasible": true,
+      "near_gate": {
+        "coverage": 0.98,
+        "f_words": 6,
+        "has_verb": true,
+        "pass": false
+      },
+      "phrase_gate": {
+        "flint_v2": true,
+        "generic": true,
+        "accepted_by": "flint_v2",
+        "evidence": {
+          "declination_expression_found": "WE SET THE COURSE TRUE",
+          "instrument_verb": "READ",
+          "directions_present": [
+            "EAST",
+            "NORTHEAST"
+          ],
+          "instrument_nouns": [
+            "BERLIN",
+            "CLOCK"
+          ],
+          "head_content_count": 9,
+          "max_repeat_non_anchor_content": 1
+        }
+      }
+    }
+  ]
+}

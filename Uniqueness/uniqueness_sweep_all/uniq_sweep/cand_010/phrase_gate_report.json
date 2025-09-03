@@ -1,0 +1,19 @@
+{
+  "flint_v2": true,
+  "generic": true,
+  "accepted_by": "flint_v2",
+  "evidence": {
+    "declination_expression_found": "WE SET THE COURSE TRUE",
+    "instrument_verb": "READ",
+    "directions_present": [
+      "EAST",
+      "NORTHEAST"
+    ],
+    "instrument_nouns": [
+      "BERLIN",
+      "CLOCK"
+    ],
+    "head_content_count": 9,
+    "max_repeat_non_anchor_content": 1
+  }
+}

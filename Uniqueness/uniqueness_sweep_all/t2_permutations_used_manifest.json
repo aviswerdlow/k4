@@ -1,0 +1,42 @@
+[
+  {
+    "route_id": "GRID_W10_NW",
+    "path": "t2_permutations_used/GRID_W10_NW.json",
+    "sha256": "84b138ed43649290734b8e6b791e2255617837bda5b9e6549b9de9b45491d9e7"
+  },
+  {
+    "route_id": "GRID_W14_ROWS",
+    "path": "t2_permutations_used/GRID_W14_ROWS.json",
+    "sha256": "a5260415e76509638b4845d5e707521126aca2d67b50177b3c94f8ccc4c56c31"
+  },
+  {
+    "route_id": "RAILFENCE_R3_INVERTED",
+    "path": "t2_permutations_used/RAILFENCE_R3_INVERTED.json",
+    "sha256": "6e6fe7bf86dcea886a71907463eaba85ca702c236dfb267f5c20ce883d556a7a"
+  },
+  {
+    "route_id": "RAILFENCE_R6_STRAIGHT",
+    "path": "t2_permutations_used/RAILFENCE_R6_STRAIGHT.json",
+    "sha256": "7d37e09af1c268d712a493e17b746c8db8800980296ace3de500066d96b9068c"
+  },
+  {
+    "route_id": "RAILFENCE_R8_INVERTED",
+    "path": "t2_permutations_used/RAILFENCE_R8_INVERTED.json",
+    "sha256": "4098ac995301acd7fa13f8ff9c46b50d132c659a6c4b06da0ee3f1a3b4a5c97e"
+  },
+  {
+    "route_id": "SPOKE_ENE_NF_w2",
+    "path": "t2_permutations_used/SPOKE_ENE_NF_w2.json",
+    "sha256": "e86b2c9b3e543f202db4aef21bcf7eb42b0b8bd70c5096f1c655220bc6d5e908"
+  },
+  {
+    "route_id": "SPOKE_E_FN_w1",
+    "path": "t2_permutations_used/SPOKE_E_FN_w1.json",
+    "sha256": "550bccd3e95e2bc99a736909ab41148cb50f30f3f1a48f14433fe9a6077a2e1e"
+  },
+  {
+    "route_id": "SPOKE_NE_NF_w1",
+    "path": "t2_permutations_used/SPOKE_NE_NF_w1.json",
+    "sha256": "3608b79a84df49662941717fa0034a062d9597781a9fa57613251073dfe23026"
+  }
+]

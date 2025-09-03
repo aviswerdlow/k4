@@ -1,0 +1,106 @@
+{
+  "model_class": {
+    "routes": [
+      "SPOKE_NE_NF_w1"
+    ],
+    "classings": [
+      "c6a",
+      "c6b"
+    ],
+    "families": [
+      "vigenere",
+      "variant_beaufort",
+      "beaufort"
+    ],
+    "period_range": [
+      10,
+      22
+    ]
+  },
+  "generator": {
+    "K": 4,
+    "seed_recipe": "UNIQUENESS_SWEEP|K4|2025-09-03"
+  },
+  "shortlist": [
+    {
+      "candidate_id": "cand_001",
+      "name": "baseline_IS_REAL",
+      "pt_sha256": "09c85ebcd840d8f8847bebe16888208a7bf56bba0d60d6f57dbd139772a20217",
+      "passed_all_gates": true,
+      "holm_significant": true
+    },
+    {
+      "candidate_id": "cand_002",
+      "name": "alt_IS_A_MAP",
+      "pt_sha256": "50616118b3b9dd2909f989e1fbf905061a72aeda47c22d97501c3391e876301a",
+      "passed_all_gates": true,
+      "holm_significant": true
+    },
+    {
+      "candidate_id": "cand_003",
+      "name": "alt_IS_FACT",
+      "pt_sha256": "e0c71bd07f136d60107dcefda80bbfc0acec5d6536254993aaa38d86c96287c6",
+      "passed_all_gates": true,
+      "holm_significant": true
+    },
+    {
+      "candidate_id": "cand_004",
+      "name": "alt_IS_TRUE",
+      "pt_sha256": "a78901b014199bc203b4424cdfe2c812e0eaf0b6755a4e657f5bbb3f2b1df11e",
+      "passed_all_gates": true,
+      "holm_significant": true
+    }
+  ],
+  "nulls_validation": {
+    "num_trials": 10000,
+    "holm_correction": {
+      "m": 2,
+      "alpha": 0.05,
+      "tests": [
+        "near_gate",
+        "phrase_gate"
+      ]
+    },
+    "results_summary": [
+      {
+        "candidate_id": "cand_001",
+        "name": "baseline_IS_REAL",
+        "p_near": 0.0,
+        "p_phrase": 0.0,
+        "significant": true
+      },
+      {
+        "candidate_id": "cand_002",
+        "name": "alt_IS_A_MAP",
+        "p_near": 0.0,
+        "p_phrase": 0.0,
+        "significant": true
+      },
+      {
+        "candidate_id": "cand_003",
+        "name": "alt_IS_FACT",
+        "p_near": 0.0,
+        "p_phrase": 0.0,
+        "significant": true
+      },
+      {
+        "candidate_id": "cand_004",
+        "name": "alt_IS_TRUE",
+        "p_near": 0.0,
+        "p_phrase": 0.0,
+        "significant": true
+      }
+    ]
+  },
+  "calibration_hashes": {
+    "calib_97_perplexity.json": "9bbcf015635ccf5b1a3b225f9732d9a587c32eb97ab1eaeb3f52742aecdc45db",
+    "pos_trigrams.json": "a5fad7d87294b1c968e58e43e0106bbb49b377e952cdb420db92ce65cdfda3b9",
+    "pos_threshold.txt": "7d680231e9793ecd6ad7252404e91c726e564cd57fcbf140289b9256e077143d"
+  },
+  "summary": {
+    "total_candidates": 4,
+    "passed_all_gates": 4,
+    "unique_positions_tested": "(17, 21)",
+    "verdict": "uniqueness_analysis_with_nulls_complete"
+  }
+}

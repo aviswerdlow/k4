@@ -1,0 +1,15 @@
+{
+  "num_trials": 10000,
+  "free_positions": 55,
+  "near_gate_null_passes": 0,
+  "phrase_gate_null_passes": 0,
+  "p_near": 0.0,
+  "p_phrase": 0.0,
+  "holm_corrected_rejection": {
+    "near_gate": true,
+    "phrase_gate": true
+  },
+  "significant": true,
+  "alpha": 0.05,
+  "m": 2
+}

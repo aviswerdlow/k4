@@ -1,0 +1,22 @@
+{
+  "ct_sha256": "eea813570c7f1fd3b34674e47b5c3da8948026f5cefee612a0b38ffaa515ceab",
+  "pt_sha256": "e0c71bd07f136d60107dcefda80bbfc0acec5d6536254993aaa38d86c96287c6",
+  "route_id": "SPOKE_NE_NF_w1",
+  "t2_path": "t2lib_v1/permutations/SPOKE_NE_NF_w1.json",
+  "classing": "c6a",
+  "anchors_0idx": {
+    "EAST": [
+      21,
+      24
+    ],
+    "NORTHEAST": [
+      25,
+      33
+    ],
+    "BERLINCLOCK": [
+      63,
+      73
+    ]
+  },
+  "anchor_policy": "option_a"
+}

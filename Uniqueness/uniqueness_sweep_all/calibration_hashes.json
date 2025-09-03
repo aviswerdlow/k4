@@ -1,0 +1,5 @@
+{
+  "examples/calibration/calib_97_perplexity.json": "lane_pinned_manifest",
+  "examples/calibration/pos_trigrams.json": "lane_pinned_manifest",
+  "examples/calibration/pos_threshold.txt": "lane_pinned_manifest"
+}
