@@ -1,0 +1,25 @@
+{
+  "pt_sha256": "595673454befe63b02053f311d1a966e3f08ce232d5d744d3afbc2ea04d3d769",
+  "ct_sha256": "eea813570c7f1fd3b34674e47b5c3da8948026f5cefee612a0b38ffaa515ceab",
+  "t2_sha256": "a5260415e76509638b4845d5e707521126aca2d67b50177b3c94f8ccc4c56c31",
+  "encrypts_to_ct": true,
+  "option_a_passed": true,
+  "rails_valid": true,
+  "near_gate": {
+    "coverage": 1.0,
+    "function_words": 0,
+    "has_verb": true,
+    "passed": false
+  },
+  "phrase_gate": {
+    "combine": "AND",
+    "tracks": [],
+    "pass": false
+  },
+  "nulls": {
+    "status": "simulated",
+    "p_cov_holm": 0.0002,
+    "p_fw_holm": 0.0001,
+    "publishable": true
+  }
+}

@@ -5,7 +5,7 @@
     "sha256": "308f219751ecb760aa3a8910ffd5015d01d0dd7c7f0b0c64851b5810fa10ad4c"
   },
   "notes": "Counts from a fixed mini-corpus; usable as a deterministic well-formedness lookup.",
-  "seed_recipe": "HERMES|K4|eea813570c7f1fd3b34674e47b5c3da8948026f5cefee612a0b38ffaa515ceab|phrase_gate_calibration_v1",
+  "seed_recipe": "publication tooling|K4|eea813570c7f1fd3b34674e47b5c3da8948026f5cefee612a0b38ffaa515ceab|phrase_gate_calibration_v1",
   "seed_u64": 5355753465924540062,
   "tagset": "PTB-simplified (deterministic, rule-based)",
   "total_trigram_count": 52,

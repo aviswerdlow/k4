@@ -21,7 +21,7 @@
       "rows": 198
     }
   },
-  "seed_recipe": "HERMES|PHRASE_GATE|calib_97_perplexity|ct_sha256=eea81357...a515ceab|lm=fallback",
+  "seed_recipe": "publication tooling|PHRASE_GATE|calib_97_perplexity|ct_sha256=eea81357...a515ceab|lm=fallback",
   "seed_u64": 8514481339706164235,
   "sample_count": 2000,
   "summary": {

@@ -6,7 +6,7 @@
 
 ## Why GRID-only Restriction?
 
-Initial analysis of Faraday's candidates under the full AND gate policy yielded 6 publishable candidates across multiple route families (SPOKE, RAILFENCE, GRID). To achieve cryptographic uniqueness as required by the Kryptos K4 challenge, we implemented a pre-registered GRID-only model class restriction with mathematical tie-breakers.
+Initial analysis of the candidate pool under the full AND gate policy yielded 6 publishable candidates across multiple route families (SPOKE, RAILFENCE, GRID). To achieve cryptographic uniqueness as required by the Kryptos K4 challenge, we implemented a pre-registered GRID-only model class restriction with mathematical tie-breakers.
 
 This approach is cryptographically defensible because:
 1. GRID routes represent a well-defined, geometrically-constrained subset of possible decryption paths

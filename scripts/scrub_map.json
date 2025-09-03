@@ -1,0 +1,12 @@
+{
+  "(?i)\\bFaraday\\b": "generation pipeline",
+  "(?i)\\bJanus\\b": "confirm pipeline", 
+  "(?i)\\bTycho\\b": "route library",
+  "(?i)\\bLuma\\b": "handoff set",
+  "(?i)\\bHermes\\b": "publication tooling",
+  "(?i)\\bFlock\\b": "project",
+  "(?i)\\bExplainer\\b": "author",
+  "(?i)\\bSparrow\\b": "assistant",
+  "(?i)\\bFaraday's\\b": "the candidate pool's",
+  "(?i)Initial analysis of generation pipeline's candidates": "Initial analysis of the candidate pool"
+}

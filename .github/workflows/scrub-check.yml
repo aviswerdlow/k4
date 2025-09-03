@@ -1,0 +1,34 @@
+name: Codename Scrub Check
+
+on: 
+  push:
+    branches: [ main, develop ]
+  pull_request:
+    branches: [ main ]
+
+jobs:
+  codename-scan:
+    runs-on: ubuntu-latest
+    steps:
+    - uses: actions/checkout@v3
+    
+    - name: Install ripgrep
+      run: sudo apt-get update && sudo apt-get install -y ripgrep
+      
+    - name: Scan for codenames outside archives
+      run: |
+        if rg -n --hidden -S -i "Faraday|Janus|Tycho|Luma|Hermes|Flock|Explainer|Sparrow" \
+           --glob '!archive/**' --glob '!results/**' --glob '!release/**' .; then
+          echo "❌ FAIL: Codenames found in public repository"
+          echo "Please scrub codenames from public-facing files"
+          exit 1
+        else
+          echo "✅ PASS: No codenames detected in public files"
+        fi
+        
+    - name: Verify results integrity  
+      run: |
+        if [ -f results/MANIFEST.sha256 ]; then
+          python3 scripts/make_manifest.py --check results/ results/MANIFEST.sha256
+          echo "✅ PASS: Results artifacts integrity verified"
+        fi

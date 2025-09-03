@@ -1,0 +1,26 @@
+{
+  "flint_v2": {
+    "declination_found": false,
+    "declination_type": null,
+    "instrument_verb_found": true,
+    "instrument_verb": "READ",
+    "direction_tokens": [
+      "EAST",
+      "NORTHEAST"
+    ],
+    "instrument_noun_found": true,
+    "instrument_noun": "BERLIN",
+    "content_words": 1,
+    "max_repeat_non_anchor": 1,
+    "passed": false
+  },
+  "generic": {
+    "perplexity_percentile": 0.1,
+    "pos_score": 0.6,
+    "content_words": 1,
+    "max_repeat_non_anchor": 1,
+    "passed": false
+  },
+  "accepted_by": [],
+  "passed": false
+}
