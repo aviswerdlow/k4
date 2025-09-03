@@ -1,0 +1,9 @@
+{
+  "hejoy": [75, 79],
+  "seam": {
+    "range": [80, 96],
+    "cuts": [81, 83, 88, 90, 93],
+    "tokens": ["OF","AN","ANGLE","IS","THE","ARC"],
+    "letters": "OFANANGLEISTHEARC"
+  }
+}

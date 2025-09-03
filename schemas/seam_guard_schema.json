@@ -1,0 +1,17 @@
+{
+  "$schema":"https://json-schema.org/draft/2020-12/schema",
+  "type":"object",
+  "required":["hejoy","seam"],
+  "properties":{
+    "hejoy":{"type":"array","items":{"type":"integer"},"minItems":2,"maxItems":2},
+    "seam":{
+      "type":"object","required":["range","cuts","tokens"],
+      "properties":{
+        "range":{"type":"array","items":{"type":"integer"},"minItems":2,"maxItems":2},
+        "cuts":{"type":"array","items":{"type":"integer"}},
+        "tokens":{"type":"array","items":{"type":"string"}},
+        "letters":{"type":"string"}
+      }
+    }
+  }
+}

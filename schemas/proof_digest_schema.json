@@ -1,0 +1,31 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "type": "object",
+  "required": [
+    "ct_sha256","pt_sha256","route_id","t2_path",
+    "classing","per_class","anchors_0idx","anchor_policy"
+  ],
+  "properties": {
+    "ct_sha256": { "type": "string" },
+    "pt_sha256": { "type": "string" },
+    "route_id":  { "type": "string" },
+    "t2_path":   { "type": "string" },
+    "classing":  { "type": "string" },
+    "per_class": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "required": ["class_id","family","L","phase"],
+        "properties": {
+          "class_id": { "type": "integer" },
+          "family":   { "type": "string"  },
+          "L":        { "type": "integer" },
+          "phase":    { "type": "integer" }
+        }
+      }
+    },
+    "anchors_0idx": { "type": "object" },
+    "anchor_policy": { "type": "string" },
+    "forced_anchor_residues": { "type": "array", "items": { "type": "object" } }
+  }
+}

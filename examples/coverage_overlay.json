@@ -1,0 +1,8 @@
+{
+  "policy": "coverage-only",
+  "tokens_add": [
+    "TEXT","REAL","FIND","READ","JOY",
+    "BERLIN","CLOCK","BERLINCLOCK",
+    "COURSE","TRUE","THEN","SEE","SET"
+  ]
+}
