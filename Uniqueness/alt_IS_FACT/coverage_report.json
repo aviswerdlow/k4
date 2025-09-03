@@ -1,0 +1,18 @@
+{
+  "pt_sha256": "e0c71bd07f136d60107dcefda80bbfc0acec5d6536254993aaa38d86c96287c6",
+  "ct_sha256": "eea813570c7f1fd3b34674e47b5c3da8948026f5cefee612a0b38ffaa515ceab",
+  "proof_sha256": "098b8e45bcc30f355c6316da02844d36ca14b5e295cab9e085964f892d5288fe",
+  "encrypts_to_ct": true,
+  "t2_sha256": "3608b79a84df49662941717fa0034a062d9597781a9fa57613251073dfe23026",
+  "nulls": {
+    "status": "ran",
+    "p_raw": {
+      "coverage": 9.999000099990002e-05,
+      "f_words": 9.999000099990002e-05
+    },
+    "p_holm": {
+      "coverage": 0.00019998000199980003,
+      "f_words": 9.999000099990002e-05
+    }
+  }
+}
