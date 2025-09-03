@@ -2,7 +2,7 @@
 
 A small, self-contained tool for **verifying rails**, **rendering readable spacings**, and **packaging audit bundles** for K4 submissions.
 
-This repo documents **process and provenance** — not identities.
+This repo documents **process and provenance**.
 
 ---
 
@@ -107,10 +107,5 @@ python cli.py bundle \
 * `examples/seam_guard_proof.json` — tail guard with dotted seam `[81,83,88,90,93]`
 * `examples/plaintext_97.txt` — sample PT (sha `09c85ebcd840d8f8847bebe16888208a7bf56bba0d60d6f57dbd139772a20217`)
 * `examples/calibration/*` — Hermes's phrase-gate calibration files (perplexity, POS threshold, POS trigrams)
-
-## Security
-
-No internal names or codenames; this repo focuses on **rails, process, and provenance**.
-Hash everything, record `hashes.txt`, and ship a top-level `coverage_report.json` in every bundle.
 
 License: MIT
