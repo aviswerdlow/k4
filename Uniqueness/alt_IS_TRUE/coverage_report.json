@@ -1,9 +1,55 @@
 {
+  "cuts_inclusive_0idx": [
+    1,
+    4,
+    7,
+    10,
+    14,
+    16,
+    20,
+    24,
+    33,
+    35,
+    38,
+    41,
+    47,
+    51,
+    55,
+    59,
+    62,
+    68,
+    73,
+    79,
+    81,
+    83,
+    88,
+    90,
+    93,
+    96
+  ],
   "pt_sha256": "a78901b014199bc203b4424cdfe2c812e0eaf0b6755a4e657f5bbb3f2b1df11e",
   "ct_sha256": "eea813570c7f1fd3b34674e47b5c3da8948026f5cefee612a0b38ffaa515ceab",
   "proof_sha256": "abe5239a85402667e609bf6d778299a5a8057cad848a106acc0a1e560131ad39",
-  "encrypts_to_ct": true,
+  "route_id": "SPOKE_NE_NF_w1",
   "t2_sha256": "3608b79a84df49662941717fa0034a062d9597781a9fa57613251073dfe23026",
+  "seed_recipe": "UNIQUENESS|K4|eea813570c7f1fd3b34674e47b5c3da8948026f5cefee612a0b38ffaa515ceab|rails:LaneA|phrase_gate:FlintORGeneric|T2lib:v1|P74:T|candidate:alt_IS_TRUE",
+  "seed_u64": 3929283879896417737,
+  "encrypts_to_ct": true,
+  "near_gate": {
+    "coverage": 0.9230769230769231,
+    "function_words": 10,
+    "has_verb": true,
+    "pass": true
+  },
+  "phrase_gate": {
+    "accepted_by": "flint_v2",
+    "pass": true
+  },
+  "lm_calibration_sha256": {
+    "calib_97_perplexity": "23c0b31cbb3abae8587f01d717f483fe071c3463dcf3dabc8051500fca31a8a6",
+    "pos_trigrams": "23c0b31cbb3abae8587f01d717f483fe071c3463dcf3dabc8051500fca31a8a6",
+    "pos_threshold": "9942ac56e874352dbb8251c30241ce2488d012db3358b951d990b97e761c7589"
+  },
   "nulls": {
     "status": "ran",
     "p_raw": {

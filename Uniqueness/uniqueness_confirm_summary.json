@@ -1,25 +1,89 @@
 {
+  "model_class": {
+    "routes": "SPOKE_NE_NF_w1 only",
+    "classings": [
+      "c6a"
+    ],
+    "families": [
+      "vigenere",
+      "variant_beaufort",
+      "beaufort"
+    ],
+    "periods": [
+      10,
+      22
+    ],
+    "phases": "0..L-1",
+    "option_A": true
+  },
   "candidates": [
     {
       "label": "baseline_IS_REAL",
       "pt_sha256": "09c85ebcd840d8f8847bebe16888208a7bf56bba0d60d6f57dbd139772a20217",
+      "route_id": "SPOKE_NE_NF_w1",
+      "feasible": true,
+      "near_gate": true,
+      "phrase_gate": {
+        "track": "flint_v2",
+        "pass": true
+      },
+      "holm_adj_p": {
+        "coverage": 0.00019998000199980003,
+        "f_words": 9.999000099990002e-05
+      },
       "publishable": true
     },
     {
       "label": "alt_IS_TRUE",
       "pt_sha256": "a78901b014199bc203b4424cdfe2c812e0eaf0b6755a4e657f5bbb3f2b1df11e",
+      "route_id": "SPOKE_NE_NF_w1",
+      "feasible": true,
+      "near_gate": true,
+      "phrase_gate": {
+        "track": "flint_v2",
+        "pass": true
+      },
+      "holm_adj_p": {
+        "coverage": 0.00019998000199980003,
+        "f_words": 9.999000099990002e-05
+      },
       "publishable": true
     },
     {
       "label": "alt_IS_FACT",
       "pt_sha256": "e0c71bd07f136d60107dcefda80bbfc0acec5d6536254993aaa38d86c96287c6",
+      "route_id": "SPOKE_NE_NF_w1",
+      "feasible": true,
+      "near_gate": true,
+      "phrase_gate": {
+        "track": "flint_v2",
+        "pass": true
+      },
+      "holm_adj_p": {
+        "coverage": 0.00019998000199980003,
+        "f_words": 9.999000099990002e-05
+      },
       "publishable": true
     },
     {
       "label": "alt_IS_A_MAP",
       "pt_sha256": "50616118b3b9dd2909f989e1fbf905061a72aeda47c22d97501c3391e876301a",
+      "route_id": "SPOKE_NE_NF_w1",
+      "feasible": true,
+      "near_gate": true,
+      "phrase_gate": {
+        "track": "flint_v2",
+        "pass": true
+      },
+      "holm_adj_p": {
+        "coverage": 0.00019998000199980003,
+        "f_words": 9.999000099990002e-05
+      },
       "publishable": true
     }
   ],
-  "unique": false
+  "uniqueness": {
+    "unique": false,
+    "reason": "alternate_passed_full_bar"
+  }
 }

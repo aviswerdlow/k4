@@ -1,0 +1,22 @@
+{
+  "tokenization_v2": true,
+  "tracks": {
+    "flint_v2": {
+      "pass": true,
+      "declination_phrase": true,
+      "instrument_verb": true,
+      "has_east": true,
+      "has_northeast": true,
+      "instrument_noun": true,
+      "content_count": 12,
+      "max_repeat_non_anchor_content": 2
+    },
+    "generic": {
+      "pass": false,
+      "perplexity_percentile": 0.0,
+      "pos_trigram_score": 0.0
+    }
+  },
+  "accepted_by": "flint_v2",
+  "pass": true
+}
