@@ -1,0 +1,72 @@
+name: K4 Audit
+
+on:
+  push:
+    branches: [ main ]
+  pull_request:
+    branches: [ main ]
+
+jobs:
+  audit:
+    name: Rails + Calibration + Hash manifest
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+
+      - name: Install CLI deps
+        run: |
+          python -m pip install --upgrade pip
+          pip install -r requirements.txt
+
+      - name: Verify rails on example PT/CT
+        run: |
+          python cli.py verify \
+            --pt examples/plaintext_97.txt \
+            --ct examples/ciphertext_97.txt \
+            --anchors examples/anchors_ledger.csv \
+            --seam examples/seam_guard_proof.json \
+            --expect-p74 T
+
+      - name: Show calibration pins (perplexity cutoff + POS threshold)
+        id: calib
+        run: |
+          python cli.py calib show \
+            --perp examples/calibration/calib_97_perplexity.json \
+            --pos  examples/calibration/pos_trigrams.json \
+            --th   examples/calibration/pos_threshold.txt | tee calib.out
+          # also add to the job summary
+          echo '### Phrase-gate Calibration Pins' >> $GITHUB_STEP_SUMMARY
+          sed -n '1,200p' calib.out >> $GITHUB_STEP_SUMMARY
+
+      - name: Create SHA-256 manifest
+        run: |
+          set -euo pipefail
+          # Generate a deterministic, sorted manifest of all tracked files except .git and workflow cache
+          find . -type f ! -path "./.git/*" -print0 | LC_ALL=C sort -z | xargs -0 sha256sum > MANIFEST.sha256.new
+          echo '### SHA-256 manifest (new)' >> $GITHUB_STEP_SUMMARY
+          echo '' >> $GITHUB_STEP_SUMMARY
+          echo 'A fresh hash manifest has been generated and saved as `MANIFEST.sha256.new`.' >> $GITHUB_STEP_SUMMARY
+          echo 'This job will compare against `MANIFEST.sha256` if present.' >> $GITHUB_STEP_SUMMARY
+
+      - name: Compare against pinned manifest (if present)
+        run: |
+          if [ -f MANIFEST.sha256 ]; then
+            echo "Pinned manifest found. Checking for drift…"
+            diff -u MANIFEST.sha256 MANIFEST.sha256.new && echo "No hash drift ✅" || (echo "Hash drift detected ❌"; exit 1)
+          else
+            echo "No pinned MANIFEST.sha256 in repo. Skipping drift check (will upload .new as artifact)."
+          fi
+
+      - name: Upload new manifest
+        uses: actions/upload-artifact@v4
+        with:
+          name: MANIFEST.sha256.new
+          path: MANIFEST.sha256.new
+          if-no-files-found: error
