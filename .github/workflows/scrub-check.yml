@@ -39,3 +39,13 @@ jobs:
           python3 scripts/make_manifest.py --check experiments/seam_free/ experiments/seam_free/MANIFEST.sha256
           echo "✅ PASS: Seam-free experiment integrity verified"
         fi
+        
+        if [ -f experiments/anchors_only/MANIFEST.sha256 ]; then
+          python3 scripts/make_manifest.py --check experiments/anchors_only/ experiments/anchors_only/MANIFEST.sha256
+          echo "✅ PASS: Anchors-only experiment integrity verified"
+        fi
+        
+        if [ -f experiments/anchors_multiclass/MANIFEST.sha256 ]; then
+          python3 scripts/make_manifest.py --check experiments/anchors_multiclass/ experiments/anchors_multiclass/MANIFEST.sha256
+          echo "✅ PASS: Anchors-multiclass experiment integrity verified"
+        fi

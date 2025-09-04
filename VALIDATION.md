@@ -142,6 +142,45 @@ The tool writes a standard confirm bundle **plus** `tail_75_96.txt` (observed ta
 experiments/seam_free/runs/20250903/FINAL_SUMMARY.md
 ```
 
+## Optional: Anchors-Only Reproduction
+
+You can independently verify the algebraic analysis showing anchors alone do not force the tail:
+
+**Single-Key Test** (demonstrates over-constraint):
+```bash
+python experiments/anchors_only/scripts/tail_forcing_scan.py \
+  --ct experiments/anchors_only/data/ciphertext_97.txt \
+  --perms_dir experiments/anchors_only/data/permutations \
+  --policy experiments/anchors_only/POLICY.anchors.json \
+  --out /tmp/anchors_only_test \
+  --classing single_key \
+  --families beaufort \
+  --L_min 10 --L_max 12
+```
+
+**Multi-Class Test** (demonstrates insufficient coverage):
+```bash
+python experiments/anchors_multiclass/scripts/multiclass_tail_forcing_scan.py \
+  --ct experiments/anchors_multiclass/data/ciphertext_97.txt \
+  --perms_dir experiments/anchors_multiclass/data/permutations \
+  --policy experiments/anchors_multiclass/POLICY.anchors_multiclass.json \
+  --out /tmp/anchors_multiclass_test \
+  --schedules c6a \
+  --families beaufort
+```
+
+**Expected Results**:
+- Single-key: 0% feasible models (anchor collisions)  
+- Multi-class: 100% feasible, 0% tail-forced (insufficient residue coverage)
+
+**Analysis Files**:
+```
+experiments/anchors_only/runs/20250903/TAIL_FORCING_REPORT.md
+experiments/anchors_multiclass/runs/20250903/TAIL_FORCING_REPORT.md
+experiments/anchors_only/MANIFEST.sha256
+experiments/anchors_multiclass/MANIFEST.sha256
+```
+
 ## Acceptance Criteria
 
 For validation to be considered successful, **ALL** of the following must be true:

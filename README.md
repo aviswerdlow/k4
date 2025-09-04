@@ -160,6 +160,24 @@ experiments/seam_free/runs/20250903/canonical_cut_robustness.json
 experiments/seam_free/MANIFEST.sha256
 ```
 
+### Anchors-Only Analysis (Scope & Findings)
+
+**Scope**: We tested minimal constraints: anchors fixed at 0-idx (EAST 21–24, NORTHEAST 25–33, BERLINCLOCK 63–73), 97-char plaintext, "pencil-and-paper" substitution families (Vigenère, Variant-Beaufort, Beaufort), and NA-only permutations that fix anchor indices. No head lock, seam guard, or language scoring.
+
+**Single-key schedules (L=2–22)**: algebraically infeasible — anchor residue collisions make the key contradictory.
+
+**Multi-class schedules (c6a/c6b)**: algebraically feasible (collisions resolved) but insufficient — anchors do not determine all residues in 75–96; the tail is not forced by anchors alone.
+
+**Interpretation**: The published tail arises empirically once the complete rail set is applied (NA-only permutations, Option-A at anchors, multi-class keys) and the head is filtered by a strict phrase gate with statistical null testing. Anchors alone neither solve nor force the tail.
+
+Anchors-only algebra shows that single-key Vigenère-family schedules are over-constrained and infeasible for K4; even multi-class repeating keys do not algebraically force all tail residues. The tail invariance we publish is therefore an empirical property that emerges when anchors, NA-only permutations, Option-A, multi-class schedules, and a strict head-only phrase gate (with mirrored nulls) are combined; it does not follow from anchors alone.
+
+**Detailed Results**:
+```
+experiments/anchors_only/runs/20250903/TAIL_FORCING_REPORT.md
+experiments/anchors_multiclass/runs/20250903/TAIL_FORCING_REPORT.md
+```
+
 ## License & Citation
 
 This work represents a proposed solution to the Kryptos K4 puzzle. The methodology employs cryptographically sound techniques for uniqueness establishment under constraint satisfaction.

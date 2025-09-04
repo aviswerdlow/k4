@@ -1,0 +1,20 @@
+{
+  "rails": {
+    "anchors_0idx": { 
+      "EAST": [21, 24], 
+      "NORTHEAST": [25, 33], 
+      "BERLINCLOCK": [63, 73] 
+    },
+    "tail_guard": null,
+    "head_lock": null,
+    "ct_sha256": "eea813570c7f1fd3b34674e47b5c3da8948026f5cefee612a0b38ffaa515ceab",
+    "na_only": true
+  },
+  "model_class": {
+    "substitution_families": ["vigenere", "beaufort", "variant_beaufort"],
+    "classing": ["single_key", "c6a"],
+    "periods": [2, 22],
+    "phases": "0..L-1"
+  },
+  "notes": "Anchors-only algebraic coverage test; no language scoring; deduce whether tail (75..96) is determined by anchors via residue coverage."
+}

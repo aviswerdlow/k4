@@ -1,0 +1,25 @@
+{
+  "rails": {
+    "anchors_0idx": { 
+      "EAST": [21, 24], 
+      "NORTHEAST": [25, 33], 
+      "BERLINCLOCK": [63, 73] 
+    },
+    "tail_guard": null,
+    "head_lock": null,
+    "ct_sha256": "eea813570c7f1fd3b34674e47b5c3da8948026f5cefee612a0b38ffaa515ceab",
+    "na_only": true,
+    "option_a_anchors": true
+  },
+  "model_class": {
+    "substitution_families": ["vigenere", "beaufort", "variant_beaufort"],
+    "classing": ["c6a", "c6b"],
+    "periods_per_class": [10, 22],
+    "phases_per_class": "0..L_k-1",
+    "test_grid": {
+      "L_k_values": [12, 16, 20],
+      "phase_k_values": [0, 1, 2]
+    }
+  },
+  "notes": "Anchors + multi-class algebraic coverage test; no language scoring; test whether multi-class schedule removes anchor collisions and forces tail via algebra alone."
+}
