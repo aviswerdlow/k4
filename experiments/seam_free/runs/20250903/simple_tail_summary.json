@@ -1,0 +1,24 @@
+{
+  "experiment": "simple_seam_free_tail_examination",
+  "description": "Direct examination of published candidate tails without seam guard",
+  "results": [
+    {
+      "label": "cand_005",
+      "route_id": "GRID_W14_ROWS",
+      "description": "Winner",
+      "tail_75_96": "HEJOYOFANANGLEISTHEARC",
+      "hejoy_guard": "HEJOY",
+      "seam_tokens": "OFANANGLEISTHEARC",
+      "plaintext_sha256": "652ee535385e9238"
+    },
+    {
+      "label": "cand_004",
+      "route_id": "GRID_W10_NW",
+      "description": "Runner-up",
+      "tail_75_96": "HEJOYOFANANGLEISTHEARC",
+      "hejoy_guard": "HEJOY",
+      "seam_tokens": "OFANANGLEISTHEARC",
+      "plaintext_sha256": "5a961b947db1f171"
+    }
+  ]
+}
