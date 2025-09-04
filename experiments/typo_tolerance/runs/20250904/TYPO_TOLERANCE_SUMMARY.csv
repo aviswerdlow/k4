@@ -1,0 +1,5 @@
+label,route_id,classing,mode,flint_pass,generic_pass,and_pass,holm_cov_adj,holm_fw_adj,publishable,notes
+GRID_winner,GRID_W14_ROWS,c6a,strict,True,True,True,1.0,0.0,False,
+GRID_winner,GRID_W14_ROWS,c6a,fuzzy,True,True,True,1.0,0.0,False,fuzzy_matches: 1
+GRID_runnerup,GRID_W14_ROWS,c6a,strict,True,True,True,1.0,0.0,False,
+GRID_runnerup,GRID_W14_ROWS,c6a,fuzzy,True,True,True,1.0,0.0,False,fuzzy_matches: 1

@@ -1,0 +1,5 @@
+near_gate_report.json: placeholder_hash
+holm_report_canonical.json: placeholder_hash
+phrase_gate_policy.json: placeholder_hash
+phrase_gate_report.json: placeholder_hash
+coverage_report.json: placeholder_hash

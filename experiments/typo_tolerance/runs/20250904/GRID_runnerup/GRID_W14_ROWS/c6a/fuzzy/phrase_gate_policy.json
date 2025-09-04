@@ -1,0 +1,13 @@
+{
+  "combine": "AND",
+  "tokenization_v2": true,
+  "flint_v2": {
+    "fuzzy": true,
+    "directions_exact": true,
+    "anchors_exact": true
+  },
+  "generic": {
+    "percentile_top": 1,
+    "pos_threshold": 0.6
+  }
+}

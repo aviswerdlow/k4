@@ -1,0 +1,46 @@
+{
+  "rails": {
+    "anchors_0idx": {"EAST":[21,24],"NORTHEAST":[25,33],"BERLINCLOCK":[63,73]},
+    "head_lock": [0,74],
+    "tail_guard": null,
+    "na_only": true,
+    "option_A": true,
+    "ct_sha256": "eea813570c7f1fd3b34674e47b5c3da8948026f5cefee612a0b38ffaa515ceab"
+  },
+  "model_class": {
+    "routes": "GRID_ONLY",
+    "route_whitelist": ["GRID_W14_ROWS","GRID_W10_NW"],
+    "classings": ["c6a","c6b"],
+    "families": ["vigenere","variant_beaufort","beaufort"],
+    "periods": [10,22],
+    "phases": "0..L-1"
+  },
+  "phrase_gate": {
+    "combine": "AND",
+    "tokenization_v2": true,
+    "flint_v2": {
+      "directions": ["EAST","NORTHEAST"],
+      "instrument_verbs": ["READ","SEE","NOTE","SIGHT","OBSERVE"],
+      "instrument_nouns": ["BERLIN","CLOCK","BERLINCLOCK","DIAL"],
+      "declination_scaffolds": ["SET","COURSE","TRUE","MERIDIAN","BEARING","LINE"],
+      "min_content": 6,
+      "max_repeat": 2,
+      "fuzzy": true,
+      "levenshtein_max": 1,
+      "orthographic_equivalence": {"U":"V","V":"U"}
+    },
+    "generic": {
+      "percentile_top": 1,
+      "pos_threshold": 0.60,
+      "min_content": 6,
+      "max_repeat": 2,
+      "calibration_hashes": {
+        "calib_97_perplexity.json": "c3b8c5770ab1aceddf6b651b27a94cdb0eba3fd3d481eda781aeba2dff6fd61f",
+        "pos_trigrams.json": "39ddddf1f516b1495d389d19aa941917a92e0be5944a27347cca7a814ef72692",
+        "pos_threshold.txt": "7d680231e9793ecd6ad7252404e91c726e564cd57fcbf140289b9256e077143d"
+      }
+    }
+  },
+  "nulls": {"K":10000,"holm_m":2,"metric_order":["coverage","f_words"],"adj_p_threshold":0.01},
+  "notes": "Fuzzy Flint: Levenshtein ≤1 for content tokens only; directions exact; anchors exact; Generic unchanged."
+}

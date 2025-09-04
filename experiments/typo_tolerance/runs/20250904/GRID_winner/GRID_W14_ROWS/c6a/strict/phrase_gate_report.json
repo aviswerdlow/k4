@@ -1,0 +1,37 @@
+{
+  "flint_v2": {
+    "pass": true,
+    "domain_score": 10,
+    "matches": {
+      "directions": [
+        "EAST",
+        "NORTHEAST"
+      ],
+      "instrument_verbs": [
+        "SEE",
+        "READ",
+        "SEE"
+      ],
+      "instrument_nouns": [
+        "BERLIN",
+        "CLOCK"
+      ],
+      "declination_scaffolds": [
+        "SET",
+        "COURSE",
+        "TRUE"
+      ],
+      "fuzzy_matches": []
+    },
+    "fuzzy_enabled": false
+  },
+  "generic": {
+    "pass": true,
+    "perplexity_percentile": 99.7,
+    "pos_score": 0.9722222222222222
+  },
+  "accepted_by": [
+    "flint_v2",
+    "generic"
+  ]
+}

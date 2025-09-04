@@ -1,0 +1,44 @@
+{
+  "flint_v2": {
+    "pass": true,
+    "domain_score": 10,
+    "matches": {
+      "directions": [
+        "EAST",
+        "NORTHEAST"
+      ],
+      "instrument_verbs": [
+        "SEE",
+        "SET",
+        "READ",
+        "SEE"
+      ],
+      "instrument_nouns": [
+        "BERLIN",
+        "CLOCK"
+      ],
+      "declination_scaffolds": [
+        "COURSE",
+        "TRUE"
+      ],
+      "fuzzy_matches": [
+        {
+          "token": "SET",
+          "matched_vocab": "SEE",
+          "distance": 1,
+          "category": "instrument_verbs"
+        }
+      ]
+    },
+    "fuzzy_enabled": true
+  },
+  "generic": {
+    "pass": true,
+    "perplexity_percentile": 99.7,
+    "pos_score": 0.9722222222222222
+  },
+  "accepted_by": [
+    "flint_v2",
+    "generic"
+  ]
+}

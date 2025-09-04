@@ -1,0 +1,1 @@
+**Misspelling sensitivity.** We tested a Levenshtein-1 tolerance for Flint's content tokens (head-only; directions exact; anchors exact). The fuzzy check did not alter any publish decisions: candidates accepted by the strict AND gate (and nulls) remain accepted; no new candidate becomes publishable. The main gate remains **strict**.
