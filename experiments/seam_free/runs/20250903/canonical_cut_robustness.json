@@ -1,0 +1,32 @@
+{
+  "experiment": "canonical_cut_robustness_test",
+  "candidate": "cand_005",
+  "route": "GRID_W14_ROWS",
+  "description": "Test tail stability under varied canonical beam tokenization",
+  "baseline_tail": "HEJOYOFANANGLEISTHEARC",
+  "tail_consistent": true,
+  "strategies_tested": 3,
+  "results": [
+    {
+      "strategy": "baseline",
+      "description": "Standard canonical cuts without seam injection",
+      "tail_75_96": "HEJOYOFANANGLEISTHEARC",
+      "seam_tokens": "OFANANGLEISTHEARC",
+      "matches_baseline": true
+    },
+    {
+      "strategy": "varied_beam_1",
+      "description": "Alternative canonical beam (no anchor cuts, no 75-79 cuts)",
+      "tail_75_96": "HEJOYOFANANGLEISTHEARC",
+      "seam_tokens": "OFANANGLEISTHEARC",
+      "matches_baseline": true
+    },
+    {
+      "strategy": "varied_beam_2",
+      "description": "Conservative beam (minimal cuts, preserve phrase boundaries)",
+      "tail_75_96": "HEJOYOFANANGLEISTHEARC",
+      "seam_tokens": "OFANANGLEISTHEARC",
+      "matches_baseline": true
+    }
+  ]
+}

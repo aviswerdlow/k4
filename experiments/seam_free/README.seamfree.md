@@ -17,19 +17,22 @@ Both candidates pass the published GRID-only AND gate policy and null hypothesis
 
 ## Key Finding
 
-**Result**: Both candidates produce **identical tails** despite different head content:
+**Result**: ALL tested candidates produce **identical tails** across multiple route families:
 
-| Candidate | Head Difference | Tail [75:97] | Seam Tokens [80:97] |
-|-----------|----------------|--------------|---------------------|
-| cand_005 | TEXT IS **CODE** | `HEJOYOFANANGLEISTHEARC` | `OFANANGLEISTHEARC` |
-| cand_004 | TEXT IS A **MAP** | `HEJOYOFANANGLEISTHEARC` | `OFANANGLEISTHEARC` |
+| Candidate | Route Family | Route ID | Head Variation | Tail [75:97] | Seam Tokens [80:97] |
+|-----------|--------------|----------|----------------|--------------|---------------------|
+| cand_005 | GRID | GRID_W14_ROWS | TEXT IS **CODE** | `HEJOYOFANANGLEISTHEARC` | `OFANANGLEISTHEARC` |
+| cand_004 | GRID | GRID_W10_NW | TEXT IS A **MAP** | `HEJOYOFANANGLEISTHEARC` | `OFANANGLEISTHEARC` |
+| cand_001 | SPOKE | SPOKE_NE_NF_w1 | TEXT IS **REAL** | `HEJOYOFANANGLEISTHEARC` | `OFANANGLEISTHEARC` |
+| cand_006 | RAILFENCE | RAILFENCE_R3_INVERTED | TEXT IS **DATA** | `HEJOYOFANANGLEISTHEARC` | `OFANANGLEISTHEARC` |
 
 ## Analysis
 
-### Head Variation, Tail Stability
-- **Head content differs**: "THE TEXT IS CODE" vs "THE TEXT IS A MAP"
-- **Tail content identical**: Both produce "OF AN ANGLE IS THE ARC"
-- **Route difference**: Width-14 row-major vs Width-10 northwest reading
+### Cross-Route Family Convergence
+- **Route families tested**: GRID, SPOKE, RAILFENCE (3 distinct geometric families)
+- **Head variations**: "CODE", "A MAP", "REAL", "DATA" (4 distinct semantic messages)  
+- **Tail convergence**: 100% identical across all candidates
+- **Geometric diversity**: Row-major, northwest diagonal, spoke radial, railfence zigzag patterns
 
 ### Cryptographic Implication
 The identical tail across different routes and head content suggests the tail is **cryptographically constrained** by the ciphertext structure and rails specification, not merely an artifact of the seam guard policy.
@@ -60,4 +63,8 @@ This supports the uniqueness claim of the published GRID-only solution and sugge
 python3 scripts/simple_tail_check.py
 ```
 
-This analysis demonstrates tail stability across the two published GRID candidates without requiring complex re-validation pipelines.
+This analysis demonstrates tail stability across multiple route families and head variations without requiring complex re-validation pipelines.
+
+## Claim Boundary
+
+> **Tail invariance is empirical** under rails = {anchors fixed, NA-only, Option-A}, head gate = **AND**, tokenization v2, null model as specified. It is **not** a mathematical proof; we do not claim existence/uniqueness beyond these rails.

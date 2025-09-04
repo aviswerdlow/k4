@@ -1,0 +1,55 @@
+{
+  "experiment": "full_deck_seam_free_spot_check",
+  "description": "Cross-route family examination of tail consistency",
+  "route_families_tested": [
+    "GRID",
+    "SPOKE",
+    "RAILFENCE"
+  ],
+  "results": [
+    {
+      "label": "cand_005",
+      "route_id": "GRID_W14_ROWS",
+      "route_family": "GRID",
+      "description": "Winner",
+      "head_variation": "TEXT IS CODE",
+      "tail_75_96": "HEJOYOFANANGLEISTHEARC",
+      "hejoy_guard": "HEJOY",
+      "seam_tokens": "OFANANGLEISTHEARC",
+      "plaintext_sha256": "1b1d56c3b6b89022"
+    },
+    {
+      "label": "cand_004",
+      "route_id": "GRID_W10_NW",
+      "route_family": "GRID",
+      "description": "Runner-up",
+      "head_variation": "TEXT IS A MAP",
+      "tail_75_96": "HEJOYOFANANGLEISTHEARC",
+      "hejoy_guard": "HEJOY",
+      "seam_tokens": "OFANANGLEISTHEARC",
+      "plaintext_sha256": "d4ac525b84f3981d"
+    },
+    {
+      "label": "cand_001",
+      "route_id": "SPOKE_NE_NF_w1",
+      "route_family": "SPOKE",
+      "description": "Non-GRID",
+      "head_variation": "TEXT IS REAL",
+      "tail_75_96": "HEJOYOFANANGLEISTHEARC",
+      "hejoy_guard": "HEJOY",
+      "seam_tokens": "OFANANGLEISTHEARC",
+      "plaintext_sha256": "27ffcf890039e3cf"
+    },
+    {
+      "label": "cand_006",
+      "route_id": "RAILFENCE_R3_INVERTED",
+      "route_family": "RAILFENCE",
+      "description": "Non-GRID",
+      "head_variation": "TEXT IS DATA",
+      "tail_75_96": "HEJOYOFANANGLEISTHEARC",
+      "hejoy_guard": "HEJOY",
+      "seam_tokens": "OFANANGLEISTHEARC",
+      "plaintext_sha256": "655b195f08de3871"
+    }
+  ]
+}

@@ -6,10 +6,12 @@
 
 ## Results Table
 
-| Candidate | Route | Description | Head Variation | Tail [75:97] | Seam [80:97] | Identical? |
-|-----------|-------|-------------|----------------|--------------|--------------|------------|
-| cand_005 | GRID_W14_ROWS | Winner | TEXT IS **CODE** | HEJOYOFANANGLEISTHEARC | OFANANGLEISTHEARC | ✅ |
-| cand_004 | GRID_W10_NW | Runner-up | TEXT IS A **MAP** | HEJOYOFANANGLEISTHEARC | OFANANGLEISTHEARC | ✅ |
+| Candidate | Route Family | Route ID | Head Variation | Tail [75:97] | Seam [80:97] | Identical? |
+|-----------|--------------|----------|----------------|--------------|--------------|------------|
+| cand_005 | GRID | GRID_W14_ROWS | TEXT IS **CODE** | HEJOYOFANANGLEISTHEARC | OFANANGLEISTHEARC | ✅ |
+| cand_004 | GRID | GRID_W10_NW | TEXT IS A **MAP** | HEJOYOFANANGLEISTHEARC | OFANANGLEISTHEARC | ✅ |
+| cand_001 | SPOKE | SPOKE_NE_NF_w1 | TEXT IS **REAL** | HEJOYOFANANGLEISTHEARC | OFANANGLEISTHEARC | ✅ |
+| cand_006 | RAILFENCE | RAILFENCE_R3_INVERTED | TEXT IS **DATA** | HEJOYOFANANGLEISTHEARC | OFANANGLEISTHEARC | ✅ |
 
 ## Key Findings
 
@@ -23,10 +25,17 @@
 The tail appears **cryptographically constrained** by the ciphertext and rails structure, not imposed by seam guard policy.
 
 ### 📊 Statistical Significance
-- **Sample size**: 2/2 published GRID candidates
-- **Route diversity**: Different grid geometries and reading patterns
-- **Head diversity**: Semantically different head messages
-- **Tail convergence**: 100% agreement on tail content
+- **Sample size**: 4/4 tested candidates across 3 route families
+- **Route diversity**: GRID (row-major, diagonal), SPOKE (radial), RAILFENCE (zigzag)
+- **Head diversity**: 4 semantically different messages (CODE, MAP, REAL, DATA)
+- **Tail convergence**: 100% agreement across all route families and head variations
+
+### 🔧 Technical Specifications
+- **Model class**: GRID-only, then full-deck spot check (SPOKE, RAILFENCE)
+- **Phrase policy**: AND gate (Flint v2 + Generic); perplexity ≤1%, POS ≥0.60; tokenization v2
+- **Rails**: Anchors fixed, NA-only, Option-A validation
+- **Near-gate**: Coverage and function word scoring (whole-line canonical cuts)
+- **Nulls**: 10K mirrored nulls, Holm correction (m=2), adj-p < 0.01 threshold
 
 ## Technical Details
 

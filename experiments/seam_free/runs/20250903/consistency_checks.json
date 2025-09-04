@@ -1,0 +1,47 @@
+{
+  "experiment": "seam_free_tail_flexibility",
+  "date": "2025-09-03",
+  "consistency_checks": {
+    "phrase_gate_policy": {
+      "combine": "AND",
+      "tokenization_v2": true,
+      "calibration_sha256s": {
+        "calib_97_perplexity.json": "c3b8c5770ab1aceddf6b651b27a94cdb0eba3fd3d481eda781aeba2dff6fd61f",
+        "pos_trigrams.json": "39ddddf1f516b1495d389d19aa941917a92e0be5944a27347cca7a814ef72692", 
+        "pos_threshold.txt": "7d680231e9793ecd6ad7252404e91c726e564cd57fcbf140289b9256e077143d"
+      },
+      "status": "verified"
+    },
+    "rails_specification": {
+      "anchors_fixed": true,
+      "na_only": true,
+      "option_a": true,
+      "tail_guard": null,
+      "status": "verified_seam_free"
+    },
+    "candidate_files_present": {
+      "cand_005_tail_75_96": "HEJOYOFANANGLEISTHEARC",
+      "cand_004_tail_75_96": "HEJOYOFANANGLEISTHEARC", 
+      "cand_001_tail_75_96": "HEJOYOFANANGLEISTHEARC",
+      "cand_006_tail_75_96": "HEJOYOFANANGLEISTHEARC",
+      "all_identical": true,
+      "status": "verified"
+    },
+    "deterministic_seeding": {
+      "seed_worker_formula": "lo64(SHA256(seed_recipe + '|' + label + '|worker:' + worker_id))",
+      "reproducibility": "deterministic",
+      "status": "documented"
+    },
+    "coverage_reports": {
+      "encrypts_to_ct": "all_candidates_match_expected_ct",
+      "null_validation": "holm_corrected_p_values_documented", 
+      "status": "verified"
+    }
+  },
+  "validation_summary": {
+    "all_checks_passed": true,
+    "tail_consistency": "100%_across_4_candidates_3_route_families",
+    "empirical_evidence": "strong_cryptographic_constraint_hypothesis",
+    "reviewer_ready": true
+  }
+}
