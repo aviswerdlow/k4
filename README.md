@@ -136,6 +136,30 @@ k4 grid-unique \
 
 See `k4 --help` for complete command reference.
 
+## Tail Policy (empirical scope)
+
+Our published clause is derived under pre-registered rails and a dual-track phrase gate:
+
+* **Rails**: anchors as plaintext at 0-idx (EAST 21–24, NORTHEAST 25–33, BERLINCLOCK 63–73); head window 0..74; NA-only permutations; Option-A at anchors; seam guard used in the publication pipeline.
+* **Phrase gate (AND)**: domain semantics (Flint v2) **and** a calibrated English gate (head-only perplexity top-1% and POS-trigram ≥ 0.60) with tokenization v2 (no inferred splits; seam ignored).
+* **Nulls**: mirrored route + 6-class schedule; 10,000 trials; Holm m=2 over {coverage, f-words}; publishable only if both adjusted p's < 0.01.
+
+We separately ran **seam-free experiments** (tail guard removed; all other rails unchanged) across multiple route families. For four distinct head messages (and three route families), the tail letters **75..96** converged to the **same** string:
+
+```
+OFANANGLEISTHEARC
+```
+
+This provides strong **empirical** evidence that, under these rails and gates, the K4 tail is **cryptographically constrained** by the ciphertext structure and not a by-product of the seam guard. The claim is empirical, not a formal proof; the complete method and results are in:
+
+```
+experiments/seam_free/runs/20250903/FINAL_SUMMARY.md
+experiments/seam_free/runs/20250903/full_deck_summary.csv
+experiments/seam_free/runs/20250903/consistency_checks.json
+experiments/seam_free/runs/20250903/canonical_cut_robustness.json
+experiments/seam_free/MANIFEST.sha256
+```
+
 ## License & Citation
 
 This work represents a proposed solution to the Kryptos K4 puzzle. The methodology employs cryptographically sound techniques for uniqueness establishment under constraint satisfaction.

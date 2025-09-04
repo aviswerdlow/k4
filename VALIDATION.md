@@ -117,6 +117,31 @@ diff results/GRID_ONLY/uniqueness_confirm_summary_GRID.json /tmp/uniqueness_summ
 
 **Expected Result**: No differences (or only trivial formatting differences).
 
+## Optional: Seam-Free Verification
+
+You can independently confirm tail behavior without the seam guard:
+
+```bash
+python experiments/seam_free/scripts/seam_free_confirm.py \
+  --ct data/ciphertext_97.txt \
+  --pt results/GRID_ONLY/cand_005/plaintext_97.txt \
+  --proof results/GRID_ONLY/cand_005/proof_digest.json \
+  --perm data/permutations/GRID_W14_ROWS.json \
+  --cuts data/canonical_cuts.json \
+  --fwords data/function_words.txt \
+  --calib data/calibration/calib_97_perplexity.json \
+  --pos-trigrams data/calibration/pos_trigrams.json \
+  --pos-threshold data/calibration/pos_threshold.txt \
+  --policy experiments/seam_free/POLICY.seamfree.json \
+  --out /tmp/k4_seamfree_cand_005
+```
+
+The tool writes a standard confirm bundle **plus** `tail_75_96.txt` (observed tail letters). See the seam-free summary table in:
+
+```
+experiments/seam_free/runs/20250903/FINAL_SUMMARY.md
+```
+
 ## Acceptance Criteria
 
 For validation to be considered successful, **ALL** of the following must be true:

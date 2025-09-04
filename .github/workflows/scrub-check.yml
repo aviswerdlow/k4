@@ -32,3 +32,10 @@ jobs:
           python3 scripts/make_manifest.py --check results/ results/MANIFEST.sha256
           echo "✅ PASS: Results artifacts integrity verified"
         fi
+        
+    - name: Verify experiment integrity
+      run: |
+        if [ -f experiments/seam_free/MANIFEST.sha256 ]; then
+          python3 scripts/make_manifest.py --check experiments/seam_free/ experiments/seam_free/MANIFEST.sha256
+          echo "✅ PASS: Seam-free experiment integrity verified"
+        fi
