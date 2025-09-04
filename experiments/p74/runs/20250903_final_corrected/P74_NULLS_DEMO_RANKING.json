@@ -1,0 +1,61 @@
+{
+  "note": "Demo analysis using corrected implementation",
+  "candidates_tested": 6,
+  "n_nulls_per_candidate": 1000,
+  "rankings": [
+    {
+      "rank": 1,
+      "p74_char": "T",
+      "and_gate_pass": false,
+      "publishable": false,
+      "coverage_adj_p": null,
+      "f_words_adj_p": null,
+      "status": "\u274c Failed gates"
+    },
+    {
+      "rank": 2,
+      "p74_char": "S",
+      "and_gate_pass": false,
+      "publishable": false,
+      "coverage_adj_p": null,
+      "f_words_adj_p": null,
+      "status": "\u274c Failed gates"
+    },
+    {
+      "rank": 3,
+      "p74_char": "A",
+      "and_gate_pass": false,
+      "publishable": false,
+      "coverage_adj_p": null,
+      "f_words_adj_p": null,
+      "status": "\u274c Failed gates"
+    },
+    {
+      "rank": 4,
+      "p74_char": "E",
+      "and_gate_pass": false,
+      "publishable": false,
+      "coverage_adj_p": null,
+      "f_words_adj_p": null,
+      "status": "\u274c Failed gates"
+    },
+    {
+      "rank": 5,
+      "p74_char": "H",
+      "and_gate_pass": false,
+      "publishable": false,
+      "coverage_adj_p": null,
+      "f_words_adj_p": null,
+      "status": "\u274c Failed gates"
+    },
+    {
+      "rank": 6,
+      "p74_char": "J",
+      "and_gate_pass": false,
+      "publishable": false,
+      "coverage_adj_p": null,
+      "f_words_adj_p": null,
+      "status": "\u274c Failed gates"
+    }
+  ]
+}

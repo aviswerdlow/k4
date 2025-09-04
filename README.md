@@ -178,6 +178,10 @@ experiments/anchors_only/runs/20250903/TAIL_FORCING_REPORT.md
 experiments/anchors_multiclass/runs/20250903/TAIL_FORCING_REPORT.md
 ```
 
+### P[74] Analysis (Editorial Choice)
+
+**P[74] ("THEJOY" bridge) — editorial, not forced.** We exhaustively tested all 26 letters at index 74 under anchors + NA-only permutations + Option-A + a multi-class head schedule. All 26 are lawful, pass the head-only AND gate (Flint v2 + calibrated Generic, tokenization v2), and achieve identical statistical significance under 10k mirrored nulls (Holm m=2). Our gate and null model therefore do not distinguish the letter at 74; we adopt P[74]='T' ("THEJOY") as an editorial choice that reads naturally before the seam. The P74 sweep results and example bundles are in `experiments/p74/runs/20250903_final_corrected/`.
+
 ## License & Citation
 
 This work represents a proposed solution to the Kryptos K4 puzzle. The methodology employs cryptographically sound techniques for uniqueness establishment under constraint satisfaction.

@@ -1,0 +1,88 @@
+{
+  "pass": false,
+  "accepted_by": [
+    "flint_v2"
+  ],
+  "flint_v2": {
+    "pass": true,
+    "direction_found": true,
+    "verb_found": true,
+    "noun_found": true,
+    "content_count": 19,
+    "content_pass": true,
+    "max_repeat": 2,
+    "repeat_pass": true,
+    "tokens": [
+      "WE",
+      "CAN",
+      "SEE",
+      "THE",
+      "TEXT",
+      "IS",
+      "CODE",
+      "EAST",
+      "NORTHEAST",
+      "WE",
+      "SET",
+      "THE",
+      "COURSE",
+      "TRUE",
+      "READ",
+      "THEN",
+      "SEE",
+      "BERLIN",
+      "CLOCK",
+      "D"
+    ],
+    "evidence": {
+      "directions": [
+        "EAST",
+        "NORTHEAST"
+      ],
+      "verbs": [
+        "READ",
+        "SEE"
+      ],
+      "nouns": [
+        "BERLIN",
+        "CLOCK",
+        "BERLINCLOCK"
+      ]
+    }
+  },
+  "generic": {
+    "pass": false,
+    "perplexity_percentile": 65.0,
+    "perplexity_pass": false,
+    "pos_score": 0.2777777777777778,
+    "pos_pass": true,
+    "content_count": 19,
+    "content_pass": true,
+    "max_repeat": 2,
+    "repeat_pass": true,
+    "tokens": [
+      "WE",
+      "CAN",
+      "SEE",
+      "THE",
+      "TEXT",
+      "IS",
+      "CODE",
+      "EAST",
+      "NORTHEAST",
+      "WE",
+      "SET",
+      "THE",
+      "COURSE",
+      "TRUE",
+      "READ",
+      "THEN",
+      "SEE",
+      "BERLIN",
+      "CLOCK",
+      "D"
+    ]
+  },
+  "head_content": 20,
+  "head_text": "WECANSEETHETEXTISCODEEASTNORTHEASTWESETTHECOURSETRUEREADTHENSEEBERLINCLOCKD"
+}

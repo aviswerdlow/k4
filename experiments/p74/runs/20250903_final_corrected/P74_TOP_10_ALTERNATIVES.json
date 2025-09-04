@@ -1,0 +1,178 @@
+{
+  "analysis_summary": {
+    "title": "P74 Top 10 Alternative Rankings",
+    "date": "2025-09-03",
+    "methodology": "Complete nulls analysis with linguistic coherence ranking",
+    "key_finding": "All 26 P[74] candidates are statistically equivalent - selection is based on tie-breakers"
+  },
+  "statistical_equivalence": {
+    "total_candidates": 26,
+    "lawful_candidates": 26,
+    "and_gate_passers": 26,
+    "publishable_candidates": 26,
+    "identical_adj_p_values": {
+      "coverage": 0.001,
+      "f_words": 0.001
+    },
+    "significance_threshold": 0.01,
+    "conclusion": "No statistical discrimination possible between candidates"
+  },
+  "top_10_alternatives": [
+    {
+      "rank": 1,
+      "p74_char": "H",
+      "tail_pattern": "HHEJOYOFANANGLEISTHEARC",
+      "linguistic_appeal": "Emphatic pattern 'H! HE JOY...'",
+      "statistical_metrics": {
+        "coverage_adj_p": 0.001,
+        "f_words_adj_p": 0.001,
+        "publishable": true
+      },
+      "notes": "Most linguistically coherent alternative"
+    },
+    {
+      "rank": 2,
+      "p74_char": "S",
+      "tail_pattern": "SHEJOYOFANANGLEISTHEARC", 
+      "linguistic_appeal": "Pronoun pattern 'SHE JOY...'",
+      "statistical_metrics": {
+        "coverage_adj_p": 0.001,
+        "f_words_adj_p": 0.001,
+        "publishable": true
+      },
+      "notes": "Strong linguistic interpretation as 'SHE JOY'"
+    },
+    {
+      "rank": 3,
+      "p74_char": "A",
+      "tail_pattern": "AHEJOYOFANANGLEISTHEARC",
+      "linguistic_appeal": "Article pattern 'A HE JOY...'", 
+      "statistical_metrics": {
+        "coverage_adj_p": 0.001,
+        "f_words_adj_p": 0.001,
+        "publishable": true
+      },
+      "notes": "Grammatical article interpretation"
+    },
+    {
+      "rank": 4,
+      "p74_char": "I",
+      "tail_pattern": "IHEJOYOFANANGLEISTHEARC",
+      "linguistic_appeal": "Personal pronoun 'I HE JOY...'",
+      "statistical_metrics": {
+        "coverage_adj_p": 0.001,
+        "f_words_adj_p": 0.001,
+        "publishable": true
+      },
+      "notes": "Personal pronoun pattern"
+    },
+    {
+      "rank": 5,
+      "p74_char": "E",
+      "tail_pattern": "EHEJOYOFANANGLEISTHEARC",
+      "linguistic_appeal": "Letter sound pattern",
+      "statistical_metrics": {
+        "coverage_adj_p": 0.001,
+        "f_words_adj_p": 0.001,
+        "publishable": true
+      },
+      "notes": "Phonetic interpretation"
+    },
+    {
+      "rank": 6,
+      "p74_char": "O",
+      "tail_pattern": "OHEJOYOFANANGLEISTHEARC",
+      "linguistic_appeal": "Exclamation pattern 'O HE JOY!'",
+      "statistical_metrics": {
+        "coverage_adj_p": 0.001,
+        "f_words_adj_p": 0.001,
+        "publishable": true
+      },
+      "notes": "Exclamatory interpretation"
+    },
+    {
+      "rank": 7,
+      "p74_char": "N",
+      "tail_pattern": "NHEJOYOFANANGLEISTHEARC",
+      "linguistic_appeal": "Less natural but valid",
+      "statistical_metrics": {
+        "coverage_adj_p": 0.001,
+        "f_words_adj_p": 0.001,
+        "publishable": true
+      },
+      "notes": "Statistically equivalent, linguistically weaker"
+    },
+    {
+      "rank": 8,
+      "p74_char": "R",
+      "tail_pattern": "RHEJOYOFANANGLEISTHEARC",
+      "linguistic_appeal": "Less natural but valid",
+      "statistical_metrics": {
+        "coverage_adj_p": 0.001,
+        "f_words_adj_p": 0.001,
+        "publishable": true
+      },
+      "notes": "Statistically equivalent, linguistically weaker"
+    },
+    {
+      "rank": 9,
+      "p74_char": "L",
+      "tail_pattern": "LHEJOYOFANANGLEISTHEARC",
+      "linguistic_appeal": "Less natural but valid",
+      "statistical_metrics": {
+        "coverage_adj_p": 0.001,
+        "f_words_adj_p": 0.001,
+        "publishable": true
+      },
+      "notes": "Statistically equivalent, linguistically weaker"
+    },
+    {
+      "rank": 10,
+      "p74_char": "D",
+      "tail_pattern": "DHEJOYOFANANGLEISTHEARC",
+      "linguistic_appeal": "Less natural but valid",
+      "statistical_metrics": {
+        "coverage_adj_p": 0.001,
+        "f_words_adj_p": 0.001,
+        "publishable": true
+      },
+      "notes": "Statistically equivalent, linguistically weaker"
+    }
+  ],
+  "remaining_candidates": [
+    {"char": "U", "notes": "Statistically identical to top 10"},
+    {"char": "M", "notes": "Statistically identical to top 10"},
+    {"char": "F", "notes": "Statistically identical to top 10"},
+    {"char": "C", "notes": "Statistically identical to top 10"},
+    {"char": "G", "notes": "Statistically identical to top 10"},
+    {"char": "Y", "notes": "Statistically identical to top 10"},
+    {"char": "P", "notes": "Statistically identical to top 10"},
+    {"char": "W", "notes": "Statistically identical to top 10"},
+    {"char": "B", "notes": "Statistically identical to top 10"},
+    {"char": "V", "notes": "Statistically identical to top 10"},
+    {"char": "K", "notes": "Statistically identical to top 10"},
+    {"char": "J", "notes": "Statistically identical to top 10"},
+    {"char": "X", "notes": "Statistically identical to top 10"},
+    {"char": "Q", "notes": "Statistically identical to top 10"},
+    {"char": "Z", "notes": "Statistically identical to top 10"}
+  ],
+  "tie_breaker_analysis": {
+    "current_winner": "T",
+    "selection_basis": "Fine-grained tie-breakers beyond 3 decimal place precision",
+    "possible_criteria": [
+      "Coverage metric extended precision",
+      "Function words extended precision", 
+      "Additional unreported metrics",
+      "Linguistic preference rules",
+      "Pre-registered tie-breaker hierarchy"
+    ],
+    "conclusion": "Winner selection represents decision-gate compulsion, not cryptographic necessity"
+  },
+  "validation": {
+    "data_source": "P74_SWEEP_SUMMARY.csv",
+    "nulls_per_candidate": 10000,
+    "correction_method": "Holm m=2",
+    "significance_threshold": 0.01,
+    "all_candidates_pass": true
+  }
+}

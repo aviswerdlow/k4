@@ -1,0 +1,31 @@
+{
+  "combine": "AND",
+  "tokenization_v2": true,
+  "flint_v2": {
+    "directions": [
+      "EAST",
+      "NORTHEAST"
+    ],
+    "instrument_verbs": [
+      "READ",
+      "SEE",
+      "NOTE",
+      "SIGHT",
+      "OBSERVE"
+    ],
+    "instrument_nouns": [
+      "BERLIN",
+      "CLOCK",
+      "BERLINCLOCK",
+      "DIAL"
+    ],
+    "min_content": 6,
+    "max_repeat": 2
+  },
+  "generic": {
+    "percentile_top": 1,
+    "pos_threshold": 0.6,
+    "min_content": 6,
+    "max_repeat": 2
+  }
+}

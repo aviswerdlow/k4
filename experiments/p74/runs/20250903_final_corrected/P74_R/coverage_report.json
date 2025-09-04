@@ -1,0 +1,7 @@
+{
+  "encrypts_to_ct": true,
+  "forced_residues": 24,
+  "full_key_size": 97,
+  "gate_pass": true,
+  "nulls_publishable": true
+}

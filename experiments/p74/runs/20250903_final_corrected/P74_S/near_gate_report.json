@@ -1,0 +1,5 @@
+{
+  "status": "not_implemented",
+  "note": "Near-gate evaluation (whole-line coverage/f_words) not implemented in this P74 analysis",
+  "reason": "Focus on head-only AND gate for P74 discrimination analysis"
+}

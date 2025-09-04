@@ -181,6 +181,10 @@ experiments/anchors_only/MANIFEST.sha256
 experiments/anchors_multiclass/MANIFEST.sha256
 ```
 
+## Optional: P[74] Sweep Review
+
+For reviewers wanting to inspect the P[74] analysis showing editorial choice rather than cryptographic forcing, see the sweep summary: `experiments/p74/runs/20250903_final_corrected/P74_SWEEP_SUMMARY.csv`.
+
 ## Acceptance Criteria
 
 For validation to be considered successful, **ALL** of the following must be true:
