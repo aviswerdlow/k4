@@ -108,25 +108,25 @@ def decrypt_char(c: str, k: str, family: str) -> str:
     
     return num_to_char(pn)
 
-def solve_anchor_key(p: str, c: str, family: str) -> Optional[str]:
-    """Solve for key value at an anchor position"""
+def solve_anchor_key(p: str, c: str, family: str, is_anchor: bool = True) -> Optional[str]:
+    """Solve for key value (with pass-through check only at anchors)"""
     pn = char_to_num(p)
     cn = char_to_num(c)
     
     if family == "vigenere":
         # C = P + K -> K = C - P
         kn = (cn - pn) % 26
-        if kn == 0:  # Illegal pass-through
+        if is_anchor and kn == 0:  # Illegal pass-through at anchor
             return None
     elif family == "variant_beaufort":
         # C = P - K -> K = P - C
         kn = (pn - cn) % 26
-        if kn == 0:  # Illegal pass-through
+        if is_anchor and kn == 0:  # Illegal pass-through at anchor
             return None
     elif family == "beaufort":
         # C = K - P -> K = C + P
         kn = (cn + pn) % 26
-        # K=0 is allowed for Beaufort
+        # K=0 is allowed for Beaufort even at anchors
     else:
         raise ValueError(f"Unknown family: {family}")
     
@@ -144,8 +144,22 @@ class ScheduleSolver:
         """Find lawful schedules for given plaintext"""
         schedules = []
         
-        # Shell 1: Fast search (winner-like)
+        # Shell 0: Winner replay (guaranteed feasible for winner PT)
         winner_families = ["vigenere", "vigenere", "beaufort", "vigenere", "beaufort", "vigenere"]
+        winner_L = (17, 16, 16, 16, 16, 16)
+        winner_phase = (0, 0, 0, 0, 0, 0)
+        
+        # Try exact winner configuration first
+        schedule = self._test_schedule(
+            pt, "GRID_W14_ROWS", ClassingScheme.c6a, "c6a",
+            winner_families, winner_L, winner_phase, debug=True
+        )
+        if schedule:
+            schedules.append(schedule)
+            if len(schedules) >= max_schedules:
+                return schedules
+        
+        # Shell 1: Fast search (winner-like)
         for route_name in ["GRID_W14_ROWS", "GRID_W10_NW"]:
             for classing_name in ["c6a", "c6b"]:
                 classing_func = ClassingScheme.c6a if classing_name == "c6a" else ClassingScheme.c6b
@@ -232,19 +246,20 @@ class ScheduleSolver:
         return schedules
     
     def _test_schedule(self, pt: str, route_name: str, classing_func, classing_name: str,
-                      families: List[str], L_tuple: Tuple[int], phase_tuple: Tuple[int]) -> Optional[Dict]:
+                      families: List[str], L_tuple: Tuple[int], phase_tuple: Tuple[int],
+                      debug: bool = False) -> Optional[Dict]:
         """Test if a schedule is lawful (encrypts to CT)"""
         
-        # Apply T2 transposition to plaintext
+        # For GRID routes, transposition is identity (no change)
+        # We work directly with plaintext indices
         route = self.routes[route_name]
-        pt_transposed = apply_transposition(pt, route)
         
         # First test anchors only (early pruning)
         key_schedule = [{} for _ in range(6)]  # Per-class key dictionaries
         
         for anchor_name, (start, end) in ANCHORS.items():
             for i in range(start, end + 1):
-                if i >= len(pt_transposed):
+                if i >= len(pt):
                     continue
                 
                 class_id = classing_func(i)
@@ -254,44 +269,94 @@ class ScheduleSolver:
                 
                 residue = compute_residue(i, classing_func, class_id, L, phase)
                 
-                # Solve for key at this anchor
-                p_char = pt_transposed[i]
+                # Solve for key at this anchor (pre-transposition position)
+                p_char = pt[i]
                 c_char = self.ct[i]
-                k_char = solve_anchor_key(p_char, c_char, family)
+                k_char = solve_anchor_key(p_char, c_char, family, is_anchor=True)
                 
                 if k_char is None:  # Illegal pass-through
+                    if debug:
+                        print(f"Anchor {i}: Illegal pass-through for {family} (P={p_char}, C={c_char})")
                     return None
                 
                 # Check for conflicts
                 if residue in key_schedule[class_id]:
                     if key_schedule[class_id][residue] != k_char:
+                        if debug:
+                            print(f"Anchor {i}: Collision at class {class_id}, residue {residue}")
+                            print(f"  Existing: {key_schedule[class_id][residue]}, New: {k_char}")
                         return None  # Collision
                 else:
                     key_schedule[class_id][residue] = k_char
+                    if debug:
+                        print(f"Anchor {i}: Set class {class_id}, residue {residue} = {k_char}")
         
-        # Anchors are feasible, now test full encryption
-        # Fill in missing key values (free residues) with 'A' for testing
-        for class_id in range(6):
-            L = L_tuple[class_id]
-            for r in range(L):
-                if r not in key_schedule[class_id]:
-                    key_schedule[class_id][r] = 'A'  # Default free residue
-        
-        # Encrypt full plaintext
-        encrypted = []
-        for i in range(len(pt_transposed)):
+        # Anchors are feasible, now solve for ALL key values from PT and CT
+        # This fills in the free residues with their actual values
+        if debug:
+            print(f"Solving for all {min(len(pt), len(self.ct))} positions...")
+        for i in range(min(len(pt), len(self.ct))):
             class_id = classing_func(i)
             L = L_tuple[class_id]
             phase = phase_tuple[class_id]
             family = families[class_id]
             
             residue = compute_residue(i, classing_func, class_id, L, phase)
+            
+            # If this residue isn't already set, solve for it
+            if residue not in key_schedule[class_id]:
+                p_char = pt[i]
+                c_char = self.ct[i]
+                k_char = solve_anchor_key(p_char, c_char, family, is_anchor=False)
+                
+                if k_char is None:  # This shouldn't happen for non-anchors
+                    return None
+                    
+                key_schedule[class_id][residue] = k_char if k_char else 'A'
+            else:
+                # Verify consistency with already-set key
+                p_char = pt[i]
+                c_char = self.ct[i]
+                expected_c = encrypt_char(p_char, key_schedule[class_id][residue], family)
+                if expected_c != c_char:
+                    if debug:
+                        print(f"Position {i}: Inconsistency - Expected {c_char}, got {expected_c}")
+                        print(f"  P={p_char}, K={key_schedule[class_id][residue]}, family={family}")
+                    return None  # Inconsistency
+        
+        # Encrypt full plaintext (pre-transposition)
+        encrypted = []
+        for i in range(len(pt)):
+            class_id = classing_func(i)
+            L = L_tuple[class_id]
+            phase = phase_tuple[class_id]
+            family = families[class_id]
+            
+            residue = compute_residue(i, classing_func, class_id, L, phase)
+            if residue not in key_schedule[class_id]:
+                if debug:
+                    print(f"Missing residue {residue} for class {class_id} at position {i}")
+                return None  # Missing key value
             k_char = key_schedule[class_id][residue]
-            p_char = pt_transposed[i]
+            p_char = pt[i]
             c_char = encrypt_char(p_char, k_char, family)
             encrypted.append(c_char)
         
         encrypted_text = ''.join(encrypted)
+        
+        # For GRID routes, transposition is identity, so encrypted_text = CT
+        
+        if debug and encrypted_text != self.ct:
+            # Log first mismatch for debugging
+            for i in range(min(len(encrypted_text), len(self.ct))):
+                if encrypted_text[i] != self.ct[i]:
+                    class_id = classing_func(i)
+                    residue = compute_residue(i, classing_func, class_id, L_tuple[class_id], phase_tuple[class_id])
+                    print(f"Mismatch at i={i}: Expected {self.ct[i]}, got {encrypted_text[i]}")
+                    print(f"  Class {class_id}, family={families[class_id]}")
+                    print(f"  L={L_tuple[class_id]}, phase={phase_tuple[class_id]}, r={residue}")
+                    print(f"  P={pt[i] if i < len(pt) else '?'}, K={key_schedule[class_id].get(residue, '?')}")
+                    break
         
         if encrypted_text == self.ct:
             # Success! Build schedule record

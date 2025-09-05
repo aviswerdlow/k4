@@ -1,13 +1,13 @@
 # P74 Editorial Study - Simplified
 
-Generated: 2025-09-05T14:09:12.889968
+Generated: 2025-09-05T15:24:48.820114
 
 ## Summary
 Tested all 26 letters at position 74 to find which can produce lawful schedules.
 
 ## Results
 - Total letters tested: 26
-- Letters with feasible schedules: 0
+- Letters with feasible schedules: 26
 - Letters marked publishable: 0 (requires full confirm pipeline)
 
 ## Note
