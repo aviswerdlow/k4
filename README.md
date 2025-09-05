@@ -82,7 +82,8 @@ This approach is cryptographically defensible because:
 | K1–K3 | Narrative/declarative; includes orthographic quirks (IQLUSION, UNDERGRUUND, DESPARATLY); prose-like n-grams |
 | K4 head (this frame) | Instructional/imperative surveying clause; optimized for semantics + statistical gate; stylistically distinct by panel |
 
-See comprehensive sensitivity analysis: `experiments/cadence_panel/runs/2025-09-05/CADENCE_PANEL_REPORT_COMPREHENSIVE.md`
+Style panel (report-only). See `experiments/cadence_panel/runs/2025-09-05/QUICK_READ.md`
+and `CADENCE_PANEL_REPORT_COMPREHENSIVE.md` for baseline, window-type, and weight sensitivity.
 
 ## Null Model Validation
 

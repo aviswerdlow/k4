@@ -28,6 +28,16 @@ To verify our claims:
 k4 confirm --ct data/ciphertext_97.txt --pt results/GRID_ONLY/cand_005/plaintext_97.txt [...]
 ```
 
+## Reproduction Pack
+
+For complete verification and sensitivity analysis:
+- **Quick Results**: `experiments/cadence_panel/runs/2025-09-05/QUICK_READ.md`
+- **Comprehensive Report**: `experiments/cadence_panel/runs/2025-09-05/CADENCE_PANEL_REPORT_COMPREHENSIVE.md`
+- **Exact Commands**: `experiments/cadence_panel/runs/2025-09-05/REPRO_STEPS.md`
+- **File Integrity**: `experiments/cadence_panel/runs/2025-09-05/MANIFEST.sha256`
+
+Key finding: Winner maintains higher CCS than runner across all 6 sensitivity configurations (token windows, character windows, declarative reference, and 3 weight variants). Ordering is robust.
+
 ## Invitation for Review
 
 We explicitly invite:
