@@ -1,0 +1,22 @@
+{
+  "generated": "2025-09-04T23:11:59.103143",
+  "directory": "/Users/aviswerdlow/Downloads/Kryptos Team/k4_cli_plus/experiments/cadence_panel/runs/2025-09-04",
+  "files": {
+    "CADENCE_PANEL_REPORT.md": {
+      "sha256": "d8e803eb0b31713cfe05754fabb2c160512e973053030a38a260de814ad2c9dd",
+      "size": 2256
+    },
+    "cadence_panel_detailed.json": {
+      "sha256": "f8675fea55ffc728dce87cdaea4843a55c3fbe394fc953e4255d519ce2135c94",
+      "size": 2834
+    },
+    "cadence_panel_summary.csv": {
+      "sha256": "78385a4f82a4eb854159dbb02e161c139a784a3b2e8292a3e0405fe48335b414",
+      "size": 755
+    },
+    "ref_metrics.json": {
+      "sha256": "132795d23eb6e6b1fa759426f2fd5214a1f3f17d2b9c9651322b0d4d1df6f666",
+      "size": 32908
+    }
+  }
+}

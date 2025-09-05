@@ -1,5 +1,21 @@
 # K4 Kryptos Solution - GRID-only AND Gate Uniqueness
 
+---
+
+## **Claim Boundary (read this first)**
+
+**Claim:** Unique **within** the pre-registered **GRID-only + AND** policy (anchors fixed at 0-idx; NA-only permutations; Option-A; six-class repeating schedule; head gate = Flint v2 **and** calibrated Generic with tokenization v2; 10k mirrored nulls, Holm m=2).  
+**Outside** this frame (full deck, OR policy, or different thresholds), multiple heads are admitted.
+
+| Frame                   | Outcome                                                                 |
+| ----------------------- | ----------------------------------------------------------------------- |
+| GRID-only + AND + nulls | single winner; tie-breakers applied (Holm-min → perplexity → coverage) |
+| Full deck or OR policy  | multiple significant heads (non-unique)                                |
+
+> A **Sanborn cadence panel** (report-only) compares candidate heads to K1–K3 style; see `experiments/cadence_panel/runs/2025-09-04/CADENCE_PANEL_REPORT.md`.
+
+---
+
 **Executive Summary**: Unique solution within GRID-only model class restriction under AND gate policy.  
 **Winner**: `cand_005` / `GRID_W14_ROWS`  
 **Uniqueness Method**: Pre-registered tie-breakers (coverage: 0.923 vs 0.885)
@@ -54,6 +70,10 @@ This approach is cryptographically defensible because:
 - POS score: ≥0.60 (trigram-based)
 - Content words: ≥6
 - Max repeat: ≤2
+
+## Tail Policy (empirical scope)
+
+**Tail Policy:** The tail `OF · AN · ANGLE · IS · THE · ARC` is an **empirical invariance** observed in seam-free runs under the registered rails (anchors + NA-only + Option-A + multi-class head schedule + head-only AND gate). Anchors alone do **not** force the tail (single-key infeasible; multi-class feasible but under-determined). We do not claim a proof beyond these tested conditions.
 
 ## Null Model Validation
 
