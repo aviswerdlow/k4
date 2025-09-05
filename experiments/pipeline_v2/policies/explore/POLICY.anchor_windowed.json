@@ -1,0 +1,30 @@
+{
+  "name": "explore_anchor_windowed",
+  "mode": "windowed",
+  "description": "Explore with ±1 index window and one typo allowed per anchor",
+  "anchor_config": {
+    "mode": "windowed",
+    "anchors": {
+      "EAST": {"span": [21, 24], "window": 1, "weight": 0.1},
+      "NORTHEAST": {"span": [25, 33], "window": 1, "weight": 0.1},
+      "BERLINCLOCK": {"span": [63, 73], "window": 1, "weight": 0.1}
+    },
+    "allow_window": true,
+    "allow_typo": true,
+    "max_typos_per_anchor": 1,
+    "typo_types": ["substitution"]
+  },
+  "scorer": {
+    "ngram_weight": 0.4,
+    "coverage_weight": 0.3,
+    "compress_weight": 0.3,
+    "blind_anchors": true,
+    "blind_narrative": true
+  },
+  "nulls": {
+    "budget": 1000,
+    "mirrored": true,
+    "alpha": 0.05
+  },
+  "seed": 1337
+}

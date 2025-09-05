@@ -1,0 +1,47 @@
+{
+  "name": "confirm_hard_rails",
+  "description": "Confirm lane with hard rails, frozen anchors, full gates",
+  "rails": {
+    "anchors_frozen": true,
+    "anchor_positions": {
+      "EAST": [21, 24],
+      "NORTHEAST": [25, 33],
+      "BERLINCLOCK": [63, 73]
+    },
+    "na_only": true,
+    "option_a": true,
+    "classings": ["c6a", "c6b"],
+    "seam_free": true
+  },
+  "gates": {
+    "near_gate": {
+      "enabled": true,
+      "threshold": 0.8
+    },
+    "phrase_gate": {
+      "enabled": true,
+      "flint_v2": true,
+      "generic": true,
+      "and_gate": true,
+      "tokenization": "v2",
+      "head_only": true,
+      "seam_ignored": true
+    }
+  },
+  "nulls": {
+    "budget": 10000,
+    "mirrored": true,
+    "holm_m": 2,
+    "alpha": 0.01,
+    "metrics": ["coverage", "f_words"]
+  },
+  "publish_criteria": {
+    "holm_adj_p_threshold": 0.01,
+    "both_metrics_required": true
+  },
+  "seed": 1337,
+  "calibration": {
+    "flint_v2_hash": "1234567890abcdef",
+    "generic_hash": "fedcba0987654321"
+  }
+}

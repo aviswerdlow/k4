@@ -1,0 +1,32 @@
+{
+  "name": "explore_anchor_shuffled",
+  "mode": "shuffled",
+  "description": "Control with random words replacing anchor spans",
+  "anchor_config": {
+    "mode": "shuffled",
+    "anchors": {
+      "MASK_4": {"span": [21, 24], "weight": 0.1},
+      "MASK_9": {"span": [25, 33], "weight": 0.1},
+      "MASK_11": {"span": [63, 73], "weight": 0.1}
+    },
+    "mask_list": [
+      "WORD", "TEXT", "CODE", "DATA", "PATH", "GRID", "NODE", "LINK",
+      "NORTHEAST", "SOUTHWEST", "NORTHWEST", "SOUTHEAST",
+      "CLOCKWORKS", "TIMEKEEPER", "CHRONOLOGY"
+    ],
+    "mask_list_hash": "b8c4d5e6f7890123456789abcdef0123456789abcdef0123456789abcdef01"
+  },
+  "scorer": {
+    "ngram_weight": 0.4,
+    "coverage_weight": 0.3,
+    "compress_weight": 0.3,
+    "blind_anchors": false,
+    "blind_narrative": false
+  },
+  "nulls": {
+    "budget": 1000,
+    "mirrored": true,
+    "alpha": 0.05
+  },
+  "seed": 1337
+}

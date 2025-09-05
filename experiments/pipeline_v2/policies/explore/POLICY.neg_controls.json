@@ -1,0 +1,40 @@
+{
+  "name": "negative_controls",
+  "random_seeds": {
+    "scramble": 42,
+    "seam": 43,
+    "shuffle": 44
+  },
+  "anchor_config": {
+    "anchors": {
+      "EAST": {
+        "span": [
+          21,
+          24
+        ],
+        "weight": 0.1
+      },
+      "NORTHEAST": {
+        "span": [
+          25,
+          33
+        ],
+        "weight": 0.1
+      },
+      "BERLINCLOCK": {
+        "span": [
+          63,
+          73
+        ],
+        "weight": 0.1
+      }
+    }
+  },
+  "scorer": {
+    "ngram_weight": 0.4,
+    "coverage_weight": 0.3,
+    "compress_weight": 0.3,
+    "blind_anchors": true,
+    "blind_narrative": true
+  }
+}

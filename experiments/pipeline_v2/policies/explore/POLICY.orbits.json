@@ -1,0 +1,34 @@
+{
+  "name": "orbit_mapping",
+  "orbit_epsilon": 0.02,
+  "orbit_tie_threshold": 5,
+  "anchor_config": {
+    "anchors": {
+      "EAST": {
+        "span": [
+          21,
+          24
+        ]
+      },
+      "NORTHEAST": {
+        "span": [
+          25,
+          33
+        ]
+      },
+      "BERLINCLOCK": {
+        "span": [
+          63,
+          73
+        ]
+      }
+    }
+  },
+  "scorer": {
+    "ngram_weight": 0.4,
+    "coverage_weight": 0.3,
+    "compress_weight": 0.3,
+    "blind_anchors": true,
+    "blind_narrative": true
+  }
+}

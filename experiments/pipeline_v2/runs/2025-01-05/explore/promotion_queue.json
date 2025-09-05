@@ -1,0 +1,9 @@
+[
+  {
+    "label": "winner",
+    "fixed_score": 0.75,
+    "delta_windowed": 0.06,
+    "delta_shuffled": 0.12,
+    "promoted": true
+  }
+]

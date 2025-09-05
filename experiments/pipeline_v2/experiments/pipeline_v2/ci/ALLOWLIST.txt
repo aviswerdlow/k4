@@ -1,0 +1,7 @@
+# Link Hygiene Allowlist
+# Format: path/to/link # reason for allowing
+# Lines starting with # are comments
+
+# Example entries:
+# experiments/legacy/important_result.csv # Historical reference
+# experiments/draft/work_in_progress.md # Temporary during migration
