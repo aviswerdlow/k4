@@ -182,6 +182,7 @@ def main():
     parser.add_argument('--k1', default='experiments/cadence_panel/data/K1.txt', help='Path to K1.txt')
     parser.add_argument('--k2', default='experiments/cadence_panel/data/K2.txt', help='Path to K2.txt')
     parser.add_argument('--k3', default='experiments/cadence_panel/data/K3.txt', help='Path to K3.txt')
+    parser.add_argument('--weights', help='Path to custom weights JSON file')
     parser.add_argument('--out', required=True, help='Output directory')
     
     args = parser.parse_args()
@@ -229,8 +230,23 @@ def main():
         # Compute z-scores
         z_scores = compute_z_scores(metrics, ref_stats)
         
+        # Load custom weights if provided
+        weights = None
+        if args.weights:
+            with open(args.weights, 'r') as f:
+                weights_data = json.load(f)
+                # Convert to format expected by compute_combined_score
+                weights = {}
+                for key, value in weights_data.items():
+                    if key.endswith('_abs'):
+                        # Remove _abs suffix and use for z-score key
+                        base_key = key.replace('_abs', '')
+                        weights[f'z_{base_key}'] = value
+                    else:
+                        weights[f'z_{key}'] = value
+        
         # Compute CCS
-        ccs = compute_combined_score(metrics, z_scores)
+        ccs = compute_combined_score(metrics, z_scores, weights)
         
         # Store results
         results.append({

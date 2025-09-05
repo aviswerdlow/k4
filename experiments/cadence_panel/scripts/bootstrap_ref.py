@@ -29,15 +29,16 @@ from metrics import (
 )
 
 
-def create_bootstrap_windows(tokens, window_size=75, n_windows=1000, seed=None):
+def create_bootstrap_windows(tokens, window_size=75, n_windows=1000, seed=None, mode='tokens'):
     """
     Create bootstrap windows from token list.
     
     Args:
         tokens: list of tokens
-        window_size: size of each window
+        window_size: size of each window (tokens or chars)
         n_windows: number of windows to create
         seed: random seed
+        mode: 'tokens' or 'chars' for window type
         
     Returns:
         list: list of token windows
@@ -46,20 +47,44 @@ def create_bootstrap_windows(tokens, window_size=75, n_windows=1000, seed=None):
         np.random.seed(seed)
     
     windows = []
-    n_tokens = len(tokens)
     
-    if n_tokens < window_size:
-        # If text is shorter than window, pad by resampling
-        for _ in range(n_windows):
-            # Sample with replacement to get window_size tokens
-            window = list(np.random.choice(tokens, size=window_size, replace=True))
-            windows.append(window)
-    else:
-        # Sample windows from the text
-        for _ in range(n_windows):
-            start = np.random.randint(0, n_tokens - window_size + 1)
-            window = tokens[start:start + window_size]
-            windows.append(window)
+    if mode == 'tokens':
+        n_tokens = len(tokens)
+        
+        if n_tokens < window_size:
+            # If text is shorter than window, pad by resampling
+            for _ in range(n_windows):
+                # Sample with replacement to get window_size tokens
+                window = list(np.random.choice(tokens, size=window_size, replace=True))
+                windows.append(window)
+        else:
+            # Sample windows from the text
+            for _ in range(n_windows):
+                start = np.random.randint(0, n_tokens - window_size + 1)
+                window = tokens[start:start + window_size]
+                windows.append(window)
+    
+    elif mode == 'chars':
+        # For character windows, work with the joined text
+        text = ' '.join(tokens)
+        n_chars = len(text)
+        
+        if n_chars < window_size:
+            # Pad by repeating the text
+            padded_text = text * ((window_size // n_chars) + 2)
+            for _ in range(n_windows):
+                start = np.random.randint(0, len(padded_text) - window_size + 1)
+                window_text = padded_text[start:start + window_size]
+                # Tokenize the character window
+                window = window_text.split()
+                windows.append(window)
+        else:
+            for _ in range(n_windows):
+                start = np.random.randint(0, n_chars - window_size + 1)
+                window_text = text[start:start + window_size]
+                # Tokenize the character window
+                window = window_text.split()
+                windows.append(window)
     
     return windows
 
@@ -159,32 +184,62 @@ def compute_pooled_profiles(k_texts_normalized):
 def main():
     parser = argparse.ArgumentParser(description='Generate bootstrap reference metrics')
     parser.add_argument('--k1', required=True, help='Path to K1.txt')
-    parser.add_argument('--k2', required=True, help='Path to K2.txt')
-    parser.add_argument('--k3', required=True, help='Path to K3.txt')
+    parser.add_argument('--k2', help='Path to K2.txt')
+    parser.add_argument('--k3', help='Path to K3.txt')
+    parser.add_argument('--k2-decl', help='Path to K2_decl.txt (declarative K2)')
     parser.add_argument('--fwords', default='experiments/cadence_panel/data/function_words.txt',
                        help='Path to function words')
     parser.add_argument('--windows', type=int, default=2000,
                        help='Number of bootstrap windows per K text')
-    parser.add_argument('--window-size', type=int, default=75,
-                       help='Size of each window in tokens')
+    parser.add_argument('--tokens', type=int, help='Size of each window in tokens')
+    parser.add_argument('--chars', type=int, help='Size of each window in characters')
     parser.add_argument('--seed', type=int, default=1337,
                        help='Random seed for reproducibility')
     parser.add_argument('--out', required=True, help='Output file for reference metrics')
     
     args = parser.parse_args()
     
+    # Determine window mode and size
+    if args.tokens and args.chars:
+        raise ValueError("Cannot specify both --tokens and --chars")
+    elif args.tokens:
+        window_mode = 'tokens'
+        window_size = args.tokens
+    elif args.chars:
+        window_mode = 'chars'
+        window_size = args.chars
+    else:
+        # Default to tokens
+        window_mode = 'tokens'
+        window_size = 75
+    
+    # Determine which K2 to use
+    if args.k2_decl:
+        # Using declarative K2
+        k_files = [args.k1, args.k2_decl]
+        if args.k3:
+            k_files.append(args.k3)
+        k_labels = ['K1', 'K2_decl', 'K3'] if args.k3 else ['K1', 'K2_decl']
+    else:
+        # Using regular K2
+        if not args.k2:
+            raise ValueError("Must provide either --k2 or --k2-decl")
+        k_files = [args.k1, args.k2]
+        if args.k3:
+            k_files.append(args.k3)
+        k_labels = ['K1', 'K2', 'K3'] if args.k3 else ['K1', 'K2']
+    
     # Load function words
     function_words = load_function_words(args.fwords)
     
     # Load and normalize K texts
-    k_files = [args.k1, args.k2, args.k3]
     k_texts_raw = []
     k_texts_normalized = []
     k_tokens_all = []
     k_x_counts = []
     
     print("Loading and normalizing K texts...")
-    for i, kfile in enumerate(k_files, 1):
+    for i, (kfile, label) in enumerate(zip(k_files, k_labels)):
         with open(kfile, 'r') as f:
             raw_text = f.read()
             k_texts_raw.append(raw_text)
@@ -198,7 +253,7 @@ def main():
         tokens = tokenize_k_text(norm_text)
         k_tokens_all.append(tokens)
         
-        print(f"  K{i}: {len(tokens)} tokens, X/100: {x_per_100:.2f}")
+        print(f"  {label}: {len(tokens)} tokens, X/100: {x_per_100:.2f}")
     
     # Compute pooled K profiles
     print("Computing pooled K profiles...")
@@ -211,16 +266,17 @@ def main():
         k_vocab_all.update(k_content)
     
     # Generate bootstrap windows and compute metrics
-    print(f"Generating {args.windows} windows per K text...")
+    print(f"Generating {args.windows} {window_mode} windows of size {window_size} per K text...")
     all_metrics = []
     
-    for i, tokens in enumerate(k_tokens_all, 1):
-        print(f"  Processing K{i}...")
+    for i, (tokens, label) in enumerate(zip(k_tokens_all, k_labels)):
+        print(f"  Processing {label}...")
         windows = create_bootstrap_windows(
             tokens, 
-            window_size=args.window_size,
+            window_size=window_size,
             n_windows=args.windows,
-            seed=args.seed + i  # Different seed for each K
+            seed=args.seed + i + 1,  # Different seed for each K
+            mode=window_mode
         )
         
         for j, window in enumerate(windows):
@@ -295,9 +351,11 @@ def main():
         'generated': datetime.now().isoformat(),
         'parameters': {
             'n_windows_per_k': args.windows,
-            'window_size': args.window_size,
+            'window_mode': window_mode,
+            'window_size': window_size,
             'seed': args.seed,
             'k_files': k_files,
+            'k_labels': k_labels,
             'total_windows': len(all_metrics)
         },
         'reference_stats': ref_stats,

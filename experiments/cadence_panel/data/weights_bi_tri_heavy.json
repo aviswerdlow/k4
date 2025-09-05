@@ -1,0 +1,10 @@
+{
+  "J_content": 0.20,
+  "J_content_lev1": 0.08,
+  "cosine_bigram": 0.30,
+  "cosine_trigram": 0.22,
+  "chi2_wordlen_abs": -0.08,
+  "vc_ratio_abs": -0.08,
+  "fw_mean_gap_abs": -0.02,
+  "fw_cv_abs": -0.02
+}

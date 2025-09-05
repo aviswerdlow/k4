@@ -75,6 +75,15 @@ This approach is cryptographically defensible because:
 
 **Tail Policy:** The tail `OF · AN · ANGLE · IS · THE · ARC` is an **empirical invariance** observed in seam-free runs under the registered rails (anchors + NA-only + Option-A + multi-class head schedule + head-only AND gate). Anchors alone do **not** force the tail (single-key infeasible; multi-class feasible but under-determined). We do not claim a proof beyond these tested conditions.
 
+## Register Disclosure (report-only)
+
+| Register | Notes |
+| -------- | ----- |
+| K1–K3 | Narrative/declarative; includes orthographic quirks (IQLUSION, UNDERGRUUND, DESPARATLY); prose-like n-grams |
+| K4 head (this frame) | Instructional/imperative surveying clause; optimized for semantics + statistical gate; stylistically distinct by panel |
+
+See comprehensive sensitivity analysis: `experiments/cadence_panel/runs/2025-09-05/CADENCE_PANEL_REPORT_COMPREHENSIVE.md`
+
 ## Null Model Validation
 
 **10K Mirrored Nulls**:
