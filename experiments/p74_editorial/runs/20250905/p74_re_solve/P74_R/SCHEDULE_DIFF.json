@@ -1,0 +1,51 @@
+{
+  "letter": "R",
+  "route_id": "GRID_W14_ROWS",
+  "classing": "c6a",
+  "families_L_phase": [
+    {
+      "class_id": 0,
+      "family": "vigenere",
+      "L": 17,
+      "phase": 0
+    },
+    {
+      "class_id": 1,
+      "family": "vigenere",
+      "L": 16,
+      "phase": 0
+    },
+    {
+      "class_id": 2,
+      "family": "beaufort",
+      "L": 16,
+      "phase": 0
+    },
+    {
+      "class_id": 3,
+      "family": "vigenere",
+      "L": 16,
+      "phase": 0
+    },
+    {
+      "class_id": 4,
+      "family": "beaufort",
+      "L": 16,
+      "phase": 0
+    },
+    {
+      "class_id": 5,
+      "family": "vigenere",
+      "L": 16,
+      "phase": 0
+    }
+  ],
+  "residue_covering_74": {
+    "class_id": 2,
+    "r": 12
+  },
+  "winner_K_at_cell": "T",
+  "letter_X_K_at_cell": "R",
+  "cells_identical_elsewhere": true,
+  "notes": "All classes identical to winner; only K at residue covering position 74 differs."
+}

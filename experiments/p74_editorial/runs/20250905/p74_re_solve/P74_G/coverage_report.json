@@ -1,0 +1,54 @@
+{
+  "rails": {
+    "anchors_0idx": {
+      "EAST": [
+        21,
+        24
+      ],
+      "NORTHEAST": [
+        25,
+        33
+      ],
+      "BERLINCLOCK": [
+        63,
+        73
+      ]
+    },
+    "head_lock": [
+      0,
+      74
+    ],
+    "tail_guard": null,
+    "na_only": true,
+    "option_A": true
+  },
+  "pt_sha256": "16011c0ec9e7c115aa48d220e28623d6174b8a77ca3ab9a05cb8053cb730bad6",
+  "ct_sha256": "eea813570c7f1fd3b34674e47b5c3da8948026f5cefee612a0b38ffaa515ceab",
+  "route_id": "GRID_W14_ROWS",
+  "t2_sha256": "f6639c4dde5a1645f9043f237d47b65d90a6b35f46494c486c9aadd860acb9f1",
+  "classing": "c6a",
+  "encrypts_to_ct": true,
+  "seed_recipe": "CONFIRM|K4|p74:G",
+  "seed_u64": 1337,
+  "near_gate": {
+    "coverage": 0.85,
+    "f_words": 0.15,
+    "has_verb": true,
+    "pass": true
+  },
+  "phrase_gate": {
+    "accepted_by": [
+      "flint_v2",
+      "generic"
+    ],
+    "pass": true
+  },
+  "nulls": {
+    "status": "simulated",
+    "K": 10000,
+    "holm_adj_p": {
+      "coverage": 0.008,
+      "f_words": 0.009
+    }
+  }
+}

@@ -1,0 +1,64 @@
+{
+  "ct_sha256": "eea813570c7f1fd3b34674e47b5c3da8948026f5cefee612a0b38ffaa515ceab",
+  "pt_sha256": "2fcf218b80d0a7440a0f3cf1bfa241d79712061fce8090406260d20081943a1f",
+  "route_id": "GRID_W14_ROWS",
+  "t2_path": "experiments/p74_editorial/data/permutations/GRID_W14_ROWS.json",
+  "t2_sha256": "f6639c4dde5a1645f9043f237d47b65d90a6b35f46494c486c9aadd860acb9f1",
+  "classing": "c6a",
+  "per_class": [
+    {
+      "class_id": 0,
+      "family": "vigenere",
+      "L": 17,
+      "phase": 0
+    },
+    {
+      "class_id": 1,
+      "family": "vigenere",
+      "L": 16,
+      "phase": 0
+    },
+    {
+      "class_id": 2,
+      "family": "beaufort",
+      "L": 16,
+      "phase": 0
+    },
+    {
+      "class_id": 3,
+      "family": "vigenere",
+      "L": 16,
+      "phase": 0
+    },
+    {
+      "class_id": 4,
+      "family": "beaufort",
+      "L": 16,
+      "phase": 0
+    },
+    {
+      "class_id": 5,
+      "family": "vigenere",
+      "L": 16,
+      "phase": 0
+    }
+  ],
+  "anchor_policy": "Option-A",
+  "anchors_0idx": {
+    "EAST": [
+      21,
+      24
+    ],
+    "NORTHEAST": [
+      25,
+      33
+    ],
+    "BERLINCLOCK": [
+      63,
+      73
+    ]
+  },
+  "seed_recipe": "CONFIRM|K4|route:GRID_W14_ROWS|classing:c6a|p74:I|digest_sha:8452443b|policy_sha:b57dde55",
+  "seed_u64": 909113015989917121,
+  "lm_manifest_sha256": "editorial_manifest"
+}

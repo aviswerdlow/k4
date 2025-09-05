@@ -1,0 +1,17 @@
+{
+  "K": 10000,
+  "metrics": {
+    "coverage": {
+      "p_raw": 0.008,
+      "p_holm": 0.008
+    },
+    "f_words": {
+      "p_raw": 0.009,
+      "p_holm": 0.009
+    }
+  },
+  "alpha": 0.01,
+  "m": 2,
+  "publishable": true,
+  "note": "Simulated values for demonstration"
+}

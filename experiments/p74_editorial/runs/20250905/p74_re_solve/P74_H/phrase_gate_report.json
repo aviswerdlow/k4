@@ -1,0 +1,27 @@
+{
+  "flint_v2": {
+    "status": "pass",
+    "directions": [
+      "EAST",
+      "NORTHEAST"
+    ],
+    "instrument_verb": "READ",
+    "instrument_noun": "BERLINCLOCK",
+    "content_words": 8,
+    "max_repeat": 1,
+    "pass": true
+  },
+  "generic": {
+    "status": "pass",
+    "perplexity_percentile": 0.8,
+    "pos_score": 0.65,
+    "content_words": 8,
+    "max_repeat": 1,
+    "pass": true
+  },
+  "accepted_by": [
+    "flint_v2",
+    "generic"
+  ],
+  "pass": true
+}

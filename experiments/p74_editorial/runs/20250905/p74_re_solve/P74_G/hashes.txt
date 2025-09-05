@@ -1,0 +1,5 @@
+pt_sha256: 16011c0ec9e7c115aa48d220e28623d6174b8a77ca3ab9a05cb8053cb730bad6
+ct_sha256: eea813570c7f1fd3b34674e47b5c3da8948026f5cefee612a0b38ffaa515ceab
+route: GRID_W14_ROWS
+classing: c6a
+p74: G
