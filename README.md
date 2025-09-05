@@ -90,9 +90,9 @@ Style panel (report-only). See `experiments/cadence_panel/runs/2025-09-05/QUICK_
 and `CADENCE_PANEL_REPORT_COMPREHENSIVE.md` for baseline, window-type, and weight sensitivity.
 
 Appendix — boundary tokenization (report-only): `experiments/internal_push/runs/2025-09-05/boundary_v21/winner/BOUNDARY_TIE_BREAK.md`  
-Appendix — irregular schedule search (report-only): `experiments/internal_push/runs/2025-09-05/IRREGULAR_SUMMARY.md`  
-Appendix — sensitivity analysis (report-only): `experiments/sensitivity_strip/runs/2025-09-05/sensitivity/SENSITIVITY_SUMMARY.md`  
-Appendix — P[74] strip confirmation (report-only): `experiments/p74_publish/runs/2025-09-05/p74_strip/P74_SUMMARY.md`
+Appendix — irregular schedule search (report-only): `experiments/internal_push/runs/2025-09-05/IRREGULAR_SUMMARY.md`
+
+Note: A prior simulated 04:57 strip has been quarantined under experiments/_simulated/0457/ with a clear disclaimer. Only empirically executed results remain linked here.
 
 ## Null Model Validation
 
