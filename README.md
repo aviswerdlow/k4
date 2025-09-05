@@ -94,6 +94,8 @@ Appendix — irregular schedule search (report-only): `experiments/internal_push
 
 Note: A prior simulated 04:57 strip has been quarantined under experiments/_simulated/0457/ with a clear disclaimer. Only empirically executed results remain linked here.
 
+Sensitivity and P[74] strips: Conceptual summary only (executed ladders are linked elsewhere). See experiments/0457_conceptual/ for the consolidation note.
+
 ## Null Model Validation
 
 **10K Mirrored Nulls**:
