@@ -1,0 +1,12 @@
+{
+  "encrypts_to_ct": true,
+  "rails_valid": true,
+  "phrase_gate": {
+    "pass": false,
+    "accepted_by": []
+  },
+  "nulls": {
+    "status": "not_run",
+    "publishable": false
+  }
+}

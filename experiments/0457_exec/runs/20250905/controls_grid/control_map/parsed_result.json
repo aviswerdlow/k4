@@ -1,0 +1,13 @@
+{
+  "encrypts_to_ct": false,
+  "rails_valid": false,
+  "phrase_gate": {
+    "pass": false,
+    "accepted_by": []
+  },
+  "nulls": {
+    "publishable": false,
+    "p_cov_holm": 1.0,
+    "p_fw_holm": 1.0
+  }
+}

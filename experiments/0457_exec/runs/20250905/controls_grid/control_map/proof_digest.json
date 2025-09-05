@@ -1,0 +1,210 @@
+{
+  "ct_sha256": "eea813570c7f1fd3b34674e47b5c3da8948026f5cefee612a0b38ffaa515ceab",
+  "pt_sha256": "50616118b3b9dd2909f989e1fbf905061a72aeda47c22d97501c3391e876301a",
+  "route_id": "GRID_W14_ROWS",
+  "t2_path": "permutations/GRID_W14_ROWS.json",
+  "t2_sha256": "a5260415e76509638b4845d5e707521126aca2d67b50177b3c94f8ccc4c56c31",
+  "classing": "c6a",
+  "per_class": [
+    {
+      "class_id": 0,
+      "family": "vigenere",
+      "L": 17,
+      "phase": 0
+    },
+    {
+      "class_id": 1,
+      "family": "vigenere",
+      "L": 16,
+      "phase": 0
+    },
+    {
+      "class_id": 2,
+      "family": "beaufort",
+      "L": 16,
+      "phase": 0
+    },
+    {
+      "class_id": 3,
+      "family": "vigenere",
+      "L": 16,
+      "phase": 0
+    },
+    {
+      "class_id": 4,
+      "family": "beaufort",
+      "L": 16,
+      "phase": 0
+    },
+    {
+      "class_id": 5,
+      "family": "vigenere",
+      "L": 16,
+      "phase": 0
+    }
+  ],
+  "anchor_policy": "Option-A",
+  "anchors_0idx": {
+    "EAST": [
+      21,
+      24
+    ],
+    "NORTHEAST": [
+      25,
+      33
+    ],
+    "BERLINCLOCK": [
+      63,
+      73
+    ]
+  },
+  "forced_anchor_residues": [
+    {
+      "i": 21,
+      "class_id": 3,
+      "residue": 3,
+      "kv": 1
+    },
+    {
+      "i": 22,
+      "class_id": 1,
+      "residue": 3,
+      "kv": 11
+    },
+    {
+      "i": 23,
+      "class_id": 5,
+      "residue": 3,
+      "kv": 25
+    },
+    {
+      "i": 24,
+      "class_id": 0,
+      "residue": 4,
+      "kv": 2
+    },
+    {
+      "i": 25,
+      "class_id": 4,
+      "residue": 4,
+      "kv": 3
+    },
+    {
+      "i": 26,
+      "class_id": 2,
+      "residue": 4,
+      "kv": 4
+    },
+    {
+      "i": 27,
+      "class_id": 3,
+      "residue": 4,
+      "kv": 24
+    },
+    {
+      "i": 28,
+      "class_id": 1,
+      "residue": 4,
+      "kv": 24
+    },
+    {
+      "i": 29,
+      "class_id": 5,
+      "residue": 4,
+      "kv": 6
+    },
+    {
+      "i": 30,
+      "class_id": 0,
+      "residue": 5,
+      "kv": 2
+    },
+    {
+      "i": 31,
+      "class_id": 4,
+      "residue": 5,
+      "kv": 10
+    },
+    {
+      "i": 32,
+      "class_id": 2,
+      "residue": 5,
+      "kv": 10
+    },
+    {
+      "i": 33,
+      "class_id": 3,
+      "residue": 5,
+      "kv": 25
+    },
+    {
+      "i": 63,
+      "class_id": 3,
+      "residue": 10,
+      "kv": 12
+    },
+    {
+      "i": 64,
+      "class_id": 1,
+      "residue": 10,
+      "kv": 20
+    },
+    {
+      "i": 65,
+      "class_id": 5,
+      "residue": 10,
+      "kv": 24
+    },
+    {
+      "i": 66,
+      "class_id": 0,
+      "residue": 11,
+      "kv": 10
+    },
+    {
+      "i": 67,
+      "class_id": 4,
+      "residue": 11,
+      "kv": 1
+    },
+    {
+      "i": 68,
+      "class_id": 2,
+      "residue": 11,
+      "kv": 6
+    },
+    {
+      "i": 69,
+      "class_id": 3,
+      "residue": 11,
+      "kv": 10
+    },
+    {
+      "i": 70,
+      "class_id": 1,
+      "residue": 11,
+      "kv": 14
+    },
+    {
+      "i": 71,
+      "class_id": 5,
+      "residue": 11,
+      "kv": 17
+    },
+    {
+      "i": 72,
+      "class_id": 0,
+      "residue": 12,
+      "kv": 13
+    },
+    {
+      "i": 73,
+      "class_id": 4,
+      "residue": 12,
+      "kv": 20
+    }
+  ],
+  "seed_recipe": "CONFIRM|K4|route:GRID_W14_ROWS|digest_sha:265abadd|label:control_map",
+  "seed_u64": 10133765262265812130,
+  "lm_manifest_sha256": "lane_pinned_manifest"
+}

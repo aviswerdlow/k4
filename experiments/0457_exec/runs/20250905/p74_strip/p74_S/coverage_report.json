@@ -1,0 +1,34 @@
+{
+  "pt_sha256": "c5b72014ab658407239e9e46f8168d9fda3db353d165668d8b241f07561b19ae",
+  "ct_sha256": "eea813570c7f1fd3b34674e47b5c3da8948026f5cefee612a0b38ffaa515ceab",
+  "t2_sha256": "b19443f553acbb4ca022c3bdbe74c4353f1dc9c1f86827e3358146aa1634e767",
+  "encrypts_to_ct": true,
+  "option_a_passed": true,
+  "rails_valid": true,
+  "near_gate": {
+    "coverage": 0.923,
+    "function_words": 10,
+    "has_verb": true,
+    "passed": true
+  },
+  "phrase_gate": {
+    "combine": "AND",
+    "tracks": [
+      "flint_v2",
+      "generic"
+    ],
+    "pass": true
+  },
+  "nulls": {
+    "status": "ran",
+    "K": 10000,
+    "p_cov_raw": 0.0001,
+    "p_fw_raw": 5e-05,
+    "p_cov_holm": 0.0002,
+    "p_fw_holm": 0.0001,
+    "publishable": true
+  },
+  "seed_u64": 1337,
+  "seed_recipe": "CONFIRM|K4|route:GRID_W14_ROWS|rep:0",
+  "replicate": 0
+}

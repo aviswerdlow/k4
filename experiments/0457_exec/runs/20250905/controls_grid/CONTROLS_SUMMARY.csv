@@ -1,0 +1,4 @@
+label,encrypts_to_ct,flint_pass,generic_pass,holm_cov_adj,holm_fw_adj,publishable,fail_point
+IS A MAP,False,False,False,1.0,1.0,False,lawfulness
+IS TRUE,False,False,False,1.0,1.0,False,lawfulness
+IS FACT,False,False,False,1.0,1.0,False,lawfulness

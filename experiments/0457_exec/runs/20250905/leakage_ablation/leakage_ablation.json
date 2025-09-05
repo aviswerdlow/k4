@@ -1,0 +1,28 @@
+{
+  "generic_unmasked": {
+    "perplexity_percentile": 0.8,
+    "pos_score": 0.65,
+    "pass": true
+  },
+  "generic_masked": {
+    "perplexity_percentile": 0.9,
+    "pos_score": 0.63,
+    "pass": true
+  },
+  "mask_spans_0idx": [
+    [
+      21,
+      24
+    ],
+    [
+      25,
+      33
+    ],
+    [
+      63,
+      73
+    ]
+  ],
+  "accepted_by_and_gate": true,
+  "notes": "Flint unchanged; nulls unchanged; decision policy unchanged."
+}

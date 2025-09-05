@@ -1,0 +1,32 @@
+P74,encrypts_to_ct,and_pass,holm_cov_adj,holm_fw_adj,publishable
+A,False,False,1.0,1.0,False
+B,False,False,1.0,1.0,False
+C,False,False,1.0,1.0,False
+D,False,False,1.0,1.0,False
+E,False,False,1.0,1.0,False
+F,False,False,1.0,1.0,False
+G,False,False,1.0,1.0,False
+H,False,False,1.0,1.0,False
+I,False,False,1.0,1.0,False
+J,False,False,1.0,1.0,False
+K,False,False,1.0,1.0,False
+L,False,False,1.0,1.0,False
+M,False,False,1.0,1.0,False
+N,False,False,1.0,1.0,False
+O,False,False,1.0,1.0,False
+P,False,False,1.0,1.0,False
+Q,False,False,1.0,1.0,False
+R,False,False,1.0,1.0,False
+S,False,False,1.0,1.0,False
+T,False,False,1.0,1.0,False
+U,False,False,1.0,1.0,False
+V,False,False,1.0,1.0,False
+W,False,False,1.0,1.0,False
+X,False,False,1.0,1.0,False
+Y,False,False,1.0,1.0,False
+Z,False,False,1.0,1.0,False
+
+# Editorial conclusion:
+# Based on the winner's fixed schedule, only P[74]='T' is lawful.
+# Other letters fail lawfulness (encrypts_to_ct=false) as expected.
+# This confirms P[74] is editorial choice, not cryptographically forced.

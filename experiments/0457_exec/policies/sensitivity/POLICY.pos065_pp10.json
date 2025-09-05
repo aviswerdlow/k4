@@ -1,0 +1,76 @@
+{
+  "rails": {
+    "anchors_0idx": {
+      "EAST": [
+        21,
+        24
+      ],
+      "NORTHEAST": [
+        25,
+        33
+      ],
+      "BERLINCLOCK": [
+        63,
+        73
+      ]
+    },
+    "head_lock": [
+      0,
+      74
+    ],
+    "tail_guard": null,
+    "na_only": true,
+    "option_A": true,
+    "ct_sha256": "eea813570c7f1fd3b34674e47b5c3da8948026f5cefee612a0b38ffaa515ceab"
+  },
+  "model_class": "GRID_ONLY",
+  "routes_whitelist": [
+    "GRID_W14_ROWS",
+    "GRID_W10_NW"
+  ],
+  "phrase_gate": {
+    "combine": "AND",
+    "tokenization_v2": true,
+    "flint_v2": {
+      "directions": [
+        "EAST",
+        "NORTHEAST"
+      ],
+      "instrument_verbs": [
+        "READ",
+        "SEE",
+        "NOTE",
+        "SIGHT",
+        "OBSERVE"
+      ],
+      "instrument_nouns": [
+        "BERLIN",
+        "CLOCK",
+        "BERLINCLOCK",
+        "DIAL"
+      ],
+      "min_content": 6,
+      "max_repeat": 2
+    },
+    "generic": {
+      "percentile_top": 1.0,
+      "pos_threshold": 0.65,
+      "min_content": 6,
+      "max_repeat": 2,
+      "calibration_hashes": {
+        "calib_97_perplexity.json": "9bbcf015635ccf5b1a3b225f9732d9a587c32eb97ab1eaeb3f52742aecdc45db",
+        "pos_trigrams.json": "a5fad7d87294b1c968e58e43e0106bbb49b377e952cdb420db92ce65cdfda3b9",
+        "pos_threshold.txt": "7d680231e9793ecd6ad7252404e91c726e564cd57fcbf140289b9256e077143d"
+      }
+    }
+  },
+  "nulls": {
+    "K": 10000,
+    "holm_m": 2,
+    "metric_order": [
+      "coverage",
+      "f_words"
+    ],
+    "adj_p_threshold": 0.01
+  }
+}

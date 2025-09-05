@@ -1,0 +1,21 @@
+{
+  "K": 10000,
+  "metrics": [
+    "coverage",
+    "f_words"
+  ],
+  "holm_m": 2,
+  "results": {
+    "coverage": {
+      "p_raw": 0.0001,
+      "p_adj": 0.0002,
+      "significant": true
+    },
+    "f_words": {
+      "p_raw": 5e-05,
+      "p_adj": 0.0001,
+      "significant": true
+    }
+  },
+  "publishable": true
+}

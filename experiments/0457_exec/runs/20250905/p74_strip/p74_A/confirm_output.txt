@@ -1,0 +1,10 @@
+Command: python3 -m k4cli.cli confirm --policy experiments/0457_exec/policies/POLICY.publication.json --pt experiments/0457_exec/runs/20250905/p74_strip/pt_A.txt --proof experiments/0457_exec/runs/20250905/p74_strip/p74_A/proof_digest.json --out experiments/0457_exec/runs/20250905/p74_strip/p74_A
+Return code: 2
+STDOUT:
+
+STDERR:
+Usage: python -m k4cli.cli confirm [OPTIONS]
+Try 'python -m k4cli.cli confirm --help' for help.
+
+Error: Missing option '--ct'.
+
