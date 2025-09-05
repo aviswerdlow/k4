@@ -1,0 +1,31 @@
+{
+  "head_tokens": [
+    "W",
+    "ECA",
+    "NSE",
+    "ETH",
+    "ETEX",
+    "TI",
+    "SCOD",
+    "EEAS",
+    "TNORTHEAS",
+    "TW",
+    "ESE",
+    "TTH",
+    "ECOURS",
+    "ETRU",
+    "EREA",
+    "DTHE",
+    "NSE",
+    "EBERLI",
+    "NCLOC",
+    "K",
+    "THE"
+  ],
+  "head_fword_count": 1,
+  "head_fwords": [
+    "the"
+  ],
+  "tokenization": "v21",
+  "notes": "Boundary-aware tokenization (splits THEJOY if present at position 74)"
+}

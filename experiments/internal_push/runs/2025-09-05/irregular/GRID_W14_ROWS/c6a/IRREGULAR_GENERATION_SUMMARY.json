@@ -1,0 +1,12 @@
+{
+  "route": "GRID_W14_ROWS",
+  "classing": "c6a",
+  "shells_run": [
+    1,
+    2
+  ],
+  "lawful_found": 0,
+  "max_lawful": 10,
+  "seed": 1337,
+  "results": []
+}

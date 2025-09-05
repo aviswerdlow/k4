@@ -1,0 +1,30 @@
+{
+  "creation_date": "2025-09-05",
+  "seed": 1337,
+  "samples": [
+    {
+      "presentation_id": "A",
+      "true_source": "K2",
+      "text_length": 61,
+      "text_hash": "eaf90e5e30afaff4"
+    },
+    {
+      "presentation_id": "B",
+      "true_source": "K1",
+      "text_length": 63,
+      "text_hash": "a4a581f02185ae92"
+    },
+    {
+      "presentation_id": "C",
+      "true_source": "K4_winner",
+      "text_length": 72,
+      "text_hash": "1bc99f63a10c9dd6"
+    },
+    {
+      "presentation_id": "D",
+      "true_source": "K3",
+      "text_length": 184,
+      "text_hash": "87739aa4e9f001fe"
+    }
+  ]
+}

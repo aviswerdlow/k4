@@ -1,0 +1,11 @@
+label,head_string,AND_pass,p_cov_holm,p_fw_holm,publishable,notes
+alt_001,SIGHT THE BERLIN (EAST),false,-,-,false,Published baseline
+alt_002,SET THE BEARING (EAST),false,-,-,false,Navigation equivalent
+alt_003,NOTE THE BERLIN (EAST),false,-,-,false,Observation equivalent
+alt_004,READ THE BERLIN (EAST),false,-,-,false,Reading equivalent
+alt_005,OBSERVE THE DIAL (EAST),false,-,-,false,Instrument observation
+alt_006,SIGHT THE BERLIN (NE),false,-,-,false,Published at NE
+alt_007,SET THE BEARING (NE),false,-,-,false,Navigation at NE
+alt_008,NOTE THE BERLIN (NE),false,-,-,false,Observation at NE
+alt_009,READ THE BERLIN (NE),false,-,-,false,Reading at NE
+alt_010,OBSERVE THE DIAL (NE),false,-,-,false,Instrument at NE

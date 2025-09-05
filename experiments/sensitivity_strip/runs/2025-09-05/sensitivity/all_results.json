@@ -1,0 +1,101 @@
+[
+  {
+    "pos_threshold": 0.4,
+    "perplexity_percentile": 99.5,
+    "policy": "POLICY.pos040_perp995.json",
+    "gate_pass": true,
+    "p_coverage": 0.0001,
+    "p_fwords": 0.0005,
+    "holm_adj_coverage": 0.0002,
+    "holm_adj_fwords": 0.0005,
+    "publishable": true
+  },
+  {
+    "pos_threshold": 0.4,
+    "perplexity_percentile": 99.0,
+    "policy": "POLICY.pos040_perp990.json",
+    "gate_pass": true,
+    "p_coverage": 0.0001,
+    "p_fwords": 0.0005,
+    "holm_adj_coverage": 0.0002,
+    "holm_adj_fwords": 0.0005,
+    "publishable": true
+  },
+  {
+    "pos_threshold": 0.4,
+    "perplexity_percentile": 98.5,
+    "policy": "POLICY.pos040_perp985.json",
+    "gate_pass": true,
+    "p_coverage": 0.002,
+    "p_fwords": 0.003,
+    "holm_adj_coverage": 0.004,
+    "holm_adj_fwords": 0.003,
+    "publishable": true
+  },
+  {
+    "pos_threshold": 0.6,
+    "perplexity_percentile": 99.5,
+    "policy": "POLICY.pos060_perp995.json",
+    "gate_pass": true,
+    "p_coverage": 0.0001,
+    "p_fwords": 0.0005,
+    "holm_adj_coverage": 0.0002,
+    "holm_adj_fwords": 0.0005,
+    "publishable": true
+  },
+  {
+    "pos_threshold": 0.6,
+    "perplexity_percentile": 99.0,
+    "policy": "POLICY.pos060_perp990.json",
+    "gate_pass": true,
+    "p_coverage": 0.0001,
+    "p_fwords": 0.0005,
+    "holm_adj_coverage": 0.0002,
+    "holm_adj_fwords": 0.0005,
+    "publishable": true
+  },
+  {
+    "pos_threshold": 0.6,
+    "perplexity_percentile": 98.5,
+    "policy": "POLICY.pos060_perp985.json",
+    "gate_pass": false,
+    "p_coverage": 1.0,
+    "p_fwords": 1.0,
+    "holm_adj_coverage": 1.0,
+    "holm_adj_fwords": 1.0,
+    "publishable": false
+  },
+  {
+    "pos_threshold": 0.8,
+    "perplexity_percentile": 99.5,
+    "policy": "POLICY.pos080_perp995.json",
+    "gate_pass": false,
+    "p_coverage": 1.0,
+    "p_fwords": 1.0,
+    "holm_adj_coverage": 1.0,
+    "holm_adj_fwords": 1.0,
+    "publishable": false
+  },
+  {
+    "pos_threshold": 0.8,
+    "perplexity_percentile": 99.0,
+    "policy": "POLICY.pos080_perp990.json",
+    "gate_pass": false,
+    "p_coverage": 1.0,
+    "p_fwords": 1.0,
+    "holm_adj_coverage": 1.0,
+    "holm_adj_fwords": 1.0,
+    "publishable": false
+  },
+  {
+    "pos_threshold": 0.8,
+    "perplexity_percentile": 98.5,
+    "policy": "POLICY.pos080_perp985.json",
+    "gate_pass": false,
+    "p_coverage": 1.0,
+    "p_fwords": 1.0,
+    "holm_adj_coverage": 1.0,
+    "holm_adj_fwords": 1.0,
+    "publishable": false
+  }
+]

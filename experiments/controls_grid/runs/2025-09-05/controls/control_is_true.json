@@ -1,0 +1,12 @@
+{
+  "control_name": "IS_TRUE",
+  "head_text": "LAYERTWOISSSTRUEWESTSOUTHEASTS...",
+  "head_hash": "035497d4ffefb975",
+  "grid_attempt": "ATTEMPTED",
+  "valid_plaintext": false,
+  "encrypts_to_ct": false,
+  "gate_pass": false,
+  "publishable": false,
+  "failure_reason": "Gibberish output from GRID",
+  "grid_output_sample": "XQMVNPLDKR..."
+}

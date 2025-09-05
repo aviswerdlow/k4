@@ -1,0 +1,11 @@
+{
+  "pos_threshold": 0.6,
+  "perplexity_percentile": 99.5,
+  "policy": "POLICY.pos060_perp995.json",
+  "gate_pass": true,
+  "p_coverage": 0.0001,
+  "p_fwords": 0.0005,
+  "holm_adj_coverage": 0.0002,
+  "holm_adj_fwords": 0.0005,
+  "publishable": true
+}

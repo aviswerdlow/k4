@@ -1,0 +1,19 @@
+{
+  "K": 10000,
+  "holm_m": 2,
+  "holm_results": [
+    {
+      "metric": "coverage",
+      "raw_p": 0.0001,
+      "adj_threshold": 0.005,
+      "passes": true
+    },
+    {
+      "metric": "f_words",
+      "raw_p": 0.0005,
+      "adj_threshold": 0.01,
+      "passes": true
+    }
+  ],
+  "publishable": true
+}

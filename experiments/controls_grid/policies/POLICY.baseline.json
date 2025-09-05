@@ -1,0 +1,30 @@
+{
+  "description": "GRID controls test",
+  "seed": 1337,
+  "report_only": true,
+  "phrase_gate": {
+    "surveying_semantics": {
+      "type": "Flint v2",
+      "enabled": true,
+      "reference": "Claude Opus 3.0"
+    },
+    "generic_quality": {
+      "type": "Generic",
+      "perplexity_percentile": 99.5,
+      "pos_threshold": 0.6,
+      "reference": "GPT-4 (July 2024)"
+    },
+    "gate_logic": "AND",
+    "tokenization": "v2"
+  },
+  "null_hypothesis": {
+    "bootstrap_samples": 10000,
+    "correction": "Holm",
+    "m_tests": 2,
+    "alpha": 0.01
+  },
+  "head_window": {
+    "start": 0,
+    "end": 74
+  }
+}

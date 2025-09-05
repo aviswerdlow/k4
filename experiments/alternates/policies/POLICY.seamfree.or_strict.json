@@ -1,0 +1,55 @@
+{
+  "rails": {
+    "anchors_0idx": {
+      "EAST": [21, 24],
+      "NORTHEAST": [25, 33],
+      "BERLINCLOCK": [63, 73]
+    },
+    "head_lock": [0, 74],
+    "tail_guard": null,
+    "ct_sha256": "eea813570c7f1fd3b34674e47b5c3da8948026f5cefee612a0b38ffaa515ceab",
+    "na_only": true,
+    "option_A": true
+  },
+  "model_class": {
+    "routes": "GRID_ONLY",
+    "route_whitelist": ["GRID_W14_ROWS", "GRID_W10_NW"],
+    "classings": ["c6a", "c6b"],
+    "families": ["vigenere", "variant_beaufort", "beaufort"],
+    "periods": [10, 22],
+    "phases": "0..L-1"
+  },
+  "phrase_gate": {
+    "combine": "OR",
+    "tokenization_v2": true,
+    "flint_v2": {
+      "directions": ["EAST", "NORTHEAST"],
+      "instrument_verbs": ["READ", "SEE", "NOTE", "SIGHT", "OBSERVE"],
+      "instrument_nouns": ["BERLIN", "CLOCK", "BERLINCLOCK", "DIAL"],
+      "declination_scaffolds": [
+        "SET", "COURSE", "TRUE", "MERIDIAN", "BEARING", 
+        "LINE", "REDUCE", "CORRECT", "APPLY", "BRING"
+      ],
+      "min_content": 6,
+      "max_repeat": 2
+    },
+    "generic": {
+      "percentile_top": 0.5,
+      "pos_threshold": 0.60,
+      "min_content": 6,
+      "max_repeat": 2,
+      "calibration_hashes": {
+        "calib_97_perplexity.json": "placeholder_sha256",
+        "pos_trigrams.json": "placeholder_sha256",
+        "pos_threshold.txt": "placeholder_sha256"
+      }
+    }
+  },
+  "nulls": {
+    "K": 10000,
+    "holm_m": 2,
+    "metric_order": ["coverage", "f_words"],
+    "adj_p_threshold": 0.01
+  },
+  "notes": "OR gate with strict Generic (top-0.5% perplexity); head-only decision; anchors fixed; NA-only; Option-A; nulls mirrored."
+}

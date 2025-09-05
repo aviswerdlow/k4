@@ -1,0 +1,12 @@
+{
+  "control_name": "IS_FACT",
+  "head_text": "LAYERTWOISSAFACTWESTSOUTHEASTS...",
+  "head_hash": "53bd0fb4b777ce37",
+  "grid_attempt": "ATTEMPTED",
+  "valid_plaintext": false,
+  "encrypts_to_ct": false,
+  "gate_pass": false,
+  "publishable": false,
+  "failure_reason": "Does not encrypt to K4 ciphertext",
+  "encryption_mismatch": true
+}

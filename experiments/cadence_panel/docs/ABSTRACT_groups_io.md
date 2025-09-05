@@ -38,6 +38,16 @@ For complete verification and sensitivity analysis:
 
 Key finding: Winner maintains higher CCS than runner across all 6 sensitivity configurations (token windows, character windows, declarative reference, and 3 weight variants). Ordering is robust.
 
+## Alternates Exploration
+
+We also tested **equivalent surveying imperatives** ('SET THE BEARING TRUE', 'CORRECT THE BEARING TO TRUE', 'REDUCE THE COURSE TO THE TRUE MERIDIAN', 'BRING THE LINE TO TRUE MERIDIAN', 'APPLY DECLINATION', 'READ/SEE/NOTE/SIGHT/OBSERVE THE BERLIN/CLOCK') under GRID-only + AND + nulls (seam-free). **No alternates** passed. Adjacent frames (AND POS ≥ 0.80; full-deck AND; OR with top-0.5%) behaved as expected (either eliminated by stricter bars, or filtered by nulls after gate). One-page summaries and SHA manifests live in `experiments/alternates/runs/2025-09-05/`.
+
+### Alternates Reproduction Pack
+- **Within-frame summary**: `experiments/alternates/runs/2025-09-05/within_frame/ALTERNATES_SUMMARY.md`
+- **Adjacent frames**: `experiments/alternates/runs/2025-09-05/{and_pos080,full_deck,or_strict}/SUMMARY.md`
+- **Reproduction steps**: `experiments/alternates/runs/2025-09-05/REPRO_STEPS.md`
+- **File integrity**: `experiments/alternates/runs/2025-09-05/MANIFEST.sha256`
+
 ## Invitation for Review
 
 We explicitly invite:
@@ -46,5 +56,6 @@ We explicitly invite:
 - Critique of our tie-breaker methodology
 - Additional style metrics for the cadence panel
 - Discussion of the tail invariance observation
+- Review of alternate imperatives testing
 
 Please respond with specific, testable alternatives that we can implement and evaluate under controlled conditions.

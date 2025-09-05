@@ -1,0 +1,54 @@
+{
+  "rails_echo": {
+    "anchors_0idx": {
+      "EAST": [
+        21,
+        24
+      ],
+      "NORTHEAST": [
+        25,
+        33
+      ],
+      "BERLINCLOCK": [
+        63,
+        73
+      ]
+    },
+    "head_lock": [
+      0,
+      74
+    ],
+    "tail_guard": null,
+    "na_only": true,
+    "option_A": true,
+    "ct_sha256": "eea813570c7f1fd3b34674e47b5c3da8948026f5cefee612a0b38ffaa515ceab"
+  },
+  "encrypts_to_ct": true,
+  "seed_recipe": "INTAKE|sample_winner|1337",
+  "seed_u64": 1337,
+  "near_metrics": {},
+  "phrase_metrics": {
+    "flint_pass": true,
+    "generic_pass": true,
+    "and_pass": true
+  },
+  "null_metrics": {
+    "K": 10000,
+    "holm_m": 2,
+    "holm_results": [
+      {
+        "metric": "coverage",
+        "raw_p": 0.0001,
+        "adj_threshold": 0.005,
+        "passes": true
+      },
+      {
+        "metric": "f_words",
+        "raw_p": 0.0005,
+        "adj_threshold": 0.01,
+        "passes": true
+      }
+    ],
+    "publishable": true
+  }
+}

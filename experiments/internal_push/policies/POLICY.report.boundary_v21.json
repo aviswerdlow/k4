@@ -1,0 +1,9 @@
+{
+  "report_only": true,
+  "tokenization_v21": {
+    "split_THEJOY": true,
+    "apply_to_head_window": [0, 74],
+    "seam_ignored": true
+  },
+  "notes": "Boundary-aware tokenization v2.1 used only for reporting/tie-break (not in decision gating)."
+}

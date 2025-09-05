@@ -1,0 +1,46 @@
+{
+  "date": "2025-09-05",
+  "controls_tested": 3,
+  "valid_solutions": 0,
+  "expected_failures": 3,
+  "actual_failures": 3,
+  "test_passed": true,
+  "results": [
+    {
+      "control_name": "IS_A_MAP",
+      "head_text": "LAYERTWOISEAMAPWESTSOUTHEASTSO...",
+      "head_hash": "a7e7ea86a66d9a8a",
+      "grid_attempt": "ATTEMPTED",
+      "valid_plaintext": false,
+      "encrypts_to_ct": false,
+      "gate_pass": false,
+      "publishable": false,
+      "failure_reason": "No valid GRID transposition found",
+      "grid_error": "Alignment constraints violated"
+    },
+    {
+      "control_name": "IS_TRUE",
+      "head_text": "LAYERTWOISSSTRUEWESTSOUTHEASTS...",
+      "head_hash": "035497d4ffefb975",
+      "grid_attempt": "ATTEMPTED",
+      "valid_plaintext": false,
+      "encrypts_to_ct": false,
+      "gate_pass": false,
+      "publishable": false,
+      "failure_reason": "Gibberish output from GRID",
+      "grid_output_sample": "XQMVNPLDKR..."
+    },
+    {
+      "control_name": "IS_FACT",
+      "head_text": "LAYERTWOISSAFACTWESTSOUTHEASTS...",
+      "head_hash": "53bd0fb4b777ce37",
+      "grid_attempt": "ATTEMPTED",
+      "valid_plaintext": false,
+      "encrypts_to_ct": false,
+      "gate_pass": false,
+      "publishable": false,
+      "failure_reason": "Does not encrypt to K4 ciphertext",
+      "encryption_mismatch": true
+    }
+  ]
+}

@@ -1,0 +1,16 @@
+{
+  "letters_74_80": "THEJOY",
+  "v2": {
+    "head_fword_count": 0,
+    "head_fwords": []
+  },
+  "v21": {
+    "head_fword_count": 1,
+    "head_fwords": [
+      "the"
+    ],
+    "delta": 1
+  },
+  "applied": true,
+  "notes": "Report-only; decision gate remains tokenization v2."
+}

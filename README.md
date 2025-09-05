@@ -14,6 +14,10 @@
 
 > A **Sanborn cadence panel** (report-only) compares candidate heads to K1–K3 style; see `experiments/cadence_panel/runs/2025-09-04/CADENCE_PANEL_REPORT.md`.
 
+**Alternates (report-only).** We generated surveying-equivalent heads ("SET THE BEARING…", "READ THE BERLIN…", "OBSERVE THE DIAL…", etc.) and evaluated them under the same rails (GRID-only; anchors fixed; NA-only; Option-A; multi-class schedule), seam-free, with a head-only **AND** gate (Flint v2 + calibrated Generic, tokenization v2) and **10k mirrored nulls** (Holm m=2). **No alternates** passed both gate and nulls.
+
+**Adjacent frames (report-only).** As expected, stricter bars (AND with POS ≥ 0.80) eliminated everything; full-deck + AND remained selective; **OR** with top-0.5% perplexity admitted more candidates, but **nulls filtered all**. Summaries and manifests: `experiments/alternates/runs/2025-09-05/`.
+
 ---
 
 **Executive Summary**: Unique solution within GRID-only model class restriction under AND gate policy.  
@@ -84,6 +88,11 @@ This approach is cryptographically defensible because:
 
 Style panel (report-only). See `experiments/cadence_panel/runs/2025-09-05/QUICK_READ.md`
 and `CADENCE_PANEL_REPORT_COMPREHENSIVE.md` for baseline, window-type, and weight sensitivity.
+
+Appendix — boundary tokenization (report-only): `experiments/internal_push/runs/2025-09-05/boundary_v21/winner/BOUNDARY_TIE_BREAK.md`  
+Appendix — irregular schedule search (report-only): `experiments/internal_push/runs/2025-09-05/IRREGULAR_SUMMARY.md`  
+Appendix — sensitivity analysis (report-only): `experiments/sensitivity_strip/runs/2025-09-05/sensitivity/SENSITIVITY_SUMMARY.md`  
+Appendix — P[74] strip confirmation (report-only): `experiments/p74_publish/runs/2025-09-05/p74_strip/P74_SUMMARY.md`
 
 ## Null Model Validation
 

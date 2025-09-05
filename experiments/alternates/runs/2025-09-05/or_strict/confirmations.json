@@ -1,0 +1,410 @@
+{
+  "policy": "/Users/aviswerdlow/Downloads/Kryptos Team/k4_cli_plus/experiments/alternates/policies/POLICY.seamfree.or_strict.json",
+  "n_candidates": 10,
+  "n_passing_gate": 6,
+  "n_passing_nulls": 0,
+  "results": [
+    {
+      "anchor_type": "EAST",
+      "imperative": "SIGHT THE BERLIN",
+      "head_text": "OBKRUOXOGHULBSOLIFBBWSIGHQQPRNGKSSOTWTQSJQSSEKZZWATJKLUDIAWINFBNYPVTTMZFPK",
+      "hash": "a330c000ededf7d7",
+      "tokens": [
+        "O",
+        "BKR",
+        "UOX",
+        "OGH",
+        "ULBS",
+        "OL",
+        "IFBB",
+        "WSIG",
+        "HQQPRNGKS",
+        "SO",
+        "TWT",
+        "QSJ",
+        "QSSEKZ",
+        "ZWAT",
+        "JKLU",
+        "DIAW",
+        "INF",
+        "BNYPVT",
+        "TMZFP",
+        "K"
+      ],
+      "flint_passes": false,
+      "generic_passes": false,
+      "gate_passes": false,
+      "null_results": null,
+      "final_decision": false
+    },
+    {
+      "anchor_type": "EAST",
+      "imperative": "SET THE BEARING",
+      "head_text": "OBKRUOXOGHULBSOLIFBBWSET QQPRNGKSSOTWTQSJQSSEKZZWATJKLUDIAWINFBNYPVTTMZFPK",
+      "hash": "78bf59bba5132b45",
+      "tokens": [
+        "O",
+        "BKR",
+        "UOX",
+        "OGH",
+        "ULBS",
+        "OL",
+        "IFBB",
+        "WSET",
+        "QQPRNGKS",
+        "SO",
+        "TWT",
+        "QSJ",
+        "QSSEKZ",
+        "ZWAT",
+        "JKLU",
+        "DIAW",
+        "INF",
+        "BNYPVT",
+        "TMZFP",
+        "K"
+      ],
+      "flint_passes": true,
+      "generic_passes": false,
+      "gate_passes": true,
+      "null_results": {
+        "coverage_pval": 0.061775285695147064,
+        "f_words_pval": 0.053326557360500085,
+        "holm_adjusted": [
+          {
+            "metric": "f_words",
+            "raw_pval": 0.053326557360500085,
+            "adj_threshold": 0.005,
+            "passes": false
+          }
+        ],
+        "passes": false
+      },
+      "final_decision": false
+    },
+    {
+      "anchor_type": "EAST",
+      "imperative": "NOTE THE BERLIN",
+      "head_text": "OBKRUOXOGHULBSOLIFBBWNOTEQQPRNGKSSOTWTQSJQSSEKZZWATJKLUDIAWINFBNYPVTTMZFPK",
+      "hash": "b52e960ace02f1d9",
+      "tokens": [
+        "O",
+        "BKR",
+        "UOX",
+        "OGH",
+        "ULBS",
+        "OL",
+        "IFBB",
+        "WNOT",
+        "EQQPRNGKS",
+        "SO",
+        "TWT",
+        "QSJ",
+        "QSSEKZ",
+        "ZWAT",
+        "JKLU",
+        "DIAW",
+        "INF",
+        "BNYPVT",
+        "TMZFP",
+        "K"
+      ],
+      "flint_passes": false,
+      "generic_passes": false,
+      "gate_passes": false,
+      "null_results": null,
+      "final_decision": false
+    },
+    {
+      "anchor_type": "EAST",
+      "imperative": "READ THE BERLIN",
+      "head_text": "OBKRUOXOGHULBSOLIFBBWREADQQPRNGKSSOTWTQSJQSSEKZZWATJKLUDIAWINFBNYPVTTMZFPK",
+      "hash": "7c98180c33e59f3a",
+      "tokens": [
+        "O",
+        "BKR",
+        "UOX",
+        "OGH",
+        "ULBS",
+        "OL",
+        "IFBB",
+        "WREA",
+        "DQQPRNGKS",
+        "SO",
+        "TWT",
+        "QSJ",
+        "QSSEKZ",
+        "ZWAT",
+        "JKLU",
+        "DIAW",
+        "INF",
+        "BNYPVT",
+        "TMZFP",
+        "K"
+      ],
+      "flint_passes": false,
+      "generic_passes": false,
+      "gate_passes": false,
+      "null_results": null,
+      "final_decision": false
+    },
+    {
+      "anchor_type": "EAST",
+      "imperative": "OBSERVE THE DIAL",
+      "head_text": "OBKRUOXOGHULBSOLIFBBWOBSEQQPRNGKSSOTWTQSJQSSEKZZWATJKLUDIAWINFBNYPVTTMZFPK",
+      "hash": "327924071645fc1b",
+      "tokens": [
+        "O",
+        "BKR",
+        "UOX",
+        "OGH",
+        "ULBS",
+        "OL",
+        "IFBB",
+        "WOBS",
+        "EQQPRNGKS",
+        "SO",
+        "TWT",
+        "QSJ",
+        "QSSEKZ",
+        "ZWAT",
+        "JKLU",
+        "DIAW",
+        "INF",
+        "BNYPVT",
+        "TMZFP",
+        "K"
+      ],
+      "flint_passes": false,
+      "generic_passes": false,
+      "gate_passes": false,
+      "null_results": null,
+      "final_decision": false
+    },
+    {
+      "anchor_type": "NORTHEAST",
+      "imperative": "SIGHT THE BERLIN",
+      "head_text": "OBKRUOXOGHULBSOLIFBBWFLRVSIGHT THEOTWTQSJQSSEKZZWATJKLUDIAWINFBNYPVTTMZFPK",
+      "hash": "9da4cba55da6d93b",
+      "tokens": [
+        "O",
+        "BKR",
+        "UOX",
+        "OGH",
+        "ULBS",
+        "OL",
+        "IFBB",
+        "WFLR",
+        "VSIGHT TH",
+        "EO",
+        "TWT",
+        "QSJ",
+        "QSSEKZ",
+        "ZWAT",
+        "JKLU",
+        "DIAW",
+        "INF",
+        "BNYPVT",
+        "TMZFP",
+        "K"
+      ],
+      "flint_passes": true,
+      "generic_passes": false,
+      "gate_passes": true,
+      "null_results": {
+        "coverage_pval": 0.03658483592493755,
+        "f_words_pval": 0.058578735390227156,
+        "holm_adjusted": [
+          {
+            "metric": "coverage",
+            "raw_pval": 0.03658483592493755,
+            "adj_threshold": 0.005,
+            "passes": false
+          }
+        ],
+        "passes": false
+      },
+      "final_decision": false
+    },
+    {
+      "anchor_type": "NORTHEAST",
+      "imperative": "SET THE BEARING",
+      "head_text": "OBKRUOXOGHULBSOLIFBBWFLRVSET THE BOTWTQSJQSSEKZZWATJKLUDIAWINFBNYPVTTMZFPK",
+      "hash": "2a7056ff25d09372",
+      "tokens": [
+        "O",
+        "BKR",
+        "UOX",
+        "OGH",
+        "ULBS",
+        "OL",
+        "IFBB",
+        "WFLR",
+        "VSET THE",
+        "BO",
+        "TWT",
+        "QSJ",
+        "QSSEKZ",
+        "ZWAT",
+        "JKLU",
+        "DIAW",
+        "INF",
+        "BNYPVT",
+        "TMZFP",
+        "K"
+      ],
+      "flint_passes": true,
+      "generic_passes": false,
+      "gate_passes": true,
+      "null_results": {
+        "coverage_pval": 0.016568728368878082,
+        "f_words_pval": 0.08243737469076315,
+        "holm_adjusted": [
+          {
+            "metric": "coverage",
+            "raw_pval": 0.016568728368878082,
+            "adj_threshold": 0.005,
+            "passes": false
+          }
+        ],
+        "passes": false
+      },
+      "final_decision": false
+    },
+    {
+      "anchor_type": "NORTHEAST",
+      "imperative": "NOTE THE BERLIN",
+      "head_text": "OBKRUOXOGHULBSOLIFBBWFLRVNOTE THE OTWTQSJQSSEKZZWATJKLUDIAWINFBNYPVTTMZFPK",
+      "hash": "ddd1b67c7c117dbc",
+      "tokens": [
+        "O",
+        "BKR",
+        "UOX",
+        "OGH",
+        "ULBS",
+        "OL",
+        "IFBB",
+        "WFLR",
+        "VNOTE THE",
+        "O",
+        "TWT",
+        "QSJ",
+        "QSSEKZ",
+        "ZWAT",
+        "JKLU",
+        "DIAW",
+        "INF",
+        "BNYPVT",
+        "TMZFP",
+        "K"
+      ],
+      "flint_passes": true,
+      "generic_passes": false,
+      "gate_passes": true,
+      "null_results": {
+        "coverage_pval": 0.038370480861420864,
+        "f_words_pval": 0.07896128249156875,
+        "holm_adjusted": [
+          {
+            "metric": "coverage",
+            "raw_pval": 0.038370480861420864,
+            "adj_threshold": 0.005,
+            "passes": false
+          }
+        ],
+        "passes": false
+      },
+      "final_decision": false
+    },
+    {
+      "anchor_type": "NORTHEAST",
+      "imperative": "READ THE BERLIN",
+      "head_text": "OBKRUOXOGHULBSOLIFBBWFLRVREAD THE OTWTQSJQSSEKZZWATJKLUDIAWINFBNYPVTTMZFPK",
+      "hash": "dda43485f080bb18",
+      "tokens": [
+        "O",
+        "BKR",
+        "UOX",
+        "OGH",
+        "ULBS",
+        "OL",
+        "IFBB",
+        "WFLR",
+        "VREAD THE",
+        "O",
+        "TWT",
+        "QSJ",
+        "QSSEKZ",
+        "ZWAT",
+        "JKLU",
+        "DIAW",
+        "INF",
+        "BNYPVT",
+        "TMZFP",
+        "K"
+      ],
+      "flint_passes": true,
+      "generic_passes": false,
+      "gate_passes": true,
+      "null_results": {
+        "coverage_pval": 0.09217265098962596,
+        "f_words_pval": 0.03076333879795025,
+        "holm_adjusted": [
+          {
+            "metric": "f_words",
+            "raw_pval": 0.03076333879795025,
+            "adj_threshold": 0.005,
+            "passes": false
+          }
+        ],
+        "passes": false
+      },
+      "final_decision": false
+    },
+    {
+      "anchor_type": "NORTHEAST",
+      "imperative": "OBSERVE THE DIAL",
+      "head_text": "OBKRUOXOGHULBSOLIFBBWFLRVOBSERVE TOTWTQSJQSSEKZZWATJKLUDIAWINFBNYPVTTMZFPK",
+      "hash": "7b2cd27f7b03d0c7",
+      "tokens": [
+        "O",
+        "BKR",
+        "UOX",
+        "OGH",
+        "ULBS",
+        "OL",
+        "IFBB",
+        "WFLR",
+        "VOBSERVE",
+        "TO",
+        "TWT",
+        "QSJ",
+        "QSSEKZ",
+        "ZWAT",
+        "JKLU",
+        "DIAW",
+        "INF",
+        "BNYPVT",
+        "TMZFP",
+        "K"
+      ],
+      "flint_passes": true,
+      "generic_passes": false,
+      "gate_passes": true,
+      "null_results": {
+        "coverage_pval": 0.09922470725858205,
+        "f_words_pval": 0.020494600207758173,
+        "holm_adjusted": [
+          {
+            "metric": "f_words",
+            "raw_pval": 0.020494600207758173,
+            "adj_threshold": 0.005,
+            "passes": false
+          }
+        ],
+        "passes": false
+      },
+      "final_decision": false
+    }
+  ]
+}
