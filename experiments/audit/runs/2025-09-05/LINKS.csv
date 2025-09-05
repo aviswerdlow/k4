@@ -1,0 +1,41 @@
+link_text,target_path,exists,classification,ok,note
+experiments/0457_conceptual/,experiments/0457_conceptual/,true,Conceptual,true,Marked as conceptual
+experiments/alternates/runs/2025-09-05/,experiments/alternates/runs/2025-09-05/,true,Empirical,true,In empirical directory
+experiments/alternates/runs/2025-09-05/,experiments/alternates/runs/2025-09-05/,true,Empirical,true,In empirical directory
+experiments/anchors_multiclass/data/ciphertext_97.,experiments/anchors_multiclass/data/ciphertext_97.txt,true,Empirical,true,In empirical directory
+experiments/anchors_multiclass/data/permutations,experiments/anchors_multiclass/data/permutations,true,Empirical,true,In empirical directory
+experiments/anchors_only/data/ciphertext_97.txt,experiments/anchors_only/data/ciphertext_97.txt,true,Empirical,true,In empirical directory
+experiments/anchors_only/data/permutations,experiments/anchors_only/data/permutations,true,Empirical,true,In empirical directory
+experiments/p74/runs/20250903_final_corrected/,experiments/p74/runs/20250903_final_corrected/,true,Empirical,true,In empirical directory
+experiments/p74/runs/20250903_final_corrected/,experiments/p74/runs/20250903_final_corrected/,true,Empirical,true,In empirical directory
+experiments/typo_tolerance/runs/20250904/,experiments/typo_tolerance/runs/20250904/,true,Empirical,true,In empirical directory
+experiments/typo_tolerance/runs/20250904/,experiments/typo_tolerance/runs/20250904/,true,Empirical,true,In empirical directory
+experiments/_simulated/0457/,experiments/_simulated/0457/,true,Simulated,false,In quarantine folder
+experiments/anchors_multiclass/MANIFEST.sha256,experiments/anchors_multiclass/MANIFEST.sha256,true,Unknown,false,Cannot classify
+experiments/anchors_multiclass/POLICY.anchors_mult,experiments/anchors_multiclass/POLICY.anchors_multiclass.json,true,Unknown,false,Cannot classify
+experiments/anchors_multiclass/runs/20250903/TAIL_,experiments/anchors_multiclass/runs/20250903/TAIL_FORCING_REPORT.md,true,Unknown,false,Cannot classify
+experiments/anchors_multiclass/runs/20250903/TAIL_,experiments/anchors_multiclass/runs/20250903/TAIL_FORCING_REPORT.md,true,Unknown,false,Cannot classify
+experiments/anchors_multiclass/scripts/multiclass_,experiments/anchors_multiclass/scripts/multiclass_tail_forcing_scan.py,true,Unknown,false,Cannot classify
+experiments/anchors_only/MANIFEST.sha256,experiments/anchors_only/MANIFEST.sha256,true,Unknown,false,Cannot classify
+experiments/anchors_only/POLICY.anchors.json,experiments/anchors_only/POLICY.anchors.json,true,Unknown,false,Cannot classify
+experiments/anchors_only/runs/20250903/TAIL_FORCIN,experiments/anchors_only/runs/20250903/TAIL_FORCING_REPORT.md,true,Unknown,false,Cannot classify
+experiments/anchors_only/runs/20250903/TAIL_FORCIN,experiments/anchors_only/runs/20250903/TAIL_FORCING_REPORT.md,true,Unknown,false,Cannot classify
+experiments/anchors_only/scripts/tail_forcing_scan,experiments/anchors_only/scripts/tail_forcing_scan.py,true,Unknown,false,Cannot classify
+experiments/cadence_panel/runs/2025-09-04/CADENCE_,experiments/cadence_panel/runs/2025-09-04/CADENCE_PANEL_REPORT.md,true,Unknown,false,Cannot classify
+experiments/cadence_panel/runs/2025-09-04/CADENCE_,experiments/cadence_panel/runs/2025-09-04/CADENCE_PANEL_REPORT.md,true,Unknown,false,Cannot classify
+experiments/cadence_panel/runs/2025-09-05/QUICK_RE,experiments/cadence_panel/runs/2025-09-05/QUICK_READ.md,true,Unknown,false,Cannot classify
+experiments/cadence_panel/runs/2025-09-05/QUICK_RE,experiments/cadence_panel/runs/2025-09-05/QUICK_READ.md,true,Unknown,false,Cannot classify
+experiments/internal_push/runs/2025-09-05/IRREGULA,experiments/internal_push/runs/2025-09-05/IRREGULAR_SUMMARY.md,true,Unknown,false,Cannot classify
+experiments/internal_push/runs/2025-09-05/IRREGULA,experiments/internal_push/runs/2025-09-05/IRREGULAR_SUMMARY.md,true,Unknown,false,Cannot classify
+experiments/internal_push/runs/2025-09-05/boundary,experiments/internal_push/runs/2025-09-05/boundary_v21/winner/BOUNDARY_TIE_BREAK.md,true,Unknown,false,Cannot classify
+experiments/internal_push/runs/2025-09-05/boundary,experiments/internal_push/runs/2025-09-05/boundary_v21/winner/BOUNDARY_TIE_BREAK.md,true,Unknown,false,Cannot classify
+experiments/p74/runs/20250903_final_corrected/P74_,experiments/p74/runs/20250903_final_corrected/P74_SWEEP_SUMMARY.csv,true,Unknown,false,Cannot classify
+experiments/p74/runs/20250903_final_corrected/P74_,experiments/p74/runs/20250903_final_corrected/P74_SWEEP_SUMMARY.csv,true,Unknown,false,Cannot classify
+experiments/seam_free/MANIFEST.sha256,experiments/seam_free/MANIFEST.sha256,true,Unknown,false,Cannot classify
+experiments/seam_free/POLICY.seamfree.json,experiments/seam_free/POLICY.seamfree.json,true,Unknown,false,Cannot classify
+experiments/seam_free/runs/20250903/FINAL_SUMMARY.,experiments/seam_free/runs/20250903/FINAL_SUMMARY.md,true,Unknown,false,Cannot classify
+experiments/seam_free/runs/20250903/FINAL_SUMMARY.,experiments/seam_free/runs/20250903/FINAL_SUMMARY.md,true,Unknown,false,Cannot classify
+experiments/seam_free/runs/20250903/canonical_cut_,experiments/seam_free/runs/20250903/canonical_cut_robustness.json,true,Unknown,false,Cannot classify
+experiments/seam_free/runs/20250903/consistency_ch,experiments/seam_free/runs/20250903/consistency_checks.json,true,Unknown,false,Cannot classify
+experiments/seam_free/runs/20250903/full_deck_summ,experiments/seam_free/runs/20250903/full_deck_summary.csv,true,Unknown,false,Cannot classify
+experiments/seam_free/scripts/seam_free_confirm.py,experiments/seam_free/scripts/seam_free_confirm.py,true,Unknown,false,Cannot classify

@@ -1,0 +1,59 @@
+bundle_path,ok,missing_fields,hash_ok,notes
+internal_push/data/intake/sample_winner,false,"Missing files: coverage_report.json,phrase_gate_policy.json,phrase_gate_report.json",false,Missing required files
+internal_push/runs/2025-09-05/intake/sample_winner,false,Missing rails block; Missing pt_sha256; Missing ct_sha256; Missing route_id; Missing tracks block; Missing accepted_by field; Missing metrics block,true,Missing: Missing rails block; Missing pt_sha256; Missing ct_sha256
+p74/runs/20250903_final/P74_A,false,Missing rails block; Missing pt_sha256; Missing ct_sha256; Missing route_id; Missing seed information; Missing tracks block; Missing K (bootstrap count); Missing metrics block,true,Missing: Missing rails block; Missing pt_sha256; Missing ct_sha256
+p74/runs/20250903_final/P74_B,false,Missing rails block; Missing pt_sha256; Missing ct_sha256; Missing route_id; Missing seed information; Missing tracks block; Missing K (bootstrap count); Missing metrics block,true,Missing: Missing rails block; Missing pt_sha256; Missing ct_sha256
+p74/runs/20250903_final/P74_C,false,Missing rails block; Missing pt_sha256; Missing ct_sha256; Missing route_id; Missing seed information; Missing tracks block; Missing K (bootstrap count); Missing metrics block,true,Missing: Missing rails block; Missing pt_sha256; Missing ct_sha256
+p74/runs/20250903_final/P74_D,false,Missing rails block; Missing pt_sha256; Missing ct_sha256; Missing route_id; Missing seed information; Missing tracks block; Missing K (bootstrap count); Missing metrics block,true,Missing: Missing rails block; Missing pt_sha256; Missing ct_sha256
+p74/runs/20250903_final/P74_E,false,Missing rails block; Missing pt_sha256; Missing ct_sha256; Missing route_id; Missing seed information; Missing tracks block; Missing K (bootstrap count); Missing metrics block,true,Missing: Missing rails block; Missing pt_sha256; Missing ct_sha256
+p74/runs/20250903_final/P74_F,false,Missing rails block; Missing pt_sha256; Missing ct_sha256; Missing route_id; Missing seed information; Missing tracks block; Missing K (bootstrap count); Missing metrics block,true,Missing: Missing rails block; Missing pt_sha256; Missing ct_sha256
+p74/runs/20250903_final/P74_G,false,Missing rails block; Missing pt_sha256; Missing ct_sha256; Missing route_id; Missing seed information; Missing tracks block; Missing K (bootstrap count); Missing metrics block,true,Missing: Missing rails block; Missing pt_sha256; Missing ct_sha256
+p74/runs/20250903_final/P74_H,false,Missing rails block; Missing pt_sha256; Missing ct_sha256; Missing route_id; Missing seed information; Missing tracks block; Missing K (bootstrap count); Missing metrics block,true,Missing: Missing rails block; Missing pt_sha256; Missing ct_sha256
+p74/runs/20250903_final/P74_I,false,Missing rails block; Missing pt_sha256; Missing ct_sha256; Missing route_id; Missing seed information; Missing tracks block; Missing K (bootstrap count); Missing metrics block,true,Missing: Missing rails block; Missing pt_sha256; Missing ct_sha256
+p74/runs/20250903_final/P74_J,false,Missing rails block; Missing pt_sha256; Missing ct_sha256; Missing route_id; Missing seed information; Missing tracks block; Missing K (bootstrap count); Missing metrics block,true,Missing: Missing rails block; Missing pt_sha256; Missing ct_sha256
+p74/runs/20250903_final/P74_K,false,Missing rails block; Missing pt_sha256; Missing ct_sha256; Missing route_id; Missing seed information; Missing tracks block; Missing K (bootstrap count); Missing metrics block,true,Missing: Missing rails block; Missing pt_sha256; Missing ct_sha256
+p74/runs/20250903_final/P74_L,false,Missing rails block; Missing pt_sha256; Missing ct_sha256; Missing route_id; Missing seed information; Missing tracks block; Missing K (bootstrap count); Missing metrics block,true,Missing: Missing rails block; Missing pt_sha256; Missing ct_sha256
+p74/runs/20250903_final/P74_M,false,Missing rails block; Missing pt_sha256; Missing ct_sha256; Missing route_id; Missing seed information; Missing tracks block; Missing K (bootstrap count); Missing metrics block,true,Missing: Missing rails block; Missing pt_sha256; Missing ct_sha256
+p74/runs/20250903_final/P74_N,false,Missing rails block; Missing pt_sha256; Missing ct_sha256; Missing route_id; Missing seed information; Missing tracks block; Missing K (bootstrap count); Missing metrics block,true,Missing: Missing rails block; Missing pt_sha256; Missing ct_sha256
+p74/runs/20250903_final/P74_O,false,Missing rails block; Missing pt_sha256; Missing ct_sha256; Missing route_id; Missing seed information; Missing tracks block; Missing K (bootstrap count); Missing metrics block,true,Missing: Missing rails block; Missing pt_sha256; Missing ct_sha256
+p74/runs/20250903_final/P74_P,false,Missing rails block; Missing pt_sha256; Missing ct_sha256; Missing route_id; Missing seed information; Missing tracks block; Missing K (bootstrap count); Missing metrics block,true,Missing: Missing rails block; Missing pt_sha256; Missing ct_sha256
+p74/runs/20250903_final/P74_Q,false,Missing rails block; Missing pt_sha256; Missing ct_sha256; Missing route_id; Missing seed information; Missing tracks block; Missing K (bootstrap count); Missing metrics block,true,Missing: Missing rails block; Missing pt_sha256; Missing ct_sha256
+p74/runs/20250903_final/P74_R,false,Missing rails block; Missing pt_sha256; Missing ct_sha256; Missing route_id; Missing seed information; Missing tracks block; Missing K (bootstrap count); Missing metrics block,true,Missing: Missing rails block; Missing pt_sha256; Missing ct_sha256
+p74/runs/20250903_final/P74_S,false,Missing rails block; Missing pt_sha256; Missing ct_sha256; Missing route_id; Missing seed information; Missing tracks block; Missing K (bootstrap count); Missing metrics block,true,Missing: Missing rails block; Missing pt_sha256; Missing ct_sha256
+p74/runs/20250903_final/P74_T,false,Missing rails block; Missing pt_sha256; Missing ct_sha256; Missing route_id; Missing seed information; Missing tracks block; Missing K (bootstrap count); Missing metrics block,true,Missing: Missing rails block; Missing pt_sha256; Missing ct_sha256
+p74/runs/20250903_final/P74_U,false,Missing rails block; Missing pt_sha256; Missing ct_sha256; Missing route_id; Missing seed information; Missing tracks block; Missing K (bootstrap count); Missing metrics block,true,Missing: Missing rails block; Missing pt_sha256; Missing ct_sha256
+p74/runs/20250903_final/P74_V,false,Missing rails block; Missing pt_sha256; Missing ct_sha256; Missing route_id; Missing seed information; Missing tracks block; Missing K (bootstrap count); Missing metrics block,true,Missing: Missing rails block; Missing pt_sha256; Missing ct_sha256
+p74/runs/20250903_final/P74_W,false,Missing rails block; Missing pt_sha256; Missing ct_sha256; Missing route_id; Missing seed information; Missing tracks block; Missing K (bootstrap count); Missing metrics block,true,Missing: Missing rails block; Missing pt_sha256; Missing ct_sha256
+p74/runs/20250903_final/P74_X,false,Missing rails block; Missing pt_sha256; Missing ct_sha256; Missing route_id; Missing seed information; Missing tracks block; Missing K (bootstrap count); Missing metrics block,true,Missing: Missing rails block; Missing pt_sha256; Missing ct_sha256
+p74/runs/20250903_final/P74_Y,false,Missing rails block; Missing pt_sha256; Missing ct_sha256; Missing route_id; Missing seed information; Missing tracks block; Missing K (bootstrap count); Missing metrics block,true,Missing: Missing rails block; Missing pt_sha256; Missing ct_sha256
+p74/runs/20250903_final/P74_Z,false,Missing rails block; Missing pt_sha256; Missing ct_sha256; Missing route_id; Missing seed information; Missing tracks block; Missing K (bootstrap count); Missing metrics block,true,Missing: Missing rails block; Missing pt_sha256; Missing ct_sha256
+p74/runs/20250903_final_corrected/P74_A,false,Missing files: proof_digest.json,false,Missing required files
+p74/runs/20250903_final_corrected/P74_B,false,Missing files: proof_digest.json,false,Missing required files
+p74/runs/20250903_final_corrected/P74_C,false,Missing files: proof_digest.json,false,Missing required files
+p74/runs/20250903_final_corrected/P74_D,false,Missing files: proof_digest.json,false,Missing required files
+p74/runs/20250903_final_corrected/P74_E,false,Missing files: proof_digest.json,false,Missing required files
+p74/runs/20250903_final_corrected/P74_F,false,Missing files: proof_digest.json,false,Missing required files
+p74/runs/20250903_final_corrected/P74_G,false,Missing files: proof_digest.json,false,Missing required files
+p74/runs/20250903_final_corrected/P74_H,false,Missing files: proof_digest.json,false,Missing required files
+p74/runs/20250903_final_corrected/P74_I,false,Missing files: proof_digest.json,false,Missing required files
+p74/runs/20250903_final_corrected/P74_J,false,Missing files: proof_digest.json,false,Missing required files
+p74/runs/20250903_final_corrected/P74_K,false,Missing files: proof_digest.json,false,Missing required files
+p74/runs/20250903_final_corrected/P74_L,false,Missing files: proof_digest.json,false,Missing required files
+p74/runs/20250903_final_corrected/P74_M,false,Missing files: proof_digest.json,false,Missing required files
+p74/runs/20250903_final_corrected/P74_N,false,Missing files: proof_digest.json,false,Missing required files
+p74/runs/20250903_final_corrected/P74_O,false,Missing files: proof_digest.json,false,Missing required files
+p74/runs/20250903_final_corrected/P74_P,false,Missing files: proof_digest.json,false,Missing required files
+p74/runs/20250903_final_corrected/P74_Q,false,Missing files: proof_digest.json,false,Missing required files
+p74/runs/20250903_final_corrected/P74_R,false,Missing files: proof_digest.json,false,Missing required files
+p74/runs/20250903_final_corrected/P74_S,false,Missing rails block; Missing pt_sha256; Missing ct_sha256; Missing route_id; Missing seed information; Missing tracks block; Missing K (bootstrap count); Missing metrics block,true,Missing: Missing rails block; Missing pt_sha256; Missing ct_sha256
+p74/runs/20250903_final_corrected/P74_T,false,Missing rails block; Missing pt_sha256; Missing ct_sha256; Missing route_id; Missing seed information; Missing tracks block; Missing K (bootstrap count); Missing metrics block,true,Missing: Missing rails block; Missing pt_sha256; Missing ct_sha256
+p74/runs/20250903_final_corrected/P74_U,false,Missing files: proof_digest.json,false,Missing required files
+p74/runs/20250903_final_corrected/P74_V,false,Missing files: proof_digest.json,false,Missing required files
+p74/runs/20250903_final_corrected/P74_W,false,Missing files: proof_digest.json,false,Missing required files
+p74/runs/20250903_final_corrected/P74_X,false,Missing files: proof_digest.json,false,Missing required files
+p74/runs/20250903_final_corrected/P74_Y,false,Missing files: proof_digest.json,false,Missing required files
+p74/runs/20250903_final_corrected/P74_Z,false,Missing files: proof_digest.json,false,Missing required files
+typo_tolerance/runs/20250904/GRID_runnerup/GRID_W14_ROWS/c6a/fuzzy,false,"Missing files: plaintext_97.txt,proof_digest.json",false,Missing required files
+typo_tolerance/runs/20250904/GRID_runnerup/GRID_W14_ROWS/c6a/strict,false,"Missing files: plaintext_97.txt,proof_digest.json",false,Missing required files
+typo_tolerance/runs/20250904/GRID_winner/GRID_W14_ROWS/c6a/fuzzy,false,"Missing files: plaintext_97.txt,proof_digest.json",false,Missing required files
+typo_tolerance/runs/20250904/GRID_winner/GRID_W14_ROWS/c6a/strict,false,"Missing files: plaintext_97.txt,proof_digest.json",false,Missing required files

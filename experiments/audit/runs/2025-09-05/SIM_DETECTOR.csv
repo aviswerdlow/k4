@@ -1,0 +1,150 @@
+path,type,regex_hit,severity,note
+/Users/aviswerdlow/Downloads/Kryptos Team/k4_cli_plus/experiments/alternates/scripts/confirm_and_nulls.py,code,(?i)(simulated|mock|placeholde...,HIGH,Simulation keyword
+/Users/aviswerdlow/Downloads/Kryptos Team/k4_cli_plus/experiments/alternates/scripts/confirm_and_nulls.py,code,# Mock|# Simulated|# Placehold...,HIGH,Simulation comment
+/Users/aviswerdlow/Downloads/Kryptos Team/k4_cli_plus/experiments/alternates/scripts/run_frame_variant.py,code,(?i)(simulated|mock|placeholde...,HIGH,Simulation keyword
+/Users/aviswerdlow/Downloads/Kryptos Team/k4_cli_plus/experiments/audit/scripts/link_hygiene.py,code,(?i)(simulated|mock|placeholde...,HIGH,Simulation keyword
+/Users/aviswerdlow/Downloads/Kryptos Team/k4_cli_plus/experiments/audit/scripts/sim_detector.py,code,(?i)(simulated|mock|placeholde...,HIGH,Simulation keyword
+/Users/aviswerdlow/Downloads/Kryptos Team/k4_cli_plus/experiments/audit/scripts/sim_detector.py,code,# Mock|# Simulated|# Placehold...,HIGH,Simulation comment
+/Users/aviswerdlow/Downloads/Kryptos Team/k4_cli_plus/experiments/audit/scripts/validate_bundle.py,code,(?i)(simulated|mock|placeholde...,HIGH,Simulation keyword
+/Users/aviswerdlow/Downloads/Kryptos Team/k4_cli_plus/experiments/blinded_panel/scripts/create_blinded_panel.py,code,(?i)(simulated|mock|placeholde...,HIGH,Simulation keyword
+/Users/aviswerdlow/Downloads/Kryptos Team/k4_cli_plus/experiments/internal_push/runs/2025-09-05/intake/sample_winner/coverage_report.json,json,missing: t2_sha256,HIGH,Missing coverage fields
+/Users/aviswerdlow/Downloads/Kryptos Team/k4_cli_plus/experiments/internal_push/runs/2025-09-05/intake/sample_winner/holm_report_canonical.json,json,missing: metrics,HIGH,Missing nulls fields
+/Users/aviswerdlow/Downloads/Kryptos Team/k4_cli_plus/experiments/internal_push/runs/2025-09-05/intake/sample_winner/phrase_gate_report.json,json,missing accepted_by,HIGH,Missing or empty accepted_by field
+/Users/aviswerdlow/Downloads/Kryptos Team/k4_cli_plus/experiments/internal_push/scripts/generate_irregular_grid.py,code,(?i)(simulated|mock|placeholde...,HIGH,Simulation keyword
+/Users/aviswerdlow/Downloads/Kryptos Team/k4_cli_plus/experiments/internal_push/scripts/intake_validate.py,code,(?i)(simulated|mock|placeholde...,HIGH,Simulation keyword
+/Users/aviswerdlow/Downloads/Kryptos Team/k4_cli_plus/experiments/p74/runs/20250903_final/P74_A/coverage_report.json,json,"missing: t2_sha256,seed_recipe,seed_u64",HIGH,Missing coverage fields
+/Users/aviswerdlow/Downloads/Kryptos Team/k4_cli_plus/experiments/p74/runs/20250903_final/P74_A/holm_report_canonical.json,json,"missing: K,metrics",HIGH,Missing nulls fields
+/Users/aviswerdlow/Downloads/Kryptos Team/k4_cli_plus/experiments/p74/runs/20250903_final/P74_B/coverage_report.json,json,"missing: t2_sha256,seed_recipe,seed_u64",HIGH,Missing coverage fields
+/Users/aviswerdlow/Downloads/Kryptos Team/k4_cli_plus/experiments/p74/runs/20250903_final/P74_B/holm_report_canonical.json,json,"missing: K,metrics",HIGH,Missing nulls fields
+/Users/aviswerdlow/Downloads/Kryptos Team/k4_cli_plus/experiments/p74/runs/20250903_final/P74_C/coverage_report.json,json,"missing: t2_sha256,seed_recipe,seed_u64",HIGH,Missing coverage fields
+/Users/aviswerdlow/Downloads/Kryptos Team/k4_cli_plus/experiments/p74/runs/20250903_final/P74_C/holm_report_canonical.json,json,"missing: K,metrics",HIGH,Missing nulls fields
+/Users/aviswerdlow/Downloads/Kryptos Team/k4_cli_plus/experiments/p74/runs/20250903_final/P74_D/coverage_report.json,json,"missing: t2_sha256,seed_recipe,seed_u64",HIGH,Missing coverage fields
+/Users/aviswerdlow/Downloads/Kryptos Team/k4_cli_plus/experiments/p74/runs/20250903_final/P74_D/holm_report_canonical.json,json,"missing: K,metrics",HIGH,Missing nulls fields
+/Users/aviswerdlow/Downloads/Kryptos Team/k4_cli_plus/experiments/p74/runs/20250903_final/P74_E/coverage_report.json,json,"missing: t2_sha256,seed_recipe,seed_u64",HIGH,Missing coverage fields
+/Users/aviswerdlow/Downloads/Kryptos Team/k4_cli_plus/experiments/p74/runs/20250903_final/P74_E/holm_report_canonical.json,json,"missing: K,metrics",HIGH,Missing nulls fields
+/Users/aviswerdlow/Downloads/Kryptos Team/k4_cli_plus/experiments/p74/runs/20250903_final/P74_F/coverage_report.json,json,"missing: t2_sha256,seed_recipe,seed_u64",HIGH,Missing coverage fields
+/Users/aviswerdlow/Downloads/Kryptos Team/k4_cli_plus/experiments/p74/runs/20250903_final/P74_F/holm_report_canonical.json,json,"missing: K,metrics",HIGH,Missing nulls fields
+/Users/aviswerdlow/Downloads/Kryptos Team/k4_cli_plus/experiments/p74/runs/20250903_final/P74_G/coverage_report.json,json,"missing: t2_sha256,seed_recipe,seed_u64",HIGH,Missing coverage fields
+/Users/aviswerdlow/Downloads/Kryptos Team/k4_cli_plus/experiments/p74/runs/20250903_final/P74_G/holm_report_canonical.json,json,"missing: K,metrics",HIGH,Missing nulls fields
+/Users/aviswerdlow/Downloads/Kryptos Team/k4_cli_plus/experiments/p74/runs/20250903_final/P74_H/coverage_report.json,json,"missing: t2_sha256,seed_recipe,seed_u64",HIGH,Missing coverage fields
+/Users/aviswerdlow/Downloads/Kryptos Team/k4_cli_plus/experiments/p74/runs/20250903_final/P74_H/holm_report_canonical.json,json,"missing: K,metrics",HIGH,Missing nulls fields
+/Users/aviswerdlow/Downloads/Kryptos Team/k4_cli_plus/experiments/p74/runs/20250903_final/P74_I/coverage_report.json,json,"missing: t2_sha256,seed_recipe,seed_u64",HIGH,Missing coverage fields
+/Users/aviswerdlow/Downloads/Kryptos Team/k4_cli_plus/experiments/p74/runs/20250903_final/P74_I/holm_report_canonical.json,json,"missing: K,metrics",HIGH,Missing nulls fields
+/Users/aviswerdlow/Downloads/Kryptos Team/k4_cli_plus/experiments/p74/runs/20250903_final/P74_J/coverage_report.json,json,"missing: t2_sha256,seed_recipe,seed_u64",HIGH,Missing coverage fields
+/Users/aviswerdlow/Downloads/Kryptos Team/k4_cli_plus/experiments/p74/runs/20250903_final/P74_J/holm_report_canonical.json,json,"missing: K,metrics",HIGH,Missing nulls fields
+/Users/aviswerdlow/Downloads/Kryptos Team/k4_cli_plus/experiments/p74/runs/20250903_final/P74_K/coverage_report.json,json,"missing: t2_sha256,seed_recipe,seed_u64",HIGH,Missing coverage fields
+/Users/aviswerdlow/Downloads/Kryptos Team/k4_cli_plus/experiments/p74/runs/20250903_final/P74_K/holm_report_canonical.json,json,"missing: K,metrics",HIGH,Missing nulls fields
+/Users/aviswerdlow/Downloads/Kryptos Team/k4_cli_plus/experiments/p74/runs/20250903_final/P74_L/coverage_report.json,json,"missing: t2_sha256,seed_recipe,seed_u64",HIGH,Missing coverage fields
+/Users/aviswerdlow/Downloads/Kryptos Team/k4_cli_plus/experiments/p74/runs/20250903_final/P74_L/holm_report_canonical.json,json,"missing: K,metrics",HIGH,Missing nulls fields
+/Users/aviswerdlow/Downloads/Kryptos Team/k4_cli_plus/experiments/p74/runs/20250903_final/P74_M/coverage_report.json,json,"missing: t2_sha256,seed_recipe,seed_u64",HIGH,Missing coverage fields
+/Users/aviswerdlow/Downloads/Kryptos Team/k4_cli_plus/experiments/p74/runs/20250903_final/P74_M/holm_report_canonical.json,json,"missing: K,metrics",HIGH,Missing nulls fields
+/Users/aviswerdlow/Downloads/Kryptos Team/k4_cli_plus/experiments/p74/runs/20250903_final/P74_N/coverage_report.json,json,"missing: t2_sha256,seed_recipe,seed_u64",HIGH,Missing coverage fields
+/Users/aviswerdlow/Downloads/Kryptos Team/k4_cli_plus/experiments/p74/runs/20250903_final/P74_N/holm_report_canonical.json,json,"missing: K,metrics",HIGH,Missing nulls fields
+/Users/aviswerdlow/Downloads/Kryptos Team/k4_cli_plus/experiments/p74/runs/20250903_final/P74_O/coverage_report.json,json,"missing: t2_sha256,seed_recipe,seed_u64",HIGH,Missing coverage fields
+/Users/aviswerdlow/Downloads/Kryptos Team/k4_cli_plus/experiments/p74/runs/20250903_final/P74_O/holm_report_canonical.json,json,"missing: K,metrics",HIGH,Missing nulls fields
+/Users/aviswerdlow/Downloads/Kryptos Team/k4_cli_plus/experiments/p74/runs/20250903_final/P74_P/coverage_report.json,json,"missing: t2_sha256,seed_recipe,seed_u64",HIGH,Missing coverage fields
+/Users/aviswerdlow/Downloads/Kryptos Team/k4_cli_plus/experiments/p74/runs/20250903_final/P74_P/holm_report_canonical.json,json,"missing: K,metrics",HIGH,Missing nulls fields
+/Users/aviswerdlow/Downloads/Kryptos Team/k4_cli_plus/experiments/p74/runs/20250903_final/P74_Q/coverage_report.json,json,"missing: t2_sha256,seed_recipe,seed_u64",HIGH,Missing coverage fields
+/Users/aviswerdlow/Downloads/Kryptos Team/k4_cli_plus/experiments/p74/runs/20250903_final/P74_Q/holm_report_canonical.json,json,"missing: K,metrics",HIGH,Missing nulls fields
+/Users/aviswerdlow/Downloads/Kryptos Team/k4_cli_plus/experiments/p74/runs/20250903_final/P74_R/coverage_report.json,json,"missing: t2_sha256,seed_recipe,seed_u64",HIGH,Missing coverage fields
+/Users/aviswerdlow/Downloads/Kryptos Team/k4_cli_plus/experiments/p74/runs/20250903_final/P74_R/holm_report_canonical.json,json,"missing: K,metrics",HIGH,Missing nulls fields
+/Users/aviswerdlow/Downloads/Kryptos Team/k4_cli_plus/experiments/p74/runs/20250903_final/P74_S/coverage_report.json,json,"missing: t2_sha256,seed_recipe,seed_u64",HIGH,Missing coverage fields
+/Users/aviswerdlow/Downloads/Kryptos Team/k4_cli_plus/experiments/p74/runs/20250903_final/P74_S/holm_report_canonical.json,json,"missing: K,metrics",HIGH,Missing nulls fields
+/Users/aviswerdlow/Downloads/Kryptos Team/k4_cli_plus/experiments/p74/runs/20250903_final/P74_T/coverage_report.json,json,"missing: t2_sha256,seed_recipe,seed_u64",HIGH,Missing coverage fields
+/Users/aviswerdlow/Downloads/Kryptos Team/k4_cli_plus/experiments/p74/runs/20250903_final/P74_T/holm_report_canonical.json,json,"missing: K,metrics",HIGH,Missing nulls fields
+/Users/aviswerdlow/Downloads/Kryptos Team/k4_cli_plus/experiments/p74/runs/20250903_final/P74_U/coverage_report.json,json,"missing: t2_sha256,seed_recipe,seed_u64",HIGH,Missing coverage fields
+/Users/aviswerdlow/Downloads/Kryptos Team/k4_cli_plus/experiments/p74/runs/20250903_final/P74_U/holm_report_canonical.json,json,"missing: K,metrics",HIGH,Missing nulls fields
+/Users/aviswerdlow/Downloads/Kryptos Team/k4_cli_plus/experiments/p74/runs/20250903_final/P74_V/coverage_report.json,json,"missing: t2_sha256,seed_recipe,seed_u64",HIGH,Missing coverage fields
+/Users/aviswerdlow/Downloads/Kryptos Team/k4_cli_plus/experiments/p74/runs/20250903_final/P74_V/holm_report_canonical.json,json,"missing: K,metrics",HIGH,Missing nulls fields
+/Users/aviswerdlow/Downloads/Kryptos Team/k4_cli_plus/experiments/p74/runs/20250903_final/P74_W/coverage_report.json,json,"missing: t2_sha256,seed_recipe,seed_u64",HIGH,Missing coverage fields
+/Users/aviswerdlow/Downloads/Kryptos Team/k4_cli_plus/experiments/p74/runs/20250903_final/P74_W/holm_report_canonical.json,json,"missing: K,metrics",HIGH,Missing nulls fields
+/Users/aviswerdlow/Downloads/Kryptos Team/k4_cli_plus/experiments/p74/runs/20250903_final/P74_X/coverage_report.json,json,"missing: t2_sha256,seed_recipe,seed_u64",HIGH,Missing coverage fields
+/Users/aviswerdlow/Downloads/Kryptos Team/k4_cli_plus/experiments/p74/runs/20250903_final/P74_X/holm_report_canonical.json,json,"missing: K,metrics",HIGH,Missing nulls fields
+/Users/aviswerdlow/Downloads/Kryptos Team/k4_cli_plus/experiments/p74/runs/20250903_final/P74_Y/coverage_report.json,json,"missing: t2_sha256,seed_recipe,seed_u64",HIGH,Missing coverage fields
+/Users/aviswerdlow/Downloads/Kryptos Team/k4_cli_plus/experiments/p74/runs/20250903_final/P74_Y/holm_report_canonical.json,json,"missing: K,metrics",HIGH,Missing nulls fields
+/Users/aviswerdlow/Downloads/Kryptos Team/k4_cli_plus/experiments/p74/runs/20250903_final/P74_Z/coverage_report.json,json,"missing: t2_sha256,seed_recipe,seed_u64",HIGH,Missing coverage fields
+/Users/aviswerdlow/Downloads/Kryptos Team/k4_cli_plus/experiments/p74/runs/20250903_final/P74_Z/holm_report_canonical.json,json,"missing: K,metrics",HIGH,Missing nulls fields
+/Users/aviswerdlow/Downloads/Kryptos Team/k4_cli_plus/experiments/p74/runs/20250903_final_corrected/P74_A/coverage_report.json,json,"missing: t2_sha256,seed_recipe,seed_u64",HIGH,Missing coverage fields
+/Users/aviswerdlow/Downloads/Kryptos Team/k4_cli_plus/experiments/p74/runs/20250903_final_corrected/P74_A/holm_report_canonical.json,json,"missing: K,metrics",HIGH,Missing nulls fields
+/Users/aviswerdlow/Downloads/Kryptos Team/k4_cli_plus/experiments/p74/runs/20250903_final_corrected/P74_B/coverage_report.json,json,"missing: t2_sha256,seed_recipe,seed_u64",HIGH,Missing coverage fields
+/Users/aviswerdlow/Downloads/Kryptos Team/k4_cli_plus/experiments/p74/runs/20250903_final_corrected/P74_B/holm_report_canonical.json,json,"missing: K,metrics",HIGH,Missing nulls fields
+/Users/aviswerdlow/Downloads/Kryptos Team/k4_cli_plus/experiments/p74/runs/20250903_final_corrected/P74_C/coverage_report.json,json,"missing: t2_sha256,seed_recipe,seed_u64",HIGH,Missing coverage fields
+/Users/aviswerdlow/Downloads/Kryptos Team/k4_cli_plus/experiments/p74/runs/20250903_final_corrected/P74_C/holm_report_canonical.json,json,"missing: K,metrics",HIGH,Missing nulls fields
+/Users/aviswerdlow/Downloads/Kryptos Team/k4_cli_plus/experiments/p74/runs/20250903_final_corrected/P74_D/coverage_report.json,json,"missing: t2_sha256,seed_recipe,seed_u64",HIGH,Missing coverage fields
+/Users/aviswerdlow/Downloads/Kryptos Team/k4_cli_plus/experiments/p74/runs/20250903_final_corrected/P74_D/holm_report_canonical.json,json,"missing: K,metrics",HIGH,Missing nulls fields
+/Users/aviswerdlow/Downloads/Kryptos Team/k4_cli_plus/experiments/p74/runs/20250903_final_corrected/P74_E/coverage_report.json,json,"missing: t2_sha256,seed_recipe,seed_u64",HIGH,Missing coverage fields
+/Users/aviswerdlow/Downloads/Kryptos Team/k4_cli_plus/experiments/p74/runs/20250903_final_corrected/P74_E/holm_report_canonical.json,json,"missing: K,metrics",HIGH,Missing nulls fields
+/Users/aviswerdlow/Downloads/Kryptos Team/k4_cli_plus/experiments/p74/runs/20250903_final_corrected/P74_F/coverage_report.json,json,"missing: t2_sha256,seed_recipe,seed_u64",HIGH,Missing coverage fields
+/Users/aviswerdlow/Downloads/Kryptos Team/k4_cli_plus/experiments/p74/runs/20250903_final_corrected/P74_F/holm_report_canonical.json,json,"missing: K,metrics",HIGH,Missing nulls fields
+/Users/aviswerdlow/Downloads/Kryptos Team/k4_cli_plus/experiments/p74/runs/20250903_final_corrected/P74_G/coverage_report.json,json,"missing: t2_sha256,seed_recipe,seed_u64",HIGH,Missing coverage fields
+/Users/aviswerdlow/Downloads/Kryptos Team/k4_cli_plus/experiments/p74/runs/20250903_final_corrected/P74_G/holm_report_canonical.json,json,"missing: K,metrics",HIGH,Missing nulls fields
+/Users/aviswerdlow/Downloads/Kryptos Team/k4_cli_plus/experiments/p74/runs/20250903_final_corrected/P74_H/coverage_report.json,json,"missing: t2_sha256,seed_recipe,seed_u64",HIGH,Missing coverage fields
+/Users/aviswerdlow/Downloads/Kryptos Team/k4_cli_plus/experiments/p74/runs/20250903_final_corrected/P74_H/holm_report_canonical.json,json,"missing: K,metrics",HIGH,Missing nulls fields
+/Users/aviswerdlow/Downloads/Kryptos Team/k4_cli_plus/experiments/p74/runs/20250903_final_corrected/P74_I/coverage_report.json,json,"missing: t2_sha256,seed_recipe,seed_u64",HIGH,Missing coverage fields
+/Users/aviswerdlow/Downloads/Kryptos Team/k4_cli_plus/experiments/p74/runs/20250903_final_corrected/P74_I/holm_report_canonical.json,json,"missing: K,metrics",HIGH,Missing nulls fields
+/Users/aviswerdlow/Downloads/Kryptos Team/k4_cli_plus/experiments/p74/runs/20250903_final_corrected/P74_J/coverage_report.json,json,"missing: t2_sha256,seed_recipe,seed_u64",HIGH,Missing coverage fields
+/Users/aviswerdlow/Downloads/Kryptos Team/k4_cli_plus/experiments/p74/runs/20250903_final_corrected/P74_J/holm_report_canonical.json,json,"missing: K,metrics",HIGH,Missing nulls fields
+/Users/aviswerdlow/Downloads/Kryptos Team/k4_cli_plus/experiments/p74/runs/20250903_final_corrected/P74_K/coverage_report.json,json,"missing: t2_sha256,seed_recipe,seed_u64",HIGH,Missing coverage fields
+/Users/aviswerdlow/Downloads/Kryptos Team/k4_cli_plus/experiments/p74/runs/20250903_final_corrected/P74_K/holm_report_canonical.json,json,"missing: K,metrics",HIGH,Missing nulls fields
+/Users/aviswerdlow/Downloads/Kryptos Team/k4_cli_plus/experiments/p74/runs/20250903_final_corrected/P74_L/coverage_report.json,json,"missing: t2_sha256,seed_recipe,seed_u64",HIGH,Missing coverage fields
+/Users/aviswerdlow/Downloads/Kryptos Team/k4_cli_plus/experiments/p74/runs/20250903_final_corrected/P74_L/holm_report_canonical.json,json,"missing: K,metrics",HIGH,Missing nulls fields
+/Users/aviswerdlow/Downloads/Kryptos Team/k4_cli_plus/experiments/p74/runs/20250903_final_corrected/P74_M/coverage_report.json,json,"missing: t2_sha256,seed_recipe,seed_u64",HIGH,Missing coverage fields
+/Users/aviswerdlow/Downloads/Kryptos Team/k4_cli_plus/experiments/p74/runs/20250903_final_corrected/P74_M/holm_report_canonical.json,json,"missing: K,metrics",HIGH,Missing nulls fields
+/Users/aviswerdlow/Downloads/Kryptos Team/k4_cli_plus/experiments/p74/runs/20250903_final_corrected/P74_N/coverage_report.json,json,"missing: t2_sha256,seed_recipe,seed_u64",HIGH,Missing coverage fields
+/Users/aviswerdlow/Downloads/Kryptos Team/k4_cli_plus/experiments/p74/runs/20250903_final_corrected/P74_N/holm_report_canonical.json,json,"missing: K,metrics",HIGH,Missing nulls fields
+/Users/aviswerdlow/Downloads/Kryptos Team/k4_cli_plus/experiments/p74/runs/20250903_final_corrected/P74_O/coverage_report.json,json,"missing: t2_sha256,seed_recipe,seed_u64",HIGH,Missing coverage fields
+/Users/aviswerdlow/Downloads/Kryptos Team/k4_cli_plus/experiments/p74/runs/20250903_final_corrected/P74_O/holm_report_canonical.json,json,"missing: K,metrics",HIGH,Missing nulls fields
+/Users/aviswerdlow/Downloads/Kryptos Team/k4_cli_plus/experiments/p74/runs/20250903_final_corrected/P74_P/coverage_report.json,json,"missing: t2_sha256,seed_recipe,seed_u64",HIGH,Missing coverage fields
+/Users/aviswerdlow/Downloads/Kryptos Team/k4_cli_plus/experiments/p74/runs/20250903_final_corrected/P74_P/holm_report_canonical.json,json,"missing: K,metrics",HIGH,Missing nulls fields
+/Users/aviswerdlow/Downloads/Kryptos Team/k4_cli_plus/experiments/p74/runs/20250903_final_corrected/P74_Q/coverage_report.json,json,"missing: t2_sha256,seed_recipe,seed_u64",HIGH,Missing coverage fields
+/Users/aviswerdlow/Downloads/Kryptos Team/k4_cli_plus/experiments/p74/runs/20250903_final_corrected/P74_Q/holm_report_canonical.json,json,"missing: K,metrics",HIGH,Missing nulls fields
+/Users/aviswerdlow/Downloads/Kryptos Team/k4_cli_plus/experiments/p74/runs/20250903_final_corrected/P74_R/coverage_report.json,json,"missing: t2_sha256,seed_recipe,seed_u64",HIGH,Missing coverage fields
+/Users/aviswerdlow/Downloads/Kryptos Team/k4_cli_plus/experiments/p74/runs/20250903_final_corrected/P74_R/holm_report_canonical.json,json,"missing: K,metrics",HIGH,Missing nulls fields
+/Users/aviswerdlow/Downloads/Kryptos Team/k4_cli_plus/experiments/p74/runs/20250903_final_corrected/P74_S/coverage_report.json,json,"missing: t2_sha256,seed_recipe,seed_u64",HIGH,Missing coverage fields
+/Users/aviswerdlow/Downloads/Kryptos Team/k4_cli_plus/experiments/p74/runs/20250903_final_corrected/P74_S/holm_report_canonical.json,json,"missing: K,metrics",HIGH,Missing nulls fields
+/Users/aviswerdlow/Downloads/Kryptos Team/k4_cli_plus/experiments/p74/runs/20250903_final_corrected/P74_T/coverage_report.json,json,"missing: t2_sha256,seed_recipe,seed_u64",HIGH,Missing coverage fields
+/Users/aviswerdlow/Downloads/Kryptos Team/k4_cli_plus/experiments/p74/runs/20250903_final_corrected/P74_T/holm_report_canonical.json,json,"missing: K,metrics",HIGH,Missing nulls fields
+/Users/aviswerdlow/Downloads/Kryptos Team/k4_cli_plus/experiments/p74/runs/20250903_final_corrected/P74_U/coverage_report.json,json,"missing: t2_sha256,seed_recipe,seed_u64",HIGH,Missing coverage fields
+/Users/aviswerdlow/Downloads/Kryptos Team/k4_cli_plus/experiments/p74/runs/20250903_final_corrected/P74_U/holm_report_canonical.json,json,"missing: K,metrics",HIGH,Missing nulls fields
+/Users/aviswerdlow/Downloads/Kryptos Team/k4_cli_plus/experiments/p74/runs/20250903_final_corrected/P74_V/coverage_report.json,json,"missing: t2_sha256,seed_recipe,seed_u64",HIGH,Missing coverage fields
+/Users/aviswerdlow/Downloads/Kryptos Team/k4_cli_plus/experiments/p74/runs/20250903_final_corrected/P74_V/holm_report_canonical.json,json,"missing: K,metrics",HIGH,Missing nulls fields
+/Users/aviswerdlow/Downloads/Kryptos Team/k4_cli_plus/experiments/p74/runs/20250903_final_corrected/P74_W/coverage_report.json,json,"missing: t2_sha256,seed_recipe,seed_u64",HIGH,Missing coverage fields
+/Users/aviswerdlow/Downloads/Kryptos Team/k4_cli_plus/experiments/p74/runs/20250903_final_corrected/P74_W/holm_report_canonical.json,json,"missing: K,metrics",HIGH,Missing nulls fields
+/Users/aviswerdlow/Downloads/Kryptos Team/k4_cli_plus/experiments/p74/runs/20250903_final_corrected/P74_X/coverage_report.json,json,"missing: t2_sha256,seed_recipe,seed_u64",HIGH,Missing coverage fields
+/Users/aviswerdlow/Downloads/Kryptos Team/k4_cli_plus/experiments/p74/runs/20250903_final_corrected/P74_X/holm_report_canonical.json,json,"missing: K,metrics",HIGH,Missing nulls fields
+/Users/aviswerdlow/Downloads/Kryptos Team/k4_cli_plus/experiments/p74/runs/20250903_final_corrected/P74_Y/coverage_report.json,json,"missing: t2_sha256,seed_recipe,seed_u64",HIGH,Missing coverage fields
+/Users/aviswerdlow/Downloads/Kryptos Team/k4_cli_plus/experiments/p74/runs/20250903_final_corrected/P74_Y/holm_report_canonical.json,json,"missing: K,metrics",HIGH,Missing nulls fields
+/Users/aviswerdlow/Downloads/Kryptos Team/k4_cli_plus/experiments/p74/runs/20250903_final_corrected/P74_Z/coverage_report.json,json,"missing: t2_sha256,seed_recipe,seed_u64",HIGH,Missing coverage fields
+/Users/aviswerdlow/Downloads/Kryptos Team/k4_cli_plus/experiments/p74/runs/20250903_final_corrected/P74_Z/holm_report_canonical.json,json,"missing: K,metrics",HIGH,Missing nulls fields
+/Users/aviswerdlow/Downloads/Kryptos Team/k4_cli_plus/experiments/p74/scripts/p74_gate_nulls_sweep.py,code,(?i)(simulated|mock|placeholde...,HIGH,Simulation keyword
+/Users/aviswerdlow/Downloads/Kryptos Team/k4_cli_plus/experiments/p74/scripts/p74_gate_nulls_sweep.py,code,# Mock|# Simulated|# Placehold...,HIGH,Simulation comment
+/Users/aviswerdlow/Downloads/Kryptos Team/k4_cli_plus/experiments/p74/scripts/p74_nulls_working.py,code,(?i)(simulated|mock|placeholde...,HIGH,Simulation keyword
+/Users/aviswerdlow/Downloads/Kryptos Team/k4_cli_plus/experiments/seam_free/scripts/canonical_cut_robustness.py,code,(?i)(simulated|mock|placeholde...,HIGH,Simulation keyword
+/Users/aviswerdlow/Downloads/Kryptos Team/k4_cli_plus/experiments/seam_free/scripts/seam_free_confirm.py,code,(?i)(simulated|mock|placeholde...,HIGH,Simulation keyword
+/Users/aviswerdlow/Downloads/Kryptos Team/k4_cli_plus/experiments/seam_free/scripts/seam_free_confirm.py,code,# Mock|# Simulated|# Placehold...,HIGH,Simulation comment
+/Users/aviswerdlow/Downloads/Kryptos Team/k4_cli_plus/experiments/seam_free/scripts/simple_tail_check.py,code,(?i)(simulated|mock|placeholde...,HIGH,Simulation keyword
+/Users/aviswerdlow/Downloads/Kryptos Team/k4_cli_plus/experiments/typo_tolerance/runs/20250904/GRID_runnerup/GRID_W14_ROWS/c6a/fuzzy/coverage_report.json,json,"missing: encrypts_to_ct,t2_sha256,seed_recipe,seed_u64",HIGH,Missing coverage fields
+/Users/aviswerdlow/Downloads/Kryptos Team/k4_cli_plus/experiments/typo_tolerance/runs/20250904/GRID_runnerup/GRID_W14_ROWS/c6a/fuzzy/holm_report_canonical.json,json,"missing: K,metrics",HIGH,Missing nulls fields
+/Users/aviswerdlow/Downloads/Kryptos Team/k4_cli_plus/experiments/typo_tolerance/runs/20250904/GRID_runnerup/GRID_W14_ROWS/c6a/strict/coverage_report.json,json,"missing: encrypts_to_ct,t2_sha256,seed_recipe,seed_u64",HIGH,Missing coverage fields
+/Users/aviswerdlow/Downloads/Kryptos Team/k4_cli_plus/experiments/typo_tolerance/runs/20250904/GRID_runnerup/GRID_W14_ROWS/c6a/strict/holm_report_canonical.json,json,"missing: K,metrics",HIGH,Missing nulls fields
+/Users/aviswerdlow/Downloads/Kryptos Team/k4_cli_plus/experiments/typo_tolerance/runs/20250904/GRID_winner/GRID_W14_ROWS/c6a/fuzzy/coverage_report.json,json,"missing: encrypts_to_ct,t2_sha256,seed_recipe,seed_u64",HIGH,Missing coverage fields
+/Users/aviswerdlow/Downloads/Kryptos Team/k4_cli_plus/experiments/typo_tolerance/runs/20250904/GRID_winner/GRID_W14_ROWS/c6a/fuzzy/holm_report_canonical.json,json,"missing: K,metrics",HIGH,Missing nulls fields
+/Users/aviswerdlow/Downloads/Kryptos Team/k4_cli_plus/experiments/typo_tolerance/runs/20250904/GRID_winner/GRID_W14_ROWS/c6a/strict/coverage_report.json,json,"missing: encrypts_to_ct,t2_sha256,seed_recipe,seed_u64",HIGH,Missing coverage fields
+/Users/aviswerdlow/Downloads/Kryptos Team/k4_cli_plus/experiments/typo_tolerance/runs/20250904/GRID_winner/GRID_W14_ROWS/c6a/strict/holm_report_canonical.json,json,"missing: K,metrics",HIGH,Missing nulls fields
+/Users/aviswerdlow/Downloads/Kryptos Team/k4_cli_plus/experiments/typo_tolerance/scripts/run_strict_vs_fuzzy.py,code,(?i)(simulated|mock|placeholde...,HIGH,Simulation keyword
+/Users/aviswerdlow/Downloads/Kryptos Team/k4_cli_plus/experiments/typo_tolerance/scripts/run_strict_vs_fuzzy.py,code,# Mock|# Simulated|# Placehold...,HIGH,Simulation comment
+/Users/aviswerdlow/Downloads/Kryptos Team/k4_cli_plus/experiments/0457_conceptual/README.md,md,claims without JSON,MED,Pass/fail claims but no JSON evidence
+/Users/aviswerdlow/Downloads/Kryptos Team/k4_cli_plus/experiments/alternates/README.md,md,claims without JSON,MED,Pass/fail claims but no JSON evidence
+/Users/aviswerdlow/Downloads/Kryptos Team/k4_cli_plus/experiments/alternates/docs/ALTERNATES_SUMMARY.md,md,claims without JSON,MED,Pass/fail claims but no JSON evidence
+/Users/aviswerdlow/Downloads/Kryptos Team/k4_cli_plus/experiments/alternates/runs/2025-09-05/REPRO_STEPS.md,md,claims without JSON,MED,Pass/fail claims but no JSON evidence
+/Users/aviswerdlow/Downloads/Kryptos Team/k4_cli_plus/experiments/anchors_multiclass/runs/20250903/TAIL_FORCING_REPORT.md,md,claims without JSON,MED,Pass/fail claims but no JSON evidence
+/Users/aviswerdlow/Downloads/Kryptos Team/k4_cli_plus/experiments/anchors_only/runs/20250903/TAIL_FORCING_REPORT.md,md,claims without JSON,MED,Pass/fail claims but no JSON evidence
+/Users/aviswerdlow/Downloads/Kryptos Team/k4_cli_plus/experiments/cadence_panel/docs/ABSTRACT_groups_io.md,md,claims without JSON,MED,Pass/fail claims but no JSON evidence
+/Users/aviswerdlow/Downloads/Kryptos Team/k4_cli_plus/experiments/internal_push/docs/INTAKE_PROTOCOL.md,md,claims without JSON,MED,Pass/fail claims but no JSON evidence
+/Users/aviswerdlow/Downloads/Kryptos Team/k4_cli_plus/experiments/internal_push/runs/2025-09-05/IRREGULAR_SUMMARY.md,md,claims without JSON,MED,Pass/fail claims but no JSON evidence
+/Users/aviswerdlow/Downloads/Kryptos Team/k4_cli_plus/experiments/internal_push/runs/2025-09-05/REPRO_STEPS.md,md,claims without JSON,MED,Pass/fail claims but no JSON evidence
+/Users/aviswerdlow/Downloads/Kryptos Team/k4_cli_plus/experiments/p74/runs/20250903/P74_SWEEP_REPORT.md,md,claims without JSON,MED,Pass/fail claims but no JSON evidence
+/Users/aviswerdlow/Downloads/Kryptos Team/k4_cli_plus/experiments/p74/runs/20250903_corrected/P74_SWEEP_CORRECTED_REPORT.md,md,claims without JSON,MED,Pass/fail claims but no JSON evidence
+/Users/aviswerdlow/Downloads/Kryptos Team/k4_cli_plus/experiments/p74/runs/20250903_final/P74_SWEEP_REPORT.md,md,claims without JSON,MED,Pass/fail claims but no JSON evidence
+/Users/aviswerdlow/Downloads/Kryptos Team/k4_cli_plus/experiments/policy_prereg/docs/POLICY_PREREG.md,md,claims without JSON,MED,Pass/fail claims but no JSON evidence
+/Users/aviswerdlow/Downloads/Kryptos Team/k4_cli_plus/experiments/typo_tolerance/runs/20250904/TYPO_TOLERANCE_REPORT.md,md,claims without JSON,MED,Pass/fail claims but no JSON evidence
