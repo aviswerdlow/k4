@@ -1,0 +1,685 @@
+{
+  "campaign": "EXPLORE_K_STYLE_MIMIC",
+  "date": "2025-01-06",
+  "description": "K1-K3 register mimic with biased sampling (report-only)",
+  "seed": 1337,
+  "k_corpus_hash": "bbc82b9f13015940",
+  "k_text_lengths": {
+    "k1": 63,
+    "k2": 74,
+    "k3": 72
+  },
+  "anchor_positions": {
+    "EAST": 21,
+    "NORTHEAST": 25,
+    "BERLINCLOCK": 63
+  },
+  "masked_tokens": [
+    "DIAL",
+    "SET",
+    "COURSE",
+    "TRUE",
+    "READ",
+    "SEE",
+    "NOTE",
+    "SIGHT",
+    "OBSERVE",
+    "MERIDIAN",
+    "DECLINATION",
+    "BEARING",
+    "LINE"
+  ],
+  "total_heads": 50,
+  "heads": [
+    {
+      "label": "K_STYLE_000",
+      "text": "INVISIBLETHISWASTOTFIEASTNORTHEASTOTALLYDONLYINGANYWHEEXPERELDOBERLINCLOCKX",
+      "metadata": {
+        "style": "k_mimic",
+        "ngram_score_blinded": 0.023999999999999994,
+        "corridor_ok": true,
+        "anchor_found_east_idx": 21,
+        "anchor_found_ne_idx": 25,
+        "anchor_found_berlin_idx": 63,
+        "seed": 1337
+      }
+    },
+    {
+      "label": "K_STYLE_001",
+      "text": "MAGNETICFINVIRTUANCEOEASTNORTHEASTOTFIQLUSEXPERELSENSEXPERENCEOBERLINCLOCKX",
+      "metadata": {
+        "style": "k_mimic",
+        "ngram_score_blinded": 0.01799999999999999,
+        "corridor_ok": true,
+        "anchor_found_east_idx": 21,
+        "anchor_found_ne_idx": 25,
+        "anchor_found_berlin_idx": 63,
+        "seed": 1338
+      }
+    },
+    {
+      "label": "K_STYLE_002",
+      "text": "POSSIBLESHOWSTHATTHEREASTNORTHEASTOTALLYINVIRTUANDANCETHISWASPOBERLINCLOCKX",
+      "metadata": {
+        "style": "k_mimic",
+        "ngram_score_blinded": 0.036,
+        "corridor_ok": true,
+        "anchor_found_east_idx": 21,
+        "anchor_found_ne_idx": 25,
+        "anchor_found_berlin_idx": 63,
+        "seed": 1339
+      }
+    },
+    {
+      "label": "K_STYLE_003",
+      "text": "VIRTUALLYDONLYINDANYWEASTNORTHEASTHSMAGNETICFIESTOTALLYWHEARTUABERLINCLOCKX",
+      "metadata": {
+        "style": "k_mimic",
+        "ngram_score_blinded": 0.016666666666666663,
+        "corridor_ok": true,
+        "anchor_found_east_idx": 21,
+        "anchor_found_ne_idx": 25,
+        "anchor_found_berlin_idx": 63,
+        "seed": 1340
+      }
+    },
+    {
+      "label": "K_STYLE_004",
+      "text": "LIGHTLESHOWSTOTALLYWTEASTNORTHEASTOTFINGANSUBTLIELSEXPERENSEXPEBERLINCLOCKX",
+      "metadata": {
+        "style": "k_mimic",
+        "ngram_score_blinded": 0.020666666666666663,
+        "corridor_ok": true,
+        "anchor_found_east_idx": 21,
+        "anchor_found_ne_idx": 25,
+        "anchor_found_berlin_idx": 63,
+        "seed": 1341
+      }
+    },
+    {
+      "label": "K_STYLE_005",
+      "text": "ITWASPOSSIBLESHATTHSMEASTNORTHEASTHATTHEVIRTUALLNOTALLYINVIRTUABERLINCLOCKX",
+      "metadata": {
+        "style": "k_mimic",
+        "ngram_score_blinded": 0.023333333333333327,
+        "corridor_ok": true,
+        "anchor_found_east_idx": 21,
+        "anchor_found_ne_idx": 25,
+        "anchor_found_berlin_idx": 63,
+        "seed": 1342
+      }
+    },
+    {
+      "label": "K_STYLE_006",
+      "text": "VIRTUALLYWTHERENCEOFLEASTNORTHEASTHENCETICFIELDONLYINVIRTUALLNOBERLINCLOCKX",
+      "metadata": {
+        "style": "k_mimic",
+        "ngram_score_blinded": 0.025999999999999992,
+        "corridor_ok": true,
+        "anchor_found_east_idx": 21,
+        "anchor_found_ne_idx": 25,
+        "anchor_found_berlin_idx": 63,
+        "seed": 1343
+      }
+    },
+    {
+      "label": "K_STYLE_007",
+      "text": "ABSENCEOFIQLUSENSUBTLEASTNORTHEASTHEEXPERELSEDTHATYOUWILLNOTFIQBERLINCLOCKX",
+      "metadata": {
+        "style": "k_mimic",
+        "ngram_score_blinded": 0.017999999999999988,
+        "corridor_ok": true,
+        "anchor_found_east_idx": 21,
+        "anchor_found_ne_idx": 25,
+        "anchor_found_berlin_idx": 63,
+        "seed": 1344
+      }
+    },
+    {
+      "label": "K_STYLE_008",
+      "text": "ITWASPOSSIONITWASTHENEASTNORTHEASTHSMAGNETHENCEOFLIGHTLIGHTLESYBERLINCLOCKX",
+      "metadata": {
+        "style": "k_mimic",
+        "ngram_score_blinded": 0.021999999999999995,
+        "corridor_ok": true,
+        "anchor_found_east_idx": 21,
+        "anchor_found_ne_idx": 25,
+        "anchor_found_berlin_idx": 63,
+        "seed": 1345
+      }
+    },
+    {
+      "label": "K_STYLE_009",
+      "text": "TOTALLYDUSISIBLESTHSMEASTNORTHEASTOTFIQLUSIBLETWEEEABSENCEOFINVBERLINCLOCKX",
+      "metadata": {
+        "style": "k_mimic",
+        "ngram_score_blinded": 0.012666666666666665,
+        "corridor_ok": true,
+        "anchor_found_east_idx": 21,
+        "anchor_found_ne_idx": 25,
+        "anchor_found_berlin_idx": 63,
+        "seed": 1346
+      }
+    },
+    {
+      "label": "K_STYLE_010",
+      "text": "LIGHTLESYOUCANSUBTLIEEASTNORTHEASTOTALLYWHEEABSENCEOFIESYOUWILLBERLINCLOCKX",
+      "metadata": {
+        "style": "k_mimic",
+        "ngram_score_blinded": 0.015333333333333332,
+        "corridor_ok": true,
+        "anchor_found_east_idx": 21,
+        "anchor_found_ne_idx": 25,
+        "anchor_found_berlin_idx": 63,
+        "seed": 1347
+      }
+    },
+    {
+      "label": "K_STYLE_011",
+      "text": "ABSENCEOFLIGHTLETWEENEASTNORTHEASTHEVISWASPOSSIBLETHADINGANDTHABERLINCLOCKX",
+      "metadata": {
+        "style": "k_mimic",
+        "ngram_score_blinded": 0.02933333333333333,
+        "corridor_ok": true,
+        "anchor_found_east_idx": 21,
+        "anchor_found_ne_idx": 25,
+        "anchor_found_berlin_idx": 63,
+        "seed": 1348
+      }
+    },
+    {
+      "label": "K_STYLE_012",
+      "text": "BETWEENCEOFIQLUSENSUBEASTNORTHEASTHEYDUSENSENCETHATYOUWILLNOTALBERLINCLOCKX",
+      "metadata": {
+        "style": "k_mimic",
+        "ngram_score_blinded": 0.019999999999999993,
+        "corridor_ok": true,
+        "anchor_found_east_idx": 21,
+        "anchor_found_ne_idx": 25,
+        "anchor_found_berlin_idx": 63,
+        "seed": 1349
+      }
+    },
+    {
+      "label": "K_STYLE_013",
+      "text": "LIGHTLESYOUWILLNOTFIEEASTNORTHEASTOTALLYDONLYWHENSUBTLETHEYDONIBERLINCLOCKX",
+      "metadata": {
+        "style": "k_mimic",
+        "ngram_score_blinded": 0.017333333333333333,
+        "corridor_ok": true,
+        "anchor_found_east_idx": 21,
+        "anchor_found_ne_idx": 25,
+        "anchor_found_berlin_idx": 63,
+        "seed": 1350
+      }
+    },
+    {
+      "label": "K_STYLE_014",
+      "text": "ONLYINDANCETICFINVISWEASTNORTHEASTHISWASTHEARTUALLNOTFIESYOUWILBERLINCLOCKX",
+      "metadata": {
+        "style": "k_mimic",
+        "ngram_score_blinded": 0.021999999999999995,
+        "corridor_ok": true,
+        "anchor_found_east_idx": 21,
+        "anchor_found_ne_idx": 25,
+        "anchor_found_berlin_idx": 63,
+        "seed": 1351
+      }
+    },
+    {
+      "label": "K_STYLE_015",
+      "text": "TOTALLYWTHADINDANSUBTEASTNORTHEASTOTFIQLUSEXPERENSENSUBTLIESTOTBERLINCLOCKX",
+      "metadata": {
+        "style": "k_mimic",
+        "ngram_score_blinded": 0.02333333333333333,
+        "corridor_ok": true,
+        "anchor_found_east_idx": 21,
+        "anchor_found_ne_idx": 25,
+        "anchor_found_berlin_idx": 63,
+        "seed": 1352
+      }
+    },
+    {
+      "label": "K_STYLE_016",
+      "text": "SUBTLETICFINGANSUBTLIEASTNORTHEASTHSMAGNETHEVISIBLESHADINDTHISIBERLINCLOCKX",
+      "metadata": {
+        "style": "k_mimic",
+        "ngram_score_blinded": 0.02533333333333333,
+        "corridor_ok": true,
+        "anchor_found_east_idx": 21,
+        "anchor_found_ne_idx": 25,
+        "anchor_found_berlin_idx": 63,
+        "seed": 1353
+      }
+    },
+    {
+      "label": "K_STYLE_017",
+      "text": "NUANCETWEEABSENSEDTHAEASTNORTHEASTOTALLYINGANCEOFINGANDANSEDTHEBERLINCLOCKX",
+      "metadata": {
+        "style": "k_mimic",
+        "ngram_score_blinded": 0.036000000000000004,
+        "corridor_ok": true,
+        "anchor_found_east_idx": 21,
+        "anchor_found_ne_idx": 25,
+        "anchor_found_berlin_idx": 63,
+        "seed": 1354
+      }
+    },
+    {
+      "label": "K_STYLE_018",
+      "text": "POSSIBLESHADINDANCEOFEASTNORTHEASTHENUANSEDTHERELSEXPERELDOESHOBERLINCLOCKX",
+      "metadata": {
+        "style": "k_mimic",
+        "ngram_score_blinded": 0.036000000000000004,
+        "corridor_ok": true,
+        "anchor_found_east_idx": 21,
+        "anchor_found_ne_idx": 25,
+        "anchor_found_berlin_idx": 63,
+        "seed": 1355
+      }
+    },
+    {
+      "label": "K_STYLE_019",
+      "text": "SUBTLETWASPOSSIBLESHAEASTNORTHEASTHISISISIONITWASPOSSIBLESYOUWIBERLINCLOCKX",
+      "metadata": {
+        "style": "k_mimic",
+        "ngram_score_blinded": 0.013333333333333334,
+        "corridor_ok": true,
+        "anchor_found_east_idx": 21,
+        "anchor_found_ne_idx": 25,
+        "anchor_found_berlin_idx": 63,
+        "seed": 1356
+      }
+    },
+    {
+      "label": "K_STYLE_020",
+      "text": "INVISIBLESHOWSTHISIBLEASTNORTHEASTHATYOUCANSUBTLESYOUCANSEDTHERBERLINCLOCKX",
+      "metadata": {
+        "style": "k_mimic",
+        "ngram_score_blinded": 0.032,
+        "corridor_ok": true,
+        "anchor_found_east_idx": 21,
+        "anchor_found_ne_idx": 25,
+        "anchor_found_berlin_idx": 63,
+        "seed": 1357
+      }
+    },
+    {
+      "label": "K_STYLE_021",
+      "text": "BETWEENCETWEEEEARTHEYEASTNORTHEASTHEVISWASPOSSIBLETHATTHENCETICBERLINCLOCKX",
+      "metadata": {
+        "style": "k_mimic",
+        "ngram_score_blinded": 0.02933333333333333,
+        "corridor_ok": true,
+        "anchor_found_east_idx": 21,
+        "anchor_found_ne_idx": 25,
+        "anchor_found_berlin_idx": 63,
+        "seed": 1358
+      }
+    },
+    {
+      "label": "K_STYLE_022",
+      "text": "LIGHTLIESHADINVISWASTEASTNORTHEASTOTALLYWHERELDOESHOWSTOTFIESHOBERLINCLOCKX",
+      "metadata": {
+        "style": "k_mimic",
+        "ngram_score_blinded": 0.021999999999999995,
+        "corridor_ok": true,
+        "anchor_found_east_idx": 21,
+        "anchor_found_ne_idx": 25,
+        "anchor_found_berlin_idx": 63,
+        "seed": 1359
+      }
+    },
+    {
+      "label": "K_STYLE_023",
+      "text": "POSSIBLETHEARTHATYOUCEASTNORTHEASTOTALLNOTFIELDONITWEEEARTHEEABBERLINCLOCKX",
+      "metadata": {
+        "style": "k_mimic",
+        "ngram_score_blinded": 0.023333333333333327,
+        "corridor_ok": true,
+        "anchor_found_east_idx": 21,
+        "anchor_found_ne_idx": 25,
+        "anchor_found_berlin_idx": 63,
+        "seed": 1360
+      }
+    },
+    {
+      "label": "K_STYLE_024",
+      "text": "ITWASTHSMAGNETICFIESTEASTNORTHEASTHERENSUBTLIGHTLIELSEDTHENUALLBERLINCLOCKX",
+      "metadata": {
+        "style": "k_mimic",
+        "ngram_score_blinded": 0.028666666666666667,
+        "corridor_ok": true,
+        "anchor_found_east_idx": 21,
+        "anchor_found_ne_idx": 25,
+        "anchor_found_berlin_idx": 63,
+        "seed": 1361
+      }
+    },
+    {
+      "label": "K_STYLE_025",
+      "text": "BETWEENCEOFLIELSEDTHEEASTNORTHEASTHERELDONITWASTHISIONLYINDTHSMBERLINCLOCKX",
+      "metadata": {
+        "style": "k_mimic",
+        "ngram_score_blinded": 0.032,
+        "corridor_ok": true,
+        "anchor_found_east_idx": 21,
+        "anchor_found_ne_idx": 25,
+        "anchor_found_berlin_idx": 63,
+        "seed": 1362
+      }
+    },
+    {
+      "label": "K_STYLE_026",
+      "text": "SUBTLETHENUALLYWHEYDOEASTNORTHEASTOTFINGANDTHEYDUSEDTHEENCEOFINBERLINCLOCKX",
+      "metadata": {
+        "style": "k_mimic",
+        "ngram_score_blinded": 0.037333333333333336,
+        "corridor_ok": true,
+        "anchor_found_east_idx": 21,
+        "anchor_found_ne_idx": 25,
+        "anchor_found_berlin_idx": 63,
+        "seed": 1363
+      }
+    },
+    {
+      "label": "K_STYLE_027",
+      "text": "ONLYINDTHATYOUCANCEOFEASTNORTHEASTHISIBLESHADINVISWASPOSSIBLESTBERLINCLOCKX",
+      "metadata": {
+        "style": "k_mimic",
+        "ngram_score_blinded": 0.023999999999999994,
+        "corridor_ok": true,
+        "anchor_found_east_idx": 21,
+        "anchor_found_ne_idx": 25,
+        "anchor_found_berlin_idx": 63,
+        "seed": 1364
+      }
+    },
+    {
+      "label": "K_STYLE_028",
+      "text": "LIGHTLESYOUWILLNOTALLEASTNORTHEASTHEABSENCEOFIESTHATYOUCANDTHISBERLINCLOCKX",
+      "metadata": {
+        "style": "k_mimic",
+        "ngram_score_blinded": 0.02933333333333333,
+        "corridor_ok": true,
+        "anchor_found_east_idx": 21,
+        "anchor_found_ne_idx": 25,
+        "anchor_found_berlin_idx": 63,
+        "seed": 1365
+      }
+    },
+    {
+      "label": "K_STYLE_029",
+      "text": "NUANCEOFLIGHTLESTHEYDEASTNORTHEASTOTALLYINVISWASPOSSIONLYINDANCBERLINCLOCKX",
+      "metadata": {
+        "style": "k_mimic",
+        "ngram_score_blinded": 0.021333333333333333,
+        "corridor_ok": true,
+        "anchor_found_east_idx": 21,
+        "anchor_found_ne_idx": 25,
+        "anchor_found_berlin_idx": 63,
+        "seed": 1366
+      }
+    },
+    {
+      "label": "K_STYLE_030",
+      "text": "ABSENCEOFLIGHTLIGHTLIEASTNORTHEASTHSMAGNETWASTHEVIRTUANYWTHADINBERLINCLOCKX",
+      "metadata": {
+        "style": "k_mimic",
+        "ngram_score_blinded": 0.020666666666666663,
+        "corridor_ok": true,
+        "anchor_found_east_idx": 21,
+        "anchor_found_ne_idx": 25,
+        "anchor_found_berlin_idx": 63,
+        "seed": 1367
+      }
+    },
+    {
+      "label": "K_STYLE_031",
+      "text": "SUBTLESHATYOUCANDANSUEASTNORTHEASTHENUANYWHEENUALLNOTALLYDONITWBERLINCLOCKX",
+      "metadata": {
+        "style": "k_mimic",
+        "ngram_score_blinded": 0.026666666666666665,
+        "corridor_ok": true,
+        "anchor_found_east_idx": 21,
+        "anchor_found_ne_idx": 25,
+        "anchor_found_berlin_idx": 63,
+        "seed": 1368
+      }
+    },
+    {
+      "label": "K_STYLE_032",
+      "text": "INVISIBLETICFINDTHSMAEASTNORTHEASTHEVISIBLESTHEYDOESHADINVISIBLBERLINCLOCKX",
+      "metadata": {
+        "style": "k_mimic",
+        "ngram_score_blinded": 0.026,
+        "corridor_ok": true,
+        "anchor_found_east_idx": 21,
+        "anchor_found_ne_idx": 25,
+        "anchor_found_berlin_idx": 63,
+        "seed": 1369
+      }
+    },
+    {
+      "label": "K_STYLE_033",
+      "text": "POSSIBLESYOUCANSUBTLEEASTNORTHEASTHSMAGNETHENCEOFLIELDOESYOUWILBERLINCLOCKX",
+      "metadata": {
+        "style": "k_mimic",
+        "ngram_score_blinded": 0.01866666666666666,
+        "corridor_ok": true,
+        "anchor_found_east_idx": 21,
+        "anchor_found_ne_idx": 25,
+        "anchor_found_berlin_idx": 63,
+        "seed": 1370
+      }
+    },
+    {
+      "label": "K_STYLE_034",
+      "text": "POSSIBLESTOTALLYINDTHEASTNORTHEASTHISWASPOSSIBLESTHATTHADINDTHEBERLINCLOCKX",
+      "metadata": {
+        "style": "k_mimic",
+        "ngram_score_blinded": 0.038,
+        "corridor_ok": true,
+        "anchor_found_east_idx": 21,
+        "anchor_found_ne_idx": 25,
+        "anchor_found_berlin_idx": 63,
+        "seed": 1371
+      }
+    },
+    {
+      "label": "K_STYLE_035",
+      "text": "MAGNETICFIQLUSENCEOFIEASTNORTHEASTHSMAGNETICFIQLUSEDTHEARTHATYOBERLINCLOCKX",
+      "metadata": {
+        "style": "k_mimic",
+        "ngram_score_blinded": 0.016,
+        "corridor_ok": true,
+        "anchor_found_east_idx": 21,
+        "anchor_found_ne_idx": 25,
+        "anchor_found_berlin_idx": 63,
+        "seed": 1372
+      }
+    },
+    {
+      "label": "K_STYLE_036",
+      "text": "BETWEENUANSUBTLESTOTFEASTNORTHEASTOTFIQLUSIBLESHOWSTHERENCETHISBERLINCLOCKX",
+      "metadata": {
+        "style": "k_mimic",
+        "ngram_score_blinded": 0.02733333333333333,
+        "corridor_ok": true,
+        "anchor_found_east_idx": 21,
+        "anchor_found_ne_idx": 25,
+        "anchor_found_berlin_idx": 63,
+        "seed": 1373
+      }
+    },
+    {
+      "label": "K_STYLE_037",
+      "text": "BETWEENCETHATYOUWILLYEASTNORTHEASTOTFIELDONITWEEXPERELSENUANCEOBERLINCLOCKX",
+      "metadata": {
+        "style": "k_mimic",
+        "ngram_score_blinded": 0.02133333333333333,
+        "corridor_ok": true,
+        "anchor_found_east_idx": 21,
+        "anchor_found_ne_idx": 25,
+        "anchor_found_berlin_idx": 63,
+        "seed": 1374
+      }
+    },
+    {
+      "label": "K_STYLE_038",
+      "text": "BETWEENCEOFLIGHTLIGHTEASTNORTHEASTOTFIQLUSEXPERENCETWEEXPERENUABERLINCLOCKX",
+      "metadata": {
+        "style": "k_mimic",
+        "ngram_score_blinded": 0.016666666666666663,
+        "corridor_ok": true,
+        "anchor_found_east_idx": 21,
+        "anchor_found_ne_idx": 25,
+        "anchor_found_berlin_idx": 63,
+        "seed": 1375
+      }
+    },
+    {
+      "label": "K_STYLE_039",
+      "text": "LIGHTLESYOUCANSEENCEOEASTNORTHEASTHEVISIONLYDONITWASPOSSIBLESHOBERLINCLOCKX",
+      "metadata": {
+        "style": "k_mimic",
+        "ngram_score_blinded": 0.017333333333333333,
+        "corridor_ok": true,
+        "anchor_found_east_idx": 21,
+        "anchor_found_ne_idx": 25,
+        "anchor_found_berlin_idx": 63,
+        "seed": 1376
+      }
+    },
+    {
+      "label": "K_STYLE_040",
+      "text": "ONLYDUSEENSUBTLIGHTLEEASTNORTHEASTHADINGANYWTHERELDOESYOUWILLYIBERLINCLOCKX",
+      "metadata": {
+        "style": "k_mimic",
+        "ngram_score_blinded": 0.027999999999999994,
+        "corridor_ok": true,
+        "anchor_found_east_idx": 21,
+        "anchor_found_ne_idx": 25,
+        "anchor_found_berlin_idx": 63,
+        "seed": 1377
+      }
+    },
+    {
+      "label": "K_STYLE_041",
+      "text": "BETWEENUALLNOTALLYWTHEASTNORTHEASTHADINVISWASPOSSIONITWEENSEXPEBERLINCLOCKX",
+      "metadata": {
+        "style": "k_mimic",
+        "ngram_score_blinded": 0.01933333333333333,
+        "corridor_ok": true,
+        "anchor_found_east_idx": 21,
+        "anchor_found_ne_idx": 25,
+        "anchor_found_berlin_idx": 63,
+        "seed": 1378
+      }
+    },
+    {
+      "label": "K_STYLE_042",
+      "text": "MAGNETICFINVIRTHEABSEEASTNORTHEASTHEVIRTUALLYWHEVISIBLESHOWSTOTBERLINCLOCKX",
+      "metadata": {
+        "style": "k_mimic",
+        "ngram_score_blinded": 0.021999999999999995,
+        "corridor_ok": true,
+        "anchor_found_east_idx": 21,
+        "anchor_found_ne_idx": 25,
+        "anchor_found_berlin_idx": 63,
+        "seed": 1379
+      }
+    },
+    {
+      "label": "K_STYLE_043",
+      "text": "POSSIBLESHOWSTHADINDAEASTNORTHEASTOTALLYWTHEEXPERENCEOFLIELDONIBERLINCLOCKX",
+      "metadata": {
+        "style": "k_mimic",
+        "ngram_score_blinded": 0.02533333333333333,
+        "corridor_ok": true,
+        "anchor_found_east_idx": 21,
+        "anchor_found_ne_idx": 25,
+        "anchor_found_berlin_idx": 63,
+        "seed": 1380
+      }
+    },
+    {
+      "label": "K_STYLE_044",
+      "text": "INVISIBLETICFINGANDTHEASTNORTHEASTHEEXPERELDOESHADINGANYWTHADINBERLINCLOCKX",
+      "metadata": {
+        "style": "k_mimic",
+        "ngram_score_blinded": 0.04,
+        "corridor_ok": true,
+        "anchor_found_east_idx": 21,
+        "anchor_found_ne_idx": 25,
+        "anchor_found_berlin_idx": 63,
+        "seed": 1381
+      }
+    },
+    {
+      "label": "K_STYLE_045",
+      "text": "POSSIBLETICFINDTHADINEASTNORTHEASTOTFINDANCETHADINVIRTUALLYINDABERLINCLOCKX",
+      "metadata": {
+        "style": "k_mimic",
+        "ngram_score_blinded": 0.027333333333333338,
+        "corridor_ok": true,
+        "anchor_found_east_idx": 21,
+        "anchor_found_ne_idx": 25,
+        "anchor_found_berlin_idx": 63,
+        "seed": 1382
+      }
+    },
+    {
+      "label": "K_STYLE_046",
+      "text": "ITWASPOSSIONLYWHEEXPEEASTNORTHEASTHENSENCEOFIELSENSEDTHEEARTHISBERLINCLOCKX",
+      "metadata": {
+        "style": "k_mimic",
+        "ngram_score_blinded": 0.026666666666666665,
+        "corridor_ok": true,
+        "anchor_found_east_idx": 21,
+        "anchor_found_ne_idx": 25,
+        "anchor_found_berlin_idx": 63,
+        "seed": 1383
+      }
+    },
+    {
+      "label": "K_STYLE_047",
+      "text": "TOTALLYINGANSUBTLIGHTEASTNORTHEASTHENSENCEOFIESHADINVISWASTOTALBERLINCLOCKX",
+      "metadata": {
+        "style": "k_mimic",
+        "ngram_score_blinded": 0.024666666666666667,
+        "corridor_ok": true,
+        "anchor_found_east_idx": 21,
+        "anchor_found_ne_idx": 25,
+        "anchor_found_berlin_idx": 63,
+        "seed": 1384
+      }
+    },
+    {
+      "label": "K_STYLE_048",
+      "text": "ONLYINVIRTUANYWTHEABSEASTNORTHEASTHEVISIBLETICFIELSENSUBTLETHADBERLINCLOCKX",
+      "metadata": {
+        "style": "k_mimic",
+        "ngram_score_blinded": 0.023999999999999994,
+        "corridor_ok": true,
+        "anchor_found_east_idx": 21,
+        "anchor_found_ne_idx": 25,
+        "anchor_found_berlin_idx": 63,
+        "seed": 1385
+      }
+    },
+    {
+      "label": "K_STYLE_049",
+      "text": "INVISIBLESTHATTHEYDUSEASTNORTHEASTOTFIQLUSIONLYWHEARTUANYWTHEYDBERLINCLOCKX",
+      "metadata": {
+        "style": "k_mimic",
+        "ngram_score_blinded": 0.025999999999999992,
+        "corridor_ok": true,
+        "anchor_found_east_idx": 21,
+        "anchor_found_ne_idx": 25,
+        "anchor_found_berlin_idx": 63,
+        "seed": 1386
+      }
+    }
+  ]
+}
