@@ -1,0 +1,20 @@
+{
+  "encrypts_to_ct": true,
+  "route_id": "GRID_W14_ROWS",
+  "classing": "c6a",
+  "p74": "U",
+  "near_gate": {
+    "coverage": 0.47963189390689553,
+    "f_words": 0,
+    "has_verb": false,
+    "pass": false
+  },
+  "phrase_gate": {
+    "accepted_by": [],
+    "pass": false
+  },
+  "nulls": {
+    "replicates": 0,
+    "publishable": false
+  }
+}

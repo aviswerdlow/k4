@@ -1,0 +1,220 @@
+{
+  "feasible": true,
+  "encrypts_to_ct": true,
+  "route_id": "GRID_W14_ROWS",
+  "t2_sha256": "a5260415e76509638b4845d5e707521126aca2d67b50177b3c94f8ccc4c56c31",
+  "classing": "c6a",
+  "per_class": [
+    {
+      "class_id": 0,
+      "family": "beaufort",
+      "L": 12,
+      "phase": 0
+    },
+    {
+      "class_id": 1,
+      "family": "beaufort",
+      "L": 18,
+      "phase": 4
+    },
+    {
+      "class_id": 2,
+      "family": "beaufort",
+      "L": 16,
+      "phase": 12
+    },
+    {
+      "class_id": 3,
+      "family": "vigenere",
+      "L": 19,
+      "phase": 14
+    },
+    {
+      "class_id": 4,
+      "family": "beaufort",
+      "L": 10,
+      "phase": 0
+    },
+    {
+      "class_id": 5,
+      "family": "variant_beaufort",
+      "L": 19,
+      "phase": 2
+    }
+  ],
+  "forced_anchor_residues": [
+    {
+      "position": 21,
+      "class": 3,
+      "residue": 16,
+      "key": 1,
+      "char": "E"
+    },
+    {
+      "position": 22,
+      "class": 1,
+      "residue": 8,
+      "key": 11,
+      "char": "A"
+    },
+    {
+      "position": 23,
+      "class": 5,
+      "residue": 6,
+      "key": 1,
+      "char": "S"
+    },
+    {
+      "position": 24,
+      "class": 0,
+      "residue": 0,
+      "key": 14,
+      "char": "T"
+    },
+    {
+      "position": 25,
+      "class": 4,
+      "residue": 5,
+      "key": 3,
+      "char": "N"
+    },
+    {
+      "position": 26,
+      "class": 2,
+      "residue": 6,
+      "key": 4,
+      "char": "O"
+    },
+    {
+      "position": 27,
+      "class": 3,
+      "residue": 3,
+      "key": 24,
+      "char": "R"
+    },
+    {
+      "position": 28,
+      "class": 1,
+      "residue": 14,
+      "key": 10,
+      "char": "T"
+    },
+    {
+      "position": 29,
+      "class": 5,
+      "residue": 12,
+      "key": 20,
+      "char": "H"
+    },
+    {
+      "position": 30,
+      "class": 0,
+      "residue": 6,
+      "key": 10,
+      "char": "E"
+    },
+    {
+      "position": 31,
+      "class": 4,
+      "residue": 1,
+      "key": 10,
+      "char": "A"
+    },
+    {
+      "position": 32,
+      "class": 2,
+      "residue": 12,
+      "key": 10,
+      "char": "S"
+    },
+    {
+      "position": 33,
+      "class": 3,
+      "residue": 9,
+      "key": 25,
+      "char": "T"
+    },
+    {
+      "position": 63,
+      "class": 3,
+      "residue": 1,
+      "key": 12,
+      "char": "B"
+    },
+    {
+      "position": 64,
+      "class": 1,
+      "residue": 14,
+      "key": 2,
+      "char": "E"
+    },
+    {
+      "position": 65,
+      "class": 5,
+      "residue": 10,
+      "key": 2,
+      "char": "R"
+    },
+    {
+      "position": 66,
+      "class": 0,
+      "residue": 6,
+      "key": 6,
+      "char": "L"
+    },
+    {
+      "position": 67,
+      "class": 4,
+      "residue": 7,
+      "key": 1,
+      "char": "I"
+    },
+    {
+      "position": 68,
+      "class": 2,
+      "residue": 0,
+      "key": 6,
+      "char": "N"
+    },
+    {
+      "position": 69,
+      "class": 3,
+      "residue": 7,
+      "key": 10,
+      "char": "C"
+    },
+    {
+      "position": 70,
+      "class": 1,
+      "residue": 2,
+      "key": 10,
+      "char": "L"
+    },
+    {
+      "position": 71,
+      "class": 5,
+      "residue": 16,
+      "key": 9,
+      "char": "O"
+    },
+    {
+      "position": 72,
+      "class": 0,
+      "residue": 0,
+      "key": 17,
+      "char": "C"
+    },
+    {
+      "position": 73,
+      "class": 4,
+      "residue": 3,
+      "key": 20,
+      "char": "K"
+    }
+  ],
+  "ct_sha256": "eea813570c7f1fd3b34674e47b5c3da8948026f5cefee612a0b38ffaa515ceab",
+  "pt_sha256": "1e89f14b9ade94fa9b8d0252f075080a87f0ccec2807587e24e5d922e44b1985",
+  "seed_recipe": "CONFIRM_P74|K4|route:GRID_W14_ROWS|P74:U|ct:eea813570c7f1fd3b34674e47b5c3da8948026f5cefee612a0b38ffaa515ceab|cadence_policy:2161a32ee615f34823cb45b917bc51c6d4e0967fd5c2fb40829901adfbb4defc",
+  "seed_u64": 1349525672,
+  "target_p74": "U"
+}
