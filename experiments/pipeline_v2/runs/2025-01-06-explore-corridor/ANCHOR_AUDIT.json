@@ -1,0 +1,5753 @@
+{
+  "total_heads": 101,
+  "alignment_summary": {
+    "perfect": 10,
+    "good": 36,
+    "moderate": 35,
+    "poor": 20,
+    "mean_score": 0.6589108910891086
+  },
+  "category_stats": {
+    "PERFECT": {
+      "count": 10,
+      "mean_score": 1.0,
+      "perfect": 10,
+      "has_anchors": 10
+    },
+    "SHIFT-3": {
+      "count": 5,
+      "mean_score": 0.3999999999999999,
+      "perfect": 0,
+      "has_anchors": 5
+    },
+    "SHIFT-2": {
+      "count": 5,
+      "mean_score": 0.6,
+      "perfect": 0,
+      "has_anchors": 5
+    },
+    "SHIFT-1": {
+      "count": 5,
+      "mean_score": 0.8000000000000002,
+      "perfect": 0,
+      "has_anchors": 5
+    },
+    "SHIFT+1": {
+      "count": 5,
+      "mean_score": 0.8000000000000002,
+      "perfect": 0,
+      "has_anchors": 5
+    },
+    "SHIFT+2": {
+      "count": 5,
+      "mean_score": 0.6666666666666666,
+      "perfect": 0,
+      "has_anchors": 5
+    },
+    "SHIFT+3": {
+      "count": 5,
+      "mean_score": 0.5333333333333333,
+      "perfect": 0,
+      "has_anchors": 5
+    },
+    "EAST": {
+      "count": 12,
+      "mean_score": 0.7999999999999999,
+      "perfect": 0,
+      "has_anchors": 12
+    },
+    "NORTHEAST": {
+      "count": 12,
+      "mean_score": 0.7625000000000001,
+      "perfect": 0,
+      "has_anchors": 12
+    },
+    "BERLINCLOCK": {
+      "count": 12,
+      "mean_score": 0.9166666666666669,
+      "perfect": 0,
+      "has_anchors": 12
+    },
+    "TYPO1": {
+      "count": 5,
+      "mean_score": 0.1933333333333333,
+      "perfect": 0,
+      "has_anchors": 4
+    },
+    "TYPO2": {
+      "count": 5,
+      "mean_score": 0.006666666666666665,
+      "perfect": 0,
+      "has_anchors": 1
+    },
+    "COMBO": {
+      "count": 10,
+      "mean_score": 0.68,
+      "perfect": 0,
+      "has_anchors": 10
+    },
+    "K4": {
+      "count": 5,
+      "mean_score": 0.0,
+      "perfect": 0,
+      "has_anchors": 0
+    }
+  },
+  "detailed_results": [
+    {
+      "label": "CORRIDOR_PERFECT_000",
+      "alignment_score": 1.0,
+      "exact_positions": {
+        "EAST": [
+          21,
+          30
+        ],
+        "NORTHEAST": [
+          25
+        ],
+        "BERLINCLOCK": [
+          63
+        ]
+      },
+      "fuzzy_positions": {
+        "EAST": [
+          [
+            21,
+            0,
+            "EAS"
+          ],
+          [
+            29,
+            0,
+            "HEAST"
+          ]
+        ],
+        "NORTHEAST": [
+          [
+            25,
+            0,
+            "NORTHEAS"
+          ],
+          [
+            22,
+            2,
+            "ASTNORTHEA"
+          ],
+          [
+            28,
+            2,
+            "THEASTO"
+          ]
+        ],
+        "BERLINCLOCK": [
+          [
+            63,
+            0,
+            "BERLINCLOC"
+          ],
+          [
+            60,
+            2,
+            "NFBBERLINCLO"
+          ]
+        ]
+      },
+      "issues": []
+    },
+    {
+      "label": "CORRIDOR_PERFECT_001",
+      "alignment_score": 1.0,
+      "exact_positions": {
+        "EAST": [
+          21,
+          30
+        ],
+        "NORTHEAST": [
+          25
+        ],
+        "BERLINCLOCK": [
+          63
+        ]
+      },
+      "fuzzy_positions": {
+        "EAST": [
+          [
+            21,
+            0,
+            "EAS"
+          ],
+          [
+            29,
+            0,
+            "HEAST"
+          ]
+        ],
+        "NORTHEAST": [
+          [
+            25,
+            0,
+            "NORTHEAS"
+          ],
+          [
+            22,
+            2,
+            "ASTNORTHEA"
+          ],
+          [
+            28,
+            2,
+            "THEASTO"
+          ]
+        ],
+        "BERLINCLOCK": [
+          [
+            63,
+            0,
+            "BERLINCLOC"
+          ],
+          [
+            60,
+            2,
+            "NFBBERLINCLO"
+          ]
+        ]
+      },
+      "issues": []
+    },
+    {
+      "label": "CORRIDOR_PERFECT_002",
+      "alignment_score": 1.0,
+      "exact_positions": {
+        "EAST": [
+          21,
+          30
+        ],
+        "NORTHEAST": [
+          25
+        ],
+        "BERLINCLOCK": [
+          63
+        ]
+      },
+      "fuzzy_positions": {
+        "EAST": [
+          [
+            21,
+            0,
+            "EAS"
+          ],
+          [
+            29,
+            0,
+            "HEAST"
+          ]
+        ],
+        "NORTHEAST": [
+          [
+            25,
+            0,
+            "NORTHEAS"
+          ],
+          [
+            22,
+            2,
+            "ASTNORTHEA"
+          ],
+          [
+            28,
+            2,
+            "THEASTO"
+          ]
+        ],
+        "BERLINCLOCK": [
+          [
+            63,
+            0,
+            "BERLINCLOC"
+          ],
+          [
+            60,
+            2,
+            "NFBBERLINCLO"
+          ]
+        ]
+      },
+      "issues": []
+    },
+    {
+      "label": "CORRIDOR_PERFECT_003",
+      "alignment_score": 1.0,
+      "exact_positions": {
+        "EAST": [
+          21,
+          30
+        ],
+        "NORTHEAST": [
+          25
+        ],
+        "BERLINCLOCK": [
+          63
+        ]
+      },
+      "fuzzy_positions": {
+        "EAST": [
+          [
+            21,
+            0,
+            "EAS"
+          ],
+          [
+            29,
+            0,
+            "HEAST"
+          ]
+        ],
+        "NORTHEAST": [
+          [
+            25,
+            0,
+            "NORTHEAS"
+          ],
+          [
+            22,
+            2,
+            "ASTNORTHEA"
+          ],
+          [
+            28,
+            2,
+            "THEASTO"
+          ]
+        ],
+        "BERLINCLOCK": [
+          [
+            63,
+            0,
+            "BERLINCLOC"
+          ],
+          [
+            60,
+            2,
+            "NFBBERLINCLO"
+          ]
+        ]
+      },
+      "issues": []
+    },
+    {
+      "label": "CORRIDOR_PERFECT_004",
+      "alignment_score": 1.0,
+      "exact_positions": {
+        "EAST": [
+          21,
+          30
+        ],
+        "NORTHEAST": [
+          25
+        ],
+        "BERLINCLOCK": [
+          63
+        ]
+      },
+      "fuzzy_positions": {
+        "EAST": [
+          [
+            21,
+            0,
+            "EAS"
+          ],
+          [
+            29,
+            0,
+            "HEAST"
+          ]
+        ],
+        "NORTHEAST": [
+          [
+            25,
+            0,
+            "NORTHEAS"
+          ],
+          [
+            22,
+            2,
+            "ASTNORTHEA"
+          ],
+          [
+            28,
+            2,
+            "THEASTO"
+          ]
+        ],
+        "BERLINCLOCK": [
+          [
+            63,
+            0,
+            "BERLINCLOC"
+          ],
+          [
+            60,
+            2,
+            "NFBBERLINCLO"
+          ]
+        ]
+      },
+      "issues": []
+    },
+    {
+      "label": "CORRIDOR_PERFECT_005",
+      "alignment_score": 1.0,
+      "exact_positions": {
+        "EAST": [
+          21,
+          30
+        ],
+        "NORTHEAST": [
+          25
+        ],
+        "BERLINCLOCK": [
+          63
+        ]
+      },
+      "fuzzy_positions": {
+        "EAST": [
+          [
+            21,
+            0,
+            "EAS"
+          ],
+          [
+            29,
+            0,
+            "HEAST"
+          ]
+        ],
+        "NORTHEAST": [
+          [
+            25,
+            0,
+            "NORTHEAS"
+          ],
+          [
+            22,
+            2,
+            "ASTNORTHEA"
+          ],
+          [
+            28,
+            2,
+            "THEASTO"
+          ]
+        ],
+        "BERLINCLOCK": [
+          [
+            63,
+            0,
+            "BERLINCLOC"
+          ],
+          [
+            60,
+            2,
+            "NFBBERLINCLO"
+          ]
+        ]
+      },
+      "issues": []
+    },
+    {
+      "label": "CORRIDOR_PERFECT_006",
+      "alignment_score": 1.0,
+      "exact_positions": {
+        "EAST": [
+          21,
+          30
+        ],
+        "NORTHEAST": [
+          25
+        ],
+        "BERLINCLOCK": [
+          63
+        ]
+      },
+      "fuzzy_positions": {
+        "EAST": [
+          [
+            21,
+            0,
+            "EAS"
+          ],
+          [
+            29,
+            0,
+            "HEAST"
+          ]
+        ],
+        "NORTHEAST": [
+          [
+            25,
+            0,
+            "NORTHEAS"
+          ],
+          [
+            22,
+            2,
+            "ASTNORTHEA"
+          ],
+          [
+            28,
+            2,
+            "THEASTO"
+          ]
+        ],
+        "BERLINCLOCK": [
+          [
+            63,
+            0,
+            "BERLINCLOC"
+          ],
+          [
+            60,
+            2,
+            "NFBBERLINCLO"
+          ]
+        ]
+      },
+      "issues": []
+    },
+    {
+      "label": "CORRIDOR_PERFECT_007",
+      "alignment_score": 1.0,
+      "exact_positions": {
+        "EAST": [
+          21,
+          30
+        ],
+        "NORTHEAST": [
+          25
+        ],
+        "BERLINCLOCK": [
+          63
+        ]
+      },
+      "fuzzy_positions": {
+        "EAST": [
+          [
+            21,
+            0,
+            "EAS"
+          ],
+          [
+            29,
+            0,
+            "HEAST"
+          ]
+        ],
+        "NORTHEAST": [
+          [
+            25,
+            0,
+            "NORTHEAS"
+          ],
+          [
+            22,
+            2,
+            "ASTNORTHEA"
+          ],
+          [
+            28,
+            2,
+            "THEASTO"
+          ]
+        ],
+        "BERLINCLOCK": [
+          [
+            63,
+            0,
+            "BERLINCLOC"
+          ],
+          [
+            60,
+            2,
+            "NFBBERLINCLO"
+          ]
+        ]
+      },
+      "issues": []
+    },
+    {
+      "label": "CORRIDOR_PERFECT_008",
+      "alignment_score": 1.0,
+      "exact_positions": {
+        "EAST": [
+          21,
+          30
+        ],
+        "NORTHEAST": [
+          25
+        ],
+        "BERLINCLOCK": [
+          63
+        ]
+      },
+      "fuzzy_positions": {
+        "EAST": [
+          [
+            21,
+            0,
+            "EAS"
+          ],
+          [
+            29,
+            0,
+            "HEAST"
+          ]
+        ],
+        "NORTHEAST": [
+          [
+            25,
+            0,
+            "NORTHEAS"
+          ],
+          [
+            22,
+            2,
+            "ASTNORTHEA"
+          ],
+          [
+            28,
+            2,
+            "THEASTO"
+          ]
+        ],
+        "BERLINCLOCK": [
+          [
+            63,
+            0,
+            "BERLINCLOC"
+          ],
+          [
+            60,
+            2,
+            "NFBBERLINCLO"
+          ]
+        ]
+      },
+      "issues": []
+    },
+    {
+      "label": "CORRIDOR_PERFECT_009",
+      "alignment_score": 1.0,
+      "exact_positions": {
+        "EAST": [
+          21,
+          30
+        ],
+        "NORTHEAST": [
+          25
+        ],
+        "BERLINCLOCK": [
+          63
+        ]
+      },
+      "fuzzy_positions": {
+        "EAST": [
+          [
+            21,
+            0,
+            "EAS"
+          ],
+          [
+            29,
+            0,
+            "HEAST"
+          ]
+        ],
+        "NORTHEAST": [
+          [
+            25,
+            0,
+            "NORTHEAS"
+          ],
+          [
+            22,
+            2,
+            "ASTNORTHEA"
+          ],
+          [
+            28,
+            2,
+            "THEASTO"
+          ]
+        ],
+        "BERLINCLOCK": [
+          [
+            63,
+            0,
+            "BERLINCLOC"
+          ],
+          [
+            60,
+            2,
+            "NFBBERLINCLO"
+          ]
+        ]
+      },
+      "issues": []
+    },
+    {
+      "label": "CORRIDOR_SHIFT-3_010",
+      "alignment_score": 0.3999999999999999,
+      "exact_positions": {
+        "EAST": [
+          18,
+          27
+        ],
+        "NORTHEAST": [
+          22
+        ],
+        "BERLINCLOCK": [
+          60
+        ]
+      },
+      "fuzzy_positions": {
+        "EAST": [
+          [
+            19,
+            0,
+            "AST"
+          ],
+          [
+            26,
+            0,
+            "HEAST"
+          ],
+          [
+            16,
+            1,
+            "IFEAS"
+          ]
+        ],
+        "NORTHEAST": [
+          [
+            23,
+            0,
+            "ORTHEAST"
+          ],
+          [
+            20,
+            1,
+            "STNORTHEAS"
+          ]
+        ],
+        "BERLINCLOCK": [
+          [
+            61,
+            0,
+            "ERLINCLOCK"
+          ],
+          [
+            58,
+            1,
+            "WIBERLINCLO"
+          ]
+        ]
+      },
+      "issues": [
+        "EAST at 18 (expected 21, off by -3)",
+        "NORTHEAST at 22 (expected 25, off by -3)",
+        "BERLINCLOCK at 60 (expected 63, off by -3)"
+      ]
+    },
+    {
+      "label": "CORRIDOR_SHIFT-3_011",
+      "alignment_score": 0.3999999999999999,
+      "exact_positions": {
+        "EAST": [
+          18,
+          27
+        ],
+        "NORTHEAST": [
+          22
+        ],
+        "BERLINCLOCK": [
+          60
+        ]
+      },
+      "fuzzy_positions": {
+        "EAST": [
+          [
+            19,
+            0,
+            "AST"
+          ],
+          [
+            26,
+            0,
+            "HEAST"
+          ],
+          [
+            16,
+            1,
+            "IFEAS"
+          ]
+        ],
+        "NORTHEAST": [
+          [
+            23,
+            0,
+            "ORTHEAST"
+          ],
+          [
+            20,
+            1,
+            "STNORTHEAS"
+          ]
+        ],
+        "BERLINCLOCK": [
+          [
+            61,
+            0,
+            "ERLINCLOCK"
+          ],
+          [
+            58,
+            1,
+            "WIBERLINCLO"
+          ]
+        ]
+      },
+      "issues": [
+        "EAST at 18 (expected 21, off by -3)",
+        "NORTHEAST at 22 (expected 25, off by -3)",
+        "BERLINCLOCK at 60 (expected 63, off by -3)"
+      ]
+    },
+    {
+      "label": "CORRIDOR_SHIFT-3_012",
+      "alignment_score": 0.3999999999999999,
+      "exact_positions": {
+        "EAST": [
+          18,
+          27
+        ],
+        "NORTHEAST": [
+          22
+        ],
+        "BERLINCLOCK": [
+          60
+        ]
+      },
+      "fuzzy_positions": {
+        "EAST": [
+          [
+            19,
+            0,
+            "AST"
+          ],
+          [
+            26,
+            0,
+            "HEAST"
+          ],
+          [
+            16,
+            1,
+            "IFEAS"
+          ]
+        ],
+        "NORTHEAST": [
+          [
+            23,
+            0,
+            "ORTHEAST"
+          ],
+          [
+            20,
+            1,
+            "STNORTHEAS"
+          ]
+        ],
+        "BERLINCLOCK": [
+          [
+            61,
+            0,
+            "ERLINCLOCK"
+          ],
+          [
+            58,
+            1,
+            "WIBERLINCLO"
+          ]
+        ]
+      },
+      "issues": [
+        "EAST at 18 (expected 21, off by -3)",
+        "NORTHEAST at 22 (expected 25, off by -3)",
+        "BERLINCLOCK at 60 (expected 63, off by -3)"
+      ]
+    },
+    {
+      "label": "CORRIDOR_SHIFT-3_013",
+      "alignment_score": 0.3999999999999999,
+      "exact_positions": {
+        "EAST": [
+          18,
+          27
+        ],
+        "NORTHEAST": [
+          22
+        ],
+        "BERLINCLOCK": [
+          60
+        ]
+      },
+      "fuzzy_positions": {
+        "EAST": [
+          [
+            19,
+            0,
+            "AST"
+          ],
+          [
+            26,
+            0,
+            "HEAST"
+          ],
+          [
+            16,
+            1,
+            "IFEAS"
+          ]
+        ],
+        "NORTHEAST": [
+          [
+            23,
+            0,
+            "ORTHEAST"
+          ],
+          [
+            20,
+            1,
+            "STNORTHEAS"
+          ]
+        ],
+        "BERLINCLOCK": [
+          [
+            61,
+            0,
+            "ERLINCLOCK"
+          ],
+          [
+            58,
+            1,
+            "WIBERLINCLO"
+          ]
+        ]
+      },
+      "issues": [
+        "EAST at 18 (expected 21, off by -3)",
+        "NORTHEAST at 22 (expected 25, off by -3)",
+        "BERLINCLOCK at 60 (expected 63, off by -3)"
+      ]
+    },
+    {
+      "label": "CORRIDOR_SHIFT-3_014",
+      "alignment_score": 0.3999999999999999,
+      "exact_positions": {
+        "EAST": [
+          18,
+          27
+        ],
+        "NORTHEAST": [
+          22
+        ],
+        "BERLINCLOCK": [
+          60
+        ]
+      },
+      "fuzzy_positions": {
+        "EAST": [
+          [
+            19,
+            0,
+            "AST"
+          ],
+          [
+            26,
+            0,
+            "HEAST"
+          ],
+          [
+            16,
+            1,
+            "IFEAS"
+          ]
+        ],
+        "NORTHEAST": [
+          [
+            23,
+            0,
+            "ORTHEAST"
+          ],
+          [
+            20,
+            1,
+            "STNORTHEAS"
+          ]
+        ],
+        "BERLINCLOCK": [
+          [
+            61,
+            0,
+            "ERLINCLOCK"
+          ],
+          [
+            58,
+            1,
+            "WIBERLINCLO"
+          ]
+        ]
+      },
+      "issues": [
+        "EAST at 18 (expected 21, off by -3)",
+        "NORTHEAST at 22 (expected 25, off by -3)",
+        "BERLINCLOCK at 60 (expected 63, off by -3)"
+      ]
+    },
+    {
+      "label": "CORRIDOR_SHIFT-2_015",
+      "alignment_score": 0.6,
+      "exact_positions": {
+        "EAST": [
+          19,
+          28
+        ],
+        "NORTHEAST": [
+          23
+        ],
+        "BERLINCLOCK": [
+          61
+        ]
+      },
+      "fuzzy_positions": {
+        "EAST": [
+          [
+            20,
+            0,
+            "AST"
+          ],
+          [
+            27,
+            0,
+            "HEAST"
+          ],
+          [
+            17,
+            1,
+            "FBEAS"
+          ]
+        ],
+        "NORTHEAST": [
+          [
+            24,
+            0,
+            "ORTHEAST"
+          ],
+          [
+            21,
+            1,
+            "STNORTHEAS"
+          ]
+        ],
+        "BERLINCLOCK": [
+          [
+            62,
+            0,
+            "ERLINCLOCK"
+          ],
+          [
+            59,
+            1,
+            "INBERLINCLO"
+          ]
+        ]
+      },
+      "issues": [
+        "EAST at 19 (expected 21, off by -2)",
+        "NORTHEAST at 23 (expected 25, off by -2)",
+        "BERLINCLOCK at 61 (expected 63, off by -2)"
+      ]
+    },
+    {
+      "label": "CORRIDOR_SHIFT-2_016",
+      "alignment_score": 0.6,
+      "exact_positions": {
+        "EAST": [
+          19,
+          28
+        ],
+        "NORTHEAST": [
+          23
+        ],
+        "BERLINCLOCK": [
+          61
+        ]
+      },
+      "fuzzy_positions": {
+        "EAST": [
+          [
+            20,
+            0,
+            "AST"
+          ],
+          [
+            27,
+            0,
+            "HEAST"
+          ],
+          [
+            17,
+            1,
+            "FBEAS"
+          ]
+        ],
+        "NORTHEAST": [
+          [
+            24,
+            0,
+            "ORTHEAST"
+          ],
+          [
+            21,
+            1,
+            "STNORTHEAS"
+          ]
+        ],
+        "BERLINCLOCK": [
+          [
+            62,
+            0,
+            "ERLINCLOCK"
+          ],
+          [
+            59,
+            1,
+            "INBERLINCLO"
+          ]
+        ]
+      },
+      "issues": [
+        "EAST at 19 (expected 21, off by -2)",
+        "NORTHEAST at 23 (expected 25, off by -2)",
+        "BERLINCLOCK at 61 (expected 63, off by -2)"
+      ]
+    },
+    {
+      "label": "CORRIDOR_SHIFT-2_017",
+      "alignment_score": 0.6,
+      "exact_positions": {
+        "EAST": [
+          19,
+          28
+        ],
+        "NORTHEAST": [
+          23
+        ],
+        "BERLINCLOCK": [
+          61
+        ]
+      },
+      "fuzzy_positions": {
+        "EAST": [
+          [
+            20,
+            0,
+            "AST"
+          ],
+          [
+            27,
+            0,
+            "HEAST"
+          ],
+          [
+            17,
+            1,
+            "FBEAS"
+          ]
+        ],
+        "NORTHEAST": [
+          [
+            24,
+            0,
+            "ORTHEAST"
+          ],
+          [
+            21,
+            1,
+            "STNORTHEAS"
+          ]
+        ],
+        "BERLINCLOCK": [
+          [
+            62,
+            0,
+            "ERLINCLOCK"
+          ],
+          [
+            59,
+            1,
+            "INBERLINCLO"
+          ]
+        ]
+      },
+      "issues": [
+        "EAST at 19 (expected 21, off by -2)",
+        "NORTHEAST at 23 (expected 25, off by -2)",
+        "BERLINCLOCK at 61 (expected 63, off by -2)"
+      ]
+    },
+    {
+      "label": "CORRIDOR_SHIFT-2_018",
+      "alignment_score": 0.6,
+      "exact_positions": {
+        "EAST": [
+          19,
+          28
+        ],
+        "NORTHEAST": [
+          23
+        ],
+        "BERLINCLOCK": [
+          61
+        ]
+      },
+      "fuzzy_positions": {
+        "EAST": [
+          [
+            20,
+            0,
+            "AST"
+          ],
+          [
+            27,
+            0,
+            "HEAST"
+          ],
+          [
+            17,
+            1,
+            "FBEAS"
+          ]
+        ],
+        "NORTHEAST": [
+          [
+            24,
+            0,
+            "ORTHEAST"
+          ],
+          [
+            21,
+            1,
+            "STNORTHEAS"
+          ]
+        ],
+        "BERLINCLOCK": [
+          [
+            62,
+            0,
+            "ERLINCLOCK"
+          ],
+          [
+            59,
+            1,
+            "INBERLINCLO"
+          ]
+        ]
+      },
+      "issues": [
+        "EAST at 19 (expected 21, off by -2)",
+        "NORTHEAST at 23 (expected 25, off by -2)",
+        "BERLINCLOCK at 61 (expected 63, off by -2)"
+      ]
+    },
+    {
+      "label": "CORRIDOR_SHIFT-2_019",
+      "alignment_score": 0.6,
+      "exact_positions": {
+        "EAST": [
+          19,
+          28
+        ],
+        "NORTHEAST": [
+          23
+        ],
+        "BERLINCLOCK": [
+          61
+        ]
+      },
+      "fuzzy_positions": {
+        "EAST": [
+          [
+            20,
+            0,
+            "AST"
+          ],
+          [
+            27,
+            0,
+            "HEAST"
+          ],
+          [
+            17,
+            1,
+            "FBEAS"
+          ]
+        ],
+        "NORTHEAST": [
+          [
+            24,
+            0,
+            "ORTHEAST"
+          ],
+          [
+            21,
+            1,
+            "STNORTHEAS"
+          ]
+        ],
+        "BERLINCLOCK": [
+          [
+            62,
+            0,
+            "ERLINCLOCK"
+          ],
+          [
+            59,
+            1,
+            "INBERLINCLO"
+          ]
+        ]
+      },
+      "issues": [
+        "EAST at 19 (expected 21, off by -2)",
+        "NORTHEAST at 23 (expected 25, off by -2)",
+        "BERLINCLOCK at 61 (expected 63, off by -2)"
+      ]
+    },
+    {
+      "label": "CORRIDOR_SHIFT-1_020",
+      "alignment_score": 0.8000000000000002,
+      "exact_positions": {
+        "EAST": [
+          20,
+          29
+        ],
+        "NORTHEAST": [
+          24
+        ],
+        "BERLINCLOCK": [
+          62
+        ]
+      },
+      "fuzzy_positions": {
+        "EAST": [
+          [
+            21,
+            0,
+            "AST"
+          ],
+          [
+            28,
+            0,
+            "HEAST"
+          ],
+          [
+            18,
+            1,
+            "BBEAS"
+          ]
+        ],
+        "NORTHEAST": [
+          [
+            25,
+            0,
+            "ORTHEAST"
+          ],
+          [
+            22,
+            1,
+            "STNORTHEAS"
+          ]
+        ],
+        "BERLINCLOCK": [
+          [
+            63,
+            0,
+            "ERLINCLOCK"
+          ],
+          [
+            60,
+            1,
+            "NFBERLINCLO"
+          ]
+        ]
+      },
+      "issues": [
+        "EAST at 20 (expected 21, off by -1)",
+        "NORTHEAST at 24 (expected 25, off by -1)",
+        "BERLINCLOCK at 62 (expected 63, off by -1)"
+      ]
+    },
+    {
+      "label": "CORRIDOR_SHIFT-1_021",
+      "alignment_score": 0.8000000000000002,
+      "exact_positions": {
+        "EAST": [
+          20,
+          29
+        ],
+        "NORTHEAST": [
+          24
+        ],
+        "BERLINCLOCK": [
+          62
+        ]
+      },
+      "fuzzy_positions": {
+        "EAST": [
+          [
+            21,
+            0,
+            "AST"
+          ],
+          [
+            28,
+            0,
+            "HEAST"
+          ],
+          [
+            18,
+            1,
+            "BBEAS"
+          ]
+        ],
+        "NORTHEAST": [
+          [
+            25,
+            0,
+            "ORTHEAST"
+          ],
+          [
+            22,
+            1,
+            "STNORTHEAS"
+          ]
+        ],
+        "BERLINCLOCK": [
+          [
+            63,
+            0,
+            "ERLINCLOCK"
+          ],
+          [
+            60,
+            1,
+            "NFBERLINCLO"
+          ]
+        ]
+      },
+      "issues": [
+        "EAST at 20 (expected 21, off by -1)",
+        "NORTHEAST at 24 (expected 25, off by -1)",
+        "BERLINCLOCK at 62 (expected 63, off by -1)"
+      ]
+    },
+    {
+      "label": "CORRIDOR_SHIFT-1_022",
+      "alignment_score": 0.8000000000000002,
+      "exact_positions": {
+        "EAST": [
+          20,
+          29
+        ],
+        "NORTHEAST": [
+          24
+        ],
+        "BERLINCLOCK": [
+          62
+        ]
+      },
+      "fuzzy_positions": {
+        "EAST": [
+          [
+            21,
+            0,
+            "AST"
+          ],
+          [
+            28,
+            0,
+            "HEAST"
+          ],
+          [
+            18,
+            1,
+            "BBEAS"
+          ]
+        ],
+        "NORTHEAST": [
+          [
+            25,
+            0,
+            "ORTHEAST"
+          ],
+          [
+            22,
+            1,
+            "STNORTHEAS"
+          ]
+        ],
+        "BERLINCLOCK": [
+          [
+            63,
+            0,
+            "ERLINCLOCK"
+          ],
+          [
+            60,
+            1,
+            "NFBERLINCLO"
+          ]
+        ]
+      },
+      "issues": [
+        "EAST at 20 (expected 21, off by -1)",
+        "NORTHEAST at 24 (expected 25, off by -1)",
+        "BERLINCLOCK at 62 (expected 63, off by -1)"
+      ]
+    },
+    {
+      "label": "CORRIDOR_SHIFT-1_023",
+      "alignment_score": 0.8000000000000002,
+      "exact_positions": {
+        "EAST": [
+          20,
+          29
+        ],
+        "NORTHEAST": [
+          24
+        ],
+        "BERLINCLOCK": [
+          62
+        ]
+      },
+      "fuzzy_positions": {
+        "EAST": [
+          [
+            21,
+            0,
+            "AST"
+          ],
+          [
+            28,
+            0,
+            "HEAST"
+          ],
+          [
+            18,
+            1,
+            "BBEAS"
+          ]
+        ],
+        "NORTHEAST": [
+          [
+            25,
+            0,
+            "ORTHEAST"
+          ],
+          [
+            22,
+            1,
+            "STNORTHEAS"
+          ]
+        ],
+        "BERLINCLOCK": [
+          [
+            63,
+            0,
+            "ERLINCLOCK"
+          ],
+          [
+            60,
+            1,
+            "NFBERLINCLO"
+          ]
+        ]
+      },
+      "issues": [
+        "EAST at 20 (expected 21, off by -1)",
+        "NORTHEAST at 24 (expected 25, off by -1)",
+        "BERLINCLOCK at 62 (expected 63, off by -1)"
+      ]
+    },
+    {
+      "label": "CORRIDOR_SHIFT-1_024",
+      "alignment_score": 0.8000000000000002,
+      "exact_positions": {
+        "EAST": [
+          20,
+          29
+        ],
+        "NORTHEAST": [
+          24
+        ],
+        "BERLINCLOCK": [
+          62
+        ]
+      },
+      "fuzzy_positions": {
+        "EAST": [
+          [
+            21,
+            0,
+            "AST"
+          ],
+          [
+            28,
+            0,
+            "HEAST"
+          ],
+          [
+            18,
+            1,
+            "BBEAS"
+          ]
+        ],
+        "NORTHEAST": [
+          [
+            25,
+            0,
+            "ORTHEAST"
+          ],
+          [
+            22,
+            1,
+            "STNORTHEAS"
+          ]
+        ],
+        "BERLINCLOCK": [
+          [
+            63,
+            0,
+            "ERLINCLOCK"
+          ],
+          [
+            60,
+            1,
+            "NFBERLINCLO"
+          ]
+        ]
+      },
+      "issues": [
+        "EAST at 20 (expected 21, off by -1)",
+        "NORTHEAST at 24 (expected 25, off by -1)",
+        "BERLINCLOCK at 62 (expected 63, off by -1)"
+      ]
+    },
+    {
+      "label": "CORRIDOR_SHIFT+1_025",
+      "alignment_score": 0.8000000000000002,
+      "exact_positions": {
+        "EAST": [
+          22,
+          31
+        ],
+        "NORTHEAST": [
+          26
+        ],
+        "BERLINCLOCK": [
+          64
+        ]
+      },
+      "fuzzy_positions": {
+        "EAST": [
+          [
+            21,
+            0,
+            "FEAST"
+          ],
+          [
+            30,
+            0,
+            "HEAST"
+          ]
+        ],
+        "NORTHEAST": [
+          [
+            25,
+            0,
+            "TNORTHEAST"
+          ],
+          [
+            28,
+            1,
+            "RTHEAST"
+          ]
+        ],
+        "BERLINCLOCK": [
+          [
+            63,
+            0,
+            "NBERLINCLOCK"
+          ]
+        ]
+      },
+      "issues": [
+        "EAST at 22 (expected 21, off by +1)",
+        "NORTHEAST at 26 (expected 25, off by +1)",
+        "BERLINCLOCK at 64 (expected 63, off by +1)"
+      ]
+    },
+    {
+      "label": "CORRIDOR_SHIFT+1_026",
+      "alignment_score": 0.8000000000000002,
+      "exact_positions": {
+        "EAST": [
+          22,
+          31
+        ],
+        "NORTHEAST": [
+          26
+        ],
+        "BERLINCLOCK": [
+          64
+        ]
+      },
+      "fuzzy_positions": {
+        "EAST": [
+          [
+            21,
+            0,
+            "FEAST"
+          ],
+          [
+            30,
+            0,
+            "HEAST"
+          ]
+        ],
+        "NORTHEAST": [
+          [
+            25,
+            0,
+            "TNORTHEAST"
+          ],
+          [
+            28,
+            1,
+            "RTHEAST"
+          ]
+        ],
+        "BERLINCLOCK": [
+          [
+            63,
+            0,
+            "NBERLINCLOCK"
+          ]
+        ]
+      },
+      "issues": [
+        "EAST at 22 (expected 21, off by +1)",
+        "NORTHEAST at 26 (expected 25, off by +1)",
+        "BERLINCLOCK at 64 (expected 63, off by +1)"
+      ]
+    },
+    {
+      "label": "CORRIDOR_SHIFT+1_027",
+      "alignment_score": 0.8000000000000002,
+      "exact_positions": {
+        "EAST": [
+          22,
+          31
+        ],
+        "NORTHEAST": [
+          26
+        ],
+        "BERLINCLOCK": [
+          64
+        ]
+      },
+      "fuzzy_positions": {
+        "EAST": [
+          [
+            21,
+            0,
+            "FEAST"
+          ],
+          [
+            30,
+            0,
+            "HEAST"
+          ]
+        ],
+        "NORTHEAST": [
+          [
+            25,
+            0,
+            "TNORTHEAST"
+          ],
+          [
+            28,
+            1,
+            "RTHEAST"
+          ]
+        ],
+        "BERLINCLOCK": [
+          [
+            63,
+            0,
+            "NBERLINCLOCK"
+          ]
+        ]
+      },
+      "issues": [
+        "EAST at 22 (expected 21, off by +1)",
+        "NORTHEAST at 26 (expected 25, off by +1)",
+        "BERLINCLOCK at 64 (expected 63, off by +1)"
+      ]
+    },
+    {
+      "label": "CORRIDOR_SHIFT+1_028",
+      "alignment_score": 0.8000000000000002,
+      "exact_positions": {
+        "EAST": [
+          22,
+          31
+        ],
+        "NORTHEAST": [
+          26
+        ],
+        "BERLINCLOCK": [
+          64
+        ]
+      },
+      "fuzzy_positions": {
+        "EAST": [
+          [
+            21,
+            0,
+            "FEAST"
+          ],
+          [
+            30,
+            0,
+            "HEAST"
+          ]
+        ],
+        "NORTHEAST": [
+          [
+            25,
+            0,
+            "TNORTHEAST"
+          ],
+          [
+            28,
+            1,
+            "RTHEAST"
+          ]
+        ],
+        "BERLINCLOCK": [
+          [
+            63,
+            0,
+            "NBERLINCLOCK"
+          ]
+        ]
+      },
+      "issues": [
+        "EAST at 22 (expected 21, off by +1)",
+        "NORTHEAST at 26 (expected 25, off by +1)",
+        "BERLINCLOCK at 64 (expected 63, off by +1)"
+      ]
+    },
+    {
+      "label": "CORRIDOR_SHIFT+1_029",
+      "alignment_score": 0.8000000000000002,
+      "exact_positions": {
+        "EAST": [
+          22,
+          31
+        ],
+        "NORTHEAST": [
+          26
+        ],
+        "BERLINCLOCK": [
+          64
+        ]
+      },
+      "fuzzy_positions": {
+        "EAST": [
+          [
+            21,
+            0,
+            "FEAST"
+          ],
+          [
+            30,
+            0,
+            "HEAST"
+          ]
+        ],
+        "NORTHEAST": [
+          [
+            25,
+            0,
+            "TNORTHEAST"
+          ],
+          [
+            28,
+            1,
+            "RTHEAST"
+          ]
+        ],
+        "BERLINCLOCK": [
+          [
+            63,
+            0,
+            "NBERLINCLOCK"
+          ]
+        ]
+      },
+      "issues": [
+        "EAST at 22 (expected 21, off by +1)",
+        "NORTHEAST at 26 (expected 25, off by +1)",
+        "BERLINCLOCK at 64 (expected 63, off by +1)"
+      ]
+    },
+    {
+      "label": "CORRIDOR_SHIFT+2_030",
+      "alignment_score": 0.6666666666666666,
+      "exact_positions": {
+        "EAST": [
+          23,
+          32
+        ],
+        "NORTHEAST": [
+          27
+        ],
+        "BERLINCLOCK": [
+          64
+        ]
+      },
+      "fuzzy_positions": {
+        "EAST": [
+          [
+            22,
+            0,
+            "LEAST"
+          ],
+          [
+            31,
+            0,
+            "HEAST"
+          ]
+        ],
+        "NORTHEAST": [
+          [
+            26,
+            0,
+            "TNORTHEAST"
+          ],
+          [
+            29,
+            1,
+            "RTHEAST"
+          ]
+        ],
+        "BERLINCLOCK": [
+          [
+            63,
+            0,
+            "NBERLINCLOCK"
+          ]
+        ]
+      },
+      "issues": [
+        "EAST at 23 (expected 21, off by +2)",
+        "NORTHEAST at 27 (expected 25, off by +2)",
+        "BERLINCLOCK at 64 (expected 63, off by +1)"
+      ]
+    },
+    {
+      "label": "CORRIDOR_SHIFT+2_031",
+      "alignment_score": 0.6666666666666666,
+      "exact_positions": {
+        "EAST": [
+          23,
+          32
+        ],
+        "NORTHEAST": [
+          27
+        ],
+        "BERLINCLOCK": [
+          64
+        ]
+      },
+      "fuzzy_positions": {
+        "EAST": [
+          [
+            22,
+            0,
+            "LEAST"
+          ],
+          [
+            31,
+            0,
+            "HEAST"
+          ]
+        ],
+        "NORTHEAST": [
+          [
+            26,
+            0,
+            "TNORTHEAST"
+          ],
+          [
+            29,
+            1,
+            "RTHEAST"
+          ]
+        ],
+        "BERLINCLOCK": [
+          [
+            63,
+            0,
+            "NBERLINCLOCK"
+          ]
+        ]
+      },
+      "issues": [
+        "EAST at 23 (expected 21, off by +2)",
+        "NORTHEAST at 27 (expected 25, off by +2)",
+        "BERLINCLOCK at 64 (expected 63, off by +1)"
+      ]
+    },
+    {
+      "label": "CORRIDOR_SHIFT+2_032",
+      "alignment_score": 0.6666666666666666,
+      "exact_positions": {
+        "EAST": [
+          23,
+          32
+        ],
+        "NORTHEAST": [
+          27
+        ],
+        "BERLINCLOCK": [
+          64
+        ]
+      },
+      "fuzzy_positions": {
+        "EAST": [
+          [
+            22,
+            0,
+            "LEAST"
+          ],
+          [
+            31,
+            0,
+            "HEAST"
+          ]
+        ],
+        "NORTHEAST": [
+          [
+            26,
+            0,
+            "TNORTHEAST"
+          ],
+          [
+            29,
+            1,
+            "RTHEAST"
+          ]
+        ],
+        "BERLINCLOCK": [
+          [
+            63,
+            0,
+            "NBERLINCLOCK"
+          ]
+        ]
+      },
+      "issues": [
+        "EAST at 23 (expected 21, off by +2)",
+        "NORTHEAST at 27 (expected 25, off by +2)",
+        "BERLINCLOCK at 64 (expected 63, off by +1)"
+      ]
+    },
+    {
+      "label": "CORRIDOR_SHIFT+2_033",
+      "alignment_score": 0.6666666666666666,
+      "exact_positions": {
+        "EAST": [
+          23,
+          32
+        ],
+        "NORTHEAST": [
+          27
+        ],
+        "BERLINCLOCK": [
+          64
+        ]
+      },
+      "fuzzy_positions": {
+        "EAST": [
+          [
+            22,
+            0,
+            "LEAST"
+          ],
+          [
+            31,
+            0,
+            "HEAST"
+          ]
+        ],
+        "NORTHEAST": [
+          [
+            26,
+            0,
+            "TNORTHEAST"
+          ],
+          [
+            29,
+            1,
+            "RTHEAST"
+          ]
+        ],
+        "BERLINCLOCK": [
+          [
+            63,
+            0,
+            "NBERLINCLOCK"
+          ]
+        ]
+      },
+      "issues": [
+        "EAST at 23 (expected 21, off by +2)",
+        "NORTHEAST at 27 (expected 25, off by +2)",
+        "BERLINCLOCK at 64 (expected 63, off by +1)"
+      ]
+    },
+    {
+      "label": "CORRIDOR_SHIFT+2_034",
+      "alignment_score": 0.6666666666666666,
+      "exact_positions": {
+        "EAST": [
+          23,
+          32
+        ],
+        "NORTHEAST": [
+          27
+        ],
+        "BERLINCLOCK": [
+          64
+        ]
+      },
+      "fuzzy_positions": {
+        "EAST": [
+          [
+            22,
+            0,
+            "LEAST"
+          ],
+          [
+            31,
+            0,
+            "HEAST"
+          ]
+        ],
+        "NORTHEAST": [
+          [
+            26,
+            0,
+            "TNORTHEAST"
+          ],
+          [
+            29,
+            1,
+            "RTHEAST"
+          ]
+        ],
+        "BERLINCLOCK": [
+          [
+            63,
+            0,
+            "NBERLINCLOCK"
+          ]
+        ]
+      },
+      "issues": [
+        "EAST at 23 (expected 21, off by +2)",
+        "NORTHEAST at 27 (expected 25, off by +2)",
+        "BERLINCLOCK at 64 (expected 63, off by +1)"
+      ]
+    },
+    {
+      "label": "CORRIDOR_SHIFT+3_035",
+      "alignment_score": 0.5333333333333333,
+      "exact_positions": {
+        "EAST": [
+          24,
+          33
+        ],
+        "NORTHEAST": [
+          28
+        ],
+        "BERLINCLOCK": [
+          64
+        ]
+      },
+      "fuzzy_positions": {
+        "EAST": [
+          [
+            23,
+            0,
+            "REAST"
+          ],
+          [
+            32,
+            0,
+            "HEAST"
+          ]
+        ],
+        "NORTHEAST": [
+          [
+            27,
+            0,
+            "TNORTHEAST"
+          ],
+          [
+            30,
+            1,
+            "RTHEAST"
+          ]
+        ],
+        "BERLINCLOCK": [
+          [
+            63,
+            0,
+            "NBERLINCLOCK"
+          ]
+        ]
+      },
+      "issues": [
+        "EAST at 24 (expected 21, off by +3)",
+        "NORTHEAST at 28 (expected 25, off by +3)",
+        "BERLINCLOCK at 64 (expected 63, off by +1)"
+      ]
+    },
+    {
+      "label": "CORRIDOR_SHIFT+3_036",
+      "alignment_score": 0.5333333333333333,
+      "exact_positions": {
+        "EAST": [
+          24,
+          33
+        ],
+        "NORTHEAST": [
+          28
+        ],
+        "BERLINCLOCK": [
+          64
+        ]
+      },
+      "fuzzy_positions": {
+        "EAST": [
+          [
+            23,
+            0,
+            "REAST"
+          ],
+          [
+            32,
+            0,
+            "HEAST"
+          ]
+        ],
+        "NORTHEAST": [
+          [
+            27,
+            0,
+            "TNORTHEAST"
+          ],
+          [
+            30,
+            1,
+            "RTHEAST"
+          ]
+        ],
+        "BERLINCLOCK": [
+          [
+            63,
+            0,
+            "NBERLINCLOCK"
+          ]
+        ]
+      },
+      "issues": [
+        "EAST at 24 (expected 21, off by +3)",
+        "NORTHEAST at 28 (expected 25, off by +3)",
+        "BERLINCLOCK at 64 (expected 63, off by +1)"
+      ]
+    },
+    {
+      "label": "CORRIDOR_SHIFT+3_037",
+      "alignment_score": 0.5333333333333333,
+      "exact_positions": {
+        "EAST": [
+          24,
+          33
+        ],
+        "NORTHEAST": [
+          28
+        ],
+        "BERLINCLOCK": [
+          64
+        ]
+      },
+      "fuzzy_positions": {
+        "EAST": [
+          [
+            23,
+            0,
+            "REAST"
+          ],
+          [
+            32,
+            0,
+            "HEAST"
+          ]
+        ],
+        "NORTHEAST": [
+          [
+            27,
+            0,
+            "TNORTHEAST"
+          ],
+          [
+            30,
+            1,
+            "RTHEAST"
+          ]
+        ],
+        "BERLINCLOCK": [
+          [
+            63,
+            0,
+            "NBERLINCLOCK"
+          ]
+        ]
+      },
+      "issues": [
+        "EAST at 24 (expected 21, off by +3)",
+        "NORTHEAST at 28 (expected 25, off by +3)",
+        "BERLINCLOCK at 64 (expected 63, off by +1)"
+      ]
+    },
+    {
+      "label": "CORRIDOR_SHIFT+3_038",
+      "alignment_score": 0.5333333333333333,
+      "exact_positions": {
+        "EAST": [
+          24,
+          33
+        ],
+        "NORTHEAST": [
+          28
+        ],
+        "BERLINCLOCK": [
+          64
+        ]
+      },
+      "fuzzy_positions": {
+        "EAST": [
+          [
+            23,
+            0,
+            "REAST"
+          ],
+          [
+            32,
+            0,
+            "HEAST"
+          ]
+        ],
+        "NORTHEAST": [
+          [
+            27,
+            0,
+            "TNORTHEAST"
+          ],
+          [
+            30,
+            1,
+            "RTHEAST"
+          ]
+        ],
+        "BERLINCLOCK": [
+          [
+            63,
+            0,
+            "NBERLINCLOCK"
+          ]
+        ]
+      },
+      "issues": [
+        "EAST at 24 (expected 21, off by +3)",
+        "NORTHEAST at 28 (expected 25, off by +3)",
+        "BERLINCLOCK at 64 (expected 63, off by +1)"
+      ]
+    },
+    {
+      "label": "CORRIDOR_SHIFT+3_039",
+      "alignment_score": 0.5333333333333333,
+      "exact_positions": {
+        "EAST": [
+          24,
+          33
+        ],
+        "NORTHEAST": [
+          28
+        ],
+        "BERLINCLOCK": [
+          64
+        ]
+      },
+      "fuzzy_positions": {
+        "EAST": [
+          [
+            23,
+            0,
+            "REAST"
+          ],
+          [
+            32,
+            0,
+            "HEAST"
+          ]
+        ],
+        "NORTHEAST": [
+          [
+            27,
+            0,
+            "TNORTHEAST"
+          ],
+          [
+            30,
+            1,
+            "RTHEAST"
+          ]
+        ],
+        "BERLINCLOCK": [
+          [
+            63,
+            0,
+            "NBERLINCLOCK"
+          ]
+        ]
+      },
+      "issues": [
+        "EAST at 24 (expected 21, off by +3)",
+        "NORTHEAST at 28 (expected 25, off by +3)",
+        "BERLINCLOCK at 64 (expected 63, off by +1)"
+      ]
+    },
+    {
+      "label": "CORRIDOR_EAST_SHIFT-2_040",
+      "alignment_score": 0.8666666666666667,
+      "exact_positions": {
+        "EAST": [
+          19,
+          30
+        ],
+        "NORTHEAST": [
+          25
+        ],
+        "BERLINCLOCK": [
+          63
+        ]
+      },
+      "fuzzy_positions": {
+        "EAST": [
+          [
+            20,
+            0,
+            "AST"
+          ],
+          [
+            29,
+            0,
+            "HEAST"
+          ],
+          [
+            17,
+            1,
+            "FBEAS"
+          ]
+        ],
+        "NORTHEAST": [
+          [
+            25,
+            0,
+            "NORTHEAS"
+          ],
+          [
+            22,
+            2,
+            "TRVNORTHEA"
+          ],
+          [
+            28,
+            2,
+            "THEASTO"
+          ]
+        ],
+        "BERLINCLOCK": [
+          [
+            63,
+            0,
+            "BERLINCLOC"
+          ],
+          [
+            60,
+            2,
+            "NFBBERLINCLO"
+          ]
+        ]
+      },
+      "issues": [
+        "EAST at 19 (expected 21, off by -2)"
+      ]
+    },
+    {
+      "label": "CORRIDOR_EAST_SHIFT-2_041",
+      "alignment_score": 0.8666666666666667,
+      "exact_positions": {
+        "EAST": [
+          19,
+          30
+        ],
+        "NORTHEAST": [
+          25
+        ],
+        "BERLINCLOCK": [
+          63
+        ]
+      },
+      "fuzzy_positions": {
+        "EAST": [
+          [
+            20,
+            0,
+            "AST"
+          ],
+          [
+            29,
+            0,
+            "HEAST"
+          ],
+          [
+            17,
+            1,
+            "FBEAS"
+          ]
+        ],
+        "NORTHEAST": [
+          [
+            25,
+            0,
+            "NORTHEAS"
+          ],
+          [
+            22,
+            2,
+            "TRVNORTHEA"
+          ],
+          [
+            28,
+            2,
+            "THEASTO"
+          ]
+        ],
+        "BERLINCLOCK": [
+          [
+            63,
+            0,
+            "BERLINCLOC"
+          ],
+          [
+            60,
+            2,
+            "NFBBERLINCLO"
+          ]
+        ]
+      },
+      "issues": [
+        "EAST at 19 (expected 21, off by -2)"
+      ]
+    },
+    {
+      "label": "CORRIDOR_EAST_SHIFT-2_042",
+      "alignment_score": 0.8666666666666667,
+      "exact_positions": {
+        "EAST": [
+          19,
+          30
+        ],
+        "NORTHEAST": [
+          25
+        ],
+        "BERLINCLOCK": [
+          63
+        ]
+      },
+      "fuzzy_positions": {
+        "EAST": [
+          [
+            20,
+            0,
+            "AST"
+          ],
+          [
+            29,
+            0,
+            "HEAST"
+          ],
+          [
+            17,
+            1,
+            "FBEAS"
+          ]
+        ],
+        "NORTHEAST": [
+          [
+            25,
+            0,
+            "NORTHEAS"
+          ],
+          [
+            22,
+            2,
+            "TRVNORTHEA"
+          ],
+          [
+            28,
+            2,
+            "THEASTO"
+          ]
+        ],
+        "BERLINCLOCK": [
+          [
+            63,
+            0,
+            "BERLINCLOC"
+          ],
+          [
+            60,
+            2,
+            "NFBBERLINCLO"
+          ]
+        ]
+      },
+      "issues": [
+        "EAST at 19 (expected 21, off by -2)"
+      ]
+    },
+    {
+      "label": "CORRIDOR_EAST_SHIFT-1_043",
+      "alignment_score": 0.9333333333333332,
+      "exact_positions": {
+        "EAST": [
+          20,
+          30
+        ],
+        "NORTHEAST": [
+          25
+        ],
+        "BERLINCLOCK": [
+          63
+        ]
+      },
+      "fuzzy_positions": {
+        "EAST": [
+          [
+            21,
+            0,
+            "AST"
+          ],
+          [
+            29,
+            0,
+            "HEAST"
+          ],
+          [
+            18,
+            1,
+            "BBEAS"
+          ]
+        ],
+        "NORTHEAST": [
+          [
+            25,
+            0,
+            "NORTHEAS"
+          ],
+          [
+            22,
+            2,
+            "STVNORTHEA"
+          ],
+          [
+            28,
+            2,
+            "THEASTO"
+          ]
+        ],
+        "BERLINCLOCK": [
+          [
+            63,
+            0,
+            "BERLINCLOC"
+          ],
+          [
+            60,
+            2,
+            "NFBBERLINCLO"
+          ]
+        ]
+      },
+      "issues": [
+        "EAST at 20 (expected 21, off by -1)"
+      ]
+    },
+    {
+      "label": "CORRIDOR_EAST_SHIFT-1_044",
+      "alignment_score": 0.9333333333333332,
+      "exact_positions": {
+        "EAST": [
+          20,
+          30
+        ],
+        "NORTHEAST": [
+          25
+        ],
+        "BERLINCLOCK": [
+          63
+        ]
+      },
+      "fuzzy_positions": {
+        "EAST": [
+          [
+            21,
+            0,
+            "AST"
+          ],
+          [
+            29,
+            0,
+            "HEAST"
+          ],
+          [
+            18,
+            1,
+            "BBEAS"
+          ]
+        ],
+        "NORTHEAST": [
+          [
+            25,
+            0,
+            "NORTHEAS"
+          ],
+          [
+            22,
+            2,
+            "STVNORTHEA"
+          ],
+          [
+            28,
+            2,
+            "THEASTO"
+          ]
+        ],
+        "BERLINCLOCK": [
+          [
+            63,
+            0,
+            "BERLINCLOC"
+          ],
+          [
+            60,
+            2,
+            "NFBBERLINCLO"
+          ]
+        ]
+      },
+      "issues": [
+        "EAST at 20 (expected 21, off by -1)"
+      ]
+    },
+    {
+      "label": "CORRIDOR_EAST_SHIFT-1_045",
+      "alignment_score": 0.9333333333333332,
+      "exact_positions": {
+        "EAST": [
+          20,
+          30
+        ],
+        "NORTHEAST": [
+          25
+        ],
+        "BERLINCLOCK": [
+          63
+        ]
+      },
+      "fuzzy_positions": {
+        "EAST": [
+          [
+            21,
+            0,
+            "AST"
+          ],
+          [
+            29,
+            0,
+            "HEAST"
+          ],
+          [
+            18,
+            1,
+            "BBEAS"
+          ]
+        ],
+        "NORTHEAST": [
+          [
+            25,
+            0,
+            "NORTHEAS"
+          ],
+          [
+            22,
+            2,
+            "STVNORTHEA"
+          ],
+          [
+            28,
+            2,
+            "THEASTO"
+          ]
+        ],
+        "BERLINCLOCK": [
+          [
+            63,
+            0,
+            "BERLINCLOC"
+          ],
+          [
+            60,
+            2,
+            "NFBBERLINCLO"
+          ]
+        ]
+      },
+      "issues": [
+        "EAST at 20 (expected 21, off by -1)"
+      ]
+    },
+    {
+      "label": "CORRIDOR_EAST_SHIFT+1_046",
+      "alignment_score": 0.7000000000000001,
+      "exact_positions": {
+        "EAST": [
+          30
+        ],
+        "NORTHEAST": [
+          25
+        ],
+        "BERLINCLOCK": [
+          63
+        ]
+      },
+      "fuzzy_positions": {
+        "EAST": [
+          [
+            22,
+            0,
+            "EAS"
+          ],
+          [
+            29,
+            0,
+            "HEAST"
+          ]
+        ],
+        "NORTHEAST": [
+          [
+            25,
+            0,
+            "NORTHEAS"
+          ],
+          [
+            22,
+            2,
+            "EASNORTHEA"
+          ],
+          [
+            28,
+            2,
+            "THEASTO"
+          ]
+        ],
+        "BERLINCLOCK": [
+          [
+            63,
+            0,
+            "BERLINCLOC"
+          ],
+          [
+            60,
+            2,
+            "NFBBERLINCLO"
+          ]
+        ]
+      },
+      "issues": [
+        "EAST at 30 (expected 21, off by +9)"
+      ]
+    },
+    {
+      "label": "CORRIDOR_EAST_SHIFT+1_047",
+      "alignment_score": 0.7000000000000001,
+      "exact_positions": {
+        "EAST": [
+          30
+        ],
+        "NORTHEAST": [
+          25
+        ],
+        "BERLINCLOCK": [
+          63
+        ]
+      },
+      "fuzzy_positions": {
+        "EAST": [
+          [
+            22,
+            0,
+            "EAS"
+          ],
+          [
+            29,
+            0,
+            "HEAST"
+          ]
+        ],
+        "NORTHEAST": [
+          [
+            25,
+            0,
+            "NORTHEAS"
+          ],
+          [
+            22,
+            2,
+            "EASNORTHEA"
+          ],
+          [
+            28,
+            2,
+            "THEASTO"
+          ]
+        ],
+        "BERLINCLOCK": [
+          [
+            63,
+            0,
+            "BERLINCLOC"
+          ],
+          [
+            60,
+            2,
+            "NFBBERLINCLO"
+          ]
+        ]
+      },
+      "issues": [
+        "EAST at 30 (expected 21, off by +9)"
+      ]
+    },
+    {
+      "label": "CORRIDOR_EAST_SHIFT+1_048",
+      "alignment_score": 0.7000000000000001,
+      "exact_positions": {
+        "EAST": [
+          30
+        ],
+        "NORTHEAST": [
+          25
+        ],
+        "BERLINCLOCK": [
+          63
+        ]
+      },
+      "fuzzy_positions": {
+        "EAST": [
+          [
+            22,
+            0,
+            "EAS"
+          ],
+          [
+            29,
+            0,
+            "HEAST"
+          ]
+        ],
+        "NORTHEAST": [
+          [
+            25,
+            0,
+            "NORTHEAS"
+          ],
+          [
+            22,
+            2,
+            "EASNORTHEA"
+          ],
+          [
+            28,
+            2,
+            "THEASTO"
+          ]
+        ],
+        "BERLINCLOCK": [
+          [
+            63,
+            0,
+            "BERLINCLOC"
+          ],
+          [
+            60,
+            2,
+            "NFBBERLINCLO"
+          ]
+        ]
+      },
+      "issues": [
+        "EAST at 30 (expected 21, off by +9)"
+      ]
+    },
+    {
+      "label": "CORRIDOR_EAST_SHIFT+2_049",
+      "alignment_score": 0.7000000000000001,
+      "exact_positions": {
+        "EAST": [
+          30
+        ],
+        "NORTHEAST": [
+          25
+        ],
+        "BERLINCLOCK": [
+          63
+        ]
+      },
+      "fuzzy_positions": {
+        "EAST": [
+          [
+            29,
+            0,
+            "HEAST"
+          ]
+        ],
+        "NORTHEAST": [
+          [
+            25,
+            0,
+            "NORTHEAS"
+          ],
+          [
+            22,
+            2,
+            "LEANORTHEA"
+          ],
+          [
+            28,
+            2,
+            "THEASTO"
+          ]
+        ],
+        "BERLINCLOCK": [
+          [
+            63,
+            0,
+            "BERLINCLOC"
+          ],
+          [
+            60,
+            2,
+            "NFBBERLINCLO"
+          ]
+        ]
+      },
+      "issues": [
+        "EAST at 30 (expected 21, off by +9)"
+      ]
+    },
+    {
+      "label": "CORRIDOR_EAST_SHIFT+2_050",
+      "alignment_score": 0.7000000000000001,
+      "exact_positions": {
+        "EAST": [
+          30
+        ],
+        "NORTHEAST": [
+          25
+        ],
+        "BERLINCLOCK": [
+          63
+        ]
+      },
+      "fuzzy_positions": {
+        "EAST": [
+          [
+            29,
+            0,
+            "HEAST"
+          ]
+        ],
+        "NORTHEAST": [
+          [
+            25,
+            0,
+            "NORTHEAS"
+          ],
+          [
+            22,
+            2,
+            "LEANORTHEA"
+          ],
+          [
+            28,
+            2,
+            "THEASTO"
+          ]
+        ],
+        "BERLINCLOCK": [
+          [
+            63,
+            0,
+            "BERLINCLOC"
+          ],
+          [
+            60,
+            2,
+            "NFBBERLINCLO"
+          ]
+        ]
+      },
+      "issues": [
+        "EAST at 30 (expected 21, off by +9)"
+      ]
+    },
+    {
+      "label": "CORRIDOR_EAST_SHIFT+2_051",
+      "alignment_score": 0.7000000000000001,
+      "exact_positions": {
+        "EAST": [
+          30
+        ],
+        "NORTHEAST": [
+          25
+        ],
+        "BERLINCLOCK": [
+          63
+        ]
+      },
+      "fuzzy_positions": {
+        "EAST": [
+          [
+            29,
+            0,
+            "HEAST"
+          ]
+        ],
+        "NORTHEAST": [
+          [
+            25,
+            0,
+            "NORTHEAS"
+          ],
+          [
+            22,
+            2,
+            "LEANORTHEA"
+          ],
+          [
+            28,
+            2,
+            "THEASTO"
+          ]
+        ],
+        "BERLINCLOCK": [
+          [
+            63,
+            0,
+            "BERLINCLOC"
+          ],
+          [
+            60,
+            2,
+            "NFBBERLINCLO"
+          ]
+        ]
+      },
+      "issues": [
+        "EAST at 30 (expected 21, off by +9)"
+      ]
+    },
+    {
+      "label": "CORRIDOR_NORTHEAST_SHIFT-2_052",
+      "alignment_score": 0.6,
+      "exact_positions": {
+        "EAST": [
+          28
+        ],
+        "NORTHEAST": [
+          23
+        ],
+        "BERLINCLOCK": [
+          63
+        ]
+      },
+      "fuzzy_positions": {
+        "EAST": [
+          [
+            27,
+            0,
+            "HEAST"
+          ]
+        ],
+        "NORTHEAST": [
+          [
+            24,
+            0,
+            "ORTHEAST"
+          ],
+          [
+            21,
+            1,
+            "EANORTHEAS"
+          ]
+        ],
+        "BERLINCLOCK": [
+          [
+            63,
+            0,
+            "BERLINCLOC"
+          ],
+          [
+            60,
+            2,
+            "NFBBERLINCLO"
+          ]
+        ]
+      },
+      "issues": [
+        "EAST at 28 (expected 21, off by +7)",
+        "NORTHEAST at 23 (expected 25, off by -2)"
+      ]
+    },
+    {
+      "label": "CORRIDOR_NORTHEAST_SHIFT-2_053",
+      "alignment_score": 0.6,
+      "exact_positions": {
+        "EAST": [
+          28
+        ],
+        "NORTHEAST": [
+          23
+        ],
+        "BERLINCLOCK": [
+          63
+        ]
+      },
+      "fuzzy_positions": {
+        "EAST": [
+          [
+            27,
+            0,
+            "HEAST"
+          ]
+        ],
+        "NORTHEAST": [
+          [
+            24,
+            0,
+            "ORTHEAST"
+          ],
+          [
+            21,
+            1,
+            "EANORTHEAS"
+          ]
+        ],
+        "BERLINCLOCK": [
+          [
+            63,
+            0,
+            "BERLINCLOC"
+          ],
+          [
+            60,
+            2,
+            "NFBBERLINCLO"
+          ]
+        ]
+      },
+      "issues": [
+        "EAST at 28 (expected 21, off by +7)",
+        "NORTHEAST at 23 (expected 25, off by -2)"
+      ]
+    },
+    {
+      "label": "CORRIDOR_NORTHEAST_SHIFT-2_054",
+      "alignment_score": 0.6,
+      "exact_positions": {
+        "EAST": [
+          28
+        ],
+        "NORTHEAST": [
+          23
+        ],
+        "BERLINCLOCK": [
+          63
+        ]
+      },
+      "fuzzy_positions": {
+        "EAST": [
+          [
+            27,
+            0,
+            "HEAST"
+          ]
+        ],
+        "NORTHEAST": [
+          [
+            24,
+            0,
+            "ORTHEAST"
+          ],
+          [
+            21,
+            1,
+            "EANORTHEAS"
+          ]
+        ],
+        "BERLINCLOCK": [
+          [
+            63,
+            0,
+            "BERLINCLOC"
+          ],
+          [
+            60,
+            2,
+            "NFBBERLINCLO"
+          ]
+        ]
+      },
+      "issues": [
+        "EAST at 28 (expected 21, off by +7)",
+        "NORTHEAST at 23 (expected 25, off by -2)"
+      ]
+    },
+    {
+      "label": "CORRIDOR_NORTHEAST_SHIFT-1_055",
+      "alignment_score": 0.65,
+      "exact_positions": {
+        "EAST": [
+          29
+        ],
+        "NORTHEAST": [
+          24
+        ],
+        "BERLINCLOCK": [
+          63
+        ]
+      },
+      "fuzzy_positions": {
+        "EAST": [
+          [
+            21,
+            0,
+            "EAS"
+          ],
+          [
+            28,
+            0,
+            "HEAST"
+          ]
+        ],
+        "NORTHEAST": [
+          [
+            25,
+            0,
+            "ORTHEAST"
+          ],
+          [
+            22,
+            1,
+            "ASNORTHEAS"
+          ]
+        ],
+        "BERLINCLOCK": [
+          [
+            63,
+            0,
+            "BERLINCLOC"
+          ],
+          [
+            60,
+            2,
+            "NFBBERLINCLO"
+          ]
+        ]
+      },
+      "issues": [
+        "EAST at 29 (expected 21, off by +8)",
+        "NORTHEAST at 24 (expected 25, off by -1)"
+      ]
+    },
+    {
+      "label": "CORRIDOR_NORTHEAST_SHIFT-1_056",
+      "alignment_score": 0.65,
+      "exact_positions": {
+        "EAST": [
+          29
+        ],
+        "NORTHEAST": [
+          24
+        ],
+        "BERLINCLOCK": [
+          63
+        ]
+      },
+      "fuzzy_positions": {
+        "EAST": [
+          [
+            21,
+            0,
+            "EAS"
+          ],
+          [
+            28,
+            0,
+            "HEAST"
+          ]
+        ],
+        "NORTHEAST": [
+          [
+            25,
+            0,
+            "ORTHEAST"
+          ],
+          [
+            22,
+            1,
+            "ASNORTHEAS"
+          ]
+        ],
+        "BERLINCLOCK": [
+          [
+            63,
+            0,
+            "BERLINCLOC"
+          ],
+          [
+            60,
+            2,
+            "NFBBERLINCLO"
+          ]
+        ]
+      },
+      "issues": [
+        "EAST at 29 (expected 21, off by +8)",
+        "NORTHEAST at 24 (expected 25, off by -1)"
+      ]
+    },
+    {
+      "label": "CORRIDOR_NORTHEAST_SHIFT-1_057",
+      "alignment_score": 0.65,
+      "exact_positions": {
+        "EAST": [
+          29
+        ],
+        "NORTHEAST": [
+          24
+        ],
+        "BERLINCLOCK": [
+          63
+        ]
+      },
+      "fuzzy_positions": {
+        "EAST": [
+          [
+            21,
+            0,
+            "EAS"
+          ],
+          [
+            28,
+            0,
+            "HEAST"
+          ]
+        ],
+        "NORTHEAST": [
+          [
+            25,
+            0,
+            "ORTHEAST"
+          ],
+          [
+            22,
+            1,
+            "ASNORTHEAS"
+          ]
+        ],
+        "BERLINCLOCK": [
+          [
+            63,
+            0,
+            "BERLINCLOC"
+          ],
+          [
+            60,
+            2,
+            "NFBBERLINCLO"
+          ]
+        ]
+      },
+      "issues": [
+        "EAST at 29 (expected 21, off by +8)",
+        "NORTHEAST at 24 (expected 25, off by -1)"
+      ]
+    },
+    {
+      "label": "CORRIDOR_NORTHEAST_SHIFT+1_058",
+      "alignment_score": 0.9333333333333332,
+      "exact_positions": {
+        "EAST": [
+          21,
+          31
+        ],
+        "NORTHEAST": [
+          26
+        ],
+        "BERLINCLOCK": [
+          63
+        ]
+      },
+      "fuzzy_positions": {
+        "EAST": [
+          [
+            21,
+            0,
+            "EAS"
+          ],
+          [
+            30,
+            0,
+            "HEAST"
+          ]
+        ],
+        "NORTHEAST": [
+          [
+            25,
+            0,
+            "QNORTHEAST"
+          ],
+          [
+            28,
+            1,
+            "RTHEAST"
+          ]
+        ],
+        "BERLINCLOCK": [
+          [
+            63,
+            0,
+            "BERLINCLOC"
+          ],
+          [
+            60,
+            2,
+            "NFBBERLINCLO"
+          ]
+        ]
+      },
+      "issues": [
+        "NORTHEAST at 26 (expected 25, off by +1)"
+      ]
+    },
+    {
+      "label": "CORRIDOR_NORTHEAST_SHIFT+1_059",
+      "alignment_score": 0.9333333333333332,
+      "exact_positions": {
+        "EAST": [
+          21,
+          31
+        ],
+        "NORTHEAST": [
+          26
+        ],
+        "BERLINCLOCK": [
+          63
+        ]
+      },
+      "fuzzy_positions": {
+        "EAST": [
+          [
+            21,
+            0,
+            "EAS"
+          ],
+          [
+            30,
+            0,
+            "HEAST"
+          ]
+        ],
+        "NORTHEAST": [
+          [
+            25,
+            0,
+            "QNORTHEAST"
+          ],
+          [
+            28,
+            1,
+            "RTHEAST"
+          ]
+        ],
+        "BERLINCLOCK": [
+          [
+            63,
+            0,
+            "BERLINCLOC"
+          ],
+          [
+            60,
+            2,
+            "NFBBERLINCLO"
+          ]
+        ]
+      },
+      "issues": [
+        "NORTHEAST at 26 (expected 25, off by +1)"
+      ]
+    },
+    {
+      "label": "CORRIDOR_NORTHEAST_SHIFT+1_060",
+      "alignment_score": 0.9333333333333332,
+      "exact_positions": {
+        "EAST": [
+          21,
+          31
+        ],
+        "NORTHEAST": [
+          26
+        ],
+        "BERLINCLOCK": [
+          63
+        ]
+      },
+      "fuzzy_positions": {
+        "EAST": [
+          [
+            21,
+            0,
+            "EAS"
+          ],
+          [
+            30,
+            0,
+            "HEAST"
+          ]
+        ],
+        "NORTHEAST": [
+          [
+            25,
+            0,
+            "QNORTHEAST"
+          ],
+          [
+            28,
+            1,
+            "RTHEAST"
+          ]
+        ],
+        "BERLINCLOCK": [
+          [
+            63,
+            0,
+            "BERLINCLOC"
+          ],
+          [
+            60,
+            2,
+            "NFBBERLINCLO"
+          ]
+        ]
+      },
+      "issues": [
+        "NORTHEAST at 26 (expected 25, off by +1)"
+      ]
+    },
+    {
+      "label": "CORRIDOR_NORTHEAST_SHIFT+2_061",
+      "alignment_score": 0.8666666666666667,
+      "exact_positions": {
+        "EAST": [
+          21,
+          32
+        ],
+        "NORTHEAST": [
+          27
+        ],
+        "BERLINCLOCK": [
+          63
+        ]
+      },
+      "fuzzy_positions": {
+        "EAST": [
+          [
+            21,
+            0,
+            "EAS"
+          ],
+          [
+            31,
+            0,
+            "HEAST"
+          ]
+        ],
+        "NORTHEAST": [
+          [
+            26,
+            0,
+            "QNORTHEAST"
+          ],
+          [
+            29,
+            1,
+            "RTHEAST"
+          ]
+        ],
+        "BERLINCLOCK": [
+          [
+            63,
+            0,
+            "BERLINCLOC"
+          ],
+          [
+            60,
+            2,
+            "NFBBERLINCLO"
+          ]
+        ]
+      },
+      "issues": [
+        "NORTHEAST at 27 (expected 25, off by +2)"
+      ]
+    },
+    {
+      "label": "CORRIDOR_NORTHEAST_SHIFT+2_062",
+      "alignment_score": 0.8666666666666667,
+      "exact_positions": {
+        "EAST": [
+          21,
+          32
+        ],
+        "NORTHEAST": [
+          27
+        ],
+        "BERLINCLOCK": [
+          63
+        ]
+      },
+      "fuzzy_positions": {
+        "EAST": [
+          [
+            21,
+            0,
+            "EAS"
+          ],
+          [
+            31,
+            0,
+            "HEAST"
+          ]
+        ],
+        "NORTHEAST": [
+          [
+            26,
+            0,
+            "QNORTHEAST"
+          ],
+          [
+            29,
+            1,
+            "RTHEAST"
+          ]
+        ],
+        "BERLINCLOCK": [
+          [
+            63,
+            0,
+            "BERLINCLOC"
+          ],
+          [
+            60,
+            2,
+            "NFBBERLINCLO"
+          ]
+        ]
+      },
+      "issues": [
+        "NORTHEAST at 27 (expected 25, off by +2)"
+      ]
+    },
+    {
+      "label": "CORRIDOR_NORTHEAST_SHIFT+2_063",
+      "alignment_score": 0.8666666666666667,
+      "exact_positions": {
+        "EAST": [
+          21,
+          32
+        ],
+        "NORTHEAST": [
+          27
+        ],
+        "BERLINCLOCK": [
+          63
+        ]
+      },
+      "fuzzy_positions": {
+        "EAST": [
+          [
+            21,
+            0,
+            "EAS"
+          ],
+          [
+            31,
+            0,
+            "HEAST"
+          ]
+        ],
+        "NORTHEAST": [
+          [
+            26,
+            0,
+            "QNORTHEAST"
+          ],
+          [
+            29,
+            1,
+            "RTHEAST"
+          ]
+        ],
+        "BERLINCLOCK": [
+          [
+            63,
+            0,
+            "BERLINCLOC"
+          ],
+          [
+            60,
+            2,
+            "NFBBERLINCLO"
+          ]
+        ]
+      },
+      "issues": [
+        "NORTHEAST at 27 (expected 25, off by +2)"
+      ]
+    },
+    {
+      "label": "CORRIDOR_BERLINCLOCK_SHIFT-2_064",
+      "alignment_score": 0.8666666666666667,
+      "exact_positions": {
+        "EAST": [
+          21,
+          30
+        ],
+        "NORTHEAST": [
+          25
+        ],
+        "BERLINCLOCK": [
+          61
+        ]
+      },
+      "fuzzy_positions": {
+        "EAST": [
+          [
+            21,
+            0,
+            "EAS"
+          ],
+          [
+            29,
+            0,
+            "HEAST"
+          ]
+        ],
+        "NORTHEAST": [
+          [
+            25,
+            0,
+            "NORTHEAS"
+          ],
+          [
+            22,
+            2,
+            "ASTNORTHEA"
+          ],
+          [
+            28,
+            2,
+            "THEASTO"
+          ]
+        ],
+        "BERLINCLOCK": [
+          [
+            62,
+            0,
+            "ERLINCLOCK"
+          ],
+          [
+            59,
+            1,
+            "INBERLINCLO"
+          ]
+        ]
+      },
+      "issues": [
+        "BERLINCLOCK at 61 (expected 63, off by -2)"
+      ]
+    },
+    {
+      "label": "CORRIDOR_BERLINCLOCK_SHIFT-2_065",
+      "alignment_score": 0.8666666666666667,
+      "exact_positions": {
+        "EAST": [
+          21,
+          30
+        ],
+        "NORTHEAST": [
+          25
+        ],
+        "BERLINCLOCK": [
+          61
+        ]
+      },
+      "fuzzy_positions": {
+        "EAST": [
+          [
+            21,
+            0,
+            "EAS"
+          ],
+          [
+            29,
+            0,
+            "HEAST"
+          ]
+        ],
+        "NORTHEAST": [
+          [
+            25,
+            0,
+            "NORTHEAS"
+          ],
+          [
+            22,
+            2,
+            "ASTNORTHEA"
+          ],
+          [
+            28,
+            2,
+            "THEASTO"
+          ]
+        ],
+        "BERLINCLOCK": [
+          [
+            62,
+            0,
+            "ERLINCLOCK"
+          ],
+          [
+            59,
+            1,
+            "INBERLINCLO"
+          ]
+        ]
+      },
+      "issues": [
+        "BERLINCLOCK at 61 (expected 63, off by -2)"
+      ]
+    },
+    {
+      "label": "CORRIDOR_BERLINCLOCK_SHIFT-2_066",
+      "alignment_score": 0.8666666666666667,
+      "exact_positions": {
+        "EAST": [
+          21,
+          30
+        ],
+        "NORTHEAST": [
+          25
+        ],
+        "BERLINCLOCK": [
+          61
+        ]
+      },
+      "fuzzy_positions": {
+        "EAST": [
+          [
+            21,
+            0,
+            "EAS"
+          ],
+          [
+            29,
+            0,
+            "HEAST"
+          ]
+        ],
+        "NORTHEAST": [
+          [
+            25,
+            0,
+            "NORTHEAS"
+          ],
+          [
+            22,
+            2,
+            "ASTNORTHEA"
+          ],
+          [
+            28,
+            2,
+            "THEASTO"
+          ]
+        ],
+        "BERLINCLOCK": [
+          [
+            62,
+            0,
+            "ERLINCLOCK"
+          ],
+          [
+            59,
+            1,
+            "INBERLINCLO"
+          ]
+        ]
+      },
+      "issues": [
+        "BERLINCLOCK at 61 (expected 63, off by -2)"
+      ]
+    },
+    {
+      "label": "CORRIDOR_BERLINCLOCK_SHIFT-1_067",
+      "alignment_score": 0.9333333333333332,
+      "exact_positions": {
+        "EAST": [
+          21,
+          30
+        ],
+        "NORTHEAST": [
+          25
+        ],
+        "BERLINCLOCK": [
+          62
+        ]
+      },
+      "fuzzy_positions": {
+        "EAST": [
+          [
+            21,
+            0,
+            "EAS"
+          ],
+          [
+            29,
+            0,
+            "HEAST"
+          ]
+        ],
+        "NORTHEAST": [
+          [
+            25,
+            0,
+            "NORTHEAS"
+          ],
+          [
+            22,
+            2,
+            "ASTNORTHEA"
+          ],
+          [
+            28,
+            2,
+            "THEASTO"
+          ]
+        ],
+        "BERLINCLOCK": [
+          [
+            63,
+            0,
+            "ERLINCLOCK"
+          ],
+          [
+            60,
+            1,
+            "NFBERLINCLO"
+          ]
+        ]
+      },
+      "issues": [
+        "BERLINCLOCK at 62 (expected 63, off by -1)"
+      ]
+    },
+    {
+      "label": "CORRIDOR_BERLINCLOCK_SHIFT-1_068",
+      "alignment_score": 0.9333333333333332,
+      "exact_positions": {
+        "EAST": [
+          21,
+          30
+        ],
+        "NORTHEAST": [
+          25
+        ],
+        "BERLINCLOCK": [
+          62
+        ]
+      },
+      "fuzzy_positions": {
+        "EAST": [
+          [
+            21,
+            0,
+            "EAS"
+          ],
+          [
+            29,
+            0,
+            "HEAST"
+          ]
+        ],
+        "NORTHEAST": [
+          [
+            25,
+            0,
+            "NORTHEAS"
+          ],
+          [
+            22,
+            2,
+            "ASTNORTHEA"
+          ],
+          [
+            28,
+            2,
+            "THEASTO"
+          ]
+        ],
+        "BERLINCLOCK": [
+          [
+            63,
+            0,
+            "ERLINCLOCK"
+          ],
+          [
+            60,
+            1,
+            "NFBERLINCLO"
+          ]
+        ]
+      },
+      "issues": [
+        "BERLINCLOCK at 62 (expected 63, off by -1)"
+      ]
+    },
+    {
+      "label": "CORRIDOR_BERLINCLOCK_SHIFT-1_069",
+      "alignment_score": 0.9333333333333332,
+      "exact_positions": {
+        "EAST": [
+          21,
+          30
+        ],
+        "NORTHEAST": [
+          25
+        ],
+        "BERLINCLOCK": [
+          62
+        ]
+      },
+      "fuzzy_positions": {
+        "EAST": [
+          [
+            21,
+            0,
+            "EAS"
+          ],
+          [
+            29,
+            0,
+            "HEAST"
+          ]
+        ],
+        "NORTHEAST": [
+          [
+            25,
+            0,
+            "NORTHEAS"
+          ],
+          [
+            22,
+            2,
+            "ASTNORTHEA"
+          ],
+          [
+            28,
+            2,
+            "THEASTO"
+          ]
+        ],
+        "BERLINCLOCK": [
+          [
+            63,
+            0,
+            "ERLINCLOCK"
+          ],
+          [
+            60,
+            1,
+            "NFBERLINCLO"
+          ]
+        ]
+      },
+      "issues": [
+        "BERLINCLOCK at 62 (expected 63, off by -1)"
+      ]
+    },
+    {
+      "label": "CORRIDOR_BERLINCLOCK_SHIFT+1_070",
+      "alignment_score": 0.9333333333333332,
+      "exact_positions": {
+        "EAST": [
+          21,
+          30
+        ],
+        "NORTHEAST": [
+          25
+        ],
+        "BERLINCLOCK": [
+          64
+        ]
+      },
+      "fuzzy_positions": {
+        "EAST": [
+          [
+            21,
+            0,
+            "EAS"
+          ],
+          [
+            29,
+            0,
+            "HEAST"
+          ]
+        ],
+        "NORTHEAST": [
+          [
+            25,
+            0,
+            "NORTHEAS"
+          ],
+          [
+            22,
+            2,
+            "ASTNORTHEA"
+          ],
+          [
+            28,
+            2,
+            "THEASTO"
+          ]
+        ],
+        "BERLINCLOCK": [
+          [
+            63,
+            0,
+            "NBERLINCLOCK"
+          ]
+        ]
+      },
+      "issues": [
+        "BERLINCLOCK at 64 (expected 63, off by +1)"
+      ]
+    },
+    {
+      "label": "CORRIDOR_BERLINCLOCK_SHIFT+1_071",
+      "alignment_score": 0.9333333333333332,
+      "exact_positions": {
+        "EAST": [
+          21,
+          30
+        ],
+        "NORTHEAST": [
+          25
+        ],
+        "BERLINCLOCK": [
+          64
+        ]
+      },
+      "fuzzy_positions": {
+        "EAST": [
+          [
+            21,
+            0,
+            "EAS"
+          ],
+          [
+            29,
+            0,
+            "HEAST"
+          ]
+        ],
+        "NORTHEAST": [
+          [
+            25,
+            0,
+            "NORTHEAS"
+          ],
+          [
+            22,
+            2,
+            "ASTNORTHEA"
+          ],
+          [
+            28,
+            2,
+            "THEASTO"
+          ]
+        ],
+        "BERLINCLOCK": [
+          [
+            63,
+            0,
+            "NBERLINCLOCK"
+          ]
+        ]
+      },
+      "issues": [
+        "BERLINCLOCK at 64 (expected 63, off by +1)"
+      ]
+    },
+    {
+      "label": "CORRIDOR_BERLINCLOCK_SHIFT+1_072",
+      "alignment_score": 0.9333333333333332,
+      "exact_positions": {
+        "EAST": [
+          21,
+          30
+        ],
+        "NORTHEAST": [
+          25
+        ],
+        "BERLINCLOCK": [
+          64
+        ]
+      },
+      "fuzzy_positions": {
+        "EAST": [
+          [
+            21,
+            0,
+            "EAS"
+          ],
+          [
+            29,
+            0,
+            "HEAST"
+          ]
+        ],
+        "NORTHEAST": [
+          [
+            25,
+            0,
+            "NORTHEAS"
+          ],
+          [
+            22,
+            2,
+            "ASTNORTHEA"
+          ],
+          [
+            28,
+            2,
+            "THEASTO"
+          ]
+        ],
+        "BERLINCLOCK": [
+          [
+            63,
+            0,
+            "NBERLINCLOCK"
+          ]
+        ]
+      },
+      "issues": [
+        "BERLINCLOCK at 64 (expected 63, off by +1)"
+      ]
+    },
+    {
+      "label": "CORRIDOR_BERLINCLOCK_SHIFT+2_073",
+      "alignment_score": 0.9333333333333332,
+      "exact_positions": {
+        "EAST": [
+          21,
+          30
+        ],
+        "NORTHEAST": [
+          25
+        ],
+        "BERLINCLOCK": [
+          64
+        ]
+      },
+      "fuzzy_positions": {
+        "EAST": [
+          [
+            21,
+            0,
+            "EAS"
+          ],
+          [
+            29,
+            0,
+            "HEAST"
+          ]
+        ],
+        "NORTHEAST": [
+          [
+            25,
+            0,
+            "NORTHEAS"
+          ],
+          [
+            22,
+            2,
+            "ASTNORTHEA"
+          ],
+          [
+            28,
+            2,
+            "THEASTO"
+          ]
+        ],
+        "BERLINCLOCK": [
+          [
+            63,
+            0,
+            "NBERLINCLOCK"
+          ]
+        ]
+      },
+      "issues": [
+        "BERLINCLOCK at 64 (expected 63, off by +1)"
+      ]
+    },
+    {
+      "label": "CORRIDOR_BERLINCLOCK_SHIFT+2_074",
+      "alignment_score": 0.9333333333333332,
+      "exact_positions": {
+        "EAST": [
+          21,
+          30
+        ],
+        "NORTHEAST": [
+          25
+        ],
+        "BERLINCLOCK": [
+          64
+        ]
+      },
+      "fuzzy_positions": {
+        "EAST": [
+          [
+            21,
+            0,
+            "EAS"
+          ],
+          [
+            29,
+            0,
+            "HEAST"
+          ]
+        ],
+        "NORTHEAST": [
+          [
+            25,
+            0,
+            "NORTHEAS"
+          ],
+          [
+            22,
+            2,
+            "ASTNORTHEA"
+          ],
+          [
+            28,
+            2,
+            "THEASTO"
+          ]
+        ],
+        "BERLINCLOCK": [
+          [
+            63,
+            0,
+            "NBERLINCLOCK"
+          ]
+        ]
+      },
+      "issues": [
+        "BERLINCLOCK at 64 (expected 63, off by +1)"
+      ]
+    },
+    {
+      "label": "CORRIDOR_BERLINCLOCK_SHIFT+2_075",
+      "alignment_score": 0.9333333333333332,
+      "exact_positions": {
+        "EAST": [
+          21,
+          30
+        ],
+        "NORTHEAST": [
+          25
+        ],
+        "BERLINCLOCK": [
+          64
+        ]
+      },
+      "fuzzy_positions": {
+        "EAST": [
+          [
+            21,
+            0,
+            "EAS"
+          ],
+          [
+            29,
+            0,
+            "HEAST"
+          ]
+        ],
+        "NORTHEAST": [
+          [
+            25,
+            0,
+            "NORTHEAS"
+          ],
+          [
+            22,
+            2,
+            "ASTNORTHEA"
+          ],
+          [
+            28,
+            2,
+            "THEASTO"
+          ]
+        ],
+        "BERLINCLOCK": [
+          [
+            63,
+            0,
+            "NBERLINCLOCK"
+          ]
+        ]
+      },
+      "issues": [
+        "BERLINCLOCK at 64 (expected 63, off by +1)"
+      ]
+    },
+    {
+      "label": "CORRIDOR_TYPO1_076",
+      "alignment_score": 0.2833333333333334,
+      "exact_positions": {
+        "EAST": [
+          31
+        ],
+        "NORTHEAST": [
+          26
+        ],
+        "BERLINCLOCK": []
+      },
+      "fuzzy_positions": {
+        "EAST": [
+          [
+            22,
+            0,
+            "EAS"
+          ],
+          [
+            30,
+            0,
+            "HEAST"
+          ]
+        ],
+        "NORTHEAST": [
+          [
+            25,
+            0,
+            "GNORTHEAST"
+          ],
+          [
+            28,
+            1,
+            "RTHEAST"
+          ]
+        ],
+        "BERLINCLOCK": [
+          [
+            63,
+            1,
+            "BERLENCLOC"
+          ]
+        ]
+      },
+      "issues": [
+        "EAST at 31 (expected 21, off by +10)",
+        "NORTHEAST at 26 (expected 25, off by +1)",
+        "BERLINCLOCK not found exactly, fuzzy match at 63 ('BERLENCLOC', dist=1)"
+      ]
+    },
+    {
+      "label": "CORRIDOR_TYPO1_077",
+      "alignment_score": 0.3333333333333333,
+      "exact_positions": {
+        "EAST": [
+          21,
+          30
+        ],
+        "NORTHEAST": [],
+        "BERLINCLOCK": []
+      },
+      "fuzzy_positions": {
+        "EAST": [
+          [
+            21,
+            0,
+            "EAS"
+          ],
+          [
+            29,
+            0,
+            "HEAST"
+          ]
+        ],
+        "NORTHEAST": [
+          [
+            25,
+            1,
+            "NOWTHEAS"
+          ],
+          [
+            28,
+            2,
+            "THEASTO"
+          ]
+        ],
+        "BERLINCLOCK": [
+          [
+            63,
+            1,
+            "BERLINCLK"
+          ],
+          [
+            60,
+            2,
+            "NFBBERLINCLK"
+          ]
+        ]
+      },
+      "issues": [
+        "NORTHEAST not found exactly, fuzzy match at 25 ('NOWTHEAS', dist=1)",
+        "BERLINCLOCK not found exactly, fuzzy match at 63 ('BERLINCLK', dist=1)"
+      ]
+    },
+    {
+      "label": "CORRIDOR_TYPO1_078",
+      "alignment_score": 0.3333333333333333,
+      "exact_positions": {
+        "EAST": [
+          21,
+          31
+        ],
+        "NORTHEAST": [],
+        "BERLINCLOCK": []
+      },
+      "fuzzy_positions": {
+        "EAST": [
+          [
+            21,
+            0,
+            "EAS"
+          ],
+          [
+            30,
+            0,
+            "HEAST"
+          ]
+        ],
+        "NORTHEAST": [
+          [
+            25,
+            0,
+            "NSORTHEAST"
+          ],
+          [
+            28,
+            1,
+            "RTHEAST"
+          ]
+        ],
+        "BERLINCLOCK": [
+          [
+            63,
+            0,
+            "BERLICNCLOCK"
+          ]
+        ]
+      },
+      "issues": [
+        "NORTHEAST not found exactly, fuzzy match at 25 ('NSORTHEAST', dist=0)",
+        "BERLINCLOCK not found exactly, fuzzy match at 63 ('BERLICNCLOCK', dist=0)"
+      ]
+    },
+    {
+      "label": "CORRIDOR_TYPO1_079",
+      "alignment_score": 0.016666666666666663,
+      "exact_positions": {
+        "EAST": [
+          31
+        ],
+        "NORTHEAST": [],
+        "BERLINCLOCK": []
+      },
+      "fuzzy_positions": {
+        "EAST": [
+          [
+            22,
+            0,
+            "AST"
+          ],
+          [
+            30,
+            0,
+            "HEAST"
+          ]
+        ],
+        "NORTHEAST": [
+          [
+            25,
+            0,
+            "NORQTHEAST"
+          ],
+          [
+            28,
+            2,
+            "QTHEAST"
+          ]
+        ],
+        "BERLINCLOCK": [
+          [
+            63,
+            0,
+            "BERLINNCLOCK"
+          ]
+        ]
+      },
+      "issues": [
+        "EAST at 31 (expected 21, off by +10)",
+        "NORTHEAST not found exactly, fuzzy match at 25 ('NORQTHEAST', dist=0)",
+        "BERLINCLOCK not found exactly, fuzzy match at 63 ('BERLINNCLOCK', dist=0)"
+      ]
+    },
+    {
+      "label": "CORRIDOR_TYPO1_080",
+      "alignment_score": 0.0,
+      "exact_positions": {
+        "EAST": [],
+        "NORTHEAST": [],
+        "BERLINCLOCK": []
+      },
+      "fuzzy_positions": {
+        "EAST": [
+          [
+            21,
+            0,
+            "EAS"
+          ],
+          [
+            30,
+            0,
+            "EAS"
+          ]
+        ],
+        "NORTHEAST": [
+          [
+            25,
+            0,
+            "NORTHEAS"
+          ],
+          [
+            22,
+            2,
+            "ASFNORTHEA"
+          ],
+          [
+            28,
+            2,
+            "THEASZT"
+          ]
+        ],
+        "BERLINCLOCK": [
+          [
+            63,
+            1,
+            "BERSINCLOC"
+          ]
+        ]
+      },
+      "issues": [
+        "EAST not found exactly, fuzzy match at 21 ('EAS', dist=0)",
+        "NORTHEAST not found exactly, fuzzy match at 25 ('NORTHEAS', dist=0)",
+        "BERLINCLOCK not found exactly, fuzzy match at 63 ('BERSINCLOC', dist=1)"
+      ]
+    },
+    {
+      "label": "CORRIDOR_TYPO2_081",
+      "alignment_score": 0.0,
+      "exact_positions": {
+        "EAST": [],
+        "NORTHEAST": [],
+        "BERLINCLOCK": []
+      },
+      "fuzzy_positions": {
+        "EAST": [
+          [
+            32,
+            0,
+            "AST"
+          ]
+        ],
+        "NORTHEAST": [
+          [
+            25,
+            1,
+            "NOROTHIAST"
+          ],
+          [
+            28,
+            2,
+            "OTHIAST"
+          ]
+        ],
+        "BERLINCLOCK": [
+          [
+            63,
+            1,
+            "BERLINCNLO"
+          ]
+        ]
+      },
+      "issues": [
+        "EAST not found exactly, fuzzy match at 32 ('AST', dist=0)",
+        "NORTHEAST not found exactly, fuzzy match at 25 ('NOROTHIAST', dist=1)",
+        "BERLINCLOCK not found exactly, fuzzy match at 63 ('BERLINCNLO', dist=1)"
+      ]
+    },
+    {
+      "label": "CORRIDOR_TYPO2_082",
+      "alignment_score": 0.0,
+      "exact_positions": {
+        "EAST": [],
+        "NORTHEAST": [],
+        "BERLINCLOCK": []
+      },
+      "fuzzy_positions": {
+        "EAST": [
+          [
+            30,
+            0,
+            "EAWST"
+          ],
+          [
+            21,
+            1,
+            "EQAS"
+          ]
+        ],
+        "NORTHEAST": [
+          [
+            25,
+            1,
+            "NCRTHEAWST"
+          ],
+          [
+            28,
+            2,
+            "THEAWST"
+          ]
+        ],
+        "BERLINCLOCK": [
+          [
+            63,
+            1,
+            "BERLINWDOCK"
+          ]
+        ]
+      },
+      "issues": [
+        "EAST not found exactly, fuzzy match at 30 ('EAWST', dist=0)",
+        "NORTHEAST not found exactly, fuzzy match at 25 ('NCRTHEAWST', dist=1)",
+        "BERLINCLOCK not found exactly, fuzzy match at 63 ('BERLINWDOCK', dist=1)"
+      ]
+    },
+    {
+      "label": "CORRIDOR_TYPO2_083",
+      "alignment_score": 0.0,
+      "exact_positions": {
+        "EAST": [],
+        "NORTHEAST": [],
+        "BERLINCLOCK": []
+      },
+      "fuzzy_positions": {
+        "EAST": [
+          [
+            21,
+            0,
+            "EAS"
+          ],
+          [
+            31,
+            0,
+            "EAS"
+          ]
+        ],
+        "NORTHEAST": [
+          [
+            25,
+            1,
+            "NORTIHEA"
+          ],
+          [
+            28,
+            2,
+            "TIHEASCT"
+          ]
+        ],
+        "BERLINCLOCK": [
+          [
+            63,
+            1,
+            "TERLINCLOMC"
+          ],
+          [
+            60,
+            2,
+            "NFBTERLINCLO"
+          ]
+        ]
+      },
+      "issues": [
+        "EAST not found exactly, fuzzy match at 21 ('EAS', dist=0)",
+        "NORTHEAST not found exactly, fuzzy match at 25 ('NORTIHEA', dist=1)",
+        "BERLINCLOCK not found exactly, fuzzy match at 63 ('TERLINCLOMC', dist=1)"
+      ]
+    },
+    {
+      "label": "CORRIDOR_TYPO2_084",
+      "alignment_score": 0.033333333333333326,
+      "exact_positions": {
+        "EAST": [
+          30
+        ],
+        "NORTHEAST": [],
+        "BERLINCLOCK": []
+      },
+      "fuzzy_positions": {
+        "EAST": [
+          [
+            29,
+            0,
+            "HEAST"
+          ]
+        ],
+        "NORTHEAST": [
+          [
+            25,
+            1,
+            "NORZHEAS"
+          ]
+        ],
+        "BERLINCLOCK": [
+          [
+            63,
+            1,
+            "BERLINCUOC"
+          ]
+        ]
+      },
+      "issues": [
+        "EAST at 30 (expected 21, off by +9)",
+        "NORTHEAST not found exactly, fuzzy match at 25 ('NORZHEAS', dist=1)",
+        "BERLINCLOCK not found exactly, fuzzy match at 63 ('BERLINCUOC', dist=1)"
+      ]
+    },
+    {
+      "label": "CORRIDOR_TYPO2_085",
+      "alignment_score": 0.0,
+      "exact_positions": {
+        "EAST": [],
+        "NORTHEAST": [],
+        "BERLINCLOCK": []
+      },
+      "fuzzy_positions": {
+        "EAST": [
+          [
+            29,
+            0,
+            "EAS"
+          ]
+        ],
+        "NORTHEAST": [
+          [
+            25,
+            1,
+            "ORTHEAS"
+          ],
+          [
+            22,
+            2,
+            "EAEORTHEAS"
+          ]
+        ],
+        "BERLINCLOCK": [
+          [
+            63,
+            1,
+            "HERLINCCLOC"
+          ]
+        ]
+      },
+      "issues": [
+        "EAST not found exactly, fuzzy match at 29 ('EAS', dist=0)",
+        "NORTHEAST not found exactly, fuzzy match at 25 ('ORTHEAS', dist=1)",
+        "BERLINCLOCK not found exactly, fuzzy match at 63 ('HERLINCCLOC', dist=1)"
+      ]
+    },
+    {
+      "label": "CORRIDOR_COMBO_SHIFT-1_TYPO_086",
+      "alignment_score": 0.8666666666666667,
+      "exact_positions": {
+        "EAST": [
+          20,
+          29
+        ],
+        "NORTHEAST": [
+          24
+        ],
+        "BERLINCLOCK": [
+          63
+        ]
+      },
+      "fuzzy_positions": {
+        "EAST": [
+          [
+            21,
+            0,
+            "AST"
+          ],
+          [
+            28,
+            0,
+            "HEAST"
+          ],
+          [
+            18,
+            1,
+            "BBEAS"
+          ]
+        ],
+        "NORTHEAST": [
+          [
+            25,
+            0,
+            "ORTHEAST"
+          ],
+          [
+            22,
+            1,
+            "STNORTHEAS"
+          ]
+        ],
+        "BERLINCLOCK": [
+          [
+            63,
+            0,
+            "BERLINCLOC"
+          ],
+          [
+            60,
+            2,
+            "NFBBERLINCLO"
+          ]
+        ]
+      },
+      "issues": [
+        "EAST at 20 (expected 21, off by -1)",
+        "NORTHEAST at 24 (expected 25, off by -1)"
+      ]
+    },
+    {
+      "label": "CORRIDOR_COMBO_SHIFT-1_TYPO_087",
+      "alignment_score": 0.65,
+      "exact_positions": {
+        "EAST": [
+          29
+        ],
+        "NORTHEAST": [
+          24
+        ],
+        "BERLINCLOCK": [
+          63
+        ]
+      },
+      "fuzzy_positions": {
+        "EAST": [
+          [
+            21,
+            0,
+            "AST"
+          ],
+          [
+            28,
+            0,
+            "HEAST"
+          ]
+        ],
+        "NORTHEAST": [
+          [
+            25,
+            0,
+            "ORTHEAST"
+          ],
+          [
+            22,
+            1,
+            "STNORTHEAS"
+          ]
+        ],
+        "BERLINCLOCK": [
+          [
+            63,
+            0,
+            "BERLINCLOC"
+          ],
+          [
+            60,
+            2,
+            "NFBBERLINCLO"
+          ]
+        ]
+      },
+      "issues": [
+        "EAST at 29 (expected 21, off by +8)",
+        "NORTHEAST at 24 (expected 25, off by -1)"
+      ]
+    },
+    {
+      "label": "CORRIDOR_COMBO_SHIFT-1_TYPO_088",
+      "alignment_score": 0.65,
+      "exact_positions": {
+        "EAST": [
+          29
+        ],
+        "NORTHEAST": [
+          24
+        ],
+        "BERLINCLOCK": [
+          63
+        ]
+      },
+      "fuzzy_positions": {
+        "EAST": [
+          [
+            20,
+            0,
+            "EAS"
+          ],
+          [
+            28,
+            0,
+            "HEAST"
+          ]
+        ],
+        "NORTHEAST": [
+          [
+            25,
+            0,
+            "ORTHEAST"
+          ],
+          [
+            22,
+            1,
+            "SINORTHEAS"
+          ]
+        ],
+        "BERLINCLOCK": [
+          [
+            63,
+            0,
+            "BERLINCLOC"
+          ],
+          [
+            60,
+            2,
+            "NFBBERLINCLO"
+          ]
+        ]
+      },
+      "issues": [
+        "EAST at 29 (expected 21, off by +8)",
+        "NORTHEAST at 24 (expected 25, off by -1)"
+      ]
+    },
+    {
+      "label": "CORRIDOR_COMBO_SHIFT-1_TYPO_089",
+      "alignment_score": 0.65,
+      "exact_positions": {
+        "EAST": [
+          29
+        ],
+        "NORTHEAST": [
+          24
+        ],
+        "BERLINCLOCK": [
+          63
+        ]
+      },
+      "fuzzy_positions": {
+        "EAST": [
+          [
+            21,
+            0,
+            "AST"
+          ],
+          [
+            28,
+            0,
+            "HEAST"
+          ]
+        ],
+        "NORTHEAST": [
+          [
+            25,
+            0,
+            "ORTHEAST"
+          ],
+          [
+            22,
+            1,
+            "STNORTHEAS"
+          ]
+        ],
+        "BERLINCLOCK": [
+          [
+            63,
+            0,
+            "BERLINCLOC"
+          ],
+          [
+            60,
+            2,
+            "NFBBERLINCLO"
+          ]
+        ]
+      },
+      "issues": [
+        "EAST at 29 (expected 21, off by +8)",
+        "NORTHEAST at 24 (expected 25, off by -1)"
+      ]
+    },
+    {
+      "label": "CORRIDOR_COMBO_SHIFT-1_TYPO_090",
+      "alignment_score": 0.65,
+      "exact_positions": {
+        "EAST": [
+          29
+        ],
+        "NORTHEAST": [
+          24
+        ],
+        "BERLINCLOCK": [
+          63
+        ]
+      },
+      "fuzzy_positions": {
+        "EAST": [
+          [
+            20,
+            0,
+            "EAS"
+          ],
+          [
+            28,
+            0,
+            "HEAST"
+          ]
+        ],
+        "NORTHEAST": [
+          [
+            25,
+            0,
+            "ORTHEAST"
+          ],
+          [
+            22,
+            1,
+            "SMNORTHEAS"
+          ]
+        ],
+        "BERLINCLOCK": [
+          [
+            63,
+            0,
+            "BERLINCLOC"
+          ],
+          [
+            60,
+            2,
+            "NFBBERLINCLO"
+          ]
+        ]
+      },
+      "issues": [
+        "EAST at 29 (expected 21, off by +8)",
+        "NORTHEAST at 24 (expected 25, off by -1)"
+      ]
+    },
+    {
+      "label": "CORRIDOR_COMBO_SHIFT+1_TYPO_091",
+      "alignment_score": 0.6166666666666667,
+      "exact_positions": {
+        "EAST": [
+          31
+        ],
+        "NORTHEAST": [
+          26
+        ],
+        "BERLINCLOCK": [
+          63
+        ]
+      },
+      "fuzzy_positions": {
+        "EAST": [
+          [
+            30,
+            0,
+            "HEAST"
+          ],
+          [
+            21,
+            1,
+            "FECAS"
+          ]
+        ],
+        "NORTHEAST": [
+          [
+            25,
+            0,
+            "SNORTHEAST"
+          ],
+          [
+            28,
+            1,
+            "RTHEAST"
+          ]
+        ],
+        "BERLINCLOCK": [
+          [
+            63,
+            0,
+            "BERLINCLOC"
+          ],
+          [
+            60,
+            2,
+            "NFBBERLINCLO"
+          ]
+        ]
+      },
+      "issues": [
+        "EAST at 31 (expected 21, off by +10)",
+        "NORTHEAST at 26 (expected 25, off by +1)"
+      ]
+    },
+    {
+      "label": "CORRIDOR_COMBO_SHIFT+1_TYPO_092",
+      "alignment_score": 0.6166666666666667,
+      "exact_positions": {
+        "EAST": [
+          31
+        ],
+        "NORTHEAST": [
+          26
+        ],
+        "BERLINCLOCK": [
+          63
+        ]
+      },
+      "fuzzy_positions": {
+        "EAST": [
+          [
+            23,
+            0,
+            "EST"
+          ],
+          [
+            30,
+            0,
+            "HEAST"
+          ]
+        ],
+        "NORTHEAST": [
+          [
+            25,
+            0,
+            "TNORTHEAST"
+          ],
+          [
+            28,
+            1,
+            "RTHEAST"
+          ]
+        ],
+        "BERLINCLOCK": [
+          [
+            63,
+            0,
+            "BERLINCLOC"
+          ],
+          [
+            60,
+            2,
+            "NFBBERLINCLO"
+          ]
+        ]
+      },
+      "issues": [
+        "EAST at 31 (expected 21, off by +10)",
+        "NORTHEAST at 26 (expected 25, off by +1)"
+      ]
+    },
+    {
+      "label": "CORRIDOR_COMBO_SHIFT+1_TYPO_093",
+      "alignment_score": 0.8666666666666667,
+      "exact_positions": {
+        "EAST": [
+          22,
+          31
+        ],
+        "NORTHEAST": [
+          26
+        ],
+        "BERLINCLOCK": [
+          63
+        ]
+      },
+      "fuzzy_positions": {
+        "EAST": [
+          [
+            21,
+            0,
+            "FEAST"
+          ],
+          [
+            30,
+            0,
+            "HEAST"
+          ]
+        ],
+        "NORTHEAST": [
+          [
+            25,
+            0,
+            "TNORTHEAST"
+          ],
+          [
+            28,
+            1,
+            "RTHEAST"
+          ]
+        ],
+        "BERLINCLOCK": [
+          [
+            63,
+            0,
+            "BERLINCLOC"
+          ],
+          [
+            60,
+            2,
+            "NFBBERLINCLO"
+          ]
+        ]
+      },
+      "issues": [
+        "EAST at 22 (expected 21, off by +1)",
+        "NORTHEAST at 26 (expected 25, off by +1)"
+      ]
+    },
+    {
+      "label": "CORRIDOR_COMBO_SHIFT+1_TYPO_094",
+      "alignment_score": 0.6166666666666667,
+      "exact_positions": {
+        "EAST": [
+          31
+        ],
+        "NORTHEAST": [
+          26
+        ],
+        "BERLINCLOCK": [
+          63
+        ]
+      },
+      "fuzzy_positions": {
+        "EAST": [
+          [
+            23,
+            0,
+            "EAS"
+          ],
+          [
+            30,
+            0,
+            "HEAST"
+          ]
+        ],
+        "NORTHEAST": [
+          [
+            25,
+            0,
+            "SNORTHEAST"
+          ],
+          [
+            28,
+            1,
+            "RTHEAST"
+          ]
+        ],
+        "BERLINCLOCK": [
+          [
+            63,
+            0,
+            "BERLINCLOC"
+          ],
+          [
+            60,
+            2,
+            "NFBBERLINCLO"
+          ]
+        ]
+      },
+      "issues": [
+        "EAST at 31 (expected 21, off by +10)",
+        "NORTHEAST at 26 (expected 25, off by +1)"
+      ]
+    },
+    {
+      "label": "CORRIDOR_COMBO_SHIFT+1_TYPO_095",
+      "alignment_score": 0.6166666666666667,
+      "exact_positions": {
+        "EAST": [
+          31
+        ],
+        "NORTHEAST": [
+          26
+        ],
+        "BERLINCLOCK": [
+          63
+        ]
+      },
+      "fuzzy_positions": {
+        "EAST": [
+          [
+            23,
+            0,
+            "EAS"
+          ],
+          [
+            30,
+            0,
+            "HEAST"
+          ]
+        ],
+        "NORTHEAST": [
+          [
+            25,
+            0,
+            "SNORTHEAST"
+          ],
+          [
+            28,
+            1,
+            "RTHEAST"
+          ]
+        ],
+        "BERLINCLOCK": [
+          [
+            63,
+            0,
+            "BERLINCLOC"
+          ],
+          [
+            60,
+            2,
+            "NFBBERLINCLO"
+          ]
+        ]
+      },
+      "issues": [
+        "EAST at 31 (expected 21, off by +10)",
+        "NORTHEAST at 26 (expected 25, off by +1)"
+      ]
+    },
+    {
+      "label": "CORRIDOR_K4_PURE_000",
+      "alignment_score": 0.0,
+      "exact_positions": {
+        "EAST": [],
+        "NORTHEAST": [],
+        "BERLINCLOCK": []
+      },
+      "fuzzy_positions": {
+        "EAST": [],
+        "NORTHEAST": [],
+        "BERLINCLOCK": []
+      },
+      "issues": [
+        "EAST missing entirely",
+        "NORTHEAST missing entirely",
+        "BERLINCLOCK missing entirely"
+      ]
+    },
+    {
+      "label": "CORRIDOR_K4_PURE_001",
+      "alignment_score": 0.0,
+      "exact_positions": {
+        "EAST": [],
+        "NORTHEAST": [],
+        "BERLINCLOCK": []
+      },
+      "fuzzy_positions": {
+        "EAST": [],
+        "NORTHEAST": [],
+        "BERLINCLOCK": []
+      },
+      "issues": [
+        "EAST missing entirely",
+        "NORTHEAST missing entirely",
+        "BERLINCLOCK missing entirely"
+      ]
+    },
+    {
+      "label": "CORRIDOR_K4_PURE_002",
+      "alignment_score": 0.0,
+      "exact_positions": {
+        "EAST": [],
+        "NORTHEAST": [],
+        "BERLINCLOCK": []
+      },
+      "fuzzy_positions": {
+        "EAST": [],
+        "NORTHEAST": [],
+        "BERLINCLOCK": []
+      },
+      "issues": [
+        "EAST missing entirely",
+        "NORTHEAST missing entirely",
+        "BERLINCLOCK missing entirely"
+      ]
+    },
+    {
+      "label": "CORRIDOR_K4_PURE_003",
+      "alignment_score": 0.0,
+      "exact_positions": {
+        "EAST": [],
+        "NORTHEAST": [],
+        "BERLINCLOCK": []
+      },
+      "fuzzy_positions": {
+        "EAST": [],
+        "NORTHEAST": [],
+        "BERLINCLOCK": []
+      },
+      "issues": [
+        "EAST missing entirely",
+        "NORTHEAST missing entirely",
+        "BERLINCLOCK missing entirely"
+      ]
+    },
+    {
+      "label": "CORRIDOR_K4_PURE_004",
+      "alignment_score": 0.0,
+      "exact_positions": {
+        "EAST": [],
+        "NORTHEAST": [],
+        "BERLINCLOCK": []
+      },
+      "fuzzy_positions": {
+        "EAST": [],
+        "NORTHEAST": [],
+        "BERLINCLOCK": []
+      },
+      "issues": [
+        "EAST missing entirely",
+        "NORTHEAST missing entirely",
+        "BERLINCLOCK missing entirely"
+      ]
+    }
+  ]
+}

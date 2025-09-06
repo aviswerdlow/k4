@@ -1,0 +1,35 @@
+{
+  "name": "anchor_windowed_r2",
+  "description": "Windowed anchor mode with radius ±2",
+  "anchor_mode": "windowed",
+  "window_radius": 2,
+  "typo_budget": 1,
+  "anchor_config": {
+    "anchors": {
+      "EAST": {
+        "span": [21, 24],
+        "weight": 0.1,
+        "flexibility": 2
+      },
+      "NORTHEAST": {
+        "span": [25, 33],
+        "weight": 0.1,
+        "flexibility": 2
+      },
+      "BERLINCLOCK": {
+        "span": [63, 73],
+        "weight": 0.1,
+        "flexibility": 2
+      }
+    }
+  },
+  "scorer": {
+    "ngram_weight": 0.4,
+    "coverage_weight": 0.3,
+    "compress_weight": 0.3,
+    "blind_anchors": true,
+    "blind_narrative": true
+  },
+  "blinding_hash": "e5f6a7b8c9d01234",
+  "seed": 1337
+}

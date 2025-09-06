@@ -1,0 +1,169 @@
+{
+  "campaign": "PV2-EXPLORE-ROUTE-001",
+  "source": "runs/2025-01-05-explore-breadth/ANCHOR_MODE_MATRIX.csv",
+  "extraction_date": "2025-01-06",
+  "selection_criteria": "top_20_by_fixed_score",
+  "seed": 1337,
+  "candidates": [
+    {
+      "rank": 1,
+      "label": "B0008",
+      "text": "WHENTHEBERLINCLOCKISREADANDTHEPATHISSETTRUETHETEXTEASTNORTHEASTBECOMESPLAIN",
+      "length": 75,
+      "fixed_score": 4.56,
+      "delta_shuffled": 3.82
+    },
+    {
+      "rank": 2,
+      "label": "B0053",
+      "text": "WHENTHEBERLINCLOCKISREADANDTHEPATHISSETTRUETHETEXTEASTNORTHEASTBECOMESREAL",
+      "length": 74,
+      "fixed_score": 4.41,
+      "delta_shuffled": 4.44
+    },
+    {
+      "rank": 3,
+      "label": "B0027",
+      "text": "WHENTHEBERLINCLOCKISREADANDTHEPATHISSETTRUETHETEXTEASTNORTHEASTBECOMESTRUE",
+      "length": 74,
+      "fixed_score": 4.41,
+      "delta_shuffled": 3.69
+    },
+    {
+      "rank": 4,
+      "label": "B0006",
+      "text": "WHENTHEBERLINCLOCKISREADANDTHEPATHISSETTRUETHETEXTEASTNORTHEASTBECOMESKNOWN",
+      "length": 75,
+      "fixed_score": 4.34,
+      "delta_shuffled": 4.79
+    },
+    {
+      "rank": 5,
+      "label": "B0022",
+      "text": "WHENTHEBERLINCLOCKISREADANDTHEPATHISSETTRUETHETEXTEASTNORTHEASTBECOMESSHOWN",
+      "length": 75,
+      "fixed_score": 4.34,
+      "delta_shuffled": 3.99
+    },
+    {
+      "rank": 6,
+      "label": "B0042",
+      "text": "WHENTHEBERLINCLOCKISREADANDTHEPATHISSETTRUETHETEXTEASTNORTHEASTBECOMESCLEAR",
+      "length": 75,
+      "fixed_score": 4.34,
+      "delta_shuffled": 3.39
+    },
+    {
+      "rank": 7,
+      "label": "B0024",
+      "text": "WHENTHEBERLINCLOCKISREADANDTHEPATHISSETTRUETHETEXTEASTNORTHEASTBCEOMESSHOWN",
+      "length": 75,
+      "fixed_score": 4.25,
+      "delta_shuffled": 4.30
+    },
+    {
+      "rank": 8,
+      "label": "B0054",
+      "text": "WHENTHEBERLINCLOCKISREADANDTHEPATHISSETTRUETHETEXTEASTNORTHEASTBFCOMESSHOWN",
+      "length": 75,
+      "fixed_score": 4.25,
+      "delta_shuffled": 3.63
+    },
+    {
+      "rank": 9,
+      "label": "B0019",
+      "text": "EASTNORTHETHEASTTHESHOWNCONSISTENTTEXTREQUITHERESTHEDIRECTIONSETTRUE",
+      "length": 68,
+      "fixed_score": 4.21,
+      "delta_shuffled": 2.97
+    },
+    {
+      "rank": 10,
+      "label": "B0002",
+      "text": "WHENTHEBERLINCLOCKISREADANDTHELINEISSETTRUETHETEXTEASTNORTHEASTBECOMESPLAIN",
+      "length": 75,
+      "fixed_score": 4.11,
+      "delta_shuffled": 3.91
+    },
+    {
+      "rank": 11,
+      "label": "B0009",
+      "text": "WHENTHEBERLINCLOCKISREADANDTHEROUTEISSETTRUETHETEXTEASTNORTHEASTBECOMESREAL",
+      "length": 75,
+      "fixed_score": 3.97,
+      "delta_shuffled": 3.81
+    },
+    {
+      "rank": 12,
+      "label": "B0023",
+      "text": "WHENTHEBERLINCLOCKISREADANDTHEROUTEISSETTRUETHETEXTEASTNORTHEASTBECOMESTRUE",
+      "length": 75,
+      "fixed_score": 3.97,
+      "delta_shuffled": 4.21
+    },
+    {
+      "rank": 13,
+      "label": "B0038",
+      "text": "WHENTHEBERLINCLOCKISREADANDTHEWAYISSETTRUETHETEXTEASTNORTHEASTBECOMESPLAIN",
+      "length": 74,
+      "fixed_score": 3.95,
+      "delta_shuffled": 3.87
+    },
+    {
+      "rank": 14,
+      "label": "B0043",
+      "text": "WHENTHEBERLINCLOCKISREADANDTHELINEISSETTRUETHETEXTEASTNORTHEASTBECOMESREAL",
+      "length": 74,
+      "fixed_score": 3.95,
+      "delta_shuffled": 3.48
+    },
+    {
+      "rank": 15,
+      "label": "B0050",
+      "text": "WHENTHEBERLINCLOCKISREADANDTHELINEISSETTRUETHETEXTEASTNORTHEASTBECOMESTRUE",
+      "length": 74,
+      "fixed_score": 3.95,
+      "delta_shuffled": 3.28
+    },
+    {
+      "rank": 16,
+      "label": "B0011",
+      "text": "WHENTHEBERLINCLOCKISREADANDTHELINEISSETTRUETHETEXTEASTNORTHEASTBECOMESCLEAR",
+      "length": 75,
+      "fixed_score": 3.89,
+      "delta_shuffled": 3.63
+    },
+    {
+      "rank": 17,
+      "label": "B0026",
+      "text": "WHENTHEBERLINCLOCKISREADANDTHELINEISSETTRUETHETEXTEASTNORTHEASTBECOMESSHOWN",
+      "length": 75,
+      "fixed_score": 3.89,
+      "delta_shuffled": 3.00
+    },
+    {
+      "rank": 18,
+      "label": "B0031",
+      "text": "WHENTHEBERLINCLOCKISREADANDTHELINEISSETTRUETHETEXTEASTNORTHEASTBECOMESKNOWN",
+      "length": 75,
+      "fixed_score": 3.89,
+      "delta_shuffled": 4.33
+    },
+    {
+      "rank": 19,
+      "label": "B0064",
+      "text": "EASTNORTHEOFASTTHESHOWNCONSISTENTTEXTREQUITHERESTHEDIRECTIONSETTRUE",
+      "length": 67,
+      "fixed_score": 3.80,
+      "delta_shuffled": 4.61
+    },
+    {
+      "rank": 20,
+      "label": "B0045",
+      "text": "INTHISINSTANCETHEREALTEXTEASTNORTHEASTREQUIRESUSTOSETTHECOURSETOTRUEANDVIEW",
+      "length": 75,
+      "fixed_score": 3.75,
+      "delta_shuffled": 4.46
+    }
+  ]
+}

@@ -1,0 +1,913 @@
+{
+  "campaign": "EXPLORE_H_REGISTER_EXPANSION",
+  "date": "2025-01-06",
+  "description": "Non-surveying head registers with enforced corridor alignment",
+  "seed": 1337,
+  "anchor_positions": {
+    "EAST": 21,
+    "NORTHEAST": 25,
+    "BERLINCLOCK": 63
+  },
+  "masked_narrative": [
+    "DIAL",
+    "SET",
+    "COURSE",
+    "TRUE",
+    "READ",
+    "SEE",
+    "NOTE",
+    "SIGHT",
+    "OBSERVE",
+    "MERIDIAN",
+    "DECLINATION",
+    "BEARING",
+    "LINE"
+  ],
+  "total_heads": 68,
+  "heads": [
+    {
+      "label": "H_INSTRUCTIONAL_SIGNAGE_00_V0",
+      "text": "TEXTXISXCLEARXXXXXXXXEASTNORTHEASTXFOLLOWXINSTRUCTIONSXXXXXXXXXBERLINCLOCKX",
+      "metadata": {
+        "register": "instructional_signage",
+        "template_idx": 0,
+        "variation": 0,
+        "corridor_ok": true,
+        "anchor_found_east_idx": 21,
+        "anchor_found_ne_idx": 25,
+        "anchor_found_berlin_idx": 63
+      }
+    },
+    {
+      "label": "H_INSTRUCTIONAL_SIGNAGE_00_V1",
+      "text": "TEXTXISXCLEARXXXXXXXXEASTNORTHEASTXFORXFOLLOWXFROMXINSTRUCTIONSBERLINCLOCKX",
+      "metadata": {
+        "register": "instructional_signage",
+        "template_idx": 0,
+        "variation": 1,
+        "corridor_ok": true,
+        "anchor_found_east_idx": 21,
+        "anchor_found_ne_idx": 25,
+        "anchor_found_berlin_idx": 63
+      }
+    },
+    {
+      "label": "H_INSTRUCTIONAL_SIGNAGE_00_V2",
+      "text": "TEXTXCLEARXXXXXXXXXXXEASTNORTHEASTXFOLLOWXINSTRUCTIONSXXXXXXXXXBERLINCLOCKX",
+      "metadata": {
+        "register": "instructional_signage",
+        "template_idx": 0,
+        "variation": 2,
+        "corridor_ok": true,
+        "anchor_found_east_idx": 21,
+        "anchor_found_ne_idx": 25,
+        "anchor_found_berlin_idx": 63
+      }
+    },
+    {
+      "label": "H_INSTRUCTIONAL_SIGNAGE_01_V0",
+      "text": "NOTICEXTHEXTEXTXXXXXXEASTNORTHEASTXPROCEEDXASXSHOWNXXXXXXXXXXXXBERLINCLOCKX",
+      "metadata": {
+        "register": "instructional_signage",
+        "template_idx": 1,
+        "variation": 0,
+        "corridor_ok": true,
+        "anchor_found_east_idx": 21,
+        "anchor_found_ne_idx": 25,
+        "anchor_found_berlin_idx": 63
+      }
+    },
+    {
+      "label": "H_INSTRUCTIONAL_SIGNAGE_01_V1",
+      "text": "NOTICEXTHEXTEXTXXXXXXEASTNORTHEASTXPROCEEDXASXONXSHOWNXWITHXXXXBERLINCLOCKX",
+      "metadata": {
+        "register": "instructional_signage",
+        "template_idx": 1,
+        "variation": 1,
+        "corridor_ok": true,
+        "anchor_found_east_idx": 21,
+        "anchor_found_ne_idx": 25,
+        "anchor_found_berlin_idx": 63
+      }
+    },
+    {
+      "label": "H_INSTRUCTIONAL_SIGNAGE_01_V2",
+      "text": "THEXTEXTXXXXXXXXXXXXXEASTNORTHEASTXPROCEEDXASXSHOWNXXXXXXXXXXXXBERLINCLOCKX",
+      "metadata": {
+        "register": "instructional_signage",
+        "template_idx": 1,
+        "variation": 2,
+        "corridor_ok": true,
+        "anchor_found_east_idx": 21,
+        "anchor_found_ne_idx": 25,
+        "anchor_found_berlin_idx": 63
+      }
+    },
+    {
+      "label": "H_INSTRUCTIONAL_SIGNAGE_02_V0",
+      "text": "VIEWXTHEXMESSAGEXXXXXEASTNORTHEASTXTHENXCONTINUEXXXXXXXXXXXXXXXBERLINCLOCKX",
+      "metadata": {
+        "register": "instructional_signage",
+        "template_idx": 2,
+        "variation": 0,
+        "corridor_ok": true,
+        "anchor_found_east_idx": 21,
+        "anchor_found_ne_idx": 25,
+        "anchor_found_berlin_idx": 63
+      }
+    },
+    {
+      "label": "H_INSTRUCTIONAL_SIGNAGE_02_V1",
+      "text": "VIEWXTHEXMESSAGEXXXXXEASTNORTHEASTXTHENXITXUPXCONTINUEXXXXXXXXXBERLINCLOCKX",
+      "metadata": {
+        "register": "instructional_signage",
+        "template_idx": 2,
+        "variation": 1,
+        "corridor_ok": true,
+        "anchor_found_east_idx": 21,
+        "anchor_found_ne_idx": 25,
+        "anchor_found_berlin_idx": 63
+      }
+    },
+    {
+      "label": "H_INSTRUCTIONAL_SIGNAGE_02_V2",
+      "text": "THEXMESSAGEXXXXXXXXXXEASTNORTHEASTXTHENXCONTINUEXXXXXXXXXXXXXXXBERLINCLOCKX",
+      "metadata": {
+        "register": "instructional_signage",
+        "template_idx": 2,
+        "variation": 2,
+        "corridor_ok": true,
+        "anchor_found_east_idx": 21,
+        "anchor_found_ne_idx": 25,
+        "anchor_found_berlin_idx": 63
+      }
+    },
+    {
+      "label": "H_INSTRUCTIONAL_SIGNAGE_03_V0",
+      "text": "CHECKXTHEXDISPLAYXXXXEASTNORTHEASTXFOLLOWXGUIDEXXXXXXXXXXXXXXXXBERLINCLOCKX",
+      "metadata": {
+        "register": "instructional_signage",
+        "template_idx": 3,
+        "variation": 0,
+        "corridor_ok": true,
+        "anchor_found_east_idx": 21,
+        "anchor_found_ne_idx": 25,
+        "anchor_found_berlin_idx": 63
+      }
+    },
+    {
+      "label": "H_INSTRUCTIONAL_SIGNAGE_03_V1",
+      "text": "CHECKXTHEXDISPLAYXXXXEASTNORTHEASTXFOLLOWXGUIDEXTHOSEXITXXXXXXXBERLINCLOCKX",
+      "metadata": {
+        "register": "instructional_signage",
+        "template_idx": 3,
+        "variation": 1,
+        "corridor_ok": true,
+        "anchor_found_east_idx": 21,
+        "anchor_found_ne_idx": 25,
+        "anchor_found_berlin_idx": 63
+      }
+    },
+    {
+      "label": "H_INSTRUCTIONAL_SIGNAGE_03_V2",
+      "text": "CHECKXTHEXDISPLAYXXXXEASTNORTHEASTXGUIDEXXXXXXXXXXXXXXXXXXXXXXXBERLINCLOCKX",
+      "metadata": {
+        "register": "instructional_signage",
+        "template_idx": 3,
+        "variation": 2,
+        "corridor_ok": true,
+        "anchor_found_east_idx": 21,
+        "anchor_found_ne_idx": 25,
+        "anchor_found_berlin_idx": 63
+      }
+    },
+    {
+      "label": "H_INSTRUCTIONAL_SIGNAGE_04_V0",
+      "text": "EXAMINEXTEXTXXXXXXXXXEASTNORTHEASTXTHENXPROCEEDXXXXXXXXXXXXXXXXBERLINCLOCKX",
+      "metadata": {
+        "register": "instructional_signage",
+        "template_idx": 4,
+        "variation": 0,
+        "corridor_ok": true,
+        "anchor_found_east_idx": 21,
+        "anchor_found_ne_idx": 25,
+        "anchor_found_berlin_idx": 63
+      }
+    },
+    {
+      "label": "H_INSTRUCTIONAL_SIGNAGE_04_V1",
+      "text": "ITXEXAMINEXTEXTXXXXXXEASTNORTHEASTXTHENXPROCEEDXXXXXXXXXXXXXXXXBERLINCLOCKX",
+      "metadata": {
+        "register": "instructional_signage",
+        "template_idx": 4,
+        "variation": 1,
+        "corridor_ok": true,
+        "anchor_found_east_idx": 21,
+        "anchor_found_ne_idx": 25,
+        "anchor_found_berlin_idx": 63
+      }
+    },
+    {
+      "label": "H_INSTRUCTIONAL_SIGNAGE_04_V2",
+      "text": "EXAMINEXXXXXXXXXXXXXXEASTNORTHEASTXTHENXPROCEEDXXXXXXXXXXXXXXXXBERLINCLOCKX",
+      "metadata": {
+        "register": "instructional_signage",
+        "template_idx": 4,
+        "variation": 2,
+        "corridor_ok": true,
+        "anchor_found_east_idx": 21,
+        "anchor_found_ne_idx": 25,
+        "anchor_found_berlin_idx": 63
+      }
+    },
+    {
+      "label": "H_DECLARATIVE_PROSE_00_V0",
+      "text": "THEXTEXTXAPPEARSXXXXXEASTNORTHEASTXPLAINLYXWRITTENXXXXXXXXXXXXXBERLINCLOCKX",
+      "metadata": {
+        "register": "declarative_prose",
+        "template_idx": 0,
+        "variation": 0,
+        "corridor_ok": true,
+        "anchor_found_east_idx": 21,
+        "anchor_found_ne_idx": 25,
+        "anchor_found_berlin_idx": 63
+      }
+    },
+    {
+      "label": "H_DECLARATIVE_PROSE_00_V1",
+      "text": "THEXTEXTXAPPEARSXORXXEASTNORTHEASTXPLAINLYXOUTXWRITTENXXXXXXXXXBERLINCLOCKX",
+      "metadata": {
+        "register": "declarative_prose",
+        "template_idx": 0,
+        "variation": 1,
+        "corridor_ok": true,
+        "anchor_found_east_idx": 21,
+        "anchor_found_ne_idx": 25,
+        "anchor_found_berlin_idx": 63
+      }
+    },
+    {
+      "label": "H_DECLARATIVE_PROSE_00_V2",
+      "text": "THEXTEXTXAPPEARSXXXXXEASTNORTHEASTXPLAINLYXXXXXXXXXXXXXXXXXXXXXBERLINCLOCKX",
+      "metadata": {
+        "register": "declarative_prose",
+        "template_idx": 0,
+        "variation": 2,
+        "corridor_ok": true,
+        "anchor_found_east_idx": 21,
+        "anchor_found_ne_idx": 25,
+        "anchor_found_berlin_idx": 63
+      }
+    },
+    {
+      "label": "H_DECLARATIVE_PROSE_01_V0",
+      "text": "MESSAGEXISXSHOWNXXXXXEASTNORTHEASTXINXCLEARXFORMXXXXXXXXXXXXXXXBERLINCLOCKX",
+      "metadata": {
+        "register": "declarative_prose",
+        "template_idx": 1,
+        "variation": 0,
+        "corridor_ok": true,
+        "anchor_found_east_idx": 21,
+        "anchor_found_ne_idx": 25,
+        "anchor_found_berlin_idx": 63
+      }
+    },
+    {
+      "label": "H_DECLARATIVE_PROSE_01_V1",
+      "text": "MESSAGEXISXSHOWNXHEREEASTNORTHEASTXINXCLEARXFORMXXXXXXXXXXXXXXXBERLINCLOCKX",
+      "metadata": {
+        "register": "declarative_prose",
+        "template_idx": 1,
+        "variation": 1,
+        "corridor_ok": true,
+        "anchor_found_east_idx": 21,
+        "anchor_found_ne_idx": 25,
+        "anchor_found_berlin_idx": 63
+      }
+    },
+    {
+      "label": "H_DECLARATIVE_PROSE_01_V2",
+      "text": "MESSAGEXISXSHOWNXXXXXEASTNORTHEASTXINXFORMXXXXXXXXXXXXXXXXXXXXXBERLINCLOCKX",
+      "metadata": {
+        "register": "declarative_prose",
+        "template_idx": 1,
+        "variation": 2,
+        "corridor_ok": true,
+        "anchor_found_east_idx": 21,
+        "anchor_found_ne_idx": 25,
+        "anchor_found_berlin_idx": 63
+      }
+    },
+    {
+      "label": "H_DECLARATIVE_PROSE_02_V0",
+      "text": "WORDSXAREXVISIBLEXXXXEASTNORTHEASTXONXTHEXSURFACEXXXXXXXXXXXXXXBERLINCLOCKX",
+      "metadata": {
+        "register": "declarative_prose",
+        "template_idx": 2,
+        "variation": 0,
+        "corridor_ok": true,
+        "anchor_found_east_idx": 21,
+        "anchor_found_ne_idx": 25,
+        "anchor_found_berlin_idx": 63
+      }
+    },
+    {
+      "label": "H_DECLARATIVE_PROSE_02_V1",
+      "text": "WORDSXTOXAREXVISIBLEXEASTNORTHEASTXONXTHEXITXSURFACEXXXXXXXXXXXBERLINCLOCKX",
+      "metadata": {
+        "register": "declarative_prose",
+        "template_idx": 2,
+        "variation": 1,
+        "corridor_ok": true,
+        "anchor_found_east_idx": 21,
+        "anchor_found_ne_idx": 25,
+        "anchor_found_berlin_idx": 63
+      }
+    },
+    {
+      "label": "H_DECLARATIVE_PROSE_02_V2",
+      "text": "WORDSXAREXVISIBLEXXXXEASTNORTHEASTXONXTHEXXXXXXXXXXXXXXXXXXXXXXBERLINCLOCKX",
+      "metadata": {
+        "register": "declarative_prose",
+        "template_idx": 2,
+        "variation": 2,
+        "corridor_ok": true,
+        "anchor_found_east_idx": 21,
+        "anchor_found_ne_idx": 25,
+        "anchor_found_berlin_idx": 63
+      }
+    },
+    {
+      "label": "H_DECLARATIVE_PROSE_03_V0",
+      "text": "INSCRIPTIONXREMAINSXXEASTNORTHEASTXCLEARLYXMARKEDXXXXXXXXXXXXXXBERLINCLOCKX",
+      "metadata": {
+        "register": "declarative_prose",
+        "template_idx": 3,
+        "variation": 0,
+        "corridor_ok": true,
+        "anchor_found_east_idx": 21,
+        "anchor_found_ne_idx": 25,
+        "anchor_found_berlin_idx": 63
+      }
+    },
+    {
+      "label": "H_DECLARATIVE_PROSE_03_V2",
+      "text": "REMAINSXXXXXXXXXXXXXXEASTNORTHEASTXCLEARLYXMARKEDXXXXXXXXXXXXXXBERLINCLOCKX",
+      "metadata": {
+        "register": "declarative_prose",
+        "template_idx": 3,
+        "variation": 2,
+        "corridor_ok": true,
+        "anchor_found_east_idx": 21,
+        "anchor_found_ne_idx": 25,
+        "anchor_found_berlin_idx": 63
+      }
+    },
+    {
+      "label": "H_DECLARATIVE_PROSE_04_V0",
+      "text": "THEXPANELXSHOWSXXXXXXEASTNORTHEASTXCODEDXMESSAGEXXXXXXXXXXXXXXXBERLINCLOCKX",
+      "metadata": {
+        "register": "declarative_prose",
+        "template_idx": 4,
+        "variation": 0,
+        "corridor_ok": true,
+        "anchor_found_east_idx": 21,
+        "anchor_found_ne_idx": 25,
+        "anchor_found_berlin_idx": 63
+      }
+    },
+    {
+      "label": "H_DECLARATIVE_PROSE_04_V1",
+      "text": "THEXPANELXINXSHOWSXXXEASTNORTHEASTXIFXCODEDXMESSAGEXXXXXXXXXXXXBERLINCLOCKX",
+      "metadata": {
+        "register": "declarative_prose",
+        "template_idx": 4,
+        "variation": 1,
+        "corridor_ok": true,
+        "anchor_found_east_idx": 21,
+        "anchor_found_ne_idx": 25,
+        "anchor_found_berlin_idx": 63
+      }
+    },
+    {
+      "label": "H_DECLARATIVE_PROSE_04_V2",
+      "text": "THEXPANELXSHOWSXXXXXXEASTNORTHEASTXMESSAGEXXXXXXXXXXXXXXXXXXXXXBERLINCLOCKX",
+      "metadata": {
+        "register": "declarative_prose",
+        "template_idx": 4,
+        "variation": 2,
+        "corridor_ok": true,
+        "anchor_found_east_idx": 21,
+        "anchor_found_ne_idx": 25,
+        "anchor_found_berlin_idx": 63
+      }
+    },
+    {
+      "label": "H_MUSEUM_CAPTION_00_V0",
+      "text": "THEXPANELXTEXTXISXXXXEASTNORTHEASTXDISPLAYEDXHEREXXXXXXXXXXXXXXBERLINCLOCKX",
+      "metadata": {
+        "register": "museum_caption",
+        "template_idx": 0,
+        "variation": 0,
+        "corridor_ok": true,
+        "anchor_found_east_idx": 21,
+        "anchor_found_ne_idx": 25,
+        "anchor_found_berlin_idx": 63
+      }
+    },
+    {
+      "label": "H_MUSEUM_CAPTION_00_V2",
+      "text": "THEXPANELXTEXTXXXXXXXEASTNORTHEASTXDISPLAYEDXHEREXXXXXXXXXXXXXXBERLINCLOCKX",
+      "metadata": {
+        "register": "museum_caption",
+        "template_idx": 0,
+        "variation": 2,
+        "corridor_ok": true,
+        "anchor_found_east_idx": 21,
+        "anchor_found_ne_idx": 25,
+        "anchor_found_berlin_idx": 63
+      }
+    },
+    {
+      "label": "H_MUSEUM_CAPTION_01_V0",
+      "text": "EXHIBITXCAPTIONXXXXXXEASTNORTHEASTXSHOWSXTHEXCODEXXXXXXXXXXXXXXBERLINCLOCKX",
+      "metadata": {
+        "register": "museum_caption",
+        "template_idx": 1,
+        "variation": 0,
+        "corridor_ok": true,
+        "anchor_found_east_idx": 21,
+        "anchor_found_ne_idx": 25,
+        "anchor_found_berlin_idx": 63
+      }
+    },
+    {
+      "label": "H_MUSEUM_CAPTION_01_V1",
+      "text": "EXHIBITXCAPTIONXXXXXXEASTNORTHEASTXHEREXNOWXSHOWSXTHEXCODEXXXXXBERLINCLOCKX",
+      "metadata": {
+        "register": "museum_caption",
+        "template_idx": 1,
+        "variation": 1,
+        "corridor_ok": true,
+        "anchor_found_east_idx": 21,
+        "anchor_found_ne_idx": 25,
+        "anchor_found_berlin_idx": 63
+      }
+    },
+    {
+      "label": "H_MUSEUM_CAPTION_01_V2",
+      "text": "EXHIBITXCAPTIONXXXXXXEASTNORTHEASTXSHOWSXTHEXXXXXXXXXXXXXXXXXXXBERLINCLOCKX",
+      "metadata": {
+        "register": "museum_caption",
+        "template_idx": 1,
+        "variation": 2,
+        "corridor_ok": true,
+        "anchor_found_east_idx": 21,
+        "anchor_found_ne_idx": 25,
+        "anchor_found_berlin_idx": 63
+      }
+    },
+    {
+      "label": "H_MUSEUM_CAPTION_02_V0",
+      "text": "DISPLAYXINCLUDESXXXXXEASTNORTHEASTXENCRYPTEDXTEXTXXXXXXXXXXXXXXBERLINCLOCKX",
+      "metadata": {
+        "register": "museum_caption",
+        "template_idx": 2,
+        "variation": 0,
+        "corridor_ok": true,
+        "anchor_found_east_idx": 21,
+        "anchor_found_ne_idx": 25,
+        "anchor_found_berlin_idx": 63
+      }
+    },
+    {
+      "label": "H_MUSEUM_CAPTION_02_V2",
+      "text": "INCLUDESXXXXXXXXXXXXXEASTNORTHEASTXENCRYPTEDXTEXTXXXXXXXXXXXXXXBERLINCLOCKX",
+      "metadata": {
+        "register": "museum_caption",
+        "template_idx": 2,
+        "variation": 2,
+        "corridor_ok": true,
+        "anchor_found_east_idx": 21,
+        "anchor_found_ne_idx": 25,
+        "anchor_found_berlin_idx": 63
+      }
+    },
+    {
+      "label": "H_MUSEUM_CAPTION_03_V0",
+      "text": "ARTWORKXFEATURESXXXXXEASTNORTHEASTXHIDDENXMESSAGEXXXXXXXXXXXXXXBERLINCLOCKX",
+      "metadata": {
+        "register": "museum_caption",
+        "template_idx": 3,
+        "variation": 0,
+        "corridor_ok": true,
+        "anchor_found_east_idx": 21,
+        "anchor_found_ne_idx": 25,
+        "anchor_found_berlin_idx": 63
+      }
+    },
+    {
+      "label": "H_MUSEUM_CAPTION_03_V1",
+      "text": "THISXARTWORKXFEATURESEASTNORTHEASTXHIDDENXBUTXMESSAGEXXXXXXXXXXBERLINCLOCKX",
+      "metadata": {
+        "register": "museum_caption",
+        "template_idx": 3,
+        "variation": 1,
+        "corridor_ok": true,
+        "anchor_found_east_idx": 21,
+        "anchor_found_ne_idx": 25,
+        "anchor_found_berlin_idx": 63
+      }
+    },
+    {
+      "label": "H_MUSEUM_CAPTION_03_V2",
+      "text": "FEATURESXXXXXXXXXXXXXEASTNORTHEASTXHIDDENXMESSAGEXXXXXXXXXXXXXXBERLINCLOCKX",
+      "metadata": {
+        "register": "museum_caption",
+        "template_idx": 3,
+        "variation": 2,
+        "corridor_ok": true,
+        "anchor_found_east_idx": 21,
+        "anchor_found_ne_idx": 25,
+        "anchor_found_berlin_idx": 63
+      }
+    },
+    {
+      "label": "H_MUSEUM_CAPTION_04_V0",
+      "text": "SCULPTUREXCONTAINSXXXEASTNORTHEASTXSECRETXCIPHERXXXXXXXXXXXXXXXBERLINCLOCKX",
+      "metadata": {
+        "register": "museum_caption",
+        "template_idx": 4,
+        "variation": 0,
+        "corridor_ok": true,
+        "anchor_found_east_idx": 21,
+        "anchor_found_ne_idx": 25,
+        "anchor_found_berlin_idx": 63
+      }
+    },
+    {
+      "label": "H_MUSEUM_CAPTION_04_V2",
+      "text": "SCULPTUREXXXXXXXXXXXXEASTNORTHEASTXSECRETXCIPHERXXXXXXXXXXXXXXXBERLINCLOCKX",
+      "metadata": {
+        "register": "museum_caption",
+        "template_idx": 4,
+        "variation": 2,
+        "corridor_ok": true,
+        "anchor_found_east_idx": 21,
+        "anchor_found_ne_idx": 25,
+        "anchor_found_berlin_idx": 63
+      }
+    },
+    {
+      "label": "H_NEUTRAL_IMPERATIVE_00_V0",
+      "text": "EXAMINEXTHEXTEXTXXXXXEASTNORTHEASTXTHENXPROCEEDXXXXXXXXXXXXXXXXBERLINCLOCKX",
+      "metadata": {
+        "register": "neutral_imperative",
+        "template_idx": 0,
+        "variation": 0,
+        "corridor_ok": true,
+        "anchor_found_east_idx": 21,
+        "anchor_found_ne_idx": 25,
+        "anchor_found_berlin_idx": 63
+      }
+    },
+    {
+      "label": "H_NEUTRAL_IMPERATIVE_00_V2",
+      "text": "EXAMINEXTHEXXXXXXXXXXEASTNORTHEASTXTHENXPROCEEDXXXXXXXXXXXXXXXXBERLINCLOCKX",
+      "metadata": {
+        "register": "neutral_imperative",
+        "template_idx": 0,
+        "variation": 2,
+        "corridor_ok": true,
+        "anchor_found_east_idx": 21,
+        "anchor_found_ne_idx": 25,
+        "anchor_found_berlin_idx": 63
+      }
+    },
+    {
+      "label": "H_NEUTRAL_IMPERATIVE_01_V0",
+      "text": "STUDYXTHEXCODEXXXXXXXEASTNORTHEASTXFINDXTHEXKEYXXXXXXXXXXXXXXXXBERLINCLOCKX",
+      "metadata": {
+        "register": "neutral_imperative",
+        "template_idx": 1,
+        "variation": 0,
+        "corridor_ok": true,
+        "anchor_found_east_idx": 21,
+        "anchor_found_ne_idx": 25,
+        "anchor_found_berlin_idx": 63
+      }
+    },
+    {
+      "label": "H_NEUTRAL_IMPERATIVE_01_V1",
+      "text": "STUDYXORXTHEXCODEXXXXEASTNORTHEASTXFINDXTHEXKEYXXXXXXXXXXXXXXXXBERLINCLOCKX",
+      "metadata": {
+        "register": "neutral_imperative",
+        "template_idx": 1,
+        "variation": 1,
+        "corridor_ok": true,
+        "anchor_found_east_idx": 21,
+        "anchor_found_ne_idx": 25,
+        "anchor_found_berlin_idx": 63
+      }
+    },
+    {
+      "label": "H_NEUTRAL_IMPERATIVE_01_V2",
+      "text": "STUDYXTHEXCODEXXXXXXXEASTNORTHEASTXFINDXTHEXXXXXXXXXXXXXXXXXXXXBERLINCLOCKX",
+      "metadata": {
+        "register": "neutral_imperative",
+        "template_idx": 1,
+        "variation": 2,
+        "corridor_ok": true,
+        "anchor_found_east_idx": 21,
+        "anchor_found_ne_idx": 25,
+        "anchor_found_berlin_idx": 63
+      }
+    },
+    {
+      "label": "H_NEUTRAL_IMPERATIVE_02_V0",
+      "text": "DECODEXTHEXMESSAGEXXXEASTNORTHEASTXUNLOCKXSECRETXXXXXXXXXXXXXXXBERLINCLOCKX",
+      "metadata": {
+        "register": "neutral_imperative",
+        "template_idx": 2,
+        "variation": 0,
+        "corridor_ok": true,
+        "anchor_found_east_idx": 21,
+        "anchor_found_ne_idx": 25,
+        "anchor_found_berlin_idx": 63
+      }
+    },
+    {
+      "label": "H_NEUTRAL_IMPERATIVE_02_V2",
+      "text": "DECODEXTHEXXXXXXXXXXXEASTNORTHEASTXUNLOCKXSECRETXXXXXXXXXXXXXXXBERLINCLOCKX",
+      "metadata": {
+        "register": "neutral_imperative",
+        "template_idx": 2,
+        "variation": 2,
+        "corridor_ok": true,
+        "anchor_found_east_idx": 21,
+        "anchor_found_ne_idx": 25,
+        "anchor_found_berlin_idx": 63
+      }
+    },
+    {
+      "label": "H_NEUTRAL_IMPERATIVE_03_V0",
+      "text": "TRANSLATEXCIPHERXXXXXEASTNORTHEASTXREVEALXTRUTHXXXXXXXXXXXXXXXXBERLINCLOCKX",
+      "metadata": {
+        "register": "neutral_imperative",
+        "template_idx": 3,
+        "variation": 0,
+        "corridor_ok": true,
+        "anchor_found_east_idx": 21,
+        "anchor_found_ne_idx": 25,
+        "anchor_found_berlin_idx": 63
+      }
+    },
+    {
+      "label": "H_NEUTRAL_IMPERATIVE_03_V2",
+      "text": "TRANSLATEXXXXXXXXXXXXEASTNORTHEASTXREVEALXTRUTHXXXXXXXXXXXXXXXXBERLINCLOCKX",
+      "metadata": {
+        "register": "neutral_imperative",
+        "template_idx": 3,
+        "variation": 2,
+        "corridor_ok": true,
+        "anchor_found_east_idx": 21,
+        "anchor_found_ne_idx": 25,
+        "anchor_found_berlin_idx": 63
+      }
+    },
+    {
+      "label": "H_NEUTRAL_IMPERATIVE_04_V0",
+      "text": "ANALYZEXPATTERNXXXXXXEASTNORTHEASTXSOLVEXPUZZLEXXXXXXXXXXXXXXXXBERLINCLOCKX",
+      "metadata": {
+        "register": "neutral_imperative",
+        "template_idx": 4,
+        "variation": 0,
+        "corridor_ok": true,
+        "anchor_found_east_idx": 21,
+        "anchor_found_ne_idx": 25,
+        "anchor_found_berlin_idx": 63
+      }
+    },
+    {
+      "label": "H_NEUTRAL_IMPERATIVE_04_V2",
+      "text": "ANALYZEXXXXXXXXXXXXXXEASTNORTHEASTXSOLVEXPUZZLEXXXXXXXXXXXXXXXXBERLINCLOCKX",
+      "metadata": {
+        "register": "neutral_imperative",
+        "template_idx": 4,
+        "variation": 2,
+        "corridor_ok": true,
+        "anchor_found_east_idx": 21,
+        "anchor_found_ne_idx": 25,
+        "anchor_found_berlin_idx": 63
+      }
+    },
+    {
+      "label": "H_MINIMALIST_DECLARATIVE_00_V0",
+      "text": "TEXTXISXEVIDENTXXXXXXEASTNORTHEASTXMEANINGXISXCLEARXXXXXXXXXXXXBERLINCLOCKX",
+      "metadata": {
+        "register": "minimalist_declarative",
+        "template_idx": 0,
+        "variation": 0,
+        "corridor_ok": true,
+        "anchor_found_east_idx": 21,
+        "anchor_found_ne_idx": 25,
+        "anchor_found_berlin_idx": 63
+      }
+    },
+    {
+      "label": "H_MINIMALIST_DECLARATIVE_00_V2",
+      "text": "ISXEVIDENTXXXXXXXXXXXEASTNORTHEASTXMEANINGXISXCLEARXXXXXXXXXXXXBERLINCLOCKX",
+      "metadata": {
+        "register": "minimalist_declarative",
+        "template_idx": 0,
+        "variation": 2,
+        "corridor_ok": true,
+        "anchor_found_east_idx": 21,
+        "anchor_found_ne_idx": 25,
+        "anchor_found_berlin_idx": 63
+      }
+    },
+    {
+      "label": "H_MINIMALIST_DECLARATIVE_01_V0",
+      "text": "CODEXISXSIMPLEXXXXXXXEASTNORTHEASTXSOLUTIONXAWAITSXXXXXXXXXXXXXBERLINCLOCKX",
+      "metadata": {
+        "register": "minimalist_declarative",
+        "template_idx": 1,
+        "variation": 0,
+        "corridor_ok": true,
+        "anchor_found_east_idx": 21,
+        "anchor_found_ne_idx": 25,
+        "anchor_found_berlin_idx": 63
+      }
+    },
+    {
+      "label": "H_MINIMALIST_DECLARATIVE_01_V2",
+      "text": "CODEXISXXXXXXXXXXXXXXEASTNORTHEASTXSOLUTIONXAWAITSXXXXXXXXXXXXXBERLINCLOCKX",
+      "metadata": {
+        "register": "minimalist_declarative",
+        "template_idx": 1,
+        "variation": 2,
+        "corridor_ok": true,
+        "anchor_found_east_idx": 21,
+        "anchor_found_ne_idx": 25,
+        "anchor_found_berlin_idx": 63
+      }
+    },
+    {
+      "label": "H_MINIMALIST_DECLARATIVE_02_V0",
+      "text": "MESSAGEXISXPLAINXXXXXEASTNORTHEASTXTRUTHXREVEALEDXXXXXXXXXXXXXXBERLINCLOCKX",
+      "metadata": {
+        "register": "minimalist_declarative",
+        "template_idx": 2,
+        "variation": 0,
+        "corridor_ok": true,
+        "anchor_found_east_idx": 21,
+        "anchor_found_ne_idx": 25,
+        "anchor_found_berlin_idx": 63
+      }
+    },
+    {
+      "label": "H_MINIMALIST_DECLARATIVE_02_V1",
+      "text": "MESSAGEXISXPLAINXXXXXEASTNORTHEASTXTRUTHXINXWITHXREVEALEDXXXXXXBERLINCLOCKX",
+      "metadata": {
+        "register": "minimalist_declarative",
+        "template_idx": 2,
+        "variation": 1,
+        "corridor_ok": true,
+        "anchor_found_east_idx": 21,
+        "anchor_found_ne_idx": 25,
+        "anchor_found_berlin_idx": 63
+      }
+    },
+    {
+      "label": "H_MINIMALIST_DECLARATIVE_02_V2",
+      "text": "ISXPLAINXXXXXXXXXXXXXEASTNORTHEASTXTRUTHXREVEALEDXXXXXXXXXXXXXXBERLINCLOCKX",
+      "metadata": {
+        "register": "minimalist_declarative",
+        "template_idx": 2,
+        "variation": 2,
+        "corridor_ok": true,
+        "anchor_found_east_idx": 21,
+        "anchor_found_ne_idx": 25,
+        "anchor_found_berlin_idx": 63
+      }
+    },
+    {
+      "label": "H_MINIMALIST_DECLARATIVE_03_V0",
+      "text": "CIPHERXISXBROKENXXXXXEASTNORTHEASTXSECRETXKNOWNXXXXXXXXXXXXXXXXBERLINCLOCKX",
+      "metadata": {
+        "register": "minimalist_declarative",
+        "template_idx": 3,
+        "variation": 0,
+        "corridor_ok": true,
+        "anchor_found_east_idx": 21,
+        "anchor_found_ne_idx": 25,
+        "anchor_found_berlin_idx": 63
+      }
+    },
+    {
+      "label": "H_MINIMALIST_DECLARATIVE_03_V2",
+      "text": "ISXBROKENXXXXXXXXXXXXEASTNORTHEASTXSECRETXKNOWNXXXXXXXXXXXXXXXXBERLINCLOCKX",
+      "metadata": {
+        "register": "minimalist_declarative",
+        "template_idx": 3,
+        "variation": 2,
+        "corridor_ok": true,
+        "anchor_found_east_idx": 21,
+        "anchor_found_ne_idx": 25,
+        "anchor_found_berlin_idx": 63
+      }
+    },
+    {
+      "label": "H_MINIMALIST_DECLARATIVE_04_V0",
+      "text": "PATTERNXISXCLEARXXXXXEASTNORTHEASTXANSWERXFOUNDXXXXXXXXXXXXXXXXBERLINCLOCKX",
+      "metadata": {
+        "register": "minimalist_declarative",
+        "template_idx": 4,
+        "variation": 0,
+        "corridor_ok": true,
+        "anchor_found_east_idx": 21,
+        "anchor_found_ne_idx": 25,
+        "anchor_found_berlin_idx": 63
+      }
+    },
+    {
+      "label": "H_MINIMALIST_DECLARATIVE_04_V2",
+      "text": "PATTERNXISXCLEARXXXXXEASTNORTHEASTXANSWERXXXXXXXXXXXXXXXXXXXXXXBERLINCLOCKX",
+      "metadata": {
+        "register": "minimalist_declarative",
+        "template_idx": 4,
+        "variation": 2,
+        "corridor_ok": true,
+        "anchor_found_east_idx": 21,
+        "anchor_found_ne_idx": 25,
+        "anchor_found_berlin_idx": 63
+      }
+    },
+    {
+      "label": "H_MINIMALIST_00",
+      "text": "TEXTXISXCLEARXXXXEASTXNORTHEASTXXXXXXXXXXXXXXXXXXXXXXXXXXXXBERLINCLOCK",
+      "metadata": {
+        "register": "minimalist",
+        "template_idx": 0,
+        "variation": 0,
+        "corridor_ok": true,
+        "anchor_found_east_idx": 21,
+        "anchor_found_ne_idx": 25,
+        "anchor_found_berlin_idx": 63
+      }
+    },
+    {
+      "label": "H_MINIMALIST_01",
+      "text": "CODEXISXPLAINXXXXEASTXNORTHEASTXXXXXXXXXXXXXXXXXXXXXXXXXXXXBERLINCLOCK",
+      "metadata": {
+        "register": "minimalist",
+        "template_idx": 1,
+        "variation": 0,
+        "corridor_ok": true,
+        "anchor_found_east_idx": 21,
+        "anchor_found_ne_idx": 25,
+        "anchor_found_berlin_idx": 63
+      }
+    },
+    {
+      "label": "H_MINIMALIST_02",
+      "text": "TRUTHXREVEALEDXXXEASTXNORTHEASTXXXXXXXXXXXXXXXXXXXXXXXXXXXXBERLINCLOCK",
+      "metadata": {
+        "register": "minimalist",
+        "template_idx": 2,
+        "variation": 0,
+        "corridor_ok": true,
+        "anchor_found_east_idx": 21,
+        "anchor_found_ne_idx": 25,
+        "anchor_found_berlin_idx": 63
+      }
+    },
+    {
+      "label": "H_MINIMALIST_03",
+      "text": "MESSAGEXSHOWNXXXXEASTXNORTHEASTXXXXXXXXXXXXXXXXXXXXXXXXXXXXBERLINCLOCK",
+      "metadata": {
+        "register": "minimalist",
+        "template_idx": 3,
+        "variation": 0,
+        "corridor_ok": true,
+        "anchor_found_east_idx": 21,
+        "anchor_found_ne_idx": 25,
+        "anchor_found_berlin_idx": 63
+      }
+    },
+    {
+      "label": "H_MINIMALIST_04",
+      "text": "SECRETXUNLOCKEDXXEASTXNORTHEASTXXXXXXXXXXXXXXXXXXXXXXXXXXXXBERLINCLOCK",
+      "metadata": {
+        "register": "minimalist",
+        "template_idx": 4,
+        "variation": 0,
+        "corridor_ok": true,
+        "anchor_found_east_idx": 21,
+        "anchor_found_ne_idx": 25,
+        "anchor_found_berlin_idx": 63
+      }
+    }
+  ]
+}

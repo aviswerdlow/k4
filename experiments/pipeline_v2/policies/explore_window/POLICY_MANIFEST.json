@@ -1,0 +1,40 @@
+{
+  "campaign": "EXPLORE_J_WINDOW_ELASTICITY_GRID",
+  "date": "2025-01-06",
+  "policies": [
+    "POLICY.anchor_windowed_r1_tb0_v2.json",
+    "POLICY.anchor_windowed_r1_tb1_v2.json",
+    "POLICY.anchor_windowed_r1_tb2_v2.json",
+    "POLICY.anchor_windowed_r2_tb0_v2.json",
+    "POLICY.anchor_windowed_r2_tb1_v2.json",
+    "POLICY.anchor_windowed_r2_tb2_v2.json",
+    "POLICY.anchor_windowed_r3_tb0_v2.json",
+    "POLICY.anchor_windowed_r3_tb1_v2.json",
+    "POLICY.anchor_windowed_r3_tb2_v2.json",
+    "POLICY.anchor_windowed_r4_tb0_v2.json",
+    "POLICY.anchor_windowed_r4_tb1_v2.json",
+    "POLICY.anchor_windowed_r4_tb2_v2.json",
+    "POLICY.anchor_windowed_r5_tb0_v2.json",
+    "POLICY.anchor_windowed_r5_tb1_v2.json",
+    "POLICY.anchor_windowed_r5_tb2_v2.json",
+    "POLICY.anchor_windowed_r6_tb0_v2.json",
+    "POLICY.anchor_windowed_r6_tb1_v2.json",
+    "POLICY.anchor_windowed_r6_tb2_v2.json"
+  ],
+  "grid": {
+    "radius": [
+      1,
+      2,
+      3,
+      4,
+      5,
+      6
+    ],
+    "typo_budget": [
+      0,
+      1,
+      2
+    ]
+  },
+  "total_policies": 18
+}

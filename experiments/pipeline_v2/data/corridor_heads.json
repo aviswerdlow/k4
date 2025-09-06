@@ -1,0 +1,1103 @@
+{
+  "campaign": "EXPLORE_CORRIDOR_WINDOW_ELASTICITY",
+  "date": "2025-01-06",
+  "description": "Anchor-aligned heads for window elasticity testing",
+  "anchor_positions": {
+    "EAST": 21,
+    "NORTHEAST": 25,
+    "BERLINCLOCK": 63
+  },
+  "total_heads": 101,
+  "heads": [
+    {
+      "label": "CORRIDOR_PERFECT_000",
+      "text": "OBKRUOXOGHULBSOLIFBBWEASTNORTHEASTOTWTQSJQSSEKZZWATJKLUDIAWINFBBERLINCLOCKW",
+      "metadata": {
+        "position_offsets": {},
+        "typo_counts": {}
+      }
+    },
+    {
+      "label": "CORRIDOR_PERFECT_001",
+      "text": "OBKRUOXOGHULBSOLIFBBWEASTNORTHEASTOTWTQSJQSSEKZZWATJKLUDIAWINFBBERLINCLOCKW",
+      "metadata": {
+        "position_offsets": {},
+        "typo_counts": {}
+      }
+    },
+    {
+      "label": "CORRIDOR_PERFECT_002",
+      "text": "OBKRUOXOGHULBSOLIFBBWEASTNORTHEASTOTWTQSJQSSEKZZWATJKLUDIAWINFBBERLINCLOCKW",
+      "metadata": {
+        "position_offsets": {},
+        "typo_counts": {}
+      }
+    },
+    {
+      "label": "CORRIDOR_PERFECT_003",
+      "text": "OBKRUOXOGHULBSOLIFBBWEASTNORTHEASTOTWTQSJQSSEKZZWATJKLUDIAWINFBBERLINCLOCKW",
+      "metadata": {
+        "position_offsets": {},
+        "typo_counts": {}
+      }
+    },
+    {
+      "label": "CORRIDOR_PERFECT_004",
+      "text": "OBKRUOXOGHULBSOLIFBBWEASTNORTHEASTOTWTQSJQSSEKZZWATJKLUDIAWINFBBERLINCLOCKW",
+      "metadata": {
+        "position_offsets": {},
+        "typo_counts": {}
+      }
+    },
+    {
+      "label": "CORRIDOR_PERFECT_005",
+      "text": "OBKRUOXOGHULBSOLIFBBWEASTNORTHEASTOTWTQSJQSSEKZZWATJKLUDIAWINFBBERLINCLOCKW",
+      "metadata": {
+        "position_offsets": {},
+        "typo_counts": {}
+      }
+    },
+    {
+      "label": "CORRIDOR_PERFECT_006",
+      "text": "OBKRUOXOGHULBSOLIFBBWEASTNORTHEASTOTWTQSJQSSEKZZWATJKLUDIAWINFBBERLINCLOCKW",
+      "metadata": {
+        "position_offsets": {},
+        "typo_counts": {}
+      }
+    },
+    {
+      "label": "CORRIDOR_PERFECT_007",
+      "text": "OBKRUOXOGHULBSOLIFBBWEASTNORTHEASTOTWTQSJQSSEKZZWATJKLUDIAWINFBBERLINCLOCKW",
+      "metadata": {
+        "position_offsets": {},
+        "typo_counts": {}
+      }
+    },
+    {
+      "label": "CORRIDOR_PERFECT_008",
+      "text": "OBKRUOXOGHULBSOLIFBBWEASTNORTHEASTOTWTQSJQSSEKZZWATJKLUDIAWINFBBERLINCLOCKW",
+      "metadata": {
+        "position_offsets": {},
+        "typo_counts": {}
+      }
+    },
+    {
+      "label": "CORRIDOR_PERFECT_009",
+      "text": "OBKRUOXOGHULBSOLIFBBWEASTNORTHEASTOTWTQSJQSSEKZZWATJKLUDIAWINFBBERLINCLOCKW",
+      "metadata": {
+        "position_offsets": {},
+        "typo_counts": {}
+      }
+    },
+    {
+      "label": "CORRIDOR_SHIFT-3_010",
+      "text": "OBKRUOXOGHULBSOLIFEASTNORTHEASTKSSOTWTQSJQSSEKZZWATJKLUDIAWIBERLINCLOCKFPKW",
+      "metadata": {
+        "position_offsets": {
+          "EAST": -3,
+          "NORTHEAST": -3,
+          "BERLINCLOCK": -3
+        },
+        "typo_counts": {}
+      }
+    },
+    {
+      "label": "CORRIDOR_SHIFT-3_011",
+      "text": "OBKRUOXOGHULBSOLIFEASTNORTHEASTKSSOTWTQSJQSSEKZZWATJKLUDIAWIBERLINCLOCKFPKW",
+      "metadata": {
+        "position_offsets": {
+          "EAST": -3,
+          "NORTHEAST": -3,
+          "BERLINCLOCK": -3
+        },
+        "typo_counts": {}
+      }
+    },
+    {
+      "label": "CORRIDOR_SHIFT-3_012",
+      "text": "OBKRUOXOGHULBSOLIFEASTNORTHEASTKSSOTWTQSJQSSEKZZWATJKLUDIAWIBERLINCLOCKFPKW",
+      "metadata": {
+        "position_offsets": {
+          "EAST": -3,
+          "NORTHEAST": -3,
+          "BERLINCLOCK": -3
+        },
+        "typo_counts": {}
+      }
+    },
+    {
+      "label": "CORRIDOR_SHIFT-3_013",
+      "text": "OBKRUOXOGHULBSOLIFEASTNORTHEASTKSSOTWTQSJQSSEKZZWATJKLUDIAWIBERLINCLOCKFPKW",
+      "metadata": {
+        "position_offsets": {
+          "EAST": -3,
+          "NORTHEAST": -3,
+          "BERLINCLOCK": -3
+        },
+        "typo_counts": {}
+      }
+    },
+    {
+      "label": "CORRIDOR_SHIFT-3_014",
+      "text": "OBKRUOXOGHULBSOLIFEASTNORTHEASTKSSOTWTQSJQSSEKZZWATJKLUDIAWIBERLINCLOCKFPKW",
+      "metadata": {
+        "position_offsets": {
+          "EAST": -3,
+          "NORTHEAST": -3,
+          "BERLINCLOCK": -3
+        },
+        "typo_counts": {}
+      }
+    },
+    {
+      "label": "CORRIDOR_SHIFT-2_015",
+      "text": "OBKRUOXOGHULBSOLIFBEASTNORTHEASTSSOTWTQSJQSSEKZZWATJKLUDIAWINBERLINCLOCKPKW",
+      "metadata": {
+        "position_offsets": {
+          "EAST": -2,
+          "NORTHEAST": -2,
+          "BERLINCLOCK": -2
+        },
+        "typo_counts": {}
+      }
+    },
+    {
+      "label": "CORRIDOR_SHIFT-2_016",
+      "text": "OBKRUOXOGHULBSOLIFBEASTNORTHEASTSSOTWTQSJQSSEKZZWATJKLUDIAWINBERLINCLOCKPKW",
+      "metadata": {
+        "position_offsets": {
+          "EAST": -2,
+          "NORTHEAST": -2,
+          "BERLINCLOCK": -2
+        },
+        "typo_counts": {}
+      }
+    },
+    {
+      "label": "CORRIDOR_SHIFT-2_017",
+      "text": "OBKRUOXOGHULBSOLIFBEASTNORTHEASTSSOTWTQSJQSSEKZZWATJKLUDIAWINBERLINCLOCKPKW",
+      "metadata": {
+        "position_offsets": {
+          "EAST": -2,
+          "NORTHEAST": -2,
+          "BERLINCLOCK": -2
+        },
+        "typo_counts": {}
+      }
+    },
+    {
+      "label": "CORRIDOR_SHIFT-2_018",
+      "text": "OBKRUOXOGHULBSOLIFBEASTNORTHEASTSSOTWTQSJQSSEKZZWATJKLUDIAWINBERLINCLOCKPKW",
+      "metadata": {
+        "position_offsets": {
+          "EAST": -2,
+          "NORTHEAST": -2,
+          "BERLINCLOCK": -2
+        },
+        "typo_counts": {}
+      }
+    },
+    {
+      "label": "CORRIDOR_SHIFT-2_019",
+      "text": "OBKRUOXOGHULBSOLIFBEASTNORTHEASTSSOTWTQSJQSSEKZZWATJKLUDIAWINBERLINCLOCKPKW",
+      "metadata": {
+        "position_offsets": {
+          "EAST": -2,
+          "NORTHEAST": -2,
+          "BERLINCLOCK": -2
+        },
+        "typo_counts": {}
+      }
+    },
+    {
+      "label": "CORRIDOR_SHIFT-1_020",
+      "text": "OBKRUOXOGHULBSOLIFBBEASTNORTHEASTSOTWTQSJQSSEKZZWATJKLUDIAWINFBERLINCLOCKKW",
+      "metadata": {
+        "position_offsets": {
+          "EAST": -1,
+          "NORTHEAST": -1,
+          "BERLINCLOCK": -1
+        },
+        "typo_counts": {}
+      }
+    },
+    {
+      "label": "CORRIDOR_SHIFT-1_021",
+      "text": "OBKRUOXOGHULBSOLIFBBEASTNORTHEASTSOTWTQSJQSSEKZZWATJKLUDIAWINFBERLINCLOCKKW",
+      "metadata": {
+        "position_offsets": {
+          "EAST": -1,
+          "NORTHEAST": -1,
+          "BERLINCLOCK": -1
+        },
+        "typo_counts": {}
+      }
+    },
+    {
+      "label": "CORRIDOR_SHIFT-1_022",
+      "text": "OBKRUOXOGHULBSOLIFBBEASTNORTHEASTSOTWTQSJQSSEKZZWATJKLUDIAWINFBERLINCLOCKKW",
+      "metadata": {
+        "position_offsets": {
+          "EAST": -1,
+          "NORTHEAST": -1,
+          "BERLINCLOCK": -1
+        },
+        "typo_counts": {}
+      }
+    },
+    {
+      "label": "CORRIDOR_SHIFT-1_023",
+      "text": "OBKRUOXOGHULBSOLIFBBEASTNORTHEASTSOTWTQSJQSSEKZZWATJKLUDIAWINFBERLINCLOCKKW",
+      "metadata": {
+        "position_offsets": {
+          "EAST": -1,
+          "NORTHEAST": -1,
+          "BERLINCLOCK": -1
+        },
+        "typo_counts": {}
+      }
+    },
+    {
+      "label": "CORRIDOR_SHIFT-1_024",
+      "text": "OBKRUOXOGHULBSOLIFBBEASTNORTHEASTSOTWTQSJQSSEKZZWATJKLUDIAWINFBERLINCLOCKKW",
+      "metadata": {
+        "position_offsets": {
+          "EAST": -1,
+          "NORTHEAST": -1,
+          "BERLINCLOCK": -1
+        },
+        "typo_counts": {}
+      }
+    },
+    {
+      "label": "CORRIDOR_SHIFT+1_025",
+      "text": "OBKRUOXOGHULBSOLIFBBWFEASTNORTHEASTTWTQSJQSSEKZZWATJKLUDIAWINFBNBERLINCLOCK",
+      "metadata": {
+        "position_offsets": {
+          "EAST": 1,
+          "NORTHEAST": 1,
+          "BERLINCLOCK": 1
+        },
+        "typo_counts": {}
+      }
+    },
+    {
+      "label": "CORRIDOR_SHIFT+1_026",
+      "text": "OBKRUOXOGHULBSOLIFBBWFEASTNORTHEASTTWTQSJQSSEKZZWATJKLUDIAWINFBNBERLINCLOCK",
+      "metadata": {
+        "position_offsets": {
+          "EAST": 1,
+          "NORTHEAST": 1,
+          "BERLINCLOCK": 1
+        },
+        "typo_counts": {}
+      }
+    },
+    {
+      "label": "CORRIDOR_SHIFT+1_027",
+      "text": "OBKRUOXOGHULBSOLIFBBWFEASTNORTHEASTTWTQSJQSSEKZZWATJKLUDIAWINFBNBERLINCLOCK",
+      "metadata": {
+        "position_offsets": {
+          "EAST": 1,
+          "NORTHEAST": 1,
+          "BERLINCLOCK": 1
+        },
+        "typo_counts": {}
+      }
+    },
+    {
+      "label": "CORRIDOR_SHIFT+1_028",
+      "text": "OBKRUOXOGHULBSOLIFBBWFEASTNORTHEASTTWTQSJQSSEKZZWATJKLUDIAWINFBNBERLINCLOCK",
+      "metadata": {
+        "position_offsets": {
+          "EAST": 1,
+          "NORTHEAST": 1,
+          "BERLINCLOCK": 1
+        },
+        "typo_counts": {}
+      }
+    },
+    {
+      "label": "CORRIDOR_SHIFT+1_029",
+      "text": "OBKRUOXOGHULBSOLIFBBWFEASTNORTHEASTTWTQSJQSSEKZZWATJKLUDIAWINFBNBERLINCLOCK",
+      "metadata": {
+        "position_offsets": {
+          "EAST": 1,
+          "NORTHEAST": 1,
+          "BERLINCLOCK": 1
+        },
+        "typo_counts": {}
+      }
+    },
+    {
+      "label": "CORRIDOR_SHIFT+2_030",
+      "text": "OBKRUOXOGHULBSOLIFBBWFLEASTNORTHEASTWTQSJQSSEKZZWATJKLUDIAWINFBNBERLINCLOCK",
+      "metadata": {
+        "position_offsets": {
+          "EAST": 2,
+          "NORTHEAST": 2,
+          "BERLINCLOCK": 2
+        },
+        "typo_counts": {}
+      }
+    },
+    {
+      "label": "CORRIDOR_SHIFT+2_031",
+      "text": "OBKRUOXOGHULBSOLIFBBWFLEASTNORTHEASTWTQSJQSSEKZZWATJKLUDIAWINFBNBERLINCLOCK",
+      "metadata": {
+        "position_offsets": {
+          "EAST": 2,
+          "NORTHEAST": 2,
+          "BERLINCLOCK": 2
+        },
+        "typo_counts": {}
+      }
+    },
+    {
+      "label": "CORRIDOR_SHIFT+2_032",
+      "text": "OBKRUOXOGHULBSOLIFBBWFLEASTNORTHEASTWTQSJQSSEKZZWATJKLUDIAWINFBNBERLINCLOCK",
+      "metadata": {
+        "position_offsets": {
+          "EAST": 2,
+          "NORTHEAST": 2,
+          "BERLINCLOCK": 2
+        },
+        "typo_counts": {}
+      }
+    },
+    {
+      "label": "CORRIDOR_SHIFT+2_033",
+      "text": "OBKRUOXOGHULBSOLIFBBWFLEASTNORTHEASTWTQSJQSSEKZZWATJKLUDIAWINFBNBERLINCLOCK",
+      "metadata": {
+        "position_offsets": {
+          "EAST": 2,
+          "NORTHEAST": 2,
+          "BERLINCLOCK": 2
+        },
+        "typo_counts": {}
+      }
+    },
+    {
+      "label": "CORRIDOR_SHIFT+2_034",
+      "text": "OBKRUOXOGHULBSOLIFBBWFLEASTNORTHEASTWTQSJQSSEKZZWATJKLUDIAWINFBNBERLINCLOCK",
+      "metadata": {
+        "position_offsets": {
+          "EAST": 2,
+          "NORTHEAST": 2,
+          "BERLINCLOCK": 2
+        },
+        "typo_counts": {}
+      }
+    },
+    {
+      "label": "CORRIDOR_SHIFT+3_035",
+      "text": "OBKRUOXOGHULBSOLIFBBWFLREASTNORTHEASTTQSJQSSEKZZWATJKLUDIAWINFBNBERLINCLOCK",
+      "metadata": {
+        "position_offsets": {
+          "EAST": 3,
+          "NORTHEAST": 3,
+          "BERLINCLOCK": 3
+        },
+        "typo_counts": {}
+      }
+    },
+    {
+      "label": "CORRIDOR_SHIFT+3_036",
+      "text": "OBKRUOXOGHULBSOLIFBBWFLREASTNORTHEASTTQSJQSSEKZZWATJKLUDIAWINFBNBERLINCLOCK",
+      "metadata": {
+        "position_offsets": {
+          "EAST": 3,
+          "NORTHEAST": 3,
+          "BERLINCLOCK": 3
+        },
+        "typo_counts": {}
+      }
+    },
+    {
+      "label": "CORRIDOR_SHIFT+3_037",
+      "text": "OBKRUOXOGHULBSOLIFBBWFLREASTNORTHEASTTQSJQSSEKZZWATJKLUDIAWINFBNBERLINCLOCK",
+      "metadata": {
+        "position_offsets": {
+          "EAST": 3,
+          "NORTHEAST": 3,
+          "BERLINCLOCK": 3
+        },
+        "typo_counts": {}
+      }
+    },
+    {
+      "label": "CORRIDOR_SHIFT+3_038",
+      "text": "OBKRUOXOGHULBSOLIFBBWFLREASTNORTHEASTTQSJQSSEKZZWATJKLUDIAWINFBNBERLINCLOCK",
+      "metadata": {
+        "position_offsets": {
+          "EAST": 3,
+          "NORTHEAST": 3,
+          "BERLINCLOCK": 3
+        },
+        "typo_counts": {}
+      }
+    },
+    {
+      "label": "CORRIDOR_SHIFT+3_039",
+      "text": "OBKRUOXOGHULBSOLIFBBWFLREASTNORTHEASTTQSJQSSEKZZWATJKLUDIAWINFBNBERLINCLOCK",
+      "metadata": {
+        "position_offsets": {
+          "EAST": 3,
+          "NORTHEAST": 3,
+          "BERLINCLOCK": 3
+        },
+        "typo_counts": {}
+      }
+    },
+    {
+      "label": "CORRIDOR_EAST_SHIFT-2_040",
+      "text": "OBKRUOXOGHULBSOLIFBEASTRVNORTHEASTOTWTQSJQSSEKZZWATJKLUDIAWINFBBERLINCLOCKW",
+      "metadata": {
+        "position_offsets": {
+          "EAST": -2
+        },
+        "typo_counts": {}
+      }
+    },
+    {
+      "label": "CORRIDOR_EAST_SHIFT-2_041",
+      "text": "OBKRUOXOGHULBSOLIFBEASTRVNORTHEASTOTWTQSJQSSEKZZWATJKLUDIAWINFBBERLINCLOCKW",
+      "metadata": {
+        "position_offsets": {
+          "EAST": -2
+        },
+        "typo_counts": {}
+      }
+    },
+    {
+      "label": "CORRIDOR_EAST_SHIFT-2_042",
+      "text": "OBKRUOXOGHULBSOLIFBEASTRVNORTHEASTOTWTQSJQSSEKZZWATJKLUDIAWINFBBERLINCLOCKW",
+      "metadata": {
+        "position_offsets": {
+          "EAST": -2
+        },
+        "typo_counts": {}
+      }
+    },
+    {
+      "label": "CORRIDOR_EAST_SHIFT-1_043",
+      "text": "OBKRUOXOGHULBSOLIFBBEASTVNORTHEASTOTWTQSJQSSEKZZWATJKLUDIAWINFBBERLINCLOCKW",
+      "metadata": {
+        "position_offsets": {
+          "EAST": -1
+        },
+        "typo_counts": {}
+      }
+    },
+    {
+      "label": "CORRIDOR_EAST_SHIFT-1_044",
+      "text": "OBKRUOXOGHULBSOLIFBBEASTVNORTHEASTOTWTQSJQSSEKZZWATJKLUDIAWINFBBERLINCLOCKW",
+      "metadata": {
+        "position_offsets": {
+          "EAST": -1
+        },
+        "typo_counts": {}
+      }
+    },
+    {
+      "label": "CORRIDOR_EAST_SHIFT-1_045",
+      "text": "OBKRUOXOGHULBSOLIFBBEASTVNORTHEASTOTWTQSJQSSEKZZWATJKLUDIAWINFBBERLINCLOCKW",
+      "metadata": {
+        "position_offsets": {
+          "EAST": -1
+        },
+        "typo_counts": {}
+      }
+    },
+    {
+      "label": "CORRIDOR_EAST_SHIFT+1_046",
+      "text": "OBKRUOXOGHULBSOLIFBBWFEASNORTHEASTOTWTQSJQSSEKZZWATJKLUDIAWINFBBERLINCLOCKW",
+      "metadata": {
+        "position_offsets": {
+          "EAST": 1
+        },
+        "typo_counts": {}
+      }
+    },
+    {
+      "label": "CORRIDOR_EAST_SHIFT+1_047",
+      "text": "OBKRUOXOGHULBSOLIFBBWFEASNORTHEASTOTWTQSJQSSEKZZWATJKLUDIAWINFBBERLINCLOCKW",
+      "metadata": {
+        "position_offsets": {
+          "EAST": 1
+        },
+        "typo_counts": {}
+      }
+    },
+    {
+      "label": "CORRIDOR_EAST_SHIFT+1_048",
+      "text": "OBKRUOXOGHULBSOLIFBBWFEASNORTHEASTOTWTQSJQSSEKZZWATJKLUDIAWINFBBERLINCLOCKW",
+      "metadata": {
+        "position_offsets": {
+          "EAST": 1
+        },
+        "typo_counts": {}
+      }
+    },
+    {
+      "label": "CORRIDOR_EAST_SHIFT+2_049",
+      "text": "OBKRUOXOGHULBSOLIFBBWFLEANORTHEASTOTWTQSJQSSEKZZWATJKLUDIAWINFBBERLINCLOCKW",
+      "metadata": {
+        "position_offsets": {
+          "EAST": 2
+        },
+        "typo_counts": {}
+      }
+    },
+    {
+      "label": "CORRIDOR_EAST_SHIFT+2_050",
+      "text": "OBKRUOXOGHULBSOLIFBBWFLEANORTHEASTOTWTQSJQSSEKZZWATJKLUDIAWINFBBERLINCLOCKW",
+      "metadata": {
+        "position_offsets": {
+          "EAST": 2
+        },
+        "typo_counts": {}
+      }
+    },
+    {
+      "label": "CORRIDOR_EAST_SHIFT+2_051",
+      "text": "OBKRUOXOGHULBSOLIFBBWFLEANORTHEASTOTWTQSJQSSEKZZWATJKLUDIAWINFBBERLINCLOCKW",
+      "metadata": {
+        "position_offsets": {
+          "EAST": 2
+        },
+        "typo_counts": {}
+      }
+    },
+    {
+      "label": "CORRIDOR_NORTHEAST_SHIFT-2_052",
+      "text": "OBKRUOXOGHULBSOLIFBBWEANORTHEASTSSOTWTQSJQSSEKZZWATJKLUDIAWINFBBERLINCLOCKW",
+      "metadata": {
+        "position_offsets": {
+          "NORTHEAST": -2
+        },
+        "typo_counts": {}
+      }
+    },
+    {
+      "label": "CORRIDOR_NORTHEAST_SHIFT-2_053",
+      "text": "OBKRUOXOGHULBSOLIFBBWEANORTHEASTSSOTWTQSJQSSEKZZWATJKLUDIAWINFBBERLINCLOCKW",
+      "metadata": {
+        "position_offsets": {
+          "NORTHEAST": -2
+        },
+        "typo_counts": {}
+      }
+    },
+    {
+      "label": "CORRIDOR_NORTHEAST_SHIFT-2_054",
+      "text": "OBKRUOXOGHULBSOLIFBBWEANORTHEASTSSOTWTQSJQSSEKZZWATJKLUDIAWINFBBERLINCLOCKW",
+      "metadata": {
+        "position_offsets": {
+          "NORTHEAST": -2
+        },
+        "typo_counts": {}
+      }
+    },
+    {
+      "label": "CORRIDOR_NORTHEAST_SHIFT-1_055",
+      "text": "OBKRUOXOGHULBSOLIFBBWEASNORTHEASTSOTWTQSJQSSEKZZWATJKLUDIAWINFBBERLINCLOCKW",
+      "metadata": {
+        "position_offsets": {
+          "NORTHEAST": -1
+        },
+        "typo_counts": {}
+      }
+    },
+    {
+      "label": "CORRIDOR_NORTHEAST_SHIFT-1_056",
+      "text": "OBKRUOXOGHULBSOLIFBBWEASNORTHEASTSOTWTQSJQSSEKZZWATJKLUDIAWINFBBERLINCLOCKW",
+      "metadata": {
+        "position_offsets": {
+          "NORTHEAST": -1
+        },
+        "typo_counts": {}
+      }
+    },
+    {
+      "label": "CORRIDOR_NORTHEAST_SHIFT-1_057",
+      "text": "OBKRUOXOGHULBSOLIFBBWEASNORTHEASTSOTWTQSJQSSEKZZWATJKLUDIAWINFBBERLINCLOCKW",
+      "metadata": {
+        "position_offsets": {
+          "NORTHEAST": -1
+        },
+        "typo_counts": {}
+      }
+    },
+    {
+      "label": "CORRIDOR_NORTHEAST_SHIFT+1_058",
+      "text": "OBKRUOXOGHULBSOLIFBBWEASTQNORTHEASTTWTQSJQSSEKZZWATJKLUDIAWINFBBERLINCLOCKW",
+      "metadata": {
+        "position_offsets": {
+          "NORTHEAST": 1
+        },
+        "typo_counts": {}
+      }
+    },
+    {
+      "label": "CORRIDOR_NORTHEAST_SHIFT+1_059",
+      "text": "OBKRUOXOGHULBSOLIFBBWEASTQNORTHEASTTWTQSJQSSEKZZWATJKLUDIAWINFBBERLINCLOCKW",
+      "metadata": {
+        "position_offsets": {
+          "NORTHEAST": 1
+        },
+        "typo_counts": {}
+      }
+    },
+    {
+      "label": "CORRIDOR_NORTHEAST_SHIFT+1_060",
+      "text": "OBKRUOXOGHULBSOLIFBBWEASTQNORTHEASTTWTQSJQSSEKZZWATJKLUDIAWINFBBERLINCLOCKW",
+      "metadata": {
+        "position_offsets": {
+          "NORTHEAST": 1
+        },
+        "typo_counts": {}
+      }
+    },
+    {
+      "label": "CORRIDOR_NORTHEAST_SHIFT+2_061",
+      "text": "OBKRUOXOGHULBSOLIFBBWEASTQQNORTHEASTWTQSJQSSEKZZWATJKLUDIAWINFBBERLINCLOCKW",
+      "metadata": {
+        "position_offsets": {
+          "NORTHEAST": 2
+        },
+        "typo_counts": {}
+      }
+    },
+    {
+      "label": "CORRIDOR_NORTHEAST_SHIFT+2_062",
+      "text": "OBKRUOXOGHULBSOLIFBBWEASTQQNORTHEASTWTQSJQSSEKZZWATJKLUDIAWINFBBERLINCLOCKW",
+      "metadata": {
+        "position_offsets": {
+          "NORTHEAST": 2
+        },
+        "typo_counts": {}
+      }
+    },
+    {
+      "label": "CORRIDOR_NORTHEAST_SHIFT+2_063",
+      "text": "OBKRUOXOGHULBSOLIFBBWEASTQQNORTHEASTWTQSJQSSEKZZWATJKLUDIAWINFBBERLINCLOCKW",
+      "metadata": {
+        "position_offsets": {
+          "NORTHEAST": 2
+        },
+        "typo_counts": {}
+      }
+    },
+    {
+      "label": "CORRIDOR_BERLINCLOCK_SHIFT-2_064",
+      "text": "OBKRUOXOGHULBSOLIFBBWEASTNORTHEASTOTWTQSJQSSEKZZWATJKLUDIAWINBERLINCLOCKPKW",
+      "metadata": {
+        "position_offsets": {
+          "BERLINCLOCK": -2
+        },
+        "typo_counts": {}
+      }
+    },
+    {
+      "label": "CORRIDOR_BERLINCLOCK_SHIFT-2_065",
+      "text": "OBKRUOXOGHULBSOLIFBBWEASTNORTHEASTOTWTQSJQSSEKZZWATJKLUDIAWINBERLINCLOCKPKW",
+      "metadata": {
+        "position_offsets": {
+          "BERLINCLOCK": -2
+        },
+        "typo_counts": {}
+      }
+    },
+    {
+      "label": "CORRIDOR_BERLINCLOCK_SHIFT-2_066",
+      "text": "OBKRUOXOGHULBSOLIFBBWEASTNORTHEASTOTWTQSJQSSEKZZWATJKLUDIAWINBERLINCLOCKPKW",
+      "metadata": {
+        "position_offsets": {
+          "BERLINCLOCK": -2
+        },
+        "typo_counts": {}
+      }
+    },
+    {
+      "label": "CORRIDOR_BERLINCLOCK_SHIFT-1_067",
+      "text": "OBKRUOXOGHULBSOLIFBBWEASTNORTHEASTOTWTQSJQSSEKZZWATJKLUDIAWINFBERLINCLOCKKW",
+      "metadata": {
+        "position_offsets": {
+          "BERLINCLOCK": -1
+        },
+        "typo_counts": {}
+      }
+    },
+    {
+      "label": "CORRIDOR_BERLINCLOCK_SHIFT-1_068",
+      "text": "OBKRUOXOGHULBSOLIFBBWEASTNORTHEASTOTWTQSJQSSEKZZWATJKLUDIAWINFBERLINCLOCKKW",
+      "metadata": {
+        "position_offsets": {
+          "BERLINCLOCK": -1
+        },
+        "typo_counts": {}
+      }
+    },
+    {
+      "label": "CORRIDOR_BERLINCLOCK_SHIFT-1_069",
+      "text": "OBKRUOXOGHULBSOLIFBBWEASTNORTHEASTOTWTQSJQSSEKZZWATJKLUDIAWINFBERLINCLOCKKW",
+      "metadata": {
+        "position_offsets": {
+          "BERLINCLOCK": -1
+        },
+        "typo_counts": {}
+      }
+    },
+    {
+      "label": "CORRIDOR_BERLINCLOCK_SHIFT+1_070",
+      "text": "OBKRUOXOGHULBSOLIFBBWEASTNORTHEASTOTWTQSJQSSEKZZWATJKLUDIAWINFBNBERLINCLOCK",
+      "metadata": {
+        "position_offsets": {
+          "BERLINCLOCK": 1
+        },
+        "typo_counts": {}
+      }
+    },
+    {
+      "label": "CORRIDOR_BERLINCLOCK_SHIFT+1_071",
+      "text": "OBKRUOXOGHULBSOLIFBBWEASTNORTHEASTOTWTQSJQSSEKZZWATJKLUDIAWINFBNBERLINCLOCK",
+      "metadata": {
+        "position_offsets": {
+          "BERLINCLOCK": 1
+        },
+        "typo_counts": {}
+      }
+    },
+    {
+      "label": "CORRIDOR_BERLINCLOCK_SHIFT+1_072",
+      "text": "OBKRUOXOGHULBSOLIFBBWEASTNORTHEASTOTWTQSJQSSEKZZWATJKLUDIAWINFBNBERLINCLOCK",
+      "metadata": {
+        "position_offsets": {
+          "BERLINCLOCK": 1
+        },
+        "typo_counts": {}
+      }
+    },
+    {
+      "label": "CORRIDOR_BERLINCLOCK_SHIFT+2_073",
+      "text": "OBKRUOXOGHULBSOLIFBBWEASTNORTHEASTOTWTQSJQSSEKZZWATJKLUDIAWINFBNBERLINCLOCK",
+      "metadata": {
+        "position_offsets": {
+          "BERLINCLOCK": 2
+        },
+        "typo_counts": {}
+      }
+    },
+    {
+      "label": "CORRIDOR_BERLINCLOCK_SHIFT+2_074",
+      "text": "OBKRUOXOGHULBSOLIFBBWEASTNORTHEASTOTWTQSJQSSEKZZWATJKLUDIAWINFBNBERLINCLOCK",
+      "metadata": {
+        "position_offsets": {
+          "BERLINCLOCK": 2
+        },
+        "typo_counts": {}
+      }
+    },
+    {
+      "label": "CORRIDOR_BERLINCLOCK_SHIFT+2_075",
+      "text": "OBKRUOXOGHULBSOLIFBBWEASTNORTHEASTOTWTQSJQSSEKZZWATJKLUDIAWINFBNBERLINCLOCK",
+      "metadata": {
+        "position_offsets": {
+          "BERLINCLOCK": 2
+        },
+        "typo_counts": {}
+      }
+    },
+    {
+      "label": "CORRIDOR_TYPO1_076",
+      "text": "OBKRUOXOGHULBSOLIFBBWNEASGNORTHEASTTWTQSJQSSEKZZWATJKLUDIAWINFBBERLENCLOCKW",
+      "metadata": {
+        "position_offsets": {},
+        "typo_counts": {
+          "EAST": 1,
+          "NORTHEAST": 1,
+          "BERLINCLOCK": 1
+        }
+      }
+    },
+    {
+      "label": "CORRIDOR_TYPO1_077",
+      "text": "OBKRUOXOGHULBSOLIFBBWEASTNOWTHEASTOTWTQSJQSSEKZZWATJKLUDIAWINFBBERLINCLKCKW",
+      "metadata": {
+        "position_offsets": {},
+        "typo_counts": {
+          "EAST": 1,
+          "NORTHEAST": 1,
+          "BERLINCLOCK": 1
+        }
+      }
+    },
+    {
+      "label": "CORRIDOR_TYPO1_078",
+      "text": "OBKRUOXOGHULBSOLIFBBWEASTNSORTHEASTTWTQSJQSSEKZZWATJKLUDIAWINFBBERLICNCLOCK",
+      "metadata": {
+        "position_offsets": {},
+        "typo_counts": {
+          "EAST": 1,
+          "NORTHEAST": 1,
+          "BERLINCLOCK": 1
+        }
+      }
+    },
+    {
+      "label": "CORRIDOR_TYPO1_079",
+      "text": "OBKRUOXOGHULBSOLIFBBWZASTNORQTHEASTTWTQSJQSSEKZZWATJKLUDIAWINFBBERLINNCLOCK",
+      "metadata": {
+        "position_offsets": {},
+        "typo_counts": {
+          "EAST": 1,
+          "NORTHEAST": 1,
+          "BERLINCLOCK": 1
+        }
+      }
+    },
+    {
+      "label": "CORRIDOR_TYPO1_080",
+      "text": "OBKRUOXOGHULBSOLIFBBWEASFNORTHEASZTTWTQSJQSSEKZZWATJKLUDIAWINFBBERSINCLOCKW",
+      "metadata": {
+        "position_offsets": {},
+        "typo_counts": {
+          "EAST": 1,
+          "NORTHEAST": 1,
+          "BERLINCLOCK": 1
+        }
+      }
+    },
+    {
+      "label": "CORRIDOR_TYPO2_081",
+      "text": "OBKRUOXOGHULBSOLIFBBWJASRNOROTHIASTTWTQSJQSSEKZZWATJKLUDIAWINFBBERLINCNLOCC",
+      "metadata": {
+        "position_offsets": {},
+        "typo_counts": {
+          "EAST": 2,
+          "NORTHEAST": 2,
+          "BERLINCLOCK": 2
+        }
+      }
+    },
+    {
+      "label": "CORRIDOR_TYPO2_082",
+      "text": "OBKRUOXOGHULBSOLIFBBWEQASNCRTHEAWSTTWTQSJQSSEKZZWATJKLUDIAWINFBBERLINWDOCKW",
+      "metadata": {
+        "position_offsets": {},
+        "typo_counts": {
+          "EAST": 2,
+          "NORTHEAST": 2,
+          "BERLINCLOCK": 2
+        }
+      }
+    },
+    {
+      "label": "CORRIDOR_TYPO2_083",
+      "text": "OBKRUOXOGHULBSOLIFBBWEASGNORTIHEASCTWTQSJQSSEKZZWATJKLUDIAWINFBTERLINCLOMCK",
+      "metadata": {
+        "position_offsets": {},
+        "typo_counts": {
+          "EAST": 2,
+          "NORTHEAST": 2,
+          "BERLINCLOCK": 2
+        }
+      }
+    },
+    {
+      "label": "CORRIDOR_TYPO2_084",
+      "text": "OBKRUOXOGHULBSOLIFBBWQMASNORZHEASTOTWTQSJQSSEKZZWATJKLUDIAWINFBBERLINCUOCYW",
+      "metadata": {
+        "position_offsets": {},
+        "typo_counts": {
+          "EAST": 2,
+          "NORTHEAST": 2,
+          "BERLINCLOCK": 2
+        }
+      }
+    },
+    {
+      "label": "CORRIDOR_TYPO2_085",
+      "text": "OBKRUOXOGHULBSOLIFBBWREAEORTHEASVTOTWTQSJQSSEKZZWATJKLUDIAWINFBHERLINCCLOCK",
+      "metadata": {
+        "position_offsets": {},
+        "typo_counts": {
+          "EAST": 2,
+          "NORTHEAST": 2,
+          "BERLINCLOCK": 2
+        }
+      }
+    },
+    {
+      "label": "CORRIDOR_COMBO_SHIFT-1_TYPO_086",
+      "text": "OBKRUOXOGHULBSOLIFBBEASTNORTHEASTSOTWTQSJQSSEKZZWATJKLUDIAWINFBBERLINCLOCKW",
+      "metadata": {
+        "position_offsets": {
+          "EAST": -1,
+          "NORTHEAST": -1
+        },
+        "typo_counts": {
+          "EAST": 1
+        }
+      }
+    },
+    {
+      "label": "CORRIDOR_COMBO_SHIFT-1_TYPO_087",
+      "text": "OBKRUOXOGHULBSOLIFBBNASTNORTHEASTSOTWTQSJQSSEKZZWATJKLUDIAWINFBBERLINCLOCKW",
+      "metadata": {
+        "position_offsets": {
+          "EAST": -1,
+          "NORTHEAST": -1
+        },
+        "typo_counts": {
+          "EAST": 1
+        }
+      }
+    },
+    {
+      "label": "CORRIDOR_COMBO_SHIFT-1_TYPO_088",
+      "text": "OBKRUOXOGHULBSOLIFBBEASINORTHEASTSOTWTQSJQSSEKZZWATJKLUDIAWINFBBERLINCLOCKW",
+      "metadata": {
+        "position_offsets": {
+          "EAST": -1,
+          "NORTHEAST": -1
+        },
+        "typo_counts": {
+          "EAST": 1
+        }
+      }
+    },
+    {
+      "label": "CORRIDOR_COMBO_SHIFT-1_TYPO_089",
+      "text": "OBKRUOXOGHULBSOLIFBBVASTNORTHEASTSOTWTQSJQSSEKZZWATJKLUDIAWINFBBERLINCLOCKW",
+      "metadata": {
+        "position_offsets": {
+          "EAST": -1,
+          "NORTHEAST": -1
+        },
+        "typo_counts": {
+          "EAST": 1
+        }
+      }
+    },
+    {
+      "label": "CORRIDOR_COMBO_SHIFT-1_TYPO_090",
+      "text": "OBKRUOXOGHULBSOLIFBBEASMNORTHEASTSOTWTQSJQSSEKZZWATJKLUDIAWINFBBERLINCLOCKW",
+      "metadata": {
+        "position_offsets": {
+          "EAST": -1,
+          "NORTHEAST": -1
+        },
+        "typo_counts": {
+          "EAST": 1
+        }
+      }
+    },
+    {
+      "label": "CORRIDOR_COMBO_SHIFT+1_TYPO_091",
+      "text": "OBKRUOXOGHULBSOLIFBBWFECASNORTHEASTTWTQSJQSSEKZZWATJKLUDIAWINFBBERLINCLOCKW",
+      "metadata": {
+        "position_offsets": {
+          "EAST": 1,
+          "NORTHEAST": 1
+        },
+        "typo_counts": {
+          "EAST": 1
+        }
+      }
+    },
+    {
+      "label": "CORRIDOR_COMBO_SHIFT+1_TYPO_092",
+      "text": "OBKRUOXOGHULBSOLIFBBWFEESTNORTHEASTTWTQSJQSSEKZZWATJKLUDIAWINFBBERLINCLOCKW",
+      "metadata": {
+        "position_offsets": {
+          "EAST": 1,
+          "NORTHEAST": 1
+        },
+        "typo_counts": {
+          "EAST": 1
+        }
+      }
+    },
+    {
+      "label": "CORRIDOR_COMBO_SHIFT+1_TYPO_093",
+      "text": "OBKRUOXOGHULBSOLIFBBWFEASTNORTHEASTTWTQSJQSSEKZZWATJKLUDIAWINFBBERLINCLOCKW",
+      "metadata": {
+        "position_offsets": {
+          "EAST": 1,
+          "NORTHEAST": 1
+        },
+        "typo_counts": {
+          "EAST": 1
+        }
+      }
+    },
+    {
+      "label": "CORRIDOR_COMBO_SHIFT+1_TYPO_094",
+      "text": "OBKRUOXOGHULBSOLIFBBWFEEASNORTHEASTTWTQSJQSSEKZZWATJKLUDIAWINFBBERLINCLOCKW",
+      "metadata": {
+        "position_offsets": {
+          "EAST": 1,
+          "NORTHEAST": 1
+        },
+        "typo_counts": {
+          "EAST": 1
+        }
+      }
+    },
+    {
+      "label": "CORRIDOR_COMBO_SHIFT+1_TYPO_095",
+      "text": "OBKRUOXOGHULBSOLIFBBWFSEASNORTHEASTTWTQSJQSSEKZZWATJKLUDIAWINFBBERLINCLOCKW",
+      "metadata": {
+        "position_offsets": {
+          "EAST": 1,
+          "NORTHEAST": 1
+        },
+        "typo_counts": {
+          "EAST": 1
+        }
+      }
+    },
+    {
+      "label": "CORRIDOR_K4_PURE_000",
+      "text": "OBKRUOXOGHULBSOLIFBBWFLRVQQPRNGKSSOTWTQSJQSSEKZZWATJKLUDIAWINFBNYPVTTMZFPKW",
+      "metadata": {
+        "position_offsets": {},
+        "typo_counts": {}
+      }
+    },
+    {
+      "label": "CORRIDOR_K4_PURE_001",
+      "text": "OBKRUOXOGHULBSOLIFBBWFLRVQQPRNGKSSOTWTQSJQSSEKZZWATJKLUDIAWINFBNYPVTTMZFPKW",
+      "metadata": {
+        "position_offsets": {},
+        "typo_counts": {}
+      }
+    },
+    {
+      "label": "CORRIDOR_K4_PURE_002",
+      "text": "OBKRUOXOGHULBSOLIFBBWFLRVQQPRNGKSSOTWTQSJQSSEKZZWATJKLUDIAWINFBNYPVTTMZFPKW",
+      "metadata": {
+        "position_offsets": {},
+        "typo_counts": {}
+      }
+    },
+    {
+      "label": "CORRIDOR_K4_PURE_003",
+      "text": "OBKRUOXOGHULBSOLIFBBWFLRVQQPRNGKSSOTWTQSJQSSEKZZWATJKLUDIAWINFBNYPVTTMZFPKW",
+      "metadata": {
+        "position_offsets": {},
+        "typo_counts": {}
+      }
+    },
+    {
+      "label": "CORRIDOR_K4_PURE_004",
+      "text": "OBKRUOXOGHULBSOLIFBBWFLRVQQPRNGKSSOTWTQSJQSSEKZZWATJKLUDIAWINFBNYPVTTMZFPKW",
+      "metadata": {
+        "position_offsets": {},
+        "typo_counts": {}
+      }
+    }
+  ]
+}

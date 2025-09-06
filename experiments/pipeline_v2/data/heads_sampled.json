@@ -1,0 +1,1432 @@
+{
+  "campaign": "EXPLORE_I_DATA_DRIVEN_SEARCH",
+  "date": "2025-01-06",
+  "description": "N-gram constrained sampling with beam search",
+  "seed": 1337,
+  "corpus_hash": "a8fba0e47023c7ac",
+  "beam_width": 20,
+  "num_batches": 5,
+  "anchor_positions": {
+    "EAST": 21,
+    "NORTHEAST": 25,
+    "BERLINCLOCK": 63
+  },
+  "masked_tokens": [
+    "DIAL",
+    "SET",
+    "COURSE",
+    "TRUE",
+    "READ",
+    "SEE",
+    "NOTE",
+    "SIGHT",
+    "OBSERVE",
+    "MERIDIAN",
+    "DECLINATION",
+    "BEARING",
+    "LINE"
+  ],
+  "total_heads": 100,
+  "heads": [
+    {
+      "label": "I_SAMPLED_B00_C00",
+      "text": "THEXTEXTXISXCLEARXKKGEASTNORTHEASTZUQYBUGTHEXANDMJGGPFIOFKVWCBZBERLINCLOCKX",
+      "metadata": {
+        "batch": 0,
+        "beam_rank": 0,
+        "ngram_score": 0.019999999999999993,
+        "seed": 1343,
+        "corridor_ok": true,
+        "anchor_found_east_idx": 21,
+        "anchor_found_ne_idx": 25,
+        "anchor_found_berlin_idx": 63
+      }
+    },
+    {
+      "label": "I_SAMPLED_B00_C01",
+      "text": "PANELXSHOWSXTEXTHECDWEASTNORTHEASTZANDXICFYYLUMAYBXDDVATBZXRESSBERLINCLOCKX",
+      "metadata": {
+        "batch": 0,
+        "beam_rank": 1,
+        "ngram_score": 0.016666666666666663,
+        "seed": 1342,
+        "corridor_ok": true,
+        "anchor_found_east_idx": 21,
+        "anchor_found_ne_idx": 25,
+        "anchor_found_berlin_idx": 63
+      }
+    },
+    {
+      "label": "I_SAMPLED_B02_C00",
+      "text": "THEXTEXTXISXCLEARLTENEASTNORTHEASTZPPDSTDYVMDSSAGGDAINGCDJUUCMGBERLINCLOCKX",
+      "metadata": {
+        "batch": 2,
+        "beam_rank": 0,
+        "ngram_score": 0.016666666666666663,
+        "seed": 3343,
+        "corridor_ok": true,
+        "anchor_found_east_idx": 21,
+        "anchor_found_ne_idx": 25,
+        "anchor_found_berlin_idx": 63
+      }
+    },
+    {
+      "label": "I_SAMPLED_B01_C00",
+      "text": "PANELXSHOWSXTEXTHEXATEASTNORTHEASTHFDUBKSAJAOAVYJTGEWSAAXJHMNFTBERLINCLOCKX",
+      "metadata": {
+        "batch": 1,
+        "beam_rank": 0,
+        "ngram_score": 0.014666666666666665,
+        "seed": 2345,
+        "corridor_ok": true,
+        "anchor_found_east_idx": 21,
+        "anchor_found_ne_idx": 25,
+        "anchor_found_berlin_idx": 63
+      }
+    },
+    {
+      "label": "I_SAMPLED_B02_C01",
+      "text": "THEXTEXTXISXCLEARRFSHEASTNORTHEASTAPMUXMYETTSOLIHLJLXINBVNKDRFMBERLINCLOCKX",
+      "metadata": {
+        "batch": 2,
+        "beam_rank": 1,
+        "ngram_score": 0.014666666666666665,
+        "seed": 3344,
+        "corridor_ok": true,
+        "anchor_found_east_idx": 21,
+        "anchor_found_ne_idx": 25,
+        "anchor_found_berlin_idx": 63
+      }
+    },
+    {
+      "label": "I_SAMPLED_B04_C00",
+      "text": "PANELXSHOWSXTEXTHMTIJEASTNORTHEASTRTWECDTWGCTEUDODLDSWTXYTHEXDOBERLINCLOCKX",
+      "metadata": {
+        "batch": 4,
+        "beam_rank": 0,
+        "ngram_score": 0.014666666666666665,
+        "seed": 5350,
+        "corridor_ok": true,
+        "anchor_found_east_idx": 21,
+        "anchor_found_ne_idx": 25,
+        "anchor_found_berlin_idx": 63
+      }
+    },
+    {
+      "label": "I_SAMPLED_B02_C02",
+      "text": "PANELXSHOWSXTEXTHEKIIEASTNORTHEASTGZRGYDGFZRJSJPVEUCACDVVRJVXTEBERLINCLOCKX",
+      "metadata": {
+        "batch": 2,
+        "beam_rank": 2,
+        "ngram_score": 0.013333333333333334,
+        "seed": 3340,
+        "corridor_ok": true,
+        "anchor_found_east_idx": 21,
+        "anchor_found_ne_idx": 25,
+        "anchor_found_berlin_idx": 63
+      }
+    },
+    {
+      "label": "I_SAMPLED_B02_C03",
+      "text": "MESSAGEXAPPEARSGXTHEXEASTNORTHEASTNWRBMBIXUNWXODGGYHYCSHBIRIXCOBERLINCLOCKX",
+      "metadata": {
+        "batch": 2,
+        "beam_rank": 3,
+        "ngram_score": 0.013333333333333334,
+        "seed": 3349,
+        "corridor_ok": true,
+        "anchor_found_east_idx": 21,
+        "anchor_found_ne_idx": 25,
+        "anchor_found_berlin_idx": 63
+      }
+    },
+    {
+      "label": "I_SAMPLED_B03_C00",
+      "text": "PANELXSHOWSXTEXTHEXTXEASTNORTHEASTCWAXHCPRWIBLFMVRLCSIOCTKLXDEXBERLINCLOCKX",
+      "metadata": {
+        "batch": 3,
+        "beam_rank": 0,
+        "ngram_score": 0.013333333333333334,
+        "seed": 4342,
+        "corridor_ok": true,
+        "anchor_found_east_idx": 21,
+        "anchor_found_ne_idx": 25,
+        "anchor_found_berlin_idx": 63
+      }
+    },
+    {
+      "label": "I_SAMPLED_B03_C01",
+      "text": "CODEXISXSIMPLEGGLTIYIEASTNORTHEASTASOTPYVNEXTHEXSIHUOMFCANEMIJRBERLINCLOCKX",
+      "metadata": {
+        "batch": 3,
+        "beam_rank": 1,
+        "ngram_score": 0.013333333333333334,
+        "seed": 4345,
+        "corridor_ok": true,
+        "anchor_found_east_idx": 21,
+        "anchor_found_ne_idx": 25,
+        "anchor_found_berlin_idx": 63
+      }
+    },
+    {
+      "label": "I_SAMPLED_B03_C02",
+      "text": "THEXTEXTXISXCLEARBUHAEASTNORTHEASTEOSFAVZBMGUATEKNWKSJWKAUUENAXBERLINCLOCKX",
+      "metadata": {
+        "batch": 3,
+        "beam_rank": 2,
+        "ngram_score": 0.013333333333333334,
+        "seed": 4347,
+        "corridor_ok": true,
+        "anchor_found_east_idx": 21,
+        "anchor_found_ne_idx": 25,
+        "anchor_found_berlin_idx": 63
+      }
+    },
+    {
+      "label": "I_SAMPLED_B03_C03",
+      "text": "DISPLAYXREVEALSOKDIRKEASTNORTHEASTHESNJSIIAIDVRYRYJZIUDYKRPVSYZBERLINCLOCKX",
+      "metadata": {
+        "batch": 3,
+        "beam_rank": 3,
+        "ngram_score": 0.013333333333333334,
+        "seed": 4350,
+        "corridor_ok": true,
+        "anchor_found_east_idx": 21,
+        "anchor_found_ne_idx": 25,
+        "anchor_found_berlin_idx": 63
+      }
+    },
+    {
+      "label": "I_SAMPLED_B03_C04",
+      "text": "DISPLAYXREVEALSXANDHVEASTNORTHEASTDWUAEGNVJUOMBJPMOKFUYHHRVWBIPBERLINCLOCKX",
+      "metadata": {
+        "batch": 3,
+        "beam_rank": 4,
+        "ngram_score": 0.012,
+        "seed": 4353,
+        "corridor_ok": true,
+        "anchor_found_east_idx": 21,
+        "anchor_found_ne_idx": 25,
+        "anchor_found_berlin_idx": 63
+      }
+    },
+    {
+      "label": "I_SAMPLED_B04_C01",
+      "text": "DISPLAYXREVEALSOPKNWXEASTNORTHEASTGZYVXDISIHYGRXTHEXRGKIPZSDLRSBERLINCLOCKX",
+      "metadata": {
+        "batch": 4,
+        "beam_rank": 1,
+        "ngram_score": 0.012,
+        "seed": 5354,
+        "corridor_ok": true,
+        "anchor_found_east_idx": 21,
+        "anchor_found_ne_idx": 25,
+        "anchor_found_berlin_idx": 63
+      }
+    },
+    {
+      "label": "I_SAMPLED_B01_C01",
+      "text": "PANELXSHOWSXTEXTXTHEGEASTNORTHEASTEHVJFWDQEWODENGBDXJCWXANISNHDBERLINCLOCKX",
+      "metadata": {
+        "batch": 1,
+        "beam_rank": 1,
+        "ngram_score": 0.011999999999999995,
+        "seed": 2347,
+        "corridor_ok": true,
+        "anchor_found_east_idx": 21,
+        "anchor_found_ne_idx": 25,
+        "anchor_found_berlin_idx": 63
+      }
+    },
+    {
+      "label": "I_SAMPLED_B01_C02",
+      "text": "PANELXSHOWSXTEXTHIIZSEASTNORTHEASTERPFRMNJVSWAOJHTPMFHHCXITURUGBERLINCLOCKX",
+      "metadata": {
+        "batch": 1,
+        "beam_rank": 2,
+        "ngram_score": 0.011333333333333332,
+        "seed": 2355,
+        "corridor_ok": true,
+        "anchor_found_east_idx": 21,
+        "anchor_found_ne_idx": 25,
+        "anchor_found_berlin_idx": 63
+      }
+    },
+    {
+      "label": "I_SAMPLED_B02_C04",
+      "text": "DISPLAYXREVEALSNCFVNGEASTNORTHEASTRMOVERNNNBSLCLVXSMZXWKOZTHEXCBERLINCLOCKX",
+      "metadata": {
+        "batch": 2,
+        "beam_rank": 4,
+        "ngram_score": 0.010666666666666668,
+        "seed": 3357,
+        "corridor_ok": true,
+        "anchor_found_east_idx": 21,
+        "anchor_found_ne_idx": 25,
+        "anchor_found_berlin_idx": 63
+      }
+    },
+    {
+      "label": "I_SAMPLED_B03_C05",
+      "text": "PANELXSHOWSXTEXTVABFFEASTNORTHEASTHEXKPDPVZTVUSQWAYHNXSCUPAAYKUBERLINCLOCKX",
+      "metadata": {
+        "batch": 3,
+        "beam_rank": 5,
+        "ngram_score": 0.010666666666666668,
+        "seed": 4349,
+        "corridor_ok": true,
+        "anchor_found_east_idx": 21,
+        "anchor_found_ne_idx": 25,
+        "anchor_found_berlin_idx": 63
+      }
+    },
+    {
+      "label": "I_SAMPLED_B04_C02",
+      "text": "THEXTEXTXISXCLEARZLXTEASTNORTHEASTAXEXACECHAYXCPPWPTEPOGRUQQAUSBERLINCLOCKX",
+      "metadata": {
+        "batch": 4,
+        "beam_rank": 2,
+        "ngram_score": 0.010666666666666668,
+        "seed": 5342,
+        "corridor_ok": true,
+        "anchor_found_east_idx": 21,
+        "anchor_found_ne_idx": 25,
+        "anchor_found_berlin_idx": 63
+      }
+    },
+    {
+      "label": "I_SAMPLED_B01_C03",
+      "text": "PANELXSHOWSXTEXTHEEDCEASTNORTHEASTNBDAKSFNWFEUAFZREGUZYPRCKDMQNBERLINCLOCKX",
+      "metadata": {
+        "batch": 1,
+        "beam_rank": 3,
+        "ngram_score": 0.010666666666666666,
+        "seed": 2352,
+        "corridor_ok": true,
+        "anchor_found_east_idx": 21,
+        "anchor_found_ne_idx": 25,
+        "anchor_found_berlin_idx": 63
+      }
+    },
+    {
+      "label": "I_SAMPLED_B04_C03",
+      "text": "CODEXISXSIMPLETSUXQTHEASTNORTHEASTHEAHFUQPDABYLSUDRXPAIIMXNROBLBERLINCLOCKX",
+      "metadata": {
+        "batch": 4,
+        "beam_rank": 3,
+        "ngram_score": 0.010000000000000002,
+        "seed": 5339,
+        "corridor_ok": true,
+        "anchor_found_east_idx": 21,
+        "anchor_found_ne_idx": 25,
+        "anchor_found_berlin_idx": 63
+      }
+    },
+    {
+      "label": "I_SAMPLED_B01_C04",
+      "text": "MESSAGEXAPPEARSYGDDTGEASTNORTHEASTNJKNJXAGXEECIAHBKZDEKNWPJGITHBERLINCLOCKX",
+      "metadata": {
+        "batch": 1,
+        "beam_rank": 4,
+        "ngram_score": 0.01,
+        "seed": 2349,
+        "corridor_ok": true,
+        "anchor_found_east_idx": 21,
+        "anchor_found_ne_idx": 25,
+        "anchor_found_berlin_idx": 63
+      }
+    },
+    {
+      "label": "I_SAMPLED_B04_C04",
+      "text": "MESSAGEXAPPEARSBIKESLEASTNORTHEASTVTRSRAWWPGEMNZUBJHAITUIBLDJHGBERLINCLOCKX",
+      "metadata": {
+        "batch": 4,
+        "beam_rank": 4,
+        "ngram_score": 0.01,
+        "seed": 5345,
+        "corridor_ok": true,
+        "anchor_found_east_idx": 21,
+        "anchor_found_ne_idx": 25,
+        "anchor_found_berlin_idx": 63
+      }
+    },
+    {
+      "label": "I_SAMPLED_B04_C05",
+      "text": "PANELXSHOWSXTEXTMWCUAEASTNORTHEASTAUKELLRSETAXSNSXHEBFAFWFFUZNNBERLINCLOCKX",
+      "metadata": {
+        "batch": 4,
+        "beam_rank": 5,
+        "ngram_score": 0.01,
+        "seed": 5353,
+        "corridor_ok": true,
+        "anchor_found_east_idx": 21,
+        "anchor_found_ne_idx": 25,
+        "anchor_found_berlin_idx": 63
+      }
+    },
+    {
+      "label": "I_SAMPLED_B00_C02",
+      "text": "PANELXSHOWSXTEXTGOHDTEASTNORTHEASTCZLIEKCGIAYEACPHTHEXAAQIMFHAFBERLINCLOCKX",
+      "metadata": {
+        "batch": 0,
+        "beam_rank": 2,
+        "ngram_score": 0.009333333333333334,
+        "seed": 1349,
+        "corridor_ok": true,
+        "anchor_found_east_idx": 21,
+        "anchor_found_ne_idx": 25,
+        "anchor_found_berlin_idx": 63
+      }
+    },
+    {
+      "label": "I_SAMPLED_B03_C06",
+      "text": "THEXTEXTXISXCLEARCENFEASTNORTHEASTZOOSTLOYPPFGDWDMQVXDIDABEKZYVBERLINCLOCKX",
+      "metadata": {
+        "batch": 3,
+        "beam_rank": 6,
+        "ngram_score": 0.009333333333333334,
+        "seed": 4338,
+        "corridor_ok": true,
+        "anchor_found_east_idx": 21,
+        "anchor_found_ne_idx": 25,
+        "anchor_found_berlin_idx": 63
+      }
+    },
+    {
+      "label": "I_SAMPLED_B04_C06",
+      "text": "THEXTEXTXISXCLEARWLKVEASTNORTHEASTYTFNPENFJGGPKVQLGSXCZSVLIUGOBBERLINCLOCKX",
+      "metadata": {
+        "batch": 4,
+        "beam_rank": 6,
+        "ngram_score": 0.009333333333333334,
+        "seed": 5338,
+        "corridor_ok": true,
+        "anchor_found_east_idx": 21,
+        "anchor_found_ne_idx": 25,
+        "anchor_found_berlin_idx": 63
+      }
+    },
+    {
+      "label": "I_SAMPLED_B04_C07",
+      "text": "PANELXSHOWSXTEXTIPQDFEASTNORTHEASTMRAHMPIBFUKUQCPVTHEFABANZBCTMBERLINCLOCKX",
+      "metadata": {
+        "batch": 4,
+        "beam_rank": 7,
+        "ngram_score": 0.009333333333333334,
+        "seed": 5348,
+        "corridor_ok": true,
+        "anchor_found_east_idx": 21,
+        "anchor_found_ne_idx": 25,
+        "anchor_found_berlin_idx": 63
+      }
+    },
+    {
+      "label": "I_SAMPLED_B02_C05",
+      "text": "CODEXISXSIMPLEOAWYLEHEASTNORTHEASTDZZSRXNRFSJWOXAZOMFJOOCISFLMMBERLINCLOCKX",
+      "metadata": {
+        "batch": 2,
+        "beam_rank": 5,
+        "ngram_score": 0.008666666666666666,
+        "seed": 3339,
+        "corridor_ok": true,
+        "anchor_found_east_idx": 21,
+        "anchor_found_ne_idx": 25,
+        "anchor_found_berlin_idx": 63
+      }
+    },
+    {
+      "label": "I_SAMPLED_B02_C06",
+      "text": "CODEXISXSIMPLEHUTOXFOEASTNORTHEASTYJUETNRMZELTXDIHDOBGWILHOLJKRBERLINCLOCKX",
+      "metadata": {
+        "batch": 2,
+        "beam_rank": 6,
+        "ngram_score": 0.008666666666666666,
+        "seed": 3348,
+        "corridor_ok": true,
+        "anchor_found_east_idx": 21,
+        "anchor_found_ne_idx": 25,
+        "anchor_found_berlin_idx": 63
+      }
+    },
+    {
+      "label": "I_SAMPLED_B02_C07",
+      "text": "DISPLAYXREVEALSDTDLRVEASTNORTHEASTHHHXUWGNPBONXJUSWDWOYNUKWDIFPBERLINCLOCKX",
+      "metadata": {
+        "batch": 2,
+        "beam_rank": 7,
+        "ngram_score": 0.008666666666666666,
+        "seed": 3350,
+        "corridor_ok": true,
+        "anchor_found_east_idx": 21,
+        "anchor_found_ne_idx": 25,
+        "anchor_found_berlin_idx": 63
+      }
+    },
+    {
+      "label": "I_SAMPLED_B03_C07",
+      "text": "CODEXISXSIMPLEANFEDDGEASTNORTHEASTOOJVRQIHUMWMZZAEAAIEHEXAPDOMRBERLINCLOCKX",
+      "metadata": {
+        "batch": 3,
+        "beam_rank": 7,
+        "ngram_score": 0.008666666666666666,
+        "seed": 4352,
+        "corridor_ok": true,
+        "anchor_found_east_idx": 21,
+        "anchor_found_ne_idx": 25,
+        "anchor_found_berlin_idx": 63
+      }
+    },
+    {
+      "label": "I_SAMPLED_B01_C05",
+      "text": "THEXTEXTXISXCLEAROSBMEASTNORTHEASTIOULKGHGUDMHHUXLSLULOMHQKMWDOBERLINCLOCKX",
+      "metadata": {
+        "batch": 1,
+        "beam_rank": 5,
+        "ngram_score": 0.008000000000000002,
+        "seed": 2340,
+        "corridor_ok": true,
+        "anchor_found_east_idx": 21,
+        "anchor_found_ne_idx": 25,
+        "anchor_found_berlin_idx": 63
+      }
+    },
+    {
+      "label": "I_SAMPLED_B02_C08",
+      "text": "THEXTEXTXISXCLEARXUEUEASTNORTHEASTQYXIKWMFXGXIMTBDDAMHYBYRAKNYGBERLINCLOCKX",
+      "metadata": {
+        "batch": 2,
+        "beam_rank": 8,
+        "ngram_score": 0.008000000000000002,
+        "seed": 3355,
+        "corridor_ok": true,
+        "anchor_found_east_idx": 21,
+        "anchor_found_ne_idx": 25,
+        "anchor_found_berlin_idx": 63
+      }
+    },
+    {
+      "label": "I_SAMPLED_B03_C08",
+      "text": "PANELXSHOWSXTEXTHEJGTEASTNORTHEASTWHLZVODKOXDKRIFINIADYBVXVFHJQBERLINCLOCKX",
+      "metadata": {
+        "batch": 3,
+        "beam_rank": 8,
+        "ngram_score": 0.008000000000000002,
+        "seed": 4339,
+        "corridor_ok": true,
+        "anchor_found_east_idx": 21,
+        "anchor_found_ne_idx": 25,
+        "anchor_found_berlin_idx": 63
+      }
+    },
+    {
+      "label": "I_SAMPLED_B03_C09",
+      "text": "THEXTEXTXISXCLEAREJHGEASTNORTHEASTITDSJWFLCEALQECNPCLNYVBUDDRUZBERLINCLOCKX",
+      "metadata": {
+        "batch": 3,
+        "beam_rank": 9,
+        "ngram_score": 0.008000000000000002,
+        "seed": 4356,
+        "corridor_ok": true,
+        "anchor_found_east_idx": 21,
+        "anchor_found_ne_idx": 25,
+        "anchor_found_berlin_idx": 63
+      }
+    },
+    {
+      "label": "I_SAMPLED_B03_C10",
+      "text": "THEXTEXTXISXCLEARTSDMEASTNORTHEASTUWGPKMHBWAVRKLKASFEPICDQYKLVABERLINCLOCKX",
+      "metadata": {
+        "batch": 3,
+        "beam_rank": 10,
+        "ngram_score": 0.008000000000000002,
+        "seed": 4357,
+        "corridor_ok": true,
+        "anchor_found_east_idx": 21,
+        "anchor_found_ne_idx": 25,
+        "anchor_found_berlin_idx": 63
+      }
+    },
+    {
+      "label": "I_SAMPLED_B04_C08",
+      "text": "THEXTEXTXISXCLEARMQEXEASTNORTHEASTXCLLTUHIKFAUPUBUEFQUUDJDEXINFBERLINCLOCKX",
+      "metadata": {
+        "batch": 4,
+        "beam_rank": 8,
+        "ngram_score": 0.008000000000000002,
+        "seed": 5341,
+        "corridor_ok": true,
+        "anchor_found_east_idx": 21,
+        "anchor_found_ne_idx": 25,
+        "anchor_found_berlin_idx": 63
+      }
+    },
+    {
+      "label": "I_SAMPLED_B00_C03",
+      "text": "CODEXISXSIMPLEWREADOVEASTNORTHEASTTFIRWNGEUTVUKFMUNLAONTLNWJADYBERLINCLOCKX",
+      "metadata": {
+        "batch": 0,
+        "beam_rank": 3,
+        "ngram_score": 0.007333333333333334,
+        "seed": 1341,
+        "corridor_ok": true,
+        "anchor_found_east_idx": 21,
+        "anchor_found_ne_idx": 25,
+        "anchor_found_berlin_idx": 63
+      }
+    },
+    {
+      "label": "I_SAMPLED_B01_C06",
+      "text": "DISPLAYXREVEALSHTKUVSEASTNORTHEASTEVYKDRYHKAWYKYJIUEIOMVVFDOMHOBERLINCLOCKX",
+      "metadata": {
+        "batch": 1,
+        "beam_rank": 6,
+        "ngram_score": 0.007333333333333334,
+        "seed": 2338,
+        "corridor_ok": true,
+        "anchor_found_east_idx": 21,
+        "anchor_found_ne_idx": 25,
+        "anchor_found_berlin_idx": 63
+      }
+    },
+    {
+      "label": "I_SAMPLED_B01_C07",
+      "text": "DISPLAYXREVEALSOGZEKKEASTNORTHEASTACRLKRTAWMOLDRGYXPRUKZYYXUHWSBERLINCLOCKX",
+      "metadata": {
+        "batch": 1,
+        "beam_rank": 7,
+        "ngram_score": 0.007333333333333334,
+        "seed": 2351,
+        "corridor_ok": true,
+        "anchor_found_east_idx": 21,
+        "anchor_found_ne_idx": 25,
+        "anchor_found_berlin_idx": 63
+      }
+    },
+    {
+      "label": "I_SAMPLED_B03_C11",
+      "text": "DISPLAYXREVEALSRYGJFYEASTNORTHEASTEXPAZZDVFIOLJMAPPXMETGDMZPUCGBERLINCLOCKX",
+      "metadata": {
+        "batch": 3,
+        "beam_rank": 11,
+        "ngram_score": 0.007333333333333334,
+        "seed": 4351,
+        "corridor_ok": true,
+        "anchor_found_east_idx": 21,
+        "anchor_found_ne_idx": 25,
+        "anchor_found_berlin_idx": 63
+      }
+    },
+    {
+      "label": "I_SAMPLED_B04_C09",
+      "text": "DISPLAYXREVEALSEMKFZLEASTNORTHEASTGEAKZAZOPOJCPLVPFEXRUOXXWSBCWBERLINCLOCKX",
+      "metadata": {
+        "batch": 4,
+        "beam_rank": 9,
+        "ngram_score": 0.007333333333333334,
+        "seed": 5347,
+        "corridor_ok": true,
+        "anchor_found_east_idx": 21,
+        "anchor_found_ne_idx": 25,
+        "anchor_found_berlin_idx": 63
+      }
+    },
+    {
+      "label": "I_SAMPLED_B04_C10",
+      "text": "DISPLAYXREVEALSLJSWGGEASTNORTHEASTBHOUIUQRRUEPIFGNDPRNYRLFRUEBFBERLINCLOCKX",
+      "metadata": {
+        "batch": 4,
+        "beam_rank": 10,
+        "ngram_score": 0.007333333333333334,
+        "seed": 5352,
+        "corridor_ok": true,
+        "anchor_found_east_idx": 21,
+        "anchor_found_ne_idx": 25,
+        "anchor_found_berlin_idx": 63
+      }
+    },
+    {
+      "label": "I_SAMPLED_B04_C11",
+      "text": "PANELXSHOWSXTEXTHEXAIEASTNORTHEASTOULCICKBMSUQMIEVFJIQJPFLOBSVXBERLINCLOCKX",
+      "metadata": {
+        "batch": 4,
+        "beam_rank": 11,
+        "ngram_score": 0.006666666666666668,
+        "seed": 5349,
+        "corridor_ok": true,
+        "anchor_found_east_idx": 21,
+        "anchor_found_ne_idx": 25,
+        "anchor_found_berlin_idx": 63
+      }
+    },
+    {
+      "label": "I_SAMPLED_B00_C04",
+      "text": "PANELXSHOWSXTEXTHRSELEASTNORTHEASTUSWEQLXMRMGEEUKJVSYUXHTCPJIZOBERLINCLOCKX",
+      "metadata": {
+        "batch": 0,
+        "beam_rank": 4,
+        "ngram_score": 0.006000000000000001,
+        "seed": 1345,
+        "corridor_ok": true,
+        "anchor_found_east_idx": 21,
+        "anchor_found_ne_idx": 25,
+        "anchor_found_berlin_idx": 63
+      }
+    },
+    {
+      "label": "I_SAMPLED_B00_C05",
+      "text": "PANELXSHOWSXTEXTLHQFHEASTNORTHEASTWDUJPXJFYYUAUUGKXSDIUPRMYAULGBERLINCLOCKX",
+      "metadata": {
+        "batch": 0,
+        "beam_rank": 5,
+        "ngram_score": 0.006000000000000001,
+        "seed": 1351,
+        "corridor_ok": true,
+        "anchor_found_east_idx": 21,
+        "anchor_found_ne_idx": 25,
+        "anchor_found_berlin_idx": 63
+      }
+    },
+    {
+      "label": "I_SAMPLED_B00_C06",
+      "text": "DISPLAYXREVEALSXGGGKEEASTNORTHEASTMPOESQHFXUMVZHCZBEMJCCPHEXAZFBERLINCLOCKX",
+      "metadata": {
+        "batch": 0,
+        "beam_rank": 6,
+        "ngram_score": 0.006000000000000001,
+        "seed": 1355,
+        "corridor_ok": true,
+        "anchor_found_east_idx": 21,
+        "anchor_found_ne_idx": 25,
+        "anchor_found_berlin_idx": 63
+      }
+    },
+    {
+      "label": "I_SAMPLED_B01_C08",
+      "text": "DISPLAYXREVEALSBQUGFVEASTNORTHEASTKYITCPUMLTCHBFWKZUSDFSAFIOALLBERLINCLOCKX",
+      "metadata": {
+        "batch": 1,
+        "beam_rank": 8,
+        "ngram_score": 0.006000000000000001,
+        "seed": 2344,
+        "corridor_ok": true,
+        "anchor_found_east_idx": 21,
+        "anchor_found_ne_idx": 25,
+        "anchor_found_berlin_idx": 63
+      }
+    },
+    {
+      "label": "I_SAMPLED_B01_C09",
+      "text": "MESSAGEXAPPEARSXKFUIVEASTNORTHEASTAIUSRGTBWNZMGOQCRWLDNXNEVAZESBERLINCLOCKX",
+      "metadata": {
+        "batch": 1,
+        "beam_rank": 9,
+        "ngram_score": 0.006000000000000001,
+        "seed": 2348,
+        "corridor_ok": true,
+        "anchor_found_east_idx": 21,
+        "anchor_found_ne_idx": 25,
+        "anchor_found_berlin_idx": 63
+      }
+    },
+    {
+      "label": "I_SAMPLED_B01_C10",
+      "text": "CODEXISXSIMPLEXINSTPCEASTNORTHEASTVNSFWHINSMKCHZMPTGYIPJNEGMOSQBERLINCLOCKX",
+      "metadata": {
+        "batch": 1,
+        "beam_rank": 10,
+        "ngram_score": 0.006000000000000001,
+        "seed": 2356,
+        "corridor_ok": true,
+        "anchor_found_east_idx": 21,
+        "anchor_found_ne_idx": 25,
+        "anchor_found_berlin_idx": 63
+      }
+    },
+    {
+      "label": "I_SAMPLED_B02_C09",
+      "text": "MESSAGEXAPPEARSSMBFUUEASTNORTHEASTJSOYMMZKKWCKWQHUTDRSNKAIUPMODBERLINCLOCKX",
+      "metadata": {
+        "batch": 2,
+        "beam_rank": 9,
+        "ngram_score": 0.006000000000000001,
+        "seed": 3338,
+        "corridor_ok": true,
+        "anchor_found_east_idx": 21,
+        "anchor_found_ne_idx": 25,
+        "anchor_found_berlin_idx": 63
+      }
+    },
+    {
+      "label": "I_SAMPLED_B02_C10",
+      "text": "PANELXSHOWSXTEXTSNQCLEASTNORTHEASTXKHYERSKOWNOPDLUZUHSLXJKKIPRYBERLINCLOCKX",
+      "metadata": {
+        "batch": 2,
+        "beam_rank": 10,
+        "ngram_score": 0.006000000000000001,
+        "seed": 3352,
+        "corridor_ok": true,
+        "anchor_found_east_idx": 21,
+        "anchor_found_ne_idx": 25,
+        "anchor_found_berlin_idx": 63
+      }
+    },
+    {
+      "label": "I_SAMPLED_B02_C11",
+      "text": "MESSAGEXAPPEARSPGYLSFEASTNORTHEASTDTTJCLXLVLYZFPZXSMAHAHZYYFGIGBERLINCLOCKX",
+      "metadata": {
+        "batch": 2,
+        "beam_rank": 11,
+        "ngram_score": 0.006000000000000001,
+        "seed": 3354,
+        "corridor_ok": true,
+        "anchor_found_east_idx": 21,
+        "anchor_found_ne_idx": 25,
+        "anchor_found_berlin_idx": 63
+      }
+    },
+    {
+      "label": "I_SAMPLED_B03_C12",
+      "text": "PANELXSHOWSXTEXTHCJATEASTNORTHEASTULKYEKHMNIZUDSDOVQKWIPZMXJZNSBERLINCLOCKX",
+      "metadata": {
+        "batch": 3,
+        "beam_rank": 12,
+        "ngram_score": 0.006000000000000001,
+        "seed": 4341,
+        "corridor_ok": true,
+        "anchor_found_east_idx": 21,
+        "anchor_found_ne_idx": 25,
+        "anchor_found_berlin_idx": 63
+      }
+    },
+    {
+      "label": "I_SAMPLED_B04_C12",
+      "text": "CODEXISXSIMPLESSMBVBPEASTNORTHEASTYZRPUSLWKCBUJHIMINSMHKFQNVXJBBERLINCLOCKX",
+      "metadata": {
+        "batch": 4,
+        "beam_rank": 12,
+        "ngram_score": 0.006000000000000001,
+        "seed": 5346,
+        "corridor_ok": true,
+        "anchor_found_east_idx": 21,
+        "anchor_found_ne_idx": 25,
+        "anchor_found_berlin_idx": 63
+      }
+    },
+    {
+      "label": "I_SAMPLED_B04_C13",
+      "text": "CODEXISXSIMPLEWYMNHCMEASTNORTHEASTYARGSYUTQRUVDNVDGAOXVUCUDWBFBBERLINCLOCKX",
+      "metadata": {
+        "batch": 4,
+        "beam_rank": 13,
+        "ngram_score": 0.006000000000000001,
+        "seed": 5351,
+        "corridor_ok": true,
+        "anchor_found_east_idx": 21,
+        "anchor_found_ne_idx": 25,
+        "anchor_found_berlin_idx": 63
+      }
+    },
+    {
+      "label": "I_SAMPLED_B00_C07",
+      "text": "THEXTEXTXISXCLEARHLKLEASTNORTHEASTHVMGZWRDQWSHNFOQVDYCMIGIZDRUBBERLINCLOCKX",
+      "metadata": {
+        "batch": 0,
+        "beam_rank": 7,
+        "ngram_score": 0.005333333333333335,
+        "seed": 1350,
+        "corridor_ok": true,
+        "anchor_found_east_idx": 21,
+        "anchor_found_ne_idx": 25,
+        "anchor_found_berlin_idx": 63
+      }
+    },
+    {
+      "label": "I_SAMPLED_B03_C13",
+      "text": "PANELXSHOWSXTEXTHEXCLEASTNORTHEASTTTEQCLZLYMTTQMLCDRCRSXLBXDVOABERLINCLOCKX",
+      "metadata": {
+        "batch": 3,
+        "beam_rank": 13,
+        "ngram_score": 0.005333333333333335,
+        "seed": 4340,
+        "corridor_ok": true,
+        "anchor_found_east_idx": 21,
+        "anchor_found_ne_idx": 25,
+        "anchor_found_berlin_idx": 63
+      }
+    },
+    {
+      "label": "I_SAMPLED_B03_C14",
+      "text": "DISPLAYXREVEALSINGEEDEASTNORTHEASTCNAQRUTMJZYXLJCDYFGQPMZFDKZVEBERLINCLOCKX",
+      "metadata": {
+        "batch": 3,
+        "beam_rank": 14,
+        "ngram_score": 0.005333333333333335,
+        "seed": 4348,
+        "corridor_ok": true,
+        "anchor_found_east_idx": 21,
+        "anchor_found_ne_idx": 25,
+        "anchor_found_berlin_idx": 63
+      }
+    },
+    {
+      "label": "I_SAMPLED_B01_C11",
+      "text": "MESSAGEXAPPEARSIDSZYXEASTNORTHEASTDLZXYGQTUSLSJHYANPPHZKEXTJXVLBERLINCLOCKX",
+      "metadata": {
+        "batch": 1,
+        "beam_rank": 11,
+        "ngram_score": 0.004666666666666668,
+        "seed": 2341,
+        "corridor_ok": true,
+        "anchor_found_east_idx": 21,
+        "anchor_found_ne_idx": 25,
+        "anchor_found_berlin_idx": 63
+      }
+    },
+    {
+      "label": "I_SAMPLED_B01_C12",
+      "text": "DISPLAYXREVEALSFEIEMHEASTNORTHEASTFUXISRRQWNMCRKITTEKCXXJRHRJXCBERLINCLOCKX",
+      "metadata": {
+        "batch": 1,
+        "beam_rank": 12,
+        "ngram_score": 0.004666666666666668,
+        "seed": 2343,
+        "corridor_ok": true,
+        "anchor_found_east_idx": 21,
+        "anchor_found_ne_idx": 25,
+        "anchor_found_berlin_idx": 63
+      }
+    },
+    {
+      "label": "I_SAMPLED_B01_C13",
+      "text": "DISPLAYXREVEALSGVCBBOEASTNORTHEASTRPITLYKEVIYQINCGYKPFSAKWDGZLPBERLINCLOCKX",
+      "metadata": {
+        "batch": 1,
+        "beam_rank": 13,
+        "ngram_score": 0.004666666666666668,
+        "seed": 2354,
+        "corridor_ok": true,
+        "anchor_found_east_idx": 21,
+        "anchor_found_ne_idx": 25,
+        "anchor_found_berlin_idx": 63
+      }
+    },
+    {
+      "label": "I_SAMPLED_B02_C12",
+      "text": "CODEXISXSIMPLEXSVBGZEEASTNORTHEASTOGLTTAWLBRYALRCLJIBBYCQPNMOBNBERLINCLOCKX",
+      "metadata": {
+        "batch": 2,
+        "beam_rank": 12,
+        "ngram_score": 0.004666666666666668,
+        "seed": 3345,
+        "corridor_ok": true,
+        "anchor_found_east_idx": 21,
+        "anchor_found_ne_idx": 25,
+        "anchor_found_berlin_idx": 63
+      }
+    },
+    {
+      "label": "I_SAMPLED_B03_C15",
+      "text": "MESSAGEXAPPEARSVPXFEHEASTNORTHEASTQQOQOORIIRIITTWENCMMUJNDLELKPBERLINCLOCKX",
+      "metadata": {
+        "batch": 3,
+        "beam_rank": 15,
+        "ngram_score": 0.004666666666666668,
+        "seed": 4343,
+        "corridor_ok": true,
+        "anchor_found_east_idx": 21,
+        "anchor_found_ne_idx": 25,
+        "anchor_found_berlin_idx": 63
+      }
+    },
+    {
+      "label": "I_SAMPLED_B03_C16",
+      "text": "MESSAGEXAPPEARSGMWXGWEASTNORTHEASTPUXVSCSCODLNSWWTKITYDNPSCIGQHBERLINCLOCKX",
+      "metadata": {
+        "batch": 3,
+        "beam_rank": 16,
+        "ngram_score": 0.004666666666666668,
+        "seed": 4354,
+        "corridor_ok": true,
+        "anchor_found_east_idx": 21,
+        "anchor_found_ne_idx": 25,
+        "anchor_found_berlin_idx": 63
+      }
+    },
+    {
+      "label": "I_SAMPLED_B03_C17",
+      "text": "PANELXSHOWSXTEXTDBOCMEASTNORTHEASTQRCWMRUHUFWPTLRVNYHAVSVTPWYYLBERLINCLOCKX",
+      "metadata": {
+        "batch": 3,
+        "beam_rank": 17,
+        "ngram_score": 0.004666666666666668,
+        "seed": 4355,
+        "corridor_ok": true,
+        "anchor_found_east_idx": 21,
+        "anchor_found_ne_idx": 25,
+        "anchor_found_berlin_idx": 63
+      }
+    },
+    {
+      "label": "I_SAMPLED_B04_C14",
+      "text": "MESSAGEXAPPEARSDVFCFFEASTNORTHEASTWMDURVZGMQGKBLNXFNMWPGZZNYMIGBERLINCLOCKX",
+      "metadata": {
+        "batch": 4,
+        "beam_rank": 14,
+        "ngram_score": 0.004666666666666668,
+        "seed": 5357,
+        "corridor_ok": true,
+        "anchor_found_east_idx": 21,
+        "anchor_found_ne_idx": 25,
+        "anchor_found_berlin_idx": 63
+      }
+    },
+    {
+      "label": "I_SAMPLED_B02_C13",
+      "text": "MESSAGEXAPPEARSEQHIPVEASTNORTHEASTRUUAXPVYPPEAPPZSZHFVHCCKWCRLLBERLINCLOCKX",
+      "metadata": {
+        "batch": 2,
+        "beam_rank": 13,
+        "ngram_score": 0.004666666666666667,
+        "seed": 3342,
+        "corridor_ok": true,
+        "anchor_found_east_idx": 21,
+        "anchor_found_ne_idx": 25,
+        "anchor_found_berlin_idx": 63
+      }
+    },
+    {
+      "label": "I_SAMPLED_B02_C14",
+      "text": "PANELXSHOWSXTEXTQYFSXEASTNORTHEASTAYEXADUNWJRLKDLKKPOXRZEKWLXJZBERLINCLOCKX",
+      "metadata": {
+        "batch": 2,
+        "beam_rank": 14,
+        "ngram_score": 0.004666666666666667,
+        "seed": 3351,
+        "corridor_ok": true,
+        "anchor_found_east_idx": 21,
+        "anchor_found_ne_idx": 25,
+        "anchor_found_berlin_idx": 63
+      }
+    },
+    {
+      "label": "I_SAMPLED_B00_C08",
+      "text": "CODEXISXSIMPLETDZCDIUEASTNORTHEASTJXXYOOVJTVBGLQLIUKKBCUTFGKHTIBERLINCLOCKX",
+      "metadata": {
+        "batch": 0,
+        "beam_rank": 8,
+        "ngram_score": 0.003333333333333335,
+        "seed": 1347,
+        "corridor_ok": true,
+        "anchor_found_east_idx": 21,
+        "anchor_found_ne_idx": 25,
+        "anchor_found_berlin_idx": 63
+      }
+    },
+    {
+      "label": "I_SAMPLED_B00_C09",
+      "text": "PANELXSHOWSXTEXTLHBNHEASTNORTHEASTZDERJJRGKFGHPNUIXVOPQRCXLMKWQBERLINCLOCKX",
+      "metadata": {
+        "batch": 0,
+        "beam_rank": 9,
+        "ngram_score": 0.003333333333333335,
+        "seed": 1348,
+        "corridor_ok": true,
+        "anchor_found_east_idx": 21,
+        "anchor_found_ne_idx": 25,
+        "anchor_found_berlin_idx": 63
+      }
+    },
+    {
+      "label": "I_SAMPLED_B01_C14",
+      "text": "DISPLAYXREVEALSYPBDMLEASTNORTHEASTGUMTGWOQKVACHGIEFIWXVFBVWLTXLBERLINCLOCKX",
+      "metadata": {
+        "batch": 1,
+        "beam_rank": 14,
+        "ngram_score": 0.003333333333333335,
+        "seed": 2346,
+        "corridor_ok": true,
+        "anchor_found_east_idx": 21,
+        "anchor_found_ne_idx": 25,
+        "anchor_found_berlin_idx": 63
+      }
+    },
+    {
+      "label": "I_SAMPLED_B02_C15",
+      "text": "PANELXSHOWSXTEXTXGNWREASTNORTHEASTTSEXYKQYOJZYHQUUADGVSUXCDISVDBERLINCLOCKX",
+      "metadata": {
+        "batch": 2,
+        "beam_rank": 15,
+        "ngram_score": 0.003333333333333335,
+        "seed": 3341,
+        "corridor_ok": true,
+        "anchor_found_east_idx": 21,
+        "anchor_found_ne_idx": 25,
+        "anchor_found_berlin_idx": 63
+      }
+    },
+    {
+      "label": "I_SAMPLED_B03_C18",
+      "text": "CODEXISXSIMPLEAOZRUKFEASTNORTHEASTTEXAWLZWMUMGQNSCSWTWBWULZTZDOBERLINCLOCKX",
+      "metadata": {
+        "batch": 3,
+        "beam_rank": 18,
+        "ngram_score": 0.003333333333333335,
+        "seed": 4344,
+        "corridor_ok": true,
+        "anchor_found_east_idx": 21,
+        "anchor_found_ne_idx": 25,
+        "anchor_found_berlin_idx": 63
+      }
+    },
+    {
+      "label": "I_SAMPLED_B00_C10",
+      "text": "DISPLAYXREVEALSXTHHYKEASTNORTHEASTJZLXGWGYVLDNUMXNVLMMZXZJVALQOBERLINCLOCKX",
+      "metadata": {
+        "batch": 0,
+        "beam_rank": 10,
+        "ngram_score": 0.0020000000000000013,
+        "seed": 1338,
+        "corridor_ok": true,
+        "anchor_found_east_idx": 21,
+        "anchor_found_ne_idx": 25,
+        "anchor_found_berlin_idx": 63
+      }
+    },
+    {
+      "label": "I_SAMPLED_B00_C11",
+      "text": "CODEXISXSIMPLEDQRBAJGEASTNORTHEASTTXTHEXAXMHOFEYYCSQOYPMPBRVQRIBERLINCLOCKX",
+      "metadata": {
+        "batch": 0,
+        "beam_rank": 11,
+        "ngram_score": 0.0013333333333333352,
+        "seed": 1356,
+        "corridor_ok": true,
+        "anchor_found_east_idx": 21,
+        "anchor_found_ne_idx": 25,
+        "anchor_found_berlin_idx": 63
+      }
+    },
+    {
+      "label": "I_SAMPLED_B01_C15",
+      "text": "PANELXSHOWSXTEXTHEXTXEASTNORTHEASTDDLMGQDHLPAMRALQFPHPPQLBHDBLCBERLINCLOCKX",
+      "metadata": {
+        "batch": 1,
+        "beam_rank": 15,
+        "ngram_score": 0.0013333333333333352,
+        "seed": 2357,
+        "corridor_ok": true,
+        "anchor_found_east_idx": 21,
+        "anchor_found_ne_idx": 25,
+        "anchor_found_berlin_idx": 63
+      }
+    },
+    {
+      "label": "I_SAMPLED_B00_C12",
+      "text": "MESSAGEXAPPEARSIBZVLGEASTNORTHEASTENOTKNOKFCVGNUQZAYFFPCRQQFLZEBERLINCLOCKX",
+      "metadata": {
+        "batch": 0,
+        "beam_rank": 12,
+        "ngram_score": 0.0006666666666666679,
+        "seed": 1340,
+        "corridor_ok": true,
+        "anchor_found_east_idx": 21,
+        "anchor_found_ne_idx": 25,
+        "anchor_found_berlin_idx": 63
+      }
+    },
+    {
+      "label": "I_SAMPLED_B00_C13",
+      "text": "MESSAGEXAPPEARSDSWVYVEASTNORTHEASTQVIIHYRANUMTSFXCODWFDEANECSJQBERLINCLOCKX",
+      "metadata": {
+        "batch": 0,
+        "beam_rank": 13,
+        "ngram_score": 0.0006666666666666679,
+        "seed": 1352,
+        "corridor_ok": true,
+        "anchor_found_east_idx": 21,
+        "anchor_found_ne_idx": 25,
+        "anchor_found_berlin_idx": 63
+      }
+    },
+    {
+      "label": "I_SAMPLED_B04_C15",
+      "text": "PANELXSHOWSXTEXTVDILVEASTNORTHEASTFFGTBNBGYDLFSQRFVQTXFWDGMIZIZBERLINCLOCKX",
+      "metadata": {
+        "batch": 4,
+        "beam_rank": 15,
+        "ngram_score": 0.0006666666666666679,
+        "seed": 5340,
+        "corridor_ok": true,
+        "anchor_found_east_idx": 21,
+        "anchor_found_ne_idx": 25,
+        "anchor_found_berlin_idx": 63
+      }
+    },
+    {
+      "label": "I_SAMPLED_B04_C16",
+      "text": "DISPLAYXREVEALSHCBOKREASTNORTHEASTBLYRRSQBLPHRKTFMQAOASNDEAWYZUBERLINCLOCKX",
+      "metadata": {
+        "batch": 4,
+        "beam_rank": 16,
+        "ngram_score": 0.0006666666666666679,
+        "seed": 5355,
+        "corridor_ok": true,
+        "anchor_found_east_idx": 21,
+        "anchor_found_ne_idx": 25,
+        "anchor_found_berlin_idx": 63
+      }
+    },
+    {
+      "label": "I_SAMPLED_B00_C14",
+      "text": "MESSAGEXAPPEARSXYYQGNEASTNORTHEASTJCJVTRGZNFNMKGXDQLAJZSCPTRAUMBERLINCLOCKX",
+      "metadata": {
+        "batch": 0,
+        "beam_rank": 14,
+        "ngram_score": 0.0006666666666666665,
+        "seed": 1354,
+        "corridor_ok": true,
+        "anchor_found_east_idx": 21,
+        "anchor_found_ne_idx": 25,
+        "anchor_found_berlin_idx": 63
+      }
+    },
+    {
+      "label": "I_SAMPLED_B00_C15",
+      "text": "MESSAGEXAPPEARSVAQYKVEASTNORTHEASTVZQDFKKAZOLFRCKDTUBJRIIEUXRHZBERLINCLOCKX",
+      "metadata": {
+        "batch": 0,
+        "beam_rank": 15,
+        "ngram_score": 0.0006666666666666665,
+        "seed": 1357,
+        "corridor_ok": true,
+        "anchor_found_east_idx": 21,
+        "anchor_found_ne_idx": 25,
+        "anchor_found_berlin_idx": 63
+      }
+    },
+    {
+      "label": "I_SAMPLED_B01_C16",
+      "text": "CODEXISXSIMPLENEWZBQBEASTNORTHEASTDSKAKYREWOVUMVWPEIGDBJFEKBZQMBERLINCLOCKX",
+      "metadata": {
+        "batch": 1,
+        "beam_rank": 16,
+        "ngram_score": 0.0006666666666666665,
+        "seed": 2350,
+        "corridor_ok": true,
+        "anchor_found_east_idx": 21,
+        "anchor_found_ne_idx": 25,
+        "anchor_found_berlin_idx": 63
+      }
+    },
+    {
+      "label": "I_SAMPLED_B02_C16",
+      "text": "DISPLAYXREVEALSUWSKGMEASTNORTHEASTDDJQELUSNASJOHAGXSIATSIZHVUFHBERLINCLOCKX",
+      "metadata": {
+        "batch": 2,
+        "beam_rank": 16,
+        "ngram_score": 0.0006666666666666661,
+        "seed": 3346,
+        "corridor_ok": true,
+        "anchor_found_east_idx": 21,
+        "anchor_found_ne_idx": 25,
+        "anchor_found_berlin_idx": 63
+      }
+    },
+    {
+      "label": "I_SAMPLED_B01_C17",
+      "text": "DISPLAYXREVEALSXNRXXIEASTNORTHEASTSXIQGRXCFBCSNKOAQFMETPGJNEIBCBERLINCLOCKX",
+      "metadata": {
+        "batch": 1,
+        "beam_rank": 17,
+        "ngram_score": -0.0006666666666666655,
+        "seed": 2339,
+        "corridor_ok": true,
+        "anchor_found_east_idx": 21,
+        "anchor_found_ne_idx": 25,
+        "anchor_found_berlin_idx": 63
+      }
+    },
+    {
+      "label": "I_SAMPLED_B01_C18",
+      "text": "DISPLAYXREVEALSMKURETEASTNORTHEASTVHFOEMRCVVPKHZEQDVKKLMQRTXSMBBERLINCLOCKX",
+      "metadata": {
+        "batch": 1,
+        "beam_rank": 18,
+        "ngram_score": -0.0006666666666666655,
+        "seed": 2342,
+        "corridor_ok": true,
+        "anchor_found_east_idx": 21,
+        "anchor_found_ne_idx": 25,
+        "anchor_found_berlin_idx": 63
+      }
+    },
+    {
+      "label": "I_SAMPLED_B03_C19",
+      "text": "CODEXISXSIMPLEPGZZNFTEASTNORTHEASTXKQTDHKSKUYEVFGTCLATAVSTRFQWWBERLINCLOCKX",
+      "metadata": {
+        "batch": 3,
+        "beam_rank": 19,
+        "ngram_score": -0.0006666666666666655,
+        "seed": 4346,
+        "corridor_ok": true,
+        "anchor_found_east_idx": 21,
+        "anchor_found_ne_idx": 25,
+        "anchor_found_berlin_idx": 63
+      }
+    },
+    {
+      "label": "I_SAMPLED_B00_C16",
+      "text": "CODEXISXSIMPLEJHFPYKQEASTNORTHEASTYWKPITXGVHPEOBGOSBSZQCNGYBUFHBERLINCLOCKX",
+      "metadata": {
+        "batch": 0,
+        "beam_rank": 16,
+        "ngram_score": -0.0006666666666666669,
+        "seed": 1344,
+        "corridor_ok": true,
+        "anchor_found_east_idx": 21,
+        "anchor_found_ne_idx": 25,
+        "anchor_found_berlin_idx": 63
+      }
+    },
+    {
+      "label": "I_SAMPLED_B00_C17",
+      "text": "CODEXISXSIMPLELBRWDTQEASTNORTHEASTWETYTGTUDLPNMRQYCIMAVJHPYWYFRBERLINCLOCKX",
+      "metadata": {
+        "batch": 0,
+        "beam_rank": 17,
+        "ngram_score": -0.0006666666666666669,
+        "seed": 1353,
+        "corridor_ok": true,
+        "anchor_found_east_idx": 21,
+        "anchor_found_ne_idx": 25,
+        "anchor_found_berlin_idx": 63
+      }
+    },
+    {
+      "label": "I_SAMPLED_B04_C17",
+      "text": "DISPLAYXREVEALSYBWFTLEASTNORTHEASTFXKQZUFLQTAZYTSAMBMLAEIGRNVTJBERLINCLOCKX",
+      "metadata": {
+        "batch": 4,
+        "beam_rank": 17,
+        "ngram_score": -0.0020000000000000005,
+        "seed": 5344,
+        "corridor_ok": true,
+        "anchor_found_east_idx": 21,
+        "anchor_found_ne_idx": 25,
+        "anchor_found_berlin_idx": 63
+      }
+    },
+    {
+      "label": "I_SAMPLED_B02_C17",
+      "text": "DISPLAYXREVEALSGBQADXEASTNORTHEASTCSVDFRPGCHIUFORTBGQLCVEAQSREABERLINCLOCKX",
+      "metadata": {
+        "batch": 2,
+        "beam_rank": 17,
+        "ngram_score": -0.0026666666666666666,
+        "seed": 3353,
+        "corridor_ok": true,
+        "anchor_found_east_idx": 21,
+        "anchor_found_ne_idx": 25,
+        "anchor_found_berlin_idx": 63
+      }
+    },
+    {
+      "label": "I_SAMPLED_B02_C18",
+      "text": "DISPLAYXREVEALSSBZZXCEASTNORTHEASTGFVGCFEKXYKPRQHUSZYHBSQZUETTCBERLINCLOCKX",
+      "metadata": {
+        "batch": 2,
+        "beam_rank": 18,
+        "ngram_score": -0.0033333333333333335,
+        "seed": 3356,
+        "corridor_ok": true,
+        "anchor_found_east_idx": 21,
+        "anchor_found_ne_idx": 25,
+        "anchor_found_berlin_idx": 63
+      }
+    },
+    {
+      "label": "I_SAMPLED_B04_C18",
+      "text": "PANELXSHOWSXTEXTTQKLQEASTNORTHEASTRPTAEKFFFVIFZMMYQSJIVPYFTYHYVBERLINCLOCKX",
+      "metadata": {
+        "batch": 4,
+        "beam_rank": 18,
+        "ngram_score": -0.0033333333333333335,
+        "seed": 5356,
+        "corridor_ok": true,
+        "anchor_found_east_idx": 21,
+        "anchor_found_ne_idx": 25,
+        "anchor_found_berlin_idx": 63
+      }
+    },
+    {
+      "label": "I_SAMPLED_B04_C19",
+      "text": "DISPLAYXREVEALSLKOYLZEASTNORTHEASTCZSIEBEGGZPRHAHHXKBEIRTQJEYCQBERLINCLOCKX",
+      "metadata": {
+        "batch": 4,
+        "beam_rank": 19,
+        "ngram_score": -0.003333333333333334,
+        "seed": 5343,
+        "corridor_ok": true,
+        "anchor_found_east_idx": 21,
+        "anchor_found_ne_idx": 25,
+        "anchor_found_berlin_idx": 63
+      }
+    },
+    {
+      "label": "I_SAMPLED_B00_C18",
+      "text": "CODEXISXSIMPLEGVPOQRIEASTNORTHEASTRUOQDIAWESRQDIXOULOKLILHZKGBQBERLINCLOCKX",
+      "metadata": {
+        "batch": 0,
+        "beam_rank": 18,
+        "ngram_score": -0.005999999999999999,
+        "seed": 1339,
+        "corridor_ok": true,
+        "anchor_found_east_idx": 21,
+        "anchor_found_ne_idx": 25,
+        "anchor_found_berlin_idx": 63
+      }
+    },
+    {
+      "label": "I_SAMPLED_B01_C19",
+      "text": "PANELXSHOWSXTEXTJRJPPEASTNORTHEASTAQHIVKHPVQZQHEXANRNPQMRTYIIMKBERLINCLOCKX",
+      "metadata": {
+        "batch": 1,
+        "beam_rank": 19,
+        "ngram_score": -0.005999999999999999,
+        "seed": 2353,
+        "corridor_ok": true,
+        "anchor_found_east_idx": 21,
+        "anchor_found_ne_idx": 25,
+        "anchor_found_berlin_idx": 63
+      }
+    },
+    {
+      "label": "I_SAMPLED_B00_C19",
+      "text": "THEXTEXTXISXCLEARZUOQEASTNORTHEASTQGWKDLVPDFQWSUQRKSJQCJEEWNVCKBERLINCLOCKX",
+      "metadata": {
+        "batch": 0,
+        "beam_rank": 19,
+        "ngram_score": -0.006666666666666665,
+        "seed": 1346,
+        "corridor_ok": true,
+        "anchor_found_east_idx": 21,
+        "anchor_found_ne_idx": 25,
+        "anchor_found_berlin_idx": 63
+      }
+    },
+    {
+      "label": "I_SAMPLED_B02_C19",
+      "text": "CODEXISXSIMPLEALRWBMAEASTNORTHEASTQMNHCWLCXOEQIRXCRGDJQEPUWWBZSBERLINCLOCKX",
+      "metadata": {
+        "batch": 2,
+        "beam_rank": 19,
+        "ngram_score": -0.007333333333333334,
+        "seed": 3347,
+        "corridor_ok": true,
+        "anchor_found_east_idx": 21,
+        "anchor_found_ne_idx": 25,
+        "anchor_found_berlin_idx": 63
+      }
+    }
+  ]
+}

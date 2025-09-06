@@ -237,6 +237,10 @@ experiments/anchors_multiclass/runs/20250903/TAIL_FORCING_REPORT.md
 
 See `experiments/typo_tolerance/runs/20250904/` (TYPO_TOLERANCE_SUMMARY.csv, TYPO_TOLERANCE_REPORT.md, MANIFEST.sha256).
 
+### Pipeline v2 Instrumentation
+
+**Two-lane exploration framework.** The Pipeline v2 system implements falsifiable hypothesis testing with Explore (fast triage) and Confirm (rigorous validation) lanes. See `experiments/pipeline_v2/runs/2025-01-05-explore-breadth/` and `experiments/pipeline_v2/runs/2025-01-06-explore-corridor/` for instrumentation evidence demonstrating proper window elasticity and blinded scoring discipline.
+
 ## License & Citation
 
 This work represents a proposed solution to the Kryptos K4 puzzle. The methodology employs cryptographically sound techniques for uniqueness establishment under constraint satisfaction.
