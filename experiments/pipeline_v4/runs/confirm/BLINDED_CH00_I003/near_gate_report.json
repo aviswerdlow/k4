@@ -1,0 +1,29 @@
+{
+  "plaintext_sha256": "cac2cc5cdd74bf8898abef756f110afe7409f71627a204424fae7bbcf550cfa7",
+  "space_map_sha256": "1282734d4ebe9b0481f4f90112e60e1f3ccd489a9acea2614019f2d1bbeea823",
+  "lm_manifest": {
+    "tetragrams": {
+      "sha256": "simulated",
+      "rows": 20
+    },
+    "trigrams": {
+      "sha256": "simulated",
+      "rows": 20
+    },
+    "lexicon": {
+      "sha256": "simulated",
+      "rows": 100
+    }
+  },
+  "metrics": {
+    "coverage": 0.2784,
+    "f_words": 0,
+    "has_verb": false
+  },
+  "thresholds": {
+    "coverage": 0.85,
+    "f_words": 8,
+    "has_verb": true
+  },
+  "pass": false
+}

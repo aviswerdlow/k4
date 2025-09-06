@@ -1,0 +1,49 @@
+{
+  "encrypts_to_ct": true,
+  "route_id": "GRID_W14_ROWS",
+  "t2_sha256": "a5260415e76509638b4845d5e707521126aca2d67b50177b3c94f8ccc4c56c31",
+  "class_schedule": {
+    "families": [
+      "vigenere",
+      "vigenere",
+      "beaufort",
+      "vigenere",
+      "beaufort",
+      "beaufort"
+    ],
+    "periods": [
+      17,
+      16,
+      16,
+      16,
+      19,
+      20
+    ],
+    "phases": [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+    ]
+  },
+  "anchors": {
+    "EAST": "[21:25]",
+    "NORTHEAST": "[25:34]",
+    "BERLINCLOCK": "[63:74]"
+  },
+  "pt_sha256": "cac2cc5cdd74bf8898abef756f110afe7409f71627a204424fae7bbcf550cfa7",
+  "ct_sha256": "eea813570c7f1fd3b34674e47b5c3da8948026f5cefee612a0b38ffaa515ceab",
+  "seed_recipe": "GRID_W14_ROWS_c6a_beaufort4",
+  "near_gate": {
+    "coverage": 0.2784,
+    "f_words": 0,
+    "has_verb": false,
+    "pass": false
+  },
+  "phrase_gate": {
+    "accepted_by": [],
+    "pass": false
+  }
+}

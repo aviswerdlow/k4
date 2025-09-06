@@ -1,0 +1,38 @@
+{
+  "window": [
+    0,
+    74
+  ],
+  "tokenization_v2": true,
+  "flint_v2": {
+    "requirements": {
+      "declination_expression": true,
+      "instrument_verb": [
+        "READ",
+        "SEE",
+        "NOTE",
+        "SIGHT",
+        "OBSERVE"
+      ],
+      "anchors": [
+        "EAST",
+        "NORTHEAST"
+      ],
+      "instrument_noun": [
+        "BERLIN",
+        "CLOCK",
+        "BERLINCLOCK",
+        "DIAL"
+      ],
+      "content_count": "\u22656",
+      "max_repeat_non_anchor": "\u22642"
+    }
+  },
+  "generic": {
+    "perplexity_percentile": "\u22641%",
+    "pos_trigram_score": "\u22650.6",
+    "content_count": "\u22656",
+    "max_repeat": "\u22642",
+    "calibration_file": "calib_97_perplexity.json"
+  }
+}
