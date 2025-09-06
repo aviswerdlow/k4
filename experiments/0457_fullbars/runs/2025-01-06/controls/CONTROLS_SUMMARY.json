@@ -1,0 +1,41 @@
+{
+  "controls": [
+    {
+      "control_id": "CONTROL_IS_A_MAP",
+      "short_text": "IS A MAP",
+      "near_pass": false,
+      "flint_pass": false,
+      "generic_pass": false,
+      "cadence_pass": false,
+      "phrase_pass": false,
+      "expected_result": "fail",
+      "actual_result": "fail",
+      "matches_expected": true
+    },
+    {
+      "control_id": "CONTROL_IS_TRUE",
+      "short_text": "IS TRUE",
+      "near_pass": false,
+      "flint_pass": false,
+      "generic_pass": false,
+      "cadence_pass": false,
+      "phrase_pass": false,
+      "expected_result": "fail",
+      "actual_result": "fail",
+      "matches_expected": true
+    },
+    {
+      "control_id": "CONTROL_IS_FACT",
+      "short_text": "IS FACT",
+      "near_pass": false,
+      "flint_pass": false,
+      "generic_pass": false,
+      "cadence_pass": false,
+      "phrase_pass": false,
+      "expected_result": "fail",
+      "actual_result": "fail",
+      "matches_expected": true
+    }
+  ],
+  "all_matched": true
+}

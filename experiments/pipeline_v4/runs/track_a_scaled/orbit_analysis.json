@@ -1,0 +1,33 @@
+{
+  "epsilon": 0.03,
+  "n_candidates": 5,
+  "n_survivors": 5,
+  "survivors": [
+    {
+      "label": "BLINDED_CH00_I003",
+      "delta_windowed": 0.27560870665784076,
+      "delta_shuffled": 0.10320459293732132
+    },
+    {
+      "label": "BLINDED_CH00_S4_BEST",
+      "delta_windowed": 0.07174303465496745,
+      "delta_shuffled": 0.9535653790832939
+    },
+    {
+      "label": "BLINDED_CH00_I012",
+      "delta_windowed": 0.4181172713059873,
+      "delta_shuffled": 0.9289332417315838
+    },
+    {
+      "label": "BLINDED_CH00_I007",
+      "delta_windowed": 0.2322997826970008,
+      "delta_shuffled": 0.3722160924847375
+    },
+    {
+      "label": "BLINDED_CH01_I006",
+      "delta_windowed": 0.1380736799141129,
+      "delta_shuffled": 1.271932336504405
+    }
+  ],
+  "eliminated": []
+}

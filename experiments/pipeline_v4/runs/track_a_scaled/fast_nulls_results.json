@@ -1,0 +1,52 @@
+{
+  "n_tested": 5,
+  "n_replicates": 2,
+  "n_nulls_per_test": 1000,
+  "alpha": 0.01,
+  "correction": "Holm-Bonferroni",
+  "results": [
+    {
+      "label": "BLINDED_CH00_I003",
+      "p_windowed": 0.0,
+      "p_shuffled": 0.0,
+      "p_combined": 0.0,
+      "holm_threshold": 0.002,
+      "holm_reject": true
+    },
+    {
+      "label": "BLINDED_CH00_S4_BEST",
+      "p_windowed": 1.0,
+      "p_shuffled": 0.0,
+      "p_combined": 1.0,
+      "holm_threshold": 0.0025,
+      "holm_reject": false
+    },
+    {
+      "label": "BLINDED_CH00_I012",
+      "p_windowed": 1.0,
+      "p_shuffled": 1.0,
+      "p_combined": 1.0,
+      "holm_threshold": 0.0033333333333333335,
+      "holm_reject": false
+    },
+    {
+      "label": "BLINDED_CH00_I007",
+      "p_windowed": 1.0,
+      "p_shuffled": 1.0,
+      "p_combined": 1.0,
+      "holm_threshold": 0.005,
+      "holm_reject": false
+    },
+    {
+      "label": "BLINDED_CH01_I006",
+      "p_windowed": 1.0,
+      "p_shuffled": 1.0,
+      "p_combined": 1.0,
+      "holm_threshold": 0.01,
+      "holm_reject": false
+    }
+  ],
+  "survivors": [
+    "BLINDED_CH00_I003"
+  ]
+}

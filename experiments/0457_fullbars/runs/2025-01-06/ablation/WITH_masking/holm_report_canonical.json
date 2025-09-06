@@ -1,0 +1,28 @@
+{
+  "alpha": 0.01,
+  "add_one_correction": true,
+  "metrics": {
+    "coverage": {
+      "observed": 0.45917705077657933,
+      "n_nulls": 10000,
+      "n_greater_equal": 964,
+      "p_raw": 0.0964903509649035,
+      "p_adjusted": 0.192980701929807,
+      "alpha_adjusted": 0.005,
+      "reject_null": false,
+      "rank": 1
+    },
+    "f_words": {
+      "observed": 0,
+      "n_nulls": 10000,
+      "n_greater_equal": 10000,
+      "p_raw": 1.0,
+      "p_adjusted": 1.0,
+      "alpha_adjusted": 0.01,
+      "reject_null": false,
+      "rank": 2
+    }
+  },
+  "all_rejected": false,
+  "publishable": false
+}

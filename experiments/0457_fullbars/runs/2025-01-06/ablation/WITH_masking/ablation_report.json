@@ -1,0 +1,24 @@
+{
+  "run_name": "WITH_masking",
+  "mask_anchors": true,
+  "ablation_effect": {
+    "mask_anchors": true,
+    "coverage_adjustment": 0.0,
+    "fwords_adjustment": 0.0,
+    "note": "Standard null generation with anchor masking"
+  },
+  "near_gate": {
+    "pass": false,
+    "coverage": 0.45917705077657933,
+    "f_words": 0
+  },
+  "phrase_gate": {
+    "pass": false
+  },
+  "nulls": {
+    "coverage_adj_p": 0.192980701929807,
+    "fwords_adj_p": 1.0,
+    "publishable": false
+  },
+  "seed_u64": 3007376471
+}

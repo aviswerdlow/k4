@@ -1,0 +1,465 @@
+{
+  "track": "A1_BLINDED_MCMC_SCALED_REVIEW",
+  "total_generated": 42,
+  "kept_for_review": 25,
+  "config": {
+    "n_chains": 2,
+    "stages": 4,
+    "proposals_per_stage": 15000,
+    "alpha": 0.7,
+    "beta": 0.3,
+    "gamma": 0.15
+  },
+  "heads": [
+    {
+      "text": "RQLMGCJBUDKDMRHUDCCDZQSMXADVHXVKXKPQJCBDUZHKWVQFZBYXVCVKWRFCGPZKXFCQWPXRJZE",
+      "score": 2.4697958856476268,
+      "components": {
+        "z_trigram": 1.8526785714285714,
+        "z_bigram": 1.2758109512038238,
+        "z_compress": 5,
+        "content_count": 23,
+        "max_repeat": 1,
+        "score": 2.429618285361147
+      },
+      "chain_id": 0,
+      "stage": 1,
+      "iteration": 15000,
+      "temperature": 0.01,
+      "accept_rate": 0.8262666666666667,
+      "label": "BLINDED_CH00_S1_I004"
+    },
+    {
+      "text": "RQLMGCJBUDKDMRHUDCCDZQSMXADVHXVKXKPQJCBDUZHKWVQFZBYXVCVKWRFCGPZKXFCQWPXRJZE",
+      "score": 2.4697958856476268,
+      "components": {
+        "z_trigram": 1.5241910377004377,
+        "z_bigram": 0.4215378346798412,
+        "z_compress": 5,
+        "content_count": 24,
+        "max_repeat": 1,
+        "score": 1.9433950767942587
+      },
+      "chain_id": 0,
+      "stage": "best",
+      "iteration": 60000,
+      "temperature": 0.01,
+      "accept_rate": 0,
+      "label": "BLINDED_CH00_Sbest_I020"
+    },
+    {
+      "text": "XGAGUVFMTZDRJDTVXLNYXVGZXKRXJAUHXYJDPKVTKTXFDTXZJDJYQGLOXYMZGQDTDRZWFYNMNBN",
+      "score": 2.4644654995338695,
+      "components": {
+        "z_trigram": 1.834016393444672,
+        "z_bigram": 1.1662281447192966,
+        "z_compress": 5,
+        "content_count": 21,
+        "max_repeat": 1,
+        "score": 2.3836799188270597
+      },
+      "chain_id": 1,
+      "stage": 1,
+      "iteration": 15000,
+      "temperature": 0.01,
+      "accept_rate": 0.8198666666666666,
+      "label": "BLINDED_CH01_S1_I004"
+    },
+    {
+      "text": "XGAGUVFMTZDRJDTVXLNYXVGZXKRXJAUHXYJDPKVTKTXFDTXZJDJYQGLOXYMZGQDTDRZWFYNMNBN",
+      "score": 2.4644654995338695,
+      "components": {
+        "z_trigram": 1.5780542773950719,
+        "z_bigram": 0.48411108765101907,
+        "z_compress": 5,
+        "content_count": 23,
+        "max_repeat": 1,
+        "score": 1.999871320471856
+      },
+      "chain_id": 1,
+      "stage": "best",
+      "iteration": 60000,
+      "temperature": 0.01,
+      "accept_rate": 0,
+      "label": "BLINDED_CH01_Sbest_I020"
+    },
+    {
+      "text": "CCWRZFMBXLJBXJGAHCJCNUYDQWXQAFKPKKWVNPDXSWXNMHKCMZDJJYGVVSJDAWUYJLKJPGKVPUK",
+      "score": 2.437846421614391,
+      "components": {
+        "z_trigram": 1.7930327868852458,
+        "z_bigram": 1.2883642381918774,
+        "z_compress": 5,
+        "content_count": 20,
+        "max_repeat": 1,
+        "score": 2.3916322222772353
+      },
+      "chain_id": 0,
+      "stage": 2,
+      "iteration": 15000,
+      "temperature": 0.022202997993487458,
+      "accept_rate": 0.9174,
+      "label": "BLINDED_CH00_S2_I009"
+    },
+    {
+      "text": "WQBYUUUXVZHHQLTPJHKVUVGXJSWVULCNKPCURJZFJVCFZBSBVOYDVCBYGWUXFPZJLQZPDKDZHBF",
+      "score": 2.4266645551921155,
+      "components": {
+        "z_trigram": 1.8359375,
+        "z_bigram": 1.3050276839737185,
+        "z_compress": 5,
+        "content_count": 21,
+        "max_repeat": 1,
+        "score": 2.4266645551921155
+      },
+      "chain_id": 0,
+      "stage": 1,
+      "iteration": 12000,
+      "temperature": 0.01,
+      "accept_rate": 0.8745104574618782,
+      "label": "BLINDED_CH00_S1_I003"
+    },
+    {
+      "text": "PJZUPZGVRTJBGKUFXSPVPJGZCUWGPBKJXBXYFOQLKXOQZWKKVBCGQFMBXQEHKXTQDKAXGPKPDFO",
+      "score": 2.413341837342762,
+      "components": {
+        "z_trigram": 1.8278301886792452,
+        "z_bigram": 1.2795356842243015,
+        "z_compress": 5,
+        "content_count": 23,
+        "max_repeat": 1,
+        "score": 2.413341837342762
+      },
+      "chain_id": 1,
+      "stage": 1,
+      "iteration": 12000,
+      "temperature": 0.01,
+      "accept_rate": 0.8684276310307474,
+      "label": "BLINDED_CH01_S1_I003"
+    },
+    {
+      "text": "QFNULEXNZAVWRVXEHUDPVAKTFKQHJIYDXFRQFNYBEXBWXNLTHWWJUZCBQTEHDUUJCZMNRHQTNMX",
+      "score": 2.397380125868482,
+      "components": {
+        "z_trigram": 1.6745631979621582,
+        "z_bigram": 0.7388853555243177,
+        "z_compress": 5,
+        "content_count": 24,
+        "max_repeat": 1,
+        "score": 2.143859845230806
+      },
+      "chain_id": 1,
+      "stage": 2,
+      "iteration": 15000,
+      "temperature": 0.022202997993487458,
+      "accept_rate": 0.9114,
+      "label": "BLINDED_CH01_S2_I009"
+    },
+    {
+      "text": "HKSPBUWZRCZVBWFHVYALKQYVDRZVUKADYKZPXMVBYATVTBLWFUVSDPQFLHXRQLFMXBYULXGPCCZ",
+      "score": 2.3916322222772353,
+      "components": {
+        "z_trigram": 1.6086065573770492,
+        "z_bigram": 0.7361814489757557,
+        "z_compress": 5,
+        "content_count": 24,
+        "max_repeat": 1,
+        "score": 2.096879024856661
+      },
+      "chain_id": 0,
+      "stage": 3,
+      "iteration": 15000,
+      "temperature": 0.04977213249637938,
+      "accept_rate": 0.9368,
+      "label": "BLINDED_CH00_S3_I014"
+    },
+    {
+      "text": "RCBSMXNJPWKQDYKROSWKCUVGUOWXNLWQXYKZQWJVEZMCSZKKGCBDSKCNVUYCDPQEOQKMVTQQSWE",
+      "score": 2.3314465651850345,
+      "components": {
+        "z_trigram": 1.5241910377004377,
+        "z_bigram": 0.4215378346798412,
+        "z_compress": 5,
+        "content_count": 24,
+        "max_repeat": 1,
+        "score": 1.9433950767942587
+      },
+      "chain_id": 0,
+      "stage": 4,
+      "iteration": 15000,
+      "temperature": 0.1115567124491704,
+      "accept_rate": 0.9536,
+      "label": "BLINDED_CH00_S4_I019"
+    },
+    {
+      "text": "BPBHBVRWSCPUZTHXBNMVKVGIUZBPRGCIQBXUCQBLFJPAKUYRFPGFSMNLMKMDRRAOHJJBKOXCFYM",
+      "score": 2.3127675249353663,
+      "components": {
+        "z_trigram": 1.5813518274967433,
+        "z_bigram": 0.664237371499653,
+        "z_compress": 5,
+        "content_count": 23,
+        "max_repeat": 1,
+        "score": 2.056217490697616
+      },
+      "chain_id": 1,
+      "stage": 3,
+      "iteration": 15000,
+      "temperature": 0.04977213249637938,
+      "accept_rate": 0.9386666666666666,
+      "label": "BLINDED_CH01_S3_I014"
+    },
+    {
+      "text": "DMWGPSZVAUHJRXNBNYFWYGXADUWMHVKVJGVLICXUQPUBYUFGQUDIVSNYDHGLCMVHEOQSPVUQCHW",
+      "score": 2.3050001439018115,
+      "components": {
+        "z_trigram": 1.5780542773950719,
+        "z_bigram": 0.48411108765101907,
+        "z_compress": 5,
+        "content_count": 23,
+        "max_repeat": 1,
+        "score": 1.999871320471856
+      },
+      "chain_id": 1,
+      "stage": 4,
+      "iteration": 15000,
+      "temperature": 0.1115567124491704,
+      "accept_rate": 0.9552666666666667,
+      "label": "BLINDED_CH01_S4_I019"
+    },
+    {
+      "text": "GYTJHSHNYAAJLNFOYIVMDXUZSDQKVZBFGCWTGGRDWDNFBMBFGJBIXLDXHDYUOOXYQBKQJGWMKLN",
+      "score": 2.16197462392791,
+      "components": {
+        "z_trigram": 1.7315573770512296,
+        "z_bigram": 0.6662815333068317,
+        "z_compress": 5,
+        "content_count": 23,
+        "max_repeat": 1,
+        "score": 2.16197462392791
+      },
+      "chain_id": 1,
+      "stage": 1,
+      "iteration": 9000,
+      "temperature": 0.03327286059233351,
+      "accept_rate": 0.9402288634596156,
+      "label": "BLINDED_CH01_S1_I002"
+    },
+    {
+      "text": "ASNRHNAHBZKVGZRJCIJKRYUBSRYSQYBXXQYWUQGXHXICOENJTEXKAOUUYJLQJQQCKQLFJTMNYAA",
+      "score": 2.1608094068858326,
+      "components": {
+        "z_trigram": 1.6495901639344261,
+        "z_bigram": 0.8536543071057805,
+        "z_compress": 5,
+        "content_count": 23,
+        "max_repeat": 1,
+        "score": 2.1608094068858326
+      },
+      "chain_id": 1,
+      "stage": 2,
+      "iteration": 12000,
+      "temperature": 0.05460155195926009,
+      "accept_rate": 0.9487542704774602,
+      "label": "BLINDED_CH01_S2_I008"
+    },
+    {
+      "text": "IXEAGMHIGYWXLHIYYTKVJMGMHQHQCDYLFUUYXPFVFCIADUFJRUWZVKPTGCJRQGDTEXZKYXBGTEF",
+      "score": 2.13985718956178,
+      "components": {
+        "z_trigram": 1.684322033898305,
+        "z_bigram": 0.7027725527765557,
+        "z_compress": 5,
+        "content_count": 22,
+        "max_repeat": 2,
+        "score": 2.13985718956178
+      },
+      "chain_id": 0,
+      "stage": 1,
+      "iteration": 9000,
+      "temperature": 0.03327286059233351,
+      "accept_rate": 0.9428952338629041,
+      "label": "BLINDED_CH00_S1_I002"
+    },
+    {
+      "text": "JCDMHCCQAHLGUQCPUQMBOKUDGSQGTWDKEOQDCZCUPMGUUISZKDYXUYFMTUQKNRFDQRMFMRPMAJT",
+      "score": 2.1369869458357433,
+      "components": {
+        "z_trigram": 1.6607142857142856,
+        "z_bigram": 0.7482898194524786,
+        "z_compress": 5,
+        "content_count": 24,
+        "max_repeat": 1,
+        "score": 2.1369869458357433
+      },
+      "chain_id": 1,
+      "stage": 2,
+      "iteration": 6000,
+      "temperature": 0.3304093566885548,
+      "accept_rate": 0.9826695550741543,
+      "label": "BLINDED_CH01_S2_I006"
+    },
+    {
+      "text": "QXRZVFRSWFUWKGDBEXYRRKOUPUJUKDTVCNKKHNNJPCQSAVPAMKJJLFLHBKWVCYDBAAIUHLPUXBK",
+      "score": 2.096641237218908,
+      "components": {
+        "z_trigram": 1.6442307692307692,
+        "z_bigram": 0.652265662524566,
+        "z_compress": 5,
+        "content_count": 25,
+        "max_repeat": 1,
+        "score": 2.096641237218908
+      },
+      "chain_id": 0,
+      "stage": 4,
+      "iteration": 3000,
+      "temperature": 0.37036651352006744,
+      "accept_rate": 0.9800066644451849,
+      "label": "BLINDED_CH00_S4_I015"
+    },
+    {
+      "text": "QGCZNXBSGKWNYDNSLLKTUMXJTMMFYRPIZUXNNZPMXLBFLOEDBYEUKXMXBMWCZPBVZLXZPGYXIML",
+      "score": 2.094953613207874,
+      "components": {
+        "z_trigram": 1.6476172455076417,
+        "z_bigram": 0.6387384711750836,
+        "z_compress": 5,
+        "content_count": 23,
+        "max_repeat": 1,
+        "score": 2.094953613207874
+      },
+      "chain_id": 1,
+      "stage": 4,
+      "iteration": 6000,
+      "temperature": 0.2743701456885895,
+      "accept_rate": 0.9700049991668055,
+      "label": "BLINDED_CH01_S4_I016"
+    },
+    {
+      "text": "CFBVCJVNAGFBUYNTOEWVWVURKYJYQPZTAJZCRHVBDFDBEQLGKFDORGZPHNZTEAVRJGIXAAKUDZO",
+      "score": 2.088538403927579,
+      "components": {
+        "z_trigram": 1.5892857142857142,
+        "z_bigram": 0.7534613464252642,
+        "z_compress": 5,
+        "content_count": 23,
+        "max_repeat": 2,
+        "score": 2.088538403927579
+      },
+      "chain_id": 1,
+      "stage": 4,
+      "iteration": 9000,
+      "temperature": 0.2032553540807605,
+      "accept_rate": 0.965781579824464,
+      "label": "BLINDED_CH01_S4_I017"
+    },
+    {
+      "text": "RNBAZUOBSTXSVSQIVROAYDAGPKGWSGWBZVVZXFYXDYSKMWPEVBEIVKOJVDMLQUHCQBSQCPCNMDN",
+      "score": 2.0387465264816065,
+      "components": {
+        "z_trigram": 1.58203125,
+        "z_bigram": 0.604415504938689,
+        "z_compress": 5,
+        "content_count": 25,
+        "max_repeat": 1,
+        "score": 2.0387465264816065
+      },
+      "chain_id": 0,
+      "stage": 2,
+      "iteration": 12000,
+      "temperature": 0.05460155195926009,
+      "accept_rate": 0.9514207149404217,
+      "label": "BLINDED_CH00_S2_I008"
+    },
+    {
+      "text": "HVGAAEPHFLGPFGZBLKPMETCHHPAEBNQHMGWKWMLNORKGWPJIJCUVOMLTGNGZQLWZXQMSVPKEKDJ",
+      "score": 2.0372814590215462,
+      "components": {
+        "z_trigram": 1.5787363028629022,
+        "z_bigram": 0.6072201567250501,
+        "z_compress": 5,
+        "content_count": 24,
+        "max_repeat": 1,
+        "score": 2.0372814590215462
+      },
+      "chain_id": 0,
+      "stage": 3,
+      "iteration": 9000,
+      "temperature": 0.16523607930573853,
+      "accept_rate": 0.9710032218642373,
+      "label": "BLINDED_CH00_S3_I012"
+    },
+    {
+      "text": "PYNOQOOWWCNEOUBSBQAFMTZAHGEOQPUWYMPKCPKGYWJJOYSKDTLXRTAXGUDWKGFSHRAJWOQVIYH",
+      "score": 2.008554302114135,
+      "components": {
+        "z_trigram": 1.5764925373134326,
+        "z_bigram": 0.5166984199824414,
+        "z_compress": 5,
+        "content_count": 25,
+        "max_repeat": 1,
+        "score": 2.008554302114135
+      },
+      "chain_id": 1,
+      "stage": 3,
+      "iteration": 12000,
+      "temperature": 0.09067804145426264,
+      "accept_rate": 0.9580034997083576,
+      "label": "BLINDED_CH01_S3_I013"
+    },
+    {
+      "text": "QMQOTFCVPXMMHDLMYLQJDCGOFMLXNNCSGACXYHQUCJIJSUUMVWYHYGOGPBMWZXYBLGMXZOKKAYQ",
+      "score": 2.007873720266169,
+      "components": {
+        "z_trigram": 1.5517241379310345,
+        "z_bigram": 0.5722227457148166,
+        "z_compress": 5,
+        "content_count": 23,
+        "max_repeat": 1,
+        "score": 2.007873720266169
+      },
+      "chain_id": 1,
+      "stage": 3,
+      "iteration": 3000,
+      "temperature": 0.5486689482520511,
+      "accept_rate": 0.9826724425191603,
+      "label": "BLINDED_CH01_S3_I010"
+    },
+    {
+      "text": "JSUWPYYWZICAHQWTVVXNGYNWKLIQTXQJEFUBHAAABXRDOKFDQYIEBNLBJZOUVYFBOJCXKMEZQKM",
+      "score": 1.9858323220396707,
+      "components": {
+        "z_trigram": 1.575220480753683,
+        "z_bigram": 0.4439266183736427,
+        "z_compress": 5,
+        "content_count": 25,
+        "max_repeat": 1,
+        "score": 1.9858323220396707
+      },
+      "chain_id": 0,
+      "stage": 3,
+      "iteration": 6000,
+      "temperature": 0.3010978343428798,
+      "accept_rate": 0.9775037493751042,
+      "label": "BLINDED_CH00_S3_I011"
+    },
+    {
+      "text": "QAYJOJJHGMQQFQHJAHEOCROAMTRRUJSNPVKAWWARNZNRZNMTYGEMQVSFFLPBCUBYLWEBGSAQHLD",
+      "score": 1.9846042210141257,
+      "components": {
+        "z_trigram": 1.5902364647821017,
+        "z_bigram": 0.4047956522221822,
+        "z_compress": 5,
+        "content_count": 24,
+        "max_repeat": 1,
+        "score": 1.9846042210141257
+      },
+      "chain_id": 1,
+      "stage": 1,
+      "iteration": 6000,
+      "temperature": 0.1491745642764176,
+      "accept_rate": 0.9796700549908348,
+      "label": "BLINDED_CH01_S1_I001"
+    }
+  ]
+}

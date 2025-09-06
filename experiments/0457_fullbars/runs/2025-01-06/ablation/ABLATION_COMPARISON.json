@@ -1,0 +1,17 @@
+{
+  "with_masking": {
+    "publishable": false,
+    "coverage_p": 0.192980701929807,
+    "fwords_p": 1.0
+  },
+  "without_masking": {
+    "publishable": false,
+    "coverage_p": 1.0,
+    "fwords_p": 1.0
+  },
+  "impact": {
+    "coverage_p_diff": 0.807019298070193,
+    "fwords_p_diff": 0.0,
+    "publishability_affected": false
+  }
+}

@@ -1,0 +1,75 @@
+{
+  "window": [
+    0,
+    74
+  ],
+  "tokenization": "v2",
+  "policy": "baseline",
+  "flint_v2": {
+    "has_east": false,
+    "has_northeast": false,
+    "instrument_verb": false,
+    "instrument_noun": false,
+    "content_count": 11,
+    "max_repeat": 3,
+    "pass": false
+  },
+  "generic": {
+    "perplexity_percentile": 97.10620680557751,
+    "pos_score": 0.22012876660344266,
+    "pos_threshold": 0.6,
+    "content_count": 11,
+    "max_repeat": 3,
+    "pass": false
+  },
+  "cadence": {
+    "pass": false,
+    "primitives": {
+      "cosine_bigram": {
+        "value": 0.10517338511852682,
+        "threshold": 0.5496274749874138,
+        "pass": false
+      },
+      "cosine_trigram": {
+        "value": 0.03392018734749704,
+        "threshold": 0.3896375251094959,
+        "pass": false
+      },
+      "fw_gap_mean": {
+        "value": 0.0,
+        "band": [
+          0.0,
+          6.0
+        ],
+        "pass": true
+      },
+      "fw_gap_cv": {
+        "value": 0.0,
+        "band": [
+          0.0,
+          0.0
+        ],
+        "pass": true
+      },
+      "wordlen_chi2": {
+        "value": 0.9209876543209878,
+        "threshold": 13.895381328073638,
+        "pass": true
+      },
+      "vc_ratio": {
+        "value": 0.9736842105263158,
+        "band": [
+          0.5,
+          0.6666666666666666
+        ],
+        "pass": false
+      }
+    },
+    "summary": {
+      "passed": 3,
+      "total": 6
+    }
+  },
+  "accepted_by": [],
+  "pass": false
+}

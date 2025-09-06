@@ -1,0 +1,78 @@
+{
+  "package": "0457_fullbars",
+  "version": "1.0.0",
+  "date": "2025-09-06",
+  "description": "Full bars, clear tests - Comprehensive K4 validation package",
+  "experiments": {
+    "cadence_bootstrap": {
+      "description": "Bootstrap cadence thresholds from K1-K3",
+      "files": [
+        "bootstrap_cadence.py",
+        "gate_cadence.py"
+      ],
+      "outputs": [
+        "THRESHOLDS.json",
+        "bootstrap_report.json"
+      ]
+    },
+    "p74_strip": {
+      "description": "Test schedules where P[74]=L for each letter",
+      "files": [
+        "solve_schedule.py",
+        "run_p74_strip.py"
+      ],
+      "outputs": [
+        "26 letter directories",
+        "P74_STRIP_SUMMARY.json"
+      ]
+    },
+    "sensitivity_grid": {
+      "description": "3\u00d73\u00d73 grid testing threshold variations",
+      "files": [
+        "run_sensitivity_grid.py"
+      ],
+      "outputs": [
+        "27 run directories",
+        "SENS_STRIP_MATRIX.csv"
+      ]
+    },
+    "controls": {
+      "description": "Control head validation",
+      "files": [
+        "run_controls.py"
+      ],
+      "outputs": [
+        "3 control directories",
+        "CONTROLS_SUMMARY.json"
+      ]
+    },
+    "ablation": {
+      "description": "Anchor masking ablation test",
+      "files": [
+        "run_ablation.py"
+      ],
+      "outputs": [
+        "2 ablation runs",
+        "ABLATION_COMPARISON.json"
+      ]
+    }
+  },
+  "dependencies": {
+    "python": "3.8+",
+    "packages": [
+      "numpy",
+      "hashlib",
+      "json",
+      "csv",
+      "pathlib"
+    ]
+  },
+  "integrity": {
+    "dashboard_sha256": "66ddc363ef1be12561a0b296223ed380598efe678cb5425a3c4eef69cb85e37a"
+  },
+  "statistics": {
+    "total_files": 561,
+    "total_experiments": 5,
+    "total_runs": 59
+  }
+}

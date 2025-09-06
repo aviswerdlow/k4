@@ -102,3 +102,23 @@ Tertiary: Demonstrate that sensitivity-aware placement recovers S_blind
 ---
 
 **Pre-Registration Complete at Commit:** 9ce4d3b
+
+---
+
+## SCALE NOTES (GO-A Implementation)
+
+**Date:** 2025-01-06  
+**Scale Commit:** [IN PROGRESS]  
+
+### Parameter Freeze
+- **Objective weights:** α=0.7, β=0.3, γ=0.15 (compress proxy)
+- **MCMC:** 4-stage anneal, 15k proposals per stage, MH acceptance on S_blind
+- **Head batch:** K=200 candidates from top ~1200 raw outputs
+- **Saliency:** 5 alt letters per position, median Δ
+- **Pareto:** radii r∈{0,2,3,4}, ε-Pareto frontier ≤24, prefer fixed if ΔS_blind ≤0.05
+- **Repair:** Cap 1k accepted moves or 200 consecutive non-gains
+
+### Seed Grid
+- Base seed: 1337
+- Chain seeds: 1337 + chain_id * 1000
+- Worker seeds: SHA256(f"{seed}|{label}|worker:{wid}")[:16] as int

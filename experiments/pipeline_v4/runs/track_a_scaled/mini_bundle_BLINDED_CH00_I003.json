@@ -1,0 +1,40 @@
+{
+  "pipeline": "explore_v4_fixed",
+  "track": "A_blinded_mcmc",
+  "survivor": {
+    "label": "BLINDED_CH00_I003",
+    "text": "NKQCBNYHFQDZEXQBZOAKMWSZLPUKVHLZUQRQJOYQWZUWPJZZHCJKDMCNUXNPWVZZSQXOQWGMQFV",
+    "chain_id": 0,
+    "stage": 1,
+    "mcmc_score": 2.4691521310316595
+  },
+  "scoring": {
+    "z_fixed": 3.71,
+    "delta_windowed_best": 0.276,
+    "delta_shuffled": 0.103,
+    "anchor_drop": 0.02
+  },
+  "validation": {
+    "orbit_survived": true,
+    "fast_nulls": {
+      "p_combined": 0.0,
+      "holm_reject": true,
+      "n_nulls": 1000,
+      "n_replicates": 2
+    }
+  },
+  "metadata": {
+    "fixed_issues": [
+      "leakage_eliminated",
+      "duplicates_prevented",
+      "calibration_verified"
+    ],
+    "generation_params": {
+      "alpha": 0.7,
+      "beta": 0.3,
+      "gamma": 0.15,
+      "stages": 4,
+      "proposals_per_stage": 15000
+    }
+  }
+}

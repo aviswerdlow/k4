@@ -1,0 +1,686 @@
+============================================================
+P74 STRIP - FULL RUN
+============================================================
+
+============================================================
+P74 STRIP: A
+============================================================
+Seed: 1262235441
+
+1. Solving schedule...
+   ✅ Found schedule (attempt 5)
+
+2. Running near-gate...
+   Coverage: 0.374
+   F-words: 0
+   Has verb: False
+   ❌ FAIL
+
+3. Running phrase gate...
+   Flint v2: ❌ FAIL
+   Generic: ❌ FAIL
+   Cadence: ❌ FAIL
+   Accepted by: []
+   AND gate: ❌ FAIL
+
+4. Nulls not run (gates failed)
+
+5. Creating bundle...
+   ✅ Bundle complete
+
+============================================================
+P74 STRIP: B
+============================================================
+Seed: 1966078157
+
+1. Solving schedule...
+   ✅ Found schedule (attempt 3)
+
+2. Running near-gate...
+   Coverage: 0.295
+   F-words: 0
+   Has verb: False
+   ❌ FAIL
+
+3. Running phrase gate...
+   Flint v2: ❌ FAIL
+   Generic: ❌ FAIL
+   Cadence: ❌ FAIL
+   Accepted by: []
+   AND gate: ❌ FAIL
+
+4. Nulls not run (gates failed)
+
+5. Creating bundle...
+   ✅ Bundle complete
+
+============================================================
+P74 STRIP: C
+============================================================
+Seed: 2991764723
+
+1. Solving schedule...
+   ✅ Found schedule (attempt 21)
+
+2. Running near-gate...
+   Coverage: 0.277
+   F-words: 2
+   Has verb: False
+   ❌ FAIL
+
+3. Running phrase gate...
+   Flint v2: ❌ FAIL
+   Generic: ❌ FAIL
+   Cadence: ❌ FAIL
+   Accepted by: []
+   AND gate: ❌ FAIL
+
+4. Nulls not run (gates failed)
+
+5. Creating bundle...
+   ✅ Bundle complete
+
+============================================================
+P74 STRIP: D
+============================================================
+Seed: 2079749905
+
+1. Solving schedule...
+   ✅ Found schedule (attempt 10)
+
+2. Running near-gate...
+   Coverage: 0.207
+   F-words: 1
+   Has verb: False
+   ❌ FAIL
+
+3. Running phrase gate...
+   Flint v2: ❌ FAIL
+   Generic: ❌ FAIL
+   Cadence: ❌ FAIL
+   Accepted by: []
+   AND gate: ❌ FAIL
+
+4. Nulls not run (gates failed)
+
+5. Creating bundle...
+   ✅ Bundle complete
+
+============================================================
+P74 STRIP: E
+============================================================
+Seed: 1687054719
+
+1. Solving schedule...
+   ✅ Found schedule (attempt 2)
+
+2. Running near-gate...
+   Coverage: 0.446
+   F-words: 0
+   Has verb: False
+   ❌ FAIL
+
+3. Running phrase gate...
+   Flint v2: ❌ FAIL
+   Generic: ❌ FAIL
+   Cadence: ❌ FAIL
+   Accepted by: []
+   AND gate: ❌ FAIL
+
+4. Nulls not run (gates failed)
+
+5. Creating bundle...
+   ✅ Bundle complete
+
+============================================================
+P74 STRIP: F
+============================================================
+Seed: 1264863750
+
+1. Solving schedule...
+   ✅ Found schedule (attempt 37)
+
+2. Running near-gate...
+   Coverage: 0.298
+   F-words: 0
+   Has verb: False
+   ❌ FAIL
+
+3. Running phrase gate...
+   Flint v2: ❌ FAIL
+   Generic: ❌ FAIL
+   Cadence: ❌ FAIL
+   Accepted by: []
+   AND gate: ❌ FAIL
+
+4. Nulls not run (gates failed)
+
+5. Creating bundle...
+   ✅ Bundle complete
+
+============================================================
+P74 STRIP: G
+============================================================
+Seed: 3477687762
+
+1. Solving schedule...
+   ✅ Found schedule (attempt 53)
+
+2. Running near-gate...
+   Coverage: 0.407
+   F-words: 0
+   Has verb: False
+   ❌ FAIL
+
+3. Running phrase gate...
+   Flint v2: ❌ FAIL
+   Generic: ❌ FAIL
+   Cadence: ❌ FAIL
+   Accepted by: []
+   AND gate: ❌ FAIL
+
+4. Nulls not run (gates failed)
+
+5. Creating bundle...
+   ✅ Bundle complete
+
+============================================================
+P74 STRIP: H
+============================================================
+Seed: 921007844
+
+1. Solving schedule...
+   ✅ Found schedule (attempt 12)
+
+2. Running near-gate...
+   Coverage: 0.346
+   F-words: 0
+   Has verb: False
+   ❌ FAIL
+
+3. Running phrase gate...
+   Flint v2: ❌ FAIL
+   Generic: ❌ FAIL
+   Cadence: ❌ FAIL
+   Accepted by: []
+   AND gate: ❌ FAIL
+
+4. Nulls not run (gates failed)
+
+5. Creating bundle...
+   ✅ Bundle complete
+
+============================================================
+P74 STRIP: I
+============================================================
+Seed: 1144015293
+
+1. Solving schedule...
+   ✅ Found schedule (attempt 10)
+
+2. Running near-gate...
+   Coverage: 0.375
+   F-words: 0
+   Has verb: False
+   ❌ FAIL
+
+3. Running phrase gate...
+   Flint v2: ❌ FAIL
+   Generic: ❌ FAIL
+   Cadence: ❌ FAIL
+   Accepted by: []
+   AND gate: ❌ FAIL
+
+4. Nulls not run (gates failed)
+
+5. Creating bundle...
+   ✅ Bundle complete
+
+============================================================
+P74 STRIP: J
+============================================================
+Seed: 292993298
+
+1. Solving schedule...
+   ✅ Found schedule (attempt 32)
+
+2. Running near-gate...
+   Coverage: 0.391
+   F-words: 0
+   Has verb: False
+   ❌ FAIL
+
+3. Running phrase gate...
+   Flint v2: ❌ FAIL
+   Generic: ❌ FAIL
+   Cadence: ❌ FAIL
+   Accepted by: []
+   AND gate: ❌ FAIL
+
+4. Nulls not run (gates failed)
+
+5. Creating bundle...
+   ✅ Bundle complete
+
+============================================================
+P74 STRIP: K
+============================================================
+Seed: 2156372597
+
+1. Solving schedule...
+   ✅ Found schedule (attempt 12)
+
+2. Running near-gate...
+   Coverage: 0.322
+   F-words: 0
+   Has verb: False
+   ❌ FAIL
+
+3. Running phrase gate...
+   Flint v2: ❌ FAIL
+   Generic: ❌ FAIL
+   Cadence: ❌ FAIL
+   Accepted by: []
+   AND gate: ❌ FAIL
+
+4. Nulls not run (gates failed)
+
+5. Creating bundle...
+   ✅ Bundle complete
+
+============================================================
+P74 STRIP: L
+============================================================
+Seed: 4105531431
+
+1. Solving schedule...
+   ✅ Found schedule (attempt 3)
+
+2. Running near-gate...
+   Coverage: 0.309
+   F-words: 0
+   Has verb: False
+   ❌ FAIL
+
+3. Running phrase gate...
+   Flint v2: ❌ FAIL
+   Generic: ❌ FAIL
+   Cadence: ❌ FAIL
+   Accepted by: []
+   AND gate: ❌ FAIL
+
+4. Nulls not run (gates failed)
+
+5. Creating bundle...
+   ✅ Bundle complete
+
+============================================================
+P74 STRIP: M
+============================================================
+Seed: 2218247008
+
+1. Solving schedule...
+   ✅ Found schedule (attempt 6)
+
+2. Running near-gate...
+   Coverage: 0.274
+   F-words: 0
+   Has verb: False
+   ❌ FAIL
+
+3. Running phrase gate...
+   Flint v2: ❌ FAIL
+   Generic: ❌ FAIL
+   Cadence: ❌ FAIL
+   Accepted by: []
+   AND gate: ❌ FAIL
+
+4. Nulls not run (gates failed)
+
+5. Creating bundle...
+   ✅ Bundle complete
+
+============================================================
+P74 STRIP: N
+============================================================
+Seed: 2316483000
+
+1. Solving schedule...
+   ✅ Found schedule (attempt 5)
+
+2. Running near-gate...
+   Coverage: 0.421
+   F-words: 0
+   Has verb: False
+   ❌ FAIL
+
+3. Running phrase gate...
+   Flint v2: ❌ FAIL
+   Generic: ❌ FAIL
+   Cadence: ❌ FAIL
+   Accepted by: []
+   AND gate: ❌ FAIL
+
+4. Nulls not run (gates failed)
+
+5. Creating bundle...
+   ✅ Bundle complete
+
+============================================================
+P74 STRIP: O
+============================================================
+Seed: 1419413701
+
+1. Solving schedule...
+   ✅ Found schedule (attempt 15)
+
+2. Running near-gate...
+   Coverage: 0.360
+   F-words: 0
+   Has verb: False
+   ❌ FAIL
+
+3. Running phrase gate...
+   Flint v2: ❌ FAIL
+   Generic: ❌ FAIL
+   Cadence: ❌ FAIL
+   Accepted by: []
+   AND gate: ❌ FAIL
+
+4. Nulls not run (gates failed)
+
+5. Creating bundle...
+   ✅ Bundle complete
+
+============================================================
+P74 STRIP: P
+============================================================
+Seed: 429762404
+
+1. Solving schedule...
+   ✅ Found schedule (attempt 10)
+
+2. Running near-gate...
+   Coverage: 0.263
+   F-words: 0
+   Has verb: False
+   ❌ FAIL
+
+3. Running phrase gate...
+   Flint v2: ❌ FAIL
+   Generic: ❌ FAIL
+   Cadence: ❌ FAIL
+   Accepted by: []
+   AND gate: ❌ FAIL
+
+4. Nulls not run (gates failed)
+
+5. Creating bundle...
+   ✅ Bundle complete
+
+============================================================
+P74 STRIP: Q
+============================================================
+Seed: 1663317112
+
+1. Solving schedule...
+   ✅ Found schedule (attempt 23)
+
+2. Running near-gate...
+   Coverage: 0.306
+   F-words: 0
+   Has verb: False
+   ❌ FAIL
+
+3. Running phrase gate...
+   Flint v2: ❌ FAIL
+   Generic: ❌ FAIL
+   Cadence: ❌ FAIL
+   Accepted by: []
+   AND gate: ❌ FAIL
+
+4. Nulls not run (gates failed)
+
+5. Creating bundle...
+   ✅ Bundle complete
+
+============================================================
+P74 STRIP: R
+============================================================
+Seed: 506653043
+
+1. Solving schedule...
+   ✅ Found schedule (attempt 6)
+
+2. Running near-gate...
+   Coverage: 0.445
+   F-words: 0
+   Has verb: False
+   ❌ FAIL
+
+3. Running phrase gate...
+   Flint v2: ❌ FAIL
+   Generic: ❌ FAIL
+   Cadence: ❌ FAIL
+   Accepted by: []
+   AND gate: ❌ FAIL
+
+4. Nulls not run (gates failed)
+
+5. Creating bundle...
+   ✅ Bundle complete
+
+============================================================
+P74 STRIP: S
+============================================================
+Seed: 1693310996
+
+1. Solving schedule...
+   ✅ Found schedule (attempt 5)
+
+2. Running near-gate...
+   Coverage: 0.469
+   F-words: 0
+   Has verb: False
+   ❌ FAIL
+
+3. Running phrase gate...
+   Flint v2: ❌ FAIL
+   Generic: ❌ FAIL
+   Cadence: ❌ FAIL
+   Accepted by: []
+   AND gate: ❌ FAIL
+
+4. Nulls not run (gates failed)
+
+5. Creating bundle...
+   ✅ Bundle complete
+
+============================================================
+P74 STRIP: T
+============================================================
+Seed: 2981039043
+
+1. Solving schedule...
+   ✅ Found schedule (attempt 3)
+
+2. Running near-gate...
+   Coverage: 0.352
+   F-words: 0
+   Has verb: False
+   ❌ FAIL
+
+3. Running phrase gate...
+   Flint v2: ❌ FAIL
+   Generic: ❌ FAIL
+   Cadence: ❌ FAIL
+   Accepted by: []
+   AND gate: ❌ FAIL
+
+4. Nulls not run (gates failed)
+
+5. Creating bundle...
+   ✅ Bundle complete
+
+============================================================
+P74 STRIP: U
+============================================================
+Seed: 1349525672
+
+1. Solving schedule...
+   ✅ Found schedule (attempt 1)
+
+2. Running near-gate...
+   Coverage: 0.480
+   F-words: 0
+   Has verb: False
+   ❌ FAIL
+
+3. Running phrase gate...
+   Flint v2: ❌ FAIL
+   Generic: ❌ FAIL
+   Cadence: ❌ FAIL
+   Accepted by: []
+   AND gate: ❌ FAIL
+
+4. Nulls not run (gates failed)
+
+5. Creating bundle...
+   ✅ Bundle complete
+
+============================================================
+P74 STRIP: V
+============================================================
+Seed: 3979163126
+
+1. Solving schedule...
+   ✅ Found schedule (attempt 12)
+
+2. Running near-gate...
+   Coverage: 0.409
+   F-words: 0
+   Has verb: False
+   ❌ FAIL
+
+3. Running phrase gate...
+   Flint v2: ❌ FAIL
+   Generic: ❌ FAIL
+   Cadence: ❌ FAIL
+   Accepted by: []
+   AND gate: ❌ FAIL
+
+4. Nulls not run (gates failed)
+
+5. Creating bundle...
+   ✅ Bundle complete
+
+============================================================
+P74 STRIP: W
+============================================================
+Seed: 4215865722
+
+1. Solving schedule...
+   ✅ Found schedule (attempt 7)
+
+2. Running near-gate...
+   Coverage: 0.262
+   F-words: 0
+   Has verb: False
+   ❌ FAIL
+
+3. Running phrase gate...
+   Flint v2: ❌ FAIL
+   Generic: ❌ FAIL
+   Cadence: ❌ FAIL
+   Accepted by: []
+   AND gate: ❌ FAIL
+
+4. Nulls not run (gates failed)
+
+5. Creating bundle...
+   ✅ Bundle complete
+
+============================================================
+P74 STRIP: X
+============================================================
+Seed: 3542508686
+
+1. Solving schedule...
+   ✅ Found schedule (attempt 27)
+
+2. Running near-gate...
+   Coverage: 0.285
+   F-words: 0
+   Has verb: False
+   ❌ FAIL
+
+3. Running phrase gate...
+   Flint v2: ❌ FAIL
+   Generic: ❌ FAIL
+   Cadence: ❌ FAIL
+   Accepted by: []
+   AND gate: ❌ FAIL
+
+4. Nulls not run (gates failed)
+
+5. Creating bundle...
+   ✅ Bundle complete
+
+============================================================
+P74 STRIP: Y
+============================================================
+Seed: 3119385599
+
+1. Solving schedule...
+   ✅ Found schedule (attempt 4)
+
+2. Running near-gate...
+   Coverage: 0.365
+   F-words: 0
+   Has verb: False
+   ❌ FAIL
+
+3. Running phrase gate...
+   Flint v2: ❌ FAIL
+   Generic: ❌ FAIL
+   Cadence: ❌ FAIL
+   Accepted by: []
+   AND gate: ❌ FAIL
+
+4. Nulls not run (gates failed)
+
+5. Creating bundle...
+   ✅ Bundle complete
+
+============================================================
+P74 STRIP: Z
+============================================================
+Seed: 78302525
+
+1. Solving schedule...
+   ✅ Found schedule (attempt 23)
+
+2. Running near-gate...
+   Coverage: 0.335
+   F-words: 0
+   Has verb: False
+   ❌ FAIL
+
+3. Running phrase gate...
+   Flint v2: ❌ FAIL
+   Generic: ❌ FAIL
+   Cadence: ❌ FAIL
+   Accepted by: []
+   AND gate: ❌ FAIL
+
+4. Nulls not run (gates failed)
+
+5. Creating bundle...
+   ✅ Bundle complete
+
+============================================================
+P74 STRIP COMPLETE
+Summary saved to /Users/aviswerdlow/Downloads/Kryptos Team/k4_cli_plus/experiments/0457_fullbars/runs/2025-01-06/p74_strip/P74_STRIP_SUMMARY.csv
+
+Schedules found: 26/26
+Publishable: 0/26

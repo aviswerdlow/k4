@@ -1,0 +1,670 @@
+============================================================
+SENSITIVITY GRID - FULL RUN
+============================================================
+POS thresholds: [0.55, 0.6, 0.65]
+Perplexity percentiles: [1.5, 1.0, 0.5]
+Replicates per cell: 3
+Total runs: 27
+
+============================================================
+SENSITIVITY: POS=0.55, Perp=1.5%, Rep=1
+============================================================
+
+1. Running near-gate...
+   Coverage: 0.337
+   F-words: 0
+   Has verb: False
+   ❌ FAIL
+
+2. Running phrase gate...
+   Flint v2: ❌ FAIL
+   Generic: ❌ FAIL
+     POS: 0.130 (threshold: 0.55)
+     Perplexity: 88.9% (threshold: ≤1.5%)
+   Cadence: ❌ FAIL
+   Accepted by: []
+   AND gate: ❌ FAIL
+
+3. Nulls not run (gates failed)
+
+4. Creating bundle...
+   ✅ Bundle complete
+
+============================================================
+SENSITIVITY: POS=0.55, Perp=1.5%, Rep=2
+============================================================
+
+1. Running near-gate...
+   Coverage: 0.424
+   F-words: 0
+   Has verb: False
+   ❌ FAIL
+
+2. Running phrase gate...
+   Flint v2: ❌ FAIL
+   Generic: ❌ FAIL
+     POS: 0.260 (threshold: 0.55)
+     Perplexity: 93.0% (threshold: ≤1.5%)
+   Cadence: ❌ FAIL
+   Accepted by: []
+   AND gate: ❌ FAIL
+
+3. Nulls not run (gates failed)
+
+4. Creating bundle...
+   ✅ Bundle complete
+
+============================================================
+SENSITIVITY: POS=0.55, Perp=1.5%, Rep=3
+============================================================
+
+1. Running near-gate...
+   Coverage: 0.265
+   F-words: 0
+   Has verb: False
+   ❌ FAIL
+
+2. Running phrase gate...
+   Flint v2: ❌ FAIL
+   Generic: ❌ FAIL
+     POS: 0.136 (threshold: 0.55)
+     Perplexity: 83.4% (threshold: ≤1.5%)
+   Cadence: ❌ FAIL
+   Accepted by: []
+   AND gate: ❌ FAIL
+
+3. Nulls not run (gates failed)
+
+4. Creating bundle...
+   ✅ Bundle complete
+
+============================================================
+SENSITIVITY: POS=0.55, Perp=1.0%, Rep=1
+============================================================
+
+1. Running near-gate...
+   Coverage: 0.445
+   F-words: 0
+   Has verb: False
+   ❌ FAIL
+
+2. Running phrase gate...
+   Flint v2: ❌ FAIL
+   Generic: ❌ FAIL
+     POS: 0.220 (threshold: 0.55)
+     Perplexity: 83.2% (threshold: ≤1.0%)
+   Cadence: ❌ FAIL
+   Accepted by: []
+   AND gate: ❌ FAIL
+
+3. Nulls not run (gates failed)
+
+4. Creating bundle...
+   ✅ Bundle complete
+
+============================================================
+SENSITIVITY: POS=0.55, Perp=1.0%, Rep=2
+============================================================
+
+1. Running near-gate...
+   Coverage: 0.434
+   F-words: 0
+   Has verb: False
+   ❌ FAIL
+
+2. Running phrase gate...
+   Flint v2: ❌ FAIL
+   Generic: ❌ FAIL
+     POS: 0.159 (threshold: 0.55)
+     Perplexity: 90.3% (threshold: ≤1.0%)
+   Cadence: ❌ FAIL
+   Accepted by: []
+   AND gate: ❌ FAIL
+
+3. Nulls not run (gates failed)
+
+4. Creating bundle...
+   ✅ Bundle complete
+
+============================================================
+SENSITIVITY: POS=0.55, Perp=1.0%, Rep=3
+============================================================
+
+1. Running near-gate...
+   Coverage: 0.491
+   F-words: 0
+   Has verb: False
+   ❌ FAIL
+
+2. Running phrase gate...
+   Flint v2: ❌ FAIL
+   Generic: ❌ FAIL
+     POS: 0.336 (threshold: 0.55)
+     Perplexity: 92.7% (threshold: ≤1.0%)
+   Cadence: ❌ FAIL
+   Accepted by: []
+   AND gate: ❌ FAIL
+
+3. Nulls not run (gates failed)
+
+4. Creating bundle...
+   ✅ Bundle complete
+
+============================================================
+SENSITIVITY: POS=0.55, Perp=0.5%, Rep=1
+============================================================
+
+1. Running near-gate...
+   Coverage: 0.447
+   F-words: 0
+   Has verb: False
+   ❌ FAIL
+
+2. Running phrase gate...
+   Flint v2: ❌ FAIL
+   Generic: ❌ FAIL
+     POS: 0.107 (threshold: 0.55)
+     Perplexity: 80.8% (threshold: ≤0.5%)
+   Cadence: ❌ FAIL
+   Accepted by: []
+   AND gate: ❌ FAIL
+
+3. Nulls not run (gates failed)
+
+4. Creating bundle...
+   ✅ Bundle complete
+
+============================================================
+SENSITIVITY: POS=0.55, Perp=0.5%, Rep=2
+============================================================
+
+1. Running near-gate...
+   Coverage: 0.316
+   F-words: 0
+   Has verb: False
+   ❌ FAIL
+
+2. Running phrase gate...
+   Flint v2: ❌ FAIL
+   Generic: ❌ FAIL
+     POS: 0.171 (threshold: 0.55)
+     Perplexity: 81.3% (threshold: ≤0.5%)
+   Cadence: ❌ FAIL
+   Accepted by: []
+   AND gate: ❌ FAIL
+
+3. Nulls not run (gates failed)
+
+4. Creating bundle...
+   ✅ Bundle complete
+
+============================================================
+SENSITIVITY: POS=0.55, Perp=0.5%, Rep=3
+============================================================
+
+1. Running near-gate...
+   Coverage: 0.465
+   F-words: 0
+   Has verb: False
+   ❌ FAIL
+
+2. Running phrase gate...
+   Flint v2: ❌ FAIL
+   Generic: ❌ FAIL
+     POS: 0.141 (threshold: 0.55)
+     Perplexity: 93.7% (threshold: ≤0.5%)
+   Cadence: ❌ FAIL
+   Accepted by: []
+   AND gate: ❌ FAIL
+
+3. Nulls not run (gates failed)
+
+4. Creating bundle...
+   ✅ Bundle complete
+
+============================================================
+SENSITIVITY: POS=0.6, Perp=1.5%, Rep=1
+============================================================
+
+1. Running near-gate...
+   Coverage: 0.468
+   F-words: 0
+   Has verb: False
+   ❌ FAIL
+
+2. Running phrase gate...
+   Flint v2: ❌ FAIL
+   Generic: ❌ FAIL
+     POS: 0.126 (threshold: 0.6)
+     Perplexity: 86.0% (threshold: ≤1.5%)
+   Cadence: ❌ FAIL
+   Accepted by: []
+   AND gate: ❌ FAIL
+
+3. Nulls not run (gates failed)
+
+4. Creating bundle...
+   ✅ Bundle complete
+
+============================================================
+SENSITIVITY: POS=0.6, Perp=1.5%, Rep=2
+============================================================
+
+1. Running near-gate...
+   Coverage: 0.334
+   F-words: 0
+   Has verb: False
+   ❌ FAIL
+
+2. Running phrase gate...
+   Flint v2: ❌ FAIL
+   Generic: ❌ FAIL
+     POS: 0.261 (threshold: 0.6)
+     Perplexity: 88.1% (threshold: ≤1.5%)
+   Cadence: ❌ FAIL
+   Accepted by: []
+   AND gate: ❌ FAIL
+
+3. Nulls not run (gates failed)
+
+4. Creating bundle...
+   ✅ Bundle complete
+
+============================================================
+SENSITIVITY: POS=0.6, Perp=1.5%, Rep=3
+============================================================
+
+1. Running near-gate...
+   Coverage: 0.273
+   F-words: 0
+   Has verb: False
+   ❌ FAIL
+
+2. Running phrase gate...
+   Flint v2: ❌ FAIL
+   Generic: ❌ FAIL
+     POS: 0.373 (threshold: 0.6)
+     Perplexity: 92.6% (threshold: ≤1.5%)
+   Cadence: ❌ FAIL
+   Accepted by: []
+   AND gate: ❌ FAIL
+
+3. Nulls not run (gates failed)
+
+4. Creating bundle...
+   ✅ Bundle complete
+
+============================================================
+SENSITIVITY: POS=0.6, Perp=1.0%, Rep=1
+============================================================
+
+1. Running near-gate...
+   Coverage: 0.252
+   F-words: 0
+   Has verb: False
+   ❌ FAIL
+
+2. Running phrase gate...
+   Flint v2: ❌ FAIL
+   Generic: ❌ FAIL
+     POS: 0.152 (threshold: 0.6)
+     Perplexity: 80.4% (threshold: ≤1.0%)
+   Cadence: ❌ FAIL
+   Accepted by: []
+   AND gate: ❌ FAIL
+
+3. Nulls not run (gates failed)
+
+4. Creating bundle...
+   ✅ Bundle complete
+
+============================================================
+SENSITIVITY: POS=0.6, Perp=1.0%, Rep=2
+============================================================
+
+1. Running near-gate...
+   Coverage: 0.448
+   F-words: 0
+   Has verb: False
+   ❌ FAIL
+
+2. Running phrase gate...
+   Flint v2: ❌ FAIL
+   Generic: ❌ FAIL
+     POS: 0.209 (threshold: 0.6)
+     Perplexity: 85.2% (threshold: ≤1.0%)
+   Cadence: ❌ FAIL
+   Accepted by: []
+   AND gate: ❌ FAIL
+
+3. Nulls not run (gates failed)
+
+4. Creating bundle...
+   ✅ Bundle complete
+
+============================================================
+SENSITIVITY: POS=0.6, Perp=1.0%, Rep=3
+============================================================
+
+1. Running near-gate...
+   Coverage: 0.326
+   F-words: 0
+   Has verb: False
+   ❌ FAIL
+
+2. Running phrase gate...
+   Flint v2: ❌ FAIL
+   Generic: ❌ FAIL
+     POS: 0.281 (threshold: 0.6)
+     Perplexity: 87.9% (threshold: ≤1.0%)
+   Cadence: ❌ FAIL
+   Accepted by: []
+   AND gate: ❌ FAIL
+
+3. Nulls not run (gates failed)
+
+4. Creating bundle...
+   ✅ Bundle complete
+
+============================================================
+SENSITIVITY: POS=0.6, Perp=0.5%, Rep=1
+============================================================
+
+1. Running near-gate...
+   Coverage: 0.251
+   F-words: 0
+   Has verb: False
+   ❌ FAIL
+
+2. Running phrase gate...
+   Flint v2: ❌ FAIL
+   Generic: ❌ FAIL
+     POS: 0.206 (threshold: 0.6)
+     Perplexity: 85.1% (threshold: ≤0.5%)
+   Cadence: ❌ FAIL
+   Accepted by: []
+   AND gate: ❌ FAIL
+
+3. Nulls not run (gates failed)
+
+4. Creating bundle...
+   ✅ Bundle complete
+
+============================================================
+SENSITIVITY: POS=0.6, Perp=0.5%, Rep=2
+============================================================
+
+1. Running near-gate...
+   Coverage: 0.364
+   F-words: 0
+   Has verb: False
+   ❌ FAIL
+
+2. Running phrase gate...
+   Flint v2: ❌ FAIL
+   Generic: ❌ FAIL
+     POS: 0.318 (threshold: 0.6)
+     Perplexity: 91.5% (threshold: ≤0.5%)
+   Cadence: ❌ FAIL
+   Accepted by: []
+   AND gate: ❌ FAIL
+
+3. Nulls not run (gates failed)
+
+4. Creating bundle...
+   ✅ Bundle complete
+
+============================================================
+SENSITIVITY: POS=0.6, Perp=0.5%, Rep=3
+============================================================
+
+1. Running near-gate...
+   Coverage: 0.213
+   F-words: 0
+   Has verb: False
+   ❌ FAIL
+
+2. Running phrase gate...
+   Flint v2: ❌ FAIL
+   Generic: ❌ FAIL
+     POS: 0.293 (threshold: 0.6)
+     Perplexity: 91.3% (threshold: ≤0.5%)
+   Cadence: ❌ FAIL
+   Accepted by: []
+   AND gate: ❌ FAIL
+
+3. Nulls not run (gates failed)
+
+4. Creating bundle...
+   ✅ Bundle complete
+
+============================================================
+SENSITIVITY: POS=0.65, Perp=1.5%, Rep=1
+============================================================
+
+1. Running near-gate...
+   Coverage: 0.393
+   F-words: 0
+   Has verb: False
+   ❌ FAIL
+
+2. Running phrase gate...
+   Flint v2: ❌ FAIL
+   Generic: ❌ FAIL
+     POS: 0.395 (threshold: 0.65)
+     Perplexity: 92.0% (threshold: ≤1.5%)
+   Cadence: ❌ FAIL
+   Accepted by: []
+   AND gate: ❌ FAIL
+
+3. Nulls not run (gates failed)
+
+4. Creating bundle...
+   ✅ Bundle complete
+
+============================================================
+SENSITIVITY: POS=0.65, Perp=1.5%, Rep=2
+============================================================
+
+1. Running near-gate...
+   Coverage: 0.434
+   F-words: 0
+   Has verb: False
+   ❌ FAIL
+
+2. Running phrase gate...
+   Flint v2: ❌ FAIL
+   Generic: ❌ FAIL
+     POS: 0.114 (threshold: 0.65)
+     Perplexity: 97.3% (threshold: ≤1.5%)
+   Cadence: ❌ FAIL
+   Accepted by: []
+   AND gate: ❌ FAIL
+
+3. Nulls not run (gates failed)
+
+4. Creating bundle...
+   ✅ Bundle complete
+
+============================================================
+SENSITIVITY: POS=0.65, Perp=1.5%, Rep=3
+============================================================
+
+1. Running near-gate...
+   Coverage: 0.407
+   F-words: 0
+   Has verb: False
+   ❌ FAIL
+
+2. Running phrase gate...
+   Flint v2: ❌ FAIL
+   Generic: ❌ FAIL
+     POS: 0.204 (threshold: 0.65)
+     Perplexity: 97.4% (threshold: ≤1.5%)
+   Cadence: ❌ FAIL
+   Accepted by: []
+   AND gate: ❌ FAIL
+
+3. Nulls not run (gates failed)
+
+4. Creating bundle...
+   ✅ Bundle complete
+
+============================================================
+SENSITIVITY: POS=0.65, Perp=1.0%, Rep=1
+============================================================
+
+1. Running near-gate...
+   Coverage: 0.490
+   F-words: 0
+   Has verb: False
+   ❌ FAIL
+
+2. Running phrase gate...
+   Flint v2: ❌ FAIL
+   Generic: ❌ FAIL
+     POS: 0.305 (threshold: 0.65)
+     Perplexity: 87.2% (threshold: ≤1.0%)
+   Cadence: ❌ FAIL
+   Accepted by: []
+   AND gate: ❌ FAIL
+
+3. Nulls not run (gates failed)
+
+4. Creating bundle...
+   ✅ Bundle complete
+
+============================================================
+SENSITIVITY: POS=0.65, Perp=1.0%, Rep=2
+============================================================
+
+1. Running near-gate...
+   Coverage: 0.408
+   F-words: 0
+   Has verb: False
+   ❌ FAIL
+
+2. Running phrase gate...
+   Flint v2: ❌ FAIL
+   Generic: ❌ FAIL
+     POS: 0.201 (threshold: 0.65)
+     Perplexity: 92.6% (threshold: ≤1.0%)
+   Cadence: ❌ FAIL
+   Accepted by: []
+   AND gate: ❌ FAIL
+
+3. Nulls not run (gates failed)
+
+4. Creating bundle...
+   ✅ Bundle complete
+
+============================================================
+SENSITIVITY: POS=0.65, Perp=1.0%, Rep=3
+============================================================
+
+1. Running near-gate...
+   Coverage: 0.290
+   F-words: 0
+   Has verb: False
+   ❌ FAIL
+
+2. Running phrase gate...
+   Flint v2: ❌ FAIL
+   Generic: ❌ FAIL
+     POS: 0.372 (threshold: 0.65)
+     Perplexity: 97.2% (threshold: ≤1.0%)
+   Cadence: ❌ FAIL
+   Accepted by: []
+   AND gate: ❌ FAIL
+
+3. Nulls not run (gates failed)
+
+4. Creating bundle...
+   ✅ Bundle complete
+
+============================================================
+SENSITIVITY: POS=0.65, Perp=0.5%, Rep=1
+============================================================
+
+1. Running near-gate...
+   Coverage: 0.271
+   F-words: 0
+   Has verb: False
+   ❌ FAIL
+
+2. Running phrase gate...
+   Flint v2: ❌ FAIL
+   Generic: ❌ FAIL
+     POS: 0.381 (threshold: 0.65)
+     Perplexity: 84.5% (threshold: ≤0.5%)
+   Cadence: ❌ FAIL
+   Accepted by: []
+   AND gate: ❌ FAIL
+
+3. Nulls not run (gates failed)
+
+4. Creating bundle...
+   ✅ Bundle complete
+
+============================================================
+SENSITIVITY: POS=0.65, Perp=0.5%, Rep=2
+============================================================
+
+1. Running near-gate...
+   Coverage: 0.210
+   F-words: 0
+   Has verb: False
+   ❌ FAIL
+
+2. Running phrase gate...
+   Flint v2: ❌ FAIL
+   Generic: ❌ FAIL
+     POS: 0.233 (threshold: 0.65)
+     Perplexity: 86.0% (threshold: ≤0.5%)
+   Cadence: ❌ FAIL
+   Accepted by: []
+   AND gate: ❌ FAIL
+
+3. Nulls not run (gates failed)
+
+4. Creating bundle...
+   ✅ Bundle complete
+
+============================================================
+SENSITIVITY: POS=0.65, Perp=0.5%, Rep=3
+============================================================
+
+1. Running near-gate...
+   Coverage: 0.284
+   F-words: 0
+   Has verb: False
+   ❌ FAIL
+
+2. Running phrase gate...
+   Flint v2: ❌ FAIL
+   Generic: ❌ FAIL
+     POS: 0.104 (threshold: 0.65)
+     Perplexity: 87.2% (threshold: ≤0.5%)
+   Cadence: ❌ FAIL
+   Accepted by: []
+   AND gate: ❌ FAIL
+
+3. Nulls not run (gates failed)
+
+4. Creating bundle...
+   ✅ Bundle complete
+
+============================================================
+SENSITIVITY GRID COMPLETE
+Summary saved to /Users/aviswerdlow/Downloads/Kryptos Team/k4_cli_plus/experiments/0457_fullbars/runs/2025-01-06/sensitivity_strip/SENS_STRIP_MATRIX.csv
+
+Publishable: 0/27
+  POS=0.55, Perp=1.5%: 0/3 publishable
+  POS=0.55, Perp=1.0%: 0/3 publishable
+  POS=0.55, Perp=0.5%: 0/3 publishable
+  POS=0.6, Perp=1.5%: 0/3 publishable
+  POS=0.6, Perp=1.0%: 0/3 publishable
+  POS=0.6, Perp=0.5%: 0/3 publishable
+  POS=0.65, Perp=1.5%: 0/3 publishable
+  POS=0.65, Perp=1.0%: 0/3 publishable
+  POS=0.65, Perp=0.5%: 0/3 publishable

@@ -1,0 +1,36 @@
+{
+  "version": "baseline",
+  "date": "2025-01-06",
+  "description": "Baseline policy for 0457_fullbars",
+  "near_gate": {
+    "coverage_threshold": 0.85,
+    "f_words_threshold": 5,
+    "require_verb": true
+  },
+  "phrase_gate": {
+    "flint_v2": {
+      "enabled": true,
+      "description": "Pattern-based phrase detection"
+    },
+    "generic": {
+      "enabled": true,
+      "pos_threshold": 0.60,
+      "perplexity_percentile": 1.0,
+      "description": "POS and perplexity thresholds"
+    },
+    "cadence": {
+      "enabled": true,
+      "thresholds_file": "cadence/THRESHOLDS.json",
+      "description": "Cadence primitive thresholds"
+    },
+    "logic": "AND",
+    "description": "All three must pass"
+  },
+  "nulls": {
+    "n_samples": 10000,
+    "alpha": 0.01,
+    "m": 2,
+    "correction": "holm",
+    "description": "Holm correction for multiple testing"
+  }
+}

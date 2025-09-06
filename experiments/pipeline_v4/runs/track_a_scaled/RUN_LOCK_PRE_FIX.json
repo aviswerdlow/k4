@@ -1,0 +1,30 @@
+{
+  "timestamp": "2025-01-06T19:00:00Z",
+  "status": "PRE_FIX",
+  "issues_identified": [
+    "A4-Probe1: Reference bigram head z_fixed=-4.433 (expected >0)",
+    "A5: Leakage detected - delta_shuffled diff=1.989",
+    "A6: Duplicate heads found - 2 pairs with 100% similarity"
+  ],
+  "commits": {
+    "pre_reg": "9ce4d3b",
+    "current": "c919f97"
+  },
+  "calibration": {
+    "path": "lockbox/baseline_v4.json",
+    "sha256": "f6ad38fc15a1c007f2525f6f385720d825be0b3623db296695fc8ffe824bd98d"
+  },
+  "validation_results": {
+    "a2_calibration": "PASSED",
+    "a3_delta_invariants": "PASSED",
+    "a4_probe1_reference": "FAILED (z=-4.433)",
+    "a4_probe2_random": "PASSED",
+    "a4_probe3_separation": "PASSED",
+    "a5_leakage": "FAILED (diff=1.989)",
+    "a6_duplicates": "FAILED (2 duplicate pairs)"
+  },
+  "files_preserved": [
+    "EXPLORE_MATRIX_FIXED.csv",
+    "validation_packet.json"
+  ]
+}

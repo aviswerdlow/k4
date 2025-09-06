@@ -1,7 +1,7 @@
 #!/usr/bin/env python3
 """
-Track A1: Blinded-first MCMC head generator.
-Generates heads that maximize blinded n-gram quality without anchor constraints.
+Track A1 SCALED: Blinded-first MCMC head generator.
+GO-A parameters frozen for production run.
 """
 
 import json
@@ -17,9 +17,9 @@ sys.path.insert(0, str(Path(__file__).parent.parent.parent.parent))
 from experiments.pipeline_v2.scripts.explore.run_family import ExplorePipeline
 
 
-class BlindedMCMCGenerator:
+class BlindedMCMCGeneratorScaled:
     """
-    Generate heads optimized for blinded n-gram quality.
+    Scaled generation with 4-stage annealing per GO-A.
     """
     
     def __init__(self, seed: int = 1337):
@@ -35,28 +35,19 @@ class BlindedMCMCGenerator:
         # Initialize scorer for blinding
         self.scorer = ExplorePipeline(seed)
         
-        # Parameters (GO-A frozen)
-        self.alpha = 0.7  # trigram weight
-        self.beta = 0.3   # bigram weight
-        self.gamma = 0.15  # compression proxy weight (updated per GO-A)
+        # GO-A frozen parameters
+        self.alpha = 0.7   # trigram weight
+        self.beta = 0.3    # bigram weight  
+        self.gamma = 0.15  # compression proxy weight
         self.lambda_content = 0.5  # content diversity penalty
         self.lambda_repeat = 0.8   # repetition penalty
     
     def blind_text(self, text: str) -> str:
-        """
-        Apply blinding to text (mask narrative/anchor terms).
-        """
-        # Use the same blinding as the scorer
-        blinded = self.scorer._blind_text(text)
-        return blinded
+        """Apply blinding to text."""
+        return self.scorer._blind_text(text)
     
     def compute_blinded_score(self, text: str) -> Tuple[float, Dict]:
-        """
-        Compute S_blind objective for unanchored text.
-        
-        Returns:
-            (score, components_dict)
-        """
+        """Compute S_blind objective for unanchored text."""
         # Blind the text first
         blinded = self.blind_text(text)
         
@@ -65,12 +56,12 @@ class BlindedMCMCGenerator:
         z_bigram = self._compute_z_bigram(blinded)
         z_compress = self._compute_z_compress(blinded)
         
-        # Content diversity (unique non-X chars after blinding)
+        # Content diversity
         content_chars = set(c for c in blinded if c != 'X' and c.isalpha())
         content_count = len(content_chars)
         content_penalty = max(0, 6 - content_count)
         
-        # Repetition penalty (longest repeat in blinded text)
+        # Repetition penalty
         max_repeat = self._find_max_repeat(blinded)
         repeat_penalty = max(0, max_repeat - 2)
         
@@ -102,7 +93,6 @@ class BlindedMCMCGenerator:
         
         for i in range(len(text) - 2):
             trigram = text[i:i+3]
-            # Skip if contains masked char
             if 'X' in trigram:
                 continue
             
@@ -114,17 +104,16 @@ class BlindedMCMCGenerator:
                     prob = self.trigram_model['trigram_probs'][prefix][char]
                     score += np.log(prob + 1e-10)
                 else:
-                    score -= 2  # Unseen trigram penalty
+                    score -= 2
             else:
-                score -= 1  # Unseen prefix penalty
+                score -= 1
             count += 1
         
         if count == 0:
             return -5.0
         
-        # Normalize to z-score (approximate)
         mean_score = score / count
-        z_score = (mean_score + 2.5) / 0.8  # Empirical normalization
+        z_score = (mean_score + 2.5) / 0.8
         return max(-5, min(5, z_score))
     
     def _compute_z_bigram(self, text: str) -> float:
@@ -161,8 +150,7 @@ class BlindedMCMCGenerator:
         return max(-5, min(5, z_score))
     
     def _compute_z_compress(self, text: str) -> float:
-        """Compute compression z-score (simplified LZ78 proxy)."""
-        # Count unique substrings as compression proxy
+        """Compute compression z-score."""
         substrings = set()
         for length in [2, 3, 4]:
             for i in range(len(text) - length + 1):
@@ -170,8 +158,7 @@ class BlindedMCMCGenerator:
                 if 'X' not in substr:
                     substrings.add(substr)
         
-        # More unique substrings = better compressibility
-        expected = len(text) * 0.8  # Empirical
+        expected = len(text) * 0.8
         z_score = (len(substrings) - expected) / (expected * 0.2)
         return max(-5, min(5, z_score))
     
@@ -188,10 +175,7 @@ class BlindedMCMCGenerator:
         return max_repeat
     
     def propose_move(self, text: str) -> str:
-        """
-        Propose a move in MCMC chain.
-        Move types: single-site flip, adjacent swap, 3-gram block shuffle.
-        """
+        """Propose a move in MCMC chain."""
         move_type = random.choice(['flip', 'swap', 'shuffle'])
         text_list = list(text)
         
@@ -199,7 +183,6 @@ class BlindedMCMCGenerator:
             # Single-site flip
             pos = random.randint(0, len(text) - 1)
             old_char = text_list[pos]
-            # Sample from common letters
             new_char = random.choice("ETAOINSHRDLCUMWFGYPBVKJXQZ")
             while new_char == old_char:
                 new_char = random.choice("ETAOINSHRDLCUMWFGYPBVKJXQZ")
@@ -218,7 +201,6 @@ class BlindedMCMCGenerator:
                 pos2 = random.randint(0, len(text) - 3)
                 while abs(pos1 - pos2) < 3:
                     pos2 = random.randint(0, len(text) - 3)
-                # Swap 3-gram blocks
                 block1 = text_list[pos1:pos1+3]
                 block2 = text_list[pos2:pos2+3]
                 text_list[pos1:pos1+3] = block2
@@ -226,150 +208,180 @@ class BlindedMCMCGenerator:
         
         return ''.join(text_list)
     
-    def run_mcmc(
-        self, 
-        iterations: int = 10000,
-        init_temp: float = 2.0,
-        cooling_rate: float = 0.999,
-        sample_interval: int = 100
-    ) -> List[Dict]:
+    def run_mcmc_4stage(self, chain_id: int = 0) -> List[Dict]:
         """
-        Run MCMC to generate heads optimized for blinded scoring.
+        Run 4-stage annealed MCMC per GO-A.
+        Each stage: 15k proposals, different temperature.
         
         Returns:
-            List of head dictionaries with scores
+            List of samples from all stages
         """
+        # Chain-specific seed
+        chain_seed = self.seed + chain_id * 1000
+        random.seed(chain_seed)
+        np.random.seed(chain_seed)
+        
+        # Temperature schedule for 4 stages
+        temp_schedule = [
+            (3.0, 0.9995, 15000),  # Stage 1: High temp exploration
+            (2.0, 0.9997, 15000),  # Stage 2: Medium-high
+            (1.0, 0.9998, 15000),  # Stage 3: Medium
+            (0.5, 0.9999, 15000),  # Stage 4: Low temp refinement
+        ]
+        
+        all_samples = []
+        
         # Initialize with common English letters
         current = ''.join(random.choices("ETAOINSHRDLCUMWFGYPBVKJXQZ", k=75))
         current_score, current_components = self.compute_blinded_score(current)
         
-        best = current
-        best_score = current_score
-        best_components = current_components
+        best_overall = current
+        best_overall_score = current_score
         
-        samples = []
-        temperature = init_temp
-        accepted = 0
-        
-        for iteration in range(iterations):
-            # Propose move
-            proposed = self.propose_move(current)
-            proposed_score, proposed_components = self.compute_blinded_score(proposed)
+        for stage, (init_temp, cooling_rate, iterations) in enumerate(temp_schedule):
+            print(f"    Stage {stage+1}/4: T={init_temp}, iterations={iterations}")
             
-            # Metropolis acceptance
-            delta = proposed_score - current_score
-            if delta > 0 or random.random() < np.exp(delta / temperature):
-                current = proposed
-                current_score = proposed_score
-                current_components = proposed_components
-                accepted += 1
+            temperature = init_temp
+            accepted = 0
+            
+            best_stage = current
+            best_stage_score = current_score
+            
+            for iteration in range(iterations):
+                # Propose move
+                proposed = self.propose_move(current)
+                proposed_score, proposed_components = self.compute_blinded_score(proposed)
                 
-                if current_score > best_score:
-                    best = current
-                    best_score = current_score
-                    best_components = current_components
-            
-            # Cool temperature
-            temperature *= cooling_rate
-            temperature = max(0.01, temperature)
-            
-            # Sample periodically
-            if iteration % sample_interval == 0 and iteration > 0:
-                samples.append({
-                    'text': current,
-                    'score': current_score,
-                    'components': current_components,
-                    'iteration': iteration,
-                    'temperature': temperature,
-                    'accept_rate': accepted / iteration
-                })
+                # Metropolis-Hastings acceptance
+                delta = proposed_score - current_score
+                if delta > 0 or random.random() < np.exp(delta / temperature):
+                    current = proposed
+                    current_score = proposed_score
+                    current_components = proposed_components
+                    accepted += 1
+                    
+                    if current_score > best_stage_score:
+                        best_stage = current
+                        best_stage_score = current_score
+                    
+                    if current_score > best_overall_score:
+                        best_overall = current
+                        best_overall_score = current_score
                 
-                if iteration % 1000 == 0:
-                    print(f"  Iteration {iteration}: Score={current_score:.3f}, "
-                          f"Best={best_score:.3f}, T={temperature:.3f}, "
-                          f"Accept={accepted/iteration:.2%}")
+                # Cool temperature
+                temperature *= cooling_rate
+                temperature = max(0.01, temperature)
+                
+                # Sample periodically
+                if iteration % 3000 == 0 and iteration > 0:
+                    all_samples.append({
+                        'text': current,
+                        'score': current_score,
+                        'components': current_components,
+                        'chain_id': chain_id,
+                        'stage': stage + 1,
+                        'iteration': iteration,
+                        'temperature': temperature,
+                        'accept_rate': accepted / (iteration + 1)
+                    })
+                    
+                    if iteration % 9000 == 0:
+                        print(f"      Iter {iteration}: Score={current_score:.3f}, "
+                              f"Best={best_stage_score:.3f}, Accept={accepted/(iteration+1):.2%}")
+            
+            # Add best from stage
+            all_samples.append({
+                'text': best_stage,
+                'score': best_stage_score,
+                'components': current_components,
+                'chain_id': chain_id,
+                'stage': stage + 1,
+                'iteration': iterations,
+                'temperature': temperature,
+                'accept_rate': accepted / iterations
+            })
         
-        # Always include best
-        samples.append({
-            'text': best,
-            'score': best_score,
-            'components': best_components,
-            'iteration': iterations,
-            'temperature': temperature,
-            'accept_rate': accepted / iterations
+        # Always include global best
+        all_samples.append({
+            'text': best_overall,
+            'score': best_overall_score,
+            'components': current_components,
+            'chain_id': chain_id,
+            'stage': 'best',
+            'iteration': 60000,
+            'temperature': 0.01,
+            'accept_rate': 0
         })
         
-        return samples
+        return all_samples
     
-    def generate_heads(self, n_chains: int = 10, iterations: int = 10000) -> List[Dict]:
+    def generate_heads_scaled(self, n_chains: int = 20) -> List[Dict]:
         """
-        Generate N heads using multiple MCMC chains.
+        Generate heads to get K=200 candidates from ~1200 raw.
         
+        Args:
+            n_chains: Number of independent chains (20 chains * ~60 samples = 1200)
+            
         Returns:
-            List of head dictionaries sorted by score
+            Top 200 heads by score
         """
-        print(f"Running {n_chains} blinded MCMC chains...")
+        print(f"Running {n_chains} 4-stage MCMC chains...")
         all_heads = []
         
         for chain_id in range(n_chains):
             print(f"\nChain {chain_id + 1}/{n_chains}:")
+            samples = self.run_mcmc_4stage(chain_id)
             
-            # Vary temperature schedule
-            init_temp = random.uniform(1.0, 3.0)
-            cooling = random.uniform(0.997, 0.9995)
-            
-            # Run chain
-            samples = self.run_mcmc(
-                iterations=iterations,
-                init_temp=init_temp,
-                cooling_rate=cooling,
-                sample_interval=500
-            )
-            
-            # Add chain metadata
-            for sample in samples:
-                sample['chain_id'] = chain_id
-                sample['label'] = f'BLINDED_{chain_id:03d}_{sample["iteration"]:05d}'
+            for i, sample in enumerate(samples):
+                sample['label'] = f'BLINDED_CH{chain_id:02d}_S{sample.get("stage", 0)}_I{i:03d}'
                 all_heads.append(sample)
         
         # Sort by score
         all_heads.sort(key=lambda x: x['score'], reverse=True)
         
-        print(f"\nGenerated {len(all_heads)} heads")
-        print(f"Best blinded score: {all_heads[0]['score']:.3f}")
-        print(f"Worst blinded score: {all_heads[-1]['score']:.3f}")
+        print(f"\nGenerated {len(all_heads)} total heads")
+        print(f"Score range: {all_heads[0]['score']:.3f} to {all_heads[-1]['score']:.3f}")
         
-        return all_heads
+        # Return top 200
+        return all_heads[:200]
 
 
 def main():
-    """Generate blinded-first heads and save."""
-    generator = BlindedMCMCGenerator(seed=1337)
+    """Generate scaled heads for GO-A."""
+    generator = BlindedMCMCGeneratorScaled(seed=1337)
     
-    # Generate heads
-    heads = generator.generate_heads(n_chains=5, iterations=5000)
-    
-    # Keep top K=200
-    top_heads = heads[:200]
+    # Generate with scaled parameters - first batch for review
+    heads = generator.generate_heads_scaled(n_chains=2)  # Generates ~120 heads for top 25 selection
     
     # Save
-    output_dir = Path(__file__).parent.parent.parent / "runs" / "track_a"
+    output_dir = Path(__file__).parent.parent.parent / "runs" / "track_a_scaled"
     output_dir.mkdir(parents=True, exist_ok=True)
     
-    output_file = output_dir / "blinded_heads.json"
+    # Keep only top 25 for initial review
+    review_heads = heads[:25]
+    
+    output_file = output_dir / "blinded_heads_scaled_review.json"
     with open(output_file, 'w') as f:
         json.dump({
-            'track': 'A1_BLINDED_MCMC',
+            'track': 'A1_BLINDED_MCMC_SCALED_REVIEW',
             'total_generated': len(heads),
-            'kept': len(top_heads),
-            'heads': top_heads
+            'kept_for_review': len(review_heads),
+            'config': {
+                'n_chains': 2,
+                'stages': 4,
+                'proposals_per_stage': 15000,
+                'alpha': 0.7,
+                'beta': 0.3,
+                'gamma': 0.15
+            },
+            'heads': review_heads
         }, f, indent=2)
     
-    print(f"\nSaved {len(top_heads)} heads to {output_file}")
+    print(f"\nSaved {len(review_heads)} heads for review to {output_file}")
     
     # Create manifest
     manifest = {
-        'files': ['blinded_heads.json'],
+        'files': ['blinded_heads_scaled_review.json'],
         'hashes': {}
     }
     
@@ -382,7 +394,7 @@ def main():
     with open(output_dir / "MANIFEST.sha256", 'w') as f:
         json.dump(manifest, f, indent=2)
     
-    return top_heads
+    return heads
 
 
 if __name__ == "__main__":

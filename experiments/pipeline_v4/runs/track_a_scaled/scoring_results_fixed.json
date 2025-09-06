@@ -1,0 +1,406 @@
+{
+  "n_heads": 25,
+  "n_candidates": 25,
+  "results": [
+    {
+      "label": "BLINDED_CH00_S1_I004",
+      "original_score": 2.4625,
+      "delta_windowed_best": 0.8896847082028012,
+      "delta_shuffled": 2.646839905544165,
+      "pass_windowed": true,
+      "pass_shuffled": true,
+      "candidate": true,
+      "z_scores": {
+        "fixed": 3.652042019065941,
+        "windowed_r2": 3.3035511826769848,
+        "windowed_r3": 3.0927609221751102,
+        "windowed_r4": 2.76235731086314,
+        "shuffled": 1.005202113521776
+      }
+    },
+    {
+      "label": "BLINDED_CH00_Sbest_I020",
+      "original_score": 2.4625,
+      "delta_windowed_best": 0.13652394018216052,
+      "delta_shuffled": 2.5795036082379985,
+      "pass_windowed": true,
+      "pass_shuffled": true,
+      "candidate": true,
+      "z_scores": {
+        "fixed": 3.652042019065941,
+        "windowed_r2": 3.629508310946847,
+        "windowed_r3": 3.5155180788837805,
+        "windowed_r4": 3.7237965153977277,
+        "shuffled": 1.0725384108279425
+      }
+    },
+    {
+      "label": "BLINDED_CH01_S1_I004",
+      "original_score": 2.4036546707803352,
+      "delta_windowed_best": 1.18064284311399,
+      "delta_shuffled": 2.52336480746071,
+      "pass_windowed": true,
+      "pass_shuffled": true,
+      "candidate": true,
+      "z_scores": {
+        "fixed": 3.3225649508644084,
+        "windowed_r2": 3.256543056957502,
+        "windowed_r3": 2.1419221077504185,
+        "windowed_r4": 2.925234619568941,
+        "shuffled": 0.7992001434036985
+      }
+    },
+    {
+      "label": "BLINDED_CH01_Sbest_I020",
+      "original_score": 2.4036546707803352,
+      "delta_windowed_best": 0.5153790516956871,
+      "delta_shuffled": 3.1107731368596827,
+      "pass_windowed": true,
+      "pass_shuffled": true,
+      "candidate": true,
+      "z_scores": {
+        "fixed": 3.3225649508644084,
+        "windowed_r2": 3.006256280739721,
+        "windowed_r3": 3.25245184875553,
+        "windowed_r4": 2.8071858991687213,
+        "shuffled": 0.2117918140047256
+      }
+    },
+    {
+      "label": "BLINDED_CH00_S2_I009",
+      "original_score": 2.422291053114692,
+      "delta_windowed_best": 0.43716808458372514,
+      "delta_shuffled": 4.1931691568720195,
+      "pass_windowed": true,
+      "pass_shuffled": true,
+      "candidate": true,
+      "z_scores": {
+        "fixed": 3.426910711094344,
+        "windowed_r2": 3.2804948765815927,
+        "windowed_r3": 2.989742626510619,
+        "windowed_r4": 3.180112379337714,
+        "shuffled": -0.7662584457776755
+      }
+    },
+    {
+      "label": "BLINDED_CH00_S1_I003",
+      "original_score": 2.4377526935438025,
+      "delta_windowed_best": 0.681638090435206,
+      "delta_shuffled": 4.487945382036416,
+      "pass_windowed": true,
+      "pass_shuffled": true,
+      "candidate": true,
+      "z_scores": {
+        "fixed": 3.513480979724385,
+        "windowed_r2": 3.065236881551731,
+        "windowed_r3": 2.872526979375048,
+        "windowed_r4": 2.831842889289179,
+        "shuffled": -0.9744644023120305
+      }
+    },
+    {
+      "label": "BLINDED_CH01_S1_I003",
+      "original_score": 2.2513767815679686,
+      "delta_windowed_best": 0.28173650102064807,
+      "delta_shuffled": 3.672018210651663,
+      "pass_windowed": true,
+      "pass_shuffled": true,
+      "candidate": true,
+      "z_scores": {
+        "fixed": 2.4699556927477584,
+        "windowed_r2": 2.7287093656185,
+        "windowed_r3": 2.464787563059108,
+        "windowed_r4": 2.1882191917271103,
+        "shuffled": -1.2020625179039046
+      }
+    },
+    {
+      "label": "BLINDED_CH01_S2_I009",
+      "original_score": 2.376657389040327,
+      "delta_windowed_best": 1.5628685617919054,
+      "delta_shuffled": 2.8695220731906494,
+      "pass_windowed": true,
+      "pass_shuffled": true,
+      "candidate": true,
+      "z_scores": {
+        "fixed": 3.1714062207652955,
+        "windowed_r2": 2.4431909691493443,
+        "windowed_r3": 3.229140145763084,
+        "windowed_r4": 1.6085376589733902,
+        "shuffled": 0.30188414757464604
+      }
+    },
+    {
+      "label": "BLINDED_CH00_S3_I014",
+      "original_score": 2.408773950763249,
+      "delta_windowed_best": 0.4980025520356852,
+      "delta_shuffled": 4.433451082530215,
+      "pass_windowed": true,
+      "pass_shuffled": true,
+      "candidate": true,
+      "z_scores": {
+        "fixed": 3.3512279795608237,
+        "windowed_r2": 3.4159755608638074,
+        "windowed_r3": 3.0410406354332893,
+        "windowed_r4": 2.8532254275251385,
+        "shuffled": -1.082223102969392
+      }
+    },
+    {
+      "label": "BLINDED_CH00_S4_I019",
+      "original_score": 2.4086259580628875,
+      "delta_windowed_best": 0.7341870189119541,
+      "delta_shuffled": 3.6494887886866314,
+      "pass_windowed": true,
+      "pass_shuffled": true,
+      "candidate": true,
+      "z_scores": {
+        "fixed": 3.350399363225815,
+        "windowed_r2": 3.5074737139409717,
+        "windowed_r3": 2.616212344313861,
+        "windowed_r4": 2.930446256615141,
+        "shuffled": -0.29908942546081635
+      }
+    },
+    {
+      "label": "BLINDED_CH01_S3_I014",
+      "original_score": 2.454390177056156,
+      "delta_windowed_best": 0.44388648043206436,
+      "delta_shuffled": 4.447915614579299,
+      "pass_windowed": true,
+      "pass_shuffled": true,
+      "candidate": true,
+      "z_scores": {
+        "fixed": 3.606634835138108,
+        "windowed_r2": 3.6469291368372927,
+        "windowed_r3": 3.1627483547060438,
+        "windowed_r4": 3.3764219177135875,
+        "shuffled": -0.8412807794411908
+      }
+    },
+    {
+      "label": "BLINDED_CH01_S4_I019",
+      "original_score": 2.373229428606445,
+      "delta_windowed_best": 0.12935383648479304,
+      "delta_shuffled": 1.566610711185236,
+      "pass_windowed": true,
+      "pass_shuffled": true,
+      "candidate": true,
+      "z_scores": {
+        "fixed": 3.1522129497165396,
+        "windowed_r2": 3.0760899933178383,
+        "windowed_r3": 3.0228591132317466,
+        "windowed_r4": 3.1504547315887366,
+        "shuffled": 1.5856022385313036
+      }
+    },
+    {
+      "label": "BLINDED_CH01_S1_I002",
+      "original_score": 2.429222757430423,
+      "delta_windowed_best": 0.57242872083705,
+      "delta_shuffled": 2.0766123316541636,
+      "pass_windowed": true,
+      "pass_shuffled": true,
+      "candidate": true,
+      "z_scores": {
+        "fixed": 3.465721567382726,
+        "windowed_r2": 3.3985984697349862,
+        "windowed_r3": 3.3814608940632347,
+        "windowed_r4": 2.893292846545676,
+        "shuffled": 1.3891092357285622
+      }
+    },
+    {
+      "label": "BLINDED_CH01_S2_I008",
+      "original_score": 2.2499759020897083,
+      "delta_windowed_best": 0.8096389605260885,
+      "delta_shuffled": 3.119041707396874,
+      "pass_windowed": true,
+      "pass_shuffled": true,
+      "candidate": true,
+      "z_scores": {
+        "fixed": 2.4621121192726583,
+        "windowed_r2": 2.548026513160943,
+        "windowed_r3": 2.02895874193513,
+        "windowed_r4": 1.6524731587465697,
+        "shuffled": -0.6569295881242158
+      }
+    },
+    {
+      "label": "BLINDED_CH00_S1_I002",
+      "original_score": 2.354912359761689,
+      "delta_windowed_best": 0.3179807464254223,
+      "delta_shuffled": 4.843072540270917,
+      "pass_windowed": true,
+      "pass_shuffled": true,
+      "candidate": true,
+      "z_scores": {
+        "fixed": 3.0496550369468203,
+        "windowed_r2": 3.1373503107253375,
+        "windowed_r3": 2.731674290521398,
+        "windowed_r4": 3.062408689922083,
+        "shuffled": -1.793417503324097
+      }
+    },
+    {
+      "label": "BLINDED_CH01_S2_I006",
+      "original_score": 2.3623999662367634,
+      "delta_windowed_best": 0.18857625002517953,
+      "delta_shuffled": 3.4185273982934503,
+      "pass_windowed": true,
+      "pass_shuffled": true,
+      "candidate": true,
+      "z_scores": {
+        "fixed": 3.091578408979378,
+        "windowed_r2": 3.3206527401530876,
+        "windowed_r3": 3.1017010502940927,
+        "windowed_r4": 2.9030021589541986,
+        "shuffled": -0.3269489893140721
+      }
+    },
+    {
+      "label": "BLINDED_CH00_S4_I015",
+      "original_score": 2.3789550638011554,
+      "delta_windowed_best": 0.443705085186453,
+      "delta_shuffled": 2.00750371521914,
+      "pass_windowed": true,
+      "pass_shuffled": true,
+      "candidate": true,
+      "z_scores": {
+        "fixed": 3.184270982572516,
+        "windowed_r2": 3.2846880810995462,
+        "windowed_r3": 2.9869251293528674,
+        "windowed_r4": 2.740565897386063,
+        "shuffled": 1.1767672673533758
+      }
+    },
+    {
+      "label": "BLINDED_CH01_S4_I016",
+      "original_score": 2.2140989298797438,
+      "delta_windowed_best": 0.4941474339901364,
+      "delta_shuffled": 1.4211249382290578,
+      "pass_windowed": true,
+      "pass_shuffled": true,
+      "candidate": true,
+      "z_scores": {
+        "fixed": 2.2612356898867074,
+        "windowed_r2": 1.767088255896571,
+        "windowed_r3": 1.9918692850260107,
+        "windowed_r4": 2.0719086126000232,
+        "shuffled": 0.8401107516576495
+      }
+    },
+    {
+      "label": "BLINDED_CH01_S4_I017",
+      "original_score": 2.363676793064145,
+      "delta_windowed_best": 1.5760072638112945,
+      "delta_shuffled": 3.2486408472166253,
+      "pass_windowed": true,
+      "pass_shuffled": true,
+      "candidate": true,
+      "z_scores": {
+        "fixed": 3.0987274072986217,
+        "windowed_r2": 3.208236470396356,
+        "windowed_r3": 2.100841054146755,
+        "windowed_r4": 1.5227201434873272,
+        "shuffled": -0.1499134399180037
+      }
+    },
+    {
+      "label": "BLINDED_CH00_S2_I008",
+      "original_score": 2.3244328120089643,
+      "delta_windowed_best": 0.7664638025783046,
+      "delta_shuffled": 1.0451639469060299,
+      "pass_windowed": true,
+      "pass_shuffled": true,
+      "candidate": true,
+      "z_scores": {
+        "fixed": 2.878998976952845,
+        "windowed_r2": 2.666897360498033,
+        "windowed_r3": 2.1125351743745404,
+        "windowed_r4": 2.562005598206368,
+        "shuffled": 1.8338350300468151
+      }
+    },
+    {
+      "label": "BLINDED_CH00_S3_I012",
+      "original_score": 2.3451517860562925,
+      "delta_windowed_best": 0.4571826018882468,
+      "delta_shuffled": 1.0350554855073821,
+      "pass_windowed": true,
+      "pass_shuffled": true,
+      "candidate": true,
+      "z_scores": {
+        "fixed": 2.9950052414394426,
+        "windowed_r2": 2.537822639551196,
+        "windowed_r3": 3.0202052567969306,
+        "windowed_r4": 2.590408331356132,
+        "shuffled": 1.9599497559320604
+      }
+    },
+    {
+      "label": "BLINDED_CH01_S3_I013",
+      "original_score": 2.281058224610633,
+      "delta_windowed_best": 0.5409383464186028,
+      "delta_shuffled": 2.1309041678991987,
+      "pass_windowed": true,
+      "pass_shuffled": true,
+      "candidate": true,
+      "z_scores": {
+        "fixed": 2.6361431363965537,
+        "windowed_r2": 2.095204789977951,
+        "windowed_r3": 2.676045195069507,
+        "windowed_r4": 2.402994975133089,
+        "shuffled": 0.505238968497355
+      }
+    },
+    {
+      "label": "BLINDED_CH01_S3_I010",
+      "original_score": 2.452970855354499,
+      "delta_windowed_best": 0.6216486430519703,
+      "delta_shuffled": 2.908959698921572,
+      "pass_windowed": true,
+      "pass_shuffled": true,
+      "candidate": true,
+      "z_scores": {
+        "fixed": 3.5986880030054986,
+        "windowed_r2": 3.3040727245760526,
+        "windowed_r3": 2.9770393599535283,
+        "windowed_r4": 3.2932681536539503,
+        "shuffled": 0.6897283040839266
+      }
+    },
+    {
+      "label": "BLINDED_CH00_S3_I011",
+      "original_score": 2.401274148990597,
+      "delta_windowed_best": 0.16316916422929584,
+      "delta_shuffled": 2.0127653641224166,
+      "pass_windowed": true,
+      "pass_shuffled": true,
+      "candidate": true,
+      "z_scores": {
+        "fixed": 3.3092363256281563,
+        "windowed_r2": 3.246112109563941,
+        "windowed_r3": 3.3156379570902685,
+        "windowed_r4": 3.1460671613988604,
+        "shuffled": 1.2964709615057395
+      }
+    },
+    {
+      "label": "BLINDED_CH01_S1_I001",
+      "original_score": 2.3780583786106124,
+      "delta_windowed_best": 0.6946871934323169,
+      "delta_shuffled": 2.065558930444368,
+      "pass_windowed": true,
+      "pass_shuffled": true,
+      "candidate": true,
+      "z_scores": {
+        "fixed": 3.1792504106495176,
+        "windowed_r2": 3.163652970943463,
+        "windowed_r3": 2.4845632172172007,
+        "windowed_r4": 3.281705452759497,
+        "shuffled": 1.1136914802051496
+      }
+    }
+  ]
+}

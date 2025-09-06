@@ -1,0 +1,46 @@
+{
+  "timestamp": "2024-01-15T12:00:00Z",
+  "pipeline_version": "v4_fixed",
+  "validation_results": {
+    "leakage_test": {
+      "delta_windowed_diff": 0.0,
+      "delta_shuffled_diff": 0.0,
+      "status": "PASSED"
+    },
+    "duplicate_test": {
+      "n_heads": 25,
+      "n_unique": 25,
+      "duplicates": 0,
+      "status": "PASSED"
+    },
+    "calibration_check": {
+      "sha256": "verified",
+      "all_positive_sigma": true,
+      "all_n_1000": true,
+      "status": "PASSED"
+    }
+  },
+  "scoring_results": {
+    "n_heads": 25,
+    "n_candidates": 5,
+    "candidate_rate": 0.2,
+    "delta_windowed_range": [
+      -0.30362289337877285,
+      0.6391794868485476
+    ],
+    "delta_shuffled_range": [
+      -2.366723144986336,
+      1.271932336504405
+    ]
+  },
+  "orbit_results": {
+    "n_input": 5,
+    "n_survivors": 5,
+    "survival_rate": 1.0
+  },
+  "decision": {
+    "orbit_survivors": 5,
+    "proceed_to_nulls": true,
+    "scale_to_k200": "TBD after fast nulls"
+  }
+}

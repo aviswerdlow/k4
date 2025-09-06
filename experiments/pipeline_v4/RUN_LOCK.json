@@ -1,0 +1,53 @@
+{
+  "timestamp": "2025-01-06T18:00:00Z",
+  "pre_reg_commit": "9ce4d3b",
+  "current_commit": "c919f97",
+  "components": {
+    "scorer": "scripts/v4/score_with_calibration.py",
+    "generator": "scripts/v4/gen_blinded_mcmc_scaled.py",
+    "saliency": "scripts/v4/saliency_map.py",
+    "placement": "scripts/v4/place_anchors_pareto.py",
+    "repair": "scripts/v4/neutral_repair.py"
+  },
+  "calibration": {
+    "path": "lockbox/baseline_v4.json",
+    "sha256": "f6ad38fc15a1c007f2525f6f385720d825be0b3623db296695fc8ffe824bd98d",
+    "stats": {
+      "fixed": {"mu": 1.810, "sigma": 0.179, "N": 1000},
+      "windowed_r2": {"mu": 1.793, "sigma": 0.176, "N": 1000},
+      "windowed_r3": {"mu": 1.799, "sigma": 0.182, "N": 1000},
+      "windowed_r4": {"mu": 1.798, "sigma": 0.181, "N": 1000},
+      "shuffled": {"mu": 1.788, "sigma": 0.186, "N": 1000}
+    }
+  },
+  "seeds": {
+    "global": 1337,
+    "generator": 1337,
+    "saliency": 1337,
+    "placement": 1337,
+    "repair": 1337,
+    "scorer": 1337,
+    "chain_seeds": "1337 + chain_id * 1000",
+    "worker_seeds": "SHA256(f'{seed}|{label}|worker:{wid}')[:16]"
+  },
+  "parameters": {
+    "mcmc": {
+      "stages": 4,
+      "temperatures": [3.0, 2.0, 1.0, 0.5],
+      "cooling_rates": [0.9995, 0.9997, 0.9998, 0.9999],
+      "proposals_per_stage": 15000
+    },
+    "objective_weights": {
+      "alpha": 0.7,
+      "beta": 0.3,
+      "gamma": 0.15,
+      "lambda_content": 0.5,
+      "lambda_repeat": 0.8
+    },
+    "thresholds": {
+      "delta_windowed": 0.05,
+      "delta_shuffled": 0.10,
+      "epsilon_bands": [0.05, 0.10]
+    }
+  }
+}
