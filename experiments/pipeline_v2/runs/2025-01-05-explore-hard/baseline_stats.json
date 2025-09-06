@@ -1,0 +1,9 @@
+{
+  "ngram_mean": 0.010611995598837704,
+  "ngram_std": 0.005449931553969021,
+  "coverage_mean": 0.15695355896671687,
+  "coverage_std": 0.09543566792251205,
+  "compress_mean": 0.0,
+  "compress_std": 0.0,
+  "n_samples": 100
+}

@@ -146,8 +146,9 @@ k4 grid-unique \
 
 ## Pipeline v2
 
-Pipeline v2 (Explore vs Confirm) — docs, policies, and a sample run:
-`experiments/pipeline_v2/`
+Pipeline v2 (Explore vs Confirm) — docs, policies, and sample runs:
+- Framework: `experiments/pipeline_v2/`
+- Explore-Hard campaign: `experiments/pipeline_v2/runs/2025-01-05-explore-hard/`
 
 ## Artifacts
 

@@ -1,0 +1,63 @@
+{
+  "timestamp": "neg_controls",
+  "seed": 1337,
+  "baseline_score": 0.16,
+  "controls": [
+    {
+      "control_type": "original",
+      "modification": "none",
+      "score": 0.16,
+      "coverage": 0.48888888888888893,
+      "ngram": 0.033333333333333326,
+      "compress": 0.0,
+      "delta_from_original": 0.0,
+      "ratio_to_original": 1.0
+    },
+    {
+      "control_type": "scrambled_anchors",
+      "modification": "anchors_permuted",
+      "score": 0.11805555555555555,
+      "coverage": 0.3527777777777778,
+      "ngram": 0.03055555555555555,
+      "compress": 0.0,
+      "delta_from_original": -0.04194444444444445,
+      "ratio_to_original": 0.7378472222222222
+    },
+    {
+      "control_type": "permuted_seam",
+      "modification": "seam_at_74",
+      "score": 0.16,
+      "coverage": 0.48888888888888893,
+      "ngram": 0.033333333333333326,
+      "compress": 0.0,
+      "delta_from_original": 0.0,
+      "ratio_to_original": 1.0
+    },
+    {
+      "control_type": "anchor_free",
+      "modification": "no_anchor_scoring",
+      "score": 0.16,
+      "coverage": 0.48888888888888893,
+      "ngram": 0.033333333333333326,
+      "compress": 0.0,
+      "delta_from_original": 0.0,
+      "ratio_to_original": 1.0
+    },
+    {
+      "control_type": "random_shuffle",
+      "modification": "complete_shuffle",
+      "score": 0.002777777777777778,
+      "coverage": 0.0,
+      "ngram": 0.006944444444444444,
+      "compress": 0.0,
+      "delta_from_original": -0.15722222222222224,
+      "ratio_to_original": 0.017361111111111112
+    }
+  ],
+  "summary": {
+    "scrambled_degrades": false,
+    "seam_affects": false,
+    "anchors_matter": false,
+    "random_worst": true
+  }
+}
