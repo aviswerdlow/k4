@@ -164,34 +164,34 @@ def evaluate_cadence(head_text: str, words: List[str], thresholds_path: str = No
     # Evaluate against thresholds
     tests = {
         'cosine_bigram': {
-            'value': cosine_bi,
-            'threshold': thresholds['cosine_bigram_p5'],
-            'pass': cosine_bi >= thresholds['cosine_bigram_p5']
+            'value': float(cosine_bi),
+            'threshold': float(thresholds['cosine_bigram_p5']),
+            'pass': bool(cosine_bi >= thresholds['cosine_bigram_p5'])
         },
         'cosine_trigram': {
-            'value': cosine_tri,
-            'threshold': thresholds['cosine_trigram_p5'],
-            'pass': cosine_tri >= thresholds['cosine_trigram_p5']
+            'value': float(cosine_tri),
+            'threshold': float(thresholds['cosine_trigram_p5']),
+            'pass': bool(cosine_tri >= thresholds['cosine_trigram_p5'])
         },
         'fw_gap_mean': {
-            'value': fw_mean,
-            'band': [thresholds['fw_gap_mean_p2.5'], thresholds['fw_gap_mean_p97.5']],
-            'pass': thresholds['fw_gap_mean_p2.5'] <= fw_mean <= thresholds['fw_gap_mean_p97.5']
+            'value': float(fw_mean),
+            'band': [float(thresholds['fw_gap_mean_p2.5']), float(thresholds['fw_gap_mean_p97.5'])],
+            'pass': bool(thresholds['fw_gap_mean_p2.5'] <= fw_mean <= thresholds['fw_gap_mean_p97.5'])
         },
         'fw_gap_cv': {
-            'value': fw_cv,
-            'band': [thresholds['fw_gap_cv_p2.5'], thresholds['fw_gap_cv_p97.5']],
-            'pass': thresholds['fw_gap_cv_p2.5'] <= fw_cv <= thresholds['fw_gap_cv_p97.5']
+            'value': float(fw_cv),
+            'band': [float(thresholds['fw_gap_cv_p2.5']), float(thresholds['fw_gap_cv_p97.5'])],
+            'pass': bool(thresholds['fw_gap_cv_p2.5'] <= fw_cv <= thresholds['fw_gap_cv_p97.5'])
         },
         'wordlen_chi2': {
-            'value': wordlen_chi2,
-            'threshold': thresholds['wordlen_chi2_p95'],
-            'pass': wordlen_chi2 <= thresholds['wordlen_chi2_p95']
+            'value': float(wordlen_chi2),
+            'threshold': float(thresholds['wordlen_chi2_p95']),
+            'pass': bool(wordlen_chi2 <= thresholds['wordlen_chi2_p95'])
         },
         'vc_ratio': {
-            'value': vc_ratio,
-            'band': [thresholds['vc_ratio_p2.5'], thresholds['vc_ratio_p97.5']],
-            'pass': thresholds['vc_ratio_p2.5'] <= vc_ratio <= thresholds['vc_ratio_p97.5']
+            'value': float(vc_ratio),
+            'band': [float(thresholds['vc_ratio_p2.5']), float(thresholds['vc_ratio_p97.5'])],
+            'pass': bool(thresholds['vc_ratio_p2.5'] <= vc_ratio <= thresholds['vc_ratio_p97.5'])
         }
     }
     
@@ -199,7 +199,7 @@ def evaluate_cadence(head_text: str, words: List[str], thresholds_path: str = No
     overall_pass = all(test['pass'] for test in tests.values())
     
     return {
-        'pass': overall_pass,
+        'pass': bool(overall_pass),  # Convert to Python bool
         'primitives': tests,
         'summary': {
             'passed': sum(1 for t in tests.values() if t['pass']),
