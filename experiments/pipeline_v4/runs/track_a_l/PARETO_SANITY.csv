@@ -1,0 +1,11 @@
+label,predicted_drop_sum,actual_drop,recovery_fraction,f_words_pre,f_words_post,verb_count_pre,verb_count_post,pattern_post,coverage_post,leakage_diff,passed_head_gate
+VROBUST_0000,2.511,0.000,0.000,0,13,2,2,True,0.850,0.000,True
+VROBUST_0001,2.429,-4.000,0.000,0,14,2,2,True,0.850,0.000,True
+VROBUST_0003,2.363,-4.000,0.000,0,17,2,2,True,0.850,0.000,True
+VROBUST_0004,2.369,-6.000,0.000,0,16,3,3,True,0.850,0.000,True
+VROBUST_0005,2.504,3.000,0.500,0,10,2,3,True,0.850,0.000,True
+VROBUST_0006,2.610,4.000,0.750,0,11,3,3,True,0.850,0.000,True
+VROBUST_0007,2.399,-3.000,0.000,0,15,2,2,True,0.850,0.000,True
+VROBUST_0008,2.163,-8.000,0.000,0,14,2,2,True,0.850,0.000,True
+VROBUST_0009,2.272,-6.000,0.000,0,15,2,2,True,0.850,0.000,True
+VROBUST_0010,2.570,-4.000,0.000,0,18,2,2,True,0.850,0.000,True

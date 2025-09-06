@@ -1,0 +1,99 @@
+{
+  "original": "SET THE COURSE TRUE AND READ THE SIGN WHERE THE PATH LEADS TO MORE",
+  "original_metrics": {
+    "f_words": 6,
+    "has_verb": true,
+    "f_word_positions": [
+      1,
+      4,
+      6,
+      8,
+      9,
+      12
+    ],
+    "total_words": 14
+  },
+  "optimal_placement": {
+    "configs": [
+      {
+        "anchor": "EAST",
+        "position": 0
+      },
+      {
+        "anchor": "NORTHEAST",
+        "position": 4
+      },
+      {
+        "anchor": "BERLIN",
+        "position": 8
+      },
+      {
+        "anchor": "CLOCK",
+        "position": 15
+      }
+    ],
+    "drops": [
+      0.5906532827008858,
+      0.5600123358299277,
+      0.5742202669573934,
+      0.532756048077865
+    ],
+    "cost": 1.5803493534962503
+  },
+  "anchored": "THE EAST SET THE NORTHEAST THE THE BERLIN COURSE THE CLOCK TRUE AND READ THE SIGN WHERE THE PATH LEADS TO MORE",
+  "anchored_metrics": {
+    "f_words": 10,
+    "has_verb": true,
+    "f_word_positions": [
+      0,
+      3,
+      5,
+      6,
+      9,
+      12,
+      14,
+      16,
+      17,
+      20
+    ],
+    "total_words": 22
+  },
+  "repair": {
+    "original_text": "SET THE COURSE TRUE AND READ THE SIGN WHERE THE PATH LEADS TO MORE",
+    "anchored_text": "THE EAST SET THE NORTHEAST THE THE BERLIN COURSE THE CLOCK TRUE AND READ THE SIGN WHERE THE PATH LEADS TO MORE",
+    "repaired_text": "THE EAST SET THE NORTHEAST THE THE BERLIN COURSE THE CLOCK TRUE A AND READ THE SIGN WHERE THE PATH LEADS TO MORE",
+    "original_score": 7.0,
+    "anchored_score": 12.0,
+    "repaired_score": 12.5,
+    "initial_drop": -5.0,
+    "final_recovery": 0.0,
+    "moves_made": 1,
+    "repair_trace": [
+      {
+        "move": 1,
+        "position": 12,
+        "type": "insert",
+        "score": 12.5,
+        "recovery": 0.0
+      }
+    ]
+  },
+  "final_metrics": {
+    "f_words": 11,
+    "has_verb": true,
+    "f_word_positions": [
+      0,
+      3,
+      5,
+      6,
+      9,
+      12,
+      13,
+      15,
+      17,
+      18,
+      21
+    ],
+    "total_words": 23
+  }
+}

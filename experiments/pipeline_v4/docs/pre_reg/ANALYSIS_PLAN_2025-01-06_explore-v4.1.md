@@ -1,6 +1,6 @@
 # Analysis Plan: Explore v4.1 - Language-First Generation
 **Pre-registered**: 2025-01-06  
-**Commit Hash**: [TO BE FILLED]  
+**Commit Hash**: 4d5ce800e9425812f8ebf2c7a9041191616189a1  
 **Master Seed**: 1338  
 **CT SHA-256**: eea813570c7f1fd3b34674e47b5c3da8948026f5cefee612a0b38ffaa515ceab
 

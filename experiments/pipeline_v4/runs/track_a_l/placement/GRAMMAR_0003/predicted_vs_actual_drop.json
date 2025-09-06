@@ -1,0 +1,30 @@
+{
+  "label": "GRAMMAR_0003",
+  "predicted_drops": [
+    0.6549869035567947,
+    0.6393046529378618,
+    0.5973347960986205,
+    0.6654064246674462
+  ],
+  "predicted_sum": 2.557032777260723,
+  "actual_drop": 2.0,
+  "anchor_configs": [
+    {
+      "anchor": "EAST",
+      "position": 2
+    },
+    {
+      "anchor": "NORTHEAST",
+      "position": 11
+    },
+    {
+      "anchor": "BERLIN",
+      "position": 16
+    },
+    {
+      "anchor": "CLOCK",
+      "position": 21
+    }
+  ],
+  "recovery_fraction": 0.75
+}

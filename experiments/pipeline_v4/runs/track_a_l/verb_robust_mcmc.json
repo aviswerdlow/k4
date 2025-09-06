@@ -1,0 +1,1842 @@
+[
+  {
+    "initial_text": "YOUR OF HAVE WITH AT YOUR MARK FULL THEN BRING THE DIAL FAST HAVE AT FOR",
+    "final_text": "YOUR OF HAVE WITH AT YOUR MARK FULL THEN BRING THE DIAL FAST HAVE AT FOR",
+    "initial_score": 2.5723214285714286,
+    "final_score": 2.5723214285714286,
+    "initial_metrics": {
+      "verb_count": 2,
+      "has_pattern": true,
+      "f_words": 11,
+      "coverage": 0.875
+    },
+    "final_metrics": {
+      "verb_count": 2,
+      "has_pattern": true,
+      "f_words": 11,
+      "coverage": 0.875
+    },
+    "accepted_moves": 1999,
+    "rejected_moves": 1,
+    "trajectory": [
+      {
+        "move": 100,
+        "score": 0.32,
+        "temp": 3.0,
+        "verb_count": 10,
+        "fw": 3,
+        "cov": 1.0
+      },
+      {
+        "move": 200,
+        "score": 0.2,
+        "temp": 3.0,
+        "verb_count": 12,
+        "fw": 0,
+        "cov": 1.0
+      },
+      {
+        "move": 300,
+        "score": 0.2,
+        "temp": 3.0,
+        "verb_count": 12,
+        "fw": 0,
+        "cov": 1.0
+      },
+      {
+        "move": 400,
+        "score": 0.2,
+        "temp": 3.0,
+        "verb_count": 12,
+        "fw": 0,
+        "cov": 1.0
+      },
+      {
+        "move": 500,
+        "score": 0.2,
+        "temp": 3.0,
+        "verb_count": 12,
+        "fw": 0,
+        "cov": 1.0
+      },
+      {
+        "move": 600,
+        "score": 0.2,
+        "temp": 2.0,
+        "verb_count": 12,
+        "fw": 0,
+        "cov": 1.0
+      },
+      {
+        "move": 700,
+        "score": 0.2,
+        "temp": 2.0,
+        "verb_count": 12,
+        "fw": 0,
+        "cov": 1.0
+      },
+      {
+        "move": 800,
+        "score": 0.2,
+        "temp": 2.0,
+        "verb_count": 12,
+        "fw": 0,
+        "cov": 1.0
+      },
+      {
+        "move": 900,
+        "score": 0.2,
+        "temp": 2.0,
+        "verb_count": 12,
+        "fw": 0,
+        "cov": 1.0
+      },
+      {
+        "move": 1000,
+        "score": 0.2,
+        "temp": 2.0,
+        "verb_count": 12,
+        "fw": 0,
+        "cov": 1.0
+      },
+      {
+        "move": 1100,
+        "score": 0.2,
+        "temp": 1.0,
+        "verb_count": 12,
+        "fw": 0,
+        "cov": 1.0
+      },
+      {
+        "move": 1200,
+        "score": 0.2,
+        "temp": 1.0,
+        "verb_count": 12,
+        "fw": 0,
+        "cov": 1.0
+      },
+      {
+        "move": 1300,
+        "score": 0.2,
+        "temp": 1.0,
+        "verb_count": 12,
+        "fw": 0,
+        "cov": 1.0
+      },
+      {
+        "move": 1400,
+        "score": 0.2,
+        "temp": 1.0,
+        "verb_count": 12,
+        "fw": 0,
+        "cov": 1.0
+      },
+      {
+        "move": 1500,
+        "score": 0.2,
+        "temp": 1.0,
+        "verb_count": 12,
+        "fw": 0,
+        "cov": 1.0
+      },
+      {
+        "move": 1600,
+        "score": 0.2,
+        "temp": 0.5,
+        "verb_count": 12,
+        "fw": 0,
+        "cov": 1.0
+      },
+      {
+        "move": 1700,
+        "score": 0.2,
+        "temp": 0.5,
+        "verb_count": 12,
+        "fw": 0,
+        "cov": 1.0
+      },
+      {
+        "move": 1800,
+        "score": 0.2,
+        "temp": 0.5,
+        "verb_count": 12,
+        "fw": 0,
+        "cov": 1.0
+      },
+      {
+        "move": 1900,
+        "score": 0.2,
+        "temp": 0.5,
+        "verb_count": 12,
+        "fw": 0,
+        "cov": 1.0
+      },
+      {
+        "move": 2000,
+        "score": 0.2,
+        "temp": 0.5,
+        "verb_count": 12,
+        "fw": 0,
+        "cov": 1.0
+      }
+    ],
+    "meets_criteria": true,
+    "id": "VROBUST_0000"
+  },
+  {
+    "initial_text": "THE REDUCE CLEAR THEN READ THE WAY FAST HAVE YOUR A BE IS FOR BY YOUR",
+    "final_text": "THE REDUCE CLEAR THEN READ THE WAY FAST HAVE YOUR A BE IS FOR BY YOUR",
+    "initial_score": 2.5723214285714286,
+    "final_score": 2.5723214285714286,
+    "initial_metrics": {
+      "verb_count": 2,
+      "has_pattern": true,
+      "f_words": 11,
+      "coverage": 0.875
+    },
+    "final_metrics": {
+      "verb_count": 2,
+      "has_pattern": true,
+      "f_words": 11,
+      "coverage": 0.875
+    },
+    "accepted_moves": 2000,
+    "rejected_moves": 0,
+    "trajectory": [
+      {
+        "move": 100,
+        "score": 0.2675,
+        "temp": 3.0,
+        "verb_count": 9,
+        "fw": 2,
+        "cov": 0.9375
+      },
+      {
+        "move": 200,
+        "score": 0.2,
+        "temp": 3.0,
+        "verb_count": 9,
+        "fw": 0,
+        "cov": 1.0
+      },
+      {
+        "move": 300,
+        "score": 0.2,
+        "temp": 3.0,
+        "verb_count": 9,
+        "fw": 0,
+        "cov": 1.0
+      },
+      {
+        "move": 400,
+        "score": 0.2,
+        "temp": 3.0,
+        "verb_count": 9,
+        "fw": 0,
+        "cov": 1.0
+      },
+      {
+        "move": 500,
+        "score": 0.2,
+        "temp": 3.0,
+        "verb_count": 9,
+        "fw": 0,
+        "cov": 1.0
+      },
+      {
+        "move": 600,
+        "score": 0.2,
+        "temp": 2.0,
+        "verb_count": 9,
+        "fw": 0,
+        "cov": 1.0
+      },
+      {
+        "move": 700,
+        "score": 0.2,
+        "temp": 2.0,
+        "verb_count": 9,
+        "fw": 0,
+        "cov": 1.0
+      },
+      {
+        "move": 800,
+        "score": 0.2,
+        "temp": 2.0,
+        "verb_count": 9,
+        "fw": 0,
+        "cov": 1.0
+      },
+      {
+        "move": 900,
+        "score": 0.2,
+        "temp": 2.0,
+        "verb_count": 9,
+        "fw": 0,
+        "cov": 1.0
+      },
+      {
+        "move": 1000,
+        "score": 0.2,
+        "temp": 2.0,
+        "verb_count": 9,
+        "fw": 0,
+        "cov": 1.0
+      },
+      {
+        "move": 1100,
+        "score": 0.2,
+        "temp": 1.0,
+        "verb_count": 9,
+        "fw": 0,
+        "cov": 1.0
+      },
+      {
+        "move": 1200,
+        "score": 0.2,
+        "temp": 1.0,
+        "verb_count": 9,
+        "fw": 0,
+        "cov": 1.0
+      },
+      {
+        "move": 1300,
+        "score": 0.2,
+        "temp": 1.0,
+        "verb_count": 9,
+        "fw": 0,
+        "cov": 1.0
+      },
+      {
+        "move": 1400,
+        "score": 0.2,
+        "temp": 1.0,
+        "verb_count": 9,
+        "fw": 0,
+        "cov": 1.0
+      },
+      {
+        "move": 1500,
+        "score": 0.2,
+        "temp": 1.0,
+        "verb_count": 9,
+        "fw": 0,
+        "cov": 1.0
+      },
+      {
+        "move": 1600,
+        "score": 0.2,
+        "temp": 0.5,
+        "verb_count": 9,
+        "fw": 0,
+        "cov": 1.0
+      },
+      {
+        "move": 1700,
+        "score": 0.2,
+        "temp": 0.5,
+        "verb_count": 9,
+        "fw": 0,
+        "cov": 1.0
+      },
+      {
+        "move": 1800,
+        "score": 0.2,
+        "temp": 0.5,
+        "verb_count": 9,
+        "fw": 0,
+        "cov": 1.0
+      },
+      {
+        "move": 1900,
+        "score": 0.2,
+        "temp": 0.5,
+        "verb_count": 9,
+        "fw": 0,
+        "cov": 1.0
+      },
+      {
+        "move": 2000,
+        "score": 0.2,
+        "temp": 0.5,
+        "verb_count": 9,
+        "fw": 0,
+        "cov": 1.0
+      }
+    ],
+    "meets_criteria": true,
+    "id": "VROBUST_0001"
+  },
+  {
+    "initial_text": "ITS BE TO BY A REDUCE TRUTH THEN ALIGN THE TRUTH ARE BY FOR WAS AT BE",
+    "final_text": "ITS BE TO BY A REDUCE TRUTH THEN ALIGN THE TRUTH ARE BY FOR WAS AT BE",
+    "initial_score": 2.6522549019607844,
+    "final_score": 2.6522549019607844,
+    "initial_metrics": {
+      "verb_count": 2,
+      "has_pattern": true,
+      "f_words": 13,
+      "coverage": 1.0
+    },
+    "final_metrics": {
+      "verb_count": 2,
+      "has_pattern": true,
+      "f_words": 13,
+      "coverage": 1.0
+    },
+    "accepted_moves": 2000,
+    "rejected_moves": 0,
+    "trajectory": [
+      {
+        "move": 100,
+        "score": 0.28,
+        "temp": 3.0,
+        "verb_count": 12,
+        "fw": 2,
+        "cov": 1.0
+      },
+      {
+        "move": 200,
+        "score": 0.24000000000000002,
+        "temp": 3.0,
+        "verb_count": 13,
+        "fw": 1,
+        "cov": 1.0
+      },
+      {
+        "move": 300,
+        "score": 0.2,
+        "temp": 3.0,
+        "verb_count": 13,
+        "fw": 0,
+        "cov": 1.0
+      },
+      {
+        "move": 400,
+        "score": 0.2,
+        "temp": 3.0,
+        "verb_count": 13,
+        "fw": 0,
+        "cov": 1.0
+      },
+      {
+        "move": 500,
+        "score": 0.2,
+        "temp": 3.0,
+        "verb_count": 13,
+        "fw": 0,
+        "cov": 1.0
+      },
+      {
+        "move": 600,
+        "score": 0.2,
+        "temp": 2.0,
+        "verb_count": 13,
+        "fw": 0,
+        "cov": 1.0
+      },
+      {
+        "move": 700,
+        "score": 0.2,
+        "temp": 2.0,
+        "verb_count": 13,
+        "fw": 0,
+        "cov": 1.0
+      },
+      {
+        "move": 800,
+        "score": 0.2,
+        "temp": 2.0,
+        "verb_count": 13,
+        "fw": 0,
+        "cov": 1.0
+      },
+      {
+        "move": 900,
+        "score": 0.2,
+        "temp": 2.0,
+        "verb_count": 13,
+        "fw": 0,
+        "cov": 1.0
+      },
+      {
+        "move": 1000,
+        "score": 0.2,
+        "temp": 2.0,
+        "verb_count": 13,
+        "fw": 0,
+        "cov": 1.0
+      },
+      {
+        "move": 1100,
+        "score": 0.2,
+        "temp": 1.0,
+        "verb_count": 13,
+        "fw": 0,
+        "cov": 1.0
+      },
+      {
+        "move": 1200,
+        "score": 0.2,
+        "temp": 1.0,
+        "verb_count": 13,
+        "fw": 0,
+        "cov": 1.0
+      },
+      {
+        "move": 1300,
+        "score": 0.2,
+        "temp": 1.0,
+        "verb_count": 13,
+        "fw": 0,
+        "cov": 1.0
+      },
+      {
+        "move": 1400,
+        "score": 0.2,
+        "temp": 1.0,
+        "verb_count": 13,
+        "fw": 0,
+        "cov": 1.0
+      },
+      {
+        "move": 1500,
+        "score": 0.2,
+        "temp": 1.0,
+        "verb_count": 13,
+        "fw": 0,
+        "cov": 1.0
+      },
+      {
+        "move": 1600,
+        "score": 0.2,
+        "temp": 0.5,
+        "verb_count": 13,
+        "fw": 0,
+        "cov": 1.0
+      },
+      {
+        "move": 1700,
+        "score": 0.2,
+        "temp": 0.5,
+        "verb_count": 13,
+        "fw": 0,
+        "cov": 1.0
+      },
+      {
+        "move": 1800,
+        "score": 0.2,
+        "temp": 0.5,
+        "verb_count": 13,
+        "fw": 0,
+        "cov": 1.0
+      },
+      {
+        "move": 1900,
+        "score": 0.2,
+        "temp": 0.5,
+        "verb_count": 13,
+        "fw": 0,
+        "cov": 1.0
+      },
+      {
+        "move": 2000,
+        "score": 0.2,
+        "temp": 0.5,
+        "verb_count": 13,
+        "fw": 0,
+        "cov": 1.0
+      }
+    ],
+    "meets_criteria": true,
+    "id": "VROBUST_0003"
+  },
+  {
+    "initial_text": "ARE ITS BY READ THEN SEE AND NOTE THE COURSE YOUR WAS A WITH THE IN WITH",
+    "final_text": "ARE ITS BY READ THEN SEE AND NOTE THE COURSE YOUR WAS A WITH THE IN WITH",
+    "initial_score": 2.6655882352941176,
+    "final_score": 2.6655882352941176,
+    "initial_metrics": {
+      "verb_count": 3,
+      "has_pattern": true,
+      "f_words": 13,
+      "coverage": 1.0
+    },
+    "final_metrics": {
+      "verb_count": 3,
+      "has_pattern": true,
+      "f_words": 13,
+      "coverage": 1.0
+    },
+    "accepted_moves": 2000,
+    "rejected_moves": 0,
+    "trajectory": [
+      {
+        "move": 100,
+        "score": 0.24000000000000002,
+        "temp": 3.0,
+        "verb_count": 12,
+        "fw": 1,
+        "cov": 1.0
+      },
+      {
+        "move": 200,
+        "score": 0.2,
+        "temp": 3.0,
+        "verb_count": 12,
+        "fw": 0,
+        "cov": 1.0
+      },
+      {
+        "move": 300,
+        "score": 0.2,
+        "temp": 3.0,
+        "verb_count": 12,
+        "fw": 0,
+        "cov": 1.0
+      },
+      {
+        "move": 400,
+        "score": 0.2,
+        "temp": 3.0,
+        "verb_count": 12,
+        "fw": 0,
+        "cov": 1.0
+      },
+      {
+        "move": 500,
+        "score": 0.2,
+        "temp": 3.0,
+        "verb_count": 12,
+        "fw": 0,
+        "cov": 1.0
+      },
+      {
+        "move": 600,
+        "score": 0.2,
+        "temp": 2.0,
+        "verb_count": 12,
+        "fw": 0,
+        "cov": 1.0
+      },
+      {
+        "move": 700,
+        "score": 0.2,
+        "temp": 2.0,
+        "verb_count": 12,
+        "fw": 0,
+        "cov": 1.0
+      },
+      {
+        "move": 800,
+        "score": 0.2,
+        "temp": 2.0,
+        "verb_count": 12,
+        "fw": 0,
+        "cov": 1.0
+      },
+      {
+        "move": 900,
+        "score": 0.2,
+        "temp": 2.0,
+        "verb_count": 12,
+        "fw": 0,
+        "cov": 1.0
+      },
+      {
+        "move": 1000,
+        "score": 0.2,
+        "temp": 2.0,
+        "verb_count": 12,
+        "fw": 0,
+        "cov": 1.0
+      },
+      {
+        "move": 1100,
+        "score": 0.2,
+        "temp": 1.0,
+        "verb_count": 12,
+        "fw": 0,
+        "cov": 1.0
+      },
+      {
+        "move": 1200,
+        "score": 0.2,
+        "temp": 1.0,
+        "verb_count": 12,
+        "fw": 0,
+        "cov": 1.0
+      },
+      {
+        "move": 1300,
+        "score": 0.2,
+        "temp": 1.0,
+        "verb_count": 12,
+        "fw": 0,
+        "cov": 1.0
+      },
+      {
+        "move": 1400,
+        "score": 0.2,
+        "temp": 1.0,
+        "verb_count": 12,
+        "fw": 0,
+        "cov": 1.0
+      },
+      {
+        "move": 1500,
+        "score": 0.2,
+        "temp": 1.0,
+        "verb_count": 12,
+        "fw": 0,
+        "cov": 1.0
+      },
+      {
+        "move": 1600,
+        "score": 0.2,
+        "temp": 0.5,
+        "verb_count": 12,
+        "fw": 0,
+        "cov": 1.0
+      },
+      {
+        "move": 1700,
+        "score": 0.2,
+        "temp": 0.5,
+        "verb_count": 12,
+        "fw": 0,
+        "cov": 1.0
+      },
+      {
+        "move": 1800,
+        "score": 0.2,
+        "temp": 0.5,
+        "verb_count": 12,
+        "fw": 0,
+        "cov": 1.0
+      },
+      {
+        "move": 1900,
+        "score": 0.2,
+        "temp": 0.5,
+        "verb_count": 12,
+        "fw": 0,
+        "cov": 1.0
+      },
+      {
+        "move": 2000,
+        "score": 0.2,
+        "temp": 0.5,
+        "verb_count": 12,
+        "fw": 0,
+        "cov": 1.0
+      }
+    ],
+    "meets_criteria": true,
+    "id": "VROBUST_0004"
+  },
+  {
+    "initial_text": "ITS ITS IS IS THE SEE AND BRING THEN BRING THE DIAL TO ARE ALL ALL WITH",
+    "final_text": "ITS ITS IS IS THE SEE AND BRING THEN BRING THE DIAL TO ARE ALL ALL WITH",
+    "initial_score": 2.6655882352941176,
+    "final_score": 2.6655882352941176,
+    "initial_metrics": {
+      "verb_count": 2,
+      "has_pattern": true,
+      "f_words": 13,
+      "coverage": 1.0
+    },
+    "final_metrics": {
+      "verb_count": 2,
+      "has_pattern": true,
+      "f_words": 13,
+      "coverage": 1.0
+    },
+    "accepted_moves": 1999,
+    "rejected_moves": 1,
+    "trajectory": [
+      {
+        "move": 100,
+        "score": 0.44,
+        "temp": 3.0,
+        "verb_count": 9,
+        "fw": 6,
+        "cov": 1.0
+      },
+      {
+        "move": 200,
+        "score": 0.2,
+        "temp": 3.0,
+        "verb_count": 15,
+        "fw": 0,
+        "cov": 1.0
+      },
+      {
+        "move": 300,
+        "score": 0.2,
+        "temp": 3.0,
+        "verb_count": 15,
+        "fw": 0,
+        "cov": 1.0
+      },
+      {
+        "move": 400,
+        "score": 0.2,
+        "temp": 3.0,
+        "verb_count": 15,
+        "fw": 0,
+        "cov": 1.0
+      },
+      {
+        "move": 500,
+        "score": 0.2,
+        "temp": 3.0,
+        "verb_count": 15,
+        "fw": 0,
+        "cov": 1.0
+      },
+      {
+        "move": 600,
+        "score": 0.2,
+        "temp": 2.0,
+        "verb_count": 15,
+        "fw": 0,
+        "cov": 1.0
+      },
+      {
+        "move": 700,
+        "score": 0.2,
+        "temp": 2.0,
+        "verb_count": 15,
+        "fw": 0,
+        "cov": 1.0
+      },
+      {
+        "move": 800,
+        "score": 0.2,
+        "temp": 2.0,
+        "verb_count": 15,
+        "fw": 0,
+        "cov": 1.0
+      },
+      {
+        "move": 900,
+        "score": 0.2,
+        "temp": 2.0,
+        "verb_count": 15,
+        "fw": 0,
+        "cov": 1.0
+      },
+      {
+        "move": 1000,
+        "score": 0.2,
+        "temp": 2.0,
+        "verb_count": 15,
+        "fw": 0,
+        "cov": 1.0
+      },
+      {
+        "move": 1100,
+        "score": 0.2,
+        "temp": 1.0,
+        "verb_count": 15,
+        "fw": 0,
+        "cov": 1.0
+      },
+      {
+        "move": 1200,
+        "score": 0.2,
+        "temp": 1.0,
+        "verb_count": 15,
+        "fw": 0,
+        "cov": 1.0
+      },
+      {
+        "move": 1300,
+        "score": 0.2,
+        "temp": 1.0,
+        "verb_count": 15,
+        "fw": 0,
+        "cov": 1.0
+      },
+      {
+        "move": 1400,
+        "score": 0.2,
+        "temp": 1.0,
+        "verb_count": 15,
+        "fw": 0,
+        "cov": 1.0
+      },
+      {
+        "move": 1500,
+        "score": 0.2,
+        "temp": 1.0,
+        "verb_count": 15,
+        "fw": 0,
+        "cov": 1.0
+      },
+      {
+        "move": 1600,
+        "score": 0.2,
+        "temp": 0.5,
+        "verb_count": 15,
+        "fw": 0,
+        "cov": 1.0
+      },
+      {
+        "move": 1700,
+        "score": 0.2,
+        "temp": 0.5,
+        "verb_count": 15,
+        "fw": 0,
+        "cov": 1.0
+      },
+      {
+        "move": 1800,
+        "score": 0.2,
+        "temp": 0.5,
+        "verb_count": 15,
+        "fw": 0,
+        "cov": 1.0
+      },
+      {
+        "move": 1900,
+        "score": 0.2,
+        "temp": 0.5,
+        "verb_count": 15,
+        "fw": 0,
+        "cov": 1.0
+      },
+      {
+        "move": 2000,
+        "score": 0.2,
+        "temp": 0.5,
+        "verb_count": 15,
+        "fw": 0,
+        "cov": 1.0
+      }
+    ],
+    "meets_criteria": true,
+    "id": "VROBUST_0005"
+  },
+  {
+    "initial_text": "HAS WAS ALL BY TO THE THE TRACE AND ALIGN THEN SET THE COURSE AT AT TO",
+    "final_text": "HAS WAS ALL BY TO THE THE TRACE AND ALIGN THEN SET THE COURSE AT AT TO",
+    "initial_score": 2.6722549019607844,
+    "final_score": 2.6722549019607844,
+    "initial_metrics": {
+      "verb_count": 3,
+      "has_pattern": true,
+      "f_words": 13,
+      "coverage": 1.0
+    },
+    "final_metrics": {
+      "verb_count": 3,
+      "has_pattern": true,
+      "f_words": 13,
+      "coverage": 1.0
+    },
+    "accepted_moves": 1999,
+    "rejected_moves": 1,
+    "trajectory": [
+      {
+        "move": 100,
+        "score": 2.3266666666666667,
+        "temp": 3.0,
+        "verb_count": 9,
+        "fw": 3,
+        "cov": 1.0
+      },
+      {
+        "move": 200,
+        "score": 0.24000000000000002,
+        "temp": 3.0,
+        "verb_count": 11,
+        "fw": 1,
+        "cov": 1.0
+      },
+      {
+        "move": 300,
+        "score": 0.2,
+        "temp": 3.0,
+        "verb_count": 11,
+        "fw": 0,
+        "cov": 1.0
+      },
+      {
+        "move": 400,
+        "score": 0.2,
+        "temp": 3.0,
+        "verb_count": 11,
+        "fw": 0,
+        "cov": 1.0
+      },
+      {
+        "move": 500,
+        "score": 0.2,
+        "temp": 3.0,
+        "verb_count": 11,
+        "fw": 0,
+        "cov": 1.0
+      },
+      {
+        "move": 600,
+        "score": 0.2,
+        "temp": 2.0,
+        "verb_count": 11,
+        "fw": 0,
+        "cov": 1.0
+      },
+      {
+        "move": 700,
+        "score": 0.2,
+        "temp": 2.0,
+        "verb_count": 11,
+        "fw": 0,
+        "cov": 1.0
+      },
+      {
+        "move": 800,
+        "score": 0.2,
+        "temp": 2.0,
+        "verb_count": 11,
+        "fw": 0,
+        "cov": 1.0
+      },
+      {
+        "move": 900,
+        "score": 0.2,
+        "temp": 2.0,
+        "verb_count": 11,
+        "fw": 0,
+        "cov": 1.0
+      },
+      {
+        "move": 1000,
+        "score": 0.2,
+        "temp": 2.0,
+        "verb_count": 11,
+        "fw": 0,
+        "cov": 1.0
+      },
+      {
+        "move": 1100,
+        "score": 0.2,
+        "temp": 1.0,
+        "verb_count": 11,
+        "fw": 0,
+        "cov": 1.0
+      },
+      {
+        "move": 1200,
+        "score": 0.2,
+        "temp": 1.0,
+        "verb_count": 11,
+        "fw": 0,
+        "cov": 1.0
+      },
+      {
+        "move": 1300,
+        "score": 0.2,
+        "temp": 1.0,
+        "verb_count": 11,
+        "fw": 0,
+        "cov": 1.0
+      },
+      {
+        "move": 1400,
+        "score": 0.2,
+        "temp": 1.0,
+        "verb_count": 11,
+        "fw": 0,
+        "cov": 1.0
+      },
+      {
+        "move": 1500,
+        "score": 0.2,
+        "temp": 1.0,
+        "verb_count": 11,
+        "fw": 0,
+        "cov": 1.0
+      },
+      {
+        "move": 1600,
+        "score": 0.2,
+        "temp": 0.5,
+        "verb_count": 11,
+        "fw": 0,
+        "cov": 1.0
+      },
+      {
+        "move": 1700,
+        "score": 0.2,
+        "temp": 0.5,
+        "verb_count": 11,
+        "fw": 0,
+        "cov": 1.0
+      },
+      {
+        "move": 1800,
+        "score": 0.2,
+        "temp": 0.5,
+        "verb_count": 11,
+        "fw": 0,
+        "cov": 1.0
+      },
+      {
+        "move": 1900,
+        "score": 0.2,
+        "temp": 0.5,
+        "verb_count": 11,
+        "fw": 0,
+        "cov": 1.0
+      },
+      {
+        "move": 2000,
+        "score": 0.2,
+        "temp": 0.5,
+        "verb_count": 11,
+        "fw": 0,
+        "cov": 1.0
+      }
+    ],
+    "meets_criteria": true,
+    "id": "VROBUST_0006"
+  },
+  {
+    "initial_text": "WAS REDUCE PLATE THEN ALIGN THE PATH IS ALL BY OF ITS FOR ALL ITS FOR",
+    "final_text": "WAS REDUCE PLATE THEN ALIGN THE PATH IS ALL THE OF ITS FOR ALL ITS FOR",
+    "initial_score": 2.6185714285714288,
+    "final_score": 2.625714285714286,
+    "initial_metrics": {
+      "verb_count": 2,
+      "has_pattern": true,
+      "f_words": 12,
+      "coverage": 1.0
+    },
+    "final_metrics": {
+      "verb_count": 2,
+      "has_pattern": true,
+      "f_words": 12,
+      "coverage": 1.0
+    },
+    "accepted_moves": 1998,
+    "rejected_moves": 2,
+    "trajectory": [
+      {
+        "move": 100,
+        "score": 0.4,
+        "temp": 3.0,
+        "verb_count": 9,
+        "fw": 5,
+        "cov": 1.0
+      },
+      {
+        "move": 200,
+        "score": 0.28,
+        "temp": 3.0,
+        "verb_count": 11,
+        "fw": 2,
+        "cov": 1.0
+      },
+      {
+        "move": 300,
+        "score": 0.24000000000000002,
+        "temp": 3.0,
+        "verb_count": 12,
+        "fw": 1,
+        "cov": 1.0
+      },
+      {
+        "move": 400,
+        "score": 0.24000000000000002,
+        "temp": 3.0,
+        "verb_count": 12,
+        "fw": 1,
+        "cov": 1.0
+      },
+      {
+        "move": 500,
+        "score": 0.2,
+        "temp": 3.0,
+        "verb_count": 12,
+        "fw": 0,
+        "cov": 1.0
+      },
+      {
+        "move": 600,
+        "score": 0.2,
+        "temp": 2.0,
+        "verb_count": 12,
+        "fw": 0,
+        "cov": 1.0
+      },
+      {
+        "move": 700,
+        "score": 0.2,
+        "temp": 2.0,
+        "verb_count": 12,
+        "fw": 0,
+        "cov": 1.0
+      },
+      {
+        "move": 800,
+        "score": 0.2,
+        "temp": 2.0,
+        "verb_count": 12,
+        "fw": 0,
+        "cov": 1.0
+      },
+      {
+        "move": 900,
+        "score": 0.2,
+        "temp": 2.0,
+        "verb_count": 12,
+        "fw": 0,
+        "cov": 1.0
+      },
+      {
+        "move": 1000,
+        "score": 0.2,
+        "temp": 2.0,
+        "verb_count": 12,
+        "fw": 0,
+        "cov": 1.0
+      },
+      {
+        "move": 1100,
+        "score": 0.2,
+        "temp": 1.0,
+        "verb_count": 12,
+        "fw": 0,
+        "cov": 1.0
+      },
+      {
+        "move": 1200,
+        "score": 0.2,
+        "temp": 1.0,
+        "verb_count": 12,
+        "fw": 0,
+        "cov": 1.0
+      },
+      {
+        "move": 1300,
+        "score": 0.2,
+        "temp": 1.0,
+        "verb_count": 12,
+        "fw": 0,
+        "cov": 1.0
+      },
+      {
+        "move": 1400,
+        "score": 0.2,
+        "temp": 1.0,
+        "verb_count": 12,
+        "fw": 0,
+        "cov": 1.0
+      },
+      {
+        "move": 1500,
+        "score": 0.2,
+        "temp": 1.0,
+        "verb_count": 12,
+        "fw": 0,
+        "cov": 1.0
+      },
+      {
+        "move": 1600,
+        "score": 0.2,
+        "temp": 0.5,
+        "verb_count": 12,
+        "fw": 0,
+        "cov": 1.0
+      },
+      {
+        "move": 1700,
+        "score": 0.2,
+        "temp": 0.5,
+        "verb_count": 12,
+        "fw": 0,
+        "cov": 1.0
+      },
+      {
+        "move": 1800,
+        "score": 0.2,
+        "temp": 0.5,
+        "verb_count": 12,
+        "fw": 0,
+        "cov": 1.0
+      },
+      {
+        "move": 1900,
+        "score": 0.2,
+        "temp": 0.5,
+        "verb_count": 12,
+        "fw": 0,
+        "cov": 1.0
+      },
+      {
+        "move": 2000,
+        "score": 0.2,
+        "temp": 0.5,
+        "verb_count": 12,
+        "fw": 0,
+        "cov": 1.0
+      }
+    ],
+    "meets_criteria": true,
+    "id": "VROBUST_0007"
+  },
+  {
+    "initial_text": "BY BE WITH SEE FAST THEN READ THE BEARING TRUE FOR ALL ITS ITS IN IN",
+    "final_text": "BY BE WITH SEE FAST THEN READ THE BEARING TRUE FOR ALL ITS ITS IN IN",
+    "initial_score": 2.5723214285714286,
+    "final_score": 2.5723214285714286,
+    "initial_metrics": {
+      "verb_count": 2,
+      "has_pattern": true,
+      "f_words": 11,
+      "coverage": 0.875
+    },
+    "final_metrics": {
+      "verb_count": 2,
+      "has_pattern": true,
+      "f_words": 11,
+      "coverage": 0.875
+    },
+    "accepted_moves": 1998,
+    "rejected_moves": 2,
+    "trajectory": [
+      {
+        "move": 100,
+        "score": 2.3671428571428574,
+        "temp": 3.0,
+        "verb_count": 10,
+        "fw": 4,
+        "cov": 1.0
+      },
+      {
+        "move": 200,
+        "score": 0.2,
+        "temp": 3.0,
+        "verb_count": 13,
+        "fw": 0,
+        "cov": 1.0
+      },
+      {
+        "move": 300,
+        "score": 0.2,
+        "temp": 3.0,
+        "verb_count": 13,
+        "fw": 0,
+        "cov": 1.0
+      },
+      {
+        "move": 400,
+        "score": 0.2,
+        "temp": 3.0,
+        "verb_count": 13,
+        "fw": 0,
+        "cov": 1.0
+      },
+      {
+        "move": 500,
+        "score": 0.2,
+        "temp": 3.0,
+        "verb_count": 13,
+        "fw": 0,
+        "cov": 1.0
+      },
+      {
+        "move": 600,
+        "score": 0.2,
+        "temp": 2.0,
+        "verb_count": 13,
+        "fw": 0,
+        "cov": 1.0
+      },
+      {
+        "move": 700,
+        "score": 0.2,
+        "temp": 2.0,
+        "verb_count": 13,
+        "fw": 0,
+        "cov": 1.0
+      },
+      {
+        "move": 800,
+        "score": 0.2,
+        "temp": 2.0,
+        "verb_count": 13,
+        "fw": 0,
+        "cov": 1.0
+      },
+      {
+        "move": 900,
+        "score": 0.2,
+        "temp": 2.0,
+        "verb_count": 13,
+        "fw": 0,
+        "cov": 1.0
+      },
+      {
+        "move": 1000,
+        "score": 0.2,
+        "temp": 2.0,
+        "verb_count": 13,
+        "fw": 0,
+        "cov": 1.0
+      },
+      {
+        "move": 1100,
+        "score": 0.2,
+        "temp": 1.0,
+        "verb_count": 13,
+        "fw": 0,
+        "cov": 1.0
+      },
+      {
+        "move": 1200,
+        "score": 0.2,
+        "temp": 1.0,
+        "verb_count": 13,
+        "fw": 0,
+        "cov": 1.0
+      },
+      {
+        "move": 1300,
+        "score": 0.2,
+        "temp": 1.0,
+        "verb_count": 13,
+        "fw": 0,
+        "cov": 1.0
+      },
+      {
+        "move": 1400,
+        "score": 0.2,
+        "temp": 1.0,
+        "verb_count": 13,
+        "fw": 0,
+        "cov": 1.0
+      },
+      {
+        "move": 1500,
+        "score": 0.2,
+        "temp": 1.0,
+        "verb_count": 13,
+        "fw": 0,
+        "cov": 1.0
+      },
+      {
+        "move": 1600,
+        "score": 0.2,
+        "temp": 0.5,
+        "verb_count": 13,
+        "fw": 0,
+        "cov": 1.0
+      },
+      {
+        "move": 1700,
+        "score": 0.2,
+        "temp": 0.5,
+        "verb_count": 13,
+        "fw": 0,
+        "cov": 1.0
+      },
+      {
+        "move": 1800,
+        "score": 0.2,
+        "temp": 0.5,
+        "verb_count": 13,
+        "fw": 0,
+        "cov": 1.0
+      },
+      {
+        "move": 1900,
+        "score": 0.2,
+        "temp": 0.5,
+        "verb_count": 13,
+        "fw": 0,
+        "cov": 1.0
+      },
+      {
+        "move": 2000,
+        "score": 0.2,
+        "temp": 0.5,
+        "verb_count": 13,
+        "fw": 0,
+        "cov": 1.0
+      }
+    ],
+    "meets_criteria": true,
+    "id": "VROBUST_0008"
+  },
+  {
+    "initial_text": "FOR OF READ THE ERROR AND SEE THE BEARING HAS ALL FOR TO HAVE HAVE YOUR",
+    "final_text": "FOR OF READ THE ERROR AND SEE THE BEARING HAS ALL FOR TO HAVE HAVE YOUR",
+    "initial_score": 2.64,
+    "final_score": 2.64,
+    "initial_metrics": {
+      "verb_count": 2,
+      "has_pattern": true,
+      "f_words": 12,
+      "coverage": 1.0
+    },
+    "final_metrics": {
+      "verb_count": 2,
+      "has_pattern": true,
+      "f_words": 12,
+      "coverage": 1.0
+    },
+    "accepted_moves": 1996,
+    "rejected_moves": 4,
+    "trajectory": [
+      {
+        "move": 100,
+        "score": 2.3671428571428574,
+        "temp": 3.0,
+        "verb_count": 8,
+        "fw": 4,
+        "cov": 1.0
+      },
+      {
+        "move": 200,
+        "score": 2.2471428571428573,
+        "temp": 3.0,
+        "verb_count": 9,
+        "fw": 1,
+        "cov": 1.0
+      },
+      {
+        "move": 300,
+        "score": 0.2,
+        "temp": 3.0,
+        "verb_count": 10,
+        "fw": 0,
+        "cov": 1.0
+      },
+      {
+        "move": 400,
+        "score": 0.2,
+        "temp": 3.0,
+        "verb_count": 10,
+        "fw": 0,
+        "cov": 1.0
+      },
+      {
+        "move": 500,
+        "score": 0.2,
+        "temp": 3.0,
+        "verb_count": 10,
+        "fw": 0,
+        "cov": 1.0
+      },
+      {
+        "move": 600,
+        "score": 0.2,
+        "temp": 2.0,
+        "verb_count": 10,
+        "fw": 0,
+        "cov": 1.0
+      },
+      {
+        "move": 700,
+        "score": 0.2,
+        "temp": 2.0,
+        "verb_count": 10,
+        "fw": 0,
+        "cov": 1.0
+      },
+      {
+        "move": 800,
+        "score": 0.2,
+        "temp": 2.0,
+        "verb_count": 10,
+        "fw": 0,
+        "cov": 1.0
+      },
+      {
+        "move": 900,
+        "score": 0.2,
+        "temp": 2.0,
+        "verb_count": 10,
+        "fw": 0,
+        "cov": 1.0
+      },
+      {
+        "move": 1000,
+        "score": 0.2,
+        "temp": 2.0,
+        "verb_count": 10,
+        "fw": 0,
+        "cov": 1.0
+      },
+      {
+        "move": 1100,
+        "score": 0.2,
+        "temp": 1.0,
+        "verb_count": 10,
+        "fw": 0,
+        "cov": 1.0
+      },
+      {
+        "move": 1200,
+        "score": 0.2,
+        "temp": 1.0,
+        "verb_count": 10,
+        "fw": 0,
+        "cov": 1.0
+      },
+      {
+        "move": 1300,
+        "score": 0.2,
+        "temp": 1.0,
+        "verb_count": 10,
+        "fw": 0,
+        "cov": 1.0
+      },
+      {
+        "move": 1400,
+        "score": 0.2,
+        "temp": 1.0,
+        "verb_count": 10,
+        "fw": 0,
+        "cov": 1.0
+      },
+      {
+        "move": 1500,
+        "score": 0.2,
+        "temp": 1.0,
+        "verb_count": 10,
+        "fw": 0,
+        "cov": 1.0
+      },
+      {
+        "move": 1600,
+        "score": 0.2,
+        "temp": 0.5,
+        "verb_count": 10,
+        "fw": 0,
+        "cov": 1.0
+      },
+      {
+        "move": 1700,
+        "score": 0.2,
+        "temp": 0.5,
+        "verb_count": 10,
+        "fw": 0,
+        "cov": 1.0
+      },
+      {
+        "move": 1800,
+        "score": 0.2,
+        "temp": 0.5,
+        "verb_count": 10,
+        "fw": 0,
+        "cov": 1.0
+      },
+      {
+        "move": 1900,
+        "score": 0.2,
+        "temp": 0.5,
+        "verb_count": 10,
+        "fw": 0,
+        "cov": 1.0
+      },
+      {
+        "move": 2000,
+        "score": 0.2,
+        "temp": 0.5,
+        "verb_count": 10,
+        "fw": 0,
+        "cov": 1.0
+      }
+    ],
+    "meets_criteria": true,
+    "id": "VROBUST_0009"
+  },
+  {
+    "initial_text": "IN IS ARE HAS IN IS OF BE REDUCE COURSE THEN ALIGN THE LINE ALL IS IN",
+    "final_text": "IN IS ARE HAS IN IS OF BE REDUCE COURSE THEN ALIGN THE LINE ALL IS IN",
+    "initial_score": 2.6522549019607844,
+    "final_score": 2.6522549019607844,
+    "initial_metrics": {
+      "verb_count": 2,
+      "has_pattern": true,
+      "f_words": 13,
+      "coverage": 1.0
+    },
+    "final_metrics": {
+      "verb_count": 2,
+      "has_pattern": true,
+      "f_words": 13,
+      "coverage": 1.0
+    },
+    "accepted_moves": 1998,
+    "rejected_moves": 2,
+    "trajectory": [
+      {
+        "move": 100,
+        "score": 0.28,
+        "temp": 3.0,
+        "verb_count": 11,
+        "fw": 2,
+        "cov": 1.0
+      },
+      {
+        "move": 200,
+        "score": 0.24000000000000002,
+        "temp": 3.0,
+        "verb_count": 12,
+        "fw": 1,
+        "cov": 1.0
+      },
+      {
+        "move": 300,
+        "score": 0.2,
+        "temp": 3.0,
+        "verb_count": 12,
+        "fw": 0,
+        "cov": 1.0
+      },
+      {
+        "move": 400,
+        "score": 0.2,
+        "temp": 3.0,
+        "verb_count": 12,
+        "fw": 0,
+        "cov": 1.0
+      },
+      {
+        "move": 500,
+        "score": 0.2,
+        "temp": 3.0,
+        "verb_count": 12,
+        "fw": 0,
+        "cov": 1.0
+      },
+      {
+        "move": 600,
+        "score": 0.2,
+        "temp": 2.0,
+        "verb_count": 12,
+        "fw": 0,
+        "cov": 1.0
+      },
+      {
+        "move": 700,
+        "score": 0.2,
+        "temp": 2.0,
+        "verb_count": 12,
+        "fw": 0,
+        "cov": 1.0
+      },
+      {
+        "move": 800,
+        "score": 0.2,
+        "temp": 2.0,
+        "verb_count": 12,
+        "fw": 0,
+        "cov": 1.0
+      },
+      {
+        "move": 900,
+        "score": 0.2,
+        "temp": 2.0,
+        "verb_count": 12,
+        "fw": 0,
+        "cov": 1.0
+      },
+      {
+        "move": 1000,
+        "score": 0.2,
+        "temp": 2.0,
+        "verb_count": 12,
+        "fw": 0,
+        "cov": 1.0
+      },
+      {
+        "move": 1100,
+        "score": 0.2,
+        "temp": 1.0,
+        "verb_count": 12,
+        "fw": 0,
+        "cov": 1.0
+      },
+      {
+        "move": 1200,
+        "score": 0.2,
+        "temp": 1.0,
+        "verb_count": 12,
+        "fw": 0,
+        "cov": 1.0
+      },
+      {
+        "move": 1300,
+        "score": 0.2,
+        "temp": 1.0,
+        "verb_count": 12,
+        "fw": 0,
+        "cov": 1.0
+      },
+      {
+        "move": 1400,
+        "score": 0.2,
+        "temp": 1.0,
+        "verb_count": 12,
+        "fw": 0,
+        "cov": 1.0
+      },
+      {
+        "move": 1500,
+        "score": 0.2,
+        "temp": 1.0,
+        "verb_count": 12,
+        "fw": 0,
+        "cov": 1.0
+      },
+      {
+        "move": 1600,
+        "score": 0.2,
+        "temp": 0.5,
+        "verb_count": 12,
+        "fw": 0,
+        "cov": 1.0
+      },
+      {
+        "move": 1700,
+        "score": 0.2,
+        "temp": 0.5,
+        "verb_count": 12,
+        "fw": 0,
+        "cov": 1.0
+      },
+      {
+        "move": 1800,
+        "score": 0.2,
+        "temp": 0.5,
+        "verb_count": 12,
+        "fw": 0,
+        "cov": 1.0
+      },
+      {
+        "move": 1900,
+        "score": 0.2,
+        "temp": 0.5,
+        "verb_count": 12,
+        "fw": 0,
+        "cov": 1.0
+      },
+      {
+        "move": 2000,
+        "score": 0.2,
+        "temp": 0.5,
+        "verb_count": 12,
+        "fw": 0,
+        "cov": 1.0
+      }
+    ],
+    "meets_criteria": true,
+    "id": "VROBUST_0010"
+  }
+]

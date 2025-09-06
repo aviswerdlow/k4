@@ -1,0 +1,36 @@
+{
+  "original": "SET THE COURSE TRUE AND READ THE SIGN WHERE THE PATH LEADS TO MORE",
+  "optimal_placement": {
+    "config": {
+      "EAST": 0,
+      "NORTHEAST": 6,
+      "BERLIN": 41,
+      "CLOCK": 55
+    },
+    "drops": [
+      0.5906532827008858,
+      0.6031206306280154,
+      0.5131030598139319,
+      0.47917871462725703
+    ],
+    "metrics": {
+      "text": "EASTTHNORTHEASTTRUE AND READ THE SIGN WHEBERLIN PATH LECLOCKO MORE",
+      "f_words": 2,
+      "has_verb": true
+    },
+    "cost": 3.1860556877700903
+  },
+  "anchored": "EASTTHNORTHEASTTRUE AND READ THE SIGN WHEBERLIN PATH LECLOCKO MORE",
+  "repair": {
+    "original_text": "SET THE COURSE TRUE AND READ THE SIGN WHERE THE PATH LEADS TO MORE",
+    "anchored_text": "EASTTHNORTHEASTTRUE AND READ THE SIGN WHEBERLIN PATH LECLOCKO MORE",
+    "repaired_text": "EASTTHNORTHEASTTRUE AND READ THE SIGN WHEBERLIN PATH LECLOCKO MORE",
+    "original_score": 7.0,
+    "anchored_score": 4.5,
+    "repaired_score": 4.5,
+    "initial_drop": 2.5,
+    "final_recovery": 0.0,
+    "moves_made": 0,
+    "repair_trace": []
+  }
+}
