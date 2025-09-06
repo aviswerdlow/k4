@@ -144,6 +144,11 @@ k4 grid-unique \
   --summary results/GRID_ONLY/uniqueness_confirm_summary_GRID.json
 ```
 
+## Pipeline v2
+
+Pipeline v2 (Explore vs Confirm) — docs, policies, and a sample run:
+`experiments/pipeline_v2/`
+
 ## Artifacts
 
 **Winner Bundle** (`results/GRID_ONLY/cand_005/`):
