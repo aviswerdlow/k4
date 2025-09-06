@@ -1,0 +1,16 @@
+# SHA-256 Manifest
+# Generated: 2025-09-05T22:26:40.758071
+# Files: 9
+#
+# Format: SHA256  PATH
+#======================================================================
+
+6b482b81e7a1a762e6b0869af42e53f82e2ea6a3dde8975fe230b0b2de5c3495  ANCHOR_MODE_MATRIX.csv
+e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855  EXPLORE_MATRIX.csv
+54f6d87f297824e79a90c3288428314bcb4c72eb1f986f123e88275003c60508  baseline_stats.json
+ef23a0b03fb996655caaae44306fc2adcbb4fcc990139943460eb38d132a6b5e  campaign_summary.json
+94221665ab74b26489573ec5f2a1d199bf6823c5b6a515848173d8960cfe3936  neg_controls/NEG_CONTROL_SUMMARY.csv
+258a5bd00a09a6edd2b9bc717aa77adc7bbdfafd8570237502b310eda693ace9  neg_controls/neg_control_report.json
+596d4c2bffe4f1ef54b72b3678388b7d74eb7c2b67d9da3fc112f31ef54fb2ff  orbits/B0008/ORBIT_SUMMARY.csv
+0623819681555c03a44010df5650071138212fc97fa04970f40bc5a0ea8436f9  orbits/B0008/orbit_analysis.json
+8c7a24eac14bb88c04eefc23420f5bde3c77ed67a23444808c2d289dce2784e5  promotion_queue.json

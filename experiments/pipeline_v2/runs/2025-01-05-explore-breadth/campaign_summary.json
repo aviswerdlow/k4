@@ -1,0 +1,18 @@
+{
+  "campaign": "PV2-EXPLORE-HARD-001",
+  "date": "2025-09-05T22:25:26.653066",
+  "seed": 1337,
+  "stats": {
+    "total_candidates": 70,
+    "delta_passers": 0,
+    "feasible": 0,
+    "null_passers": 0,
+    "promoted": 0
+  },
+  "files": {
+    "candidates": "experiments/pipeline_v2/data/candidates_breadth.json",
+    "anchor_matrix": "experiments/pipeline_v2/runs/2025-01-05-explore-breadth/ANCHOR_MODE_MATRIX.csv",
+    "explore_matrix": "experiments/pipeline_v2/runs/2025-01-05-explore-breadth/EXPLORE_MATRIX.csv",
+    "promotion_queue": "experiments/pipeline_v2/runs/2025-01-05-explore-breadth/promotion_queue.json"
+  }
+}

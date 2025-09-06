@@ -1,0 +1,9 @@
+{
+  "plaintext_hash": 98662295,
+  "total_neighbors": 1130,
+  "ties_within_epsilon": 897,
+  "epsilon": 0.02,
+  "tie_threshold": 5,
+  "unique": false,
+  "original_score": 0.24216666666666664
+}
