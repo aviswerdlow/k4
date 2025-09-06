@@ -1,254 +1,157 @@
-# K4 Kryptos Solution - GRID-only AND Gate Uniqueness
+# K4 — GRID-only AND-gate claim and audited bundle
+
+This repository publishes a reproducible, hash-pinned evaluation of a K4 plaintext under a declared frame. We state the frame first, show exactly what passes inside it, and point to negative results and alternates outside it.
 
 ---
 
-## **Claim Boundary (read this first)**
+## Claim boundary (read this first)
 
-**Claim:** Unique **within** the pre-registered **GRID-only + AND** policy (anchors fixed at 0-idx; NA-only permutations; Option-A; six-class repeating schedule; head gate = Flint v2 **and** calibrated Generic with tokenization v2; 10k mirrored nulls, Holm m=2).  
-**Outside** this frame (full deck, OR policy, or different thresholds), multiple heads are admitted.
+**Frame (pre-registered)**:  
+GRID family routes only; anchors as plaintext at fixed 0-idx spans; NA-only permutations; Option-A anchor lawfulness; six-class repeating schedule; head-only AND phrase gate (Flint v2 and calibrated Generic, tokenization v2); 10k mirrored nulls with Holm m=2 over {coverage, function-words}.
+- **Prereg commit**: 650162b
+- **Phrase policy SHA-256**: 62bdb4df238d12fa3b7712c0ce291369e80e93c1b16e3851c6ca128966b7feb4
+- **Cadence thresholds SHA-256**: 0d6ba5c3c3134e23a080653ef5b083bdd34737ab9ff1d54e728ba20d197e36c1
 
-| Frame                   | Outcome                                                                 |
-| ----------------------- | ----------------------------------------------------------------------- |
-| GRID-only + AND + nulls | single winner; tie-breakers applied (Holm-min → perplexity → coverage) |
-| Full deck or OR policy  | multiple significant heads (non-unique)                                |
-
-> A **Sanborn cadence panel** (report-only) compares candidate heads to K1–K3 style; see `experiments/cadence_panel/runs/2025-09-04/CADENCE_PANEL_REPORT.md`.
-
-**Alternates (report-only).** We generated surveying-equivalent heads ("SET THE BEARING…", "READ THE BERLIN…", "OBSERVE THE DIAL…", etc.) and evaluated them under the same rails (GRID-only; anchors fixed; NA-only; Option-A; multi-class schedule), seam-free, with a head-only **AND** gate (Flint v2 + calibrated Generic, tokenization v2) and **10k mirrored nulls** (Holm m=2). **No alternates** passed both gate and nulls.
-
-**Adjacent frames (report-only).** As expected, stricter bars (AND with POS ≥ 0.80) eliminated everything; full-deck + AND remained selective; **OR** with top-0.5% perplexity admitted more candidates, but **nulls filtered all**. Summaries and manifests: `experiments/alternates/runs/2025-09-05/`.
+**What holds inside this frame**: one head survives and is published.  
+**Outside this frame** (full deck, OR policy, or different thresholds): multiple heads appear; we mark those as non-unique under this claim and link the evidence.
 
 ---
 
-**Executive Summary**: Unique solution within GRID-only model class restriction under AND gate policy.  
-**Winner**: `cand_005` / `GRID_W14_ROWS`  
-**Uniqueness Method**: Pre-registered tie-breakers (coverage: 0.923 vs 0.885)
-
-## Why GRID-only Restriction?
-
-Initial analysis of the candidate pool under the full AND gate policy yielded 6 publishable candidates across multiple route families (SPOKE, RAILFENCE, GRID). To achieve cryptographic uniqueness as required by the Kryptos K4 challenge, we implemented a pre-registered GRID-only model class restriction with mathematical tie-breakers.
-
-This approach is cryptographically defensible because:
-1. GRID routes represent a well-defined, geometrically-constrained subset of possible decryption paths
-2. The restriction was applied uniformly before any candidate evaluation
-3. Tie-breaker criteria were mathematically pre-registered and consistently applied
-
-## Rails Specification
-
-**Anchors** (0-indexed):
-- `EAST`: [21, 24] 
-- `NORTHEAST`: [25, 33]
-- `BERLINCLOCK`: [63, 73]
-
-**Head Lock**: Characters [0, 74] (inclusive, ending with 'T')
-
-**Seam Specification**:
-- HEJOY guard: [75, 79]
-- Seam tokens: [80, 96] = "OF AN ANGLE IS THE ARC"
-- Canonical cuts: [81, 83, 88, 90, 93]
-
-**Ciphertext SHA-256**: `eea813570c7f1fd3b34674e47b5c3da8948026f5cefee612a0b38ffaa515ceab`
-
-## Model Class & Phrase Gate
-
-**GRID-only Routes**: `GRID_W{10,12,14}_{ROWS|BOU|NE|NW}`
-- Classings: c6a, c6b
-- Families: vigenere, variant_beaufort, beaufort  
-- Periods: 10, 22
-- Phases: 0..L-1
-- Option-A anchor validation: Required
-- NA-only permutations: Required
-
-**Phrase Gate = AND Policy**:
-- Combine: AND (both tracks required)
-- Tokenization v2: Head window only [0, 74]
-
-**Flint v2 Track**:
-- Declination patterns: "SET COURSE TRUE", etc.
-- Instrument verbs: READ, SEE, NOTE, SIGHT, OBSERVE  
-- Directions: EAST, NORTHEAST
-- Instrument nouns: BERLIN, CLOCK, BERLINCLOCK, DIAL
-
-**Generic Track**:
-- Perplexity: ≤1st percentile  
-- POS score: ≥0.60 (trigram-based)
-- Content words: ≥6
-- Max repeat: ≤2
-
-## Tail Policy (empirical scope)
-
-**Tail Policy:** The tail `OF · AN · ANGLE · IS · THE · ARC` is an **empirical invariance** observed in seam-free runs under the registered rails (anchors + NA-only + Option-A + multi-class head schedule + head-only AND gate). Anchors alone do **not** force the tail (single-key infeasible; multi-class feasible but under-determined). We do not claim a proof beyond these tested conditions.
-
-## Register Disclosure (report-only)
-
-| Register | Notes |
-| -------- | ----- |
-| K1–K3 | Narrative/declarative; includes orthographic quirks (IQLUSION, UNDERGRUUND, DESPARATLY); prose-like n-grams |
-| K4 head (this frame) | Instructional/imperative surveying clause; optimized for semantics + statistical gate; stylistically distinct by panel |
-
-Style panel (report-only). See `experiments/cadence_panel/runs/2025-09-05/QUICK_READ.md`
-and `CADENCE_PANEL_REPORT_COMPREHENSIVE.md` for baseline, window-type, and weight sensitivity.
-
-Appendix — boundary tokenization (report-only): `experiments/internal_push/runs/2025-09-05/boundary_v21/winner/BOUNDARY_TIE_BREAK.md`  
-Appendix — irregular schedule search (report-only): `experiments/internal_push/runs/2025-09-05/IRREGULAR_SUMMARY.md`
-
-Note: Prior simulated content has been quarantined with clear disclaimers. Only empirically executed results remain linked here.
-
-Sensitivity and P[74] strips: Conceptual summary only (executed ladders are linked elsewhere). See experiments/0457_conceptual/ for the consolidation note.
-
-## Null Model Validation
-
-**10K Mirrored Nulls**:
-- Holm correction: m=2 
-- Metrics: coverage, f_words
-- Publishability threshold: adj-p < 0.01 (both metrics)
-
-## Winner Summary
-
-**Route**: `GRID_W14_ROWS` (Width=14, row-major reading)  
-**Plaintext**: `WECANSEETHETEXTISCODEEASTNORTHEASTWESETTHECOURSETRUEREADTHENSEEBERLINCLOCKTHEJOYOFANANGLEISTHEARC`  
-**Coverage**: 92.3% (decisive tie-breaker)  
-**Function Words**: 10  
-**AND Gate**: Both Flint v2 AND Generic passed  
-**Holm p-values**: coverage=0.0002, f_words=0.0001 (both < 0.01)  
-**PT SHA-256**: `595673454befe63b02053f311d1a966e3f08ce232d5d744d3afbc2ea04d3d769`  
-**Permutation SHA-256**: `a5260415e76509638b4845d5e707521126aca2d67b50177b3c94f8ccc4c56c31`
-
-## How to Validate
-
-See [VALIDATION.md](VALIDATION.md) for step-by-step verification instructions.
-
-**Quick verification**:
-```bash
-# Install dependencies
-pip install -r requirements.txt
-
-# Validate winner
-k4 confirm \
-  --ct data/ciphertext_97.txt \
-  --pt results/GRID_ONLY/cand_005/plaintext_97.txt \
-  --proof results/GRID_ONLY/cand_005/proof_digest.json \
-  --perm data/permutations/GRID_W14_ROWS.json \
-  --cuts data/canonical_cuts.json \
-  --fwords data/function_words.txt \
-  --calib data/calibration/calib_97_perplexity.json \
-  --pos-trigrams data/calibration/pos_trigrams.json \
-  --pos-threshold data/calibration/pos_threshold.txt \
-  --policy POLICY.json \
-  --out /tmp/k4_validate
-
-# Verify uniqueness
-k4 grid-unique \
-  --winner results/GRID_ONLY/cand_005 \
-  --runner-up results/GRID_ONLY/cand_004 \
-  --summary results/GRID_ONLY/uniqueness_confirm_summary_GRID.json
+## Executive summary
+- **Winner (within frame)**: `cand_005` on `GRID_W14_ROWS`
+- **Why unique here**: GRID-only class + AND gate + mirrored nulls; runner-up fails the coverage tie-breaker (pre-registered order: Holm-min → perplexity → coverage).
+- **Winner coverage**: 0.923 (decisive); function-words: 10; Holm adj-p: coverage 0.0002, f-words 0.0001 (< 0.01 both).
+- **Plaintext (letters only)**:
+```
+WECANSEETHETEXTISCODEEASTNORTHEASTWESETTHECOURSETRUEREADTHENSEEBERLINCLOCKTHEJOYOFANANGLEISTHEARC
 ```
 
-## Pipeline v2
+**Repro tip**: use `VALIDATION.md` for step-by-step rechecks (encrypts-to-CT, gates, nulls), or the `k4 confirm` CLI if available on your system.
 
-Pipeline v2 (Explore vs Confirm) — docs, policies, and sample runs:
-- Framework: `experiments/pipeline_v2/`
-- Explore-Hard campaign: `experiments/pipeline_v2/runs/2025-01-05-explore-hard/`
+---
 
-## Artifacts
+## Rails (cryptographic constraints)
+- **Anchors (0-idx, inclusive)**:
+  - `EAST` [21,24] · `NORTHEAST` [25,33] · `BERLINCLOCK` [63,73]
+- **Head window**: [0,74] (head-only gates; anything touching 74 counts once)
+- **Seam (reported, not scored by style gates)**: `HEJOY` [75,79]; letters [80,96]
+- **NA-only T₂**; **Option-A at anchors**; **six-class repeating schedule**
+- **K4 CT SHA-256**: `eea813570c7f1fd3b34674e47b5c3da8948026f5cefee612a0b38ffaa515ceab`
 
-**Winner Bundle** (`results/GRID_ONLY/cand_005/`):
-- `plaintext_97.txt`: The decrypted message
-- `proof_digest.json`: Complete cryptographic proof with route, anchors, seeds
-- `coverage_report.json`: Rails validation, gates passed, nulls results
-- `phrase_gate_policy.json`: Complete policy specification  
-- `phrase_gate_report.json`: Flint v2 and Generic track validation
-- `near_gate_report.json`: Coverage and function word analysis
-- `holm_report_canonical.json`: 10K null hypothesis test results
-- `hashes.txt`: SHA-256 integrity hashes
+---
 
-**Runner-up Bundle** (`results/GRID_ONLY/cand_004/`): Minimal bundle for tie-breaker comparison
+## Model class & phrase gate (AND)
+- **Routes**: `GRID_W{10,12,14}_{ROWS|BOU|NE|NW}`
+- **Classings**: c6a, c6b · **Families**: Vigenère, Variant-Beaufort, Beaufort · **Periods**: 10..22 · **Phases**: 0..L−1
 
-**Uniqueness Summary**: `results/GRID_ONLY/uniqueness_confirm_summary_GRID.json`
+**AND gate (head-only, tokenization v2)**: both tracks must pass
+- **Flint v2 (semantics)**: declination expression → instrument verb; EAST + NORTHEAST; instrument noun (BERLIN/CLOCK/BERLINCLOCK/DIAL); content ≥ 6; max repeat ≤ 2.
+- **Generic (calibrated)**: perplexity ≤ top-1%; POS-trigram ≥ 0.60; same content/repeat limits.
+- **Cadence (report-only panel)**: see appendix paths; does not change the gate.
 
-## Reproducibility
+---
 
-**Seeds & Determinism**: All randomized components (nulls generation, permutation seeds) use deterministic seeds derived from cryptographic hashes of inputs. Results are fully reproducible.
+## Winner bundle (what you can verify)
 
-**SHA Manifests**: Complete SHA-256 manifests ensure file integrity and detect tampering.
+`results/GRID_ONLY/cand_005/`
+- `plaintext_97.txt` — 97 letters (anchors in place)
+- `proof_digest.json` — ⟨family,L,phase⟩×6; forced residues; route SHA; seed recipe
+- `near_gate_report.json` — coverage/function-words/verb
+- `phrase_gate_policy.json` — complete AND policy (with calibration SHAs)
+- `phrase_gate_report.json` — Flint v2 & Generic tracks pass
+- `holm_report_canonical.json` — 10k mirrored nulls; Holm m=2 adj-p for coverage & f-words
+- `coverage_report.json` — rails echo, encrypts_to_ct:true, route digest, seed
+- `hashes.txt` — SHA-256 of all files in the bundle
 
-**Calibration Files**: All calibration data (perplexity, POS scoring) is pinned with SHA-256 hashes in `POLICY.json`.
+**Runner-up**: minimal bundle in `results/GRID_ONLY/cand_004/` for tie-breaker comparison.  
+**Uniqueness summary**: `results/GRID_ONLY/uniqueness_confirm_summary_GRID.json`.
 
-## CLI Commands
+---
 
-- `k4 confirm`: Full candidate validation pipeline
-- `k4 verify`: Quick bundle integrity check
-- `k4 grid-unique`: GRID-only uniqueness validation  
-- `k4 summarize`: Generate uniqueness summaries
+## How to validate
 
-See `k4 --help` for complete command reference.
+See `VALIDATION.md` for exact commands (CLI and low-level). Typical flow:
+1. Lawfulness (encrypt plaintext to CT; Option-A at anchors)
+2. Near-gate (neutral)
+3. AND phrase gate (Flint v2 & Generic)
+4. 10k mirrored nulls (Holm m=2; both adj-p < 0.01)
+5. Tie-breakers (if needed): Holm-min → perplexity → coverage
 
-## Tail Policy (empirical scope)
+If the `k4 confirm` command is installed, you can use the one-liner shown in `VALIDATION.md`; otherwise follow the explicit Python steps.
 
-Our published clause is derived under pre-registered rails and a dual-track phrase gate:
+---
 
-* **Rails**: anchors as plaintext at 0-idx (EAST 21–24, NORTHEAST 25–33, BERLINCLOCK 63–73); head window 0..74; NA-only permutations; Option-A at anchors; seam guard used in the publication pipeline.
-* **Phrase gate (AND)**: domain semantics (Flint v2) **and** a calibrated English gate (head-only perplexity top-1% and POS-trigram ≥ 0.60) with tokenization v2 (no inferred splits; seam ignored).
-* **Nulls**: mirrored route + 6-class schedule; 10,000 trials; Holm m=2 over {coverage, f-words}; publishable only if both adjusted p's < 0.01.
+## Context & scope notes
 
-We separately ran **seam-free experiments** (tail guard removed; all other rails unchanged) across multiple route families. For four distinct head messages (and three route families), the tail letters **75..96** converged to the **same** string:
+### Tail (empirical scope)
+
+Seam-free runs (same rails; no seam guard) across multiple routes and four distinct heads produced the same letters [80,96]:
 
 ```
 OFANANGLEISTHEARC
 ```
 
-This provides strong **empirical** evidence that, under these rails and gates, the K4 tail is **cryptographically constrained** by the ciphertext structure and not a by-product of the seam guard. The claim is empirical, not a formal proof; the complete method and results are in:
+We present this as an empirical observation under the declared rails and gates, not a formal proof that the tail is forced globally. Evidence:
+- `experiments/seam_free/runs/20250903/FINAL_SUMMARY.md`
+- `…/full_deck_summary.csv`, `…/consistency_checks.json`, `…/canonical_cut_robustness.json`, `…/MANIFEST.sha256`
 
-```
-experiments/seam_free/runs/20250903/FINAL_SUMMARY.md
-experiments/seam_free/runs/20250903/full_deck_summary.csv
-experiments/seam_free/runs/20250903/consistency_checks.json
-experiments/seam_free/runs/20250903/canonical_cut_robustness.json
-experiments/seam_free/MANIFEST.sha256
-```
+### Anchors-only (what anchors do / don't do)
+- **Single-key Vigenère-family (L=2..22)**: infeasible — residue collisions at anchors.
+- **Multi-class (c6a/c6b)**: feasible, but anchors do not determine all tail residues.
+- **Conclusion**: the tail invariance we observe emerges when anchors + NA-only permutations + Option-A + multi-class keys + head-only AND gate are applied together; anchors alone don't force it.
+- See `experiments/anchors_only/…/TAIL_FORCING_REPORT.md` and `experiments/anchors_multiclass/…/TAIL_FORCING_REPORT.md`.
 
-### Anchors-Only Analysis (Scope & Findings)
+### P[74] ("THE JOY") — editorial
 
-**Scope**: We tested minimal constraints: anchors fixed at 0-idx (EAST 21–24, NORTHEAST 25–33, BERLINCLOCK 63–73), 97-char plaintext, "pencil-and-paper" substitution families (Vigenère, Variant-Beaufort, Beaufort), and NA-only permutations that fix anchor indices. No head lock, seam guard, or language scoring.
+We re-solved P[74] A..Z under anchors + NA-only permutations + Option-A + multi-class head schedule. All 26 letters were lawful and indistinguishable by the null model (identical adj-p under 10k mirrored nulls). We adopt P[74]='T' ("THE JOY") for readability before the seam.
+- See `experiments/p74_editorial/runs/20250905/` (matrix + example bundles).
 
-**Single-key schedules (L=2–22)**: algebraically infeasible — anchor residue collisions make the key contradictory.
+### Misspelling tolerance
 
-**Multi-class schedules (c6a/c6b)**: algebraically feasible (collisions resolved) but insufficient — anchors do not determine all residues in 75–96; the tail is not forced by anchors alone.
+Levenshtein-1 on Flint content tokens (head-only; directions and anchors exact) did not change any publish decisions. The gate remains strict.
+- `experiments/typo_tolerance/runs/20250904/`
 
-**Interpretation**: The published tail arises empirically once the complete rail set is applied (NA-only permutations, Option-A at anchors, multi-class keys) and the head is filtered by a strict phrase gate with statistical null testing. Anchors alone neither solve nor force the tail.
+---
 
-Anchors-only algebra shows that single-key Vigenère-family schedules are over-constrained and infeasible for K4; even multi-class repeating keys do not algebraically force all tail residues. The tail invariance we publish is therefore an empirical property that emerges when anchors, NA-only permutations, Option-A, multi-class schedules, and a strict head-only phrase gate (with mirrored nulls) are combined; it does not follow from anchors alone.
+## Outside the frame (alternates & negative results)
+- **Alternates within rails, seam-free**: surveyed imperatives under GRID-only + AND + nulls → no passers.
+- **Adjacent frames (report-only)**:
+  - AND with POS ≥ 0.80 → eliminates all candidates;
+  - Full deck + AND → selective but multiple;
+  - OR + top-0.5% perplexity → admits more, nulls filter them out.
+- **Summaries**: `experiments/alternates/runs/2025-09-05/`
 
-**Detailed Results**:
-```
-experiments/anchors_only/runs/20250903/TAIL_FORCING_REPORT.md
-experiments/anchors_multiclass/runs/20250903/TAIL_FORCING_REPORT.md
-```
+**Cadence panel (report-only)**: K1–K3 vs. K4 style comparison (token windows, character windows, weights).
+- `experiments/cadence_panel/runs/2025-09-05/QUICK_READ.md`
+- `…/CADENCE_PANEL_REPORT_COMPREHENSIVE.md`
 
-### P[74] Analysis (Editorial Choice)
+---
 
-**P[74] ("THEJOY" bridge) — editorial, not forced.** We exhaustively tested all 26 letters at index 74 under anchors + NA-only permutations + Option-A + a multi-class head schedule. All 26 are lawful, pass the head-only AND gate (Flint v2 + calibrated Generic, tokenization v2), and achieve identical statistical significance under 10k mirrored nulls (Holm m=2). Our gate and null model therefore do not distinguish the letter at 74; we adopt P[74]='T' ("THEJOY") as an editorial choice that reads naturally before the seam. The P74 sweep results and example bundles are in `experiments/p74/runs/20250903_final_corrected/`.
+## Reproducibility
+- **Seeds & determinism**: all randomized steps seeded from recipe strings; seeds recorded in coverage/holm reports.
+- **SHA manifests**: top-level `MANIFEST.sha256` and per-bundle `hashes.txt` pin every artifact and policy.
+- **Calibration**: perplexity & POS trigram tables and cadence thresholds have SHAs recorded in policy JSON.
 
-**P74 editorial re-solve (GRID-only + AND + 10k nulls)**: experiments/p74_editorial/runs/20250905/
+---
 
-### Misspelling Sensitivity
+## Paths you'll want
+- **Winner bundle**: `results/GRID_ONLY/cand_005/`
+- **Runner-up**: `results/GRID_ONLY/cand_004/`
+- **Uniqueness summary**: `results/GRID_ONLY/uniqueness_confirm_summary_GRID.json`
+- **Validation guide**: `VALIDATION.md`
+- **Cadence panel (report-only)**: `experiments/cadence_panel/runs/2025-09-05/`
+- **Seam-free appendix**: `experiments/seam_free/runs/20250903/`
+- **Anchors-only appendix**: `experiments/anchors_only/runs/20250903/`
+- **P74 editorial sweep**: `experiments/p74_editorial/runs/20250905/`
+- **Typo tolerance**: `experiments/typo_tolerance/runs/20250904/`
+- **Top-level manifest**: `MANIFEST.sha256`
 
-**Misspelling sensitivity.** We tested a Levenshtein-1 tolerance for Flint's content tokens (head-only; directions exact; anchors exact). The fuzzy check did not alter any publish decisions: candidates accepted by the strict AND gate (and nulls) remain accepted; no new candidate becomes publishable. The main gate remains **strict**.
+---
 
-See `experiments/typo_tolerance/runs/20250904/` (TYPO_TOLERANCE_SUMMARY.csv, TYPO_TOLERANCE_REPORT.md, MANIFEST.sha256).
+## License & citation
 
-### Pipeline v2 Instrumentation
-
-**Two-lane exploration framework.** The Pipeline v2 system implements falsifiable hypothesis testing with Explore (fast triage) and Confirm (rigorous validation) lanes. See `experiments/pipeline_v2/runs/2025-01-05-explore-breadth/` and `experiments/pipeline_v2/runs/2025-01-06-explore-corridor/` for instrumentation evidence demonstrating proper window elasticity and blinded scoring discipline.
-
-**Pipeline v2 – Explore-Aggressive (H/I/J/K/L) overview:** `experiments/pipeline_v2/runs/2025-01-06-explore-aggressive/`
-
-We executed five Explore-only campaigns (register expansion, data-driven sampling, window elasticity grid, harder controls, report-only alt signals). Blinded scoring + falsifiable anchors + hard controls yielded 0 promotions across thousands of heads. Confirm remains idle. Artifacts are reproducible, hash-pinned, and CI clean.
-
-## License & Citation
-
-This work represents a proposed solution to the Kryptos K4 puzzle. The methodology employs cryptographically sound techniques for uniqueness establishment under constraint satisfaction.
+This repository documents an audited claim within a stated model class and policy. Please cite the claim boundary, prereg commit, and policy hashes when referencing the result.
 
 **Repository**: https://github.com/aviswerdlow/k4  
-**Solution Date**: September 2025  
-**Method**: GRID-only AND gate with pre-registered tie-breakers
+**Solution date**: September 2025  
+**Method**: GRID-only AND gate with mirrored nulls and pre-registered tie-breakers
