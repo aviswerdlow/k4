@@ -1,0 +1,19 @@
+{
+  "encrypts_to_ct": true,
+  "route_id": "GRID_W14_ROWS",
+  "sensitivity_cell": "pos060_perp05",
+  "replicate": 2,
+  "near_gate": {
+    "coverage": 0.364475941604432,
+    "f_words": 0,
+    "has_verb": false,
+    "pass": false
+  },
+  "phrase_gate": {
+    "accepted_by": [],
+    "pass": false
+  },
+  "nulls": {
+    "publishable": false
+  }
+}

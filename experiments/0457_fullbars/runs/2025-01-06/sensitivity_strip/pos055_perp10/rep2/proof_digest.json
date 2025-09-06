@@ -1,0 +1,223 @@
+{
+  "feasible": true,
+  "encrypts_to_ct": true,
+  "route_id": "GRID_W14_ROWS",
+  "t2_sha256": "a5260415e76509638b4845d5e707521126aca2d67b50177b3c94f8ccc4c56c31",
+  "classing": "c6a",
+  "per_class": [
+    {
+      "class_id": 0,
+      "family": "vigenere",
+      "L": 17,
+      "phase": 0
+    },
+    {
+      "class_id": 1,
+      "family": "vigenere",
+      "L": 16,
+      "phase": 0
+    },
+    {
+      "class_id": 2,
+      "family": "beaufort",
+      "L": 16,
+      "phase": 0
+    },
+    {
+      "class_id": 3,
+      "family": "vigenere",
+      "L": 16,
+      "phase": 0
+    },
+    {
+      "class_id": 4,
+      "family": "beaufort",
+      "L": 19,
+      "phase": 0
+    },
+    {
+      "class_id": 5,
+      "family": "beaufort",
+      "L": 20,
+      "phase": 0
+    }
+  ],
+  "forced_anchor_residues": [
+    {
+      "index": 21,
+      "class": 3,
+      "residue": 3,
+      "key": 1,
+      "char": "E"
+    },
+    {
+      "index": 22,
+      "class": 1,
+      "residue": 3,
+      "key": 11,
+      "char": "A"
+    },
+    {
+      "index": 23,
+      "class": 5,
+      "residue": 3,
+      "key": 9,
+      "char": "S"
+    },
+    {
+      "index": 24,
+      "class": 0,
+      "residue": 4,
+      "key": 2,
+      "char": "T"
+    },
+    {
+      "index": 25,
+      "class": 4,
+      "residue": 4,
+      "key": 3,
+      "char": "N"
+    },
+    {
+      "index": 26,
+      "class": 2,
+      "residue": 4,
+      "key": 4,
+      "char": "O"
+    },
+    {
+      "index": 27,
+      "class": 3,
+      "residue": 4,
+      "key": 24,
+      "char": "R"
+    },
+    {
+      "index": 28,
+      "class": 1,
+      "residue": 4,
+      "key": 24,
+      "char": "T"
+    },
+    {
+      "index": 29,
+      "class": 5,
+      "residue": 4,
+      "key": 20,
+      "char": "H"
+    },
+    {
+      "index": 30,
+      "class": 0,
+      "residue": 5,
+      "key": 2,
+      "char": "E"
+    },
+    {
+      "index": 31,
+      "class": 4,
+      "residue": 5,
+      "key": 10,
+      "char": "A"
+    },
+    {
+      "index": 32,
+      "class": 2,
+      "residue": 5,
+      "key": 10,
+      "char": "S"
+    },
+    {
+      "index": 33,
+      "class": 3,
+      "residue": 5,
+      "key": 25,
+      "char": "T"
+    },
+    {
+      "index": 63,
+      "class": 3,
+      "residue": 10,
+      "key": 12,
+      "char": "B"
+    },
+    {
+      "index": 64,
+      "class": 1,
+      "residue": 10,
+      "key": 20,
+      "char": "E"
+    },
+    {
+      "index": 65,
+      "class": 5,
+      "residue": 10,
+      "key": 6,
+      "char": "R"
+    },
+    {
+      "index": 66,
+      "class": 0,
+      "residue": 11,
+      "key": 10,
+      "char": "L"
+    },
+    {
+      "index": 67,
+      "class": 4,
+      "residue": 11,
+      "key": 1,
+      "char": "I"
+    },
+    {
+      "index": 68,
+      "class": 2,
+      "residue": 11,
+      "key": 6,
+      "char": "N"
+    },
+    {
+      "index": 69,
+      "class": 3,
+      "residue": 11,
+      "key": 10,
+      "char": "C"
+    },
+    {
+      "index": 70,
+      "class": 1,
+      "residue": 11,
+      "key": 14,
+      "char": "L"
+    },
+    {
+      "index": 71,
+      "class": 5,
+      "residue": 11,
+      "key": 19,
+      "char": "O"
+    },
+    {
+      "index": 72,
+      "class": 0,
+      "residue": 12,
+      "key": 13,
+      "char": "C"
+    },
+    {
+      "index": 73,
+      "class": 4,
+      "residue": 12,
+      "key": 20,
+      "char": "K"
+    }
+  ],
+  "ct_sha256": "eea813570c7f1fd3b34674e47b5c3da8948026f5cefee612a0b38ffaa515ceab",
+  "pt_sha256": "cac2cc5cdd74bf8898abef756f110afe7409f71627a204424fae7bbcf550cfa7",
+  "notes": "Option-A enforced; encrypts_to_ct=true; class 4 flipped to Beaufort",
+  "sensitivity_params": {
+    "pos_threshold": 0.55,
+    "perp_percentile": 1.0,
+    "replicate": 2
+  }
+}

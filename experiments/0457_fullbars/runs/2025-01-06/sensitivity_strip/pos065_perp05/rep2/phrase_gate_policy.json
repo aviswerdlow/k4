@@ -1,0 +1,61 @@
+{
+  "program": "phrase_gate",
+  "combine": "AND",
+  "window": [
+    0,
+    74
+  ],
+  "tokenization": "v2",
+  "flint_v2": {
+    "declination_patterns": [
+      [
+        "SET",
+        "COURSE"
+      ],
+      [
+        "ADJUST",
+        "HEADING"
+      ],
+      [
+        "CORRECT",
+        "FOR"
+      ],
+      [
+        "TRUE",
+        "NORTH"
+      ]
+    ],
+    "instrument_verbs": [
+      "READ",
+      "SEE",
+      "NOTE",
+      "SIGHT",
+      "OBSERVE"
+    ],
+    "directions": [
+      "EAST",
+      "NORTHEAST"
+    ],
+    "nouns": [
+      "BERLIN",
+      "CLOCK",
+      "BERLINCLOCK",
+      "DIAL"
+    ],
+    "min_content": 6,
+    "max_repeat": 2
+  },
+  "cadence_ref": {
+    "thresholds_sha256": "0d6ba5c3c3134e23a080653ef5b083bdd34737ab9ff1d54e728ba20d197e36c1",
+    "policy_sha256": "2161a32ee615f34823cb45b917bc51c6d4e0967fd5c2fb40829901adfbb4defc"
+  },
+  "generic": {
+    "perplexity_top_percent": 0.5,
+    "pos_threshold": 0.65,
+    "calibration_hashes": {
+      "calib_97_perplexity.json": "<sha256>",
+      "pos_trigrams.json": "<sha256>",
+      "pos_threshold.txt": "<sha256>"
+    }
+  }
+}
