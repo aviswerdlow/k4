@@ -1,0 +1,804 @@
+[
+  {
+    "initial_text": "THE TRUTH IS [DIR1] OF THE LIFE IF SHADOW THEN THINK THE TEXT BEFORE THE",
+    "final_text": "THEM OF ONE A MORE IF WILL THAT YOU OR A THEIR AT FROM MORE YOUR BY SEEK IT",
+    "initial_score": 1.6016483516483517,
+    "final_score": 2.170588235294118,
+    "coverage_pre": 0.9285714285714286,
+    "coverage_post": 1.0,
+    "f_words_pre": 8,
+    "f_words_post": 18,
+    "has_verb_pre": true,
+    "has_verb_post": true,
+    "z_trigram_pre": 0.4230769230769231,
+    "z_trigram_post": 0.9705882352941176,
+    "accepted_moves": 2000,
+    "stats": {
+      "proposed": 2000,
+      "accepted": 2000,
+      "rejected": 0,
+      "best_score": 2.170588235294118,
+      "trajectory": [
+        {
+          "move": 100,
+          "score": 1.9083333333333337,
+          "temp": 3.0,
+          "fw": 11,
+          "cov": 1.0
+        },
+        {
+          "move": 200,
+          "score": 2.10625,
+          "temp": 3.0,
+          "fw": 17,
+          "cov": 1.0
+        },
+        {
+          "move": 300,
+          "score": 2.075,
+          "temp": 3.0,
+          "fw": 13,
+          "cov": 1.0
+        },
+        {
+          "move": 400,
+          "score": 2.1642857142857146,
+          "temp": 3.0,
+          "fw": 15,
+          "cov": 1.0
+        },
+        {
+          "move": 500,
+          "score": 2.092857142857143,
+          "temp": 3.0,
+          "fw": 15,
+          "cov": 1.0
+        },
+        {
+          "move": 600,
+          "score": 2.1,
+          "temp": 2.0,
+          "fw": 16,
+          "cov": 1.0
+        },
+        {
+          "move": 700,
+          "score": 2.1,
+          "temp": 2.0,
+          "fw": 16,
+          "cov": 1.0
+        },
+        {
+          "move": 800,
+          "score": 2.1545454545454548,
+          "temp": 2.0,
+          "fw": 12,
+          "cov": 1.0
+        },
+        {
+          "move": 900,
+          "score": 2.1166666666666667,
+          "temp": 2.0,
+          "fw": 13,
+          "cov": 1.0
+        },
+        {
+          "move": 1000,
+          "score": 1.8,
+          "temp": 2.0,
+          "fw": 17,
+          "cov": 1.0
+        },
+        {
+          "move": 1100,
+          "score": 1.8,
+          "temp": 1.0,
+          "fw": 10,
+          "cov": 1.0
+        },
+        {
+          "move": 1200,
+          "score": 1.8,
+          "temp": 1.0,
+          "fw": 19,
+          "cov": 1.0
+        },
+        {
+          "move": 1300,
+          "score": 1.8,
+          "temp": 1.0,
+          "fw": 15,
+          "cov": 1.0
+        },
+        {
+          "move": 1400,
+          "score": 1.8,
+          "temp": 1.0,
+          "fw": 19,
+          "cov": 1.0
+        },
+        {
+          "move": 1500,
+          "score": 1.8,
+          "temp": 1.0,
+          "fw": 17,
+          "cov": 1.0
+        },
+        {
+          "move": 1600,
+          "score": 1.8,
+          "temp": 0.5,
+          "fw": 13,
+          "cov": 1.0
+        },
+        {
+          "move": 1700,
+          "score": 1.8,
+          "temp": 0.5,
+          "fw": 10,
+          "cov": 1.0
+        },
+        {
+          "move": 1800,
+          "score": 1.8,
+          "temp": 0.5,
+          "fw": 13,
+          "cov": 1.0
+        },
+        {
+          "move": 1900,
+          "score": 1.8,
+          "temp": 0.5,
+          "fw": 12,
+          "cov": 1.0
+        },
+        {
+          "move": 2000,
+          "score": 1.8,
+          "temp": 0.5,
+          "fw": 13,
+          "cov": 1.0
+        }
+      ]
+    },
+    "id": "GRAMMAR_0000",
+    "seed": "71b8e725",
+    "meets_criteria": true
+  },
+  {
+    "initial_text": "FIRST STEP THEN KNOW THE HALL AND WHERE IS THE DOOR AND THE SKY ARE MORE",
+    "final_text": "AT BRING ARE AND THIS NO WOULD THE IS IF FOR THEY ARE WAS IF CAN FOR WHO ON",
+    "initial_score": 1.7000000000000002,
+    "final_score": 2.170588235294118,
+    "coverage_pre": 1.0,
+    "coverage_post": 1.0,
+    "f_words_pre": 10,
+    "f_words_post": 18,
+    "has_verb_pre": true,
+    "has_verb_post": true,
+    "z_trigram_pre": 0.5,
+    "z_trigram_post": 0.9705882352941176,
+    "accepted_moves": 1997,
+    "stats": {
+      "proposed": 2000,
+      "accepted": 1997,
+      "rejected": 3,
+      "best_score": 2.170588235294118,
+      "trajectory": [
+        {
+          "move": 100,
+          "score": 2.0125,
+          "temp": 3.0,
+          "fw": 16,
+          "cov": 1.0
+        },
+        {
+          "move": 200,
+          "score": 2.0076923076923077,
+          "temp": 3.0,
+          "fw": 13,
+          "cov": 1.0
+        },
+        {
+          "move": 300,
+          "score": 2.0181818181818185,
+          "temp": 3.0,
+          "fw": 11,
+          "cov": 1.0
+        },
+        {
+          "move": 400,
+          "score": 2.16875,
+          "temp": 3.0,
+          "fw": 17,
+          "cov": 1.0
+        },
+        {
+          "move": 500,
+          "score": 2.1166666666666667,
+          "temp": 2.0,
+          "fw": 13,
+          "cov": 1.0
+        },
+        {
+          "move": 600,
+          "score": 2.161538461538462,
+          "temp": 2.0,
+          "fw": 14,
+          "cov": 1.0
+        },
+        {
+          "move": 700,
+          "score": 2.1642857142857146,
+          "temp": 2.0,
+          "fw": 15,
+          "cov": 1.0
+        },
+        {
+          "move": 800,
+          "score": 2.1,
+          "temp": 2.0,
+          "fw": 11,
+          "cov": 1.0
+        },
+        {
+          "move": 900,
+          "score": 2.1,
+          "temp": 2.0,
+          "fw": 16,
+          "cov": 1.0
+        },
+        {
+          "move": 1000,
+          "score": 2.075,
+          "temp": 1.0,
+          "fw": 13,
+          "cov": 1.0
+        },
+        {
+          "move": 1100,
+          "score": 2.092857142857143,
+          "temp": 1.0,
+          "fw": 15,
+          "cov": 1.0
+        },
+        {
+          "move": 1200,
+          "score": 2.0333333333333337,
+          "temp": 1.0,
+          "fw": 10,
+          "cov": 1.0
+        },
+        {
+          "move": 1300,
+          "score": 2.1642857142857146,
+          "temp": 1.0,
+          "fw": 15,
+          "cov": 1.0
+        },
+        {
+          "move": 1400,
+          "score": 2.0846153846153848,
+          "temp": 1.0,
+          "fw": 14,
+          "cov": 1.0
+        },
+        {
+          "move": 1500,
+          "score": 2.1583333333333337,
+          "temp": 0.5,
+          "fw": 13,
+          "cov": 1.0
+        },
+        {
+          "move": 1600,
+          "score": 2.1,
+          "temp": 0.5,
+          "fw": 16,
+          "cov": 1.0
+        },
+        {
+          "move": 1700,
+          "score": 1.8,
+          "temp": 0.5,
+          "fw": 11,
+          "cov": 1.0
+        },
+        {
+          "move": 1800,
+          "score": 1.8,
+          "temp": 0.5,
+          "fw": 13,
+          "cov": 1.0
+        },
+        {
+          "move": 1900,
+          "score": 1.8,
+          "temp": 0.5,
+          "fw": 18,
+          "cov": 1.0
+        }
+      ]
+    },
+    "id": "GRAMMAR_0001",
+    "seed": "e8d4ed3c",
+    "meets_criteria": true
+  },
+  {
+    "initial_text": "WHAT GO THE LAW BRIGHT IF SIGN THEN FORGET THE LOCK WHERE IS THE CODE AND",
+    "final_text": "THEY ALL OUR A BY OF ON AT FOR IS WHEN WAS WOULD NOT WHERE IT NOT FOLLOW BY",
+    "initial_score": 1.68125,
+    "final_score": 2.170588235294118,
+    "coverage_pre": 0.9375,
+    "coverage_post": 1.0,
+    "f_words_pre": 9,
+    "f_words_post": 18,
+    "has_verb_pre": true,
+    "has_verb_post": true,
+    "z_trigram_pre": 0.5,
+    "z_trigram_post": 0.9705882352941176,
+    "accepted_moves": 1994,
+    "stats": {
+      "proposed": 2000,
+      "accepted": 1994,
+      "rejected": 6,
+      "best_score": 2.170588235294118,
+      "trajectory": [
+        {
+          "move": 100,
+          "score": 2.0,
+          "temp": 3.0,
+          "fw": 10,
+          "cov": 1.0
+        },
+        {
+          "move": 200,
+          "score": 2.1285714285714286,
+          "temp": 3.0,
+          "fw": 15,
+          "cov": 1.0
+        },
+        {
+          "move": 300,
+          "score": 2.075,
+          "temp": 3.0,
+          "fw": 13,
+          "cov": 1.0
+        },
+        {
+          "move": 400,
+          "score": 2.1166666666666667,
+          "temp": 3.0,
+          "fw": 13,
+          "cov": 1.0
+        },
+        {
+          "move": 500,
+          "score": 2.1166666666666667,
+          "temp": 2.0,
+          "fw": 13,
+          "cov": 1.0
+        },
+        {
+          "move": 600,
+          "score": 2.092857142857143,
+          "temp": 2.0,
+          "fw": 15,
+          "cov": 1.0
+        },
+        {
+          "move": 700,
+          "score": 2.10625,
+          "temp": 2.0,
+          "fw": 17,
+          "cov": 1.0
+        },
+        {
+          "move": 800,
+          "score": 2.111764705882353,
+          "temp": 2.0,
+          "fw": 18,
+          "cov": 1.0
+        },
+        {
+          "move": 900,
+          "score": 2.075,
+          "temp": 2.0,
+          "fw": 13,
+          "cov": 1.0
+        },
+        {
+          "move": 1000,
+          "score": 2.0846153846153848,
+          "temp": 1.0,
+          "fw": 14,
+          "cov": 1.0
+        },
+        {
+          "move": 1100,
+          "score": 2.0333333333333337,
+          "temp": 1.0,
+          "fw": 10,
+          "cov": 1.0
+        },
+        {
+          "move": 1200,
+          "score": 2.075,
+          "temp": 1.0,
+          "fw": 13,
+          "cov": 1.0
+        },
+        {
+          "move": 1300,
+          "score": 2.0125,
+          "temp": 1.0,
+          "fw": 9,
+          "cov": 1.0
+        },
+        {
+          "move": 1400,
+          "score": 2.075,
+          "temp": 1.0,
+          "fw": 13,
+          "cov": 1.0
+        },
+        {
+          "move": 1500,
+          "score": 2.0846153846153848,
+          "temp": 0.5,
+          "fw": 14,
+          "cov": 1.0
+        },
+        {
+          "move": 1600,
+          "score": 2.10625,
+          "temp": 0.5,
+          "fw": 17,
+          "cov": 1.0
+        },
+        {
+          "move": 1700,
+          "score": 2.075,
+          "temp": 0.5,
+          "fw": 13,
+          "cov": 1.0
+        },
+        {
+          "move": 1800,
+          "score": 2.075,
+          "temp": 0.5,
+          "fw": 13,
+          "cov": 1.0
+        },
+        {
+          "move": 1900,
+          "score": 2.1285714285714286,
+          "temp": 0.5,
+          "fw": 15,
+          "cov": 1.0
+        }
+      ]
+    },
+    "id": "GRAMMAR_0002",
+    "seed": "32d93c58",
+    "meets_criteria": true
+  },
+  {
+    "initial_text": "BEFORE THE LIFE GIVE THE HALL WHAT REMEMBER THE SIGN FIRST SO HAS IF NOT",
+    "final_text": "WHEN OF WHO ON YOU BY THEN ARE WILL WILL WE ON ARE THERE TWO CAN APPLY THIS",
+    "initial_score": 1.5646153846153847,
+    "final_score": 2.16875,
+    "coverage_pre": 0.9333333333333333,
+    "coverage_post": 1.0,
+    "f_words_pre": 8,
+    "f_words_post": 17,
+    "has_verb_pre": true,
+    "has_verb_post": true,
+    "z_trigram_pre": 0.38461538461538464,
+    "z_trigram_post": 0.96875,
+    "accepted_moves": 1994,
+    "stats": {
+      "proposed": 2000,
+      "accepted": 1994,
+      "rejected": 6,
+      "best_score": 2.16875,
+      "trajectory": [
+        {
+          "move": 100,
+          "score": 2.066666666666667,
+          "temp": 3.0,
+          "fw": 15,
+          "cov": 1.0
+        },
+        {
+          "move": 200,
+          "score": 2.0,
+          "temp": 3.0,
+          "fw": 10,
+          "cov": 1.0
+        },
+        {
+          "move": 300,
+          "score": 2.0076923076923077,
+          "temp": 3.0,
+          "fw": 13,
+          "cov": 1.0
+        },
+        {
+          "move": 400,
+          "score": 2.092857142857143,
+          "temp": 3.0,
+          "fw": 15,
+          "cov": 1.0
+        },
+        {
+          "move": 500,
+          "score": 2.063636363636364,
+          "temp": 2.0,
+          "fw": 12,
+          "cov": 1.0
+        },
+        {
+          "move": 600,
+          "score": 2.10625,
+          "temp": 2.0,
+          "fw": 17,
+          "cov": 1.0
+        },
+        {
+          "move": 700,
+          "score": 2.1444444444444444,
+          "temp": 2.0,
+          "fw": 10,
+          "cov": 1.0
+        },
+        {
+          "move": 800,
+          "score": 2.063636363636364,
+          "temp": 2.0,
+          "fw": 12,
+          "cov": 1.0
+        },
+        {
+          "move": 900,
+          "score": 2.0125,
+          "temp": 2.0,
+          "fw": 9,
+          "cov": 1.0
+        },
+        {
+          "move": 1000,
+          "score": 2.075,
+          "temp": 1.0,
+          "fw": 9,
+          "cov": 1.0
+        },
+        {
+          "move": 1100,
+          "score": 2.1545454545454548,
+          "temp": 1.0,
+          "fw": 12,
+          "cov": 1.0
+        },
+        {
+          "move": 1200,
+          "score": 2.092857142857143,
+          "temp": 1.0,
+          "fw": 15,
+          "cov": 1.0
+        },
+        {
+          "move": 1300,
+          "score": 2.10625,
+          "temp": 1.0,
+          "fw": 17,
+          "cov": 1.0
+        },
+        {
+          "move": 1400,
+          "score": 2.075,
+          "temp": 1.0,
+          "fw": 13,
+          "cov": 1.0
+        },
+        {
+          "move": 1500,
+          "score": 2.0125,
+          "temp": 0.5,
+          "fw": 9,
+          "cov": 1.0
+        },
+        {
+          "move": 1600,
+          "score": 2.063636363636364,
+          "temp": 0.5,
+          "fw": 12,
+          "cov": 1.0
+        },
+        {
+          "move": 1700,
+          "score": 2.1,
+          "temp": 0.5,
+          "fw": 16,
+          "cov": 1.0
+        },
+        {
+          "move": 1800,
+          "score": 2.1090909090909093,
+          "temp": 0.5,
+          "fw": 12,
+          "cov": 1.0
+        },
+        {
+          "move": 1900,
+          "score": 2.0333333333333337,
+          "temp": 0.5,
+          "fw": 10,
+          "cov": 1.0
+        }
+      ]
+    },
+    "id": "GRAMMAR_0003",
+    "seed": "7d5d2ed6",
+    "meets_criteria": true
+  },
+  {
+    "initial_text": "LOOK DARK AND SET LAST. SET THE MARK TO HIGH. WHERE IS THE TIME AND THE",
+    "final_text": "NO YOUR AT THE AS THE HAS FROM AS THIS ALL WAS THIS ONE THIS THAT SEEK BY",
+    "initial_score": 1.5553571428571429,
+    "final_score": 2.16875,
+    "coverage_pre": 0.875,
+    "coverage_post": 1.0,
+    "f_words_pre": 8,
+    "f_words_post": 17,
+    "has_verb_pre": true,
+    "has_verb_post": true,
+    "z_trigram_pre": 0.39285714285714285,
+    "z_trigram_post": 0.96875,
+    "accepted_moves": 1990,
+    "stats": {
+      "proposed": 2000,
+      "accepted": 1990,
+      "rejected": 10,
+      "best_score": 2.16875,
+      "trajectory": [
+        {
+          "move": 100,
+          "score": 1.7384615384615385,
+          "temp": 3.0,
+          "fw": 10,
+          "cov": 1.0
+        },
+        {
+          "move": 200,
+          "score": 1.8071428571428574,
+          "temp": 3.0,
+          "fw": 12,
+          "cov": 1.0
+        },
+        {
+          "move": 300,
+          "score": 2.0333333333333337,
+          "temp": 3.0,
+          "fw": 14,
+          "cov": 1.0
+        },
+        {
+          "move": 400,
+          "score": 2.063636363636364,
+          "temp": 3.0,
+          "fw": 11,
+          "cov": 1.0
+        },
+        {
+          "move": 500,
+          "score": 2.0571428571428574,
+          "temp": 2.0,
+          "fw": 14,
+          "cov": 1.0
+        },
+        {
+          "move": 600,
+          "score": 2.0125,
+          "temp": 2.0,
+          "fw": 16,
+          "cov": 1.0
+        },
+        {
+          "move": 700,
+          "score": 2.0214285714285714,
+          "temp": 2.0,
+          "fw": 14,
+          "cov": 1.0
+        },
+        {
+          "move": 800,
+          "score": 1.8875000000000002,
+          "temp": 2.0,
+          "fw": 8,
+          "cov": 1.0
+        },
+        {
+          "move": 900,
+          "score": 2.0125,
+          "temp": 2.0,
+          "fw": 16,
+          "cov": 1.0
+        },
+        {
+          "move": 1000,
+          "score": 2.0571428571428574,
+          "temp": 1.0,
+          "fw": 14,
+          "cov": 1.0
+        },
+        {
+          "move": 1100,
+          "score": 2.075,
+          "temp": 1.0,
+          "fw": 16,
+          "cov": 1.0
+        },
+        {
+          "move": 1200,
+          "score": 2.0571428571428574,
+          "temp": 1.0,
+          "fw": 14,
+          "cov": 1.0
+        },
+        {
+          "move": 1300,
+          "score": 2.0125,
+          "temp": 1.0,
+          "fw": 9,
+          "cov": 1.0
+        },
+        {
+          "move": 1400,
+          "score": 2.15,
+          "temp": 1.0,
+          "fw": 11,
+          "cov": 1.0
+        },
+        {
+          "move": 1500,
+          "score": 2.0125,
+          "temp": 0.5,
+          "fw": 9,
+          "cov": 1.0
+        },
+        {
+          "move": 1600,
+          "score": 2.075,
+          "temp": 0.5,
+          "fw": 13,
+          "cov": 1.0
+        },
+        {
+          "move": 1700,
+          "score": 2.075,
+          "temp": 0.5,
+          "fw": 13,
+          "cov": 1.0
+        },
+        {
+          "move": 1800,
+          "score": 2.092857142857143,
+          "temp": 0.5,
+          "fw": 15,
+          "cov": 1.0
+        },
+        {
+          "move": 1900,
+          "score": 2.0125,
+          "temp": 0.5,
+          "fw": 9,
+          "cov": 1.0
+        }
+      ]
+    },
+    "id": "GRAMMAR_0004",
+    "seed": "a3673b33",
+    "meets_criteria": true
+  }
+]
