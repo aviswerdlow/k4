@@ -1,0 +1,18 @@
+{
+  "timestamp": "2025-09-06T01:33:08.534738",
+  "track": "A_BLINDED_SALIENCY",
+  "statistics": {
+    "total_processed": 4,
+    "within_epsilon_0.10": 4,
+    "within_epsilon_0.05": 0,
+    "delta_passers": 0
+  },
+  "summary": {
+    "heads_generated": 4,
+    "heads_processed": 4,
+    "delta_passers": 0,
+    "within_0.10": 4,
+    "within_0.05": 0,
+    "pass_rate": 0.0
+  }
+}

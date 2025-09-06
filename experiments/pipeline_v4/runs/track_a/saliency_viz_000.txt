@@ -1,0 +1,11 @@
+Saliency Map Visualization:
+===========================================================================
+Position: 012345678901234567890123456789012345678901234567890123456789012345678901234
+Text:     IZJZWDYIDWSGBPNJSKGGOAFQGGULNOXJMYLPMFSVPJMOXHHPFPTNTBQAKKPQLBJDCOQSNRJBPXJ
+Saliency: ░░▒▒▒▓▓░░█▒▒▓▓▒▓▒██▓▒▓▓▒▒▓█▓▒░▒▒▓█▒▓▓▓▒▓▒▒░░█▒▒▒█▒▒█░▒█▒▓▓▒█▒▓▒▒▒░█▓▓▒▓▒▒▒▒
+Corridor:                      EEEENNNNNNNNN                             BBBBBBBBBBB 
+===========================================================================
+Mean saliency: 0.010
+Std saliency:  0.020
+Max saliency:  0.052 at positions [6, 9, 12, 15, 17]
+Min saliency:  -0.030 at positions [0, 1, 2, 3, 4]

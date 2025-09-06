@@ -2,7 +2,7 @@
 
 **Pre-Registration Date:** 2025-01-06  
 **Branch:** pipeline-v4-explore-sensitivity-20250106  
-**Commit Hash:** [TO BE FILLED]  
+**Commit Hash:** 9ce4d3b  
 **Global Seed:** 1337  
 
 ## Core Hypothesis
@@ -101,4 +101,4 @@ Tertiary: Demonstrate that sensitivity-aware placement recovers S_blind
 
 ---
 
-**Pre-Registration Complete at Commit:** [TO BE FILLED]
+**Pre-Registration Complete at Commit:** 9ce4d3b

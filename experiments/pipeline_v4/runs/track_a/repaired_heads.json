@@ -1,0 +1,307 @@
+{
+  "total_heads": 4,
+  "results": [
+    {
+      "original_text": "IZJZWDYIDWSGBPNJSKGGOAFQGGULNOXJMYLPMFSVPJMOXHHPFPTNTBQAKKPQLBJDCOQSNRJBPXJ",
+      "anchored_text": "IZJZWDYIDWSGBPNJSKGGOEASTNORTHEASTLPMFSVPJMOXHHPFPTNTBQAKKPQLBJBERLINCLOCKJ",
+      "repaired_text": "DZJZWDYIIWSGBPNJSKGGOEASTNORTHEASTLPMFSVPMJOXHHPFTPNBTQAKKPQLBJBERLINCLOCKJ",
+      "anchors_preserved": true,
+      "pre_repair_score": 2.02662354890212,
+      "post_repair_score": 2.2018658106077673,
+      "repair_improvement": 0.17524226170564727,
+      "repair_stats": {
+        "initial_score": 2.02662354890212,
+        "final_score": 2.2018658106077673,
+        "improvement": 0.17524226170564727,
+        "iterations": 54,
+        "successful_improvements": 4,
+        "protected_positions": 24,
+        "improvements_log": [
+          {
+            "iteration": 0,
+            "score": 2.1173110869115,
+            "improvement": 0.09068753800938012
+          },
+          {
+            "iteration": 1,
+            "score": 2.152553877820779,
+            "improvement": 0.12593032891865885
+          },
+          {
+            "iteration": 2,
+            "score": 2.1873190369712483,
+            "improvement": 0.16069548806912826
+          },
+          {
+            "iteration": 3,
+            "score": 2.2018658106077673,
+            "improvement": 0.17524226170564727
+          }
+        ]
+      },
+      "total_score_recovery": 0.17524226170564727,
+      "final_vs_original": 0.16101921645037187,
+      "label": "BLINDED_001_01000",
+      "placement": {
+        "EAST": 21,
+        "NORTHEAST": 25,
+        "BERLINCLOCK": 63
+      },
+      "window_radius": 0
+    },
+    {
+      "original_text": "BUMAQWNUFIYHDWKYIOKABUWMRPCWCFVOQVZAFWQHFOPLODDINJEXSMQTZAOLRZGMTQXOMXVBGUJ",
+      "anchored_text": "BUMAQWNUFIYHDWKYIOKABEASTNORTHEASTZAFWQHFOPLODDINJEXSMQTZAOLRZGBERLINCLOCKJ",
+      "repaired_text": "BMNAQIUUFYIHDWFYWKOAOEASTNORTHEASTZAFLQHKOIWBDDPNJGXSMQTZAOLOZEBERLINCLOCKJ",
+      "anchors_preserved": true,
+      "pre_repair_score": 1.779135085123387,
+      "post_repair_score": 2.194668937673803,
+      "repair_improvement": 0.4155338525504162,
+      "repair_stats": {
+        "initial_score": 1.779135085123387,
+        "final_score": 2.194668937673803,
+        "improvement": 0.4155338525504162,
+        "iterations": 61,
+        "successful_improvements": 11,
+        "protected_positions": 24,
+        "improvements_log": [
+          {
+            "iteration": 0,
+            "score": 1.9058054174927013,
+            "improvement": 0.12667033236931435
+          },
+          {
+            "iteration": 1,
+            "score": 1.977835399792223,
+            "improvement": 0.19870031466883598
+          },
+          {
+            "iteration": 2,
+            "score": 2.0206740744621983,
+            "improvement": 0.24153898933881135
+          },
+          {
+            "iteration": 3,
+            "score": 2.0735520519217787,
+            "improvement": 0.2944169667983918
+          },
+          {
+            "iteration": 4,
+            "score": 2.1007210675813823,
+            "improvement": 0.3215859824579954
+          },
+          {
+            "iteration": 5,
+            "score": 2.123675240514408,
+            "improvement": 0.344540155391021
+          },
+          {
+            "iteration": 6,
+            "score": 2.1428268763602594,
+            "improvement": 0.36369179123687245
+          },
+          {
+            "iteration": 7,
+            "score": 2.1534328157784497,
+            "improvement": 0.3742977306550628
+          },
+          {
+            "iteration": 8,
+            "score": 2.179600456681405,
+            "improvement": 0.400465371558018
+          },
+          {
+            "iteration": 9,
+            "score": 2.1894340416847275,
+            "improvement": 0.41029895656134063
+          },
+          {
+            "iteration": 10,
+            "score": 2.194668937673803,
+            "improvement": 0.4155338525504162
+          }
+        ]
+      },
+      "total_score_recovery": 0.4155338525504162,
+      "final_vs_original": 0.3034076792747147,
+      "label": "BLINDED_000_01000",
+      "placement": {
+        "EAST": 21,
+        "NORTHEAST": 25,
+        "BERLINCLOCK": 63
+      },
+      "window_radius": 0
+    },
+    {
+      "original_text": "BTMQTFUOBVTHPPXPOJMOBQHMBDOANRWADKAAFWWCZMBYUSJNIJEXQMEZJVLDTLRILQXOUFYOZYR",
+      "anchored_text": "BTMQTFUOBVTHPPXPOJMOBEASTNORTHEASTAAFWWCZMBYUSJNIJEXQMEZJVLDTLRBERLINCLOCKR",
+      "repaired_text": "BMTQTFUOBVTHE XOPJOMCEASTNORTHEASTAAFWWCZMBYULNJIJEXMQEZJVSDTLYBERLINCLOCKR",
+      "anchors_preserved": true,
+      "pre_repair_score": 1.728854938945862,
+      "post_repair_score": 2.165463124540757,
+      "repair_improvement": 0.4366081855948951,
+      "repair_stats": {
+        "initial_score": 1.728854938945862,
+        "final_score": 2.165463124540757,
+        "improvement": 0.4366081855948951,
+        "iterations": 60,
+        "successful_improvements": 10,
+        "protected_positions": 24,
+        "improvements_log": [
+          {
+            "iteration": 0,
+            "score": 1.8595039196289616,
+            "improvement": 0.1306489806830995
+          },
+          {
+            "iteration": 1,
+            "score": 1.9234644497734075,
+            "improvement": 0.1946095108275454
+          },
+          {
+            "iteration": 2,
+            "score": 1.98707614095252,
+            "improvement": 0.2582212020066579
+          },
+          {
+            "iteration": 3,
+            "score": 2.0323633090497726,
+            "improvement": 0.3035083701039105
+          },
+          {
+            "iteration": 4,
+            "score": 2.069714899308165,
+            "improvement": 0.34085996036230304
+          },
+          {
+            "iteration": 5,
+            "score": 2.1033845623970295,
+            "improvement": 0.37452962345116747
+          },
+          {
+            "iteration": 6,
+            "score": 2.123752413517898,
+            "improvement": 0.3948974745720357
+          },
+          {
+            "iteration": 7,
+            "score": 2.132085746851231,
+            "improvement": 0.403230807905369
+          },
+          {
+            "iteration": 8,
+            "score": 2.1597403510315414,
+            "improvement": 0.4308854120856793
+          },
+          {
+            "iteration": 9,
+            "score": 2.165463124540757,
+            "improvement": 0.4366081855948951
+          }
+        ]
+      },
+      "total_score_recovery": 0.4366081855948951,
+      "final_vs_original": 0.5387617042872868,
+      "label": "BLINDED_000_00500",
+      "placement": {
+        "EAST": 21,
+        "NORTHEAST": 25,
+        "BERLINCLOCK": 63
+      },
+      "window_radius": 0
+    },
+    {
+      "original_text": "KISFMGWJJQTOASALFRISJWOTHRZRNWFDKPUTGNIDHHBGDPVXAWVYBWOMTOKLPNRXDLBOMTJUORR",
+      "anchored_text": "KISFMGWJJQTOASALFRISJEASTNORTHEASTUTGNIDHHBGDPVXAWVYBWOMTOKLPNRBERLINCLOCKR",
+      "repaired_text": "KAGTMGWJJTQOAFSLRFNS EASTNORTHEASTUOIIIHDHBGDPVXAWVYBWSMTKLOPNRBERLINCLOCKR",
+      "anchors_preserved": true,
+      "pre_repair_score": 1.5940966530352942,
+      "post_repair_score": 2.19984252081921,
+      "repair_improvement": 0.6057458677839156,
+      "repair_stats": {
+        "initial_score": 1.5940966530352942,
+        "final_score": 2.19984252081921,
+        "improvement": 0.6057458677839156,
+        "iterations": 63,
+        "successful_improvements": 13,
+        "protected_positions": 24,
+        "improvements_log": [
+          {
+            "iteration": 0,
+            "score": 1.725173273418478,
+            "improvement": 0.13107662038318368
+          },
+          {
+            "iteration": 1,
+            "score": 1.8423378037530715,
+            "improvement": 0.2482411507177773
+          },
+          {
+            "iteration": 2,
+            "score": 1.9208294944380833,
+            "improvement": 0.326732841402789
+          },
+          {
+            "iteration": 3,
+            "score": 1.9833201918407681,
+            "improvement": 0.3892235388054739
+          },
+          {
+            "iteration": 4,
+            "score": 2.028663960845458,
+            "improvement": 0.43456730781016395
+          },
+          {
+            "iteration": 5,
+            "score": 2.0691361834298374,
+            "improvement": 0.47503953039454316
+          },
+          {
+            "iteration": 6,
+            "score": 2.108752289341746,
+            "improvement": 0.5146556363064518
+          },
+          {
+            "iteration": 7,
+            "score": 2.1462302398845203,
+            "improvement": 0.5521335868492261
+          },
+          {
+            "iteration": 8,
+            "score": 2.1583418413517346,
+            "improvement": 0.5642451883164403
+          },
+          {
+            "iteration": 9,
+            "score": 2.1650584039450482,
+            "improvement": 0.570961750909754
+          },
+          {
+            "iteration": 10,
+            "score": 2.172059196170161,
+            "improvement": 0.5779625431348667
+          },
+          {
+            "iteration": 11,
+            "score": 2.1731755636644587,
+            "improvement": 0.5790789106291645
+          },
+          {
+            "iteration": 12,
+            "score": 2.19984252081921,
+            "improvement": 0.6057458677839156
+          }
+        ]
+      },
+      "total_score_recovery": 0.6057458677839156,
+      "final_vs_original": 0.5865409478529318,
+      "label": "BLINDED_001_00500",
+      "placement": {
+        "EAST": 21,
+        "NORTHEAST": 25,
+        "BERLINCLOCK": 63
+      },
+      "window_radius": 0
+    }
+  ]
+}

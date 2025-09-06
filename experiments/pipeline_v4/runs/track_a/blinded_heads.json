@@ -1,0 +1,75 @@
+{
+  "track": "A1_BLINDED_MCMC",
+  "total_generated": 4,
+  "kept": 4,
+  "heads": [
+    {
+      "text": "IZJZWDYIDWSGBPNJSKGGOAFQGGULNOXJMYLPMFSVPJMOXHHPFPTNTBQAKKPQLBJDCOQSNRJBPXJ",
+      "score": 2.0408465941573954,
+      "components": {
+        "z_trigram": 1.7596153846153846,
+        "z_bigram": 1.0303860830887546,
+        "z_compress": 5,
+        "content_count": 24,
+        "max_repeat": 1,
+        "score": 2.0408465941573954
+      },
+      "iteration": 1000,
+      "temperature": 1.2145783176008595,
+      "accept_rate": 0.995,
+      "chain_id": 1,
+      "label": "BLINDED_001_01000"
+    },
+    {
+      "text": "BUMAQWNUFIYHDWKYIOKABUWMRPCWCFVOQVZAFWQHFOPLODDINJEXSMQTZAOLRZGMTQXOMXVBGUJ",
+      "score": 1.8912612583990884,
+      "components": {
+        "z_trigram": 1.6015625,
+        "z_bigram": 0.9005583613302944,
+        "z_compress": 5,
+        "content_count": 25,
+        "max_repeat": 1,
+        "score": 1.8912612583990884
+      },
+      "iteration": 1000,
+      "temperature": 0.47019145799354195,
+      "accept_rate": 0.993,
+      "chain_id": 0,
+      "label": "BLINDED_000_01000"
+    },
+    {
+      "text": "BTMQTFUOBVTHPPXPOJMOBQHMBDOANRWADKAAFWWCZMBYUSJNIJEXQMEZJVLDTLRILQXOUFYOZYR",
+      "score": 1.6267014202534704,
+      "components": {
+        "z_trigram": 1.4914246615582956,
+        "z_bigram": 0.2756805238755452,
+        "z_compress": 5,
+        "content_count": 24,
+        "max_repeat": 1,
+        "score": 1.6267014202534704
+      },
+      "iteration": 500,
+      "temperature": 1.094913457437105,
+      "accept_rate": 1.0,
+      "chain_id": 0,
+      "label": "BLINDED_000_00500"
+    },
+    {
+      "text": "KISFMGWJJQTOASALFRISJWOTHRZRNWFDKPUTGNIDHHBGDPVXAWVYBWOMTOKLPNRXDLBOMTJUORR",
+      "score": 1.613301572966278,
+      "components": {
+        "z_trigram": 1.4388944818216465,
+        "z_bigram": 0.3535847856370852,
+        "z_compress": 5,
+        "content_count": 23,
+        "max_repeat": 1,
+        "score": 1.613301572966278
+      },
+      "iteration": 500,
+      "temperature": 1.756952643843331,
+      "accept_rate": 0.998,
+      "chain_id": 1,
+      "label": "BLINDED_001_00500"
+    }
+  ]
+}

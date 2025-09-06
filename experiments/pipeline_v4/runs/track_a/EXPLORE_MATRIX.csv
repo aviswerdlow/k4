@@ -1,0 +1,5 @@
+label,grid,anchor_mode,delta_vs_windowed,delta_vs_shuffled,z_ngram_blind,pass_deltas,within_eps_0.10,within_eps_0.05,repair_improvement,saliency_mean
+BLINDED_001_01000,v4_track_a,fixed,0.0,0.0,0,False,True,False,0.17524226170564727,0
+BLINDED_000_01000,v4_track_a,fixed,0.0,0.0,0,False,True,False,0.4155338525504162,0
+BLINDED_000_00500,v4_track_a,fixed,0.0,0.0,0,False,True,False,0.4366081855948951,0
+BLINDED_001_00500,v4_track_a,fixed,0.0,0.0,0,False,True,False,0.6057458677839156,0

@@ -1,0 +1,113 @@
+{
+  "total_heads": 4,
+  "results": [
+    {
+      "original_text": "IZJZWDYIDWSGBPNJSKGGOAFQGGULNOXJMYLPMFSVPJMOXHHPFPTNTBQAKKPQLBJDCOQSNRJBPXJ",
+      "anchored_text": "IZJZWDYIDWSGBPNJSKGGOEASTNORTHEASTLPMFSVPJMOXHHPFPTNTBQAKKPQLBJBERLINCLOCKJ",
+      "placement": {
+        "EAST": 21,
+        "NORTHEAST": 25,
+        "BERLINCLOCK": 63
+      },
+      "window_radius": 0,
+      "C_anchor": 0.0,
+      "C_drop": 0.28608508912375274,
+      "predicted_drop": 0.28608508912375274,
+      "actual_drop": 0.014223045255275402,
+      "original_score": 2.0408465941573954,
+      "new_score": 2.02662354890212,
+      "pareto_front_size": 40,
+      "total_candidates": 40,
+      "label": "BLINDED_001_01000",
+      "saliency_stats": {
+        "mean_saliency": 0.010387861302065498,
+        "std_saliency": 0.01992553505754135,
+        "max_saliency": 0.05221584843605509,
+        "min_saliency": -0.030369874676065223,
+        "threshold_high": 0.026873156340158744,
+        "threshold_low": -0.0
+      }
+    },
+    {
+      "original_text": "BUMAQWNUFIYHDWKYIOKABUWMRPCWCFVOQVZAFWQHFOPLODDINJEXSMQTZAOLRZGMTQXOMXVBGUJ",
+      "anchored_text": "BUMAQWNUFIYHDWKYIOKABEASTNORTHEASTZAFWQHFOPLODDINJEXSMQTZAOLRZGBERLINCLOCKJ",
+      "placement": {
+        "EAST": 21,
+        "NORTHEAST": 25,
+        "BERLINCLOCK": 63
+      },
+      "window_radius": 0,
+      "C_anchor": 0.0,
+      "C_drop": 0.13737508001477972,
+      "predicted_drop": 0.13737508001477972,
+      "actual_drop": 0.11212617327570151,
+      "original_score": 1.8912612583990884,
+      "new_score": 1.779135085123387,
+      "pareto_front_size": 40,
+      "total_candidates": 40,
+      "label": "BLINDED_000_01000",
+      "saliency_stats": {
+        "mean_saliency": 0.0013231516615301953,
+        "std_saliency": 0.01653429339949326,
+        "max_saliency": 0.029532172197059836,
+        "min_saliency": -0.054878298345895526,
+        "threshold_high": 0.013261221002029533,
+        "threshold_low": -0.0
+      }
+    },
+    {
+      "original_text": "BTMQTFUOBVTHPPXPOJMOBQHMBDOANRWADKAAFWWCZMBYUSJNIJEXQMEZJVLDTLRILQXOUFYOZYR",
+      "anchored_text": "BTMQTFUOBVTHPPXPOJMOBEASTNORTHEASTAAFWWCZMBYUSJNIJEXQMEZJVLDTLRBERLINCLOCKR",
+      "placement": {
+        "EAST": 21,
+        "NORTHEAST": 25,
+        "BERLINCLOCK": 63
+      },
+      "window_radius": 0,
+      "C_anchor": 0.0,
+      "C_drop": -0.13165654133452165,
+      "predicted_drop": -0.13165654133452165,
+      "actual_drop": -0.10215351869239164,
+      "original_score": 1.6267014202534704,
+      "new_score": 1.728854938945862,
+      "pareto_front_size": 40,
+      "total_candidates": 40,
+      "label": "BLINDED_000_00500",
+      "saliency_stats": {
+        "mean_saliency": -0.002265449975412445,
+        "std_saliency": 0.021514551478145374,
+        "max_saliency": 0.049391971466790086,
+        "min_saliency": -0.052886377854330036,
+        "threshold_high": 0.007919948235644791,
+        "threshold_low": -0.014597651609549622
+      }
+    },
+    {
+      "original_text": "KISFMGWJJQTOASALFRISJWOTHRZRNWFDKPUTGNIDHHBGDPVXAWVYBWOMTOKLPNRXDLBOMTJUORR",
+      "anchored_text": "KISFMGWJJQTOASALFRISJEASTNORTHEASTUTGNIDHHBGDPVXAWVYBWOMTOKLPNRBERLINCLOCKR",
+      "placement": {
+        "EAST": 21,
+        "NORTHEAST": 25,
+        "BERLINCLOCK": 63
+      },
+      "window_radius": 0,
+      "C_anchor": 0.0,
+      "C_drop": -0.08491457240471578,
+      "predicted_drop": -0.08491457240471578,
+      "actual_drop": 0.019204919930983833,
+      "original_score": 1.613301572966278,
+      "new_score": 1.5940966530352942,
+      "pareto_front_size": 40,
+      "total_candidates": 40,
+      "label": "BLINDED_001_00500",
+      "saliency_stats": {
+        "mean_saliency": -0.00031356003740644844,
+        "std_saliency": 0.02211761896565881,
+        "max_saliency": 0.05088764356152686,
+        "min_saliency": -0.05726086382603102,
+        "threshold_high": 0.007011921914264918,
+        "threshold_low": -0.01295065842546217
+      }
+    }
+  ]
+}
