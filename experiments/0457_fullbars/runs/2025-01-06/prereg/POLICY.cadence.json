@@ -1,0 +1,23 @@
+{
+  "program": "cadence_gate",
+  "window": [0, 74],
+  "tokenization": "v2",
+  "metrics": {
+    "cosine_bigram_min_percentile": 5,
+    "cosine_trigram_min_percentile": 5,
+    "fw_gap_mean_band": [2.5, 97.5],
+    "fw_gap_cv_band": [2.5, 97.5],
+    "wordlen_chi2_max_percentile": 95,
+    "vc_ratio_band": [2.5, 97.5]
+  },
+  "ref_bootstrap": {
+    "source": "K1K2K3",
+    "windows": 6000,
+    "per_text": 2000,
+    "seed": 1337,
+    "hashes": {
+      "ref_windows_dump": "<to be filled post-bootstrap>",
+      "thresholds_json": "<to be filled post-bootstrap>"
+    }
+  }
+}
