@@ -1,0 +1,909 @@
+{
+  "campaign": "C12_DBGW_DeBruijn",
+  "date": "2025-01-06",
+  "description": "Campaign C12: DBGW_DeBruijn",
+  "seed": 1337,
+  "total_heads": 100,
+  "heads": [
+    {
+      "label": "C12_000",
+      "text": "UAVAWAXAYAZABACADAEAFEASTNORTHEASTMANAOAPAQARASATAUAVAWAXAYAZABBERLINCLOCKH",
+      "metadata": {
+        "campaign": "C12",
+        "method": "DBGW_DeBruijn",
+        "seed": 1337
+      }
+    },
+    {
+      "label": "C12_001",
+      "text": "ZABACADAEAFAGAHAIAJAKEASTNORTHEASTRASATAUAVAWAXAYAZABACADAEAFAGBERLINCLOCKM",
+      "metadata": {
+        "campaign": "C12",
+        "method": "DBGW_DeBruijn",
+        "seed": 1338
+      }
+    },
+    {
+      "label": "C12_002",
+      "text": "AVAWAXAYAZABACADAEAFAEASTNORTHEASTANAOAPAQARASATAUAVAWAXAYAZABABERLINCLOCKA",
+      "metadata": {
+        "campaign": "C12",
+        "method": "DBGW_DeBruijn",
+        "seed": 1339
+      }
+    },
+    {
+      "label": "C12_003",
+      "text": "AMANAOAPAQARASATAUAVAEASTNORTHEASTAEAFAGAHAIAJAKALAMANAOAPAQARABERLINCLOCKA",
+      "metadata": {
+        "campaign": "C12",
+        "method": "DBGW_DeBruijn",
+        "seed": 1340
+      }
+    },
+    {
+      "label": "C12_004",
+      "text": "APAQARASATAUAVAWAXAYAEASTNORTHEASTAHAIAJAKALAMANAOAPAQARASATAUABERLINCLOCKA",
+      "metadata": {
+        "campaign": "C12",
+        "method": "DBGW_DeBruijn",
+        "seed": 1341
+      }
+    },
+    {
+      "label": "C12_005",
+      "text": "ADAEAFAGAHAIAJAKALAMAEASTNORTHEASTAUAVAWAXAYAZABACADAEAFAGAHAIABERLINCLOCKA",
+      "metadata": {
+        "campaign": "C12",
+        "method": "DBGW_DeBruijn",
+        "seed": 1342
+      }
+    },
+    {
+      "label": "C12_006",
+      "text": "LAMANAOAPAQARASATAUAVEASTNORTHEASTDAEAFAGAHAIAJAKALAMANAOAPAQARBERLINCLOCKX",
+      "metadata": {
+        "campaign": "C12",
+        "method": "DBGW_DeBruijn",
+        "seed": 1343
+      }
+    },
+    {
+      "label": "C12_007",
+      "text": "AOAPAQARASATAUAVAWAXAEASTNORTHEASTAGAHAIAJAKALAMANAOAPAQARASATABERLINCLOCKA",
+      "metadata": {
+        "campaign": "C12",
+        "method": "DBGW_DeBruijn",
+        "seed": 1344
+      }
+    },
+    {
+      "label": "C12_008",
+      "text": "AEAFAGAHAIAJAKALAMANAEASTNORTHEASTAVAWAXAYAZABACADAEAFAGAHAIAJABERLINCLOCKA",
+      "metadata": {
+        "campaign": "C12",
+        "method": "DBGW_DeBruijn",
+        "seed": 1345
+      }
+    },
+    {
+      "label": "C12_009",
+      "text": "KALAMANAOAPAQARASATAUEASTNORTHEASTCADAEAFAGAHAIAJAKALAMANAOAPAQBERLINCLOCKW",
+      "metadata": {
+        "campaign": "C12",
+        "method": "DBGW_DeBruijn",
+        "seed": 1346
+      }
+    },
+    {
+      "label": "C12_010",
+      "text": "QARASATAUAVAWAXAYAZABEASTNORTHEASTIAJAKALAMANAOAPAQARASATAUAVAWBERLINCLOCKD",
+      "metadata": {
+        "campaign": "C12",
+        "method": "DBGW_DeBruijn",
+        "seed": 1347
+      }
+    },
+    {
+      "label": "C12_011",
+      "text": "ANAOAPAQARASATAUAVAWAEASTNORTHEASTAFAGAHAIAJAKALAMANAOAPAQARASABERLINCLOCKA",
+      "metadata": {
+        "campaign": "C12",
+        "method": "DBGW_DeBruijn",
+        "seed": 1348
+      }
+    },
+    {
+      "label": "C12_012",
+      "text": "ABACADAEAFAGAHAIAJAKAEASTNORTHEASTASATAUAVAWAXAYAZABACADAEAFAGABERLINCLOCKA",
+      "metadata": {
+        "campaign": "C12",
+        "method": "DBGW_DeBruijn",
+        "seed": 1349
+      }
+    },
+    {
+      "label": "C12_013",
+      "text": "QARASATAUAVAWAXAYAZABEASTNORTHEASTIAJAKALAMANAOAPAQARASATAUAVAWBERLINCLOCKD",
+      "metadata": {
+        "campaign": "C12",
+        "method": "DBGW_DeBruijn",
+        "seed": 1350
+      }
+    },
+    {
+      "label": "C12_014",
+      "text": "AGAHAIAJAKALAMANAOAPAEASTNORTHEASTAXAYAZABACADAEAFAGAHAIAJAKALABERLINCLOCKA",
+      "metadata": {
+        "campaign": "C12",
+        "method": "DBGW_DeBruijn",
+        "seed": 1351
+      }
+    },
+    {
+      "label": "C12_015",
+      "text": "KALAMANAOAPAQARASATAUEASTNORTHEASTCADAEAFAGAHAIAJAKALAMANAOAPAQBERLINCLOCKW",
+      "metadata": {
+        "campaign": "C12",
+        "method": "DBGW_DeBruijn",
+        "seed": 1352
+      }
+    },
+    {
+      "label": "C12_016",
+      "text": "HAIAJAKALAMANAOAPAQAREASTNORTHEASTYAZABACADAEAFAGAHAIAJAKALAMANBERLINCLOCKT",
+      "metadata": {
+        "campaign": "C12",
+        "method": "DBGW_DeBruijn",
+        "seed": 1353
+      }
+    },
+    {
+      "label": "C12_017",
+      "text": "ASATAUAVAWAXAYAZABACAEASTNORTHEASTAKALAMANAOAPAQARASATAUAVAWAXABERLINCLOCKA",
+      "metadata": {
+        "campaign": "C12",
+        "method": "DBGW_DeBruijn",
+        "seed": 1354
+      }
+    },
+    {
+      "label": "C12_018",
+      "text": "WAXAYAZABACADAEAFAGAHEASTNORTHEASTOAPAQARASATAUAVAWAXAYAZABACADBERLINCLOCKJ",
+      "metadata": {
+        "campaign": "C12",
+        "method": "DBGW_DeBruijn",
+        "seed": 1355
+      }
+    },
+    {
+      "label": "C12_019",
+      "text": "IAJAKALAMANAOAPAQARASEASTNORTHEASTZABACADAEAFAGAHAIAJAKALAMANAOBERLINCLOCKU",
+      "metadata": {
+        "campaign": "C12",
+        "method": "DBGW_DeBruijn",
+        "seed": 1356
+      }
+    },
+    {
+      "label": "C12_020",
+      "text": "ATAUAVAWAXAYAZABACADAEASTNORTHEASTALAMANAOAPAQARASATAUAVAWAXAYABERLINCLOCKA",
+      "metadata": {
+        "campaign": "C12",
+        "method": "DBGW_DeBruijn",
+        "seed": 1357
+      }
+    },
+    {
+      "label": "C12_021",
+      "text": "ABACADAEAFAGAHAIAJAKAEASTNORTHEASTASATAUAVAWAXAYAZABACADAEAFAGABERLINCLOCKA",
+      "metadata": {
+        "campaign": "C12",
+        "method": "DBGW_DeBruijn",
+        "seed": 1358
+      }
+    },
+    {
+      "label": "C12_022",
+      "text": "AQARASATAUAVAWAXAYAZAEASTNORTHEASTAIAJAKALAMANAOAPAQARASATAUAVABERLINCLOCKA",
+      "metadata": {
+        "campaign": "C12",
+        "method": "DBGW_DeBruijn",
+        "seed": 1359
+      }
+    },
+    {
+      "label": "C12_023",
+      "text": "AVAWAXAYAZABACADAEAFAEASTNORTHEASTANAOAPAQARASATAUAVAWAXAYAZABABERLINCLOCKA",
+      "metadata": {
+        "campaign": "C12",
+        "method": "DBGW_DeBruijn",
+        "seed": 1360
+      }
+    },
+    {
+      "label": "C12_024",
+      "text": "EAFAGAHAIAJAKALAMANAOEASTNORTHEASTVAWAXAYAZABACADAEAFAGAHAIAJAKBERLINCLOCKQ",
+      "metadata": {
+        "campaign": "C12",
+        "method": "DBGW_DeBruijn",
+        "seed": 1361
+      }
+    },
+    {
+      "label": "C12_025",
+      "text": "CADAEAFAGAHAIAJAKALAMEASTNORTHEASTTAUAVAWAXAYAZABACADAEAFAGAHAIBERLINCLOCKO",
+      "metadata": {
+        "campaign": "C12",
+        "method": "DBGW_DeBruijn",
+        "seed": 1362
+      }
+    },
+    {
+      "label": "C12_026",
+      "text": "AHAIAJAKALAMANAOAPAQAEASTNORTHEASTAYAZABACADAEAFAGAHAIAJAKALAMABERLINCLOCKA",
+      "metadata": {
+        "campaign": "C12",
+        "method": "DBGW_DeBruijn",
+        "seed": 1363
+      }
+    },
+    {
+      "label": "C12_027",
+      "text": "AZABACADAEAFAGAHAIAJAEASTNORTHEASTARASATAUAVAWAXAYAZABACADAEAFABERLINCLOCKA",
+      "metadata": {
+        "campaign": "C12",
+        "method": "DBGW_DeBruijn",
+        "seed": 1364
+      }
+    },
+    {
+      "label": "C12_028",
+      "text": "QARASATAUAVAWAXAYAZABEASTNORTHEASTIAJAKALAMANAOAPAQARASATAUAVAWBERLINCLOCKD",
+      "metadata": {
+        "campaign": "C12",
+        "method": "DBGW_DeBruijn",
+        "seed": 1365
+      }
+    },
+    {
+      "label": "C12_029",
+      "text": "RASATAUAVAWAXAYAZABACEASTNORTHEASTJAKALAMANAOAPAQARASATAUAVAWAXBERLINCLOCKE",
+      "metadata": {
+        "campaign": "C12",
+        "method": "DBGW_DeBruijn",
+        "seed": 1366
+      }
+    },
+    {
+      "label": "C12_030",
+      "text": "AOAPAQARASATAUAVAWAXAEASTNORTHEASTAGAHAIAJAKALAMANAOAPAQARASATABERLINCLOCKA",
+      "metadata": {
+        "campaign": "C12",
+        "method": "DBGW_DeBruijn",
+        "seed": 1367
+      }
+    },
+    {
+      "label": "C12_031",
+      "text": "HAIAJAKALAMANAOAPAQAREASTNORTHEASTYAZABACADAEAFAGAHAIAJAKALAMANBERLINCLOCKT",
+      "metadata": {
+        "campaign": "C12",
+        "method": "DBGW_DeBruijn",
+        "seed": 1368
+      }
+    },
+    {
+      "label": "C12_032",
+      "text": "TAUAVAWAXAYAZABACADAEEASTNORTHEASTLAMANAOAPAQARASATAUAVAWAXAYAZBERLINCLOCKG",
+      "metadata": {
+        "campaign": "C12",
+        "method": "DBGW_DeBruijn",
+        "seed": 1369
+      }
+    },
+    {
+      "label": "C12_033",
+      "text": "VAWAXAYAZABACADAEAFAGEASTNORTHEASTNAOAPAQARASATAUAVAWAXAYAZABACBERLINCLOCKI",
+      "metadata": {
+        "campaign": "C12",
+        "method": "DBGW_DeBruijn",
+        "seed": 1370
+      }
+    },
+    {
+      "label": "C12_034",
+      "text": "AWAXAYAZABACADAEAFAGAEASTNORTHEASTAOAPAQARASATAUAVAWAXAYAZABACABERLINCLOCKA",
+      "metadata": {
+        "campaign": "C12",
+        "method": "DBGW_DeBruijn",
+        "seed": 1371
+      }
+    },
+    {
+      "label": "C12_035",
+      "text": "XAYAZABACADAEAFAGAHAIEASTNORTHEASTPAQARASATAUAVAWAXAYAZABACADAEBERLINCLOCKK",
+      "metadata": {
+        "campaign": "C12",
+        "method": "DBGW_DeBruijn",
+        "seed": 1372
+      }
+    },
+    {
+      "label": "C12_036",
+      "text": "ACADAEAFAGAHAIAJAKALAEASTNORTHEASTATAUAVAWAXAYAZABACADAEAFAGAHABERLINCLOCKA",
+      "metadata": {
+        "campaign": "C12",
+        "method": "DBGW_DeBruijn",
+        "seed": 1373
+      }
+    },
+    {
+      "label": "C12_037",
+      "text": "ABACADAEAFAGAHAIAJAKAEASTNORTHEASTASATAUAVAWAXAYAZABACADAEAFAGABERLINCLOCKA",
+      "metadata": {
+        "campaign": "C12",
+        "method": "DBGW_DeBruijn",
+        "seed": 1374
+      }
+    },
+    {
+      "label": "C12_038",
+      "text": "CADAEAFAGAHAIAJAKALAMEASTNORTHEASTTAUAVAWAXAYAZABACADAEAFAGAHAIBERLINCLOCKO",
+      "metadata": {
+        "campaign": "C12",
+        "method": "DBGW_DeBruijn",
+        "seed": 1375
+      }
+    },
+    {
+      "label": "C12_039",
+      "text": "PAQARASATAUAVAWAXAYAZEASTNORTHEASTHAIAJAKALAMANAOAPAQARASATAUAVBERLINCLOCKC",
+      "metadata": {
+        "campaign": "C12",
+        "method": "DBGW_DeBruijn",
+        "seed": 1376
+      }
+    },
+    {
+      "label": "C12_040",
+      "text": "FAGAHAIAJAKALAMANAOAPEASTNORTHEASTWAXAYAZABACADAEAFAGAHAIAJAKALBERLINCLOCKR",
+      "metadata": {
+        "campaign": "C12",
+        "method": "DBGW_DeBruijn",
+        "seed": 1377
+      }
+    },
+    {
+      "label": "C12_041",
+      "text": "ABACADAEAFAGAHAIAJAKAEASTNORTHEASTASATAUAVAWAXAYAZABACADAEAFAGABERLINCLOCKA",
+      "metadata": {
+        "campaign": "C12",
+        "method": "DBGW_DeBruijn",
+        "seed": 1378
+      }
+    },
+    {
+      "label": "C12_042",
+      "text": "XAYAZABACADAEAFAGAHAIEASTNORTHEASTPAQARASATAUAVAWAXAYAZABACADAEBERLINCLOCKK",
+      "metadata": {
+        "campaign": "C12",
+        "method": "DBGW_DeBruijn",
+        "seed": 1379
+      }
+    },
+    {
+      "label": "C12_043",
+      "text": "VAWAXAYAZABACADAEAFAGEASTNORTHEASTNAOAPAQARASATAUAVAWAXAYAZABACBERLINCLOCKI",
+      "metadata": {
+        "campaign": "C12",
+        "method": "DBGW_DeBruijn",
+        "seed": 1380
+      }
+    },
+    {
+      "label": "C12_044",
+      "text": "ATAUAVAWAXAYAZABACADAEASTNORTHEASTALAMANAOAPAQARASATAUAVAWAXAYABERLINCLOCKA",
+      "metadata": {
+        "campaign": "C12",
+        "method": "DBGW_DeBruijn",
+        "seed": 1381
+      }
+    },
+    {
+      "label": "C12_045",
+      "text": "AWAXAYAZABACADAEAFAGAEASTNORTHEASTAOAPAQARASATAUAVAWAXAYAZABACABERLINCLOCKA",
+      "metadata": {
+        "campaign": "C12",
+        "method": "DBGW_DeBruijn",
+        "seed": 1382
+      }
+    },
+    {
+      "label": "C12_046",
+      "text": "EAFAGAHAIAJAKALAMANAOEASTNORTHEASTVAWAXAYAZABACADAEAFAGAHAIAJAKBERLINCLOCKQ",
+      "metadata": {
+        "campaign": "C12",
+        "method": "DBGW_DeBruijn",
+        "seed": 1383
+      }
+    },
+    {
+      "label": "C12_047",
+      "text": "KALAMANAOAPAQARASATAUEASTNORTHEASTCADAEAFAGAHAIAJAKALAMANAOAPAQBERLINCLOCKW",
+      "metadata": {
+        "campaign": "C12",
+        "method": "DBGW_DeBruijn",
+        "seed": 1384
+      }
+    },
+    {
+      "label": "C12_048",
+      "text": "FAGAHAIAJAKALAMANAOAPEASTNORTHEASTWAXAYAZABACADAEAFAGAHAIAJAKALBERLINCLOCKR",
+      "metadata": {
+        "campaign": "C12",
+        "method": "DBGW_DeBruijn",
+        "seed": 1385
+      }
+    },
+    {
+      "label": "C12_049",
+      "text": "TAUAVAWAXAYAZABACADAEEASTNORTHEASTLAMANAOAPAQARASATAUAVAWAXAYAZBERLINCLOCKG",
+      "metadata": {
+        "campaign": "C12",
+        "method": "DBGW_DeBruijn",
+        "seed": 1386
+      }
+    },
+    {
+      "label": "C12_050",
+      "text": "ADAEAFAGAHAIAJAKALAMAEASTNORTHEASTAUAVAWAXAYAZABACADAEAFAGAHAIABERLINCLOCKA",
+      "metadata": {
+        "campaign": "C12",
+        "method": "DBGW_DeBruijn",
+        "seed": 1387
+      }
+    },
+    {
+      "label": "C12_051",
+      "text": "TAUAVAWAXAYAZABACADAEEASTNORTHEASTLAMANAOAPAQARASATAUAVAWAXAYAZBERLINCLOCKG",
+      "metadata": {
+        "campaign": "C12",
+        "method": "DBGW_DeBruijn",
+        "seed": 1388
+      }
+    },
+    {
+      "label": "C12_052",
+      "text": "CADAEAFAGAHAIAJAKALAMEASTNORTHEASTTAUAVAWAXAYAZABACADAEAFAGAHAIBERLINCLOCKO",
+      "metadata": {
+        "campaign": "C12",
+        "method": "DBGW_DeBruijn",
+        "seed": 1389
+      }
+    },
+    {
+      "label": "C12_053",
+      "text": "DAEAFAGAHAIAJAKALAMANEASTNORTHEASTUAVAWAXAYAZABACADAEAFAGAHAIAJBERLINCLOCKP",
+      "metadata": {
+        "campaign": "C12",
+        "method": "DBGW_DeBruijn",
+        "seed": 1390
+      }
+    },
+    {
+      "label": "C12_054",
+      "text": "AFAGAHAIAJAKALAMANAOAEASTNORTHEASTAWAXAYAZABACADAEAFAGAHAIAJAKABERLINCLOCKA",
+      "metadata": {
+        "campaign": "C12",
+        "method": "DBGW_DeBruijn",
+        "seed": 1391
+      }
+    },
+    {
+      "label": "C12_055",
+      "text": "AJAKALAMANAOAPAQARASAEASTNORTHEASTABACADAEAFAGAHAIAJAKALAMANAOABERLINCLOCKA",
+      "metadata": {
+        "campaign": "C12",
+        "method": "DBGW_DeBruijn",
+        "seed": 1392
+      }
+    },
+    {
+      "label": "C12_056",
+      "text": "ANAOAPAQARASATAUAVAWAEASTNORTHEASTAFAGAHAIAJAKALAMANAOAPAQARASABERLINCLOCKA",
+      "metadata": {
+        "campaign": "C12",
+        "method": "DBGW_DeBruijn",
+        "seed": 1393
+      }
+    },
+    {
+      "label": "C12_057",
+      "text": "NAOAPAQARASATAUAVAWAXEASTNORTHEASTFAGAHAIAJAKALAMANAOAPAQARASATBERLINCLOCKZ",
+      "metadata": {
+        "campaign": "C12",
+        "method": "DBGW_DeBruijn",
+        "seed": 1394
+      }
+    },
+    {
+      "label": "C12_058",
+      "text": "AWAXAYAZABACADAEAFAGAEASTNORTHEASTAOAPAQARASATAUAVAWAXAYAZABACABERLINCLOCKA",
+      "metadata": {
+        "campaign": "C12",
+        "method": "DBGW_DeBruijn",
+        "seed": 1395
+      }
+    },
+    {
+      "label": "C12_059",
+      "text": "ADAEAFAGAHAIAJAKALAMAEASTNORTHEASTAUAVAWAXAYAZABACADAEAFAGAHAIABERLINCLOCKA",
+      "metadata": {
+        "campaign": "C12",
+        "method": "DBGW_DeBruijn",
+        "seed": 1396
+      }
+    },
+    {
+      "label": "C12_060",
+      "text": "ADAEAFAGAHAIAJAKALAMAEASTNORTHEASTAUAVAWAXAYAZABACADAEAFAGAHAIABERLINCLOCKA",
+      "metadata": {
+        "campaign": "C12",
+        "method": "DBGW_DeBruijn",
+        "seed": 1397
+      }
+    },
+    {
+      "label": "C12_061",
+      "text": "LAMANAOAPAQARASATAUAVEASTNORTHEASTDAEAFAGAHAIAJAKALAMANAOAPAQARBERLINCLOCKX",
+      "metadata": {
+        "campaign": "C12",
+        "method": "DBGW_DeBruijn",
+        "seed": 1398
+      }
+    },
+    {
+      "label": "C12_062",
+      "text": "RASATAUAVAWAXAYAZABACEASTNORTHEASTJAKALAMANAOAPAQARASATAUAVAWAXBERLINCLOCKE",
+      "metadata": {
+        "campaign": "C12",
+        "method": "DBGW_DeBruijn",
+        "seed": 1399
+      }
+    },
+    {
+      "label": "C12_063",
+      "text": "AGAHAIAJAKALAMANAOAPAEASTNORTHEASTAXAYAZABACADAEAFAGAHAIAJAKALABERLINCLOCKA",
+      "metadata": {
+        "campaign": "C12",
+        "method": "DBGW_DeBruijn",
+        "seed": 1400
+      }
+    },
+    {
+      "label": "C12_064",
+      "text": "AYAZABACADAEAFAGAHAIAEASTNORTHEASTAQARASATAUAVAWAXAYAZABACADAEABERLINCLOCKA",
+      "metadata": {
+        "campaign": "C12",
+        "method": "DBGW_DeBruijn",
+        "seed": 1401
+      }
+    },
+    {
+      "label": "C12_065",
+      "text": "UAVAWAXAYAZABACADAEAFEASTNORTHEASTMANAOAPAQARASATAUAVAWAXAYAZABBERLINCLOCKH",
+      "metadata": {
+        "campaign": "C12",
+        "method": "DBGW_DeBruijn",
+        "seed": 1402
+      }
+    },
+    {
+      "label": "C12_066",
+      "text": "ALAMANAOAPAQARASATAUAEASTNORTHEASTADAEAFAGAHAIAJAKALAMANAOAPAQABERLINCLOCKA",
+      "metadata": {
+        "campaign": "C12",
+        "method": "DBGW_DeBruijn",
+        "seed": 1403
+      }
+    },
+    {
+      "label": "C12_067",
+      "text": "ZABACADAEAFAGAHAIAJAKEASTNORTHEASTRASATAUAVAWAXAYAZABACADAEAFAGBERLINCLOCKM",
+      "metadata": {
+        "campaign": "C12",
+        "method": "DBGW_DeBruijn",
+        "seed": 1404
+      }
+    },
+    {
+      "label": "C12_068",
+      "text": "OAPAQARASATAUAVAWAXAYEASTNORTHEASTGAHAIAJAKALAMANAOAPAQARASATAUBERLINCLOCKB",
+      "metadata": {
+        "campaign": "C12",
+        "method": "DBGW_DeBruijn",
+        "seed": 1405
+      }
+    },
+    {
+      "label": "C12_069",
+      "text": "GAHAIAJAKALAMANAOAPAQEASTNORTHEASTXAYAZABACADAEAFAGAHAIAJAKALAMBERLINCLOCKS",
+      "metadata": {
+        "campaign": "C12",
+        "method": "DBGW_DeBruijn",
+        "seed": 1406
+      }
+    },
+    {
+      "label": "C12_070",
+      "text": "DAEAFAGAHAIAJAKALAMANEASTNORTHEASTUAVAWAXAYAZABACADAEAFAGAHAIAJBERLINCLOCKP",
+      "metadata": {
+        "campaign": "C12",
+        "method": "DBGW_DeBruijn",
+        "seed": 1407
+      }
+    },
+    {
+      "label": "C12_071",
+      "text": "QARASATAUAVAWAXAYAZABEASTNORTHEASTIAJAKALAMANAOAPAQARASATAUAVAWBERLINCLOCKD",
+      "metadata": {
+        "campaign": "C12",
+        "method": "DBGW_DeBruijn",
+        "seed": 1408
+      }
+    },
+    {
+      "label": "C12_072",
+      "text": "ACADAEAFAGAHAIAJAKALAEASTNORTHEASTATAUAVAWAXAYAZABACADAEAFAGAHABERLINCLOCKA",
+      "metadata": {
+        "campaign": "C12",
+        "method": "DBGW_DeBruijn",
+        "seed": 1409
+      }
+    },
+    {
+      "label": "C12_073",
+      "text": "AKALAMANAOAPAQARASATAEASTNORTHEASTACADAEAFAGAHAIAJAKALAMANAOAPABERLINCLOCKA",
+      "metadata": {
+        "campaign": "C12",
+        "method": "DBGW_DeBruijn",
+        "seed": 1410
+      }
+    },
+    {
+      "label": "C12_074",
+      "text": "AZABACADAEAFAGAHAIAJAEASTNORTHEASTARASATAUAVAWAXAYAZABACADAEAFABERLINCLOCKA",
+      "metadata": {
+        "campaign": "C12",
+        "method": "DBGW_DeBruijn",
+        "seed": 1411
+      }
+    },
+    {
+      "label": "C12_075",
+      "text": "AQARASATAUAVAWAXAYAZAEASTNORTHEASTAIAJAKALAMANAOAPAQARASATAUAVABERLINCLOCKA",
+      "metadata": {
+        "campaign": "C12",
+        "method": "DBGW_DeBruijn",
+        "seed": 1412
+      }
+    },
+    {
+      "label": "C12_076",
+      "text": "PAQARASATAUAVAWAXAYAZEASTNORTHEASTHAIAJAKALAMANAOAPAQARASATAUAVBERLINCLOCKC",
+      "metadata": {
+        "campaign": "C12",
+        "method": "DBGW_DeBruijn",
+        "seed": 1413
+      }
+    },
+    {
+      "label": "C12_077",
+      "text": "AFAGAHAIAJAKALAMANAOAEASTNORTHEASTAWAXAYAZABACADAEAFAGAHAIAJAKABERLINCLOCKA",
+      "metadata": {
+        "campaign": "C12",
+        "method": "DBGW_DeBruijn",
+        "seed": 1414
+      }
+    },
+    {
+      "label": "C12_078",
+      "text": "ASATAUAVAWAXAYAZABACAEASTNORTHEASTAKALAMANAOAPAQARASATAUAVAWAXABERLINCLOCKA",
+      "metadata": {
+        "campaign": "C12",
+        "method": "DBGW_DeBruijn",
+        "seed": 1415
+      }
+    },
+    {
+      "label": "C12_079",
+      "text": "AEAFAGAHAIAJAKALAMANAEASTNORTHEASTAVAWAXAYAZABACADAEAFAGAHAIAJABERLINCLOCKA",
+      "metadata": {
+        "campaign": "C12",
+        "method": "DBGW_DeBruijn",
+        "seed": 1416
+      }
+    },
+    {
+      "label": "C12_080",
+      "text": "ALAMANAOAPAQARASATAUAEASTNORTHEASTADAEAFAGAHAIAJAKALAMANAOAPAQABERLINCLOCKA",
+      "metadata": {
+        "campaign": "C12",
+        "method": "DBGW_DeBruijn",
+        "seed": 1417
+      }
+    },
+    {
+      "label": "C12_081",
+      "text": "ZABACADAEAFAGAHAIAJAKEASTNORTHEASTRASATAUAVAWAXAYAZABACADAEAFAGBERLINCLOCKM",
+      "metadata": {
+        "campaign": "C12",
+        "method": "DBGW_DeBruijn",
+        "seed": 1418
+      }
+    },
+    {
+      "label": "C12_082",
+      "text": "ATAUAVAWAXAYAZABACADAEASTNORTHEASTALAMANAOAPAQARASATAUAVAWAXAYABERLINCLOCKA",
+      "metadata": {
+        "campaign": "C12",
+        "method": "DBGW_DeBruijn",
+        "seed": 1419
+      }
+    },
+    {
+      "label": "C12_083",
+      "text": "AYAZABACADAEAFAGAHAIAEASTNORTHEASTAQARASATAUAVAWAXAYAZABACADAEABERLINCLOCKA",
+      "metadata": {
+        "campaign": "C12",
+        "method": "DBGW_DeBruijn",
+        "seed": 1420
+      }
+    },
+    {
+      "label": "C12_084",
+      "text": "CADAEAFAGAHAIAJAKALAMEASTNORTHEASTTAUAVAWAXAYAZABACADAEAFAGAHAIBERLINCLOCKO",
+      "metadata": {
+        "campaign": "C12",
+        "method": "DBGW_DeBruijn",
+        "seed": 1421
+      }
+    },
+    {
+      "label": "C12_085",
+      "text": "HAIAJAKALAMANAOAPAQAREASTNORTHEASTYAZABACADAEAFAGAHAIAJAKALAMANBERLINCLOCKT",
+      "metadata": {
+        "campaign": "C12",
+        "method": "DBGW_DeBruijn",
+        "seed": 1422
+      }
+    },
+    {
+      "label": "C12_086",
+      "text": "APAQARASATAUAVAWAXAYAEASTNORTHEASTAHAIAJAKALAMANAOAPAQARASATAUABERLINCLOCKA",
+      "metadata": {
+        "campaign": "C12",
+        "method": "DBGW_DeBruijn",
+        "seed": 1423
+      }
+    },
+    {
+      "label": "C12_087",
+      "text": "CADAEAFAGAHAIAJAKALAMEASTNORTHEASTTAUAVAWAXAYAZABACADAEAFAGAHAIBERLINCLOCKO",
+      "metadata": {
+        "campaign": "C12",
+        "method": "DBGW_DeBruijn",
+        "seed": 1424
+      }
+    },
+    {
+      "label": "C12_088",
+      "text": "ALAMANAOAPAQARASATAUAEASTNORTHEASTADAEAFAGAHAIAJAKALAMANAOAPAQABERLINCLOCKA",
+      "metadata": {
+        "campaign": "C12",
+        "method": "DBGW_DeBruijn",
+        "seed": 1425
+      }
+    },
+    {
+      "label": "C12_089",
+      "text": "DAEAFAGAHAIAJAKALAMANEASTNORTHEASTUAVAWAXAYAZABACADAEAFAGAHAIAJBERLINCLOCKP",
+      "metadata": {
+        "campaign": "C12",
+        "method": "DBGW_DeBruijn",
+        "seed": 1426
+      }
+    },
+    {
+      "label": "C12_090",
+      "text": "AZABACADAEAFAGAHAIAJAEASTNORTHEASTARASATAUAVAWAXAYAZABACADAEAFABERLINCLOCKA",
+      "metadata": {
+        "campaign": "C12",
+        "method": "DBGW_DeBruijn",
+        "seed": 1427
+      }
+    },
+    {
+      "label": "C12_091",
+      "text": "RASATAUAVAWAXAYAZABACEASTNORTHEASTJAKALAMANAOAPAQARASATAUAVAWAXBERLINCLOCKE",
+      "metadata": {
+        "campaign": "C12",
+        "method": "DBGW_DeBruijn",
+        "seed": 1428
+      }
+    },
+    {
+      "label": "C12_092",
+      "text": "EAFAGAHAIAJAKALAMANAOEASTNORTHEASTVAWAXAYAZABACADAEAFAGAHAIAJAKBERLINCLOCKQ",
+      "metadata": {
+        "campaign": "C12",
+        "method": "DBGW_DeBruijn",
+        "seed": 1429
+      }
+    },
+    {
+      "label": "C12_093",
+      "text": "AKALAMANAOAPAQARASATAEASTNORTHEASTACADAEAFAGAHAIAJAKALAMANAOAPABERLINCLOCKA",
+      "metadata": {
+        "campaign": "C12",
+        "method": "DBGW_DeBruijn",
+        "seed": 1430
+      }
+    },
+    {
+      "label": "C12_094",
+      "text": "RASATAUAVAWAXAYAZABACEASTNORTHEASTJAKALAMANAOAPAQARASATAUAVAWAXBERLINCLOCKE",
+      "metadata": {
+        "campaign": "C12",
+        "method": "DBGW_DeBruijn",
+        "seed": 1431
+      }
+    },
+    {
+      "label": "C12_095",
+      "text": "AQARASATAUAVAWAXAYAZAEASTNORTHEASTAIAJAKALAMANAOAPAQARASATAUAVABERLINCLOCKA",
+      "metadata": {
+        "campaign": "C12",
+        "method": "DBGW_DeBruijn",
+        "seed": 1432
+      }
+    },
+    {
+      "label": "C12_096",
+      "text": "AYAZABACADAEAFAGAHAIAEASTNORTHEASTAQARASATAUAVAWAXAYAZABACADAEABERLINCLOCKA",
+      "metadata": {
+        "campaign": "C12",
+        "method": "DBGW_DeBruijn",
+        "seed": 1433
+      }
+    },
+    {
+      "label": "C12_097",
+      "text": "ABACADAEAFAGAHAIAJAKAEASTNORTHEASTASATAUAVAWAXAYAZABACADAEAFAGABERLINCLOCKA",
+      "metadata": {
+        "campaign": "C12",
+        "method": "DBGW_DeBruijn",
+        "seed": 1434
+      }
+    },
+    {
+      "label": "C12_098",
+      "text": "AKALAMANAOAPAQARASATAEASTNORTHEASTACADAEAFAGAHAIAJAKALAMANAOAPABERLINCLOCKA",
+      "metadata": {
+        "campaign": "C12",
+        "method": "DBGW_DeBruijn",
+        "seed": 1435
+      }
+    },
+    {
+      "label": "C12_099",
+      "text": "ALAMANAOAPAQARASATAUAEASTNORTHEASTADAEAFAGAHAIAJAKALAMANAOAPAQABERLINCLOCKA",
+      "metadata": {
+        "campaign": "C12",
+        "method": "DBGW_DeBruijn",
+        "seed": 1436
+      }
+    }
+  ]
+}

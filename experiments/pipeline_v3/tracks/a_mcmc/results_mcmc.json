@@ -1,0 +1,253 @@
+{
+  "campaign": "Track_A_MCMC",
+  "total_heads": 2,
+  "evaluations": [
+    {
+      "results": {
+        "fixed": {
+          "score_norm": 1.3608713601161326,
+          "anchor_result": {
+            "total_score": 1.0,
+            "matches": {
+              "EAST": {
+                "found": true,
+                "position": 21,
+                "score": 1.0
+              },
+              "NORTHEAST": {
+                "found": true,
+                "position": 25,
+                "score": 1.0
+              },
+              "BERLINCLOCK": {
+                "found": true,
+                "position": 63,
+                "score": 1.0
+              }
+            },
+            "window_radius": 0,
+            "typo_budget": 0
+          },
+          "z_ngram": 3.5362378670537757,
+          "z_coverage": 0.0,
+          "z_compress": -10.485625825695319,
+          "raw_ngram": 0.033783783783783786,
+          "raw_coverage": 0.0,
+          "raw_compress": 0.7759977577517521,
+          "blinded_text": "AHEDRXTAWTZERY IEHAP..."
+        },
+        "windowed_r2": {
+          "score_norm": 1.3608713601161326,
+          "anchor_result": {
+            "total_score": 1.0,
+            "matches": {
+              "EAST": {
+                "found": true,
+                "position": 21,
+                "score": 1.0
+              },
+              "NORTHEAST": {
+                "found": true,
+                "position": 25,
+                "score": 1.0
+              },
+              "BERLINCLOCK": {
+                "found": true,
+                "position": 63,
+                "score": 1.0
+              }
+            },
+            "window_radius": 2,
+            "typo_budget": 0
+          },
+          "z_ngram": 3.5362378670537757,
+          "z_coverage": 0.0,
+          "z_compress": -10.485625825695319,
+          "raw_ngram": 0.033783783783783786,
+          "raw_coverage": 0.0,
+          "raw_compress": 0.7759977577517521,
+          "blinded_text": "AHEDRXTAWTZERY IEHAP..."
+        },
+        "shuffled": {
+          "score_norm": 1.3608713601161326,
+          "anchor_result": {
+            "total_score": 1.0,
+            "matches": {
+              "EAST": {
+                "found": true,
+                "position": 21,
+                "score": 1.0
+              },
+              "NORTHEAST": {
+                "found": true,
+                "position": 25,
+                "score": 1.0
+              },
+              "BERLINCLOCK": {
+                "found": true,
+                "position": 63,
+                "score": 1.0
+              }
+            },
+            "window_radius": 100,
+            "typo_budget": 2
+          },
+          "z_ngram": 3.5362378670537757,
+          "z_coverage": 0.0,
+          "z_compress": -10.485625825695319,
+          "raw_ngram": 0.033783783783783786,
+          "raw_coverage": 0.0,
+          "raw_compress": 0.7759977577517521,
+          "blinded_text": "AHEDRXTAWTZERY IEHAP..."
+        }
+      },
+      "scores": {
+        "fixed": 1.3608713601161326,
+        "windowed_r2": 1.3608713601161326,
+        "shuffled": 1.3608713601161326
+      },
+      "delta_vs_windowed": 0.0,
+      "delta_vs_shuffled": 0.0,
+      "best_mode": "fixed",
+      "pass_deltas": false,
+      "v3_metrics": {
+        "generation_quality": {
+          "trigram_score": -0.173513570876772,
+          "bigram_entropy": -0.0023939735493297464,
+          "char_distribution": 0.8922297297297298,
+          "repetition_penalty": 0.05405405405405406,
+          "quality_score": 0.0003929335532298933
+        },
+        "v3_composite": 0.6806321468346813
+      },
+      "label": "MCMC_chain00_sample00"
+    },
+    {
+      "results": {
+        "fixed": {
+          "score_norm": 0.812700862627324,
+          "anchor_result": {
+            "total_score": 1.0,
+            "matches": {
+              "EAST": {
+                "found": true,
+                "position": 21,
+                "score": 1.0
+              },
+              "NORTHEAST": {
+                "found": true,
+                "position": 25,
+                "score": 1.0
+              },
+              "BERLINCLOCK": {
+                "found": true,
+                "position": 63,
+                "score": 1.0
+              }
+            },
+            "window_radius": 0,
+            "typo_budget": 0
+          },
+          "z_ngram": 1.7090028754244133,
+          "z_coverage": 0.0,
+          "z_compress": -11.412507476572845,
+          "raw_ngram": 0.02027027027027027,
+          "raw_coverage": 0.0,
+          "raw_compress": 0.7611180059848399,
+          "blinded_text": "IUJSXFOTEHRSINTRAPIH..."
+        },
+        "windowed_r2": {
+          "score_norm": 0.812700862627324,
+          "anchor_result": {
+            "total_score": 1.0,
+            "matches": {
+              "EAST": {
+                "found": true,
+                "position": 21,
+                "score": 1.0
+              },
+              "NORTHEAST": {
+                "found": true,
+                "position": 25,
+                "score": 1.0
+              },
+              "BERLINCLOCK": {
+                "found": true,
+                "position": 63,
+                "score": 1.0
+              }
+            },
+            "window_radius": 2,
+            "typo_budget": 0
+          },
+          "z_ngram": 1.7090028754244133,
+          "z_coverage": 0.0,
+          "z_compress": -11.412507476572845,
+          "raw_ngram": 0.02027027027027027,
+          "raw_coverage": 0.0,
+          "raw_compress": 0.7611180059848399,
+          "blinded_text": "IUJSXFOTEHRSINTRAPIH..."
+        },
+        "shuffled": {
+          "score_norm": 0.812700862627324,
+          "anchor_result": {
+            "total_score": 1.0,
+            "matches": {
+              "EAST": {
+                "found": true,
+                "position": 21,
+                "score": 1.0
+              },
+              "NORTHEAST": {
+                "found": true,
+                "position": 25,
+                "score": 1.0
+              },
+              "BERLINCLOCK": {
+                "found": true,
+                "position": 63,
+                "score": 1.0
+              }
+            },
+            "window_radius": 100,
+            "typo_budget": 2
+          },
+          "z_ngram": 1.7090028754244133,
+          "z_coverage": 0.0,
+          "z_compress": -11.412507476572845,
+          "raw_ngram": 0.02027027027027027,
+          "raw_coverage": 0.0,
+          "raw_compress": 0.7611180059848399,
+          "blinded_text": "IUJSXFOTEHRSINTRAPIH..."
+        }
+      },
+      "scores": {
+        "fixed": 0.812700862627324,
+        "windowed_r2": 0.812700862627324,
+        "shuffled": 0.812700862627324
+      },
+      "delta_vs_windowed": 0.0,
+      "delta_vs_shuffled": 0.0,
+      "best_mode": "fixed",
+      "pass_deltas": false,
+      "v3_metrics": {
+        "generation_quality": {
+          "trigram_score": -0.22477768474053628,
+          "bigram_entropy": -0.0019986384677890532,
+          "char_distribution": 0.8762297297297298,
+          "repetition_penalty": 0.0,
+          "quality_score": 0.00044924932742299625
+        },
+        "v3_composite": 0.4065750559773735
+      },
+      "label": "MCMC_chain01_sample00"
+    }
+  ],
+  "promotions": [],
+  "statistics": {
+    "promotion_rate": 0.0,
+    "avg_delta_windowed": 0.0,
+    "avg_delta_shuffled": 0.0,
+    "avg_generation_quality": 0.00042109144032644475
+  }
+}

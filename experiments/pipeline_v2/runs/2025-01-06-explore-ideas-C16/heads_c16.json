@@ -1,0 +1,907 @@
+{
+  "campaign": "C16",
+  "date": "2025-01-06",
+  "total_heads": 100,
+  "heads": [
+    {
+      "label": "C16_000",
+      "text": "GMDFIKDVXHZNYXAKLTPDLEASTNORTHEASTNTMGFTLGGYGNHCXVRVFCVWVWGJNZMBERLINCLOCOF",
+      "metadata": {
+        "campaign": "C16",
+        "method": "THCP_TailCohesion",
+        "seed": 1337
+      }
+    },
+    {
+      "label": "C16_001",
+      "text": "WWSTOTIKIQKJWCFJQCBIGEASTNORTHEASTLNBGLIUPREFGHQWVJNHCDGOKBSKAPBERLINCLOCOF",
+      "metadata": {
+        "campaign": "C16",
+        "method": "THCP_TailCohesion",
+        "seed": 1338
+      }
+    },
+    {
+      "label": "C16_002",
+      "text": "STVNMQFAJQMFGGUEOZXGFEASTNORTHEASTECVAIPXGJINAWXFSXTNVRWUNTJYDFBERLINCLOCOF",
+      "metadata": {
+        "campaign": "C16",
+        "method": "THCP_TailCohesion",
+        "seed": 1339
+      }
+    },
+    {
+      "label": "C16_003",
+      "text": "YEJHDBRBTBTBVGLIUYITIEASTNORTHEASTAQRTPUKRVFRPAWPTYLELZTFCCZFFWBERLINCLOCOF",
+      "metadata": {
+        "campaign": "C16",
+        "method": "THCP_TailCohesion",
+        "seed": 1340
+      }
+    },
+    {
+      "label": "C16_004",
+      "text": "KLRDNKJSWAQUOANXPITESEASTNORTHEASTQMYTXAWHJXSRYGWFMERKQCXGWIDMEBERLINCLOCOF",
+      "metadata": {
+        "campaign": "C16",
+        "method": "THCP_TailCohesion",
+        "seed": 1341
+      }
+    },
+    {
+      "label": "C16_005",
+      "text": "DLTRSWPSAIDLMYMPQYWVHEASTNORTHEASTGTQFWJVGRHPQXZLBPEFJXCLCGSPMLBERLINCLOCOF",
+      "metadata": {
+        "campaign": "C16",
+        "method": "THCP_TailCohesion",
+        "seed": 1342
+      }
+    },
+    {
+      "label": "C16_006",
+      "text": "TESGFHCMEYRCFFKGVQGWUEASTNORTHEASTZGRJVQNSGXJARGWAYXNVFLZJJQEEYBERLINCLOCOF",
+      "metadata": {
+        "campaign": "C16",
+        "method": "THCP_TailCohesion",
+        "seed": 1343
+      }
+    },
+    {
+      "label": "C16_007",
+      "text": "ZHWZSAHQENBHHJOOJAOPSEASTNORTHEASTDGJMJIMRZJZCCHYQOHVGFUAWORHQIBERLINCLOCOF",
+      "metadata": {
+        "campaign": "C16",
+        "method": "THCP_TailCohesion",
+        "seed": 1344
+      }
+    },
+    {
+      "label": "C16_008",
+      "text": "GRGFSBZSNYYJYYTGYEMVXEASTNORTHEASTQMZIUJJPAWLEHLVYBUGMCRLPDUTXSBERLINCLOCOF",
+      "metadata": {
+        "campaign": "C16",
+        "method": "THCP_TailCohesion",
+        "seed": 1345
+      }
+    },
+    {
+      "label": "C16_009",
+      "text": "ZXYCRRHWRNVEODFHDSXKOEASTNORTHEASTWNPIRAALYAZRESBNXYLSNXGBHVKRABERLINCLOCOF",
+      "metadata": {
+        "campaign": "C16",
+        "method": "THCP_TailCohesion",
+        "seed": 1346
+      }
+    },
+    {
+      "label": "C16_010",
+      "text": "CCPEEKSKFJEOBAOJJCLDXEASTNORTHEASTKNTVRPQJQEFCRAVHTHKHGHTJJZNKYBERLINCLOCOF",
+      "metadata": {
+        "campaign": "C16",
+        "method": "THCP_TailCohesion",
+        "seed": 1347
+      }
+    },
+    {
+      "label": "C16_011",
+      "text": "JAACTMTDEXTFLNCGSMRUIEASTNORTHEASTWMONCBQBJDIJYFODVNNOBGQCTZXSYBERLINCLOCOF",
+      "metadata": {
+        "campaign": "C16",
+        "method": "THCP_TailCohesion",
+        "seed": 1348
+      }
+    },
+    {
+      "label": "C16_012",
+      "text": "GCJEFQHCZJQSKZOMJFBYPEASTNORTHEASTFLOTGASKFLDIFNBRHDKEQTBVHSSNYBERLINCLOCOF",
+      "metadata": {
+        "campaign": "C16",
+        "method": "THCP_TailCohesion",
+        "seed": 1349
+      }
+    },
+    {
+      "label": "C16_013",
+      "text": "CJBYTDNYCOXJYILWZZVUUEASTNORTHEASTRKABRWBVGCLINPTVEZTOITZWRFFJOBERLINCLOCOF",
+      "metadata": {
+        "campaign": "C16",
+        "method": "THCP_TailCohesion",
+        "seed": 1350
+      }
+    },
+    {
+      "label": "C16_014",
+      "text": "LNOQEBBIDNHLIXPLLLEHWEASTNORTHEASTFNUVIBEOTCUJJESGKQVFPWOWTCSHIBERLINCLOCOF",
+      "metadata": {
+        "campaign": "C16",
+        "method": "THCP_TailCohesion",
+        "seed": 1351
+      }
+    },
+    {
+      "label": "C16_015",
+      "text": "SFXXPSVJWTVDDUGRWJBXREASTNORTHEASTRUWBTPMCKBGTAWXPYHJQMOKYBWLNPBERLINCLOCOF",
+      "metadata": {
+        "campaign": "C16",
+        "method": "THCP_TailCohesion",
+        "seed": 1352
+      }
+    },
+    {
+      "label": "C16_016",
+      "text": "FHZIBQTSGNNDXYQCCROECEASTNORTHEASTOHQKGSDBHTSEBQWKYGACQAGWNJYVWBERLINCLOCOF",
+      "metadata": {
+        "campaign": "C16",
+        "method": "THCP_TailCohesion",
+        "seed": 1353
+      }
+    },
+    {
+      "label": "C16_017",
+      "text": "BBQQYKHLZZZCROVHIMPTPEASTNORTHEASTPFYLTRZXAPSSANYMSPULIEZQUZRGIBERLINCLOCOF",
+      "metadata": {
+        "campaign": "C16",
+        "method": "THCP_TailCohesion",
+        "seed": 1354
+      }
+    },
+    {
+      "label": "C16_018",
+      "text": "YOUYADWVMSITXSUCOQBWQEASTNORTHEASTXJVQEMUMGENACOKIISFBRKVWRLFFXBERLINCLOCOF",
+      "metadata": {
+        "campaign": "C16",
+        "method": "THCP_TailCohesion",
+        "seed": 1355
+      }
+    },
+    {
+      "label": "C16_019",
+      "text": "DKEENWBWYRMRSSTQZOSYBEASTNORTHEASTLPCBUJDWCDGYSQZILEVLLUWCYRQLRBERLINCLOCOF",
+      "metadata": {
+        "campaign": "C16",
+        "method": "THCP_TailCohesion",
+        "seed": 1356
+      }
+    },
+    {
+      "label": "C16_020",
+      "text": "LTPSJWULKOBSCBTGWIHAREASTNORTHEASTKVWMFNMACRFCAMSZNGCEZPXFPIQFYBERLINCLOCOF",
+      "metadata": {
+        "campaign": "C16",
+        "method": "THCP_TailCohesion",
+        "seed": 1357
+      }
+    },
+    {
+      "label": "C16_021",
+      "text": "GKTGSMOVPTKRMARHYRAIMEASTNORTHEASTVTBIDUERZEWZPSQRATJHHDFKTUVBJBERLINCLOCOF",
+      "metadata": {
+        "campaign": "C16",
+        "method": "THCP_TailCohesion",
+        "seed": 1358
+      }
+    },
+    {
+      "label": "C16_022",
+      "text": "CFQGEHCVQSIXFITELBGIGEASTNORTHEASTAKWKSFTBBIFWFOSCORNZNEBUWELUPBERLINCLOCOF",
+      "metadata": {
+        "campaign": "C16",
+        "method": "THCP_TailCohesion",
+        "seed": 1359
+      }
+    },
+    {
+      "label": "C16_023",
+      "text": "JOEBZIQHXCSTQADHTDOTDEASTNORTHEASTDEARUJYQJPYKYYDGOTLWQZHYAQJQKBERLINCLOCOF",
+      "metadata": {
+        "campaign": "C16",
+        "method": "THCP_TailCohesion",
+        "seed": 1360
+      }
+    },
+    {
+      "label": "C16_024",
+      "text": "CNAJALHCTVMPBBWHTZTCHEASTNORTHEASTDVGDNXWSTCSYVJTPSQGYHBTSGWZRJBERLINCLOCOF",
+      "metadata": {
+        "campaign": "C16",
+        "method": "THCP_TailCohesion",
+        "seed": 1361
+      }
+    },
+    {
+      "label": "C16_025",
+      "text": "UTSKNAGEPRTRTCOBFAJHOEASTNORTHEASTGRMTHLPHTFSKFRKHQKRRAZNCLJSHMBERLINCLOCOF",
+      "metadata": {
+        "campaign": "C16",
+        "method": "THCP_TailCohesion",
+        "seed": 1362
+      }
+    },
+    {
+      "label": "C16_026",
+      "text": "EQQGPKPYBABEINMUBHXUQEASTNORTHEASTIZNEFUJIKNLTUMAINUWHYLVQUABUOBERLINCLOCOF",
+      "metadata": {
+        "campaign": "C16",
+        "method": "THCP_TailCohesion",
+        "seed": 1363
+      }
+    },
+    {
+      "label": "C16_027",
+      "text": "ABYEDBVYGZVHDLZBHIBVIEASTNORTHEASTJSOPEKVKMDZBRYPDKZUHMBUPPNUYXBERLINCLOCOF",
+      "metadata": {
+        "campaign": "C16",
+        "method": "THCP_TailCohesion",
+        "seed": 1364
+      }
+    },
+    {
+      "label": "C16_028",
+      "text": "LVXNEQTECRXODMNXQACKNEASTNORTHEASTEAEVCFVGXJWWKPCLKKWUWCADKAZVSBERLINCLOCOF",
+      "metadata": {
+        "campaign": "C16",
+        "method": "THCP_TailCohesion",
+        "seed": 1365
+      }
+    },
+    {
+      "label": "C16_029",
+      "text": "TRDIDTLITGZNBZJRWOFZPEASTNORTHEASTQKBDLKQCRIZLBZCTOTVDOALJGAEEPBERLINCLOCOF",
+      "metadata": {
+        "campaign": "C16",
+        "method": "THCP_TailCohesion",
+        "seed": 1366
+      }
+    },
+    {
+      "label": "C16_030",
+      "text": "WHZNPVPBXUHQYEYLLITMJEASTNORTHEASTODQAPXMYGUSEOQVXTUDOFNYPCCNSGBERLINCLOCOF",
+      "metadata": {
+        "campaign": "C16",
+        "method": "THCP_TailCohesion",
+        "seed": 1367
+      }
+    },
+    {
+      "label": "C16_031",
+      "text": "FKPPRINPXTASPGQUXQUAJEASTNORTHEASTDVTZJEYOATVMPNLNQVNXSLKHZQKWBBERLINCLOCOF",
+      "metadata": {
+        "campaign": "C16",
+        "method": "THCP_TailCohesion",
+        "seed": 1368
+      }
+    },
+    {
+      "label": "C16_032",
+      "text": "UAHISLNAMYHTURICKICJNEASTNORTHEASTLQENBPIYPDUQUZGDPQBNDQGXWQPFMBERLINCLOCOF",
+      "metadata": {
+        "campaign": "C16",
+        "method": "THCP_TailCohesion",
+        "seed": 1369
+      }
+    },
+    {
+      "label": "C16_033",
+      "text": "UQZZKSZCGMMINYJGSOBVMEASTNORTHEASTGVQSRLOZRDYOYZDDGGFSBVKSKSWQVBERLINCLOCOF",
+      "metadata": {
+        "campaign": "C16",
+        "method": "THCP_TailCohesion",
+        "seed": 1370
+      }
+    },
+    {
+      "label": "C16_034",
+      "text": "NZFDSEKIYRZASHDQKMPFZEASTNORTHEASTATLFQZHVVUSWDMOKULLGIMVBOKCHCBERLINCLOCOF",
+      "metadata": {
+        "campaign": "C16",
+        "method": "THCP_TailCohesion",
+        "seed": 1371
+      }
+    },
+    {
+      "label": "C16_035",
+      "text": "XBHGQWTXBNBMUZAGQCCFZEASTNORTHEASTFSKKBXPCUJVOEDKKQINKKEBZDTMCRBERLINCLOCOF",
+      "metadata": {
+        "campaign": "C16",
+        "method": "THCP_TailCohesion",
+        "seed": 1372
+      }
+    },
+    {
+      "label": "C16_036",
+      "text": "WUBEUXIMZNECBLXOGDVUSEASTNORTHEASTRIPVVUZYVVRKVXPFJXNUEJEYTFPFZBERLINCLOCOF",
+      "metadata": {
+        "campaign": "C16",
+        "method": "THCP_TailCohesion",
+        "seed": 1373
+      }
+    },
+    {
+      "label": "C16_037",
+      "text": "XWNRQHDNFYBJUMHSFUWXQEASTNORTHEASTFSHFLZACIOZVHYQMXZXDIYZQBVSDPBERLINCLOCOF",
+      "metadata": {
+        "campaign": "C16",
+        "method": "THCP_TailCohesion",
+        "seed": 1374
+      }
+    },
+    {
+      "label": "C16_038",
+      "text": "ISGZTJUOKKTIJXHOEIWATEASTNORTHEASTYIKLIDOQWUVFKWELFNMUERQYCHXOZBERLINCLOCOF",
+      "metadata": {
+        "campaign": "C16",
+        "method": "THCP_TailCohesion",
+        "seed": 1375
+      }
+    },
+    {
+      "label": "C16_039",
+      "text": "CUGJHLYBKCHSHYFPEERVDEASTNORTHEASTCWCBUURDTROMLPZJFWVOWWRXZZJYPBERLINCLOCOF",
+      "metadata": {
+        "campaign": "C16",
+        "method": "THCP_TailCohesion",
+        "seed": 1376
+      }
+    },
+    {
+      "label": "C16_040",
+      "text": "VLXJXUIAXYAUYQPLPDSOLEASTNORTHEASTXGPFZUCYADBUVSLCHAWSLGJRTNMGDBERLINCLOCOF",
+      "metadata": {
+        "campaign": "C16",
+        "method": "THCP_TailCohesion",
+        "seed": 1377
+      }
+    },
+    {
+      "label": "C16_041",
+      "text": "JYIUXINHQOMWNNYFELZEYEASTNORTHEASTOOHKWKJIGKZQEPLSOPCKMUKFBMPRGBERLINCLOCOF",
+      "metadata": {
+        "campaign": "C16",
+        "method": "THCP_TailCohesion",
+        "seed": 1378
+      }
+    },
+    {
+      "label": "C16_042",
+      "text": "ZEEMKUEMDIDRMMTWMHDBNEASTNORTHEASTQAFJKFQFQZCCSSBHAYSUIQNGDOCENBERLINCLOCOF",
+      "metadata": {
+        "campaign": "C16",
+        "method": "THCP_TailCohesion",
+        "seed": 1379
+      }
+    },
+    {
+      "label": "C16_043",
+      "text": "LQOXCNIFUBNKHWHNJCPGUEASTNORTHEASTAWGPBASEBYKIHXSSOSRLFURFXOYMWBERLINCLOCOF",
+      "metadata": {
+        "campaign": "C16",
+        "method": "THCP_TailCohesion",
+        "seed": 1380
+      }
+    },
+    {
+      "label": "C16_044",
+      "text": "SFLGWJZDAHKGXRPVTUENXEASTNORTHEASTQNCAUBDGSYTQJNUYYFKULVJZFIRAABERLINCLOCOF",
+      "metadata": {
+        "campaign": "C16",
+        "method": "THCP_TailCohesion",
+        "seed": 1381
+      }
+    },
+    {
+      "label": "C16_045",
+      "text": "ZHZQIDRTDFUZUGIDCDPRSEASTNORTHEASTSVMHPZKIDIFDHDMIBEERNGJIQNQIYBERLINCLOCOF",
+      "metadata": {
+        "campaign": "C16",
+        "method": "THCP_TailCohesion",
+        "seed": 1382
+      }
+    },
+    {
+      "label": "C16_046",
+      "text": "NRCDSQBRHXHNCDMCPGRWZEASTNORTHEASTCCRJPSXDEQSILJZWBTWQJESJERDOHBERLINCLOCOF",
+      "metadata": {
+        "campaign": "C16",
+        "method": "THCP_TailCohesion",
+        "seed": 1383
+      }
+    },
+    {
+      "label": "C16_047",
+      "text": "NGCIRBPGIGOXELZQNCVOYEASTNORTHEASTTGVANAVYGWXYIXGTBSIDCPOEASXCWBERLINCLOCOF",
+      "metadata": {
+        "campaign": "C16",
+        "method": "THCP_TailCohesion",
+        "seed": 1384
+      }
+    },
+    {
+      "label": "C16_048",
+      "text": "KGUCDLJGMUQONKUXZSMEZEASTNORTHEASTRPPXIHIDYUCAFAAMZWJYSSVVIVRDFBERLINCLOCOF",
+      "metadata": {
+        "campaign": "C16",
+        "method": "THCP_TailCohesion",
+        "seed": 1385
+      }
+    },
+    {
+      "label": "C16_049",
+      "text": "ASAVHBHEFJBQBOBGXBCPCEASTNORTHEASTAGOKQYYQVLGPKBWHVESRXWQYLMCXOBERLINCLOCOF",
+      "metadata": {
+        "campaign": "C16",
+        "method": "THCP_TailCohesion",
+        "seed": 1386
+      }
+    },
+    {
+      "label": "C16_050",
+      "text": "FYABZDHSCENLUWUYWWUWPEASTNORTHEASTJITPFMMTTIBKIFWHQFEIEKMYZWJVMBERLINCLOCOF",
+      "metadata": {
+        "campaign": "C16",
+        "method": "THCP_TailCohesion",
+        "seed": 1387
+      }
+    },
+    {
+      "label": "C16_051",
+      "text": "SHRQKLOKFAUONYBPNBPCFEASTNORTHEASTLGYVHWKZYYBSRYXCZJJTECPCDSUMGBERLINCLOCOF",
+      "metadata": {
+        "campaign": "C16",
+        "method": "THCP_TailCohesion",
+        "seed": 1388
+      }
+    },
+    {
+      "label": "C16_052",
+      "text": "XZRBNDJBKXDGDVIZVOHMBEASTNORTHEASTVXQJNXHSJXSSKTDBVLTGYMTATNXZRBERLINCLOCOF",
+      "metadata": {
+        "campaign": "C16",
+        "method": "THCP_TailCohesion",
+        "seed": 1389
+      }
+    },
+    {
+      "label": "C16_053",
+      "text": "ESTIZKGJJGDIEUOJDTNHLEASTNORTHEASTUCANKWDNZQJRFKSQOMEJQKXVXECDXBERLINCLOCOF",
+      "metadata": {
+        "campaign": "C16",
+        "method": "THCP_TailCohesion",
+        "seed": 1390
+      }
+    },
+    {
+      "label": "C16_054",
+      "text": "GNDAIUMGSPWOFSCIFUNRZEASTNORTHEASTQFMMEEDBNQEUAIMSPLLEPYQMNRGSJBERLINCLOCOF",
+      "metadata": {
+        "campaign": "C16",
+        "method": "THCP_TailCohesion",
+        "seed": 1391
+      }
+    },
+    {
+      "label": "C16_055",
+      "text": "MKCFTMIEYZIMATNHELYAZEASTNORTHEASTLNODYNJYAMRKESOQMXZZTQMUDDUTSBERLINCLOCOF",
+      "metadata": {
+        "campaign": "C16",
+        "method": "THCP_TailCohesion",
+        "seed": 1392
+      }
+    },
+    {
+      "label": "C16_056",
+      "text": "ZYOZDRISPZXDNHPVYJSOBEASTNORTHEASTQVXFZHTICBOTYCBLMWSZNOQWVMGLEBERLINCLOCOF",
+      "metadata": {
+        "campaign": "C16",
+        "method": "THCP_TailCohesion",
+        "seed": 1393
+      }
+    },
+    {
+      "label": "C16_057",
+      "text": "SVNTNWQZWYROGSKGPJWVNEASTNORTHEASTRJQCCLPILQBQUNINMDVBMQKIKSYHBBERLINCLOCOF",
+      "metadata": {
+        "campaign": "C16",
+        "method": "THCP_TailCohesion",
+        "seed": 1394
+      }
+    },
+    {
+      "label": "C16_058",
+      "text": "YZIQGZGQMLULKTGZTARUEEASTNORTHEASTYTXAJMVGENFPTAAWSJCBABPBCWRWVBERLINCLOCOF",
+      "metadata": {
+        "campaign": "C16",
+        "method": "THCP_TailCohesion",
+        "seed": 1395
+      }
+    },
+    {
+      "label": "C16_059",
+      "text": "ZJNCKKRTJBJDZOXIOKOHNEASTNORTHEASTCFHGBFSCUVFGBDFTOYWOFBSPVLUHKBERLINCLOCOF",
+      "metadata": {
+        "campaign": "C16",
+        "method": "THCP_TailCohesion",
+        "seed": 1396
+      }
+    },
+    {
+      "label": "C16_060",
+      "text": "IQSTLJXJZFTZSJLDZSOXZEASTNORTHEASTBJDCTVVYPZHPASLNMDSZIOCAUUMFCBERLINCLOCOF",
+      "metadata": {
+        "campaign": "C16",
+        "method": "THCP_TailCohesion",
+        "seed": 1397
+      }
+    },
+    {
+      "label": "C16_061",
+      "text": "WTXXDFRDFUECLORDCBOWMEASTNORTHEASTXXUWSALGZCZXZNCIUNMNZCXYRJXDTBERLINCLOCOF",
+      "metadata": {
+        "campaign": "C16",
+        "method": "THCP_TailCohesion",
+        "seed": 1398
+      }
+    },
+    {
+      "label": "C16_062",
+      "text": "YLOELFWMWQHUCPPNHACOFEASTNORTHEASTQCZNUZPPYUNYWGHURGQQLYYFZSFRGBERLINCLOCOF",
+      "metadata": {
+        "campaign": "C16",
+        "method": "THCP_TailCohesion",
+        "seed": 1399
+      }
+    },
+    {
+      "label": "C16_063",
+      "text": "KNGDJYGPRZJAVTRDHLGPFEASTNORTHEASTCDBSMDPWHUOJGDCDXYYMENFNFMWEQBERLINCLOCOF",
+      "metadata": {
+        "campaign": "C16",
+        "method": "THCP_TailCohesion",
+        "seed": 1400
+      }
+    },
+    {
+      "label": "C16_064",
+      "text": "OFIZLKPSRKALAYBPPAQQPEASTNORTHEASTMNFYNPDDNWZOWUBKFGVFRORUIOAUOBERLINCLOCOF",
+      "metadata": {
+        "campaign": "C16",
+        "method": "THCP_TailCohesion",
+        "seed": 1401
+      }
+    },
+    {
+      "label": "C16_065",
+      "text": "IDMRSOUMDPQJTQILSVOTQEASTNORTHEASTHPYQPZCKBUJQRGRHORRTBFPJKIOYGBERLINCLOCOF",
+      "metadata": {
+        "campaign": "C16",
+        "method": "THCP_TailCohesion",
+        "seed": 1402
+      }
+    },
+    {
+      "label": "C16_066",
+      "text": "IHDAYQOLWYQLVNBBIKCONEASTNORTHEASTPJPWBTMWOXNXAANDSQRBHFLVSPJVDBERLINCLOCOF",
+      "metadata": {
+        "campaign": "C16",
+        "method": "THCP_TailCohesion",
+        "seed": 1403
+      }
+    },
+    {
+      "label": "C16_067",
+      "text": "RZYQMELYYLKWRBJPQCSWGEASTNORTHEASTQKDJNXQNTTIIWQUCJUAUWAYWGLMBYBERLINCLOCOF",
+      "metadata": {
+        "campaign": "C16",
+        "method": "THCP_TailCohesion",
+        "seed": 1404
+      }
+    },
+    {
+      "label": "C16_068",
+      "text": "BLZPSCSIGDETMSBSURCVLEASTNORTHEASTFSNNIVKPOZFMGGJXMTLODGLAARSQJBERLINCLOCOF",
+      "metadata": {
+        "campaign": "C16",
+        "method": "THCP_TailCohesion",
+        "seed": 1405
+      }
+    },
+    {
+      "label": "C16_069",
+      "text": "VHNSWQWRVIQFJNDYMPPUWEASTNORTHEASTONOAPQOLEKWMLDLRFELYSXLESYLZEBERLINCLOCOF",
+      "metadata": {
+        "campaign": "C16",
+        "method": "THCP_TailCohesion",
+        "seed": 1406
+      }
+    },
+    {
+      "label": "C16_070",
+      "text": "IXEPBMUKVDBGPKAKWPNQEEASTNORTHEASTCOWUYNHGUXCKRDVLMPRTGXXNOBLADBERLINCLOCOF",
+      "metadata": {
+        "campaign": "C16",
+        "method": "THCP_TailCohesion",
+        "seed": 1407
+      }
+    },
+    {
+      "label": "C16_071",
+      "text": "GEMHLNVYTZLUQAGNSEMMIEASTNORTHEASTEQFRUNJRRJSPGZRKJDODMKGXOOKGIBERLINCLOCOF",
+      "metadata": {
+        "campaign": "C16",
+        "method": "THCP_TailCohesion",
+        "seed": 1408
+      }
+    },
+    {
+      "label": "C16_072",
+      "text": "JOBZTFJSDCULLMPCOJSXGEASTNORTHEASTOMMMHLLHDDBAZJWOPGDFKZJDZUIICBERLINCLOCOF",
+      "metadata": {
+        "campaign": "C16",
+        "method": "THCP_TailCohesion",
+        "seed": 1409
+      }
+    },
+    {
+      "label": "C16_073",
+      "text": "SPUJRDWYOUMKHKTDYWQLDEASTNORTHEASTNUYYPYTAYSAKBLQZCMONNNYPLGVDTBERLINCLOCOF",
+      "metadata": {
+        "campaign": "C16",
+        "method": "THCP_TailCohesion",
+        "seed": 1410
+      }
+    },
+    {
+      "label": "C16_074",
+      "text": "SINBQGMCAIZZOLROFVKLNEASTNORTHEASTWRRBSUVOIBOYRCVWPASLRGHDNJZFKBERLINCLOCOF",
+      "metadata": {
+        "campaign": "C16",
+        "method": "THCP_TailCohesion",
+        "seed": 1411
+      }
+    },
+    {
+      "label": "C16_075",
+      "text": "XPPRYBKLBESERCQHUHYOMEASTNORTHEASTVCVVKHMXEWORHXLGELCTPAPVVIAJQBERLINCLOCOF",
+      "metadata": {
+        "campaign": "C16",
+        "method": "THCP_TailCohesion",
+        "seed": 1412
+      }
+    },
+    {
+      "label": "C16_076",
+      "text": "KLWPBYVPMUJEYJWWFVEGWEASTNORTHEASTJLTWEETFFDEQOPSGHWAELFYQKVQPHBERLINCLOCOF",
+      "metadata": {
+        "campaign": "C16",
+        "method": "THCP_TailCohesion",
+        "seed": 1413
+      }
+    },
+    {
+      "label": "C16_077",
+      "text": "ERDFKDDDITSXDCCWLFIHJEASTNORTHEASTSAVQKXOOIYPTWFRKBYRCUJFBDYIEUBERLINCLOCOF",
+      "metadata": {
+        "campaign": "C16",
+        "method": "THCP_TailCohesion",
+        "seed": 1414
+      }
+    },
+    {
+      "label": "C16_078",
+      "text": "FNFLZHITCZIPTXLQOENQUEASTNORTHEASTWCRWSNEIGYMBUAIQLXSRXZCJKOAYOBERLINCLOCOF",
+      "metadata": {
+        "campaign": "C16",
+        "method": "THCP_TailCohesion",
+        "seed": 1415
+      }
+    },
+    {
+      "label": "C16_079",
+      "text": "AUJXHKYKBAZGVUPQLLQSKEASTNORTHEASTUXRCOJVYQOLXPNNBRMJGHJJYKOGFUBERLINCLOCOF",
+      "metadata": {
+        "campaign": "C16",
+        "method": "THCP_TailCohesion",
+        "seed": 1416
+      }
+    },
+    {
+      "label": "C16_080",
+      "text": "LTJTSNVEQOGPBHHSIWMKEEASTNORTHEASTZIANEGHXIHMMOTQDYKRKCBIVJNNXWBERLINCLOCOF",
+      "metadata": {
+        "campaign": "C16",
+        "method": "THCP_TailCohesion",
+        "seed": 1417
+      }
+    },
+    {
+      "label": "C16_081",
+      "text": "RLCSGYKSCNUEDIWNJCGKREASTNORTHEASTRIYTHXYPVXOTKUGQDRMUNQOMCMKVTBERLINCLOCOF",
+      "metadata": {
+        "campaign": "C16",
+        "method": "THCP_TailCohesion",
+        "seed": 1418
+      }
+    },
+    {
+      "label": "C16_082",
+      "text": "DJBLRKSEVXAPOPOGNGZTMEASTNORTHEASTYFCMYLCVTRECBRHZQAJMQJXIPZDUMBERLINCLOCOF",
+      "metadata": {
+        "campaign": "C16",
+        "method": "THCP_TailCohesion",
+        "seed": 1419
+      }
+    },
+    {
+      "label": "C16_083",
+      "text": "ZMCZOUTGSWVVLNQJSEXDXEASTNORTHEASTTTPOCVKHMSAZTTWKFCNZBWDSQGSQUBERLINCLOCOF",
+      "metadata": {
+        "campaign": "C16",
+        "method": "THCP_TailCohesion",
+        "seed": 1420
+      }
+    },
+    {
+      "label": "C16_084",
+      "text": "HRJFFVEGYYLMVZRZEMILXEASTNORTHEASTFPVDQOYHRMXJZXYSCOBCDPUTZZKZRBERLINCLOCOF",
+      "metadata": {
+        "campaign": "C16",
+        "method": "THCP_TailCohesion",
+        "seed": 1421
+      }
+    },
+    {
+      "label": "C16_085",
+      "text": "XBZIVEFACGFZCJFDWAYIFEASTNORTHEASTSALKJPRSKMHFOHPWHANZSLDTHTSSXBERLINCLOCOF",
+      "metadata": {
+        "campaign": "C16",
+        "method": "THCP_TailCohesion",
+        "seed": 1422
+      }
+    },
+    {
+      "label": "C16_086",
+      "text": "TUWTZWCAWCPXPWFHPAHLMEASTNORTHEASTQJMLIOICUMTCTGIGKVQVNXEIGOAXABERLINCLOCOF",
+      "metadata": {
+        "campaign": "C16",
+        "method": "THCP_TailCohesion",
+        "seed": 1423
+      }
+    },
+    {
+      "label": "C16_087",
+      "text": "JBMGBSULFMAFJQLOVDSROEASTNORTHEASTRZPZWTHVOMSCWOGSMBVUNHDHQVJZMBERLINCLOCOF",
+      "metadata": {
+        "campaign": "C16",
+        "method": "THCP_TailCohesion",
+        "seed": 1424
+      }
+    },
+    {
+      "label": "C16_088",
+      "text": "TWSECZCNFEVZUIGIRRAGWEASTNORTHEASTETESKUYQNJWWGBDJIYNTSGJSPYMEYBERLINCLOCOF",
+      "metadata": {
+        "campaign": "C16",
+        "method": "THCP_TailCohesion",
+        "seed": 1425
+      }
+    },
+    {
+      "label": "C16_089",
+      "text": "STIDNRSLMFREROSCUNEABEASTNORTHEASTYTIUTWYXINGTBXJYUPFRYZKBMKOJFBERLINCLOCOF",
+      "metadata": {
+        "campaign": "C16",
+        "method": "THCP_TailCohesion",
+        "seed": 1426
+      }
+    },
+    {
+      "label": "C16_090",
+      "text": "VOJAFQYMXCAUQJRJOZSNBEASTNORTHEASTXCJQGHISGTUEZRSKYYLYSFFMQZWIKBERLINCLOCOF",
+      "metadata": {
+        "campaign": "C16",
+        "method": "THCP_TailCohesion",
+        "seed": 1427
+      }
+    },
+    {
+      "label": "C16_091",
+      "text": "FEEVLARTXMLTGWOIWRXYHEASTNORTHEASTYVPYPGQHPBMTNYQZUHRTMFCKKNFRZBERLINCLOCOF",
+      "metadata": {
+        "campaign": "C16",
+        "method": "THCP_TailCohesion",
+        "seed": 1428
+      }
+    },
+    {
+      "label": "C16_092",
+      "text": "FYSAHDXCSXZFOPFTPVSMSEASTNORTHEASTWOLTIUMSAREPCIWDBCXDIVHRAJWXNBERLINCLOCOF",
+      "metadata": {
+        "campaign": "C16",
+        "method": "THCP_TailCohesion",
+        "seed": 1429
+      }
+    },
+    {
+      "label": "C16_093",
+      "text": "ALGVLXHWNSKTLNOFAYEPJEASTNORTHEASTFEENOGLXEBSNIDKMGCOOTVPQJJVWCBERLINCLOCOF",
+      "metadata": {
+        "campaign": "C16",
+        "method": "THCP_TailCohesion",
+        "seed": 1430
+      }
+    },
+    {
+      "label": "C16_094",
+      "text": "WCTGWULHBLWLWPGPZELLKEASTNORTHEASTRTMSPEZFWWDAQQARBOERLYABQMFQMBERLINCLOCOF",
+      "metadata": {
+        "campaign": "C16",
+        "method": "THCP_TailCohesion",
+        "seed": 1431
+      }
+    },
+    {
+      "label": "C16_095",
+      "text": "LFBDJNPNQKFXHJYMATLXUEASTNORTHEASTIMGFRGZXUQIKCGOIYOJLMYRCHEGJDBERLINCLOCOF",
+      "metadata": {
+        "campaign": "C16",
+        "method": "THCP_TailCohesion",
+        "seed": 1432
+      }
+    },
+    {
+      "label": "C16_096",
+      "text": "VZPONVBGACXSJLFFSNWANEASTNORTHEASTHUHWXPVUMFLQLTHVYVKTRDEOBRMCVBERLINCLOCOF",
+      "metadata": {
+        "campaign": "C16",
+        "method": "THCP_TailCohesion",
+        "seed": 1433
+      }
+    },
+    {
+      "label": "C16_097",
+      "text": "RSRJMDHMRXJUDLATFBJHXEASTNORTHEASTXCCHUNMZBVJWQNZQYSKRSTTAKTRXABERLINCLOCOF",
+      "metadata": {
+        "campaign": "C16",
+        "method": "THCP_TailCohesion",
+        "seed": 1434
+      }
+    },
+    {
+      "label": "C16_098",
+      "text": "XRUPNQGWNSRMQDWTCCEJLEASTNORTHEASTLFUJWAATAHQJQVTKLABPBYADSQQYOBERLINCLOCOF",
+      "metadata": {
+        "campaign": "C16",
+        "method": "THCP_TailCohesion",
+        "seed": 1435
+      }
+    },
+    {
+      "label": "C16_099",
+      "text": "TUPCFBCBGAMPNTUUWBMVFEASTNORTHEASTBOOETJBYNIIDKUJFDACCWGYZCZXBEBERLINCLOCOF",
+      "metadata": {
+        "campaign": "C16",
+        "method": "THCP_TailCohesion",
+        "seed": 1436
+      }
+    }
+  ]
+}

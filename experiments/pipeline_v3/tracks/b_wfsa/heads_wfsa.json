@@ -1,0 +1,105 @@
+{
+  "track": "B_WFSA",
+  "heads": [
+    {
+      "label": "WFSA_006",
+      "text": "SSITYSITHEAREQUIRESTAEASTNORTHEASTEREASTICALGORMECREASTASTALLYOBERLINCLOCKS",
+      "metadata": {
+        "smoothing_passes": 3,
+        "generation_score": 0.0012328987907632028,
+        "trigram_score": -0.34884117275088034,
+        "entropy": -0.0037362279800789273
+      }
+    },
+    {
+      "label": "WFSA_004",
+      "text": "YPTOWERLIVERGEDGEDGEDEASTNORTHEASTALLYEDGEDGEDGEDGEDGEDGEDGEDGEBERLINCLOCKN",
+      "metadata": {
+        "smoothing_passes": 2,
+        "generation_score": 0.0011465315318122111,
+        "trigram_score": -0.38429406995967774,
+        "entropy": -0.00849142722745209
+      }
+    },
+    {
+      "label": "WFSA_003",
+      "text": "SESSESSECHAPHYSTANTUMEASTNORTHEASTASTECHNOLOGRAPIDLYSTECTSNSFORBERLINCLOCKS",
+      "metadata": {
+        "smoothing_passes": 3,
+        "generation_score": 0.0010526219580377176,
+        "trigram_score": -0.4148916653152983,
+        "entropy": -0.002844628121196456
+      }
+    },
+    {
+      "label": "WFSA_005",
+      "text": "RAPEDGEDGEDGEDGEDGEDGEASTNORTHEASTERLIMATTERYPTOGROTENSFORTHMAEBERLINCLOCKS",
+      "metadata": {
+        "smoothing_passes": 1,
+        "generation_score": 0.0010451003627354979,
+        "trigram_score": -0.408234266557186,
+        "entropy": -0.0041183422053142705
+      }
+    },
+    {
+      "label": "WFSA_007",
+      "text": "NFORITYSIONVERLINFORIEASTNORTHEASTANICKSTENSFORMSESSESSESSESSETBERLINCLOCKN",
+      "metadata": {
+        "smoothing_passes": 1,
+        "generation_score": 0.001011185439193347,
+        "trigram_score": -0.3933995118166881,
+        "entropy": -0.0033965708909808436
+      }
+    },
+    {
+      "label": "WFSA_001",
+      "text": "ERNSFORKSSICALGORMECREASTNORTHEASTALIENSFORITIONVERESSETSDGEDGEBERLINCLOCKN",
+      "metadata": {
+        "smoothing_passes": 2,
+        "generation_score": 0.0009671177057534632,
+        "trigram_score": -0.40364527002227885,
+        "entropy": -0.0024625138959611125
+      }
+    },
+    {
+      "label": "WFSA_002",
+      "text": "WORITHERNSFOXRMSTALLYEASTNORTHEASTRAPROSSETWORMECTSESSETYCONVERBERLINCLOCKN",
+      "metadata": {
+        "smoothing_passes": 3,
+        "generation_score": 0.0009140890037398607,
+        "trigram_score": -0.37771386973849086,
+        "entropy": -0.002420056759823852
+      }
+    },
+    {
+      "label": "WFSA_008",
+      "text": "NFORMSTECHANDSTRITIZEEASTNORTHEASTASTENSFORSIOLEDGEDGEDGEDGEDGEBERLINCLOCKS",
+      "metadata": {
+        "smoothing_passes": 2,
+        "generation_score": 0.0009098373980662067,
+        "trigram_score": -0.36878763560080235,
+        "entropy": -0.0036513137078044064
+      }
+    },
+    {
+      "label": "WFSA_000",
+      "text": "LYSICSHAPEDGEDGEDGEDGEASTNORTHEASTEMSESSESSESSECRYPTOWNGEDGEDGEBERLINCLOCKS",
+      "metadata": {
+        "smoothing_passes": 1,
+        "generation_score": 0.0008825091647727262,
+        "trigram_score": -0.37333871776209077,
+        "entropy": -0.004373085022137835
+      }
+    },
+    {
+      "label": "WFSA_009",
+      "text": "BIOLOCKSITICSESSECHNOEASTNORTHEASTERGEDGEDGEDGEDGEDGEDGEDGEDGEDBERLINCLOCKN",
+      "metadata": {
+        "smoothing_passes": 1,
+        "generation_score": 0.0008690080906401093,
+        "trigram_score": -0.3458045734298226,
+        "entropy": -0.006198741876040036
+      }
+    }
+  ]
+}

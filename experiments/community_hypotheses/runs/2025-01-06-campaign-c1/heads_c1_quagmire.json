@@ -1,0 +1,2932 @@
+{
+  "campaign": "C1_QUAGMIRE_III",
+  "date": "2025-01-06",
+  "description": "Quagmire III cipher with scrambled alphabets",
+  "method": "quagmire_iii",
+  "parameters": {
+    "num_heads": 100,
+    "seed": 1337,
+    "alphabet_variations": [
+      "KRYPTOSABCDEFGHIJLMNQUVWXZ",
+      "ABCDEFGHIJKLMNOPQRSTUVWXYZ",
+      "ZYXWVUTSRQPONMLKJIHGFEDCBA",
+      "KRYPTOSBDEFGHIJLMNQUVWXZAC"
+    ],
+    "offset_patterns": [
+      "fixed",
+      "progressive",
+      "fibonacci",
+      "prime"
+    ]
+  },
+  "seed": 1337,
+  "total_heads": 100,
+  "anchor_distribution": {
+    "0": 100,
+    "1": 0,
+    "2": 0,
+    "3": 0
+  },
+  "heads": [
+    {
+      "label": "QUAGMIRE_000",
+      "text": "LXNFBGWELJVDMUXZBDGFJZSLGKJJGJPKBADXTVXUCURQDWGFHCIRPNDTNUXKELOBPXQRQWIBQUH",
+      "metadata": {
+        "method": "quagmire_iii",
+        "alphabet": "ZYXWVUTSRQPONMLKJIHGFEDCBA",
+        "pattern_type": "progressive",
+        "offset_sample": [
+          0,
+          1,
+          2,
+          3,
+          4,
+          5,
+          6,
+          7,
+          8,
+          9
+        ],
+        "anchors_found": {
+          "EAST": false,
+          "NORTHEAST": false,
+          "BERLINCLOCK": false
+        },
+        "anchor_count": 0,
+        "seed": 1337,
+        "full_plaintext": "LXNFBGWELJVDMUXZBDGFJZSLGKJJGJPKBADXTVXUCURQDWGFHCIRPNDTNUXKELOBPXQRQWIBQUHWYQABENTRLMHWIUNSHAHIQ"
+      }
+    },
+    {
+      "label": "QUAGMIRE_001",
+      "text": "LXNFBGWELJVDMUXZBDGFJZSLGKJJGJPKBADXTVXUCURQDWGFHCIRPNDTNUXKELOBPXQRQWIBQUH",
+      "metadata": {
+        "method": "quagmire_iii",
+        "alphabet": "ZYXWVUTSRQPONMLKJIHGFEDCBA",
+        "pattern_type": "progressive",
+        "offset_sample": [
+          0,
+          1,
+          2,
+          3,
+          4,
+          5,
+          6,
+          7,
+          8,
+          9
+        ],
+        "anchors_found": {
+          "EAST": false,
+          "NORTHEAST": false,
+          "BERLINCLOCK": false
+        },
+        "anchor_count": 0,
+        "seed": 1338,
+        "full_plaintext": "LXNFBGWELJVDMUXZBDGFJZSLGKJJGJPKBADXTVXUCURQDWGFHCIRPNDTNUXKELOBPXQRQWIBQUHWYQABENTRLMHWIUNSHAHIQ"
+      }
+    },
+    {
+      "label": "QUAGMIRE_002",
+      "text": "LXOGCGUYYKCDKIYCSJODYUJDUUKWVLFAEPQTVLGJPKHIWRDFLMBYSZTVELCCWPDMGPOVFBNVYEG",
+      "metadata": {
+        "method": "quagmire_iii",
+        "alphabet": "ZYXWVUTSRQPONMLKJIHGFEDCBA",
+        "pattern_type": "fibonacci",
+        "offset_sample": [
+          0,
+          1,
+          1,
+          2,
+          3,
+          5,
+          8,
+          13,
+          21,
+          8
+        ],
+        "anchors_found": {
+          "EAST": false,
+          "NORTHEAST": false,
+          "BERLINCLOCK": false
+        },
+        "anchor_count": 0,
+        "seed": 1339,
+        "full_plaintext": "LXOGCGUYYKCDKIYCSJODYUJDUUKWVLFAEPQTVLGJPKHIWRDFLMBYSZTVELCCWPDMGPOVFBNVYEGLRCIXJOYVRSODPARSAHUOU"
+      }
+    },
+    {
+      "label": "QUAGMIRE_003",
+      "text": "OAJPRJPBLZRANTBZJURGRFGMLBRBEMSVPATGOYNUIRSTFMCEENORNWICVMVTXAGNDUFISAMGDZZ",
+      "metadata": {
+        "method": "quagmire_iii",
+        "alphabet": "ABCDEFGHIJKLMNOPQRSTUVWXYZ",
+        "pattern_type": "fibonacci",
+        "offset_sample": [
+          0,
+          1,
+          1,
+          2,
+          3,
+          5,
+          8,
+          13,
+          21,
+          8
+        ],
+        "anchors_found": {
+          "EAST": false,
+          "NORTHEAST": false,
+          "BERLINCLOCK": false
+        },
+        "anchor_count": 0,
+        "seed": 1340,
+        "full_plaintext": "OAJPRJPBLZRANTBZJURGRFGMLBRBEMSVPATGOYNUIRSTFMCEENORNWICVMVTXAGNDUFISAMGDZZYYXHSWHDCIFJSEPSHJCZPD"
+      }
+    },
+    {
+      "label": "QUAGMIRE_004",
+      "text": "LXNFBGWELJVDMUXZBDGFJZSLGKJJGJPKBADXTVXUCURQDWGFHCIRPNDTNUXKELOBPXQRQWIBQUH",
+      "metadata": {
+        "method": "quagmire_iii",
+        "alphabet": "ZYXWVUTSRQPONMLKJIHGFEDCBA",
+        "pattern_type": "progressive",
+        "offset_sample": [
+          0,
+          1,
+          2,
+          3,
+          4,
+          5,
+          6,
+          7,
+          8,
+          9
+        ],
+        "anchors_found": {
+          "EAST": false,
+          "NORTHEAST": false,
+          "BERLINCLOCK": false
+        },
+        "anchor_count": 0,
+        "seed": 1341,
+        "full_plaintext": "LXNFBGWELJVDMUXZBDGFJZSLGKJJGJPKBADXTVXUCURQDWGFHCIRPNDTNUXKELOBPXQRQWIBQUHWYQABENTRLMHWIUNSHAHIQ"
+      }
+    },
+    {
+      "label": "QUAGMIRE_005",
+      "text": "FGZZQAOSQEQETHSDOZXMQKKWKDTPOQXLDOKRNJPINTGHKCACDLZWDAHHAKUYBFMRHIETDEKLRPY",
+      "metadata": {
+        "method": "quagmire_iii",
+        "alphabet": "KRYPTOSBDEFGHIJLMNQUVWXZAC",
+        "pattern_type": "fibonacci",
+        "offset_sample": [
+          0,
+          1,
+          1,
+          2,
+          3,
+          5,
+          8,
+          13,
+          21,
+          8
+        ],
+        "anchors_found": {
+          "EAST": false,
+          "NORTHEAST": false,
+          "BERLINCLOCK": false
+        },
+        "anchor_count": 0,
+        "seed": 1342,
+        "full_plaintext": "FGZZQAOSQEQETHSDOZXMQKKWKDTPOQXLDOKRNJPINTGHKCACDLZWDAHHAKUYBFMRHIETDEKLRPYDDNFRHMAHNKZRJOQGOSWNN"
+      }
+    },
+    {
+      "label": "QUAGMIRE_006",
+      "text": "FHZZSAQSSGSGUHSFQBYNSMMWMFVPOSZLDOKRPJRIPVGHMCCEFUZYDCJJCTWADHNTHIGTDGMNRPA",
+      "metadata": {
+        "method": "quagmire_iii",
+        "alphabet": "KRYPTOSABCDEFGHIJLMNQUVWXZ",
+        "pattern_type": "fibonacci",
+        "offset_sample": [
+          0,
+          1,
+          1,
+          2,
+          3,
+          5,
+          8,
+          13,
+          21,
+          8
+        ],
+        "anchors_found": {
+          "EAST": false,
+          "NORTHEAST": false,
+          "BERLINCLOCK": false
+        },
+        "anchor_count": 0,
+        "seed": 1343,
+        "full_plaintext": "FHZZSAQSSGSGUHSFQBYNSMMWMFVPOSZLDOKRPJRIPVGHMCCEFUZYDCJJCTWADHNTHIGTDGMNRPAFFNHTHOKJPMZTLQZIQSGWN"
+      }
+    },
+    {
+      "label": "QUAGMIRE_007",
+      "text": "LXOGCGUYYKCDKIYCSJODYUJDUUKWVLFAEPQTVLGJPKHIWRDFLMBYSZTVELCCWPDMGPOVFBNVYEG",
+      "metadata": {
+        "method": "quagmire_iii",
+        "alphabet": "ZYXWVUTSRQPONMLKJIHGFEDCBA",
+        "pattern_type": "fibonacci",
+        "offset_sample": [
+          0,
+          1,
+          1,
+          2,
+          3,
+          5,
+          8,
+          13,
+          21,
+          8
+        ],
+        "anchors_found": {
+          "EAST": false,
+          "NORTHEAST": false,
+          "BERLINCLOCK": false
+        },
+        "anchor_count": 0,
+        "seed": 1344,
+        "full_plaintext": "LXOGCGUYYKCDKIYCSJODYUJDUUKWVLFAEPQTVLGJPKHIWRDFLMBYSZTVELCCWPDMGPOVFBNVYEGLRCIXJOYVRSODPARSAHUOU"
+      }
+    },
+    {
+      "label": "QUAGMIRE_008",
+      "text": "DEVUISFMOJOESPKOGBSOAJKQBVTAWIOZZXMJUXHPRTXVUJUICDFJTYWFENESUDMSBYBFVFIPARG",
+      "metadata": {
+        "method": "quagmire_iii",
+        "alphabet": "KRYPTOSBDEFGHIJLMNQUVWXZAC",
+        "pattern_type": "prime",
+        "offset_sample": [
+          2,
+          3,
+          5,
+          7,
+          11,
+          13,
+          17,
+          19,
+          23,
+          3
+        ],
+        "anchors_found": {
+          "EAST": false,
+          "NORTHEAST": false,
+          "BERLINCLOCK": false
+        },
+        "anchor_count": 0,
+        "seed": 1345,
+        "full_plaintext": "DEVUISFMOJOESPKOGBSOAJKQBVTAWIOZZXMJUXHPRTXVUJUICDFJTYWFENESUDMSBYBFVFIPARGSJTMDBJKRQKTETYZIQDUPM"
+      }
+    },
+    {
+      "label": "QUAGMIRE_009",
+      "text": "DFVUKSHMQLQGTPKQIDTPCLMQDXVAWKQZZXMJWXJPTVXVWJWKEMFLTAYHGWGUWFNUBYDFVHKRARI",
+      "metadata": {
+        "method": "quagmire_iii",
+        "alphabet": "KRYPTOSABCDEFGHIJLMNQUVWXZ",
+        "pattern_type": "prime",
+        "offset_sample": [
+          2,
+          3,
+          5,
+          7,
+          11,
+          13,
+          17,
+          19,
+          23,
+          3
+        ],
+        "anchors_found": {
+          "EAST": false,
+          "NORTHEAST": false,
+          "BERLINCLOCK": false
+        },
+        "anchor_count": 0,
+        "seed": 1346,
+        "full_plaintext": "DFVUKSHMQLQGTPKQIDTPCLMQDXVAWKQZZXMJWXJPTVXVWJWKEMFLTAYHGWGUWFNUBYDFVHKRARIULTOFBLUTSMTGVAIKSDEYM"
+      }
+    },
+    {
+      "label": "QUAGMIRE_010",
+      "text": "LXNFBGWELJVDMUXZBDGFJZSLGKJJGJPKBADXTVXUCURQDWGFHCIRPNDTNUXKELOBPXQRQWIBQUH",
+      "metadata": {
+        "method": "quagmire_iii",
+        "alphabet": "ZYXWVUTSRQPONMLKJIHGFEDCBA",
+        "pattern_type": "progressive",
+        "offset_sample": [
+          0,
+          1,
+          2,
+          3,
+          4,
+          5,
+          6,
+          7,
+          8,
+          9
+        ],
+        "anchors_found": {
+          "EAST": false,
+          "NORTHEAST": false,
+          "BERLINCLOCK": false
+        },
+        "anchor_count": 0,
+        "seed": 1347,
+        "full_plaintext": "LXNFBGWELJVDMUXZBDGFJZSLGKJJGJPKBADXTVXUCURQDWGFHCIRPNDTNUXKELOBPXQRQWIBQUHWYQABENTRLMHWIUNSHAHIQ"
+      }
+    },
+    {
+      "label": "QUAGMIRE_011",
+      "text": "FGYYPAQYDDJEVTRAXTPOBPTEWTSCZOHVAZXVLTGTADQPRHDCZBGPAORFJTPGJBXGQQGPOZFRJFZ",
+      "metadata": {
+        "method": "quagmire_iii",
+        "alphabet": "KRYPTOSBDEFGHIJLMNQUVWXZAC",
+        "pattern_type": "progressive",
+        "offset_sample": [
+          0,
+          1,
+          2,
+          3,
+          4,
+          5,
+          6,
+          7,
+          8,
+          9
+        ],
+        "anchors_found": {
+          "EAST": false,
+          "NORTHEAST": false,
+          "BERLINCLOCK": false
+        },
+        "anchor_count": 0,
+        "seed": 1348,
+        "full_plaintext": "FGYYPAQYDDJEVTRAXTPOBPTEWTSCZOHVAZXVLTGTADQPRHDCZBGPAORFJTPGJBXGQQGPOZFRJFZOKBXVCLVDHESKCIMGVLJHJ"
+      }
+    },
+    {
+      "label": "QUAGMIRE_012",
+      "text": "FGYYPAQYDDJEVTRAXTPOBPTEWTSCZOHVAZXVLTGTADQPRHDCZBGPAORFJTPGJBXGQQGPOZFRJFZ",
+      "metadata": {
+        "method": "quagmire_iii",
+        "alphabet": "KRYPTOSBDEFGHIJLMNQUVWXZAC",
+        "pattern_type": "progressive",
+        "offset_sample": [
+          0,
+          1,
+          2,
+          3,
+          4,
+          5,
+          6,
+          7,
+          8,
+          9
+        ],
+        "anchors_found": {
+          "EAST": false,
+          "NORTHEAST": false,
+          "BERLINCLOCK": false
+        },
+        "anchor_count": 0,
+        "seed": 1349,
+        "full_plaintext": "FGYYPAQYDDJEVTRAXTPOBPTEWTSCZOHVAZXVLTGTADQPRHDCZBGPAORFJTPGJBXGQQGPOZFRJFZOKBXVCLVDHESKCIMGVLJHJ"
+      }
+    },
+    {
+      "label": "QUAGMIRE_013",
+      "text": "FHZZSAQSSGSGUHSFQBYNSMMWMFVPOSZLDOKRPJRIPVGHMCCEFUZYDCJJCTWADHNTHIGTDGMNRPA",
+      "metadata": {
+        "method": "quagmire_iii",
+        "alphabet": "KRYPTOSABCDEFGHIJLMNQUVWXZ",
+        "pattern_type": "fibonacci",
+        "offset_sample": [
+          0,
+          1,
+          1,
+          2,
+          3,
+          5,
+          8,
+          13,
+          21,
+          8
+        ],
+        "anchors_found": {
+          "EAST": false,
+          "NORTHEAST": false,
+          "BERLINCLOCK": false
+        },
+        "anchor_count": 0,
+        "seed": 1350,
+        "full_plaintext": "FHZZSAQSSGSGUHSFQBYNSMMWMFVPOSZLDOKRPJRIPVGHMCCEFUZYDCJJCTWADHNTHIGTDGMNRPAFFNHTHOKJPMZTLQZIQSGWN"
+      }
+    },
+    {
+      "label": "QUAGMIRE_014",
+      "text": "ACVWOARAGHOKCBAKIFCCQFKWPNNYWMGVBBAZQZNBJNBBEVSSQTZJVKODITQIMFCMXYPZZLSFYVQ",
+      "metadata": {
+        "method": "quagmire_iii",
+        "alphabet": "KRYPTOSBDEFGHIJLMNQUVWXZAC",
+        "pattern_type": "fixed",
+        "offset_sample": [
+          5,
+          5,
+          5,
+          5,
+          5,
+          5,
+          5,
+          5,
+          5,
+          5
+        ],
+        "anchors_found": {
+          "EAST": false,
+          "NORTHEAST": false,
+          "BERLINCLOCK": false
+        },
+        "anchor_count": 0,
+        "seed": 1351,
+        "full_plaintext": "ACVWOARAGHOKCBAKIFCCQFKWPNNYWMGVBBAZQZNBJNBBEVSSQTZJVKODITQIMFCMXYPZZLSFYVQGDVSRZJUDIGVOHOTOEVUTW"
+      }
+    },
+    {
+      "label": "QUAGMIRE_015",
+      "text": "WZRSMWPWEFMIZXWIGDZZODISNLLUSKERXXWVOVLXHLXXCRQQOYVHRIMBGYOGKDZKTUNVVJQDURO",
+      "metadata": {
+        "method": "quagmire_iii",
+        "alphabet": "KRYPTOSABCDEFGHIJLMNQUVWXZ",
+        "pattern_type": "fixed",
+        "offset_sample": [
+          9,
+          9,
+          9,
+          9,
+          9,
+          9,
+          9,
+          9,
+          9,
+          9
+        ],
+        "anchors_found": {
+          "EAST": false,
+          "NORTHEAST": false,
+          "BERLINCLOCK": false
+        },
+        "anchor_count": 0,
+        "seed": 1352,
+        "full_plaintext": "WZRSMWPWEFMIZXWIGDZZODISNLLUSKERXXWVOVLXHLXXCRQQOYVHRIMBGYOGKDZKTUNVVJQDUROEBRQPVHABGERMFMYMCRAYS"
+      }
+    },
+    {
+      "label": "QUAGMIRE_016",
+      "text": "ZBUVNZQZFGNJBAZJHEBBPEJVOMMXVLFUAAZYPYMAIMAADURRPSYIUJNCHSPHLEBLWXOYYKREXUP",
+      "metadata": {
+        "method": "quagmire_iii",
+        "alphabet": "KRYPTOSBDEFGHIJLMNQUVWXZAC",
+        "pattern_type": "fixed",
+        "offset_sample": [
+          6,
+          6,
+          6,
+          6,
+          6,
+          6,
+          6,
+          6,
+          6,
+          6
+        ],
+        "anchors_found": {
+          "EAST": false,
+          "NORTHEAST": false,
+          "BERLINCLOCK": false
+        },
+        "anchor_count": 0,
+        "seed": 1353,
+        "full_plaintext": "ZBUVNZQZFGNJBAZJHEBBPEJVOMMXVLFUAAZYPYMAIMAADURRPSYIUJNCHSPHLEBLWXOYYKREXUPFCURQYITCHFUNGNSNDUTSV"
+      }
+    },
+    {
+      "label": "QUAGMIRE_017",
+      "text": "FGYYPAQYDDJEVTRAXTPOBPTEWTSCZOHVAZXVLTGTADQPRHDCZBGPAORFJTPGJBXGQQGPOZFRJFZ",
+      "metadata": {
+        "method": "quagmire_iii",
+        "alphabet": "KRYPTOSBDEFGHIJLMNQUVWXZAC",
+        "pattern_type": "progressive",
+        "offset_sample": [
+          0,
+          1,
+          2,
+          3,
+          4,
+          5,
+          6,
+          7,
+          8,
+          9
+        ],
+        "anchors_found": {
+          "EAST": false,
+          "NORTHEAST": false,
+          "BERLINCLOCK": false
+        },
+        "anchor_count": 0,
+        "seed": 1354,
+        "full_plaintext": "FGYYPAQYDDJEVTRAXTPOBPTEWTSCZOHVAZXVLTGTADQPRHDCZBGPAORFJTPGJBXGQQGPOZFRJFZOKBXVCLVDHESKCIMGVLJHJ"
+      }
+    },
+    {
+      "label": "QUAGMIRE_018",
+      "text": "FHYYRASYFFLGWTRCZVQPDRVEYVUCZQJVAZXVNTITCFQPTHFEBKGRAQTHLCRILDYIQQIPOBHTJFB",
+      "metadata": {
+        "method": "quagmire_iii",
+        "alphabet": "KRYPTOSABCDEFGHIJLMNQUVWXZ",
+        "pattern_type": "progressive",
+        "offset_sample": [
+          0,
+          1,
+          2,
+          3,
+          4,
+          5,
+          6,
+          7,
+          8,
+          9
+        ],
+        "anchors_found": {
+          "EAST": false,
+          "NORTHEAST": false,
+          "BERLINCLOCK": false
+        },
+        "anchor_count": 0,
+        "seed": 1355,
+        "full_plaintext": "FHYYRASYFFLGWTRCZVQPDRVEYVUCZQJVAZXVNTITCFQPTHFEBKGRAQTHLCRILDYIQQIPOBHTJFBQMBZXCNFFJGSMEKVIXLTQJ"
+      }
+    },
+    {
+      "label": "QUAGMIRE_019",
+      "text": "LXNFBGWELJVDMUXZBDGFJZSLGKJJGJPKBADXTVXUCURQDWGFHCIRPNDTNUXKELOBPXQRQWIBQUH",
+      "metadata": {
+        "method": "quagmire_iii",
+        "alphabet": "ZYXWVUTSRQPONMLKJIHGFEDCBA",
+        "pattern_type": "progressive",
+        "offset_sample": [
+          0,
+          1,
+          2,
+          3,
+          4,
+          5,
+          6,
+          7,
+          8,
+          9
+        ],
+        "anchors_found": {
+          "EAST": false,
+          "NORTHEAST": false,
+          "BERLINCLOCK": false
+        },
+        "anchor_count": 0,
+        "seed": 1356,
+        "full_plaintext": "LXNFBGWELJVDMUXZBDGFJZSLGKJJGJPKBADXTVXUCURQDWGFHCIRPNDTNUXKELOBPXQRQWIBQUHWYQABENTRLMHWIUNSHAHIQ"
+      }
+    },
+    {
+      "label": "QUAGMIRE_020",
+      "text": "WJSZCWFWOPCTJAWTQNJJENTZDYYXZVOSAAWBEBYARYAAMSHHEIBRSTCLQIEQVNJVGXDBBUHNXSE",
+      "metadata": {
+        "method": "quagmire_iii",
+        "alphabet": "ABCDEFGHIJKLMNOPQRSTUVWXYZ",
+        "pattern_type": "fixed",
+        "offset_sample": [
+          18,
+          18,
+          18,
+          18,
+          18,
+          18,
+          18,
+          18,
+          18,
+          18
+        ],
+        "anchors_found": {
+          "EAST": false,
+          "NORTHEAST": false,
+          "BERLINCLOCK": false
+        },
+        "anchor_count": 0,
+        "seed": 1357,
+        "full_plaintext": "WJSZCWFWOPCTJAWTQNJJENTZDYYXZVOSAAWBEBYARYAAMSHHEIBRSTCLQIEQVNJVGXDBBUHNXSEOLSHFBRKLQOSCPCICMSKIZ"
+      }
+    },
+    {
+      "label": "QUAGMIRE_021",
+      "text": "DEVUISFMOJOESPKOGBSOAJKQBVTAWIOZZXMJUXHPRTXVUJUICDFJTYWFENESUDMSBYBFVFIPARG",
+      "metadata": {
+        "method": "quagmire_iii",
+        "alphabet": "KRYPTOSBDEFGHIJLMNQUVWXZAC",
+        "pattern_type": "prime",
+        "offset_sample": [
+          2,
+          3,
+          5,
+          7,
+          11,
+          13,
+          17,
+          19,
+          23,
+          3
+        ],
+        "anchors_found": {
+          "EAST": false,
+          "NORTHEAST": false,
+          "BERLINCLOCK": false
+        },
+        "anchor_count": 0,
+        "seed": 1358,
+        "full_plaintext": "DEVUISFMOJOESPKOGBSOAJKQBVTAWIOZZXMJUXHPRTXVUJUICDFJTYWFENESUDMSBYBFVFIPARGSJTMDBJKRQKTETYZIQDUPM"
+      }
+    },
+    {
+      "label": "QUAGMIRE_022",
+      "text": "QTLMGQJQYZGCTRQCAXTTIXCMHFFOMEYLRRQPIPFRBFRRWLKKISPBLCGVASIAEXTENOHPPDKXOLI",
+      "metadata": {
+        "method": "quagmire_iii",
+        "alphabet": "KRYPTOSABCDEFGHIJLMNQUVWXZ",
+        "pattern_type": "fixed",
+        "offset_sample": [
+          15,
+          15,
+          15,
+          15,
+          15,
+          15,
+          15,
+          15,
+          15,
+          15
+        ],
+        "anchors_found": {
+          "EAST": false,
+          "NORTHEAST": false,
+          "BERLINCLOCK": false
+        },
+        "anchor_count": 0,
+        "seed": 1359,
+        "full_plaintext": "QTLMGQJQYZGCTRQCAXTTIXCMHFFOMEYLRRQPIPFRBFRRWLKKISPBLCGVASIAEXTENOHPPDKXOLIYVLKJPBUVAYLGZGSGWLUSM"
+      }
+    },
+    {
+      "label": "QUAGMIRE_023",
+      "text": "PCLSVPYPHIVMCTPMJGCCXGMSWRRQSOHLTTPUXURTKRTTFLAAXBUKLMVEJBXJOGCOZQWUUNAGQLX",
+      "metadata": {
+        "method": "quagmire_iii",
+        "alphabet": "ABCDEFGHIJKLMNOPQRSTUVWXYZ",
+        "pattern_type": "fixed",
+        "offset_sample": [
+          25,
+          25,
+          25,
+          25,
+          25,
+          25,
+          25,
+          25,
+          25,
+          25
+        ],
+        "anchors_found": {
+          "EAST": false,
+          "NORTHEAST": false,
+          "BERLINCLOCK": false
+        },
+        "anchor_count": 0,
+        "seed": 1360,
+        "full_plaintext": "PCLSVPYPHIVMCTPMJGCCXGMSWRRQSOHLTTPUXURTKRTTFLAAXBUKLMVEJBXJOGCOZQWUUNAGQLXHELAYUKDEJHLVIVBVFLDBS"
+      }
+    },
+    {
+      "label": "QUAGMIRE_024",
+      "text": "MYFKJBGVJEPAMBTKBWMIBEGGCTRMMEJJLJVYVMFBMRJHPTWKDFUEDUXAZPFNQYGOXKCUKBKKMBH",
+      "metadata": {
+        "method": "quagmire_iii",
+        "alphabet": "ABCDEFGHIJKLMNOPQRSTUVWXYZ",
+        "pattern_type": "prime",
+        "offset_sample": [
+          2,
+          3,
+          5,
+          7,
+          11,
+          13,
+          17,
+          19,
+          23,
+          3
+        ],
+        "anchors_found": {
+          "EAST": false,
+          "NORTHEAST": false,
+          "BERLINCLOCK": false
+        },
+        "anchor_count": 0,
+        "seed": 1361,
+        "full_plaintext": "MYFKJBGVJEPAMBTKBWMIBEGGCTRMMEJJLJVYVMFBMRJHPTWKDFUEDUXAZPFNQYGOXKCUKBKKMBHNEDOEQENMLFDFOZBJLNXRC"
+      }
+    },
+    {
+      "label": "QUAGMIRE_025",
+      "text": "FHZZSAQSSGSGUHSFQBYNSMMWMFVPOSZLDOKRPJRIPVGHMCCEFUZYDCJJCTWADHNTHIGTDGMNRPA",
+      "metadata": {
+        "method": "quagmire_iii",
+        "alphabet": "KRYPTOSABCDEFGHIJLMNQUVWXZ",
+        "pattern_type": "fibonacci",
+        "offset_sample": [
+          0,
+          1,
+          1,
+          2,
+          3,
+          5,
+          8,
+          13,
+          21,
+          8
+        ],
+        "anchors_found": {
+          "EAST": false,
+          "NORTHEAST": false,
+          "BERLINCLOCK": false
+        },
+        "anchor_count": 0,
+        "seed": 1362,
+        "full_plaintext": "FHZZSAQSSGSGUHSFQBYNSMMWMFVPOSZLDOKRPJRIPVGHMCCEFUZYDCJJCTWADHNTHIGTDGMNRPAFFNHTHOKJPMZTLQZIQSGWN"
+      }
+    },
+    {
+      "label": "QUAGMIRE_026",
+      "text": "FHYYRASYFFLGWTRCZVQPDRVEYVUCZQJVAZXVNTITCFQPTHFEBKGRAQTHLCRILDYIQQIPOBHTJFB",
+      "metadata": {
+        "method": "quagmire_iii",
+        "alphabet": "KRYPTOSABCDEFGHIJLMNQUVWXZ",
+        "pattern_type": "progressive",
+        "offset_sample": [
+          0,
+          1,
+          2,
+          3,
+          4,
+          5,
+          6,
+          7,
+          8,
+          9
+        ],
+        "anchors_found": {
+          "EAST": false,
+          "NORTHEAST": false,
+          "BERLINCLOCK": false
+        },
+        "anchor_count": 0,
+        "seed": 1363,
+        "full_plaintext": "FHYYRASYFFLGWTRCZVQPDRVEYVUCZQJVAZXVNTITCFQPTHFEBKGRAQTHLCRILDYIQQIPOBHTJFBQMBZXCNFFJGSMEKVIXLTQJ"
+      }
+    },
+    {
+      "label": "QUAGMIRE_027",
+      "text": "QDMTWQZQIJWNDUQNKHDDYHNTXSSRTPIMUUQVYVSULSUUGMBBYCVLMNWFKCYKPHDPARXVVOBHRMY",
+      "metadata": {
+        "method": "quagmire_iii",
+        "alphabet": "ABCDEFGHIJKLMNOPQRSTUVWXYZ",
+        "pattern_type": "fixed",
+        "offset_sample": [
+          24,
+          24,
+          24,
+          24,
+          24,
+          24,
+          24,
+          24,
+          24,
+          24
+        ],
+        "anchors_found": {
+          "EAST": false,
+          "NORTHEAST": false,
+          "BERLINCLOCK": false
+        },
+        "anchor_count": 0,
+        "seed": 1364,
+        "full_plaintext": "QDMTWQZQIJWNDUQNKHDDYHNTXSSRTPIMUUQVYVSULSUUGMBBYCVLMNWFKCYKPHDPARXVVOBHRMYIFMBZVLEFKIMWJWCWGMECT"
+      }
+    },
+    {
+      "label": "QUAGMIRE_028",
+      "text": "OAIOQJRHYYKAPFAWSOJICKPUXRQOPKCFMLGKMIEFVBCBMRFEADVKKKSAEVQBFWRCMCHEDVHMVPA",
+      "metadata": {
+        "method": "quagmire_iii",
+        "alphabet": "ABCDEFGHIJKLMNOPQRSTUVWXYZ",
+        "pattern_type": "progressive",
+        "offset_sample": [
+          0,
+          1,
+          2,
+          3,
+          4,
+          5,
+          6,
+          7,
+          8,
+          9
+        ],
+        "anchors_found": {
+          "EAST": false,
+          "NORTHEAST": false,
+          "BERLINCLOCK": false
+        },
+        "anchor_count": 0,
+        "seed": 1365,
+        "full_plaintext": "OAIOQJRHYYKAPFAWSOJICKPUXRQOPKCFMLGKMIEFVBCBMRFEADVKKKSAEVQBFWRCMCHEDVHMVPAJFLZWRGYYCZCLXJOHQVMJZ"
+      }
+    },
+    {
+      "label": "QUAGMIRE_029",
+      "text": "FGZZQAOSQEQETHSDOZXMQKKWKDTPOQXLDOKRNJPINTGHKCACDLZWDAHHAKUYBFMRHIETDEKLRPY",
+      "metadata": {
+        "method": "quagmire_iii",
+        "alphabet": "KRYPTOSBDEFGHIJLMNQUVWXZAC",
+        "pattern_type": "fibonacci",
+        "offset_sample": [
+          0,
+          1,
+          1,
+          2,
+          3,
+          5,
+          8,
+          13,
+          21,
+          8
+        ],
+        "anchors_found": {
+          "EAST": false,
+          "NORTHEAST": false,
+          "BERLINCLOCK": false
+        },
+        "anchor_count": 0,
+        "seed": 1366,
+        "full_plaintext": "FGZZQAOSQEQETHSDOZXMQKKWKDTPOQXLDOKRNJPINTGHKCACDLZWDAHHAKUYBFMRHIETDEKLRPYDDNFRHMAHNKZRJOQGOSWNN"
+      }
+    },
+    {
+      "label": "QUAGMIRE_030",
+      "text": "MYFKJBGVJEPAMBTKBWMIBEGGCTRMMEJJLJVYVMFBMRJHPTWKDFUEDUXAZPFNQYGOXKCUKBKKMBH",
+      "metadata": {
+        "method": "quagmire_iii",
+        "alphabet": "ABCDEFGHIJKLMNOPQRSTUVWXYZ",
+        "pattern_type": "prime",
+        "offset_sample": [
+          2,
+          3,
+          5,
+          7,
+          11,
+          13,
+          17,
+          19,
+          23,
+          3
+        ],
+        "anchors_found": {
+          "EAST": false,
+          "NORTHEAST": false,
+          "BERLINCLOCK": false
+        },
+        "anchor_count": 0,
+        "seed": 1367,
+        "full_plaintext": "MYFKJBGVJEPAMBTKBWMIBEGGCTRMMEJJLJVYVMFBMRJHPTWKDFUEDUXAZPFNQYGOXKCUKBKKMBHNEDOEQENMLFDFOZBJLNXRC"
+      }
+    },
+    {
+      "label": "QUAGMIRE_031",
+      "text": "ZBUVNZQZFGNJBAZJHEBBPEJVOMMXVLFUAAZYPYMAIMAADURRPSYIUJNCHSPHLEBLWXOYYKREXUP",
+      "metadata": {
+        "method": "quagmire_iii",
+        "alphabet": "KRYPTOSBDEFGHIJLMNQUVWXZAC",
+        "pattern_type": "fixed",
+        "offset_sample": [
+          6,
+          6,
+          6,
+          6,
+          6,
+          6,
+          6,
+          6,
+          6,
+          6
+        ],
+        "anchors_found": {
+          "EAST": false,
+          "NORTHEAST": false,
+          "BERLINCLOCK": false
+        },
+        "anchor_count": 0,
+        "seed": 1368,
+        "full_plaintext": "ZBUVNZQZFGNJBAZJHEBBPEJVOMMXVLFUAAZYPYMAIMAADURRPSYIUJNCHSPHLEBLWXOYYKREXUPFCURQYITCHFUNGNSNDUTSV"
+      }
+    },
+    {
+      "label": "QUAGMIRE_032",
+      "text": "OAIOQJRHYYKAPFAWSOJICKPUXRQOPKCFMLGKMIEFVBCBMRFEADVKKKSAEVQBFWRCMCHEDVHMVPA",
+      "metadata": {
+        "method": "quagmire_iii",
+        "alphabet": "ABCDEFGHIJKLMNOPQRSTUVWXYZ",
+        "pattern_type": "progressive",
+        "offset_sample": [
+          0,
+          1,
+          2,
+          3,
+          4,
+          5,
+          6,
+          7,
+          8,
+          9
+        ],
+        "anchors_found": {
+          "EAST": false,
+          "NORTHEAST": false,
+          "BERLINCLOCK": false
+        },
+        "anchor_count": 0,
+        "seed": 1369,
+        "full_plaintext": "OAIOQJRHYYKAPFAWSOJICKPUXRQOPKCFMLGKMIEFVBCBMRFEADVKKKSAEVQBFWRCMCHEDVHMVPAJFLZWRGYYCZCLXJOHQVMJZ"
+      }
+    },
+    {
+      "label": "QUAGMIRE_033",
+      "text": "LXOGCGUYYKCDKIYCSJODYUJDUUKWVLFAEPQTVLGJPKHIWRDFLMBYSZTVELCCWPDMGPOVFBNVYEG",
+      "metadata": {
+        "method": "quagmire_iii",
+        "alphabet": "ZYXWVUTSRQPONMLKJIHGFEDCBA",
+        "pattern_type": "fibonacci",
+        "offset_sample": [
+          0,
+          1,
+          1,
+          2,
+          3,
+          5,
+          8,
+          13,
+          21,
+          8
+        ],
+        "anchors_found": {
+          "EAST": false,
+          "NORTHEAST": false,
+          "BERLINCLOCK": false
+        },
+        "anchor_count": 0,
+        "seed": 1370,
+        "full_plaintext": "LXOGCGUYYKCDKIYCSJODYUJDUUKWVLFAEPQTVLGJPKHIWRDFLMBYSZTVELCCWPDMGPOVFBNVYEGLRCIXJOYVRSODPARSAHUOU"
+      }
+    },
+    {
+      "label": "QUAGMIRE_034",
+      "text": "QDUNKQHQYXKTDMQTWZDDIZTNJOOPNRYUMMQLILOMVOMMAUFFIELVUTKBWEIWRZDRGPJLLSFZPUI",
+      "metadata": {
+        "method": "quagmire_iii",
+        "alphabet": "ZYXWVUTSRQPONMLKJIHGFEDCBA",
+        "pattern_type": "fixed",
+        "offset_sample": [
+          21,
+          21,
+          21,
+          21,
+          21,
+          21,
+          21,
+          21,
+          21,
+          21
+        ],
+        "anchors_found": {
+          "EAST": false,
+          "NORTHEAST": false,
+          "BERLINCLOCK": false
+        },
+        "anchor_count": 0,
+        "seed": 1371,
+        "full_plaintext": "QDUNKQHQYXKTDMQTWZDDIZTNJOOPNRYUMMQLILOMVOMMAUFFIELVUTKBWEIWRZDRGPJLLSFZPUIYBUFHLVCBWYUKXKEKAUCEN"
+      }
+    },
+    {
+      "label": "QUAGMIRE_035",
+      "text": "FGZZQAOSQEQETHSDOZXMQKKWKDTPOQXLDOKRNJPINTGHKCACDLZWDAHHAKUYBFMRHIETDEKLRPY",
+      "metadata": {
+        "method": "quagmire_iii",
+        "alphabet": "KRYPTOSBDEFGHIJLMNQUVWXZAC",
+        "pattern_type": "fibonacci",
+        "offset_sample": [
+          0,
+          1,
+          1,
+          2,
+          3,
+          5,
+          8,
+          13,
+          21,
+          8
+        ],
+        "anchors_found": {
+          "EAST": false,
+          "NORTHEAST": false,
+          "BERLINCLOCK": false
+        },
+        "anchor_count": 0,
+        "seed": 1372,
+        "full_plaintext": "FGZZQAOSQEQETHSDOZXMQKKWKDTPOQXLDOKRNJPINTGHKCACDLZWDAHHAKUYBFMRHIETDEKLRPYDDNFRHMAHNKZRJOQGOSWNN"
+      }
+    },
+    {
+      "label": "QUAGMIRE_036",
+      "text": "FHZZSAQSSGSGUHSFQBYNSMMWMFVPOSZLDOKRPJRIPVGHMCCEFUZYDCJJCTWADHNTHIGTDGMNRPA",
+      "metadata": {
+        "method": "quagmire_iii",
+        "alphabet": "KRYPTOSABCDEFGHIJLMNQUVWXZ",
+        "pattern_type": "fibonacci",
+        "offset_sample": [
+          0,
+          1,
+          1,
+          2,
+          3,
+          5,
+          8,
+          13,
+          21,
+          8
+        ],
+        "anchors_found": {
+          "EAST": false,
+          "NORTHEAST": false,
+          "BERLINCLOCK": false
+        },
+        "anchor_count": 0,
+        "seed": 1373,
+        "full_plaintext": "FHZZSAQSSGSGUHSFQBYNSMMWMFVPOSZLDOKRPJRIPVGHMCCEFUZYDCJJCTWADHNTHIGTDGMNRPAFFNHTHOKJPMZTLQZIQSGWN"
+      }
+    },
+    {
+      "label": "QUAGMIRE_037",
+      "text": "FHYYRASYFFLGWTRCZVQPDRVEYVUCZQJVAZXVNTITCFQPTHFEBKGRAQTHLCRILDYIQQIPOBHTJFB",
+      "metadata": {
+        "method": "quagmire_iii",
+        "alphabet": "KRYPTOSABCDEFGHIJLMNQUVWXZ",
+        "pattern_type": "progressive",
+        "offset_sample": [
+          0,
+          1,
+          2,
+          3,
+          4,
+          5,
+          6,
+          7,
+          8,
+          9
+        ],
+        "anchors_found": {
+          "EAST": false,
+          "NORTHEAST": false,
+          "BERLINCLOCK": false
+        },
+        "anchor_count": 0,
+        "seed": 1374,
+        "full_plaintext": "FHYYRASYFFLGWTRCZVQPDRVEYVUCZQJVAZXVNTITCFQPTHFEBKGRAQTHLCRILDYIQQIPOBHTJFBQMBZXCNFFJGSMEKVIXLTQJ"
+      }
+    },
+    {
+      "label": "QUAGMIRE_038",
+      "text": "DFVUKSHMQLQGTPKQIDTPCLMQDXVAWKQZZXMJWXJPTVXVWJWKEMFLTAYHGWGUWFNUBYDFVHKRARI",
+      "metadata": {
+        "method": "quagmire_iii",
+        "alphabet": "KRYPTOSABCDEFGHIJLMNQUVWXZ",
+        "pattern_type": "prime",
+        "offset_sample": [
+          2,
+          3,
+          5,
+          7,
+          11,
+          13,
+          17,
+          19,
+          23,
+          3
+        ],
+        "anchors_found": {
+          "EAST": false,
+          "NORTHEAST": false,
+          "BERLINCLOCK": false
+        },
+        "anchor_count": 0,
+        "seed": 1375,
+        "full_plaintext": "DFVUKSHMQLQGTPKQIDTPCLMQDXVAWKQZZXMJWXJPTVXVWJWKEMFLTAYHGWGUWFNUBYDFVHKRARIULTOFBLUTSMTGVAIKSDEYM"
+      }
+    },
+    {
+      "label": "QUAGMIRE_039",
+      "text": "DFVUKSHMQLQGTPKQIDTPCLMQDXVAWKQZZXMJWXJPTVXVWJWKEMFLTAYHGWGUWFNUBYDFVHKRARI",
+      "metadata": {
+        "method": "quagmire_iii",
+        "alphabet": "KRYPTOSABCDEFGHIJLMNQUVWXZ",
+        "pattern_type": "prime",
+        "offset_sample": [
+          2,
+          3,
+          5,
+          7,
+          11,
+          13,
+          17,
+          19,
+          23,
+          3
+        ],
+        "anchors_found": {
+          "EAST": false,
+          "NORTHEAST": false,
+          "BERLINCLOCK": false
+        },
+        "anchor_count": 0,
+        "seed": 1376,
+        "full_plaintext": "DFVUKSHMQLQGTPKQIDTPCLMQDXVAWKQZZXMJWXJPTVXVWJWKEMFLTAYHGWGUWFNUBYDFVHKRARIULTOFBLUTSMTGVAIKSDEYM"
+      }
+    },
+    {
+      "label": "QUAGMIRE_040",
+      "text": "DEVUISFMOJOESPKOGBSOAJKQBVTAWIOZZXMJUXHPRTXVUJUICDFJTYWFENESUDMSBYBFVFIPARG",
+      "metadata": {
+        "method": "quagmire_iii",
+        "alphabet": "KRYPTOSBDEFGHIJLMNQUVWXZAC",
+        "pattern_type": "prime",
+        "offset_sample": [
+          2,
+          3,
+          5,
+          7,
+          11,
+          13,
+          17,
+          19,
+          23,
+          3
+        ],
+        "anchors_found": {
+          "EAST": false,
+          "NORTHEAST": false,
+          "BERLINCLOCK": false
+        },
+        "anchor_count": 0,
+        "seed": 1377,
+        "full_plaintext": "DEVUISFMOJOESPKOGBSOAJKQBVTAWIOZZXMJUXHPRTXVUJUICDFJTYWFENESUDMSBYBFVFIPARGSJTMDBJKRQKTETYZIQDUPM"
+      }
+    },
+    {
+      "label": "QUAGMIRE_041",
+      "text": "OBKRUOXOGHULBSOLIFBBWFLRVQQPRNGKSSOTWTQSJQSSEKZZWATJKLUDIAWINFBNYPVTTMZFPKW",
+      "metadata": {
+        "method": "quagmire_iii",
+        "alphabet": "ABCDEFGHIJKLMNOPQRSTUVWXYZ",
+        "pattern_type": "fixed",
+        "offset_sample": [
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0
+        ],
+        "anchors_found": {
+          "EAST": false,
+          "NORTHEAST": false,
+          "BERLINCLOCK": false
+        },
+        "anchor_count": 0,
+        "seed": 1378,
+        "full_plaintext": "OBKRUOXOGHULBSOLIFBBWFLRVQQPRNGKSSOTWTQSJQSSEKZZWATJKLUDIAWINFBNYPVTTMZFPKWGDKZXTJCDIGKUHUAUEKCAR"
+      }
+    },
+    {
+      "label": "QUAGMIRE_042",
+      "text": "MYFKJBGVJEPAMBTKBWMIBEGGCTRMMEJJLJVYVMFBMRJHPTWKDFUEDUXAZPFNQYGOXKCUKBKKMBH",
+      "metadata": {
+        "method": "quagmire_iii",
+        "alphabet": "ABCDEFGHIJKLMNOPQRSTUVWXYZ",
+        "pattern_type": "prime",
+        "offset_sample": [
+          2,
+          3,
+          5,
+          7,
+          11,
+          13,
+          17,
+          19,
+          23,
+          3
+        ],
+        "anchors_found": {
+          "EAST": false,
+          "NORTHEAST": false,
+          "BERLINCLOCK": false
+        },
+        "anchor_count": 0,
+        "seed": 1379,
+        "full_plaintext": "MYFKJBGVJEPAMBTKBWMIBEGGCTRMMEJJLJVYVMFBMRJHPTWKDFUEDUXAZPFNQYGOXKCUKBKKMBHNEDOEQENMLFDFOZBJLNXRC"
+      }
+    },
+    {
+      "label": "QUAGMIRE_043",
+      "text": "LXNFBGWELJVDMUXZBDGFJZSLGKJJGJPKBADXTVXUCURQDWGFHCIRPNDTNUXKELOBPXQRQWIBQUH",
+      "metadata": {
+        "method": "quagmire_iii",
+        "alphabet": "ZYXWVUTSRQPONMLKJIHGFEDCBA",
+        "pattern_type": "progressive",
+        "offset_sample": [
+          0,
+          1,
+          2,
+          3,
+          4,
+          5,
+          6,
+          7,
+          8,
+          9
+        ],
+        "anchors_found": {
+          "EAST": false,
+          "NORTHEAST": false,
+          "BERLINCLOCK": false
+        },
+        "anchor_count": 0,
+        "seed": 1380,
+        "full_plaintext": "LXNFBGWELJVDMUXZBDGFJZSLGKJJGJPKBADXTVXUCURQDWGFHCIRPNDTNUXKELOBPXQRQWIBQUHWYQABENTRLMHWIUNSHAHIQ"
+      }
+    },
+    {
+      "label": "QUAGMIRE_044",
+      "text": "NPIJBNENTUBXPONXVSPPDSXJCAALJZTIOONMDMAOWAOORIFFDGMWIXBQVGDVZSPZKLCMMYFSLID",
+      "metadata": {
+        "method": "quagmire_iii",
+        "alphabet": "KRYPTOSBDEFGHIJLMNQUVWXZAC",
+        "pattern_type": "fixed",
+        "offset_sample": [
+          18,
+          18,
+          18,
+          18,
+          18,
+          18,
+          18,
+          18,
+          18,
+          18
+        ],
+        "anchors_found": {
+          "EAST": false,
+          "NORTHEAST": false,
+          "BERLINCLOCK": false
+        },
+        "anchor_count": 0,
+        "seed": 1381,
+        "full_plaintext": "NPIJBNENTUBXPONXVSPPDSXJCAALJZTIOONMDMAOWAOORIFFDGMWIXBQVGDVZSPZKLCMMYFSLIDTQIFEMWHQVTIBUBGBRIHGJ"
+      }
+    },
+    {
+      "label": "QUAGMIRE_045",
+      "text": "DFVUKSHMQLQGTPKQIDTPCLMQDXVAWKQZZXMJWXJPTVXVWJWKEMFLTAYHGWGUWFNUBYDFVHKRARI",
+      "metadata": {
+        "method": "quagmire_iii",
+        "alphabet": "KRYPTOSABCDEFGHIJLMNQUVWXZ",
+        "pattern_type": "prime",
+        "offset_sample": [
+          2,
+          3,
+          5,
+          7,
+          11,
+          13,
+          17,
+          19,
+          23,
+          3
+        ],
+        "anchors_found": {
+          "EAST": false,
+          "NORTHEAST": false,
+          "BERLINCLOCK": false
+        },
+        "anchor_count": 0,
+        "seed": 1382,
+        "full_plaintext": "DFVUKSHMQLQGTPKQIDTPCLMQDXVAWKQZZXMJWXJPTVXVWJWKEMFLTAYHGWGUWFNUBYDFVHKRARIULTOFBLUTSMTGVAIKSDEYM"
+      }
+    },
+    {
+      "label": "QUAGMIRE_046",
+      "text": "FGYYPAQYDDJEVTRAXTPOBPTEWTSCZOHVAZXVLTGTADQPRHDCZBGPAORFJTPGJBXGQQGPOZFRJFZ",
+      "metadata": {
+        "method": "quagmire_iii",
+        "alphabet": "KRYPTOSBDEFGHIJLMNQUVWXZAC",
+        "pattern_type": "progressive",
+        "offset_sample": [
+          0,
+          1,
+          2,
+          3,
+          4,
+          5,
+          6,
+          7,
+          8,
+          9
+        ],
+        "anchors_found": {
+          "EAST": false,
+          "NORTHEAST": false,
+          "BERLINCLOCK": false
+        },
+        "anchor_count": 0,
+        "seed": 1383,
+        "full_plaintext": "FGYYPAQYDDJEVTRAXTPOBPTEWTSCZOHVAZXVLTGTADQPRHDCZBGPAORFJTPGJBXGQQGPOZFRJFZOKBXVCLVDHESKCIMGVLJHJ"
+      }
+    },
+    {
+      "label": "QUAGMIRE_047",
+      "text": "FHZZSAQSSGSGUHSFQBYNSMMWMFVPOSZLDOKRPJRIPVGHMCCEFUZYDCJJCTWADHNTHIGTDGMNRPA",
+      "metadata": {
+        "method": "quagmire_iii",
+        "alphabet": "KRYPTOSABCDEFGHIJLMNQUVWXZ",
+        "pattern_type": "fibonacci",
+        "offset_sample": [
+          0,
+          1,
+          1,
+          2,
+          3,
+          5,
+          8,
+          13,
+          21,
+          8
+        ],
+        "anchors_found": {
+          "EAST": false,
+          "NORTHEAST": false,
+          "BERLINCLOCK": false
+        },
+        "anchor_count": 0,
+        "seed": 1384,
+        "full_plaintext": "FHZZSAQSSGSGUHSFQBYNSMMWMFVPOSZLDOKRPJRIPVGHMCCEFUZYDCJJCTWADHNTHIGTDGMNRPAFFNHTHOKJPMZTLQZIQSGWN"
+      }
+    },
+    {
+      "label": "QUAGMIRE_048",
+      "text": "HULEBHYHPOBKUDHKNQUUZQKEAFFGEIPLDDHCZCFDMFDDRLWWZVCMLKBSNVZNIQUIXGACCJWQGLZ",
+      "metadata": {
+        "method": "quagmire_iii",
+        "alphabet": "ZYXWVUTSRQPONMLKJIHGFEDCBA",
+        "pattern_type": "fixed",
+        "offset_sample": [
+          4,
+          4,
+          4,
+          4,
+          4,
+          4,
+          4,
+          4,
+          4,
+          4
+        ],
+        "anchors_found": {
+          "EAST": false,
+          "NORTHEAST": false,
+          "BERLINCLOCK": false
+        },
+        "anchor_count": 0,
+        "seed": 1385,
+        "full_plaintext": "HULEBHYHPOBKUDHKNQUUZQKEAFFGEIPLDDHCZCFDMFDDRLWWZVCMLKBSNVZNIQUIXGACCJWQGLZPSLWYCMTSNPLBOBVBRLTVE"
+      }
+    },
+    {
+      "label": "QUAGMIRE_049",
+      "text": "FHYYRASYFFLGWTRCZVQPDRVEYVUCZQJVAZXVNTITCFQPTHFEBKGRAQTHLCRILDYIQQIPOBHTJFB",
+      "metadata": {
+        "method": "quagmire_iii",
+        "alphabet": "KRYPTOSABCDEFGHIJLMNQUVWXZ",
+        "pattern_type": "progressive",
+        "offset_sample": [
+          0,
+          1,
+          2,
+          3,
+          4,
+          5,
+          6,
+          7,
+          8,
+          9
+        ],
+        "anchors_found": {
+          "EAST": false,
+          "NORTHEAST": false,
+          "BERLINCLOCK": false
+        },
+        "anchor_count": 0,
+        "seed": 1386,
+        "full_plaintext": "FHYYRASYFFLGWTRCZVQPDRVEYVUCZQJVAZXVNTITCFQPTHFEBKGRAQTHLCRILDYIQQIPOBHTJFBQMBZXCNFFJGSMEKVIXLTQJ"
+      }
+    },
+    {
+      "label": "QUAGMIRE_050",
+      "text": "OAJPRJPBLZRANTBZJURGRFGMLBRBEMSVPATGOYNUIRSTFMCEENORNWICVMVTXAGNDUFISAMGDZZ",
+      "metadata": {
+        "method": "quagmire_iii",
+        "alphabet": "ABCDEFGHIJKLMNOPQRSTUVWXYZ",
+        "pattern_type": "fibonacci",
+        "offset_sample": [
+          0,
+          1,
+          1,
+          2,
+          3,
+          5,
+          8,
+          13,
+          21,
+          8
+        ],
+        "anchors_found": {
+          "EAST": false,
+          "NORTHEAST": false,
+          "BERLINCLOCK": false
+        },
+        "anchor_count": 0,
+        "seed": 1387,
+        "full_plaintext": "OAJPRJPBLZRANTBZJURGRFGMLBRBEMSVPATGOYNUIRSTFMCEENORNWICVMVTXAGNDUFISAMGDZZYYXHSWHDCIFJSEPSHJCZPD"
+      }
+    },
+    {
+      "label": "QUAGMIRE_051",
+      "text": "FHZZSAQSSGSGUHSFQBYNSMMWMFVPOSZLDOKRPJRIPVGHMCCEFUZYDCJJCTWADHNTHIGTDGMNRPA",
+      "metadata": {
+        "method": "quagmire_iii",
+        "alphabet": "KRYPTOSABCDEFGHIJLMNQUVWXZ",
+        "pattern_type": "fibonacci",
+        "offset_sample": [
+          0,
+          1,
+          1,
+          2,
+          3,
+          5,
+          8,
+          13,
+          21,
+          8
+        ],
+        "anchors_found": {
+          "EAST": false,
+          "NORTHEAST": false,
+          "BERLINCLOCK": false
+        },
+        "anchor_count": 0,
+        "seed": 1388,
+        "full_plaintext": "FHZZSAQSSGSGUHSFQBYNSMMWMFVPOSZLDOKRPJRIPVGHMCCEFUZYDCJJCTWADHNTHIGTDGMNRPAFFNHTHOKJPMZTLQZIQSGWN"
+      }
+    },
+    {
+      "label": "QUAGMIRE_052",
+      "text": "OAIOQJRHYYKAPFAWSOJICKPUXRQOPKCFMLGKMIEFVBCBMRFEADVKKKSAEVQBFWRCMCHEDVHMVPA",
+      "metadata": {
+        "method": "quagmire_iii",
+        "alphabet": "ABCDEFGHIJKLMNOPQRSTUVWXYZ",
+        "pattern_type": "progressive",
+        "offset_sample": [
+          0,
+          1,
+          2,
+          3,
+          4,
+          5,
+          6,
+          7,
+          8,
+          9
+        ],
+        "anchors_found": {
+          "EAST": false,
+          "NORTHEAST": false,
+          "BERLINCLOCK": false
+        },
+        "anchor_count": 0,
+        "seed": 1389,
+        "full_plaintext": "OAIOQJRHYYKAPFAWSOJICKPUXRQOPKCFMLGKMIEFVBCBMRFEADVKKKSAEVQBFWRCMCHEDVHMVPAJFLZWRGYYCZCLXJOHQVMJZ"
+      }
+    },
+    {
+      "label": "QUAGMIRE_053",
+      "text": "FHYYRASYFFLGWTRCZVQPDRVEYVUCZQJVAZXVNTITCFQPTHFEBKGRAQTHLCRILDYIQQIPOBHTJFB",
+      "metadata": {
+        "method": "quagmire_iii",
+        "alphabet": "KRYPTOSABCDEFGHIJLMNQUVWXZ",
+        "pattern_type": "progressive",
+        "offset_sample": [
+          0,
+          1,
+          2,
+          3,
+          4,
+          5,
+          6,
+          7,
+          8,
+          9
+        ],
+        "anchors_found": {
+          "EAST": false,
+          "NORTHEAST": false,
+          "BERLINCLOCK": false
+        },
+        "anchor_count": 0,
+        "seed": 1390,
+        "full_plaintext": "FHYYRASYFFLGWTRCZVQPDRVEYVUCZQJVAZXVNTITCFQPTHFEBKGRAQTHLCRILDYIQQIPOBHTJFBQMBZXCNFFJGSMEKVIXLTQJ"
+      }
+    },
+    {
+      "label": "QUAGMIRE_054",
+      "text": "BEWXRBUBJKRNECBNLIEETINXSQQZXPJWCCBATAQCMQCCHWVVTDAMWNRGLDTLPIEPYZSAAOVIZWT",
+      "metadata": {
+        "method": "quagmire_iii",
+        "alphabet": "KRYPTOSABCDEFGHIJLMNQUVWXZ",
+        "pattern_type": "fixed",
+        "offset_sample": [
+          4,
+          4,
+          4,
+          4,
+          4,
+          4,
+          4,
+          4,
+          4,
+          4
+        ],
+        "anchors_found": {
+          "EAST": false,
+          "NORTHEAST": false,
+          "BERLINCLOCK": false
+        },
+        "anchor_count": 0,
+        "seed": 1391,
+        "full_plaintext": "BEWXRBUBJKRNECBNLIEETINXSQQZXPJWCCBATAQCMQCCHWVVTDAMWNRGLDTLPIEPYZSAAOVIZWTJGWVUAMFGLJWRKRDRHWFDX"
+      }
+    },
+    {
+      "label": "QUAGMIRE_055",
+      "text": "LXNFBGWELJVDMUXZBDGFJZSLGKJJGJPKBADXTVXUCURQDWGFHCIRPNDTNUXKELOBPXQRQWIBQUH",
+      "metadata": {
+        "method": "quagmire_iii",
+        "alphabet": "ZYXWVUTSRQPONMLKJIHGFEDCBA",
+        "pattern_type": "progressive",
+        "offset_sample": [
+          0,
+          1,
+          2,
+          3,
+          4,
+          5,
+          6,
+          7,
+          8,
+          9
+        ],
+        "anchors_found": {
+          "EAST": false,
+          "NORTHEAST": false,
+          "BERLINCLOCK": false
+        },
+        "anchor_count": 0,
+        "seed": 1392,
+        "full_plaintext": "LXNFBGWELJVDMUXZBDGFJZSLGKJJGJPKBADXTVXUCURQDWGFHCIRPNDTNUXKELOBPXQRQWIBQUHWYQABENTRLMHWIUNSHAHIQ"
+      }
+    },
+    {
+      "label": "QUAGMIRE_056",
+      "text": "JVKBUYLSWPADJQQNKLJFITJXLMKHDDWOAYSLCZYQTKYWGYXLKEHLIXITIOMWPNDNAFLHXCLZHGO",
+      "metadata": {
+        "method": "quagmire_iii",
+        "alphabet": "ZYXWVUTSRQPONMLKJIHGFEDCBA",
+        "pattern_type": "prime",
+        "offset_sample": [
+          2,
+          3,
+          5,
+          7,
+          11,
+          13,
+          17,
+          19,
+          23,
+          3
+        ],
+        "anchors_found": {
+          "EAST": false,
+          "NORTHEAST": false,
+          "BERLINCLOCK": false
+        },
+        "anchor_count": 0,
+        "seed": 1393,
+        "full_plaintext": "JVKBUYLSWPADJQQNKLJFITJXLMKHDDWOAYSLCZYQTKYWGYXLKEHLIXITIOMWPNDNAFLHXCLZHGOAXIPJDLIFUSIQZKAUCSSQT"
+      }
+    },
+    {
+      "label": "QUAGMIRE_057",
+      "text": "FGZZQAOSQEQETHSDOZXMQKKWKDTPOQXLDOKRNJPINTGHKCACDLZWDAHHAKUYBFMRHIETDEKLRPY",
+      "metadata": {
+        "method": "quagmire_iii",
+        "alphabet": "KRYPTOSBDEFGHIJLMNQUVWXZAC",
+        "pattern_type": "fibonacci",
+        "offset_sample": [
+          0,
+          1,
+          1,
+          2,
+          3,
+          5,
+          8,
+          13,
+          21,
+          8
+        ],
+        "anchors_found": {
+          "EAST": false,
+          "NORTHEAST": false,
+          "BERLINCLOCK": false
+        },
+        "anchor_count": 0,
+        "seed": 1394,
+        "full_plaintext": "FGZZQAOSQEQETHSDOZXMQKKWKDTPOQXLDOKRNJPINTGHKCACDLZWDAHHAKUYBFMRHIETDEKLRPYDDNFRHMAHNKZRJOQGOSWNN"
+      }
+    },
+    {
+      "label": "QUAGMIRE_058",
+      "text": "FGYYPAQYDDJEVTRAXTPOBPTEWTSCZOHVAZXVLTGTADQPRHDCZBGPAORFJTPGJBXGQQGPOZFRJFZ",
+      "metadata": {
+        "method": "quagmire_iii",
+        "alphabet": "KRYPTOSBDEFGHIJLMNQUVWXZAC",
+        "pattern_type": "progressive",
+        "offset_sample": [
+          0,
+          1,
+          2,
+          3,
+          4,
+          5,
+          6,
+          7,
+          8,
+          9
+        ],
+        "anchors_found": {
+          "EAST": false,
+          "NORTHEAST": false,
+          "BERLINCLOCK": false
+        },
+        "anchor_count": 0,
+        "seed": 1395,
+        "full_plaintext": "FGYYPAQYDDJEVTRAXTPOBPTEWTSCZOHVAZXVLTGTADQPRHDCZBGPAORFJTPGJBXGQQGPOZFRJFZOKBXVCLVDHESKCIMGVLJHJ"
+      }
+    },
+    {
+      "label": "QUAGMIRE_059",
+      "text": "FHZZSAQSSGSGUHSFQBYNSMMWMFVPOSZLDOKRPJRIPVGHMCCEFUZYDCJJCTWADHNTHIGTDGMNRPA",
+      "metadata": {
+        "method": "quagmire_iii",
+        "alphabet": "KRYPTOSABCDEFGHIJLMNQUVWXZ",
+        "pattern_type": "fibonacci",
+        "offset_sample": [
+          0,
+          1,
+          1,
+          2,
+          3,
+          5,
+          8,
+          13,
+          21,
+          8
+        ],
+        "anchors_found": {
+          "EAST": false,
+          "NORTHEAST": false,
+          "BERLINCLOCK": false
+        },
+        "anchor_count": 0,
+        "seed": 1396,
+        "full_plaintext": "FHZZSAQSSGSGUHSFQBYNSMMWMFVPOSZLDOKRPJRIPVGHMCCEFUZYDCJJCTWADHNTHIGTDGMNRPAFFNHTHOKJPMZTLQZIQSGWN"
+      }
+    },
+    {
+      "label": "QUAGMIRE_060",
+      "text": "DFVUKSHMQLQGTPKQIDTPCLMQDXVAWKQZZXMJWXJPTVXVWJWKEMFLTAYHGWGUWFNUBYDFVHKRARI",
+      "metadata": {
+        "method": "quagmire_iii",
+        "alphabet": "KRYPTOSABCDEFGHIJLMNQUVWXZ",
+        "pattern_type": "prime",
+        "offset_sample": [
+          2,
+          3,
+          5,
+          7,
+          11,
+          13,
+          17,
+          19,
+          23,
+          3
+        ],
+        "anchors_found": {
+          "EAST": false,
+          "NORTHEAST": false,
+          "BERLINCLOCK": false
+        },
+        "anchor_count": 0,
+        "seed": 1397,
+        "full_plaintext": "DFVUKSHMQLQGTPKQIDTPCLMQDXVAWKQZZXMJWXJPTVXVWJWKEMFLTAYHGWGUWFNUBYDFVHKRARIULTOFBLUTSMTGVAIKSDEYM"
+      }
+    },
+    {
+      "label": "QUAGMIRE_061",
+      "text": "FHZZSAQSSGSGUHSFQBYNSMMWMFVPOSZLDOKRPJRIPVGHMCCEFUZYDCJJCTWADHNTHIGTDGMNRPA",
+      "metadata": {
+        "method": "quagmire_iii",
+        "alphabet": "KRYPTOSABCDEFGHIJLMNQUVWXZ",
+        "pattern_type": "fibonacci",
+        "offset_sample": [
+          0,
+          1,
+          1,
+          2,
+          3,
+          5,
+          8,
+          13,
+          21,
+          8
+        ],
+        "anchors_found": {
+          "EAST": false,
+          "NORTHEAST": false,
+          "BERLINCLOCK": false
+        },
+        "anchor_count": 0,
+        "seed": 1398,
+        "full_plaintext": "FHZZSAQSSGSGUHSFQBYNSMMWMFVPOSZLDOKRPJRIPVGHMCCEFUZYDCJJCTWADHNTHIGTDGMNRPAFFNHTHOKJPMZTLQZIQSGWN"
+      }
+    },
+    {
+      "label": "QUAGMIRE_062",
+      "text": "LXOGCGUYYKCDKIYCSJODYUJDUUKWVLFAEPQTVLGJPKHIWRDFLMBYSZTVELCCWPDMGPOVFBNVYEG",
+      "metadata": {
+        "method": "quagmire_iii",
+        "alphabet": "ZYXWVUTSRQPONMLKJIHGFEDCBA",
+        "pattern_type": "fibonacci",
+        "offset_sample": [
+          0,
+          1,
+          1,
+          2,
+          3,
+          5,
+          8,
+          13,
+          21,
+          8
+        ],
+        "anchors_found": {
+          "EAST": false,
+          "NORTHEAST": false,
+          "BERLINCLOCK": false
+        },
+        "anchor_count": 0,
+        "seed": 1399,
+        "full_plaintext": "LXOGCGUYYKCDKIYCSJODYUJDUUKWVLFAEPQTVLGJPKHIWRDFLMBYSZTVELCCWPDMGPOVFBNVYEGLRCIXJOYVRSODPARSAHUOU"
+      }
+    },
+    {
+      "label": "QUAGMIRE_063",
+      "text": "MYFKJBGVJEPAMBTKBWMIBEGGCTRMMEJJLJVYVMFBMRJHPTWKDFUEDUXAZPFNQYGOXKCUKBKKMBH",
+      "metadata": {
+        "method": "quagmire_iii",
+        "alphabet": "ABCDEFGHIJKLMNOPQRSTUVWXYZ",
+        "pattern_type": "prime",
+        "offset_sample": [
+          2,
+          3,
+          5,
+          7,
+          11,
+          13,
+          17,
+          19,
+          23,
+          3
+        ],
+        "anchors_found": {
+          "EAST": false,
+          "NORTHEAST": false,
+          "BERLINCLOCK": false
+        },
+        "anchor_count": 0,
+        "seed": 1400,
+        "full_plaintext": "MYFKJBGVJEPAMBTKBWMIBEGGCTRMMEJJLJVYVMFBMRJHPTWKDFUEDUXAZPFNQYGOXKCUKBKKMBHNEDOEQENMLFDFOZBJLNXRC"
+      }
+    },
+    {
+      "label": "QUAGMIRE_064",
+      "text": "OAJPRJPBLZRANTBZJURGRFGMLBRBEMSVPATGOYNUIRSTFMCEENORNWICVMVTXAGNDUFISAMGDZZ",
+      "metadata": {
+        "method": "quagmire_iii",
+        "alphabet": "ABCDEFGHIJKLMNOPQRSTUVWXYZ",
+        "pattern_type": "fibonacci",
+        "offset_sample": [
+          0,
+          1,
+          1,
+          2,
+          3,
+          5,
+          8,
+          13,
+          21,
+          8
+        ],
+        "anchors_found": {
+          "EAST": false,
+          "NORTHEAST": false,
+          "BERLINCLOCK": false
+        },
+        "anchor_count": 0,
+        "seed": 1401,
+        "full_plaintext": "OAJPRJPBLZRANTBZJURGRFGMLBRBEMSVPATGOYNUIRSTFMCEENORNWICVMVTXAGNDUFISAMGDZZYYXHSWHDCIFJSEPSHJCZPD"
+      }
+    },
+    {
+      "label": "QUAGMIRE_065",
+      "text": "MOHIAMDMSTAWONMWUROOCRWIBZZKIYSHNNMLCLZNVZNNQHEECFLVHWAPUFCUYROYJKBLLXERKHC",
+      "metadata": {
+        "method": "quagmire_iii",
+        "alphabet": "KRYPTOSBDEFGHIJLMNQUVWXZAC",
+        "pattern_type": "fixed",
+        "offset_sample": [
+          19,
+          19,
+          19,
+          19,
+          19,
+          19,
+          19,
+          19,
+          19,
+          19
+        ],
+        "anchors_found": {
+          "EAST": false,
+          "NORTHEAST": false,
+          "BERLINCLOCK": false
+        },
+        "anchor_count": 0,
+        "seed": 1402,
+        "full_plaintext": "MOHIAMDMSTAWONMWUROOCRWIBZZKIYSHNNMLCLZNVZNNQHEECFLVHWAPUFCUYROYJKBLLXERKHCSPHEDLVGPUSHATAFAQHGFI"
+      }
+    },
+    {
+      "label": "QUAGMIRE_066",
+      "text": "VYQRLVOVDELHYWVHFCYYNCHRMKKTRJDQWWVUNUKWGKWWBQPPNXUGQHLAFXNFJCYJSTMUUIPCTQN",
+      "metadata": {
+        "method": "quagmire_iii",
+        "alphabet": "KRYPTOSABCDEFGHIJLMNQUVWXZ",
+        "pattern_type": "fixed",
+        "offset_sample": [
+          10,
+          10,
+          10,
+          10,
+          10,
+          10,
+          10,
+          10,
+          10,
+          10
+        ],
+        "anchors_found": {
+          "EAST": false,
+          "NORTHEAST": false,
+          "BERLINCLOCK": false
+        },
+        "anchor_count": 0,
+        "seed": 1403,
+        "full_plaintext": "VYQRLVOVDELHYWVHFCYYNCHRMKKTRJDQWWVUNUKWGKWWBQPPNXUGQHLAFXNFJCYJSTMUUIPCTQNDAQPOUGZAFDQLELXLBQZXR"
+      }
+    },
+    {
+      "label": "QUAGMIRE_067",
+      "text": "FGYYPAQYDDJEVTRAXTPOBPTEWTSCZOHVAZXVLTGTADQPRHDCZBGPAORFJTPGJBXGQQGPOZFRJFZ",
+      "metadata": {
+        "method": "quagmire_iii",
+        "alphabet": "KRYPTOSBDEFGHIJLMNQUVWXZAC",
+        "pattern_type": "progressive",
+        "offset_sample": [
+          0,
+          1,
+          2,
+          3,
+          4,
+          5,
+          6,
+          7,
+          8,
+          9
+        ],
+        "anchors_found": {
+          "EAST": false,
+          "NORTHEAST": false,
+          "BERLINCLOCK": false
+        },
+        "anchor_count": 0,
+        "seed": 1404,
+        "full_plaintext": "FGYYPAQYDDJEVTRAXTPOBPTEWTSCZOHVAZXVLTGTADQPRHDCZBGPAORFJTPGJBXGQQGPOZFRJFZOKBXVCLVDHESKCIMGVLJHJ"
+      }
+    },
+    {
+      "label": "QUAGMIRE_068",
+      "text": "FHYYRASYFFLGWTRCZVQPDRVEYVUCZQJVAZXVNTITCFQPTHFEBKGRAQTHLCRILDYIQQIPOBHTJFB",
+      "metadata": {
+        "method": "quagmire_iii",
+        "alphabet": "KRYPTOSABCDEFGHIJLMNQUVWXZ",
+        "pattern_type": "progressive",
+        "offset_sample": [
+          0,
+          1,
+          2,
+          3,
+          4,
+          5,
+          6,
+          7,
+          8,
+          9
+        ],
+        "anchors_found": {
+          "EAST": false,
+          "NORTHEAST": false,
+          "BERLINCLOCK": false
+        },
+        "anchor_count": 0,
+        "seed": 1405,
+        "full_plaintext": "FHYYRASYFFLGWTRCZVQPDRVEYVUCZQJVAZXVNTITCFQPTHFEBKGRAQTHLCRILDYIQQIPOBHTJFBQMBZXCNFFJGSMEKVIXLTQJ"
+      }
+    },
+    {
+      "label": "QUAGMIRE_069",
+      "text": "FGYYPAQYDDJEVTRAXTPOBPTEWTSCZOHVAZXVLTGTADQPRHDCZBGPAORFJTPGJBXGQQGPOZFRJFZ",
+      "metadata": {
+        "method": "quagmire_iii",
+        "alphabet": "KRYPTOSBDEFGHIJLMNQUVWXZAC",
+        "pattern_type": "progressive",
+        "offset_sample": [
+          0,
+          1,
+          2,
+          3,
+          4,
+          5,
+          6,
+          7,
+          8,
+          9
+        ],
+        "anchors_found": {
+          "EAST": false,
+          "NORTHEAST": false,
+          "BERLINCLOCK": false
+        },
+        "anchor_count": 0,
+        "seed": 1406,
+        "full_plaintext": "FGYYPAQYDDJEVTRAXTPOBPTEWTSCZOHVAZXVLTGTADQPRHDCZBGPAORFJTPGJBXGQQGPOZFRJFZOKBXVCLVDHESKCIMGVLJHJ"
+      }
+    },
+    {
+      "label": "QUAGMIRE_070",
+      "text": "MYFKJBGVJEPAMBTKBWMIBEGGCTRMMEJJLJVYVMFBMRJHPTWKDFUEDUXAZPFNQYGOXKCUKBKKMBH",
+      "metadata": {
+        "method": "quagmire_iii",
+        "alphabet": "ABCDEFGHIJKLMNOPQRSTUVWXYZ",
+        "pattern_type": "prime",
+        "offset_sample": [
+          2,
+          3,
+          5,
+          7,
+          11,
+          13,
+          17,
+          19,
+          23,
+          3
+        ],
+        "anchors_found": {
+          "EAST": false,
+          "NORTHEAST": false,
+          "BERLINCLOCK": false
+        },
+        "anchor_count": 0,
+        "seed": 1407,
+        "full_plaintext": "MYFKJBGVJEPAMBTKBWMIBEGGCTRMMEJJLJVYVMFBMRJHPTWKDFUEDUXAZPFNQYGOXKCUKBKKMBHNEDOEQENMLFDFOZBJLNXRC"
+      }
+    },
+    {
+      "label": "QUAGMIRE_071",
+      "text": "DFVUKSHMQLQGTPKQIDTPCLMQDXVAWKQZZXMJWXJPTVXVWJWKEMFLTAYHGWGUWFNUBYDFVHKRARI",
+      "metadata": {
+        "method": "quagmire_iii",
+        "alphabet": "KRYPTOSABCDEFGHIJLMNQUVWXZ",
+        "pattern_type": "prime",
+        "offset_sample": [
+          2,
+          3,
+          5,
+          7,
+          11,
+          13,
+          17,
+          19,
+          23,
+          3
+        ],
+        "anchors_found": {
+          "EAST": false,
+          "NORTHEAST": false,
+          "BERLINCLOCK": false
+        },
+        "anchor_count": 0,
+        "seed": 1408,
+        "full_plaintext": "DFVUKSHMQLQGTPKQIDTPCLMQDXVAWKQZZXMJWXJPTVXVWJWKEMFLTAYHGWGUWFNUBYDFVHKRARIULTOFBLUTSMTGVAIKSDEYM"
+      }
+    },
+    {
+      "label": "QUAGMIRE_072",
+      "text": "FGZZQAOSQEQETHSDOZXMQKKWKDTPOQXLDOKRNJPINTGHKCACDLZWDAHHAKUYBFMRHIETDEKLRPY",
+      "metadata": {
+        "method": "quagmire_iii",
+        "alphabet": "KRYPTOSBDEFGHIJLMNQUVWXZAC",
+        "pattern_type": "fibonacci",
+        "offset_sample": [
+          0,
+          1,
+          1,
+          2,
+          3,
+          5,
+          8,
+          13,
+          21,
+          8
+        ],
+        "anchors_found": {
+          "EAST": false,
+          "NORTHEAST": false,
+          "BERLINCLOCK": false
+        },
+        "anchor_count": 0,
+        "seed": 1409,
+        "full_plaintext": "FGZZQAOSQEQETHSDOZXMQKKWKDTPOQXLDOKRNJPINTGHKCACDLZWDAHHAKUYBFMRHIETDEKLRPYDDNFRHMAHNKZRJOQGOSWNN"
+      }
+    },
+    {
+      "label": "QUAGMIRE_073",
+      "text": "WZRSMWPWEFMIZXWIGDZZODISNLLUSKERXXWVOVLXHLXXCRQQOYVHRIMBGYOGKDZKTUNVVJQDURO",
+      "metadata": {
+        "method": "quagmire_iii",
+        "alphabet": "KRYPTOSABCDEFGHIJLMNQUVWXZ",
+        "pattern_type": "fixed",
+        "offset_sample": [
+          9,
+          9,
+          9,
+          9,
+          9,
+          9,
+          9,
+          9,
+          9,
+          9
+        ],
+        "anchors_found": {
+          "EAST": false,
+          "NORTHEAST": false,
+          "BERLINCLOCK": false
+        },
+        "anchor_count": 0,
+        "seed": 1410,
+        "full_plaintext": "WZRSMWPWEFMIZXWIGDZZODISNLLUSKERXXWVOVLXHLXXCRQQOYVHRIMBGYOGKDZKTUNVVJQDUROEBRQPVHABGERMFMYMCRAYS"
+      }
+    },
+    {
+      "label": "QUAGMIRE_074",
+      "text": "JVKBUYLSWPADJQQNKLJFITJXLMKHDDWOAYSLCZYQTKYWGYXLKEHLIXITIOMWPNDNAFLHXCLZHGO",
+      "metadata": {
+        "method": "quagmire_iii",
+        "alphabet": "ZYXWVUTSRQPONMLKJIHGFEDCBA",
+        "pattern_type": "prime",
+        "offset_sample": [
+          2,
+          3,
+          5,
+          7,
+          11,
+          13,
+          17,
+          19,
+          23,
+          3
+        ],
+        "anchors_found": {
+          "EAST": false,
+          "NORTHEAST": false,
+          "BERLINCLOCK": false
+        },
+        "anchor_count": 0,
+        "seed": 1411,
+        "full_plaintext": "JVKBUYLSWPADJQQNKLJFITJXLMKHDDWOAYSLCZYQTKYWGYXLKEHLIXITIOMWPNDNAFLHXCLZHGOAXIPJDLIFUSIQZKAUCSSQT"
+      }
+    },
+    {
+      "label": "QUAGMIRE_075",
+      "text": "QTLMGQJQYZGCTRQCAXTTIXCMHFFOMEYLRRQPIPFRBFRRWLKKISPBLCGVASIAEXTENOHPPDKXOLI",
+      "metadata": {
+        "method": "quagmire_iii",
+        "alphabet": "KRYPTOSABCDEFGHIJLMNQUVWXZ",
+        "pattern_type": "fixed",
+        "offset_sample": [
+          15,
+          15,
+          15,
+          15,
+          15,
+          15,
+          15,
+          15,
+          15,
+          15
+        ],
+        "anchors_found": {
+          "EAST": false,
+          "NORTHEAST": false,
+          "BERLINCLOCK": false
+        },
+        "anchor_count": 0,
+        "seed": 1412,
+        "full_plaintext": "QTLMGQJQYZGCTRQCAXTTIXCMHFFOMEYLRRQPIPFRBFRRWLKKISPBLCGVASIAEXTENOHPPDKXOLIYVLKJPBUVAYLGZGSGWLUSM"
+      }
+    },
+    {
+      "label": "QUAGMIRE_076",
+      "text": "FHZZSAQSSGSGUHSFQBYNSMMWMFVPOSZLDOKRPJRIPVGHMCCEFUZYDCJJCTWADHNTHIGTDGMNRPA",
+      "metadata": {
+        "method": "quagmire_iii",
+        "alphabet": "KRYPTOSABCDEFGHIJLMNQUVWXZ",
+        "pattern_type": "fibonacci",
+        "offset_sample": [
+          0,
+          1,
+          1,
+          2,
+          3,
+          5,
+          8,
+          13,
+          21,
+          8
+        ],
+        "anchors_found": {
+          "EAST": false,
+          "NORTHEAST": false,
+          "BERLINCLOCK": false
+        },
+        "anchor_count": 0,
+        "seed": 1413,
+        "full_plaintext": "FHZZSAQSSGSGUHSFQBYNSMMWMFVPOSZLDOKRPJRIPVGHMCCEFUZYDCJJCTWADHNTHIGTDGMNRPAFFNHTHOKJPMZTLQZIQSGWN"
+      }
+    },
+    {
+      "label": "QUAGMIRE_077",
+      "text": "DEVUISFMOJOESPKOGBSOAJKQBVTAWIOZZXMJUXHPRTXVUJUICDFJTYWFENESUDMSBYBFVFIPARG",
+      "metadata": {
+        "method": "quagmire_iii",
+        "alphabet": "KRYPTOSBDEFGHIJLMNQUVWXZAC",
+        "pattern_type": "prime",
+        "offset_sample": [
+          2,
+          3,
+          5,
+          7,
+          11,
+          13,
+          17,
+          19,
+          23,
+          3
+        ],
+        "anchors_found": {
+          "EAST": false,
+          "NORTHEAST": false,
+          "BERLINCLOCK": false
+        },
+        "anchor_count": 0,
+        "seed": 1414,
+        "full_plaintext": "DEVUISFMOJOESPKOGBSOAJKQBVTAWIOZZXMJUXHPRTXVUJUICDFJTYWFENESUDMSBYBFVFIPARGSJTMDBJKRQKTETYZIQDUPM"
+      }
+    },
+    {
+      "label": "QUAGMIRE_078",
+      "text": "OAIOQJRHYYKAPFAWSOJICKPUXRQOPKCFMLGKMIEFVBCBMRFEADVKKKSAEVQBFWRCMCHEDVHMVPA",
+      "metadata": {
+        "method": "quagmire_iii",
+        "alphabet": "ABCDEFGHIJKLMNOPQRSTUVWXYZ",
+        "pattern_type": "progressive",
+        "offset_sample": [
+          0,
+          1,
+          2,
+          3,
+          4,
+          5,
+          6,
+          7,
+          8,
+          9
+        ],
+        "anchors_found": {
+          "EAST": false,
+          "NORTHEAST": false,
+          "BERLINCLOCK": false
+        },
+        "anchor_count": 0,
+        "seed": 1415,
+        "full_plaintext": "OAIOQJRHYYKAPFAWSOJICKPUXRQOPKCFMLGKMIEFVBCBMRFEADVKKKSAEVQBFWRCMCHEDVHMVPAJFLZWRGYYCZCLXJOHQVMJZ"
+      }
+    },
+    {
+      "label": "QUAGMIRE_079",
+      "text": "FGZZQAOSQEQETHSDOZXMQKKWKDTPOQXLDOKRNJPINTGHKCACDLZWDAHHAKUYBFMRHIETDEKLRPY",
+      "metadata": {
+        "method": "quagmire_iii",
+        "alphabet": "KRYPTOSBDEFGHIJLMNQUVWXZAC",
+        "pattern_type": "fibonacci",
+        "offset_sample": [
+          0,
+          1,
+          1,
+          2,
+          3,
+          5,
+          8,
+          13,
+          21,
+          8
+        ],
+        "anchors_found": {
+          "EAST": false,
+          "NORTHEAST": false,
+          "BERLINCLOCK": false
+        },
+        "anchor_count": 0,
+        "seed": 1416,
+        "full_plaintext": "FGZZQAOSQEQETHSDOZXMQKKWKDTPOQXLDOKRNJPINTGHKCACDLZWDAHHAKUYBFMRHIETDEKLRPYDDNFRHMAHNKZRJOQGOSWNN"
+      }
+    },
+    {
+      "label": "QUAGMIRE_080",
+      "text": "DFVUKSHMQLQGTPKQIDTPCLMQDXVAWKQZZXMJWXJPTVXVWJWKEMFLTAYHGWGUWFNUBYDFVHKRARI",
+      "metadata": {
+        "method": "quagmire_iii",
+        "alphabet": "KRYPTOSABCDEFGHIJLMNQUVWXZ",
+        "pattern_type": "prime",
+        "offset_sample": [
+          2,
+          3,
+          5,
+          7,
+          11,
+          13,
+          17,
+          19,
+          23,
+          3
+        ],
+        "anchors_found": {
+          "EAST": false,
+          "NORTHEAST": false,
+          "BERLINCLOCK": false
+        },
+        "anchor_count": 0,
+        "seed": 1417,
+        "full_plaintext": "DFVUKSHMQLQGTPKQIDTPCLMQDXVAWKQZZXMJWXJPTVXVWJWKEMFLTAYHGWGUWFNUBYDFVHKRARIULTOFBLUTSMTGVAIKSDEYM"
+      }
+    },
+    {
+      "label": "QUAGMIRE_081",
+      "text": "NARKHNENVUHQAJNQTWAAFWQKGLLMKOVRJJNIFILJSLJJXRCCFBISRQHYTBFTOWAODMGIIPCWMRF",
+      "metadata": {
+        "method": "quagmire_iii",
+        "alphabet": "ZYXWVUTSRQPONMLKJIHGFEDCBA",
+        "pattern_type": "fixed",
+        "offset_sample": [
+          24,
+          24,
+          24,
+          24,
+          24,
+          24,
+          24,
+          24,
+          24,
+          24
+        ],
+        "anchors_found": {
+          "EAST": false,
+          "NORTHEAST": false,
+          "BERLINCLOCK": false
+        },
+        "anchor_count": 0,
+        "seed": 1418,
+        "full_plaintext": "NARKHNENVUHQAJNQTWAAFWQKGLLMKOVRJJNIFILJSLJJXRCCFBISRQHYTBFTOWAODMGIIPCWMRFVYRCEISZYTVRHUHBHXRZBK"
+      }
+    },
+    {
+      "label": "QUAGMIRE_082",
+      "text": "FHZZSAQSSGSGUHSFQBYNSMMWMFVPOSZLDOKRPJRIPVGHMCCEFUZYDCJJCTWADHNTHIGTDGMNRPA",
+      "metadata": {
+        "method": "quagmire_iii",
+        "alphabet": "KRYPTOSABCDEFGHIJLMNQUVWXZ",
+        "pattern_type": "fibonacci",
+        "offset_sample": [
+          0,
+          1,
+          1,
+          2,
+          3,
+          5,
+          8,
+          13,
+          21,
+          8
+        ],
+        "anchors_found": {
+          "EAST": false,
+          "NORTHEAST": false,
+          "BERLINCLOCK": false
+        },
+        "anchor_count": 0,
+        "seed": 1419,
+        "full_plaintext": "FHZZSAQSSGSGUHSFQBYNSMMWMFVPOSZLDOKRPJRIPVGHMCCEFUZYDCJJCTWADHNTHIGTDGMNRPAFFNHTHOKJPMZTLQZIQSGWN"
+      }
+    },
+    {
+      "label": "QUAGMIRE_083",
+      "text": "FHYYRASYFFLGWTRCZVQPDRVEYVUCZQJVAZXVNTITCFQPTHFEBKGRAQTHLCRILDYIQQIPOBHTJFB",
+      "metadata": {
+        "method": "quagmire_iii",
+        "alphabet": "KRYPTOSABCDEFGHIJLMNQUVWXZ",
+        "pattern_type": "progressive",
+        "offset_sample": [
+          0,
+          1,
+          2,
+          3,
+          4,
+          5,
+          6,
+          7,
+          8,
+          9
+        ],
+        "anchors_found": {
+          "EAST": false,
+          "NORTHEAST": false,
+          "BERLINCLOCK": false
+        },
+        "anchor_count": 0,
+        "seed": 1420,
+        "full_plaintext": "FHYYRASYFFLGWTRCZVQPDRVEYVUCZQJVAZXVNTITCFQPTHFEBKGRAQTHLCRILDYIQQIPOBHTJFBQMBZXCNFFJGSMEKVIXLTQJ"
+      }
+    },
+    {
+      "label": "QUAGMIRE_084",
+      "text": "FGZZQAOSQEQETHSDOZXMQKKWKDTPOQXLDOKRNJPINTGHKCACDLZWDAHHAKUYBFMRHIETDEKLRPY",
+      "metadata": {
+        "method": "quagmire_iii",
+        "alphabet": "KRYPTOSBDEFGHIJLMNQUVWXZAC",
+        "pattern_type": "fibonacci",
+        "offset_sample": [
+          0,
+          1,
+          1,
+          2,
+          3,
+          5,
+          8,
+          13,
+          21,
+          8
+        ],
+        "anchors_found": {
+          "EAST": false,
+          "NORTHEAST": false,
+          "BERLINCLOCK": false
+        },
+        "anchor_count": 0,
+        "seed": 1421,
+        "full_plaintext": "FGZZQAOSQEQETHSDOZXMQKKWKDTPOQXLDOKRNJPINTGHKCACDLZWDAHHAKUYBFMRHIETDEKLRPYDDNFRHMAHNKZRJOQGOSWNN"
+      }
+    },
+    {
+      "label": "QUAGMIRE_085",
+      "text": "FHYYRASYFFLGWTRCZVQPDRVEYVUCZQJVAZXVNTITCFQPTHFEBKGRAQTHLCRILDYIQQIPOBHTJFB",
+      "metadata": {
+        "method": "quagmire_iii",
+        "alphabet": "KRYPTOSABCDEFGHIJLMNQUVWXZ",
+        "pattern_type": "progressive",
+        "offset_sample": [
+          0,
+          1,
+          2,
+          3,
+          4,
+          5,
+          6,
+          7,
+          8,
+          9
+        ],
+        "anchors_found": {
+          "EAST": false,
+          "NORTHEAST": false,
+          "BERLINCLOCK": false
+        },
+        "anchor_count": 0,
+        "seed": 1422,
+        "full_plaintext": "FHYYRASYFFLGWTRCZVQPDRVEYVUCZQJVAZXVNTITCFQPTHFEBKGRAQTHLCRILDYIQQIPOBHTJFBQMBZXCNFFJGSMEKVIXLTQJ"
+      }
+    },
+    {
+      "label": "QUAGMIRE_086",
+      "text": "MYFKJBGVJEPAMBTKBWMIBEGGCTRMMEJJLJVYVMFBMRJHPTWKDFUEDUXAZPFNQYGOXKCUKBKKMBH",
+      "metadata": {
+        "method": "quagmire_iii",
+        "alphabet": "ABCDEFGHIJKLMNOPQRSTUVWXYZ",
+        "pattern_type": "prime",
+        "offset_sample": [
+          2,
+          3,
+          5,
+          7,
+          11,
+          13,
+          17,
+          19,
+          23,
+          3
+        ],
+        "anchors_found": {
+          "EAST": false,
+          "NORTHEAST": false,
+          "BERLINCLOCK": false
+        },
+        "anchor_count": 0,
+        "seed": 1423,
+        "full_plaintext": "MYFKJBGVJEPAMBTKBWMIBEGGCTRMMEJJLJVYVMFBMRJHPTWKDFUEDUXAZPFNQYGOXKCUKBKKMBHNEDOEQENMLFDFOZBJLNXRC"
+      }
+    },
+    {
+      "label": "QUAGMIRE_087",
+      "text": "DEVUISFMOJOESPKOGBSOAJKQBVTAWIOZZXMJUXHPRTXVUJUICDFJTYWFENESUDMSBYBFVFIPARG",
+      "metadata": {
+        "method": "quagmire_iii",
+        "alphabet": "KRYPTOSBDEFGHIJLMNQUVWXZAC",
+        "pattern_type": "prime",
+        "offset_sample": [
+          2,
+          3,
+          5,
+          7,
+          11,
+          13,
+          17,
+          19,
+          23,
+          3
+        ],
+        "anchors_found": {
+          "EAST": false,
+          "NORTHEAST": false,
+          "BERLINCLOCK": false
+        },
+        "anchor_count": 0,
+        "seed": 1424,
+        "full_plaintext": "DEVUISFMOJOESPKOGBSOAJKQBVTAWIOZZXMJUXHPRTXVUJUICDFJTYWFENESUDMSBYBFVFIPARGSJTMDBJKRQKTETYZIQDUPM"
+      }
+    },
+    {
+      "label": "QUAGMIRE_088",
+      "text": "DFVUKSHMQLQGTPKQIDTPCLMQDXVAWKQZZXMJWXJPTVXVWJWKEMFLTAYHGWGUWFNUBYDFVHKRARI",
+      "metadata": {
+        "method": "quagmire_iii",
+        "alphabet": "KRYPTOSABCDEFGHIJLMNQUVWXZ",
+        "pattern_type": "prime",
+        "offset_sample": [
+          2,
+          3,
+          5,
+          7,
+          11,
+          13,
+          17,
+          19,
+          23,
+          3
+        ],
+        "anchors_found": {
+          "EAST": false,
+          "NORTHEAST": false,
+          "BERLINCLOCK": false
+        },
+        "anchor_count": 0,
+        "seed": 1425,
+        "full_plaintext": "DFVUKSHMQLQGTPKQIDTPCLMQDXVAWKQZZXMJWXJPTVXVWJWKEMFLTAYHGWGUWFNUBYDFVHKRARIULTOFBLUTSMTGVAIKSDEYM"
+      }
+    },
+    {
+      "label": "QUAGMIRE_089",
+      "text": "JWNGDJAJRQDMWFJMPSWWBSMGCHHIGKRNFFJEBEHFOHFFTNYYBXEONMDUPXBPKSWKZICEELYSINB",
+      "metadata": {
+        "method": "quagmire_iii",
+        "alphabet": "ZYXWVUTSRQPONMLKJIHGFEDCBA",
+        "pattern_type": "fixed",
+        "offset_sample": [
+          2,
+          2,
+          2,
+          2,
+          2,
+          2,
+          2,
+          2,
+          2,
+          2
+        ],
+        "anchors_found": {
+          "EAST": false,
+          "NORTHEAST": false,
+          "BERLINCLOCK": false
+        },
+        "anchor_count": 0,
+        "seed": 1426,
+        "full_plaintext": "JWNGDJAJRQDMWFJMPSWWBSMGCHHIGKRNFFJEBEHFOHFFTNYYBXEONMDUPXBPKSWKZICEELYSINBRUNYAEOVUPRNDQDXDTNVXG"
+      }
+    },
+    {
+      "label": "QUAGMIRE_090",
+      "text": "QDMTWQZQIJWNDUQNKHDDYHNTXSSRTPIMUUQVYVSULSUUGMBBYCVLMNWFKCYKPHDPARXVVOBHRMY",
+      "metadata": {
+        "method": "quagmire_iii",
+        "alphabet": "ABCDEFGHIJKLMNOPQRSTUVWXYZ",
+        "pattern_type": "fixed",
+        "offset_sample": [
+          24,
+          24,
+          24,
+          24,
+          24,
+          24,
+          24,
+          24,
+          24,
+          24
+        ],
+        "anchors_found": {
+          "EAST": false,
+          "NORTHEAST": false,
+          "BERLINCLOCK": false
+        },
+        "anchor_count": 0,
+        "seed": 1427,
+        "full_plaintext": "QDMTWQZQIJWNDUQNKHDDYHNTXSSRTPIMUUQVYVSULSUUGMBBYCVLMNWFKCYKPHDPARXVVOBHRMYIFMBZVLEFKIMWJWCWGMECT"
+      }
+    },
+    {
+      "label": "QUAGMIRE_091",
+      "text": "FHYYRASYFFLGWTRCZVQPDRVEYVUCZQJVAZXVNTITCFQPTHFEBKGRAQTHLCRILDYIQQIPOBHTJFB",
+      "metadata": {
+        "method": "quagmire_iii",
+        "alphabet": "KRYPTOSABCDEFGHIJLMNQUVWXZ",
+        "pattern_type": "progressive",
+        "offset_sample": [
+          0,
+          1,
+          2,
+          3,
+          4,
+          5,
+          6,
+          7,
+          8,
+          9
+        ],
+        "anchors_found": {
+          "EAST": false,
+          "NORTHEAST": false,
+          "BERLINCLOCK": false
+        },
+        "anchor_count": 0,
+        "seed": 1428,
+        "full_plaintext": "FHYYRASYFFLGWTRCZVQPDRVEYVUCZQJVAZXVNTITCFQPTHFEBKGRAQTHLCRILDYIQQIPOBHTJFBQMBZXCNFFJGSMEKVIXLTQJ"
+      }
+    },
+    {
+      "label": "QUAGMIRE_092",
+      "text": "OAIOQJRHYYKAPFAWSOJICKPUXRQOPKCFMLGKMIEFVBCBMRFEADVKKKSAEVQBFWRCMCHEDVHMVPA",
+      "metadata": {
+        "method": "quagmire_iii",
+        "alphabet": "ABCDEFGHIJKLMNOPQRSTUVWXYZ",
+        "pattern_type": "progressive",
+        "offset_sample": [
+          0,
+          1,
+          2,
+          3,
+          4,
+          5,
+          6,
+          7,
+          8,
+          9
+        ],
+        "anchors_found": {
+          "EAST": false,
+          "NORTHEAST": false,
+          "BERLINCLOCK": false
+        },
+        "anchor_count": 0,
+        "seed": 1429,
+        "full_plaintext": "OAIOQJRHYYKAPFAWSOJICKPUXRQOPKCFMLGKMIEFVBCBMRFEADVKKKSAEVQBFWRCMCHEDVHMVPAJFLZWRGYYCZCLXJOHQVMJZ"
+      }
+    },
+    {
+      "label": "QUAGMIRE_093",
+      "text": "FHYYRASYFFLGWTRCZVQPDRVEYVUCZQJVAZXVNTITCFQPTHFEBKGRAQTHLCRILDYIQQIPOBHTJFB",
+      "metadata": {
+        "method": "quagmire_iii",
+        "alphabet": "KRYPTOSABCDEFGHIJLMNQUVWXZ",
+        "pattern_type": "progressive",
+        "offset_sample": [
+          0,
+          1,
+          2,
+          3,
+          4,
+          5,
+          6,
+          7,
+          8,
+          9
+        ],
+        "anchors_found": {
+          "EAST": false,
+          "NORTHEAST": false,
+          "BERLINCLOCK": false
+        },
+        "anchor_count": 0,
+        "seed": 1430,
+        "full_plaintext": "FHYYRASYFFLGWTRCZVQPDRVEYVUCZQJVAZXVNTITCFQPTHFEBKGRAQTHLCRILDYIQQIPOBHTJFBQMBZXCNFFJGSMEKVIXLTQJ"
+      }
+    },
+    {
+      "label": "QUAGMIRE_094",
+      "text": "JVKBUYLSWPADJQQNKLJFITJXLMKHDDWOAYSLCZYQTKYWGYXLKEHLIXITIOMWPNDNAFLHXCLZHGO",
+      "metadata": {
+        "method": "quagmire_iii",
+        "alphabet": "ZYXWVUTSRQPONMLKJIHGFEDCBA",
+        "pattern_type": "prime",
+        "offset_sample": [
+          2,
+          3,
+          5,
+          7,
+          11,
+          13,
+          17,
+          19,
+          23,
+          3
+        ],
+        "anchors_found": {
+          "EAST": false,
+          "NORTHEAST": false,
+          "BERLINCLOCK": false
+        },
+        "anchor_count": 0,
+        "seed": 1431,
+        "full_plaintext": "JVKBUYLSWPADJQQNKLJFITJXLMKHDDWOAYSLCZYQTKYWGYXLKEHLIXITIOMWPNDNAFLHXCLZHGOAXIPJDLIFUSIQZKAUCSSQT"
+      }
+    },
+    {
+      "label": "QUAGMIRE_095",
+      "text": "OAJPRJPBLZRANTBZJURGRFGMLBRBEMSVPATGOYNUIRSTFMCEENORNWICVMVTXAGNDUFISAMGDZZ",
+      "metadata": {
+        "method": "quagmire_iii",
+        "alphabet": "ABCDEFGHIJKLMNOPQRSTUVWXYZ",
+        "pattern_type": "fibonacci",
+        "offset_sample": [
+          0,
+          1,
+          1,
+          2,
+          3,
+          5,
+          8,
+          13,
+          21,
+          8
+        ],
+        "anchors_found": {
+          "EAST": false,
+          "NORTHEAST": false,
+          "BERLINCLOCK": false
+        },
+        "anchor_count": 0,
+        "seed": 1432,
+        "full_plaintext": "OAJPRJPBLZRANTBZJURGRFGMLBRBEMSVPATGOYNUIRSTFMCEENORNWICVMVTXAGNDUFISAMGDZZYYXHSWHDCIFJSEPSHJCZPD"
+      }
+    },
+    {
+      "label": "QUAGMIRE_096",
+      "text": "IKDEWIZIOPWSKJISQNKKYNSEXVVGEUODJJIHYHVJRVJJMDAAYBHRDSWLQBYQUNKUFGXHHTANGDY",
+      "metadata": {
+        "method": "quagmire_iii",
+        "alphabet": "KRYPTOSBDEFGHIJLMNQUVWXZAC",
+        "pattern_type": "fixed",
+        "offset_sample": [
+          23,
+          23,
+          23,
+          23,
+          23,
+          23,
+          23,
+          23,
+          23,
+          23
+        ],
+        "anchors_found": {
+          "EAST": false,
+          "NORTHEAST": false,
+          "BERLINCLOCK": false
+        },
+        "anchor_count": 0,
+        "seed": 1433,
+        "full_plaintext": "IKDEWIZIOPWSKJISQNKKYNSEXVVGEUODJJIHYHVJRVJJMDAAYBHRDSWLQBYQUNKUFGXHHTANGDYOLDAZHRCLQODWPWBWMDCBE"
+      }
+    },
+    {
+      "label": "QUAGMIRE_097",
+      "text": "FHZZSAQSSGSGUHSFQBYNSMMWMFVPOSZLDOKRPJRIPVGHMCCEFUZYDCJJCTWADHNTHIGTDGMNRPA",
+      "metadata": {
+        "method": "quagmire_iii",
+        "alphabet": "KRYPTOSABCDEFGHIJLMNQUVWXZ",
+        "pattern_type": "fibonacci",
+        "offset_sample": [
+          0,
+          1,
+          1,
+          2,
+          3,
+          5,
+          8,
+          13,
+          21,
+          8
+        ],
+        "anchors_found": {
+          "EAST": false,
+          "NORTHEAST": false,
+          "BERLINCLOCK": false
+        },
+        "anchor_count": 0,
+        "seed": 1434,
+        "full_plaintext": "FHZZSAQSSGSGUHSFQBYNSMMWMFVPOSZLDOKRPJRIPVGHMCCEFUZYDCJJCTWADHNTHIGTDGMNRPAFFNHTHOKJPMZTLQZIQSGWN"
+      }
+    },
+    {
+      "label": "QUAGMIRE_098",
+      "text": "DFVUKSHMQLQGTPKQIDTPCLMQDXVAWKQZZXMJWXJPTVXVWJWKEMFLTAYHGWGUWFNUBYDFVHKRARI",
+      "metadata": {
+        "method": "quagmire_iii",
+        "alphabet": "KRYPTOSABCDEFGHIJLMNQUVWXZ",
+        "pattern_type": "prime",
+        "offset_sample": [
+          2,
+          3,
+          5,
+          7,
+          11,
+          13,
+          17,
+          19,
+          23,
+          3
+        ],
+        "anchors_found": {
+          "EAST": false,
+          "NORTHEAST": false,
+          "BERLINCLOCK": false
+        },
+        "anchor_count": 0,
+        "seed": 1435,
+        "full_plaintext": "DFVUKSHMQLQGTPKQIDTPCLMQDXVAWKQZZXMJWXJPTVXVWJWKEMFLTAYHGWGUWFNUBYDFVHKRARIULTOFBLUTSMTGVAIKSDEYM"
+      }
+    },
+    {
+      "label": "QUAGMIRE_099",
+      "text": "LXOGCGUYYKCDKIYCSJODYUJDUUKWVLFAEPQTVLGJPKHIWRDFLMBYSZTVELCCWPDMGPOVFBNVYEG",
+      "metadata": {
+        "method": "quagmire_iii",
+        "alphabet": "ZYXWVUTSRQPONMLKJIHGFEDCBA",
+        "pattern_type": "fibonacci",
+        "offset_sample": [
+          0,
+          1,
+          1,
+          2,
+          3,
+          5,
+          8,
+          13,
+          21,
+          8
+        ],
+        "anchors_found": {
+          "EAST": false,
+          "NORTHEAST": false,
+          "BERLINCLOCK": false
+        },
+        "anchor_count": 0,
+        "seed": 1436,
+        "full_plaintext": "LXOGCGUYYKCDKIYCSJODYUJDUUKWVLFAEPQTVLGJPKHIWRDFLMBYSZTVELCCWPDMGPOVFBNVYEGLRCIXJOYVRSODPARSAHUOU"
+      }
+    }
+  ]
+}

@@ -1,0 +1,909 @@
+{
+  "campaign": "C10_CANG_CorpusNgram",
+  "date": "2025-01-06",
+  "description": "Campaign C10: CANG_CorpusNgram",
+  "seed": 1337,
+  "total_heads": 100,
+  "heads": [
+    {
+      "label": "C10_000",
+      "text": "ARTHISWASPOSSIBLESTHIEASTNORTHEASTBSENUANDTHEYDUSIONITWEEABSEDTBERLINCLOCKD",
+      "metadata": {
+        "campaign": "C10",
+        "method": "CANG_CorpusNgram",
+        "seed": 1337
+      }
+    },
+    {
+      "label": "C10_001",
+      "text": "ICFIELDUSENUANCEOFLIEEASTNORTHEASTSWASTHISWASPOSSIONITWEEARTHISBERLINCLOCKE",
+      "metadata": {
+        "campaign": "C10",
+        "method": "CANG_CorpusNgram",
+        "seed": 1338
+      }
+    },
+    {
+      "label": "C10_002",
+      "text": "RTHISISIBLETICFIELDCVEASTNORTHEASTHEARTHISWASPOSSIBLETWEENCEOFLBERLINCLOCKU",
+      "metadata": {
+        "campaign": "C10",
+        "method": "CANG_CorpusNgram",
+        "seed": 1339
+      }
+    },
+    {
+      "label": "C10_003",
+      "text": "LUSENSUBTLIGHTLIGHTLEEASTNORTHEASTDTHENUANCEOFLIGHTLESHOWSTOTALBERLINCLOCKL",
+      "metadata": {
+        "campaign": "C10",
+        "method": "CANG_CorpusNgram",
+        "seed": 1340
+      }
+    },
+    {
+      "label": "C10_004",
+      "text": "ALLYINGANDTHISWASTHISEASTNORTHEASTLETHISWASTHSMAGNETICFIQLUSIONBERLINCLOCKN",
+      "metadata": {
+        "campaign": "C10",
+        "method": "CANG_CorpusNgram",
+        "seed": 1341
+      }
+    },
+    {
+      "label": "C10_005",
+      "text": "UBTLESHADINGANCEOFIQLEASTNORTHEASTHOWSTOTALLYINGANDTHEARTHEARTHBERLINCLOCKU",
+      "metadata": {
+        "campaign": "C10",
+        "method": "CANG_CorpusNgram",
+        "seed": 1342
+      }
+    },
+    {
+      "label": "C10_006",
+      "text": "FIESHADINVISWASTOTALLEASTNORTHEASTEDTHEENUANDTHEEARTHENCEOFLIESBERLINCLOCKF",
+      "metadata": {
+        "campaign": "C10",
+        "method": "CANG_CorpusNgram",
+        "seed": 1343
+      }
+    },
+    {
+      "label": "C10_007",
+      "text": "ASPOSSIBLESHADINVISIBEASTNORTHEASTDTHEABSENSUBTLIGHTLETICFIQLUSBERLINCLOCKT",
+      "metadata": {
+        "campaign": "C10",
+        "method": "CANG_CorpusNgram",
+        "seed": 1344
+      }
+    },
+    {
+      "label": "C10_008",
+      "text": "ESHOWSTOTALLYINVISWASEASTNORTHEASTBLESHADINVISWASPOSSISWASPOSSIBERLINCLOCKS",
+      "metadata": {
+        "campaign": "C10",
+        "method": "CANG_CorpusNgram",
+        "seed": 1345
+      }
+    },
+    {
+      "label": "C10_009",
+      "text": "IESHADINVISWASPOSSISIEASTNORTHEASTEYDUSENSUBTLIELDOXMWSTOTALLYIBERLINCLOCKE",
+      "metadata": {
+        "campaign": "C10",
+        "method": "CANG_CorpusNgram",
+        "seed": 1346
+      }
+    },
+    {
+      "label": "C10_010",
+      "text": "VISIBLESHADINVISIBLETEASTNORTHEASTSPOSSISIBLETHEYDUSIBLETWEEABSBERLINCLOCKD",
+      "metadata": {
+        "campaign": "C10",
+        "method": "CANG_CorpusNgram",
+        "seed": 1347
+      }
+    },
+    {
+      "label": "C10_011",
+      "text": "ONITWEENSUBTLIGHTLESHEASTNORTHEASTSIONITWASTHEENUANDTHEARTHEEABBERLINCLOCKT",
+      "metadata": {
+        "campaign": "C10",
+        "method": "CANG_CorpusNgram",
+        "seed": 1348
+      }
+    },
+    {
+      "label": "C10_012",
+      "text": "BETICFIELDZWRDDQWSTOTEASTNORTHEASTHISISIBLESHADINGANDTHEEARTHEABERLINCLOCKF",
+      "metadata": {
+        "campaign": "C10",
+        "method": "CANG_CorpusNgram",
+        "seed": 1349
+      }
+    },
+    {
+      "label": "C10_013",
+      "text": "VISIBLETHEYDUSENCEOFLEASTNORTHEASTLETHSMAGNETHSMAGNETWASTOTALLYBERLINCLOCKE",
+      "metadata": {
+        "campaign": "C10",
+        "method": "CANG_CorpusNgram",
+        "seed": 1350
+      }
+    },
+    {
+      "label": "C10_014",
+      "text": "ANDTHSMAGNETICFIQLUSIEASTNORTHEASTGANCEOFLIGHTLETHEABSENSUBTLIGBERLINCLOCKE",
+      "metadata": {
+        "campaign": "C10",
+        "method": "CANG_CorpusNgram",
+        "seed": 1351
+      }
+    },
+    {
+      "label": "C10_015",
+      "text": "IELDRDTHEABSEDTHEENCEEASTNORTHEASTDINVISWASPOSSIBLESHOWSTHEARTHBERLINCLOCKL",
+      "metadata": {
+        "campaign": "C10",
+        "method": "CANG_CorpusNgram",
+        "seed": 1352
+      }
+    },
+    {
+      "label": "C10_016",
+      "text": "ABSEDTHISWASPOSSIONITEASTNORTHEASTIONITWEENSUBTLIESHADINGANDTHIBERLINCLOCKI",
+      "metadata": {
+        "campaign": "C10",
+        "method": "CANG_CorpusNgram",
+        "seed": 1353
+      }
+    },
+    {
+      "label": "C10_017",
+      "text": "WSTHENCEOFLIGHTLIESHAEASTNORTHEASTFIELDKTTQZIJGUYCUDPITWASTHSMABERLINCLOCKF",
+      "metadata": {
+        "campaign": "C10",
+        "method": "CANG_CorpusNgram",
+        "seed": 1354
+      }
+    },
+    {
+      "label": "C10_018",
+      "text": "NETWEENSUBTLETWEEARTHEASTNORTHEASTIGHTLIGHTLIGHTLIELDHLRFRJPPQWBERLINCLOCKS",
+      "metadata": {
+        "campaign": "C10",
+        "method": "CANG_CorpusNgram",
+        "seed": 1355
+      }
+    },
+    {
+      "label": "C10_019",
+      "text": "EOFIQLUSISISWASTHEARTEASTNORTHEASTNETWASTHEABSEDTHISWASPOSSIBLEBERLINCLOCKY",
+      "metadata": {
+        "campaign": "C10",
+        "method": "CANG_CorpusNgram",
+        "seed": 1356
+      }
+    },
+    {
+      "label": "C10_020",
+      "text": "OSSIBLESHOWSTHEENSUBTEASTNORTHEASTYDUSIBLETHENSUBTLIELDGRZKDTHIBERLINCLOCKD",
+      "metadata": {
+        "campaign": "C10",
+        "method": "CANG_CorpusNgram",
+        "seed": 1357
+      }
+    },
+    {
+      "label": "C10_021",
+      "text": "ETICFIESHOWSTHEYDUSIBEASTNORTHEASTTHEYDUSENSUBTLIGHTLESHOWSTHISBERLINCLOCKS",
+      "metadata": {
+        "campaign": "C10",
+        "method": "CANG_CorpusNgram",
+        "seed": 1358
+      }
+    },
+    {
+      "label": "C10_022",
+      "text": "YINGANCEOFLIGHTLESTHIEASTNORTHEASTSIBLETHEYDUSIONITWASPOSSISWASBERLINCLOCKS",
+      "metadata": {
+        "campaign": "C10",
+        "method": "CANG_CorpusNgram",
+        "seed": 1359
+      }
+    },
+    {
+      "label": "C10_023",
+      "text": "HSMAGNETICFIELDXXFKIPEASTNORTHEASTSIBLETICFIQLUSIBLESHOWSTHENCEBERLINCLOCKL",
+      "metadata": {
+        "campaign": "C10",
+        "method": "CANG_CorpusNgram",
+        "seed": 1360
+      }
+    },
+    {
+      "label": "C10_024",
+      "text": "HADINVISWASPOSSIBLESHEASTNORTHEASTEOFIESHADINGANDTHISISIBLESHADBERLINCLOCKL",
+      "metadata": {
+        "campaign": "C10",
+        "method": "CANG_CorpusNgram",
+        "seed": 1361
+      }
+    },
+    {
+      "label": "C10_025",
+      "text": "NSUBTLETICFIQLUSEDTHSEASTNORTHEASTCEOFLIELDYRJTSROFLIELDZXDJTSQBERLINCLOCKM",
+      "metadata": {
+        "campaign": "C10",
+        "method": "CANG_CorpusNgram",
+        "seed": 1362
+      }
+    },
+    {
+      "label": "C10_026",
+      "text": "EABSENSUBTLESHOWSTHENEASTNORTHEASTSTOTALLYINGANDTHSMAGNETHENSUBBERLINCLOCKA",
+      "metadata": {
+        "campaign": "C10",
+        "method": "CANG_CorpusNgram",
+        "seed": 1363
+      }
+    },
+    {
+      "label": "C10_027",
+      "text": "THEEARTHEEABSEDTHSMAGEASTNORTHEASTTHEYDUSIBLESHADINVISIONITWEEABERLINCLOCKS",
+      "metadata": {
+        "campaign": "C10",
+        "method": "CANG_CorpusNgram",
+        "seed": 1364
+      }
+    },
+    {
+      "label": "C10_028",
+      "text": "ISIBLESHADINGANCEOFIQEASTNORTHEASTOTALLYINVISISWASTHEARTHISIONIBERLINCLOCKB",
+      "metadata": {
+        "campaign": "C10",
+        "method": "CANG_CorpusNgram",
+        "seed": 1365
+      }
+    },
+    {
+      "label": "C10_029",
+      "text": "HOWSTHEENSUBTLIGHTLETEASTNORTHEASTASPOSSIBLESTOTALLYINVISWASPOSBERLINCLOCKL",
+      "metadata": {
+        "campaign": "C10",
+        "method": "CANG_CorpusNgram",
+        "seed": 1366
+      }
+    },
+    {
+      "label": "C10_030",
+      "text": "WASTOTALLYINVISWASTHEEASTNORTHEASTFIQLUSIBLESHADINVISIONITWASTHBERLINCLOCKE",
+      "metadata": {
+        "campaign": "C10",
+        "method": "CANG_CorpusNgram",
+        "seed": 1367
+      }
+    },
+    {
+      "label": "C10_031",
+      "text": "BSENSUBTLESHOWSTOTALLEASTNORTHEASTTHISIBLESHOWSTHEENCEOFLIELDINBERLINCLOCKE",
+      "metadata": {
+        "campaign": "C10",
+        "method": "CANG_CorpusNgram",
+        "seed": 1368
+      }
+    },
+    {
+      "label": "C10_032",
+      "text": "EYDUSEDTHEABSEDTHEYDUEASTNORTHEASTOFIESHADINVISISWASPOSSIBLETWEBERLINCLOCKD",
+      "metadata": {
+        "campaign": "C10",
+        "method": "CANG_CorpusNgram",
+        "seed": 1369
+      }
+    },
+    {
+      "label": "C10_033",
+      "text": "SMAGNETHEABSEDTHEARTHEASTNORTHEASTASPOSSIONITWASTHEYDUSEDTHEEABBERLINCLOCKT",
+      "metadata": {
+        "campaign": "C10",
+        "method": "CANG_CorpusNgram",
+        "seed": 1370
+      }
+    },
+    {
+      "label": "C10_034",
+      "text": "GNETICFIELDCZRHBOXDFDEASTNORTHEASTLYINVISIBLESHADINGANDTHEARTHEBERLINCLOCKO",
+      "metadata": {
+        "campaign": "C10",
+        "method": "CANG_CorpusNgram",
+        "seed": 1371
+      }
+    },
+    {
+      "label": "C10_035",
+      "text": "ELDVISWASPOSSIONITWASEASTNORTHEASTLESTHENCEOFIQLUSEDTHEYDUSIBLEBERLINCLOCKE",
+      "metadata": {
+        "campaign": "C10",
+        "method": "CANG_CorpusNgram",
+        "seed": 1372
+      }
+    },
+    {
+      "label": "C10_036",
+      "text": "ENSUBTLIGHTLESHADINGAEASTNORTHEASTDPTTCLOOSSIBLETWEENSUBTLESHOWBERLINCLOCKE",
+      "metadata": {
+        "campaign": "C10",
+        "method": "CANG_CorpusNgram",
+        "seed": 1373
+      }
+    },
+    {
+      "label": "C10_037",
+      "text": "ETICFIQLUSEDTHEYDUSEDEASTNORTHEASTGNETWASPOSSIBLESHOWSTHISWASTOBERLINCLOCKS",
+      "metadata": {
+        "campaign": "C10",
+        "method": "CANG_CorpusNgram",
+        "seed": 1374
+      }
+    },
+    {
+      "label": "C10_038",
+      "text": "SUBTLIELDDJNDTHEYDUSIEASTNORTHEASTEENCEOFLIGHTLESHOWSTOTALLYINGBERLINCLOCKS",
+      "metadata": {
+        "campaign": "C10",
+        "method": "CANG_CorpusNgram",
+        "seed": 1375
+      }
+    },
+    {
+      "label": "C10_039",
+      "text": "LYINVISIBLESTHSMAGNETEASTNORTHEASTELDWXNGANDTHEYDUSISWASTHSMAGNBERLINCLOCKE",
+      "metadata": {
+        "campaign": "C10",
+        "method": "CANG_CorpusNgram",
+        "seed": 1376
+      }
+    },
+    {
+      "label": "C10_040",
+      "text": "NGANDTHENCEOFLIGHTLETEASTNORTHEASTOWSTHENUANCEOFLIESHOWSTOTALLYBERLINCLOCKA",
+      "metadata": {
+        "campaign": "C10",
+        "method": "CANG_CorpusNgram",
+        "seed": 1377
+      }
+    },
+    {
+      "label": "C10_041",
+      "text": "ETWASTHEYDUSENUANDTHEEASTNORTHEASTEARTHEENCEOFIQLUSENCEOFIESHADBERLINCLOCKS",
+      "metadata": {
+        "campaign": "C10",
+        "method": "CANG_CorpusNgram",
+        "seed": 1378
+      }
+    },
+    {
+      "label": "C10_042",
+      "text": "SMAGNETHSMAGNETHEYDUSEASTNORTHEASTSIBLESHADINVISWASTHEARTHEENCEBERLINCLOCKB",
+      "metadata": {
+        "campaign": "C10",
+        "method": "CANG_CorpusNgram",
+        "seed": 1379
+      }
+    },
+    {
+      "label": "C10_043",
+      "text": "MAGNETHISISISISIBLETHEASTNORTHEASTIELDJLVGCDRFFQALLYINVISIBLESHBERLINCLOCKS",
+      "metadata": {
+        "campaign": "C10",
+        "method": "CANG_CorpusNgram",
+        "seed": 1380
+      }
+    },
+    {
+      "label": "C10_044",
+      "text": "OSSIBLETWASTOTALLYINVEASTNORTHEASTUSENSUBTLESTOTALLYINGANCEOFIQBERLINCLOCKF",
+      "metadata": {
+        "campaign": "C10",
+        "method": "CANG_CorpusNgram",
+        "seed": 1381
+      }
+    },
+    {
+      "label": "C10_045",
+      "text": "GNETHSMAGNETICFIESTHIEASTNORTHEASTMAGNETICFIESTHISISIBLESTHENUABERLINCLOCKI",
+      "metadata": {
+        "campaign": "C10",
+        "method": "CANG_CorpusNgram",
+        "seed": 1382
+      }
+    },
+    {
+      "label": "C10_046",
+      "text": "ADINGANDTHISISWASTOTAEASTNORTHEASTQLUSEDTHEYDUSEDTHSMAGNETHEABSBERLINCLOCKU",
+      "metadata": {
+        "campaign": "C10",
+        "method": "CANG_CorpusNgram",
+        "seed": 1383
+      }
+    },
+    {
+      "label": "C10_047",
+      "text": "STHSMAGNETHEYDUSENCEOEASTNORTHEASTENCEOFLIESHOWSTHEABSEDTHEABSEBERLINCLOCKI",
+      "metadata": {
+        "campaign": "C10",
+        "method": "CANG_CorpusNgram",
+        "seed": 1384
+      }
+    },
+    {
+      "label": "C10_048",
+      "text": "GANDTHISIBLESTOTALLYIEASTNORTHEASTTOTALLYINVISIBLETHISWASTHEENCBERLINCLOCKO",
+      "metadata": {
+        "campaign": "C10",
+        "method": "CANG_CorpusNgram",
+        "seed": 1385
+      }
+    },
+    {
+      "label": "C10_049",
+      "text": "SSISWASTHEABSENSUBTLEEASTNORTHEASTESHOWSTHISISISIBLETHENCEOFIQLBERLINCLOCKT",
+      "metadata": {
+        "campaign": "C10",
+        "method": "CANG_CorpusNgram",
+        "seed": 1386
+      }
+    },
+    {
+      "label": "C10_050",
+      "text": "BTLESHOWSTHISIBLESHADEASTNORTHEASTETHEABSENUANCEOFIQLUSEDTHEYDUBERLINCLOCKO",
+      "metadata": {
+        "campaign": "C10",
+        "method": "CANG_CorpusNgram",
+        "seed": 1387
+      }
+    },
+    {
+      "label": "C10_051",
+      "text": "EYDUSIBLETHEYDUSIONITEASTNORTHEASTLESHADINGANCEOFLIELDJBTLIELDPBERLINCLOCKN",
+      "metadata": {
+        "campaign": "C10",
+        "method": "CANG_CorpusNgram",
+        "seed": 1388
+      }
+    },
+    {
+      "label": "C10_052",
+      "text": "NSUBTLIGHTLIGHTLIESHAEASTNORTHEASTSHADINVISIBLESHADINGANDTHENCEBERLINCLOCKO",
+      "metadata": {
+        "campaign": "C10",
+        "method": "CANG_CorpusNgram",
+        "seed": 1389
+      }
+    },
+    {
+      "label": "C10_053",
+      "text": "LESHOWSTHEEABSEDTHEYDEASTNORTHEASTPOSSIONITWEEABSEDTHEENUANCEOFBERLINCLOCKS",
+      "metadata": {
+        "campaign": "C10",
+        "method": "CANG_CorpusNgram",
+        "seed": 1390
+      }
+    },
+    {
+      "label": "C10_054",
+      "text": "INVISIBLETWEENCEOFIQLEASTNORTHEASTELDEUTVJUMNKUXJSASTHEYDUSENUABERLINCLOCKH",
+      "metadata": {
+        "campaign": "C10",
+        "method": "CANG_CorpusNgram",
+        "seed": 1391
+      }
+    },
+    {
+      "label": "C10_055",
+      "text": "FLIGHTLESTOTALLYINVISEASTNORTHEASTGNETHENCEOFLIGHTLIELDLJAYEBDLBERLINCLOCKE",
+      "metadata": {
+        "campaign": "C10",
+        "method": "CANG_CorpusNgram",
+        "seed": 1392
+      }
+    },
+    {
+      "label": "C10_056",
+      "text": "IONITWEENCEOFLIGHTLETEASTNORTHEASTICFIQLUSENUANDTHEENUANDTHISWABERLINCLOCKE",
+      "metadata": {
+        "campaign": "C10",
+        "method": "CANG_CorpusNgram",
+        "seed": 1393
+      }
+    },
+    {
+      "label": "C10_057",
+      "text": "NITWASTHISIBLETHSMAGNEASTNORTHEASTAGNETHEARTHEENCEOFLIGHTLIGHTLBERLINCLOCKS",
+      "metadata": {
+        "campaign": "C10",
+        "method": "CANG_CorpusNgram",
+        "seed": 1394
+      }
+    },
+    {
+      "label": "C10_058",
+      "text": "AGNETHEYDUSIBLESHOWSTEASTNORTHEASTNDTHENSUBTLETICFIQLUSIBLETICFBERLINCLOCKS",
+      "metadata": {
+        "campaign": "C10",
+        "method": "CANG_CorpusNgram",
+        "seed": 1395
+      }
+    },
+    {
+      "label": "C10_059",
+      "text": "BTLESTOTALLYINGANCEOFEASTNORTHEASTELDYFEUKQYLJQQBIHTLIESHOWSTHEBERLINCLOCKO",
+      "metadata": {
+        "campaign": "C10",
+        "method": "CANG_CorpusNgram",
+        "seed": 1396
+      }
+    },
+    {
+      "label": "C10_060",
+      "text": "BTLESHOWSTOTALLYINGANEASTNORTHEASTSHADINVISWASTHENUANCEOFLIESTHBERLINCLOCKE",
+      "metadata": {
+        "campaign": "C10",
+        "method": "CANG_CorpusNgram",
+        "seed": 1397
+      }
+    },
+    {
+      "label": "C10_061",
+      "text": "IQLUSEDTHENUANDTHENCEEASTNORTHEASTOWSTOTALLYINVISIBLESHADINGANCBERLINCLOCKT",
+      "metadata": {
+        "campaign": "C10",
+        "method": "CANG_CorpusNgram",
+        "seed": 1398
+      }
+    },
+    {
+      "label": "C10_062",
+      "text": "HOWSTHSMAGNETICFIELDZEASTNORTHEASTLDXAJYAFZSPOSSISWASPOSSIONITWBERLINCLOCKW",
+      "metadata": {
+        "campaign": "C10",
+        "method": "CANG_CorpusNgram",
+        "seed": 1399
+      }
+    },
+    {
+      "label": "C10_063",
+      "text": "NDTHEEABSENCEOFLIELDGEASTNORTHEASTBLESTOTALLYINVISWASPOSSISISWABERLINCLOCKO",
+      "metadata": {
+        "campaign": "C10",
+        "method": "CANG_CorpusNgram",
+        "seed": 1400
+      }
+    },
+    {
+      "label": "C10_064",
+      "text": "TALLYINVISISWASTOTALLEASTNORTHEASTSHADINVISISIBLESHADINGANCEOFLBERLINCLOCKT",
+      "metadata": {
+        "campaign": "C10",
+        "method": "CANG_CorpusNgram",
+        "seed": 1401
+      }
+    },
+    {
+      "label": "C10_065",
+      "text": "ARTHISIBLETICFIQLUSENEASTNORTHEASTADINGANCEOFIQLUSIONITWASPOSSIBERLINCLOCKB",
+      "metadata": {
+        "campaign": "C10",
+        "method": "CANG_CorpusNgram",
+        "seed": 1402
+      }
+    },
+    {
+      "label": "C10_066",
+      "text": "NUANDTHISISWASTHSMAGNEASTNORTHEASTETWEENCEOFIQLUSENCEOFLIESTOTABERLINCLOCKE",
+      "metadata": {
+        "campaign": "C10",
+        "method": "CANG_CorpusNgram",
+        "seed": 1403
+      }
+    },
+    {
+      "label": "C10_067",
+      "text": "ADINVISIBLESHOWSTOTALEASTNORTHEASTUBTLIESTHEYDUSEDTHEEARTHISISIBERLINCLOCKY",
+      "metadata": {
+        "campaign": "C10",
+        "method": "CANG_CorpusNgram",
+        "seed": 1404
+      }
+    },
+    {
+      "label": "C10_068",
+      "text": "TOTALLYINVISIBLESHADIEASTNORTHEASTEDTHEEABSEDTHEEABSENCEOFIELDQBERLINCLOCKT",
+      "metadata": {
+        "campaign": "C10",
+        "method": "CANG_CorpusNgram",
+        "seed": 1405
+      }
+    },
+    {
+      "label": "C10_069",
+      "text": "THEEARTHEARTHEYDUSIBLEASTNORTHEASTTWASTOTALLYINVISWASPOSSISIONIBERLINCLOCKB",
+      "metadata": {
+        "campaign": "C10",
+        "method": "CANG_CorpusNgram",
+        "seed": 1406
+      }
+    },
+    {
+      "label": "C10_070",
+      "text": "LETHENCEOFIQLUSEDTHISEASTNORTHEASTNGANCEOFLIESHOWSTHEEABSEDTHEEBERLINCLOCKB",
+      "metadata": {
+        "campaign": "C10",
+        "method": "CANG_CorpusNgram",
+        "seed": 1407
+      }
+    },
+    {
+      "label": "C10_071",
+      "text": "VISIONITWASTHISISISWAEASTNORTHEASTISWASTOTALLYINVISIBLESHADINVIBERLINCLOCKH",
+      "metadata": {
+        "campaign": "C10",
+        "method": "CANG_CorpusNgram",
+        "seed": 1408
+      }
+    },
+    {
+      "label": "C10_072",
+      "text": "EENUANCEOFIELDUSIBLETEASTNORTHEASTSWASPOSSIBLESHOWSTOTALLYINGANBERLINCLOCKH",
+      "metadata": {
+        "campaign": "C10",
+        "method": "CANG_CorpusNgram",
+        "seed": 1409
+      }
+    },
+    {
+      "label": "C10_073",
+      "text": "HTLIGHTLETHEYDUSIONITEASTNORTHEASTEENSUBTLIELDXLYINGANCEOFLIGHTBERLINCLOCKA",
+      "metadata": {
+        "campaign": "C10",
+        "method": "CANG_CorpusNgram",
+        "seed": 1410
+      }
+    },
+    {
+      "label": "C10_074",
+      "text": "SHADINVISWASPOSSISIBLEASTNORTHEASTSTHEEABSEDTHSMAGNETICFIQLUSENBERLINCLOCKS",
+      "metadata": {
+        "campaign": "C10",
+        "method": "CANG_CorpusNgram",
+        "seed": 1411
+      }
+    },
+    {
+      "label": "C10_075",
+      "text": "YINVISISIBLESHOWSTHEEEASTNORTHEASTENSUBTLIGHTLIGHTLESHADINVISWABERLINCLOCKA",
+      "metadata": {
+        "campaign": "C10",
+        "method": "CANG_CorpusNgram",
+        "seed": 1412
+      }
+    },
+    {
+      "label": "C10_076",
+      "text": "LLYINGANCEOFIESHADINGEASTNORTHEASTPFDWDDKFYLZLKMNDTHENUANDTHEARBERLINCLOCKF",
+      "metadata": {
+        "campaign": "C10",
+        "method": "CANG_CorpusNgram",
+        "seed": 1413
+      }
+    },
+    {
+      "label": "C10_077",
+      "text": "INGANDTHISIONITWEEARTEASTNORTHEASTLESHADINGANDTHEABSENSUBTLIGHTBERLINCLOCKD",
+      "metadata": {
+        "campaign": "C10",
+        "method": "CANG_CorpusNgram",
+        "seed": 1414
+      }
+    },
+    {
+      "label": "C10_078",
+      "text": "HISWASPOSSIBLESHADINGEASTNORTHEASTSTOTALLYINVISIBLETWEEABSENCEOBERLINCLOCKE",
+      "metadata": {
+        "campaign": "C10",
+        "method": "CANG_CorpusNgram",
+        "seed": 1415
+      }
+    },
+    {
+      "label": "C10_079",
+      "text": "ESHOWSTOTALLYINGANDTHEASTNORTHEASTSIBLETWASPOSSIBLESHADINGANDTHBERLINCLOCKL",
+      "metadata": {
+        "campaign": "C10",
+        "method": "CANG_CorpusNgram",
+        "seed": 1416
+      }
+    },
+    {
+      "label": "C10_080",
+      "text": "NUANDTHEEARTHISIONITWEASTNORTHEASTLDELDINVISIONITWEEABSEDTHENUABERLINCLOCKB",
+      "metadata": {
+        "campaign": "C10",
+        "method": "CANG_CorpusNgram",
+        "seed": 1417
+      }
+    },
+    {
+      "label": "C10_081",
+      "text": "TWASPOSSIONITWEEABSENEASTNORTHEASTABSENSUBTLESHOWSTOTALLYINVISIBERLINCLOCKS",
+      "metadata": {
+        "campaign": "C10",
+        "method": "CANG_CorpusNgram",
+        "seed": 1418
+      }
+    },
+    {
+      "label": "C10_082",
+      "text": "OSSIBLETHSMAGNETICFIQEASTNORTHEASTSENUANCEOFLIGHTLESTOTALLYINVIBERLINCLOCKA",
+      "metadata": {
+        "campaign": "C10",
+        "method": "CANG_CorpusNgram",
+        "seed": 1419
+      }
+    },
+    {
+      "label": "C10_083",
+      "text": "ASPOSSIBLESHOWSTHEYDUEASTNORTHEASTFLIGHTLETICFIELDCFIQLUSENSUBTBERLINCLOCKK",
+      "metadata": {
+        "campaign": "C10",
+        "method": "CANG_CorpusNgram",
+        "seed": 1420
+      }
+    },
+    {
+      "label": "C10_084",
+      "text": "SUBTLESHOWSTOTALLYINVEASTNORTHEASTSTOTALLYINVISWASTHEYDUSIBLESHBERLINCLOCKE",
+      "metadata": {
+        "campaign": "C10",
+        "method": "CANG_CorpusNgram",
+        "seed": 1421
+      }
+    },
+    {
+      "label": "C10_085",
+      "text": "BSEDTHEENCEOFIELDLKHXEASTNORTHEASTLESHOWSTHEABSEDTHEABSEDTHEYDUBERLINCLOCKT",
+      "metadata": {
+        "campaign": "C10",
+        "method": "CANG_CorpusNgram",
+        "seed": 1422
+      }
+    },
+    {
+      "label": "C10_086",
+      "text": "ALLYINVISIBLESHOWSTOTEASTNORTHEASTTWEENUANCEOFLIESHADINVISIONITBERLINCLOCKL",
+      "metadata": {
+        "campaign": "C10",
+        "method": "CANG_CorpusNgram",
+        "seed": 1423
+      }
+    },
+    {
+      "label": "C10_087",
+      "text": "NSUBTLIGHTLIGHTLIELDREASTNORTHEASTOSSIBLESTOTALLYINVISISWASTHEYBERLINCLOCKG",
+      "metadata": {
+        "campaign": "C10",
+        "method": "CANG_CorpusNgram",
+        "seed": 1424
+      }
+    },
+    {
+      "label": "C10_088",
+      "text": "UANCEOFIQLUSEDTHSMAGNEASTNORTHEASTNDTHISIBLESHADINGANDTHEYDUSEDBERLINCLOCKF",
+      "metadata": {
+        "campaign": "C10",
+        "method": "CANG_CorpusNgram",
+        "seed": 1425
+      }
+    },
+    {
+      "label": "C10_089",
+      "text": "TLESHOWSTOTALLYINVISWEASTNORTHEASTSWASTHEARTHEEABSEDTHISIBLESTHBERLINCLOCKS",
+      "metadata": {
+        "campaign": "C10",
+        "method": "CANG_CorpusNgram",
+        "seed": 1426
+      }
+    },
+    {
+      "label": "C10_090",
+      "text": "BETHSMAGNETICFIELDBDZEASTNORTHEASTASPOSSIBLESHADINVISWASPOSSISWBERLINCLOCKT",
+      "metadata": {
+        "campaign": "C10",
+        "method": "CANG_CorpusNgram",
+        "seed": 1427
+      }
+    },
+    {
+      "label": "C10_091",
+      "text": "HOWSTHEARTHSMAGNETWASEASTNORTHEASTABSEDTHSMAGNETICFIQLUSEDTHEYDBERLINCLOCKH",
+      "metadata": {
+        "campaign": "C10",
+        "method": "CANG_CorpusNgram",
+        "seed": 1428
+      }
+    },
+    {
+      "label": "C10_092",
+      "text": "HADINVISWASPOSSIONITWEASTNORTHEASTNETHENSUBTLESHOWSTOTALLYINVISBERLINCLOCKS",
+      "metadata": {
+        "campaign": "C10",
+        "method": "CANG_CorpusNgram",
+        "seed": 1429
+      }
+    },
+    {
+      "label": "C10_093",
+      "text": "GHTLIGHTLIELDFPSXMPPMEASTNORTHEASTHOWSTOTALLYINGANCEOFLIESHOWSTBERLINCLOCKT",
+      "metadata": {
+        "campaign": "C10",
+        "method": "CANG_CorpusNgram",
+        "seed": 1430
+      }
+    },
+    {
+      "label": "C10_094",
+      "text": "OWSTOTALLYINVISIONITWEASTNORTHEASTSTHISWASPOSSIONITWASPOSSIBLESBERLINCLOCKI",
+      "metadata": {
+        "campaign": "C10",
+        "method": "CANG_CorpusNgram",
+        "seed": 1431
+      }
+    },
+    {
+      "label": "C10_095",
+      "text": "NVISISIBLESTHEABSENSUEASTNORTHEASTDTHEYDUSEDTHENSUBTLIGHTLESHOWBERLINCLOCKE",
+      "metadata": {
+        "campaign": "C10",
+        "method": "CANG_CorpusNgram",
+        "seed": 1432
+      }
+    },
+    {
+      "label": "C10_096",
+      "text": "SHOWSTOTALLYINGANCEOFEASTNORTHEASTTHEYDUSISISIBLESTOTALLYINGANDBERLINCLOCKL",
+      "metadata": {
+        "campaign": "C10",
+        "method": "CANG_CorpusNgram",
+        "seed": 1433
+      }
+    },
+    {
+      "label": "C10_097",
+      "text": "BETWASTOTALLYINGANDTHEASTNORTHEASTNETICFIQLUSENSUBTLIGHTLESTHSMBERLINCLOCKU",
+      "metadata": {
+        "campaign": "C10",
+        "method": "CANG_CorpusNgram",
+        "seed": 1434
+      }
+    },
+    {
+      "label": "C10_098",
+      "text": "HTLESHOWSTHEENSUBTLIGEASTNORTHEASTALLYINGANDTHEEARTHEENSUBTLIGHBERLINCLOCKN",
+      "metadata": {
+        "campaign": "C10",
+        "method": "CANG_CorpusNgram",
+        "seed": 1435
+      }
+    },
+    {
+      "label": "C10_099",
+      "text": "NUANDTHEABSENCEOFIQLUEASTNORTHEASTENSUBTLIESHOWSTOTALLYINGANDTHBERLINCLOCKI",
+      "metadata": {
+        "campaign": "C10",
+        "method": "CANG_CorpusNgram",
+        "seed": 1436
+      }
+    }
+  ]
+}

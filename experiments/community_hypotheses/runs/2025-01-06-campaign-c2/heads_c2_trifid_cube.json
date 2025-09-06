@@ -1,0 +1,1891 @@
+{
+  "campaign": "C2_TRIFID_CUBE",
+  "date": "2025-01-06",
+  "description": "Trifid cipher and Eight-cube transposition",
+  "methods": [
+    "trifid",
+    "eight_cube"
+  ],
+  "parameters": {
+    "num_heads": 100,
+    "seed": 1337,
+    "trifid_keys": [
+      "ABCDEFGHIJKLMNOPQRSTUVWXYZ.",
+      "KRYPTOSABCDEFGHIJLMNQUVWXZ.",
+      ".ZYXWVUTSRQPONMLKJIHGFEDCBA"
+    ],
+    "cube_orientations": [
+      "standard",
+      "rotated_90",
+      "rotated_180",
+      "diagonal"
+    ],
+    "reading_orders": [
+      "rows",
+      "columns",
+      "spiral"
+    ]
+  },
+  "seed": 1337,
+  "total_heads": 100,
+  "method_distribution": {
+    "trifid": 48,
+    "eight_cube": 52
+  },
+  "anchor_distribution": {
+    "0": 100,
+    "1": 0,
+    "2": 0,
+    "3": 0
+  },
+  "heads": [
+    {
+      "label": "TRIFID_CUBE_000",
+      "text": "RKBOOXOULUHGLOSBBBFIRLFWPQQVKGNRTOSSSQTWSSQJZZKEJTAWDULKIWAINBFNTVPYFZMTGWK",
+      "metadata": {
+        "method": "eight_cube",
+        "parameters": {
+          "orientation": "rotated_180"
+        },
+        "anchors_found": {
+          "EAST": false,
+          "NORTHEAST": false,
+          "BERLINCLOCK": false
+        },
+        "anchor_count": 0,
+        "seed": 1337,
+        "full_plaintext": "RKBOOXOULUHGLOSBBBFIRLFWPQQVKGNRTOSSSQTWSSQJZZKEJTAWDULKIWAINBFNTVPYFZMTGWKPXZKDDCJTUKGIUAUHACKEX"
+      }
+    },
+    {
+      "label": "TRIFID_CUBE_001",
+      "text": "BROKOOUXHLGUSLBOFBIBFRWLQPVQNKRGSTSOTSWQQSJSKZEZAJWTLDKUAIIWFNNBPTYVMFTZKGP",
+      "metadata": {
+        "method": "eight_cube",
+        "parameters": {
+          "orientation": "rotated_90"
+        },
+        "anchors_found": {
+          "EAST": false,
+          "NORTHEAST": false,
+          "BERLINCLOCK": false
+        },
+        "anchor_count": 0,
+        "seed": 1338,
+        "full_plaintext": "BROKOOUXHLGUSLBOFBIBFRWLQPVQNKRGSTSOTSWQQSJSKZEZAJWTLDKUAIIWFNNBPTYVMFTZKGPWKXDZJDTCGUIKUUHAKAECX"
+      }
+    },
+    {
+      "label": "TRIFID_CUBE_002",
+      "text": "RKBOOXOULUHGLOSBBBFIRLFWPQQVKGNRTOSSSQTWSSQJZZKEJTAWDULKIWAINBFNTVPYFZMTGWK",
+      "metadata": {
+        "method": "eight_cube",
+        "parameters": {
+          "orientation": "rotated_180"
+        },
+        "anchors_found": {
+          "EAST": false,
+          "NORTHEAST": false,
+          "BERLINCLOCK": false
+        },
+        "anchor_count": 0,
+        "seed": 1339,
+        "full_plaintext": "RKBOOXOULUHGLOSBBBFIRLFWPQQVKGNRTOSSSQTWSSQJZZKEJTAWDULKIWAINBFNTVPYFZMTGWKPXZKDDCJTUKGIUAUHACKEX"
+      }
+    },
+    {
+      "label": "TRIFID_CUBE_003",
+      "text": "OBKRUOXOGHULBSOLIFBBWFLRVQQPRNGKSSOTWTQSJQSSEKZZWATJKLUDIAWINFBNYPVTTMZFPKW",
+      "metadata": {
+        "method": "trifid",
+        "parameters": {
+          "key": "KRYPTOSABC...",
+          "order": "columns"
+        },
+        "anchors_found": {
+          "EAST": false,
+          "NORTHEAST": false,
+          "BERLINCLOCK": false
+        },
+        "anchor_count": 0,
+        "seed": 1340,
+        "full_plaintext": "OBKRUOXOGHULBSOLIFBBWFLRVQQPRNGKSSOTWTQSJQSSEKZZWATJKLUDIAWINFBNYPVTTMZFPKWGDKZXTJCDIGKUHUAUEKCAR"
+      }
+    },
+    {
+      "label": "TRIFID_CUBE_004",
+      "text": "OBKRUOXOGHULBSOLIFBBWFLRVQQPRNGKSSOTWTQSJQSSEKZZWATJKLUDIAWINFBNYPVTTMZFPKW",
+      "metadata": {
+        "method": "trifid",
+        "parameters": {
+          "key": ".ZYXWVUTSR...",
+          "order": "rows"
+        },
+        "anchors_found": {
+          "EAST": false,
+          "NORTHEAST": false,
+          "BERLINCLOCK": false
+        },
+        "anchor_count": 0,
+        "seed": 1341,
+        "full_plaintext": "OBKRUOXOGHULBSOLIFBBWFLRVQQPRNGKSSOTWTQSJQSSEKZZWATJKLUDIAWINFBNYPVTTMZFPKWGDKZXTJCDIGKUHUAUEKCAR"
+      }
+    },
+    {
+      "label": "TRIFID_CUBE_005",
+      "text": "RKBOOXOULUHGLOSBBBFIRLFWPQQVKGNRTOSSSQTWSSQJZZKEJTAWDULKIWAINBFNTVPYFZMTGWK",
+      "metadata": {
+        "method": "eight_cube",
+        "parameters": {
+          "orientation": "rotated_180"
+        },
+        "anchors_found": {
+          "EAST": false,
+          "NORTHEAST": false,
+          "BERLINCLOCK": false
+        },
+        "anchor_count": 0,
+        "seed": 1342,
+        "full_plaintext": "RKBOOXOULUHGLOSBBBFIRLFWPQQVKGNRTOSSSQTWSSQJZZKEJTAWDULKIWAINBFNTVPYFZMTGWKPXZKDDCJTUKGIUAUHACKEX"
+      }
+    },
+    {
+      "label": "TRIFID_CUBE_006",
+      "text": "OBKRUOXOGHULBSOLIFBBWFLRVQQPRNGKSSOTWTQSJQSSEKZZWATJKLUDIAWINFBNYPVTTMZFPKW",
+      "metadata": {
+        "method": "trifid",
+        "parameters": {
+          "key": ".ZYXWVUTSR...",
+          "order": "columns"
+        },
+        "anchors_found": {
+          "EAST": false,
+          "NORTHEAST": false,
+          "BERLINCLOCK": false
+        },
+        "anchor_count": 0,
+        "seed": 1343,
+        "full_plaintext": "OBKRUOXOGHULBSOLIFBBWFLRVQQPRNGKSSOTWTQSJQSSEKZZWATJKLUDIAWINFBNYPVTTMZFPKWGDKZXTJCDIGKUHUAUEKCAR"
+      }
+    },
+    {
+      "label": "TRIFID_CUBE_007",
+      "text": "RKBOOXOULUHGLOSBBBFIRLFWPQQVKGNRTOSSSQTWSSQJZZKEJTAWDULKIWAINBFNTVPYFZMTGWK",
+      "metadata": {
+        "method": "eight_cube",
+        "parameters": {
+          "orientation": "rotated_180"
+        },
+        "anchors_found": {
+          "EAST": false,
+          "NORTHEAST": false,
+          "BERLINCLOCK": false
+        },
+        "anchor_count": 0,
+        "seed": 1344,
+        "full_plaintext": "RKBOOXOULUHGLOSBBBFIRLFWPQQVKGNRTOSSSQTWSSQJZZKEJTAWDULKIWAINBFNTVPYFZMTGWKPXZKDDCJTUKGIUAUHACKEX"
+      }
+    },
+    {
+      "label": "TRIFID_CUBE_008",
+      "text": "XUOOKORBOBLSUGLHLWRFBIBFGRKNQVPQQWSTOSTSZEZKSJSQUKDLTWJABNNFWIIAZTFMVYTPZDX",
+      "metadata": {
+        "method": "eight_cube",
+        "parameters": {
+          "orientation": "diagonal"
+        },
+        "anchors_found": {
+          "EAST": false,
+          "NORTHEAST": false,
+          "BERLINCLOCK": false
+        },
+        "anchor_count": 0,
+        "seed": 1345,
+        "full_plaintext": "XUOOKORBOBLSUGLHLWRFBIBFGRKNQVPQQWSTOSTSZEZKSJSQUKDLTWJABNNFWIIAZTFMVYTPZDXKWPGKKIUGCTDJCEAKAHUUX"
+      }
+    },
+    {
+      "label": "TRIFID_CUBE_009",
+      "text": "RKBOOXOULUHGLOSBBBFIRLFWPQQVKGNRTOSSSQTWSSQJZZKEJTAWDULKIWAINBFNTVPYFZMTGWK",
+      "metadata": {
+        "method": "eight_cube",
+        "parameters": {
+          "orientation": "rotated_180"
+        },
+        "anchors_found": {
+          "EAST": false,
+          "NORTHEAST": false,
+          "BERLINCLOCK": false
+        },
+        "anchor_count": 0,
+        "seed": 1346,
+        "full_plaintext": "RKBOOXOULUHGLOSBBBFIRLFWPQQVKGNRTOSSSQTWSSQJZZKEJTAWDULKIWAINBFNTVPYFZMTGWKPXZKDDCJTUKGIUAUHACKEX"
+      }
+    },
+    {
+      "label": "TRIFID_CUBE_010",
+      "text": "RKBOOXOULUHGLOSBBBFIRLFWPQQVKGNRTOSSSQTWSSQJZZKEJTAWDULKIWAINBFNTVPYFZMTGWK",
+      "metadata": {
+        "method": "eight_cube",
+        "parameters": {
+          "orientation": "rotated_180"
+        },
+        "anchors_found": {
+          "EAST": false,
+          "NORTHEAST": false,
+          "BERLINCLOCK": false
+        },
+        "anchor_count": 0,
+        "seed": 1347,
+        "full_plaintext": "RKBOOXOULUHGLOSBBBFIRLFWPQQVKGNRTOSSSQTWSSQJZZKEJTAWDULKIWAINBFNTVPYFZMTGWKPXZKDDCJTUKGIUAUHACKEX"
+      }
+    },
+    {
+      "label": "TRIFID_CUBE_011",
+      "text": "XUOOKORBOBLSUGLHLWRFBIBFGRKNQVPQQWSTOSTSZEZKSJSQUKDLTWJABNNFWIIAZTFMVYTPZDX",
+      "metadata": {
+        "method": "eight_cube",
+        "parameters": {
+          "orientation": "diagonal"
+        },
+        "anchors_found": {
+          "EAST": false,
+          "NORTHEAST": false,
+          "BERLINCLOCK": false
+        },
+        "anchor_count": 0,
+        "seed": 1348,
+        "full_plaintext": "XUOOKORBOBLSUGLHLWRFBIBFGRKNQVPQQWSTOSTSZEZKSJSQUKDLTWJABNNFWIIAZTFMVYTPZDXKWPGKKIUGCTDJCEAKAHUUX"
+      }
+    },
+    {
+      "label": "TRIFID_CUBE_012",
+      "text": "OBKRUOXOGHULBSOLIFBBWFLRVQQPRNGKSSOTWTQSJQSSEKZZWATJKLUDIAWINFBNYPVTTMZFPKW",
+      "metadata": {
+        "method": "trifid",
+        "parameters": {
+          "key": "ABCDEFGHIJ...",
+          "order": "columns"
+        },
+        "anchors_found": {
+          "EAST": false,
+          "NORTHEAST": false,
+          "BERLINCLOCK": false
+        },
+        "anchor_count": 0,
+        "seed": 1349,
+        "full_plaintext": "OBKRUOXOGHULBSOLIFBBWFLRVQQPRNGKSSOTWTQSJQSSEKZZWATJKLUDIAWINFBNYPVTTMZFPKWGDKZXTJCDIGKUHUAUEKCAR"
+      }
+    },
+    {
+      "label": "TRIFID_CUBE_013",
+      "text": "XUOOKORBOBLSUGLHLWRFBIBFGRKNQVPQQWSTOSTSZEZKSJSQUKDLTWJABNNFWIIAZTFMVYTPZDX",
+      "metadata": {
+        "method": "eight_cube",
+        "parameters": {
+          "orientation": "diagonal"
+        },
+        "anchors_found": {
+          "EAST": false,
+          "NORTHEAST": false,
+          "BERLINCLOCK": false
+        },
+        "anchor_count": 0,
+        "seed": 1350,
+        "full_plaintext": "XUOOKORBOBLSUGLHLWRFBIBFGRKNQVPQQWSTOSTSZEZKSJSQUKDLTWJABNNFWIIAZTFMVYTPZDXKWPGKKIUGCTDJCEAKAHUUX"
+      }
+    },
+    {
+      "label": "TRIFID_CUBE_014",
+      "text": "BROKOOUXHLGUSLBOFBIBFRWLQPVQNKRGSTSOTSWQQSJSKZEZAJWTLDKUAIIWFNNBPTYVMFTZKGP",
+      "metadata": {
+        "method": "eight_cube",
+        "parameters": {
+          "orientation": "rotated_90"
+        },
+        "anchors_found": {
+          "EAST": false,
+          "NORTHEAST": false,
+          "BERLINCLOCK": false
+        },
+        "anchor_count": 0,
+        "seed": 1351,
+        "full_plaintext": "BROKOOUXHLGUSLBOFBIBFRWLQPVQNKRGSTSOTSWQQSJSKZEZAJWTLDKUAIIWFNNBPTYVMFTZKGPWKXDZJDTCGUIKUUHAKAECX"
+      }
+    },
+    {
+      "label": "TRIFID_CUBE_015",
+      "text": "OBKRUOXOGHULBSOLIFBBWFLRVQQPRNGKSSOTWTQSJQSSEKZZWATJKLUDIAWINFBNYPVTTMZFPKW",
+      "metadata": {
+        "method": "eight_cube",
+        "parameters": {
+          "orientation": "standard"
+        },
+        "anchors_found": {
+          "EAST": false,
+          "NORTHEAST": false,
+          "BERLINCLOCK": false
+        },
+        "anchor_count": 0,
+        "seed": 1352,
+        "full_plaintext": "OBKRUOXOGHULBSOLIFBBWFLRVQQPRNGKSSOTWTQSJQSSEKZZWATJKLUDIAWINFBNYPVTTMZFPKWGDKZXTJCDIGKUHUAUEKCAR"
+      }
+    },
+    {
+      "label": "TRIFID_CUBE_016",
+      "text": "OJERYQXWSHYHBGQLUPBJOFVZVOWPXNGMCSWFWPWSDWSGMKRXWAFJMHUBYAQYNTDNITVPFMRPPMO",
+      "metadata": {
+        "method": "trifid",
+        "parameters": {
+          "key": ".ZYXWVUTSR...",
+          "order": "spiral"
+        },
+        "anchors_found": {
+          "EAST": false,
+          "NORTHEAST": false,
+          "BERLINCLOCK": false
+        },
+        "anchor_count": 0,
+        "seed": 1353,
+        "full_plaintext": "OJERYQXWSHYHBGQLUPBJOFVZVOWPXNGMCSWFWPWSDWSGMKRXWAFJMHUBYAQYNTDNITVPFMRPPMOGBEZZFJSJICEULIAYMKSAR"
+      }
+    },
+    {
+      "label": "TRIFID_CUBE_017",
+      "text": "OJERYQXWSHYHBGQLUPBJOFVZVOWPXNGMCSWFWPWSDWSGMKRXWAFJMHUBYAQYNTDNITVPFMRPPMO",
+      "metadata": {
+        "method": "trifid",
+        "parameters": {
+          "key": "ABCDEFGHIJ...",
+          "order": "spiral"
+        },
+        "anchors_found": {
+          "EAST": false,
+          "NORTHEAST": false,
+          "BERLINCLOCK": false
+        },
+        "anchor_count": 0,
+        "seed": 1354,
+        "full_plaintext": "OJERYQXWSHYHBGQLUPBJOFVZVOWPXNGMCSWFWPWSDWSGMKRXWAFJMHUBYAQYNTDNITVPFMRPPMOGBEZZFJSJICEULIAYMKSAR"
+      }
+    },
+    {
+      "label": "TRIFID_CUBE_018",
+      "text": "OBKRUOXOGHULBSOLIFBBWFLRVQQPRNGKSSOTWTQSJQSSEKZZWATJKLUDIAWINFBNYPVTTMZFPKW",
+      "metadata": {
+        "method": "trifid",
+        "parameters": {
+          "key": "ABCDEFGHIJ...",
+          "order": "columns"
+        },
+        "anchors_found": {
+          "EAST": false,
+          "NORTHEAST": false,
+          "BERLINCLOCK": false
+        },
+        "anchor_count": 0,
+        "seed": 1355,
+        "full_plaintext": "OBKRUOXOGHULBSOLIFBBWFLRVQQPRNGKSSOTWTQSJQSSEKZZWATJKLUDIAWINFBNYPVTTMZFPKWGDKZXTJCDIGKUHUAUEKCAR"
+      }
+    },
+    {
+      "label": "TRIFID_CUBE_019",
+      "text": "OJERYQXWSHYHBGQLUPBJOFVZVOWPXNGMCSWFWPWSDWSGMKRXWAFJMHUBYAQYNTDNITVPFMRPPMO",
+      "metadata": {
+        "method": "trifid",
+        "parameters": {
+          "key": ".ZYXWVUTSR...",
+          "order": "spiral"
+        },
+        "anchors_found": {
+          "EAST": false,
+          "NORTHEAST": false,
+          "BERLINCLOCK": false
+        },
+        "anchor_count": 0,
+        "seed": 1356,
+        "full_plaintext": "OJERYQXWSHYHBGQLUPBJOFVZVOWPXNGMCSWFWPWSDWSGMKRXWAFJMHUBYAQYNTDNITVPFMRPPMOGBEZZFJSJICEULIAYMKSAR"
+      }
+    },
+    {
+      "label": "TRIFID_CUBE_020",
+      "text": "OBKRUOXOGHULBSOLIFBBWFLRVQQPRNGKSSOTWTQSJQSSEKZZWATJKLUDIAWINFBNYPVTTMZFPKW",
+      "metadata": {
+        "method": "trifid",
+        "parameters": {
+          "key": ".ZYXWVUTSR...",
+          "order": "columns"
+        },
+        "anchors_found": {
+          "EAST": false,
+          "NORTHEAST": false,
+          "BERLINCLOCK": false
+        },
+        "anchor_count": 0,
+        "seed": 1357,
+        "full_plaintext": "OBKRUOXOGHULBSOLIFBBWFLRVQQPRNGKSSOTWTQSJQSSEKZZWATJKLUDIAWINFBNYPVTTMZFPKWGDKZXTJCDIGKUHUAUEKCAR"
+      }
+    },
+    {
+      "label": "TRIFID_CUBE_021",
+      "text": "OJERYQXWSHYHBGQLUPBJOFVZVOWPXNGMCSWFWPWSDWSGMKRXWAFJMHUBYAQYNTDNITVPFMRPPMO",
+      "metadata": {
+        "method": "trifid",
+        "parameters": {
+          "key": "ABCDEFGHIJ...",
+          "order": "spiral"
+        },
+        "anchors_found": {
+          "EAST": false,
+          "NORTHEAST": false,
+          "BERLINCLOCK": false
+        },
+        "anchor_count": 0,
+        "seed": 1358,
+        "full_plaintext": "OJERYQXWSHYHBGQLUPBJOFVZVOWPXNGMCSWFWPWSDWSGMKRXWAFJMHUBYAQYNTDNITVPFMRPPMOGBEZZFJSJICEULIAYMKSAR"
+      }
+    },
+    {
+      "label": "TRIFID_CUBE_022",
+      "text": "OJERYQXWSHYHBGQLUPBJOFVZVOWPXNGMCSWFWPWSDWSGMKRXWAFJMHUBYAQYNTDNITVPFMRPPMO",
+      "metadata": {
+        "method": "trifid",
+        "parameters": {
+          "key": ".ZYXWVUTSR...",
+          "order": "spiral"
+        },
+        "anchors_found": {
+          "EAST": false,
+          "NORTHEAST": false,
+          "BERLINCLOCK": false
+        },
+        "anchor_count": 0,
+        "seed": 1359,
+        "full_plaintext": "OJERYQXWSHYHBGQLUPBJOFVZVOWPXNGMCSWFWPWSDWSGMKRXWAFJMHUBYAQYNTDNITVPFMRPPMOGBEZZFJSJICEULIAYMKSAR"
+      }
+    },
+    {
+      "label": "TRIFID_CUBE_023",
+      "text": "BROKOOUXHLGUSLBOFBIBFRWLQPVQNKRGSTSOTSWQQSJSKZEZAJWTLDKUAIIWFNNBPTYVMFTZKGP",
+      "metadata": {
+        "method": "eight_cube",
+        "parameters": {
+          "orientation": "rotated_90"
+        },
+        "anchors_found": {
+          "EAST": false,
+          "NORTHEAST": false,
+          "BERLINCLOCK": false
+        },
+        "anchor_count": 0,
+        "seed": 1360,
+        "full_plaintext": "BROKOOUXHLGUSLBOFBIBFRWLQPVQNKRGSTSOTSWQQSJSKZEZAJWTLDKUAIIWFNNBPTYVMFTZKGPWKXDZJDTCGUIKUUHAKAECX"
+      }
+    },
+    {
+      "label": "TRIFID_CUBE_024",
+      "text": "BROKOOUXHLGUSLBOFBIBFRWLQPVQNKRGSTSOTSWQQSJSKZEZAJWTLDKUAIIWFNNBPTYVMFTZKGP",
+      "metadata": {
+        "method": "eight_cube",
+        "parameters": {
+          "orientation": "rotated_90"
+        },
+        "anchors_found": {
+          "EAST": false,
+          "NORTHEAST": false,
+          "BERLINCLOCK": false
+        },
+        "anchor_count": 0,
+        "seed": 1361,
+        "full_plaintext": "BROKOOUXHLGUSLBOFBIBFRWLQPVQNKRGSTSOTSWQQSJSKZEZAJWTLDKUAIIWFNNBPTYVMFTZKGPWKXDZJDTCGUIKUUHAKAECX"
+      }
+    },
+    {
+      "label": "TRIFID_CUBE_025",
+      "text": "BROKOOUXHLGUSLBOFBIBFRWLQPVQNKRGSTSOTSWQQSJSKZEZAJWTLDKUAIIWFNNBPTYVMFTZKGP",
+      "metadata": {
+        "method": "eight_cube",
+        "parameters": {
+          "orientation": "rotated_90"
+        },
+        "anchors_found": {
+          "EAST": false,
+          "NORTHEAST": false,
+          "BERLINCLOCK": false
+        },
+        "anchor_count": 0,
+        "seed": 1362,
+        "full_plaintext": "BROKOOUXHLGUSLBOFBIBFRWLQPVQNKRGSTSOTSWQQSJSKZEZAJWTLDKUAIIWFNNBPTYVMFTZKGPWKXDZJDTCGUIKUUHAKAECX"
+      }
+    },
+    {
+      "label": "TRIFID_CUBE_026",
+      "text": "OBKRUOXOGHULBSOLIFBBWFLRVQQPRNGKSSOTWTQSJQSSEKZZWATJKLUDIAWINFBNYPVTTMZFPKW",
+      "metadata": {
+        "method": "eight_cube",
+        "parameters": {
+          "orientation": "standard"
+        },
+        "anchors_found": {
+          "EAST": false,
+          "NORTHEAST": false,
+          "BERLINCLOCK": false
+        },
+        "anchor_count": 0,
+        "seed": 1363,
+        "full_plaintext": "OBKRUOXOGHULBSOLIFBBWFLRVQQPRNGKSSOTWTQSJQSSEKZZWATJKLUDIAWINFBNYPVTTMZFPKWGDKZXTJCDIGKUHUAUEKCAR"
+      }
+    },
+    {
+      "label": "TRIFID_CUBE_027",
+      "text": "XUOOKORBOBLSUGLHLWRFBIBFGRKNQVPQQWSTOSTSZEZKSJSQUKDLTWJABNNFWIIAZTFMVYTPZDX",
+      "metadata": {
+        "method": "eight_cube",
+        "parameters": {
+          "orientation": "diagonal"
+        },
+        "anchors_found": {
+          "EAST": false,
+          "NORTHEAST": false,
+          "BERLINCLOCK": false
+        },
+        "anchor_count": 0,
+        "seed": 1364,
+        "full_plaintext": "XUOOKORBOBLSUGLHLWRFBIBFGRKNQVPQQWSTOSTSZEZKSJSQUKDLTWJABNNFWIIAZTFMVYTPZDXKWPGKKIUGCTDJCEAKAHUUX"
+      }
+    },
+    {
+      "label": "TRIFID_CUBE_028",
+      "text": "OBKRUOXOGHULBSOLIFBBWFLRVQQPRNGKSSOTWTQSJQSSEKZZWATJKLUDIAWINFBNYPVTTMZFPKW",
+      "metadata": {
+        "method": "eight_cube",
+        "parameters": {
+          "orientation": "standard"
+        },
+        "anchors_found": {
+          "EAST": false,
+          "NORTHEAST": false,
+          "BERLINCLOCK": false
+        },
+        "anchor_count": 0,
+        "seed": 1365,
+        "full_plaintext": "OBKRUOXOGHULBSOLIFBBWFLRVQQPRNGKSSOTWTQSJQSSEKZZWATJKLUDIAWINFBNYPVTTMZFPKWGDKZXTJCDIGKUHUAUEKCAR"
+      }
+    },
+    {
+      "label": "TRIFID_CUBE_029",
+      "text": "XUOOKORBOBLSUGLHLWRFBIBFGRKNQVPQQWSTOSTSZEZKSJSQUKDLTWJABNNFWIIAZTFMVYTPZDX",
+      "metadata": {
+        "method": "eight_cube",
+        "parameters": {
+          "orientation": "diagonal"
+        },
+        "anchors_found": {
+          "EAST": false,
+          "NORTHEAST": false,
+          "BERLINCLOCK": false
+        },
+        "anchor_count": 0,
+        "seed": 1366,
+        "full_plaintext": "XUOOKORBOBLSUGLHLWRFBIBFGRKNQVPQQWSTOSTSZEZKSJSQUKDLTWJABNNFWIIAZTFMVYTPZDXKWPGKKIUGCTDJCEAKAHUUX"
+      }
+    },
+    {
+      "label": "TRIFID_CUBE_030",
+      "text": "RKBOOXOULUHGLOSBBBFIRLFWPQQVKGNRTOSSSQTWSSQJZZKEJTAWDULKIWAINBFNTVPYFZMTGWK",
+      "metadata": {
+        "method": "eight_cube",
+        "parameters": {
+          "orientation": "rotated_180"
+        },
+        "anchors_found": {
+          "EAST": false,
+          "NORTHEAST": false,
+          "BERLINCLOCK": false
+        },
+        "anchor_count": 0,
+        "seed": 1367,
+        "full_plaintext": "RKBOOXOULUHGLOSBBBFIRLFWPQQVKGNRTOSSSQTWSSQJZZKEJTAWDULKIWAINBFNTVPYFZMTGWKPXZKDDCJTUKGIUAUHACKEX"
+      }
+    },
+    {
+      "label": "TRIFID_CUBE_031",
+      "text": "RKBOOXOULUHGLOSBBBFIRLFWPQQVKGNRTOSSSQTWSSQJZZKEJTAWDULKIWAINBFNTVPYFZMTGWK",
+      "metadata": {
+        "method": "eight_cube",
+        "parameters": {
+          "orientation": "rotated_180"
+        },
+        "anchors_found": {
+          "EAST": false,
+          "NORTHEAST": false,
+          "BERLINCLOCK": false
+        },
+        "anchor_count": 0,
+        "seed": 1368,
+        "full_plaintext": "RKBOOXOULUHGLOSBBBFIRLFWPQQVKGNRTOSSSQTWSSQJZZKEJTAWDULKIWAINBFNTVPYFZMTGWKPXZKDDCJTUKGIUAUHACKEX"
+      }
+    },
+    {
+      "label": "TRIFID_CUBE_032",
+      "text": "OBKRUOXOGHULBSOLIFBBWFLRVQQPRNGKSSOTWTQSJQSSEKZZWATJKLUDIAWINFBNYPVTTMZFPKW",
+      "metadata": {
+        "method": "trifid",
+        "parameters": {
+          "key": ".ZYXWVUTSR...",
+          "order": "rows"
+        },
+        "anchors_found": {
+          "EAST": false,
+          "NORTHEAST": false,
+          "BERLINCLOCK": false
+        },
+        "anchor_count": 0,
+        "seed": 1369,
+        "full_plaintext": "OBKRUOXOGHULBSOLIFBBWFLRVQQPRNGKSSOTWTQSJQSSEKZZWATJKLUDIAWINFBNYPVTTMZFPKWGDKZXTJCDIGKUHUAUEKCAR"
+      }
+    },
+    {
+      "label": "TRIFID_CUBE_033",
+      "text": "BROKOOUXHLGUSLBOFBIBFRWLQPVQNKRGSTSOTSWQQSJSKZEZAJWTLDKUAIIWFNNBPTYVMFTZKGP",
+      "metadata": {
+        "method": "eight_cube",
+        "parameters": {
+          "orientation": "rotated_90"
+        },
+        "anchors_found": {
+          "EAST": false,
+          "NORTHEAST": false,
+          "BERLINCLOCK": false
+        },
+        "anchor_count": 0,
+        "seed": 1370,
+        "full_plaintext": "BROKOOUXHLGUSLBOFBIBFRWLQPVQNKRGSTSOTSWQQSJSKZEZAJWTLDKUAIIWFNNBPTYVMFTZKGPWKXDZJDTCGUIKUUHAKAECX"
+      }
+    },
+    {
+      "label": "TRIFID_CUBE_034",
+      "text": "OBKRUOXOGHULBSOLIFBBWFLRVQQPRNGKSSOTWTQSJQSSEKZZWATJKLUDIAWINFBNYPVTTMZFPKW",
+      "metadata": {
+        "method": "trifid",
+        "parameters": {
+          "key": "ABCDEFGHIJ...",
+          "order": "rows"
+        },
+        "anchors_found": {
+          "EAST": false,
+          "NORTHEAST": false,
+          "BERLINCLOCK": false
+        },
+        "anchor_count": 0,
+        "seed": 1371,
+        "full_plaintext": "OBKRUOXOGHULBSOLIFBBWFLRVQQPRNGKSSOTWTQSJQSSEKZZWATJKLUDIAWINFBNYPVTTMZFPKWGDKZXTJCDIGKUHUAUEKCAR"
+      }
+    },
+    {
+      "label": "TRIFID_CUBE_035",
+      "text": "OBKRUOXOGHULBSOLIFBBWFLRVQQPRNGKSSOTWTQSJQSSEKZZWATJKLUDIAWINFBNYPVTTMZFPKW",
+      "metadata": {
+        "method": "trifid",
+        "parameters": {
+          "key": ".ZYXWVUTSR...",
+          "order": "columns"
+        },
+        "anchors_found": {
+          "EAST": false,
+          "NORTHEAST": false,
+          "BERLINCLOCK": false
+        },
+        "anchor_count": 0,
+        "seed": 1372,
+        "full_plaintext": "OBKRUOXOGHULBSOLIFBBWFLRVQQPRNGKSSOTWTQSJQSSEKZZWATJKLUDIAWINFBNYPVTTMZFPKWGDKZXTJCDIGKUHUAUEKCAR"
+      }
+    },
+    {
+      "label": "TRIFID_CUBE_036",
+      "text": "BROKOOUXHLGUSLBOFBIBFRWLQPVQNKRGSTSOTSWQQSJSKZEZAJWTLDKUAIIWFNNBPTYVMFTZKGP",
+      "metadata": {
+        "method": "eight_cube",
+        "parameters": {
+          "orientation": "rotated_90"
+        },
+        "anchors_found": {
+          "EAST": false,
+          "NORTHEAST": false,
+          "BERLINCLOCK": false
+        },
+        "anchor_count": 0,
+        "seed": 1373,
+        "full_plaintext": "BROKOOUXHLGUSLBOFBIBFRWLQPVQNKRGSTSOTSWQQSJSKZEZAJWTLDKUAIIWFNNBPTYVMFTZKGPWKXDZJDTCGUIKUUHAKAECX"
+      }
+    },
+    {
+      "label": "TRIFID_CUBE_037",
+      "text": "OJERYQXWSHYHBGQLUPBJOFVZVOWPXNGMCSWFWPWSDWSGMKRXWAFJMHUBYAQYNTDNITVPFMRPPMO",
+      "metadata": {
+        "method": "trifid",
+        "parameters": {
+          "key": ".ZYXWVUTSR...",
+          "order": "spiral"
+        },
+        "anchors_found": {
+          "EAST": false,
+          "NORTHEAST": false,
+          "BERLINCLOCK": false
+        },
+        "anchor_count": 0,
+        "seed": 1374,
+        "full_plaintext": "OJERYQXWSHYHBGQLUPBJOFVZVOWPXNGMCSWFWPWSDWSGMKRXWAFJMHUBYAQYNTDNITVPFMRPPMOGBEZZFJSJICEULIAYMKSAR"
+      }
+    },
+    {
+      "label": "TRIFID_CUBE_038",
+      "text": "OBKRUOXOGHULBSOLIFBBWFLRVQQPRNGKSSOTWTQSJQSSEKZZWATJKLUDIAWINFBNYPVTTMZFPKW",
+      "metadata": {
+        "method": "eight_cube",
+        "parameters": {
+          "orientation": "standard"
+        },
+        "anchors_found": {
+          "EAST": false,
+          "NORTHEAST": false,
+          "BERLINCLOCK": false
+        },
+        "anchor_count": 0,
+        "seed": 1375,
+        "full_plaintext": "OBKRUOXOGHULBSOLIFBBWFLRVQQPRNGKSSOTWTQSJQSSEKZZWATJKLUDIAWINFBNYPVTTMZFPKWGDKZXTJCDIGKUHUAUEKCAR"
+      }
+    },
+    {
+      "label": "TRIFID_CUBE_039",
+      "text": "OBKRUOXOGHULBSOLIFBBWFLRVQQPRNGKSSOTWTQSJQSSEKZZWATJKLUDIAWINFBNYPVTTMZFPKW",
+      "metadata": {
+        "method": "trifid",
+        "parameters": {
+          "key": ".ZYXWVUTSR...",
+          "order": "rows"
+        },
+        "anchors_found": {
+          "EAST": false,
+          "NORTHEAST": false,
+          "BERLINCLOCK": false
+        },
+        "anchor_count": 0,
+        "seed": 1376,
+        "full_plaintext": "OBKRUOXOGHULBSOLIFBBWFLRVQQPRNGKSSOTWTQSJQSSEKZZWATJKLUDIAWINFBNYPVTTMZFPKWGDKZXTJCDIGKUHUAUEKCAR"
+      }
+    },
+    {
+      "label": "TRIFID_CUBE_040",
+      "text": "OBKRUOXOGHULBSOLIFBBWFLRVQQPRNGKSSOTWTQSJQSSEKZZWATJKLUDIAWINFBNYPVTTMZFPKW",
+      "metadata": {
+        "method": "trifid",
+        "parameters": {
+          "key": "KRYPTOSABC...",
+          "order": "columns"
+        },
+        "anchors_found": {
+          "EAST": false,
+          "NORTHEAST": false,
+          "BERLINCLOCK": false
+        },
+        "anchor_count": 0,
+        "seed": 1377,
+        "full_plaintext": "OBKRUOXOGHULBSOLIFBBWFLRVQQPRNGKSSOTWTQSJQSSEKZZWATJKLUDIAWINFBNYPVTTMZFPKWGDKZXTJCDIGKUHUAUEKCAR"
+      }
+    },
+    {
+      "label": "TRIFID_CUBE_041",
+      "text": "OBKRUOXOGHULBSOLIFBBWFLRVQQPRNGKSSOTWTQSJQSSEKZZWATJKLUDIAWINFBNYPVTTMZFPKW",
+      "metadata": {
+        "method": "trifid",
+        "parameters": {
+          "key": "ABCDEFGHIJ...",
+          "order": "columns"
+        },
+        "anchors_found": {
+          "EAST": false,
+          "NORTHEAST": false,
+          "BERLINCLOCK": false
+        },
+        "anchor_count": 0,
+        "seed": 1378,
+        "full_plaintext": "OBKRUOXOGHULBSOLIFBBWFLRVQQPRNGKSSOTWTQSJQSSEKZZWATJKLUDIAWINFBNYPVTTMZFPKWGDKZXTJCDIGKUHUAUEKCAR"
+      }
+    },
+    {
+      "label": "TRIFID_CUBE_042",
+      "text": "RKBOOXOULUHGLOSBBBFIRLFWPQQVKGNRTOSSSQTWSSQJZZKEJTAWDULKIWAINBFNTVPYFZMTGWK",
+      "metadata": {
+        "method": "eight_cube",
+        "parameters": {
+          "orientation": "rotated_180"
+        },
+        "anchors_found": {
+          "EAST": false,
+          "NORTHEAST": false,
+          "BERLINCLOCK": false
+        },
+        "anchor_count": 0,
+        "seed": 1379,
+        "full_plaintext": "RKBOOXOULUHGLOSBBBFIRLFWPQQVKGNRTOSSSQTWSSQJZZKEJTAWDULKIWAINBFNTVPYFZMTGWKPXZKDDCJTUKGIUAUHACKEX"
+      }
+    },
+    {
+      "label": "TRIFID_CUBE_043",
+      "text": "BROKOOUXHLGUSLBOFBIBFRWLQPVQNKRGSTSOTSWQQSJSKZEZAJWTLDKUAIIWFNNBPTYVMFTZKGP",
+      "metadata": {
+        "method": "eight_cube",
+        "parameters": {
+          "orientation": "rotated_90"
+        },
+        "anchors_found": {
+          "EAST": false,
+          "NORTHEAST": false,
+          "BERLINCLOCK": false
+        },
+        "anchor_count": 0,
+        "seed": 1380,
+        "full_plaintext": "BROKOOUXHLGUSLBOFBIBFRWLQPVQNKRGSTSOTSWQQSJSKZEZAJWTLDKUAIIWFNNBPTYVMFTZKGPWKXDZJDTCGUIKUUHAKAECX"
+      }
+    },
+    {
+      "label": "TRIFID_CUBE_044",
+      "text": "OQKRAIXNGHAZBYILODBQLFWPVXBPCOGKMSNFWDBSHBSYAKLWWEFJKZUFNAZNNTXNMCVDFMLDPKL",
+      "metadata": {
+        "method": "trifid",
+        "parameters": {
+          "key": "KRYPTOSABC...",
+          "order": "spiral"
+        },
+        "anchors_found": {
+          "EAST": false,
+          "NORTHEAST": false,
+          "BERLINCLOCK": false
+        },
+        "anchor_count": 0,
+        "seed": 1381,
+        "full_plaintext": "OQKRAIXNGHAZBYILODBQLFWPVXBPCOGKMSNFWDBSHBSYAKLWWEFJKZUFNAZNNTXNMCVDFMLDPKLGFKZBFJPTIGKUVEAAAKPUR"
+      }
+    },
+    {
+      "label": "TRIFID_CUBE_045",
+      "text": "OBKRUOXOGHULBSOLIFBBWFLRVQQPRNGKSSOTWTQSJQSSEKZZWATJKLUDIAWINFBNYPVTTMZFPKW",
+      "metadata": {
+        "method": "trifid",
+        "parameters": {
+          "key": "KRYPTOSABC...",
+          "order": "rows"
+        },
+        "anchors_found": {
+          "EAST": false,
+          "NORTHEAST": false,
+          "BERLINCLOCK": false
+        },
+        "anchor_count": 0,
+        "seed": 1382,
+        "full_plaintext": "OBKRUOXOGHULBSOLIFBBWFLRVQQPRNGKSSOTWTQSJQSSEKZZWATJKLUDIAWINFBNYPVTTMZFPKWGDKZXTJCDIGKUHUAUEKCAR"
+      }
+    },
+    {
+      "label": "TRIFID_CUBE_046",
+      "text": "OBKRUOXOGHULBSOLIFBBWFLRVQQPRNGKSSOTWTQSJQSSEKZZWATJKLUDIAWINFBNYPVTTMZFPKW",
+      "metadata": {
+        "method": "trifid",
+        "parameters": {
+          "key": "KRYPTOSABC...",
+          "order": "columns"
+        },
+        "anchors_found": {
+          "EAST": false,
+          "NORTHEAST": false,
+          "BERLINCLOCK": false
+        },
+        "anchor_count": 0,
+        "seed": 1383,
+        "full_plaintext": "OBKRUOXOGHULBSOLIFBBWFLRVQQPRNGKSSOTWTQSJQSSEKZZWATJKLUDIAWINFBNYPVTTMZFPKWGDKZXTJCDIGKUHUAUEKCAR"
+      }
+    },
+    {
+      "label": "TRIFID_CUBE_047",
+      "text": "XUOOKORBOBLSUGLHLWRFBIBFGRKNQVPQQWSTOSTSZEZKSJSQUKDLTWJABNNFWIIAZTFMVYTPZDX",
+      "metadata": {
+        "method": "eight_cube",
+        "parameters": {
+          "orientation": "diagonal"
+        },
+        "anchors_found": {
+          "EAST": false,
+          "NORTHEAST": false,
+          "BERLINCLOCK": false
+        },
+        "anchor_count": 0,
+        "seed": 1384,
+        "full_plaintext": "XUOOKORBOBLSUGLHLWRFBIBFGRKNQVPQQWSTOSTSZEZKSJSQUKDLTWJABNNFWIIAZTFMVYTPZDXKWPGKKIUGCTDJCEAKAHUUX"
+      }
+    },
+    {
+      "label": "TRIFID_CUBE_048",
+      "text": "XUOOKORBOBLSUGLHLWRFBIBFGRKNQVPQQWSTOSTSZEZKSJSQUKDLTWJABNNFWIIAZTFMVYTPZDX",
+      "metadata": {
+        "method": "eight_cube",
+        "parameters": {
+          "orientation": "diagonal"
+        },
+        "anchors_found": {
+          "EAST": false,
+          "NORTHEAST": false,
+          "BERLINCLOCK": false
+        },
+        "anchor_count": 0,
+        "seed": 1385,
+        "full_plaintext": "XUOOKORBOBLSUGLHLWRFBIBFGRKNQVPQQWSTOSTSZEZKSJSQUKDLTWJABNNFWIIAZTFMVYTPZDXKWPGKKIUGCTDJCEAKAHUUX"
+      }
+    },
+    {
+      "label": "TRIFID_CUBE_049",
+      "text": "RKBOOXOULUHGLOSBBBFIRLFWPQQVKGNRTOSSSQTWSSQJZZKEJTAWDULKIWAINBFNTVPYFZMTGWK",
+      "metadata": {
+        "method": "eight_cube",
+        "parameters": {
+          "orientation": "rotated_180"
+        },
+        "anchors_found": {
+          "EAST": false,
+          "NORTHEAST": false,
+          "BERLINCLOCK": false
+        },
+        "anchor_count": 0,
+        "seed": 1386,
+        "full_plaintext": "RKBOOXOULUHGLOSBBBFIRLFWPQQVKGNRTOSSSQTWSSQJZZKEJTAWDULKIWAINBFNTVPYFZMTGWKPXZKDDCJTUKGIUAUHACKEX"
+      }
+    },
+    {
+      "label": "TRIFID_CUBE_050",
+      "text": "OJERYQXWSHYHBGQLUPBJOFVZVOWPXNGMCSWFWPWSDWSGMKRXWAFJMHUBYAQYNTDNITVPFMRPPMO",
+      "metadata": {
+        "method": "trifid",
+        "parameters": {
+          "key": ".ZYXWVUTSR...",
+          "order": "spiral"
+        },
+        "anchors_found": {
+          "EAST": false,
+          "NORTHEAST": false,
+          "BERLINCLOCK": false
+        },
+        "anchor_count": 0,
+        "seed": 1387,
+        "full_plaintext": "OJERYQXWSHYHBGQLUPBJOFVZVOWPXNGMCSWFWPWSDWSGMKRXWAFJMHUBYAQYNTDNITVPFMRPPMOGBEZZFJSJICEULIAYMKSAR"
+      }
+    },
+    {
+      "label": "TRIFID_CUBE_051",
+      "text": "OBKRUOXOGHULBSOLIFBBWFLRVQQPRNGKSSOTWTQSJQSSEKZZWATJKLUDIAWINFBNYPVTTMZFPKW",
+      "metadata": {
+        "method": "trifid",
+        "parameters": {
+          "key": "KRYPTOSABC...",
+          "order": "columns"
+        },
+        "anchors_found": {
+          "EAST": false,
+          "NORTHEAST": false,
+          "BERLINCLOCK": false
+        },
+        "anchor_count": 0,
+        "seed": 1388,
+        "full_plaintext": "OBKRUOXOGHULBSOLIFBBWFLRVQQPRNGKSSOTWTQSJQSSEKZZWATJKLUDIAWINFBNYPVTTMZFPKWGDKZXTJCDIGKUHUAUEKCAR"
+      }
+    },
+    {
+      "label": "TRIFID_CUBE_052",
+      "text": "RKBOOXOULUHGLOSBBBFIRLFWPQQVKGNRTOSSSQTWSSQJZZKEJTAWDULKIWAINBFNTVPYFZMTGWK",
+      "metadata": {
+        "method": "eight_cube",
+        "parameters": {
+          "orientation": "rotated_180"
+        },
+        "anchors_found": {
+          "EAST": false,
+          "NORTHEAST": false,
+          "BERLINCLOCK": false
+        },
+        "anchor_count": 0,
+        "seed": 1389,
+        "full_plaintext": "RKBOOXOULUHGLOSBBBFIRLFWPQQVKGNRTOSSSQTWSSQJZZKEJTAWDULKIWAINBFNTVPYFZMTGWKPXZKDDCJTUKGIUAUHACKEX"
+      }
+    },
+    {
+      "label": "TRIFID_CUBE_053",
+      "text": "RKBOOXOULUHGLOSBBBFIRLFWPQQVKGNRTOSSSQTWSSQJZZKEJTAWDULKIWAINBFNTVPYFZMTGWK",
+      "metadata": {
+        "method": "eight_cube",
+        "parameters": {
+          "orientation": "rotated_180"
+        },
+        "anchors_found": {
+          "EAST": false,
+          "NORTHEAST": false,
+          "BERLINCLOCK": false
+        },
+        "anchor_count": 0,
+        "seed": 1390,
+        "full_plaintext": "RKBOOXOULUHGLOSBBBFIRLFWPQQVKGNRTOSSSQTWSSQJZZKEJTAWDULKIWAINBFNTVPYFZMTGWKPXZKDDCJTUKGIUAUHACKEX"
+      }
+    },
+    {
+      "label": "TRIFID_CUBE_054",
+      "text": "OBKRUOXOGHULBSOLIFBBWFLRVQQPRNGKSSOTWTQSJQSSEKZZWATJKLUDIAWINFBNYPVTTMZFPKW",
+      "metadata": {
+        "method": "trifid",
+        "parameters": {
+          "key": "KRYPTOSABC...",
+          "order": "columns"
+        },
+        "anchors_found": {
+          "EAST": false,
+          "NORTHEAST": false,
+          "BERLINCLOCK": false
+        },
+        "anchor_count": 0,
+        "seed": 1391,
+        "full_plaintext": "OBKRUOXOGHULBSOLIFBBWFLRVQQPRNGKSSOTWTQSJQSSEKZZWATJKLUDIAWINFBNYPVTTMZFPKWGDKZXTJCDIGKUHUAUEKCAR"
+      }
+    },
+    {
+      "label": "TRIFID_CUBE_055",
+      "text": "XUOOKORBOBLSUGLHLWRFBIBFGRKNQVPQQWSTOSTSZEZKSJSQUKDLTWJABNNFWIIAZTFMVYTPZDX",
+      "metadata": {
+        "method": "eight_cube",
+        "parameters": {
+          "orientation": "diagonal"
+        },
+        "anchors_found": {
+          "EAST": false,
+          "NORTHEAST": false,
+          "BERLINCLOCK": false
+        },
+        "anchor_count": 0,
+        "seed": 1392,
+        "full_plaintext": "XUOOKORBOBLSUGLHLWRFBIBFGRKNQVPQQWSTOSTSZEZKSJSQUKDLTWJABNNFWIIAZTFMVYTPZDXKWPGKKIUGCTDJCEAKAHUUX"
+      }
+    },
+    {
+      "label": "TRIFID_CUBE_056",
+      "text": "OQKRAIXNGHAZBYILODBQLFWPVXBPCOGKMSNFWDBSHBSYAKLWWEFJKZUFNAZNNTXNMCVDFMLDPKL",
+      "metadata": {
+        "method": "trifid",
+        "parameters": {
+          "key": "KRYPTOSABC...",
+          "order": "spiral"
+        },
+        "anchors_found": {
+          "EAST": false,
+          "NORTHEAST": false,
+          "BERLINCLOCK": false
+        },
+        "anchor_count": 0,
+        "seed": 1393,
+        "full_plaintext": "OQKRAIXNGHAZBYILODBQLFWPVXBPCOGKMSNFWDBSHBSYAKLWWEFJKZUFNAZNNTXNMCVDFMLDPKLGFKZBFJPTIGKUVEAAAKPUR"
+      }
+    },
+    {
+      "label": "TRIFID_CUBE_057",
+      "text": "OBKRUOXOGHULBSOLIFBBWFLRVQQPRNGKSSOTWTQSJQSSEKZZWATJKLUDIAWINFBNYPVTTMZFPKW",
+      "metadata": {
+        "method": "trifid",
+        "parameters": {
+          "key": ".ZYXWVUTSR...",
+          "order": "rows"
+        },
+        "anchors_found": {
+          "EAST": false,
+          "NORTHEAST": false,
+          "BERLINCLOCK": false
+        },
+        "anchor_count": 0,
+        "seed": 1394,
+        "full_plaintext": "OBKRUOXOGHULBSOLIFBBWFLRVQQPRNGKSSOTWTQSJQSSEKZZWATJKLUDIAWINFBNYPVTTMZFPKWGDKZXTJCDIGKUHUAUEKCAR"
+      }
+    },
+    {
+      "label": "TRIFID_CUBE_058",
+      "text": "OBKRUOXOGHULBSOLIFBBWFLRVQQPRNGKSSOTWTQSJQSSEKZZWATJKLUDIAWINFBNYPVTTMZFPKW",
+      "metadata": {
+        "method": "trifid",
+        "parameters": {
+          "key": "ABCDEFGHIJ...",
+          "order": "columns"
+        },
+        "anchors_found": {
+          "EAST": false,
+          "NORTHEAST": false,
+          "BERLINCLOCK": false
+        },
+        "anchor_count": 0,
+        "seed": 1395,
+        "full_plaintext": "OBKRUOXOGHULBSOLIFBBWFLRVQQPRNGKSSOTWTQSJQSSEKZZWATJKLUDIAWINFBNYPVTTMZFPKWGDKZXTJCDIGKUHUAUEKCAR"
+      }
+    },
+    {
+      "label": "TRIFID_CUBE_059",
+      "text": "OBKRUOXOGHULBSOLIFBBWFLRVQQPRNGKSSOTWTQSJQSSEKZZWATJKLUDIAWINFBNYPVTTMZFPKW",
+      "metadata": {
+        "method": "trifid",
+        "parameters": {
+          "key": "KRYPTOSABC...",
+          "order": "columns"
+        },
+        "anchors_found": {
+          "EAST": false,
+          "NORTHEAST": false,
+          "BERLINCLOCK": false
+        },
+        "anchor_count": 0,
+        "seed": 1396,
+        "full_plaintext": "OBKRUOXOGHULBSOLIFBBWFLRVQQPRNGKSSOTWTQSJQSSEKZZWATJKLUDIAWINFBNYPVTTMZFPKWGDKZXTJCDIGKUHUAUEKCAR"
+      }
+    },
+    {
+      "label": "TRIFID_CUBE_060",
+      "text": "XUOOKORBOBLSUGLHLWRFBIBFGRKNQVPQQWSTOSTSZEZKSJSQUKDLTWJABNNFWIIAZTFMVYTPZDX",
+      "metadata": {
+        "method": "eight_cube",
+        "parameters": {
+          "orientation": "diagonal"
+        },
+        "anchors_found": {
+          "EAST": false,
+          "NORTHEAST": false,
+          "BERLINCLOCK": false
+        },
+        "anchor_count": 0,
+        "seed": 1397,
+        "full_plaintext": "XUOOKORBOBLSUGLHLWRFBIBFGRKNQVPQQWSTOSTSZEZKSJSQUKDLTWJABNNFWIIAZTFMVYTPZDXKWPGKKIUGCTDJCEAKAHUUX"
+      }
+    },
+    {
+      "label": "TRIFID_CUBE_061",
+      "text": "OBKRUOXOGHULBSOLIFBBWFLRVQQPRNGKSSOTWTQSJQSSEKZZWATJKLUDIAWINFBNYPVTTMZFPKW",
+      "metadata": {
+        "method": "eight_cube",
+        "parameters": {
+          "orientation": "standard"
+        },
+        "anchors_found": {
+          "EAST": false,
+          "NORTHEAST": false,
+          "BERLINCLOCK": false
+        },
+        "anchor_count": 0,
+        "seed": 1398,
+        "full_plaintext": "OBKRUOXOGHULBSOLIFBBWFLRVQQPRNGKSSOTWTQSJQSSEKZZWATJKLUDIAWINFBNYPVTTMZFPKWGDKZXTJCDIGKUHUAUEKCAR"
+      }
+    },
+    {
+      "label": "TRIFID_CUBE_062",
+      "text": "XUOOKORBOBLSUGLHLWRFBIBFGRKNQVPQQWSTOSTSZEZKSJSQUKDLTWJABNNFWIIAZTFMVYTPZDX",
+      "metadata": {
+        "method": "eight_cube",
+        "parameters": {
+          "orientation": "diagonal"
+        },
+        "anchors_found": {
+          "EAST": false,
+          "NORTHEAST": false,
+          "BERLINCLOCK": false
+        },
+        "anchor_count": 0,
+        "seed": 1399,
+        "full_plaintext": "XUOOKORBOBLSUGLHLWRFBIBFGRKNQVPQQWSTOSTSZEZKSJSQUKDLTWJABNNFWIIAZTFMVYTPZDXKWPGKKIUGCTDJCEAKAHUUX"
+      }
+    },
+    {
+      "label": "TRIFID_CUBE_063",
+      "text": "OBKRUOXOGHULBSOLIFBBWFLRVQQPRNGKSSOTWTQSJQSSEKZZWATJKLUDIAWINFBNYPVTTMZFPKW",
+      "metadata": {
+        "method": "trifid",
+        "parameters": {
+          "key": "KRYPTOSABC...",
+          "order": "rows"
+        },
+        "anchors_found": {
+          "EAST": false,
+          "NORTHEAST": false,
+          "BERLINCLOCK": false
+        },
+        "anchor_count": 0,
+        "seed": 1400,
+        "full_plaintext": "OBKRUOXOGHULBSOLIFBBWFLRVQQPRNGKSSOTWTQSJQSSEKZZWATJKLUDIAWINFBNYPVTTMZFPKWGDKZXTJCDIGKUHUAUEKCAR"
+      }
+    },
+    {
+      "label": "TRIFID_CUBE_064",
+      "text": "RKBOOXOULUHGLOSBBBFIRLFWPQQVKGNRTOSSSQTWSSQJZZKEJTAWDULKIWAINBFNTVPYFZMTGWK",
+      "metadata": {
+        "method": "eight_cube",
+        "parameters": {
+          "orientation": "rotated_180"
+        },
+        "anchors_found": {
+          "EAST": false,
+          "NORTHEAST": false,
+          "BERLINCLOCK": false
+        },
+        "anchor_count": 0,
+        "seed": 1401,
+        "full_plaintext": "RKBOOXOULUHGLOSBBBFIRLFWPQQVKGNRTOSSSQTWSSQJZZKEJTAWDULKIWAINBFNTVPYFZMTGWKPXZKDDCJTUKGIUAUHACKEX"
+      }
+    },
+    {
+      "label": "TRIFID_CUBE_065",
+      "text": "OBKRUOXOGHULBSOLIFBBWFLRVQQPRNGKSSOTWTQSJQSSEKZZWATJKLUDIAWINFBNYPVTTMZFPKW",
+      "metadata": {
+        "method": "trifid",
+        "parameters": {
+          "key": ".ZYXWVUTSR...",
+          "order": "rows"
+        },
+        "anchors_found": {
+          "EAST": false,
+          "NORTHEAST": false,
+          "BERLINCLOCK": false
+        },
+        "anchor_count": 0,
+        "seed": 1402,
+        "full_plaintext": "OBKRUOXOGHULBSOLIFBBWFLRVQQPRNGKSSOTWTQSJQSSEKZZWATJKLUDIAWINFBNYPVTTMZFPKWGDKZXTJCDIGKUHUAUEKCAR"
+      }
+    },
+    {
+      "label": "TRIFID_CUBE_066",
+      "text": "OBKRUOXOGHULBSOLIFBBWFLRVQQPRNGKSSOTWTQSJQSSEKZZWATJKLUDIAWINFBNYPVTTMZFPKW",
+      "metadata": {
+        "method": "trifid",
+        "parameters": {
+          "key": "KRYPTOSABC...",
+          "order": "columns"
+        },
+        "anchors_found": {
+          "EAST": false,
+          "NORTHEAST": false,
+          "BERLINCLOCK": false
+        },
+        "anchor_count": 0,
+        "seed": 1403,
+        "full_plaintext": "OBKRUOXOGHULBSOLIFBBWFLRVQQPRNGKSSOTWTQSJQSSEKZZWATJKLUDIAWINFBNYPVTTMZFPKWGDKZXTJCDIGKUHUAUEKCAR"
+      }
+    },
+    {
+      "label": "TRIFID_CUBE_067",
+      "text": "OBKRUOXOGHULBSOLIFBBWFLRVQQPRNGKSSOTWTQSJQSSEKZZWATJKLUDIAWINFBNYPVTTMZFPKW",
+      "metadata": {
+        "method": "eight_cube",
+        "parameters": {
+          "orientation": "standard"
+        },
+        "anchors_found": {
+          "EAST": false,
+          "NORTHEAST": false,
+          "BERLINCLOCK": false
+        },
+        "anchor_count": 0,
+        "seed": 1404,
+        "full_plaintext": "OBKRUOXOGHULBSOLIFBBWFLRVQQPRNGKSSOTWTQSJQSSEKZZWATJKLUDIAWINFBNYPVTTMZFPKWGDKZXTJCDIGKUHUAUEKCAR"
+      }
+    },
+    {
+      "label": "TRIFID_CUBE_068",
+      "text": "BROKOOUXHLGUSLBOFBIBFRWLQPVQNKRGSTSOTSWQQSJSKZEZAJWTLDKUAIIWFNNBPTYVMFTZKGP",
+      "metadata": {
+        "method": "eight_cube",
+        "parameters": {
+          "orientation": "rotated_90"
+        },
+        "anchors_found": {
+          "EAST": false,
+          "NORTHEAST": false,
+          "BERLINCLOCK": false
+        },
+        "anchor_count": 0,
+        "seed": 1405,
+        "full_plaintext": "BROKOOUXHLGUSLBOFBIBFRWLQPVQNKRGSTSOTSWQQSJSKZEZAJWTLDKUAIIWFNNBPTYVMFTZKGPWKXDZJDTCGUIKUUHAKAECX"
+      }
+    },
+    {
+      "label": "TRIFID_CUBE_069",
+      "text": "OBKRUOXOGHULBSOLIFBBWFLRVQQPRNGKSSOTWTQSJQSSEKZZWATJKLUDIAWINFBNYPVTTMZFPKW",
+      "metadata": {
+        "method": "eight_cube",
+        "parameters": {
+          "orientation": "standard"
+        },
+        "anchors_found": {
+          "EAST": false,
+          "NORTHEAST": false,
+          "BERLINCLOCK": false
+        },
+        "anchor_count": 0,
+        "seed": 1406,
+        "full_plaintext": "OBKRUOXOGHULBSOLIFBBWFLRVQQPRNGKSSOTWTQSJQSSEKZZWATJKLUDIAWINFBNYPVTTMZFPKWGDKZXTJCDIGKUHUAUEKCAR"
+      }
+    },
+    {
+      "label": "TRIFID_CUBE_070",
+      "text": "XUOOKORBOBLSUGLHLWRFBIBFGRKNQVPQQWSTOSTSZEZKSJSQUKDLTWJABNNFWIIAZTFMVYTPZDX",
+      "metadata": {
+        "method": "eight_cube",
+        "parameters": {
+          "orientation": "diagonal"
+        },
+        "anchors_found": {
+          "EAST": false,
+          "NORTHEAST": false,
+          "BERLINCLOCK": false
+        },
+        "anchor_count": 0,
+        "seed": 1407,
+        "full_plaintext": "XUOOKORBOBLSUGLHLWRFBIBFGRKNQVPQQWSTOSTSZEZKSJSQUKDLTWJABNNFWIIAZTFMVYTPZDXKWPGKKIUGCTDJCEAKAHUUX"
+      }
+    },
+    {
+      "label": "TRIFID_CUBE_071",
+      "text": "OBKRUOXOGHULBSOLIFBBWFLRVQQPRNGKSSOTWTQSJQSSEKZZWATJKLUDIAWINFBNYPVTTMZFPKW",
+      "metadata": {
+        "method": "trifid",
+        "parameters": {
+          "key": "ABCDEFGHIJ...",
+          "order": "rows"
+        },
+        "anchors_found": {
+          "EAST": false,
+          "NORTHEAST": false,
+          "BERLINCLOCK": false
+        },
+        "anchor_count": 0,
+        "seed": 1408,
+        "full_plaintext": "OBKRUOXOGHULBSOLIFBBWFLRVQQPRNGKSSOTWTQSJQSSEKZZWATJKLUDIAWINFBNYPVTTMZFPKWGDKZXTJCDIGKUHUAUEKCAR"
+      }
+    },
+    {
+      "label": "TRIFID_CUBE_072",
+      "text": "OJERYQXWSHYHBGQLUPBJOFVZVOWPXNGMCSWFWPWSDWSGMKRXWAFJMHUBYAQYNTDNITVPFMRPPMO",
+      "metadata": {
+        "method": "trifid",
+        "parameters": {
+          "key": "ABCDEFGHIJ...",
+          "order": "spiral"
+        },
+        "anchors_found": {
+          "EAST": false,
+          "NORTHEAST": false,
+          "BERLINCLOCK": false
+        },
+        "anchor_count": 0,
+        "seed": 1409,
+        "full_plaintext": "OJERYQXWSHYHBGQLUPBJOFVZVOWPXNGMCSWFWPWSDWSGMKRXWAFJMHUBYAQYNTDNITVPFMRPPMOGBEZZFJSJICEULIAYMKSAR"
+      }
+    },
+    {
+      "label": "TRIFID_CUBE_073",
+      "text": "XUOOKORBOBLSUGLHLWRFBIBFGRKNQVPQQWSTOSTSZEZKSJSQUKDLTWJABNNFWIIAZTFMVYTPZDX",
+      "metadata": {
+        "method": "eight_cube",
+        "parameters": {
+          "orientation": "diagonal"
+        },
+        "anchors_found": {
+          "EAST": false,
+          "NORTHEAST": false,
+          "BERLINCLOCK": false
+        },
+        "anchor_count": 0,
+        "seed": 1410,
+        "full_plaintext": "XUOOKORBOBLSUGLHLWRFBIBFGRKNQVPQQWSTOSTSZEZKSJSQUKDLTWJABNNFWIIAZTFMVYTPZDXKWPGKKIUGCTDJCEAKAHUUX"
+      }
+    },
+    {
+      "label": "TRIFID_CUBE_074",
+      "text": "OBKRUOXOGHULBSOLIFBBWFLRVQQPRNGKSSOTWTQSJQSSEKZZWATJKLUDIAWINFBNYPVTTMZFPKW",
+      "metadata": {
+        "method": "eight_cube",
+        "parameters": {
+          "orientation": "standard"
+        },
+        "anchors_found": {
+          "EAST": false,
+          "NORTHEAST": false,
+          "BERLINCLOCK": false
+        },
+        "anchor_count": 0,
+        "seed": 1411,
+        "full_plaintext": "OBKRUOXOGHULBSOLIFBBWFLRVQQPRNGKSSOTWTQSJQSSEKZZWATJKLUDIAWINFBNYPVTTMZFPKWGDKZXTJCDIGKUHUAUEKCAR"
+      }
+    },
+    {
+      "label": "TRIFID_CUBE_075",
+      "text": "OBKRUOXOGHULBSOLIFBBWFLRVQQPRNGKSSOTWTQSJQSSEKZZWATJKLUDIAWINFBNYPVTTMZFPKW",
+      "metadata": {
+        "method": "trifid",
+        "parameters": {
+          "key": "ABCDEFGHIJ...",
+          "order": "rows"
+        },
+        "anchors_found": {
+          "EAST": false,
+          "NORTHEAST": false,
+          "BERLINCLOCK": false
+        },
+        "anchor_count": 0,
+        "seed": 1412,
+        "full_plaintext": "OBKRUOXOGHULBSOLIFBBWFLRVQQPRNGKSSOTWTQSJQSSEKZZWATJKLUDIAWINFBNYPVTTMZFPKWGDKZXTJCDIGKUHUAUEKCAR"
+      }
+    },
+    {
+      "label": "TRIFID_CUBE_076",
+      "text": "OJERYQXWSHYHBGQLUPBJOFVZVOWPXNGMCSWFWPWSDWSGMKRXWAFJMHUBYAQYNTDNITVPFMRPPMO",
+      "metadata": {
+        "method": "trifid",
+        "parameters": {
+          "key": "ABCDEFGHIJ...",
+          "order": "spiral"
+        },
+        "anchors_found": {
+          "EAST": false,
+          "NORTHEAST": false,
+          "BERLINCLOCK": false
+        },
+        "anchor_count": 0,
+        "seed": 1413,
+        "full_plaintext": "OJERYQXWSHYHBGQLUPBJOFVZVOWPXNGMCSWFWPWSDWSGMKRXWAFJMHUBYAQYNTDNITVPFMRPPMOGBEZZFJSJICEULIAYMKSAR"
+      }
+    },
+    {
+      "label": "TRIFID_CUBE_077",
+      "text": "OBKRUOXOGHULBSOLIFBBWFLRVQQPRNGKSSOTWTQSJQSSEKZZWATJKLUDIAWINFBNYPVTTMZFPKW",
+      "metadata": {
+        "method": "trifid",
+        "parameters": {
+          "key": ".ZYXWVUTSR...",
+          "order": "columns"
+        },
+        "anchors_found": {
+          "EAST": false,
+          "NORTHEAST": false,
+          "BERLINCLOCK": false
+        },
+        "anchor_count": 0,
+        "seed": 1414,
+        "full_plaintext": "OBKRUOXOGHULBSOLIFBBWFLRVQQPRNGKSSOTWTQSJQSSEKZZWATJKLUDIAWINFBNYPVTTMZFPKWGDKZXTJCDIGKUHUAUEKCAR"
+      }
+    },
+    {
+      "label": "TRIFID_CUBE_078",
+      "text": "OQKRAIXNGHAZBYILODBQLFWPVXBPCOGKMSNFWDBSHBSYAKLWWEFJKZUFNAZNNTXNMCVDFMLDPKL",
+      "metadata": {
+        "method": "trifid",
+        "parameters": {
+          "key": "KRYPTOSABC...",
+          "order": "spiral"
+        },
+        "anchors_found": {
+          "EAST": false,
+          "NORTHEAST": false,
+          "BERLINCLOCK": false
+        },
+        "anchor_count": 0,
+        "seed": 1415,
+        "full_plaintext": "OQKRAIXNGHAZBYILODBQLFWPVXBPCOGKMSNFWDBSHBSYAKLWWEFJKZUFNAZNNTXNMCVDFMLDPKLGFKZBFJPTIGKUVEAAAKPUR"
+      }
+    },
+    {
+      "label": "TRIFID_CUBE_079",
+      "text": "OBKRUOXOGHULBSOLIFBBWFLRVQQPRNGKSSOTWTQSJQSSEKZZWATJKLUDIAWINFBNYPVTTMZFPKW",
+      "metadata": {
+        "method": "trifid",
+        "parameters": {
+          "key": "KRYPTOSABC...",
+          "order": "rows"
+        },
+        "anchors_found": {
+          "EAST": false,
+          "NORTHEAST": false,
+          "BERLINCLOCK": false
+        },
+        "anchor_count": 0,
+        "seed": 1416,
+        "full_plaintext": "OBKRUOXOGHULBSOLIFBBWFLRVQQPRNGKSSOTWTQSJQSSEKZZWATJKLUDIAWINFBNYPVTTMZFPKWGDKZXTJCDIGKUHUAUEKCAR"
+      }
+    },
+    {
+      "label": "TRIFID_CUBE_080",
+      "text": "RKBOOXOULUHGLOSBBBFIRLFWPQQVKGNRTOSSSQTWSSQJZZKEJTAWDULKIWAINBFNTVPYFZMTGWK",
+      "metadata": {
+        "method": "eight_cube",
+        "parameters": {
+          "orientation": "rotated_180"
+        },
+        "anchors_found": {
+          "EAST": false,
+          "NORTHEAST": false,
+          "BERLINCLOCK": false
+        },
+        "anchor_count": 0,
+        "seed": 1417,
+        "full_plaintext": "RKBOOXOULUHGLOSBBBFIRLFWPQQVKGNRTOSSSQTWSSQJZZKEJTAWDULKIWAINBFNTVPYFZMTGWKPXZKDDCJTUKGIUAUHACKEX"
+      }
+    },
+    {
+      "label": "TRIFID_CUBE_081",
+      "text": "OBKRUOXOGHULBSOLIFBBWFLRVQQPRNGKSSOTWTQSJQSSEKZZWATJKLUDIAWINFBNYPVTTMZFPKW",
+      "metadata": {
+        "method": "eight_cube",
+        "parameters": {
+          "orientation": "standard"
+        },
+        "anchors_found": {
+          "EAST": false,
+          "NORTHEAST": false,
+          "BERLINCLOCK": false
+        },
+        "anchor_count": 0,
+        "seed": 1418,
+        "full_plaintext": "OBKRUOXOGHULBSOLIFBBWFLRVQQPRNGKSSOTWTQSJQSSEKZZWATJKLUDIAWINFBNYPVTTMZFPKWGDKZXTJCDIGKUHUAUEKCAR"
+      }
+    },
+    {
+      "label": "TRIFID_CUBE_082",
+      "text": "OBKRUOXOGHULBSOLIFBBWFLRVQQPRNGKSSOTWTQSJQSSEKZZWATJKLUDIAWINFBNYPVTTMZFPKW",
+      "metadata": {
+        "method": "eight_cube",
+        "parameters": {
+          "orientation": "standard"
+        },
+        "anchors_found": {
+          "EAST": false,
+          "NORTHEAST": false,
+          "BERLINCLOCK": false
+        },
+        "anchor_count": 0,
+        "seed": 1419,
+        "full_plaintext": "OBKRUOXOGHULBSOLIFBBWFLRVQQPRNGKSSOTWTQSJQSSEKZZWATJKLUDIAWINFBNYPVTTMZFPKWGDKZXTJCDIGKUHUAUEKCAR"
+      }
+    },
+    {
+      "label": "TRIFID_CUBE_083",
+      "text": "RKBOOXOULUHGLOSBBBFIRLFWPQQVKGNRTOSSSQTWSSQJZZKEJTAWDULKIWAINBFNTVPYFZMTGWK",
+      "metadata": {
+        "method": "eight_cube",
+        "parameters": {
+          "orientation": "rotated_180"
+        },
+        "anchors_found": {
+          "EAST": false,
+          "NORTHEAST": false,
+          "BERLINCLOCK": false
+        },
+        "anchor_count": 0,
+        "seed": 1420,
+        "full_plaintext": "RKBOOXOULUHGLOSBBBFIRLFWPQQVKGNRTOSSSQTWSSQJZZKEJTAWDULKIWAINBFNTVPYFZMTGWKPXZKDDCJTUKGIUAUHACKEX"
+      }
+    },
+    {
+      "label": "TRIFID_CUBE_084",
+      "text": "BROKOOUXHLGUSLBOFBIBFRWLQPVQNKRGSTSOTSWQQSJSKZEZAJWTLDKUAIIWFNNBPTYVMFTZKGP",
+      "metadata": {
+        "method": "eight_cube",
+        "parameters": {
+          "orientation": "rotated_90"
+        },
+        "anchors_found": {
+          "EAST": false,
+          "NORTHEAST": false,
+          "BERLINCLOCK": false
+        },
+        "anchor_count": 0,
+        "seed": 1421,
+        "full_plaintext": "BROKOOUXHLGUSLBOFBIBFRWLQPVQNKRGSTSOTSWQQSJSKZEZAJWTLDKUAIIWFNNBPTYVMFTZKGPWKXDZJDTCGUIKUUHAKAECX"
+      }
+    },
+    {
+      "label": "TRIFID_CUBE_085",
+      "text": "OBKRUOXOGHULBSOLIFBBWFLRVQQPRNGKSSOTWTQSJQSSEKZZWATJKLUDIAWINFBNYPVTTMZFPKW",
+      "metadata": {
+        "method": "trifid",
+        "parameters": {
+          "key": "ABCDEFGHIJ...",
+          "order": "rows"
+        },
+        "anchors_found": {
+          "EAST": false,
+          "NORTHEAST": false,
+          "BERLINCLOCK": false
+        },
+        "anchor_count": 0,
+        "seed": 1422,
+        "full_plaintext": "OBKRUOXOGHULBSOLIFBBWFLRVQQPRNGKSSOTWTQSJQSSEKZZWATJKLUDIAWINFBNYPVTTMZFPKWGDKZXTJCDIGKUHUAUEKCAR"
+      }
+    },
+    {
+      "label": "TRIFID_CUBE_086",
+      "text": "OJERYQXWSHYHBGQLUPBJOFVZVOWPXNGMCSWFWPWSDWSGMKRXWAFJMHUBYAQYNTDNITVPFMRPPMO",
+      "metadata": {
+        "method": "trifid",
+        "parameters": {
+          "key": ".ZYXWVUTSR...",
+          "order": "spiral"
+        },
+        "anchors_found": {
+          "EAST": false,
+          "NORTHEAST": false,
+          "BERLINCLOCK": false
+        },
+        "anchor_count": 0,
+        "seed": 1423,
+        "full_plaintext": "OJERYQXWSHYHBGQLUPBJOFVZVOWPXNGMCSWFWPWSDWSGMKRXWAFJMHUBYAQYNTDNITVPFMRPPMOGBEZZFJSJICEULIAYMKSAR"
+      }
+    },
+    {
+      "label": "TRIFID_CUBE_087",
+      "text": "BROKOOUXHLGUSLBOFBIBFRWLQPVQNKRGSTSOTSWQQSJSKZEZAJWTLDKUAIIWFNNBPTYVMFTZKGP",
+      "metadata": {
+        "method": "eight_cube",
+        "parameters": {
+          "orientation": "rotated_90"
+        },
+        "anchors_found": {
+          "EAST": false,
+          "NORTHEAST": false,
+          "BERLINCLOCK": false
+        },
+        "anchor_count": 0,
+        "seed": 1424,
+        "full_plaintext": "BROKOOUXHLGUSLBOFBIBFRWLQPVQNKRGSTSOTSWQQSJSKZEZAJWTLDKUAIIWFNNBPTYVMFTZKGPWKXDZJDTCGUIKUUHAKAECX"
+      }
+    },
+    {
+      "label": "TRIFID_CUBE_088",
+      "text": "OBKRUOXOGHULBSOLIFBBWFLRVQQPRNGKSSOTWTQSJQSSEKZZWATJKLUDIAWINFBNYPVTTMZFPKW",
+      "metadata": {
+        "method": "eight_cube",
+        "parameters": {
+          "orientation": "standard"
+        },
+        "anchors_found": {
+          "EAST": false,
+          "NORTHEAST": false,
+          "BERLINCLOCK": false
+        },
+        "anchor_count": 0,
+        "seed": 1425,
+        "full_plaintext": "OBKRUOXOGHULBSOLIFBBWFLRVQQPRNGKSSOTWTQSJQSSEKZZWATJKLUDIAWINFBNYPVTTMZFPKWGDKZXTJCDIGKUHUAUEKCAR"
+      }
+    },
+    {
+      "label": "TRIFID_CUBE_089",
+      "text": "OBKRUOXOGHULBSOLIFBBWFLRVQQPRNGKSSOTWTQSJQSSEKZZWATJKLUDIAWINFBNYPVTTMZFPKW",
+      "metadata": {
+        "method": "trifid",
+        "parameters": {
+          "key": ".ZYXWVUTSR...",
+          "order": "columns"
+        },
+        "anchors_found": {
+          "EAST": false,
+          "NORTHEAST": false,
+          "BERLINCLOCK": false
+        },
+        "anchor_count": 0,
+        "seed": 1426,
+        "full_plaintext": "OBKRUOXOGHULBSOLIFBBWFLRVQQPRNGKSSOTWTQSJQSSEKZZWATJKLUDIAWINFBNYPVTTMZFPKWGDKZXTJCDIGKUHUAUEKCAR"
+      }
+    },
+    {
+      "label": "TRIFID_CUBE_090",
+      "text": "OBKRUOXOGHULBSOLIFBBWFLRVQQPRNGKSSOTWTQSJQSSEKZZWATJKLUDIAWINFBNYPVTTMZFPKW",
+      "metadata": {
+        "method": "trifid",
+        "parameters": {
+          "key": ".ZYXWVUTSR...",
+          "order": "columns"
+        },
+        "anchors_found": {
+          "EAST": false,
+          "NORTHEAST": false,
+          "BERLINCLOCK": false
+        },
+        "anchor_count": 0,
+        "seed": 1427,
+        "full_plaintext": "OBKRUOXOGHULBSOLIFBBWFLRVQQPRNGKSSOTWTQSJQSSEKZZWATJKLUDIAWINFBNYPVTTMZFPKWGDKZXTJCDIGKUHUAUEKCAR"
+      }
+    },
+    {
+      "label": "TRIFID_CUBE_091",
+      "text": "OBKRUOXOGHULBSOLIFBBWFLRVQQPRNGKSSOTWTQSJQSSEKZZWATJKLUDIAWINFBNYPVTTMZFPKW",
+      "metadata": {
+        "method": "trifid",
+        "parameters": {
+          "key": "ABCDEFGHIJ...",
+          "order": "rows"
+        },
+        "anchors_found": {
+          "EAST": false,
+          "NORTHEAST": false,
+          "BERLINCLOCK": false
+        },
+        "anchor_count": 0,
+        "seed": 1428,
+        "full_plaintext": "OBKRUOXOGHULBSOLIFBBWFLRVQQPRNGKSSOTWTQSJQSSEKZZWATJKLUDIAWINFBNYPVTTMZFPKWGDKZXTJCDIGKUHUAUEKCAR"
+      }
+    },
+    {
+      "label": "TRIFID_CUBE_092",
+      "text": "OJERYQXWSHYHBGQLUPBJOFVZVOWPXNGMCSWFWPWSDWSGMKRXWAFJMHUBYAQYNTDNITVPFMRPPMO",
+      "metadata": {
+        "method": "trifid",
+        "parameters": {
+          "key": ".ZYXWVUTSR...",
+          "order": "spiral"
+        },
+        "anchors_found": {
+          "EAST": false,
+          "NORTHEAST": false,
+          "BERLINCLOCK": false
+        },
+        "anchor_count": 0,
+        "seed": 1429,
+        "full_plaintext": "OJERYQXWSHYHBGQLUPBJOFVZVOWPXNGMCSWFWPWSDWSGMKRXWAFJMHUBYAQYNTDNITVPFMRPPMOGBEZZFJSJICEULIAYMKSAR"
+      }
+    },
+    {
+      "label": "TRIFID_CUBE_093",
+      "text": "OQKRAIXNGHAZBYILODBQLFWPVXBPCOGKMSNFWDBSHBSYAKLWWEFJKZUFNAZNNTXNMCVDFMLDPKL",
+      "metadata": {
+        "method": "trifid",
+        "parameters": {
+          "key": "KRYPTOSABC...",
+          "order": "spiral"
+        },
+        "anchors_found": {
+          "EAST": false,
+          "NORTHEAST": false,
+          "BERLINCLOCK": false
+        },
+        "anchor_count": 0,
+        "seed": 1430,
+        "full_plaintext": "OQKRAIXNGHAZBYILODBQLFWPVXBPCOGKMSNFWDBSHBSYAKLWWEFJKZUFNAZNNTXNMCVDFMLDPKLGFKZBFJPTIGKUVEAAAKPUR"
+      }
+    },
+    {
+      "label": "TRIFID_CUBE_094",
+      "text": "OJERYQXWSHYHBGQLUPBJOFVZVOWPXNGMCSWFWPWSDWSGMKRXWAFJMHUBYAQYNTDNITVPFMRPPMO",
+      "metadata": {
+        "method": "trifid",
+        "parameters": {
+          "key": "ABCDEFGHIJ...",
+          "order": "spiral"
+        },
+        "anchors_found": {
+          "EAST": false,
+          "NORTHEAST": false,
+          "BERLINCLOCK": false
+        },
+        "anchor_count": 0,
+        "seed": 1431,
+        "full_plaintext": "OJERYQXWSHYHBGQLUPBJOFVZVOWPXNGMCSWFWPWSDWSGMKRXWAFJMHUBYAQYNTDNITVPFMRPPMOGBEZZFJSJICEULIAYMKSAR"
+      }
+    },
+    {
+      "label": "TRIFID_CUBE_095",
+      "text": "BROKOOUXHLGUSLBOFBIBFRWLQPVQNKRGSTSOTSWQQSJSKZEZAJWTLDKUAIIWFNNBPTYVMFTZKGP",
+      "metadata": {
+        "method": "eight_cube",
+        "parameters": {
+          "orientation": "rotated_90"
+        },
+        "anchors_found": {
+          "EAST": false,
+          "NORTHEAST": false,
+          "BERLINCLOCK": false
+        },
+        "anchor_count": 0,
+        "seed": 1432,
+        "full_plaintext": "BROKOOUXHLGUSLBOFBIBFRWLQPVQNKRGSTSOTSWQQSJSKZEZAJWTLDKUAIIWFNNBPTYVMFTZKGPWKXDZJDTCGUIKUUHAKAECX"
+      }
+    },
+    {
+      "label": "TRIFID_CUBE_096",
+      "text": "OBKRUOXOGHULBSOLIFBBWFLRVQQPRNGKSSOTWTQSJQSSEKZZWATJKLUDIAWINFBNYPVTTMZFPKW",
+      "metadata": {
+        "method": "trifid",
+        "parameters": {
+          "key": ".ZYXWVUTSR...",
+          "order": "rows"
+        },
+        "anchors_found": {
+          "EAST": false,
+          "NORTHEAST": false,
+          "BERLINCLOCK": false
+        },
+        "anchor_count": 0,
+        "seed": 1433,
+        "full_plaintext": "OBKRUOXOGHULBSOLIFBBWFLRVQQPRNGKSSOTWTQSJQSSEKZZWATJKLUDIAWINFBNYPVTTMZFPKWGDKZXTJCDIGKUHUAUEKCAR"
+      }
+    },
+    {
+      "label": "TRIFID_CUBE_097",
+      "text": "XUOOKORBOBLSUGLHLWRFBIBFGRKNQVPQQWSTOSTSZEZKSJSQUKDLTWJABNNFWIIAZTFMVYTPZDX",
+      "metadata": {
+        "method": "eight_cube",
+        "parameters": {
+          "orientation": "diagonal"
+        },
+        "anchors_found": {
+          "EAST": false,
+          "NORTHEAST": false,
+          "BERLINCLOCK": false
+        },
+        "anchor_count": 0,
+        "seed": 1434,
+        "full_plaintext": "XUOOKORBOBLSUGLHLWRFBIBFGRKNQVPQQWSTOSTSZEZKSJSQUKDLTWJABNNFWIIAZTFMVYTPZDXKWPGKKIUGCTDJCEAKAHUUX"
+      }
+    },
+    {
+      "label": "TRIFID_CUBE_098",
+      "text": "RKBOOXOULUHGLOSBBBFIRLFWPQQVKGNRTOSSSQTWSSQJZZKEJTAWDULKIWAINBFNTVPYFZMTGWK",
+      "metadata": {
+        "method": "eight_cube",
+        "parameters": {
+          "orientation": "rotated_180"
+        },
+        "anchors_found": {
+          "EAST": false,
+          "NORTHEAST": false,
+          "BERLINCLOCK": false
+        },
+        "anchor_count": 0,
+        "seed": 1435,
+        "full_plaintext": "RKBOOXOULUHGLOSBBBFIRLFWPQQVKGNRTOSSSQTWSSQJZZKEJTAWDULKIWAINBFNTVPYFZMTGWKPXZKDDCJTUKGIUAUHACKEX"
+      }
+    },
+    {
+      "label": "TRIFID_CUBE_099",
+      "text": "OBKRUOXOGHULBSOLIFBBWFLRVQQPRNGKSSOTWTQSJQSSEKZZWATJKLUDIAWINFBNYPVTTMZFPKW",
+      "metadata": {
+        "method": "trifid",
+        "parameters": {
+          "key": "ABCDEFGHIJ...",
+          "order": "columns"
+        },
+        "anchors_found": {
+          "EAST": false,
+          "NORTHEAST": false,
+          "BERLINCLOCK": false
+        },
+        "anchor_count": 0,
+        "seed": 1436,
+        "full_plaintext": "OBKRUOXOGHULBSOLIFBBWFLRVQQPRNGKSSOTWTQSJQSSEKZZWATJKLUDIAWINFBNYPVTTMZFPKWGDKZXTJCDIGKUHUAUEKCAR"
+      }
+    }
+  ]
+}

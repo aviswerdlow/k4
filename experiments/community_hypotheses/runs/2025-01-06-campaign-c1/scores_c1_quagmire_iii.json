@@ -1,0 +1,3638 @@
+{
+  "campaign": "C1_QUAGMIRE_III",
+  "heads_file": "experiments/community_hypotheses/runs/2025-01-06-campaign-c1/heads_c1_quagmire.json",
+  "num_heads": 100,
+  "policies": [
+    {
+      "name": "fixed",
+      "window_radius": 0,
+      "typo_budget": 0
+    },
+    {
+      "name": "windowed_r2_t0",
+      "window_radius": 2,
+      "typo_budget": 0
+    },
+    {
+      "name": "windowed_r5_t1",
+      "window_radius": 5,
+      "typo_budget": 1
+    },
+    {
+      "name": "windowed_r10_t2",
+      "window_radius": 10,
+      "typo_budget": 2
+    }
+  ],
+  "baseline_stats": {
+    "ngram_mean": -0.010212,
+    "ngram_std": 0.007356535295609991,
+    "coverage_mean": 0.05822666666666666,
+    "coverage_std": 0.05174064338387935,
+    "compress_mean": 0.0,
+    "compress_std": 0.0
+  },
+  "promotions": 0,
+  "results": [
+    {
+      "label": "QUAGMIRE_000",
+      "policy": "fixed",
+      "score": -0.39071125092922476,
+      "z_score": -0.4561352152381846,
+      "delta1": 0.0,
+      "delta2": 0.0,
+      "promoted": false
+    },
+    {
+      "label": "QUAGMIRE_000",
+      "policy": "windowed_r2_t0",
+      "score": -0.39071125092922476,
+      "z_score": -0.4561352152381846,
+      "delta1": 0.0,
+      "delta2": 0.0,
+      "promoted": false
+    },
+    {
+      "label": "QUAGMIRE_000",
+      "policy": "windowed_r5_t1",
+      "score": -0.39071125092922476,
+      "z_score": -0.4561352152381846,
+      "delta1": 0.0,
+      "delta2": 0.0,
+      "promoted": false
+    },
+    {
+      "label": "QUAGMIRE_000",
+      "policy": "windowed_r10_t2",
+      "score": -0.39071125092922476,
+      "z_score": -0.4561352152381846,
+      "delta1": 0.0,
+      "delta2": 0.0,
+      "promoted": false
+    },
+    {
+      "label": "QUAGMIRE_001",
+      "policy": "fixed",
+      "score": -0.39071125092922476,
+      "z_score": -0.4561352152381846,
+      "delta1": 0.0,
+      "delta2": 0.0,
+      "promoted": false
+    },
+    {
+      "label": "QUAGMIRE_001",
+      "policy": "windowed_r2_t0",
+      "score": -0.39071125092922476,
+      "z_score": -0.4561352152381846,
+      "delta1": 0.0,
+      "delta2": 0.0,
+      "promoted": false
+    },
+    {
+      "label": "QUAGMIRE_001",
+      "policy": "windowed_r5_t1",
+      "score": -0.39071125092922476,
+      "z_score": -0.4561352152381846,
+      "delta1": 0.0,
+      "delta2": 0.0,
+      "promoted": false
+    },
+    {
+      "label": "QUAGMIRE_001",
+      "policy": "windowed_r10_t2",
+      "score": -0.39071125092922476,
+      "z_score": -0.4561352152381846,
+      "delta1": 0.0,
+      "delta2": 0.0,
+      "promoted": false
+    },
+    {
+      "label": "QUAGMIRE_002",
+      "policy": "fixed",
+      "score": 0.34829210934011834,
+      "z_score": 0.2392110130667334,
+      "delta1": 0.0,
+      "delta2": 0.0,
+      "promoted": false
+    },
+    {
+      "label": "QUAGMIRE_002",
+      "policy": "windowed_r2_t0",
+      "score": 0.34829210934011834,
+      "z_score": 0.2392110130667334,
+      "delta1": 0.0,
+      "delta2": 0.0,
+      "promoted": false
+    },
+    {
+      "label": "QUAGMIRE_002",
+      "policy": "windowed_r5_t1",
+      "score": 0.34829210934011834,
+      "z_score": 0.2392110130667334,
+      "delta1": 0.0,
+      "delta2": 0.0,
+      "promoted": false
+    },
+    {
+      "label": "QUAGMIRE_002",
+      "policy": "windowed_r10_t2",
+      "score": 0.34829210934011834,
+      "z_score": 0.2392110130667334,
+      "delta1": 0.0,
+      "delta2": 0.0,
+      "promoted": false
+    },
+    {
+      "label": "QUAGMIRE_003",
+      "policy": "fixed",
+      "score": 1.336938029537332,
+      "z_score": 1.2674139879421453,
+      "delta1": 0.005348279758842907,
+      "delta2": 0.03837069939710727,
+      "promoted": false
+    },
+    {
+      "label": "QUAGMIRE_003",
+      "policy": "windowed_r2_t0",
+      "score": 1.336938029537332,
+      "z_score": 1.2674139879421453,
+      "delta1": 0.005348279758842907,
+      "delta2": 0.03837069939710727,
+      "promoted": false
+    },
+    {
+      "label": "QUAGMIRE_003",
+      "policy": "windowed_r5_t1",
+      "score": 1.336938029537332,
+      "z_score": 1.2674139879421453,
+      "delta1": 0.005348279758842907,
+      "delta2": 0.03837069939710727,
+      "promoted": false
+    },
+    {
+      "label": "QUAGMIRE_003",
+      "policy": "windowed_r10_t2",
+      "score": 1.336938029537332,
+      "z_score": 1.2674139879421453,
+      "delta1": 0.005348279758842907,
+      "delta2": 0.03837069939710727,
+      "promoted": false
+    },
+    {
+      "label": "QUAGMIRE_004",
+      "policy": "fixed",
+      "score": -0.39071125092922476,
+      "z_score": -0.4561352152381846,
+      "delta1": 0.0,
+      "delta2": 0.0,
+      "promoted": false
+    },
+    {
+      "label": "QUAGMIRE_004",
+      "policy": "windowed_r2_t0",
+      "score": -0.39071125092922476,
+      "z_score": -0.4561352152381846,
+      "delta1": 0.0,
+      "delta2": 0.0,
+      "promoted": false
+    },
+    {
+      "label": "QUAGMIRE_004",
+      "policy": "windowed_r5_t1",
+      "score": -0.39071125092922476,
+      "z_score": -0.4561352152381846,
+      "delta1": 0.0,
+      "delta2": 0.0,
+      "promoted": false
+    },
+    {
+      "label": "QUAGMIRE_004",
+      "policy": "windowed_r10_t2",
+      "score": -0.39071125092922476,
+      "z_score": -0.4561352152381846,
+      "delta1": 0.0,
+      "delta2": 0.0,
+      "promoted": false
+    },
+    {
+      "label": "QUAGMIRE_005",
+      "policy": "fixed",
+      "score": -0.7119896247330734,
+      "z_score": -0.5461828640245198,
+      "delta1": 0.0,
+      "delta2": 0.0,
+      "promoted": false
+    },
+    {
+      "label": "QUAGMIRE_005",
+      "policy": "windowed_r2_t0",
+      "score": -0.7119896247330734,
+      "z_score": -0.5461828640245198,
+      "delta1": 0.0,
+      "delta2": 0.0,
+      "promoted": false
+    },
+    {
+      "label": "QUAGMIRE_005",
+      "policy": "windowed_r5_t1",
+      "score": -0.7119896247330734,
+      "z_score": -0.5461828640245198,
+      "delta1": 0.0,
+      "delta2": 0.0,
+      "promoted": false
+    },
+    {
+      "label": "QUAGMIRE_005",
+      "policy": "windowed_r10_t2",
+      "score": -0.7119896247330734,
+      "z_score": -0.5461828640245198,
+      "delta1": 0.0,
+      "delta2": 0.0,
+      "promoted": false
+    },
+    {
+      "label": "QUAGMIRE_006",
+      "policy": "fixed",
+      "score": 0.1851718425596274,
+      "z_score": 0.11838118582192525,
+      "delta1": 0.0,
+      "delta2": 0.0,
+      "promoted": false
+    },
+    {
+      "label": "QUAGMIRE_006",
+      "policy": "windowed_r2_t0",
+      "score": 0.1851718425596274,
+      "z_score": 0.11838118582192525,
+      "delta1": 0.0,
+      "delta2": 0.0,
+      "promoted": false
+    },
+    {
+      "label": "QUAGMIRE_006",
+      "policy": "windowed_r5_t1",
+      "score": 0.1851718425596274,
+      "z_score": 0.11838118582192525,
+      "delta1": 0.0,
+      "delta2": 0.0,
+      "promoted": false
+    },
+    {
+      "label": "QUAGMIRE_006",
+      "policy": "windowed_r10_t2",
+      "score": 0.1851718425596274,
+      "z_score": 0.11838118582192525,
+      "delta1": 0.0,
+      "delta2": 0.0,
+      "promoted": false
+    },
+    {
+      "label": "QUAGMIRE_007",
+      "policy": "fixed",
+      "score": 0.34829210934011834,
+      "z_score": 0.2392110130667334,
+      "delta1": 0.0,
+      "delta2": 0.0,
+      "promoted": false
+    },
+    {
+      "label": "QUAGMIRE_007",
+      "policy": "windowed_r2_t0",
+      "score": 0.34829210934011834,
+      "z_score": 0.2392110130667334,
+      "delta1": 0.0,
+      "delta2": 0.0,
+      "promoted": false
+    },
+    {
+      "label": "QUAGMIRE_007",
+      "policy": "windowed_r5_t1",
+      "score": 0.34829210934011834,
+      "z_score": 0.2392110130667334,
+      "delta1": 0.0,
+      "delta2": 0.0,
+      "promoted": false
+    },
+    {
+      "label": "QUAGMIRE_007",
+      "policy": "windowed_r10_t2",
+      "score": 0.34829210934011834,
+      "z_score": 0.2392110130667334,
+      "delta1": 0.0,
+      "delta2": 0.0,
+      "promoted": false
+    },
+    {
+      "label": "QUAGMIRE_008",
+      "policy": "fixed",
+      "score": 0.6794948026582343,
+      "z_score": 0.6324826732596313,
+      "delta1": 0.0,
+      "delta2": 0.006624133662981563,
+      "promoted": false
+    },
+    {
+      "label": "QUAGMIRE_008",
+      "policy": "windowed_r2_t0",
+      "score": 0.6794948026582343,
+      "z_score": 0.6324826732596313,
+      "delta1": 0.0,
+      "delta2": 0.006624133662981563,
+      "promoted": false
+    },
+    {
+      "label": "QUAGMIRE_008",
+      "policy": "windowed_r5_t1",
+      "score": 0.6794948026582343,
+      "z_score": 0.6324826732596313,
+      "delta1": 0.0,
+      "delta2": 0.006624133662981563,
+      "promoted": false
+    },
+    {
+      "label": "QUAGMIRE_008",
+      "policy": "windowed_r10_t2",
+      "score": 0.6794948026582343,
+      "z_score": 0.6324826732596313,
+      "delta1": 0.0,
+      "delta2": 0.006624133662981563,
+      "promoted": false
+    },
+    {
+      "label": "QUAGMIRE_009",
+      "policy": "fixed",
+      "score": -0.8751098915135646,
+      "z_score": -0.667012691269328,
+      "delta1": 0.0,
+      "delta2": 0.0,
+      "promoted": false
+    },
+    {
+      "label": "QUAGMIRE_009",
+      "policy": "windowed_r2_t0",
+      "score": -0.8751098915135646,
+      "z_score": -0.667012691269328,
+      "delta1": 0.0,
+      "delta2": 0.0,
+      "promoted": false
+    },
+    {
+      "label": "QUAGMIRE_009",
+      "policy": "windowed_r5_t1",
+      "score": -0.8751098915135646,
+      "z_score": -0.667012691269328,
+      "delta1": 0.0,
+      "delta2": 0.0,
+      "promoted": false
+    },
+    {
+      "label": "QUAGMIRE_009",
+      "policy": "windowed_r10_t2",
+      "score": -0.8751098915135646,
+      "z_score": -0.667012691269328,
+      "delta1": 0.0,
+      "delta2": 0.0,
+      "promoted": false
+    },
+    {
+      "label": "QUAGMIRE_010",
+      "policy": "fixed",
+      "score": -0.39071125092922476,
+      "z_score": -0.4561352152381846,
+      "delta1": 0.0,
+      "delta2": 0.0,
+      "promoted": false
+    },
+    {
+      "label": "QUAGMIRE_010",
+      "policy": "windowed_r2_t0",
+      "score": -0.39071125092922476,
+      "z_score": -0.4561352152381846,
+      "delta1": 0.0,
+      "delta2": 0.0,
+      "promoted": false
+    },
+    {
+      "label": "QUAGMIRE_010",
+      "policy": "windowed_r5_t1",
+      "score": -0.39071125092922476,
+      "z_score": -0.4561352152381846,
+      "delta1": 0.0,
+      "delta2": 0.0,
+      "promoted": false
+    },
+    {
+      "label": "QUAGMIRE_010",
+      "policy": "windowed_r10_t2",
+      "score": -0.39071125092922476,
+      "z_score": -0.4561352152381846,
+      "delta1": 0.0,
+      "delta2": 0.0,
+      "promoted": false
+    },
+    {
+      "label": "QUAGMIRE_011",
+      "policy": "fixed",
+      "score": -0.6353916510999614,
+      "z_score": -0.637379956105397,
+      "delta1": 0.0,
+      "delta2": 0.0,
+      "promoted": false
+    },
+    {
+      "label": "QUAGMIRE_011",
+      "policy": "windowed_r2_t0",
+      "score": -0.6353916510999614,
+      "z_score": -0.637379956105397,
+      "delta1": 0.0,
+      "delta2": 0.0,
+      "promoted": false
+    },
+    {
+      "label": "QUAGMIRE_011",
+      "policy": "windowed_r5_t1",
+      "score": -0.6353916510999614,
+      "z_score": -0.637379956105397,
+      "delta1": 0.0,
+      "delta2": 0.0,
+      "promoted": false
+    },
+    {
+      "label": "QUAGMIRE_011",
+      "policy": "windowed_r10_t2",
+      "score": -0.6353916510999614,
+      "z_score": -0.637379956105397,
+      "delta1": 0.0,
+      "delta2": 0.0,
+      "promoted": false
+    },
+    {
+      "label": "QUAGMIRE_012",
+      "policy": "fixed",
+      "score": -0.6353916510999614,
+      "z_score": -0.637379956105397,
+      "delta1": 0.0,
+      "delta2": 0.0,
+      "promoted": false
+    },
+    {
+      "label": "QUAGMIRE_012",
+      "policy": "windowed_r2_t0",
+      "score": -0.6353916510999614,
+      "z_score": -0.637379956105397,
+      "delta1": 0.0,
+      "delta2": 0.0,
+      "promoted": false
+    },
+    {
+      "label": "QUAGMIRE_012",
+      "policy": "windowed_r5_t1",
+      "score": -0.6353916510999614,
+      "z_score": -0.637379956105397,
+      "delta1": 0.0,
+      "delta2": 0.0,
+      "promoted": false
+    },
+    {
+      "label": "QUAGMIRE_012",
+      "policy": "windowed_r10_t2",
+      "score": -0.6353916510999614,
+      "z_score": -0.637379956105397,
+      "delta1": 0.0,
+      "delta2": 0.0,
+      "promoted": false
+    },
+    {
+      "label": "QUAGMIRE_013",
+      "policy": "fixed",
+      "score": 0.1851718425596274,
+      "z_score": 0.11838118582192525,
+      "delta1": 0.0,
+      "delta2": 0.0,
+      "promoted": false
+    },
+    {
+      "label": "QUAGMIRE_013",
+      "policy": "windowed_r2_t0",
+      "score": 0.1851718425596274,
+      "z_score": 0.11838118582192525,
+      "delta1": 0.0,
+      "delta2": 0.0,
+      "promoted": false
+    },
+    {
+      "label": "QUAGMIRE_013",
+      "policy": "windowed_r5_t1",
+      "score": 0.1851718425596274,
+      "z_score": 0.11838118582192525,
+      "delta1": 0.0,
+      "delta2": 0.0,
+      "promoted": false
+    },
+    {
+      "label": "QUAGMIRE_013",
+      "policy": "windowed_r10_t2",
+      "score": 0.1851718425596274,
+      "z_score": 0.11838118582192525,
+      "delta1": 0.0,
+      "delta2": 0.0,
+      "promoted": false
+    },
+    {
+      "label": "QUAGMIRE_014",
+      "policy": "fixed",
+      "score": -0.38078693141495745,
+      "z_score": -0.15291120383162185,
+      "delta1": 0.0,
+      "delta2": 0.0,
+      "promoted": false
+    },
+    {
+      "label": "QUAGMIRE_014",
+      "policy": "windowed_r2_t0",
+      "score": -0.38078693141495745,
+      "z_score": -0.15291120383162185,
+      "delta1": 0.0,
+      "delta2": 0.0,
+      "promoted": false
+    },
+    {
+      "label": "QUAGMIRE_014",
+      "policy": "windowed_r5_t1",
+      "score": -0.38078693141495745,
+      "z_score": -0.15291120383162185,
+      "delta1": 0.0,
+      "delta2": 0.0,
+      "promoted": false
+    },
+    {
+      "label": "QUAGMIRE_014",
+      "policy": "windowed_r10_t2",
+      "score": -0.38078693141495745,
+      "z_score": -0.15291120383162185,
+      "delta1": 0.0,
+      "delta2": 0.0,
+      "promoted": false
+    },
+    {
+      "label": "QUAGMIRE_015",
+      "policy": "fixed",
+      "score": -0.1410686910013545,
+      "z_score": -0.12327846866769095,
+      "delta1": 0.0,
+      "delta2": 0.0,
+      "promoted": false
+    },
+    {
+      "label": "QUAGMIRE_015",
+      "policy": "windowed_r2_t0",
+      "score": -0.1410686910013545,
+      "z_score": -0.12327846866769095,
+      "delta1": 0.0,
+      "delta2": 0.0,
+      "promoted": false
+    },
+    {
+      "label": "QUAGMIRE_015",
+      "policy": "windowed_r5_t1",
+      "score": -0.1410686910013545,
+      "z_score": -0.12327846866769095,
+      "delta1": 0.0,
+      "delta2": 0.0,
+      "promoted": false
+    },
+    {
+      "label": "QUAGMIRE_015",
+      "policy": "windowed_r10_t2",
+      "score": -0.1410686910013545,
+      "z_score": -0.12327846866769095,
+      "delta1": 0.0,
+      "delta2": 0.0,
+      "promoted": false
+    },
+    {
+      "label": "QUAGMIRE_016",
+      "policy": "fixed",
+      "score": 0.26673197594987286,
+      "z_score": 0.1787960994443293,
+      "delta1": 0.0,
+      "delta2": 0.0,
+      "promoted": false
+    },
+    {
+      "label": "QUAGMIRE_016",
+      "policy": "windowed_r2_t0",
+      "score": 0.26673197594987286,
+      "z_score": 0.1787960994443293,
+      "delta1": 0.0,
+      "delta2": 0.0,
+      "promoted": false
+    },
+    {
+      "label": "QUAGMIRE_016",
+      "policy": "windowed_r5_t1",
+      "score": 0.26673197594987286,
+      "z_score": 0.1787960994443293,
+      "delta1": 0.0,
+      "delta2": 0.0,
+      "promoted": false
+    },
+    {
+      "label": "QUAGMIRE_016",
+      "policy": "windowed_r10_t2",
+      "score": 0.26673197594987286,
+      "z_score": 0.1787960994443293,
+      "delta1": 0.0,
+      "delta2": 0.0,
+      "promoted": false
+    },
+    {
+      "label": "QUAGMIRE_017",
+      "policy": "fixed",
+      "score": -0.6353916510999614,
+      "z_score": -0.637379956105397,
+      "delta1": 0.0,
+      "delta2": 0.0,
+      "promoted": false
+    },
+    {
+      "label": "QUAGMIRE_017",
+      "policy": "windowed_r2_t0",
+      "score": -0.6353916510999614,
+      "z_score": -0.637379956105397,
+      "delta1": 0.0,
+      "delta2": 0.0,
+      "promoted": false
+    },
+    {
+      "label": "QUAGMIRE_017",
+      "policy": "windowed_r5_t1",
+      "score": -0.6353916510999614,
+      "z_score": -0.637379956105397,
+      "delta1": 0.0,
+      "delta2": 0.0,
+      "promoted": false
+    },
+    {
+      "label": "QUAGMIRE_017",
+      "policy": "windowed_r10_t2",
+      "score": -0.6353916510999614,
+      "z_score": -0.637379956105397,
+      "delta1": 0.0,
+      "delta2": 0.0,
+      "promoted": false
+    },
+    {
+      "label": "QUAGMIRE_018",
+      "policy": "fixed",
+      "score": -0.6254673315856942,
+      "z_score": -0.33415594469883425,
+      "delta1": 0.0,
+      "delta2": 0.0,
+      "promoted": false
+    },
+    {
+      "label": "QUAGMIRE_018",
+      "policy": "windowed_r2_t0",
+      "score": -0.6254673315856942,
+      "z_score": -0.33415594469883425,
+      "delta1": 0.0,
+      "delta2": 0.0,
+      "promoted": false
+    },
+    {
+      "label": "QUAGMIRE_018",
+      "policy": "windowed_r5_t1",
+      "score": -0.6254673315856942,
+      "z_score": -0.33415594469883425,
+      "delta1": 0.0,
+      "delta2": 0.0,
+      "promoted": false
+    },
+    {
+      "label": "QUAGMIRE_018",
+      "policy": "windowed_r10_t2",
+      "score": -0.6254673315856942,
+      "z_score": -0.33415594469883425,
+      "delta1": 0.0,
+      "delta2": 0.0,
+      "promoted": false
+    },
+    {
+      "label": "QUAGMIRE_019",
+      "policy": "fixed",
+      "score": -0.39071125092922476,
+      "z_score": -0.4561352152381846,
+      "delta1": 0.0,
+      "delta2": 0.0,
+      "promoted": false
+    },
+    {
+      "label": "QUAGMIRE_019",
+      "policy": "windowed_r2_t0",
+      "score": -0.39071125092922476,
+      "z_score": -0.4561352152381846,
+      "delta1": 0.0,
+      "delta2": 0.0,
+      "promoted": false
+    },
+    {
+      "label": "QUAGMIRE_019",
+      "policy": "windowed_r5_t1",
+      "score": -0.39071125092922476,
+      "z_score": -0.4561352152381846,
+      "delta1": 0.0,
+      "delta2": 0.0,
+      "promoted": false
+    },
+    {
+      "label": "QUAGMIRE_019",
+      "policy": "windowed_r10_t2",
+      "score": -0.39071125092922476,
+      "z_score": -0.4561352152381846,
+      "delta1": 0.0,
+      "delta2": 0.0,
+      "promoted": false
+    },
+    {
+      "label": "QUAGMIRE_020",
+      "policy": "fixed",
+      "score": 0.6436768957202453,
+      "z_score": 0.7538872221517107,
+      "delta1": 0.0,
+      "delta2": 0.012694361107585534,
+      "promoted": false
+    },
+    {
+      "label": "QUAGMIRE_020",
+      "policy": "windowed_r2_t0",
+      "score": 0.6436768957202453,
+      "z_score": 0.7538872221517107,
+      "delta1": 0.0,
+      "delta2": 0.012694361107585534,
+      "promoted": false
+    },
+    {
+      "label": "QUAGMIRE_020",
+      "policy": "windowed_r5_t1",
+      "score": 0.6436768957202453,
+      "z_score": 0.7538872221517107,
+      "delta1": 0.0,
+      "delta2": 0.012694361107585534,
+      "promoted": false
+    },
+    {
+      "label": "QUAGMIRE_020",
+      "policy": "windowed_r10_t2",
+      "score": 0.6436768957202453,
+      "z_score": 0.7538872221517107,
+      "delta1": 0.0,
+      "delta2": 0.012694361107585534,
+      "promoted": false
+    },
+    {
+      "label": "QUAGMIRE_021",
+      "policy": "fixed",
+      "score": 0.6794948026582343,
+      "z_score": 0.6324826732596313,
+      "delta1": 0.0,
+      "delta2": 0.006624133662981563,
+      "promoted": false
+    },
+    {
+      "label": "QUAGMIRE_021",
+      "policy": "windowed_r2_t0",
+      "score": 0.6794948026582343,
+      "z_score": 0.6324826732596313,
+      "delta1": 0.0,
+      "delta2": 0.006624133662981563,
+      "promoted": false
+    },
+    {
+      "label": "QUAGMIRE_021",
+      "policy": "windowed_r5_t1",
+      "score": 0.6794948026582343,
+      "z_score": 0.6324826732596313,
+      "delta1": 0.0,
+      "delta2": 0.006624133662981563,
+      "promoted": false
+    },
+    {
+      "label": "QUAGMIRE_021",
+      "policy": "windowed_r10_t2",
+      "score": 0.6794948026582343,
+      "z_score": 0.6324826732596313,
+      "delta1": 0.0,
+      "delta2": 0.006624133662981563,
+      "promoted": false
+    },
+    {
+      "label": "QUAGMIRE_022",
+      "policy": "fixed",
+      "score": -0.38078693141495745,
+      "z_score": -0.15291120383162185,
+      "delta1": 0.0,
+      "delta2": 0.0,
+      "promoted": false
+    },
+    {
+      "label": "QUAGMIRE_022",
+      "policy": "windowed_r2_t0",
+      "score": -0.38078693141495745,
+      "z_score": -0.15291120383162185,
+      "delta1": 0.0,
+      "delta2": 0.0,
+      "promoted": false
+    },
+    {
+      "label": "QUAGMIRE_022",
+      "policy": "windowed_r5_t1",
+      "score": -0.38078693141495745,
+      "z_score": -0.15291120383162185,
+      "delta1": 0.0,
+      "delta2": 0.0,
+      "promoted": false
+    },
+    {
+      "label": "QUAGMIRE_022",
+      "policy": "windowed_r10_t2",
+      "score": -0.38078693141495745,
+      "z_score": -0.15291120383162185,
+      "delta1": 0.0,
+      "delta2": 0.0,
+      "promoted": false
+    },
+    {
+      "label": "QUAGMIRE_023",
+      "policy": "fixed",
+      "score": -0.30915111753897934,
+      "z_score": -0.39572030161578065,
+      "delta1": 0.0,
+      "delta2": 0.0,
+      "promoted": false
+    },
+    {
+      "label": "QUAGMIRE_023",
+      "policy": "windowed_r2_t0",
+      "score": -0.30915111753897934,
+      "z_score": -0.39572030161578065,
+      "delta1": 0.0,
+      "delta2": 0.0,
+      "promoted": false
+    },
+    {
+      "label": "QUAGMIRE_023",
+      "policy": "windowed_r5_t1",
+      "score": -0.30915111753897934,
+      "z_score": -0.39572030161578065,
+      "delta1": 0.0,
+      "delta2": 0.0,
+      "promoted": false
+    },
+    {
+      "label": "QUAGMIRE_023",
+      "policy": "windowed_r10_t2",
+      "score": -0.30915111753897934,
+      "z_score": -0.39572030161578065,
+      "delta1": 0.0,
+      "delta2": 0.0,
+      "promoted": false
+    },
+    {
+      "label": "QUAGMIRE_024",
+      "policy": "fixed",
+      "score": 0.42985224273036393,
+      "z_score": 0.2996259266891375,
+      "delta1": 0.0,
+      "delta2": 0.0,
+      "promoted": false
+    },
+    {
+      "label": "QUAGMIRE_024",
+      "policy": "windowed_r2_t0",
+      "score": 0.42985224273036393,
+      "z_score": 0.2996259266891375,
+      "delta1": 0.0,
+      "delta2": 0.0,
+      "promoted": false
+    },
+    {
+      "label": "QUAGMIRE_024",
+      "policy": "windowed_r5_t1",
+      "score": 0.42985224273036393,
+      "z_score": 0.2996259266891375,
+      "delta1": 0.0,
+      "delta2": 0.0,
+      "promoted": false
+    },
+    {
+      "label": "QUAGMIRE_024",
+      "policy": "windowed_r10_t2",
+      "score": 0.42985224273036393,
+      "z_score": 0.2996259266891375,
+      "delta1": 0.0,
+      "delta2": 0.0,
+      "promoted": false
+    },
+    {
+      "label": "QUAGMIRE_025",
+      "policy": "fixed",
+      "score": 0.1851718425596274,
+      "z_score": 0.11838118582192525,
+      "delta1": 0.0,
+      "delta2": 0.0,
+      "promoted": false
+    },
+    {
+      "label": "QUAGMIRE_025",
+      "policy": "windowed_r2_t0",
+      "score": 0.1851718425596274,
+      "z_score": 0.11838118582192525,
+      "delta1": 0.0,
+      "delta2": 0.0,
+      "promoted": false
+    },
+    {
+      "label": "QUAGMIRE_025",
+      "policy": "windowed_r5_t1",
+      "score": 0.1851718425596274,
+      "z_score": 0.11838118582192525,
+      "delta1": 0.0,
+      "delta2": 0.0,
+      "promoted": false
+    },
+    {
+      "label": "QUAGMIRE_025",
+      "policy": "windowed_r10_t2",
+      "score": 0.1851718425596274,
+      "z_score": 0.11838118582192525,
+      "delta1": 0.0,
+      "delta2": 0.0,
+      "promoted": false
+    },
+    {
+      "label": "QUAGMIRE_026",
+      "policy": "fixed",
+      "score": -0.6254673315856942,
+      "z_score": -0.33415594469883425,
+      "delta1": 0.0,
+      "delta2": 0.0,
+      "promoted": false
+    },
+    {
+      "label": "QUAGMIRE_026",
+      "policy": "windowed_r2_t0",
+      "score": -0.6254673315856942,
+      "z_score": -0.33415594469883425,
+      "delta1": 0.0,
+      "delta2": 0.0,
+      "promoted": false
+    },
+    {
+      "label": "QUAGMIRE_026",
+      "policy": "windowed_r5_t1",
+      "score": -0.6254673315856942,
+      "z_score": -0.33415594469883425,
+      "delta1": 0.0,
+      "delta2": 0.0,
+      "promoted": false
+    },
+    {
+      "label": "QUAGMIRE_026",
+      "policy": "windowed_r10_t2",
+      "score": -0.6254673315856942,
+      "z_score": -0.33415594469883425,
+      "delta1": 0.0,
+      "delta2": 0.0,
+      "promoted": false
+    },
+    {
+      "label": "QUAGMIRE_027",
+      "policy": "fixed",
+      "score": -0.1410686910013545,
+      "z_score": -0.12327846866769095,
+      "delta1": 0.0,
+      "delta2": 0.0,
+      "promoted": false
+    },
+    {
+      "label": "QUAGMIRE_027",
+      "policy": "windowed_r2_t0",
+      "score": -0.1410686910013545,
+      "z_score": -0.12327846866769095,
+      "delta1": 0.0,
+      "delta2": 0.0,
+      "promoted": false
+    },
+    {
+      "label": "QUAGMIRE_027",
+      "policy": "windowed_r5_t1",
+      "score": -0.1410686910013545,
+      "z_score": -0.12327846866769095,
+      "delta1": 0.0,
+      "delta2": 0.0,
+      "promoted": false
+    },
+    {
+      "label": "QUAGMIRE_027",
+      "policy": "windowed_r10_t2",
+      "score": -0.1410686910013545,
+      "z_score": -0.12327846866769095,
+      "delta1": 0.0,
+      "delta2": 0.0,
+      "promoted": false
+    },
+    {
+      "label": "QUAGMIRE_028",
+      "policy": "fixed",
+      "score": -0.1410686910013545,
+      "z_score": -0.12327846866769095,
+      "delta1": 0.0,
+      "delta2": 0.0,
+      "promoted": false
+    },
+    {
+      "label": "QUAGMIRE_028",
+      "policy": "windowed_r2_t0",
+      "score": -0.1410686910013545,
+      "z_score": -0.12327846866769095,
+      "delta1": 0.0,
+      "delta2": 0.0,
+      "promoted": false
+    },
+    {
+      "label": "QUAGMIRE_028",
+      "policy": "windowed_r5_t1",
+      "score": -0.1410686910013545,
+      "z_score": -0.12327846866769095,
+      "delta1": 0.0,
+      "delta2": 0.0,
+      "promoted": false
+    },
+    {
+      "label": "QUAGMIRE_028",
+      "policy": "windowed_r10_t2",
+      "score": -0.1410686910013545,
+      "z_score": -0.12327846866769095,
+      "delta1": 0.0,
+      "delta2": 0.0,
+      "promoted": false
+    },
+    {
+      "label": "QUAGMIRE_029",
+      "policy": "fixed",
+      "score": -0.7119896247330734,
+      "z_score": -0.5461828640245198,
+      "delta1": 0.0,
+      "delta2": 0.0,
+      "promoted": false
+    },
+    {
+      "label": "QUAGMIRE_029",
+      "policy": "windowed_r2_t0",
+      "score": -0.7119896247330734,
+      "z_score": -0.5461828640245198,
+      "delta1": 0.0,
+      "delta2": 0.0,
+      "promoted": false
+    },
+    {
+      "label": "QUAGMIRE_029",
+      "policy": "windowed_r5_t1",
+      "score": -0.7119896247330734,
+      "z_score": -0.5461828640245198,
+      "delta1": 0.0,
+      "delta2": 0.0,
+      "promoted": false
+    },
+    {
+      "label": "QUAGMIRE_029",
+      "policy": "windowed_r10_t2",
+      "score": -0.7119896247330734,
+      "z_score": -0.5461828640245198,
+      "delta1": 0.0,
+      "delta2": 0.0,
+      "promoted": false
+    },
+    {
+      "label": "QUAGMIRE_030",
+      "policy": "fixed",
+      "score": 0.42985224273036393,
+      "z_score": 0.2996259266891375,
+      "delta1": 0.0,
+      "delta2": 0.0,
+      "promoted": false
+    },
+    {
+      "label": "QUAGMIRE_030",
+      "policy": "windowed_r2_t0",
+      "score": 0.42985224273036393,
+      "z_score": 0.2996259266891375,
+      "delta1": 0.0,
+      "delta2": 0.0,
+      "promoted": false
+    },
+    {
+      "label": "QUAGMIRE_030",
+      "policy": "windowed_r5_t1",
+      "score": 0.42985224273036393,
+      "z_score": 0.2996259266891375,
+      "delta1": 0.0,
+      "delta2": 0.0,
+      "promoted": false
+    },
+    {
+      "label": "QUAGMIRE_030",
+      "policy": "windowed_r10_t2",
+      "score": 0.42985224273036393,
+      "z_score": 0.2996259266891375,
+      "delta1": 0.0,
+      "delta2": 0.0,
+      "promoted": false
+    },
+    {
+      "label": "QUAGMIRE_031",
+      "policy": "fixed",
+      "score": 0.26673197594987286,
+      "z_score": 0.1787960994443293,
+      "delta1": 0.0,
+      "delta2": 0.0,
+      "promoted": false
+    },
+    {
+      "label": "QUAGMIRE_031",
+      "policy": "windowed_r2_t0",
+      "score": 0.26673197594987286,
+      "z_score": 0.1787960994443293,
+      "delta1": 0.0,
+      "delta2": 0.0,
+      "promoted": false
+    },
+    {
+      "label": "QUAGMIRE_031",
+      "policy": "windowed_r5_t1",
+      "score": 0.26673197594987286,
+      "z_score": 0.1787960994443293,
+      "delta1": 0.0,
+      "delta2": 0.0,
+      "promoted": false
+    },
+    {
+      "label": "QUAGMIRE_031",
+      "policy": "windowed_r10_t2",
+      "score": 0.26673197594987286,
+      "z_score": 0.1787960994443293,
+      "delta1": 0.0,
+      "delta2": 0.0,
+      "promoted": false
+    },
+    {
+      "label": "QUAGMIRE_032",
+      "policy": "fixed",
+      "score": -0.1410686910013545,
+      "z_score": -0.12327846866769095,
+      "delta1": 0.0,
+      "delta2": 0.0,
+      "promoted": false
+    },
+    {
+      "label": "QUAGMIRE_032",
+      "policy": "windowed_r2_t0",
+      "score": -0.1410686910013545,
+      "z_score": -0.12327846866769095,
+      "delta1": 0.0,
+      "delta2": 0.0,
+      "promoted": false
+    },
+    {
+      "label": "QUAGMIRE_032",
+      "policy": "windowed_r5_t1",
+      "score": -0.1410686910013545,
+      "z_score": -0.12327846866769095,
+      "delta1": 0.0,
+      "delta2": 0.0,
+      "promoted": false
+    },
+    {
+      "label": "QUAGMIRE_032",
+      "policy": "windowed_r10_t2",
+      "score": -0.1410686910013545,
+      "z_score": -0.12327846866769095,
+      "delta1": 0.0,
+      "delta2": 0.0,
+      "promoted": false
+    },
+    {
+      "label": "QUAGMIRE_033",
+      "policy": "fixed",
+      "score": 0.34829210934011834,
+      "z_score": 0.2392110130667334,
+      "delta1": 0.0,
+      "delta2": 0.0,
+      "promoted": false
+    },
+    {
+      "label": "QUAGMIRE_033",
+      "policy": "windowed_r2_t0",
+      "score": 0.34829210934011834,
+      "z_score": 0.2392110130667334,
+      "delta1": 0.0,
+      "delta2": 0.0,
+      "promoted": false
+    },
+    {
+      "label": "QUAGMIRE_033",
+      "policy": "windowed_r5_t1",
+      "score": 0.34829210934011834,
+      "z_score": 0.2392110130667334,
+      "delta1": 0.0,
+      "delta2": 0.0,
+      "promoted": false
+    },
+    {
+      "label": "QUAGMIRE_033",
+      "policy": "windowed_r10_t2",
+      "score": 0.34829210934011834,
+      "z_score": 0.2392110130667334,
+      "delta1": 0.0,
+      "delta2": 0.0,
+      "promoted": false
+    },
+    {
+      "label": "QUAGMIRE_034",
+      "policy": "fixed",
+      "score": -0.5538315177097157,
+      "z_score": -0.5769650424829927,
+      "delta1": 0.0,
+      "delta2": 0.0,
+      "promoted": false
+    },
+    {
+      "label": "QUAGMIRE_034",
+      "policy": "windowed_r2_t0",
+      "score": -0.5538315177097157,
+      "z_score": -0.5769650424829927,
+      "delta1": 0.0,
+      "delta2": 0.0,
+      "promoted": false
+    },
+    {
+      "label": "QUAGMIRE_034",
+      "policy": "windowed_r5_t1",
+      "score": -0.5538315177097157,
+      "z_score": -0.5769650424829927,
+      "delta1": 0.0,
+      "delta2": 0.0,
+      "promoted": false
+    },
+    {
+      "label": "QUAGMIRE_034",
+      "policy": "windowed_r10_t2",
+      "score": -0.5538315177097157,
+      "z_score": -0.5769650424829927,
+      "delta1": 0.0,
+      "delta2": 0.0,
+      "promoted": false
+    },
+    {
+      "label": "QUAGMIRE_035",
+      "policy": "fixed",
+      "score": -0.7119896247330734,
+      "z_score": -0.5461828640245198,
+      "delta1": 0.0,
+      "delta2": 0.0,
+      "promoted": false
+    },
+    {
+      "label": "QUAGMIRE_035",
+      "policy": "windowed_r2_t0",
+      "score": -0.7119896247330734,
+      "z_score": -0.5461828640245198,
+      "delta1": 0.0,
+      "delta2": 0.0,
+      "promoted": false
+    },
+    {
+      "label": "QUAGMIRE_035",
+      "policy": "windowed_r5_t1",
+      "score": -0.7119896247330734,
+      "z_score": -0.5461828640245198,
+      "delta1": 0.0,
+      "delta2": 0.0,
+      "promoted": false
+    },
+    {
+      "label": "QUAGMIRE_035",
+      "policy": "windowed_r10_t2",
+      "score": -0.7119896247330734,
+      "z_score": -0.5461828640245198,
+      "delta1": 0.0,
+      "delta2": 0.0,
+      "promoted": false
+    },
+    {
+      "label": "QUAGMIRE_036",
+      "policy": "fixed",
+      "score": 0.1851718425596274,
+      "z_score": 0.11838118582192525,
+      "delta1": 0.0,
+      "delta2": 0.0,
+      "promoted": false
+    },
+    {
+      "label": "QUAGMIRE_036",
+      "policy": "windowed_r2_t0",
+      "score": 0.1851718425596274,
+      "z_score": 0.11838118582192525,
+      "delta1": 0.0,
+      "delta2": 0.0,
+      "promoted": false
+    },
+    {
+      "label": "QUAGMIRE_036",
+      "policy": "windowed_r5_t1",
+      "score": 0.1851718425596274,
+      "z_score": 0.11838118582192525,
+      "delta1": 0.0,
+      "delta2": 0.0,
+      "promoted": false
+    },
+    {
+      "label": "QUAGMIRE_036",
+      "policy": "windowed_r10_t2",
+      "score": 0.1851718425596274,
+      "z_score": 0.11838118582192525,
+      "delta1": 0.0,
+      "delta2": 0.0,
+      "promoted": false
+    },
+    {
+      "label": "QUAGMIRE_037",
+      "policy": "fixed",
+      "score": -0.6254673315856942,
+      "z_score": -0.33415594469883425,
+      "delta1": 0.0,
+      "delta2": 0.0,
+      "promoted": false
+    },
+    {
+      "label": "QUAGMIRE_037",
+      "policy": "windowed_r2_t0",
+      "score": -0.6254673315856942,
+      "z_score": -0.33415594469883425,
+      "delta1": 0.0,
+      "delta2": 0.0,
+      "promoted": false
+    },
+    {
+      "label": "QUAGMIRE_037",
+      "policy": "windowed_r5_t1",
+      "score": -0.6254673315856942,
+      "z_score": -0.33415594469883425,
+      "delta1": 0.0,
+      "delta2": 0.0,
+      "promoted": false
+    },
+    {
+      "label": "QUAGMIRE_037",
+      "policy": "windowed_r10_t2",
+      "score": -0.6254673315856942,
+      "z_score": -0.33415594469883425,
+      "delta1": 0.0,
+      "delta2": 0.0,
+      "promoted": false
+    },
+    {
+      "label": "QUAGMIRE_038",
+      "policy": "fixed",
+      "score": -0.8751098915135646,
+      "z_score": -0.667012691269328,
+      "delta1": 0.0,
+      "delta2": 0.0,
+      "promoted": false
+    },
+    {
+      "label": "QUAGMIRE_038",
+      "policy": "windowed_r2_t0",
+      "score": -0.8751098915135646,
+      "z_score": -0.667012691269328,
+      "delta1": 0.0,
+      "delta2": 0.0,
+      "promoted": false
+    },
+    {
+      "label": "QUAGMIRE_038",
+      "policy": "windowed_r5_t1",
+      "score": -0.8751098915135646,
+      "z_score": -0.667012691269328,
+      "delta1": 0.0,
+      "delta2": 0.0,
+      "promoted": false
+    },
+    {
+      "label": "QUAGMIRE_038",
+      "policy": "windowed_r10_t2",
+      "score": -0.8751098915135646,
+      "z_score": -0.667012691269328,
+      "delta1": 0.0,
+      "delta2": 0.0,
+      "promoted": false
+    },
+    {
+      "label": "QUAGMIRE_039",
+      "policy": "fixed",
+      "score": -0.8751098915135646,
+      "z_score": -0.667012691269328,
+      "delta1": 0.0,
+      "delta2": 0.0,
+      "promoted": false
+    },
+    {
+      "label": "QUAGMIRE_039",
+      "policy": "windowed_r2_t0",
+      "score": -0.8751098915135646,
+      "z_score": -0.667012691269328,
+      "delta1": 0.0,
+      "delta2": 0.0,
+      "promoted": false
+    },
+    {
+      "label": "QUAGMIRE_039",
+      "policy": "windowed_r5_t1",
+      "score": -0.8751098915135646,
+      "z_score": -0.667012691269328,
+      "delta1": 0.0,
+      "delta2": 0.0,
+      "promoted": false
+    },
+    {
+      "label": "QUAGMIRE_039",
+      "policy": "windowed_r10_t2",
+      "score": -0.8751098915135646,
+      "z_score": -0.667012691269328,
+      "delta1": 0.0,
+      "delta2": 0.0,
+      "promoted": false
+    },
+    {
+      "label": "QUAGMIRE_040",
+      "policy": "fixed",
+      "score": 0.6794948026582343,
+      "z_score": 0.6324826732596313,
+      "delta1": 0.0,
+      "delta2": 0.006624133662981563,
+      "promoted": false
+    },
+    {
+      "label": "QUAGMIRE_040",
+      "policy": "windowed_r2_t0",
+      "score": 0.6794948026582343,
+      "z_score": 0.6324826732596313,
+      "delta1": 0.0,
+      "delta2": 0.006624133662981563,
+      "promoted": false
+    },
+    {
+      "label": "QUAGMIRE_040",
+      "policy": "windowed_r5_t1",
+      "score": 0.6794948026582343,
+      "z_score": 0.6324826732596313,
+      "delta1": 0.0,
+      "delta2": 0.006624133662981563,
+      "promoted": false
+    },
+    {
+      "label": "QUAGMIRE_040",
+      "policy": "windowed_r10_t2",
+      "score": 0.6794948026582343,
+      "z_score": 0.6324826732596313,
+      "delta1": 0.0,
+      "delta2": 0.006624133662981563,
+      "promoted": false
+    },
+    {
+      "label": "QUAGMIRE_041",
+      "policy": "fixed",
+      "score": -0.054546397853975165,
+      "z_score": 0.08874845065799468,
+      "delta1": 0.0,
+      "delta2": 0.0,
+      "promoted": false
+    },
+    {
+      "label": "QUAGMIRE_041",
+      "policy": "windowed_r2_t0",
+      "score": -0.054546397853975165,
+      "z_score": 0.08874845065799468,
+      "delta1": 0.0,
+      "delta2": 0.0,
+      "promoted": false
+    },
+    {
+      "label": "QUAGMIRE_041",
+      "policy": "windowed_r5_t1",
+      "score": -0.054546397853975165,
+      "z_score": 0.08874845065799468,
+      "delta1": 0.0,
+      "delta2": 0.0,
+      "promoted": false
+    },
+    {
+      "label": "QUAGMIRE_041",
+      "policy": "windowed_r10_t2",
+      "score": -0.054546397853975165,
+      "z_score": 0.08874845065799468,
+      "delta1": 0.0,
+      "delta2": 0.0,
+      "promoted": false
+    },
+    {
+      "label": "QUAGMIRE_042",
+      "policy": "fixed",
+      "score": 0.42985224273036393,
+      "z_score": 0.2996259266891375,
+      "delta1": 0.0,
+      "delta2": 0.0,
+      "promoted": false
+    },
+    {
+      "label": "QUAGMIRE_042",
+      "policy": "windowed_r2_t0",
+      "score": 0.42985224273036393,
+      "z_score": 0.2996259266891375,
+      "delta1": 0.0,
+      "delta2": 0.0,
+      "promoted": false
+    },
+    {
+      "label": "QUAGMIRE_042",
+      "policy": "windowed_r5_t1",
+      "score": 0.42985224273036393,
+      "z_score": 0.2996259266891375,
+      "delta1": 0.0,
+      "delta2": 0.0,
+      "promoted": false
+    },
+    {
+      "label": "QUAGMIRE_042",
+      "policy": "windowed_r10_t2",
+      "score": 0.42985224273036393,
+      "z_score": 0.2996259266891375,
+      "delta1": 0.0,
+      "delta2": 0.0,
+      "promoted": false
+    },
+    {
+      "label": "QUAGMIRE_043",
+      "policy": "fixed",
+      "score": -0.39071125092922476,
+      "z_score": -0.4561352152381846,
+      "delta1": 0.0,
+      "delta2": 0.0,
+      "promoted": false
+    },
+    {
+      "label": "QUAGMIRE_043",
+      "policy": "windowed_r2_t0",
+      "score": -0.39071125092922476,
+      "z_score": -0.4561352152381846,
+      "delta1": 0.0,
+      "delta2": 0.0,
+      "promoted": false
+    },
+    {
+      "label": "QUAGMIRE_043",
+      "policy": "windowed_r5_t1",
+      "score": -0.39071125092922476,
+      "z_score": -0.4561352152381846,
+      "delta1": 0.0,
+      "delta2": 0.0,
+      "promoted": false
+    },
+    {
+      "label": "QUAGMIRE_043",
+      "policy": "windowed_r10_t2",
+      "score": -0.39071125092922476,
+      "z_score": -0.4561352152381846,
+      "delta1": 0.0,
+      "delta2": 0.0,
+      "promoted": false
+    },
+    {
+      "label": "QUAGMIRE_044",
+      "policy": "fixed",
+      "score": 0.6810402156817299,
+      "z_score": 0.5620453276107404,
+      "delta1": 0.0,
+      "delta2": 0.0031022663805370223,
+      "promoted": false
+    },
+    {
+      "label": "QUAGMIRE_044",
+      "policy": "windowed_r2_t0",
+      "score": 0.6810402156817299,
+      "z_score": 0.5620453276107404,
+      "delta1": 0.0,
+      "delta2": 0.0031022663805370223,
+      "promoted": false
+    },
+    {
+      "label": "QUAGMIRE_044",
+      "policy": "windowed_r5_t1",
+      "score": 0.6810402156817299,
+      "z_score": 0.5620453276107404,
+      "delta1": 0.0,
+      "delta2": 0.0031022663805370223,
+      "promoted": false
+    },
+    {
+      "label": "QUAGMIRE_044",
+      "policy": "windowed_r10_t2",
+      "score": 0.6810402156817299,
+      "z_score": 0.5620453276107404,
+      "delta1": 0.0,
+      "delta2": 0.0031022663805370223,
+      "promoted": false
+    },
+    {
+      "label": "QUAGMIRE_045",
+      "policy": "fixed",
+      "score": -0.8751098915135646,
+      "z_score": -0.667012691269328,
+      "delta1": 0.0,
+      "delta2": 0.0,
+      "promoted": false
+    },
+    {
+      "label": "QUAGMIRE_045",
+      "policy": "windowed_r2_t0",
+      "score": -0.8751098915135646,
+      "z_score": -0.667012691269328,
+      "delta1": 0.0,
+      "delta2": 0.0,
+      "promoted": false
+    },
+    {
+      "label": "QUAGMIRE_045",
+      "policy": "windowed_r5_t1",
+      "score": -0.8751098915135646,
+      "z_score": -0.667012691269328,
+      "delta1": 0.0,
+      "delta2": 0.0,
+      "promoted": false
+    },
+    {
+      "label": "QUAGMIRE_045",
+      "policy": "windowed_r10_t2",
+      "score": -0.8751098915135646,
+      "z_score": -0.667012691269328,
+      "delta1": 0.0,
+      "delta2": 0.0,
+      "promoted": false
+    },
+    {
+      "label": "QUAGMIRE_046",
+      "policy": "fixed",
+      "score": -0.6353916510999614,
+      "z_score": -0.637379956105397,
+      "delta1": 0.0,
+      "delta2": 0.0,
+      "promoted": false
+    },
+    {
+      "label": "QUAGMIRE_046",
+      "policy": "windowed_r2_t0",
+      "score": -0.6353916510999614,
+      "z_score": -0.637379956105397,
+      "delta1": 0.0,
+      "delta2": 0.0,
+      "promoted": false
+    },
+    {
+      "label": "QUAGMIRE_046",
+      "policy": "windowed_r5_t1",
+      "score": -0.6353916510999614,
+      "z_score": -0.637379956105397,
+      "delta1": 0.0,
+      "delta2": 0.0,
+      "promoted": false
+    },
+    {
+      "label": "QUAGMIRE_046",
+      "policy": "windowed_r10_t2",
+      "score": -0.6353916510999614,
+      "z_score": -0.637379956105397,
+      "delta1": 0.0,
+      "delta2": 0.0,
+      "promoted": false
+    },
+    {
+      "label": "QUAGMIRE_047",
+      "policy": "fixed",
+      "score": 0.1851718425596274,
+      "z_score": 0.11838118582192525,
+      "delta1": 0.0,
+      "delta2": 0.0,
+      "promoted": false
+    },
+    {
+      "label": "QUAGMIRE_047",
+      "policy": "windowed_r2_t0",
+      "score": 0.1851718425596274,
+      "z_score": 0.11838118582192525,
+      "delta1": 0.0,
+      "delta2": 0.0,
+      "promoted": false
+    },
+    {
+      "label": "QUAGMIRE_047",
+      "policy": "windowed_r5_t1",
+      "score": 0.1851718425596274,
+      "z_score": 0.11838118582192525,
+      "delta1": 0.0,
+      "delta2": 0.0,
+      "promoted": false
+    },
+    {
+      "label": "QUAGMIRE_047",
+      "policy": "windowed_r10_t2",
+      "score": 0.1851718425596274,
+      "z_score": 0.11838118582192525,
+      "delta1": 0.0,
+      "delta2": 0.0,
+      "promoted": false
+    },
+    {
+      "label": "QUAGMIRE_048",
+      "policy": "fixed",
+      "score": -0.2275909841487338,
+      "z_score": -0.33530538799337656,
+      "delta1": 0.0,
+      "delta2": 0.0,
+      "promoted": false
+    },
+    {
+      "label": "QUAGMIRE_048",
+      "policy": "windowed_r2_t0",
+      "score": -0.2275909841487338,
+      "z_score": -0.33530538799337656,
+      "delta1": 0.0,
+      "delta2": 0.0,
+      "promoted": false
+    },
+    {
+      "label": "QUAGMIRE_048",
+      "policy": "windowed_r5_t1",
+      "score": -0.2275909841487338,
+      "z_score": -0.33530538799337656,
+      "delta1": 0.0,
+      "delta2": 0.0,
+      "promoted": false
+    },
+    {
+      "label": "QUAGMIRE_048",
+      "policy": "windowed_r10_t2",
+      "score": -0.2275909841487338,
+      "z_score": -0.33530538799337656,
+      "delta1": 0.0,
+      "delta2": 0.0,
+      "promoted": false
+    },
+    {
+      "label": "QUAGMIRE_049",
+      "policy": "fixed",
+      "score": -0.6254673315856942,
+      "z_score": -0.33415594469883425,
+      "delta1": 0.0,
+      "delta2": 0.0,
+      "promoted": false
+    },
+    {
+      "label": "QUAGMIRE_049",
+      "policy": "windowed_r2_t0",
+      "score": -0.6254673315856942,
+      "z_score": -0.33415594469883425,
+      "delta1": 0.0,
+      "delta2": 0.0,
+      "promoted": false
+    },
+    {
+      "label": "QUAGMIRE_049",
+      "policy": "windowed_r5_t1",
+      "score": -0.6254673315856942,
+      "z_score": -0.33415594469883425,
+      "delta1": 0.0,
+      "delta2": 0.0,
+      "promoted": false
+    },
+    {
+      "label": "QUAGMIRE_049",
+      "policy": "windowed_r10_t2",
+      "score": -0.6254673315856942,
+      "z_score": -0.33415594469883425,
+      "delta1": 0.0,
+      "delta2": 0.0,
+      "promoted": false
+    },
+    {
+      "label": "QUAGMIRE_050",
+      "policy": "fixed",
+      "score": 1.336938029537332,
+      "z_score": 1.2674139879421453,
+      "delta1": 0.005348279758842907,
+      "delta2": 0.03837069939710727,
+      "promoted": false
+    },
+    {
+      "label": "QUAGMIRE_050",
+      "policy": "windowed_r2_t0",
+      "score": 1.336938029537332,
+      "z_score": 1.2674139879421453,
+      "delta1": 0.005348279758842907,
+      "delta2": 0.03837069939710727,
+      "promoted": false
+    },
+    {
+      "label": "QUAGMIRE_050",
+      "policy": "windowed_r5_t1",
+      "score": 1.336938029537332,
+      "z_score": 1.2674139879421453,
+      "delta1": 0.005348279758842907,
+      "delta2": 0.03837069939710727,
+      "promoted": false
+    },
+    {
+      "label": "QUAGMIRE_050",
+      "policy": "windowed_r10_t2",
+      "score": 1.336938029537332,
+      "z_score": 1.2674139879421453,
+      "delta1": 0.005348279758842907,
+      "delta2": 0.03837069939710727,
+      "promoted": false
+    },
+    {
+      "label": "QUAGMIRE_051",
+      "policy": "fixed",
+      "score": 0.1851718425596274,
+      "z_score": 0.11838118582192525,
+      "delta1": 0.0,
+      "delta2": 0.0,
+      "promoted": false
+    },
+    {
+      "label": "QUAGMIRE_051",
+      "policy": "windowed_r2_t0",
+      "score": 0.1851718425596274,
+      "z_score": 0.11838118582192525,
+      "delta1": 0.0,
+      "delta2": 0.0,
+      "promoted": false
+    },
+    {
+      "label": "QUAGMIRE_051",
+      "policy": "windowed_r5_t1",
+      "score": 0.1851718425596274,
+      "z_score": 0.11838118582192525,
+      "delta1": 0.0,
+      "delta2": 0.0,
+      "promoted": false
+    },
+    {
+      "label": "QUAGMIRE_051",
+      "policy": "windowed_r10_t2",
+      "score": 0.1851718425596274,
+      "z_score": 0.11838118582192525,
+      "delta1": 0.0,
+      "delta2": 0.0,
+      "promoted": false
+    },
+    {
+      "label": "QUAGMIRE_052",
+      "policy": "fixed",
+      "score": -0.1410686910013545,
+      "z_score": -0.12327846866769095,
+      "delta1": 0.0,
+      "delta2": 0.0,
+      "promoted": false
+    },
+    {
+      "label": "QUAGMIRE_052",
+      "policy": "windowed_r2_t0",
+      "score": -0.1410686910013545,
+      "z_score": -0.12327846866769095,
+      "delta1": 0.0,
+      "delta2": 0.0,
+      "promoted": false
+    },
+    {
+      "label": "QUAGMIRE_052",
+      "policy": "windowed_r5_t1",
+      "score": -0.1410686910013545,
+      "z_score": -0.12327846866769095,
+      "delta1": 0.0,
+      "delta2": 0.0,
+      "promoted": false
+    },
+    {
+      "label": "QUAGMIRE_052",
+      "policy": "windowed_r10_t2",
+      "score": -0.1410686910013545,
+      "z_score": -0.12327846866769095,
+      "delta1": 0.0,
+      "delta2": 0.0,
+      "promoted": false
+    },
+    {
+      "label": "QUAGMIRE_053",
+      "policy": "fixed",
+      "score": -0.6254673315856942,
+      "z_score": -0.33415594469883425,
+      "delta1": 0.0,
+      "delta2": 0.0,
+      "promoted": false
+    },
+    {
+      "label": "QUAGMIRE_053",
+      "policy": "windowed_r2_t0",
+      "score": -0.6254673315856942,
+      "z_score": -0.33415594469883425,
+      "delta1": 0.0,
+      "delta2": 0.0,
+      "promoted": false
+    },
+    {
+      "label": "QUAGMIRE_053",
+      "policy": "windowed_r5_t1",
+      "score": -0.6254673315856942,
+      "z_score": -0.33415594469883425,
+      "delta1": 0.0,
+      "delta2": 0.0,
+      "promoted": false
+    },
+    {
+      "label": "QUAGMIRE_053",
+      "policy": "windowed_r10_t2",
+      "score": -0.6254673315856942,
+      "z_score": -0.33415594469883425,
+      "delta1": 0.0,
+      "delta2": 0.0,
+      "promoted": false
+    },
+    {
+      "label": "QUAGMIRE_054",
+      "policy": "fixed",
+      "score": 0.03197589529340411,
+      "z_score": 0.3007753699836802,
+      "delta1": 0.0,
+      "delta2": 0.0,
+      "promoted": false
+    },
+    {
+      "label": "QUAGMIRE_054",
+      "policy": "windowed_r2_t0",
+      "score": 0.03197589529340411,
+      "z_score": 0.3007753699836802,
+      "delta1": 0.0,
+      "delta2": 0.0,
+      "promoted": false
+    },
+    {
+      "label": "QUAGMIRE_054",
+      "policy": "windowed_r5_t1",
+      "score": 0.03197589529340411,
+      "z_score": 0.3007753699836802,
+      "delta1": 0.0,
+      "delta2": 0.0,
+      "promoted": false
+    },
+    {
+      "label": "QUAGMIRE_054",
+      "policy": "windowed_r10_t2",
+      "score": 0.03197589529340411,
+      "z_score": 0.3007753699836802,
+      "delta1": 0.0,
+      "delta2": 0.0,
+      "promoted": false
+    },
+    {
+      "label": "QUAGMIRE_055",
+      "policy": "fixed",
+      "score": -0.39071125092922476,
+      "z_score": -0.4561352152381846,
+      "delta1": 0.0,
+      "delta2": 0.0,
+      "promoted": false
+    },
+    {
+      "label": "QUAGMIRE_055",
+      "policy": "windowed_r2_t0",
+      "score": -0.39071125092922476,
+      "z_score": -0.4561352152381846,
+      "delta1": 0.0,
+      "delta2": 0.0,
+      "promoted": false
+    },
+    {
+      "label": "QUAGMIRE_055",
+      "policy": "windowed_r5_t1",
+      "score": -0.39071125092922476,
+      "z_score": -0.4561352152381846,
+      "delta1": 0.0,
+      "delta2": 0.0,
+      "promoted": false
+    },
+    {
+      "label": "QUAGMIRE_055",
+      "policy": "windowed_r10_t2",
+      "score": -0.39071125092922476,
+      "z_score": -0.4561352152381846,
+      "delta1": 0.0,
+      "delta2": 0.0,
+      "promoted": false
+    },
+    {
+      "label": "QUAGMIRE_056",
+      "policy": "fixed",
+      "score": 0.06933921525488856,
+      "z_score": 0.10893347544270987,
+      "delta1": 0.0,
+      "delta2": 0.0,
+      "promoted": false
+    },
+    {
+      "label": "QUAGMIRE_056",
+      "policy": "windowed_r2_t0",
+      "score": 0.06933921525488856,
+      "z_score": 0.10893347544270987,
+      "delta1": 0.0,
+      "delta2": 0.0,
+      "promoted": false
+    },
+    {
+      "label": "QUAGMIRE_056",
+      "policy": "windowed_r5_t1",
+      "score": 0.06933921525488856,
+      "z_score": 0.10893347544270987,
+      "delta1": 0.0,
+      "delta2": 0.0,
+      "promoted": false
+    },
+    {
+      "label": "QUAGMIRE_056",
+      "policy": "windowed_r10_t2",
+      "score": 0.06933921525488856,
+      "z_score": 0.10893347544270987,
+      "delta1": 0.0,
+      "delta2": 0.0,
+      "promoted": false
+    },
+    {
+      "label": "QUAGMIRE_057",
+      "policy": "fixed",
+      "score": -0.7119896247330734,
+      "z_score": -0.5461828640245198,
+      "delta1": 0.0,
+      "delta2": 0.0,
+      "promoted": false
+    },
+    {
+      "label": "QUAGMIRE_057",
+      "policy": "windowed_r2_t0",
+      "score": -0.7119896247330734,
+      "z_score": -0.5461828640245198,
+      "delta1": 0.0,
+      "delta2": 0.0,
+      "promoted": false
+    },
+    {
+      "label": "QUAGMIRE_057",
+      "policy": "windowed_r5_t1",
+      "score": -0.7119896247330734,
+      "z_score": -0.5461828640245198,
+      "delta1": 0.0,
+      "delta2": 0.0,
+      "promoted": false
+    },
+    {
+      "label": "QUAGMIRE_057",
+      "policy": "windowed_r10_t2",
+      "score": -0.7119896247330734,
+      "z_score": -0.5461828640245198,
+      "delta1": 0.0,
+      "delta2": 0.0,
+      "promoted": false
+    },
+    {
+      "label": "QUAGMIRE_058",
+      "policy": "fixed",
+      "score": -0.6353916510999614,
+      "z_score": -0.637379956105397,
+      "delta1": 0.0,
+      "delta2": 0.0,
+      "promoted": false
+    },
+    {
+      "label": "QUAGMIRE_058",
+      "policy": "windowed_r2_t0",
+      "score": -0.6353916510999614,
+      "z_score": -0.637379956105397,
+      "delta1": 0.0,
+      "delta2": 0.0,
+      "promoted": false
+    },
+    {
+      "label": "QUAGMIRE_058",
+      "policy": "windowed_r5_t1",
+      "score": -0.6353916510999614,
+      "z_score": -0.637379956105397,
+      "delta1": 0.0,
+      "delta2": 0.0,
+      "promoted": false
+    },
+    {
+      "label": "QUAGMIRE_058",
+      "policy": "windowed_r10_t2",
+      "score": -0.6353916510999614,
+      "z_score": -0.637379956105397,
+      "delta1": 0.0,
+      "delta2": 0.0,
+      "promoted": false
+    },
+    {
+      "label": "QUAGMIRE_059",
+      "policy": "fixed",
+      "score": 0.1851718425596274,
+      "z_score": 0.11838118582192525,
+      "delta1": 0.0,
+      "delta2": 0.0,
+      "promoted": false
+    },
+    {
+      "label": "QUAGMIRE_059",
+      "policy": "windowed_r2_t0",
+      "score": 0.1851718425596274,
+      "z_score": 0.11838118582192525,
+      "delta1": 0.0,
+      "delta2": 0.0,
+      "promoted": false
+    },
+    {
+      "label": "QUAGMIRE_059",
+      "policy": "windowed_r5_t1",
+      "score": 0.1851718425596274,
+      "z_score": 0.11838118582192525,
+      "delta1": 0.0,
+      "delta2": 0.0,
+      "promoted": false
+    },
+    {
+      "label": "QUAGMIRE_059",
+      "policy": "windowed_r10_t2",
+      "score": 0.1851718425596274,
+      "z_score": 0.11838118582192525,
+      "delta1": 0.0,
+      "delta2": 0.0,
+      "promoted": false
+    },
+    {
+      "label": "QUAGMIRE_060",
+      "policy": "fixed",
+      "score": -0.8751098915135646,
+      "z_score": -0.667012691269328,
+      "delta1": 0.0,
+      "delta2": 0.0,
+      "promoted": false
+    },
+    {
+      "label": "QUAGMIRE_060",
+      "policy": "windowed_r2_t0",
+      "score": -0.8751098915135646,
+      "z_score": -0.667012691269328,
+      "delta1": 0.0,
+      "delta2": 0.0,
+      "promoted": false
+    },
+    {
+      "label": "QUAGMIRE_060",
+      "policy": "windowed_r5_t1",
+      "score": -0.8751098915135646,
+      "z_score": -0.667012691269328,
+      "delta1": 0.0,
+      "delta2": 0.0,
+      "promoted": false
+    },
+    {
+      "label": "QUAGMIRE_060",
+      "policy": "windowed_r10_t2",
+      "score": -0.8751098915135646,
+      "z_score": -0.667012691269328,
+      "delta1": 0.0,
+      "delta2": 0.0,
+      "promoted": false
+    },
+    {
+      "label": "QUAGMIRE_061",
+      "policy": "fixed",
+      "score": 0.1851718425596274,
+      "z_score": 0.11838118582192525,
+      "delta1": 0.0,
+      "delta2": 0.0,
+      "promoted": false
+    },
+    {
+      "label": "QUAGMIRE_061",
+      "policy": "windowed_r2_t0",
+      "score": 0.1851718425596274,
+      "z_score": 0.11838118582192525,
+      "delta1": 0.0,
+      "delta2": 0.0,
+      "promoted": false
+    },
+    {
+      "label": "QUAGMIRE_061",
+      "policy": "windowed_r5_t1",
+      "score": 0.1851718425596274,
+      "z_score": 0.11838118582192525,
+      "delta1": 0.0,
+      "delta2": 0.0,
+      "promoted": false
+    },
+    {
+      "label": "QUAGMIRE_061",
+      "policy": "windowed_r10_t2",
+      "score": 0.1851718425596274,
+      "z_score": 0.11838118582192525,
+      "delta1": 0.0,
+      "delta2": 0.0,
+      "promoted": false
+    },
+    {
+      "label": "QUAGMIRE_062",
+      "policy": "fixed",
+      "score": 0.34829210934011834,
+      "z_score": 0.2392110130667334,
+      "delta1": 0.0,
+      "delta2": 0.0,
+      "promoted": false
+    },
+    {
+      "label": "QUAGMIRE_062",
+      "policy": "windowed_r2_t0",
+      "score": 0.34829210934011834,
+      "z_score": 0.2392110130667334,
+      "delta1": 0.0,
+      "delta2": 0.0,
+      "promoted": false
+    },
+    {
+      "label": "QUAGMIRE_062",
+      "policy": "windowed_r5_t1",
+      "score": 0.34829210934011834,
+      "z_score": 0.2392110130667334,
+      "delta1": 0.0,
+      "delta2": 0.0,
+      "promoted": false
+    },
+    {
+      "label": "QUAGMIRE_062",
+      "policy": "windowed_r10_t2",
+      "score": 0.34829210934011834,
+      "z_score": 0.2392110130667334,
+      "delta1": 0.0,
+      "delta2": 0.0,
+      "promoted": false
+    },
+    {
+      "label": "QUAGMIRE_063",
+      "policy": "fixed",
+      "score": 0.42985224273036393,
+      "z_score": 0.2996259266891375,
+      "delta1": 0.0,
+      "delta2": 0.0,
+      "promoted": false
+    },
+    {
+      "label": "QUAGMIRE_063",
+      "policy": "windowed_r2_t0",
+      "score": 0.42985224273036393,
+      "z_score": 0.2996259266891375,
+      "delta1": 0.0,
+      "delta2": 0.0,
+      "promoted": false
+    },
+    {
+      "label": "QUAGMIRE_063",
+      "policy": "windowed_r5_t1",
+      "score": 0.42985224273036393,
+      "z_score": 0.2996259266891375,
+      "delta1": 0.0,
+      "delta2": 0.0,
+      "promoted": false
+    },
+    {
+      "label": "QUAGMIRE_063",
+      "policy": "windowed_r10_t2",
+      "score": 0.42985224273036393,
+      "z_score": 0.2996259266891375,
+      "delta1": 0.0,
+      "delta2": 0.0,
+      "promoted": false
+    },
+    {
+      "label": "QUAGMIRE_064",
+      "policy": "fixed",
+      "score": 1.336938029537332,
+      "z_score": 1.2674139879421453,
+      "delta1": 0.005348279758842907,
+      "delta2": 0.03837069939710727,
+      "promoted": false
+    },
+    {
+      "label": "QUAGMIRE_064",
+      "policy": "windowed_r2_t0",
+      "score": 1.336938029537332,
+      "z_score": 1.2674139879421453,
+      "delta1": 0.005348279758842907,
+      "delta2": 0.03837069939710727,
+      "promoted": false
+    },
+    {
+      "label": "QUAGMIRE_064",
+      "policy": "windowed_r5_t1",
+      "score": 1.336938029537332,
+      "z_score": 1.2674139879421453,
+      "delta1": 0.005348279758842907,
+      "delta2": 0.03837069939710727,
+      "promoted": false
+    },
+    {
+      "label": "QUAGMIRE_064",
+      "policy": "windowed_r10_t2",
+      "score": 1.336938029537332,
+      "z_score": 1.2674139879421453,
+      "delta1": 0.005348279758842907,
+      "delta2": 0.03837069939710727,
+      "promoted": false
+    },
+    {
+      "label": "QUAGMIRE_065",
+      "policy": "fixed",
+      "score": 0.7610549360484797,
+      "z_score": 0.6928975868820353,
+      "delta1": 0.0,
+      "delta2": 0.009644879344101765,
+      "promoted": false
+    },
+    {
+      "label": "QUAGMIRE_065",
+      "policy": "windowed_r2_t0",
+      "score": 0.7610549360484797,
+      "z_score": 0.6928975868820353,
+      "delta1": 0.0,
+      "delta2": 0.009644879344101765,
+      "promoted": false
+    },
+    {
+      "label": "QUAGMIRE_065",
+      "policy": "windowed_r5_t1",
+      "score": 0.7610549360484797,
+      "z_score": 0.6928975868820353,
+      "delta1": 0.0,
+      "delta2": 0.009644879344101765,
+      "promoted": false
+    },
+    {
+      "label": "QUAGMIRE_065",
+      "policy": "windowed_r10_t2",
+      "score": 0.7610549360484797,
+      "z_score": 0.6928975868820353,
+      "delta1": 0.0,
+      "delta2": 0.009644879344101765,
+      "promoted": false
+    },
+    {
+      "label": "QUAGMIRE_066",
+      "policy": "fixed",
+      "score": -0.7169517844902068,
+      "z_score": -0.6977948697278009,
+      "delta1": 0.0,
+      "delta2": 0.0,
+      "promoted": false
+    },
+    {
+      "label": "QUAGMIRE_066",
+      "policy": "windowed_r2_t0",
+      "score": -0.7169517844902068,
+      "z_score": -0.6977948697278009,
+      "delta1": 0.0,
+      "delta2": 0.0,
+      "promoted": false
+    },
+    {
+      "label": "QUAGMIRE_066",
+      "policy": "windowed_r5_t1",
+      "score": -0.7169517844902068,
+      "z_score": -0.6977948697278009,
+      "delta1": 0.0,
+      "delta2": 0.0,
+      "promoted": false
+    },
+    {
+      "label": "QUAGMIRE_066",
+      "policy": "windowed_r10_t2",
+      "score": -0.7169517844902068,
+      "z_score": -0.6977948697278009,
+      "delta1": 0.0,
+      "delta2": 0.0,
+      "promoted": false
+    },
+    {
+      "label": "QUAGMIRE_067",
+      "policy": "fixed",
+      "score": -0.6353916510999614,
+      "z_score": -0.637379956105397,
+      "delta1": 0.0,
+      "delta2": 0.0,
+      "promoted": false
+    },
+    {
+      "label": "QUAGMIRE_067",
+      "policy": "windowed_r2_t0",
+      "score": -0.6353916510999614,
+      "z_score": -0.637379956105397,
+      "delta1": 0.0,
+      "delta2": 0.0,
+      "promoted": false
+    },
+    {
+      "label": "QUAGMIRE_067",
+      "policy": "windowed_r5_t1",
+      "score": -0.6353916510999614,
+      "z_score": -0.637379956105397,
+      "delta1": 0.0,
+      "delta2": 0.0,
+      "promoted": false
+    },
+    {
+      "label": "QUAGMIRE_067",
+      "policy": "windowed_r10_t2",
+      "score": -0.6353916510999614,
+      "z_score": -0.637379956105397,
+      "delta1": 0.0,
+      "delta2": 0.0,
+      "promoted": false
+    },
+    {
+      "label": "QUAGMIRE_068",
+      "policy": "fixed",
+      "score": -0.6254673315856942,
+      "z_score": -0.33415594469883425,
+      "delta1": 0.0,
+      "delta2": 0.0,
+      "promoted": false
+    },
+    {
+      "label": "QUAGMIRE_068",
+      "policy": "windowed_r2_t0",
+      "score": -0.6254673315856942,
+      "z_score": -0.33415594469883425,
+      "delta1": 0.0,
+      "delta2": 0.0,
+      "promoted": false
+    },
+    {
+      "label": "QUAGMIRE_068",
+      "policy": "windowed_r5_t1",
+      "score": -0.6254673315856942,
+      "z_score": -0.33415594469883425,
+      "delta1": 0.0,
+      "delta2": 0.0,
+      "promoted": false
+    },
+    {
+      "label": "QUAGMIRE_068",
+      "policy": "windowed_r10_t2",
+      "score": -0.6254673315856942,
+      "z_score": -0.33415594469883425,
+      "delta1": 0.0,
+      "delta2": 0.0,
+      "promoted": false
+    },
+    {
+      "label": "QUAGMIRE_069",
+      "policy": "fixed",
+      "score": -0.6353916510999614,
+      "z_score": -0.637379956105397,
+      "delta1": 0.0,
+      "delta2": 0.0,
+      "promoted": false
+    },
+    {
+      "label": "QUAGMIRE_069",
+      "policy": "windowed_r2_t0",
+      "score": -0.6353916510999614,
+      "z_score": -0.637379956105397,
+      "delta1": 0.0,
+      "delta2": 0.0,
+      "promoted": false
+    },
+    {
+      "label": "QUAGMIRE_069",
+      "policy": "windowed_r5_t1",
+      "score": -0.6353916510999614,
+      "z_score": -0.637379956105397,
+      "delta1": 0.0,
+      "delta2": 0.0,
+      "promoted": false
+    },
+    {
+      "label": "QUAGMIRE_069",
+      "policy": "windowed_r10_t2",
+      "score": -0.6353916510999614,
+      "z_score": -0.637379956105397,
+      "delta1": 0.0,
+      "delta2": 0.0,
+      "promoted": false
+    },
+    {
+      "label": "QUAGMIRE_070",
+      "policy": "fixed",
+      "score": 0.42985224273036393,
+      "z_score": 0.2996259266891375,
+      "delta1": 0.0,
+      "delta2": 0.0,
+      "promoted": false
+    },
+    {
+      "label": "QUAGMIRE_070",
+      "policy": "windowed_r2_t0",
+      "score": 0.42985224273036393,
+      "z_score": 0.2996259266891375,
+      "delta1": 0.0,
+      "delta2": 0.0,
+      "promoted": false
+    },
+    {
+      "label": "QUAGMIRE_070",
+      "policy": "windowed_r5_t1",
+      "score": 0.42985224273036393,
+      "z_score": 0.2996259266891375,
+      "delta1": 0.0,
+      "delta2": 0.0,
+      "promoted": false
+    },
+    {
+      "label": "QUAGMIRE_070",
+      "policy": "windowed_r10_t2",
+      "score": 0.42985224273036393,
+      "z_score": 0.2996259266891375,
+      "delta1": 0.0,
+      "delta2": 0.0,
+      "promoted": false
+    },
+    {
+      "label": "QUAGMIRE_071",
+      "policy": "fixed",
+      "score": -0.8751098915135646,
+      "z_score": -0.667012691269328,
+      "delta1": 0.0,
+      "delta2": 0.0,
+      "promoted": false
+    },
+    {
+      "label": "QUAGMIRE_071",
+      "policy": "windowed_r2_t0",
+      "score": -0.8751098915135646,
+      "z_score": -0.667012691269328,
+      "delta1": 0.0,
+      "delta2": 0.0,
+      "promoted": false
+    },
+    {
+      "label": "QUAGMIRE_071",
+      "policy": "windowed_r5_t1",
+      "score": -0.8751098915135646,
+      "z_score": -0.667012691269328,
+      "delta1": 0.0,
+      "delta2": 0.0,
+      "promoted": false
+    },
+    {
+      "label": "QUAGMIRE_071",
+      "policy": "windowed_r10_t2",
+      "score": -0.8751098915135646,
+      "z_score": -0.667012691269328,
+      "delta1": 0.0,
+      "delta2": 0.0,
+      "promoted": false
+    },
+    {
+      "label": "QUAGMIRE_072",
+      "policy": "fixed",
+      "score": -0.7119896247330734,
+      "z_score": -0.5461828640245198,
+      "delta1": 0.0,
+      "delta2": 0.0,
+      "promoted": false
+    },
+    {
+      "label": "QUAGMIRE_072",
+      "policy": "windowed_r2_t0",
+      "score": -0.7119896247330734,
+      "z_score": -0.5461828640245198,
+      "delta1": 0.0,
+      "delta2": 0.0,
+      "promoted": false
+    },
+    {
+      "label": "QUAGMIRE_072",
+      "policy": "windowed_r5_t1",
+      "score": -0.7119896247330734,
+      "z_score": -0.5461828640245198,
+      "delta1": 0.0,
+      "delta2": 0.0,
+      "promoted": false
+    },
+    {
+      "label": "QUAGMIRE_072",
+      "policy": "windowed_r10_t2",
+      "score": -0.7119896247330734,
+      "z_score": -0.5461828640245198,
+      "delta1": 0.0,
+      "delta2": 0.0,
+      "promoted": false
+    },
+    {
+      "label": "QUAGMIRE_073",
+      "policy": "fixed",
+      "score": -0.1410686910013545,
+      "z_score": -0.12327846866769095,
+      "delta1": 0.0,
+      "delta2": 0.0,
+      "promoted": false
+    },
+    {
+      "label": "QUAGMIRE_073",
+      "policy": "windowed_r2_t0",
+      "score": -0.1410686910013545,
+      "z_score": -0.12327846866769095,
+      "delta1": 0.0,
+      "delta2": 0.0,
+      "promoted": false
+    },
+    {
+      "label": "QUAGMIRE_073",
+      "policy": "windowed_r5_t1",
+      "score": -0.1410686910013545,
+      "z_score": -0.12327846866769095,
+      "delta1": 0.0,
+      "delta2": 0.0,
+      "promoted": false
+    },
+    {
+      "label": "QUAGMIRE_073",
+      "policy": "windowed_r10_t2",
+      "score": -0.1410686910013545,
+      "z_score": -0.12327846866769095,
+      "delta1": 0.0,
+      "delta2": 0.0,
+      "promoted": false
+    },
+    {
+      "label": "QUAGMIRE_074",
+      "policy": "fixed",
+      "score": 0.06933921525488856,
+      "z_score": 0.10893347544270987,
+      "delta1": 0.0,
+      "delta2": 0.0,
+      "promoted": false
+    },
+    {
+      "label": "QUAGMIRE_074",
+      "policy": "windowed_r2_t0",
+      "score": 0.06933921525488856,
+      "z_score": 0.10893347544270987,
+      "delta1": 0.0,
+      "delta2": 0.0,
+      "promoted": false
+    },
+    {
+      "label": "QUAGMIRE_074",
+      "policy": "windowed_r5_t1",
+      "score": 0.06933921525488856,
+      "z_score": 0.10893347544270987,
+      "delta1": 0.0,
+      "delta2": 0.0,
+      "promoted": false
+    },
+    {
+      "label": "QUAGMIRE_074",
+      "policy": "windowed_r10_t2",
+      "score": 0.06933921525488856,
+      "z_score": 0.10893347544270987,
+      "delta1": 0.0,
+      "delta2": 0.0,
+      "promoted": false
+    },
+    {
+      "label": "QUAGMIRE_075",
+      "policy": "fixed",
+      "score": -0.38078693141495745,
+      "z_score": -0.15291120383162185,
+      "delta1": 0.0,
+      "delta2": 0.0,
+      "promoted": false
+    },
+    {
+      "label": "QUAGMIRE_075",
+      "policy": "windowed_r2_t0",
+      "score": -0.38078693141495745,
+      "z_score": -0.15291120383162185,
+      "delta1": 0.0,
+      "delta2": 0.0,
+      "promoted": false
+    },
+    {
+      "label": "QUAGMIRE_075",
+      "policy": "windowed_r5_t1",
+      "score": -0.38078693141495745,
+      "z_score": -0.15291120383162185,
+      "delta1": 0.0,
+      "delta2": 0.0,
+      "promoted": false
+    },
+    {
+      "label": "QUAGMIRE_075",
+      "policy": "windowed_r10_t2",
+      "score": -0.38078693141495745,
+      "z_score": -0.15291120383162185,
+      "delta1": 0.0,
+      "delta2": 0.0,
+      "promoted": false
+    },
+    {
+      "label": "QUAGMIRE_076",
+      "policy": "fixed",
+      "score": 0.1851718425596274,
+      "z_score": 0.11838118582192525,
+      "delta1": 0.0,
+      "delta2": 0.0,
+      "promoted": false
+    },
+    {
+      "label": "QUAGMIRE_076",
+      "policy": "windowed_r2_t0",
+      "score": 0.1851718425596274,
+      "z_score": 0.11838118582192525,
+      "delta1": 0.0,
+      "delta2": 0.0,
+      "promoted": false
+    },
+    {
+      "label": "QUAGMIRE_076",
+      "policy": "windowed_r5_t1",
+      "score": 0.1851718425596274,
+      "z_score": 0.11838118582192525,
+      "delta1": 0.0,
+      "delta2": 0.0,
+      "promoted": false
+    },
+    {
+      "label": "QUAGMIRE_076",
+      "policy": "windowed_r10_t2",
+      "score": 0.1851718425596274,
+      "z_score": 0.11838118582192525,
+      "delta1": 0.0,
+      "delta2": 0.0,
+      "promoted": false
+    },
+    {
+      "label": "QUAGMIRE_077",
+      "policy": "fixed",
+      "score": 0.6794948026582343,
+      "z_score": 0.6324826732596313,
+      "delta1": 0.0,
+      "delta2": 0.006624133662981563,
+      "promoted": false
+    },
+    {
+      "label": "QUAGMIRE_077",
+      "policy": "windowed_r2_t0",
+      "score": 0.6794948026582343,
+      "z_score": 0.6324826732596313,
+      "delta1": 0.0,
+      "delta2": 0.006624133662981563,
+      "promoted": false
+    },
+    {
+      "label": "QUAGMIRE_077",
+      "policy": "windowed_r5_t1",
+      "score": 0.6794948026582343,
+      "z_score": 0.6324826732596313,
+      "delta1": 0.0,
+      "delta2": 0.006624133662981563,
+      "promoted": false
+    },
+    {
+      "label": "QUAGMIRE_077",
+      "policy": "windowed_r10_t2",
+      "score": 0.6794948026582343,
+      "z_score": 0.6324826732596313,
+      "delta1": 0.0,
+      "delta2": 0.006624133662981563,
+      "promoted": false
+    },
+    {
+      "label": "QUAGMIRE_078",
+      "policy": "fixed",
+      "score": -0.1410686910013545,
+      "z_score": -0.12327846866769095,
+      "delta1": 0.0,
+      "delta2": 0.0,
+      "promoted": false
+    },
+    {
+      "label": "QUAGMIRE_078",
+      "policy": "windowed_r2_t0",
+      "score": -0.1410686910013545,
+      "z_score": -0.12327846866769095,
+      "delta1": 0.0,
+      "delta2": 0.0,
+      "promoted": false
+    },
+    {
+      "label": "QUAGMIRE_078",
+      "policy": "windowed_r5_t1",
+      "score": -0.1410686910013545,
+      "z_score": -0.12327846866769095,
+      "delta1": 0.0,
+      "delta2": 0.0,
+      "promoted": false
+    },
+    {
+      "label": "QUAGMIRE_078",
+      "policy": "windowed_r10_t2",
+      "score": -0.1410686910013545,
+      "z_score": -0.12327846866769095,
+      "delta1": 0.0,
+      "delta2": 0.0,
+      "promoted": false
+    },
+    {
+      "label": "QUAGMIRE_079",
+      "policy": "fixed",
+      "score": -0.7119896247330734,
+      "z_score": -0.5461828640245198,
+      "delta1": 0.0,
+      "delta2": 0.0,
+      "promoted": false
+    },
+    {
+      "label": "QUAGMIRE_079",
+      "policy": "windowed_r2_t0",
+      "score": -0.7119896247330734,
+      "z_score": -0.5461828640245198,
+      "delta1": 0.0,
+      "delta2": 0.0,
+      "promoted": false
+    },
+    {
+      "label": "QUAGMIRE_079",
+      "policy": "windowed_r5_t1",
+      "score": -0.7119896247330734,
+      "z_score": -0.5461828640245198,
+      "delta1": 0.0,
+      "delta2": 0.0,
+      "promoted": false
+    },
+    {
+      "label": "QUAGMIRE_079",
+      "policy": "windowed_r10_t2",
+      "score": -0.7119896247330734,
+      "z_score": -0.5461828640245198,
+      "delta1": 0.0,
+      "delta2": 0.0,
+      "promoted": false
+    },
+    {
+      "label": "QUAGMIRE_080",
+      "policy": "fixed",
+      "score": -0.8751098915135646,
+      "z_score": -0.667012691269328,
+      "delta1": 0.0,
+      "delta2": 0.0,
+      "promoted": false
+    },
+    {
+      "label": "QUAGMIRE_080",
+      "policy": "windowed_r2_t0",
+      "score": -0.8751098915135646,
+      "z_score": -0.667012691269328,
+      "delta1": 0.0,
+      "delta2": 0.0,
+      "promoted": false
+    },
+    {
+      "label": "QUAGMIRE_080",
+      "policy": "windowed_r5_t1",
+      "score": -0.8751098915135646,
+      "z_score": -0.667012691269328,
+      "delta1": 0.0,
+      "delta2": 0.0,
+      "promoted": false
+    },
+    {
+      "label": "QUAGMIRE_080",
+      "policy": "windowed_r10_t2",
+      "score": -0.8751098915135646,
+      "z_score": -0.667012691269328,
+      "delta1": 0.0,
+      "delta2": 0.0,
+      "promoted": false
+    },
+    {
+      "label": "QUAGMIRE_081",
+      "policy": "fixed",
+      "score": 0.10857386892651584,
+      "z_score": 0.2095782779028028,
+      "delta1": 0.0,
+      "delta2": 0.0,
+      "promoted": false
+    },
+    {
+      "label": "QUAGMIRE_081",
+      "policy": "windowed_r2_t0",
+      "score": 0.10857386892651584,
+      "z_score": 0.2095782779028028,
+      "delta1": 0.0,
+      "delta2": 0.0,
+      "promoted": false
+    },
+    {
+      "label": "QUAGMIRE_081",
+      "policy": "windowed_r5_t1",
+      "score": 0.10857386892651584,
+      "z_score": 0.2095782779028028,
+      "delta1": 0.0,
+      "delta2": 0.0,
+      "promoted": false
+    },
+    {
+      "label": "QUAGMIRE_081",
+      "policy": "windowed_r10_t2",
+      "score": 0.10857386892651584,
+      "z_score": 0.2095782779028028,
+      "delta1": 0.0,
+      "delta2": 0.0,
+      "promoted": false
+    },
+    {
+      "label": "QUAGMIRE_082",
+      "policy": "fixed",
+      "score": 0.1851718425596274,
+      "z_score": 0.11838118582192525,
+      "delta1": 0.0,
+      "delta2": 0.0,
+      "promoted": false
+    },
+    {
+      "label": "QUAGMIRE_082",
+      "policy": "windowed_r2_t0",
+      "score": 0.1851718425596274,
+      "z_score": 0.11838118582192525,
+      "delta1": 0.0,
+      "delta2": 0.0,
+      "promoted": false
+    },
+    {
+      "label": "QUAGMIRE_082",
+      "policy": "windowed_r5_t1",
+      "score": 0.1851718425596274,
+      "z_score": 0.11838118582192525,
+      "delta1": 0.0,
+      "delta2": 0.0,
+      "promoted": false
+    },
+    {
+      "label": "QUAGMIRE_082",
+      "policy": "windowed_r10_t2",
+      "score": 0.1851718425596274,
+      "z_score": 0.11838118582192525,
+      "delta1": 0.0,
+      "delta2": 0.0,
+      "promoted": false
+    },
+    {
+      "label": "QUAGMIRE_083",
+      "policy": "fixed",
+      "score": -0.6254673315856942,
+      "z_score": -0.33415594469883425,
+      "delta1": 0.0,
+      "delta2": 0.0,
+      "promoted": false
+    },
+    {
+      "label": "QUAGMIRE_083",
+      "policy": "windowed_r2_t0",
+      "score": -0.6254673315856942,
+      "z_score": -0.33415594469883425,
+      "delta1": 0.0,
+      "delta2": 0.0,
+      "promoted": false
+    },
+    {
+      "label": "QUAGMIRE_083",
+      "policy": "windowed_r5_t1",
+      "score": -0.6254673315856942,
+      "z_score": -0.33415594469883425,
+      "delta1": 0.0,
+      "delta2": 0.0,
+      "promoted": false
+    },
+    {
+      "label": "QUAGMIRE_083",
+      "policy": "windowed_r10_t2",
+      "score": -0.6254673315856942,
+      "z_score": -0.33415594469883425,
+      "delta1": 0.0,
+      "delta2": 0.0,
+      "promoted": false
+    },
+    {
+      "label": "QUAGMIRE_084",
+      "policy": "fixed",
+      "score": -0.7119896247330734,
+      "z_score": -0.5461828640245198,
+      "delta1": 0.0,
+      "delta2": 0.0,
+      "promoted": false
+    },
+    {
+      "label": "QUAGMIRE_084",
+      "policy": "windowed_r2_t0",
+      "score": -0.7119896247330734,
+      "z_score": -0.5461828640245198,
+      "delta1": 0.0,
+      "delta2": 0.0,
+      "promoted": false
+    },
+    {
+      "label": "QUAGMIRE_084",
+      "policy": "windowed_r5_t1",
+      "score": -0.7119896247330734,
+      "z_score": -0.5461828640245198,
+      "delta1": 0.0,
+      "delta2": 0.0,
+      "promoted": false
+    },
+    {
+      "label": "QUAGMIRE_084",
+      "policy": "windowed_r10_t2",
+      "score": -0.7119896247330734,
+      "z_score": -0.5461828640245198,
+      "delta1": 0.0,
+      "delta2": 0.0,
+      "promoted": false
+    },
+    {
+      "label": "QUAGMIRE_085",
+      "policy": "fixed",
+      "score": -0.6254673315856942,
+      "z_score": -0.33415594469883425,
+      "delta1": 0.0,
+      "delta2": 0.0,
+      "promoted": false
+    },
+    {
+      "label": "QUAGMIRE_085",
+      "policy": "windowed_r2_t0",
+      "score": -0.6254673315856942,
+      "z_score": -0.33415594469883425,
+      "delta1": 0.0,
+      "delta2": 0.0,
+      "promoted": false
+    },
+    {
+      "label": "QUAGMIRE_085",
+      "policy": "windowed_r5_t1",
+      "score": -0.6254673315856942,
+      "z_score": -0.33415594469883425,
+      "delta1": 0.0,
+      "delta2": 0.0,
+      "promoted": false
+    },
+    {
+      "label": "QUAGMIRE_085",
+      "policy": "windowed_r10_t2",
+      "score": -0.6254673315856942,
+      "z_score": -0.33415594469883425,
+      "delta1": 0.0,
+      "delta2": 0.0,
+      "promoted": false
+    },
+    {
+      "label": "QUAGMIRE_086",
+      "policy": "fixed",
+      "score": 0.42985224273036393,
+      "z_score": 0.2996259266891375,
+      "delta1": 0.0,
+      "delta2": 0.0,
+      "promoted": false
+    },
+    {
+      "label": "QUAGMIRE_086",
+      "policy": "windowed_r2_t0",
+      "score": 0.42985224273036393,
+      "z_score": 0.2996259266891375,
+      "delta1": 0.0,
+      "delta2": 0.0,
+      "promoted": false
+    },
+    {
+      "label": "QUAGMIRE_086",
+      "policy": "windowed_r5_t1",
+      "score": 0.42985224273036393,
+      "z_score": 0.2996259266891375,
+      "delta1": 0.0,
+      "delta2": 0.0,
+      "promoted": false
+    },
+    {
+      "label": "QUAGMIRE_086",
+      "policy": "windowed_r10_t2",
+      "score": 0.42985224273036393,
+      "z_score": 0.2996259266891375,
+      "delta1": 0.0,
+      "delta2": 0.0,
+      "promoted": false
+    },
+    {
+      "label": "QUAGMIRE_087",
+      "policy": "fixed",
+      "score": 0.6794948026582343,
+      "z_score": 0.6324826732596313,
+      "delta1": 0.0,
+      "delta2": 0.006624133662981563,
+      "promoted": false
+    },
+    {
+      "label": "QUAGMIRE_087",
+      "policy": "windowed_r2_t0",
+      "score": 0.6794948026582343,
+      "z_score": 0.6324826732596313,
+      "delta1": 0.0,
+      "delta2": 0.006624133662981563,
+      "promoted": false
+    },
+    {
+      "label": "QUAGMIRE_087",
+      "policy": "windowed_r5_t1",
+      "score": 0.6794948026582343,
+      "z_score": 0.6324826732596313,
+      "delta1": 0.0,
+      "delta2": 0.006624133662981563,
+      "promoted": false
+    },
+    {
+      "label": "QUAGMIRE_087",
+      "policy": "windowed_r10_t2",
+      "score": 0.6794948026582343,
+      "z_score": 0.6324826732596313,
+      "delta1": 0.0,
+      "delta2": 0.006624133662981563,
+      "promoted": false
+    },
+    {
+      "label": "QUAGMIRE_088",
+      "policy": "fixed",
+      "score": -0.8751098915135646,
+      "z_score": -0.667012691269328,
+      "delta1": 0.0,
+      "delta2": 0.0,
+      "promoted": false
+    },
+    {
+      "label": "QUAGMIRE_088",
+      "policy": "windowed_r2_t0",
+      "score": -0.8751098915135646,
+      "z_score": -0.667012691269328,
+      "delta1": 0.0,
+      "delta2": 0.0,
+      "promoted": false
+    },
+    {
+      "label": "QUAGMIRE_088",
+      "policy": "windowed_r5_t1",
+      "score": -0.8751098915135646,
+      "z_score": -0.667012691269328,
+      "delta1": 0.0,
+      "delta2": 0.0,
+      "promoted": false
+    },
+    {
+      "label": "QUAGMIRE_088",
+      "policy": "windowed_r10_t2",
+      "score": -0.8751098915135646,
+      "z_score": -0.667012691269328,
+      "delta1": 0.0,
+      "delta2": 0.0,
+      "promoted": false
+    },
+    {
+      "label": "QUAGMIRE_089",
+      "policy": "fixed",
+      "score": 0.9291373625861046,
+      "z_score": 0.965339419830125,
+      "delta1": 0.0,
+      "delta2": 0.02326697099150625,
+      "promoted": false
+    },
+    {
+      "label": "QUAGMIRE_089",
+      "policy": "windowed_r2_t0",
+      "score": 0.9291373625861046,
+      "z_score": 0.965339419830125,
+      "delta1": 0.0,
+      "delta2": 0.02326697099150625,
+      "promoted": false
+    },
+    {
+      "label": "QUAGMIRE_089",
+      "policy": "windowed_r5_t1",
+      "score": 0.9291373625861046,
+      "z_score": 0.965339419830125,
+      "delta1": 0.0,
+      "delta2": 0.02326697099150625,
+      "promoted": false
+    },
+    {
+      "label": "QUAGMIRE_089",
+      "policy": "windowed_r10_t2",
+      "score": 0.9291373625861046,
+      "z_score": 0.965339419830125,
+      "delta1": 0.0,
+      "delta2": 0.02326697099150625,
+      "promoted": false
+    },
+    {
+      "label": "QUAGMIRE_090",
+      "policy": "fixed",
+      "score": -0.1410686910013545,
+      "z_score": -0.12327846866769095,
+      "delta1": 0.0,
+      "delta2": 0.0,
+      "promoted": false
+    },
+    {
+      "label": "QUAGMIRE_090",
+      "policy": "windowed_r2_t0",
+      "score": -0.1410686910013545,
+      "z_score": -0.12327846866769095,
+      "delta1": 0.0,
+      "delta2": 0.0,
+      "promoted": false
+    },
+    {
+      "label": "QUAGMIRE_090",
+      "policy": "windowed_r5_t1",
+      "score": -0.1410686910013545,
+      "z_score": -0.12327846866769095,
+      "delta1": 0.0,
+      "delta2": 0.0,
+      "promoted": false
+    },
+    {
+      "label": "QUAGMIRE_090",
+      "policy": "windowed_r10_t2",
+      "score": -0.1410686910013545,
+      "z_score": -0.12327846866769095,
+      "delta1": 0.0,
+      "delta2": 0.0,
+      "promoted": false
+    },
+    {
+      "label": "QUAGMIRE_091",
+      "policy": "fixed",
+      "score": -0.6254673315856942,
+      "z_score": -0.33415594469883425,
+      "delta1": 0.0,
+      "delta2": 0.0,
+      "promoted": false
+    },
+    {
+      "label": "QUAGMIRE_091",
+      "policy": "windowed_r2_t0",
+      "score": -0.6254673315856942,
+      "z_score": -0.33415594469883425,
+      "delta1": 0.0,
+      "delta2": 0.0,
+      "promoted": false
+    },
+    {
+      "label": "QUAGMIRE_091",
+      "policy": "windowed_r5_t1",
+      "score": -0.6254673315856942,
+      "z_score": -0.33415594469883425,
+      "delta1": 0.0,
+      "delta2": 0.0,
+      "promoted": false
+    },
+    {
+      "label": "QUAGMIRE_091",
+      "policy": "windowed_r10_t2",
+      "score": -0.6254673315856942,
+      "z_score": -0.33415594469883425,
+      "delta1": 0.0,
+      "delta2": 0.0,
+      "promoted": false
+    },
+    {
+      "label": "QUAGMIRE_092",
+      "policy": "fixed",
+      "score": -0.1410686910013545,
+      "z_score": -0.12327846866769095,
+      "delta1": 0.0,
+      "delta2": 0.0,
+      "promoted": false
+    },
+    {
+      "label": "QUAGMIRE_092",
+      "policy": "windowed_r2_t0",
+      "score": -0.1410686910013545,
+      "z_score": -0.12327846866769095,
+      "delta1": 0.0,
+      "delta2": 0.0,
+      "promoted": false
+    },
+    {
+      "label": "QUAGMIRE_092",
+      "policy": "windowed_r5_t1",
+      "score": -0.1410686910013545,
+      "z_score": -0.12327846866769095,
+      "delta1": 0.0,
+      "delta2": 0.0,
+      "promoted": false
+    },
+    {
+      "label": "QUAGMIRE_092",
+      "policy": "windowed_r10_t2",
+      "score": -0.1410686910013545,
+      "z_score": -0.12327846866769095,
+      "delta1": 0.0,
+      "delta2": 0.0,
+      "promoted": false
+    },
+    {
+      "label": "QUAGMIRE_093",
+      "policy": "fixed",
+      "score": -0.6254673315856942,
+      "z_score": -0.33415594469883425,
+      "delta1": 0.0,
+      "delta2": 0.0,
+      "promoted": false
+    },
+    {
+      "label": "QUAGMIRE_093",
+      "policy": "windowed_r2_t0",
+      "score": -0.6254673315856942,
+      "z_score": -0.33415594469883425,
+      "delta1": 0.0,
+      "delta2": 0.0,
+      "promoted": false
+    },
+    {
+      "label": "QUAGMIRE_093",
+      "policy": "windowed_r5_t1",
+      "score": -0.6254673315856942,
+      "z_score": -0.33415594469883425,
+      "delta1": 0.0,
+      "delta2": 0.0,
+      "promoted": false
+    },
+    {
+      "label": "QUAGMIRE_093",
+      "policy": "windowed_r10_t2",
+      "score": -0.6254673315856942,
+      "z_score": -0.33415594469883425,
+      "delta1": 0.0,
+      "delta2": 0.0,
+      "promoted": false
+    },
+    {
+      "label": "QUAGMIRE_094",
+      "policy": "fixed",
+      "score": 0.06933921525488856,
+      "z_score": 0.10893347544270987,
+      "delta1": 0.0,
+      "delta2": 0.0,
+      "promoted": false
+    },
+    {
+      "label": "QUAGMIRE_094",
+      "policy": "windowed_r2_t0",
+      "score": 0.06933921525488856,
+      "z_score": 0.10893347544270987,
+      "delta1": 0.0,
+      "delta2": 0.0,
+      "promoted": false
+    },
+    {
+      "label": "QUAGMIRE_094",
+      "policy": "windowed_r5_t1",
+      "score": 0.06933921525488856,
+      "z_score": 0.10893347544270987,
+      "delta1": 0.0,
+      "delta2": 0.0,
+      "promoted": false
+    },
+    {
+      "label": "QUAGMIRE_094",
+      "policy": "windowed_r10_t2",
+      "score": 0.06933921525488856,
+      "z_score": 0.10893347544270987,
+      "delta1": 0.0,
+      "delta2": 0.0,
+      "promoted": false
+    },
+    {
+      "label": "QUAGMIRE_095",
+      "policy": "fixed",
+      "score": 1.336938029537332,
+      "z_score": 1.2674139879421453,
+      "delta1": 0.005348279758842907,
+      "delta2": 0.03837069939710727,
+      "promoted": false
+    },
+    {
+      "label": "QUAGMIRE_095",
+      "policy": "windowed_r2_t0",
+      "score": 1.336938029537332,
+      "z_score": 1.2674139879421453,
+      "delta1": 0.005348279758842907,
+      "delta2": 0.03837069939710727,
+      "promoted": false
+    },
+    {
+      "label": "QUAGMIRE_095",
+      "policy": "windowed_r5_t1",
+      "score": 1.336938029537332,
+      "z_score": 1.2674139879421453,
+      "delta1": 0.005348279758842907,
+      "delta2": 0.03837069939710727,
+      "promoted": false
+    },
+    {
+      "label": "QUAGMIRE_095",
+      "policy": "windowed_r10_t2",
+      "score": 1.336938029537332,
+      "z_score": 1.2674139879421453,
+      "delta1": 0.005348279758842907,
+      "delta2": 0.03837069939710727,
+      "promoted": false
+    },
+    {
+      "label": "QUAGMIRE_096",
+      "policy": "fixed",
+      "score": 0.3532542690972522,
+      "z_score": 0.39082301877001496,
+      "delta1": 0.0,
+      "delta2": 0.0,
+      "promoted": false
+    },
+    {
+      "label": "QUAGMIRE_096",
+      "policy": "windowed_r2_t0",
+      "score": 0.3532542690972522,
+      "z_score": 0.39082301877001496,
+      "delta1": 0.0,
+      "delta2": 0.0,
+      "promoted": false
+    },
+    {
+      "label": "QUAGMIRE_096",
+      "policy": "windowed_r5_t1",
+      "score": 0.3532542690972522,
+      "z_score": 0.39082301877001496,
+      "delta1": 0.0,
+      "delta2": 0.0,
+      "promoted": false
+    },
+    {
+      "label": "QUAGMIRE_096",
+      "policy": "windowed_r10_t2",
+      "score": 0.3532542690972522,
+      "z_score": 0.39082301877001496,
+      "delta1": 0.0,
+      "delta2": 0.0,
+      "promoted": false
+    },
+    {
+      "label": "QUAGMIRE_097",
+      "policy": "fixed",
+      "score": 0.1851718425596274,
+      "z_score": 0.11838118582192525,
+      "delta1": 0.0,
+      "delta2": 0.0,
+      "promoted": false
+    },
+    {
+      "label": "QUAGMIRE_097",
+      "policy": "windowed_r2_t0",
+      "score": 0.1851718425596274,
+      "z_score": 0.11838118582192525,
+      "delta1": 0.0,
+      "delta2": 0.0,
+      "promoted": false
+    },
+    {
+      "label": "QUAGMIRE_097",
+      "policy": "windowed_r5_t1",
+      "score": 0.1851718425596274,
+      "z_score": 0.11838118582192525,
+      "delta1": 0.0,
+      "delta2": 0.0,
+      "promoted": false
+    },
+    {
+      "label": "QUAGMIRE_097",
+      "policy": "windowed_r10_t2",
+      "score": 0.1851718425596274,
+      "z_score": 0.11838118582192525,
+      "delta1": 0.0,
+      "delta2": 0.0,
+      "promoted": false
+    },
+    {
+      "label": "QUAGMIRE_098",
+      "policy": "fixed",
+      "score": -0.8751098915135646,
+      "z_score": -0.667012691269328,
+      "delta1": 0.0,
+      "delta2": 0.0,
+      "promoted": false
+    },
+    {
+      "label": "QUAGMIRE_098",
+      "policy": "windowed_r2_t0",
+      "score": -0.8751098915135646,
+      "z_score": -0.667012691269328,
+      "delta1": 0.0,
+      "delta2": 0.0,
+      "promoted": false
+    },
+    {
+      "label": "QUAGMIRE_098",
+      "policy": "windowed_r5_t1",
+      "score": -0.8751098915135646,
+      "z_score": -0.667012691269328,
+      "delta1": 0.0,
+      "delta2": 0.0,
+      "promoted": false
+    },
+    {
+      "label": "QUAGMIRE_098",
+      "policy": "windowed_r10_t2",
+      "score": -0.8751098915135646,
+      "z_score": -0.667012691269328,
+      "delta1": 0.0,
+      "delta2": 0.0,
+      "promoted": false
+    },
+    {
+      "label": "QUAGMIRE_099",
+      "policy": "fixed",
+      "score": 0.34829210934011834,
+      "z_score": 0.2392110130667334,
+      "delta1": 0.0,
+      "delta2": 0.0,
+      "promoted": false
+    },
+    {
+      "label": "QUAGMIRE_099",
+      "policy": "windowed_r2_t0",
+      "score": 0.34829210934011834,
+      "z_score": 0.2392110130667334,
+      "delta1": 0.0,
+      "delta2": 0.0,
+      "promoted": false
+    },
+    {
+      "label": "QUAGMIRE_099",
+      "policy": "windowed_r5_t1",
+      "score": 0.34829210934011834,
+      "z_score": 0.2392110130667334,
+      "delta1": 0.0,
+      "delta2": 0.0,
+      "promoted": false
+    },
+    {
+      "label": "QUAGMIRE_099",
+      "policy": "windowed_r10_t2",
+      "score": 0.34829210934011834,
+      "z_score": 0.2392110130667334,
+      "delta1": 0.0,
+      "delta2": 0.0,
+      "promoted": false
+    }
+  ]
+}

@@ -1,0 +1,907 @@
+{
+  "campaign": "C14",
+  "date": "2025-01-06",
+  "total_heads": 100,
+  "heads": [
+    {
+      "label": "C14_000",
+      "text": "GMDFIKDVXHZNYXAKLTPTHEASTNORTHEASTEAMGFTLGGYGNHCXVRVFCVWVWGJNZMBERLINCLOCKD",
+      "metadata": {
+        "campaign": "C14",
+        "method": "MIGAC_MI_Anchor",
+        "seed": 1337
+      }
+    },
+    {
+      "label": "C14_001",
+      "text": "WWSTOTIKIQKJWCFJQCBTHEASTNORTHEASTEABGLIUPREFGHQWVJNHCDGOKBSKAPBERLINCLOCKA",
+      "metadata": {
+        "campaign": "C14",
+        "method": "MIGAC_MI_Anchor",
+        "seed": 1338
+      }
+    },
+    {
+      "label": "C14_002",
+      "text": "STVNMQFAJQMFGGUEOZXTHEASTNORTHEASTEAVAIPXGJINAWXFSXTNVRWUNTJYDFBERLINCLOCKH",
+      "metadata": {
+        "campaign": "C14",
+        "method": "MIGAC_MI_Anchor",
+        "seed": 1339
+      }
+    },
+    {
+      "label": "C14_003",
+      "text": "YEJHDBRBTBTBVGLIUYITHEASTNORTHEASTEARTPUKRVFRPAWPTYLELZTFCCZFFWBERLINCLOCKN",
+      "metadata": {
+        "campaign": "C14",
+        "method": "MIGAC_MI_Anchor",
+        "seed": 1340
+      }
+    },
+    {
+      "label": "C14_004",
+      "text": "KLRDNKJSWAQUOANXPITTHEASTNORTHEASTEAYTXAWHJXSRYGWFMERKQCXGWIDMEBERLINCLOCKO",
+      "metadata": {
+        "campaign": "C14",
+        "method": "MIGAC_MI_Anchor",
+        "seed": 1341
+      }
+    },
+    {
+      "label": "C14_005",
+      "text": "DLTRSWPSAIDLMYMPQYWTHEASTNORTHEASTEAQFWJVGRHPQXZLBPEFJXCLCGSPMLBERLINCLOCKA",
+      "metadata": {
+        "campaign": "C14",
+        "method": "MIGAC_MI_Anchor",
+        "seed": 1342
+      }
+    },
+    {
+      "label": "C14_006",
+      "text": "TESGFHCMEYRCFFKGVQGTHEASTNORTHEASTEARJVQNSGXJARGWAYXNVFLZJJQEEYBERLINCLOCKM",
+      "metadata": {
+        "campaign": "C14",
+        "method": "MIGAC_MI_Anchor",
+        "seed": 1343
+      }
+    },
+    {
+      "label": "C14_007",
+      "text": "ZHWZSAHQENBHHJOOJAOTHEASTNORTHEASTEAJMJIMRZJZCCHYQOHVGFUAWORHQIBERLINCLOCKJ",
+      "metadata": {
+        "campaign": "C14",
+        "method": "MIGAC_MI_Anchor",
+        "seed": 1344
+      }
+    },
+    {
+      "label": "C14_008",
+      "text": "GRGFSBZSNYYJYYTGYEMTHEASTNORTHEASTEAZIUJJPAWLEHLVYBUGMCRLPDUTXSBERLINCLOCKV",
+      "metadata": {
+        "campaign": "C14",
+        "method": "MIGAC_MI_Anchor",
+        "seed": 1345
+      }
+    },
+    {
+      "label": "C14_009",
+      "text": "ZXYCRRHWRNVEODFHDSXTHEASTNORTHEASTEAPIRAALYAZRESBNXYLSNXGBHVKRABERLINCLOCKI",
+      "metadata": {
+        "campaign": "C14",
+        "method": "MIGAC_MI_Anchor",
+        "seed": 1346
+      }
+    },
+    {
+      "label": "C14_010",
+      "text": "CCPEEKSKFJEOBAOJJCLTHEASTNORTHEASTEATVRPQJQEFCRAVHTHKHGHTJJZNKYBERLINCLOCKU",
+      "metadata": {
+        "campaign": "C14",
+        "method": "MIGAC_MI_Anchor",
+        "seed": 1347
+      }
+    },
+    {
+      "label": "C14_011",
+      "text": "JAACTMTDEXTFLNCGSMRTHEASTNORTHEASTEAONCBQBJDIJYFODVNNOBGQCTZXSYBERLINCLOCKK",
+      "metadata": {
+        "campaign": "C14",
+        "method": "MIGAC_MI_Anchor",
+        "seed": 1348
+      }
+    },
+    {
+      "label": "C14_012",
+      "text": "GCJEFQHCZJQSKZOMJFBTHEASTNORTHEASTEAOTGASKFLDIFNBRHDKEQTBVHSSNYBERLINCLOCKB",
+      "metadata": {
+        "campaign": "C14",
+        "method": "MIGAC_MI_Anchor",
+        "seed": 1349
+      }
+    },
+    {
+      "label": "C14_013",
+      "text": "CJBYTDNYCOXJYILWZZVTHEASTNORTHEASTEAABRWBVGCLINPTVEZTOITZWRFFJOBERLINCLOCKP",
+      "metadata": {
+        "campaign": "C14",
+        "method": "MIGAC_MI_Anchor",
+        "seed": 1350
+      }
+    },
+    {
+      "label": "C14_014",
+      "text": "LNOQEBBIDNHLIXPLLLETHEASTNORTHEASTEAUVIBEOTCUJJESGKQVFPWOWTCSHIBERLINCLOCKE",
+      "metadata": {
+        "campaign": "C14",
+        "method": "MIGAC_MI_Anchor",
+        "seed": 1351
+      }
+    },
+    {
+      "label": "C14_015",
+      "text": "SFXXPSVJWTVDDUGRWJBTHEASTNORTHEASTEAWBTPMCKBGTAWXPYHJQMOKYBWLNPBERLINCLOCKI",
+      "metadata": {
+        "campaign": "C14",
+        "method": "MIGAC_MI_Anchor",
+        "seed": 1352
+      }
+    },
+    {
+      "label": "C14_016",
+      "text": "FHZIBQTSGNNDXYQCCROTHEASTNORTHEASTEAQKGSDBHTSEBQWKYGACQAGWNJYVWBERLINCLOCKH",
+      "metadata": {
+        "campaign": "C14",
+        "method": "MIGAC_MI_Anchor",
+        "seed": 1353
+      }
+    },
+    {
+      "label": "C14_017",
+      "text": "BBQQYKHLZZZCROVHIMPTHEASTNORTHEASTEAYLTRZXAPSSANYMSPULIEZQUZRGIBERLINCLOCKT",
+      "metadata": {
+        "campaign": "C14",
+        "method": "MIGAC_MI_Anchor",
+        "seed": 1354
+      }
+    },
+    {
+      "label": "C14_018",
+      "text": "YOUYADWVMSITXSUCOQBTHEASTNORTHEASTEAVQEMUMGENACOKIISFBRKVWRLFFXBERLINCLOCKQ",
+      "metadata": {
+        "campaign": "C14",
+        "method": "MIGAC_MI_Anchor",
+        "seed": 1355
+      }
+    },
+    {
+      "label": "C14_019",
+      "text": "DKEENWBWYRMRSSTQZOSTHEASTNORTHEASTEACBUJDWCDGYSQZILEVLLUWCYRQLRBERLINCLOCKQ",
+      "metadata": {
+        "campaign": "C14",
+        "method": "MIGAC_MI_Anchor",
+        "seed": 1356
+      }
+    },
+    {
+      "label": "C14_020",
+      "text": "LTPSJWULKOBSCBTGWIHTHEASTNORTHEASTEAWMFNMACRFCAMSZNGCEZPXFPIQFYBERLINCLOCKO",
+      "metadata": {
+        "campaign": "C14",
+        "method": "MIGAC_MI_Anchor",
+        "seed": 1357
+      }
+    },
+    {
+      "label": "C14_021",
+      "text": "GKTGSMOVPTKRMARHYRATHEASTNORTHEASTEABIDUERZEWZPSQRATJHHDFKTUVBJBERLINCLOCKO",
+      "metadata": {
+        "campaign": "C14",
+        "method": "MIGAC_MI_Anchor",
+        "seed": 1358
+      }
+    },
+    {
+      "label": "C14_022",
+      "text": "CFQGEHCVQSIXFITELBGTHEASTNORTHEASTEAWKSFTBBIFWFOSCORNZNEBUWELUPBERLINCLOCKT",
+      "metadata": {
+        "campaign": "C14",
+        "method": "MIGAC_MI_Anchor",
+        "seed": 1359
+      }
+    },
+    {
+      "label": "C14_023",
+      "text": "JOEBZIQHXCSTQADHTDOTHEASTNORTHEASTEAARUJYQJPYKYYDGOTLWQZHYAQJQKBERLINCLOCKN",
+      "metadata": {
+        "campaign": "C14",
+        "method": "MIGAC_MI_Anchor",
+        "seed": 1360
+      }
+    },
+    {
+      "label": "C14_024",
+      "text": "CNAJALHCTVMPBBWHTZTTHEASTNORTHEASTEAGDNXWSTCSYVJTPSQGYHBTSGWZRJBERLINCLOCKB",
+      "metadata": {
+        "campaign": "C14",
+        "method": "MIGAC_MI_Anchor",
+        "seed": 1361
+      }
+    },
+    {
+      "label": "C14_025",
+      "text": "UTSKNAGEPRTRTCOBFAJTHEASTNORTHEASTEAMTHLPHTFSKFRKHQKRRAZNCLJSHMBERLINCLOCKG",
+      "metadata": {
+        "campaign": "C14",
+        "method": "MIGAC_MI_Anchor",
+        "seed": 1362
+      }
+    },
+    {
+      "label": "C14_026",
+      "text": "EQQGPKPYBABEINMUBHXTHEASTNORTHEASTEANEFUJIKNLTUMAINUWHYLVQUABUOBERLINCLOCKG",
+      "metadata": {
+        "campaign": "C14",
+        "method": "MIGAC_MI_Anchor",
+        "seed": 1363
+      }
+    },
+    {
+      "label": "C14_027",
+      "text": "ABYEDBVYGZVHDLZBHIBTHEASTNORTHEASTEAOPEKVKMDZBRYPDKZUHMBUPPNUYXBERLINCLOCKC",
+      "metadata": {
+        "campaign": "C14",
+        "method": "MIGAC_MI_Anchor",
+        "seed": 1364
+      }
+    },
+    {
+      "label": "C14_028",
+      "text": "LVXNEQTECRXODMNXQACTHEASTNORTHEASTEAEVCFVGXJWWKPCLKKWUWCADKAZVSBERLINCLOCKL",
+      "metadata": {
+        "campaign": "C14",
+        "method": "MIGAC_MI_Anchor",
+        "seed": 1365
+      }
+    },
+    {
+      "label": "C14_029",
+      "text": "TRDIDTLITGZNBZJRWOFTHEASTNORTHEASTEABDLKQCRIZLBZCTOTVDOALJGAEEPBERLINCLOCKS",
+      "metadata": {
+        "campaign": "C14",
+        "method": "MIGAC_MI_Anchor",
+        "seed": 1366
+      }
+    },
+    {
+      "label": "C14_030",
+      "text": "WHZNPVPBXUHQYEYLLITTHEASTNORTHEASTEAQAPXMYGUSEOQVXTUDOFNYPCCNSGBERLINCLOCKY",
+      "metadata": {
+        "campaign": "C14",
+        "method": "MIGAC_MI_Anchor",
+        "seed": 1367
+      }
+    },
+    {
+      "label": "C14_031",
+      "text": "FKPPRINPXTASPGQUXQUTHEASTNORTHEASTEATZJEYOATVMPNLNQVNXSLKHZQKWBBERLINCLOCKM",
+      "metadata": {
+        "campaign": "C14",
+        "method": "MIGAC_MI_Anchor",
+        "seed": 1368
+      }
+    },
+    {
+      "label": "C14_032",
+      "text": "UAHISLNAMYHTURICKICTHEASTNORTHEASTEAENBPIYPDUQUZGDPQBNDQGXWQPFMBERLINCLOCKI",
+      "metadata": {
+        "campaign": "C14",
+        "method": "MIGAC_MI_Anchor",
+        "seed": 1369
+      }
+    },
+    {
+      "label": "C14_033",
+      "text": "UQZZKSZCGMMINYJGSOBTHEASTNORTHEASTEAQSRLOZRDYOYZDDGGFSBVKSKSWQVBERLINCLOCKC",
+      "metadata": {
+        "campaign": "C14",
+        "method": "MIGAC_MI_Anchor",
+        "seed": 1370
+      }
+    },
+    {
+      "label": "C14_034",
+      "text": "NZFDSEKIYRZASHDQKMPTHEASTNORTHEASTEALFQZHVVUSWDMOKULLGIMVBOKCHCBERLINCLOCKF",
+      "metadata": {
+        "campaign": "C14",
+        "method": "MIGAC_MI_Anchor",
+        "seed": 1371
+      }
+    },
+    {
+      "label": "C14_035",
+      "text": "XBHGQWTXBNBMUZAGQCCTHEASTNORTHEASTEAKKBXPCUJVOEDKKQINKKEBZDTMCRBERLINCLOCKM",
+      "metadata": {
+        "campaign": "C14",
+        "method": "MIGAC_MI_Anchor",
+        "seed": 1372
+      }
+    },
+    {
+      "label": "C14_036",
+      "text": "WUBEUXIMZNECBLXOGDVTHEASTNORTHEASTEAPVVUZYVVRKVXPFJXNUEJEYTFPFZBERLINCLOCKG",
+      "metadata": {
+        "campaign": "C14",
+        "method": "MIGAC_MI_Anchor",
+        "seed": 1373
+      }
+    },
+    {
+      "label": "C14_037",
+      "text": "XWNRQHDNFYBJUMHSFUWTHEASTNORTHEASTEAHFLZACIOZVHYQMXZXDIYZQBVSDPBERLINCLOCKI",
+      "metadata": {
+        "campaign": "C14",
+        "method": "MIGAC_MI_Anchor",
+        "seed": 1374
+      }
+    },
+    {
+      "label": "C14_038",
+      "text": "ISGZTJUOKKTIJXHOEIWTHEASTNORTHEASTEAKLIDOQWUVFKWELFNMUERQYCHXOZBERLINCLOCKW",
+      "metadata": {
+        "campaign": "C14",
+        "method": "MIGAC_MI_Anchor",
+        "seed": 1375
+      }
+    },
+    {
+      "label": "C14_039",
+      "text": "CUGJHLYBKCHSHYFPEERTHEASTNORTHEASTEACBUURDTROMLPZJFWVOWWRXZZJYPBERLINCLOCKW",
+      "metadata": {
+        "campaign": "C14",
+        "method": "MIGAC_MI_Anchor",
+        "seed": 1376
+      }
+    },
+    {
+      "label": "C14_040",
+      "text": "VLXJXUIAXYAUYQPLPDSTHEASTNORTHEASTEAPFZUCYADBUVSLCHAWSLGJRTNMGDBERLINCLOCKP",
+      "metadata": {
+        "campaign": "C14",
+        "method": "MIGAC_MI_Anchor",
+        "seed": 1377
+      }
+    },
+    {
+      "label": "C14_041",
+      "text": "JYIUXINHQOMWNNYFELZTHEASTNORTHEASTEAHKWKJIGKZQEPLSOPCKMUKFBMPRGBERLINCLOCKJ",
+      "metadata": {
+        "campaign": "C14",
+        "method": "MIGAC_MI_Anchor",
+        "seed": 1378
+      }
+    },
+    {
+      "label": "C14_042",
+      "text": "ZEEMKUEMDIDRMMTWMHDTHEASTNORTHEASTEAFJKFQFQZCCSSBHAYSUIQNGDOCENBERLINCLOCKK",
+      "metadata": {
+        "campaign": "C14",
+        "method": "MIGAC_MI_Anchor",
+        "seed": 1379
+      }
+    },
+    {
+      "label": "C14_043",
+      "text": "LQOXCNIFUBNKHWHNJCPTHEASTNORTHEASTEAGPBASEBYKIHXSSOSRLFURFXOYMWBERLINCLOCKE",
+      "metadata": {
+        "campaign": "C14",
+        "method": "MIGAC_MI_Anchor",
+        "seed": 1380
+      }
+    },
+    {
+      "label": "C14_044",
+      "text": "SFLGWJZDAHKGXRPVTUETHEASTNORTHEASTEACAUBDGSYTQJNUYYFKULVJZFIRAABERLINCLOCKH",
+      "metadata": {
+        "campaign": "C14",
+        "method": "MIGAC_MI_Anchor",
+        "seed": 1381
+      }
+    },
+    {
+      "label": "C14_045",
+      "text": "ZHZQIDRTDFUZUGIDCDPTHEASTNORTHEASTEAMHPZKIDIFDHDMIBEERNGJIQNQIYBERLINCLOCKP",
+      "metadata": {
+        "campaign": "C14",
+        "method": "MIGAC_MI_Anchor",
+        "seed": 1382
+      }
+    },
+    {
+      "label": "C14_046",
+      "text": "NRCDSQBRHXHNCDMCPGRTHEASTNORTHEASTEARJPSXDEQSILJZWBTWQJESJERDOHBERLINCLOCKW",
+      "metadata": {
+        "campaign": "C14",
+        "method": "MIGAC_MI_Anchor",
+        "seed": 1383
+      }
+    },
+    {
+      "label": "C14_047",
+      "text": "NGCIRBPGIGOXELZQNCVTHEASTNORTHEASTEAVANAVYGWXYIXGTBSIDCPOEASXCWBERLINCLOCKS",
+      "metadata": {
+        "campaign": "C14",
+        "method": "MIGAC_MI_Anchor",
+        "seed": 1384
+      }
+    },
+    {
+      "label": "C14_048",
+      "text": "KGUCDLJGMUQONKUXZSMTHEASTNORTHEASTEAPXIHIDYUCAFAAMZWJYSSVVIVRDFBERLINCLOCKD",
+      "metadata": {
+        "campaign": "C14",
+        "method": "MIGAC_MI_Anchor",
+        "seed": 1385
+      }
+    },
+    {
+      "label": "C14_049",
+      "text": "ASAVHBHEFJBQBOBGXBCTHEASTNORTHEASTEAOKQYYQVLGPKBWHVESRXWQYLMCXOBERLINCLOCKQ",
+      "metadata": {
+        "campaign": "C14",
+        "method": "MIGAC_MI_Anchor",
+        "seed": 1386
+      }
+    },
+    {
+      "label": "C14_050",
+      "text": "FYABZDHSCENLUWUYWWUTHEASTNORTHEASTEATPFMMTTIBKIFWHQFEIEKMYZWJVMBERLINCLOCKE",
+      "metadata": {
+        "campaign": "C14",
+        "method": "MIGAC_MI_Anchor",
+        "seed": 1387
+      }
+    },
+    {
+      "label": "C14_051",
+      "text": "SHRQKLOKFAUONYBPNBPTHEASTNORTHEASTEAYVHWKZYYBSRYXCZJJTECPCDSUMGBERLINCLOCKG",
+      "metadata": {
+        "campaign": "C14",
+        "method": "MIGAC_MI_Anchor",
+        "seed": 1388
+      }
+    },
+    {
+      "label": "C14_052",
+      "text": "XZRBNDJBKXDGDVIZVOHTHEASTNORTHEASTEAQJNXHSJXSSKTDBVLTGYMTATNXZRBERLINCLOCKI",
+      "metadata": {
+        "campaign": "C14",
+        "method": "MIGAC_MI_Anchor",
+        "seed": 1389
+      }
+    },
+    {
+      "label": "C14_053",
+      "text": "ESTIZKGJJGDIEUOJDTNTHEASTNORTHEASTEAANKWDNZQJRFKSQOMEJQKXVXECDXBERLINCLOCKN",
+      "metadata": {
+        "campaign": "C14",
+        "method": "MIGAC_MI_Anchor",
+        "seed": 1390
+      }
+    },
+    {
+      "label": "C14_054",
+      "text": "GNDAIUMGSPWOFSCIFUNTHEASTNORTHEASTEAMMEEDBNQEUAIMSPLLEPYQMNRGSJBERLINCLOCKF",
+      "metadata": {
+        "campaign": "C14",
+        "method": "MIGAC_MI_Anchor",
+        "seed": 1391
+      }
+    },
+    {
+      "label": "C14_055",
+      "text": "MKCFTMIEYZIMATNHELYTHEASTNORTHEASTEAODYNJYAMRKESOQMXZZTQMUDDUTSBERLINCLOCKZ",
+      "metadata": {
+        "campaign": "C14",
+        "method": "MIGAC_MI_Anchor",
+        "seed": 1392
+      }
+    },
+    {
+      "label": "C14_056",
+      "text": "ZYOZDRISPZXDNHPVYJSTHEASTNORTHEASTEAXFZHTICBOTYCBLMWSZNOQWVMGLEBERLINCLOCKI",
+      "metadata": {
+        "campaign": "C14",
+        "method": "MIGAC_MI_Anchor",
+        "seed": 1393
+      }
+    },
+    {
+      "label": "C14_057",
+      "text": "SVNTNWQZWYROGSKGPJWTHEASTNORTHEASTEAQCCLPILQBQUNINMDVBMQKIKSYHBBERLINCLOCKV",
+      "metadata": {
+        "campaign": "C14",
+        "method": "MIGAC_MI_Anchor",
+        "seed": 1394
+      }
+    },
+    {
+      "label": "C14_058",
+      "text": "YZIQGZGQMLULKTGZTARTHEASTNORTHEASTEAXAJMVGENFPTAAWSJCBABPBCWRWVBERLINCLOCKG",
+      "metadata": {
+        "campaign": "C14",
+        "method": "MIGAC_MI_Anchor",
+        "seed": 1395
+      }
+    },
+    {
+      "label": "C14_059",
+      "text": "ZJNCKKRTJBJDZOXIOKOTHEASTNORTHEASTEAHGBFSCUVFGBDFTOYWOFBSPVLUHKBERLINCLOCKK",
+      "metadata": {
+        "campaign": "C14",
+        "method": "MIGAC_MI_Anchor",
+        "seed": 1396
+      }
+    },
+    {
+      "label": "C14_060",
+      "text": "IQSTLJXJZFTZSJLDZSOTHEASTNORTHEASTEADCTVVYPZHPASLNMDSZIOCAUUMFCBERLINCLOCKU",
+      "metadata": {
+        "campaign": "C14",
+        "method": "MIGAC_MI_Anchor",
+        "seed": 1397
+      }
+    },
+    {
+      "label": "C14_061",
+      "text": "WTXXDFRDFUECLORDCBOTHEASTNORTHEASTEAUWSALGZCZXZNCIUNMNZCXYRJXDTBERLINCLOCKQ",
+      "metadata": {
+        "campaign": "C14",
+        "method": "MIGAC_MI_Anchor",
+        "seed": 1398
+      }
+    },
+    {
+      "label": "C14_062",
+      "text": "YLOELFWMWQHUCPPNHACTHEASTNORTHEASTEAZNUZPPYUNYWGHURGQQLYYFZSFRGBERLINCLOCKG",
+      "metadata": {
+        "campaign": "C14",
+        "method": "MIGAC_MI_Anchor",
+        "seed": 1399
+      }
+    },
+    {
+      "label": "C14_063",
+      "text": "KNGDJYGPRZJAVTRDHLGTHEASTNORTHEASTEABSMDPWHUOJGDCDXYYMENFNFMWEQBERLINCLOCKC",
+      "metadata": {
+        "campaign": "C14",
+        "method": "MIGAC_MI_Anchor",
+        "seed": 1400
+      }
+    },
+    {
+      "label": "C14_064",
+      "text": "OFIZLKPSRKALAYBPPAQTHEASTNORTHEASTEAFYNPDDNWZOWUBKFGVFRORUIOAUOBERLINCLOCKE",
+      "metadata": {
+        "campaign": "C14",
+        "method": "MIGAC_MI_Anchor",
+        "seed": 1401
+      }
+    },
+    {
+      "label": "C14_065",
+      "text": "IDMRSOUMDPQJTQILSVOTHEASTNORTHEASTEAYQPZCKBUJQRGRHORRTBFPJKIOYGBERLINCLOCKL",
+      "metadata": {
+        "campaign": "C14",
+        "method": "MIGAC_MI_Anchor",
+        "seed": 1402
+      }
+    },
+    {
+      "label": "C14_066",
+      "text": "IHDAYQOLWYQLVNBBIKCTHEASTNORTHEASTEAPWBTMWOXNXAANDSQRBHFLVSPJVDBERLINCLOCKO",
+      "metadata": {
+        "campaign": "C14",
+        "method": "MIGAC_MI_Anchor",
+        "seed": 1403
+      }
+    },
+    {
+      "label": "C14_067",
+      "text": "RZYQMELYYLKWRBJPQCSTHEASTNORTHEASTEADJNXQNTTIIWQUCJUAUWAYWGLMBYBERLINCLOCKR",
+      "metadata": {
+        "campaign": "C14",
+        "method": "MIGAC_MI_Anchor",
+        "seed": 1404
+      }
+    },
+    {
+      "label": "C14_068",
+      "text": "BLZPSCSIGDETMSBSURCTHEASTNORTHEASTEANNIVKPOZFMGGJXMTLODGLAARSQJBERLINCLOCKG",
+      "metadata": {
+        "campaign": "C14",
+        "method": "MIGAC_MI_Anchor",
+        "seed": 1405
+      }
+    },
+    {
+      "label": "C14_069",
+      "text": "VHNSWQWRVIQFJNDYMPPTHEASTNORTHEASTEAOAPQOLEKWMLDLRFELYSXLESYLZEBERLINCLOCKD",
+      "metadata": {
+        "campaign": "C14",
+        "method": "MIGAC_MI_Anchor",
+        "seed": 1406
+      }
+    },
+    {
+      "label": "C14_070",
+      "text": "IXEPBMUKVDBGPKAKWPNTHEASTNORTHEASTEAWUYNHGUXCKRDVLMPRTGXXNOBLADBERLINCLOCKA",
+      "metadata": {
+        "campaign": "C14",
+        "method": "MIGAC_MI_Anchor",
+        "seed": 1407
+      }
+    },
+    {
+      "label": "C14_071",
+      "text": "GEMHLNVYTZLUQAGNSEMTHEASTNORTHEASTEAFRUNJRRJSPGZRKJDODMKGXOOKGIBERLINCLOCKG",
+      "metadata": {
+        "campaign": "C14",
+        "method": "MIGAC_MI_Anchor",
+        "seed": 1408
+      }
+    },
+    {
+      "label": "C14_072",
+      "text": "JOBZTFJSDCULLMPCOJSTHEASTNORTHEASTEAMMHLLHDDBAZJWOPGDFKZJDZUIICBERLINCLOCKG",
+      "metadata": {
+        "campaign": "C14",
+        "method": "MIGAC_MI_Anchor",
+        "seed": 1409
+      }
+    },
+    {
+      "label": "C14_073",
+      "text": "SPUJRDWYOUMKHKTDYWQTHEASTNORTHEASTEAYYPYTAYSAKBLQZCMONNNYPLGVDTBERLINCLOCKW",
+      "metadata": {
+        "campaign": "C14",
+        "method": "MIGAC_MI_Anchor",
+        "seed": 1410
+      }
+    },
+    {
+      "label": "C14_074",
+      "text": "SINBQGMCAIZZOLROFVKTHEASTNORTHEASTEARBSUVOIBOYRCVWPASLRGHDNJZFKBERLINCLOCKS",
+      "metadata": {
+        "campaign": "C14",
+        "method": "MIGAC_MI_Anchor",
+        "seed": 1411
+      }
+    },
+    {
+      "label": "C14_075",
+      "text": "XPPRYBKLBESERCQHUHYTHEASTNORTHEASTEAVVKHMXEWORHXLGELCTPAPVVIAJQBERLINCLOCKK",
+      "metadata": {
+        "campaign": "C14",
+        "method": "MIGAC_MI_Anchor",
+        "seed": 1412
+      }
+    },
+    {
+      "label": "C14_076",
+      "text": "KLWPBYVPMUJEYJWWFVETHEASTNORTHEASTEATWEETFFDEQOPSGHWAELFYQKVQPHBERLINCLOCKW",
+      "metadata": {
+        "campaign": "C14",
+        "method": "MIGAC_MI_Anchor",
+        "seed": 1413
+      }
+    },
+    {
+      "label": "C14_077",
+      "text": "ERDFKDDDITSXDCCWLFITHEASTNORTHEASTEAVQKXOOIYPTWFRKBYRCUJFBDYIEUBERLINCLOCKV",
+      "metadata": {
+        "campaign": "C14",
+        "method": "MIGAC_MI_Anchor",
+        "seed": 1414
+      }
+    },
+    {
+      "label": "C14_078",
+      "text": "FNFLZHITCZIPTXLQOENTHEASTNORTHEASTEARWSNEIGYMBUAIQLXSRXZCJKOAYOBERLINCLOCKS",
+      "metadata": {
+        "campaign": "C14",
+        "method": "MIGAC_MI_Anchor",
+        "seed": 1415
+      }
+    },
+    {
+      "label": "C14_079",
+      "text": "AUJXHKYKBAZGVUPQLLQTHEASTNORTHEASTEARCOJVYQOLXPNNBRMJGHJJYKOGFUBERLINCLOCKV",
+      "metadata": {
+        "campaign": "C14",
+        "method": "MIGAC_MI_Anchor",
+        "seed": 1416
+      }
+    },
+    {
+      "label": "C14_080",
+      "text": "LTJTSNVEQOGPBHHSIWMTHEASTNORTHEASTEAANEGHXIHMMOTQDYKRKCBIVJNNXWBERLINCLOCKR",
+      "metadata": {
+        "campaign": "C14",
+        "method": "MIGAC_MI_Anchor",
+        "seed": 1417
+      }
+    },
+    {
+      "label": "C14_081",
+      "text": "RLCSGYKSCNUEDIWNJCGTHEASTNORTHEASTEAYTHXYPVXOTKUGQDRMUNQOMCMKVTBERLINCLOCKZ",
+      "metadata": {
+        "campaign": "C14",
+        "method": "MIGAC_MI_Anchor",
+        "seed": 1418
+      }
+    },
+    {
+      "label": "C14_082",
+      "text": "DJBLRKSEVXAPOPOGNGZTHEASTNORTHEASTEACMYLCVTRECBRHZQAJMQJXIPZDUMBERLINCLOCKG",
+      "metadata": {
+        "campaign": "C14",
+        "method": "MIGAC_MI_Anchor",
+        "seed": 1419
+      }
+    },
+    {
+      "label": "C14_083",
+      "text": "ZMCZOUTGSWVVLNQJSEXTHEASTNORTHEASTEAPOCVKHMSAZTTWKFCNZBWDSQGSQUBERLINCLOCKD",
+      "metadata": {
+        "campaign": "C14",
+        "method": "MIGAC_MI_Anchor",
+        "seed": 1420
+      }
+    },
+    {
+      "label": "C14_084",
+      "text": "HRJFFVEGYYLMVZRZEMITHEASTNORTHEASTEAVDQOYHRMXJZXYSCOBCDPUTZZKZRBERLINCLOCKP",
+      "metadata": {
+        "campaign": "C14",
+        "method": "MIGAC_MI_Anchor",
+        "seed": 1421
+      }
+    },
+    {
+      "label": "C14_085",
+      "text": "XBZIVEFACGFZCJFDWAYTHEASTNORTHEASTEALKJPRSKMHFOHPWHANZSLDTHTSSXBERLINCLOCKP",
+      "metadata": {
+        "campaign": "C14",
+        "method": "MIGAC_MI_Anchor",
+        "seed": 1422
+      }
+    },
+    {
+      "label": "C14_086",
+      "text": "TUWTZWCAWCPXPWFHPAHTHEASTNORTHEASTEAMLIOICUMTCTGIGKVQVNXEIGOAXABERLINCLOCKN",
+      "metadata": {
+        "campaign": "C14",
+        "method": "MIGAC_MI_Anchor",
+        "seed": 1423
+      }
+    },
+    {
+      "label": "C14_087",
+      "text": "JBMGBSULFMAFJQLOVDSTHEASTNORTHEASTEAPZWTHVOMSCWOGSMBVUNHDHQVJZMBERLINCLOCKE",
+      "metadata": {
+        "campaign": "C14",
+        "method": "MIGAC_MI_Anchor",
+        "seed": 1424
+      }
+    },
+    {
+      "label": "C14_088",
+      "text": "TWSECZCNFEVZUIGIRRATHEASTNORTHEASTEAESKUYQNJWWGBDJIYNTSGJSPYMEYBERLINCLOCKA",
+      "metadata": {
+        "campaign": "C14",
+        "method": "MIGAC_MI_Anchor",
+        "seed": 1425
+      }
+    },
+    {
+      "label": "C14_089",
+      "text": "STIDNRSLMFREROSCUNETHEASTNORTHEASTEAIUTWYXINGTBXJYUPFRYZKBMKOJFBERLINCLOCKG",
+      "metadata": {
+        "campaign": "C14",
+        "method": "MIGAC_MI_Anchor",
+        "seed": 1426
+      }
+    },
+    {
+      "label": "C14_090",
+      "text": "VOJAFQYMXCAUQJRJOZSTHEASTNORTHEASTEAJQGHISGTUEZRSKYYLYSFFMQZWIKBERLINCLOCKW",
+      "metadata": {
+        "campaign": "C14",
+        "method": "MIGAC_MI_Anchor",
+        "seed": 1427
+      }
+    },
+    {
+      "label": "C14_091",
+      "text": "FEEVLARTXMLTGWOIWRXTHEASTNORTHEASTEAPYPGQHPBMTNYQZUHRTMFCKKNFRZBERLINCLOCKV",
+      "metadata": {
+        "campaign": "C14",
+        "method": "MIGAC_MI_Anchor",
+        "seed": 1428
+      }
+    },
+    {
+      "label": "C14_092",
+      "text": "FYSAHDXCSXZFOPFTPVSTHEASTNORTHEASTEALTIUMSAREPCIWDBCXDIVHRAJWXNBERLINCLOCKM",
+      "metadata": {
+        "campaign": "C14",
+        "method": "MIGAC_MI_Anchor",
+        "seed": 1429
+      }
+    },
+    {
+      "label": "C14_093",
+      "text": "ALGVLXHWNSKTLNOFAYETHEASTNORTHEASTEAENOGLXEBSNIDKMGCOOTVPQJJVWCBERLINCLOCKA",
+      "metadata": {
+        "campaign": "C14",
+        "method": "MIGAC_MI_Anchor",
+        "seed": 1430
+      }
+    },
+    {
+      "label": "C14_094",
+      "text": "WCTGWULHBLWLWPGPZELTHEASTNORTHEASTEAMSPEZFWWDAQQARBOERLYABQMFQMBERLINCLOCKM",
+      "metadata": {
+        "campaign": "C14",
+        "method": "MIGAC_MI_Anchor",
+        "seed": 1431
+      }
+    },
+    {
+      "label": "C14_095",
+      "text": "LFBDJNPNQKFXHJYMATLTHEASTNORTHEASTEAGFRGZXUQIKCGOIYOJLMYRCHEGJDBERLINCLOCKL",
+      "metadata": {
+        "campaign": "C14",
+        "method": "MIGAC_MI_Anchor",
+        "seed": 1432
+      }
+    },
+    {
+      "label": "C14_096",
+      "text": "VZPONVBGACXSJLFFSNWTHEASTNORTHEASTEAHWXPVUMFLQLTHVYVKTRDEOBRMCVBERLINCLOCKU",
+      "metadata": {
+        "campaign": "C14",
+        "method": "MIGAC_MI_Anchor",
+        "seed": 1433
+      }
+    },
+    {
+      "label": "C14_097",
+      "text": "RSRJMDHMRXJUDLATFBJTHEASTNORTHEASTEACHUNMZBVJWQNZQYSKRSTTAKTRXABERLINCLOCKG",
+      "metadata": {
+        "campaign": "C14",
+        "method": "MIGAC_MI_Anchor",
+        "seed": 1434
+      }
+    },
+    {
+      "label": "C14_098",
+      "text": "XRUPNQGWNSRMQDWTCCETHEASTNORTHEASTEAUJWAATAHQJQVTKLABPBYADSQQYOBERLINCLOCKV",
+      "metadata": {
+        "campaign": "C14",
+        "method": "MIGAC_MI_Anchor",
+        "seed": 1435
+      }
+    },
+    {
+      "label": "C14_099",
+      "text": "TUPCFBCBGAMPNTUUWBMTHEASTNORTHEASTEAOETJBYNIIDKUJFDACCWGYZCZXBEBERLINCLOCKR",
+      "metadata": {
+        "campaign": "C14",
+        "method": "MIGAC_MI_Anchor",
+        "seed": 1436
+      }
+    }
+  ]
+}

@@ -1,0 +1,907 @@
+{
+  "campaign": "C15",
+  "date": "2025-01-06",
+  "total_heads": 100,
+  "heads": [
+    {
+      "label": "C15_000",
+      "text": "FINDTHEVXHZNYXAKLTPDLEASTNORTHEASTNTMGFTLGGYGNHCXVRVFCVWVWGJNZMBERLINCLOCKD",
+      "metadata": {
+        "campaign": "C15",
+        "method": "HTG_POS_HMM",
+        "seed": 1337
+      }
+    },
+    {
+      "label": "C15_001",
+      "text": "FINDTHEKIQKJWCFJQCBIGEASTNORTHEASTLNBGLIUPREFGHQWVJNHCDGOKBSKAPBERLINCLOCKA",
+      "metadata": {
+        "campaign": "C15",
+        "method": "HTG_POS_HMM",
+        "seed": 1338
+      }
+    },
+    {
+      "label": "C15_002",
+      "text": "FINDTHEAJQMFGGUEOZXGFEASTNORTHEASTECVAIPXGJINAWXFSXTNVRWUNTJYDFBERLINCLOCKH",
+      "metadata": {
+        "campaign": "C15",
+        "method": "HTG_POS_HMM",
+        "seed": 1339
+      }
+    },
+    {
+      "label": "C15_003",
+      "text": "FINDTHEBTBTBVGLIUYITIEASTNORTHEASTAQRTPUKRVFRPAWPTYLELZTFCCZFFWBERLINCLOCKN",
+      "metadata": {
+        "campaign": "C15",
+        "method": "HTG_POS_HMM",
+        "seed": 1340
+      }
+    },
+    {
+      "label": "C15_004",
+      "text": "FINDTHESWAQUOANXPITESEASTNORTHEASTQMYTXAWHJXSRYGWFMERKQCXGWIDMEBERLINCLOCKO",
+      "metadata": {
+        "campaign": "C15",
+        "method": "HTG_POS_HMM",
+        "seed": 1341
+      }
+    },
+    {
+      "label": "C15_005",
+      "text": "FINDTHESAIDLMYMPQYWVHEASTNORTHEASTGTQFWJVGRHPQXZLBPEFJXCLCGSPMLBERLINCLOCKA",
+      "metadata": {
+        "campaign": "C15",
+        "method": "HTG_POS_HMM",
+        "seed": 1342
+      }
+    },
+    {
+      "label": "C15_006",
+      "text": "FINDTHEMEYRCFFKGVQGWUEASTNORTHEASTZGRJVQNSGXJARGWAYXNVFLZJJQEEYBERLINCLOCKM",
+      "metadata": {
+        "campaign": "C15",
+        "method": "HTG_POS_HMM",
+        "seed": 1343
+      }
+    },
+    {
+      "label": "C15_007",
+      "text": "FINDTHEQENBHHJOOJAOPSEASTNORTHEASTDGJMJIMRZJZCCHYQOHVGFUAWORHQIBERLINCLOCKJ",
+      "metadata": {
+        "campaign": "C15",
+        "method": "HTG_POS_HMM",
+        "seed": 1344
+      }
+    },
+    {
+      "label": "C15_008",
+      "text": "FINDTHESNYYJYYTGYEMVXEASTNORTHEASTQMZIUJJPAWLEHLVYBUGMCRLPDUTXSBERLINCLOCKV",
+      "metadata": {
+        "campaign": "C15",
+        "method": "HTG_POS_HMM",
+        "seed": 1345
+      }
+    },
+    {
+      "label": "C15_009",
+      "text": "FINDTHEWRNVEODFHDSXKOEASTNORTHEASTWNPIRAALYAZRESBNXYLSNXGBHVKRABERLINCLOCKI",
+      "metadata": {
+        "campaign": "C15",
+        "method": "HTG_POS_HMM",
+        "seed": 1346
+      }
+    },
+    {
+      "label": "C15_010",
+      "text": "FINDTHEKFJEOBAOJJCLDXEASTNORTHEASTKNTVRPQJQEFCRAVHTHKHGHTJJZNKYBERLINCLOCKU",
+      "metadata": {
+        "campaign": "C15",
+        "method": "HTG_POS_HMM",
+        "seed": 1347
+      }
+    },
+    {
+      "label": "C15_011",
+      "text": "FINDTHEDEXTFLNCGSMRUIEASTNORTHEASTWMONCBQBJDIJYFODVNNOBGQCTZXSYBERLINCLOCKK",
+      "metadata": {
+        "campaign": "C15",
+        "method": "HTG_POS_HMM",
+        "seed": 1348
+      }
+    },
+    {
+      "label": "C15_012",
+      "text": "FINDTHECZJQSKZOMJFBYPEASTNORTHEASTFLOTGASKFLDIFNBRHDKEQTBVHSSNYBERLINCLOCKB",
+      "metadata": {
+        "campaign": "C15",
+        "method": "HTG_POS_HMM",
+        "seed": 1349
+      }
+    },
+    {
+      "label": "C15_013",
+      "text": "FINDTHEYCOXJYILWZZVUUEASTNORTHEASTRKABRWBVGCLINPTVEZTOITZWRFFJOBERLINCLOCKP",
+      "metadata": {
+        "campaign": "C15",
+        "method": "HTG_POS_HMM",
+        "seed": 1350
+      }
+    },
+    {
+      "label": "C15_014",
+      "text": "FINDTHEIDNHLIXPLLLEHWEASTNORTHEASTFNUVIBEOTCUJJESGKQVFPWOWTCSHIBERLINCLOCKE",
+      "metadata": {
+        "campaign": "C15",
+        "method": "HTG_POS_HMM",
+        "seed": 1351
+      }
+    },
+    {
+      "label": "C15_015",
+      "text": "FINDTHEJWTVDDUGRWJBXREASTNORTHEASTRUWBTPMCKBGTAWXPYHJQMOKYBWLNPBERLINCLOCKI",
+      "metadata": {
+        "campaign": "C15",
+        "method": "HTG_POS_HMM",
+        "seed": 1352
+      }
+    },
+    {
+      "label": "C15_016",
+      "text": "FINDTHESGNNDXYQCCROECEASTNORTHEASTOHQKGSDBHTSEBQWKYGACQAGWNJYVWBERLINCLOCKH",
+      "metadata": {
+        "campaign": "C15",
+        "method": "HTG_POS_HMM",
+        "seed": 1353
+      }
+    },
+    {
+      "label": "C15_017",
+      "text": "FINDTHELZZZCROVHIMPTPEASTNORTHEASTPFYLTRZXAPSSANYMSPULIEZQUZRGIBERLINCLOCKT",
+      "metadata": {
+        "campaign": "C15",
+        "method": "HTG_POS_HMM",
+        "seed": 1354
+      }
+    },
+    {
+      "label": "C15_018",
+      "text": "FINDTHEVMSITXSUCOQBWQEASTNORTHEASTXJVQEMUMGENACOKIISFBRKVWRLFFXBERLINCLOCKQ",
+      "metadata": {
+        "campaign": "C15",
+        "method": "HTG_POS_HMM",
+        "seed": 1355
+      }
+    },
+    {
+      "label": "C15_019",
+      "text": "FINDTHEWYRMRSSTQZOSYBEASTNORTHEASTLPCBUJDWCDGYSQZILEVLLUWCYRQLRBERLINCLOCKQ",
+      "metadata": {
+        "campaign": "C15",
+        "method": "HTG_POS_HMM",
+        "seed": 1356
+      }
+    },
+    {
+      "label": "C15_020",
+      "text": "FINDTHELKOBSCBTGWIHAREASTNORTHEASTKVWMFNMACRFCAMSZNGCEZPXFPIQFYBERLINCLOCKO",
+      "metadata": {
+        "campaign": "C15",
+        "method": "HTG_POS_HMM",
+        "seed": 1357
+      }
+    },
+    {
+      "label": "C15_021",
+      "text": "FINDTHEVPTKRMARHYRAIMEASTNORTHEASTVTBIDUERZEWZPSQRATJHHDFKTUVBJBERLINCLOCKO",
+      "metadata": {
+        "campaign": "C15",
+        "method": "HTG_POS_HMM",
+        "seed": 1358
+      }
+    },
+    {
+      "label": "C15_022",
+      "text": "FINDTHEVQSIXFITELBGIGEASTNORTHEASTAKWKSFTBBIFWFOSCORNZNEBUWELUPBERLINCLOCKT",
+      "metadata": {
+        "campaign": "C15",
+        "method": "HTG_POS_HMM",
+        "seed": 1359
+      }
+    },
+    {
+      "label": "C15_023",
+      "text": "FINDTHEHXCSTQADHTDOTDEASTNORTHEASTDEARUJYQJPYKYYDGOTLWQZHYAQJQKBERLINCLOCKN",
+      "metadata": {
+        "campaign": "C15",
+        "method": "HTG_POS_HMM",
+        "seed": 1360
+      }
+    },
+    {
+      "label": "C15_024",
+      "text": "FINDTHECTVMPBBWHTZTCHEASTNORTHEASTDVGDNXWSTCSYVJTPSQGYHBTSGWZRJBERLINCLOCKB",
+      "metadata": {
+        "campaign": "C15",
+        "method": "HTG_POS_HMM",
+        "seed": 1361
+      }
+    },
+    {
+      "label": "C15_025",
+      "text": "FINDTHEEPRTRTCOBFAJHOEASTNORTHEASTGRMTHLPHTFSKFRKHQKRRAZNCLJSHMBERLINCLOCKG",
+      "metadata": {
+        "campaign": "C15",
+        "method": "HTG_POS_HMM",
+        "seed": 1362
+      }
+    },
+    {
+      "label": "C15_026",
+      "text": "FINDTHEYBABEINMUBHXUQEASTNORTHEASTIZNEFUJIKNLTUMAINUWHYLVQUABUOBERLINCLOCKG",
+      "metadata": {
+        "campaign": "C15",
+        "method": "HTG_POS_HMM",
+        "seed": 1363
+      }
+    },
+    {
+      "label": "C15_027",
+      "text": "FINDTHEYGZVHDLZBHIBVIEASTNORTHEASTJSOPEKVKMDZBRYPDKZUHMBUPPNUYXBERLINCLOCKC",
+      "metadata": {
+        "campaign": "C15",
+        "method": "HTG_POS_HMM",
+        "seed": 1364
+      }
+    },
+    {
+      "label": "C15_028",
+      "text": "FINDTHEECRXODMNXQACKNEASTNORTHEASTEAEVCFVGXJWWKPCLKKWUWCADKAZVSBERLINCLOCKL",
+      "metadata": {
+        "campaign": "C15",
+        "method": "HTG_POS_HMM",
+        "seed": 1365
+      }
+    },
+    {
+      "label": "C15_029",
+      "text": "FINDTHEITGZNBZJRWOFZPEASTNORTHEASTQKBDLKQCRIZLBZCTOTVDOALJGAEEPBERLINCLOCKS",
+      "metadata": {
+        "campaign": "C15",
+        "method": "HTG_POS_HMM",
+        "seed": 1366
+      }
+    },
+    {
+      "label": "C15_030",
+      "text": "FINDTHEBXUHQYEYLLITMJEASTNORTHEASTODQAPXMYGUSEOQVXTUDOFNYPCCNSGBERLINCLOCKY",
+      "metadata": {
+        "campaign": "C15",
+        "method": "HTG_POS_HMM",
+        "seed": 1367
+      }
+    },
+    {
+      "label": "C15_031",
+      "text": "FINDTHEPXTASPGQUXQUAJEASTNORTHEASTDVTZJEYOATVMPNLNQVNXSLKHZQKWBBERLINCLOCKM",
+      "metadata": {
+        "campaign": "C15",
+        "method": "HTG_POS_HMM",
+        "seed": 1368
+      }
+    },
+    {
+      "label": "C15_032",
+      "text": "FINDTHEAMYHTURICKICJNEASTNORTHEASTLQENBPIYPDUQUZGDPQBNDQGXWQPFMBERLINCLOCKI",
+      "metadata": {
+        "campaign": "C15",
+        "method": "HTG_POS_HMM",
+        "seed": 1369
+      }
+    },
+    {
+      "label": "C15_033",
+      "text": "FINDTHECGMMINYJGSOBVMEASTNORTHEASTGVQSRLOZRDYOYZDDGGFSBVKSKSWQVBERLINCLOCKC",
+      "metadata": {
+        "campaign": "C15",
+        "method": "HTG_POS_HMM",
+        "seed": 1370
+      }
+    },
+    {
+      "label": "C15_034",
+      "text": "FINDTHEIYRZASHDQKMPFZEASTNORTHEASTATLFQZHVVUSWDMOKULLGIMVBOKCHCBERLINCLOCKF",
+      "metadata": {
+        "campaign": "C15",
+        "method": "HTG_POS_HMM",
+        "seed": 1371
+      }
+    },
+    {
+      "label": "C15_035",
+      "text": "FINDTHEXBNBMUZAGQCCFZEASTNORTHEASTFSKKBXPCUJVOEDKKQINKKEBZDTMCRBERLINCLOCKM",
+      "metadata": {
+        "campaign": "C15",
+        "method": "HTG_POS_HMM",
+        "seed": 1372
+      }
+    },
+    {
+      "label": "C15_036",
+      "text": "FINDTHEMZNECBLXOGDVUSEASTNORTHEASTRIPVVUZYVVRKVXPFJXNUEJEYTFPFZBERLINCLOCKG",
+      "metadata": {
+        "campaign": "C15",
+        "method": "HTG_POS_HMM",
+        "seed": 1373
+      }
+    },
+    {
+      "label": "C15_037",
+      "text": "FINDTHENFYBJUMHSFUWXQEASTNORTHEASTFSHFLZACIOZVHYQMXZXDIYZQBVSDPBERLINCLOCKI",
+      "metadata": {
+        "campaign": "C15",
+        "method": "HTG_POS_HMM",
+        "seed": 1374
+      }
+    },
+    {
+      "label": "C15_038",
+      "text": "FINDTHEOKKTIJXHOEIWATEASTNORTHEASTYIKLIDOQWUVFKWELFNMUERQYCHXOZBERLINCLOCKW",
+      "metadata": {
+        "campaign": "C15",
+        "method": "HTG_POS_HMM",
+        "seed": 1375
+      }
+    },
+    {
+      "label": "C15_039",
+      "text": "FINDTHEBKCHSHYFPEERVDEASTNORTHEASTCWCBUURDTROMLPZJFWVOWWRXZZJYPBERLINCLOCKW",
+      "metadata": {
+        "campaign": "C15",
+        "method": "HTG_POS_HMM",
+        "seed": 1376
+      }
+    },
+    {
+      "label": "C15_040",
+      "text": "FINDTHEAXYAUYQPLPDSOLEASTNORTHEASTXGPFZUCYADBUVSLCHAWSLGJRTNMGDBERLINCLOCKP",
+      "metadata": {
+        "campaign": "C15",
+        "method": "HTG_POS_HMM",
+        "seed": 1377
+      }
+    },
+    {
+      "label": "C15_041",
+      "text": "FINDTHEHQOMWNNYFELZEYEASTNORTHEASTOOHKWKJIGKZQEPLSOPCKMUKFBMPRGBERLINCLOCKJ",
+      "metadata": {
+        "campaign": "C15",
+        "method": "HTG_POS_HMM",
+        "seed": 1378
+      }
+    },
+    {
+      "label": "C15_042",
+      "text": "FINDTHEMDIDRMMTWMHDBNEASTNORTHEASTQAFJKFQFQZCCSSBHAYSUIQNGDOCENBERLINCLOCKK",
+      "metadata": {
+        "campaign": "C15",
+        "method": "HTG_POS_HMM",
+        "seed": 1379
+      }
+    },
+    {
+      "label": "C15_043",
+      "text": "FINDTHEFUBNKHWHNJCPGUEASTNORTHEASTAWGPBASEBYKIHXSSOSRLFURFXOYMWBERLINCLOCKE",
+      "metadata": {
+        "campaign": "C15",
+        "method": "HTG_POS_HMM",
+        "seed": 1380
+      }
+    },
+    {
+      "label": "C15_044",
+      "text": "FINDTHEDAHKGXRPVTUENXEASTNORTHEASTQNCAUBDGSYTQJNUYYFKULVJZFIRAABERLINCLOCKH",
+      "metadata": {
+        "campaign": "C15",
+        "method": "HTG_POS_HMM",
+        "seed": 1381
+      }
+    },
+    {
+      "label": "C15_045",
+      "text": "FINDTHETDFUZUGIDCDPRSEASTNORTHEASTSVMHPZKIDIFDHDMIBEERNGJIQNQIYBERLINCLOCKP",
+      "metadata": {
+        "campaign": "C15",
+        "method": "HTG_POS_HMM",
+        "seed": 1382
+      }
+    },
+    {
+      "label": "C15_046",
+      "text": "FINDTHERHXHNCDMCPGRWZEASTNORTHEASTCCRJPSXDEQSILJZWBTWQJESJERDOHBERLINCLOCKW",
+      "metadata": {
+        "campaign": "C15",
+        "method": "HTG_POS_HMM",
+        "seed": 1383
+      }
+    },
+    {
+      "label": "C15_047",
+      "text": "FINDTHEGIGOXELZQNCVOYEASTNORTHEASTTGVANAVYGWXYIXGTBSIDCPOEASXCWBERLINCLOCKS",
+      "metadata": {
+        "campaign": "C15",
+        "method": "HTG_POS_HMM",
+        "seed": 1384
+      }
+    },
+    {
+      "label": "C15_048",
+      "text": "FINDTHEGMUQONKUXZSMEZEASTNORTHEASTRPPXIHIDYUCAFAAMZWJYSSVVIVRDFBERLINCLOCKD",
+      "metadata": {
+        "campaign": "C15",
+        "method": "HTG_POS_HMM",
+        "seed": 1385
+      }
+    },
+    {
+      "label": "C15_049",
+      "text": "FINDTHEEFJBQBOBGXBCPCEASTNORTHEASTAGOKQYYQVLGPKBWHVESRXWQYLMCXOBERLINCLOCKQ",
+      "metadata": {
+        "campaign": "C15",
+        "method": "HTG_POS_HMM",
+        "seed": 1386
+      }
+    },
+    {
+      "label": "C15_050",
+      "text": "FINDTHESCENLUWUYWWUWPEASTNORTHEASTJITPFMMTTIBKIFWHQFEIEKMYZWJVMBERLINCLOCKE",
+      "metadata": {
+        "campaign": "C15",
+        "method": "HTG_POS_HMM",
+        "seed": 1387
+      }
+    },
+    {
+      "label": "C15_051",
+      "text": "FINDTHEKFAUONYBPNBPCFEASTNORTHEASTLGYVHWKZYYBSRYXCZJJTECPCDSUMGBERLINCLOCKG",
+      "metadata": {
+        "campaign": "C15",
+        "method": "HTG_POS_HMM",
+        "seed": 1388
+      }
+    },
+    {
+      "label": "C15_052",
+      "text": "FINDTHEBKXDGDVIZVOHMBEASTNORTHEASTVXQJNXHSJXSSKTDBVLTGYMTATNXZRBERLINCLOCKI",
+      "metadata": {
+        "campaign": "C15",
+        "method": "HTG_POS_HMM",
+        "seed": 1389
+      }
+    },
+    {
+      "label": "C15_053",
+      "text": "FINDTHEJJGDIEUOJDTNHLEASTNORTHEASTUCANKWDNZQJRFKSQOMEJQKXVXECDXBERLINCLOCKN",
+      "metadata": {
+        "campaign": "C15",
+        "method": "HTG_POS_HMM",
+        "seed": 1390
+      }
+    },
+    {
+      "label": "C15_054",
+      "text": "FINDTHEGSPWOFSCIFUNRZEASTNORTHEASTQFMMEEDBNQEUAIMSPLLEPYQMNRGSJBERLINCLOCKF",
+      "metadata": {
+        "campaign": "C15",
+        "method": "HTG_POS_HMM",
+        "seed": 1391
+      }
+    },
+    {
+      "label": "C15_055",
+      "text": "FINDTHEEYZIMATNHELYAZEASTNORTHEASTLNODYNJYAMRKESOQMXZZTQMUDDUTSBERLINCLOCKZ",
+      "metadata": {
+        "campaign": "C15",
+        "method": "HTG_POS_HMM",
+        "seed": 1392
+      }
+    },
+    {
+      "label": "C15_056",
+      "text": "FINDTHESPZXDNHPVYJSOBEASTNORTHEASTQVXFZHTICBOTYCBLMWSZNOQWVMGLEBERLINCLOCKI",
+      "metadata": {
+        "campaign": "C15",
+        "method": "HTG_POS_HMM",
+        "seed": 1393
+      }
+    },
+    {
+      "label": "C15_057",
+      "text": "FINDTHEZWYROGSKGPJWVNEASTNORTHEASTRJQCCLPILQBQUNINMDVBMQKIKSYHBBERLINCLOCKV",
+      "metadata": {
+        "campaign": "C15",
+        "method": "HTG_POS_HMM",
+        "seed": 1394
+      }
+    },
+    {
+      "label": "C15_058",
+      "text": "FINDTHEQMLULKTGZTARUEEASTNORTHEASTYTXAJMVGENFPTAAWSJCBABPBCWRWVBERLINCLOCKG",
+      "metadata": {
+        "campaign": "C15",
+        "method": "HTG_POS_HMM",
+        "seed": 1395
+      }
+    },
+    {
+      "label": "C15_059",
+      "text": "FINDTHETJBJDZOXIOKOHNEASTNORTHEASTCFHGBFSCUVFGBDFTOYWOFBSPVLUHKBERLINCLOCKK",
+      "metadata": {
+        "campaign": "C15",
+        "method": "HTG_POS_HMM",
+        "seed": 1396
+      }
+    },
+    {
+      "label": "C15_060",
+      "text": "FINDTHEJZFTZSJLDZSOXZEASTNORTHEASTBJDCTVVYPZHPASLNMDSZIOCAUUMFCBERLINCLOCKU",
+      "metadata": {
+        "campaign": "C15",
+        "method": "HTG_POS_HMM",
+        "seed": 1397
+      }
+    },
+    {
+      "label": "C15_061",
+      "text": "FINDTHEDFUECLORDCBOWMEASTNORTHEASTXXUWSALGZCZXZNCIUNMNZCXYRJXDTBERLINCLOCKQ",
+      "metadata": {
+        "campaign": "C15",
+        "method": "HTG_POS_HMM",
+        "seed": 1398
+      }
+    },
+    {
+      "label": "C15_062",
+      "text": "FINDTHEMWQHUCPPNHACOFEASTNORTHEASTQCZNUZPPYUNYWGHURGQQLYYFZSFRGBERLINCLOCKG",
+      "metadata": {
+        "campaign": "C15",
+        "method": "HTG_POS_HMM",
+        "seed": 1399
+      }
+    },
+    {
+      "label": "C15_063",
+      "text": "FINDTHEPRZJAVTRDHLGPFEASTNORTHEASTCDBSMDPWHUOJGDCDXYYMENFNFMWEQBERLINCLOCKC",
+      "metadata": {
+        "campaign": "C15",
+        "method": "HTG_POS_HMM",
+        "seed": 1400
+      }
+    },
+    {
+      "label": "C15_064",
+      "text": "FINDTHESRKALAYBPPAQQPEASTNORTHEASTMNFYNPDDNWZOWUBKFGVFRORUIOAUOBERLINCLOCKE",
+      "metadata": {
+        "campaign": "C15",
+        "method": "HTG_POS_HMM",
+        "seed": 1401
+      }
+    },
+    {
+      "label": "C15_065",
+      "text": "FINDTHEMDPQJTQILSVOTQEASTNORTHEASTHPYQPZCKBUJQRGRHORRTBFPJKIOYGBERLINCLOCKL",
+      "metadata": {
+        "campaign": "C15",
+        "method": "HTG_POS_HMM",
+        "seed": 1402
+      }
+    },
+    {
+      "label": "C15_066",
+      "text": "FINDTHELWYQLVNBBIKCONEASTNORTHEASTPJPWBTMWOXNXAANDSQRBHFLVSPJVDBERLINCLOCKO",
+      "metadata": {
+        "campaign": "C15",
+        "method": "HTG_POS_HMM",
+        "seed": 1403
+      }
+    },
+    {
+      "label": "C15_067",
+      "text": "FINDTHEYYLKWRBJPQCSWGEASTNORTHEASTQKDJNXQNTTIIWQUCJUAUWAYWGLMBYBERLINCLOCKR",
+      "metadata": {
+        "campaign": "C15",
+        "method": "HTG_POS_HMM",
+        "seed": 1404
+      }
+    },
+    {
+      "label": "C15_068",
+      "text": "FINDTHEIGDETMSBSURCVLEASTNORTHEASTFSNNIVKPOZFMGGJXMTLODGLAARSQJBERLINCLOCKG",
+      "metadata": {
+        "campaign": "C15",
+        "method": "HTG_POS_HMM",
+        "seed": 1405
+      }
+    },
+    {
+      "label": "C15_069",
+      "text": "FINDTHERVIQFJNDYMPPUWEASTNORTHEASTONOAPQOLEKWMLDLRFELYSXLESYLZEBERLINCLOCKD",
+      "metadata": {
+        "campaign": "C15",
+        "method": "HTG_POS_HMM",
+        "seed": 1406
+      }
+    },
+    {
+      "label": "C15_070",
+      "text": "FINDTHEKVDBGPKAKWPNQEEASTNORTHEASTCOWUYNHGUXCKRDVLMPRTGXXNOBLADBERLINCLOCKA",
+      "metadata": {
+        "campaign": "C15",
+        "method": "HTG_POS_HMM",
+        "seed": 1407
+      }
+    },
+    {
+      "label": "C15_071",
+      "text": "FINDTHEYTZLUQAGNSEMMIEASTNORTHEASTEQFRUNJRRJSPGZRKJDODMKGXOOKGIBERLINCLOCKG",
+      "metadata": {
+        "campaign": "C15",
+        "method": "HTG_POS_HMM",
+        "seed": 1408
+      }
+    },
+    {
+      "label": "C15_072",
+      "text": "FINDTHESDCULLMPCOJSXGEASTNORTHEASTOMMMHLLHDDBAZJWOPGDFKZJDZUIICBERLINCLOCKG",
+      "metadata": {
+        "campaign": "C15",
+        "method": "HTG_POS_HMM",
+        "seed": 1409
+      }
+    },
+    {
+      "label": "C15_073",
+      "text": "FINDTHEYOUMKHKTDYWQLDEASTNORTHEASTNUYYPYTAYSAKBLQZCMONNNYPLGVDTBERLINCLOCKW",
+      "metadata": {
+        "campaign": "C15",
+        "method": "HTG_POS_HMM",
+        "seed": 1410
+      }
+    },
+    {
+      "label": "C15_074",
+      "text": "FINDTHECAIZZOLROFVKLNEASTNORTHEASTWRRBSUVOIBOYRCVWPASLRGHDNJZFKBERLINCLOCKS",
+      "metadata": {
+        "campaign": "C15",
+        "method": "HTG_POS_HMM",
+        "seed": 1411
+      }
+    },
+    {
+      "label": "C15_075",
+      "text": "FINDTHELBESERCQHUHYOMEASTNORTHEASTVCVVKHMXEWORHXLGELCTPAPVVIAJQBERLINCLOCKK",
+      "metadata": {
+        "campaign": "C15",
+        "method": "HTG_POS_HMM",
+        "seed": 1412
+      }
+    },
+    {
+      "label": "C15_076",
+      "text": "FINDTHEPMUJEYJWWFVEGWEASTNORTHEASTJLTWEETFFDEQOPSGHWAELFYQKVQPHBERLINCLOCKW",
+      "metadata": {
+        "campaign": "C15",
+        "method": "HTG_POS_HMM",
+        "seed": 1413
+      }
+    },
+    {
+      "label": "C15_077",
+      "text": "FINDTHEDITSXDCCWLFIHJEASTNORTHEASTSAVQKXOOIYPTWFRKBYRCUJFBDYIEUBERLINCLOCKV",
+      "metadata": {
+        "campaign": "C15",
+        "method": "HTG_POS_HMM",
+        "seed": 1414
+      }
+    },
+    {
+      "label": "C15_078",
+      "text": "FINDTHETCZIPTXLQOENQUEASTNORTHEASTWCRWSNEIGYMBUAIQLXSRXZCJKOAYOBERLINCLOCKS",
+      "metadata": {
+        "campaign": "C15",
+        "method": "HTG_POS_HMM",
+        "seed": 1415
+      }
+    },
+    {
+      "label": "C15_079",
+      "text": "FINDTHEKBAZGVUPQLLQSKEASTNORTHEASTUXRCOJVYQOLXPNNBRMJGHJJYKOGFUBERLINCLOCKV",
+      "metadata": {
+        "campaign": "C15",
+        "method": "HTG_POS_HMM",
+        "seed": 1416
+      }
+    },
+    {
+      "label": "C15_080",
+      "text": "FINDTHEEQOGPBHHSIWMKEEASTNORTHEASTZIANEGHXIHMMOTQDYKRKCBIVJNNXWBERLINCLOCKR",
+      "metadata": {
+        "campaign": "C15",
+        "method": "HTG_POS_HMM",
+        "seed": 1417
+      }
+    },
+    {
+      "label": "C15_081",
+      "text": "FINDTHESCNUEDIWNJCGKREASTNORTHEASTRIYTHXYPVXOTKUGQDRMUNQOMCMKVTBERLINCLOCKZ",
+      "metadata": {
+        "campaign": "C15",
+        "method": "HTG_POS_HMM",
+        "seed": 1418
+      }
+    },
+    {
+      "label": "C15_082",
+      "text": "FINDTHEEVXAPOPOGNGZTMEASTNORTHEASTYFCMYLCVTRECBRHZQAJMQJXIPZDUMBERLINCLOCKG",
+      "metadata": {
+        "campaign": "C15",
+        "method": "HTG_POS_HMM",
+        "seed": 1419
+      }
+    },
+    {
+      "label": "C15_083",
+      "text": "FINDTHEGSWVVLNQJSEXDXEASTNORTHEASTTTPOCVKHMSAZTTWKFCNZBWDSQGSQUBERLINCLOCKD",
+      "metadata": {
+        "campaign": "C15",
+        "method": "HTG_POS_HMM",
+        "seed": 1420
+      }
+    },
+    {
+      "label": "C15_084",
+      "text": "FINDTHEGYYLMVZRZEMILXEASTNORTHEASTFPVDQOYHRMXJZXYSCOBCDPUTZZKZRBERLINCLOCKP",
+      "metadata": {
+        "campaign": "C15",
+        "method": "HTG_POS_HMM",
+        "seed": 1421
+      }
+    },
+    {
+      "label": "C15_085",
+      "text": "FINDTHEACGFZCJFDWAYIFEASTNORTHEASTSALKJPRSKMHFOHPWHANZSLDTHTSSXBERLINCLOCKP",
+      "metadata": {
+        "campaign": "C15",
+        "method": "HTG_POS_HMM",
+        "seed": 1422
+      }
+    },
+    {
+      "label": "C15_086",
+      "text": "FINDTHEAWCPXPWFHPAHLMEASTNORTHEASTQJMLIOICUMTCTGIGKVQVNXEIGOAXABERLINCLOCKN",
+      "metadata": {
+        "campaign": "C15",
+        "method": "HTG_POS_HMM",
+        "seed": 1423
+      }
+    },
+    {
+      "label": "C15_087",
+      "text": "FINDTHELFMAFJQLOVDSROEASTNORTHEASTRZPZWTHVOMSCWOGSMBVUNHDHQVJZMBERLINCLOCKE",
+      "metadata": {
+        "campaign": "C15",
+        "method": "HTG_POS_HMM",
+        "seed": 1424
+      }
+    },
+    {
+      "label": "C15_088",
+      "text": "FINDTHENFEVZUIGIRRAGWEASTNORTHEASTETESKUYQNJWWGBDJIYNTSGJSPYMEYBERLINCLOCKA",
+      "metadata": {
+        "campaign": "C15",
+        "method": "HTG_POS_HMM",
+        "seed": 1425
+      }
+    },
+    {
+      "label": "C15_089",
+      "text": "FINDTHELMFREROSCUNEABEASTNORTHEASTYTIUTWYXINGTBXJYUPFRYZKBMKOJFBERLINCLOCKG",
+      "metadata": {
+        "campaign": "C15",
+        "method": "HTG_POS_HMM",
+        "seed": 1426
+      }
+    },
+    {
+      "label": "C15_090",
+      "text": "FINDTHEMXCAUQJRJOZSNBEASTNORTHEASTXCJQGHISGTUEZRSKYYLYSFFMQZWIKBERLINCLOCKW",
+      "metadata": {
+        "campaign": "C15",
+        "method": "HTG_POS_HMM",
+        "seed": 1427
+      }
+    },
+    {
+      "label": "C15_091",
+      "text": "FINDTHETXMLTGWOIWRXYHEASTNORTHEASTYVPYPGQHPBMTNYQZUHRTMFCKKNFRZBERLINCLOCKV",
+      "metadata": {
+        "campaign": "C15",
+        "method": "HTG_POS_HMM",
+        "seed": 1428
+      }
+    },
+    {
+      "label": "C15_092",
+      "text": "FINDTHECSXZFOPFTPVSMSEASTNORTHEASTWOLTIUMSAREPCIWDBCXDIVHRAJWXNBERLINCLOCKM",
+      "metadata": {
+        "campaign": "C15",
+        "method": "HTG_POS_HMM",
+        "seed": 1429
+      }
+    },
+    {
+      "label": "C15_093",
+      "text": "FINDTHEWNSKTLNOFAYEPJEASTNORTHEASTFEENOGLXEBSNIDKMGCOOTVPQJJVWCBERLINCLOCKA",
+      "metadata": {
+        "campaign": "C15",
+        "method": "HTG_POS_HMM",
+        "seed": 1430
+      }
+    },
+    {
+      "label": "C15_094",
+      "text": "FINDTHEHBLWLWPGPZELLKEASTNORTHEASTRTMSPEZFWWDAQQARBOERLYABQMFQMBERLINCLOCKM",
+      "metadata": {
+        "campaign": "C15",
+        "method": "HTG_POS_HMM",
+        "seed": 1431
+      }
+    },
+    {
+      "label": "C15_095",
+      "text": "FINDTHENQKFXHJYMATLXUEASTNORTHEASTIMGFRGZXUQIKCGOIYOJLMYRCHEGJDBERLINCLOCKL",
+      "metadata": {
+        "campaign": "C15",
+        "method": "HTG_POS_HMM",
+        "seed": 1432
+      }
+    },
+    {
+      "label": "C15_096",
+      "text": "FINDTHEGACXSJLFFSNWANEASTNORTHEASTHUHWXPVUMFLQLTHVYVKTRDEOBRMCVBERLINCLOCKU",
+      "metadata": {
+        "campaign": "C15",
+        "method": "HTG_POS_HMM",
+        "seed": 1433
+      }
+    },
+    {
+      "label": "C15_097",
+      "text": "FINDTHEMRXJUDLATFBJHXEASTNORTHEASTXCCHUNMZBVJWQNZQYSKRSTTAKTRXABERLINCLOCKG",
+      "metadata": {
+        "campaign": "C15",
+        "method": "HTG_POS_HMM",
+        "seed": 1434
+      }
+    },
+    {
+      "label": "C15_098",
+      "text": "FINDTHEWNSRMQDWTCCEJLEASTNORTHEASTLFUJWAATAHQJQVTKLABPBYADSQQYOBERLINCLOCKV",
+      "metadata": {
+        "campaign": "C15",
+        "method": "HTG_POS_HMM",
+        "seed": 1435
+      }
+    },
+    {
+      "label": "C15_099",
+      "text": "FINDTHEBGAMPNTUUWBMVFEASTNORTHEASTBOOETJBYNIIDKUJFDACCWGYZCZXBEBERLINCLOCKR",
+      "metadata": {
+        "campaign": "C15",
+        "method": "HTG_POS_HMM",
+        "seed": 1436
+      }
+    }
+  ]
+}

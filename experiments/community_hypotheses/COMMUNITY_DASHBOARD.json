@@ -1,0 +1,60 @@
+{
+  "title": "Community Hypothesis Mining - Aggregate Results",
+  "date": "2025-09-06 00:17",
+  "description": "Testing community K4 decryption hypotheses through Explore pipeline",
+  "total_campaigns": 6,
+  "total_heads": 600,
+  "total_tests": 2400,
+  "total_promotions": 0,
+  "promotion_rate": 0.0,
+  "campaigns": [
+    {
+      "campaign": "C1_QUAGMIRE_III",
+      "heads": 100,
+      "tests": 400,
+      "promotions": 0,
+      "promotion_rate": 0.0,
+      "status": "\u2705 Complete"
+    },
+    {
+      "campaign": "C2_TRIFID_CUBE",
+      "heads": 100,
+      "tests": 400,
+      "promotions": 0,
+      "promotion_rate": 0.0,
+      "status": "\u2705 Complete"
+    },
+    {
+      "campaign": "C3_MORSE",
+      "heads": 100,
+      "tests": 400,
+      "promotions": 0,
+      "promotion_rate": 0.0,
+      "status": "\u2705 Complete"
+    },
+    {
+      "campaign": "C4_BIGRAM_POLYBIUS",
+      "heads": 100,
+      "tests": 400,
+      "promotions": 0,
+      "promotion_rate": 0.0,
+      "status": "\u2705 Complete"
+    },
+    {
+      "campaign": "C5_TIME_KEY",
+      "heads": 100,
+      "tests": 400,
+      "promotions": 0,
+      "promotion_rate": 0.0,
+      "status": "\u2705 Complete"
+    },
+    {
+      "campaign": "C6_LETTER_SHAPE",
+      "heads": 100,
+      "tests": 400,
+      "promotions": 0,
+      "promotion_rate": 0.0,
+      "status": "\u2705 Complete"
+    }
+  ]
+}

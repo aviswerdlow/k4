@@ -1,0 +1,1629 @@
+{
+  "campaign": "C8_CDEA",
+  "date": "2025-01-06",
+  "description": "Corridor Drift & Elastic Anchors",
+  "hypothesis": "Smooth drift in anchor indices reveals corridor-consistent heads",
+  "parameters": {
+    "a_range": [
+      -0.05,
+      0.05
+    ],
+    "b_range": [
+      -2,
+      2
+    ],
+    "drift_types": [
+      "linear",
+      "quadratic"
+    ],
+    "max_drift": 4
+  },
+  "seed": 1337,
+  "total_heads": 100,
+  "drift_distribution": {
+    "linear": 50,
+    "quadratic": 50
+  },
+  "heads": [
+    {
+      "label": "CDEA_000",
+      "text": "QNJPEVJUYHZFRZCVKEASTNORTHEASTRPLGFBNQPBKQQRQFHLVUIUPLUOUOQBERLINCLOCKUMTSJ",
+      "metadata": {
+        "drift_a": -0.05,
+        "drift_b": -2.0,
+        "drift_type": "linear",
+        "drifted_positions": {
+          "EAST": 17,
+          "NORTHEAST": 21,
+          "BERLINCLOCK": 59
+        },
+        "max_drift": 4,
+        "seed": 1337
+      }
+    },
+    {
+      "label": "CDEA_001",
+      "text": "WSHRMNHMYZNVASDYGDEASTNORTHEASTQHXHVBYLVTPABNZOTNEPWNUHMSIRBERLINCLOCKJQOGB",
+      "metadata": {
+        "drift_a": -0.05,
+        "drift_b": -2.0,
+        "drift_type": "quadratic",
+        "drifted_positions": {
+          "EAST": 18,
+          "NORTHEAST": 22,
+          "BERLINCLOCK": 59
+        },
+        "max_drift": 4,
+        "seed": 1338
+      }
+    },
+    {
+      "label": "CDEA_002",
+      "text": "QHBUJFKNSKYLSEBFQUEASTNORTHEASTCKZCCWNDSSRWTYALQHJQCBZUPABEBERLINCLOCKWREYP",
+      "metadata": {
+        "drift_a": -0.05,
+        "drift_b": -1.5555555555555556,
+        "drift_type": "linear",
+        "drifted_positions": {
+          "EAST": 18,
+          "NORTHEAST": 22,
+          "BERLINCLOCK": 59
+        },
+        "max_drift": 4,
+        "seed": 1339
+      }
+    },
+    {
+      "label": "CDEA_003",
+      "text": "JWEACOVTJGWLAATVQZJEASTNORTHEASTSJPDMLOEPJEORLHZEKMTMWUZLUUBERLINCLOCKGDTKS",
+      "metadata": {
+        "drift_a": -0.05,
+        "drift_b": -1.5555555555555556,
+        "drift_type": "quadratic",
+        "drifted_positions": {
+          "EAST": 19,
+          "NORTHEAST": 23,
+          "BERLINCLOCK": 59
+        },
+        "max_drift": 4,
+        "seed": 1340
+      }
+    },
+    {
+      "label": "CDEA_004",
+      "text": "LOIWJSELHZRIEUQJBGEASTNORTHEASTDLJCPGANLOKQPSHBZJHOWYEUOCEBBERLINCLOCKEARUN",
+      "metadata": {
+        "drift_a": -0.05,
+        "drift_b": -1.1111111111111112,
+        "drift_type": "linear",
+        "drifted_positions": {
+          "EAST": 18,
+          "NORTHEAST": 22,
+          "BERLINCLOCK": 59
+        },
+        "max_drift": 4,
+        "seed": 1341
+      }
+    },
+    {
+      "label": "CDEA_005",
+      "text": "VONLFZNTQPFFTBGTUEWEASTNORTHEASTKYENMAENIHSUOCBPAGSMBHVJCDMBERLINCLOCKZCYRF",
+      "metadata": {
+        "drift_a": -0.05,
+        "drift_b": -1.1111111111111112,
+        "drift_type": "quadratic",
+        "drifted_positions": {
+          "EAST": 19,
+          "NORTHEAST": 23,
+          "BERLINCLOCK": 59
+        },
+        "max_drift": 3.849111111111111,
+        "seed": 1342
+      }
+    },
+    {
+      "label": "CDEA_006",
+      "text": "IFETNCWMQDPRMPBGLBPEASTNORTHEASTKFMUDNYSLPLEKPSWEHCVTMMEIQMBERLINCLOCKLOFZT",
+      "metadata": {
+        "drift_a": -0.05,
+        "drift_b": -0.6666666666666667,
+        "drift_type": "linear",
+        "drifted_positions": {
+          "EAST": 19,
+          "NORTHEAST": 23,
+          "BERLINCLOCK": 59
+        },
+        "max_drift": 4,
+        "seed": 1343
+      }
+    },
+    {
+      "label": "CDEA_007",
+      "text": "KJFPFGWPFPKTGUGDDZYHEASTNORTHEASTDCGDRDLSYVHUWNMLNFCHBQFGPRQBERLINCLOCKIDSH",
+      "metadata": {
+        "drift_a": -0.05,
+        "drift_b": -0.6666666666666667,
+        "drift_type": "quadratic",
+        "drifted_positions": {
+          "EAST": 20,
+          "NORTHEAST": 24,
+          "BERLINCLOCK": 60
+        },
+        "max_drift": 3.4046666666666665,
+        "seed": 1344
+      }
+    },
+    {
+      "label": "CDEA_008",
+      "text": "CYLQFIJMESQIOOPBDWDEASTNORTHEASTVPYWJKJPQAWHFGXNWZZUJVRUFGTBERLINCLOCKLJFPE",
+      "metadata": {
+        "drift_a": -0.05,
+        "drift_b": -0.22222222222222232,
+        "drift_type": "linear",
+        "drifted_positions": {
+          "EAST": 19,
+          "NORTHEAST": 23,
+          "BERLINCLOCK": 59
+        },
+        "max_drift": 3.9222222222222225,
+        "seed": 1345
+      }
+    },
+    {
+      "label": "CDEA_009",
+      "text": "HRRBGKGTFILKPAJNGDICEASTNORTHEASTLGBPVKZBLTRPFKKPQRZETMFLCWHBERLINCLOCKSVGQ",
+      "metadata": {
+        "drift_a": -0.05,
+        "drift_b": -0.22222222222222232,
+        "drift_type": "quadratic",
+        "drifted_positions": {
+          "EAST": 20,
+          "NORTHEAST": 24,
+          "BERLINCLOCK": 60
+        },
+        "max_drift": 2.9602222222222223,
+        "seed": 1346
+      }
+    },
+    {
+      "label": "CDEA_010",
+      "text": "ZSFBVZDDDUNIFPLVSWLMEASNORTHEASTLZJGSMEVWGQFBGQUJQDKOURTAVEGBERLINCLOCKTCTK",
+      "metadata": {
+        "drift_a": -0.05,
+        "drift_b": 0.22222222222222232,
+        "drift_type": "linear",
+        "drifted_positions": {
+          "EAST": 20,
+          "NORTHEAST": 23,
+          "BERLINCLOCK": 60
+        },
+        "max_drift": 3.477777777777778,
+        "seed": 1347
+      }
+    },
+    {
+      "label": "CDEA_011",
+      "text": "ZKFFLDZJLVCBGUNBQFEDUEASNORTHEASTCWKERMEGSPJNMLVTOMUAFDJEDQROBERLINCLOCKKTB",
+      "metadata": {
+        "drift_a": -0.05,
+        "drift_b": 0.22222222222222232,
+        "drift_type": "quadratic",
+        "drifted_positions": {
+          "EAST": 21,
+          "NORTHEAST": 24,
+          "BERLINCLOCK": 61
+        },
+        "max_drift": 2.5157777777777777,
+        "seed": 1348
+      }
+    },
+    {
+      "label": "CDEA_012",
+      "text": "APIIYJUNDNPLONRTAGRNEASTNORTHEASTOZTHVTBWAVLJCOWCSNMNKANJJCFBERLINCLOCKOWGG",
+      "metadata": {
+        "drift_a": -0.05,
+        "drift_b": 0.6666666666666665,
+        "drift_type": "linear",
+        "drifted_positions": {
+          "EAST": 20,
+          "NORTHEAST": 24,
+          "BERLINCLOCK": 60
+        },
+        "max_drift": 3.0333333333333337,
+        "seed": 1349
+      }
+    },
+    {
+      "label": "CDEA_013",
+      "text": "MANFPQMSFTQAQISCGWNYAEASTNORTHEASTGVBOMYRCGKBUNSMWLOQVDRVVNYQBERLINCLOCKVIM",
+      "metadata": {
+        "drift_a": -0.05,
+        "drift_b": 0.6666666666666665,
+        "drift_type": "quadratic",
+        "drifted_positions": {
+          "EAST": 21,
+          "NORTHEAST": 25,
+          "BERLINCLOCK": 61
+        },
+        "max_drift": 2.0713333333333335,
+        "seed": 1350
+      }
+    },
+    {
+      "label": "CDEA_014",
+      "text": "EBOVTPRGFUAMVBTPHSQWYEASNORTHEASTSFTSIODUBQADSVSJUWDEAULYVTEBERLINCLOCKWKLE",
+      "metadata": {
+        "drift_a": -0.05,
+        "drift_b": 1.1111111111111107,
+        "drift_type": "linear",
+        "drifted_positions": {
+          "EAST": 21,
+          "NORTHEAST": 24,
+          "BERLINCLOCK": 60
+        },
+        "max_drift": 2.5888888888888895,
+        "seed": 1351
+      }
+    },
+    {
+      "label": "CDEA_015",
+      "text": "HNWWZPADDSFQGFKWSNCLAEASTNORTHEASTGUWZTUQHKGZVEJCOQRNQROCLIKWUBERLINCLOCKPT",
+      "metadata": {
+        "drift_a": -0.05,
+        "drift_b": 1.1111111111111107,
+        "drift_type": "quadratic",
+        "drifted_positions": {
+          "EAST": 21,
+          "NORTHEAST": 25,
+          "BERLINCLOCK": 62
+        },
+        "max_drift": 1.6268888888888893,
+        "seed": 1352
+      }
+    },
+    {
+      "label": "CDEA_016",
+      "text": "FPRMFKBRZGUEVVFDSJJZUEASTNORTHEASTLTKDMBIZMJZBMEEZISWJYAHTIIVBERLINCLOCKGOH",
+      "metadata": {
+        "drift_a": -0.05,
+        "drift_b": 1.5555555555555554,
+        "drift_type": "linear",
+        "drifted_positions": {
+          "EAST": 21,
+          "NORTHEAST": 25,
+          "BERLINCLOCK": 61
+        },
+        "max_drift": 2.144444444444445,
+        "seed": 1353
+      }
+    },
+    {
+      "label": "CDEA_017",
+      "text": "NDZFDPNDLGTMSIFBWDJBYFEASTNORTHEASTTQCGZVPAGZPTUUBUWUMWTJAKHUBBERLINCLOCKTM",
+      "metadata": {
+        "drift_a": -0.05,
+        "drift_b": 1.5555555555555554,
+        "drift_type": "quadratic",
+        "drifted_positions": {
+          "EAST": 22,
+          "NORTHEAST": 26,
+          "BERLINCLOCK": 62
+        },
+        "max_drift": 1.5555555555555554,
+        "seed": 1354
+      }
+    },
+    {
+      "label": "CDEA_018",
+      "text": "RDPOAFVOYZDNDSLLETSOLEASTNORTHEASTIKUBEZLGGJBYPLFNOMNSPDMMESUBERLINCLOCKACF",
+      "metadata": {
+        "drift_a": -0.05,
+        "drift_b": 2.0,
+        "drift_type": "linear",
+        "drifted_positions": {
+          "EAST": 21,
+          "NORTHEAST": 25,
+          "BERLINCLOCK": 61
+        },
+        "max_drift": 2.0,
+        "seed": 1355
+      }
+    },
+    {
+      "label": "CDEA_019",
+      "text": "GRYTRZUREIANOFOIFQSYOHEASTNORTHEASTVEPCWVQIVONMYVMWUZVJJJUTFKHWBERLINCLOCKP",
+      "metadata": {
+        "drift_a": -0.05,
+        "drift_b": 2.0,
+        "drift_type": "quadratic",
+        "drifted_positions": {
+          "EAST": 22,
+          "NORTHEAST": 26,
+          "BERLINCLOCK": 63
+        },
+        "max_drift": 2.0,
+        "seed": 1356
+      }
+    },
+    {
+      "label": "CDEA_020",
+      "text": "ZLDWTJDMQHEMKFYSQFEASTNORTHEASTHIFCTGLBOMVFFMJFUCLMLUGFOPBBBERLINCLOCKCRPQM",
+      "metadata": {
+        "drift_a": -0.03888888888888889,
+        "drift_b": -2.0,
+        "drift_type": "linear",
+        "drifted_positions": {
+          "EAST": 18,
+          "NORTHEAST": 22,
+          "BERLINCLOCK": 59
+        },
+        "max_drift": 4,
+        "seed": 1357
+      }
+    },
+    {
+      "label": "CDEA_021",
+      "text": "ACVOWWQGGDJZNULKLLEASTNORTHEASTULJKBUKKODYEUQZIEUWUIGQTOZIMBERLINCLOCKMAUGK",
+      "metadata": {
+        "drift_a": -0.03888888888888889,
+        "drift_b": -2.0,
+        "drift_type": "quadratic",
+        "drifted_positions": {
+          "EAST": 18,
+          "NORTHEAST": 22,
+          "BERLINCLOCK": 59
+        },
+        "max_drift": 4,
+        "seed": 1358
+      }
+    },
+    {
+      "label": "CDEA_022",
+      "text": "YGYSKMHFERPFENEUGTEASTNORTHEASTONJNPJVVFNBLALNHNZIYJNOKKHTSBERLINCLOCKPDMRZ",
+      "metadata": {
+        "drift_a": -0.03888888888888889,
+        "drift_b": -1.5555555555555556,
+        "drift_type": "linear",
+        "drifted_positions": {
+          "EAST": 18,
+          "NORTHEAST": 22,
+          "BERLINCLOCK": 59
+        },
+        "max_drift": 4,
+        "seed": 1359
+      }
+    },
+    {
+      "label": "CDEA_023",
+      "text": "UVMGBRBHYSUTTIVZGBNEASTNORTHEASTADPHPYGGOLFENVBBQEHIGLQHZTCBERLINCLOCKERRDY",
+      "metadata": {
+        "drift_a": -0.03888888888888889,
+        "drift_b": -1.5555555555555556,
+        "drift_type": "quadratic",
+        "drifted_positions": {
+          "EAST": 19,
+          "NORTHEAST": 23,
+          "BERLINCLOCK": 59
+        },
+        "max_drift": 3.6851111111111114,
+        "seed": 1360
+      }
+    },
+    {
+      "label": "CDEA_024",
+      "text": "CIGULQMIJEVODYJQSZIEASNORTHEASTIWORACWSVFBYQJQZTSDFYDSZKICQBERLINCLOCKAYIMU",
+      "metadata": {
+        "drift_a": -0.03888888888888889,
+        "drift_b": -1.1111111111111112,
+        "drift_type": "linear",
+        "drifted_positions": {
+          "EAST": 19,
+          "NORTHEAST": 22,
+          "BERLINCLOCK": 59
+        },
+        "max_drift": 3.988888888888889,
+        "seed": 1361
+      }
+    },
+    {
+      "label": "CDEA_025",
+      "text": "VSVFGBVHQTZRTVCDIZSEASTNORTHEASTEATVHFFVKZTHPOXEJHUCQNEHQDHSBERLINCLOCKLAPW",
+      "metadata": {
+        "drift_a": -0.03888888888888889,
+        "drift_b": -1.1111111111111112,
+        "drift_type": "quadratic",
+        "drifted_positions": {
+          "EAST": 19,
+          "NORTHEAST": 23,
+          "BERLINCLOCK": 60
+        },
+        "max_drift": 3.240666666666667,
+        "seed": 1362
+      }
+    },
+    {
+      "label": "CDEA_026",
+      "text": "FCTBMSKHBABGFGIDVTFEASTNORTHEASTHAVTHSISAINUHUFPEMCIDNYQAYVBERLINCLOCKHQCKO",
+      "metadata": {
+        "drift_a": -0.03888888888888889,
+        "drift_b": -0.6666666666666667,
+        "drift_type": "linear",
+        "drifted_positions": {
+          "EAST": 19,
+          "NORTHEAST": 23,
+          "BERLINCLOCK": 59
+        },
+        "max_drift": 3.5444444444444443,
+        "seed": 1363
+      }
+    },
+    {
+      "label": "CDEA_027",
+      "text": "TEOUIUZPTWMDZJJRFIGQEASTNORTHEASTCUGCUPNLGSFVGQWPHLOACUUJVPWBERLINCLOCKLREZ",
+      "metadata": {
+        "drift_a": -0.03888888888888889,
+        "drift_b": -0.6666666666666667,
+        "drift_type": "quadratic",
+        "drifted_positions": {
+          "EAST": 20,
+          "NORTHEAST": 24,
+          "BERLINCLOCK": 60
+        },
+        "max_drift": 2.796222222222222,
+        "seed": 1364
+      }
+    },
+    {
+      "label": "CDEA_028",
+      "text": "YGHQUGOUCGRTVNKBRHJEASTNORTHEASTMVTTYYDJRFBRPUBNJOKBQSQTJPAZBERLINCLOCKSHCZ",
+      "metadata": {
+        "drift_a": -0.03888888888888889,
+        "drift_b": -0.22222222222222232,
+        "drift_type": "linear",
+        "drifted_positions": {
+          "EAST": 19,
+          "NORTHEAST": 23,
+          "BERLINCLOCK": 60
+        },
+        "max_drift": 3.1,
+        "seed": 1365
+      }
+    },
+    {
+      "label": "CDEA_029",
+      "text": "NNRCWCEECMMADKCUCVQMEASTNORTHEASTCKJLEQNCEKHSZIQLEWPKFFPNEGFVBERLINCLOCKYTT",
+      "metadata": {
+        "drift_a": -0.03888888888888889,
+        "drift_b": -0.22222222222222232,
+        "drift_type": "quadratic",
+        "drifted_positions": {
+          "EAST": 20,
+          "NORTHEAST": 24,
+          "BERLINCLOCK": 61
+        },
+        "max_drift": 2.351777777777778,
+        "seed": 1366
+      }
+    },
+    {
+      "label": "CDEA_030",
+      "text": "KCSJKZOOCNUGYNKFOGRLEASTNORTHEASTYBQSPBSGCSITWSGBKFAEZNTQHBZBERLINCLOCKUHPY",
+      "metadata": {
+        "drift_a": -0.03888888888888889,
+        "drift_b": 0.22222222222222232,
+        "drift_type": "linear",
+        "drifted_positions": {
+          "EAST": 20,
+          "NORTHEAST": 24,
+          "BERLINCLOCK": 60
+        },
+        "max_drift": 2.6555555555555554,
+        "seed": 1367
+      }
+    },
+    {
+      "label": "CDEA_031",
+      "text": "FPYSOOLKBKHUANADQLPEUEASNORTHEASTAYHJNMOFZGYRVGBFZCIQSUIEEZMQBERLINCLOCKZOZ",
+      "metadata": {
+        "drift_a": -0.03888888888888889,
+        "drift_b": 0.22222222222222232,
+        "drift_type": "quadratic",
+        "drifted_positions": {
+          "EAST": 21,
+          "NORTHEAST": 24,
+          "BERLINCLOCK": 61
+        },
+        "max_drift": 1.9073333333333333,
+        "seed": 1368
+      }
+    },
+    {
+      "label": "CDEA_032",
+      "text": "PHHCTAUTAWCESRNTBOJKEASTNORTHEASTFGQDOUPYAHHWRSRGQOMEVFPBSQJTBERLINCLOCKAKE",
+      "metadata": {
+        "drift_a": -0.03888888888888889,
+        "drift_b": 0.6666666666666665,
+        "drift_type": "linear",
+        "drifted_positions": {
+          "EAST": 20,
+          "NORTHEAST": 24,
+          "BERLINCLOCK": 61
+        },
+        "max_drift": 2.2111111111111112,
+        "seed": 1369
+      }
+    },
+    {
+      "label": "CDEA_033",
+      "text": "QGCSRTDBUIMPSGBHUCOZCEASTNORTHEASTYCXHQOUYZYBTGQJBHRALEKZGFENRBERLINCLOCKWD",
+      "metadata": {
+        "drift_a": -0.03888888888888889,
+        "drift_b": 0.6666666666666665,
+        "drift_type": "quadratic",
+        "drifted_positions": {
+          "EAST": 21,
+          "NORTHEAST": 25,
+          "BERLINCLOCK": 62
+        },
+        "max_drift": 1.4628888888888891,
+        "seed": 1370
+      }
+    },
+    {
+      "label": "CDEA_034",
+      "text": "RIRDLTZRGYOGLCDWWBNAVEASTNORTHEASTVJHTJJPEQGYICIEWHCRUQEMXRKHBERLINCLOCKGST",
+      "metadata": {
+        "drift_a": -0.03888888888888889,
+        "drift_b": 1.1111111111111107,
+        "drift_type": "linear",
+        "drifted_positions": {
+          "EAST": 21,
+          "NORTHEAST": 25,
+          "BERLINCLOCK": 61
+        },
+        "max_drift": 1.766666666666667,
+        "seed": 1371
+      }
+    },
+    {
+      "label": "CDEA_035",
+      "text": "SCLRPUNYTGSTUUVHBHWUOEASTNORTHEASTDMYVRVYVJCVBEVFNYWRCVKUULRFPBERLINCLOCKID",
+      "metadata": {
+        "drift_a": -0.03888888888888889,
+        "drift_b": 1.1111111111111107,
+        "drift_type": "quadratic",
+        "drifted_positions": {
+          "EAST": 21,
+          "NORTHEAST": 25,
+          "BERLINCLOCK": 62
+        },
+        "max_drift": 1.1111111111111107,
+        "seed": 1372
+      }
+    },
+    {
+      "label": "CDEA_036",
+      "text": "BEJPQJPPWEBDBSMEOJLPFEASTNORTHEASTEJWTCDSQYGSYAOMCBZMSINKFVASABERLINCLOCKCU",
+      "metadata": {
+        "drift_a": -0.03888888888888889,
+        "drift_b": 1.5555555555555554,
+        "drift_type": "linear",
+        "drifted_positions": {
+          "EAST": 21,
+          "NORTHEAST": 25,
+          "BERLINCLOCK": 62
+        },
+        "max_drift": 1.5555555555555554,
+        "seed": 1373
+      }
+    },
+    {
+      "label": "CDEA_037",
+      "text": "AYPRBHFGQULQDVBIRLHIWSEASTNORTHEASTSKMTMUKPFLAKMVRFIQYHMANMRKMBBERLINCLOCKP",
+      "metadata": {
+        "drift_a": -0.03888888888888889,
+        "drift_b": 1.5555555555555554,
+        "drift_type": "quadratic",
+        "drifted_positions": {
+          "EAST": 22,
+          "NORTHEAST": 26,
+          "BERLINCLOCK": 63
+        },
+        "max_drift": 1.5555555555555554,
+        "seed": 1374
+      }
+    },
+    {
+      "label": "CDEA_038",
+      "text": "BBLOHRHWCZGIWWYAPSFYBCEASTNORTHEASTRFEJLDUKNPMDEVBDRMWIDFWPZDZBERLINCLOCKTZ",
+      "metadata": {
+        "drift_a": -0.03888888888888889,
+        "drift_b": 2.0,
+        "drift_type": "linear",
+        "drifted_positions": {
+          "EAST": 22,
+          "NORTHEAST": 26,
+          "BERLINCLOCK": 62
+        },
+        "max_drift": 2.0,
+        "seed": 1375
+      }
+    },
+    {
+      "label": "CDEA_039",
+      "text": "MHSIMVCGZOMNCVGVLFVFQSEASTNORTHEASTSERRBFWNVPWHNMAWCLTYILUQHJIYBERLINCLOCKP",
+      "metadata": {
+        "drift_a": -0.03888888888888889,
+        "drift_b": 2.0,
+        "drift_type": "quadratic",
+        "drifted_positions": {
+          "EAST": 22,
+          "NORTHEAST": 26,
+          "BERLINCLOCK": 63
+        },
+        "max_drift": 2.0,
+        "seed": 1376
+      }
+    },
+    {
+      "label": "CDEA_040",
+      "text": "DACSMLTLWMYPTVOZXVEASTNORTHEASTETHMDUQPDPPCHLGHWEKRPUUFTHBBBERLINCLOCKHDWDR",
+      "metadata": {
+        "drift_a": -0.02777777777777778,
+        "drift_b": -2.0,
+        "drift_type": "linear",
+        "drifted_positions": {
+          "EAST": 18,
+          "NORTHEAST": 22,
+          "BERLINCLOCK": 59
+        },
+        "max_drift": 4,
+        "seed": 1377
+      }
+    },
+    {
+      "label": "CDEA_041",
+      "text": "AEKDVBCQBKLNZZWDLNEASTNORTHEASTMSQJGNTJTMMGWQKMBNYASNAPEIVVBERLINCLOCKJZGYJ",
+      "metadata": {
+        "drift_a": -0.02777777777777778,
+        "drift_b": -2.0,
+        "drift_type": "quadratic",
+        "drifted_positions": {
+          "EAST": 18,
+          "NORTHEAST": 22,
+          "BERLINCLOCK": 59
+        },
+        "max_drift": 3.521111111111111,
+        "seed": 1378
+      }
+    },
+    {
+      "label": "CDEA_042",
+      "text": "SGGLEIQSQBRTAFRCJMEASTNORTHEASTFTDULQAHBOJUNTIWORTLCABTUYSSBERLINCLOCKCDQIF",
+      "metadata": {
+        "drift_a": -0.02777777777777778,
+        "drift_b": -1.5555555555555556,
+        "drift_type": "linear",
+        "drifted_positions": {
+          "EAST": 18,
+          "NORTHEAST": 22,
+          "BERLINCLOCK": 59
+        },
+        "max_drift": 3.6111111111111116,
+        "seed": 1379
+      }
+    },
+    {
+      "label": "CDEA_043",
+      "text": "RPTBEGKYEGJKNHJZBHOEASTNORTHEASTZDOEAJDNZLDJAZUJQEWLRDAMYNCNBERLINCLOCKJOSA",
+      "metadata": {
+        "drift_a": -0.02777777777777778,
+        "drift_b": -1.5555555555555556,
+        "drift_type": "quadratic",
+        "drifted_positions": {
+          "EAST": 19,
+          "NORTHEAST": 23,
+          "BERLINCLOCK": 60
+        },
+        "max_drift": 3.0766666666666667,
+        "seed": 1380
+      }
+    },
+    {
+      "label": "CDEA_044",
+      "text": "ZSUPLJYCAYBGOFLNZCEEASTNORTHEASTYSUMBJTCIPVPTQRGPTCPIDOQNSVGBERLINCLOCKJYTP",
+      "metadata": {
+        "drift_a": -0.02777777777777778,
+        "drift_b": -1.1111111111111112,
+        "drift_type": "linear",
+        "drifted_positions": {
+          "EAST": 19,
+          "NORTHEAST": 23,
+          "BERLINCLOCK": 60
+        },
+        "max_drift": 3.166666666666667,
+        "seed": 1381
+      }
+    },
+    {
+      "label": "CDEA_045",
+      "text": "RKRWICQIKVTOWHJIVZYEASTNORTHEASTTBGINBSYKKRFIWBHIMNLDSUDAGHHBERLINCLOCKGQFM",
+      "metadata": {
+        "drift_a": -0.02777777777777778,
+        "drift_b": -1.1111111111111112,
+        "drift_type": "quadratic",
+        "drifted_positions": {
+          "EAST": 19,
+          "NORTHEAST": 23,
+          "BERLINCLOCK": 60
+        },
+        "max_drift": 2.6322222222222225,
+        "seed": 1382
+      }
+    },
+    {
+      "label": "CDEA_046",
+      "text": "DHZITGQVGKJEJLTHKEMEASTNORTHEASTWJJPKTUFKHVIJJXJSIRQWTGAYQSFBERLINCLOCKYIRF",
+      "metadata": {
+        "drift_a": -0.02777777777777778,
+        "drift_b": -0.6666666666666667,
+        "drift_type": "linear",
+        "drifted_positions": {
+          "EAST": 19,
+          "NORTHEAST": 23,
+          "BERLINCLOCK": 60
+        },
+        "max_drift": 2.7222222222222223,
+        "seed": 1383
+      }
+    },
+    {
+      "label": "CDEA_047",
+      "text": "YITCCVQKORYUGJACWEFNEASTNORTHEASTYDGGRFTQBPOHYCYEDSBGOYBPSISZBERLINCLOCKOUJ",
+      "metadata": {
+        "drift_a": -0.02777777777777778,
+        "drift_b": -0.6666666666666667,
+        "drift_type": "quadratic",
+        "drifted_positions": {
+          "EAST": 20,
+          "NORTHEAST": 24,
+          "BERLINCLOCK": 61
+        },
+        "max_drift": 2.187777777777778,
+        "seed": 1384
+      }
+    },
+    {
+      "label": "CDEA_048",
+      "text": "DFORJBEFBLMUWEDYODYMEASTNORTHEASTWIVVUSITWFZQKFJLISSMGMLJMIZMBERLINCLOCKDVT",
+      "metadata": {
+        "drift_a": -0.02777777777777778,
+        "drift_b": -0.22222222222222232,
+        "drift_type": "linear",
+        "drifted_positions": {
+          "EAST": 20,
+          "NORTHEAST": 24,
+          "BERLINCLOCK": 61
+        },
+        "max_drift": 2.277777777777778,
+        "seed": 1385
+      }
+    },
+    {
+      "label": "CDEA_049",
+      "text": "WEPHZWCQAJZGEUDVYGJZEASTNORTHEASTHETUHEGIEHGDSJBKDGKFQUHEOQOOBERLINCLOCKWFQ",
+      "metadata": {
+        "drift_a": -0.02777777777777778,
+        "drift_b": -0.22222222222222232,
+        "drift_type": "quadratic",
+        "drifted_positions": {
+          "EAST": 20,
+          "NORTHEAST": 24,
+          "BERLINCLOCK": 61
+        },
+        "max_drift": 1.7433333333333334,
+        "seed": 1386
+      }
+    },
+    {
+      "label": "CDEA_050",
+      "text": "VQYRYBUGOLNWYHSKQMTKEASTNORTHEASTZMNZIODTBSJHQPOGDUYWFYJCLHPJBERLINCLOCKQNH",
+      "metadata": {
+        "drift_a": -0.02777777777777778,
+        "drift_b": 0.22222222222222232,
+        "drift_type": "linear",
+        "drifted_positions": {
+          "EAST": 20,
+          "NORTHEAST": 24,
+          "BERLINCLOCK": 61
+        },
+        "max_drift": 1.8333333333333335,
+        "seed": 1387
+      }
+    },
+    {
+      "label": "CDEA_051",
+      "text": "PQDEQELVZNHKAWFEDEOIREASTNORTHEASTSDSKFPQFHATBTJHHPNKJXZESIWDDBERLINCLOCKQY",
+      "metadata": {
+        "drift_a": -0.02777777777777778,
+        "drift_b": 0.22222222222222232,
+        "drift_type": "quadratic",
+        "drifted_positions": {
+          "EAST": 21,
+          "NORTHEAST": 25,
+          "BERLINCLOCK": 62
+        },
+        "max_drift": 1.2988888888888888,
+        "seed": 1388
+      }
+    },
+    {
+      "label": "CDEA_052",
+      "text": "BOEZGTDBPAKVLHMWSCYMKEASNORTHEASTPASABDNAMEKIGZDPUWEMQDYTLNEZBERLINCLOCKIZM",
+      "metadata": {
+        "drift_a": -0.02777777777777778,
+        "drift_b": 0.6666666666666665,
+        "drift_type": "linear",
+        "drifted_positions": {
+          "EAST": 21,
+          "NORTHEAST": 24,
+          "BERLINCLOCK": 61
+        },
+        "max_drift": 1.3888888888888893,
+        "seed": 1389
+      }
+    },
+    {
+      "label": "CDEA_053",
+      "text": "CCPOGLPJWQDGQTTQLQPHBEASTNORTHEASTLBTOAHLUNHZNJYTPCNKWPFRBPSIHBERLINCLOCKEO",
+      "metadata": {
+        "drift_a": -0.02777777777777778,
+        "drift_b": 0.6666666666666665,
+        "drift_type": "quadratic",
+        "drifted_positions": {
+          "EAST": 21,
+          "NORTHEAST": 25,
+          "BERLINCLOCK": 62
+        },
+        "max_drift": 0.8544444444444446,
+        "seed": 1390
+      }
+    },
+    {
+      "label": "CDEA_054",
+      "text": "DVSJEQKFLNAMFGJQQPTIIEASTNORTHEASTIYYITOPAQPCULVVGEUCGVCUBKISQBERLINCLOCKMH",
+      "metadata": {
+        "drift_a": -0.02777777777777778,
+        "drift_b": 1.1111111111111107,
+        "drift_type": "linear",
+        "drifted_positions": {
+          "EAST": 21,
+          "NORTHEAST": 25,
+          "BERLINCLOCK": 62
+        },
+        "max_drift": 1.1111111111111107,
+        "seed": 1391
+      }
+    },
+    {
+      "label": "CDEA_055",
+      "text": "GWDYEAZMKWUORGPFZWIBBEASTNORTHEASTDHOAPEFBHRAIADCYGMPOOYDBZQJVFBERLINCLOCKO",
+      "metadata": {
+        "drift_a": -0.02777777777777778,
+        "drift_b": 1.1111111111111107,
+        "drift_type": "quadratic",
+        "drifted_positions": {
+          "EAST": 21,
+          "NORTHEAST": 25,
+          "BERLINCLOCK": 63
+        },
+        "max_drift": 1.1111111111111107,
+        "seed": 1392
+      }
+    },
+    {
+      "label": "CDEA_056",
+      "text": "JJICEBKRUKFAMCYPQJORVEASTNORTHEASTVGAAKZPDDAMLSSREFQJTSNNAMRMOBERLINCLOCKBG",
+      "metadata": {
+        "drift_a": -0.02777777777777778,
+        "drift_b": 1.5555555555555554,
+        "drift_type": "linear",
+        "drifted_positions": {
+          "EAST": 21,
+          "NORTHEAST": 25,
+          "BERLINCLOCK": 62
+        },
+        "max_drift": 1.5555555555555554,
+        "seed": 1393
+      }
+    },
+    {
+      "label": "CDEA_057",
+      "text": "KLTZYBZMNGKYTCDFAJHFTNEASTNORTHEASTSBPQNCHRAFBCMNRWCVCBPLKZZKTBBERLINCLOCKT",
+      "metadata": {
+        "drift_a": -0.02777777777777778,
+        "drift_b": 1.5555555555555554,
+        "drift_type": "quadratic",
+        "drifted_positions": {
+          "EAST": 22,
+          "NORTHEAST": 26,
+          "BERLINCLOCK": 63
+        },
+        "max_drift": 1.5555555555555554,
+        "seed": 1394
+      }
+    },
+    {
+      "label": "CDEA_058",
+      "text": "RGUYDFPOWJPCSVYPZZQMRBEASTNORTHEASTNCOFAZGNBTVRBEIFEDCPOZMHOKRYBERLINCLOCKD",
+      "metadata": {
+        "drift_a": -0.02777777777777778,
+        "drift_b": 2.0,
+        "drift_type": "linear",
+        "drifted_positions": {
+          "EAST": 22,
+          "NORTHEAST": 26,
+          "BERLINCLOCK": 63
+        },
+        "max_drift": 2.0,
+        "seed": 1395
+      }
+    },
+    {
+      "label": "CDEA_059",
+      "text": "BTHGNLDNWVVCYGQTGCWUSNEASTNORTHEASTIUJHNGPLYZCGWYECYEHBPQHFSRYYBERLINCLOCKM",
+      "metadata": {
+        "drift_a": -0.02777777777777778,
+        "drift_b": 2.0,
+        "drift_type": "quadratic",
+        "drifted_positions": {
+          "EAST": 22,
+          "NORTHEAST": 26,
+          "BERLINCLOCK": 63
+        },
+        "max_drift": 2.0,
+        "seed": 1396
+      }
+    },
+    {
+      "label": "CDEA_060",
+      "text": "BFKKVWQAVUTFKBDTJVEASTNORTHEASTNKYCFUOBQMLKBFVENGKKBWCRNIFCBERLINCLOCKIDJZS",
+      "metadata": {
+        "drift_a": -0.01666666666666667,
+        "drift_b": -2.0,
+        "drift_type": "linear",
+        "drifted_positions": {
+          "EAST": 18,
+          "NORTHEAST": 22,
+          "BERLINCLOCK": 59
+        },
+        "max_drift": 3.2333333333333334,
+        "seed": 1397
+      }
+    },
+    {
+      "label": "CDEA_061",
+      "text": "ITJJYFYDGJCJESQUZQEASTNORTHEASTOBQUMQZLFMMHLZJFKAVFNEENRZRNWBERLINCLOCKYQEQ",
+      "metadata": {
+        "drift_a": -0.01666666666666667,
+        "drift_b": -2.0,
+        "drift_type": "quadratic",
+        "drifted_positions": {
+          "EAST": 18,
+          "NORTHEAST": 22,
+          "BERLINCLOCK": 60
+        },
+        "max_drift": 2.912666666666667,
+        "seed": 1398
+      }
+    },
+    {
+      "label": "CDEA_062",
+      "text": "NGYMATUZAFILMQDWFVIEASTNORTHEASTYQQTUHBRJVDTALKIKKRQLTKZUZPUBERLINCLOCKOCTI",
+      "metadata": {
+        "drift_a": -0.01666666666666667,
+        "drift_b": -1.5555555555555556,
+        "drift_type": "linear",
+        "drifted_positions": {
+          "EAST": 19,
+          "NORTHEAST": 23,
+          "BERLINCLOCK": 60
+        },
+        "max_drift": 2.788888888888889,
+        "seed": 1399
+      }
+    },
+    {
+      "label": "CDEA_063",
+      "text": "EOVVGUTPKQBQGPKGFMZEASTNORTHEASTCGJSDBPGZOPKZRSUSRUQUSVNWZEDBERLINCLOCKMRUT",
+      "metadata": {
+        "drift_a": -0.01666666666666667,
+        "drift_b": -1.5555555555555556,
+        "drift_type": "quadratic",
+        "drifted_positions": {
+          "EAST": 19,
+          "NORTHEAST": 23,
+          "BERLINCLOCK": 60
+        },
+        "max_drift": 2.4682222222222223,
+        "seed": 1400
+      }
+    },
+    {
+      "label": "CDEA_064",
+      "text": "TLBELOEHMHJHVWCGUNQEASTNORTHEASTLTUBTEEORLQYESZKBSUZLMVBOCREBERLINCLOCKDQDW",
+      "metadata": {
+        "drift_a": -0.01666666666666667,
+        "drift_b": -1.1111111111111112,
+        "drift_type": "linear",
+        "drifted_positions": {
+          "EAST": 19,
+          "NORTHEAST": 23,
+          "BERLINCLOCK": 60
+        },
+        "max_drift": 2.344444444444445,
+        "seed": 1401
+      }
+    },
+    {
+      "label": "CDEA_065",
+      "text": "QABJUWGGPRDEEVWKZQLEASTNORTHEASTDKWYJIRDSZAAPTRUMYSKSLLKWKWHGBERLINCLOCKBRN",
+      "metadata": {
+        "drift_a": -0.01666666666666667,
+        "drift_b": -1.1111111111111112,
+        "drift_type": "quadratic",
+        "drifted_positions": {
+          "EAST": 19,
+          "NORTHEAST": 23,
+          "BERLINCLOCK": 61
+        },
+        "max_drift": 2.023777777777778,
+        "seed": 1402
+      }
+    },
+    {
+      "label": "CDEA_066",
+      "text": "IDTKIHRVEQZONABVTNNEASTNORTHEASTCSVTLLFLLHDHBTYTDJZWNFKQCNFWTBERLINCLOCKAAI",
+      "metadata": {
+        "drift_a": -0.01666666666666667,
+        "drift_b": -0.6666666666666667,
+        "drift_type": "linear",
+        "drifted_positions": {
+          "EAST": 19,
+          "NORTHEAST": 23,
+          "BERLINCLOCK": 61
+        },
+        "max_drift": 1.9000000000000004,
+        "seed": 1403
+      }
+    },
+    {
+      "label": "CDEA_067",
+      "text": "UEGQWUEBTWCHLMBKPMNUEASTNORTHEASTCFRAPGBAIOMTOSPDQOQMLIBNIUEKBERLINCLOCKKFQ",
+      "metadata": {
+        "drift_a": -0.01666666666666667,
+        "drift_b": -0.6666666666666667,
+        "drift_type": "quadratic",
+        "drifted_positions": {
+          "EAST": 20,
+          "NORTHEAST": 24,
+          "BERLINCLOCK": 61
+        },
+        "max_drift": 1.5793333333333335,
+        "seed": 1404
+      }
+    },
+    {
+      "label": "CDEA_068",
+      "text": "KGGVFIHABHITDCVYJTQQEASTNORTHEASTNUSLGFALGDKTCCGZBMHKKAGFONPFBERLINCLOCKNZV",
+      "metadata": {
+        "drift_a": -0.01666666666666667,
+        "drift_b": -0.22222222222222232,
+        "drift_type": "linear",
+        "drifted_positions": {
+          "EAST": 20,
+          "NORTHEAST": 24,
+          "BERLINCLOCK": 61
+        },
+        "max_drift": 1.455555555555556,
+        "seed": 1405
+      }
+    },
+    {
+      "label": "CDEA_069",
+      "text": "YNMMIYBCRRWKSOLRCMAIEASTNORTHEASTIWZYFPAAQGIFNHCGLDQMOLTOHKQLWBERLINCLOCKVD",
+      "metadata": {
+        "drift_a": -0.01666666666666667,
+        "drift_b": -0.22222222222222232,
+        "drift_type": "quadratic",
+        "drifted_positions": {
+          "EAST": 20,
+          "NORTHEAST": 24,
+          "BERLINCLOCK": 62
+        },
+        "max_drift": 1.1348888888888893,
+        "seed": 1406
+      }
+    },
+    {
+      "label": "CDEA_070",
+      "text": "CMVOJOCHFDSHSOFRNSHFEASTNORTHEASTIODGZAHDCRTHWTHFKDLLPQJZUFRYPBERLINCLOCKHN",
+      "metadata": {
+        "drift_a": -0.01666666666666667,
+        "drift_b": 0.22222222222222232,
+        "drift_type": "linear",
+        "drifted_positions": {
+          "EAST": 20,
+          "NORTHEAST": 24,
+          "BERLINCLOCK": 62
+        },
+        "max_drift": 1.0111111111111113,
+        "seed": 1407
+      }
+    },
+    {
+      "label": "CDEA_071",
+      "text": "MCICQNFFSYIAIOUHSUSWPEASTNORTHEASTJWJPQOMEBVRCILFQPHRNEDOKBVFYBERLINCLOCKLG",
+      "metadata": {
+        "drift_a": -0.01666666666666667,
+        "drift_b": 0.22222222222222232,
+        "drift_type": "quadratic",
+        "drifted_positions": {
+          "EAST": 21,
+          "NORTHEAST": 25,
+          "BERLINCLOCK": 62
+        },
+        "max_drift": 0.6904444444444445,
+        "seed": 1408
+      }
+    },
+    {
+      "label": "CDEA_072",
+      "text": "AROMNRYOIZJVYUQMFLKULEASTNORTHEASTTZMZDLGCVFZVOKHBIBNYIUOVZCWRBERLINCLOCKAY",
+      "metadata": {
+        "drift_a": -0.01666666666666667,
+        "drift_b": 0.6666666666666665,
+        "drift_type": "linear",
+        "drifted_positions": {
+          "EAST": 21,
+          "NORTHEAST": 25,
+          "BERLINCLOCK": 62
+        },
+        "max_drift": 0.6666666666666665,
+        "seed": 1409
+      }
+    },
+    {
+      "label": "CDEA_073",
+      "text": "HJVOSFTULDHTKMBWIWCZUEASTNORTHEASTYCPLAPJUZTTULUCHGTRIMEEADKMNDBERLINCLOCKJ",
+      "metadata": {
+        "drift_a": -0.01666666666666667,
+        "drift_b": 0.6666666666666665,
+        "drift_type": "quadratic",
+        "drifted_positions": {
+          "EAST": 21,
+          "NORTHEAST": 25,
+          "BERLINCLOCK": 63
+        },
+        "max_drift": 0.6666666666666665,
+        "seed": 1410
+      }
+    },
+    {
+      "label": "CDEA_074",
+      "text": "TQMEGBXCTGCSTRBRZJSWKEASTNORTHEASTMANJKOKYEBPSNYYKRDNYENJRNWIURBERLINCLOCKL",
+      "metadata": {
+        "drift_a": -0.01666666666666667,
+        "drift_b": 1.1111111111111107,
+        "drift_type": "linear",
+        "drifted_positions": {
+          "EAST": 21,
+          "NORTHEAST": 25,
+          "BERLINCLOCK": 63
+        },
+        "max_drift": 1.1111111111111107,
+        "seed": 1411
+      }
+    },
+    {
+      "label": "CDEA_075",
+      "text": "VAQYDDJMEFSPKPQPKYDPINEASTNORTHEASTZWSGKUDFFMWDKUMCHHEWEWNOTWSSBERLINCLOCKV",
+      "metadata": {
+        "drift_a": -0.01666666666666667,
+        "drift_b": 1.1111111111111107,
+        "drift_type": "quadratic",
+        "drifted_positions": {
+          "EAST": 22,
+          "NORTHEAST": 26,
+          "BERLINCLOCK": 63
+        },
+        "max_drift": 1.1111111111111107,
+        "seed": 1412
+      }
+    },
+    {
+      "label": "CDEA_076",
+      "text": "LCLIHKPYNHBEGJLQBOQJRNEASTNORTHEASTJIKCAZONFGYICYVRPRTZGFUBPLJOBERLINCLOCKC",
+      "metadata": {
+        "drift_a": -0.01666666666666667,
+        "drift_b": 1.5555555555555554,
+        "drift_type": "linear",
+        "drifted_positions": {
+          "EAST": 22,
+          "NORTHEAST": 26,
+          "BERLINCLOCK": 63
+        },
+        "max_drift": 1.5555555555555554,
+        "seed": 1413
+      }
+    },
+    {
+      "label": "CDEA_077",
+      "text": "VRCCTGTLJBJURGAQHJMAFDEASTNORTHEASTJQBWBJAABWHFTPCBGHCWMBEHHJHEBERLINCLOCKP",
+      "metadata": {
+        "drift_a": -0.01666666666666667,
+        "drift_b": 1.5555555555555554,
+        "drift_type": "quadratic",
+        "drifted_positions": {
+          "EAST": 22,
+          "NORTHEAST": 26,
+          "BERLINCLOCK": 63
+        },
+        "max_drift": 1.5555555555555554,
+        "seed": 1414
+      }
+    },
+    {
+      "label": "CDEA_078",
+      "text": "WWRQIRUEFZFKQGGKPOERUJEASTNORTHEASTKMMBIOCJCFRONUZAWWEEHRQLDWMWBERLINCLOCKC",
+      "metadata": {
+        "drift_a": -0.01666666666666667,
+        "drift_b": 2.0,
+        "drift_type": "linear",
+        "drifted_positions": {
+          "EAST": 22,
+          "NORTHEAST": 26,
+          "BERLINCLOCK": 63
+        },
+        "max_drift": 2.0,
+        "seed": 1415
+      }
+    },
+    {
+      "label": "CDEA_079",
+      "text": "CSLYPJPBUBZKYQCEBEVELBEASTNORTHEASTLETZVFTIQMJGBTDCSOYOYWCSILUDIBERLINCLOCK",
+      "metadata": {
+        "drift_a": -0.01666666666666667,
+        "drift_b": 2.0,
+        "drift_type": "quadratic",
+        "drifted_positions": {
+          "EAST": 22,
+          "NORTHEAST": 26,
+          "BERLINCLOCK": 64
+        },
+        "max_drift": 2.0,
+        "seed": 1416
+      }
+    },
+    {
+      "label": "CDEA_080",
+      "text": "ISSCSQSVSILZWTRVMOEASTNORTHEASTOGHGGNCJWCJRAALUBTIIWDVHNIKKCBERLINCLOCKZPOG",
+      "metadata": {
+        "drift_a": -0.005555555555555557,
+        "drift_b": -2.0,
+        "drift_type": "linear",
+        "drifted_positions": {
+          "EAST": 18,
+          "NORTHEAST": 22,
+          "BERLINCLOCK": 60
+        },
+        "max_drift": 2.4111111111111114,
+        "seed": 1417
+      }
+    },
+    {
+      "label": "CDEA_081",
+      "text": "UAQRVVJECWWYESGLITEASTNORTHEASTWFBCJDAQGYDVALAOUFFKEEBPKDKSDBERLINCLOCKFIVK",
+      "metadata": {
+        "drift_a": -0.005555555555555557,
+        "drift_b": -2.0,
+        "drift_type": "quadratic",
+        "drifted_positions": {
+          "EAST": 18,
+          "NORTHEAST": 22,
+          "BERLINCLOCK": 60
+        },
+        "max_drift": 2.304222222222222,
+        "seed": 1418
+      }
+    },
+    {
+      "label": "CDEA_082",
+      "text": "OWAEAMAJDSHUWSCSIBZEASTNORTHEASTRWJWQDJPKINWDRPSQKLDHSGPHARGABERLINCLOCKPAR",
+      "metadata": {
+        "drift_a": -0.005555555555555557,
+        "drift_b": -1.5555555555555556,
+        "drift_type": "linear",
+        "drifted_positions": {
+          "EAST": 19,
+          "NORTHEAST": 23,
+          "BERLINCLOCK": 61
+        },
+        "max_drift": 1.9666666666666668,
+        "seed": 1419
+      }
+    },
+    {
+      "label": "CDEA_083",
+      "text": "YKTWYNDHZDFUNMJRTOKEASTNORTHEASTKZDDKCPTNGOHOAWRGCIETHOVQAAIMBERLINCLOCKFWO",
+      "metadata": {
+        "drift_a": -0.005555555555555557,
+        "drift_b": -1.5555555555555556,
+        "drift_type": "quadratic",
+        "drifted_positions": {
+          "EAST": 19,
+          "NORTHEAST": 23,
+          "BERLINCLOCK": 61
+        },
+        "max_drift": 1.859777777777778,
+        "seed": 1420
+      }
+    },
+    {
+      "label": "CDEA_084",
+      "text": "BEGEOHGQBGDDNRMKZQSEASTNORTHEASTZFQRHZZPLYCDRWNZUGJLMGNLHCDZSBERLINCLOCKGNJ",
+      "metadata": {
+        "drift_a": -0.005555555555555557,
+        "drift_b": -1.1111111111111112,
+        "drift_type": "linear",
+        "drifted_positions": {
+          "EAST": 19,
+          "NORTHEAST": 23,
+          "BERLINCLOCK": 61
+        },
+        "max_drift": 1.5222222222222224,
+        "seed": 1421
+      }
+    },
+    {
+      "label": "CDEA_085",
+      "text": "FLUAKYAJHGKLJVSEBIWEASTNORTHEASTXRVYSMTCWOKNBEQNZUFOTSBARJUUDBERLINCLOCKNLW",
+      "metadata": {
+        "drift_a": -0.005555555555555557,
+        "drift_b": -1.1111111111111112,
+        "drift_type": "quadratic",
+        "drifted_positions": {
+          "EAST": 19,
+          "NORTHEAST": 23,
+          "BERLINCLOCK": 61
+        },
+        "max_drift": 1.4153333333333333,
+        "seed": 1422
+      }
+    },
+    {
+      "label": "CDEA_086",
+      "text": "VMNERLHVBASJVMZAZWWBEASTNORTHEASTQYGYFEEJQYWBLWMTNSJAQLPEYLEJBERLINCLOCKBWH",
+      "metadata": {
+        "drift_a": -0.005555555555555557,
+        "drift_b": -0.6666666666666667,
+        "drift_type": "linear",
+        "drifted_positions": {
+          "EAST": 20,
+          "NORTHEAST": 24,
+          "BERLINCLOCK": 61
+        },
+        "max_drift": 1.077777777777778,
+        "seed": 1423
+      }
+    },
+    {
+      "label": "CDEA_087",
+      "text": "BNRQJZVCNMMMMHHLOPSLEASTNORTHEASTFKLAWUIVHRKGLJMMHSMFFIMLSWEQPBERLINCLOCKNV",
+      "metadata": {
+        "drift_a": -0.005555555555555557,
+        "drift_b": -0.6666666666666667,
+        "drift_type": "quadratic",
+        "drifted_positions": {
+          "EAST": 20,
+          "NORTHEAST": 24,
+          "BERLINCLOCK": 62
+        },
+        "max_drift": 0.970888888888889,
+        "seed": 1424
+      }
+    },
+    {
+      "label": "CDEA_088",
+      "text": "IJEAYPKDTIWADSNCFMVCEASTNORTHEASTVSRBNGDZSPDJTOFJVVREEBYBQRTYJBERLINCLOCKUT",
+      "metadata": {
+        "drift_a": -0.005555555555555557,
+        "drift_b": -0.22222222222222232,
+        "drift_type": "linear",
+        "drifted_positions": {
+          "EAST": 20,
+          "NORTHEAST": 24,
+          "BERLINCLOCK": 62
+        },
+        "max_drift": 0.6333333333333335,
+        "seed": 1425
+      }
+    },
+    {
+      "label": "CDEA_089",
+      "text": "ZZQYCUOFHQPUCHGMLLBMEASTNORTHEASTWMYLGOCSLHODBGDNSZFJANJDAVBKMBERLINCLOCKFQ",
+      "metadata": {
+        "drift_a": -0.005555555555555557,
+        "drift_b": -0.22222222222222232,
+        "drift_type": "quadratic",
+        "drifted_positions": {
+          "EAST": 20,
+          "NORTHEAST": 24,
+          "BERLINCLOCK": 62
+        },
+        "max_drift": 0.5264444444444446,
+        "seed": 1426
+      }
+    },
+    {
+      "label": "CDEA_090",
+      "text": "TGRKEVVDQOBPNBVRMDQPGEASTNORTHEASTBEMACJPMQQZDSYYCOWTJDLOLONFGBERLINCLOCKNL",
+      "metadata": {
+        "drift_a": -0.005555555555555557,
+        "drift_b": 0.22222222222222232,
+        "drift_type": "linear",
+        "drifted_positions": {
+          "EAST": 21,
+          "NORTHEAST": 25,
+          "BERLINCLOCK": 62
+        },
+        "max_drift": 0.22222222222222232,
+        "seed": 1427
+      }
+    },
+    {
+      "label": "CDEA_091",
+      "text": "NNEGWAQUKLSZVZJOGRFHIEASTNORTHEASTORMBQNMTUCQRBDARWQCCUZILEJPUWBERLINCLOCKE",
+      "metadata": {
+        "drift_a": -0.005555555555555557,
+        "drift_b": 0.22222222222222232,
+        "drift_type": "quadratic",
+        "drifted_positions": {
+          "EAST": 21,
+          "NORTHEAST": 25,
+          "BERLINCLOCK": 63
+        },
+        "max_drift": 0.22222222222222232,
+        "seed": 1428
+      }
+    },
+    {
+      "label": "CDEA_092",
+      "text": "CZGCNKQKIRSEATOTOENVYEASTNORTHEASTYFPSCYONZOLWTEVQIYIKJIYLCMQAWBERLINCLOCKY",
+      "metadata": {
+        "drift_a": -0.005555555555555557,
+        "drift_b": 0.6666666666666665,
+        "drift_type": "linear",
+        "drifted_positions": {
+          "EAST": 21,
+          "NORTHEAST": 25,
+          "BERLINCLOCK": 63
+        },
+        "max_drift": 0.6666666666666665,
+        "seed": 1429
+      }
+    },
+    {
+      "label": "CDEA_093",
+      "text": "WQVSKQEORTEHNTEPKMKPTEASTNORTHEASTOYIWPMGFRSVMZYQEETTYQSKHVDKAKBERLINCLOCKH",
+      "metadata": {
+        "drift_a": -0.005555555555555557,
+        "drift_b": 0.6666666666666665,
+        "drift_type": "quadratic",
+        "drifted_positions": {
+          "EAST": 21,
+          "NORTHEAST": 25,
+          "BERLINCLOCK": 63
+        },
+        "max_drift": 0.6666666666666665,
+        "seed": 1430
+      }
+    },
+    {
+      "label": "CDEA_094",
+      "text": "NIWQQAKPFMGZYAKVKGEOKEASTNORTHEASTMVTAVLRSIEGADMIRDMIYUBDDDGRWUBERLINCLOCKU",
+      "metadata": {
+        "drift_a": -0.005555555555555557,
+        "drift_b": 1.1111111111111107,
+        "drift_type": "linear",
+        "drifted_positions": {
+          "EAST": 21,
+          "NORTHEAST": 25,
+          "BERLINCLOCK": 63
+        },
+        "max_drift": 1.1111111111111107,
+        "seed": 1431
+      }
+    },
+    {
+      "label": "CDEA_095",
+      "text": "MZDIDQBODCYRCWDRETTETOEASTNORTHEASTHLKKQVIJTFPPPWYKITZHFYNVZRWZBERLINCLOCKI",
+      "metadata": {
+        "drift_a": -0.005555555555555557,
+        "drift_b": 1.1111111111111107,
+        "drift_type": "quadratic",
+        "drifted_positions": {
+          "EAST": 22,
+          "NORTHEAST": 26,
+          "BERLINCLOCK": 63
+        },
+        "max_drift": 1.1111111111111107,
+        "seed": 1432
+      }
+    },
+    {
+      "label": "CDEA_096",
+      "text": "SYJFJABJBLGQLBNVZTFCWHEASTNORTHEASTLTVVCZMYRUHGKBSVHVJZBSWCGQTCHBERLINCLOCK",
+      "metadata": {
+        "drift_a": -0.005555555555555557,
+        "drift_b": 1.5555555555555554,
+        "drift_type": "linear",
+        "drifted_positions": {
+          "EAST": 22,
+          "NORTHEAST": 26,
+          "BERLINCLOCK": 64
+        },
+        "max_drift": 1.5555555555555554,
+        "seed": 1433
+      }
+    },
+    {
+      "label": "CDEA_097",
+      "text": "ADOREVTZAZMZQECOFJQDPNEASTNORTHEASTJOPHALVFMBQTBVWYWCMGJRZFFARSNBERLINCLOCK",
+      "metadata": {
+        "drift_a": -0.005555555555555557,
+        "drift_b": 1.5555555555555554,
+        "drift_type": "quadratic",
+        "drifted_positions": {
+          "EAST": 22,
+          "NORTHEAST": 26,
+          "BERLINCLOCK": 64
+        },
+        "max_drift": 1.5555555555555554,
+        "seed": 1434
+      }
+    },
+    {
+      "label": "CDEA_098",
+      "text": "ZRCQPINLECYOEJYEUKEQAAEASTNORTHEASTMLPPMJIRLYFQKCRWUTSUIFFCLHUBRBERLINCLOCK",
+      "metadata": {
+        "drift_a": -0.005555555555555557,
+        "drift_b": 2.0,
+        "drift_type": "linear",
+        "drifted_positions": {
+          "EAST": 22,
+          "NORTHEAST": 26,
+          "BERLINCLOCK": 64
+        },
+        "max_drift": 2.0,
+        "seed": 1435
+      }
+    },
+    {
+      "label": "CDEA_099",
+      "text": "UOQKRNOLYZCFRWELKMLAUSEASTNORTHEASTGLCKHHWJGBLLIDBBEBMMGFNAENZZYBERLINCLOCK",
+      "metadata": {
+        "drift_a": -0.005555555555555557,
+        "drift_b": 2.0,
+        "drift_type": "quadratic",
+        "drifted_positions": {
+          "EAST": 22,
+          "NORTHEAST": 26,
+          "BERLINCLOCK": 64
+        },
+        "max_drift": 2.0,
+        "seed": 1436
+      }
+    }
+  ]
+}

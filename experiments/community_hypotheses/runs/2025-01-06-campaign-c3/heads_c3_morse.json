@@ -1,0 +1,910 @@
+{
+  "campaign": "C3_MORSE",
+  "date": "2025-01-06",
+  "description": "Community hypothesis: morse",
+  "method": "morse",
+  "seed": 1337,
+  "total_heads": 100,
+  "heads": [
+    {
+      "label": "MORSE_000",
+      "text": "LYHKNHULDERIULHIFCYYTYEKSNNMOKZDLPLQTQNLCJPPBHWWPTMGHIRAFTPBKCYKVMOMMJWCMHT",
+      "metadata": {
+        "method": "morse_masking",
+        "pattern": "...---...",
+        "seed": 1337
+      }
+    },
+    {
+      "label": "MORSE_001",
+      "text": "LYHKNHULDERIULHIFCYYTYEKSNNMOKZDLPLQTQNLCJPPBHWWPTMGHIRAFTPBKCYKVMOMMJWCMHT",
+      "metadata": {
+        "method": "morse_masking",
+        "pattern": "...---...",
+        "seed": 1338
+      }
+    },
+    {
+      "label": "MORSE_002",
+      "text": "LYHKNHULDERIULHIFCYYTYEKSNNMOKZDLPLQTQNLCJPPBHWWPTMGHIRAFTPBKCYKVMOMMJWCMHT",
+      "metadata": {
+        "method": "morse_masking",
+        "pattern": "...---...",
+        "seed": 1339
+      }
+    },
+    {
+      "label": "MORSE_003",
+      "text": "HYDORHULZENIYLLIBCUYTYIOONJMOGDHLPHQTMNPCNLPBDWWPXMGHERABXPFKYYKRMOQQFWCIHP",
+      "metadata": {
+        "method": "morse_masking",
+        "pattern": "-.-..-..",
+        "seed": 1340
+      }
+    },
+    {
+      "label": "MORSE_004",
+      "text": "LYHKNHULDERIULHIFCYYTYEKSNNMOKZDLPLQTQNLCJPPBHWWPTMGHIRAFTPBKCYKVMOMMJWCMHT",
+      "metadata": {
+        "method": "morse_masking",
+        "pattern": "...---...",
+        "seed": 1341
+      }
+    },
+    {
+      "label": "MORSE_005",
+      "text": "LYHKNHULDERIULHIFCYYTYEKSNNMOKZDLPLQTQNLCJPPBHWWPTMGHIRAFTPBKCYKVMOMMJWCMHT",
+      "metadata": {
+        "method": "morse_masking",
+        "pattern": "...---...",
+        "seed": 1342
+      }
+    },
+    {
+      "label": "MORSE_006",
+      "text": "LYHKNHULDERIULHIFCYYTYEKSNNMOKZDLPLQTQNLCJPPBHWWPTMGHIRAFTPBKCYKVMOMMJWCMHT",
+      "metadata": {
+        "method": "morse_masking",
+        "pattern": "...---...",
+        "seed": 1343
+      }
+    },
+    {
+      "label": "MORSE_007",
+      "text": "LYDORHUHDENIYLLEFCUYTYIKSNJMOGDDPPHQTMNLGNLPBDWSTXMGHERWFXPFKYYGVMOQQFWYMHP",
+      "metadata": {
+        "method": "morse_masking",
+        "pattern": "..-..-.-",
+        "seed": 1344
+      }
+    },
+    {
+      "label": "MORSE_008",
+      "text": "HYDORHULZENIYLLIBCUYTYIOONJMOGDHLPHQTMNPCNLPBDWWPXMGHERABXPFKYYKRMOQQFWCIHP",
+      "metadata": {
+        "method": "morse_masking",
+        "pattern": "-.-..-..",
+        "seed": 1345
+      }
+    },
+    {
+      "label": "MORSE_009",
+      "text": "HYDORHULZENIYLLIBCUYTYIOONJMOGDHLPHQTMNPCNLPBDWWPXMGHERABXPFKYYKRMOQQFWCIHP",
+      "metadata": {
+        "method": "morse_masking",
+        "pattern": "-.-..-..",
+        "seed": 1346
+      }
+    },
+    {
+      "label": "MORSE_010",
+      "text": "LYHKNHULDERIULHIFCYYTYEKSNNMOKZDLPLQTQNLCJPPBHWWPTMGHIRAFTPBKCYKVMOMMJWCMHT",
+      "metadata": {
+        "method": "morse_masking",
+        "pattern": "...---...",
+        "seed": 1347
+      }
+    },
+    {
+      "label": "MORSE_011",
+      "text": "HYDORHULZENIYLLIBCUYTYIOONJMOGDHLPHQTMNPCNLPBDWWPXMGHERABXPFKYYKRMOQQFWCIHP",
+      "metadata": {
+        "method": "morse_masking",
+        "pattern": "-.-..-..",
+        "seed": 1348
+      }
+    },
+    {
+      "label": "MORSE_012",
+      "text": "HYDORHULZENIYLLIBCUYTYIOONJMOGDHLPHQTMNPCNLPBDWWPXMGHERABXPFKYYKRMOQQFWCIHP",
+      "metadata": {
+        "method": "morse_masking",
+        "pattern": "-.-..-..",
+        "seed": 1349
+      }
+    },
+    {
+      "label": "MORSE_013",
+      "text": "HYDORHULZENIYLLIBCUYTYIOONJMOGDHLPHQTMNPCNLPBDWWPXMGHERABXPFKYYKRMOQQFWCIHP",
+      "metadata": {
+        "method": "morse_masking",
+        "pattern": "-.-..-..",
+        "seed": 1350
+      }
+    },
+    {
+      "label": "MORSE_014",
+      "text": "LYHKNHULDERIULHIFCYYTYEKSNNMOKZDLPLQTQNLCJPPBHWWPTMGHIRAFTPBKCYKVMOMMJWCMHT",
+      "metadata": {
+        "method": "morse_masking",
+        "pattern": "...---...",
+        "seed": 1351
+      }
+    },
+    {
+      "label": "MORSE_015",
+      "text": "LYDORHUHDENIYLLEFCUYTYIKSNJMOGDDPPHQTMNLGNLPBDWSTXMGHERWFXPFKYYGVMOQQFWYMHP",
+      "metadata": {
+        "method": "morse_masking",
+        "pattern": "..-..-.-",
+        "seed": 1352
+      }
+    },
+    {
+      "label": "MORSE_016",
+      "text": "LYHKNHULDERIULHIFCYYTYEKSNNMOKZDLPLQTQNLCJPPBHWWPTMGHIRAFTPBKCYKVMOMMJWCMHT",
+      "metadata": {
+        "method": "morse_masking",
+        "pattern": "...---...",
+        "seed": 1353
+      }
+    },
+    {
+      "label": "MORSE_017",
+      "text": "HYDORHULZENIYLLIBCUYTYIOONJMOGDHLPHQTMNPCNLPBDWWPXMGHERABXPFKYYKRMOQQFWCIHP",
+      "metadata": {
+        "method": "morse_masking",
+        "pattern": "-.-..-..",
+        "seed": 1354
+      }
+    },
+    {
+      "label": "MORSE_018",
+      "text": "LYDORHUHDENIYLLEFCUYTYIKSNJMOGDDPPHQTMNLGNLPBDWSTXMGHERWFXPFKYYGVMOQQFWYMHP",
+      "metadata": {
+        "method": "morse_masking",
+        "pattern": "..-..-.-",
+        "seed": 1355
+      }
+    },
+    {
+      "label": "MORSE_019",
+      "text": "HYDORHULZENIYLLIBCUYTYIOONJMOGDHLPHQTMNPCNLPBDWWPXMGHERABXPFKYYKRMOQQFWCIHP",
+      "metadata": {
+        "method": "morse_masking",
+        "pattern": "-.-..-..",
+        "seed": 1356
+      }
+    },
+    {
+      "label": "MORSE_020",
+      "text": "LYHKNHULDERIULHIFCYYTYEKSNNMOKZDLPLQTQNLCJPPBHWWPTMGHIRAFTPBKCYKVMOMMJWCMHT",
+      "metadata": {
+        "method": "morse_masking",
+        "pattern": "...---...",
+        "seed": 1357
+      }
+    },
+    {
+      "label": "MORSE_021",
+      "text": "HYDORHULZENIYLLIBCUYTYIOONJMOGDHLPHQTMNPCNLPBDWWPXMGHERABXPFKYYKRMOQQFWCIHP",
+      "metadata": {
+        "method": "morse_masking",
+        "pattern": "-.-..-..",
+        "seed": 1358
+      }
+    },
+    {
+      "label": "MORSE_022",
+      "text": "LYDORHUHDENIYLLEFCUYTYIKSNJMOGDDPPHQTMNLGNLPBDWSTXMGHERWFXPFKYYGVMOQQFWYMHP",
+      "metadata": {
+        "method": "morse_masking",
+        "pattern": "..-..-.-",
+        "seed": 1359
+      }
+    },
+    {
+      "label": "MORSE_023",
+      "text": "LYHKNHULDERIULHIFCYYTYEKSNNMOKZDLPLQTQNLCJPPBHWWPTMGHIRAFTPBKCYKVMOMMJWCMHT",
+      "metadata": {
+        "method": "morse_masking",
+        "pattern": "...---...",
+        "seed": 1360
+      }
+    },
+    {
+      "label": "MORSE_024",
+      "text": "LYHKNHULDERIULHIFCYYTYEKSNNMOKZDLPLQTQNLCJPPBHWWPTMGHIRAFTPBKCYKVMOMMJWCMHT",
+      "metadata": {
+        "method": "morse_masking",
+        "pattern": "...---...",
+        "seed": 1361
+      }
+    },
+    {
+      "label": "MORSE_025",
+      "text": "LYHKNHULDERIULHIFCYYTYEKSNNMOKZDLPLQTQNLCJPPBHWWPTMGHIRAFTPBKCYKVMOMMJWCMHT",
+      "metadata": {
+        "method": "morse_masking",
+        "pattern": "...---...",
+        "seed": 1362
+      }
+    },
+    {
+      "label": "MORSE_026",
+      "text": "HYDORHULZENIYLLIBCUYTYIOONJMOGDHLPHQTMNPCNLPBDWWPXMGHERABXPFKYYKRMOQQFWCIHP",
+      "metadata": {
+        "method": "morse_masking",
+        "pattern": "-.-..-..",
+        "seed": 1363
+      }
+    },
+    {
+      "label": "MORSE_027",
+      "text": "HYDORHULZENIYLLIBCUYTYIOONJMOGDHLPHQTMNPCNLPBDWWPXMGHERABXPFKYYKRMOQQFWCIHP",
+      "metadata": {
+        "method": "morse_masking",
+        "pattern": "-.-..-..",
+        "seed": 1364
+      }
+    },
+    {
+      "label": "MORSE_028",
+      "text": "HYDORHULZENIYLLIBCUYTYIOONJMOGDHLPHQTMNPCNLPBDWWPXMGHERABXPFKYYKRMOQQFWCIHP",
+      "metadata": {
+        "method": "morse_masking",
+        "pattern": "-.-..-..",
+        "seed": 1365
+      }
+    },
+    {
+      "label": "MORSE_029",
+      "text": "LYHKNHULDERIULHIFCYYTYEKSNNMOKZDLPLQTQNLCJPPBHWWPTMGHIRAFTPBKCYKVMOMMJWCMHT",
+      "metadata": {
+        "method": "morse_masking",
+        "pattern": "...---...",
+        "seed": 1366
+      }
+    },
+    {
+      "label": "MORSE_030",
+      "text": "HYDORHULZENIYLLIBCUYTYIOONJMOGDHLPHQTMNPCNLPBDWWPXMGHERABXPFKYYKRMOQQFWCIHP",
+      "metadata": {
+        "method": "morse_masking",
+        "pattern": "-.-..-..",
+        "seed": 1367
+      }
+    },
+    {
+      "label": "MORSE_031",
+      "text": "LYHKNHULDERIULHIFCYYTYEKSNNMOKZDLPLQTQNLCJPPBHWWPTMGHIRAFTPBKCYKVMOMMJWCMHT",
+      "metadata": {
+        "method": "morse_masking",
+        "pattern": "...---...",
+        "seed": 1368
+      }
+    },
+    {
+      "label": "MORSE_032",
+      "text": "LYDORHUHDENIYLLEFCUYTYIKSNJMOGDDPPHQTMNLGNLPBDWSTXMGHERWFXPFKYYGVMOQQFWYMHP",
+      "metadata": {
+        "method": "morse_masking",
+        "pattern": "..-..-.-",
+        "seed": 1369
+      }
+    },
+    {
+      "label": "MORSE_033",
+      "text": "HYDORHULZENIYLLIBCUYTYIOONJMOGDHLPHQTMNPCNLPBDWWPXMGHERABXPFKYYKRMOQQFWCIHP",
+      "metadata": {
+        "method": "morse_masking",
+        "pattern": "-.-..-..",
+        "seed": 1370
+      }
+    },
+    {
+      "label": "MORSE_034",
+      "text": "LYHKNHULDERIULHIFCYYTYEKSNNMOKZDLPLQTQNLCJPPBHWWPTMGHIRAFTPBKCYKVMOMMJWCMHT",
+      "metadata": {
+        "method": "morse_masking",
+        "pattern": "...---...",
+        "seed": 1371
+      }
+    },
+    {
+      "label": "MORSE_035",
+      "text": "LYDORHUHDENIYLLEFCUYTYIKSNJMOGDDPPHQTMNLGNLPBDWSTXMGHERWFXPFKYYGVMOQQFWYMHP",
+      "metadata": {
+        "method": "morse_masking",
+        "pattern": "..-..-.-",
+        "seed": 1372
+      }
+    },
+    {
+      "label": "MORSE_036",
+      "text": "HYDORHULZENIYLLIBCUYTYIOONJMOGDHLPHQTMNPCNLPBDWWPXMGHERABXPFKYYKRMOQQFWCIHP",
+      "metadata": {
+        "method": "morse_masking",
+        "pattern": "-.-..-..",
+        "seed": 1373
+      }
+    },
+    {
+      "label": "MORSE_037",
+      "text": "LYDORHUHDENIYLLEFCUYTYIKSNJMOGDDPPHQTMNLGNLPBDWSTXMGHERWFXPFKYYGVMOQQFWYMHP",
+      "metadata": {
+        "method": "morse_masking",
+        "pattern": "..-..-.-",
+        "seed": 1374
+      }
+    },
+    {
+      "label": "MORSE_038",
+      "text": "LYDORHUHDENIYLLEFCUYTYIKSNJMOGDDPPHQTMNLGNLPBDWSTXMGHERWFXPFKYYGVMOQQFWYMHP",
+      "metadata": {
+        "method": "morse_masking",
+        "pattern": "..-..-.-",
+        "seed": 1375
+      }
+    },
+    {
+      "label": "MORSE_039",
+      "text": "HYDORHULZENIYLLIBCUYTYIOONJMOGDHLPHQTMNPCNLPBDWWPXMGHERABXPFKYYKRMOQQFWCIHP",
+      "metadata": {
+        "method": "morse_masking",
+        "pattern": "-.-..-..",
+        "seed": 1376
+      }
+    },
+    {
+      "label": "MORSE_040",
+      "text": "LYHKNHULDERIULHIFCYYTYEKSNNMOKZDLPLQTQNLCJPPBHWWPTMGHIRAFTPBKCYKVMOMMJWCMHT",
+      "metadata": {
+        "method": "morse_masking",
+        "pattern": "...---...",
+        "seed": 1377
+      }
+    },
+    {
+      "label": "MORSE_041",
+      "text": "LYHKNHULDERIULHIFCYYTYEKSNNMOKZDLPLQTQNLCJPPBHWWPTMGHIRAFTPBKCYKVMOMMJWCMHT",
+      "metadata": {
+        "method": "morse_masking",
+        "pattern": "...---...",
+        "seed": 1378
+      }
+    },
+    {
+      "label": "MORSE_042",
+      "text": "LYHKNHULDERIULHIFCYYTYEKSNNMOKZDLPLQTQNLCJPPBHWWPTMGHIRAFTPBKCYKVMOMMJWCMHT",
+      "metadata": {
+        "method": "morse_masking",
+        "pattern": "...---...",
+        "seed": 1379
+      }
+    },
+    {
+      "label": "MORSE_043",
+      "text": "HYDORHULZENIYLLIBCUYTYIOONJMOGDHLPHQTMNPCNLPBDWWPXMGHERABXPFKYYKRMOQQFWCIHP",
+      "metadata": {
+        "method": "morse_masking",
+        "pattern": "-.-..-..",
+        "seed": 1380
+      }
+    },
+    {
+      "label": "MORSE_044",
+      "text": "LYHKNHULDERIULHIFCYYTYEKSNNMOKZDLPLQTQNLCJPPBHWWPTMGHIRAFTPBKCYKVMOMMJWCMHT",
+      "metadata": {
+        "method": "morse_masking",
+        "pattern": "...---...",
+        "seed": 1381
+      }
+    },
+    {
+      "label": "MORSE_045",
+      "text": "HYDORHULZENIYLLIBCUYTYIOONJMOGDHLPHQTMNPCNLPBDWWPXMGHERABXPFKYYKRMOQQFWCIHP",
+      "metadata": {
+        "method": "morse_masking",
+        "pattern": "-.-..-..",
+        "seed": 1382
+      }
+    },
+    {
+      "label": "MORSE_046",
+      "text": "LYDORHUHDENIYLLEFCUYTYIKSNJMOGDDPPHQTMNLGNLPBDWSTXMGHERWFXPFKYYGVMOQQFWYMHP",
+      "metadata": {
+        "method": "morse_masking",
+        "pattern": "..-..-.-",
+        "seed": 1383
+      }
+    },
+    {
+      "label": "MORSE_047",
+      "text": "LYHKNHULDERIULHIFCYYTYEKSNNMOKZDLPLQTQNLCJPPBHWWPTMGHIRAFTPBKCYKVMOMMJWCMHT",
+      "metadata": {
+        "method": "morse_masking",
+        "pattern": "...---...",
+        "seed": 1384
+      }
+    },
+    {
+      "label": "MORSE_048",
+      "text": "LYDORHUHDENIYLLEFCUYTYIKSNJMOGDDPPHQTMNLGNLPBDWSTXMGHERWFXPFKYYGVMOQQFWYMHP",
+      "metadata": {
+        "method": "morse_masking",
+        "pattern": "..-..-.-",
+        "seed": 1385
+      }
+    },
+    {
+      "label": "MORSE_049",
+      "text": "LYHKNHULDERIULHIFCYYTYEKSNNMOKZDLPLQTQNLCJPPBHWWPTMGHIRAFTPBKCYKVMOMMJWCMHT",
+      "metadata": {
+        "method": "morse_masking",
+        "pattern": "...---...",
+        "seed": 1386
+      }
+    },
+    {
+      "label": "MORSE_050",
+      "text": "LYHKNHULDERIULHIFCYYTYEKSNNMOKZDLPLQTQNLCJPPBHWWPTMGHIRAFTPBKCYKVMOMMJWCMHT",
+      "metadata": {
+        "method": "morse_masking",
+        "pattern": "...---...",
+        "seed": 1387
+      }
+    },
+    {
+      "label": "MORSE_051",
+      "text": "LYHKNHULDERIULHIFCYYTYEKSNNMOKZDLPLQTQNLCJPPBHWWPTMGHIRAFTPBKCYKVMOMMJWCMHT",
+      "metadata": {
+        "method": "morse_masking",
+        "pattern": "...---...",
+        "seed": 1388
+      }
+    },
+    {
+      "label": "MORSE_052",
+      "text": "LYHKNHULDERIULHIFCYYTYEKSNNMOKZDLPLQTQNLCJPPBHWWPTMGHIRAFTPBKCYKVMOMMJWCMHT",
+      "metadata": {
+        "method": "morse_masking",
+        "pattern": "...---...",
+        "seed": 1389
+      }
+    },
+    {
+      "label": "MORSE_053",
+      "text": "LYDORHUHDENIYLLEFCUYTYIKSNJMOGDDPPHQTMNLGNLPBDWSTXMGHERWFXPFKYYGVMOQQFWYMHP",
+      "metadata": {
+        "method": "morse_masking",
+        "pattern": "..-..-.-",
+        "seed": 1390
+      }
+    },
+    {
+      "label": "MORSE_054",
+      "text": "LYDORHUHDENIYLLEFCUYTYIKSNJMOGDDPPHQTMNLGNLPBDWSTXMGHERWFXPFKYYGVMOQQFWYMHP",
+      "metadata": {
+        "method": "morse_masking",
+        "pattern": "..-..-.-",
+        "seed": 1391
+      }
+    },
+    {
+      "label": "MORSE_055",
+      "text": "HYDORHULZENIYLLIBCUYTYIOONJMOGDHLPHQTMNPCNLPBDWWPXMGHERABXPFKYYKRMOQQFWCIHP",
+      "metadata": {
+        "method": "morse_masking",
+        "pattern": "-.-..-..",
+        "seed": 1392
+      }
+    },
+    {
+      "label": "MORSE_056",
+      "text": "LYHKNHULDERIULHIFCYYTYEKSNNMOKZDLPLQTQNLCJPPBHWWPTMGHIRAFTPBKCYKVMOMMJWCMHT",
+      "metadata": {
+        "method": "morse_masking",
+        "pattern": "...---...",
+        "seed": 1393
+      }
+    },
+    {
+      "label": "MORSE_057",
+      "text": "LYHKNHULDERIULHIFCYYTYEKSNNMOKZDLPLQTQNLCJPPBHWWPTMGHIRAFTPBKCYKVMOMMJWCMHT",
+      "metadata": {
+        "method": "morse_masking",
+        "pattern": "...---...",
+        "seed": 1394
+      }
+    },
+    {
+      "label": "MORSE_058",
+      "text": "LYDORHUHDENIYLLEFCUYTYIKSNJMOGDDPPHQTMNLGNLPBDWSTXMGHERWFXPFKYYGVMOQQFWYMHP",
+      "metadata": {
+        "method": "morse_masking",
+        "pattern": "..-..-.-",
+        "seed": 1395
+      }
+    },
+    {
+      "label": "MORSE_059",
+      "text": "LYHKNHULDERIULHIFCYYTYEKSNNMOKZDLPLQTQNLCJPPBHWWPTMGHIRAFTPBKCYKVMOMMJWCMHT",
+      "metadata": {
+        "method": "morse_masking",
+        "pattern": "...---...",
+        "seed": 1396
+      }
+    },
+    {
+      "label": "MORSE_060",
+      "text": "LYDORHUHDENIYLLEFCUYTYIKSNJMOGDDPPHQTMNLGNLPBDWSTXMGHERWFXPFKYYGVMOQQFWYMHP",
+      "metadata": {
+        "method": "morse_masking",
+        "pattern": "..-..-.-",
+        "seed": 1397
+      }
+    },
+    {
+      "label": "MORSE_061",
+      "text": "LYHKNHULDERIULHIFCYYTYEKSNNMOKZDLPLQTQNLCJPPBHWWPTMGHIRAFTPBKCYKVMOMMJWCMHT",
+      "metadata": {
+        "method": "morse_masking",
+        "pattern": "...---...",
+        "seed": 1398
+      }
+    },
+    {
+      "label": "MORSE_062",
+      "text": "LYDORHUHDENIYLLEFCUYTYIKSNJMOGDDPPHQTMNLGNLPBDWSTXMGHERWFXPFKYYGVMOQQFWYMHP",
+      "metadata": {
+        "method": "morse_masking",
+        "pattern": "..-..-.-",
+        "seed": 1399
+      }
+    },
+    {
+      "label": "MORSE_063",
+      "text": "LYDORHUHDENIYLLEFCUYTYIKSNJMOGDDPPHQTMNLGNLPBDWSTXMGHERWFXPFKYYGVMOQQFWYMHP",
+      "metadata": {
+        "method": "morse_masking",
+        "pattern": "..-..-.-",
+        "seed": 1400
+      }
+    },
+    {
+      "label": "MORSE_064",
+      "text": "LYDORHUHDENIYLLEFCUYTYIKSNJMOGDDPPHQTMNLGNLPBDWSTXMGHERWFXPFKYYGVMOQQFWYMHP",
+      "metadata": {
+        "method": "morse_masking",
+        "pattern": "..-..-.-",
+        "seed": 1401
+      }
+    },
+    {
+      "label": "MORSE_065",
+      "text": "HYDORHULZENIYLLIBCUYTYIOONJMOGDHLPHQTMNPCNLPBDWWPXMGHERABXPFKYYKRMOQQFWCIHP",
+      "metadata": {
+        "method": "morse_masking",
+        "pattern": "-.-..-..",
+        "seed": 1402
+      }
+    },
+    {
+      "label": "MORSE_066",
+      "text": "LYDORHUHDENIYLLEFCUYTYIKSNJMOGDDPPHQTMNLGNLPBDWSTXMGHERWFXPFKYYGVMOQQFWYMHP",
+      "metadata": {
+        "method": "morse_masking",
+        "pattern": "..-..-.-",
+        "seed": 1403
+      }
+    },
+    {
+      "label": "MORSE_067",
+      "text": "HYDORHULZENIYLLIBCUYTYIOONJMOGDHLPHQTMNPCNLPBDWWPXMGHERABXPFKYYKRMOQQFWCIHP",
+      "metadata": {
+        "method": "morse_masking",
+        "pattern": "-.-..-..",
+        "seed": 1404
+      }
+    },
+    {
+      "label": "MORSE_068",
+      "text": "LYHKNHULDERIULHIFCYYTYEKSNNMOKZDLPLQTQNLCJPPBHWWPTMGHIRAFTPBKCYKVMOMMJWCMHT",
+      "metadata": {
+        "method": "morse_masking",
+        "pattern": "...---...",
+        "seed": 1405
+      }
+    },
+    {
+      "label": "MORSE_069",
+      "text": "LYHKNHULDERIULHIFCYYTYEKSNNMOKZDLPLQTQNLCJPPBHWWPTMGHIRAFTPBKCYKVMOMMJWCMHT",
+      "metadata": {
+        "method": "morse_masking",
+        "pattern": "...---...",
+        "seed": 1406
+      }
+    },
+    {
+      "label": "MORSE_070",
+      "text": "HYDORHULZENIYLLIBCUYTYIOONJMOGDHLPHQTMNPCNLPBDWWPXMGHERABXPFKYYKRMOQQFWCIHP",
+      "metadata": {
+        "method": "morse_masking",
+        "pattern": "-.-..-..",
+        "seed": 1407
+      }
+    },
+    {
+      "label": "MORSE_071",
+      "text": "LYDORHUHDENIYLLEFCUYTYIKSNJMOGDDPPHQTMNLGNLPBDWSTXMGHERWFXPFKYYGVMOQQFWYMHP",
+      "metadata": {
+        "method": "morse_masking",
+        "pattern": "..-..-.-",
+        "seed": 1408
+      }
+    },
+    {
+      "label": "MORSE_072",
+      "text": "LYHKNHULDERIULHIFCYYTYEKSNNMOKZDLPLQTQNLCJPPBHWWPTMGHIRAFTPBKCYKVMOMMJWCMHT",
+      "metadata": {
+        "method": "morse_masking",
+        "pattern": "...---...",
+        "seed": 1409
+      }
+    },
+    {
+      "label": "MORSE_073",
+      "text": "HYDORHULZENIYLLIBCUYTYIOONJMOGDHLPHQTMNPCNLPBDWWPXMGHERABXPFKYYKRMOQQFWCIHP",
+      "metadata": {
+        "method": "morse_masking",
+        "pattern": "-.-..-..",
+        "seed": 1410
+      }
+    },
+    {
+      "label": "MORSE_074",
+      "text": "HYDORHULZENIYLLIBCUYTYIOONJMOGDHLPHQTMNPCNLPBDWWPXMGHERABXPFKYYKRMOQQFWCIHP",
+      "metadata": {
+        "method": "morse_masking",
+        "pattern": "-.-..-..",
+        "seed": 1411
+      }
+    },
+    {
+      "label": "MORSE_075",
+      "text": "LYHKNHULDERIULHIFCYYTYEKSNNMOKZDLPLQTQNLCJPPBHWWPTMGHIRAFTPBKCYKVMOMMJWCMHT",
+      "metadata": {
+        "method": "morse_masking",
+        "pattern": "...---...",
+        "seed": 1412
+      }
+    },
+    {
+      "label": "MORSE_076",
+      "text": "LYDORHUHDENIYLLEFCUYTYIKSNJMOGDDPPHQTMNLGNLPBDWSTXMGHERWFXPFKYYGVMOQQFWYMHP",
+      "metadata": {
+        "method": "morse_masking",
+        "pattern": "..-..-.-",
+        "seed": 1413
+      }
+    },
+    {
+      "label": "MORSE_077",
+      "text": "LYHKNHULDERIULHIFCYYTYEKSNNMOKZDLPLQTQNLCJPPBHWWPTMGHIRAFTPBKCYKVMOMMJWCMHT",
+      "metadata": {
+        "method": "morse_masking",
+        "pattern": "...---...",
+        "seed": 1414
+      }
+    },
+    {
+      "label": "MORSE_078",
+      "text": "LYDORHUHDENIYLLEFCUYTYIKSNJMOGDDPPHQTMNLGNLPBDWSTXMGHERWFXPFKYYGVMOQQFWYMHP",
+      "metadata": {
+        "method": "morse_masking",
+        "pattern": "..-..-.-",
+        "seed": 1415
+      }
+    },
+    {
+      "label": "MORSE_079",
+      "text": "LYHKNHULDERIULHIFCYYTYEKSNNMOKZDLPLQTQNLCJPPBHWWPTMGHIRAFTPBKCYKVMOMMJWCMHT",
+      "metadata": {
+        "method": "morse_masking",
+        "pattern": "...---...",
+        "seed": 1416
+      }
+    },
+    {
+      "label": "MORSE_080",
+      "text": "LYHKNHULDERIULHIFCYYTYEKSNNMOKZDLPLQTQNLCJPPBHWWPTMGHIRAFTPBKCYKVMOMMJWCMHT",
+      "metadata": {
+        "method": "morse_masking",
+        "pattern": "...---...",
+        "seed": 1417
+      }
+    },
+    {
+      "label": "MORSE_081",
+      "text": "LYHKNHULDERIULHIFCYYTYEKSNNMOKZDLPLQTQNLCJPPBHWWPTMGHIRAFTPBKCYKVMOMMJWCMHT",
+      "metadata": {
+        "method": "morse_masking",
+        "pattern": "...---...",
+        "seed": 1418
+      }
+    },
+    {
+      "label": "MORSE_082",
+      "text": "HYDORHULZENIYLLIBCUYTYIOONJMOGDHLPHQTMNPCNLPBDWWPXMGHERABXPFKYYKRMOQQFWCIHP",
+      "metadata": {
+        "method": "morse_masking",
+        "pattern": "-.-..-..",
+        "seed": 1419
+      }
+    },
+    {
+      "label": "MORSE_083",
+      "text": "LYDORHUHDENIYLLEFCUYTYIKSNJMOGDDPPHQTMNLGNLPBDWSTXMGHERWFXPFKYYGVMOQQFWYMHP",
+      "metadata": {
+        "method": "morse_masking",
+        "pattern": "..-..-.-",
+        "seed": 1420
+      }
+    },
+    {
+      "label": "MORSE_084",
+      "text": "LYHKNHULDERIULHIFCYYTYEKSNNMOKZDLPLQTQNLCJPPBHWWPTMGHIRAFTPBKCYKVMOMMJWCMHT",
+      "metadata": {
+        "method": "morse_masking",
+        "pattern": "...---...",
+        "seed": 1421
+      }
+    },
+    {
+      "label": "MORSE_085",
+      "text": "LYDORHUHDENIYLLEFCUYTYIKSNJMOGDDPPHQTMNLGNLPBDWSTXMGHERWFXPFKYYGVMOQQFWYMHP",
+      "metadata": {
+        "method": "morse_masking",
+        "pattern": "..-..-.-",
+        "seed": 1422
+      }
+    },
+    {
+      "label": "MORSE_086",
+      "text": "LYHKNHULDERIULHIFCYYTYEKSNNMOKZDLPLQTQNLCJPPBHWWPTMGHIRAFTPBKCYKVMOMMJWCMHT",
+      "metadata": {
+        "method": "morse_masking",
+        "pattern": "...---...",
+        "seed": 1423
+      }
+    },
+    {
+      "label": "MORSE_087",
+      "text": "LYHKNHULDERIULHIFCYYTYEKSNNMOKZDLPLQTQNLCJPPBHWWPTMGHIRAFTPBKCYKVMOMMJWCMHT",
+      "metadata": {
+        "method": "morse_masking",
+        "pattern": "...---...",
+        "seed": 1424
+      }
+    },
+    {
+      "label": "MORSE_088",
+      "text": "LYHKNHULDERIULHIFCYYTYEKSNNMOKZDLPLQTQNLCJPPBHWWPTMGHIRAFTPBKCYKVMOMMJWCMHT",
+      "metadata": {
+        "method": "morse_masking",
+        "pattern": "...---...",
+        "seed": 1425
+      }
+    },
+    {
+      "label": "MORSE_089",
+      "text": "LYDORHUHDENIYLLEFCUYTYIKSNJMOGDDPPHQTMNLGNLPBDWSTXMGHERWFXPFKYYGVMOQQFWYMHP",
+      "metadata": {
+        "method": "morse_masking",
+        "pattern": "..-..-.-",
+        "seed": 1426
+      }
+    },
+    {
+      "label": "MORSE_090",
+      "text": "LYHKNHULDERIULHIFCYYTYEKSNNMOKZDLPLQTQNLCJPPBHWWPTMGHIRAFTPBKCYKVMOMMJWCMHT",
+      "metadata": {
+        "method": "morse_masking",
+        "pattern": "...---...",
+        "seed": 1427
+      }
+    },
+    {
+      "label": "MORSE_091",
+      "text": "LYDORHUHDENIYLLEFCUYTYIKSNJMOGDDPPHQTMNLGNLPBDWSTXMGHERWFXPFKYYGVMOQQFWYMHP",
+      "metadata": {
+        "method": "morse_masking",
+        "pattern": "..-..-.-",
+        "seed": 1428
+      }
+    },
+    {
+      "label": "MORSE_092",
+      "text": "LYHKNHULDERIULHIFCYYTYEKSNNMOKZDLPLQTQNLCJPPBHWWPTMGHIRAFTPBKCYKVMOMMJWCMHT",
+      "metadata": {
+        "method": "morse_masking",
+        "pattern": "...---...",
+        "seed": 1429
+      }
+    },
+    {
+      "label": "MORSE_093",
+      "text": "HYDORHULZENIYLLIBCUYTYIOONJMOGDHLPHQTMNPCNLPBDWWPXMGHERABXPFKYYKRMOQQFWCIHP",
+      "metadata": {
+        "method": "morse_masking",
+        "pattern": "-.-..-..",
+        "seed": 1430
+      }
+    },
+    {
+      "label": "MORSE_094",
+      "text": "LYHKNHULDERIULHIFCYYTYEKSNNMOKZDLPLQTQNLCJPPBHWWPTMGHIRAFTPBKCYKVMOMMJWCMHT",
+      "metadata": {
+        "method": "morse_masking",
+        "pattern": "...---...",
+        "seed": 1431
+      }
+    },
+    {
+      "label": "MORSE_095",
+      "text": "LYHKNHULDERIULHIFCYYTYEKSNNMOKZDLPLQTQNLCJPPBHWWPTMGHIRAFTPBKCYKVMOMMJWCMHT",
+      "metadata": {
+        "method": "morse_masking",
+        "pattern": "...---...",
+        "seed": 1432
+      }
+    },
+    {
+      "label": "MORSE_096",
+      "text": "LYHKNHULDERIULHIFCYYTYEKSNNMOKZDLPLQTQNLCJPPBHWWPTMGHIRAFTPBKCYKVMOMMJWCMHT",
+      "metadata": {
+        "method": "morse_masking",
+        "pattern": "...---...",
+        "seed": 1433
+      }
+    },
+    {
+      "label": "MORSE_097",
+      "text": "HYDORHULZENIYLLIBCUYTYIOONJMOGDHLPHQTMNPCNLPBDWWPXMGHERABXPFKYYKRMOQQFWCIHP",
+      "metadata": {
+        "method": "morse_masking",
+        "pattern": "-.-..-..",
+        "seed": 1434
+      }
+    },
+    {
+      "label": "MORSE_098",
+      "text": "LYDORHUHDENIYLLEFCUYTYIKSNJMOGDDPPHQTMNLGNLPBDWSTXMGHERWFXPFKYYGVMOQQFWYMHP",
+      "metadata": {
+        "method": "morse_masking",
+        "pattern": "..-..-.-",
+        "seed": 1435
+      }
+    },
+    {
+      "label": "MORSE_099",
+      "text": "LYHKNHULDERIULHIFCYYTYEKSNNMOKZDLPLQTQNLCJPPBHWWPTMGHIRAFTPBKCYKVMOMMJWCMHT",
+      "metadata": {
+        "method": "morse_masking",
+        "pattern": "...---...",
+        "seed": 1436
+      }
+    }
+  ]
+}

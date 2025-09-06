@@ -1,0 +1,41 @@
+{
+  "campaign": "C1",
+  "name": "Quagmire III with Scrambled Alphabet",
+  "description": "Test Quagmire III cipher with variable alphabets and offsets",
+  "source": "Community hypothesis - historical Kryptos forum discussions",
+  "hypothesis": {
+    "method": "Quagmire III cipher",
+    "key_space": {
+      "alphabet": "26! permutations (scrambled)",
+      "offset": "26 possible values per position",
+      "indicator": "Possible key indicator in K4 plaintext"
+    },
+    "rationale": "Sanborn has used Vigenère variants; Quagmire III is a natural progression"
+  },
+  "parameters": {
+    "num_heads": 100,
+    "seed": 1337,
+    "alphabet_variations": [
+      "KRYPTOSABCDEFGHIJLMNQUVWXZ",
+      "ABCDEFGHIJKLMNOPQRSTUVWXYZ",
+      "ZYXWVUTSRQPONMLKJIHGFEDCBA",
+      "KRYPTOSBDEFGHIJLMNQUVWXZAC"
+    ],
+    "offset_patterns": [
+      "fixed",
+      "progressive",
+      "fibonacci",
+      "prime"
+    ]
+  },
+  "validation": {
+    "anchor_modes": ["fixed", "windowed_r2", "windowed_r5", "shuffled"],
+    "delta_thresholds": {
+      "delta1": 0.05,
+      "delta2": 0.10
+    },
+    "controls": "matched_ngram"
+  },
+  "expected_outcome": "If Quagmire III is correct, expect significant delta vs shuffled baseline",
+  "falsifiable": true
+}

@@ -2,7 +2,7 @@
 
 **Date:** 2025-01-06  
 **Branch:** pipeline-v3-explore-gen-20250106  
-**Commit:** [TO BE FILLED]  
+**Commit:** 9cbce0a  
 **Seed:** 1337  
 
 ## Motivation
@@ -58,4 +58,4 @@ By shifting focus from constraint-forcing to native generation quality, we can p
 
 ## Pre-Registration Hash
 
-This document pre-registered at commit: [TO BE FILLED]
+This document pre-registered at commit: 9cbce0a

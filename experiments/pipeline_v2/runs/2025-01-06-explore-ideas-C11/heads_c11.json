@@ -1,0 +1,909 @@
+{
+  "campaign": "C11_AEPT_AnchorEcho",
+  "date": "2025-01-06",
+  "description": "Campaign C11: AEPT_AnchorEcho",
+  "seed": 1337,
+  "total_heads": 100,
+  "heads": [
+    {
+      "label": "C11_000",
+      "text": "UHNOZPIQJIFRODVIQTSAEEASTNORTHEASTTRONQIBPUFSEHNUSYIJWAZVUXCARZBERLINCLOCKY",
+      "metadata": {
+        "campaign": "C11",
+        "method": "AEPT_AnchorEcho",
+        "seed": 1337
+      }
+    },
+    {
+      "label": "C11_001",
+      "text": "OSVULZUVFIBJASKUFTSAEEASTNORTHEASTTRONLESVOTVURPISHENJAVNUMFEMFBERLINCLOCKV",
+      "metadata": {
+        "campaign": "C11",
+        "method": "AEPT_AnchorEcho",
+        "seed": 1338
+      }
+    },
+    {
+      "label": "C11_002",
+      "text": "IJJOJVOPROQHAJRUBTSAEEASTNORTHEASTJKETDUZVEPGIKVUDLOXFIFWUFJOXSBERLINCLOCKN",
+      "metadata": {
+        "campaign": "C11",
+        "method": "AEPT_AnchorEcho",
+        "seed": 1339
+      }
+    },
+    {
+      "label": "C11_003",
+      "text": "AFZUFVILWOLBEBYEZNEQZEASTNORTHEASTTRONRODBURROSVOMBAFPOQQUYVEYTBERLINCLOCKG",
+      "metadata": {
+        "campaign": "C11",
+        "method": "AEPT_AnchorEcho",
+        "seed": 1340
+      }
+    },
+    {
+      "label": "C11_004",
+      "text": "EPHARJIQDIKJIZTIBCECREASTNORTHEASTTRONFAVDAYDUGTUYYULYUFVOPFUJLBERLINCLOCKH",
+      "metadata": {
+        "campaign": "C11",
+        "method": "AEPT_AnchorEcho",
+        "seed": 1341
+      }
+    },
+    {
+      "label": "C11_005",
+      "text": "OKJUCZEYKOJYACSEKTSAEEASTNORTHEASTTRONRIJJOHLOHXOMDAKZIPKUTKCOLBERLINCLOCKM",
+      "metadata": {
+        "campaign": "C11",
+        "method": "AEPT_AnchorEcho",
+        "seed": 1342
+      }
+    },
+    {
+      "label": "C11_006",
+      "text": "IVDITLUGMUKTEXPAMLOXCEASTNORTHEASTXKUDREXCEKCUVDABSAWQEYTASXURGBERLINCLOCKQ",
+      "metadata": {
+        "campaign": "C11",
+        "method": "AEPT_AnchorEcho",
+        "seed": 1343
+      }
+    },
+    {
+      "label": "C11_007",
+      "text": "UGJOKXEJYERNUQLIGGEZNEASTNORTHEASTMXEBGUYMISHAYKEFGIRCALFUVVOBRBERLINCLOCKV",
+      "metadata": {
+        "campaign": "C11",
+        "method": "AEPT_AnchorEcho",
+        "seed": 1344
+      }
+    },
+    {
+      "label": "C11_008",
+      "text": "UWJIFPOFHUXZUNWIXPUVDEASTNORTHEASTTRONMEGREDNEGFOZVATMIGPEKLIJYBERLINCLOCKD",
+      "metadata": {
+        "campaign": "C11",
+        "method": "AEPT_AnchorEcho",
+        "seed": 1345
+      }
+    },
+    {
+      "label": "C11_009",
+      "text": "AFLOPLEWNUSRUYCEPVILGEASTNORTHEASTTRONNICDUJVENKUPROKGEMFOZKCOLBERLINCLOCKM",
+      "metadata": {
+        "campaign": "C11",
+        "method": "AEPT_AnchorEcho",
+        "seed": 1346
+      }
+    },
+    {
+      "label": "C11_010",
+      "text": "ARKEFGALMUJNEJKUTTSAEEASTNORTHEASTTRONRISTUWDIWMIVLUVLUCTALYOXPBERLINCLOCKL",
+      "metadata": {
+        "campaign": "C11",
+        "method": "AEPT_AnchorEcho",
+        "seed": 1347
+      }
+    },
+    {
+      "label": "C11_011",
+      "text": "EFYAJXIPSEQDAJLAGTSAEEASTNORTHEASTVBAZYUKHIGLAXBOVLOHKAHCUYREQJBERLINCLOCKD",
+      "metadata": {
+        "campaign": "C11",
+        "method": "AEPT_AnchorEcho",
+        "seed": 1348
+      }
+    },
+    {
+      "label": "C11_012",
+      "text": "IYQEWFAVXERHUHVOFFAQLEASTNORTHEASTTRONKIWFUZDEXMALLIGPUQKUXKUQMBERLINCLOCKL",
+      "metadata": {
+        "campaign": "C11",
+        "method": "AEPT_AnchorEcho",
+        "seed": 1349
+      }
+    },
+    {
+      "label": "C11_013",
+      "text": "EXFITMEZBENVANLOWQEBZEASTNORTHEASTPKUGJAKTEJGUKCERZULDAMWOLKCOLBERLINCLOCKN",
+      "metadata": {
+        "campaign": "C11",
+        "method": "AEPT_AnchorEcho",
+        "seed": 1350
+      }
+    },
+    {
+      "label": "C11_014",
+      "text": "USLIKWATNOXHIFZUKSEFGEASTNORTHEASTBQOPMODWAMVEHZIJKENWOGTANKCOLBERLINCLOCKZ",
+      "metadata": {
+        "campaign": "C11",
+        "method": "AEPT_AnchorEcho",
+        "seed": 1351
+      }
+    },
+    {
+      "label": "C11_015",
+      "text": "AYVAGFUJYELRETROWVALSEASTNORTHEASTTRONTACMETHUTMIBFEYGEBRILKCOLBERLINCLOCKW",
+      "metadata": {
+        "campaign": "C11",
+        "method": "AEPT_AnchorEcho",
+        "seed": 1352
+      }
+    },
+    {
+      "label": "C11_016",
+      "text": "OVJOQDIYWERHUQNEGXIBPEASTNORTHEASTTRONGUDYAYDASQEFLATNIPMACKCOLBERLINCLOCKL",
+      "metadata": {
+        "campaign": "C11",
+        "method": "AEPT_AnchorEcho",
+        "seed": 1353
+      }
+    },
+    {
+      "label": "C11_017",
+      "text": "ENGOXTUYGUSCEHSOMTSAEEASTNORTHEASTKDAGQOSDATKECXAVGEQPANYUVKCOLBERLINCLOCKL",
+      "metadata": {
+        "campaign": "C11",
+        "method": "AEPT_AnchorEcho",
+        "seed": 1354
+      }
+    },
+    {
+      "label": "C11_018",
+      "text": "UCBIJXONGUCGOSLOHTSAEEASTNORTHEASTHDUVSOTCOCFUZWIZDOXKUNFOGKCOLBERLINCLOCKC",
+      "metadata": {
+        "campaign": "C11",
+        "method": "AEPT_AnchorEcho",
+        "seed": 1355
+      }
+    },
+    {
+      "label": "C11_019",
+      "text": "IVFENNAWPELWANFEYZAMWEASTNORTHEASTTRONLIGGUPTAGGODBUHYEYNEWKCOLBERLINCLOCKV",
+      "metadata": {
+        "campaign": "C11",
+        "method": "AEPT_AnchorEcho",
+        "seed": 1356
+      }
+    },
+    {
+      "label": "C11_020",
+      "text": "EPJAZTUZLEHCORJEHTSAEEASTNORTHEASTZFINJOJJAXFAGKOZMIQMEJDARSECXBERLINCLOCKX",
+      "metadata": {
+        "campaign": "C11",
+        "method": "AEPT_AnchorEcho",
+        "seed": 1357
+      }
+    },
+    {
+      "label": "C11_021",
+      "text": "UCPUZKULREPYEVVISPOHSEASTNORTHEASTSFIXVEVJUHDOSSODCAPQIRNUFKCOLBERLINCLOCKG",
+      "metadata": {
+        "campaign": "C11",
+        "method": "AEPT_AnchorEcho",
+        "seed": 1358
+      }
+    },
+    {
+      "label": "C11_022",
+      "text": "ARMOLKIHZOYSEBHOHTSAEEASTNORTHEASTNLIJJEYZAJPUVFECWOFXUJPOVKCOLBERLINCLOCKR",
+      "metadata": {
+        "campaign": "C11",
+        "method": "AEPT_AnchorEcho",
+        "seed": 1359
+      }
+    },
+    {
+      "label": "C11_023",
+      "text": "ELDAXDIMPIRHILTIZTSAEEASTNORTHEASTTRONCUKGUDVAXPUDPOHJAZGAZFURMBERLINCLOCKD",
+      "metadata": {
+        "campaign": "C11",
+        "method": "AEPT_AnchorEcho",
+        "seed": 1360
+      }
+    },
+    {
+      "label": "C11_024",
+      "text": "OFZUSXILHIWGOTZONNENGEASTNORTHEASTSGUYQOCMADNUWBOFXIRJECLIZYAGMBERLINCLOCKK",
+      "metadata": {
+        "campaign": "C11",
+        "method": "AEPT_AnchorEcho",
+        "seed": 1361
+      }
+    },
+    {
+      "label": "C11_025",
+      "text": "EHLUDVUBWUHDAGZIXTSAEEASTNORTHEASTTRONFIVMOCFOWMAJKEDVAYFEYKCOLBERLINCLOCKC",
+      "metadata": {
+        "campaign": "C11",
+        "method": "AEPT_AnchorEcho",
+        "seed": 1362
+      }
+    },
+    {
+      "label": "C11_026",
+      "text": "AJTOWMICPAQDULMESKIFDEASTNORTHEASTJPALMOFHICCIPFAPROFLUBQIZKCOLBERLINCLOCKK",
+      "metadata": {
+        "campaign": "C11",
+        "method": "AEPT_AnchorEcho",
+        "seed": 1363
+      }
+    },
+    {
+      "label": "C11_027",
+      "text": "ONMUXTOHFATQORJENTSAEEASTNORTHEASTLYUCZONVEBCAQTIHHOMVUBFIYKCOLBERLINCLOCKD",
+      "metadata": {
+        "campaign": "C11",
+        "method": "AEPT_AnchorEcho",
+        "seed": 1364
+      }
+    },
+    {
+      "label": "C11_028",
+      "text": "UTKEWGAQKUHDUMQACTSAEEASTNORTHEASTDMAPMABXURCENQUBTOMMAXTECNEPBBERLINCLOCKJ",
+      "metadata": {
+        "campaign": "C11",
+        "method": "AEPT_AnchorEcho",
+        "seed": 1365
+      }
+    },
+    {
+      "label": "C11_029",
+      "text": "AGSAHVEMDATFOZBIGTSAEEASTNORTHEASTTRONWOPDANNITDAHXEHSOTHESKCOLBERLINCLOCKD",
+      "metadata": {
+        "campaign": "C11",
+        "method": "AEPT_AnchorEcho",
+        "seed": 1366
+      }
+    },
+    {
+      "label": "C11_030",
+      "text": "ISQEPXAWNAWLIJZUZREJXEASTNORTHEASTSLESSUPBUWVIKKIVJUGXANZECKCOLBERLINCLOCKY",
+      "metadata": {
+        "campaign": "C11",
+        "method": "AEPT_AnchorEcho",
+        "seed": 1367
+      }
+    },
+    {
+      "label": "C11_031",
+      "text": "UWXOQLAHQIKBUVWAPFOZDEASTNORTHEASTTRONSIYHODVIQLUNFEXWOMXAPKCOLBERLINCLOCKH",
+      "metadata": {
+        "campaign": "C11",
+        "method": "AEPT_AnchorEcho",
+        "seed": 1368
+      }
+    },
+    {
+      "label": "C11_032",
+      "text": "ALSAMBUFGEPQOVFANTSAEEASTNORTHEASTWDIRGIQRONXIVKOMMUZKULQAKKIZQBERLINCLOCKG",
+      "metadata": {
+        "campaign": "C11",
+        "method": "AEPT_AnchorEcho",
+        "seed": 1369
+      }
+    },
+    {
+      "label": "C11_033",
+      "text": "IFTECYANTOXVELYAMTSAEEASTNORTHEASTBZAWMAQSANLANFEXQILNUDVICNALNBERLINCLOCKZ",
+      "metadata": {
+        "campaign": "C11",
+        "method": "AEPT_AnchorEcho",
+        "seed": 1370
+      }
+    },
+    {
+      "label": "C11_034",
+      "text": "ARGIPLAWKASFEFXICTSAEEASTNORTHEASTVBUHYEPLULJAKMUHTOCDEPFIHKCOLBERLINCLOCKP",
+      "metadata": {
+        "campaign": "C11",
+        "method": "AEPT_AnchorEcho",
+        "seed": 1371
+      }
+    },
+    {
+      "label": "C11_035",
+      "text": "UPWULVIRLIYWINDIRTSAEEASTNORTHEASTMXEVSIDRASZUHDAGDODRUPCAMKCOLBERLINCLOCKZ",
+      "metadata": {
+        "campaign": "C11",
+        "method": "AEPT_AnchorEcho",
+        "seed": 1372
+      }
+    },
+    {
+      "label": "C11_036",
+      "text": "UWYEPKUXCAHCAXGATHEXVEASTNORTHEASTPVOJXIJFUXYELLOHNONNOYYAPSOXDBERLINCLOCKS",
+      "metadata": {
+        "campaign": "C11",
+        "method": "AEPT_AnchorEcho",
+        "seed": 1373
+      }
+    },
+    {
+      "label": "C11_037",
+      "text": "UCLELZAYSOZREZBANDOYMEASTNORTHEASTTRONPIFTEJGEFGUGBUWXAWQATKCOLBERLINCLOCKV",
+      "metadata": {
+        "campaign": "C11",
+        "method": "AEPT_AnchorEcho",
+        "seed": 1374
+      }
+    },
+    {
+      "label": "C11_038",
+      "text": "USLAFMOFFAKNEYCUXNEMDEASTNORTHEASTFGUFFIKTUSMOHHOKRONJAHHOXREKQBERLINCLOCKD",
+      "metadata": {
+        "campaign": "C11",
+        "method": "AEPT_AnchorEcho",
+        "seed": 1375
+      }
+    },
+    {
+      "label": "C11_039",
+      "text": "ITJABLIXTUFFULGOCKIKVEASTNORTHEASTZFIRFAYTAMLOGREGDUHGUTCIJKCOLBERLINCLOCKK",
+      "metadata": {
+        "campaign": "C11",
+        "method": "AEPT_AnchorEcho",
+        "seed": 1376
+      }
+    },
+    {
+      "label": "C11_040",
+      "text": "ORJERTATVAYTEWQUGHEXGEASTNORTHEASTRFIWSALNOLMIHWINSOWYUWGUXNATLBERLINCLOCKR",
+      "metadata": {
+        "campaign": "C11",
+        "method": "AEPT_AnchorEcho",
+        "seed": 1377
+      }
+    },
+    {
+      "label": "C11_041",
+      "text": "EJDIZMAWROGVOQJEGSAVKEASTNORTHEASTMDIGHUQPUXRUVPURSATDAYXOJLEVJBERLINCLOCKC",
+      "metadata": {
+        "campaign": "C11",
+        "method": "AEPT_AnchorEcho",
+        "seed": 1378
+      }
+    },
+    {
+      "label": "C11_042",
+      "text": "OYHINZEQZUCFOCQEPTSAEEASTNORTHEASTNDITXUWVATYEYZABKALKIGNASGUBKBERLINCLOCKL",
+      "metadata": {
+        "campaign": "C11",
+        "method": "AEPT_AnchorEcho",
+        "seed": 1379
+      }
+    },
+    {
+      "label": "C11_043",
+      "text": "AHKOLHELKIQVIPKOCTSAEEASTNORTHEASTTRONVIHWITMAKQEQXIMLOSMIPKCOLBERLINCLOCKJ",
+      "metadata": {
+        "campaign": "C11",
+        "method": "AEPT_AnchorEcho",
+        "seed": 1380
+      }
+    },
+    {
+      "label": "C11_044",
+      "text": "URKIJFIBCIDMESWEJTSAEEASTNORTHEASTTRONSOVHIDJONVEBVUDKOJJIDKCOLBERLINCLOCKK",
+      "metadata": {
+        "campaign": "C11",
+        "method": "AEPT_AnchorEcho",
+        "seed": 1381
+      }
+    },
+    {
+      "label": "C11_045",
+      "text": "ENZAZNEQGAWHIPYICTSAEEASTNORTHEASTSXIXMOGJAXQAVFUWYOWSUVDIWKCOLBERLINCLOCKN",
+      "metadata": {
+        "campaign": "C11",
+        "method": "AEPT_AnchorEcho",
+        "seed": 1382
+      }
+    },
+    {
+      "label": "C11_046",
+      "text": "IBWEDZEQRIQGUPVOMDOQHEASTNORTHEASTPTIPDUDLAVNUQVEPYOBHIZPUXKCOLBERLINCLOCKS",
+      "metadata": {
+        "campaign": "C11",
+        "method": "AEPT_AnchorEcho",
+        "seed": 1383
+      }
+    },
+    {
+      "label": "C11_047",
+      "text": "AGFEZQIXMEJPOBQAZTSAEEASTNORTHEASTFHEKVUJLIZLISHOWCOFSAKTAYKCOLBERLINCLOCKN",
+      "metadata": {
+        "campaign": "C11",
+        "method": "AEPT_AnchorEcho",
+        "seed": 1384
+      }
+    },
+    {
+      "label": "C11_048",
+      "text": "OPDEKXAKSOMHEKGAMGUSTEASTNORTHEASTVDARSOQKOGGARHIDBOPQIJZOKKCOLBERLINCLOCKJ",
+      "metadata": {
+        "campaign": "C11",
+        "method": "AEPT_AnchorEcho",
+        "seed": 1385
+      }
+    },
+    {
+      "label": "C11_049",
+      "text": "IKFOZCAFPUBKAHBEGTSAEEASTNORTHEASTZLAPWOTRALDAPQAZSAQVOBMEQKCOLBERLINCLOCKN",
+      "metadata": {
+        "campaign": "C11",
+        "method": "AEPT_AnchorEcho",
+        "seed": 1386
+      }
+    },
+    {
+      "label": "C11_050",
+      "text": "ICSIJWOVSEMVOQRUSTSAEEASTNORTHEASTTRONYOQCETPUJJEFJIQHETVATKCOLBERLINCLOCKN",
+      "metadata": {
+        "campaign": "C11",
+        "method": "AEPT_AnchorEcho",
+        "seed": 1387
+      }
+    },
+    {
+      "label": "C11_051",
+      "text": "ENYAHFOZSUZMEQKADTSAEEASTNORTHEASTTRONKAJQECHEWLIYYUJWAVREPKCOLBERLINCLOCKN",
+      "metadata": {
+        "campaign": "C11",
+        "method": "AEPT_AnchorEcho",
+        "seed": 1388
+      }
+    },
+    {
+      "label": "C11_052",
+      "text": "OKBIDPUTBURKOTLOQWADCEASTNORTHEASTTRONLORKOBYOBKADWOMGECZACVUBPBERLINCLOCKC",
+      "metadata": {
+        "campaign": "C11",
+        "method": "AEPT_AnchorEcho",
+        "seed": 1389
+      }
+    },
+    {
+      "label": "C11_053",
+      "text": "ULKODYOQMAGYEZWUVZOPZEASTNORTHEASTRYIFDEZWASQOTMOVMIYLIWSUCKCOLBERLINCLOCKN",
+      "metadata": {
+        "campaign": "C11",
+        "method": "AEPT_AnchorEcho",
+        "seed": 1390
+      }
+    },
+    {
+      "label": "C11_054",
+      "text": "IHZOMKONVAKTEMKEPSUZDEASTNORTHEASTTRONXEDNINPEVHOCPOMLIBGUMKCOLBERLINCLOCKZ",
+      "metadata": {
+        "campaign": "C11",
+        "method": "AEPT_AnchorEcho",
+        "seed": 1391
+      }
+    },
+    {
+      "label": "C11_055",
+      "text": "EHBITTORTUKKUXJALNUCREASTNORTHEASTTRONCEMZOCSOGZAFJUQHUXNOSGOLWBERLINCLOCKN",
+      "metadata": {
+        "campaign": "C11",
+        "method": "AEPT_AnchorEcho",
+        "seed": 1392
+      }
+    },
+    {
+      "label": "C11_056",
+      "text": "AZHICQABRETBITTAXXUKZEASTNORTHEASTPWUKZEFLUHJOWZIDXEKKEBCAWREYGBERLINCLOCKF",
+      "metadata": {
+        "campaign": "C11",
+        "method": "AEPT_AnchorEcho",
+        "seed": 1393
+      }
+    },
+    {
+      "label": "C11_057",
+      "text": "ICCINTEVPEVNAQKAQQIXKEASTNORTHEASTFVEWJASSOCMUPBOGCOFSARXUZKCOLBERLINCLOCKV",
+      "metadata": {
+        "campaign": "C11",
+        "method": "AEPT_AnchorEcho",
+        "seed": 1394
+      }
+    },
+    {
+      "label": "C11_058",
+      "text": "UWJOXXUNPUFQEJRUKTSAEEASTNORTHEASTQCOMPABSUWDUFPATCAKYEYHUFKCOLBERLINCLOCKV",
+      "metadata": {
+        "campaign": "C11",
+        "method": "AEPT_AnchorEcho",
+        "seed": 1395
+      }
+    },
+    {
+      "label": "C11_059",
+      "text": "ISVISREJSAFKILZOGKIFDEASTNORTHEASTTRONNEWVICHOFGEVPIZSIHGIVKCOLBERLINCLOCKP",
+      "metadata": {
+        "campaign": "C11",
+        "method": "AEPT_AnchorEcho",
+        "seed": 1396
+      }
+    },
+    {
+      "label": "C11_060",
+      "text": "OJWOCNAJDICFEGTUVGOKDEASTNORTHEASTVHIBMUGRAWQIQFAJWEDZOWROCWEHCBERLINCLOCKW",
+      "metadata": {
+        "campaign": "C11",
+        "method": "AEPT_AnchorEcho",
+        "seed": 1397
+      }
+    },
+    {
+      "label": "C11_061",
+      "text": "ITJEJXELPAFDOWHOZFAZXEASTNORTHEASTTRONQOXGICQEJCANVIWXALZITYURMBERLINCLOCKR",
+      "metadata": {
+        "campaign": "C11",
+        "method": "AEPT_AnchorEcho",
+        "seed": 1398
+      }
+    },
+    {
+      "label": "C11_062",
+      "text": "OYCETPEBJIVSOSQIGTSAEEASTNORTHEASTHKIRNODGIVGEJSITBIBHUTHEZKCOLBERLINCLOCKM",
+      "metadata": {
+        "campaign": "C11",
+        "method": "AEPT_AnchorEcho",
+        "seed": 1399
+      }
+    },
+    {
+      "label": "C11_063",
+      "text": "IKYURQUWDOZKUXBONKAJFEASTNORTHEASTTRONTOZGEBYUXMICVISMOSWAFKCOLBERLINCLOCKL",
+      "metadata": {
+        "campaign": "C11",
+        "method": "AEPT_AnchorEcho",
+        "seed": 1400
+      }
+    },
+    {
+      "label": "C11_064",
+      "text": "ETRUHLOSPIZVANKOVTSAEEASTNORTHEASTZROGNISDUDROWPOVFODROFCUDHEWNBERLINCLOCKZ",
+      "metadata": {
+        "campaign": "C11",
+        "method": "AEPT_AnchorEcho",
+        "seed": 1401
+      }
+    },
+    {
+      "label": "C11_065",
+      "text": "IXCITLEXCAZHAJXEWTSAEEASTNORTHEASTRNUZHORHEZHUQDARQUHQUKDIYDETQBERLINCLOCKS",
+      "metadata": {
+        "campaign": "C11",
+        "method": "AEPT_AnchorEcho",
+        "seed": 1402
+      }
+    },
+    {
+      "label": "C11_066",
+      "text": "OQMIMMOTGEWSUCVANPUJLEASTNORTHEASTZLADWUZWOZJESRUBFARDOJJISKCOLBERLINCLOCKD",
+      "metadata": {
+        "campaign": "C11",
+        "method": "AEPT_AnchorEcho",
+        "seed": 1403
+      }
+    },
+    {
+      "label": "C11_067",
+      "text": "UHGEHRATFAMMOXTAZTSAEEASTNORTHEASTQKUMVIDJODNEGGAZSUMXUWDEPZIBMBERLINCLOCKX",
+      "metadata": {
+        "campaign": "C11",
+        "method": "AEPT_AnchorEcho",
+        "seed": 1404
+      }
+    },
+    {
+      "label": "C11_068",
+      "text": "EKNOLWARCOMNIDBEFFIJBEASTNORTHEASTZZUFQACVUCWUJSISWOYWECROKJESLBERLINCLOCKZ",
+      "metadata": {
+        "campaign": "C11",
+        "method": "AEPT_AnchorEcho",
+        "seed": 1405
+      }
+    },
+    {
+      "label": "C11_069",
+      "text": "ODNAZCOQROPWOCMAYTSAEEASTNORTHEASTTRONTAXNOPYOMTUGKADGIHGURMANNBERLINCLOCKH",
+      "metadata": {
+        "campaign": "C11",
+        "method": "AEPT_AnchorEcho",
+        "seed": 1406
+      }
+    },
+    {
+      "label": "C11_070",
+      "text": "UKQAWZATMEGMUJPUMKOPCEASTNORTHEASTPZEMBINPIXYIZLIVNALDABMAFKCOLBERLINCLOCKG",
+      "metadata": {
+        "campaign": "C11",
+        "method": "AEPT_AnchorEcho",
+        "seed": 1407
+      }
+    },
+    {
+      "label": "C11_071",
+      "text": "ANZUXJIJKANZANXICMUBTEASTNORTHEASTYJIHBOFVEZYIZJOLCIPYOZNUFSAHRBERLINCLOCKD",
+      "metadata": {
+        "campaign": "C11",
+        "method": "AEPT_AnchorEcho",
+        "seed": 1408
+      }
+    },
+    {
+      "label": "C11_072",
+      "text": "OTVOWNOQTIMZOZJASQIYXEASTNORTHEASTTRONLAFSACKOQTOVVICWOFREDKCOLBERLINCLOCKY",
+      "metadata": {
+        "campaign": "C11",
+        "method": "AEPT_AnchorEcho",
+        "seed": 1409
+      }
+    },
+    {
+      "label": "C11_073",
+      "text": "UHHELHOFMEQTADJUNMAPMEASTNORTHEASTSZAGMIWBIDXUNLAXVOXDEYMOLKCOLBERLINCLOCKB",
+      "metadata": {
+        "campaign": "C11",
+        "method": "AEPT_AnchorEcho",
+        "seed": 1410
+      }
+    },
+    {
+      "label": "C11_074",
+      "text": "EQLUDVEFREFCAPCEXTSAEEASTNORTHEASTTRONQIGRUYTAJFUPZOMYUDBOBDUXQBERLINCLOCKX",
+      "metadata": {
+        "campaign": "C11",
+        "method": "AEPT_AnchorEcho",
+        "seed": 1411
+      }
+    },
+    {
+      "label": "C11_075",
+      "text": "IGQEXPOTTEJPUXRUNTSAEEASTNORTHEASTZJUQQOGHUKNUPCUQZOQRUFKEJKCOLBERLINCLOCKM",
+      "metadata": {
+        "campaign": "C11",
+        "method": "AEPT_AnchorEcho",
+        "seed": 1412
+      }
+    },
+    {
+      "label": "C11_076",
+      "text": "IGMEQZUWNUSMAXHIPSUYXEASTNORTHEASTCWUYPUVHOBPESROKMIQTEFFANHIPNBERLINCLOCKQ",
+      "metadata": {
+        "campaign": "C11",
+        "method": "AEPT_AnchorEcho",
+        "seed": 1413
+      }
+    },
+    {
+      "label": "C11_077",
+      "text": "AKSIPTAPBAWLABPUMTSAEEASTNORTHEASTTRONPITBOJGUQYEKDAWGOYCAZJEPYBERLINCLOCKZ",
+      "metadata": {
+        "campaign": "C11",
+        "method": "AEPT_AnchorEcho",
+        "seed": 1414
+      }
+    },
+    {
+      "label": "C11_078",
+      "text": "UNKIHZUKQIKKOFXUWTSAEEASTNORTHEASTTRONHUKFOHZENNUKSOHGABHOFKCOLBERLINCLOCKQ",
+      "metadata": {
+        "campaign": "C11",
+        "method": "AEPT_AnchorEcho",
+        "seed": 1415
+      }
+    },
+    {
+      "label": "C11_079",
+      "text": "AYTOQYUDQARXAHCAHJESCEASTNORTHEASTTRONJEYDIPFEFTAVDECJOLHUGLUJMBERLINCLOCKF",
+      "metadata": {
+        "campaign": "C11",
+        "method": "AEPT_AnchorEcho",
+        "seed": 1416
+      }
+    },
+    {
+      "label": "C11_080",
+      "text": "ARZUGNIWRONROLXICYABXEASTNORTHEASTTRONQOSQEZKEGXUKFIKQUWFIMKCOLBERLINCLOCKS",
+      "metadata": {
+        "campaign": "C11",
+        "method": "AEPT_AnchorEcho",
+        "seed": 1417
+      }
+    },
+    {
+      "label": "C11_081",
+      "text": "OWPIRHODROHHUKSUMTSAEEASTNORTHEASTFTIBJAFYENQIYQEYCASQUGXATKCOLBERLINCLOCKZ",
+      "metadata": {
+        "campaign": "C11",
+        "method": "AEPT_AnchorEcho",
+        "seed": 1418
+      }
+    },
+    {
+      "label": "C11_082",
+      "text": "EJBUTZADPIGJIWNAGTSAEEASTNORTHEASTTRONQITDOHXIGLEHFADDUJNOSSAPKBERLINCLOCKH",
+      "metadata": {
+        "campaign": "C11",
+        "method": "AEPT_AnchorEcho",
+        "seed": 1419
+      }
+    },
+    {
+      "label": "C11_083",
+      "text": "AVDEMHEGTEXVUTYIKTSAEEASTNORTHEASTLWOMSOXVUKJEHSUGYANJOJREFKCOLBERLINCLOCKR",
+      "metadata": {
+        "campaign": "C11",
+        "method": "AEPT_AnchorEcho",
+        "seed": 1420
+      }
+    },
+    {
+      "label": "C11_084",
+      "text": "EFXULKECLEFHENVUKTOBYEASTNORTHEASTZRIZXOMQEKQOBXOQPOSZORGIMJOMVBERLINCLOCKL",
+      "metadata": {
+        "campaign": "C11",
+        "method": "AEPT_AnchorEcho",
+        "seed": 1421
+      }
+    },
+    {
+      "label": "C11_085",
+      "text": "ABQAPGIVKOQSEPNEXHODNEASTNORTHEASTXTUVYOBXILGODDELRITJAVXUWKCOLBERLINCLOCKF",
+      "metadata": {
+        "campaign": "C11",
+        "method": "AEPT_AnchorEcho",
+        "seed": 1422
+      }
+    },
+    {
+      "label": "C11_086",
+      "text": "EZPOJMOHCOBPOYSANTSAEEASTNORTHEASTPMOCZEWGILDERFIPBEHMAZWELKCOLBERLINCLOCKR",
+      "metadata": {
+        "campaign": "C11",
+        "method": "AEPT_AnchorEcho",
+        "seed": 1423
+      }
+    },
+    {
+      "label": "C11_087",
+      "text": "UVPIFKULTUSGOYTEMWIVREASTNORTHEASTTRONSUYRUFRUWXOWHIMBOXJIXKCOLBERLINCLOCKC",
+      "metadata": {
+        "campaign": "C11",
+        "method": "AEPT_AnchorEcho",
+        "seed": 1424
+      }
+    },
+    {
+      "label": "C11_088",
+      "text": "AYQEFSENSIBGEVZAPJONFEASTNORTHEASTWBIYJEXREVDICWUDLIGGOYGIPYUKHBERLINCLOCKP",
+      "metadata": {
+        "campaign": "C11",
+        "method": "AEPT_AnchorEcho",
+        "seed": 1425
+      }
+    },
+    {
+      "label": "C11_089",
+      "text": "EFBUWNEBLIZWUCBAFTSAEEASTNORTHEASTTRONLILYOQSOQCOCFABLOHNAMKCOLBERLINCLOCKD",
+      "metadata": {
+        "campaign": "C11",
+        "method": "AEPT_AnchorEcho",
+        "seed": 1426
+      }
+    },
+    {
+      "label": "C11_090",
+      "text": "OYHAMWEGZUXPAYZUCTSAEEASTNORTHEASTSZOTCAYXOKXETWAJFAJNARWUQKCOLBERLINCLOCKF",
+      "metadata": {
+        "campaign": "C11",
+        "method": "AEPT_AnchorEcho",
+        "seed": 1427
+      }
+    },
+    {
+      "label": "C11_091",
+      "text": "IQBUZQOSHEQYUKCAJTSAEEASTNORTHEASTTRONMIQZANPAJBIKQAWRODDITZOFYBERLINCLOCKM",
+      "metadata": {
+        "campaign": "C11",
+        "method": "AEPT_AnchorEcho",
+        "seed": 1428
+      }
+    },
+    {
+      "label": "C11_092",
+      "text": "ANVOTYARSIGMEBQIXNAWJEASTNORTHEASTTRONJAVPOCVUTVOVBOTBEKPEJKUVFBERLINCLOCKJ",
+      "metadata": {
+        "campaign": "C11",
+        "method": "AEPT_AnchorEcho",
+        "seed": 1429
+      }
+    },
+    {
+      "label": "C11_093",
+      "text": "OZXESWUGQEMLOVSIHTSAEEASTNORTHEASTTRONTUQTOQREYYUPSUVYIXMUZKCOLBERLINCLOCKJ",
+      "metadata": {
+        "campaign": "C11",
+        "method": "AEPT_AnchorEcho",
+        "seed": 1430
+      }
+    },
+    {
+      "label": "C11_094",
+      "text": "EYTAGQUXJETBERCOQTSAEEASTNORTHEASTMRELCEXCOJWIBFITXEXHEPMUDKCOLBERLINCLOCKH",
+      "metadata": {
+        "campaign": "C11",
+        "method": "AEPT_AnchorEcho",
+        "seed": 1431
+      }
+    },
+    {
+      "label": "C11_095",
+      "text": "IZGEYCOLGOFHAFZAGGEVREASTNORTHEASTTRONTEPDUBBOHVAYMAHYOMKIVFIMSBERLINCLOCKL",
+      "metadata": {
+        "campaign": "C11",
+        "method": "AEPT_AnchorEcho",
+        "seed": 1432
+      }
+    },
+    {
+      "label": "C11_096",
+      "text": "ELPADDUQKASGOYFODTSAEEASTNORTHEASTTRONPUKYAJYAYLEMTOHPESGUWMEWRBERLINCLOCKR",
+      "metadata": {
+        "campaign": "C11",
+        "method": "AEPT_AnchorEcho",
+        "seed": 1433
+      }
+    },
+    {
+      "label": "C11_097",
+      "text": "EBTICSESFOZKEDFAWDEQZEASTNORTHEASTQGUHVEQSOYKAWTEKDOHPUXGIBKCOLBERLINCLOCKP",
+      "metadata": {
+        "campaign": "C11",
+        "method": "AEPT_AnchorEcho",
+        "seed": 1434
+      }
+    },
+    {
+      "label": "C11_098",
+      "text": "IYCICVUSHEFPUHDIFTSAEEASTNORTHEASTTRONHOSROHZIBBUYCOGPORCINKAFGBERLINCLOCKM",
+      "metadata": {
+        "campaign": "C11",
+        "method": "AEPT_AnchorEcho",
+        "seed": 1435
+      }
+    },
+    {
+      "label": "C11_099",
+      "text": "OCVURYORFAJXUHBOKTSAEEASTNORTHEASTTRONTARBUQJOQTIBJUDWAYFAQKCOLBERLINCLOCKH",
+      "metadata": {
+        "campaign": "C11",
+        "method": "AEPT_AnchorEcho",
+        "seed": 1436
+      }
+    }
+  ]
+}

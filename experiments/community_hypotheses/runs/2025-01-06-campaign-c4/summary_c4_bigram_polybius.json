@@ -1,0 +1,10 @@
+{
+  "campaign": "C4_BIGRAM_POLYBIUS",
+  "heads": 100,
+  "policies": 4,
+  "tests": 400,
+  "promotions": 0,
+  "promotion_rate": 0.0,
+  "file": "experiments/community_hypotheses/runs/2025-01-06-campaign-c4/scores_c4_bigram_polybius.json",
+  "hash": "56cc25309b2a0c7f"
+}

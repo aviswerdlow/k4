@@ -1,0 +1,613 @@
+{
+  "campaign": "Track_C_CIPHER",
+  "total_heads": 5,
+  "evaluations": [
+    {
+      "results": {
+        "fixed": {
+          "score_norm": 0.8905407038202818,
+          "anchor_result": {
+            "total_score": 0.3333333333333333,
+            "matches": {
+              "EAST": {
+                "found": false,
+                "position": -1,
+                "score": 0
+              },
+              "NORTHEAST": {
+                "found": false,
+                "position": -1,
+                "score": 0
+              },
+              "BERLINCLOCK": {
+                "found": true,
+                "position": 63,
+                "score": 1.0
+              }
+            },
+            "window_radius": 0,
+            "typo_budget": 0
+          },
+          "z_ngram": 2.6351356794009395,
+          "z_coverage": 0.0,
+          "z_compress": -6.951455361381404,
+          "raw_ngram": 0.02711958533876342,
+          "raw_coverage": 0.0,
+          "raw_compress": 0.8327337813434978,
+          "blinded_text": "AJJAAWXWEDRHFXWDZJBF..."
+        },
+        "windowed_r2": {
+          "score_norm": 0.8905407038202818,
+          "anchor_result": {
+            "total_score": 0.3333333333333333,
+            "matches": {
+              "EAST": {
+                "found": false,
+                "position": -1,
+                "score": 0
+              },
+              "NORTHEAST": {
+                "found": false,
+                "position": -1,
+                "score": 0
+              },
+              "BERLINCLOCK": {
+                "found": true,
+                "position": 63,
+                "score": 1.0
+              }
+            },
+            "window_radius": 2,
+            "typo_budget": 0
+          },
+          "z_ngram": 2.6351356794009395,
+          "z_coverage": 0.0,
+          "z_compress": -6.951455361381404,
+          "raw_ngram": 0.02711958533876342,
+          "raw_coverage": 0.0,
+          "raw_compress": 0.8327337813434978,
+          "blinded_text": "AJJAAWXWEDRHFXWDZJBF..."
+        },
+        "shuffled": {
+          "score_norm": 0.9005407038202818,
+          "anchor_result": {
+            "total_score": 0.3666666666666667,
+            "matches": {
+              "EAST": {
+                "found": true,
+                "position": 30,
+                "score": 0.09999999999999998
+              },
+              "NORTHEAST": {
+                "found": false,
+                "position": -1,
+                "score": 0
+              },
+              "BERLINCLOCK": {
+                "found": true,
+                "position": 63,
+                "score": 1.0
+              }
+            },
+            "window_radius": 100,
+            "typo_budget": 2
+          },
+          "z_ngram": 2.6351356794009395,
+          "z_coverage": 0.0,
+          "z_compress": -6.951455361381404,
+          "raw_ngram": 0.02711958533876342,
+          "raw_coverage": 0.0,
+          "raw_compress": 0.8327337813434978,
+          "blinded_text": "AJJAAWXWEDRHFXWDZJBF..."
+        }
+      },
+      "scores": {
+        "fixed": 0.8905407038202818,
+        "windowed_r2": 0.8905407038202818,
+        "shuffled": 0.9005407038202818
+      },
+      "delta_vs_windowed": 0.0,
+      "delta_vs_shuffled": -0.010000000000000009,
+      "best_mode": "shuffled",
+      "pass_deltas": false,
+      "v3_metrics": {
+        "generation_quality": {
+          "trigram_score": -0.09482065512602113,
+          "bigram_entropy": -0.0017407425816276833,
+          "char_distribution": 0.6255000000000001,
+          "repetition_penalty": 0.0,
+          "quality_score": 0.00016505835199569823
+        },
+        "v3_composite": 0.44535288108613874
+      },
+      "label": "CIPHER_000"
+    },
+    {
+      "results": {
+        "fixed": {
+          "score_norm": 0.8905407038202818,
+          "anchor_result": {
+            "total_score": 0.3333333333333333,
+            "matches": {
+              "EAST": {
+                "found": false,
+                "position": -1,
+                "score": 0
+              },
+              "NORTHEAST": {
+                "found": false,
+                "position": -1,
+                "score": 0
+              },
+              "BERLINCLOCK": {
+                "found": true,
+                "position": 63,
+                "score": 1.0
+              }
+            },
+            "window_radius": 0,
+            "typo_budget": 0
+          },
+          "z_ngram": 2.6351356794009395,
+          "z_coverage": 0.0,
+          "z_compress": -4.5498251937419605,
+          "raw_ngram": 0.02711958533876342,
+          "raw_coverage": 0.0,
+          "raw_compress": 0.87128849940979,
+          "blinded_text": "ENTEUQRMWHVXARGROTHD..."
+        },
+        "windowed_r2": {
+          "score_norm": 0.8905407038202818,
+          "anchor_result": {
+            "total_score": 0.3333333333333333,
+            "matches": {
+              "EAST": {
+                "found": false,
+                "position": -1,
+                "score": 0
+              },
+              "NORTHEAST": {
+                "found": false,
+                "position": -1,
+                "score": 0
+              },
+              "BERLINCLOCK": {
+                "found": true,
+                "position": 63,
+                "score": 1.0
+              }
+            },
+            "window_radius": 2,
+            "typo_budget": 0
+          },
+          "z_ngram": 2.6351356794009395,
+          "z_coverage": 0.0,
+          "z_compress": -4.5498251937419605,
+          "raw_ngram": 0.02711958533876342,
+          "raw_coverage": 0.0,
+          "raw_compress": 0.87128849940979,
+          "blinded_text": "ENTEUQRMWHVXARGROTHD..."
+        },
+        "shuffled": {
+          "score_norm": 0.9005407038202818,
+          "anchor_result": {
+            "total_score": 0.3666666666666667,
+            "matches": {
+              "EAST": {
+                "found": true,
+                "position": 30,
+                "score": 0.09999999999999998
+              },
+              "NORTHEAST": {
+                "found": false,
+                "position": -1,
+                "score": 0
+              },
+              "BERLINCLOCK": {
+                "found": true,
+                "position": 63,
+                "score": 1.0
+              }
+            },
+            "window_radius": 100,
+            "typo_budget": 2
+          },
+          "z_ngram": 2.6351356794009395,
+          "z_coverage": 0.0,
+          "z_compress": -4.5498251937419605,
+          "raw_ngram": 0.02711958533876342,
+          "raw_coverage": 0.0,
+          "raw_compress": 0.87128849940979,
+          "blinded_text": "ENTEUQRMWHVXARGROTHD..."
+        }
+      },
+      "scores": {
+        "fixed": 0.8905407038202818,
+        "windowed_r2": 0.8905407038202818,
+        "shuffled": 0.9005407038202818
+      },
+      "delta_vs_windowed": 0.0,
+      "delta_vs_shuffled": -0.010000000000000009,
+      "best_mode": "shuffled",
+      "pass_deltas": false,
+      "v3_metrics": {
+        "generation_quality": {
+          "trigram_score": -0.10239066025930908,
+          "bigram_entropy": -0.0017407425816276835,
+          "char_distribution": 0.7271666666666667,
+          "repetition_penalty": 0.0,
+          "quality_score": 0.00017823578227435275
+        },
+        "v3_composite": 0.4453594698012781
+      },
+      "label": "CIPHER_001"
+    },
+    {
+      "results": {
+        "fixed": {
+          "score_norm": 0.8905407038202818,
+          "anchor_result": {
+            "total_score": 0.3333333333333333,
+            "matches": {
+              "EAST": {
+                "found": false,
+                "position": -1,
+                "score": 0
+              },
+              "NORTHEAST": {
+                "found": false,
+                "position": -1,
+                "score": 0
+              },
+              "BERLINCLOCK": {
+                "found": true,
+                "position": 63,
+                "score": 1.0
+              }
+            },
+            "window_radius": 0,
+            "typo_budget": 0
+          },
+          "z_ngram": 2.6351356794009395,
+          "z_coverage": 0.0,
+          "z_compress": -5.040698645895363,
+          "raw_ngram": 0.02711958533876342,
+          "raw_coverage": 0.0,
+          "raw_compress": 0.8634082321608972,
+          "blinded_text": "ENTEUQRMWHVBMGJLUTHD..."
+        },
+        "windowed_r2": {
+          "score_norm": 0.8905407038202818,
+          "anchor_result": {
+            "total_score": 0.3333333333333333,
+            "matches": {
+              "EAST": {
+                "found": false,
+                "position": -1,
+                "score": 0
+              },
+              "NORTHEAST": {
+                "found": false,
+                "position": -1,
+                "score": 0
+              },
+              "BERLINCLOCK": {
+                "found": true,
+                "position": 63,
+                "score": 1.0
+              }
+            },
+            "window_radius": 2,
+            "typo_budget": 0
+          },
+          "z_ngram": 2.6351356794009395,
+          "z_coverage": 0.0,
+          "z_compress": -5.040698645895363,
+          "raw_ngram": 0.02711958533876342,
+          "raw_coverage": 0.0,
+          "raw_compress": 0.8634082321608972,
+          "blinded_text": "ENTEUQRMWHVBMGJLUTHD..."
+        },
+        "shuffled": {
+          "score_norm": 0.9005407038202818,
+          "anchor_result": {
+            "total_score": 0.3666666666666667,
+            "matches": {
+              "EAST": {
+                "found": true,
+                "position": 30,
+                "score": 0.09999999999999998
+              },
+              "NORTHEAST": {
+                "found": false,
+                "position": -1,
+                "score": 0
+              },
+              "BERLINCLOCK": {
+                "found": true,
+                "position": 63,
+                "score": 1.0
+              }
+            },
+            "window_radius": 100,
+            "typo_budget": 2
+          },
+          "z_ngram": 2.6351356794009395,
+          "z_coverage": 0.0,
+          "z_compress": -5.040698645895363,
+          "raw_ngram": 0.02711958533876342,
+          "raw_coverage": 0.0,
+          "raw_compress": 0.8634082321608972,
+          "blinded_text": "ENTEUQRMWHVBMGJLUTHD..."
+        }
+      },
+      "scores": {
+        "fixed": 0.8905407038202818,
+        "windowed_r2": 0.8905407038202818,
+        "shuffled": 0.9005407038202818
+      },
+      "delta_vs_windowed": 0.0,
+      "delta_vs_shuffled": -0.010000000000000009,
+      "best_mode": "shuffled",
+      "pass_deltas": false,
+      "v3_metrics": {
+        "generation_quality": {
+          "trigram_score": -0.1017590240155696,
+          "bigram_entropy": -0.001825656853902204,
+          "char_distribution": 0.7221666666666666,
+          "repetition_penalty": 0.0,
+          "quality_score": 0.00018577705964042363
+        },
+        "v3_composite": 0.4453632404399611
+      },
+      "label": "CIPHER_004"
+    },
+    {
+      "results": {
+        "fixed": {
+          "score_norm": 0.09999999999999999,
+          "anchor_result": {
+            "total_score": 0.3333333333333333,
+            "matches": {
+              "EAST": {
+                "found": false,
+                "position": -1,
+                "score": 0
+              },
+              "NORTHEAST": {
+                "found": false,
+                "position": -1,
+                "score": 0
+              },
+              "BERLINCLOCK": {
+                "found": true,
+                "position": 63,
+                "score": 1.0
+              }
+            },
+            "window_radius": 0,
+            "typo_budget": 0
+          },
+          "z_ngram": -0.11823211620494914,
+          "z_coverage": 0.0,
+          "z_compress": -1.4624908919625286,
+          "raw_ngram": 0.006756756756756757,
+          "raw_coverage": 0.0,
+          "raw_compress": 0.9208512110984488,
+          "blinded_text": "WJAXISJNAHQIQCGZCFNB..."
+        },
+        "windowed_r2": {
+          "score_norm": 0.09999999999999999,
+          "anchor_result": {
+            "total_score": 0.3333333333333333,
+            "matches": {
+              "EAST": {
+                "found": false,
+                "position": -1,
+                "score": 0
+              },
+              "NORTHEAST": {
+                "found": false,
+                "position": -1,
+                "score": 0
+              },
+              "BERLINCLOCK": {
+                "found": true,
+                "position": 63,
+                "score": 1.0
+              }
+            },
+            "window_radius": 2,
+            "typo_budget": 0
+          },
+          "z_ngram": -0.11823211620494914,
+          "z_coverage": 0.0,
+          "z_compress": -1.4624908919625286,
+          "raw_ngram": 0.006756756756756757,
+          "raw_coverage": 0.0,
+          "raw_compress": 0.9208512110984488,
+          "blinded_text": "WJAXISJNAHQIQCGZCFNB..."
+        },
+        "shuffled": {
+          "score_norm": 0.09999999999999999,
+          "anchor_result": {
+            "total_score": 0.3333333333333333,
+            "matches": {
+              "EAST": {
+                "found": false,
+                "position": -1,
+                "score": 0
+              },
+              "NORTHEAST": {
+                "found": false,
+                "position": -1,
+                "score": 0
+              },
+              "BERLINCLOCK": {
+                "found": true,
+                "position": 63,
+                "score": 1.0
+              }
+            },
+            "window_radius": 100,
+            "typo_budget": 2
+          },
+          "z_ngram": -0.11823211620494914,
+          "z_coverage": 0.0,
+          "z_compress": -1.4624908919625286,
+          "raw_ngram": 0.006756756756756757,
+          "raw_coverage": 0.0,
+          "raw_compress": 0.9208512110984488,
+          "blinded_text": "WJAXISJNAHQIQCGZCFNB..."
+        }
+      },
+      "scores": {
+        "fixed": 0.09999999999999999,
+        "windowed_r2": 0.09999999999999999,
+        "shuffled": 0.09999999999999999
+      },
+      "delta_vs_windowed": 0.0,
+      "delta_vs_shuffled": 0.0,
+      "best_mode": "fixed",
+      "pass_deltas": false,
+      "v3_metrics": {
+        "generation_quality": {
+          "trigram_score": -0.06074910963881392,
+          "bigram_entropy": -0.0016558283093531618,
+          "char_distribution": 0.6381666666666665,
+          "repetition_penalty": 0.0,
+          "quality_score": 0.00010059009550794712
+        },
+        "v3_composite": 0.05005029504775397
+      },
+      "label": "CIPHER_002"
+    },
+    {
+      "results": {
+        "fixed": {
+          "score_norm": 0.09999999999999999,
+          "anchor_result": {
+            "total_score": 0.3333333333333333,
+            "matches": {
+              "EAST": {
+                "found": false,
+                "position": -1,
+                "score": 0
+              },
+              "NORTHEAST": {
+                "found": false,
+                "position": -1,
+                "score": 0
+              },
+              "BERLINCLOCK": {
+                "found": true,
+                "position": 63,
+                "score": 1.0
+              }
+            },
+            "window_radius": 0,
+            "typo_budget": 0
+          },
+          "z_ngram": -1.0318496120196303,
+          "z_coverage": 0.0,
+          "z_compress": -5.439673749058716,
+          "raw_ngram": 0.0,
+          "raw_coverage": 0.0,
+          "raw_compress": 0.857003260727243,
+          "blinded_text": "SNACXGMAXXMZNKSVTBNJ..."
+        },
+        "windowed_r2": {
+          "score_norm": 0.09999999999999999,
+          "anchor_result": {
+            "total_score": 0.3333333333333333,
+            "matches": {
+              "EAST": {
+                "found": false,
+                "position": -1,
+                "score": 0
+              },
+              "NORTHEAST": {
+                "found": false,
+                "position": -1,
+                "score": 0
+              },
+              "BERLINCLOCK": {
+                "found": true,
+                "position": 63,
+                "score": 1.0
+              }
+            },
+            "window_radius": 2,
+            "typo_budget": 0
+          },
+          "z_ngram": -1.0318496120196303,
+          "z_coverage": 0.0,
+          "z_compress": -5.439673749058716,
+          "raw_ngram": 0.0,
+          "raw_coverage": 0.0,
+          "raw_compress": 0.857003260727243,
+          "blinded_text": "SNACXGMAXXMZNKSVTBNJ..."
+        },
+        "shuffled": {
+          "score_norm": 0.16,
+          "anchor_result": {
+            "total_score": 0.5333333333333333,
+            "matches": {
+              "EAST": {
+                "found": true,
+                "position": 21,
+                "score": 0.6
+              },
+              "NORTHEAST": {
+                "found": false,
+                "position": -1,
+                "score": 0
+              },
+              "BERLINCLOCK": {
+                "found": true,
+                "position": 63,
+                "score": 1.0
+              }
+            },
+            "window_radius": 100,
+            "typo_budget": 2
+          },
+          "z_ngram": -1.0318496120196303,
+          "z_coverage": 0.0,
+          "z_compress": -5.439673749058716,
+          "raw_ngram": 0.0,
+          "raw_coverage": 0.0,
+          "raw_compress": 0.857003260727243,
+          "blinded_text": "SNACXGMAXXMZNKSVTBNJ..."
+        }
+      },
+      "scores": {
+        "fixed": 0.09999999999999999,
+        "windowed_r2": 0.09999999999999999,
+        "shuffled": 0.16
+      },
+      "delta_vs_windowed": 0.0,
+      "delta_vs_shuffled": -0.06000000000000001,
+      "best_mode": "shuffled",
+      "pass_deltas": false,
+      "v3_metrics": {
+        "generation_quality": {
+          "trigram_score": -0.056876781735204385,
+          "bigram_entropy": -0.001995485398451247,
+          "char_distribution": 0.6091666666666666,
+          "repetition_penalty": 0.0,
+          "quality_score": 0.00011349678746349892
+        },
+        "v3_composite": 0.05005674839373175
+      },
+      "label": "CIPHER_003"
+    }
+  ],
+  "promotions": [],
+  "statistics": {
+    "promotion_rate": 0.0,
+    "avg_delta_windowed": 0.0,
+    "avg_delta_shuffled": -0.01800000000000001,
+    "avg_generation_quality": 0.00014863161537638413
+  }
+}

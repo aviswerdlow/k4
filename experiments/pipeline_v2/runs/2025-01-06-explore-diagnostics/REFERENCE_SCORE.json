@@ -1,0 +1,182 @@
+[
+  {
+    "reference": "published_grid",
+    "description": "Published GRID-only winner with narrative",
+    "expected": "Should FAIL under blinding",
+    "text_sample": "FINDTHEPATHTOTHEEASTNORTHEASTQ...",
+    "delta_vs_windowed": 0.0,
+    "delta_vs_shuffled": -0.16000000000000014,
+    "pass_deltas": false,
+    "verdict": "FAIL",
+    "scores": {
+      "fixed": {
+        "score_norm": 5.739093551013775,
+        "anchor_score": 0.0,
+        "z_ngram": 19.130311836712583,
+        "z_coverage": 0.0,
+        "z_compress": -21.77393380168522,
+        "blinded_sample": "FINDTHEPATHTOTHEXXXX..."
+      },
+      "windowed_r2": {
+        "score_norm": 5.739093551013775,
+        "anchor_score": 0.0,
+        "z_ngram": 19.130311836712583,
+        "z_coverage": 0.0,
+        "z_compress": -21.77393380168522,
+        "blinded_sample": "FINDTHEPATHTOTHEXXXX..."
+      },
+      "shuffled": {
+        "score_norm": 5.899093551013775,
+        "anchor_score": 0.5333333333333333,
+        "z_ngram": 19.130311836712583,
+        "z_coverage": 0.0,
+        "z_compress": -21.77393380168522,
+        "blinded_sample": "FINDTHEPATHTOTHEXXXX..."
+      }
+    }
+  },
+  {
+    "reference": "grid_runner_up",
+    "description": "GRID runner-up with similar narrative",
+    "expected": "Should FAIL under blinding",
+    "text_sample": "MOVEYOURCOMPASSTOEASTNORTHEAST...",
+    "delta_vs_windowed": 0.0,
+    "delta_vs_shuffled": -0.1499999999999999,
+    "pass_deltas": false,
+    "verdict": "FAIL",
+    "scores": {
+      "fixed": {
+        "score_norm": 2.164721539990857,
+        "anchor_score": 0.0,
+        "z_ngram": 7.21573846663619,
+        "z_coverage": 0.0,
+        "z_compress": -18.77374568399014,
+        "blinded_sample": "MOVEYOURCOMPASSTOXXX..."
+      },
+      "windowed_r2": {
+        "score_norm": 2.164721539990857,
+        "anchor_score": 0.0,
+        "z_ngram": 7.21573846663619,
+        "z_coverage": 0.0,
+        "z_compress": -18.77374568399014,
+        "blinded_sample": "MOVEYOURCOMPASSTOXXX..."
+      },
+      "shuffled": {
+        "score_norm": 2.314721539990857,
+        "anchor_score": 0.5,
+        "z_ngram": 7.21573846663619,
+        "z_coverage": 0.0,
+        "z_compress": -18.77374568399014,
+        "blinded_sample": "MOVEYOURCOMPASSTOXXX..."
+      }
+    }
+  },
+  {
+    "reference": "corridor_synthetic",
+    "description": "Synthetic with corridor anchors only",
+    "expected": "May pass anchors but fail language",
+    "text_sample": "XXXXXXXXXXXXXXXXXXXXXXEASTNORT...",
+    "delta_vs_windowed": -0.18,
+    "delta_vs_shuffled": -0.23999999999999996,
+    "pass_deltas": false,
+    "verdict": "FAIL",
+    "scores": {
+      "fixed": {
+        "score_norm": 0.0,
+        "anchor_score": 0.0,
+        "z_ngram": -1.0318496120196303,
+        "z_coverage": 0.0,
+        "z_compress": -57.469716934248495,
+        "blinded_sample": "XXXXXXXXXXXXXXXXXXXX..."
+      },
+      "windowed_r2": {
+        "score_norm": 0.18,
+        "anchor_score": 0.6,
+        "z_ngram": -1.0318496120196303,
+        "z_coverage": 0.0,
+        "z_compress": -57.469716934248495,
+        "blinded_sample": "XXXXXXXXXXXXXXXXXXXX..."
+      },
+      "shuffled": {
+        "score_norm": 0.23999999999999996,
+        "anchor_score": 0.7999999999999999,
+        "z_ngram": -1.0318496120196303,
+        "z_coverage": 0.0,
+        "z_compress": -57.469716934248495,
+        "blinded_sample": "XXXXXXXXXXXXXXXXXXXX..."
+      }
+    }
+  },
+  {
+    "reference": "random_control",
+    "description": "Random letters with anchors",
+    "expected": "Should FAIL on language scores",
+    "text_sample": "QWRTYPSDLFKGJHZXCVBNMEASTNORTH...",
+    "delta_vs_windowed": 0.0,
+    "delta_vs_shuffled": -0.05000000000000002,
+    "pass_deltas": false,
+    "verdict": "FAIL",
+    "scores": {
+      "fixed": {
+        "score_norm": 0.19999999999999998,
+        "anchor_score": 0.6666666666666666,
+        "z_ngram": -1.0318496120196303,
+        "z_coverage": 0.0,
+        "z_compress": -10.179831310745259,
+        "blinded_sample": "QWRTYPSDLFKGJHZXCVBN..."
+      },
+      "windowed_r2": {
+        "score_norm": 0.19999999999999998,
+        "anchor_score": 0.6666666666666666,
+        "z_ngram": -1.0318496120196303,
+        "z_coverage": 0.0,
+        "z_compress": -10.179831310745259,
+        "blinded_sample": "QWRTYPSDLFKGJHZXCVBN..."
+      },
+      "shuffled": {
+        "score_norm": 0.25,
+        "anchor_score": 0.8333333333333334,
+        "z_ngram": -1.0318496120196303,
+        "z_coverage": 0.0,
+        "z_compress": -10.179831310745259,
+        "blinded_sample": "QWRTYPSDLFKGJHZXCVBN..."
+      }
+    }
+  },
+  {
+    "reference": "k1_plaintext",
+    "description": "K1 plaintext with anchors inserted",
+    "expected": "Might have better language scores",
+    "text_sample": "BETWEENSUBTLESHADINGAEASTNORTH...",
+    "delta_vs_windowed": 0.0,
+    "delta_vs_shuffled": -0.020000000000000018,
+    "pass_deltas": false,
+    "verdict": "FAIL",
+    "scores": {
+      "fixed": {
+        "score_norm": 2.6388067887352613,
+        "anchor_score": 0.6666666666666666,
+        "z_ngram": 8.129355962450871,
+        "z_coverage": 0.0,
+        "z_compress": -14.406134900398673,
+        "blinded_sample": "BETWEENSUBTLESHADING..."
+      },
+      "windowed_r2": {
+        "score_norm": 2.6388067887352613,
+        "anchor_score": 0.6666666666666666,
+        "z_ngram": 8.129355962450871,
+        "z_coverage": 0.0,
+        "z_compress": -14.406134900398673,
+        "blinded_sample": "BETWEENSUBTLESHADING..."
+      },
+      "shuffled": {
+        "score_norm": 2.6588067887352613,
+        "anchor_score": 0.7333333333333334,
+        "z_ngram": 8.129355962450871,
+        "z_coverage": 0.0,
+        "z_compress": -14.406134900398673,
+        "blinded_sample": "BETWEENSUBTLESHADING..."
+      }
+    }
+  }
+]

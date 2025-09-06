@@ -1,0 +1,910 @@
+{
+  "campaign": "C6_LETTER_SHAPE",
+  "date": "2025-01-06",
+  "description": "Community hypothesis: letter_shape",
+  "method": "letter_shape",
+  "seed": 1337,
+  "total_heads": 100,
+  "heads": [
+    {
+      "label": "LETTER_SHAPE_000",
+      "text": "ERAHKENEWLKHRIEHFIRRMIHHLGGFHDWAIIEJMJGITGIIUAPPMQJTAHKTFQMFDIRDOFLJJCPIFAM",
+      "metadata": {
+        "method": "letter_shape",
+        "category": "vertical",
+        "seed": 1337
+      }
+    },
+    {
+      "label": "LETTER_SHAPE_001",
+      "text": "JWAMPJKJBCPGWNJGDAWWZAGMYLLKMWBANNJOZOLNELNNZANNZXOEAGPYDXZDWAWWMKYOOVNAKAZ",
+      "metadata": {
+        "method": "letter_shape",
+        "category": "angular",
+        "seed": 1338
+      }
+    },
+    {
+      "label": "LETTER_SHAPE_002",
+      "text": "ERAHKENEWLKHRIEHFIRRMIHHLGGFHDWAIIEJMJGITGIIUAPPMQJTAHKTFQMFDIRDOFLJJCPIFAM",
+      "metadata": {
+        "method": "letter_shape",
+        "category": "vertical",
+        "seed": 1339
+      }
+    },
+    {
+      "label": "LETTER_SHAPE_003",
+      "text": "ZSVCFZIZRSFWSFZWTESSHEWCGBBACYRVFFZEHEBFUBFFBVKKHLEUVWFOTLHTYESYJAGEEXKEAVH",
+      "metadata": {
+        "method": "letter_shape",
+        "category": "mixed",
+        "seed": 1340
+      }
+    },
+    {
+      "label": "LETTER_SHAPE_004",
+      "text": "ERAHKENEWLKHRIEHFIRRMIHHLGGFHDWAIIEJMJGITGIIUAPPMQJTAHKTFQMFDIRDOFLJJCPIFAM",
+      "metadata": {
+        "method": "letter_shape",
+        "category": "vertical",
+        "seed": 1341
+      }
+    },
+    {
+      "label": "LETTER_SHAPE_005",
+      "text": "ERAHKENEWLKHRIEHFIRRMIHHLGGFHDWAIIEJMJGITGIIUAPPMQJTAHKTFQMFDIRDOFLJJCPIFAM",
+      "metadata": {
+        "method": "letter_shape",
+        "category": "vertical",
+        "seed": 1342
+      }
+    },
+    {
+      "label": "LETTER_SHAPE_006",
+      "text": "ZSVCFZIZRSFWSFZWTESSHEWCGBBACYRVFFZEHEBFUBFFBVKKHLEUVWFOTLHTYESYJAGEEXKEAVH",
+      "metadata": {
+        "method": "letter_shape",
+        "category": "mixed",
+        "seed": 1343
+      }
+    },
+    {
+      "label": "LETTER_SHAPE_007",
+      "text": "JWAMPJKJBCPGWNJGDAWWZAGMYLLKMWBANNJOZOLNELNNZANNZXOEAGPYDXZDWAWWMKYOOVNAKAZ",
+      "metadata": {
+        "method": "letter_shape",
+        "category": "angular",
+        "seed": 1344
+      }
+    },
+    {
+      "label": "LETTER_SHAPE_008",
+      "text": "ERAHKENEWLKHRIEHFIRRMIHHLGGFHDWAIIEJMJGITGIIUAPPMQJTAHKTFQMFDIRDOFLJJCPIFAM",
+      "metadata": {
+        "method": "letter_shape",
+        "category": "vertical",
+        "seed": 1345
+      }
+    },
+    {
+      "label": "LETTER_SHAPE_009",
+      "text": "DBKQCDXDUHCLBSDLIFBBWFLQVGGOQNUKSSDTWTGSJGSSEKZZWATJKLCRIAWINFBNYOVTTMZFOKW",
+      "metadata": {
+        "method": "letter_shape",
+        "category": "round",
+        "seed": 1346
+      }
+    },
+    {
+      "label": "LETTER_SHAPE_010",
+      "text": "ZSVCFZIZRSFWSFZWTESSHEWCGBBACYRVFFZEHEBFUBFFBVKKHLEUVWFOTLHTYESYJAGEEXKEAVH",
+      "metadata": {
+        "method": "letter_shape",
+        "category": "mixed",
+        "seed": 1347
+      }
+    },
+    {
+      "label": "LETTER_SHAPE_011",
+      "text": "ZSVCFZIZRSFWSFZWTESSHEWCGBBACYRVFFZEHEBFUBFFBVKKHLEUVWFOTLHTYESYJAGEEXKEAVH",
+      "metadata": {
+        "method": "letter_shape",
+        "category": "mixed",
+        "seed": 1348
+      }
+    },
+    {
+      "label": "LETTER_SHAPE_012",
+      "text": "DBKQCDXDUHCLBSDLIFBBWFLQVGGOQNUKSSDTWTGSJGSSEKZZWATJKLCRIAWINFBNYOVTTMZFOKW",
+      "metadata": {
+        "method": "letter_shape",
+        "category": "round",
+        "seed": 1349
+      }
+    },
+    {
+      "label": "LETTER_SHAPE_013",
+      "text": "ERAHKENEWLKHRIEHFIRRMIHHLGGFHDWAIIEJMJGITGIIUAPPMQJTAHKTFQMFDIRDOFLJJCPIFAM",
+      "metadata": {
+        "method": "letter_shape",
+        "category": "vertical",
+        "seed": 1350
+      }
+    },
+    {
+      "label": "LETTER_SHAPE_014",
+      "text": "ZSVCFZIZRSFWSFZWTESSHEWCGBBACYRVFFZEHEBFUBFFBVKKHLEUVWFOTLHTYESYJAGEEXKEAVH",
+      "metadata": {
+        "method": "letter_shape",
+        "category": "mixed",
+        "seed": 1351
+      }
+    },
+    {
+      "label": "LETTER_SHAPE_015",
+      "text": "ZSVCFZIZRSFWSFZWTESSHEWCGBBACYRVFFZEHEBFUBFFBVKKHLEUVWFOTLHTYESYJAGEEXKEAVH",
+      "metadata": {
+        "method": "letter_shape",
+        "category": "mixed",
+        "seed": 1352
+      }
+    },
+    {
+      "label": "LETTER_SHAPE_016",
+      "text": "ERAHKENEWLKHRIEHFIRRMIHHLGGFHDWAIIEJMJGITGIIUAPPMQJTAHKTFQMFDIRDOFLJJCPIFAM",
+      "metadata": {
+        "method": "letter_shape",
+        "category": "vertical",
+        "seed": 1353
+      }
+    },
+    {
+      "label": "LETTER_SHAPE_017",
+      "text": "DBKQCDXDUHCLBSDLIFBBWFLQVGGOQNUKSSDTWTGSJGSSEKZZWATJKLCRIAWINFBNYOVTTMZFOKW",
+      "metadata": {
+        "method": "letter_shape",
+        "category": "round",
+        "seed": 1354
+      }
+    },
+    {
+      "label": "LETTER_SHAPE_018",
+      "text": "ERAHKENEWLKHRIEHFIRRMIHHLGGFHDWAIIEJMJGITGIIUAPPMQJTAHKTFQMFDIRDOFLJJCPIFAM",
+      "metadata": {
+        "method": "letter_shape",
+        "category": "vertical",
+        "seed": 1355
+      }
+    },
+    {
+      "label": "LETTER_SHAPE_019",
+      "text": "DBKQCDXDUHCLBSDLIFBBWFLQVGGOQNUKSSDTWTGSJGSSEKZZWATJKLCRIAWINFBNYOVTTMZFOKW",
+      "metadata": {
+        "method": "letter_shape",
+        "category": "round",
+        "seed": 1356
+      }
+    },
+    {
+      "label": "LETTER_SHAPE_020",
+      "text": "ZSVCFZIZRSFWSFZWTESSHEWCGBBACYRVFFZEHEBFUBFFBVKKHLEUVWFOTLHTYESYJAGEEXKEAVH",
+      "metadata": {
+        "method": "letter_shape",
+        "category": "mixed",
+        "seed": 1357
+      }
+    },
+    {
+      "label": "LETTER_SHAPE_021",
+      "text": "JWAMPJKJBCPGWNJGDAWWZAGMYLLKMWBANNJOZOLNELNNZANNZXOEAGPYDXZDWAWWMKYOOVNAKAZ",
+      "metadata": {
+        "method": "letter_shape",
+        "category": "angular",
+        "seed": 1358
+      }
+    },
+    {
+      "label": "LETTER_SHAPE_022",
+      "text": "JWAMPJKJBCPGWNJGDAWWZAGMYLLKMWBANNJOZOLNELNNZANNZXOEAGPYDXZDWAWWMKYOOVNAKAZ",
+      "metadata": {
+        "method": "letter_shape",
+        "category": "angular",
+        "seed": 1359
+      }
+    },
+    {
+      "label": "LETTER_SHAPE_023",
+      "text": "ERAHKENEWLKHRIEHFIRRMIHHLGGFHDWAIIEJMJGITGIIUAPPMQJTAHKTFQMFDIRDOFLJJCPIFAM",
+      "metadata": {
+        "method": "letter_shape",
+        "category": "vertical",
+        "seed": 1360
+      }
+    },
+    {
+      "label": "LETTER_SHAPE_024",
+      "text": "ZSVCFZIZRSFWSFZWTESSHEWCGBBACYRVFFZEHEBFUBFFBVKKHLEUVWFOTLHTYESYJAGEEXKEAVH",
+      "metadata": {
+        "method": "letter_shape",
+        "category": "mixed",
+        "seed": 1361
+      }
+    },
+    {
+      "label": "LETTER_SHAPE_025",
+      "text": "ERAHKENEWLKHRIEHFIRRMIHHLGGFHDWAIIEJMJGITGIIUAPPMQJTAHKTFQMFDIRDOFLJJCPIFAM",
+      "metadata": {
+        "method": "letter_shape",
+        "category": "vertical",
+        "seed": 1362
+      }
+    },
+    {
+      "label": "LETTER_SHAPE_026",
+      "text": "JWAMPJKJBCPGWNJGDAWWZAGMYLLKMWBANNJOZOLNELNNZANNZXOEAGPYDXZDWAWWMKYOOVNAKAZ",
+      "metadata": {
+        "method": "letter_shape",
+        "category": "angular",
+        "seed": 1363
+      }
+    },
+    {
+      "label": "LETTER_SHAPE_027",
+      "text": "DBKQCDXDUHCLBSDLIFBBWFLQVGGOQNUKSSDTWTGSJGSSEKZZWATJKLCRIAWINFBNYOVTTMZFOKW",
+      "metadata": {
+        "method": "letter_shape",
+        "category": "round",
+        "seed": 1364
+      }
+    },
+    {
+      "label": "LETTER_SHAPE_028",
+      "text": "DBKQCDXDUHCLBSDLIFBBWFLQVGGOQNUKSSDTWTGSJGSSEKZZWATJKLCRIAWINFBNYOVTTMZFOKW",
+      "metadata": {
+        "method": "letter_shape",
+        "category": "round",
+        "seed": 1365
+      }
+    },
+    {
+      "label": "LETTER_SHAPE_029",
+      "text": "DBKQCDXDUHCLBSDLIFBBWFLQVGGOQNUKSSDTWTGSJGSSEKZZWATJKLCRIAWINFBNYOVTTMZFOKW",
+      "metadata": {
+        "method": "letter_shape",
+        "category": "round",
+        "seed": 1366
+      }
+    },
+    {
+      "label": "LETTER_SHAPE_030",
+      "text": "ZSVCFZIZRSFWSFZWTESSHEWCGBBACYRVFFZEHEBFUBFFBVKKHLEUVWFOTLHTYESYJAGEEXKEAVH",
+      "metadata": {
+        "method": "letter_shape",
+        "category": "mixed",
+        "seed": 1367
+      }
+    },
+    {
+      "label": "LETTER_SHAPE_031",
+      "text": "DBKQCDXDUHCLBSDLIFBBWFLQVGGOQNUKSSDTWTGSJGSSEKZZWATJKLCRIAWINFBNYOVTTMZFOKW",
+      "metadata": {
+        "method": "letter_shape",
+        "category": "round",
+        "seed": 1368
+      }
+    },
+    {
+      "label": "LETTER_SHAPE_032",
+      "text": "DBKQCDXDUHCLBSDLIFBBWFLQVGGOQNUKSSDTWTGSJGSSEKZZWATJKLCRIAWINFBNYOVTTMZFOKW",
+      "metadata": {
+        "method": "letter_shape",
+        "category": "round",
+        "seed": 1369
+      }
+    },
+    {
+      "label": "LETTER_SHAPE_033",
+      "text": "JWAMPJKJBCPGWNJGDAWWZAGMYLLKMWBANNJOZOLNELNNZANNZXOEAGPYDXZDWAWWMKYOOVNAKAZ",
+      "metadata": {
+        "method": "letter_shape",
+        "category": "angular",
+        "seed": 1370
+      }
+    },
+    {
+      "label": "LETTER_SHAPE_034",
+      "text": "JWAMPJKJBCPGWNJGDAWWZAGMYLLKMWBANNJOZOLNELNNZANNZXOEAGPYDXZDWAWWMKYOOVNAKAZ",
+      "metadata": {
+        "method": "letter_shape",
+        "category": "angular",
+        "seed": 1371
+      }
+    },
+    {
+      "label": "LETTER_SHAPE_035",
+      "text": "DBKQCDXDUHCLBSDLIFBBWFLQVGGOQNUKSSDTWTGSJGSSEKZZWATJKLCRIAWINFBNYOVTTMZFOKW",
+      "metadata": {
+        "method": "letter_shape",
+        "category": "round",
+        "seed": 1372
+      }
+    },
+    {
+      "label": "LETTER_SHAPE_036",
+      "text": "ERAHKENEWLKHRIEHFIRRMIHHLGGFHDWAIIEJMJGITGIIUAPPMQJTAHKTFQMFDIRDOFLJJCPIFAM",
+      "metadata": {
+        "method": "letter_shape",
+        "category": "vertical",
+        "seed": 1373
+      }
+    },
+    {
+      "label": "LETTER_SHAPE_037",
+      "text": "JWAMPJKJBCPGWNJGDAWWZAGMYLLKMWBANNJOZOLNELNNZANNZXOEAGPYDXZDWAWWMKYOOVNAKAZ",
+      "metadata": {
+        "method": "letter_shape",
+        "category": "angular",
+        "seed": 1374
+      }
+    },
+    {
+      "label": "LETTER_SHAPE_038",
+      "text": "ZSVCFZIZRSFWSFZWTESSHEWCGBBACYRVFFZEHEBFUBFFBVKKHLEUVWFOTLHTYESYJAGEEXKEAVH",
+      "metadata": {
+        "method": "letter_shape",
+        "category": "mixed",
+        "seed": 1375
+      }
+    },
+    {
+      "label": "LETTER_SHAPE_039",
+      "text": "ERAHKENEWLKHRIEHFIRRMIHHLGGFHDWAIIEJMJGITGIIUAPPMQJTAHKTFQMFDIRDOFLJJCPIFAM",
+      "metadata": {
+        "method": "letter_shape",
+        "category": "vertical",
+        "seed": 1376
+      }
+    },
+    {
+      "label": "LETTER_SHAPE_040",
+      "text": "DBKQCDXDUHCLBSDLIFBBWFLQVGGOQNUKSSDTWTGSJGSSEKZZWATJKLCRIAWINFBNYOVTTMZFOKW",
+      "metadata": {
+        "method": "letter_shape",
+        "category": "round",
+        "seed": 1377
+      }
+    },
+    {
+      "label": "LETTER_SHAPE_041",
+      "text": "ERAHKENEWLKHRIEHFIRRMIHHLGGFHDWAIIEJMJGITGIIUAPPMQJTAHKTFQMFDIRDOFLJJCPIFAM",
+      "metadata": {
+        "method": "letter_shape",
+        "category": "vertical",
+        "seed": 1378
+      }
+    },
+    {
+      "label": "LETTER_SHAPE_042",
+      "text": "ZSVCFZIZRSFWSFZWTESSHEWCGBBACYRVFFZEHEBFUBFFBVKKHLEUVWFOTLHTYESYJAGEEXKEAVH",
+      "metadata": {
+        "method": "letter_shape",
+        "category": "mixed",
+        "seed": 1379
+      }
+    },
+    {
+      "label": "LETTER_SHAPE_043",
+      "text": "JWAMPJKJBCPGWNJGDAWWZAGMYLLKMWBANNJOZOLNELNNZANNZXOEAGPYDXZDWAWWMKYOOVNAKAZ",
+      "metadata": {
+        "method": "letter_shape",
+        "category": "angular",
+        "seed": 1380
+      }
+    },
+    {
+      "label": "LETTER_SHAPE_044",
+      "text": "DBKQCDXDUHCLBSDLIFBBWFLQVGGOQNUKSSDTWTGSJGSSEKZZWATJKLCRIAWINFBNYOVTTMZFOKW",
+      "metadata": {
+        "method": "letter_shape",
+        "category": "round",
+        "seed": 1381
+      }
+    },
+    {
+      "label": "LETTER_SHAPE_045",
+      "text": "ERAHKENEWLKHRIEHFIRRMIHHLGGFHDWAIIEJMJGITGIIUAPPMQJTAHKTFQMFDIRDOFLJJCPIFAM",
+      "metadata": {
+        "method": "letter_shape",
+        "category": "vertical",
+        "seed": 1382
+      }
+    },
+    {
+      "label": "LETTER_SHAPE_046",
+      "text": "JWAMPJKJBCPGWNJGDAWWZAGMYLLKMWBANNJOZOLNELNNZANNZXOEAGPYDXZDWAWWMKYOOVNAKAZ",
+      "metadata": {
+        "method": "letter_shape",
+        "category": "angular",
+        "seed": 1383
+      }
+    },
+    {
+      "label": "LETTER_SHAPE_047",
+      "text": "JWAMPJKJBCPGWNJGDAWWZAGMYLLKMWBANNJOZOLNELNNZANNZXOEAGPYDXZDWAWWMKYOOVNAKAZ",
+      "metadata": {
+        "method": "letter_shape",
+        "category": "angular",
+        "seed": 1384
+      }
+    },
+    {
+      "label": "LETTER_SHAPE_048",
+      "text": "JWAMPJKJBCPGWNJGDAWWZAGMYLLKMWBANNJOZOLNELNNZANNZXOEAGPYDXZDWAWWMKYOOVNAKAZ",
+      "metadata": {
+        "method": "letter_shape",
+        "category": "angular",
+        "seed": 1385
+      }
+    },
+    {
+      "label": "LETTER_SHAPE_049",
+      "text": "DBKQCDXDUHCLBSDLIFBBWFLQVGGOQNUKSSDTWTGSJGSSEKZZWATJKLCRIAWINFBNYOVTTMZFOKW",
+      "metadata": {
+        "method": "letter_shape",
+        "category": "round",
+        "seed": 1386
+      }
+    },
+    {
+      "label": "LETTER_SHAPE_050",
+      "text": "ZSVCFZIZRSFWSFZWTESSHEWCGBBACYRVFFZEHEBFUBFFBVKKHLEUVWFOTLHTYESYJAGEEXKEAVH",
+      "metadata": {
+        "method": "letter_shape",
+        "category": "mixed",
+        "seed": 1387
+      }
+    },
+    {
+      "label": "LETTER_SHAPE_051",
+      "text": "ZSVCFZIZRSFWSFZWTESSHEWCGBBACYRVFFZEHEBFUBFFBVKKHLEUVWFOTLHTYESYJAGEEXKEAVH",
+      "metadata": {
+        "method": "letter_shape",
+        "category": "mixed",
+        "seed": 1388
+      }
+    },
+    {
+      "label": "LETTER_SHAPE_052",
+      "text": "DBKQCDXDUHCLBSDLIFBBWFLQVGGOQNUKSSDTWTGSJGSSEKZZWATJKLCRIAWINFBNYOVTTMZFOKW",
+      "metadata": {
+        "method": "letter_shape",
+        "category": "round",
+        "seed": 1389
+      }
+    },
+    {
+      "label": "LETTER_SHAPE_053",
+      "text": "ZSVCFZIZRSFWSFZWTESSHEWCGBBACYRVFFZEHEBFUBFFBVKKHLEUVWFOTLHTYESYJAGEEXKEAVH",
+      "metadata": {
+        "method": "letter_shape",
+        "category": "mixed",
+        "seed": 1390
+      }
+    },
+    {
+      "label": "LETTER_SHAPE_054",
+      "text": "ERAHKENEWLKHRIEHFIRRMIHHLGGFHDWAIIEJMJGITGIIUAPPMQJTAHKTFQMFDIRDOFLJJCPIFAM",
+      "metadata": {
+        "method": "letter_shape",
+        "category": "vertical",
+        "seed": 1391
+      }
+    },
+    {
+      "label": "LETTER_SHAPE_055",
+      "text": "ERAHKENEWLKHRIEHFIRRMIHHLGGFHDWAIIEJMJGITGIIUAPPMQJTAHKTFQMFDIRDOFLJJCPIFAM",
+      "metadata": {
+        "method": "letter_shape",
+        "category": "vertical",
+        "seed": 1392
+      }
+    },
+    {
+      "label": "LETTER_SHAPE_056",
+      "text": "ERAHKENEWLKHRIEHFIRRMIHHLGGFHDWAIIEJMJGITGIIUAPPMQJTAHKTFQMFDIRDOFLJJCPIFAM",
+      "metadata": {
+        "method": "letter_shape",
+        "category": "vertical",
+        "seed": 1393
+      }
+    },
+    {
+      "label": "LETTER_SHAPE_057",
+      "text": "DBKQCDXDUHCLBSDLIFBBWFLQVGGOQNUKSSDTWTGSJGSSEKZZWATJKLCRIAWINFBNYOVTTMZFOKW",
+      "metadata": {
+        "method": "letter_shape",
+        "category": "round",
+        "seed": 1394
+      }
+    },
+    {
+      "label": "LETTER_SHAPE_058",
+      "text": "JWAMPJKJBCPGWNJGDAWWZAGMYLLKMWBANNJOZOLNELNNZANNZXOEAGPYDXZDWAWWMKYOOVNAKAZ",
+      "metadata": {
+        "method": "letter_shape",
+        "category": "angular",
+        "seed": 1395
+      }
+    },
+    {
+      "label": "LETTER_SHAPE_059",
+      "text": "DBKQCDXDUHCLBSDLIFBBWFLQVGGOQNUKSSDTWTGSJGSSEKZZWATJKLCRIAWINFBNYOVTTMZFOKW",
+      "metadata": {
+        "method": "letter_shape",
+        "category": "round",
+        "seed": 1396
+      }
+    },
+    {
+      "label": "LETTER_SHAPE_060",
+      "text": "JWAMPJKJBCPGWNJGDAWWZAGMYLLKMWBANNJOZOLNELNNZANNZXOEAGPYDXZDWAWWMKYOOVNAKAZ",
+      "metadata": {
+        "method": "letter_shape",
+        "category": "angular",
+        "seed": 1397
+      }
+    },
+    {
+      "label": "LETTER_SHAPE_061",
+      "text": "ERAHKENEWLKHRIEHFIRRMIHHLGGFHDWAIIEJMJGITGIIUAPPMQJTAHKTFQMFDIRDOFLJJCPIFAM",
+      "metadata": {
+        "method": "letter_shape",
+        "category": "vertical",
+        "seed": 1398
+      }
+    },
+    {
+      "label": "LETTER_SHAPE_062",
+      "text": "DBKQCDXDUHCLBSDLIFBBWFLQVGGOQNUKSSDTWTGSJGSSEKZZWATJKLCRIAWINFBNYOVTTMZFOKW",
+      "metadata": {
+        "method": "letter_shape",
+        "category": "round",
+        "seed": 1399
+      }
+    },
+    {
+      "label": "LETTER_SHAPE_063",
+      "text": "JWAMPJKJBCPGWNJGDAWWZAGMYLLKMWBANNJOZOLNELNNZANNZXOEAGPYDXZDWAWWMKYOOVNAKAZ",
+      "metadata": {
+        "method": "letter_shape",
+        "category": "angular",
+        "seed": 1400
+      }
+    },
+    {
+      "label": "LETTER_SHAPE_064",
+      "text": "ZSVCFZIZRSFWSFZWTESSHEWCGBBACYRVFFZEHEBFUBFFBVKKHLEUVWFOTLHTYESYJAGEEXKEAVH",
+      "metadata": {
+        "method": "letter_shape",
+        "category": "mixed",
+        "seed": 1401
+      }
+    },
+    {
+      "label": "LETTER_SHAPE_065",
+      "text": "ERAHKENEWLKHRIEHFIRRMIHHLGGFHDWAIIEJMJGITGIIUAPPMQJTAHKTFQMFDIRDOFLJJCPIFAM",
+      "metadata": {
+        "method": "letter_shape",
+        "category": "vertical",
+        "seed": 1402
+      }
+    },
+    {
+      "label": "LETTER_SHAPE_066",
+      "text": "DBKQCDXDUHCLBSDLIFBBWFLQVGGOQNUKSSDTWTGSJGSSEKZZWATJKLCRIAWINFBNYOVTTMZFOKW",
+      "metadata": {
+        "method": "letter_shape",
+        "category": "round",
+        "seed": 1403
+      }
+    },
+    {
+      "label": "LETTER_SHAPE_067",
+      "text": "JWAMPJKJBCPGWNJGDAWWZAGMYLLKMWBANNJOZOLNELNNZANNZXOEAGPYDXZDWAWWMKYOOVNAKAZ",
+      "metadata": {
+        "method": "letter_shape",
+        "category": "angular",
+        "seed": 1404
+      }
+    },
+    {
+      "label": "LETTER_SHAPE_068",
+      "text": "ZSVCFZIZRSFWSFZWTESSHEWCGBBACYRVFFZEHEBFUBFFBVKKHLEUVWFOTLHTYESYJAGEEXKEAVH",
+      "metadata": {
+        "method": "letter_shape",
+        "category": "mixed",
+        "seed": 1405
+      }
+    },
+    {
+      "label": "LETTER_SHAPE_069",
+      "text": "ERAHKENEWLKHRIEHFIRRMIHHLGGFHDWAIIEJMJGITGIIUAPPMQJTAHKTFQMFDIRDOFLJJCPIFAM",
+      "metadata": {
+        "method": "letter_shape",
+        "category": "vertical",
+        "seed": 1406
+      }
+    },
+    {
+      "label": "LETTER_SHAPE_070",
+      "text": "DBKQCDXDUHCLBSDLIFBBWFLQVGGOQNUKSSDTWTGSJGSSEKZZWATJKLCRIAWINFBNYOVTTMZFOKW",
+      "metadata": {
+        "method": "letter_shape",
+        "category": "round",
+        "seed": 1407
+      }
+    },
+    {
+      "label": "LETTER_SHAPE_071",
+      "text": "ZSVCFZIZRSFWSFZWTESSHEWCGBBACYRVFFZEHEBFUBFFBVKKHLEUVWFOTLHTYESYJAGEEXKEAVH",
+      "metadata": {
+        "method": "letter_shape",
+        "category": "mixed",
+        "seed": 1408
+      }
+    },
+    {
+      "label": "LETTER_SHAPE_072",
+      "text": "ERAHKENEWLKHRIEHFIRRMIHHLGGFHDWAIIEJMJGITGIIUAPPMQJTAHKTFQMFDIRDOFLJJCPIFAM",
+      "metadata": {
+        "method": "letter_shape",
+        "category": "vertical",
+        "seed": 1409
+      }
+    },
+    {
+      "label": "LETTER_SHAPE_073",
+      "text": "JWAMPJKJBCPGWNJGDAWWZAGMYLLKMWBANNJOZOLNELNNZANNZXOEAGPYDXZDWAWWMKYOOVNAKAZ",
+      "metadata": {
+        "method": "letter_shape",
+        "category": "angular",
+        "seed": 1410
+      }
+    },
+    {
+      "label": "LETTER_SHAPE_074",
+      "text": "DBKQCDXDUHCLBSDLIFBBWFLQVGGOQNUKSSDTWTGSJGSSEKZZWATJKLCRIAWINFBNYOVTTMZFOKW",
+      "metadata": {
+        "method": "letter_shape",
+        "category": "round",
+        "seed": 1411
+      }
+    },
+    {
+      "label": "LETTER_SHAPE_075",
+      "text": "ZSVCFZIZRSFWSFZWTESSHEWCGBBACYRVFFZEHEBFUBFFBVKKHLEUVWFOTLHTYESYJAGEEXKEAVH",
+      "metadata": {
+        "method": "letter_shape",
+        "category": "mixed",
+        "seed": 1412
+      }
+    },
+    {
+      "label": "LETTER_SHAPE_076",
+      "text": "ERAHKENEWLKHRIEHFIRRMIHHLGGFHDWAIIEJMJGITGIIUAPPMQJTAHKTFQMFDIRDOFLJJCPIFAM",
+      "metadata": {
+        "method": "letter_shape",
+        "category": "vertical",
+        "seed": 1413
+      }
+    },
+    {
+      "label": "LETTER_SHAPE_077",
+      "text": "ZSVCFZIZRSFWSFZWTESSHEWCGBBACYRVFFZEHEBFUBFFBVKKHLEUVWFOTLHTYESYJAGEEXKEAVH",
+      "metadata": {
+        "method": "letter_shape",
+        "category": "mixed",
+        "seed": 1414
+      }
+    },
+    {
+      "label": "LETTER_SHAPE_078",
+      "text": "DBKQCDXDUHCLBSDLIFBBWFLQVGGOQNUKSSDTWTGSJGSSEKZZWATJKLCRIAWINFBNYOVTTMZFOKW",
+      "metadata": {
+        "method": "letter_shape",
+        "category": "round",
+        "seed": 1415
+      }
+    },
+    {
+      "label": "LETTER_SHAPE_079",
+      "text": "JWAMPJKJBCPGWNJGDAWWZAGMYLLKMWBANNJOZOLNELNNZANNZXOEAGPYDXZDWAWWMKYOOVNAKAZ",
+      "metadata": {
+        "method": "letter_shape",
+        "category": "angular",
+        "seed": 1416
+      }
+    },
+    {
+      "label": "LETTER_SHAPE_080",
+      "text": "ERAHKENEWLKHRIEHFIRRMIHHLGGFHDWAIIEJMJGITGIIUAPPMQJTAHKTFQMFDIRDOFLJJCPIFAM",
+      "metadata": {
+        "method": "letter_shape",
+        "category": "vertical",
+        "seed": 1417
+      }
+    },
+    {
+      "label": "LETTER_SHAPE_081",
+      "text": "ERAHKENEWLKHRIEHFIRRMIHHLGGFHDWAIIEJMJGITGIIUAPPMQJTAHKTFQMFDIRDOFLJJCPIFAM",
+      "metadata": {
+        "method": "letter_shape",
+        "category": "vertical",
+        "seed": 1418
+      }
+    },
+    {
+      "label": "LETTER_SHAPE_082",
+      "text": "JWAMPJKJBCPGWNJGDAWWZAGMYLLKMWBANNJOZOLNELNNZANNZXOEAGPYDXZDWAWWMKYOOVNAKAZ",
+      "metadata": {
+        "method": "letter_shape",
+        "category": "angular",
+        "seed": 1419
+      }
+    },
+    {
+      "label": "LETTER_SHAPE_083",
+      "text": "JWAMPJKJBCPGWNJGDAWWZAGMYLLKMWBANNJOZOLNELNNZANNZXOEAGPYDXZDWAWWMKYOOVNAKAZ",
+      "metadata": {
+        "method": "letter_shape",
+        "category": "angular",
+        "seed": 1420
+      }
+    },
+    {
+      "label": "LETTER_SHAPE_084",
+      "text": "JWAMPJKJBCPGWNJGDAWWZAGMYLLKMWBANNJOZOLNELNNZANNZXOEAGPYDXZDWAWWMKYOOVNAKAZ",
+      "metadata": {
+        "method": "letter_shape",
+        "category": "angular",
+        "seed": 1421
+      }
+    },
+    {
+      "label": "LETTER_SHAPE_085",
+      "text": "ZSVCFZIZRSFWSFZWTESSHEWCGBBACYRVFFZEHEBFUBFFBVKKHLEUVWFOTLHTYESYJAGEEXKEAVH",
+      "metadata": {
+        "method": "letter_shape",
+        "category": "mixed",
+        "seed": 1422
+      }
+    },
+    {
+      "label": "LETTER_SHAPE_086",
+      "text": "ZSVCFZIZRSFWSFZWTESSHEWCGBBACYRVFFZEHEBFUBFFBVKKHLEUVWFOTLHTYESYJAGEEXKEAVH",
+      "metadata": {
+        "method": "letter_shape",
+        "category": "mixed",
+        "seed": 1423
+      }
+    },
+    {
+      "label": "LETTER_SHAPE_087",
+      "text": "ZSVCFZIZRSFWSFZWTESSHEWCGBBACYRVFFZEHEBFUBFFBVKKHLEUVWFOTLHTYESYJAGEEXKEAVH",
+      "metadata": {
+        "method": "letter_shape",
+        "category": "mixed",
+        "seed": 1424
+      }
+    },
+    {
+      "label": "LETTER_SHAPE_088",
+      "text": "ERAHKENEWLKHRIEHFIRRMIHHLGGFHDWAIIEJMJGITGIIUAPPMQJTAHKTFQMFDIRDOFLJJCPIFAM",
+      "metadata": {
+        "method": "letter_shape",
+        "category": "vertical",
+        "seed": 1425
+      }
+    },
+    {
+      "label": "LETTER_SHAPE_089",
+      "text": "JWAMPJKJBCPGWNJGDAWWZAGMYLLKMWBANNJOZOLNELNNZANNZXOEAGPYDXZDWAWWMKYOOVNAKAZ",
+      "metadata": {
+        "method": "letter_shape",
+        "category": "angular",
+        "seed": 1426
+      }
+    },
+    {
+      "label": "LETTER_SHAPE_090",
+      "text": "JWAMPJKJBCPGWNJGDAWWZAGMYLLKMWBANNJOZOLNELNNZANNZXOEAGPYDXZDWAWWMKYOOVNAKAZ",
+      "metadata": {
+        "method": "letter_shape",
+        "category": "angular",
+        "seed": 1427
+      }
+    },
+    {
+      "label": "LETTER_SHAPE_091",
+      "text": "ERAHKENEWLKHRIEHFIRRMIHHLGGFHDWAIIEJMJGITGIIUAPPMQJTAHKTFQMFDIRDOFLJJCPIFAM",
+      "metadata": {
+        "method": "letter_shape",
+        "category": "vertical",
+        "seed": 1428
+      }
+    },
+    {
+      "label": "LETTER_SHAPE_092",
+      "text": "ZSVCFZIZRSFWSFZWTESSHEWCGBBACYRVFFZEHEBFUBFFBVKKHLEUVWFOTLHTYESYJAGEEXKEAVH",
+      "metadata": {
+        "method": "letter_shape",
+        "category": "mixed",
+        "seed": 1429
+      }
+    },
+    {
+      "label": "LETTER_SHAPE_093",
+      "text": "JWAMPJKJBCPGWNJGDAWWZAGMYLLKMWBANNJOZOLNELNNZANNZXOEAGPYDXZDWAWWMKYOOVNAKAZ",
+      "metadata": {
+        "method": "letter_shape",
+        "category": "angular",
+        "seed": 1430
+      }
+    },
+    {
+      "label": "LETTER_SHAPE_094",
+      "text": "ZSVCFZIZRSFWSFZWTESSHEWCGBBACYRVFFZEHEBFUBFFBVKKHLEUVWFOTLHTYESYJAGEEXKEAVH",
+      "metadata": {
+        "method": "letter_shape",
+        "category": "mixed",
+        "seed": 1431
+      }
+    },
+    {
+      "label": "LETTER_SHAPE_095",
+      "text": "JWAMPJKJBCPGWNJGDAWWZAGMYLLKMWBANNJOZOLNELNNZANNZXOEAGPYDXZDWAWWMKYOOVNAKAZ",
+      "metadata": {
+        "method": "letter_shape",
+        "category": "angular",
+        "seed": 1432
+      }
+    },
+    {
+      "label": "LETTER_SHAPE_096",
+      "text": "ZSVCFZIZRSFWSFZWTESSHEWCGBBACYRVFFZEHEBFUBFFBVKKHLEUVWFOTLHTYESYJAGEEXKEAVH",
+      "metadata": {
+        "method": "letter_shape",
+        "category": "mixed",
+        "seed": 1433
+      }
+    },
+    {
+      "label": "LETTER_SHAPE_097",
+      "text": "ERAHKENEWLKHRIEHFIRRMIHHLGGFHDWAIIEJMJGITGIIUAPPMQJTAHKTFQMFDIRDOFLJJCPIFAM",
+      "metadata": {
+        "method": "letter_shape",
+        "category": "vertical",
+        "seed": 1434
+      }
+    },
+    {
+      "label": "LETTER_SHAPE_098",
+      "text": "DBKQCDXDUHCLBSDLIFBBWFLQVGGOQNUKSSDTWTGSJGSSEKZZWATJKLCRIAWINFBNYOVTTMZFOKW",
+      "metadata": {
+        "method": "letter_shape",
+        "category": "round",
+        "seed": 1435
+      }
+    },
+    {
+      "label": "LETTER_SHAPE_099",
+      "text": "DBKQCDXDUHCLBSDLIFBBWFLQVGGOQNUKSSDTWTGSJGSSEKZZWATJKLCRIAWINFBNYOVTTMZFOKW",
+      "metadata": {
+        "method": "letter_shape",
+        "category": "round",
+        "seed": 1436
+      }
+    }
+  ]
+}

@@ -1,0 +1,10 @@
+{
+  "campaign": "C3_MORSE",
+  "heads": 100,
+  "policies": 4,
+  "tests": 400,
+  "promotions": 0,
+  "promotion_rate": 0.0,
+  "file": "experiments/community_hypotheses/runs/2025-01-06-campaign-c3/scores_c3_morse.json",
+  "hash": "1dd7e08eacba63af"
+}

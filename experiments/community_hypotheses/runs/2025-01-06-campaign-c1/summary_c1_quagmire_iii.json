@@ -1,0 +1,10 @@
+{
+  "campaign": "C1_QUAGMIRE_III",
+  "heads": 100,
+  "policies": 4,
+  "tests": 400,
+  "promotions": 0,
+  "promotion_rate": 0.0,
+  "file": "experiments/community_hypotheses/runs/2025-01-06-campaign-c1/scores_c1_quagmire_iii.json",
+  "hash": "f987fe9169017e80"
+}

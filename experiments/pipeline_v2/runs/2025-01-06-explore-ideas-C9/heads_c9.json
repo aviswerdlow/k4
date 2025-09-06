@@ -1,0 +1,909 @@
+{
+  "campaign": "C9_PIGG_PCFG",
+  "date": "2025-01-06",
+  "description": "Campaign C9: PIGG_PCFG",
+  "seed": 1337,
+  "total_heads": 100,
+  "heads": [
+    {
+      "label": "C9_000",
+      "text": "LOOKBYADOORORMOVEDOOREASTNORTHEASTXXXXXXXXXXXXXXXXXXXXXXXXXXXXXBERLINCLOCKX",
+      "metadata": {
+        "campaign": "C9",
+        "method": "PIGG_PCFG",
+        "seed": 1337
+      }
+    },
+    {
+      "label": "C9_001",
+      "text": "WALKSTEPBUTTURNBYTHEWEASTNORTHEASTXXXXXXXXXXXXXXXXXXXXXXXXXXXXXBERLINCLOCKX",
+      "metadata": {
+        "campaign": "C9",
+        "method": "PIGG_PCFG",
+        "seed": 1338
+      }
+    },
+    {
+      "label": "C9_002",
+      "text": "FINDPATHXXXXXXXXXXXXXEASTNORTHEASTXXXXXXXXXXXXXXXXXXXXXXXXXXXXXBERLINCLOCKX",
+      "metadata": {
+        "campaign": "C9",
+        "method": "PIGG_PCFG",
+        "seed": 1339
+      }
+    },
+    {
+      "label": "C9_003",
+      "text": "MOVETOPATHBUTFINDBYMAEASTNORTHEASTXXXXXXXXXXXXXXXXXXXXXXXXXXXXXBERLINCLOCKX",
+      "metadata": {
+        "campaign": "C9",
+        "method": "PIGG_PCFG",
+        "seed": 1340
+      }
+    },
+    {
+      "label": "C9_004",
+      "text": "LOOKDOORORMOVEAWALLXXEASTNORTHEASTXXXXXXXXXXXXXXXXXXXXXXXXXXXXXBERLINCLOCKX",
+      "metadata": {
+        "campaign": "C9",
+        "method": "PIGG_PCFG",
+        "seed": 1341
+      }
+    },
+    {
+      "label": "C9_005",
+      "text": "LOOKSTEPXXXXXXXXXXXXXEASTNORTHEASTXXXXXXXXXXXXXXXXXXXXXXXXXXXXXBERLINCLOCKX",
+      "metadata": {
+        "campaign": "C9",
+        "method": "PIGG_PCFG",
+        "seed": 1342
+      }
+    },
+    {
+      "label": "C9_006",
+      "text": "MOVEWALLANDTURNMARKXXEASTNORTHEASTXXXXXXXXXXXXXXXXXXXXXXXXXXXXXBERLINCLOCKX",
+      "metadata": {
+        "campaign": "C9",
+        "method": "PIGG_PCFG",
+        "seed": 1343
+      }
+    },
+    {
+      "label": "C9_007",
+      "text": "WALKWALLBUTMOVEAWALLXEASTNORTHEASTXXXXXXXXXXXXXXXXXXXXXXXXXXXXXBERLINCLOCKX",
+      "metadata": {
+        "campaign": "C9",
+        "method": "PIGG_PCFG",
+        "seed": 1344
+      }
+    },
+    {
+      "label": "C9_008",
+      "text": "WALKBYTHEDOORXXXXXXXXEASTNORTHEASTXXXXXXXXXXXXXXXXXXXXXXXXXXXXXBERLINCLOCKX",
+      "metadata": {
+        "campaign": "C9",
+        "method": "PIGG_PCFG",
+        "seed": 1345
+      }
+    },
+    {
+      "label": "C9_009",
+      "text": "MOVETOASTEPORMOVEMARKEASTNORTHEASTXXXXXXXXXXXXXXXXXXXXXXXXXXXXXBERLINCLOCKX",
+      "metadata": {
+        "campaign": "C9",
+        "method": "PIGG_PCFG",
+        "seed": 1346
+      }
+    },
+    {
+      "label": "C9_010",
+      "text": "LOOKTOAWALLANDMOVEYOUEASTNORTHEASTXXXXXXXXXXXXXXXXXXXXXXXXXXXXXBERLINCLOCKX",
+      "metadata": {
+        "campaign": "C9",
+        "method": "PIGG_PCFG",
+        "seed": 1347
+      }
+    },
+    {
+      "label": "C9_011",
+      "text": "MOVEAWALLANDFINDINADOEASTNORTHEASTXXXXXXXXXXXXXXXXXXXXXXXXXXXXXBERLINCLOCKX",
+      "metadata": {
+        "campaign": "C9",
+        "method": "PIGG_PCFG",
+        "seed": 1348
+      }
+    },
+    {
+      "label": "C9_012",
+      "text": "LOOKDOORXXXXXXXXXXXXXEASTNORTHEASTXXXXXXXXXXXXXXXXXXXXXXXXXXXXXBERLINCLOCKX",
+      "metadata": {
+        "campaign": "C9",
+        "method": "PIGG_PCFG",
+        "seed": 1349
+      }
+    },
+    {
+      "label": "C9_013",
+      "text": "FINDINTHEWALLBUTTURNAEASTNORTHEASTXXXXXXXXXXXXXXXXXXXXXXXXXXXXXBERLINCLOCKX",
+      "metadata": {
+        "campaign": "C9",
+        "method": "PIGG_PCFG",
+        "seed": 1350
+      }
+    },
+    {
+      "label": "C9_014",
+      "text": "FINDYOURMARKXXXXXXXXXEASTNORTHEASTXXXXXXXXXXXXXXXXXXXXXXXXXXXXXBERLINCLOCKX",
+      "metadata": {
+        "campaign": "C9",
+        "method": "PIGG_PCFG",
+        "seed": 1351
+      }
+    },
+    {
+      "label": "C9_015",
+      "text": "FINDMARKANDLOOKATTHEMEASTNORTHEASTXXXXXXXXXXXXXXXXXXXXXXXXXXXXXBERLINCLOCKX",
+      "metadata": {
+        "campaign": "C9",
+        "method": "PIGG_PCFG",
+        "seed": 1352
+      }
+    },
+    {
+      "label": "C9_016",
+      "text": "WALKONAPATHXXXXXXXXXXEASTNORTHEASTXXXXXXXXXXXXXXXXXXXXXXXXXXXXXBERLINCLOCKX",
+      "metadata": {
+        "campaign": "C9",
+        "method": "PIGG_PCFG",
+        "seed": 1353
+      }
+    },
+    {
+      "label": "C9_017",
+      "text": "MOVETHEDOORXXXXXXXXXXEASTNORTHEASTXXXXXXXXXXXXXXXXXXXXXXXXXXXXXBERLINCLOCKX",
+      "metadata": {
+        "campaign": "C9",
+        "method": "PIGG_PCFG",
+        "seed": 1354
+      }
+    },
+    {
+      "label": "C9_018",
+      "text": "MOVEYOURPATHBUTFINDAWEASTNORTHEASTXXXXXXXXXXXXXXXXXXXXXXXXXXXXXBERLINCLOCKX",
+      "metadata": {
+        "campaign": "C9",
+        "method": "PIGG_PCFG",
+        "seed": 1355
+      }
+    },
+    {
+      "label": "C9_019",
+      "text": "FINDINPATHXXXXXXXXXXXEASTNORTHEASTXXXXXXXXXXXXXXXXXXXXXXXXXXXXXBERLINCLOCKX",
+      "metadata": {
+        "campaign": "C9",
+        "method": "PIGG_PCFG",
+        "seed": 1356
+      }
+    },
+    {
+      "label": "C9_020",
+      "text": "MOVEWALLBUTMOVEPATHXXEASTNORTHEASTXXXXXXXXXXXXXXXXXXXXXXXXXXXXXBERLINCLOCKX",
+      "metadata": {
+        "campaign": "C9",
+        "method": "PIGG_PCFG",
+        "seed": 1357
+      }
+    },
+    {
+      "label": "C9_021",
+      "text": "FINDINPATHXXXXXXXXXXXEASTNORTHEASTXXXXXXXXXXXXXXXXXXXXXXXXXXXXXBERLINCLOCKX",
+      "metadata": {
+        "campaign": "C9",
+        "method": "PIGG_PCFG",
+        "seed": 1358
+      }
+    },
+    {
+      "label": "C9_022",
+      "text": "FINDTHEPATHORWALKDOOREASTNORTHEASTXXXXXXXXXXXXXXXXXXXXXXXXXXXXXBERLINCLOCKX",
+      "metadata": {
+        "campaign": "C9",
+        "method": "PIGG_PCFG",
+        "seed": 1359
+      }
+    },
+    {
+      "label": "C9_023",
+      "text": "MOVEDOORXXXXXXXXXXXXXEASTNORTHEASTXXXXXXXXXXXXXXXXXXXXXXXXXXXXXBERLINCLOCKX",
+      "metadata": {
+        "campaign": "C9",
+        "method": "PIGG_PCFG",
+        "seed": 1360
+      }
+    },
+    {
+      "label": "C9_024",
+      "text": "TURNSTEPXXXXXXXXXXXXXEASTNORTHEASTXXXXXXXXXXXXXXXXXXXXXXXXXXXXXBERLINCLOCKX",
+      "metadata": {
+        "campaign": "C9",
+        "method": "PIGG_PCFG",
+        "seed": 1361
+      }
+    },
+    {
+      "label": "C9_025",
+      "text": "LOOKATAMARKXXXXXXXXXXEASTNORTHEASTXXXXXXXXXXXXXXXXXXXXXXXXXXXXXBERLINCLOCKX",
+      "metadata": {
+        "campaign": "C9",
+        "method": "PIGG_PCFG",
+        "seed": 1362
+      }
+    },
+    {
+      "label": "C9_026",
+      "text": "FINDBYPATHXXXXXXXXXXXEASTNORTHEASTXXXXXXXXXXXXXXXXXXXXXXXXXXXXXBERLINCLOCKX",
+      "metadata": {
+        "campaign": "C9",
+        "method": "PIGG_PCFG",
+        "seed": 1363
+      }
+    },
+    {
+      "label": "C9_027",
+      "text": "WALKYOURDOORXXXXXXXXXEASTNORTHEASTXXXXXXXXXXXXXXXXXXXXXXXXXXXXXBERLINCLOCKX",
+      "metadata": {
+        "campaign": "C9",
+        "method": "PIGG_PCFG",
+        "seed": 1364
+      }
+    },
+    {
+      "label": "C9_028",
+      "text": "WALKDOORBUTWALKATYOUREASTNORTHEASTXXXXXXXXXXXXXXXXXXXXXXXXXXXXXBERLINCLOCKX",
+      "metadata": {
+        "campaign": "C9",
+        "method": "PIGG_PCFG",
+        "seed": 1365
+      }
+    },
+    {
+      "label": "C9_029",
+      "text": "WALKTOWALLXXXXXXXXXXXEASTNORTHEASTXXXXXXXXXXXXXXXXXXXXXXXXXXXXXBERLINCLOCKX",
+      "metadata": {
+        "campaign": "C9",
+        "method": "PIGG_PCFG",
+        "seed": 1366
+      }
+    },
+    {
+      "label": "C9_030",
+      "text": "FINDBYASTEPANDLOOKPATEASTNORTHEASTXXXXXXXXXXXXXXXXXXXXXXXXXXXXXBERLINCLOCKX",
+      "metadata": {
+        "campaign": "C9",
+        "method": "PIGG_PCFG",
+        "seed": 1367
+      }
+    },
+    {
+      "label": "C9_031",
+      "text": "LOOKTHEWALLXXXXXXXXXXEASTNORTHEASTXXXXXXXXXXXXXXXXXXXXXXXXXXXXXBERLINCLOCKX",
+      "metadata": {
+        "campaign": "C9",
+        "method": "PIGG_PCFG",
+        "seed": 1368
+      }
+    },
+    {
+      "label": "C9_032",
+      "text": "FINDDOORORTURNTHEMARKEASTNORTHEASTXXXXXXXXXXXXXXXXXXXXXXXXXXXXXBERLINCLOCKX",
+      "metadata": {
+        "campaign": "C9",
+        "method": "PIGG_PCFG",
+        "seed": 1369
+      }
+    },
+    {
+      "label": "C9_033",
+      "text": "WALKYOURDOORBUTWALKTHEASTNORTHEASTXXXXXXXXXXXXXXXXXXXXXXXXXXXXXBERLINCLOCKX",
+      "metadata": {
+        "campaign": "C9",
+        "method": "PIGG_PCFG",
+        "seed": 1370
+      }
+    },
+    {
+      "label": "C9_034",
+      "text": "LOOKPATHBUTMOVEDOORXXEASTNORTHEASTXXXXXXXXXXXXXXXXXXXXXXXXXXXXXBERLINCLOCKX",
+      "metadata": {
+        "campaign": "C9",
+        "method": "PIGG_PCFG",
+        "seed": 1371
+      }
+    },
+    {
+      "label": "C9_035",
+      "text": "TURNINMARKXXXXXXXXXXXEASTNORTHEASTXXXXXXXXXXXXXXXXXXXXXXXXXXXXXBERLINCLOCKX",
+      "metadata": {
+        "campaign": "C9",
+        "method": "PIGG_PCFG",
+        "seed": 1372
+      }
+    },
+    {
+      "label": "C9_036",
+      "text": "MOVEAWALLXXXXXXXXXXXXEASTNORTHEASTXXXXXXXXXXXXXXXXXXXXXXXXXXXXXBERLINCLOCKX",
+      "metadata": {
+        "campaign": "C9",
+        "method": "PIGG_PCFG",
+        "seed": 1373
+      }
+    },
+    {
+      "label": "C9_037",
+      "text": "WALKBYYOURWALLXXXXXXXEASTNORTHEASTXXXXXXXXXXXXXXXXXXXXXXXXXXXXXBERLINCLOCKX",
+      "metadata": {
+        "campaign": "C9",
+        "method": "PIGG_PCFG",
+        "seed": 1374
+      }
+    },
+    {
+      "label": "C9_038",
+      "text": "FINDMARKXXXXXXXXXXXXXEASTNORTHEASTXXXXXXXXXXXXXXXXXXXXXXXXXXXXXBERLINCLOCKX",
+      "metadata": {
+        "campaign": "C9",
+        "method": "PIGG_PCFG",
+        "seed": 1375
+      }
+    },
+    {
+      "label": "C9_039",
+      "text": "TURNSTEPBUTTURNSTEPXXEASTNORTHEASTXXXXXXXXXXXXXXXXXXXXXXXXXXXXXBERLINCLOCKX",
+      "metadata": {
+        "campaign": "C9",
+        "method": "PIGG_PCFG",
+        "seed": 1376
+      }
+    },
+    {
+      "label": "C9_040",
+      "text": "FINDTOSTEPXXXXXXXXXXXEASTNORTHEASTXXXXXXXXXXXXXXXXXXXXXXXXXXXXXBERLINCLOCKX",
+      "metadata": {
+        "campaign": "C9",
+        "method": "PIGG_PCFG",
+        "seed": 1377
+      }
+    },
+    {
+      "label": "C9_041",
+      "text": "WALKAWALLXXXXXXXXXXXXEASTNORTHEASTXXXXXXXXXXXXXXXXXXXXXXXXXXXXXBERLINCLOCKX",
+      "metadata": {
+        "campaign": "C9",
+        "method": "PIGG_PCFG",
+        "seed": 1378
+      }
+    },
+    {
+      "label": "C9_042",
+      "text": "WALKYOURWALLORMOVESTEEASTNORTHEASTXXXXXXXXXXXXXXXXXXXXXXXXXXXXXBERLINCLOCKX",
+      "metadata": {
+        "campaign": "C9",
+        "method": "PIGG_PCFG",
+        "seed": 1379
+      }
+    },
+    {
+      "label": "C9_043",
+      "text": "MOVETHESTEPORMOVEAWALEASTNORTHEASTXXXXXXXXXXXXXXXXXXXXXXXXXXXXXBERLINCLOCKX",
+      "metadata": {
+        "campaign": "C9",
+        "method": "PIGG_PCFG",
+        "seed": 1380
+      }
+    },
+    {
+      "label": "C9_044",
+      "text": "WALKBYTHEPATHXXXXXXXXEASTNORTHEASTXXXXXXXXXXXXXXXXXXXXXXXXXXXXXBERLINCLOCKX",
+      "metadata": {
+        "campaign": "C9",
+        "method": "PIGG_PCFG",
+        "seed": 1381
+      }
+    },
+    {
+      "label": "C9_045",
+      "text": "MOVETODOORANDMOVEPATHEASTNORTHEASTXXXXXXXXXXXXXXXXXXXXXXXXXXXXXBERLINCLOCKX",
+      "metadata": {
+        "campaign": "C9",
+        "method": "PIGG_PCFG",
+        "seed": 1382
+      }
+    },
+    {
+      "label": "C9_046",
+      "text": "TURNPATHXXXXXXXXXXXXXEASTNORTHEASTXXXXXXXXXXXXXXXXXXXXXXXXXXXXXBERLINCLOCKX",
+      "metadata": {
+        "campaign": "C9",
+        "method": "PIGG_PCFG",
+        "seed": 1383
+      }
+    },
+    {
+      "label": "C9_047",
+      "text": "WALKTHEWALLANDWALKAMAEASTNORTHEASTXXXXXXXXXXXXXXXXXXXXXXXXXXXXXBERLINCLOCKX",
+      "metadata": {
+        "campaign": "C9",
+        "method": "PIGG_PCFG",
+        "seed": 1384
+      }
+    },
+    {
+      "label": "C9_048",
+      "text": "MOVETHEMARKXXXXXXXXXXEASTNORTHEASTXXXXXXXXXXXXXXXXXXXXXXXXXXXXXBERLINCLOCKX",
+      "metadata": {
+        "campaign": "C9",
+        "method": "PIGG_PCFG",
+        "seed": 1385
+      }
+    },
+    {
+      "label": "C9_049",
+      "text": "LOOKPATHXXXXXXXXXXXXXEASTNORTHEASTXXXXXXXXXXXXXXXXXXXXXXXXXXXXXBERLINCLOCKX",
+      "metadata": {
+        "campaign": "C9",
+        "method": "PIGG_PCFG",
+        "seed": 1386
+      }
+    },
+    {
+      "label": "C9_050",
+      "text": "LOOKTOSTEPXXXXXXXXXXXEASTNORTHEASTXXXXXXXXXXXXXXXXXXXXXXXXXXXXXBERLINCLOCKX",
+      "metadata": {
+        "campaign": "C9",
+        "method": "PIGG_PCFG",
+        "seed": 1387
+      }
+    },
+    {
+      "label": "C9_051",
+      "text": "TURNYOURPATHXXXXXXXXXEASTNORTHEASTXXXXXXXXXXXXXXXXXXXXXXXXXXXXXBERLINCLOCKX",
+      "metadata": {
+        "campaign": "C9",
+        "method": "PIGG_PCFG",
+        "seed": 1388
+      }
+    },
+    {
+      "label": "C9_052",
+      "text": "MOVEATPATHXXXXXXXXXXXEASTNORTHEASTXXXXXXXXXXXXXXXXXXXXXXXXXXXXXBERLINCLOCKX",
+      "metadata": {
+        "campaign": "C9",
+        "method": "PIGG_PCFG",
+        "seed": 1389
+      }
+    },
+    {
+      "label": "C9_053",
+      "text": "FINDYOURMARKXXXXXXXXXEASTNORTHEASTXXXXXXXXXXXXXXXXXXXXXXXXXXXXXBERLINCLOCKX",
+      "metadata": {
+        "campaign": "C9",
+        "method": "PIGG_PCFG",
+        "seed": 1390
+      }
+    },
+    {
+      "label": "C9_054",
+      "text": "LOOKATSTEPXXXXXXXXXXXEASTNORTHEASTXXXXXXXXXXXXXXXXXXXXXXXXXXXXXBERLINCLOCKX",
+      "metadata": {
+        "campaign": "C9",
+        "method": "PIGG_PCFG",
+        "seed": 1391
+      }
+    },
+    {
+      "label": "C9_055",
+      "text": "FINDSTEPANDFINDASTEPXEASTNORTHEASTXXXXXXXXXXXXXXXXXXXXXXXXXXXXXBERLINCLOCKX",
+      "metadata": {
+        "campaign": "C9",
+        "method": "PIGG_PCFG",
+        "seed": 1392
+      }
+    },
+    {
+      "label": "C9_056",
+      "text": "TURNWALLANDMOVETOSTEPEASTNORTHEASTXXXXXXXXXXXXXXXXXXXXXXXXXXXXXBERLINCLOCKX",
+      "metadata": {
+        "campaign": "C9",
+        "method": "PIGG_PCFG",
+        "seed": 1393
+      }
+    },
+    {
+      "label": "C9_057",
+      "text": "WALKADOORANDTURNASTEPEASTNORTHEASTXXXXXXXXXXXXXXXXXXXXXXXXXXXXXBERLINCLOCKX",
+      "metadata": {
+        "campaign": "C9",
+        "method": "PIGG_PCFG",
+        "seed": 1394
+      }
+    },
+    {
+      "label": "C9_058",
+      "text": "LOOKMARKXXXXXXXXXXXXXEASTNORTHEASTXXXXXXXXXXXXXXXXXXXXXXXXXXXXXBERLINCLOCKX",
+      "metadata": {
+        "campaign": "C9",
+        "method": "PIGG_PCFG",
+        "seed": 1395
+      }
+    },
+    {
+      "label": "C9_059",
+      "text": "MOVEPATHXXXXXXXXXXXXXEASTNORTHEASTXXXXXXXXXXXXXXXXXXXXXXXXXXXXXBERLINCLOCKX",
+      "metadata": {
+        "campaign": "C9",
+        "method": "PIGG_PCFG",
+        "seed": 1396
+      }
+    },
+    {
+      "label": "C9_060",
+      "text": "MOVESTEPXXXXXXXXXXXXXEASTNORTHEASTXXXXXXXXXXXXXXXXXXXXXXXXXXXXXBERLINCLOCKX",
+      "metadata": {
+        "campaign": "C9",
+        "method": "PIGG_PCFG",
+        "seed": 1397
+      }
+    },
+    {
+      "label": "C9_061",
+      "text": "TURNPATHORMOVEWALLXXXEASTNORTHEASTXXXXXXXXXXXXXXXXXXXXXXXXXXXXXBERLINCLOCKX",
+      "metadata": {
+        "campaign": "C9",
+        "method": "PIGG_PCFG",
+        "seed": 1398
+      }
+    },
+    {
+      "label": "C9_062",
+      "text": "LOOKPATHXXXXXXXXXXXXXEASTNORTHEASTXXXXXXXXXXXXXXXXXXXXXXXXXXXXXBERLINCLOCKX",
+      "metadata": {
+        "campaign": "C9",
+        "method": "PIGG_PCFG",
+        "seed": 1399
+      }
+    },
+    {
+      "label": "C9_063",
+      "text": "LOOKBYWALLXXXXXXXXXXXEASTNORTHEASTXXXXXXXXXXXXXXXXXXXXXXXXXXXXXBERLINCLOCKX",
+      "metadata": {
+        "campaign": "C9",
+        "method": "PIGG_PCFG",
+        "seed": 1400
+      }
+    },
+    {
+      "label": "C9_064",
+      "text": "MOVEASTEPBUTTURNASTEPEASTNORTHEASTXXXXXXXXXXXXXXXXXXXXXXXXXXXXXBERLINCLOCKX",
+      "metadata": {
+        "campaign": "C9",
+        "method": "PIGG_PCFG",
+        "seed": 1401
+      }
+    },
+    {
+      "label": "C9_065",
+      "text": "FINDINPATHXXXXXXXXXXXEASTNORTHEASTXXXXXXXXXXXXXXXXXXXXXXXXXXXXXBERLINCLOCKX",
+      "metadata": {
+        "campaign": "C9",
+        "method": "PIGG_PCFG",
+        "seed": 1402
+      }
+    },
+    {
+      "label": "C9_066",
+      "text": "MOVEMARKBUTWALKADOORXEASTNORTHEASTXXXXXXXXXXXXXXXXXXXXXXXXXXXXXBERLINCLOCKX",
+      "metadata": {
+        "campaign": "C9",
+        "method": "PIGG_PCFG",
+        "seed": 1403
+      }
+    },
+    {
+      "label": "C9_067",
+      "text": "FINDASTEPXXXXXXXXXXXXEASTNORTHEASTXXXXXXXXXXXXXXXXXXXXXXXXXXXXXBERLINCLOCKX",
+      "metadata": {
+        "campaign": "C9",
+        "method": "PIGG_PCFG",
+        "seed": 1404
+      }
+    },
+    {
+      "label": "C9_068",
+      "text": "LOOKTHEWALLBUTMOVEASTEASTNORTHEASTXXXXXXXXXXXXXXXXXXXXXXXXXXXXXBERLINCLOCKX",
+      "metadata": {
+        "campaign": "C9",
+        "method": "PIGG_PCFG",
+        "seed": 1405
+      }
+    },
+    {
+      "label": "C9_069",
+      "text": "WALKONPATHXXXXXXXXXXXEASTNORTHEASTXXXXXXXXXXXXXXXXXXXXXXXXXXXXXBERLINCLOCKX",
+      "metadata": {
+        "campaign": "C9",
+        "method": "PIGG_PCFG",
+        "seed": 1406
+      }
+    },
+    {
+      "label": "C9_070",
+      "text": "WALKINTHESTEPXXXXXXXXEASTNORTHEASTXXXXXXXXXXXXXXXXXXXXXXXXXXXXXBERLINCLOCKX",
+      "metadata": {
+        "campaign": "C9",
+        "method": "PIGG_PCFG",
+        "seed": 1407
+      }
+    },
+    {
+      "label": "C9_071",
+      "text": "FINDPATHORFINDINMARKXEASTNORTHEASTXXXXXXXXXXXXXXXXXXXXXXXXXXXXXBERLINCLOCKX",
+      "metadata": {
+        "campaign": "C9",
+        "method": "PIGG_PCFG",
+        "seed": 1408
+      }
+    },
+    {
+      "label": "C9_072",
+      "text": "FINDONMARKXXXXXXXXXXXEASTNORTHEASTXXXXXXXXXXXXXXXXXXXXXXXXXXXXXBERLINCLOCKX",
+      "metadata": {
+        "campaign": "C9",
+        "method": "PIGG_PCFG",
+        "seed": 1409
+      }
+    },
+    {
+      "label": "C9_073",
+      "text": "WALKMARKANDMOVEBYTHESEASTNORTHEASTXXXXXXXXXXXXXXXXXXXXXXXXXXXXXBERLINCLOCKX",
+      "metadata": {
+        "campaign": "C9",
+        "method": "PIGG_PCFG",
+        "seed": 1410
+      }
+    },
+    {
+      "label": "C9_074",
+      "text": "FINDTOWALLXXXXXXXXXXXEASTNORTHEASTXXXXXXXXXXXXXXXXXXXXXXXXXXXXXBERLINCLOCKX",
+      "metadata": {
+        "campaign": "C9",
+        "method": "PIGG_PCFG",
+        "seed": 1411
+      }
+    },
+    {
+      "label": "C9_075",
+      "text": "TURNTHESTEPANDTURNONSEASTNORTHEASTXXXXXXXXXXXXXXXXXXXXXXXXXXXXXBERLINCLOCKX",
+      "metadata": {
+        "campaign": "C9",
+        "method": "PIGG_PCFG",
+        "seed": 1412
+      }
+    },
+    {
+      "label": "C9_076",
+      "text": "FINDSTEPANDMOVEDOORXXEASTNORTHEASTXXXXXXXXXXXXXXXXXXXXXXXXXXXXXBERLINCLOCKX",
+      "metadata": {
+        "campaign": "C9",
+        "method": "PIGG_PCFG",
+        "seed": 1413
+      }
+    },
+    {
+      "label": "C9_077",
+      "text": "MOVEONTHEWALLXXXXXXXXEASTNORTHEASTXXXXXXXXXXXXXXXXXXXXXXXXXXXXXBERLINCLOCKX",
+      "metadata": {
+        "campaign": "C9",
+        "method": "PIGG_PCFG",
+        "seed": 1414
+      }
+    },
+    {
+      "label": "C9_078",
+      "text": "LOOKATDOORANDLOOKONYOEASTNORTHEASTXXXXXXXXXXXXXXXXXXXXXXXXXXXXXBERLINCLOCKX",
+      "metadata": {
+        "campaign": "C9",
+        "method": "PIGG_PCFG",
+        "seed": 1415
+      }
+    },
+    {
+      "label": "C9_079",
+      "text": "WALKINASTEPXXXXXXXXXXEASTNORTHEASTXXXXXXXXXXXXXXXXXXXXXXXXXXXXXBERLINCLOCKX",
+      "metadata": {
+        "campaign": "C9",
+        "method": "PIGG_PCFG",
+        "seed": 1416
+      }
+    },
+    {
+      "label": "C9_080",
+      "text": "FINDINWALLBUTTURNINSTEASTNORTHEASTXXXXXXXXXXXXXXXXXXXXXXXXXXXXXBERLINCLOCKX",
+      "metadata": {
+        "campaign": "C9",
+        "method": "PIGG_PCFG",
+        "seed": 1417
+      }
+    },
+    {
+      "label": "C9_081",
+      "text": "WALKMARKXXXXXXXXXXXXXEASTNORTHEASTXXXXXXXXXXXXXXXXXXXXXXXXXXXXXBERLINCLOCKX",
+      "metadata": {
+        "campaign": "C9",
+        "method": "PIGG_PCFG",
+        "seed": 1418
+      }
+    },
+    {
+      "label": "C9_082",
+      "text": "MOVETHEPATHXXXXXXXXXXEASTNORTHEASTXXXXXXXXXXXXXXXXXXXXXXXXXXXXXBERLINCLOCKX",
+      "metadata": {
+        "campaign": "C9",
+        "method": "PIGG_PCFG",
+        "seed": 1419
+      }
+    },
+    {
+      "label": "C9_083",
+      "text": "FINDMARKANDTURNTHEWALEASTNORTHEASTXXXXXXXXXXXXXXXXXXXXXXXXXXXXXBERLINCLOCKX",
+      "metadata": {
+        "campaign": "C9",
+        "method": "PIGG_PCFG",
+        "seed": 1420
+      }
+    },
+    {
+      "label": "C9_084",
+      "text": "MOVEBYTHEPATHXXXXXXXXEASTNORTHEASTXXXXXXXXXXXXXXXXXXXXXXXXXXXXXBERLINCLOCKX",
+      "metadata": {
+        "campaign": "C9",
+        "method": "PIGG_PCFG",
+        "seed": 1421
+      }
+    },
+    {
+      "label": "C9_085",
+      "text": "WALKSTEPXXXXXXXXXXXXXEASTNORTHEASTXXXXXXXXXXXXXXXXXXXXXXXXXXXXXBERLINCLOCKX",
+      "metadata": {
+        "campaign": "C9",
+        "method": "PIGG_PCFG",
+        "seed": 1422
+      }
+    },
+    {
+      "label": "C9_086",
+      "text": "FINDMARKANDTURNATDOOREASTNORTHEASTXXXXXXXXXXXXXXXXXXXXXXXXXXXXXBERLINCLOCKX",
+      "metadata": {
+        "campaign": "C9",
+        "method": "PIGG_PCFG",
+        "seed": 1423
+      }
+    },
+    {
+      "label": "C9_087",
+      "text": "LOOKDOORXXXXXXXXXXXXXEASTNORTHEASTXXXXXXXXXXXXXXXXXXXXXXXXXXXXXBERLINCLOCKX",
+      "metadata": {
+        "campaign": "C9",
+        "method": "PIGG_PCFG",
+        "seed": 1424
+      }
+    },
+    {
+      "label": "C9_088",
+      "text": "WALKTHEDOORANDLOOKATPEASTNORTHEASTXXXXXXXXXXXXXXXXXXXXXXXXXXXXXBERLINCLOCKX",
+      "metadata": {
+        "campaign": "C9",
+        "method": "PIGG_PCFG",
+        "seed": 1425
+      }
+    },
+    {
+      "label": "C9_089",
+      "text": "LOOKTOTHEMARKXXXXXXXXEASTNORTHEASTXXXXXXXXXXXXXXXXXXXXXXXXXXXXXBERLINCLOCKX",
+      "metadata": {
+        "campaign": "C9",
+        "method": "PIGG_PCFG",
+        "seed": 1426
+      }
+    },
+    {
+      "label": "C9_090",
+      "text": "WALKYOURMARKXXXXXXXXXEASTNORTHEASTXXXXXXXXXXXXXXXXXXXXXXXXXXXXXBERLINCLOCKX",
+      "metadata": {
+        "campaign": "C9",
+        "method": "PIGG_PCFG",
+        "seed": 1427
+      }
+    },
+    {
+      "label": "C9_091",
+      "text": "TURNYOURSTEPXXXXXXXXXEASTNORTHEASTXXXXXXXXXXXXXXXXXXXXXXXXXXXXXBERLINCLOCKX",
+      "metadata": {
+        "campaign": "C9",
+        "method": "PIGG_PCFG",
+        "seed": 1428
+      }
+    },
+    {
+      "label": "C9_092",
+      "text": "MOVETOAMARKXXXXXXXXXXEASTNORTHEASTXXXXXXXXXXXXXXXXXXXXXXXXXXXXXBERLINCLOCKX",
+      "metadata": {
+        "campaign": "C9",
+        "method": "PIGG_PCFG",
+        "seed": 1429
+      }
+    },
+    {
+      "label": "C9_093",
+      "text": "LOOKINWALLORLOOKONTHEEASTNORTHEASTXXXXXXXXXXXXXXXXXXXXXXXXXXXXXBERLINCLOCKX",
+      "metadata": {
+        "campaign": "C9",
+        "method": "PIGG_PCFG",
+        "seed": 1430
+      }
+    },
+    {
+      "label": "C9_094",
+      "text": "WALKWALLXXXXXXXXXXXXXEASTNORTHEASTXXXXXXXXXXXXXXXXXXXXXXXXXXXXXBERLINCLOCKX",
+      "metadata": {
+        "campaign": "C9",
+        "method": "PIGG_PCFG",
+        "seed": 1431
+      }
+    },
+    {
+      "label": "C9_095",
+      "text": "TURNTHEDOORORMOVEINYOEASTNORTHEASTXXXXXXXXXXXXXXXXXXXXXXXXXXXXXBERLINCLOCKX",
+      "metadata": {
+        "campaign": "C9",
+        "method": "PIGG_PCFG",
+        "seed": 1432
+      }
+    },
+    {
+      "label": "C9_096",
+      "text": "FINDWALLXXXXXXXXXXXXXEASTNORTHEASTXXXXXXXXXXXXXXXXXXXXXXXXXXXXXBERLINCLOCKX",
+      "metadata": {
+        "campaign": "C9",
+        "method": "PIGG_PCFG",
+        "seed": 1433
+      }
+    },
+    {
+      "label": "C9_097",
+      "text": "MOVEMARKXXXXXXXXXXXXXEASTNORTHEASTXXXXXXXXXXXXXXXXXXXXXXXXXXXXXBERLINCLOCKX",
+      "metadata": {
+        "campaign": "C9",
+        "method": "PIGG_PCFG",
+        "seed": 1434
+      }
+    },
+    {
+      "label": "C9_098",
+      "text": "TURNONYOURDOORBUTTURNEASTNORTHEASTXXXXXXXXXXXXXXXXXXXXXXXXXXXXXBERLINCLOCKX",
+      "metadata": {
+        "campaign": "C9",
+        "method": "PIGG_PCFG",
+        "seed": 1435
+      }
+    },
+    {
+      "label": "C9_099",
+      "text": "FINDTOMARKBUTWALKONPAEASTNORTHEASTXXXXXXXXXXXXXXXXXXXXXXXXXXXXXBERLINCLOCKX",
+      "metadata": {
+        "campaign": "C9",
+        "method": "PIGG_PCFG",
+        "seed": 1436
+      }
+    }
+  ]
+}

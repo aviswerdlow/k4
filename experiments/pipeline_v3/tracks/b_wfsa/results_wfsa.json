@@ -1,0 +1,1213 @@
+{
+  "campaign": "Track_B_WFSA",
+  "total_heads": 10,
+  "evaluations": [
+    {
+      "results": {
+        "fixed": {
+          "score_norm": 1.3646259525646862,
+          "anchor_result": {
+            "total_score": 1.0,
+            "matches": {
+              "EAST": {
+                "found": true,
+                "position": 21,
+                "score": 1.0
+              },
+              "NORTHEAST": {
+                "found": true,
+                "position": 25,
+                "score": 1.0
+              },
+              "BERLINCLOCK": {
+                "found": true,
+                "position": 63,
+                "score": 1.0
+              }
+            },
+            "window_radius": 0,
+            "typo_budget": 0
+          },
+          "z_ngram": 3.5487531752156207,
+          "z_coverage": 0.0,
+          "z_compress": -18.16760316515149,
+          "raw_ngram": 0.03387634209552018,
+          "raw_coverage": 0.0,
+          "raw_compress": 0.6526746605883411,
+          "blinded_text": "SSITYSITHEAREQUIREST..."
+        },
+        "windowed_r2": {
+          "score_norm": 1.3646259525646862,
+          "anchor_result": {
+            "total_score": 1.0,
+            "matches": {
+              "EAST": {
+                "found": true,
+                "position": 21,
+                "score": 1.0
+              },
+              "NORTHEAST": {
+                "found": true,
+                "position": 25,
+                "score": 1.0
+              },
+              "BERLINCLOCK": {
+                "found": true,
+                "position": 63,
+                "score": 1.0
+              }
+            },
+            "window_radius": 2,
+            "typo_budget": 0
+          },
+          "z_ngram": 3.5487531752156207,
+          "z_coverage": 0.0,
+          "z_compress": -18.16760316515149,
+          "raw_ngram": 0.03387634209552018,
+          "raw_coverage": 0.0,
+          "raw_compress": 0.6526746605883411,
+          "blinded_text": "SSITYSITHEAREQUIREST..."
+        },
+        "shuffled": {
+          "score_norm": 1.3646259525646862,
+          "anchor_result": {
+            "total_score": 1.0,
+            "matches": {
+              "EAST": {
+                "found": true,
+                "position": 21,
+                "score": 1.0
+              },
+              "NORTHEAST": {
+                "found": true,
+                "position": 25,
+                "score": 1.0
+              },
+              "BERLINCLOCK": {
+                "found": true,
+                "position": 63,
+                "score": 1.0
+              }
+            },
+            "window_radius": 100,
+            "typo_budget": 2
+          },
+          "z_ngram": 3.5487531752156207,
+          "z_coverage": 0.0,
+          "z_compress": -18.16760316515149,
+          "raw_ngram": 0.03387634209552018,
+          "raw_coverage": 0.0,
+          "raw_compress": 0.6526746605883411,
+          "blinded_text": "SSITYSITHEAREQUIREST..."
+        }
+      },
+      "scores": {
+        "fixed": 1.3646259525646862,
+        "windowed_r2": 1.3646259525646862,
+        "shuffled": 1.3646259525646862
+      },
+      "delta_vs_windowed": 0.0,
+      "delta_vs_shuffled": 0.0,
+      "best_mode": "fixed",
+      "pass_deltas": false,
+      "v3_metrics": {
+        "generation_quality": {
+          "trigram_score": -0.34884117275088034,
+          "bigram_entropy": -0.0037362279800789273,
+          "char_distribution": 0.7451666666666666,
+          "repetition_penalty": 0.05405405405405406,
+          "quality_score": 0.0012328987907632028
+        },
+        "v3_composite": 0.6829294256777247
+      },
+      "label": "WFSA_006"
+    },
+    {
+      "results": {
+        "fixed": {
+          "score_norm": 3.8276385988157715,
+          "anchor_result": {
+            "total_score": 1.0,
+            "matches": {
+              "EAST": {
+                "found": true,
+                "position": 21,
+                "score": 1.0
+              },
+              "NORTHEAST": {
+                "found": true,
+                "position": 25,
+                "score": 1.0
+              },
+              "BERLINCLOCK": {
+                "found": true,
+                "position": 63,
+                "score": 1.0
+              }
+            },
+            "window_radius": 0,
+            "typo_budget": 0
+          },
+          "z_ngram": 11.758795329385906,
+          "z_coverage": 0.0,
+          "z_compress": -20.13104242014066,
+          "raw_ngram": 0.0945945945945946,
+          "raw_coverage": 0.0,
+          "raw_compress": 0.6211544673727457,
+          "blinded_text": "YPTOWERLIVERGEDGEDGE..."
+        },
+        "windowed_r2": {
+          "score_norm": 3.8276385988157715,
+          "anchor_result": {
+            "total_score": 1.0,
+            "matches": {
+              "EAST": {
+                "found": true,
+                "position": 21,
+                "score": 1.0
+              },
+              "NORTHEAST": {
+                "found": true,
+                "position": 25,
+                "score": 1.0
+              },
+              "BERLINCLOCK": {
+                "found": true,
+                "position": 63,
+                "score": 1.0
+              }
+            },
+            "window_radius": 2,
+            "typo_budget": 0
+          },
+          "z_ngram": 11.758795329385906,
+          "z_coverage": 0.0,
+          "z_compress": -20.13104242014066,
+          "raw_ngram": 0.0945945945945946,
+          "raw_coverage": 0.0,
+          "raw_compress": 0.6211544673727457,
+          "blinded_text": "YPTOWERLIVERGEDGEDGE..."
+        },
+        "shuffled": {
+          "score_norm": 3.8276385988157715,
+          "anchor_result": {
+            "total_score": 1.0,
+            "matches": {
+              "EAST": {
+                "found": true,
+                "position": 21,
+                "score": 1.0
+              },
+              "NORTHEAST": {
+                "found": true,
+                "position": 25,
+                "score": 1.0
+              },
+              "BERLINCLOCK": {
+                "found": true,
+                "position": 63,
+                "score": 1.0
+              }
+            },
+            "window_radius": 100,
+            "typo_budget": 2
+          },
+          "z_ngram": 11.758795329385906,
+          "z_coverage": 0.0,
+          "z_compress": -20.13104242014066,
+          "raw_ngram": 0.0945945945945946,
+          "raw_coverage": 0.0,
+          "raw_compress": 0.6211544673727457,
+          "blinded_text": "YPTOWERLIVERGEDGEDGE..."
+        }
+      },
+      "scores": {
+        "fixed": 3.8276385988157715,
+        "windowed_r2": 3.8276385988157715,
+        "shuffled": 3.8276385988157715
+      },
+      "delta_vs_windowed": 0.0,
+      "delta_vs_shuffled": 0.0,
+      "best_mode": "fixed",
+      "pass_deltas": false,
+      "v3_metrics": {
+        "generation_quality": {
+          "trigram_score": -0.38429406995967774,
+          "bigram_entropy": -0.00849142722745209,
+          "char_distribution": 0.6264999999999998,
+          "repetition_penalty": 0.6486486486486487,
+          "quality_score": 0.0011465315318122111
+        },
+        "v3_composite": 1.9143925651737919
+      },
+      "label": "WFSA_004"
+    },
+    {
+      "results": {
+        "fixed": {
+          "score_norm": 1.090540703820282,
+          "anchor_result": {
+            "total_score": 1.0,
+            "matches": {
+              "EAST": {
+                "found": true,
+                "position": 21,
+                "score": 1.0
+              },
+              "NORTHEAST": {
+                "found": true,
+                "position": 25,
+                "score": 1.0
+              },
+              "BERLINCLOCK": {
+                "found": true,
+                "position": 63,
+                "score": 1.0
+              }
+            },
+            "window_radius": 0,
+            "typo_budget": 0
+          },
+          "z_ngram": 2.6351356794009395,
+          "z_coverage": 0.0,
+          "z_compress": -12.731562385990081,
+          "raw_ngram": 0.02711958533876342,
+          "raw_coverage": 0.0,
+          "raw_compress": 0.7399424766165833,
+          "blinded_text": "SESSESSECHAPHYSTANTU..."
+        },
+        "windowed_r2": {
+          "score_norm": 1.090540703820282,
+          "anchor_result": {
+            "total_score": 1.0,
+            "matches": {
+              "EAST": {
+                "found": true,
+                "position": 21,
+                "score": 1.0
+              },
+              "NORTHEAST": {
+                "found": true,
+                "position": 25,
+                "score": 1.0
+              },
+              "BERLINCLOCK": {
+                "found": true,
+                "position": 63,
+                "score": 1.0
+              }
+            },
+            "window_radius": 2,
+            "typo_budget": 0
+          },
+          "z_ngram": 2.6351356794009395,
+          "z_coverage": 0.0,
+          "z_compress": -12.731562385990081,
+          "raw_ngram": 0.02711958533876342,
+          "raw_coverage": 0.0,
+          "raw_compress": 0.7399424766165833,
+          "blinded_text": "SESSESSECHAPHYSTANTU..."
+        },
+        "shuffled": {
+          "score_norm": 1.090540703820282,
+          "anchor_result": {
+            "total_score": 1.0,
+            "matches": {
+              "EAST": {
+                "found": true,
+                "position": 21,
+                "score": 1.0
+              },
+              "NORTHEAST": {
+                "found": true,
+                "position": 25,
+                "score": 1.0
+              },
+              "BERLINCLOCK": {
+                "found": true,
+                "position": 63,
+                "score": 1.0
+              }
+            },
+            "window_radius": 100,
+            "typo_budget": 2
+          },
+          "z_ngram": 2.6351356794009395,
+          "z_coverage": 0.0,
+          "z_compress": -12.731562385990081,
+          "raw_ngram": 0.02711958533876342,
+          "raw_coverage": 0.0,
+          "raw_compress": 0.7399424766165833,
+          "blinded_text": "SESSESSECHAPHYSTANTU..."
+        }
+      },
+      "scores": {
+        "fixed": 1.090540703820282,
+        "windowed_r2": 1.090540703820282,
+        "shuffled": 1.090540703820282
+      },
+      "delta_vs_windowed": 0.0,
+      "delta_vs_shuffled": 0.0,
+      "best_mode": "fixed",
+      "pass_deltas": false,
+      "v3_metrics": {
+        "generation_quality": {
+          "trigram_score": -0.4148916653152983,
+          "bigram_entropy": -0.002844628121196456,
+          "char_distribution": 0.8008333333333333,
+          "repetition_penalty": 0.10810810810810811,
+          "quality_score": 0.0010526219580377176
+        },
+        "v3_composite": 0.5457966628891598
+      },
+      "label": "WFSA_003"
+    },
+    {
+      "results": {
+        "fixed": {
+          "score_norm": 3.2832226937755165,
+          "anchor_result": {
+            "total_score": 1.0,
+            "matches": {
+              "EAST": {
+                "found": true,
+                "position": 21,
+                "score": 1.0
+              },
+              "NORTHEAST": {
+                "found": true,
+                "position": 25,
+                "score": 1.0
+              },
+              "BERLINCLOCK": {
+                "found": true,
+                "position": 63,
+                "score": 1.0
+              }
+            },
+            "window_radius": 0,
+            "typo_budget": 0
+          },
+          "z_ngram": 9.944075645918389,
+          "z_coverage": 0.0,
+          "z_compress": -14.643074318896788,
+          "raw_ngram": 0.08117363939281748,
+          "raw_coverage": 0.0,
+          "raw_compress": 0.7092559018697276,
+          "blinded_text": "RAPEDGEDGEDGEDGEDGED..."
+        },
+        "windowed_r2": {
+          "score_norm": 3.2832226937755165,
+          "anchor_result": {
+            "total_score": 1.0,
+            "matches": {
+              "EAST": {
+                "found": true,
+                "position": 21,
+                "score": 1.0
+              },
+              "NORTHEAST": {
+                "found": true,
+                "position": 25,
+                "score": 1.0
+              },
+              "BERLINCLOCK": {
+                "found": true,
+                "position": 63,
+                "score": 1.0
+              }
+            },
+            "window_radius": 2,
+            "typo_budget": 0
+          },
+          "z_ngram": 9.944075645918389,
+          "z_coverage": 0.0,
+          "z_compress": -14.643074318896788,
+          "raw_ngram": 0.08117363939281748,
+          "raw_coverage": 0.0,
+          "raw_compress": 0.7092559018697276,
+          "blinded_text": "RAPEDGEDGEDGEDGEDGED..."
+        },
+        "shuffled": {
+          "score_norm": 3.2832226937755165,
+          "anchor_result": {
+            "total_score": 1.0,
+            "matches": {
+              "EAST": {
+                "found": true,
+                "position": 21,
+                "score": 1.0
+              },
+              "NORTHEAST": {
+                "found": true,
+                "position": 25,
+                "score": 1.0
+              },
+              "BERLINCLOCK": {
+                "found": true,
+                "position": 63,
+                "score": 1.0
+              }
+            },
+            "window_radius": 100,
+            "typo_budget": 2
+          },
+          "z_ngram": 9.944075645918389,
+          "z_coverage": 0.0,
+          "z_compress": -14.643074318896788,
+          "raw_ngram": 0.08117363939281748,
+          "raw_coverage": 0.0,
+          "raw_compress": 0.7092559018697276,
+          "blinded_text": "RAPEDGEDGEDGEDGEDGED..."
+        }
+      },
+      "scores": {
+        "fixed": 3.2832226937755165,
+        "windowed_r2": 3.2832226937755165,
+        "shuffled": 3.2832226937755165
+      },
+      "delta_vs_windowed": 0.0,
+      "delta_vs_shuffled": 0.0,
+      "best_mode": "fixed",
+      "pass_deltas": false,
+      "v3_metrics": {
+        "generation_quality": {
+          "trigram_score": -0.408234266557186,
+          "bigram_entropy": -0.0041183422053142705,
+          "char_distribution": 0.7771666666666667,
+          "repetition_penalty": 0.3783783783783784,
+          "quality_score": 0.0010451003627354979
+        },
+        "v3_composite": 1.642133897069126
+      },
+      "label": "WFSA_005"
+    },
+    {
+      "results": {
+        "fixed": {
+          "score_norm": 3.016646629928219,
+          "anchor_result": {
+            "total_score": 1.0,
+            "matches": {
+              "EAST": {
+                "found": true,
+                "position": 21,
+                "score": 1.0
+              },
+              "NORTHEAST": {
+                "found": true,
+                "position": 25,
+                "score": 1.0
+              },
+              "BERLINCLOCK": {
+                "found": true,
+                "position": 63,
+                "score": 1.0
+              }
+            },
+            "window_radius": 0,
+            "typo_budget": 0
+          },
+          "z_ngram": 9.055488766427398,
+          "z_coverage": 0.0,
+          "z_compress": -17.23565282916957,
+          "raw_ngram": 0.07460199925953351,
+          "raw_coverage": 0.0,
+          "raw_compress": 0.6676357828042924,
+          "blinded_text": "NFORITYSIONVERLINFOR..."
+        },
+        "windowed_r2": {
+          "score_norm": 3.016646629928219,
+          "anchor_result": {
+            "total_score": 1.0,
+            "matches": {
+              "EAST": {
+                "found": true,
+                "position": 21,
+                "score": 1.0
+              },
+              "NORTHEAST": {
+                "found": true,
+                "position": 25,
+                "score": 1.0
+              },
+              "BERLINCLOCK": {
+                "found": true,
+                "position": 63,
+                "score": 1.0
+              }
+            },
+            "window_radius": 2,
+            "typo_budget": 0
+          },
+          "z_ngram": 9.055488766427398,
+          "z_coverage": 0.0,
+          "z_compress": -17.23565282916957,
+          "raw_ngram": 0.07460199925953351,
+          "raw_coverage": 0.0,
+          "raw_compress": 0.6676357828042924,
+          "blinded_text": "NFORITYSIONVERLINFOR..."
+        },
+        "shuffled": {
+          "score_norm": 3.016646629928219,
+          "anchor_result": {
+            "total_score": 1.0,
+            "matches": {
+              "EAST": {
+                "found": true,
+                "position": 21,
+                "score": 1.0
+              },
+              "NORTHEAST": {
+                "found": true,
+                "position": 25,
+                "score": 1.0
+              },
+              "BERLINCLOCK": {
+                "found": true,
+                "position": 63,
+                "score": 1.0
+              }
+            },
+            "window_radius": 100,
+            "typo_budget": 2
+          },
+          "z_ngram": 9.055488766427398,
+          "z_coverage": 0.0,
+          "z_compress": -17.23565282916957,
+          "raw_ngram": 0.07460199925953351,
+          "raw_coverage": 0.0,
+          "raw_compress": 0.6676357828042924,
+          "blinded_text": "NFORITYSIONVERLINFOR..."
+        }
+      },
+      "scores": {
+        "fixed": 3.016646629928219,
+        "windowed_r2": 3.016646629928219,
+        "shuffled": 3.016646629928219
+      },
+      "delta_vs_windowed": 0.0,
+      "delta_vs_shuffled": 0.0,
+      "best_mode": "fixed",
+      "pass_deltas": false,
+      "v3_metrics": {
+        "generation_quality": {
+          "trigram_score": -0.3933995118166881,
+          "bigram_entropy": -0.0033965708909808436,
+          "char_distribution": 0.7418333333333333,
+          "repetition_penalty": 0.24324324324324326,
+          "quality_score": 0.001011185439193347
+        },
+        "v3_composite": 1.5088289076837063
+      },
+      "label": "WFSA_007"
+    },
+    {
+      "results": {
+        "fixed": {
+          "score_norm": 2.194390883695006,
+          "anchor_result": {
+            "total_score": 1.0,
+            "matches": {
+              "EAST": {
+                "found": true,
+                "position": 21,
+                "score": 1.0
+              },
+              "NORTHEAST": {
+                "found": true,
+                "position": 25,
+                "score": 1.0
+              },
+              "BERLINCLOCK": {
+                "found": true,
+                "position": 63,
+                "score": 1.0
+              }
+            },
+            "window_radius": 0,
+            "typo_budget": 0
+          },
+          "z_ngram": 6.314636278983353,
+          "z_coverage": 0.0,
+          "z_compress": -14.759561695823876,
+          "raw_ngram": 0.05433172898926324,
+          "raw_coverage": 0.0,
+          "raw_compress": 0.7073858645774662,
+          "blinded_text": "ERNSFORKSSICALGORMEC..."
+        },
+        "windowed_r2": {
+          "score_norm": 2.194390883695006,
+          "anchor_result": {
+            "total_score": 1.0,
+            "matches": {
+              "EAST": {
+                "found": true,
+                "position": 21,
+                "score": 1.0
+              },
+              "NORTHEAST": {
+                "found": true,
+                "position": 25,
+                "score": 1.0
+              },
+              "BERLINCLOCK": {
+                "found": true,
+                "position": 63,
+                "score": 1.0
+              }
+            },
+            "window_radius": 2,
+            "typo_budget": 0
+          },
+          "z_ngram": 6.314636278983353,
+          "z_coverage": 0.0,
+          "z_compress": -14.759561695823876,
+          "raw_ngram": 0.05433172898926324,
+          "raw_coverage": 0.0,
+          "raw_compress": 0.7073858645774662,
+          "blinded_text": "ERNSFORKSSICALGORMEC..."
+        },
+        "shuffled": {
+          "score_norm": 2.194390883695006,
+          "anchor_result": {
+            "total_score": 1.0,
+            "matches": {
+              "EAST": {
+                "found": true,
+                "position": 21,
+                "score": 1.0
+              },
+              "NORTHEAST": {
+                "found": true,
+                "position": 25,
+                "score": 1.0
+              },
+              "BERLINCLOCK": {
+                "found": true,
+                "position": 63,
+                "score": 1.0
+              }
+            },
+            "window_radius": 100,
+            "typo_budget": 2
+          },
+          "z_ngram": 6.314636278983353,
+          "z_coverage": 0.0,
+          "z_compress": -14.759561695823876,
+          "raw_ngram": 0.05433172898926324,
+          "raw_coverage": 0.0,
+          "raw_compress": 0.7073858645774662,
+          "blinded_text": "ERNSFORKSSICALGORMEC..."
+        }
+      },
+      "scores": {
+        "fixed": 2.194390883695006,
+        "windowed_r2": 2.194390883695006,
+        "shuffled": 2.194390883695006
+      },
+      "delta_vs_windowed": 0.0,
+      "delta_vs_shuffled": 0.0,
+      "best_mode": "fixed",
+      "pass_deltas": false,
+      "v3_metrics": {
+        "generation_quality": {
+          "trigram_score": -0.40364527002227885,
+          "bigram_entropy": -0.0024625138959611125,
+          "char_distribution": 0.7718333333333333,
+          "repetition_penalty": 0.02702702702702703,
+          "quality_score": 0.0009671177057534632
+        },
+        "v3_composite": 1.0976790007003796
+      },
+      "label": "WFSA_001"
+    },
+    {
+      "results": {
+        "fixed": {
+          "score_norm": 1.9165510425020482,
+          "anchor_result": {
+            "total_score": 1.0,
+            "matches": {
+              "EAST": {
+                "found": true,
+                "position": 21,
+                "score": 1.0
+              },
+              "NORTHEAST": {
+                "found": true,
+                "position": 25,
+                "score": 1.0
+              },
+              "BERLINCLOCK": {
+                "found": true,
+                "position": 63,
+                "score": 1.0
+              }
+            },
+            "window_radius": 0,
+            "typo_budget": 0
+          },
+          "z_ngram": 5.388503475006828,
+          "z_coverage": 0.0,
+          "z_compress": -16.200260348015107,
+          "raw_ngram": 0.047482413920770086,
+          "raw_coverage": 0.0,
+          "raw_compress": 0.6842575198796996,
+          "blinded_text": "WORITHERNSFOXRMSTALL..."
+        },
+        "windowed_r2": {
+          "score_norm": 1.9165510425020482,
+          "anchor_result": {
+            "total_score": 1.0,
+            "matches": {
+              "EAST": {
+                "found": true,
+                "position": 21,
+                "score": 1.0
+              },
+              "NORTHEAST": {
+                "found": true,
+                "position": 25,
+                "score": 1.0
+              },
+              "BERLINCLOCK": {
+                "found": true,
+                "position": 63,
+                "score": 1.0
+              }
+            },
+            "window_radius": 2,
+            "typo_budget": 0
+          },
+          "z_ngram": 5.388503475006828,
+          "z_coverage": 0.0,
+          "z_compress": -16.200260348015107,
+          "raw_ngram": 0.047482413920770086,
+          "raw_coverage": 0.0,
+          "raw_compress": 0.6842575198796996,
+          "blinded_text": "WORITHERNSFOXRMSTALL..."
+        },
+        "shuffled": {
+          "score_norm": 1.9165510425020482,
+          "anchor_result": {
+            "total_score": 1.0,
+            "matches": {
+              "EAST": {
+                "found": true,
+                "position": 21,
+                "score": 1.0
+              },
+              "NORTHEAST": {
+                "found": true,
+                "position": 25,
+                "score": 1.0
+              },
+              "BERLINCLOCK": {
+                "found": true,
+                "position": 63,
+                "score": 1.0
+              }
+            },
+            "window_radius": 100,
+            "typo_budget": 2
+          },
+          "z_ngram": 5.388503475006828,
+          "z_coverage": 0.0,
+          "z_compress": -16.200260348015107,
+          "raw_ngram": 0.047482413920770086,
+          "raw_coverage": 0.0,
+          "raw_compress": 0.6842575198796996,
+          "blinded_text": "WORITHERNSFOXRMSTALL..."
+        }
+      },
+      "scores": {
+        "fixed": 1.9165510425020482,
+        "windowed_r2": 1.9165510425020482,
+        "shuffled": 1.9165510425020482
+      },
+      "delta_vs_windowed": 0.0,
+      "delta_vs_shuffled": 0.0,
+      "best_mode": "fixed",
+      "pass_deltas": false,
+      "v3_metrics": {
+        "generation_quality": {
+          "trigram_score": -0.37771386973849086,
+          "bigram_entropy": -0.002420056759823852,
+          "char_distribution": 0.7768333333333334,
+          "repetition_penalty": 0.0,
+          "quality_score": 0.0009140890037398607
+        },
+        "v3_composite": 0.958732565752894
+      },
+      "label": "WFSA_002"
+    },
+    {
+      "results": {
+        "fixed": {
+          "score_norm": 3.016646629928219,
+          "anchor_result": {
+            "total_score": 1.0,
+            "matches": {
+              "EAST": {
+                "found": true,
+                "position": 21,
+                "score": 1.0
+              },
+              "NORTHEAST": {
+                "found": true,
+                "position": 25,
+                "score": 1.0
+              },
+              "BERLINCLOCK": {
+                "found": true,
+                "position": 63,
+                "score": 1.0
+              }
+            },
+            "window_radius": 0,
+            "typo_budget": 0
+          },
+          "z_ngram": 9.055488766427398,
+          "z_coverage": 0.0,
+          "z_compress": -13.77160674539455,
+          "raw_ngram": 0.07460199925953351,
+          "raw_coverage": 0.0,
+          "raw_compress": 0.723246060326689,
+          "blinded_text": "NFORMSTECHANDSTRITIZ..."
+        },
+        "windowed_r2": {
+          "score_norm": 3.016646629928219,
+          "anchor_result": {
+            "total_score": 1.0,
+            "matches": {
+              "EAST": {
+                "found": true,
+                "position": 21,
+                "score": 1.0
+              },
+              "NORTHEAST": {
+                "found": true,
+                "position": 25,
+                "score": 1.0
+              },
+              "BERLINCLOCK": {
+                "found": true,
+                "position": 63,
+                "score": 1.0
+              }
+            },
+            "window_radius": 2,
+            "typo_budget": 0
+          },
+          "z_ngram": 9.055488766427398,
+          "z_coverage": 0.0,
+          "z_compress": -13.77160674539455,
+          "raw_ngram": 0.07460199925953351,
+          "raw_coverage": 0.0,
+          "raw_compress": 0.723246060326689,
+          "blinded_text": "NFORMSTECHANDSTRITIZ..."
+        },
+        "shuffled": {
+          "score_norm": 3.016646629928219,
+          "anchor_result": {
+            "total_score": 1.0,
+            "matches": {
+              "EAST": {
+                "found": true,
+                "position": 21,
+                "score": 1.0
+              },
+              "NORTHEAST": {
+                "found": true,
+                "position": 25,
+                "score": 1.0
+              },
+              "BERLINCLOCK": {
+                "found": true,
+                "position": 63,
+                "score": 1.0
+              }
+            },
+            "window_radius": 100,
+            "typo_budget": 2
+          },
+          "z_ngram": 9.055488766427398,
+          "z_coverage": 0.0,
+          "z_compress": -13.77160674539455,
+          "raw_ngram": 0.07460199925953351,
+          "raw_coverage": 0.0,
+          "raw_compress": 0.723246060326689,
+          "blinded_text": "NFORMSTECHANDSTRITIZ..."
+        }
+      },
+      "scores": {
+        "fixed": 3.016646629928219,
+        "windowed_r2": 3.016646629928219,
+        "shuffled": 3.016646629928219
+      },
+      "delta_vs_windowed": 0.0,
+      "delta_vs_shuffled": 0.0,
+      "best_mode": "fixed",
+      "pass_deltas": false,
+      "v3_metrics": {
+        "generation_quality": {
+          "trigram_score": -0.36878763560080235,
+          "bigram_entropy": -0.0036513137078044064,
+          "char_distribution": 0.7948333333333333,
+          "repetition_penalty": 0.32432432432432434,
+          "quality_score": 0.0009098373980662067
+        },
+        "v3_composite": 1.5087782336631426
+      },
+      "label": "WFSA_008"
+    },
+    {
+      "results": {
+        "fixed": {
+          "score_norm": 2.7312976038381542,
+          "anchor_result": {
+            "total_score": 1.0,
+            "matches": {
+              "EAST": {
+                "found": true,
+                "position": 21,
+                "score": 1.0
+              },
+              "NORTHEAST": {
+                "found": true,
+                "position": 25,
+                "score": 1.0
+              },
+              "BERLINCLOCK": {
+                "found": true,
+                "position": 63,
+                "score": 1.0
+              }
+            },
+            "window_radius": 0,
+            "typo_budget": 0
+          },
+          "z_ngram": 8.104325346127181,
+          "z_coverage": 0.0,
+          "z_compress": -16.461542487577272,
+          "raw_ngram": 0.06756756756756757,
+          "raw_coverage": 0.0,
+          "raw_compress": 0.6800630109322715,
+          "blinded_text": "LYSICSHAPEDGEDGEDGED..."
+        },
+        "windowed_r2": {
+          "score_norm": 2.7312976038381542,
+          "anchor_result": {
+            "total_score": 1.0,
+            "matches": {
+              "EAST": {
+                "found": true,
+                "position": 21,
+                "score": 1.0
+              },
+              "NORTHEAST": {
+                "found": true,
+                "position": 25,
+                "score": 1.0
+              },
+              "BERLINCLOCK": {
+                "found": true,
+                "position": 63,
+                "score": 1.0
+              }
+            },
+            "window_radius": 2,
+            "typo_budget": 0
+          },
+          "z_ngram": 8.104325346127181,
+          "z_coverage": 0.0,
+          "z_compress": -16.461542487577272,
+          "raw_ngram": 0.06756756756756757,
+          "raw_coverage": 0.0,
+          "raw_compress": 0.6800630109322715,
+          "blinded_text": "LYSICSHAPEDGEDGEDGED..."
+        },
+        "shuffled": {
+          "score_norm": 2.7312976038381542,
+          "anchor_result": {
+            "total_score": 1.0,
+            "matches": {
+              "EAST": {
+                "found": true,
+                "position": 21,
+                "score": 1.0
+              },
+              "NORTHEAST": {
+                "found": true,
+                "position": 25,
+                "score": 1.0
+              },
+              "BERLINCLOCK": {
+                "found": true,
+                "position": 63,
+                "score": 1.0
+              }
+            },
+            "window_radius": 100,
+            "typo_budget": 2
+          },
+          "z_ngram": 8.104325346127181,
+          "z_coverage": 0.0,
+          "z_compress": -16.461542487577272,
+          "raw_ngram": 0.06756756756756757,
+          "raw_coverage": 0.0,
+          "raw_compress": 0.6800630109322715,
+          "blinded_text": "LYSICSHAPEDGEDGEDGED..."
+        }
+      },
+      "scores": {
+        "fixed": 2.7312976038381542,
+        "windowed_r2": 2.7312976038381542,
+        "shuffled": 2.7312976038381542
+      },
+      "delta_vs_windowed": 0.0,
+      "delta_vs_shuffled": 0.0,
+      "best_mode": "fixed",
+      "pass_deltas": false,
+      "v3_metrics": {
+        "generation_quality": {
+          "trigram_score": -0.37333871776209077,
+          "bigram_entropy": -0.004373085022137835,
+          "char_distribution": 0.6731666666666665,
+          "repetition_penalty": 0.4594594594594595,
+          "quality_score": 0.0008825091647727262
+        },
+        "v3_composite": 1.3660900565014635
+      },
+      "label": "WFSA_000"
+    },
+    {
+      "results": {
+        "fixed": {
+          "score_norm": 3.0053828525825588,
+          "anchor_result": {
+            "total_score": 1.0,
+            "matches": {
+              "EAST": {
+                "found": true,
+                "position": 21,
+                "score": 1.0
+              },
+              "NORTHEAST": {
+                "found": true,
+                "position": 25,
+                "score": 1.0
+              },
+              "BERLINCLOCK": {
+                "found": true,
+                "position": 63,
+                "score": 1.0
+              }
+            },
+            "window_radius": 0,
+            "typo_budget": 0
+          },
+          "z_ngram": 9.017942841941863,
+          "z_coverage": 0.0,
+          "z_compress": -17.68842333930355,
+          "raw_ngram": 0.07432432432432433,
+          "raw_coverage": 0.0,
+          "raw_compress": 0.6603672034858935,
+          "blinded_text": "BIOLOCKSITICSESSECHN..."
+        },
+        "windowed_r2": {
+          "score_norm": 3.0053828525825588,
+          "anchor_result": {
+            "total_score": 1.0,
+            "matches": {
+              "EAST": {
+                "found": true,
+                "position": 21,
+                "score": 1.0
+              },
+              "NORTHEAST": {
+                "found": true,
+                "position": 25,
+                "score": 1.0
+              },
+              "BERLINCLOCK": {
+                "found": true,
+                "position": 63,
+                "score": 1.0
+              }
+            },
+            "window_radius": 2,
+            "typo_budget": 0
+          },
+          "z_ngram": 9.017942841941863,
+          "z_coverage": 0.0,
+          "z_compress": -17.68842333930355,
+          "raw_ngram": 0.07432432432432433,
+          "raw_coverage": 0.0,
+          "raw_compress": 0.6603672034858935,
+          "blinded_text": "BIOLOCKSITICSESSECHN..."
+        },
+        "shuffled": {
+          "score_norm": 3.0053828525825588,
+          "anchor_result": {
+            "total_score": 1.0,
+            "matches": {
+              "EAST": {
+                "found": true,
+                "position": 21,
+                "score": 1.0
+              },
+              "NORTHEAST": {
+                "found": true,
+                "position": 25,
+                "score": 1.0
+              },
+              "BERLINCLOCK": {
+                "found": true,
+                "position": 63,
+                "score": 1.0
+              }
+            },
+            "window_radius": 100,
+            "typo_budget": 2
+          },
+          "z_ngram": 9.017942841941863,
+          "z_coverage": 0.0,
+          "z_compress": -17.68842333930355,
+          "raw_ngram": 0.07432432432432433,
+          "raw_coverage": 0.0,
+          "raw_compress": 0.6603672034858935,
+          "blinded_text": "BIOLOCKSITICSESSECHN..."
+        }
+      },
+      "scores": {
+        "fixed": 3.0053828525825588,
+        "windowed_r2": 3.0053828525825588,
+        "shuffled": 3.0053828525825588
+      },
+      "delta_vs_windowed": 0.0,
+      "delta_vs_shuffled": 0.0,
+      "best_mode": "fixed",
+      "pass_deltas": false,
+      "v3_metrics": {
+        "generation_quality": {
+          "trigram_score": -0.3458045734298226,
+          "bigram_entropy": -0.006198741876040036,
+          "char_distribution": 0.6624999999999999,
+          "repetition_penalty": 0.5945945945945946,
+          "quality_score": 0.0008690080906401093
+        },
+        "v3_composite": 1.5031259303365994
+      },
+      "label": "WFSA_009"
+    }
+  ],
+  "promotions": [],
+  "statistics": {
+    "promotion_rate": 0.0,
+    "avg_delta_windowed": 0.0,
+    "avg_delta_shuffled": 0.0,
+    "avg_generation_quality": 0.0010030899445514344
+  }
+}

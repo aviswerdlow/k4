@@ -1,0 +1,907 @@
+{
+  "campaign": "C13",
+  "date": "2025-01-06",
+  "total_heads": 100,
+  "heads": [
+    {
+      "label": "C13_000",
+      "text": "THEFIKDVXHANDXAKLTPDLEASTNORTHEASTNTMGFTLGGYGNHCXVRVFCVWVWGJNZMBERLINCLOCKD",
+      "metadata": {
+        "campaign": "C13",
+        "method": "FWM_FunctionWord",
+        "seed": 1337
+      }
+    },
+    {
+      "label": "C13_001",
+      "text": "THETOTIKIQANDCFJQCBIGEASTNORTHEASTLNBGLIUPREFGHQWVJNHCDGOKBSKAPBERLINCLOCKA",
+      "metadata": {
+        "campaign": "C13",
+        "method": "FWM_FunctionWord",
+        "seed": 1338
+      }
+    },
+    {
+      "label": "C13_002",
+      "text": "THENMQFAJQANDGUEOZXGFEASTNORTHEASTECVAIPXGJINAWXFSXTNVRWUNTJYDFBERLINCLOCKH",
+      "metadata": {
+        "campaign": "C13",
+        "method": "FWM_FunctionWord",
+        "seed": 1339
+      }
+    },
+    {
+      "label": "C13_003",
+      "text": "THEHDBRBTBANDGLIUYITIEASTNORTHEASTAQRTPUKRVFRPAWPTYLELZTFCCZFFWBERLINCLOCKN",
+      "metadata": {
+        "campaign": "C13",
+        "method": "FWM_FunctionWord",
+        "seed": 1340
+      }
+    },
+    {
+      "label": "C13_004",
+      "text": "THEDNKJSWAANDANXPITESEASTNORTHEASTQMYTXAWHJXSRYGWFMERKQCXGWIDMEBERLINCLOCKO",
+      "metadata": {
+        "campaign": "C13",
+        "method": "FWM_FunctionWord",
+        "seed": 1341
+      }
+    },
+    {
+      "label": "C13_005",
+      "text": "THERSWPSAIANDYMPQYWVHEASTNORTHEASTGTQFWJVGRHPQXZLBPEFJXCLCGSPMLBERLINCLOCKA",
+      "metadata": {
+        "campaign": "C13",
+        "method": "FWM_FunctionWord",
+        "seed": 1342
+      }
+    },
+    {
+      "label": "C13_006",
+      "text": "THEGFHCMEYANDFKGVQGWUEASTNORTHEASTZGRJVQNSGXJARGWAYXNVFLZJJQEEYBERLINCLOCKM",
+      "metadata": {
+        "campaign": "C13",
+        "method": "FWM_FunctionWord",
+        "seed": 1343
+      }
+    },
+    {
+      "label": "C13_007",
+      "text": "THEZSAHQENANDJOOJAOPSEASTNORTHEASTDGJMJIMRZJZCCHYQOHVGFUAWORHQIBERLINCLOCKJ",
+      "metadata": {
+        "campaign": "C13",
+        "method": "FWM_FunctionWord",
+        "seed": 1344
+      }
+    },
+    {
+      "label": "C13_008",
+      "text": "THEFSBZSNYANDYTGYEMVXEASTNORTHEASTQMZIUJJPAWLEHLVYBUGMCRLPDUTXSBERLINCLOCKV",
+      "metadata": {
+        "campaign": "C13",
+        "method": "FWM_FunctionWord",
+        "seed": 1345
+      }
+    },
+    {
+      "label": "C13_009",
+      "text": "THECRRHWRNANDDFHDSXKOEASTNORTHEASTWNPIRAALYAZRESBNXYLSNXGBHVKRABERLINCLOCKI",
+      "metadata": {
+        "campaign": "C13",
+        "method": "FWM_FunctionWord",
+        "seed": 1346
+      }
+    },
+    {
+      "label": "C13_010",
+      "text": "THEEEKSKFJANDAOJJCLDXEASTNORTHEASTKNTVRPQJQEFCRAVHTHKHGHTJJZNKYBERLINCLOCKU",
+      "metadata": {
+        "campaign": "C13",
+        "method": "FWM_FunctionWord",
+        "seed": 1347
+      }
+    },
+    {
+      "label": "C13_011",
+      "text": "THECTMTDEXANDNCGSMRUIEASTNORTHEASTWMONCBQBJDIJYFODVNNOBGQCTZXSYBERLINCLOCKK",
+      "metadata": {
+        "campaign": "C13",
+        "method": "FWM_FunctionWord",
+        "seed": 1348
+      }
+    },
+    {
+      "label": "C13_012",
+      "text": "THEEFQHCZJANDZOMJFBYPEASTNORTHEASTFLOTGASKFLDIFNBRHDKEQTBVHSSNYBERLINCLOCKB",
+      "metadata": {
+        "campaign": "C13",
+        "method": "FWM_FunctionWord",
+        "seed": 1349
+      }
+    },
+    {
+      "label": "C13_013",
+      "text": "THEYTDNYCOANDILWZZVUUEASTNORTHEASTRKABRWBVGCLINPTVEZTOITZWRFFJOBERLINCLOCKP",
+      "metadata": {
+        "campaign": "C13",
+        "method": "FWM_FunctionWord",
+        "seed": 1350
+      }
+    },
+    {
+      "label": "C13_014",
+      "text": "THEQEBBIDNANDXPLLLEHWEASTNORTHEASTFNUVIBEOTCUJJESGKQVFPWOWTCSHIBERLINCLOCKE",
+      "metadata": {
+        "campaign": "C13",
+        "method": "FWM_FunctionWord",
+        "seed": 1351
+      }
+    },
+    {
+      "label": "C13_015",
+      "text": "THEXPSVJWTANDUGRWJBXREASTNORTHEASTRUWBTPMCKBGTAWXPYHJQMOKYBWLNPBERLINCLOCKI",
+      "metadata": {
+        "campaign": "C13",
+        "method": "FWM_FunctionWord",
+        "seed": 1352
+      }
+    },
+    {
+      "label": "C13_016",
+      "text": "THEIBQTSGNANDYQCCROECEASTNORTHEASTOHQKGSDBHTSEBQWKYGACQAGWNJYVWBERLINCLOCKH",
+      "metadata": {
+        "campaign": "C13",
+        "method": "FWM_FunctionWord",
+        "seed": 1353
+      }
+    },
+    {
+      "label": "C13_017",
+      "text": "THEQYKHLZZANDOVHIMPTPEASTNORTHEASTPFYLTRZXAPSSANYMSPULIEZQUZRGIBERLINCLOCKT",
+      "metadata": {
+        "campaign": "C13",
+        "method": "FWM_FunctionWord",
+        "seed": 1354
+      }
+    },
+    {
+      "label": "C13_018",
+      "text": "THEYADWVMSANDSUCOQBWQEASTNORTHEASTXJVQEMUMGENACOKIISFBRKVWRLFFXBERLINCLOCKQ",
+      "metadata": {
+        "campaign": "C13",
+        "method": "FWM_FunctionWord",
+        "seed": 1355
+      }
+    },
+    {
+      "label": "C13_019",
+      "text": "THEENWBWYRANDSTQZOSYBEASTNORTHEASTLPCBUJDWCDGYSQZILEVLLUWCYRQLRBERLINCLOCKQ",
+      "metadata": {
+        "campaign": "C13",
+        "method": "FWM_FunctionWord",
+        "seed": 1356
+      }
+    },
+    {
+      "label": "C13_020",
+      "text": "THESJWULKOANDBTGWIHAREASTNORTHEASTKVWMFNMACRFCAMSZNGCEZPXFPIQFYBERLINCLOCKO",
+      "metadata": {
+        "campaign": "C13",
+        "method": "FWM_FunctionWord",
+        "seed": 1357
+      }
+    },
+    {
+      "label": "C13_021",
+      "text": "THEGSMOVPTANDARHYRAIMEASTNORTHEASTVTBIDUERZEWZPSQRATJHHDFKTUVBJBERLINCLOCKO",
+      "metadata": {
+        "campaign": "C13",
+        "method": "FWM_FunctionWord",
+        "seed": 1358
+      }
+    },
+    {
+      "label": "C13_022",
+      "text": "THEGEHCVQSANDITELBGIGEASTNORTHEASTAKWKSFTBBIFWFOSCORNZNEBUWELUPBERLINCLOCKT",
+      "metadata": {
+        "campaign": "C13",
+        "method": "FWM_FunctionWord",
+        "seed": 1359
+      }
+    },
+    {
+      "label": "C13_023",
+      "text": "THEBZIQHXCANDADHTDOTDEASTNORTHEASTDEARUJYQJPYKYYDGOTLWQZHYAQJQKBERLINCLOCKN",
+      "metadata": {
+        "campaign": "C13",
+        "method": "FWM_FunctionWord",
+        "seed": 1360
+      }
+    },
+    {
+      "label": "C13_024",
+      "text": "THEJALHCTVANDBWHTZTCHEASTNORTHEASTDVGDNXWSTCSYVJTPSQGYHBTSGWZRJBERLINCLOCKB",
+      "metadata": {
+        "campaign": "C13",
+        "method": "FWM_FunctionWord",
+        "seed": 1361
+      }
+    },
+    {
+      "label": "C13_025",
+      "text": "THEKNAGEPRANDCOBFAJHOEASTNORTHEASTGRMTHLPHTFSKFRKHQKRRAZNCLJSHMBERLINCLOCKG",
+      "metadata": {
+        "campaign": "C13",
+        "method": "FWM_FunctionWord",
+        "seed": 1362
+      }
+    },
+    {
+      "label": "C13_026",
+      "text": "THEGPKPYBAANDNMUBHXUQEASTNORTHEASTIZNEFUJIKNLTUMAINUWHYLVQUABUOBERLINCLOCKG",
+      "metadata": {
+        "campaign": "C13",
+        "method": "FWM_FunctionWord",
+        "seed": 1363
+      }
+    },
+    {
+      "label": "C13_027",
+      "text": "THEEDBVYGZANDLZBHIBVIEASTNORTHEASTJSOPEKVKMDZBRYPDKZUHMBUPPNUYXBERLINCLOCKC",
+      "metadata": {
+        "campaign": "C13",
+        "method": "FWM_FunctionWord",
+        "seed": 1364
+      }
+    },
+    {
+      "label": "C13_028",
+      "text": "THENEQTECRANDMNXQACKNEASTNORTHEASTEAEVCFVGXJWWKPCLKKWUWCADKAZVSBERLINCLOCKL",
+      "metadata": {
+        "campaign": "C13",
+        "method": "FWM_FunctionWord",
+        "seed": 1365
+      }
+    },
+    {
+      "label": "C13_029",
+      "text": "THEIDTLITGANDZJRWOFZPEASTNORTHEASTQKBDLKQCRIZLBZCTOTVDOALJGAEEPBERLINCLOCKS",
+      "metadata": {
+        "campaign": "C13",
+        "method": "FWM_FunctionWord",
+        "seed": 1366
+      }
+    },
+    {
+      "label": "C13_030",
+      "text": "THENPVPBXUANDEYLLITMJEASTNORTHEASTODQAPXMYGUSEOQVXTUDOFNYPCCNSGBERLINCLOCKY",
+      "metadata": {
+        "campaign": "C13",
+        "method": "FWM_FunctionWord",
+        "seed": 1367
+      }
+    },
+    {
+      "label": "C13_031",
+      "text": "THEPRINPXTANDGQUXQUAJEASTNORTHEASTDVTZJEYOATVMPNLNQVNXSLKHZQKWBBERLINCLOCKM",
+      "metadata": {
+        "campaign": "C13",
+        "method": "FWM_FunctionWord",
+        "seed": 1368
+      }
+    },
+    {
+      "label": "C13_032",
+      "text": "THEISLNAMYANDRICKICJNEASTNORTHEASTLQENBPIYPDUQUZGDPQBNDQGXWQPFMBERLINCLOCKI",
+      "metadata": {
+        "campaign": "C13",
+        "method": "FWM_FunctionWord",
+        "seed": 1369
+      }
+    },
+    {
+      "label": "C13_033",
+      "text": "THEZKSZCGMANDYJGSOBVMEASTNORTHEASTGVQSRLOZRDYOYZDDGGFSBVKSKSWQVBERLINCLOCKC",
+      "metadata": {
+        "campaign": "C13",
+        "method": "FWM_FunctionWord",
+        "seed": 1370
+      }
+    },
+    {
+      "label": "C13_034",
+      "text": "THEDSEKIYRANDHDQKMPFZEASTNORTHEASTATLFQZHVVUSWDMOKULLGIMVBOKCHCBERLINCLOCKF",
+      "metadata": {
+        "campaign": "C13",
+        "method": "FWM_FunctionWord",
+        "seed": 1371
+      }
+    },
+    {
+      "label": "C13_035",
+      "text": "THEGQWTXBNANDZAGQCCFZEASTNORTHEASTFSKKBXPCUJVOEDKKQINKKEBZDTMCRBERLINCLOCKM",
+      "metadata": {
+        "campaign": "C13",
+        "method": "FWM_FunctionWord",
+        "seed": 1372
+      }
+    },
+    {
+      "label": "C13_036",
+      "text": "THEEUXIMZNANDLXOGDVUSEASTNORTHEASTRIPVVUZYVVRKVXPFJXNUEJEYTFPFZBERLINCLOCKG",
+      "metadata": {
+        "campaign": "C13",
+        "method": "FWM_FunctionWord",
+        "seed": 1373
+      }
+    },
+    {
+      "label": "C13_037",
+      "text": "THERQHDNFYANDMHSFUWXQEASTNORTHEASTFSHFLZACIOZVHYQMXZXDIYZQBVSDPBERLINCLOCKI",
+      "metadata": {
+        "campaign": "C13",
+        "method": "FWM_FunctionWord",
+        "seed": 1374
+      }
+    },
+    {
+      "label": "C13_038",
+      "text": "THEZTJUOKKANDXHOEIWATEASTNORTHEASTYIKLIDOQWUVFKWELFNMUERQYCHXOZBERLINCLOCKW",
+      "metadata": {
+        "campaign": "C13",
+        "method": "FWM_FunctionWord",
+        "seed": 1375
+      }
+    },
+    {
+      "label": "C13_039",
+      "text": "THEJHLYBKCANDYFPEERVDEASTNORTHEASTCWCBUURDTROMLPZJFWVOWWRXZZJYPBERLINCLOCKW",
+      "metadata": {
+        "campaign": "C13",
+        "method": "FWM_FunctionWord",
+        "seed": 1376
+      }
+    },
+    {
+      "label": "C13_040",
+      "text": "THEJXUIAXYANDQPLPDSOLEASTNORTHEASTXGPFZUCYADBUVSLCHAWSLGJRTNMGDBERLINCLOCKP",
+      "metadata": {
+        "campaign": "C13",
+        "method": "FWM_FunctionWord",
+        "seed": 1377
+      }
+    },
+    {
+      "label": "C13_041",
+      "text": "THEUXINHQOANDNYFELZEYEASTNORTHEASTOOHKWKJIGKZQEPLSOPCKMUKFBMPRGBERLINCLOCKJ",
+      "metadata": {
+        "campaign": "C13",
+        "method": "FWM_FunctionWord",
+        "seed": 1378
+      }
+    },
+    {
+      "label": "C13_042",
+      "text": "THEMKUEMDIANDMTWMHDBNEASTNORTHEASTQAFJKFQFQZCCSSBHAYSUIQNGDOCENBERLINCLOCKK",
+      "metadata": {
+        "campaign": "C13",
+        "method": "FWM_FunctionWord",
+        "seed": 1379
+      }
+    },
+    {
+      "label": "C13_043",
+      "text": "THEXCNIFUBANDWHNJCPGUEASTNORTHEASTAWGPBASEBYKIHXSSOSRLFURFXOYMWBERLINCLOCKE",
+      "metadata": {
+        "campaign": "C13",
+        "method": "FWM_FunctionWord",
+        "seed": 1380
+      }
+    },
+    {
+      "label": "C13_044",
+      "text": "THEGWJZDAHANDRPVTUENXEASTNORTHEASTQNCAUBDGSYTQJNUYYFKULVJZFIRAABERLINCLOCKH",
+      "metadata": {
+        "campaign": "C13",
+        "method": "FWM_FunctionWord",
+        "seed": 1381
+      }
+    },
+    {
+      "label": "C13_045",
+      "text": "THEQIDRTDFANDGIDCDPRSEASTNORTHEASTSVMHPZKIDIFDHDMIBEERNGJIQNQIYBERLINCLOCKP",
+      "metadata": {
+        "campaign": "C13",
+        "method": "FWM_FunctionWord",
+        "seed": 1382
+      }
+    },
+    {
+      "label": "C13_046",
+      "text": "THEDSQBRHXANDDMCPGRWZEASTNORTHEASTCCRJPSXDEQSILJZWBTWQJESJERDOHBERLINCLOCKW",
+      "metadata": {
+        "campaign": "C13",
+        "method": "FWM_FunctionWord",
+        "seed": 1383
+      }
+    },
+    {
+      "label": "C13_047",
+      "text": "THEIRBPGIGANDLZQNCVOYEASTNORTHEASTTGVANAVYGWXYIXGTBSIDCPOEASXCWBERLINCLOCKS",
+      "metadata": {
+        "campaign": "C13",
+        "method": "FWM_FunctionWord",
+        "seed": 1384
+      }
+    },
+    {
+      "label": "C13_048",
+      "text": "THECDLJGMUANDKUXZSMEZEASTNORTHEASTRPPXIHIDYUCAFAAMZWJYSSVVIVRDFBERLINCLOCKD",
+      "metadata": {
+        "campaign": "C13",
+        "method": "FWM_FunctionWord",
+        "seed": 1385
+      }
+    },
+    {
+      "label": "C13_049",
+      "text": "THEVHBHEFJANDOBGXBCPCEASTNORTHEASTAGOKQYYQVLGPKBWHVESRXWQYLMCXOBERLINCLOCKQ",
+      "metadata": {
+        "campaign": "C13",
+        "method": "FWM_FunctionWord",
+        "seed": 1386
+      }
+    },
+    {
+      "label": "C13_050",
+      "text": "THEBZDHSCEANDWUYWWUWPEASTNORTHEASTJITPFMMTTIBKIFWHQFEIEKMYZWJVMBERLINCLOCKE",
+      "metadata": {
+        "campaign": "C13",
+        "method": "FWM_FunctionWord",
+        "seed": 1387
+      }
+    },
+    {
+      "label": "C13_051",
+      "text": "THEQKLOKFAANDYBPNBPCFEASTNORTHEASTLGYVHWKZYYBSRYXCZJJTECPCDSUMGBERLINCLOCKG",
+      "metadata": {
+        "campaign": "C13",
+        "method": "FWM_FunctionWord",
+        "seed": 1388
+      }
+    },
+    {
+      "label": "C13_052",
+      "text": "THEBNDJBKXANDVIZVOHMBEASTNORTHEASTVXQJNXHSJXSSKTDBVLTGYMTATNXZRBERLINCLOCKI",
+      "metadata": {
+        "campaign": "C13",
+        "method": "FWM_FunctionWord",
+        "seed": 1389
+      }
+    },
+    {
+      "label": "C13_053",
+      "text": "THEIZKGJJGANDUOJDTNHLEASTNORTHEASTUCANKWDNZQJRFKSQOMEJQKXVXECDXBERLINCLOCKN",
+      "metadata": {
+        "campaign": "C13",
+        "method": "FWM_FunctionWord",
+        "seed": 1390
+      }
+    },
+    {
+      "label": "C13_054",
+      "text": "THEAIUMGSPANDSCIFUNRZEASTNORTHEASTQFMMEEDBNQEUAIMSPLLEPYQMNRGSJBERLINCLOCKF",
+      "metadata": {
+        "campaign": "C13",
+        "method": "FWM_FunctionWord",
+        "seed": 1391
+      }
+    },
+    {
+      "label": "C13_055",
+      "text": "THEFTMIEYZANDTNHELYAZEASTNORTHEASTLNODYNJYAMRKESOQMXZZTQMUDDUTSBERLINCLOCKZ",
+      "metadata": {
+        "campaign": "C13",
+        "method": "FWM_FunctionWord",
+        "seed": 1392
+      }
+    },
+    {
+      "label": "C13_056",
+      "text": "THEZDRISPZANDHPVYJSOBEASTNORTHEASTQVXFZHTICBOTYCBLMWSZNOQWVMGLEBERLINCLOCKI",
+      "metadata": {
+        "campaign": "C13",
+        "method": "FWM_FunctionWord",
+        "seed": 1393
+      }
+    },
+    {
+      "label": "C13_057",
+      "text": "THETNWQZWYANDSKGPJWVNEASTNORTHEASTRJQCCLPILQBQUNINMDVBMQKIKSYHBBERLINCLOCKV",
+      "metadata": {
+        "campaign": "C13",
+        "method": "FWM_FunctionWord",
+        "seed": 1394
+      }
+    },
+    {
+      "label": "C13_058",
+      "text": "THEQGZGQMLANDTGZTARUEEASTNORTHEASTYTXAJMVGENFPTAAWSJCBABPBCWRWVBERLINCLOCKG",
+      "metadata": {
+        "campaign": "C13",
+        "method": "FWM_FunctionWord",
+        "seed": 1395
+      }
+    },
+    {
+      "label": "C13_059",
+      "text": "THECKKRTJBANDOXIOKOHNEASTNORTHEASTCFHGBFSCUVFGBDFTOYWOFBSPVLUHKBERLINCLOCKK",
+      "metadata": {
+        "campaign": "C13",
+        "method": "FWM_FunctionWord",
+        "seed": 1396
+      }
+    },
+    {
+      "label": "C13_060",
+      "text": "THETLJXJZFANDJLDZSOXZEASTNORTHEASTBJDCTVVYPZHPASLNMDSZIOCAUUMFCBERLINCLOCKU",
+      "metadata": {
+        "campaign": "C13",
+        "method": "FWM_FunctionWord",
+        "seed": 1397
+      }
+    },
+    {
+      "label": "C13_061",
+      "text": "THEXDFRDFUANDORDCBOWMEASTNORTHEASTXXUWSALGZCZXZNCIUNMNZCXYRJXDTBERLINCLOCKQ",
+      "metadata": {
+        "campaign": "C13",
+        "method": "FWM_FunctionWord",
+        "seed": 1398
+      }
+    },
+    {
+      "label": "C13_062",
+      "text": "THEELFWMWQANDPPNHACOFEASTNORTHEASTQCZNUZPPYUNYWGHURGQQLYYFZSFRGBERLINCLOCKG",
+      "metadata": {
+        "campaign": "C13",
+        "method": "FWM_FunctionWord",
+        "seed": 1399
+      }
+    },
+    {
+      "label": "C13_063",
+      "text": "THEDJYGPRZANDTRDHLGPFEASTNORTHEASTCDBSMDPWHUOJGDCDXYYMENFNFMWEQBERLINCLOCKC",
+      "metadata": {
+        "campaign": "C13",
+        "method": "FWM_FunctionWord",
+        "seed": 1400
+      }
+    },
+    {
+      "label": "C13_064",
+      "text": "THEZLKPSRKANDYBPPAQQPEASTNORTHEASTMNFYNPDDNWZOWUBKFGVFRORUIOAUOBERLINCLOCKE",
+      "metadata": {
+        "campaign": "C13",
+        "method": "FWM_FunctionWord",
+        "seed": 1401
+      }
+    },
+    {
+      "label": "C13_065",
+      "text": "THERSOUMDPANDQILSVOTQEASTNORTHEASTHPYQPZCKBUJQRGRHORRTBFPJKIOYGBERLINCLOCKL",
+      "metadata": {
+        "campaign": "C13",
+        "method": "FWM_FunctionWord",
+        "seed": 1402
+      }
+    },
+    {
+      "label": "C13_066",
+      "text": "THEAYQOLWYANDNBBIKCONEASTNORTHEASTPJPWBTMWOXNXAANDSQRBHFLVSPJVDBERLINCLOCKO",
+      "metadata": {
+        "campaign": "C13",
+        "method": "FWM_FunctionWord",
+        "seed": 1403
+      }
+    },
+    {
+      "label": "C13_067",
+      "text": "THEQMELYYLANDBJPQCSWGEASTNORTHEASTQKDJNXQNTTIIWQUCJUAUWAYWGLMBYBERLINCLOCKR",
+      "metadata": {
+        "campaign": "C13",
+        "method": "FWM_FunctionWord",
+        "seed": 1404
+      }
+    },
+    {
+      "label": "C13_068",
+      "text": "THEPSCSIGDANDSBSURCVLEASTNORTHEASTFSNNIVKPOZFMGGJXMTLODGLAARSQJBERLINCLOCKG",
+      "metadata": {
+        "campaign": "C13",
+        "method": "FWM_FunctionWord",
+        "seed": 1405
+      }
+    },
+    {
+      "label": "C13_069",
+      "text": "THESWQWRVIANDNDYMPPUWEASTNORTHEASTONOAPQOLEKWMLDLRFELYSXLESYLZEBERLINCLOCKD",
+      "metadata": {
+        "campaign": "C13",
+        "method": "FWM_FunctionWord",
+        "seed": 1406
+      }
+    },
+    {
+      "label": "C13_070",
+      "text": "THEPBMUKVDANDKAKWPNQEEASTNORTHEASTCOWUYNHGUXCKRDVLMPRTGXXNOBLADBERLINCLOCKA",
+      "metadata": {
+        "campaign": "C13",
+        "method": "FWM_FunctionWord",
+        "seed": 1407
+      }
+    },
+    {
+      "label": "C13_071",
+      "text": "THEHLNVYTZANDAGNSEMMIEASTNORTHEASTEQFRUNJRRJSPGZRKJDODMKGXOOKGIBERLINCLOCKG",
+      "metadata": {
+        "campaign": "C13",
+        "method": "FWM_FunctionWord",
+        "seed": 1408
+      }
+    },
+    {
+      "label": "C13_072",
+      "text": "THEZTFJSDCANDMPCOJSXGEASTNORTHEASTOMMMHLLHDDBAZJWOPGDFKZJDZUIICBERLINCLOCKG",
+      "metadata": {
+        "campaign": "C13",
+        "method": "FWM_FunctionWord",
+        "seed": 1409
+      }
+    },
+    {
+      "label": "C13_073",
+      "text": "THEJRDWYOUANDKTDYWQLDEASTNORTHEASTNUYYPYTAYSAKBLQZCMONNNYPLGVDTBERLINCLOCKW",
+      "metadata": {
+        "campaign": "C13",
+        "method": "FWM_FunctionWord",
+        "seed": 1410
+      }
+    },
+    {
+      "label": "C13_074",
+      "text": "THEBQGMCAIANDLROFVKLNEASTNORTHEASTWRRBSUVOIBOYRCVWPASLRGHDNJZFKBERLINCLOCKS",
+      "metadata": {
+        "campaign": "C13",
+        "method": "FWM_FunctionWord",
+        "seed": 1411
+      }
+    },
+    {
+      "label": "C13_075",
+      "text": "THERYBKLBEANDCQHUHYOMEASTNORTHEASTVCVVKHMXEWORHXLGELCTPAPVVIAJQBERLINCLOCKK",
+      "metadata": {
+        "campaign": "C13",
+        "method": "FWM_FunctionWord",
+        "seed": 1412
+      }
+    },
+    {
+      "label": "C13_076",
+      "text": "THEPBYVPMUANDJWWFVEGWEASTNORTHEASTJLTWEETFFDEQOPSGHWAELFYQKVQPHBERLINCLOCKW",
+      "metadata": {
+        "campaign": "C13",
+        "method": "FWM_FunctionWord",
+        "seed": 1413
+      }
+    },
+    {
+      "label": "C13_077",
+      "text": "THEFKDDDITANDCCWLFIHJEASTNORTHEASTSAVQKXOOIYPTWFRKBYRCUJFBDYIEUBERLINCLOCKV",
+      "metadata": {
+        "campaign": "C13",
+        "method": "FWM_FunctionWord",
+        "seed": 1414
+      }
+    },
+    {
+      "label": "C13_078",
+      "text": "THELZHITCZANDXLQOENQUEASTNORTHEASTWCRWSNEIGYMBUAIQLXSRXZCJKOAYOBERLINCLOCKS",
+      "metadata": {
+        "campaign": "C13",
+        "method": "FWM_FunctionWord",
+        "seed": 1415
+      }
+    },
+    {
+      "label": "C13_079",
+      "text": "THEXHKYKBAANDUPQLLQSKEASTNORTHEASTUXRCOJVYQOLXPNNBRMJGHJJYKOGFUBERLINCLOCKV",
+      "metadata": {
+        "campaign": "C13",
+        "method": "FWM_FunctionWord",
+        "seed": 1416
+      }
+    },
+    {
+      "label": "C13_080",
+      "text": "THETSNVEQOANDHHSIWMKEEASTNORTHEASTZIANEGHXIHMMOTQDYKRKCBIVJNNXWBERLINCLOCKR",
+      "metadata": {
+        "campaign": "C13",
+        "method": "FWM_FunctionWord",
+        "seed": 1417
+      }
+    },
+    {
+      "label": "C13_081",
+      "text": "THESGYKSCNANDIWNJCGKREASTNORTHEASTRIYTHXYPVXOTKUGQDRMUNQOMCMKVTBERLINCLOCKZ",
+      "metadata": {
+        "campaign": "C13",
+        "method": "FWM_FunctionWord",
+        "seed": 1418
+      }
+    },
+    {
+      "label": "C13_082",
+      "text": "THELRKSEVXANDPOGNGZTMEASTNORTHEASTYFCMYLCVTRECBRHZQAJMQJXIPZDUMBERLINCLOCKG",
+      "metadata": {
+        "campaign": "C13",
+        "method": "FWM_FunctionWord",
+        "seed": 1419
+      }
+    },
+    {
+      "label": "C13_083",
+      "text": "THEZOUTGSWANDNQJSEXDXEASTNORTHEASTTTPOCVKHMSAZTTWKFCNZBWDSQGSQUBERLINCLOCKD",
+      "metadata": {
+        "campaign": "C13",
+        "method": "FWM_FunctionWord",
+        "seed": 1420
+      }
+    },
+    {
+      "label": "C13_084",
+      "text": "THEFFVEGYYANDZRZEMILXEASTNORTHEASTFPVDQOYHRMXJZXYSCOBCDPUTZZKZRBERLINCLOCKP",
+      "metadata": {
+        "campaign": "C13",
+        "method": "FWM_FunctionWord",
+        "seed": 1421
+      }
+    },
+    {
+      "label": "C13_085",
+      "text": "THEIVEFACGANDJFDWAYIFEASTNORTHEASTSALKJPRSKMHFOHPWHANZSLDTHTSSXBERLINCLOCKP",
+      "metadata": {
+        "campaign": "C13",
+        "method": "FWM_FunctionWord",
+        "seed": 1422
+      }
+    },
+    {
+      "label": "C13_086",
+      "text": "THETZWCAWCANDWFHPAHLMEASTNORTHEASTQJMLIOICUMTCTGIGKVQVNXEIGOAXABERLINCLOCKN",
+      "metadata": {
+        "campaign": "C13",
+        "method": "FWM_FunctionWord",
+        "seed": 1423
+      }
+    },
+    {
+      "label": "C13_087",
+      "text": "THEGBSULFMANDQLOVDSROEASTNORTHEASTRZPZWTHVOMSCWOGSMBVUNHDHQVJZMBERLINCLOCKE",
+      "metadata": {
+        "campaign": "C13",
+        "method": "FWM_FunctionWord",
+        "seed": 1424
+      }
+    },
+    {
+      "label": "C13_088",
+      "text": "THEECZCNFEANDIGIRRAGWEASTNORTHEASTETESKUYQNJWWGBDJIYNTSGJSPYMEYBERLINCLOCKA",
+      "metadata": {
+        "campaign": "C13",
+        "method": "FWM_FunctionWord",
+        "seed": 1425
+      }
+    },
+    {
+      "label": "C13_089",
+      "text": "THEDNRSLMFANDOSCUNEABEASTNORTHEASTYTIUTWYXINGTBXJYUPFRYZKBMKOJFBERLINCLOCKG",
+      "metadata": {
+        "campaign": "C13",
+        "method": "FWM_FunctionWord",
+        "seed": 1426
+      }
+    },
+    {
+      "label": "C13_090",
+      "text": "THEAFQYMXCANDJRJOZSNBEASTNORTHEASTXCJQGHISGTUEZRSKYYLYSFFMQZWIKBERLINCLOCKW",
+      "metadata": {
+        "campaign": "C13",
+        "method": "FWM_FunctionWord",
+        "seed": 1427
+      }
+    },
+    {
+      "label": "C13_091",
+      "text": "THEVLARTXMANDWOIWRXYHEASTNORTHEASTYVPYPGQHPBMTNYQZUHRTMFCKKNFRZBERLINCLOCKV",
+      "metadata": {
+        "campaign": "C13",
+        "method": "FWM_FunctionWord",
+        "seed": 1428
+      }
+    },
+    {
+      "label": "C13_092",
+      "text": "THEAHDXCSXANDPFTPVSMSEASTNORTHEASTWOLTIUMSAREPCIWDBCXDIVHRAJWXNBERLINCLOCKM",
+      "metadata": {
+        "campaign": "C13",
+        "method": "FWM_FunctionWord",
+        "seed": 1429
+      }
+    },
+    {
+      "label": "C13_093",
+      "text": "THEVLXHWNSANDNOFAYEPJEASTNORTHEASTFEENOGLXEBSNIDKMGCOOTVPQJJVWCBERLINCLOCKA",
+      "metadata": {
+        "campaign": "C13",
+        "method": "FWM_FunctionWord",
+        "seed": 1430
+      }
+    },
+    {
+      "label": "C13_094",
+      "text": "THEGWULHBLANDPGPZELLKEASTNORTHEASTRTMSPEZFWWDAQQARBOERLYABQMFQMBERLINCLOCKM",
+      "metadata": {
+        "campaign": "C13",
+        "method": "FWM_FunctionWord",
+        "seed": 1431
+      }
+    },
+    {
+      "label": "C13_095",
+      "text": "THEDJNPNQKANDJYMATLXUEASTNORTHEASTIMGFRGZXUQIKCGOIYOJLMYRCHEGJDBERLINCLOCKL",
+      "metadata": {
+        "campaign": "C13",
+        "method": "FWM_FunctionWord",
+        "seed": 1432
+      }
+    },
+    {
+      "label": "C13_096",
+      "text": "THEONVBGACANDLFFSNWANEASTNORTHEASTHUHWXPVUMFLQLTHVYVKTRDEOBRMCVBERLINCLOCKU",
+      "metadata": {
+        "campaign": "C13",
+        "method": "FWM_FunctionWord",
+        "seed": 1433
+      }
+    },
+    {
+      "label": "C13_097",
+      "text": "THEJMDHMRXANDLATFBJHXEASTNORTHEASTXCCHUNMZBVJWQNZQYSKRSTTAKTRXABERLINCLOCKG",
+      "metadata": {
+        "campaign": "C13",
+        "method": "FWM_FunctionWord",
+        "seed": 1434
+      }
+    },
+    {
+      "label": "C13_098",
+      "text": "THEPNQGWNSANDDWTCCEJLEASTNORTHEASTLFUJWAATAHQJQVTKLABPBYADSQQYOBERLINCLOCKV",
+      "metadata": {
+        "campaign": "C13",
+        "method": "FWM_FunctionWord",
+        "seed": 1435
+      }
+    },
+    {
+      "label": "C13_099",
+      "text": "THECFBCBGAANDTUUWBMVFEASTNORTHEASTBOOETJBYNIIDKUJFDACCWGYZCZXBEBERLINCLOCKR",
+      "metadata": {
+        "campaign": "C13",
+        "method": "FWM_FunctionWord",
+        "seed": 1436
+      }
+    }
+  ]
+}

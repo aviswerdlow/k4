@@ -1,0 +1,910 @@
+{
+  "campaign": "C4_BIGRAM_POLYBIUS",
+  "date": "2025-01-06",
+  "description": "Community hypothesis: bigram_polybius",
+  "method": "bigram_polybius",
+  "seed": 1337,
+  "total_heads": 100,
+  "heads": [
+    {
+      "label": "BIGRAM_POLY_000",
+      "text": "UHLXVUDUNOVRHYURPMHHCMRXBWWQXTNLYYUZCZWYJWYYFLAACGZJLRVKPGCPTMHTEQBZZSAMQLC",
+      "metadata": {
+        "method": "bigram_polybius",
+        "variant": "polybius",
+        "seed": 1337
+      }
+    },
+    {
+      "label": "BIGRAM_POLY_001",
+      "text": "UHLXVUDUNOVRHYURPMHHCMRXBWWQXTNLYYUZCZWYJWYYFLAACGZJLRVKPGCPTMHTEQBZZSAMQLC",
+      "metadata": {
+        "method": "bigram_polybius",
+        "variant": "polybius",
+        "seed": 1338
+      }
+    },
+    {
+      "label": "BIGRAM_POLY_002",
+      "text": "DMUGPTNYGHPQRCOLIFBBGVQMQVLUMSGKSSTORYQSQQSSKEZZBVDQPFETDFGYHLMCOZQYORKVKP",
+      "metadata": {
+        "method": "bigram_polybius",
+        "variant": "bigram",
+        "seed": 1339
+      }
+    },
+    {
+      "label": "BIGRAM_POLY_003",
+      "text": "UHLXVUDUNOVRHYURPMHHCMRXBWWQXTNLYYUZCZWYJWYYFLAACGZJLRVKPGCPTMHTEQBZZSAMQLC",
+      "metadata": {
+        "method": "bigram_polybius",
+        "variant": "polybius",
+        "seed": 1340
+      }
+    },
+    {
+      "label": "BIGRAM_POLY_004",
+      "text": "DMUGPTNYGHPQRCOLIFBBGVQMQVLUMSGKSSTORYQSQQSSKEZZBVDQPFETDFGYHLMCOZQYORKVKP",
+      "metadata": {
+        "method": "bigram_polybius",
+        "variant": "bigram",
+        "seed": 1341
+      }
+    },
+    {
+      "label": "BIGRAM_POLY_005",
+      "text": "UHLXVUDUNOVRHYURPMHHCMRXBWWQXTNLYYUZCZWYJWYYFLAACGZJLRVKPGCPTMHTEQBZZSAMQLC",
+      "metadata": {
+        "method": "bigram_polybius",
+        "variant": "polybius",
+        "seed": 1342
+      }
+    },
+    {
+      "label": "BIGRAM_POLY_006",
+      "text": "DMUGPTNYGHPQRCOLIFBBGVQMQVLUMSGKSSTORYQSQQSSKEZZBVDQPFETDFGYHLMCOZQYORKVKP",
+      "metadata": {
+        "method": "bigram_polybius",
+        "variant": "bigram",
+        "seed": 1343
+      }
+    },
+    {
+      "label": "BIGRAM_POLY_007",
+      "text": "UHLXVUDUNOVRHYURPMHHCMRXBWWQXTNLYYUZCZWYJWYYFLAACGZJLRVKPGCPTMHTEQBZZSAMQLC",
+      "metadata": {
+        "method": "bigram_polybius",
+        "variant": "polybius",
+        "seed": 1344
+      }
+    },
+    {
+      "label": "BIGRAM_POLY_008",
+      "text": "UHLXVUDUNOVRHYURPMHHCMRXBWWQXTNLYYUZCZWYJWYYFLAACGZJLRVKPGCPTMHTEQBZZSAMQLC",
+      "metadata": {
+        "method": "bigram_polybius",
+        "variant": "polybius",
+        "seed": 1345
+      }
+    },
+    {
+      "label": "BIGRAM_POLY_009",
+      "text": "DMUGPTNYGHPQRCOLIFBBGVQMQVLUMSGKSSTORYQSQQSSKEZZBVDQPFETDFGYHLMCOZQYORKVKP",
+      "metadata": {
+        "method": "bigram_polybius",
+        "variant": "bigram",
+        "seed": 1346
+      }
+    },
+    {
+      "label": "BIGRAM_POLY_010",
+      "text": "UHLXVUDUNOVRHYURPMHHCMRXBWWQXTNLYYUZCZWYJWYYFLAACGZJLRVKPGCPTMHTEQBZZSAMQLC",
+      "metadata": {
+        "method": "bigram_polybius",
+        "variant": "polybius",
+        "seed": 1347
+      }
+    },
+    {
+      "label": "BIGRAM_POLY_011",
+      "text": "DMUGPTNYGHPQRCOLIFBBGVQMQVLUMSGKSSTORYQSQQSSKEZZBVDQPFETDFGYHLMCOZQYORKVKP",
+      "metadata": {
+        "method": "bigram_polybius",
+        "variant": "bigram",
+        "seed": 1348
+      }
+    },
+    {
+      "label": "BIGRAM_POLY_012",
+      "text": "UHLXVUDUNOVRHYURPMHHCMRXBWWQXTNLYYUZCZWYJWYYFLAACGZJLRVKPGCPTMHTEQBZZSAMQLC",
+      "metadata": {
+        "method": "bigram_polybius",
+        "variant": "polybius",
+        "seed": 1349
+      }
+    },
+    {
+      "label": "BIGRAM_POLY_013",
+      "text": "UHLXVUDUNOVRHYURPMHHCMRXBWWQXTNLYYUZCZWYJWYYFLAACGZJLRVKPGCPTMHTEQBZZSAMQLC",
+      "metadata": {
+        "method": "bigram_polybius",
+        "variant": "polybius",
+        "seed": 1350
+      }
+    },
+    {
+      "label": "BIGRAM_POLY_014",
+      "text": "DMUGPTNYGHPQRCOLIFBBGVQMQVLUMSGKSSTORYQSQQSSKEZZBVDQPFETDFGYHLMCOZQYORKVKP",
+      "metadata": {
+        "method": "bigram_polybius",
+        "variant": "bigram",
+        "seed": 1351
+      }
+    },
+    {
+      "label": "BIGRAM_POLY_015",
+      "text": "UHLXVUDUNOVRHYURPMHHCMRXBWWQXTNLYYUZCZWYJWYYFLAACGZJLRVKPGCPTMHTEQBZZSAMQLC",
+      "metadata": {
+        "method": "bigram_polybius",
+        "variant": "polybius",
+        "seed": 1352
+      }
+    },
+    {
+      "label": "BIGRAM_POLY_016",
+      "text": "DMUGPTNYGHPQRCOLIFBBGVQMQVLUMSGKSSTORYQSQQSSKEZZBVDQPFETDFGYHLMCOZQYORKVKP",
+      "metadata": {
+        "method": "bigram_polybius",
+        "variant": "bigram",
+        "seed": 1353
+      }
+    },
+    {
+      "label": "BIGRAM_POLY_017",
+      "text": "DMUGPTNYGHPQRCOLIFBBGVQMQVLUMSGKSSTORYQSQQSSKEZZBVDQPFETDFGYHLMCOZQYORKVKP",
+      "metadata": {
+        "method": "bigram_polybius",
+        "variant": "bigram",
+        "seed": 1354
+      }
+    },
+    {
+      "label": "BIGRAM_POLY_018",
+      "text": "UHLXVUDUNOVRHYURPMHHCMRXBWWQXTNLYYUZCZWYJWYYFLAACGZJLRVKPGCPTMHTEQBZZSAMQLC",
+      "metadata": {
+        "method": "bigram_polybius",
+        "variant": "polybius",
+        "seed": 1355
+      }
+    },
+    {
+      "label": "BIGRAM_POLY_019",
+      "text": "DMUGPTNYGHPQRCOLIFBBGVQMQVLUMSGKSSTORYQSQQSSKEZZBVDQPFETDFGYHLMCOZQYORKVKP",
+      "metadata": {
+        "method": "bigram_polybius",
+        "variant": "bigram",
+        "seed": 1356
+      }
+    },
+    {
+      "label": "BIGRAM_POLY_020",
+      "text": "DMUGPTNYGHPQRCOLIFBBGVQMQVLUMSGKSSTORYQSQQSSKEZZBVDQPFETDFGYHLMCOZQYORKVKP",
+      "metadata": {
+        "method": "bigram_polybius",
+        "variant": "bigram",
+        "seed": 1357
+      }
+    },
+    {
+      "label": "BIGRAM_POLY_021",
+      "text": "UHLXVUDUNOVRHYURPMHHCMRXBWWQXTNLYYUZCZWYJWYYFLAACGZJLRVKPGCPTMHTEQBZZSAMQLC",
+      "metadata": {
+        "method": "bigram_polybius",
+        "variant": "polybius",
+        "seed": 1358
+      }
+    },
+    {
+      "label": "BIGRAM_POLY_022",
+      "text": "UHLXVUDUNOVRHYURPMHHCMRXBWWQXTNLYYUZCZWYJWYYFLAACGZJLRVKPGCPTMHTEQBZZSAMQLC",
+      "metadata": {
+        "method": "bigram_polybius",
+        "variant": "polybius",
+        "seed": 1359
+      }
+    },
+    {
+      "label": "BIGRAM_POLY_023",
+      "text": "UHLXVUDUNOVRHYURPMHHCMRXBWWQXTNLYYUZCZWYJWYYFLAACGZJLRVKPGCPTMHTEQBZZSAMQLC",
+      "metadata": {
+        "method": "bigram_polybius",
+        "variant": "polybius",
+        "seed": 1360
+      }
+    },
+    {
+      "label": "BIGRAM_POLY_024",
+      "text": "UHLXVUDUNOVRHYURPMHHCMRXBWWQXTNLYYUZCZWYJWYYFLAACGZJLRVKPGCPTMHTEQBZZSAMQLC",
+      "metadata": {
+        "method": "bigram_polybius",
+        "variant": "polybius",
+        "seed": 1361
+      }
+    },
+    {
+      "label": "BIGRAM_POLY_025",
+      "text": "UHLXVUDUNOVRHYURPMHHCMRXBWWQXTNLYYUZCZWYJWYYFLAACGZJLRVKPGCPTMHTEQBZZSAMQLC",
+      "metadata": {
+        "method": "bigram_polybius",
+        "variant": "polybius",
+        "seed": 1362
+      }
+    },
+    {
+      "label": "BIGRAM_POLY_026",
+      "text": "DMUGPTNYGHPQRCOLIFBBGVQMQVLUMSGKSSTORYQSQQSSKEZZBVDQPFETDFGYHLMCOZQYORKVKP",
+      "metadata": {
+        "method": "bigram_polybius",
+        "variant": "bigram",
+        "seed": 1363
+      }
+    },
+    {
+      "label": "BIGRAM_POLY_027",
+      "text": "UHLXVUDUNOVRHYURPMHHCMRXBWWQXTNLYYUZCZWYJWYYFLAACGZJLRVKPGCPTMHTEQBZZSAMQLC",
+      "metadata": {
+        "method": "bigram_polybius",
+        "variant": "polybius",
+        "seed": 1364
+      }
+    },
+    {
+      "label": "BIGRAM_POLY_028",
+      "text": "UHLXVUDUNOVRHYURPMHHCMRXBWWQXTNLYYUZCZWYJWYYFLAACGZJLRVKPGCPTMHTEQBZZSAMQLC",
+      "metadata": {
+        "method": "bigram_polybius",
+        "variant": "polybius",
+        "seed": 1365
+      }
+    },
+    {
+      "label": "BIGRAM_POLY_029",
+      "text": "DMUGPTNYGHPQRCOLIFBBGVQMQVLUMSGKSSTORYQSQQSSKEZZBVDQPFETDFGYHLMCOZQYORKVKP",
+      "metadata": {
+        "method": "bigram_polybius",
+        "variant": "bigram",
+        "seed": 1366
+      }
+    },
+    {
+      "label": "BIGRAM_POLY_030",
+      "text": "UHLXVUDUNOVRHYURPMHHCMRXBWWQXTNLYYUZCZWYJWYYFLAACGZJLRVKPGCPTMHTEQBZZSAMQLC",
+      "metadata": {
+        "method": "bigram_polybius",
+        "variant": "polybius",
+        "seed": 1367
+      }
+    },
+    {
+      "label": "BIGRAM_POLY_031",
+      "text": "UHLXVUDUNOVRHYURPMHHCMRXBWWQXTNLYYUZCZWYJWYYFLAACGZJLRVKPGCPTMHTEQBZZSAMQLC",
+      "metadata": {
+        "method": "bigram_polybius",
+        "variant": "polybius",
+        "seed": 1368
+      }
+    },
+    {
+      "label": "BIGRAM_POLY_032",
+      "text": "DMUGPTNYGHPQRCOLIFBBGVQMQVLUMSGKSSTORYQSQQSSKEZZBVDQPFETDFGYHLMCOZQYORKVKP",
+      "metadata": {
+        "method": "bigram_polybius",
+        "variant": "bigram",
+        "seed": 1369
+      }
+    },
+    {
+      "label": "BIGRAM_POLY_033",
+      "text": "DMUGPTNYGHPQRCOLIFBBGVQMQVLUMSGKSSTORYQSQQSSKEZZBVDQPFETDFGYHLMCOZQYORKVKP",
+      "metadata": {
+        "method": "bigram_polybius",
+        "variant": "bigram",
+        "seed": 1370
+      }
+    },
+    {
+      "label": "BIGRAM_POLY_034",
+      "text": "DMUGPTNYGHPQRCOLIFBBGVQMQVLUMSGKSSTORYQSQQSSKEZZBVDQPFETDFGYHLMCOZQYORKVKP",
+      "metadata": {
+        "method": "bigram_polybius",
+        "variant": "bigram",
+        "seed": 1371
+      }
+    },
+    {
+      "label": "BIGRAM_POLY_035",
+      "text": "DMUGPTNYGHPQRCOLIFBBGVQMQVLUMSGKSSTORYQSQQSSKEZZBVDQPFETDFGYHLMCOZQYORKVKP",
+      "metadata": {
+        "method": "bigram_polybius",
+        "variant": "bigram",
+        "seed": 1372
+      }
+    },
+    {
+      "label": "BIGRAM_POLY_036",
+      "text": "UHLXVUDUNOVRHYURPMHHCMRXBWWQXTNLYYUZCZWYJWYYFLAACGZJLRVKPGCPTMHTEQBZZSAMQLC",
+      "metadata": {
+        "method": "bigram_polybius",
+        "variant": "polybius",
+        "seed": 1373
+      }
+    },
+    {
+      "label": "BIGRAM_POLY_037",
+      "text": "UHLXVUDUNOVRHYURPMHHCMRXBWWQXTNLYYUZCZWYJWYYFLAACGZJLRVKPGCPTMHTEQBZZSAMQLC",
+      "metadata": {
+        "method": "bigram_polybius",
+        "variant": "polybius",
+        "seed": 1374
+      }
+    },
+    {
+      "label": "BIGRAM_POLY_038",
+      "text": "UHLXVUDUNOVRHYURPMHHCMRXBWWQXTNLYYUZCZWYJWYYFLAACGZJLRVKPGCPTMHTEQBZZSAMQLC",
+      "metadata": {
+        "method": "bigram_polybius",
+        "variant": "polybius",
+        "seed": 1375
+      }
+    },
+    {
+      "label": "BIGRAM_POLY_039",
+      "text": "DMUGPTNYGHPQRCOLIFBBGVQMQVLUMSGKSSTORYQSQQSSKEZZBVDQPFETDFGYHLMCOZQYORKVKP",
+      "metadata": {
+        "method": "bigram_polybius",
+        "variant": "bigram",
+        "seed": 1376
+      }
+    },
+    {
+      "label": "BIGRAM_POLY_040",
+      "text": "DMUGPTNYGHPQRCOLIFBBGVQMQVLUMSGKSSTORYQSQQSSKEZZBVDQPFETDFGYHLMCOZQYORKVKP",
+      "metadata": {
+        "method": "bigram_polybius",
+        "variant": "bigram",
+        "seed": 1377
+      }
+    },
+    {
+      "label": "BIGRAM_POLY_041",
+      "text": "UHLXVUDUNOVRHYURPMHHCMRXBWWQXTNLYYUZCZWYJWYYFLAACGZJLRVKPGCPTMHTEQBZZSAMQLC",
+      "metadata": {
+        "method": "bigram_polybius",
+        "variant": "polybius",
+        "seed": 1378
+      }
+    },
+    {
+      "label": "BIGRAM_POLY_042",
+      "text": "UHLXVUDUNOVRHYURPMHHCMRXBWWQXTNLYYUZCZWYJWYYFLAACGZJLRVKPGCPTMHTEQBZZSAMQLC",
+      "metadata": {
+        "method": "bigram_polybius",
+        "variant": "polybius",
+        "seed": 1379
+      }
+    },
+    {
+      "label": "BIGRAM_POLY_043",
+      "text": "UHLXVUDUNOVRHYURPMHHCMRXBWWQXTNLYYUZCZWYJWYYFLAACGZJLRVKPGCPTMHTEQBZZSAMQLC",
+      "metadata": {
+        "method": "bigram_polybius",
+        "variant": "polybius",
+        "seed": 1380
+      }
+    },
+    {
+      "label": "BIGRAM_POLY_044",
+      "text": "UHLXVUDUNOVRHYURPMHHCMRXBWWQXTNLYYUZCZWYJWYYFLAACGZJLRVKPGCPTMHTEQBZZSAMQLC",
+      "metadata": {
+        "method": "bigram_polybius",
+        "variant": "polybius",
+        "seed": 1381
+      }
+    },
+    {
+      "label": "BIGRAM_POLY_045",
+      "text": "DMUGPTNYGHPQRCOLIFBBGVQMQVLUMSGKSSTORYQSQQSSKEZZBVDQPFETDFGYHLMCOZQYORKVKP",
+      "metadata": {
+        "method": "bigram_polybius",
+        "variant": "bigram",
+        "seed": 1382
+      }
+    },
+    {
+      "label": "BIGRAM_POLY_046",
+      "text": "DMUGPTNYGHPQRCOLIFBBGVQMQVLUMSGKSSTORYQSQQSSKEZZBVDQPFETDFGYHLMCOZQYORKVKP",
+      "metadata": {
+        "method": "bigram_polybius",
+        "variant": "bigram",
+        "seed": 1383
+      }
+    },
+    {
+      "label": "BIGRAM_POLY_047",
+      "text": "DMUGPTNYGHPQRCOLIFBBGVQMQVLUMSGKSSTORYQSQQSSKEZZBVDQPFETDFGYHLMCOZQYORKVKP",
+      "metadata": {
+        "method": "bigram_polybius",
+        "variant": "bigram",
+        "seed": 1384
+      }
+    },
+    {
+      "label": "BIGRAM_POLY_048",
+      "text": "UHLXVUDUNOVRHYURPMHHCMRXBWWQXTNLYYUZCZWYJWYYFLAACGZJLRVKPGCPTMHTEQBZZSAMQLC",
+      "metadata": {
+        "method": "bigram_polybius",
+        "variant": "polybius",
+        "seed": 1385
+      }
+    },
+    {
+      "label": "BIGRAM_POLY_049",
+      "text": "UHLXVUDUNOVRHYURPMHHCMRXBWWQXTNLYYUZCZWYJWYYFLAACGZJLRVKPGCPTMHTEQBZZSAMQLC",
+      "metadata": {
+        "method": "bigram_polybius",
+        "variant": "polybius",
+        "seed": 1386
+      }
+    },
+    {
+      "label": "BIGRAM_POLY_050",
+      "text": "DMUGPTNYGHPQRCOLIFBBGVQMQVLUMSGKSSTORYQSQQSSKEZZBVDQPFETDFGYHLMCOZQYORKVKP",
+      "metadata": {
+        "method": "bigram_polybius",
+        "variant": "bigram",
+        "seed": 1387
+      }
+    },
+    {
+      "label": "BIGRAM_POLY_051",
+      "text": "UHLXVUDUNOVRHYURPMHHCMRXBWWQXTNLYYUZCZWYJWYYFLAACGZJLRVKPGCPTMHTEQBZZSAMQLC",
+      "metadata": {
+        "method": "bigram_polybius",
+        "variant": "polybius",
+        "seed": 1388
+      }
+    },
+    {
+      "label": "BIGRAM_POLY_052",
+      "text": "UHLXVUDUNOVRHYURPMHHCMRXBWWQXTNLYYUZCZWYJWYYFLAACGZJLRVKPGCPTMHTEQBZZSAMQLC",
+      "metadata": {
+        "method": "bigram_polybius",
+        "variant": "polybius",
+        "seed": 1389
+      }
+    },
+    {
+      "label": "BIGRAM_POLY_053",
+      "text": "DMUGPTNYGHPQRCOLIFBBGVQMQVLUMSGKSSTORYQSQQSSKEZZBVDQPFETDFGYHLMCOZQYORKVKP",
+      "metadata": {
+        "method": "bigram_polybius",
+        "variant": "bigram",
+        "seed": 1390
+      }
+    },
+    {
+      "label": "BIGRAM_POLY_054",
+      "text": "UHLXVUDUNOVRHYURPMHHCMRXBWWQXTNLYYUZCZWYJWYYFLAACGZJLRVKPGCPTMHTEQBZZSAMQLC",
+      "metadata": {
+        "method": "bigram_polybius",
+        "variant": "polybius",
+        "seed": 1391
+      }
+    },
+    {
+      "label": "BIGRAM_POLY_055",
+      "text": "UHLXVUDUNOVRHYURPMHHCMRXBWWQXTNLYYUZCZWYJWYYFLAACGZJLRVKPGCPTMHTEQBZZSAMQLC",
+      "metadata": {
+        "method": "bigram_polybius",
+        "variant": "polybius",
+        "seed": 1392
+      }
+    },
+    {
+      "label": "BIGRAM_POLY_056",
+      "text": "UHLXVUDUNOVRHYURPMHHCMRXBWWQXTNLYYUZCZWYJWYYFLAACGZJLRVKPGCPTMHTEQBZZSAMQLC",
+      "metadata": {
+        "method": "bigram_polybius",
+        "variant": "polybius",
+        "seed": 1393
+      }
+    },
+    {
+      "label": "BIGRAM_POLY_057",
+      "text": "UHLXVUDUNOVRHYURPMHHCMRXBWWQXTNLYYUZCZWYJWYYFLAACGZJLRVKPGCPTMHTEQBZZSAMQLC",
+      "metadata": {
+        "method": "bigram_polybius",
+        "variant": "polybius",
+        "seed": 1394
+      }
+    },
+    {
+      "label": "BIGRAM_POLY_058",
+      "text": "UHLXVUDUNOVRHYURPMHHCMRXBWWQXTNLYYUZCZWYJWYYFLAACGZJLRVKPGCPTMHTEQBZZSAMQLC",
+      "metadata": {
+        "method": "bigram_polybius",
+        "variant": "polybius",
+        "seed": 1395
+      }
+    },
+    {
+      "label": "BIGRAM_POLY_059",
+      "text": "UHLXVUDUNOVRHYURPMHHCMRXBWWQXTNLYYUZCZWYJWYYFLAACGZJLRVKPGCPTMHTEQBZZSAMQLC",
+      "metadata": {
+        "method": "bigram_polybius",
+        "variant": "polybius",
+        "seed": 1396
+      }
+    },
+    {
+      "label": "BIGRAM_POLY_060",
+      "text": "DMUGPTNYGHPQRCOLIFBBGVQMQVLUMSGKSSTORYQSQQSSKEZZBVDQPFETDFGYHLMCOZQYORKVKP",
+      "metadata": {
+        "method": "bigram_polybius",
+        "variant": "bigram",
+        "seed": 1397
+      }
+    },
+    {
+      "label": "BIGRAM_POLY_061",
+      "text": "UHLXVUDUNOVRHYURPMHHCMRXBWWQXTNLYYUZCZWYJWYYFLAACGZJLRVKPGCPTMHTEQBZZSAMQLC",
+      "metadata": {
+        "method": "bigram_polybius",
+        "variant": "polybius",
+        "seed": 1398
+      }
+    },
+    {
+      "label": "BIGRAM_POLY_062",
+      "text": "UHLXVUDUNOVRHYURPMHHCMRXBWWQXTNLYYUZCZWYJWYYFLAACGZJLRVKPGCPTMHTEQBZZSAMQLC",
+      "metadata": {
+        "method": "bigram_polybius",
+        "variant": "polybius",
+        "seed": 1399
+      }
+    },
+    {
+      "label": "BIGRAM_POLY_063",
+      "text": "UHLXVUDUNOVRHYURPMHHCMRXBWWQXTNLYYUZCZWYJWYYFLAACGZJLRVKPGCPTMHTEQBZZSAMQLC",
+      "metadata": {
+        "method": "bigram_polybius",
+        "variant": "polybius",
+        "seed": 1400
+      }
+    },
+    {
+      "label": "BIGRAM_POLY_064",
+      "text": "UHLXVUDUNOVRHYURPMHHCMRXBWWQXTNLYYUZCZWYJWYYFLAACGZJLRVKPGCPTMHTEQBZZSAMQLC",
+      "metadata": {
+        "method": "bigram_polybius",
+        "variant": "polybius",
+        "seed": 1401
+      }
+    },
+    {
+      "label": "BIGRAM_POLY_065",
+      "text": "DMUGPTNYGHPQRCOLIFBBGVQMQVLUMSGKSSTORYQSQQSSKEZZBVDQPFETDFGYHLMCOZQYORKVKP",
+      "metadata": {
+        "method": "bigram_polybius",
+        "variant": "bigram",
+        "seed": 1402
+      }
+    },
+    {
+      "label": "BIGRAM_POLY_066",
+      "text": "DMUGPTNYGHPQRCOLIFBBGVQMQVLUMSGKSSTORYQSQQSSKEZZBVDQPFETDFGYHLMCOZQYORKVKP",
+      "metadata": {
+        "method": "bigram_polybius",
+        "variant": "bigram",
+        "seed": 1403
+      }
+    },
+    {
+      "label": "BIGRAM_POLY_067",
+      "text": "UHLXVUDUNOVRHYURPMHHCMRXBWWQXTNLYYUZCZWYJWYYFLAACGZJLRVKPGCPTMHTEQBZZSAMQLC",
+      "metadata": {
+        "method": "bigram_polybius",
+        "variant": "polybius",
+        "seed": 1404
+      }
+    },
+    {
+      "label": "BIGRAM_POLY_068",
+      "text": "DMUGPTNYGHPQRCOLIFBBGVQMQVLUMSGKSSTORYQSQQSSKEZZBVDQPFETDFGYHLMCOZQYORKVKP",
+      "metadata": {
+        "method": "bigram_polybius",
+        "variant": "bigram",
+        "seed": 1405
+      }
+    },
+    {
+      "label": "BIGRAM_POLY_069",
+      "text": "UHLXVUDUNOVRHYURPMHHCMRXBWWQXTNLYYUZCZWYJWYYFLAACGZJLRVKPGCPTMHTEQBZZSAMQLC",
+      "metadata": {
+        "method": "bigram_polybius",
+        "variant": "polybius",
+        "seed": 1406
+      }
+    },
+    {
+      "label": "BIGRAM_POLY_070",
+      "text": "UHLXVUDUNOVRHYURPMHHCMRXBWWQXTNLYYUZCZWYJWYYFLAACGZJLRVKPGCPTMHTEQBZZSAMQLC",
+      "metadata": {
+        "method": "bigram_polybius",
+        "variant": "polybius",
+        "seed": 1407
+      }
+    },
+    {
+      "label": "BIGRAM_POLY_071",
+      "text": "DMUGPTNYGHPQRCOLIFBBGVQMQVLUMSGKSSTORYQSQQSSKEZZBVDQPFETDFGYHLMCOZQYORKVKP",
+      "metadata": {
+        "method": "bigram_polybius",
+        "variant": "bigram",
+        "seed": 1408
+      }
+    },
+    {
+      "label": "BIGRAM_POLY_072",
+      "text": "UHLXVUDUNOVRHYURPMHHCMRXBWWQXTNLYYUZCZWYJWYYFLAACGZJLRVKPGCPTMHTEQBZZSAMQLC",
+      "metadata": {
+        "method": "bigram_polybius",
+        "variant": "polybius",
+        "seed": 1409
+      }
+    },
+    {
+      "label": "BIGRAM_POLY_073",
+      "text": "UHLXVUDUNOVRHYURPMHHCMRXBWWQXTNLYYUZCZWYJWYYFLAACGZJLRVKPGCPTMHTEQBZZSAMQLC",
+      "metadata": {
+        "method": "bigram_polybius",
+        "variant": "polybius",
+        "seed": 1410
+      }
+    },
+    {
+      "label": "BIGRAM_POLY_074",
+      "text": "DMUGPTNYGHPQRCOLIFBBGVQMQVLUMSGKSSTORYQSQQSSKEZZBVDQPFETDFGYHLMCOZQYORKVKP",
+      "metadata": {
+        "method": "bigram_polybius",
+        "variant": "bigram",
+        "seed": 1411
+      }
+    },
+    {
+      "label": "BIGRAM_POLY_075",
+      "text": "UHLXVUDUNOVRHYURPMHHCMRXBWWQXTNLYYUZCZWYJWYYFLAACGZJLRVKPGCPTMHTEQBZZSAMQLC",
+      "metadata": {
+        "method": "bigram_polybius",
+        "variant": "polybius",
+        "seed": 1412
+      }
+    },
+    {
+      "label": "BIGRAM_POLY_076",
+      "text": "UHLXVUDUNOVRHYURPMHHCMRXBWWQXTNLYYUZCZWYJWYYFLAACGZJLRVKPGCPTMHTEQBZZSAMQLC",
+      "metadata": {
+        "method": "bigram_polybius",
+        "variant": "polybius",
+        "seed": 1413
+      }
+    },
+    {
+      "label": "BIGRAM_POLY_077",
+      "text": "DMUGPTNYGHPQRCOLIFBBGVQMQVLUMSGKSSTORYQSQQSSKEZZBVDQPFETDFGYHLMCOZQYORKVKP",
+      "metadata": {
+        "method": "bigram_polybius",
+        "variant": "bigram",
+        "seed": 1414
+      }
+    },
+    {
+      "label": "BIGRAM_POLY_078",
+      "text": "DMUGPTNYGHPQRCOLIFBBGVQMQVLUMSGKSSTORYQSQQSSKEZZBVDQPFETDFGYHLMCOZQYORKVKP",
+      "metadata": {
+        "method": "bigram_polybius",
+        "variant": "bigram",
+        "seed": 1415
+      }
+    },
+    {
+      "label": "BIGRAM_POLY_079",
+      "text": "DMUGPTNYGHPQRCOLIFBBGVQMQVLUMSGKSSTORYQSQQSSKEZZBVDQPFETDFGYHLMCOZQYORKVKP",
+      "metadata": {
+        "method": "bigram_polybius",
+        "variant": "bigram",
+        "seed": 1416
+      }
+    },
+    {
+      "label": "BIGRAM_POLY_080",
+      "text": "DMUGPTNYGHPQRCOLIFBBGVQMQVLUMSGKSSTORYQSQQSSKEZZBVDQPFETDFGYHLMCOZQYORKVKP",
+      "metadata": {
+        "method": "bigram_polybius",
+        "variant": "bigram",
+        "seed": 1417
+      }
+    },
+    {
+      "label": "BIGRAM_POLY_081",
+      "text": "DMUGPTNYGHPQRCOLIFBBGVQMQVLUMSGKSSTORYQSQQSSKEZZBVDQPFETDFGYHLMCOZQYORKVKP",
+      "metadata": {
+        "method": "bigram_polybius",
+        "variant": "bigram",
+        "seed": 1418
+      }
+    },
+    {
+      "label": "BIGRAM_POLY_082",
+      "text": "UHLXVUDUNOVRHYURPMHHCMRXBWWQXTNLYYUZCZWYJWYYFLAACGZJLRVKPGCPTMHTEQBZZSAMQLC",
+      "metadata": {
+        "method": "bigram_polybius",
+        "variant": "polybius",
+        "seed": 1419
+      }
+    },
+    {
+      "label": "BIGRAM_POLY_083",
+      "text": "DMUGPTNYGHPQRCOLIFBBGVQMQVLUMSGKSSTORYQSQQSSKEZZBVDQPFETDFGYHLMCOZQYORKVKP",
+      "metadata": {
+        "method": "bigram_polybius",
+        "variant": "bigram",
+        "seed": 1420
+      }
+    },
+    {
+      "label": "BIGRAM_POLY_084",
+      "text": "UHLXVUDUNOVRHYURPMHHCMRXBWWQXTNLYYUZCZWYJWYYFLAACGZJLRVKPGCPTMHTEQBZZSAMQLC",
+      "metadata": {
+        "method": "bigram_polybius",
+        "variant": "polybius",
+        "seed": 1421
+      }
+    },
+    {
+      "label": "BIGRAM_POLY_085",
+      "text": "UHLXVUDUNOVRHYURPMHHCMRXBWWQXTNLYYUZCZWYJWYYFLAACGZJLRVKPGCPTMHTEQBZZSAMQLC",
+      "metadata": {
+        "method": "bigram_polybius",
+        "variant": "polybius",
+        "seed": 1422
+      }
+    },
+    {
+      "label": "BIGRAM_POLY_086",
+      "text": "UHLXVUDUNOVRHYURPMHHCMRXBWWQXTNLYYUZCZWYJWYYFLAACGZJLRVKPGCPTMHTEQBZZSAMQLC",
+      "metadata": {
+        "method": "bigram_polybius",
+        "variant": "polybius",
+        "seed": 1423
+      }
+    },
+    {
+      "label": "BIGRAM_POLY_087",
+      "text": "UHLXVUDUNOVRHYURPMHHCMRXBWWQXTNLYYUZCZWYJWYYFLAACGZJLRVKPGCPTMHTEQBZZSAMQLC",
+      "metadata": {
+        "method": "bigram_polybius",
+        "variant": "polybius",
+        "seed": 1424
+      }
+    },
+    {
+      "label": "BIGRAM_POLY_088",
+      "text": "DMUGPTNYGHPQRCOLIFBBGVQMQVLUMSGKSSTORYQSQQSSKEZZBVDQPFETDFGYHLMCOZQYORKVKP",
+      "metadata": {
+        "method": "bigram_polybius",
+        "variant": "bigram",
+        "seed": 1425
+      }
+    },
+    {
+      "label": "BIGRAM_POLY_089",
+      "text": "UHLXVUDUNOVRHYURPMHHCMRXBWWQXTNLYYUZCZWYJWYYFLAACGZJLRVKPGCPTMHTEQBZZSAMQLC",
+      "metadata": {
+        "method": "bigram_polybius",
+        "variant": "polybius",
+        "seed": 1426
+      }
+    },
+    {
+      "label": "BIGRAM_POLY_090",
+      "text": "UHLXVUDUNOVRHYURPMHHCMRXBWWQXTNLYYUZCZWYJWYYFLAACGZJLRVKPGCPTMHTEQBZZSAMQLC",
+      "metadata": {
+        "method": "bigram_polybius",
+        "variant": "polybius",
+        "seed": 1427
+      }
+    },
+    {
+      "label": "BIGRAM_POLY_091",
+      "text": "UHLXVUDUNOVRHYURPMHHCMRXBWWQXTNLYYUZCZWYJWYYFLAACGZJLRVKPGCPTMHTEQBZZSAMQLC",
+      "metadata": {
+        "method": "bigram_polybius",
+        "variant": "polybius",
+        "seed": 1428
+      }
+    },
+    {
+      "label": "BIGRAM_POLY_092",
+      "text": "DMUGPTNYGHPQRCOLIFBBGVQMQVLUMSGKSSTORYQSQQSSKEZZBVDQPFETDFGYHLMCOZQYORKVKP",
+      "metadata": {
+        "method": "bigram_polybius",
+        "variant": "bigram",
+        "seed": 1429
+      }
+    },
+    {
+      "label": "BIGRAM_POLY_093",
+      "text": "UHLXVUDUNOVRHYURPMHHCMRXBWWQXTNLYYUZCZWYJWYYFLAACGZJLRVKPGCPTMHTEQBZZSAMQLC",
+      "metadata": {
+        "method": "bigram_polybius",
+        "variant": "polybius",
+        "seed": 1430
+      }
+    },
+    {
+      "label": "BIGRAM_POLY_094",
+      "text": "DMUGPTNYGHPQRCOLIFBBGVQMQVLUMSGKSSTORYQSQQSSKEZZBVDQPFETDFGYHLMCOZQYORKVKP",
+      "metadata": {
+        "method": "bigram_polybius",
+        "variant": "bigram",
+        "seed": 1431
+      }
+    },
+    {
+      "label": "BIGRAM_POLY_095",
+      "text": "UHLXVUDUNOVRHYURPMHHCMRXBWWQXTNLYYUZCZWYJWYYFLAACGZJLRVKPGCPTMHTEQBZZSAMQLC",
+      "metadata": {
+        "method": "bigram_polybius",
+        "variant": "polybius",
+        "seed": 1432
+      }
+    },
+    {
+      "label": "BIGRAM_POLY_096",
+      "text": "DMUGPTNYGHPQRCOLIFBBGVQMQVLUMSGKSSTORYQSQQSSKEZZBVDQPFETDFGYHLMCOZQYORKVKP",
+      "metadata": {
+        "method": "bigram_polybius",
+        "variant": "bigram",
+        "seed": 1433
+      }
+    },
+    {
+      "label": "BIGRAM_POLY_097",
+      "text": "DMUGPTNYGHPQRCOLIFBBGVQMQVLUMSGKSSTORYQSQQSSKEZZBVDQPFETDFGYHLMCOZQYORKVKP",
+      "metadata": {
+        "method": "bigram_polybius",
+        "variant": "bigram",
+        "seed": 1434
+      }
+    },
+    {
+      "label": "BIGRAM_POLY_098",
+      "text": "DMUGPTNYGHPQRCOLIFBBGVQMQVLUMSGKSSTORYQSQQSSKEZZBVDQPFETDFGYHLMCOZQYORKVKP",
+      "metadata": {
+        "method": "bigram_polybius",
+        "variant": "bigram",
+        "seed": 1435
+      }
+    },
+    {
+      "label": "BIGRAM_POLY_099",
+      "text": "UHLXVUDUNOVRHYURPMHHCMRXBWWQXTNLYYUZCZWYJWYYFLAACGZJLRVKPGCPTMHTEQBZZSAMQLC",
+      "metadata": {
+        "method": "bigram_polybius",
+        "variant": "polybius",
+        "seed": 1436
+      }
+    }
+  ]
+}

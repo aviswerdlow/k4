@@ -1,0 +1,10 @@
+{
+  "campaign": "C2_TRIFID_CUBE",
+  "heads": 100,
+  "policies": 4,
+  "tests": 400,
+  "promotions": 0,
+  "promotion_rate": 0.0,
+  "file": "experiments/community_hypotheses/runs/2025-01-06-campaign-c2/scores_c2_trifid_cube.json",
+  "hash": "c214203c5541ab28"
+}

@@ -1,0 +1,166 @@
+{
+  "track": "C_CIPHER",
+  "heads": [
+    {
+      "label": "CIPHER_000",
+      "text": "AJJAAWXWEDRHFXWDZJBFKWVXPDBFTHEASTENTRYPFMOOXWPLXRBBKZQHDSKHXJGBERLINCLOCKO",
+      "metadata": {
+        "cipher_type": "beaufort",
+        "period": 23,
+        "key": [
+          14,
+          10,
+          19,
+          17,
+          20,
+          10,
+          20,
+          10,
+          10,
+          10,
+          11,
+          18,
+          6,
+          15,
+          10,
+          14,
+          7,
+          14,
+          2,
+          6,
+          6,
+          1,
+          6
+        ],
+        "cipher_score": -2.835616438356164,
+        "generation_score": 0.00016505835199569823
+      }
+    },
+    {
+      "label": "CIPHER_001",
+      "text": "ENTEUQRMWHVXARGROTHDMUFHHZDPTHEASTASVLWYXWUITEPLFNTLEJKDJMVHFLHBERLINCLOCKY",
+      "metadata": {
+        "cipher_type": "variant_beaufort",
+        "period": 23,
+        "key": [
+          16,
+          12,
+          9,
+          13,
+          0,
+          2,
+          20,
+          24,
+          16,
+          0,
+          1,
+          12,
+          25,
+          25,
+          18,
+          6,
+          6,
+          14,
+          6,
+          2,
+          16,
+          15,
+          20
+        ],
+        "cipher_score": -2.9452054794520546,
+        "generation_score": 0.00017823578227435275
+      }
+    },
+    {
+      "label": "CIPHER_004",
+      "text": "ENTEUQRMWHVBMGJLUTHDMUFHHZDPTHEASTEEKOQEXWUITEPLFNTLEJKDJQHWIFNBERLINCLOCKY",
+      "metadata": {
+        "cipher_type": "variant_beaufort",
+        "period": 23,
+        "key": [
+          16,
+          12,
+          9,
+          13,
+          0,
+          2,
+          20,
+          24,
+          16,
+          0,
+          1,
+          16,
+          11,
+          14,
+          21,
+          0,
+          12,
+          14,
+          6,
+          2,
+          16,
+          15,
+          20
+        ],
+        "cipher_score": -2.9863013698630136,
+        "generation_score": 0.00018577705964042363
+      }
+    },
+    {
+      "label": "CIPHER_002",
+      "text": "WJAXISJNAHQIQCGZCFNBKBQPTUDCDHEASWONKIQWBDZCQALLSCNXRVUHLRYMXFJBERLINCLOCKY",
+      "metadata": {
+        "cipher_type": "beaufort",
+        "period": 15,
+        "key": [
+          10,
+          10,
+          10,
+          14,
+          2,
+          6,
+          6,
+          1,
+          6,
+          14,
+          10,
+          19,
+          17,
+          20,
+          20
+        ],
+        "cipher_score": -3.1506849315068495,
+        "generation_score": 0.00010059009550794712
+      }
+    },
+    {
+      "label": "CIPHER_003",
+      "text": "SNACXGMAXXMZNKSVTBNJXMJSTNORTBWWOJSVOABCAYLMCAPDKGIXEZZOMJSVRBJBERLINCLOCKN",
+      "metadata": {
+        "cipher_type": "beaufort",
+        "period": 17,
+        "key": [
+          6,
+          14,
+          10,
+          19,
+          17,
+          20,
+          9,
+          14,
+          3,
+          4,
+          6,
+          10,
+          14,
+          2,
+          6,
+          6,
+          1
+        ],
+        "cipher_score": -3.2739726027397262,
+        "generation_score": 0.00011349678746349892
+      }
+    }
+  ]
+}

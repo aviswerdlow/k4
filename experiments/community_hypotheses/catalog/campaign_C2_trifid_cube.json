@@ -1,0 +1,45 @@
+{
+  "campaign": "C2",
+  "name": "Trifid-by-rows & Eight-cube",
+  "description": "Test Trifid cipher variants and Eight-cube transposition",
+  "source": "Community hypothesis - geometric/3D cipher theories",
+  "hypothesis": {
+    "method": "Trifid cipher with row-wise reading or Eight-cube transposition",
+    "key_space": {
+      "trifid_key": "27-character key alphabet",
+      "cube_orientation": "8 vertices, 24 rotations",
+      "reading_order": "row-wise, column-wise, diagonal"
+    },
+    "rationale": "3D ciphers add complexity; Sanborn has used spatial/sculptural elements"
+  },
+  "parameters": {
+    "num_heads": 100,
+    "seed": 1337,
+    "trifid_keys": [
+      "ABCDEFGHIJKLMNOPQRSTUVWXYZ.",
+      "KRYPTOSABCDEFGHIJLMNQUVWXZ.",
+      ".ZYXWVUTSRQPONMLKJIHGFEDCBA"
+    ],
+    "cube_orientations": [
+      "standard",
+      "rotated_90",
+      "rotated_180",
+      "diagonal"
+    ],
+    "reading_orders": [
+      "rows",
+      "columns",
+      "spiral"
+    ]
+  },
+  "validation": {
+    "anchor_modes": ["fixed", "windowed_r2", "windowed_r5", "shuffled"],
+    "delta_thresholds": {
+      "delta1": 0.05,
+      "delta2": 0.10
+    },
+    "controls": "matched_ngram"
+  },
+  "expected_outcome": "If 3D cipher is correct, expect coherent plaintext with significant deltas",
+  "falsifiable": true
+}

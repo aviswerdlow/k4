@@ -1,0 +1,36 @@
+{
+  "timestamp": "2025-09-06T01:15:45.240490",
+  "tracks": {
+    "Track_A": {
+      "heads": 2,
+      "promotions": 0,
+      "promotion_rate": 0.0,
+      "avg_delta_windowed": 0.0,
+      "avg_delta_shuffled": 0.0,
+      "avg_generation_quality": 0.00042109144032644475
+    },
+    "Track_B": {
+      "heads": 10,
+      "promotions": 0,
+      "promotion_rate": 0.0,
+      "avg_delta_windowed": 0.0,
+      "avg_delta_shuffled": 0.0,
+      "avg_generation_quality": 0.0010030899445514344
+    },
+    "Track_C": {
+      "heads": 5,
+      "promotions": 0,
+      "promotion_rate": 0.0,
+      "avg_delta_windowed": 0.0,
+      "avg_delta_shuffled": -0.01800000000000001,
+      "avg_generation_quality": 0.00014863161537638413
+    }
+  },
+  "summary": {
+    "total_heads": 17,
+    "total_promotions": 0,
+    "best_track": null,
+    "best_delta_windowed": 0.0,
+    "best_delta_shuffled": 0.0
+  }
+}

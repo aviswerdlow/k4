@@ -1,0 +1,3028 @@
+{
+  "campaign": "C7_ASMKL",
+  "date": "2025-01-06",
+  "description": "Anchor-Solved Multi-Class Key Lift",
+  "hypothesis": "Solve per-class residues at anchors for lawful cipher schedules",
+  "parameters": {
+    "families": [
+      "VIG",
+      "BF",
+      "VB"
+    ],
+    "classings": [
+      "c6a",
+      "c6b"
+    ],
+    "periods": [
+      10,
+      11,
+      12,
+      13,
+      14,
+      15,
+      16,
+      17,
+      18,
+      19,
+      20,
+      21,
+      22
+    ]
+  },
+  "seed": 1337,
+  "total_heads": 100,
+  "family_distribution": {
+    "VIG": 32,
+    "BF": 27,
+    "VB": 41
+  },
+  "anchors_ok": 0,
+  "heads": [
+    {
+      "label": "ASMKL_000",
+      "text": "LAHDDKNDXZDGALFPRGXYVCXARGFGJWBJLJSCXPNRGCBOUZQRFVSCBPDEEXVFZOXDNGNCOLSWTTX",
+      "metadata": {
+        "family": "VB",
+        "classing": "c6b",
+        "period": 19,
+        "phase": 18,
+        "key": [
+          25,
+          23,
+          12,
+          9,
+          22,
+          16,
+          15,
+          17,
+          18,
+          9,
+          21,
+          25,
+          19,
+          17,
+          4,
+          9,
+          1,
+          22,
+          23
+        ],
+        "anchors_ok": false,
+        "seed": 1338
+      }
+    },
+    {
+      "label": "ASMKL_001",
+      "text": "TNYDFBATZYSJDWCEBRUKZKXFHBDSWGXIQUSHPMCLSTXESWKMZFMAIJWHWTPUGOESKDHEGPEYGIU",
+      "metadata": {
+        "family": "VIG",
+        "classing": "c6a",
+        "period": 21,
+        "phase": 14,
+        "key": [
+          21,
+          7,
+          9,
+          2,
+          2,
+          24,
+          22,
+          12,
+          7,
+          7,
+          14,
+          7,
+          17,
+          23,
+          21,
+          14,
+          12,
+          14,
+          15,
+          13,
+          23
+        ],
+        "anchors_ok": false,
+        "seed": 1339
+      }
+    },
+    {
+      "label": "ASMKL_002",
+      "text": "KGSNDPZCXPGCAMCTCWACSKTNERSDIVSBRMCBQKPTFVAONLBNNIFAJFILCRVJJKJJHQXHKULWOEK",
+      "metadata": {
+        "family": "VIG",
+        "classing": "c6a",
+        "period": 20,
+        "phase": 6,
+        "key": [
+          12,
+          18,
+          6,
+          9,
+          1,
+          25,
+          4,
+          21,
+          18,
+          4,
+          17,
+          25,
+          24,
+          12,
+          9,
+          18,
+          14,
+          9,
+          1,
+          6
+        ],
+        "anchors_ok": false,
+        "seed": 1340
+      }
+    },
+    {
+      "label": "ASMKL_003",
+      "text": "NNDHHSUDYAFZIIDJDTEVVREHIUNEJGRYZIDRRHTMICLIROWOOTEXRBJBDOZCMRUDLTSILFKTWAL",
+      "metadata": {
+        "family": "VIG",
+        "classing": "c6a",
+        "period": 20,
+        "phase": 10,
+        "key": [
+          15,
+          12,
+          19,
+          10,
+          11,
+          2,
+          5,
+          12,
+          23,
+          6,
+          1,
+          14,
+          7,
+          10,
+          13,
+          22,
+          3,
+          11,
+          8,
+          7
+        ],
+        "anchors_ok": false,
+        "seed": 1341
+      }
+    },
+    {
+      "label": "ASMKL_004",
+      "text": "OKGITTJGKRHJFBTRDLYMLBJZDLERCUWBYHZOKBAGSEOBDSMRDNOXKFEYMGXZPGPMPSLBXMCPRJL",
+      "metadata": {
+        "family": "BF",
+        "classing": "c6b",
+        "period": 15,
+        "phase": 0,
+        "key": [
+          2,
+          11,
+          16,
+          25,
+          13,
+          7,
+          6,
+          20,
+          16,
+          24,
+          1,
+          20,
+          6,
+          19,
+          7
+        ],
+        "anchors_ok": false,
+        "seed": 1342
+      }
+    },
+    {
+      "label": "ASMKL_005",
+      "text": "XFXOVKNCWPQEHBQYLQJKKCUYDUANFXJYBMVAZRVOYPXGGGDXOPPKUYZSCLKZSKXXSNBRWWUZUJZ",
+      "metadata": {
+        "family": "BF",
+        "classing": "c6a",
+        "period": 19,
+        "phase": 1,
+        "key": [
+          10,
+          11,
+          6,
+          7,
+          5,
+          15,
+          24,
+          10,
+          16,
+          2,
+          22,
+          10,
+          15,
+          8,
+          19,
+          4,
+          9,
+          19,
+          21
+        ],
+        "anchors_ok": false,
+        "seed": 1343
+      }
+    },
+    {
+      "label": "ASMKL_006",
+      "text": "RINDEBPVBAGDEZRXSSTIRYXJYXTBBAYRNLALZATETDKZZDLRZHWVUYMKDTIAQMEZICNAOFLXSRZ",
+      "metadata": {
+        "family": "VIG",
+        "classing": "c6b",
+        "period": 12,
+        "phase": 9,
+        "key": [
+          14,
+          16,
+          13,
+          8,
+          19,
+          5,
+          7,
+          14,
+          8,
+          23,
+          19,
+          23
+        ],
+        "anchors_ok": false,
+        "seed": 1344
+      }
+    },
+    {
+      "label": "ASMKL_007",
+      "text": "UJDUJKLSQDOUEZTHNQKHEYOGREUZNHPNZXKYHCWACTHOSOJVQJWQPHZORGEBQUXBCZRNCPGKLPH",
+      "metadata": {
+        "family": "VIG",
+        "classing": "c6a",
+        "period": 19,
+        "phase": 4,
+        "key": [
+          4,
+          21,
+          15,
+          17,
+          20,
+          18,
+          7,
+          23,
+          11,
+          4,
+          12,
+          22,
+          16,
+          4,
+          6,
+          17,
+          23,
+          19,
+          21
+        ],
+        "anchors_ok": false,
+        "seed": 1345
+      }
+    },
+    {
+      "label": "ASMKL_008",
+      "text": "XZIYMZODQEQQYVSUVRKZUMDCMFAMNSDNWBBFFROZBBJHOHVETDXSXXDBGHOTEULKUUSWXVMRYIU",
+      "metadata": {
+        "family": "VB",
+        "classing": "c6b",
+        "period": 18,
+        "phase": 10,
+        "key": [
+          10,
+          23,
+          22,
+          5,
+          23,
+          3,
+          4,
+          9,
+          13,
+          12,
+          9,
+          24,
+          24,
+          7,
+          18,
+          11,
+          17,
+          15
+        ],
+        "anchors_ok": false,
+        "seed": 1346
+      }
+    },
+    {
+      "label": "ASMKL_009",
+      "text": "MTSTIWFSLCYUACGSTLRZONNFDYUUMRPJCKVECJOKRSGAMOEUAJSTCSFJYYOQPTJVCUQXCLJXWVC",
+      "metadata": {
+        "family": "VB",
+        "classing": "c6b",
+        "period": 19,
+        "phase": 1,
+        "key": [
+          16,
+          24,
+          18,
+          8,
+          2,
+          14,
+          8,
+          8,
+          4,
+          5,
+          21,
+          4,
+          9,
+          25,
+          10,
+          18,
+          7,
+          11,
+          6
+        ],
+        "anchors_ok": false,
+        "seed": 1347
+      }
+    },
+    {
+      "label": "ASMKL_010",
+      "text": "LYDIHJQZYDAHUZCZTZOYTYCEQJBHNTCDZGCEQGNPCHFNXVRVCWMQYZFXVXTBESWGJHRZPFGTDVQ",
+      "metadata": {
+        "family": "VIG",
+        "classing": "c6a",
+        "period": 19,
+        "phase": 15,
+        "key": [
+          13,
+          5,
+          7,
+          15,
+          8,
+          4,
+          20,
+          4,
+          7,
+          19,
+          12,
+          12,
+          15,
+          6,
+          13,
+          3,
+          3,
+          7,
+          9
+        ],
+        "anchors_ok": false,
+        "seed": 1348
+      }
+    },
+    {
+      "label": "ASMKL_011",
+      "text": "NRQFJCNUTAXTXOXOPXARCTAFLWDIUVCGBVVLVJWGYEIYRDCHSWCMRDTTOOLWDLOGBXRPCPGXOAC",
+      "metadata": {
+        "family": "VIG",
+        "classing": "c6a",
+        "period": 18,
+        "phase": 0,
+        "key": [
+          1,
+          10,
+          20,
+          12,
+          11,
+          12,
+          10,
+          20,
+          13,
+          7,
+          23,
+          18,
+          4,
+          4,
+          17,
+          23,
+          19,
+          8
+        ],
+        "anchors_ok": false,
+        "seed": 1349
+      }
+    },
+    {
+      "label": "ASMKL_012",
+      "text": "RGIMAVSJDAENTIBMSCPELNSDOZHUQLSKIXJHLXPPJNCRLNKICYBRFMGEIFLKQPICZUMFFIBKIQL",
+      "metadata": {
+        "family": "BF",
+        "classing": "c6a",
+        "period": 19,
+        "phase": 5,
+        "key": [
+          15,
+          23,
+          0,
+          7,
+          16,
+          5,
+          7,
+          18,
+          3,
+          20,
+          9,
+          15,
+          23,
+          9,
+          7,
+          24,
+          24,
+          20,
+          0
+        ],
+        "anchors_ok": false,
+        "seed": 1350
+      }
+    },
+    {
+      "label": "ASMKL_013",
+      "text": "XKSQASAHDGTHVHKURNAHAIEOUPMJGJPTARUXZMNRIMMHATIHVGXMDITCEULEWOJMETYMQLYBJZS",
+      "metadata": {
+        "family": "VB",
+        "classing": "c6a",
+        "period": 15,
+        "phase": 11,
+        "key": [
+          6,
+          4,
+          3,
+          19,
+          23,
+          25,
+          25,
+          22,
+          20,
+          15,
+          22,
+          9,
+          9,
+          8,
+          25
+        ],
+        "anchors_ok": false,
+        "seed": 1351
+      }
+    },
+    {
+      "label": "ASMKL_014",
+      "text": "SZEYOJCYVJMPVJQQHJZVDZGWFFSHVHXMXRSRQAKNOAHUWOTQYFSNIFBXDFGXPXFHPRASXKTMJFB",
+      "metadata": {
+        "family": "VB",
+        "classing": "c6a",
+        "period": 17,
+        "phase": 10,
+        "key": [
+          10,
+          15,
+          2,
+          18,
+          4,
+          20,
+          17,
+          2,
+          5,
+          25,
+          4,
+          24,
+          20,
+          7,
+          20,
+          21,
+          5
+        ],
+        "anchors_ok": false,
+        "seed": 1352
+      }
+    },
+    {
+      "label": "ASMKL_015",
+      "text": "YBZEZDJFPIWVMUOYNOQFXQEZLXWNSINHOBHWUNXUTTDBNWUWTQNECRPSLRKLIKPTPXHQCHSBELT",
+      "metadata": {
+        "family": "BF",
+        "classing": "c6b",
+        "period": 13,
+        "phase": 7,
+        "key": [
+          6,
+          19,
+          21,
+          15,
+          16,
+          6,
+          13,
+          12,
+          2,
+          9,
+          21,
+          19,
+          17
+        ],
+        "anchors_ok": false,
+        "seed": 1353
+      }
+    },
+    {
+      "label": "ASMKL_016",
+      "text": "VLSXCKQHZWPVICWRQBUUPUGBCAYVZJZDLHJDDDYYRMLLXZUJDKBPSHNWBPRSUPJTGLOMMBUPWUE",
+      "metadata": {
+        "family": "VIG",
+        "classing": "c6b",
+        "period": 12,
+        "phase": 8,
+        "key": [
+          18,
+          4,
+          7,
+          7,
+          7,
+          11,
+          5,
+          16,
+          19,
+          16,
+          18,
+          20
+        ],
+        "anchors_ok": false,
+        "seed": 1354
+      }
+    },
+    {
+      "label": "ASMKL_017",
+      "text": "GHGZSNNSUCMRXAMKYJPWOLHZTPGTFIYQOAMSMXENBWOACJPDKVLPGTSCYEKDFLXVWOLXHHRLLSU",
+      "metadata": {
+        "family": "VIG",
+        "classing": "c6b",
+        "period": 10,
+        "phase": 3,
+        "key": [
+          22,
+          12,
+          5,
+          8,
+          20,
+          4,
+          18,
+          2,
+          1,
+          10
+        ],
+        "anchors_ok": false,
+        "seed": 1355
+      }
+    },
+    {
+      "label": "ASMKL_018",
+      "text": "SATSJSGKAWJKJKPPHOCQAOHLKFPXJOKJBTDXFPKHYPAKFOYIXPXSGFJSHIOJREKONTEPNBOEXCX",
+      "metadata": {
+        "family": "VIG",
+        "classing": "c6b",
+        "period": 15,
+        "phase": 2,
+        "key": [
+          8,
+          25,
+          22,
+          1,
+          17,
+          25,
+          11,
+          22,
+          17,
+          4,
+          6,
+          11,
+          11,
+          1,
+          18
+        ],
+        "anchors_ok": false,
+        "seed": 1356
+      }
+    },
+    {
+      "label": "ASMKL_019",
+      "text": "VZWYYJNFBAIYGZMXPJWRNAEFIVXNDUKFIJJMKGVZHCZWZAQUPOGORJGKMVMZIYPADWTFAQUVGFP",
+      "metadata": {
+        "family": "VB",
+        "classing": "c6b",
+        "period": 13,
+        "phase": 4,
+        "key": [
+          19,
+          14,
+          13,
+          5,
+          7,
+          24,
+          12,
+          7,
+          4,
+          21,
+          16,
+          17,
+          21
+        ],
+        "anchors_ok": false,
+        "seed": 1357
+      }
+    },
+    {
+      "label": "ASMKL_020",
+      "text": "RQCTGHSMOZDMXVDDKRUWUNDAWMTEJPSDNQWLFUMVYIUEXFXHOJUFNAMFUTRGVXKOUSKLVYSANSO",
+      "metadata": {
+        "family": "VB",
+        "classing": "c6b",
+        "period": 13,
+        "phase": 2,
+        "key": [
+          1,
+          22,
+          3,
+          15,
+          18,
+          2,
+          12,
+          19,
+          21,
+          24,
+          8,
+          18,
+          9
+        ],
+        "anchors_ok": false,
+        "seed": 1358
+      }
+    },
+    {
+      "label": "ASMKL_021",
+      "text": "LHXTLGSTXWCSMRBOACJEYKWMIGNYSCTYPSRBTONLNNVRLPJIOFBGXSJTVNNHMDGXHFUOKRXYYZT",
+      "metadata": {
+        "family": "BF",
+        "classing": "c6a",
+        "period": 15,
+        "phase": 9,
+        "key": [
+          15,
+          7,
+          3,
+          3,
+          22,
+          3,
+          13,
+          9,
+          15,
+          25,
+          8,
+          7,
+          10,
+          5,
+          20
+        ],
+        "anchors_ok": false,
+        "seed": 1359
+      }
+    },
+    {
+      "label": "ASMKL_022",
+      "text": "MYWQIJEDCPDODPHORPNZTRKFQXFLZWJMPLRCGFOPVPGNLZVHFDVGDODNUYTUMTWUNLDCWOWYSTG",
+      "metadata": {
+        "family": "VB",
+        "classing": "c6b",
+        "period": 19,
+        "phase": 14,
+        "key": [
+          21,
+          7,
+          15,
+          22,
+          8,
+          9,
+          3,
+          2,
+          23,
+          19,
+          3,
+          9,
+          10,
+          12,
+          24,
+          23,
+          12,
+          25,
+          14
+        ],
+        "anchors_ok": false,
+        "seed": 1360
+      }
+    },
+    {
+      "label": "ASMKL_023",
+      "text": "XXYVPFMHSQAPKDDUETFWNUEDEWUYCCPGGWJKLMCBPUBDTTVNAVKYDXDJMJHXWBPRTGKMFVFJYVL",
+      "metadata": {
+        "family": "VB",
+        "classing": "c6a",
+        "period": 15,
+        "phase": 4,
+        "key": [
+          4,
+          9,
+          11,
+          15,
+          9,
+          22,
+          14,
+          4,
+          21,
+          17,
+          15,
+          19,
+          12,
+          9,
+          6
+        ],
+        "anchors_ok": false,
+        "seed": 1361
+      }
+    },
+    {
+      "label": "ASMKL_024",
+      "text": "MDRFEFKRCJIFSFKPNMWPJXPNGGIEQSCGKYFECHFZOANKWUCXCTOWYFINLXCSIMWDHNFLIKZOSVM",
+      "metadata": {
+        "family": "BF",
+        "classing": "c6a",
+        "period": 22,
+        "phase": 20,
+        "key": [
+          1,
+          22,
+          24,
+          19,
+          7,
+          5,
+          8,
+          16,
+          2,
+          16,
+          19,
+          23,
+          24,
+          0,
+          21,
+          17,
+          23,
+          16,
+          5,
+          2,
+          0,
+          4
+        ],
+        "anchors_ok": false,
+        "seed": 1362
+      }
+    },
+    {
+      "label": "ASMKL_025",
+      "text": "BATTBEVCYRENNTBOPCEOVONYLOEHBXIWTFRATWDRSSZICYRJGCFKXOBALNVRPMRLMHFDVYASSRT",
+      "metadata": {
+        "family": "VB",
+        "classing": "c6b",
+        "period": 19,
+        "phase": 3,
+        "key": [
+          7,
+          23,
+          3,
+          13,
+          25,
+          9,
+          2,
+          7,
+          16,
+          24,
+          14,
+          18,
+          10,
+          10,
+          2,
+          12,
+          1,
+          13,
+          3
+        ],
+        "anchors_ok": false,
+        "seed": 1363
+      }
+    },
+    {
+      "label": "ASMKL_026",
+      "text": "BTVHFYQHFXQKHYBDTVMLPYKHRPWVEFRADCHMVJMRPWFKPAKJPTSZGKAJVSHYYPUGXFRSZSMXAAH",
+      "metadata": {
+        "family": "VB",
+        "classing": "c6b",
+        "period": 14,
+        "phase": 3,
+        "key": [
+          25,
+          6,
+          6,
+          13,
+          18,
+          11,
+          16,
+          11,
+          10,
+          19,
+          19,
+          25,
+          16,
+          22
+        ],
+        "anchors_ok": false,
+        "seed": 1364
+      }
+    },
+    {
+      "label": "ASMKL_027",
+      "text": "UNZDXLSTYKVXNRGGRKGDVKXXOEBKYUYHXQAQYYJXYOZXEEKVVZWYUGVFGJYJMKGRTANVQISUAXI",
+      "metadata": {
+        "family": "BF",
+        "classing": "c6a",
+        "period": 11,
+        "phase": 1,
+        "key": [
+          15,
+          8,
+          14,
+          9,
+          20,
+          17,
+          25,
+          15,
+          7,
+          4,
+          17
+        ],
+        "anchors_ok": false,
+        "seed": 1365
+      }
+    },
+    {
+      "label": "ASMKL_028",
+      "text": "JMGLDINLEQMUNWFHDQXVFZBOTZIYDRXGNDKNFNGPHZKBQOQVRLPDTFKAGJORZJSJTARNCGPCNTO",
+      "metadata": {
+        "family": "VIG",
+        "classing": "c6a",
+        "period": 16,
+        "phase": 7,
+        "key": [
+          17,
+          8,
+          17,
+          14,
+          22,
+          9,
+          4,
+          5,
+          15,
+          4,
+          6,
+          17,
+          6,
+          10,
+          3,
+          2
+        ],
+        "anchors_ok": false,
+        "seed": 1366
+      }
+    },
+    {
+      "label": "ASMKL_029",
+      "text": "ZRTHCOOAGXRHAZWSPIRCCRRUTWOWBOLALFZZHFGKCYUMHICSODEEISETULSERGROTVIEUGETHSP",
+      "metadata": {
+        "family": "BF",
+        "classing": "c6a",
+        "period": 17,
+        "phase": 0,
+        "key": [
+          13,
+          18,
+          3,
+          24,
+          22,
+          2,
+          11,
+          14,
+          12,
+          4,
+          11,
+          18,
+          1,
+          17,
+          10,
+          3,
+          23
+        ],
+        "anchors_ok": false,
+        "seed": 1367
+      }
+    },
+    {
+      "label": "ASMKL_030",
+      "text": "GUZEDRDBDRCICLVSBNIZSXDKKDZSXADUAPPMDAJAQOOKWDOMFDZWHVCAJTDPGNILUHNMIZIIVXT",
+      "metadata": {
+        "family": "VB",
+        "classing": "c6b",
+        "period": 22,
+        "phase": 8,
+        "key": [
+          7,
+          7,
+          19,
+          8,
+          7,
+          24,
+          22,
+          18,
+          18,
+          19,
+          15,
+          13,
+          9,
+          3,
+          6,
+          13,
+          23,
+          10,
+          8,
+          23,
+          1,
+          19
+        ],
+        "anchors_ok": false,
+        "seed": 1368
+      }
+    },
+    {
+      "label": "ASMKL_031",
+      "text": "LLUQYXWDHGQJLTHISPAFFEASUMOZSGDUCRSCVIRRFOCTXHJJVECIZMTZGKXBKPLMCYUIULVDZLP",
+      "metadata": {
+        "family": "VB",
+        "classing": "c6a",
+        "period": 15,
+        "phase": 1,
+        "key": [
+          19,
+          23,
+          10,
+          10,
+          25,
+          4,
+          9,
+          25,
+          15,
+          1,
+          25,
+          22,
+          24,
+          10,
+          1
+        ],
+        "anchors_ok": false,
+        "seed": 1369
+      }
+    },
+    {
+      "label": "ASMKL_032",
+      "text": "XFXOFKBNWMPFKWBITBFAMKGLEUDMCJKJIXJNFXDPUMWRUPUTFEGGVHYCYFRCWJOKJLZSJRUZYOJ",
+      "metadata": {
+        "family": "VB",
+        "classing": "c6a",
+        "period": 12,
+        "phase": 2,
+        "key": [
+          21,
+          20,
+          9,
+          4,
+          13,
+          23,
+          11,
+          22,
+          4,
+          25,
+          16,
+          5
+        ],
+        "anchors_ok": false,
+        "seed": 1370
+      }
+    },
+    {
+      "label": "ASMKL_033",
+      "text": "GXGVQCCMRDGUEKWNETMTSBPNJVOANZPNKAQPKEIOFUOGJIKVIJWBSNQRTSSERBPSWARFCPRNRGK",
+      "metadata": {
+        "family": "VB",
+        "classing": "c6a",
+        "period": 19,
+        "phase": 3,
+        "key": [
+          22,
+          14,
+          11,
+          18,
+          22,
+          22,
+          4,
+          22,
+          14,
+          5,
+          24,
+          11,
+          22,
+          12,
+          9,
+          3,
+          18,
+          8,
+          2
+        ],
+        "anchors_ok": false,
+        "seed": 1371
+      }
+    },
+    {
+      "label": "ASMKL_034",
+      "text": "PUYEAFOLLJOLCDUKMOKYVLXFIFSGDGFPZYUDHCSDLDTHNGJXHVPMKIRWJQMOQQHIWEQGYEJROLM",
+      "metadata": {
+        "family": "BF",
+        "classing": "c6a",
+        "period": 12,
+        "phase": 1,
+        "key": [
+          22,
+          3,
+          21,
+          8,
+          21,
+          20,
+          19,
+          11,
+          25,
+          17,
+          16,
+          8
+        ],
+        "anchors_ok": false,
+        "seed": 1372
+      }
+    },
+    {
+      "label": "ASMKL_035",
+      "text": "UNSKNQBUINCXIMGFORJUPHPXXWYBYHYEYEWMPVUYLWAELERTCMBCDNYJKGEUUZTHEBDMMODLRQE",
+      "metadata": {
+        "family": "VB",
+        "classing": "c6b",
+        "period": 16,
+        "phase": 8,
+        "key": [
+          2,
+          6,
+          8,
+          12,
+          7,
+          20,
+          18,
+          20,
+          6,
+          12,
+          8,
+          19,
+          19,
+          2,
+          4,
+          6
+        ],
+        "anchors_ok": false,
+        "seed": 1373
+      }
+    },
+    {
+      "label": "ASMKL_036",
+      "text": "SKIIZHOPLDAWMXAKNRIFFDCWOHRUNTRVXENYIAUBHHXLVLEVCLEOWKZPPEFGEKUEZURZEXEROPI",
+      "metadata": {
+        "family": "VIG",
+        "classing": "c6a",
+        "period": 19,
+        "phase": 4,
+        "key": [
+          1,
+          21,
+          14,
+          19,
+          22,
+          17,
+          2,
+          9,
+          21,
+          7,
+          9,
+          25,
+          21,
+          4,
+          20,
+          15,
+          15,
+          21,
+          14
+        ],
+        "anchors_ok": false,
+        "seed": 1374
+      }
+    },
+    {
+      "label": "ASMKL_037",
+      "text": "CJVITMJMNSITMJNJUDIMKNWIUOCNYYUSDJNRIRXDXYDJDILXDLHRVCTBUYDTBNMEXNHRAXNNABV",
+      "metadata": {
+        "family": "VIG",
+        "classing": "c6a",
+        "period": 10,
+        "phase": 5,
+        "key": [
+          2,
+          14,
+          2,
+          19,
+          15,
+          12,
+          18,
+          15,
+          9,
+          1
+        ],
+        "anchors_ok": false,
+        "seed": 1375
+      }
+    },
+    {
+      "label": "ASMKL_038",
+      "text": "YEYGEPQLFYKSFDZCSIPQGGEOUHGWVYRBCVCIGUJPIHIZIVKQGDHYUMNAHRMPRQMEISJIDNSCOBM",
+      "metadata": {
+        "family": "VIG",
+        "classing": "c6b",
+        "period": 16,
+        "phase": 3,
+        "key": [
+          15,
+          15,
+          9,
+          16,
+          23,
+          12,
+          11,
+          16,
+          25,
+          7,
+          3,
+          1,
+          9,
+          10,
+          19,
+          22
+        ],
+        "anchors_ok": false,
+        "seed": 1376
+      }
+    },
+    {
+      "label": "ASMKL_039",
+      "text": "BMWNCMSPTQEEMOQLSKCYBTEWLOGLYQTNGXZNIDKXUJFGLDHFAAWUPMEMFGIONKCMZJUUNSXVATD",
+      "metadata": {
+        "family": "BF",
+        "classing": "c6a",
+        "period": 11,
+        "phase": 8,
+        "key": [
+          4,
+          22,
+          0,
+          15,
+          3,
+          25,
+          23,
+          24,
+          15,
+          13,
+          6
+        ],
+        "anchors_ok": false,
+        "seed": 1377
+      }
+    },
+    {
+      "label": "ASMKL_040",
+      "text": "TCQGHTERRCENTGMANGHQJKSUGLARJBEZXTUIJYXVULCUWYXOBBZYXQBGTVGKFTZCDQBIGRGIAFG",
+      "metadata": {
+        "family": "VB",
+        "classing": "c6a",
+        "period": 16,
+        "phase": 15,
+        "key": [
+          1,
+          6,
+          15,
+          13,
+          5,
+          7,
+          3,
+          11,
+          21,
+          10,
+          2,
+          18,
+          14,
+          24,
+          15,
+          5
+        ],
+        "anchors_ok": false,
+        "seed": 1378
+      }
+    },
+    {
+      "label": "ASMKL_041",
+      "text": "IHVCPVUBBYRGKALACLMMRMIEQHNKAVDZMYZERANFEHPNNSWOQGEUFSRQDRTDWNYCSVGEOTWSKBT",
+      "metadata": {
+        "family": "VB",
+        "classing": "c6b",
+        "period": 16,
+        "phase": 6,
+        "key": [
+          23,
+          21,
+          9,
+          8,
+          23,
+          15,
+          20,
+          6,
+          11,
+          11,
+          21,
+          7,
+          23,
+          13,
+          21,
+          17
+        ],
+        "anchors_ok": false,
+        "seed": 1379
+      }
+    },
+    {
+      "label": "ASMKL_042",
+      "text": "HSCFVBYXLOBVCPIMASSVPWDFWDRYWUNUTPIUOGHMCHKGFXAIBHATLIOEANNCGWTBZCWCYTGPQHQ",
+      "metadata": {
+        "family": "VIG",
+        "classing": "c6a",
+        "period": 20,
+        "phase": 12,
+        "key": [
+          21,
+          19,
+          19,
+          16,
+          25,
+          3,
+          6,
+          25,
+          8,
+          13,
+          9,
+          6,
+          7,
+          9,
+          8,
+          12,
+          25,
+          13,
+          25,
+          17
+        ],
+        "anchors_ok": false,
+        "seed": 1380
+      }
+    },
+    {
+      "label": "ASMKL_043",
+      "text": "TKWGJWDEQRIIMPXVPYJZWRNLYXRWPKXAIAIFGAXPCQFLGQTXCCAEXAMUVKEKJTBGPSQNERLVDMC",
+      "metadata": {
+        "family": "BF",
+        "classing": "c6b",
+        "period": 13,
+        "phase": 6,
+        "key": [
+          18,
+          22,
+          24,
+          2,
+          19,
+          13,
+          7,
+          11,
+          6,
+          23,
+          3,
+          10,
+          0
+        ],
+        "anchors_ok": false,
+        "seed": 1381
+      }
+    },
+    {
+      "label": "ASMKL_044",
+      "text": "DGGWJGKSSLOAGOTAASFNAZAWRVFHERSOMHTPBIIFNCWMTPVELSGNWPOSNWBXFSFZCJKYPROXCOI",
+      "metadata": {
+        "family": "VIG",
+        "classing": "c6b",
+        "period": 11,
+        "phase": 4,
+        "key": [
+          22,
+          14,
+          22,
+          6,
+          11,
+          21,
+          4,
+          21,
+          11,
+          8,
+          13
+        ],
+        "anchors_ok": false,
+        "seed": 1382
+      }
+    },
+    {
+      "label": "ASMKL_045",
+      "text": "PJCOZRYGTTIYWOEOYECJOCQUWIDBFABGIVESXBIPOTTKRWNMRWJMAKVLAXBLOXOZMCQPJPPEQSO",
+      "metadata": {
+        "family": "VIG",
+        "classing": "c6a",
+        "period": 18,
+        "phase": 5,
+        "key": [
+          4,
+          10,
+          23,
+          10,
+          1,
+          25,
+          18,
+          8,
+          3,
+          21,
+          23,
+          25,
+          8,
+          13,
+          14,
+          12,
+          13,
+          5
+        ],
+        "anchors_ok": false,
+        "seed": 1383
+      }
+    },
+    {
+      "label": "ASMKL_046",
+      "text": "NXUMEQVEKMYKHNKYRYAXGAVTTGUUVMMFOFXMVPANTSQIIPDYCVPWTETZSVGKLVFSCOBOPZIYOGG",
+      "metadata": {
+        "family": "VB",
+        "classing": "c6b",
+        "period": 18,
+        "phase": 14,
+        "key": [
+          10,
+          2,
+          24,
+          16,
+          4,
+          5,
+          4,
+          25,
+          6,
+          21,
+          22,
+          13,
+          9,
+          19,
+          25,
+          22,
+          10,
+          21
+        ],
+        "anchors_ok": false,
+        "seed": 1384
+      }
+    },
+    {
+      "label": "ASMKL_047",
+      "text": "IXADXUUWLIBRUMKBUIHYEKMYBJKLHZJQPATUDZJMFGEVKHHEXHZCEHKPLGTQSGITRJRJFPFCXPX",
+      "metadata": {
+        "family": "VB",
+        "classing": "c6a",
+        "period": 13,
+        "phase": 5,
+        "key": [
+          5,
+          1,
+          7,
+          6,
+          19,
+          20,
+          22,
+          16,
+          12,
+          3,
+          6,
+          23,
+          8
+        ],
+        "anchors_ok": false,
+        "seed": 1385
+      }
+    },
+    {
+      "label": "ASMKL_048",
+      "text": "LJOHPQQURBWVYPWPYADUCQFTFNNXVDBMLYZNYDNPRUINGDFKQCDGHTYTDCPOYZDXVMDXJHBYVVQ",
+      "metadata": {
+        "family": "VB",
+        "classing": "c6a",
+        "period": 13,
+        "phase": 7,
+        "key": [
+          19,
+          6,
+          11,
+          20,
+          2,
+          10,
+          23,
+          23,
+          8,
+          4,
+          16,
+          21,
+          2
+        ],
+        "anchors_ok": false,
+        "seed": 1386
+      }
+    },
+    {
+      "label": "ASMKL_049",
+      "text": "SSDZZZGLLQYCZDPPZYJGHOIWEUHNCOKBLATEFQVBNHQDFOQSEFESHQDHZYHJRWUVDAEQYVDWNVX",
+      "metadata": {
+        "family": "VIG",
+        "classing": "c6a",
+        "period": 15,
+        "phase": 8,
+        "key": [
+          3,
+          21,
+          17,
+          22,
+          9,
+          2,
+          15,
+          25,
+          22,
+          9,
+          7,
+          18,
+          21,
+          15,
+          17
+        ],
+        "anchors_ok": false,
+        "seed": 1387
+      }
+    },
+    {
+      "label": "ASMKL_050",
+      "text": "RCDDUDVKOZLZSIRSFPNQWTJPKUDLOQHKWZEFYNPSKKNLJKPSWYBXVZZXXDRMBMRLWRKRAOGYYKS",
+      "metadata": {
+        "family": "BF",
+        "classing": "c6a",
+        "period": 14,
+        "phase": 8,
+        "key": [
+          18,
+          24,
+          20,
+          6,
+          5,
+          10,
+          19,
+          0,
+          5,
+          3,
+          13,
+          20,
+          14,
+          17
+        ],
+        "anchors_ok": false,
+        "seed": 1388
+      }
+    },
+    {
+      "label": "ASMKL_051",
+      "text": "NNGUGINQYNITCRAHLRVRYXRFDRPBNQSEIUGZKBRRVMVEYABRCOBKJXQGUUMKFLPVZOHPWYTVRCC",
+      "metadata": {
+        "family": "VB",
+        "classing": "c6b",
+        "period": 13,
+        "phase": 6,
+        "key": [
+          2,
+          18,
+          6,
+          14,
+          8,
+          1,
+          25,
+          12,
+          22,
+          3,
+          12,
+          20,
+          16
+        ],
+        "anchors_ok": false,
+        "seed": 1389
+      }
+    },
+    {
+      "label": "ASMKL_052",
+      "text": "ZYQCHEUKCOBCTDLRTSRYSBSYMIBMXYTAPOKADKIDGWDFUHVVDHKBVIAOVQTEJMIEQASZEZPCLGD",
+      "metadata": {
+        "family": "VIG",
+        "classing": "c6b",
+        "period": 13,
+        "phase": 7,
+        "key": [
+          3,
+          4,
+          4,
+          19,
+          19,
+          9,
+          8,
+          15,
+          3,
+          20,
+          15,
+          13,
+          10
+        ],
+        "anchors_ok": false,
+        "seed": 1390
+      }
+    },
+    {
+      "label": "ASMKL_053",
+      "text": "BLSWLIUADNRGOCWQZZYNTLIMIAYUIHDWPYLOJDYXAKPEBQWUJKBOBFRPFGTDAPJSPJSFQSWACUE",
+      "metadata": {
+        "family": "VB",
+        "classing": "c6a",
+        "period": 12,
+        "phase": 9,
+        "key": [
+          5,
+          17,
+          20,
+          23,
+          12,
+          23,
+          6,
+          23,
+          21,
+          13,
+          10,
+          8
+        ],
+        "anchors_ok": false,
+        "seed": 1391
+      }
+    },
+    {
+      "label": "ASMKL_054",
+      "text": "UNTXLRBMSEVEMVBOPNHNHJUODKIWYCHDXHJZMVNWWPGIUBQQRNWQNHOLVOJXLVXYRASUWNYNTEH",
+      "metadata": {
+        "family": "BF",
+        "classing": "c6b",
+        "period": 18,
+        "phase": 0,
+        "key": [
+          8,
+          14,
+          3,
+          14,
+          5,
+          5,
+          24,
+          0,
+          24,
+          11,
+          15,
+          15,
+          13,
+          13,
+          15,
+          25,
+          23,
+          18
+        ],
+        "anchors_ok": false,
+        "seed": 1392
+      }
+    },
+    {
+      "label": "ASMKL_055",
+      "text": "QONOHNJYLKPRMUBOFSANGKOMBBSCUKTJECTWRZBUWTPFDWJEZVZUMYXAVZISSIWTJRIWQZYRZPZ",
+      "metadata": {
+        "family": "VB",
+        "classing": "c6a",
+        "period": 13,
+        "phase": 9,
+        "key": [
+          13,
+          25,
+          12,
+          10,
+          5,
+          3,
+          21,
+          6,
+          11,
+          2,
+          13,
+          3,
+          23
+        ],
+        "anchors_ok": false,
+        "seed": 1393
+      }
+    },
+    {
+      "label": "ASMKL_056",
+      "text": "QDWCKUOAOUAALRNXKHNMMLCDDDWEBMFWUUAEMZHERDYHOJYLYCFUARLPQNCXXEAZARHEJSQRXXC",
+      "metadata": {
+        "family": "VB",
+        "classing": "c6a",
+        "period": 16,
+        "phase": 7,
+        "key": [
+          13,
+          6,
+          15,
+          10,
+          25,
+          25,
+          12,
+          2,
+          2,
+          12,
+          11,
+          16,
+          6,
+          17,
+          12,
+          8
+        ],
+        "anchors_ok": false,
+        "seed": 1394
+      }
+    },
+    {
+      "label": "ASMKL_057",
+      "text": "HVCYIHQGRTNJFFLSPTXFFYFJCEJIJYSDQWBQDAEONZLMWRNSPSEVDJYQFHDWJJKGSHCHMFRQBDU",
+      "metadata": {
+        "family": "VB",
+        "classing": "c6b",
+        "period": 21,
+        "phase": 3,
+        "key": [
+          22,
+          4,
+          9,
+          19,
+          20,
+          18,
+          7,
+          14,
+          19,
+          19,
+          18,
+          11,
+          12,
+          19,
+          24,
+          4,
+          13,
+          23,
+          7,
+          7,
+          14
+        ],
+        "anchors_ok": false,
+        "seed": 1395
+      }
+    },
+    {
+      "label": "ASMKL_058",
+      "text": "EZRTDDOZVVZSQVSOYDIDFUCCKEVWGQKNIQVVFIHDYEXZTNDCMYALTALOXOBPCIFQONCVCBQQEYB",
+      "metadata": {
+        "family": "VB",
+        "classing": "c6a",
+        "period": 16,
+        "phase": 1,
+        "key": [
+          3,
+          16,
+          24,
+          7,
+          2,
+          9,
+          15,
+          17,
+          11,
+          15,
+          14,
+          5,
+          7,
+          15,
+          3,
+          4
+        ],
+        "anchors_ok": false,
+        "seed": 1396
+      }
+    },
+    {
+      "label": "ASMKL_059",
+      "text": "MQHSRDQBITNTGCMAFGYQPSNDOYVZPCDLPHHGYFJAOAQHBLWOPNVVDTZNGPTJKUUAABOBYWXUMLT",
+      "metadata": {
+        "family": "VIG",
+        "classing": "c6b",
+        "period": 14,
+        "phase": 10,
+        "key": [
+          3,
+          11,
+          7,
+          13,
+          24,
+          14,
+          7,
+          18,
+          21,
+          16,
+          2,
+          11,
+          3,
+          25
+        ],
+        "anchors_ok": false,
+        "seed": 1397
+      }
+    },
+    {
+      "label": "ASMKL_060",
+      "text": "ARRYBHIZFTWXRZVSBQMAIHXHCXXICYFWUEEADAJDUPEUQAGGDTEUJXWPYHDPGQMMKRHJATGYAVV",
+      "metadata": {
+        "family": "VB",
+        "classing": "c6a",
+        "period": 11,
+        "phase": 5,
+        "key": [
+          11,
+          11,
+          25,
+          12,
+          2,
+          12,
+          16,
+          7,
+          7,
+          7,
+          19
+        ],
+        "anchors_ok": false,
+        "seed": 1398
+      }
+    },
+    {
+      "label": "ASMKL_061",
+      "text": "JADVJXIBRUZUTTZRGZDLXTGQOUFYCARXXBGUHZOMLATGZJSDLJEWVYZMABHOLZDXZDQSMQOOAXH",
+      "metadata": {
+        "family": "VIG",
+        "classing": "c6b",
+        "period": 22,
+        "phase": 11,
+        "key": [
+          17,
+          8,
+          25,
+          15,
+          20,
+          2,
+          6,
+          24,
+          16,
+          25,
+          12,
+          5,
+          1,
+          7,
+          22,
+          11,
+          17,
+          15,
+          13,
+          15,
+          13,
+          21
+        ],
+        "anchors_ok": false,
+        "seed": 1399
+      }
+    },
+    {
+      "label": "ASMKL_062",
+      "text": "TSOHDEYZGMXRLCLWIAUQOGWCDIHDEAGJZKYBDOANMBSTDJZZBSCECIXZEUDZDAUEMWMAFMYNGDQ",
+      "metadata": {
+        "family": "BF",
+        "classing": "c6a",
+        "period": 22,
+        "phase": 5,
+        "key": [
+          5,
+          21,
+          17,
+          10,
+          11,
+          7,
+          19,
+          24,
+          24,
+          23,
+          18,
+          21,
+          13,
+          12,
+          19,
+          17,
+          2,
+          12,
+          20,
+          25,
+          7,
+          16
+        ],
+        "anchors_ok": false,
+        "seed": 1400
+      }
+    },
+    {
+      "label": "ASMKL_063",
+      "text": "EQWQDJVDIFABPLUUYUNAFAJGXOWFFGMTIHASFOOHLOYISDFIMPFITGSSKYCYBYHWOEHSCHXURIC",
+      "metadata": {
+        "family": "VB",
+        "classing": "c6a",
+        "period": 16,
+        "phase": 10,
+        "key": [
+          24,
+          15,
+          2,
+          24,
+          6,
+          16,
+          14,
+          19,
+          6,
+          9,
+          16,
+          15,
+          12,
+          25,
+          9,
+          21
+        ],
+        "anchors_ok": false,
+        "seed": 1401
+      }
+    },
+    {
+      "label": "ASMKL_064",
+      "text": "FDWQNQGEPPNHVNPCKRAUYOBADJMJMOXMERHVFJZACMMNFBBLVTVSAUCWEURJEHNMRREJCUSBJFX",
+      "metadata": {
+        "family": "VB",
+        "classing": "c6a",
+        "period": 15,
+        "phase": 3,
+        "key": [
+          20,
+          21,
+          1,
+          17,
+          2,
+          12,
+          25,
+          19,
+          2,
+          9,
+          16,
+          9,
+          8,
+          19,
+          22
+        ],
+        "anchors_ok": false,
+        "seed": 1402
+      }
+    },
+    {
+      "label": "ASMKL_065",
+      "text": "IOXHKENSTRPQFNWATAIDQSYHLGGTEXBPWNWIHOXUDDFIUAPDJKOOOGCSTVDKHSODOFLXGWUKTFE",
+      "metadata": {
+        "family": "VIG",
+        "classing": "c6a",
+        "period": 20,
+        "phase": 5,
+        "key": [
+          11,
+          15,
+          5,
+          19,
+          24,
+          6,
+          13,
+          13,
+          10,
+          10,
+          10,
+          10,
+          22,
+          13,
+          16,
+          5,
+          21,
+          22,
+          5,
+          18
+        ],
+        "anchors_ok": false,
+        "seed": 1403
+      }
+    },
+    {
+      "label": "ASMKL_066",
+      "text": "PDTRUFIQTALCAFJEVTCDHDDCKOJSOAVNFXPFHLNQFDNMVXGOFXEGTNJBVISLSZYUHYGEEDETOUH",
+      "metadata": {
+        "family": "BF",
+        "classing": "c6a",
+        "period": 18,
+        "phase": 1,
+        "key": [
+          24,
+          3,
+          4,
+          3,
+          8,
+          14,
+          19,
+          5,
+          4,
+          25,
+          7,
+          5,
+          13,
+          1,
+          23,
+          23,
+          15,
+          3
+        ],
+        "anchors_ok": false,
+        "seed": 1404
+      }
+    },
+    {
+      "label": "ASMKL_067",
+      "text": "HTZDLWWASZDDWWHDXRSJVRXJEILTKFVWJANFILZKEULKTWQHVMFBTDPHBSLUENAZKHELOQSXEWN",
+      "metadata": {
+        "family": "VIG",
+        "classing": "c6b",
+        "period": 14,
+        "phase": 6,
+        "key": [
+          14,
+          8,
+          17,
+          8,
+          5,
+          22,
+          7,
+          8,
+          11,
+          14,
+          9,
+          18,
+          1,
+          14
+        ],
+        "anchors_ok": false,
+        "seed": 1405
+      }
+    },
+    {
+      "label": "ASMKL_068",
+      "text": "YYZNZMKQKBCPLFYIXBGZJHPLDUACBKVGXQBVANYWTDCPTGEXJCXDSPEQSXLESDOPCJDXDZJCEGB",
+      "metadata": {
+        "family": "VIG",
+        "classing": "c6b",
+        "period": 14,
+        "phase": 5,
+        "key": [
+          6,
+          18,
+          22,
+          16,
+          13,
+          16,
+          3,
+          11,
+          4,
+          21,
+          2,
+          13,
+          24,
+          22
+        ],
+        "anchors_ok": false,
+        "seed": 1406
+      }
+    },
+    {
+      "label": "ASMKL_069",
+      "text": "OOZPBOZAXOYWLIDJUKIFZXLXIFCSVNLKKXVNZJGWUFAPIQSVGPQXLRCLVVWZZVQHEAONCQXJOLW",
+      "metadata": {
+        "family": "BF",
+        "classing": "c6b",
+        "period": 16,
+        "phase": 11,
+        "key": [
+          2,
+          22,
+          14,
+          3,
+          21,
+          18,
+          7,
+          12,
+          0,
+          17,
+          20,
+          2,
+          15,
+          9,
+          6,
+          21
+        ],
+        "anchors_ok": false,
+        "seed": 1407
+      }
+    },
+    {
+      "label": "ASMKL_070",
+      "text": "DGJBLKTDPDJQFBVEYYETSUQQFHMLGWCZXWXAPJJVBMHXDUQVSPCFZQYMPTMBQXXCDOFKPIOOLZB",
+      "metadata": {
+        "family": "VIG",
+        "classing": "c6b",
+        "period": 21,
+        "phase": 18,
+        "key": [
+          16,
+          9,
+          4,
+          4,
+          11,
+          17,
+          4,
+          11,
+          21,
+          22,
+          17,
+          19,
+          7,
+          10,
+          7,
+          23,
+          8,
+          4,
+          11,
+          21,
+          1
+        ],
+        "anchors_ok": false,
+        "seed": 1408
+      }
+    },
+    {
+      "label": "ASMKL_071",
+      "text": "CURAYBSCPFXOJVYLHEYIYWFEGBCAYDPCZHWUQDZRQTCJMLCSWPWHLBXWCNQOCEYWWMVCIFTKAGZ",
+      "metadata": {
+        "family": "BF",
+        "classing": "c6b",
+        "period": 22,
+        "phase": 1,
+        "key": [
+          1,
+          16,
+          21,
+          1,
+          17,
+          18,
+          15,
+          15,
+          16,
+          21,
+          12,
+          17,
+          25,
+          10,
+          13,
+          12,
+          22,
+          15,
+          9,
+          25,
+          9,
+          20
+        ],
+        "anchors_ok": false,
+        "seed": 1409
+      }
+    },
+    {
+      "label": "ASMKL_072",
+      "text": "JEWRPXPLSKLMEOUYDHYXVAMOLSTWVMSHNFRNMQVUQIZNTVHJNLTQOGLUXGMBYHYLTQCMNWKGXPC",
+      "metadata": {
+        "family": "BF",
+        "classing": "c6a",
+        "period": 11,
+        "phase": 7,
+        "key": [
+          9,
+          11,
+          12,
+          25,
+          24,
+          17,
+          5,
+          23,
+          5,
+          6,
+          8
+        ],
+        "anchors_ok": false,
+        "seed": 1410
+      }
+    },
+    {
+      "label": "ASMKL_073",
+      "text": "ZZEELXUPCMTWZMBCRCCXBEWPPDHYOOCPRDMNJKZPKMXRPITMNJQKGQTOGUJZWCCJDOGRNZQOMLS",
+      "metadata": {
+        "family": "VIG",
+        "classing": "c6b",
+        "period": 11,
+        "phase": 4,
+        "key": [
+          25,
+          4,
+          21,
+          1,
+          15,
+          2,
+          6,
+          13,
+          9,
+          17,
+          3
+        ],
+        "anchors_ok": false,
+        "seed": 1411
+      }
+    },
+    {
+      "label": "ASMKL_074",
+      "text": "TUWEKEYJQMHQUEBBYGWLBSQKHDGFSIQPFXHFJJGTEAXFJDLMMQUEUQHIBMJYDGWXDCAMFZPVQFG",
+      "metadata": {
+        "family": "VB",
+        "classing": "c6a",
+        "period": 11,
+        "phase": 6,
+        "key": [
+          16,
+          1,
+          21,
+          10,
+          5,
+          13,
+          5,
+          19,
+          12,
+          13,
+          16
+        ],
+        "anchors_ok": false,
+        "seed": 1412
+      }
+    },
+    {
+      "label": "ASMKL_075",
+      "text": "GREYJGRPEXPTLCEDHYTNHFTSJWEDXCXKWLWLNLWCJYXLQEELIJLDKHUMVUSVXZIROFXVWRVJOAI",
+      "metadata": {
+        "family": "BF",
+        "classing": "c6a",
+        "period": 13,
+        "phase": 11,
+        "key": [
+          14,
+          15,
+          3,
+          20,
+          14,
+          3,
+          10,
+          4,
+          9,
+          4,
+          12,
+          20,
+          18
+        ],
+        "anchors_ok": false,
+        "seed": 1413
+      }
+    },
+    {
+      "label": "ASMKL_076",
+      "text": "MNLVZKERWKSTQRAXYIZNXJQNCTGSPVVJEEEWUFRWOMZVUNXHLZFVAOSPJEBEUIRQWXKSFYPINWX",
+      "metadata": {
+        "family": "VB",
+        "classing": "c6b",
+        "period": 18,
+        "phase": 14,
+        "key": [
+          5,
+          22,
+          7,
+          3,
+          16,
+          3,
+          24,
+          8,
+          15,
+          25,
+          12,
+          12,
+          16,
+          3,
+          24,
+          12,
+          1,
+          4
+        ],
+        "anchors_ok": false,
+        "seed": 1414
+      }
+    },
+    {
+      "label": "ASMKL_077",
+      "text": "GZFFPGIKOTMJWGJDTBJNODGFQIBLZZYINGJLHPYEBONGZCKVEMLHFZPVTWEUFDWBTHGPBYRDKYR",
+      "metadata": {
+        "family": "VB",
+        "classing": "c6b",
+        "period": 10,
+        "phase": 0,
+        "key": [
+          18,
+          24,
+          21,
+          14,
+          21,
+          18,
+          11,
+          22,
+          8,
+          12
+        ],
+        "anchors_ok": false,
+        "seed": 1415
+      }
+    },
+    {
+      "label": "ASMKL_078",
+      "text": "BHTOVPKMCMXWXYYYVLKYXGYPRVTANTQXFYXQXUDQFVVDAQJMJGCGLMHBEFZTJLLALVEQUNMDLPZ",
+      "metadata": {
+        "family": "VIG",
+        "classing": "c6a",
+        "period": 16,
+        "phase": 8,
+        "key": [
+          4,
+          21,
+          23,
+          15,
+          4,
+          20,
+          16,
+          13,
+          13,
+          20,
+          17,
+          3,
+          25,
+          25,
+          13,
+          2
+        ],
+        "anchors_ok": false,
+        "seed": 1416
+      }
+    },
+    {
+      "label": "ASMKL_079",
+      "text": "JXKZKIAWEKTJMHJKCRVBRSNDVOGITXLDCVLEZRGETXFGQGFXBKRIDJTWPVOOJXMKAFVLDLLFCDY",
+      "metadata": {
+        "family": "BF",
+        "classing": "c6a",
+        "period": 21,
+        "phase": 5,
+        "key": [
+          10,
+          22,
+          22,
+          2,
+          13,
+          23,
+          24,
+          20,
+          16,
+          4,
+          22,
+          23,
+          10,
+          10,
+          17,
+          13,
+          20,
+          13,
+          25,
+          23,
+          21
+        ],
+        "anchors_ok": false,
+        "seed": 1417
+      }
+    },
+    {
+      "label": "ASMKL_080",
+      "text": "XMVWIZBYZRGXTEBGDGMERXCHRPILRHQFZTXUJUMVPWNGWYVXTRSCDUTZFYQXLVHHYAWSSBGINDC",
+      "metadata": {
+        "family": "BF",
+        "classing": "c6b",
+        "period": 17,
+        "phase": 8,
+        "key": [
+          24,
+          0,
+          8,
+          20,
+          22,
+          15,
+          17,
+          11,
+          11,
+          13,
+          5,
+          13,
+          2,
+          13,
+          24,
+          12,
+          5
+        ],
+        "anchors_ok": false,
+        "seed": 1418
+      }
+    },
+    {
+      "label": "ASMKL_081",
+      "text": "FWDTXFZVPLTFVLNSSKAYKWGKXTHRYWKJMMHSDDVRGEJNXMCQYHCNJFOWHHGNMCPETIXWKOGOTJQ",
+      "metadata": {
+        "family": "VIG",
+        "classing": "c6a",
+        "period": 21,
+        "phase": 14,
+        "key": [
+          19,
+          17,
+          22,
+          1,
+          6,
+          6,
+          7,
+          1,
+          19,
+          16,
+          21,
+          1,
+          3,
+          12,
+          9,
+          5,
+          7,
+          24,
+          23,
+          9,
+          24
+        ],
+        "anchors_ok": false,
+        "seed": 1419
+      }
+    },
+    {
+      "label": "ASMKL_082",
+      "text": "NNLIXTVYMFIKNTFONDLHUTKDWHTUPXMIGRAUNWVQTWQGDWAQZFRTQJICUBNLSDLTWDUFUDCKNUC",
+      "metadata": {
+        "family": "VB",
+        "classing": "c6b",
+        "period": 11,
+        "phase": 2,
+        "key": [
+          24,
+          14,
+          25,
+          12,
+          1,
+          17,
+          3,
+          5,
+          24,
+          10,
+          6
+        ],
+        "anchors_ok": false,
+        "seed": 1420
+      }
+    },
+    {
+      "label": "ASMKL_083",
+      "text": "VHBJZHVFYDSTVLFEEMHSOKEPMIMNZHZBLOVZNLVLHHKOCSTSNTPQQCMIBYNAJDJHRGOPASQXUDU",
+      "metadata": {
+        "family": "VIG",
+        "classing": "c6a",
+        "period": 17,
+        "phase": 7,
+        "key": [
+          2,
+          18,
+          6,
+          7,
+          9,
+          7,
+          4,
+          19,
+          20,
+          9,
+          8,
+          21,
+          7,
+          2,
+          9,
+          8,
+          4
+        ],
+        "anchors_ok": false,
+        "seed": 1421
+      }
+    },
+    {
+      "label": "ASMKL_084",
+      "text": "TAYMKXPHQSFKAFPQHTWRFXEBGBPOEOLJGNECOMADUPRFFPYNRQCBDVFOHZJJSEPIOYNMDXKEOXX",
+      "metadata": {
+        "family": "VIG",
+        "classing": "c6a",
+        "period": 15,
+        "phase": 8,
+        "key": [
+          7,
+          16,
+          15,
+          15,
+          1,
+          1,
+          13,
+          25,
+          21,
+          1,
+          12,
+          5,
+          10,
+          17,
+          8
+        ],
+        "anchors_ok": false,
+        "seed": 1422
+      }
+    },
+    {
+      "label": "ASMKL_085",
+      "text": "MWBVBLRBVKLJKWSYFAAOESAVAJYAKEZKTWSQRMLXRHTURPPQFRMLBDMGFFFHNSKZXKTWIFGPWEK",
+      "metadata": {
+        "family": "BF",
+        "classing": "c6b",
+        "period": 20,
+        "phase": 14,
+        "key": [
+          14,
+          15,
+          1,
+          17,
+          5,
+          20,
+          11,
+          14,
+          6,
+          9,
+          13,
+          5,
+          1,
+          15,
+          0,
+          23,
+          11,
+          12,
+          21,
+          25
+        ],
+        "anchors_ok": false,
+        "seed": 1423
+      }
+    },
+    {
+      "label": "ASMKL_086",
+      "text": "QRBAQSRFSSRJFAFUYXQGMZNHMZMTLESVPQSBNCGKYVIMGAQISENAWWRBMINRDXQSOJXJKVVJJBI",
+      "metadata": {
+        "family": "VB",
+        "classing": "c6b",
+        "period": 22,
+        "phase": 0,
+        "key": [
+          2,
+          16,
+          17,
+          9,
+          22,
+          4,
+          20,
+          17,
+          12,
+          11,
+          23,
+          24,
+          4,
+          8,
+          17,
+          9,
+          16,
+          18,
+          15,
+          5,
+          16,
+          20
+        ],
+        "anchors_ok": false,
+        "seed": 1424
+      }
+    },
+    {
+      "label": "ASMKL_087",
+      "text": "JLVMUKNMGYOPUBJBXYNXOVBONKFEGZZTWGWHQMSIMDFUBTPZOATWYPBQPMJVBTJNOQNHCHYHQTS",
+      "metadata": {
+        "family": "BF",
+        "classing": "c6a",
+        "period": 14,
+        "phase": 8,
+        "key": [
+          10,
+          0,
+          12,
+          5,
+          8,
+          0,
+          21,
+          19,
+          23,
+          12,
+          5,
+          3,
+          14,
+          24
+        ],
+        "anchors_ok": false,
+        "seed": 1425
+      }
+    },
+    {
+      "label": "ASMKL_088",
+      "text": "GABGZWDLLQNHATUTXXASLKTXSVZINMHQAHGSNIVAPNXBXGYACIIBJCJIQGTNWYXMZVDILLQUUSC",
+      "metadata": {
+        "family": "VIG",
+        "classing": "c6b",
+        "period": 17,
+        "phase": 10,
+        "key": [
+          3,
+          21,
+          17,
+          7,
+          4,
+          1,
+          25,
+          20,
+          18,
+          11,
+          8,
+          1,
+          9,
+          11,
+          21,
+          18,
+          20
+        ],
+        "anchors_ok": false,
+        "seed": 1426
+      }
+    },
+    {
+      "label": "ASMKL_089",
+      "text": "NTXVCBDIDXVKTFSTVLVYMGKJIUYCXHDATRGGABDYDNITDCMDENZDHBVCANAQALVKOQULGQHSVET",
+      "metadata": {
+        "family": "VIG",
+        "classing": "c6a",
+        "period": 11,
+        "phase": 1,
+        "key": [
+          25,
+          1,
+          8,
+          13,
+          22,
+          18,
+          13,
+          20,
+          6,
+          3,
+          10
+        ],
+        "anchors_ok": false,
+        "seed": 1427
+      }
+    },
+    {
+      "label": "ASMKL_090",
+      "text": "JOBIPUDXDUVDWFFCDLHKTSMJQDHGMTMTPFPLRGHJEWYBBXARRNKAFRAMFNXAISSETVBCQZAXKXN",
+      "metadata": {
+        "family": "VB",
+        "classing": "c6a",
+        "period": 12,
+        "phase": 10,
+        "key": [
+          17,
+          17,
+          21,
+          6,
+          6,
+          9,
+          23,
+          13,
+          1,
+          18,
+          21,
+          13
+        ],
+        "anchors_ok": false,
+        "seed": 1428
+      }
+    },
+    {
+      "label": "ASMKL_091",
+      "text": "TZUXQPKMKYCPFDFYYZDPLQQPFWMQELKBAWSENGGMLEHDJIJFSBGHOCCHMLNVDZDBNAARDSVGCIA",
+      "metadata": {
+        "family": "VB",
+        "classing": "c6b",
+        "period": 22,
+        "phase": 14,
+        "key": [
+          4,
+          17,
+          8,
+          4,
+          4,
+          11,
+          17,
+          13,
+          16,
+          20,
+          2,
+          14,
+          15,
+          11,
+          5,
+          24,
+          10,
+          6,
+          22,
+          1,
+          13,
+          24
+        ],
+        "anchors_ok": false,
+        "seed": 1429
+      }
+    },
+    {
+      "label": "ASMKL_092",
+      "text": "EWDDYQRDNOKMLNVXELNIYLHGSECPXENLMFYMNPWYFTCYONOVWEVIJKKUEFNAZLNWWBXEUITZZHX",
+      "metadata": {
+        "family": "BF",
+        "classing": "c6b",
+        "period": 22,
+        "phase": 3,
+        "key": [
+          9,
+          20,
+          16,
+          18,
+          23,
+          13,
+          20,
+          18,
+          4,
+          14,
+          17,
+          19,
+          21,
+          4,
+          23,
+          12,
+          5,
+          9,
+          8,
+          12,
+          16,
+          14
+        ],
+        "anchors_ok": false,
+        "seed": 1430
+      }
+    },
+    {
+      "label": "ASMKL_093",
+      "text": "IRLWHFDZWCPTVIPQVWHMMAGZPGRUEEMVINJBQJRXWHYDUFUHQQUOXCAOYVRQHVCSLGBEJHUNJAX",
+      "metadata": {
+        "family": "VB",
+        "classing": "c6b",
+        "period": 12,
+        "phase": 7,
+        "key": [
+          17,
+          6,
+          11,
+          16,
+          21,
+          21,
+          8,
+          20,
+          16,
+          1,
+          5,
+          13
+        ],
+        "anchors_ok": false,
+        "seed": 1431
+      }
+    },
+    {
+      "label": "ASMKL_094",
+      "text": "THEPWEAYLRFGGYIJKVELBPWMAWKNTDJUXCZOBZKQLGVCJUKUBGNHMBXNNKHDSLVLAFYDYWKAUQQ",
+      "metadata": {
+        "family": "VB",
+        "classing": "c6a",
+        "period": 12,
+        "phase": 7,
+        "key": [
+          16,
+          3,
+          10,
+          5,
+          10,
+          11,
+          21,
+          5,
+          6,
+          20,
+          24,
+          2
+        ],
+        "anchors_ok": false,
+        "seed": 1432
+      }
+    },
+    {
+      "label": "ASMKL_095",
+      "text": "XXRLIFAPFTNXKGNRUOWCPVWRQILNLGRTTITPPFLKTDFLHQIJPYITSIDADALAYTAPEECKSOIDWOF",
+      "metadata": {
+        "family": "BF",
+        "classing": "c6b",
+        "period": 12,
+        "phase": 6,
+        "key": [
+          23,
+          3,
+          11,
+          0,
+          7,
+          8,
+          11,
+          24,
+          1,
+          2,
+          2,
+          19
+        ],
+        "anchors_ok": false,
+        "seed": 1433
+      }
+    },
+    {
+      "label": "ASMKL_096",
+      "text": "MONUGBHDIOLPOFXPHZQNZAPYCVKANEILNIBEPHZMIYDNWFYMEPLIEKLXHXPSCZQBXQFWEZBKPHS",
+      "metadata": {
+        "family": "BF",
+        "classing": "c6a",
+        "period": 11,
+        "phase": 7,
+        "key": [
+          0,
+          15,
+          4,
+          17,
+          14,
+          21,
+          5,
+          0,
+          15,
+          23,
+          11
+        ],
+        "anchors_ok": false,
+        "seed": 1434
+      }
+    },
+    {
+      "label": "ASMKL_097",
+      "text": "JLETFQOHVNZPLNZOYALVYQNIOFWUVXBVVIJDQVBUAJHYJOJUHDJEUFWOKRPXTKFXTAYJOWTHAMN",
+      "metadata": {
+        "family": "VB",
+        "classing": "c6a",
+        "period": 17,
+        "phase": 5,
+        "key": [
+          10,
+          21,
+          11,
+          3,
+          16,
+          21,
+          10,
+          20,
+          2,
+          11,
+          2,
+          17,
+          19,
+          15,
+          6,
+          5,
+          4
+        ],
+        "anchors_ok": false,
+        "seed": 1435
+      }
+    },
+    {
+      "label": "ASMKL_098",
+      "text": "ZWLKWGCWLNICWDNFMUJQYXCGALAFIXLKKVJCFXEHBBCKJNWCUUGBHJIKPVFIHUJEWNSECPRPKAV",
+      "metadata": {
+        "family": "BF",
+        "classing": "c6a",
+        "period": 11,
+        "phase": 5,
+        "key": [
+          25,
+          10,
+          17,
+          20,
+          2,
+          13,
+          23,
+          21,
+          1,
+          16,
+          20
+        ],
+        "anchors_ok": false,
+        "seed": 1436
+      }
+    },
+    {
+      "label": "ASMKL_099",
+      "text": "GRFTIVWLZPHXYPZWXXOTMANFCPNIZASHPDZIOGIIESGZDHSHJMQGVWJVVSMDPTIMVIDGFJWQAZO",
+      "metadata": {
+        "family": "VB",
+        "classing": "c6b",
+        "period": 19,
+        "phase": 14,
+        "key": [
+          7,
+          25,
+          23,
+          19,
+          8,
+          13,
+          12,
+          23,
+          23,
+          11,
+          11,
+          15,
+          18,
+          13,
+          18,
+          16,
+          21,
+          2,
+          14
+        ],
+        "anchors_ok": false,
+        "seed": 1437
+      }
+    }
+  ]
+}

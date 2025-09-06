@@ -1,0 +1,27 @@
+{
+  "track": "A_MCMC",
+  "heads": [
+    {
+      "label": "MCMC_chain00_sample00",
+      "text": "AHEDRXTAWTZERY IEHAPIEASTNORTHEASTANISTEENGOEHQFMOSOSOCIEHUNIVRBERLINCLOCKT",
+      "metadata": {
+        "chain_id": 0,
+        "sample_rank": 0,
+        "init_temp": 1.6687459612059792,
+        "cooling_rate": 0.9973534365434272,
+        "generation_score": 0.0003929335532298933
+      }
+    },
+    {
+      "label": "MCMC_chain01_sample00",
+      "text": "IUJSXFOTEHRSINTRAPIHAEASTNORTHEASTE YTOEZEOQDARGHTEIGNHAIMOEENNBERLINCLOCKS",
+      "metadata": {
+        "chain_id": 1,
+        "sample_rank": 0,
+        "init_temp": 0.8660297508812833,
+        "cooling_rate": 0.9975832299346079,
+        "generation_score": 0.00044924932742299625
+      }
+    }
+  ]
+}

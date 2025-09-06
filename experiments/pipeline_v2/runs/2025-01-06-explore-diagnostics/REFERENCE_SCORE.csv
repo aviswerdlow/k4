@@ -1,0 +1,6 @@
+reference,description,delta_vs_windowed,delta_vs_shuffled,pass_deltas,verdict,expected
+published_grid,Published GRID-only winner with narrative,0.0,-0.16000000000000014,False,FAIL,Should FAIL under blinding
+grid_runner_up,GRID runner-up with similar narrative,0.0,-0.1499999999999999,False,FAIL,Should FAIL under blinding
+corridor_synthetic,Synthetic with corridor anchors only,-0.18,-0.23999999999999996,False,FAIL,May pass anchors but fail language
+random_control,Random letters with anchors,0.0,-0.05000000000000002,False,FAIL,Should FAIL on language scores
+k1_plaintext,K1 plaintext with anchors inserted,0.0,-0.020000000000000018,False,FAIL,Might have better language scores

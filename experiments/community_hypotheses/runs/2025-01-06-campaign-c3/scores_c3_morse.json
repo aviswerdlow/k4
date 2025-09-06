@@ -1,0 +1,3638 @@
+{
+  "campaign": "C3_MORSE",
+  "heads_file": "experiments/community_hypotheses/runs/2025-01-06-campaign-c3/heads_c3_morse.json",
+  "num_heads": 100,
+  "policies": [
+    {
+      "name": "fixed",
+      "window_radius": 0,
+      "typo_budget": 0
+    },
+    {
+      "name": "windowed_r2_t0",
+      "window_radius": 2,
+      "typo_budget": 0
+    },
+    {
+      "name": "windowed_r5_t1",
+      "window_radius": 5,
+      "typo_budget": 1
+    },
+    {
+      "name": "windowed_r10_t2",
+      "window_radius": 10,
+      "typo_budget": 2
+    }
+  ],
+  "baseline_stats": {
+    "ngram_mean": -0.010212,
+    "ngram_std": 0.007356535295609991,
+    "coverage_mean": 0.05822666666666666,
+    "coverage_std": 0.05174064338387935,
+    "compress_mean": 0.0,
+    "compress_std": 0.0
+  },
+  "promotions": 0,
+  "results": [
+    {
+      "label": "MORSE_000",
+      "policy": "fixed",
+      "score": 0.01708941602200259,
+      "z_score": -0.1540606471261644,
+      "delta1": 0.0,
+      "delta2": 0.0,
+      "promoted": false
+    },
+    {
+      "label": "MORSE_000",
+      "policy": "windowed_r2_t0",
+      "score": 0.01708941602200259,
+      "z_score": -0.1540606471261644,
+      "delta1": 0.0,
+      "delta2": 0.0,
+      "promoted": false
+    },
+    {
+      "label": "MORSE_000",
+      "policy": "windowed_r5_t1",
+      "score": 0.01708941602200259,
+      "z_score": -0.1540606471261644,
+      "delta1": 0.0,
+      "delta2": 0.0,
+      "promoted": false
+    },
+    {
+      "label": "MORSE_000",
+      "policy": "windowed_r10_t2",
+      "score": 0.01708941602200259,
+      "z_score": -0.1540606471261644,
+      "delta1": 0.0,
+      "delta2": 0.0,
+      "promoted": false
+    },
+    {
+      "label": "MORSE_001",
+      "policy": "fixed",
+      "score": 0.01708941602200259,
+      "z_score": -0.1540606471261644,
+      "delta1": 0.0,
+      "delta2": 0.0,
+      "promoted": false
+    },
+    {
+      "label": "MORSE_001",
+      "policy": "windowed_r2_t0",
+      "score": 0.01708941602200259,
+      "z_score": -0.1540606471261644,
+      "delta1": 0.0,
+      "delta2": 0.0,
+      "promoted": false
+    },
+    {
+      "label": "MORSE_001",
+      "policy": "windowed_r5_t1",
+      "score": 0.01708941602200259,
+      "z_score": -0.1540606471261644,
+      "delta1": 0.0,
+      "delta2": 0.0,
+      "promoted": false
+    },
+    {
+      "label": "MORSE_001",
+      "policy": "windowed_r10_t2",
+      "score": 0.01708941602200259,
+      "z_score": -0.1540606471261644,
+      "delta1": 0.0,
+      "delta2": 0.0,
+      "promoted": false
+    },
+    {
+      "label": "MORSE_002",
+      "policy": "fixed",
+      "score": 0.01708941602200259,
+      "z_score": -0.1540606471261644,
+      "delta1": 0.0,
+      "delta2": 0.0,
+      "promoted": false
+    },
+    {
+      "label": "MORSE_002",
+      "policy": "windowed_r2_t0",
+      "score": 0.01708941602200259,
+      "z_score": -0.1540606471261644,
+      "delta1": 0.0,
+      "delta2": 0.0,
+      "promoted": false
+    },
+    {
+      "label": "MORSE_002",
+      "policy": "windowed_r5_t1",
+      "score": 0.01708941602200259,
+      "z_score": -0.1540606471261644,
+      "delta1": 0.0,
+      "delta2": 0.0,
+      "promoted": false
+    },
+    {
+      "label": "MORSE_002",
+      "policy": "windowed_r10_t2",
+      "score": 0.01708941602200259,
+      "z_score": -0.1540606471261644,
+      "delta1": 0.0,
+      "delta2": 0.0,
+      "promoted": false
+    },
+    {
+      "label": "MORSE_003",
+      "policy": "fixed",
+      "score": 0.6387147359631115,
+      "z_score": 0.6022752164484292,
+      "delta1": 0.0,
+      "delta2": 0.005113760822421459,
+      "promoted": false
+    },
+    {
+      "label": "MORSE_003",
+      "policy": "windowed_r2_t0",
+      "score": 0.6387147359631115,
+      "z_score": 0.6022752164484292,
+      "delta1": 0.0,
+      "delta2": 0.005113760822421459,
+      "promoted": false
+    },
+    {
+      "label": "MORSE_003",
+      "policy": "windowed_r5_t1",
+      "score": 0.6387147359631115,
+      "z_score": 0.6022752164484292,
+      "delta1": 0.0,
+      "delta2": 0.005113760822421459,
+      "promoted": false
+    },
+    {
+      "label": "MORSE_003",
+      "policy": "windowed_r10_t2",
+      "score": 0.6387147359631115,
+      "z_score": 0.6022752164484292,
+      "delta1": 0.0,
+      "delta2": 0.005113760822421459,
+      "promoted": false
+    },
+    {
+      "label": "MORSE_004",
+      "policy": "fixed",
+      "score": 0.01708941602200259,
+      "z_score": -0.1540606471261644,
+      "delta1": 0.0,
+      "delta2": 0.0,
+      "promoted": false
+    },
+    {
+      "label": "MORSE_004",
+      "policy": "windowed_r2_t0",
+      "score": 0.01708941602200259,
+      "z_score": -0.1540606471261644,
+      "delta1": 0.0,
+      "delta2": 0.0,
+      "promoted": false
+    },
+    {
+      "label": "MORSE_004",
+      "policy": "windowed_r5_t1",
+      "score": 0.01708941602200259,
+      "z_score": -0.1540606471261644,
+      "delta1": 0.0,
+      "delta2": 0.0,
+      "promoted": false
+    },
+    {
+      "label": "MORSE_004",
+      "policy": "windowed_r10_t2",
+      "score": 0.01708941602200259,
+      "z_score": -0.1540606471261644,
+      "delta1": 0.0,
+      "delta2": 0.0,
+      "promoted": false
+    },
+    {
+      "label": "MORSE_005",
+      "policy": "fixed",
+      "score": 0.01708941602200259,
+      "z_score": -0.1540606471261644,
+      "delta1": 0.0,
+      "delta2": 0.0,
+      "promoted": false
+    },
+    {
+      "label": "MORSE_005",
+      "policy": "windowed_r2_t0",
+      "score": 0.01708941602200259,
+      "z_score": -0.1540606471261644,
+      "delta1": 0.0,
+      "delta2": 0.0,
+      "promoted": false
+    },
+    {
+      "label": "MORSE_005",
+      "policy": "windowed_r5_t1",
+      "score": 0.01708941602200259,
+      "z_score": -0.1540606471261644,
+      "delta1": 0.0,
+      "delta2": 0.0,
+      "promoted": false
+    },
+    {
+      "label": "MORSE_005",
+      "policy": "windowed_r10_t2",
+      "score": 0.01708941602200259,
+      "z_score": -0.1540606471261644,
+      "delta1": 0.0,
+      "delta2": 0.0,
+      "promoted": false
+    },
+    {
+      "label": "MORSE_006",
+      "policy": "fixed",
+      "score": 0.01708941602200259,
+      "z_score": -0.1540606471261644,
+      "delta1": 0.0,
+      "delta2": 0.0,
+      "promoted": false
+    },
+    {
+      "label": "MORSE_006",
+      "policy": "windowed_r2_t0",
+      "score": 0.01708941602200259,
+      "z_score": -0.1540606471261644,
+      "delta1": 0.0,
+      "delta2": 0.0,
+      "promoted": false
+    },
+    {
+      "label": "MORSE_006",
+      "policy": "windowed_r5_t1",
+      "score": 0.01708941602200259,
+      "z_score": -0.1540606471261644,
+      "delta1": 0.0,
+      "delta2": 0.0,
+      "promoted": false
+    },
+    {
+      "label": "MORSE_006",
+      "policy": "windowed_r10_t2",
+      "score": 0.01708941602200259,
+      "z_score": -0.1540606471261644,
+      "delta1": 0.0,
+      "delta2": 0.0,
+      "promoted": false
+    },
+    {
+      "label": "MORSE_007",
+      "policy": "fixed",
+      "score": 0.38907217603524114,
+      "z_score": 0.26941846987793544,
+      "delta1": 0.0,
+      "delta2": 0.0,
+      "promoted": false
+    },
+    {
+      "label": "MORSE_007",
+      "policy": "windowed_r2_t0",
+      "score": 0.38907217603524114,
+      "z_score": 0.26941846987793544,
+      "delta1": 0.0,
+      "delta2": 0.0,
+      "promoted": false
+    },
+    {
+      "label": "MORSE_007",
+      "policy": "windowed_r5_t1",
+      "score": 0.38907217603524114,
+      "z_score": 0.26941846987793544,
+      "delta1": 0.0,
+      "delta2": 0.0,
+      "promoted": false
+    },
+    {
+      "label": "MORSE_007",
+      "policy": "windowed_r10_t2",
+      "score": 0.38907217603524114,
+      "z_score": 0.26941846987793544,
+      "delta1": 0.0,
+      "delta2": 0.0,
+      "promoted": false
+    },
+    {
+      "label": "MORSE_008",
+      "policy": "fixed",
+      "score": 0.6387147359631115,
+      "z_score": 0.6022752164484292,
+      "delta1": 0.0,
+      "delta2": 0.005113760822421459,
+      "promoted": false
+    },
+    {
+      "label": "MORSE_008",
+      "policy": "windowed_r2_t0",
+      "score": 0.6387147359631115,
+      "z_score": 0.6022752164484292,
+      "delta1": 0.0,
+      "delta2": 0.005113760822421459,
+      "promoted": false
+    },
+    {
+      "label": "MORSE_008",
+      "policy": "windowed_r5_t1",
+      "score": 0.6387147359631115,
+      "z_score": 0.6022752164484292,
+      "delta1": 0.0,
+      "delta2": 0.005113760822421459,
+      "promoted": false
+    },
+    {
+      "label": "MORSE_008",
+      "policy": "windowed_r10_t2",
+      "score": 0.6387147359631115,
+      "z_score": 0.6022752164484292,
+      "delta1": 0.0,
+      "delta2": 0.005113760822421459,
+      "promoted": false
+    },
+    {
+      "label": "MORSE_009",
+      "policy": "fixed",
+      "score": 0.6387147359631115,
+      "z_score": 0.6022752164484292,
+      "delta1": 0.0,
+      "delta2": 0.005113760822421459,
+      "promoted": false
+    },
+    {
+      "label": "MORSE_009",
+      "policy": "windowed_r2_t0",
+      "score": 0.6387147359631115,
+      "z_score": 0.6022752164484292,
+      "delta1": 0.0,
+      "delta2": 0.005113760822421459,
+      "promoted": false
+    },
+    {
+      "label": "MORSE_009",
+      "policy": "windowed_r5_t1",
+      "score": 0.6387147359631115,
+      "z_score": 0.6022752164484292,
+      "delta1": 0.0,
+      "delta2": 0.005113760822421459,
+      "promoted": false
+    },
+    {
+      "label": "MORSE_009",
+      "policy": "windowed_r10_t2",
+      "score": 0.6387147359631115,
+      "z_score": 0.6022752164484292,
+      "delta1": 0.0,
+      "delta2": 0.005113760822421459,
+      "promoted": false
+    },
+    {
+      "label": "MORSE_010",
+      "policy": "fixed",
+      "score": 0.01708941602200259,
+      "z_score": -0.1540606471261644,
+      "delta1": 0.0,
+      "delta2": 0.0,
+      "promoted": false
+    },
+    {
+      "label": "MORSE_010",
+      "policy": "windowed_r2_t0",
+      "score": 0.01708941602200259,
+      "z_score": -0.1540606471261644,
+      "delta1": 0.0,
+      "delta2": 0.0,
+      "promoted": false
+    },
+    {
+      "label": "MORSE_010",
+      "policy": "windowed_r5_t1",
+      "score": 0.01708941602200259,
+      "z_score": -0.1540606471261644,
+      "delta1": 0.0,
+      "delta2": 0.0,
+      "promoted": false
+    },
+    {
+      "label": "MORSE_010",
+      "policy": "windowed_r10_t2",
+      "score": 0.01708941602200259,
+      "z_score": -0.1540606471261644,
+      "delta1": 0.0,
+      "delta2": 0.0,
+      "promoted": false
+    },
+    {
+      "label": "MORSE_011",
+      "policy": "fixed",
+      "score": 0.6387147359631115,
+      "z_score": 0.6022752164484292,
+      "delta1": 0.0,
+      "delta2": 0.005113760822421459,
+      "promoted": false
+    },
+    {
+      "label": "MORSE_011",
+      "policy": "windowed_r2_t0",
+      "score": 0.6387147359631115,
+      "z_score": 0.6022752164484292,
+      "delta1": 0.0,
+      "delta2": 0.005113760822421459,
+      "promoted": false
+    },
+    {
+      "label": "MORSE_011",
+      "policy": "windowed_r5_t1",
+      "score": 0.6387147359631115,
+      "z_score": 0.6022752164484292,
+      "delta1": 0.0,
+      "delta2": 0.005113760822421459,
+      "promoted": false
+    },
+    {
+      "label": "MORSE_011",
+      "policy": "windowed_r10_t2",
+      "score": 0.6387147359631115,
+      "z_score": 0.6022752164484292,
+      "delta1": 0.0,
+      "delta2": 0.005113760822421459,
+      "promoted": false
+    },
+    {
+      "label": "MORSE_012",
+      "policy": "fixed",
+      "score": 0.6387147359631115,
+      "z_score": 0.6022752164484292,
+      "delta1": 0.0,
+      "delta2": 0.005113760822421459,
+      "promoted": false
+    },
+    {
+      "label": "MORSE_012",
+      "policy": "windowed_r2_t0",
+      "score": 0.6387147359631115,
+      "z_score": 0.6022752164484292,
+      "delta1": 0.0,
+      "delta2": 0.005113760822421459,
+      "promoted": false
+    },
+    {
+      "label": "MORSE_012",
+      "policy": "windowed_r5_t1",
+      "score": 0.6387147359631115,
+      "z_score": 0.6022752164484292,
+      "delta1": 0.0,
+      "delta2": 0.005113760822421459,
+      "promoted": false
+    },
+    {
+      "label": "MORSE_012",
+      "policy": "windowed_r10_t2",
+      "score": 0.6387147359631115,
+      "z_score": 0.6022752164484292,
+      "delta1": 0.0,
+      "delta2": 0.005113760822421459,
+      "promoted": false
+    },
+    {
+      "label": "MORSE_013",
+      "policy": "fixed",
+      "score": 0.6387147359631115,
+      "z_score": 0.6022752164484292,
+      "delta1": 0.0,
+      "delta2": 0.005113760822421459,
+      "promoted": false
+    },
+    {
+      "label": "MORSE_013",
+      "policy": "windowed_r2_t0",
+      "score": 0.6387147359631115,
+      "z_score": 0.6022752164484292,
+      "delta1": 0.0,
+      "delta2": 0.005113760822421459,
+      "promoted": false
+    },
+    {
+      "label": "MORSE_013",
+      "policy": "windowed_r5_t1",
+      "score": 0.6387147359631115,
+      "z_score": 0.6022752164484292,
+      "delta1": 0.0,
+      "delta2": 0.005113760822421459,
+      "promoted": false
+    },
+    {
+      "label": "MORSE_013",
+      "policy": "windowed_r10_t2",
+      "score": 0.6387147359631115,
+      "z_score": 0.6022752164484292,
+      "delta1": 0.0,
+      "delta2": 0.005113760822421459,
+      "promoted": false
+    },
+    {
+      "label": "MORSE_014",
+      "policy": "fixed",
+      "score": 0.01708941602200259,
+      "z_score": -0.1540606471261644,
+      "delta1": 0.0,
+      "delta2": 0.0,
+      "promoted": false
+    },
+    {
+      "label": "MORSE_014",
+      "policy": "windowed_r2_t0",
+      "score": 0.01708941602200259,
+      "z_score": -0.1540606471261644,
+      "delta1": 0.0,
+      "delta2": 0.0,
+      "promoted": false
+    },
+    {
+      "label": "MORSE_014",
+      "policy": "windowed_r5_t1",
+      "score": 0.01708941602200259,
+      "z_score": -0.1540606471261644,
+      "delta1": 0.0,
+      "delta2": 0.0,
+      "promoted": false
+    },
+    {
+      "label": "MORSE_014",
+      "policy": "windowed_r10_t2",
+      "score": 0.01708941602200259,
+      "z_score": -0.1540606471261644,
+      "delta1": 0.0,
+      "delta2": 0.0,
+      "promoted": false
+    },
+    {
+      "label": "MORSE_015",
+      "policy": "fixed",
+      "score": 0.38907217603524114,
+      "z_score": 0.26941846987793544,
+      "delta1": 0.0,
+      "delta2": 0.0,
+      "promoted": false
+    },
+    {
+      "label": "MORSE_015",
+      "policy": "windowed_r2_t0",
+      "score": 0.38907217603524114,
+      "z_score": 0.26941846987793544,
+      "delta1": 0.0,
+      "delta2": 0.0,
+      "promoted": false
+    },
+    {
+      "label": "MORSE_015",
+      "policy": "windowed_r5_t1",
+      "score": 0.38907217603524114,
+      "z_score": 0.26941846987793544,
+      "delta1": 0.0,
+      "delta2": 0.0,
+      "promoted": false
+    },
+    {
+      "label": "MORSE_015",
+      "policy": "windowed_r10_t2",
+      "score": 0.38907217603524114,
+      "z_score": 0.26941846987793544,
+      "delta1": 0.0,
+      "delta2": 0.0,
+      "promoted": false
+    },
+    {
+      "label": "MORSE_016",
+      "policy": "fixed",
+      "score": 0.01708941602200259,
+      "z_score": -0.1540606471261644,
+      "delta1": 0.0,
+      "delta2": 0.0,
+      "promoted": false
+    },
+    {
+      "label": "MORSE_016",
+      "policy": "windowed_r2_t0",
+      "score": 0.01708941602200259,
+      "z_score": -0.1540606471261644,
+      "delta1": 0.0,
+      "delta2": 0.0,
+      "promoted": false
+    },
+    {
+      "label": "MORSE_016",
+      "policy": "windowed_r5_t1",
+      "score": 0.01708941602200259,
+      "z_score": -0.1540606471261644,
+      "delta1": 0.0,
+      "delta2": 0.0,
+      "promoted": false
+    },
+    {
+      "label": "MORSE_016",
+      "policy": "windowed_r10_t2",
+      "score": 0.01708941602200259,
+      "z_score": -0.1540606471261644,
+      "delta1": 0.0,
+      "delta2": 0.0,
+      "promoted": false
+    },
+    {
+      "label": "MORSE_017",
+      "policy": "fixed",
+      "score": 0.6387147359631115,
+      "z_score": 0.6022752164484292,
+      "delta1": 0.0,
+      "delta2": 0.005113760822421459,
+      "promoted": false
+    },
+    {
+      "label": "MORSE_017",
+      "policy": "windowed_r2_t0",
+      "score": 0.6387147359631115,
+      "z_score": 0.6022752164484292,
+      "delta1": 0.0,
+      "delta2": 0.005113760822421459,
+      "promoted": false
+    },
+    {
+      "label": "MORSE_017",
+      "policy": "windowed_r5_t1",
+      "score": 0.6387147359631115,
+      "z_score": 0.6022752164484292,
+      "delta1": 0.0,
+      "delta2": 0.005113760822421459,
+      "promoted": false
+    },
+    {
+      "label": "MORSE_017",
+      "policy": "windowed_r10_t2",
+      "score": 0.6387147359631115,
+      "z_score": 0.6022752164484292,
+      "delta1": 0.0,
+      "delta2": 0.005113760822421459,
+      "promoted": false
+    },
+    {
+      "label": "MORSE_018",
+      "policy": "fixed",
+      "score": 0.38907217603524114,
+      "z_score": 0.26941846987793544,
+      "delta1": 0.0,
+      "delta2": 0.0,
+      "promoted": false
+    },
+    {
+      "label": "MORSE_018",
+      "policy": "windowed_r2_t0",
+      "score": 0.38907217603524114,
+      "z_score": 0.26941846987793544,
+      "delta1": 0.0,
+      "delta2": 0.0,
+      "promoted": false
+    },
+    {
+      "label": "MORSE_018",
+      "policy": "windowed_r5_t1",
+      "score": 0.38907217603524114,
+      "z_score": 0.26941846987793544,
+      "delta1": 0.0,
+      "delta2": 0.0,
+      "promoted": false
+    },
+    {
+      "label": "MORSE_018",
+      "policy": "windowed_r10_t2",
+      "score": 0.38907217603524114,
+      "z_score": 0.26941846987793544,
+      "delta1": 0.0,
+      "delta2": 0.0,
+      "promoted": false
+    },
+    {
+      "label": "MORSE_019",
+      "policy": "fixed",
+      "score": 0.6387147359631115,
+      "z_score": 0.6022752164484292,
+      "delta1": 0.0,
+      "delta2": 0.005113760822421459,
+      "promoted": false
+    },
+    {
+      "label": "MORSE_019",
+      "policy": "windowed_r2_t0",
+      "score": 0.6387147359631115,
+      "z_score": 0.6022752164484292,
+      "delta1": 0.0,
+      "delta2": 0.005113760822421459,
+      "promoted": false
+    },
+    {
+      "label": "MORSE_019",
+      "policy": "windowed_r5_t1",
+      "score": 0.6387147359631115,
+      "z_score": 0.6022752164484292,
+      "delta1": 0.0,
+      "delta2": 0.005113760822421459,
+      "promoted": false
+    },
+    {
+      "label": "MORSE_019",
+      "policy": "windowed_r10_t2",
+      "score": 0.6387147359631115,
+      "z_score": 0.6022752164484292,
+      "delta1": 0.0,
+      "delta2": 0.005113760822421459,
+      "promoted": false
+    },
+    {
+      "label": "MORSE_020",
+      "policy": "fixed",
+      "score": 0.01708941602200259,
+      "z_score": -0.1540606471261644,
+      "delta1": 0.0,
+      "delta2": 0.0,
+      "promoted": false
+    },
+    {
+      "label": "MORSE_020",
+      "policy": "windowed_r2_t0",
+      "score": 0.01708941602200259,
+      "z_score": -0.1540606471261644,
+      "delta1": 0.0,
+      "delta2": 0.0,
+      "promoted": false
+    },
+    {
+      "label": "MORSE_020",
+      "policy": "windowed_r5_t1",
+      "score": 0.01708941602200259,
+      "z_score": -0.1540606471261644,
+      "delta1": 0.0,
+      "delta2": 0.0,
+      "promoted": false
+    },
+    {
+      "label": "MORSE_020",
+      "policy": "windowed_r10_t2",
+      "score": 0.01708941602200259,
+      "z_score": -0.1540606471261644,
+      "delta1": 0.0,
+      "delta2": 0.0,
+      "promoted": false
+    },
+    {
+      "label": "MORSE_021",
+      "policy": "fixed",
+      "score": 0.6387147359631115,
+      "z_score": 0.6022752164484292,
+      "delta1": 0.0,
+      "delta2": 0.005113760822421459,
+      "promoted": false
+    },
+    {
+      "label": "MORSE_021",
+      "policy": "windowed_r2_t0",
+      "score": 0.6387147359631115,
+      "z_score": 0.6022752164484292,
+      "delta1": 0.0,
+      "delta2": 0.005113760822421459,
+      "promoted": false
+    },
+    {
+      "label": "MORSE_021",
+      "policy": "windowed_r5_t1",
+      "score": 0.6387147359631115,
+      "z_score": 0.6022752164484292,
+      "delta1": 0.0,
+      "delta2": 0.005113760822421459,
+      "promoted": false
+    },
+    {
+      "label": "MORSE_021",
+      "policy": "windowed_r10_t2",
+      "score": 0.6387147359631115,
+      "z_score": 0.6022752164484292,
+      "delta1": 0.0,
+      "delta2": 0.005113760822421459,
+      "promoted": false
+    },
+    {
+      "label": "MORSE_022",
+      "policy": "fixed",
+      "score": 0.38907217603524114,
+      "z_score": 0.26941846987793544,
+      "delta1": 0.0,
+      "delta2": 0.0,
+      "promoted": false
+    },
+    {
+      "label": "MORSE_022",
+      "policy": "windowed_r2_t0",
+      "score": 0.38907217603524114,
+      "z_score": 0.26941846987793544,
+      "delta1": 0.0,
+      "delta2": 0.0,
+      "promoted": false
+    },
+    {
+      "label": "MORSE_022",
+      "policy": "windowed_r5_t1",
+      "score": 0.38907217603524114,
+      "z_score": 0.26941846987793544,
+      "delta1": 0.0,
+      "delta2": 0.0,
+      "promoted": false
+    },
+    {
+      "label": "MORSE_022",
+      "policy": "windowed_r10_t2",
+      "score": 0.38907217603524114,
+      "z_score": 0.26941846987793544,
+      "delta1": 0.0,
+      "delta2": 0.0,
+      "promoted": false
+    },
+    {
+      "label": "MORSE_023",
+      "policy": "fixed",
+      "score": 0.01708941602200259,
+      "z_score": -0.1540606471261644,
+      "delta1": 0.0,
+      "delta2": 0.0,
+      "promoted": false
+    },
+    {
+      "label": "MORSE_023",
+      "policy": "windowed_r2_t0",
+      "score": 0.01708941602200259,
+      "z_score": -0.1540606471261644,
+      "delta1": 0.0,
+      "delta2": 0.0,
+      "promoted": false
+    },
+    {
+      "label": "MORSE_023",
+      "policy": "windowed_r5_t1",
+      "score": 0.01708941602200259,
+      "z_score": -0.1540606471261644,
+      "delta1": 0.0,
+      "delta2": 0.0,
+      "promoted": false
+    },
+    {
+      "label": "MORSE_023",
+      "policy": "windowed_r10_t2",
+      "score": 0.01708941602200259,
+      "z_score": -0.1540606471261644,
+      "delta1": 0.0,
+      "delta2": 0.0,
+      "promoted": false
+    },
+    {
+      "label": "MORSE_024",
+      "policy": "fixed",
+      "score": 0.01708941602200259,
+      "z_score": -0.1540606471261644,
+      "delta1": 0.0,
+      "delta2": 0.0,
+      "promoted": false
+    },
+    {
+      "label": "MORSE_024",
+      "policy": "windowed_r2_t0",
+      "score": 0.01708941602200259,
+      "z_score": -0.1540606471261644,
+      "delta1": 0.0,
+      "delta2": 0.0,
+      "promoted": false
+    },
+    {
+      "label": "MORSE_024",
+      "policy": "windowed_r5_t1",
+      "score": 0.01708941602200259,
+      "z_score": -0.1540606471261644,
+      "delta1": 0.0,
+      "delta2": 0.0,
+      "promoted": false
+    },
+    {
+      "label": "MORSE_024",
+      "policy": "windowed_r10_t2",
+      "score": 0.01708941602200259,
+      "z_score": -0.1540606471261644,
+      "delta1": 0.0,
+      "delta2": 0.0,
+      "promoted": false
+    },
+    {
+      "label": "MORSE_025",
+      "policy": "fixed",
+      "score": 0.01708941602200259,
+      "z_score": -0.1540606471261644,
+      "delta1": 0.0,
+      "delta2": 0.0,
+      "promoted": false
+    },
+    {
+      "label": "MORSE_025",
+      "policy": "windowed_r2_t0",
+      "score": 0.01708941602200259,
+      "z_score": -0.1540606471261644,
+      "delta1": 0.0,
+      "delta2": 0.0,
+      "promoted": false
+    },
+    {
+      "label": "MORSE_025",
+      "policy": "windowed_r5_t1",
+      "score": 0.01708941602200259,
+      "z_score": -0.1540606471261644,
+      "delta1": 0.0,
+      "delta2": 0.0,
+      "promoted": false
+    },
+    {
+      "label": "MORSE_025",
+      "policy": "windowed_r10_t2",
+      "score": 0.01708941602200259,
+      "z_score": -0.1540606471261644,
+      "delta1": 0.0,
+      "delta2": 0.0,
+      "promoted": false
+    },
+    {
+      "label": "MORSE_026",
+      "policy": "fixed",
+      "score": 0.6387147359631115,
+      "z_score": 0.6022752164484292,
+      "delta1": 0.0,
+      "delta2": 0.005113760822421459,
+      "promoted": false
+    },
+    {
+      "label": "MORSE_026",
+      "policy": "windowed_r2_t0",
+      "score": 0.6387147359631115,
+      "z_score": 0.6022752164484292,
+      "delta1": 0.0,
+      "delta2": 0.005113760822421459,
+      "promoted": false
+    },
+    {
+      "label": "MORSE_026",
+      "policy": "windowed_r5_t1",
+      "score": 0.6387147359631115,
+      "z_score": 0.6022752164484292,
+      "delta1": 0.0,
+      "delta2": 0.005113760822421459,
+      "promoted": false
+    },
+    {
+      "label": "MORSE_026",
+      "policy": "windowed_r10_t2",
+      "score": 0.6387147359631115,
+      "z_score": 0.6022752164484292,
+      "delta1": 0.0,
+      "delta2": 0.005113760822421459,
+      "promoted": false
+    },
+    {
+      "label": "MORSE_027",
+      "policy": "fixed",
+      "score": 0.6387147359631115,
+      "z_score": 0.6022752164484292,
+      "delta1": 0.0,
+      "delta2": 0.005113760822421459,
+      "promoted": false
+    },
+    {
+      "label": "MORSE_027",
+      "policy": "windowed_r2_t0",
+      "score": 0.6387147359631115,
+      "z_score": 0.6022752164484292,
+      "delta1": 0.0,
+      "delta2": 0.005113760822421459,
+      "promoted": false
+    },
+    {
+      "label": "MORSE_027",
+      "policy": "windowed_r5_t1",
+      "score": 0.6387147359631115,
+      "z_score": 0.6022752164484292,
+      "delta1": 0.0,
+      "delta2": 0.005113760822421459,
+      "promoted": false
+    },
+    {
+      "label": "MORSE_027",
+      "policy": "windowed_r10_t2",
+      "score": 0.6387147359631115,
+      "z_score": 0.6022752164484292,
+      "delta1": 0.0,
+      "delta2": 0.005113760822421459,
+      "promoted": false
+    },
+    {
+      "label": "MORSE_028",
+      "policy": "fixed",
+      "score": 0.6387147359631115,
+      "z_score": 0.6022752164484292,
+      "delta1": 0.0,
+      "delta2": 0.005113760822421459,
+      "promoted": false
+    },
+    {
+      "label": "MORSE_028",
+      "policy": "windowed_r2_t0",
+      "score": 0.6387147359631115,
+      "z_score": 0.6022752164484292,
+      "delta1": 0.0,
+      "delta2": 0.005113760822421459,
+      "promoted": false
+    },
+    {
+      "label": "MORSE_028",
+      "policy": "windowed_r5_t1",
+      "score": 0.6387147359631115,
+      "z_score": 0.6022752164484292,
+      "delta1": 0.0,
+      "delta2": 0.005113760822421459,
+      "promoted": false
+    },
+    {
+      "label": "MORSE_028",
+      "policy": "windowed_r10_t2",
+      "score": 0.6387147359631115,
+      "z_score": 0.6022752164484292,
+      "delta1": 0.0,
+      "delta2": 0.005113760822421459,
+      "promoted": false
+    },
+    {
+      "label": "MORSE_029",
+      "policy": "fixed",
+      "score": 0.01708941602200259,
+      "z_score": -0.1540606471261644,
+      "delta1": 0.0,
+      "delta2": 0.0,
+      "promoted": false
+    },
+    {
+      "label": "MORSE_029",
+      "policy": "windowed_r2_t0",
+      "score": 0.01708941602200259,
+      "z_score": -0.1540606471261644,
+      "delta1": 0.0,
+      "delta2": 0.0,
+      "promoted": false
+    },
+    {
+      "label": "MORSE_029",
+      "policy": "windowed_r5_t1",
+      "score": 0.01708941602200259,
+      "z_score": -0.1540606471261644,
+      "delta1": 0.0,
+      "delta2": 0.0,
+      "promoted": false
+    },
+    {
+      "label": "MORSE_029",
+      "policy": "windowed_r10_t2",
+      "score": 0.01708941602200259,
+      "z_score": -0.1540606471261644,
+      "delta1": 0.0,
+      "delta2": 0.0,
+      "promoted": false
+    },
+    {
+      "label": "MORSE_030",
+      "policy": "fixed",
+      "score": 0.6387147359631115,
+      "z_score": 0.6022752164484292,
+      "delta1": 0.0,
+      "delta2": 0.005113760822421459,
+      "promoted": false
+    },
+    {
+      "label": "MORSE_030",
+      "policy": "windowed_r2_t0",
+      "score": 0.6387147359631115,
+      "z_score": 0.6022752164484292,
+      "delta1": 0.0,
+      "delta2": 0.005113760822421459,
+      "promoted": false
+    },
+    {
+      "label": "MORSE_030",
+      "policy": "windowed_r5_t1",
+      "score": 0.6387147359631115,
+      "z_score": 0.6022752164484292,
+      "delta1": 0.0,
+      "delta2": 0.005113760822421459,
+      "promoted": false
+    },
+    {
+      "label": "MORSE_030",
+      "policy": "windowed_r10_t2",
+      "score": 0.6387147359631115,
+      "z_score": 0.6022752164484292,
+      "delta1": 0.0,
+      "delta2": 0.005113760822421459,
+      "promoted": false
+    },
+    {
+      "label": "MORSE_031",
+      "policy": "fixed",
+      "score": 0.01708941602200259,
+      "z_score": -0.1540606471261644,
+      "delta1": 0.0,
+      "delta2": 0.0,
+      "promoted": false
+    },
+    {
+      "label": "MORSE_031",
+      "policy": "windowed_r2_t0",
+      "score": 0.01708941602200259,
+      "z_score": -0.1540606471261644,
+      "delta1": 0.0,
+      "delta2": 0.0,
+      "promoted": false
+    },
+    {
+      "label": "MORSE_031",
+      "policy": "windowed_r5_t1",
+      "score": 0.01708941602200259,
+      "z_score": -0.1540606471261644,
+      "delta1": 0.0,
+      "delta2": 0.0,
+      "promoted": false
+    },
+    {
+      "label": "MORSE_031",
+      "policy": "windowed_r10_t2",
+      "score": 0.01708941602200259,
+      "z_score": -0.1540606471261644,
+      "delta1": 0.0,
+      "delta2": 0.0,
+      "promoted": false
+    },
+    {
+      "label": "MORSE_032",
+      "policy": "fixed",
+      "score": 0.38907217603524114,
+      "z_score": 0.26941846987793544,
+      "delta1": 0.0,
+      "delta2": 0.0,
+      "promoted": false
+    },
+    {
+      "label": "MORSE_032",
+      "policy": "windowed_r2_t0",
+      "score": 0.38907217603524114,
+      "z_score": 0.26941846987793544,
+      "delta1": 0.0,
+      "delta2": 0.0,
+      "promoted": false
+    },
+    {
+      "label": "MORSE_032",
+      "policy": "windowed_r5_t1",
+      "score": 0.38907217603524114,
+      "z_score": 0.26941846987793544,
+      "delta1": 0.0,
+      "delta2": 0.0,
+      "promoted": false
+    },
+    {
+      "label": "MORSE_032",
+      "policy": "windowed_r10_t2",
+      "score": 0.38907217603524114,
+      "z_score": 0.26941846987793544,
+      "delta1": 0.0,
+      "delta2": 0.0,
+      "promoted": false
+    },
+    {
+      "label": "MORSE_033",
+      "policy": "fixed",
+      "score": 0.6387147359631115,
+      "z_score": 0.6022752164484292,
+      "delta1": 0.0,
+      "delta2": 0.005113760822421459,
+      "promoted": false
+    },
+    {
+      "label": "MORSE_033",
+      "policy": "windowed_r2_t0",
+      "score": 0.6387147359631115,
+      "z_score": 0.6022752164484292,
+      "delta1": 0.0,
+      "delta2": 0.005113760822421459,
+      "promoted": false
+    },
+    {
+      "label": "MORSE_033",
+      "policy": "windowed_r5_t1",
+      "score": 0.6387147359631115,
+      "z_score": 0.6022752164484292,
+      "delta1": 0.0,
+      "delta2": 0.005113760822421459,
+      "promoted": false
+    },
+    {
+      "label": "MORSE_033",
+      "policy": "windowed_r10_t2",
+      "score": 0.6387147359631115,
+      "z_score": 0.6022752164484292,
+      "delta1": 0.0,
+      "delta2": 0.005113760822421459,
+      "promoted": false
+    },
+    {
+      "label": "MORSE_034",
+      "policy": "fixed",
+      "score": 0.01708941602200259,
+      "z_score": -0.1540606471261644,
+      "delta1": 0.0,
+      "delta2": 0.0,
+      "promoted": false
+    },
+    {
+      "label": "MORSE_034",
+      "policy": "windowed_r2_t0",
+      "score": 0.01708941602200259,
+      "z_score": -0.1540606471261644,
+      "delta1": 0.0,
+      "delta2": 0.0,
+      "promoted": false
+    },
+    {
+      "label": "MORSE_034",
+      "policy": "windowed_r5_t1",
+      "score": 0.01708941602200259,
+      "z_score": -0.1540606471261644,
+      "delta1": 0.0,
+      "delta2": 0.0,
+      "promoted": false
+    },
+    {
+      "label": "MORSE_034",
+      "policy": "windowed_r10_t2",
+      "score": 0.01708941602200259,
+      "z_score": -0.1540606471261644,
+      "delta1": 0.0,
+      "delta2": 0.0,
+      "promoted": false
+    },
+    {
+      "label": "MORSE_035",
+      "policy": "fixed",
+      "score": 0.38907217603524114,
+      "z_score": 0.26941846987793544,
+      "delta1": 0.0,
+      "delta2": 0.0,
+      "promoted": false
+    },
+    {
+      "label": "MORSE_035",
+      "policy": "windowed_r2_t0",
+      "score": 0.38907217603524114,
+      "z_score": 0.26941846987793544,
+      "delta1": 0.0,
+      "delta2": 0.0,
+      "promoted": false
+    },
+    {
+      "label": "MORSE_035",
+      "policy": "windowed_r5_t1",
+      "score": 0.38907217603524114,
+      "z_score": 0.26941846987793544,
+      "delta1": 0.0,
+      "delta2": 0.0,
+      "promoted": false
+    },
+    {
+      "label": "MORSE_035",
+      "policy": "windowed_r10_t2",
+      "score": 0.38907217603524114,
+      "z_score": 0.26941846987793544,
+      "delta1": 0.0,
+      "delta2": 0.0,
+      "promoted": false
+    },
+    {
+      "label": "MORSE_036",
+      "policy": "fixed",
+      "score": 0.6387147359631115,
+      "z_score": 0.6022752164484292,
+      "delta1": 0.0,
+      "delta2": 0.005113760822421459,
+      "promoted": false
+    },
+    {
+      "label": "MORSE_036",
+      "policy": "windowed_r2_t0",
+      "score": 0.6387147359631115,
+      "z_score": 0.6022752164484292,
+      "delta1": 0.0,
+      "delta2": 0.005113760822421459,
+      "promoted": false
+    },
+    {
+      "label": "MORSE_036",
+      "policy": "windowed_r5_t1",
+      "score": 0.6387147359631115,
+      "z_score": 0.6022752164484292,
+      "delta1": 0.0,
+      "delta2": 0.005113760822421459,
+      "promoted": false
+    },
+    {
+      "label": "MORSE_036",
+      "policy": "windowed_r10_t2",
+      "score": 0.6387147359631115,
+      "z_score": 0.6022752164484292,
+      "delta1": 0.0,
+      "delta2": 0.005113760822421459,
+      "promoted": false
+    },
+    {
+      "label": "MORSE_037",
+      "policy": "fixed",
+      "score": 0.38907217603524114,
+      "z_score": 0.26941846987793544,
+      "delta1": 0.0,
+      "delta2": 0.0,
+      "promoted": false
+    },
+    {
+      "label": "MORSE_037",
+      "policy": "windowed_r2_t0",
+      "score": 0.38907217603524114,
+      "z_score": 0.26941846987793544,
+      "delta1": 0.0,
+      "delta2": 0.0,
+      "promoted": false
+    },
+    {
+      "label": "MORSE_037",
+      "policy": "windowed_r5_t1",
+      "score": 0.38907217603524114,
+      "z_score": 0.26941846987793544,
+      "delta1": 0.0,
+      "delta2": 0.0,
+      "promoted": false
+    },
+    {
+      "label": "MORSE_037",
+      "policy": "windowed_r10_t2",
+      "score": 0.38907217603524114,
+      "z_score": 0.26941846987793544,
+      "delta1": 0.0,
+      "delta2": 0.0,
+      "promoted": false
+    },
+    {
+      "label": "MORSE_038",
+      "policy": "fixed",
+      "score": 0.38907217603524114,
+      "z_score": 0.26941846987793544,
+      "delta1": 0.0,
+      "delta2": 0.0,
+      "promoted": false
+    },
+    {
+      "label": "MORSE_038",
+      "policy": "windowed_r2_t0",
+      "score": 0.38907217603524114,
+      "z_score": 0.26941846987793544,
+      "delta1": 0.0,
+      "delta2": 0.0,
+      "promoted": false
+    },
+    {
+      "label": "MORSE_038",
+      "policy": "windowed_r5_t1",
+      "score": 0.38907217603524114,
+      "z_score": 0.26941846987793544,
+      "delta1": 0.0,
+      "delta2": 0.0,
+      "promoted": false
+    },
+    {
+      "label": "MORSE_038",
+      "policy": "windowed_r10_t2",
+      "score": 0.38907217603524114,
+      "z_score": 0.26941846987793544,
+      "delta1": 0.0,
+      "delta2": 0.0,
+      "promoted": false
+    },
+    {
+      "label": "MORSE_039",
+      "policy": "fixed",
+      "score": 0.6387147359631115,
+      "z_score": 0.6022752164484292,
+      "delta1": 0.0,
+      "delta2": 0.005113760822421459,
+      "promoted": false
+    },
+    {
+      "label": "MORSE_039",
+      "policy": "windowed_r2_t0",
+      "score": 0.6387147359631115,
+      "z_score": 0.6022752164484292,
+      "delta1": 0.0,
+      "delta2": 0.005113760822421459,
+      "promoted": false
+    },
+    {
+      "label": "MORSE_039",
+      "policy": "windowed_r5_t1",
+      "score": 0.6387147359631115,
+      "z_score": 0.6022752164484292,
+      "delta1": 0.0,
+      "delta2": 0.005113760822421459,
+      "promoted": false
+    },
+    {
+      "label": "MORSE_039",
+      "policy": "windowed_r10_t2",
+      "score": 0.6387147359631115,
+      "z_score": 0.6022752164484292,
+      "delta1": 0.0,
+      "delta2": 0.005113760822421459,
+      "promoted": false
+    },
+    {
+      "label": "MORSE_040",
+      "policy": "fixed",
+      "score": 0.01708941602200259,
+      "z_score": -0.1540606471261644,
+      "delta1": 0.0,
+      "delta2": 0.0,
+      "promoted": false
+    },
+    {
+      "label": "MORSE_040",
+      "policy": "windowed_r2_t0",
+      "score": 0.01708941602200259,
+      "z_score": -0.1540606471261644,
+      "delta1": 0.0,
+      "delta2": 0.0,
+      "promoted": false
+    },
+    {
+      "label": "MORSE_040",
+      "policy": "windowed_r5_t1",
+      "score": 0.01708941602200259,
+      "z_score": -0.1540606471261644,
+      "delta1": 0.0,
+      "delta2": 0.0,
+      "promoted": false
+    },
+    {
+      "label": "MORSE_040",
+      "policy": "windowed_r10_t2",
+      "score": 0.01708941602200259,
+      "z_score": -0.1540606471261644,
+      "delta1": 0.0,
+      "delta2": 0.0,
+      "promoted": false
+    },
+    {
+      "label": "MORSE_041",
+      "policy": "fixed",
+      "score": 0.01708941602200259,
+      "z_score": -0.1540606471261644,
+      "delta1": 0.0,
+      "delta2": 0.0,
+      "promoted": false
+    },
+    {
+      "label": "MORSE_041",
+      "policy": "windowed_r2_t0",
+      "score": 0.01708941602200259,
+      "z_score": -0.1540606471261644,
+      "delta1": 0.0,
+      "delta2": 0.0,
+      "promoted": false
+    },
+    {
+      "label": "MORSE_041",
+      "policy": "windowed_r5_t1",
+      "score": 0.01708941602200259,
+      "z_score": -0.1540606471261644,
+      "delta1": 0.0,
+      "delta2": 0.0,
+      "promoted": false
+    },
+    {
+      "label": "MORSE_041",
+      "policy": "windowed_r10_t2",
+      "score": 0.01708941602200259,
+      "z_score": -0.1540606471261644,
+      "delta1": 0.0,
+      "delta2": 0.0,
+      "promoted": false
+    },
+    {
+      "label": "MORSE_042",
+      "policy": "fixed",
+      "score": 0.01708941602200259,
+      "z_score": -0.1540606471261644,
+      "delta1": 0.0,
+      "delta2": 0.0,
+      "promoted": false
+    },
+    {
+      "label": "MORSE_042",
+      "policy": "windowed_r2_t0",
+      "score": 0.01708941602200259,
+      "z_score": -0.1540606471261644,
+      "delta1": 0.0,
+      "delta2": 0.0,
+      "promoted": false
+    },
+    {
+      "label": "MORSE_042",
+      "policy": "windowed_r5_t1",
+      "score": 0.01708941602200259,
+      "z_score": -0.1540606471261644,
+      "delta1": 0.0,
+      "delta2": 0.0,
+      "promoted": false
+    },
+    {
+      "label": "MORSE_042",
+      "policy": "windowed_r10_t2",
+      "score": 0.01708941602200259,
+      "z_score": -0.1540606471261644,
+      "delta1": 0.0,
+      "delta2": 0.0,
+      "promoted": false
+    },
+    {
+      "label": "MORSE_043",
+      "policy": "fixed",
+      "score": 0.6387147359631115,
+      "z_score": 0.6022752164484292,
+      "delta1": 0.0,
+      "delta2": 0.005113760822421459,
+      "promoted": false
+    },
+    {
+      "label": "MORSE_043",
+      "policy": "windowed_r2_t0",
+      "score": 0.6387147359631115,
+      "z_score": 0.6022752164484292,
+      "delta1": 0.0,
+      "delta2": 0.005113760822421459,
+      "promoted": false
+    },
+    {
+      "label": "MORSE_043",
+      "policy": "windowed_r5_t1",
+      "score": 0.6387147359631115,
+      "z_score": 0.6022752164484292,
+      "delta1": 0.0,
+      "delta2": 0.005113760822421459,
+      "promoted": false
+    },
+    {
+      "label": "MORSE_043",
+      "policy": "windowed_r10_t2",
+      "score": 0.6387147359631115,
+      "z_score": 0.6022752164484292,
+      "delta1": 0.0,
+      "delta2": 0.005113760822421459,
+      "promoted": false
+    },
+    {
+      "label": "MORSE_044",
+      "policy": "fixed",
+      "score": 0.01708941602200259,
+      "z_score": -0.1540606471261644,
+      "delta1": 0.0,
+      "delta2": 0.0,
+      "promoted": false
+    },
+    {
+      "label": "MORSE_044",
+      "policy": "windowed_r2_t0",
+      "score": 0.01708941602200259,
+      "z_score": -0.1540606471261644,
+      "delta1": 0.0,
+      "delta2": 0.0,
+      "promoted": false
+    },
+    {
+      "label": "MORSE_044",
+      "policy": "windowed_r5_t1",
+      "score": 0.01708941602200259,
+      "z_score": -0.1540606471261644,
+      "delta1": 0.0,
+      "delta2": 0.0,
+      "promoted": false
+    },
+    {
+      "label": "MORSE_044",
+      "policy": "windowed_r10_t2",
+      "score": 0.01708941602200259,
+      "z_score": -0.1540606471261644,
+      "delta1": 0.0,
+      "delta2": 0.0,
+      "promoted": false
+    },
+    {
+      "label": "MORSE_045",
+      "policy": "fixed",
+      "score": 0.6387147359631115,
+      "z_score": 0.6022752164484292,
+      "delta1": 0.0,
+      "delta2": 0.005113760822421459,
+      "promoted": false
+    },
+    {
+      "label": "MORSE_045",
+      "policy": "windowed_r2_t0",
+      "score": 0.6387147359631115,
+      "z_score": 0.6022752164484292,
+      "delta1": 0.0,
+      "delta2": 0.005113760822421459,
+      "promoted": false
+    },
+    {
+      "label": "MORSE_045",
+      "policy": "windowed_r5_t1",
+      "score": 0.6387147359631115,
+      "z_score": 0.6022752164484292,
+      "delta1": 0.0,
+      "delta2": 0.005113760822421459,
+      "promoted": false
+    },
+    {
+      "label": "MORSE_045",
+      "policy": "windowed_r10_t2",
+      "score": 0.6387147359631115,
+      "z_score": 0.6022752164484292,
+      "delta1": 0.0,
+      "delta2": 0.005113760822421459,
+      "promoted": false
+    },
+    {
+      "label": "MORSE_046",
+      "policy": "fixed",
+      "score": 0.38907217603524114,
+      "z_score": 0.26941846987793544,
+      "delta1": 0.0,
+      "delta2": 0.0,
+      "promoted": false
+    },
+    {
+      "label": "MORSE_046",
+      "policy": "windowed_r2_t0",
+      "score": 0.38907217603524114,
+      "z_score": 0.26941846987793544,
+      "delta1": 0.0,
+      "delta2": 0.0,
+      "promoted": false
+    },
+    {
+      "label": "MORSE_046",
+      "policy": "windowed_r5_t1",
+      "score": 0.38907217603524114,
+      "z_score": 0.26941846987793544,
+      "delta1": 0.0,
+      "delta2": 0.0,
+      "promoted": false
+    },
+    {
+      "label": "MORSE_046",
+      "policy": "windowed_r10_t2",
+      "score": 0.38907217603524114,
+      "z_score": 0.26941846987793544,
+      "delta1": 0.0,
+      "delta2": 0.0,
+      "promoted": false
+    },
+    {
+      "label": "MORSE_047",
+      "policy": "fixed",
+      "score": 0.01708941602200259,
+      "z_score": -0.1540606471261644,
+      "delta1": 0.0,
+      "delta2": 0.0,
+      "promoted": false
+    },
+    {
+      "label": "MORSE_047",
+      "policy": "windowed_r2_t0",
+      "score": 0.01708941602200259,
+      "z_score": -0.1540606471261644,
+      "delta1": 0.0,
+      "delta2": 0.0,
+      "promoted": false
+    },
+    {
+      "label": "MORSE_047",
+      "policy": "windowed_r5_t1",
+      "score": 0.01708941602200259,
+      "z_score": -0.1540606471261644,
+      "delta1": 0.0,
+      "delta2": 0.0,
+      "promoted": false
+    },
+    {
+      "label": "MORSE_047",
+      "policy": "windowed_r10_t2",
+      "score": 0.01708941602200259,
+      "z_score": -0.1540606471261644,
+      "delta1": 0.0,
+      "delta2": 0.0,
+      "promoted": false
+    },
+    {
+      "label": "MORSE_048",
+      "policy": "fixed",
+      "score": 0.38907217603524114,
+      "z_score": 0.26941846987793544,
+      "delta1": 0.0,
+      "delta2": 0.0,
+      "promoted": false
+    },
+    {
+      "label": "MORSE_048",
+      "policy": "windowed_r2_t0",
+      "score": 0.38907217603524114,
+      "z_score": 0.26941846987793544,
+      "delta1": 0.0,
+      "delta2": 0.0,
+      "promoted": false
+    },
+    {
+      "label": "MORSE_048",
+      "policy": "windowed_r5_t1",
+      "score": 0.38907217603524114,
+      "z_score": 0.26941846987793544,
+      "delta1": 0.0,
+      "delta2": 0.0,
+      "promoted": false
+    },
+    {
+      "label": "MORSE_048",
+      "policy": "windowed_r10_t2",
+      "score": 0.38907217603524114,
+      "z_score": 0.26941846987793544,
+      "delta1": 0.0,
+      "delta2": 0.0,
+      "promoted": false
+    },
+    {
+      "label": "MORSE_049",
+      "policy": "fixed",
+      "score": 0.01708941602200259,
+      "z_score": -0.1540606471261644,
+      "delta1": 0.0,
+      "delta2": 0.0,
+      "promoted": false
+    },
+    {
+      "label": "MORSE_049",
+      "policy": "windowed_r2_t0",
+      "score": 0.01708941602200259,
+      "z_score": -0.1540606471261644,
+      "delta1": 0.0,
+      "delta2": 0.0,
+      "promoted": false
+    },
+    {
+      "label": "MORSE_049",
+      "policy": "windowed_r5_t1",
+      "score": 0.01708941602200259,
+      "z_score": -0.1540606471261644,
+      "delta1": 0.0,
+      "delta2": 0.0,
+      "promoted": false
+    },
+    {
+      "label": "MORSE_049",
+      "policy": "windowed_r10_t2",
+      "score": 0.01708941602200259,
+      "z_score": -0.1540606471261644,
+      "delta1": 0.0,
+      "delta2": 0.0,
+      "promoted": false
+    },
+    {
+      "label": "MORSE_050",
+      "policy": "fixed",
+      "score": 0.01708941602200259,
+      "z_score": -0.1540606471261644,
+      "delta1": 0.0,
+      "delta2": 0.0,
+      "promoted": false
+    },
+    {
+      "label": "MORSE_050",
+      "policy": "windowed_r2_t0",
+      "score": 0.01708941602200259,
+      "z_score": -0.1540606471261644,
+      "delta1": 0.0,
+      "delta2": 0.0,
+      "promoted": false
+    },
+    {
+      "label": "MORSE_050",
+      "policy": "windowed_r5_t1",
+      "score": 0.01708941602200259,
+      "z_score": -0.1540606471261644,
+      "delta1": 0.0,
+      "delta2": 0.0,
+      "promoted": false
+    },
+    {
+      "label": "MORSE_050",
+      "policy": "windowed_r10_t2",
+      "score": 0.01708941602200259,
+      "z_score": -0.1540606471261644,
+      "delta1": 0.0,
+      "delta2": 0.0,
+      "promoted": false
+    },
+    {
+      "label": "MORSE_051",
+      "policy": "fixed",
+      "score": 0.01708941602200259,
+      "z_score": -0.1540606471261644,
+      "delta1": 0.0,
+      "delta2": 0.0,
+      "promoted": false
+    },
+    {
+      "label": "MORSE_051",
+      "policy": "windowed_r2_t0",
+      "score": 0.01708941602200259,
+      "z_score": -0.1540606471261644,
+      "delta1": 0.0,
+      "delta2": 0.0,
+      "promoted": false
+    },
+    {
+      "label": "MORSE_051",
+      "policy": "windowed_r5_t1",
+      "score": 0.01708941602200259,
+      "z_score": -0.1540606471261644,
+      "delta1": 0.0,
+      "delta2": 0.0,
+      "promoted": false
+    },
+    {
+      "label": "MORSE_051",
+      "policy": "windowed_r10_t2",
+      "score": 0.01708941602200259,
+      "z_score": -0.1540606471261644,
+      "delta1": 0.0,
+      "delta2": 0.0,
+      "promoted": false
+    },
+    {
+      "label": "MORSE_052",
+      "policy": "fixed",
+      "score": 0.01708941602200259,
+      "z_score": -0.1540606471261644,
+      "delta1": 0.0,
+      "delta2": 0.0,
+      "promoted": false
+    },
+    {
+      "label": "MORSE_052",
+      "policy": "windowed_r2_t0",
+      "score": 0.01708941602200259,
+      "z_score": -0.1540606471261644,
+      "delta1": 0.0,
+      "delta2": 0.0,
+      "promoted": false
+    },
+    {
+      "label": "MORSE_052",
+      "policy": "windowed_r5_t1",
+      "score": 0.01708941602200259,
+      "z_score": -0.1540606471261644,
+      "delta1": 0.0,
+      "delta2": 0.0,
+      "promoted": false
+    },
+    {
+      "label": "MORSE_052",
+      "policy": "windowed_r10_t2",
+      "score": 0.01708941602200259,
+      "z_score": -0.1540606471261644,
+      "delta1": 0.0,
+      "delta2": 0.0,
+      "promoted": false
+    },
+    {
+      "label": "MORSE_053",
+      "policy": "fixed",
+      "score": 0.38907217603524114,
+      "z_score": 0.26941846987793544,
+      "delta1": 0.0,
+      "delta2": 0.0,
+      "promoted": false
+    },
+    {
+      "label": "MORSE_053",
+      "policy": "windowed_r2_t0",
+      "score": 0.38907217603524114,
+      "z_score": 0.26941846987793544,
+      "delta1": 0.0,
+      "delta2": 0.0,
+      "promoted": false
+    },
+    {
+      "label": "MORSE_053",
+      "policy": "windowed_r5_t1",
+      "score": 0.38907217603524114,
+      "z_score": 0.26941846987793544,
+      "delta1": 0.0,
+      "delta2": 0.0,
+      "promoted": false
+    },
+    {
+      "label": "MORSE_053",
+      "policy": "windowed_r10_t2",
+      "score": 0.38907217603524114,
+      "z_score": 0.26941846987793544,
+      "delta1": 0.0,
+      "delta2": 0.0,
+      "promoted": false
+    },
+    {
+      "label": "MORSE_054",
+      "policy": "fixed",
+      "score": 0.38907217603524114,
+      "z_score": 0.26941846987793544,
+      "delta1": 0.0,
+      "delta2": 0.0,
+      "promoted": false
+    },
+    {
+      "label": "MORSE_054",
+      "policy": "windowed_r2_t0",
+      "score": 0.38907217603524114,
+      "z_score": 0.26941846987793544,
+      "delta1": 0.0,
+      "delta2": 0.0,
+      "promoted": false
+    },
+    {
+      "label": "MORSE_054",
+      "policy": "windowed_r5_t1",
+      "score": 0.38907217603524114,
+      "z_score": 0.26941846987793544,
+      "delta1": 0.0,
+      "delta2": 0.0,
+      "promoted": false
+    },
+    {
+      "label": "MORSE_054",
+      "policy": "windowed_r10_t2",
+      "score": 0.38907217603524114,
+      "z_score": 0.26941846987793544,
+      "delta1": 0.0,
+      "delta2": 0.0,
+      "promoted": false
+    },
+    {
+      "label": "MORSE_055",
+      "policy": "fixed",
+      "score": 0.6387147359631115,
+      "z_score": 0.6022752164484292,
+      "delta1": 0.0,
+      "delta2": 0.005113760822421459,
+      "promoted": false
+    },
+    {
+      "label": "MORSE_055",
+      "policy": "windowed_r2_t0",
+      "score": 0.6387147359631115,
+      "z_score": 0.6022752164484292,
+      "delta1": 0.0,
+      "delta2": 0.005113760822421459,
+      "promoted": false
+    },
+    {
+      "label": "MORSE_055",
+      "policy": "windowed_r5_t1",
+      "score": 0.6387147359631115,
+      "z_score": 0.6022752164484292,
+      "delta1": 0.0,
+      "delta2": 0.005113760822421459,
+      "promoted": false
+    },
+    {
+      "label": "MORSE_055",
+      "policy": "windowed_r10_t2",
+      "score": 0.6387147359631115,
+      "z_score": 0.6022752164484292,
+      "delta1": 0.0,
+      "delta2": 0.005113760822421459,
+      "promoted": false
+    },
+    {
+      "label": "MORSE_056",
+      "policy": "fixed",
+      "score": 0.01708941602200259,
+      "z_score": -0.1540606471261644,
+      "delta1": 0.0,
+      "delta2": 0.0,
+      "promoted": false
+    },
+    {
+      "label": "MORSE_056",
+      "policy": "windowed_r2_t0",
+      "score": 0.01708941602200259,
+      "z_score": -0.1540606471261644,
+      "delta1": 0.0,
+      "delta2": 0.0,
+      "promoted": false
+    },
+    {
+      "label": "MORSE_056",
+      "policy": "windowed_r5_t1",
+      "score": 0.01708941602200259,
+      "z_score": -0.1540606471261644,
+      "delta1": 0.0,
+      "delta2": 0.0,
+      "promoted": false
+    },
+    {
+      "label": "MORSE_056",
+      "policy": "windowed_r10_t2",
+      "score": 0.01708941602200259,
+      "z_score": -0.1540606471261644,
+      "delta1": 0.0,
+      "delta2": 0.0,
+      "promoted": false
+    },
+    {
+      "label": "MORSE_057",
+      "policy": "fixed",
+      "score": 0.01708941602200259,
+      "z_score": -0.1540606471261644,
+      "delta1": 0.0,
+      "delta2": 0.0,
+      "promoted": false
+    },
+    {
+      "label": "MORSE_057",
+      "policy": "windowed_r2_t0",
+      "score": 0.01708941602200259,
+      "z_score": -0.1540606471261644,
+      "delta1": 0.0,
+      "delta2": 0.0,
+      "promoted": false
+    },
+    {
+      "label": "MORSE_057",
+      "policy": "windowed_r5_t1",
+      "score": 0.01708941602200259,
+      "z_score": -0.1540606471261644,
+      "delta1": 0.0,
+      "delta2": 0.0,
+      "promoted": false
+    },
+    {
+      "label": "MORSE_057",
+      "policy": "windowed_r10_t2",
+      "score": 0.01708941602200259,
+      "z_score": -0.1540606471261644,
+      "delta1": 0.0,
+      "delta2": 0.0,
+      "promoted": false
+    },
+    {
+      "label": "MORSE_058",
+      "policy": "fixed",
+      "score": 0.38907217603524114,
+      "z_score": 0.26941846987793544,
+      "delta1": 0.0,
+      "delta2": 0.0,
+      "promoted": false
+    },
+    {
+      "label": "MORSE_058",
+      "policy": "windowed_r2_t0",
+      "score": 0.38907217603524114,
+      "z_score": 0.26941846987793544,
+      "delta1": 0.0,
+      "delta2": 0.0,
+      "promoted": false
+    },
+    {
+      "label": "MORSE_058",
+      "policy": "windowed_r5_t1",
+      "score": 0.38907217603524114,
+      "z_score": 0.26941846987793544,
+      "delta1": 0.0,
+      "delta2": 0.0,
+      "promoted": false
+    },
+    {
+      "label": "MORSE_058",
+      "policy": "windowed_r10_t2",
+      "score": 0.38907217603524114,
+      "z_score": 0.26941846987793544,
+      "delta1": 0.0,
+      "delta2": 0.0,
+      "promoted": false
+    },
+    {
+      "label": "MORSE_059",
+      "policy": "fixed",
+      "score": 0.01708941602200259,
+      "z_score": -0.1540606471261644,
+      "delta1": 0.0,
+      "delta2": 0.0,
+      "promoted": false
+    },
+    {
+      "label": "MORSE_059",
+      "policy": "windowed_r2_t0",
+      "score": 0.01708941602200259,
+      "z_score": -0.1540606471261644,
+      "delta1": 0.0,
+      "delta2": 0.0,
+      "promoted": false
+    },
+    {
+      "label": "MORSE_059",
+      "policy": "windowed_r5_t1",
+      "score": 0.01708941602200259,
+      "z_score": -0.1540606471261644,
+      "delta1": 0.0,
+      "delta2": 0.0,
+      "promoted": false
+    },
+    {
+      "label": "MORSE_059",
+      "policy": "windowed_r10_t2",
+      "score": 0.01708941602200259,
+      "z_score": -0.1540606471261644,
+      "delta1": 0.0,
+      "delta2": 0.0,
+      "promoted": false
+    },
+    {
+      "label": "MORSE_060",
+      "policy": "fixed",
+      "score": 0.38907217603524114,
+      "z_score": 0.26941846987793544,
+      "delta1": 0.0,
+      "delta2": 0.0,
+      "promoted": false
+    },
+    {
+      "label": "MORSE_060",
+      "policy": "windowed_r2_t0",
+      "score": 0.38907217603524114,
+      "z_score": 0.26941846987793544,
+      "delta1": 0.0,
+      "delta2": 0.0,
+      "promoted": false
+    },
+    {
+      "label": "MORSE_060",
+      "policy": "windowed_r5_t1",
+      "score": 0.38907217603524114,
+      "z_score": 0.26941846987793544,
+      "delta1": 0.0,
+      "delta2": 0.0,
+      "promoted": false
+    },
+    {
+      "label": "MORSE_060",
+      "policy": "windowed_r10_t2",
+      "score": 0.38907217603524114,
+      "z_score": 0.26941846987793544,
+      "delta1": 0.0,
+      "delta2": 0.0,
+      "promoted": false
+    },
+    {
+      "label": "MORSE_061",
+      "policy": "fixed",
+      "score": 0.01708941602200259,
+      "z_score": -0.1540606471261644,
+      "delta1": 0.0,
+      "delta2": 0.0,
+      "promoted": false
+    },
+    {
+      "label": "MORSE_061",
+      "policy": "windowed_r2_t0",
+      "score": 0.01708941602200259,
+      "z_score": -0.1540606471261644,
+      "delta1": 0.0,
+      "delta2": 0.0,
+      "promoted": false
+    },
+    {
+      "label": "MORSE_061",
+      "policy": "windowed_r5_t1",
+      "score": 0.01708941602200259,
+      "z_score": -0.1540606471261644,
+      "delta1": 0.0,
+      "delta2": 0.0,
+      "promoted": false
+    },
+    {
+      "label": "MORSE_061",
+      "policy": "windowed_r10_t2",
+      "score": 0.01708941602200259,
+      "z_score": -0.1540606471261644,
+      "delta1": 0.0,
+      "delta2": 0.0,
+      "promoted": false
+    },
+    {
+      "label": "MORSE_062",
+      "policy": "fixed",
+      "score": 0.38907217603524114,
+      "z_score": 0.26941846987793544,
+      "delta1": 0.0,
+      "delta2": 0.0,
+      "promoted": false
+    },
+    {
+      "label": "MORSE_062",
+      "policy": "windowed_r2_t0",
+      "score": 0.38907217603524114,
+      "z_score": 0.26941846987793544,
+      "delta1": 0.0,
+      "delta2": 0.0,
+      "promoted": false
+    },
+    {
+      "label": "MORSE_062",
+      "policy": "windowed_r5_t1",
+      "score": 0.38907217603524114,
+      "z_score": 0.26941846987793544,
+      "delta1": 0.0,
+      "delta2": 0.0,
+      "promoted": false
+    },
+    {
+      "label": "MORSE_062",
+      "policy": "windowed_r10_t2",
+      "score": 0.38907217603524114,
+      "z_score": 0.26941846987793544,
+      "delta1": 0.0,
+      "delta2": 0.0,
+      "promoted": false
+    },
+    {
+      "label": "MORSE_063",
+      "policy": "fixed",
+      "score": 0.38907217603524114,
+      "z_score": 0.26941846987793544,
+      "delta1": 0.0,
+      "delta2": 0.0,
+      "promoted": false
+    },
+    {
+      "label": "MORSE_063",
+      "policy": "windowed_r2_t0",
+      "score": 0.38907217603524114,
+      "z_score": 0.26941846987793544,
+      "delta1": 0.0,
+      "delta2": 0.0,
+      "promoted": false
+    },
+    {
+      "label": "MORSE_063",
+      "policy": "windowed_r5_t1",
+      "score": 0.38907217603524114,
+      "z_score": 0.26941846987793544,
+      "delta1": 0.0,
+      "delta2": 0.0,
+      "promoted": false
+    },
+    {
+      "label": "MORSE_063",
+      "policy": "windowed_r10_t2",
+      "score": 0.38907217603524114,
+      "z_score": 0.26941846987793544,
+      "delta1": 0.0,
+      "delta2": 0.0,
+      "promoted": false
+    },
+    {
+      "label": "MORSE_064",
+      "policy": "fixed",
+      "score": 0.38907217603524114,
+      "z_score": 0.26941846987793544,
+      "delta1": 0.0,
+      "delta2": 0.0,
+      "promoted": false
+    },
+    {
+      "label": "MORSE_064",
+      "policy": "windowed_r2_t0",
+      "score": 0.38907217603524114,
+      "z_score": 0.26941846987793544,
+      "delta1": 0.0,
+      "delta2": 0.0,
+      "promoted": false
+    },
+    {
+      "label": "MORSE_064",
+      "policy": "windowed_r5_t1",
+      "score": 0.38907217603524114,
+      "z_score": 0.26941846987793544,
+      "delta1": 0.0,
+      "delta2": 0.0,
+      "promoted": false
+    },
+    {
+      "label": "MORSE_064",
+      "policy": "windowed_r10_t2",
+      "score": 0.38907217603524114,
+      "z_score": 0.26941846987793544,
+      "delta1": 0.0,
+      "delta2": 0.0,
+      "promoted": false
+    },
+    {
+      "label": "MORSE_065",
+      "policy": "fixed",
+      "score": 0.6387147359631115,
+      "z_score": 0.6022752164484292,
+      "delta1": 0.0,
+      "delta2": 0.005113760822421459,
+      "promoted": false
+    },
+    {
+      "label": "MORSE_065",
+      "policy": "windowed_r2_t0",
+      "score": 0.6387147359631115,
+      "z_score": 0.6022752164484292,
+      "delta1": 0.0,
+      "delta2": 0.005113760822421459,
+      "promoted": false
+    },
+    {
+      "label": "MORSE_065",
+      "policy": "windowed_r5_t1",
+      "score": 0.6387147359631115,
+      "z_score": 0.6022752164484292,
+      "delta1": 0.0,
+      "delta2": 0.005113760822421459,
+      "promoted": false
+    },
+    {
+      "label": "MORSE_065",
+      "policy": "windowed_r10_t2",
+      "score": 0.6387147359631115,
+      "z_score": 0.6022752164484292,
+      "delta1": 0.0,
+      "delta2": 0.005113760822421459,
+      "promoted": false
+    },
+    {
+      "label": "MORSE_066",
+      "policy": "fixed",
+      "score": 0.38907217603524114,
+      "z_score": 0.26941846987793544,
+      "delta1": 0.0,
+      "delta2": 0.0,
+      "promoted": false
+    },
+    {
+      "label": "MORSE_066",
+      "policy": "windowed_r2_t0",
+      "score": 0.38907217603524114,
+      "z_score": 0.26941846987793544,
+      "delta1": 0.0,
+      "delta2": 0.0,
+      "promoted": false
+    },
+    {
+      "label": "MORSE_066",
+      "policy": "windowed_r5_t1",
+      "score": 0.38907217603524114,
+      "z_score": 0.26941846987793544,
+      "delta1": 0.0,
+      "delta2": 0.0,
+      "promoted": false
+    },
+    {
+      "label": "MORSE_066",
+      "policy": "windowed_r10_t2",
+      "score": 0.38907217603524114,
+      "z_score": 0.26941846987793544,
+      "delta1": 0.0,
+      "delta2": 0.0,
+      "promoted": false
+    },
+    {
+      "label": "MORSE_067",
+      "policy": "fixed",
+      "score": 0.6387147359631115,
+      "z_score": 0.6022752164484292,
+      "delta1": 0.0,
+      "delta2": 0.005113760822421459,
+      "promoted": false
+    },
+    {
+      "label": "MORSE_067",
+      "policy": "windowed_r2_t0",
+      "score": 0.6387147359631115,
+      "z_score": 0.6022752164484292,
+      "delta1": 0.0,
+      "delta2": 0.005113760822421459,
+      "promoted": false
+    },
+    {
+      "label": "MORSE_067",
+      "policy": "windowed_r5_t1",
+      "score": 0.6387147359631115,
+      "z_score": 0.6022752164484292,
+      "delta1": 0.0,
+      "delta2": 0.005113760822421459,
+      "promoted": false
+    },
+    {
+      "label": "MORSE_067",
+      "policy": "windowed_r10_t2",
+      "score": 0.6387147359631115,
+      "z_score": 0.6022752164484292,
+      "delta1": 0.0,
+      "delta2": 0.005113760822421459,
+      "promoted": false
+    },
+    {
+      "label": "MORSE_068",
+      "policy": "fixed",
+      "score": 0.01708941602200259,
+      "z_score": -0.1540606471261644,
+      "delta1": 0.0,
+      "delta2": 0.0,
+      "promoted": false
+    },
+    {
+      "label": "MORSE_068",
+      "policy": "windowed_r2_t0",
+      "score": 0.01708941602200259,
+      "z_score": -0.1540606471261644,
+      "delta1": 0.0,
+      "delta2": 0.0,
+      "promoted": false
+    },
+    {
+      "label": "MORSE_068",
+      "policy": "windowed_r5_t1",
+      "score": 0.01708941602200259,
+      "z_score": -0.1540606471261644,
+      "delta1": 0.0,
+      "delta2": 0.0,
+      "promoted": false
+    },
+    {
+      "label": "MORSE_068",
+      "policy": "windowed_r10_t2",
+      "score": 0.01708941602200259,
+      "z_score": -0.1540606471261644,
+      "delta1": 0.0,
+      "delta2": 0.0,
+      "promoted": false
+    },
+    {
+      "label": "MORSE_069",
+      "policy": "fixed",
+      "score": 0.01708941602200259,
+      "z_score": -0.1540606471261644,
+      "delta1": 0.0,
+      "delta2": 0.0,
+      "promoted": false
+    },
+    {
+      "label": "MORSE_069",
+      "policy": "windowed_r2_t0",
+      "score": 0.01708941602200259,
+      "z_score": -0.1540606471261644,
+      "delta1": 0.0,
+      "delta2": 0.0,
+      "promoted": false
+    },
+    {
+      "label": "MORSE_069",
+      "policy": "windowed_r5_t1",
+      "score": 0.01708941602200259,
+      "z_score": -0.1540606471261644,
+      "delta1": 0.0,
+      "delta2": 0.0,
+      "promoted": false
+    },
+    {
+      "label": "MORSE_069",
+      "policy": "windowed_r10_t2",
+      "score": 0.01708941602200259,
+      "z_score": -0.1540606471261644,
+      "delta1": 0.0,
+      "delta2": 0.0,
+      "promoted": false
+    },
+    {
+      "label": "MORSE_070",
+      "policy": "fixed",
+      "score": 0.6387147359631115,
+      "z_score": 0.6022752164484292,
+      "delta1": 0.0,
+      "delta2": 0.005113760822421459,
+      "promoted": false
+    },
+    {
+      "label": "MORSE_070",
+      "policy": "windowed_r2_t0",
+      "score": 0.6387147359631115,
+      "z_score": 0.6022752164484292,
+      "delta1": 0.0,
+      "delta2": 0.005113760822421459,
+      "promoted": false
+    },
+    {
+      "label": "MORSE_070",
+      "policy": "windowed_r5_t1",
+      "score": 0.6387147359631115,
+      "z_score": 0.6022752164484292,
+      "delta1": 0.0,
+      "delta2": 0.005113760822421459,
+      "promoted": false
+    },
+    {
+      "label": "MORSE_070",
+      "policy": "windowed_r10_t2",
+      "score": 0.6387147359631115,
+      "z_score": 0.6022752164484292,
+      "delta1": 0.0,
+      "delta2": 0.005113760822421459,
+      "promoted": false
+    },
+    {
+      "label": "MORSE_071",
+      "policy": "fixed",
+      "score": 0.38907217603524114,
+      "z_score": 0.26941846987793544,
+      "delta1": 0.0,
+      "delta2": 0.0,
+      "promoted": false
+    },
+    {
+      "label": "MORSE_071",
+      "policy": "windowed_r2_t0",
+      "score": 0.38907217603524114,
+      "z_score": 0.26941846987793544,
+      "delta1": 0.0,
+      "delta2": 0.0,
+      "promoted": false
+    },
+    {
+      "label": "MORSE_071",
+      "policy": "windowed_r5_t1",
+      "score": 0.38907217603524114,
+      "z_score": 0.26941846987793544,
+      "delta1": 0.0,
+      "delta2": 0.0,
+      "promoted": false
+    },
+    {
+      "label": "MORSE_071",
+      "policy": "windowed_r10_t2",
+      "score": 0.38907217603524114,
+      "z_score": 0.26941846987793544,
+      "delta1": 0.0,
+      "delta2": 0.0,
+      "promoted": false
+    },
+    {
+      "label": "MORSE_072",
+      "policy": "fixed",
+      "score": 0.01708941602200259,
+      "z_score": -0.1540606471261644,
+      "delta1": 0.0,
+      "delta2": 0.0,
+      "promoted": false
+    },
+    {
+      "label": "MORSE_072",
+      "policy": "windowed_r2_t0",
+      "score": 0.01708941602200259,
+      "z_score": -0.1540606471261644,
+      "delta1": 0.0,
+      "delta2": 0.0,
+      "promoted": false
+    },
+    {
+      "label": "MORSE_072",
+      "policy": "windowed_r5_t1",
+      "score": 0.01708941602200259,
+      "z_score": -0.1540606471261644,
+      "delta1": 0.0,
+      "delta2": 0.0,
+      "promoted": false
+    },
+    {
+      "label": "MORSE_072",
+      "policy": "windowed_r10_t2",
+      "score": 0.01708941602200259,
+      "z_score": -0.1540606471261644,
+      "delta1": 0.0,
+      "delta2": 0.0,
+      "promoted": false
+    },
+    {
+      "label": "MORSE_073",
+      "policy": "fixed",
+      "score": 0.6387147359631115,
+      "z_score": 0.6022752164484292,
+      "delta1": 0.0,
+      "delta2": 0.005113760822421459,
+      "promoted": false
+    },
+    {
+      "label": "MORSE_073",
+      "policy": "windowed_r2_t0",
+      "score": 0.6387147359631115,
+      "z_score": 0.6022752164484292,
+      "delta1": 0.0,
+      "delta2": 0.005113760822421459,
+      "promoted": false
+    },
+    {
+      "label": "MORSE_073",
+      "policy": "windowed_r5_t1",
+      "score": 0.6387147359631115,
+      "z_score": 0.6022752164484292,
+      "delta1": 0.0,
+      "delta2": 0.005113760822421459,
+      "promoted": false
+    },
+    {
+      "label": "MORSE_073",
+      "policy": "windowed_r10_t2",
+      "score": 0.6387147359631115,
+      "z_score": 0.6022752164484292,
+      "delta1": 0.0,
+      "delta2": 0.005113760822421459,
+      "promoted": false
+    },
+    {
+      "label": "MORSE_074",
+      "policy": "fixed",
+      "score": 0.6387147359631115,
+      "z_score": 0.6022752164484292,
+      "delta1": 0.0,
+      "delta2": 0.005113760822421459,
+      "promoted": false
+    },
+    {
+      "label": "MORSE_074",
+      "policy": "windowed_r2_t0",
+      "score": 0.6387147359631115,
+      "z_score": 0.6022752164484292,
+      "delta1": 0.0,
+      "delta2": 0.005113760822421459,
+      "promoted": false
+    },
+    {
+      "label": "MORSE_074",
+      "policy": "windowed_r5_t1",
+      "score": 0.6387147359631115,
+      "z_score": 0.6022752164484292,
+      "delta1": 0.0,
+      "delta2": 0.005113760822421459,
+      "promoted": false
+    },
+    {
+      "label": "MORSE_074",
+      "policy": "windowed_r10_t2",
+      "score": 0.6387147359631115,
+      "z_score": 0.6022752164484292,
+      "delta1": 0.0,
+      "delta2": 0.005113760822421459,
+      "promoted": false
+    },
+    {
+      "label": "MORSE_075",
+      "policy": "fixed",
+      "score": 0.01708941602200259,
+      "z_score": -0.1540606471261644,
+      "delta1": 0.0,
+      "delta2": 0.0,
+      "promoted": false
+    },
+    {
+      "label": "MORSE_075",
+      "policy": "windowed_r2_t0",
+      "score": 0.01708941602200259,
+      "z_score": -0.1540606471261644,
+      "delta1": 0.0,
+      "delta2": 0.0,
+      "promoted": false
+    },
+    {
+      "label": "MORSE_075",
+      "policy": "windowed_r5_t1",
+      "score": 0.01708941602200259,
+      "z_score": -0.1540606471261644,
+      "delta1": 0.0,
+      "delta2": 0.0,
+      "promoted": false
+    },
+    {
+      "label": "MORSE_075",
+      "policy": "windowed_r10_t2",
+      "score": 0.01708941602200259,
+      "z_score": -0.1540606471261644,
+      "delta1": 0.0,
+      "delta2": 0.0,
+      "promoted": false
+    },
+    {
+      "label": "MORSE_076",
+      "policy": "fixed",
+      "score": 0.38907217603524114,
+      "z_score": 0.26941846987793544,
+      "delta1": 0.0,
+      "delta2": 0.0,
+      "promoted": false
+    },
+    {
+      "label": "MORSE_076",
+      "policy": "windowed_r2_t0",
+      "score": 0.38907217603524114,
+      "z_score": 0.26941846987793544,
+      "delta1": 0.0,
+      "delta2": 0.0,
+      "promoted": false
+    },
+    {
+      "label": "MORSE_076",
+      "policy": "windowed_r5_t1",
+      "score": 0.38907217603524114,
+      "z_score": 0.26941846987793544,
+      "delta1": 0.0,
+      "delta2": 0.0,
+      "promoted": false
+    },
+    {
+      "label": "MORSE_076",
+      "policy": "windowed_r10_t2",
+      "score": 0.38907217603524114,
+      "z_score": 0.26941846987793544,
+      "delta1": 0.0,
+      "delta2": 0.0,
+      "promoted": false
+    },
+    {
+      "label": "MORSE_077",
+      "policy": "fixed",
+      "score": 0.01708941602200259,
+      "z_score": -0.1540606471261644,
+      "delta1": 0.0,
+      "delta2": 0.0,
+      "promoted": false
+    },
+    {
+      "label": "MORSE_077",
+      "policy": "windowed_r2_t0",
+      "score": 0.01708941602200259,
+      "z_score": -0.1540606471261644,
+      "delta1": 0.0,
+      "delta2": 0.0,
+      "promoted": false
+    },
+    {
+      "label": "MORSE_077",
+      "policy": "windowed_r5_t1",
+      "score": 0.01708941602200259,
+      "z_score": -0.1540606471261644,
+      "delta1": 0.0,
+      "delta2": 0.0,
+      "promoted": false
+    },
+    {
+      "label": "MORSE_077",
+      "policy": "windowed_r10_t2",
+      "score": 0.01708941602200259,
+      "z_score": -0.1540606471261644,
+      "delta1": 0.0,
+      "delta2": 0.0,
+      "promoted": false
+    },
+    {
+      "label": "MORSE_078",
+      "policy": "fixed",
+      "score": 0.38907217603524114,
+      "z_score": 0.26941846987793544,
+      "delta1": 0.0,
+      "delta2": 0.0,
+      "promoted": false
+    },
+    {
+      "label": "MORSE_078",
+      "policy": "windowed_r2_t0",
+      "score": 0.38907217603524114,
+      "z_score": 0.26941846987793544,
+      "delta1": 0.0,
+      "delta2": 0.0,
+      "promoted": false
+    },
+    {
+      "label": "MORSE_078",
+      "policy": "windowed_r5_t1",
+      "score": 0.38907217603524114,
+      "z_score": 0.26941846987793544,
+      "delta1": 0.0,
+      "delta2": 0.0,
+      "promoted": false
+    },
+    {
+      "label": "MORSE_078",
+      "policy": "windowed_r10_t2",
+      "score": 0.38907217603524114,
+      "z_score": 0.26941846987793544,
+      "delta1": 0.0,
+      "delta2": 0.0,
+      "promoted": false
+    },
+    {
+      "label": "MORSE_079",
+      "policy": "fixed",
+      "score": 0.01708941602200259,
+      "z_score": -0.1540606471261644,
+      "delta1": 0.0,
+      "delta2": 0.0,
+      "promoted": false
+    },
+    {
+      "label": "MORSE_079",
+      "policy": "windowed_r2_t0",
+      "score": 0.01708941602200259,
+      "z_score": -0.1540606471261644,
+      "delta1": 0.0,
+      "delta2": 0.0,
+      "promoted": false
+    },
+    {
+      "label": "MORSE_079",
+      "policy": "windowed_r5_t1",
+      "score": 0.01708941602200259,
+      "z_score": -0.1540606471261644,
+      "delta1": 0.0,
+      "delta2": 0.0,
+      "promoted": false
+    },
+    {
+      "label": "MORSE_079",
+      "policy": "windowed_r10_t2",
+      "score": 0.01708941602200259,
+      "z_score": -0.1540606471261644,
+      "delta1": 0.0,
+      "delta2": 0.0,
+      "promoted": false
+    },
+    {
+      "label": "MORSE_080",
+      "policy": "fixed",
+      "score": 0.01708941602200259,
+      "z_score": -0.1540606471261644,
+      "delta1": 0.0,
+      "delta2": 0.0,
+      "promoted": false
+    },
+    {
+      "label": "MORSE_080",
+      "policy": "windowed_r2_t0",
+      "score": 0.01708941602200259,
+      "z_score": -0.1540606471261644,
+      "delta1": 0.0,
+      "delta2": 0.0,
+      "promoted": false
+    },
+    {
+      "label": "MORSE_080",
+      "policy": "windowed_r5_t1",
+      "score": 0.01708941602200259,
+      "z_score": -0.1540606471261644,
+      "delta1": 0.0,
+      "delta2": 0.0,
+      "promoted": false
+    },
+    {
+      "label": "MORSE_080",
+      "policy": "windowed_r10_t2",
+      "score": 0.01708941602200259,
+      "z_score": -0.1540606471261644,
+      "delta1": 0.0,
+      "delta2": 0.0,
+      "promoted": false
+    },
+    {
+      "label": "MORSE_081",
+      "policy": "fixed",
+      "score": 0.01708941602200259,
+      "z_score": -0.1540606471261644,
+      "delta1": 0.0,
+      "delta2": 0.0,
+      "promoted": false
+    },
+    {
+      "label": "MORSE_081",
+      "policy": "windowed_r2_t0",
+      "score": 0.01708941602200259,
+      "z_score": -0.1540606471261644,
+      "delta1": 0.0,
+      "delta2": 0.0,
+      "promoted": false
+    },
+    {
+      "label": "MORSE_081",
+      "policy": "windowed_r5_t1",
+      "score": 0.01708941602200259,
+      "z_score": -0.1540606471261644,
+      "delta1": 0.0,
+      "delta2": 0.0,
+      "promoted": false
+    },
+    {
+      "label": "MORSE_081",
+      "policy": "windowed_r10_t2",
+      "score": 0.01708941602200259,
+      "z_score": -0.1540606471261644,
+      "delta1": 0.0,
+      "delta2": 0.0,
+      "promoted": false
+    },
+    {
+      "label": "MORSE_082",
+      "policy": "fixed",
+      "score": 0.6387147359631115,
+      "z_score": 0.6022752164484292,
+      "delta1": 0.0,
+      "delta2": 0.005113760822421459,
+      "promoted": false
+    },
+    {
+      "label": "MORSE_082",
+      "policy": "windowed_r2_t0",
+      "score": 0.6387147359631115,
+      "z_score": 0.6022752164484292,
+      "delta1": 0.0,
+      "delta2": 0.005113760822421459,
+      "promoted": false
+    },
+    {
+      "label": "MORSE_082",
+      "policy": "windowed_r5_t1",
+      "score": 0.6387147359631115,
+      "z_score": 0.6022752164484292,
+      "delta1": 0.0,
+      "delta2": 0.005113760822421459,
+      "promoted": false
+    },
+    {
+      "label": "MORSE_082",
+      "policy": "windowed_r10_t2",
+      "score": 0.6387147359631115,
+      "z_score": 0.6022752164484292,
+      "delta1": 0.0,
+      "delta2": 0.005113760822421459,
+      "promoted": false
+    },
+    {
+      "label": "MORSE_083",
+      "policy": "fixed",
+      "score": 0.38907217603524114,
+      "z_score": 0.26941846987793544,
+      "delta1": 0.0,
+      "delta2": 0.0,
+      "promoted": false
+    },
+    {
+      "label": "MORSE_083",
+      "policy": "windowed_r2_t0",
+      "score": 0.38907217603524114,
+      "z_score": 0.26941846987793544,
+      "delta1": 0.0,
+      "delta2": 0.0,
+      "promoted": false
+    },
+    {
+      "label": "MORSE_083",
+      "policy": "windowed_r5_t1",
+      "score": 0.38907217603524114,
+      "z_score": 0.26941846987793544,
+      "delta1": 0.0,
+      "delta2": 0.0,
+      "promoted": false
+    },
+    {
+      "label": "MORSE_083",
+      "policy": "windowed_r10_t2",
+      "score": 0.38907217603524114,
+      "z_score": 0.26941846987793544,
+      "delta1": 0.0,
+      "delta2": 0.0,
+      "promoted": false
+    },
+    {
+      "label": "MORSE_084",
+      "policy": "fixed",
+      "score": 0.01708941602200259,
+      "z_score": -0.1540606471261644,
+      "delta1": 0.0,
+      "delta2": 0.0,
+      "promoted": false
+    },
+    {
+      "label": "MORSE_084",
+      "policy": "windowed_r2_t0",
+      "score": 0.01708941602200259,
+      "z_score": -0.1540606471261644,
+      "delta1": 0.0,
+      "delta2": 0.0,
+      "promoted": false
+    },
+    {
+      "label": "MORSE_084",
+      "policy": "windowed_r5_t1",
+      "score": 0.01708941602200259,
+      "z_score": -0.1540606471261644,
+      "delta1": 0.0,
+      "delta2": 0.0,
+      "promoted": false
+    },
+    {
+      "label": "MORSE_084",
+      "policy": "windowed_r10_t2",
+      "score": 0.01708941602200259,
+      "z_score": -0.1540606471261644,
+      "delta1": 0.0,
+      "delta2": 0.0,
+      "promoted": false
+    },
+    {
+      "label": "MORSE_085",
+      "policy": "fixed",
+      "score": 0.38907217603524114,
+      "z_score": 0.26941846987793544,
+      "delta1": 0.0,
+      "delta2": 0.0,
+      "promoted": false
+    },
+    {
+      "label": "MORSE_085",
+      "policy": "windowed_r2_t0",
+      "score": 0.38907217603524114,
+      "z_score": 0.26941846987793544,
+      "delta1": 0.0,
+      "delta2": 0.0,
+      "promoted": false
+    },
+    {
+      "label": "MORSE_085",
+      "policy": "windowed_r5_t1",
+      "score": 0.38907217603524114,
+      "z_score": 0.26941846987793544,
+      "delta1": 0.0,
+      "delta2": 0.0,
+      "promoted": false
+    },
+    {
+      "label": "MORSE_085",
+      "policy": "windowed_r10_t2",
+      "score": 0.38907217603524114,
+      "z_score": 0.26941846987793544,
+      "delta1": 0.0,
+      "delta2": 0.0,
+      "promoted": false
+    },
+    {
+      "label": "MORSE_086",
+      "policy": "fixed",
+      "score": 0.01708941602200259,
+      "z_score": -0.1540606471261644,
+      "delta1": 0.0,
+      "delta2": 0.0,
+      "promoted": false
+    },
+    {
+      "label": "MORSE_086",
+      "policy": "windowed_r2_t0",
+      "score": 0.01708941602200259,
+      "z_score": -0.1540606471261644,
+      "delta1": 0.0,
+      "delta2": 0.0,
+      "promoted": false
+    },
+    {
+      "label": "MORSE_086",
+      "policy": "windowed_r5_t1",
+      "score": 0.01708941602200259,
+      "z_score": -0.1540606471261644,
+      "delta1": 0.0,
+      "delta2": 0.0,
+      "promoted": false
+    },
+    {
+      "label": "MORSE_086",
+      "policy": "windowed_r10_t2",
+      "score": 0.01708941602200259,
+      "z_score": -0.1540606471261644,
+      "delta1": 0.0,
+      "delta2": 0.0,
+      "promoted": false
+    },
+    {
+      "label": "MORSE_087",
+      "policy": "fixed",
+      "score": 0.01708941602200259,
+      "z_score": -0.1540606471261644,
+      "delta1": 0.0,
+      "delta2": 0.0,
+      "promoted": false
+    },
+    {
+      "label": "MORSE_087",
+      "policy": "windowed_r2_t0",
+      "score": 0.01708941602200259,
+      "z_score": -0.1540606471261644,
+      "delta1": 0.0,
+      "delta2": 0.0,
+      "promoted": false
+    },
+    {
+      "label": "MORSE_087",
+      "policy": "windowed_r5_t1",
+      "score": 0.01708941602200259,
+      "z_score": -0.1540606471261644,
+      "delta1": 0.0,
+      "delta2": 0.0,
+      "promoted": false
+    },
+    {
+      "label": "MORSE_087",
+      "policy": "windowed_r10_t2",
+      "score": 0.01708941602200259,
+      "z_score": -0.1540606471261644,
+      "delta1": 0.0,
+      "delta2": 0.0,
+      "promoted": false
+    },
+    {
+      "label": "MORSE_088",
+      "policy": "fixed",
+      "score": 0.01708941602200259,
+      "z_score": -0.1540606471261644,
+      "delta1": 0.0,
+      "delta2": 0.0,
+      "promoted": false
+    },
+    {
+      "label": "MORSE_088",
+      "policy": "windowed_r2_t0",
+      "score": 0.01708941602200259,
+      "z_score": -0.1540606471261644,
+      "delta1": 0.0,
+      "delta2": 0.0,
+      "promoted": false
+    },
+    {
+      "label": "MORSE_088",
+      "policy": "windowed_r5_t1",
+      "score": 0.01708941602200259,
+      "z_score": -0.1540606471261644,
+      "delta1": 0.0,
+      "delta2": 0.0,
+      "promoted": false
+    },
+    {
+      "label": "MORSE_088",
+      "policy": "windowed_r10_t2",
+      "score": 0.01708941602200259,
+      "z_score": -0.1540606471261644,
+      "delta1": 0.0,
+      "delta2": 0.0,
+      "promoted": false
+    },
+    {
+      "label": "MORSE_089",
+      "policy": "fixed",
+      "score": 0.38907217603524114,
+      "z_score": 0.26941846987793544,
+      "delta1": 0.0,
+      "delta2": 0.0,
+      "promoted": false
+    },
+    {
+      "label": "MORSE_089",
+      "policy": "windowed_r2_t0",
+      "score": 0.38907217603524114,
+      "z_score": 0.26941846987793544,
+      "delta1": 0.0,
+      "delta2": 0.0,
+      "promoted": false
+    },
+    {
+      "label": "MORSE_089",
+      "policy": "windowed_r5_t1",
+      "score": 0.38907217603524114,
+      "z_score": 0.26941846987793544,
+      "delta1": 0.0,
+      "delta2": 0.0,
+      "promoted": false
+    },
+    {
+      "label": "MORSE_089",
+      "policy": "windowed_r10_t2",
+      "score": 0.38907217603524114,
+      "z_score": 0.26941846987793544,
+      "delta1": 0.0,
+      "delta2": 0.0,
+      "promoted": false
+    },
+    {
+      "label": "MORSE_090",
+      "policy": "fixed",
+      "score": 0.01708941602200259,
+      "z_score": -0.1540606471261644,
+      "delta1": 0.0,
+      "delta2": 0.0,
+      "promoted": false
+    },
+    {
+      "label": "MORSE_090",
+      "policy": "windowed_r2_t0",
+      "score": 0.01708941602200259,
+      "z_score": -0.1540606471261644,
+      "delta1": 0.0,
+      "delta2": 0.0,
+      "promoted": false
+    },
+    {
+      "label": "MORSE_090",
+      "policy": "windowed_r5_t1",
+      "score": 0.01708941602200259,
+      "z_score": -0.1540606471261644,
+      "delta1": 0.0,
+      "delta2": 0.0,
+      "promoted": false
+    },
+    {
+      "label": "MORSE_090",
+      "policy": "windowed_r10_t2",
+      "score": 0.01708941602200259,
+      "z_score": -0.1540606471261644,
+      "delta1": 0.0,
+      "delta2": 0.0,
+      "promoted": false
+    },
+    {
+      "label": "MORSE_091",
+      "policy": "fixed",
+      "score": 0.38907217603524114,
+      "z_score": 0.26941846987793544,
+      "delta1": 0.0,
+      "delta2": 0.0,
+      "promoted": false
+    },
+    {
+      "label": "MORSE_091",
+      "policy": "windowed_r2_t0",
+      "score": 0.38907217603524114,
+      "z_score": 0.26941846987793544,
+      "delta1": 0.0,
+      "delta2": 0.0,
+      "promoted": false
+    },
+    {
+      "label": "MORSE_091",
+      "policy": "windowed_r5_t1",
+      "score": 0.38907217603524114,
+      "z_score": 0.26941846987793544,
+      "delta1": 0.0,
+      "delta2": 0.0,
+      "promoted": false
+    },
+    {
+      "label": "MORSE_091",
+      "policy": "windowed_r10_t2",
+      "score": 0.38907217603524114,
+      "z_score": 0.26941846987793544,
+      "delta1": 0.0,
+      "delta2": 0.0,
+      "promoted": false
+    },
+    {
+      "label": "MORSE_092",
+      "policy": "fixed",
+      "score": 0.01708941602200259,
+      "z_score": -0.1540606471261644,
+      "delta1": 0.0,
+      "delta2": 0.0,
+      "promoted": false
+    },
+    {
+      "label": "MORSE_092",
+      "policy": "windowed_r2_t0",
+      "score": 0.01708941602200259,
+      "z_score": -0.1540606471261644,
+      "delta1": 0.0,
+      "delta2": 0.0,
+      "promoted": false
+    },
+    {
+      "label": "MORSE_092",
+      "policy": "windowed_r5_t1",
+      "score": 0.01708941602200259,
+      "z_score": -0.1540606471261644,
+      "delta1": 0.0,
+      "delta2": 0.0,
+      "promoted": false
+    },
+    {
+      "label": "MORSE_092",
+      "policy": "windowed_r10_t2",
+      "score": 0.01708941602200259,
+      "z_score": -0.1540606471261644,
+      "delta1": 0.0,
+      "delta2": 0.0,
+      "promoted": false
+    },
+    {
+      "label": "MORSE_093",
+      "policy": "fixed",
+      "score": 0.6387147359631115,
+      "z_score": 0.6022752164484292,
+      "delta1": 0.0,
+      "delta2": 0.005113760822421459,
+      "promoted": false
+    },
+    {
+      "label": "MORSE_093",
+      "policy": "windowed_r2_t0",
+      "score": 0.6387147359631115,
+      "z_score": 0.6022752164484292,
+      "delta1": 0.0,
+      "delta2": 0.005113760822421459,
+      "promoted": false
+    },
+    {
+      "label": "MORSE_093",
+      "policy": "windowed_r5_t1",
+      "score": 0.6387147359631115,
+      "z_score": 0.6022752164484292,
+      "delta1": 0.0,
+      "delta2": 0.005113760822421459,
+      "promoted": false
+    },
+    {
+      "label": "MORSE_093",
+      "policy": "windowed_r10_t2",
+      "score": 0.6387147359631115,
+      "z_score": 0.6022752164484292,
+      "delta1": 0.0,
+      "delta2": 0.005113760822421459,
+      "promoted": false
+    },
+    {
+      "label": "MORSE_094",
+      "policy": "fixed",
+      "score": 0.01708941602200259,
+      "z_score": -0.1540606471261644,
+      "delta1": 0.0,
+      "delta2": 0.0,
+      "promoted": false
+    },
+    {
+      "label": "MORSE_094",
+      "policy": "windowed_r2_t0",
+      "score": 0.01708941602200259,
+      "z_score": -0.1540606471261644,
+      "delta1": 0.0,
+      "delta2": 0.0,
+      "promoted": false
+    },
+    {
+      "label": "MORSE_094",
+      "policy": "windowed_r5_t1",
+      "score": 0.01708941602200259,
+      "z_score": -0.1540606471261644,
+      "delta1": 0.0,
+      "delta2": 0.0,
+      "promoted": false
+    },
+    {
+      "label": "MORSE_094",
+      "policy": "windowed_r10_t2",
+      "score": 0.01708941602200259,
+      "z_score": -0.1540606471261644,
+      "delta1": 0.0,
+      "delta2": 0.0,
+      "promoted": false
+    },
+    {
+      "label": "MORSE_095",
+      "policy": "fixed",
+      "score": 0.01708941602200259,
+      "z_score": -0.1540606471261644,
+      "delta1": 0.0,
+      "delta2": 0.0,
+      "promoted": false
+    },
+    {
+      "label": "MORSE_095",
+      "policy": "windowed_r2_t0",
+      "score": 0.01708941602200259,
+      "z_score": -0.1540606471261644,
+      "delta1": 0.0,
+      "delta2": 0.0,
+      "promoted": false
+    },
+    {
+      "label": "MORSE_095",
+      "policy": "windowed_r5_t1",
+      "score": 0.01708941602200259,
+      "z_score": -0.1540606471261644,
+      "delta1": 0.0,
+      "delta2": 0.0,
+      "promoted": false
+    },
+    {
+      "label": "MORSE_095",
+      "policy": "windowed_r10_t2",
+      "score": 0.01708941602200259,
+      "z_score": -0.1540606471261644,
+      "delta1": 0.0,
+      "delta2": 0.0,
+      "promoted": false
+    },
+    {
+      "label": "MORSE_096",
+      "policy": "fixed",
+      "score": 0.01708941602200259,
+      "z_score": -0.1540606471261644,
+      "delta1": 0.0,
+      "delta2": 0.0,
+      "promoted": false
+    },
+    {
+      "label": "MORSE_096",
+      "policy": "windowed_r2_t0",
+      "score": 0.01708941602200259,
+      "z_score": -0.1540606471261644,
+      "delta1": 0.0,
+      "delta2": 0.0,
+      "promoted": false
+    },
+    {
+      "label": "MORSE_096",
+      "policy": "windowed_r5_t1",
+      "score": 0.01708941602200259,
+      "z_score": -0.1540606471261644,
+      "delta1": 0.0,
+      "delta2": 0.0,
+      "promoted": false
+    },
+    {
+      "label": "MORSE_096",
+      "policy": "windowed_r10_t2",
+      "score": 0.01708941602200259,
+      "z_score": -0.1540606471261644,
+      "delta1": 0.0,
+      "delta2": 0.0,
+      "promoted": false
+    },
+    {
+      "label": "MORSE_097",
+      "policy": "fixed",
+      "score": 0.6387147359631115,
+      "z_score": 0.6022752164484292,
+      "delta1": 0.0,
+      "delta2": 0.005113760822421459,
+      "promoted": false
+    },
+    {
+      "label": "MORSE_097",
+      "policy": "windowed_r2_t0",
+      "score": 0.6387147359631115,
+      "z_score": 0.6022752164484292,
+      "delta1": 0.0,
+      "delta2": 0.005113760822421459,
+      "promoted": false
+    },
+    {
+      "label": "MORSE_097",
+      "policy": "windowed_r5_t1",
+      "score": 0.6387147359631115,
+      "z_score": 0.6022752164484292,
+      "delta1": 0.0,
+      "delta2": 0.005113760822421459,
+      "promoted": false
+    },
+    {
+      "label": "MORSE_097",
+      "policy": "windowed_r10_t2",
+      "score": 0.6387147359631115,
+      "z_score": 0.6022752164484292,
+      "delta1": 0.0,
+      "delta2": 0.005113760822421459,
+      "promoted": false
+    },
+    {
+      "label": "MORSE_098",
+      "policy": "fixed",
+      "score": 0.38907217603524114,
+      "z_score": 0.26941846987793544,
+      "delta1": 0.0,
+      "delta2": 0.0,
+      "promoted": false
+    },
+    {
+      "label": "MORSE_098",
+      "policy": "windowed_r2_t0",
+      "score": 0.38907217603524114,
+      "z_score": 0.26941846987793544,
+      "delta1": 0.0,
+      "delta2": 0.0,
+      "promoted": false
+    },
+    {
+      "label": "MORSE_098",
+      "policy": "windowed_r5_t1",
+      "score": 0.38907217603524114,
+      "z_score": 0.26941846987793544,
+      "delta1": 0.0,
+      "delta2": 0.0,
+      "promoted": false
+    },
+    {
+      "label": "MORSE_098",
+      "policy": "windowed_r10_t2",
+      "score": 0.38907217603524114,
+      "z_score": 0.26941846987793544,
+      "delta1": 0.0,
+      "delta2": 0.0,
+      "promoted": false
+    },
+    {
+      "label": "MORSE_099",
+      "policy": "fixed",
+      "score": 0.01708941602200259,
+      "z_score": -0.1540606471261644,
+      "delta1": 0.0,
+      "delta2": 0.0,
+      "promoted": false
+    },
+    {
+      "label": "MORSE_099",
+      "policy": "windowed_r2_t0",
+      "score": 0.01708941602200259,
+      "z_score": -0.1540606471261644,
+      "delta1": 0.0,
+      "delta2": 0.0,
+      "promoted": false
+    },
+    {
+      "label": "MORSE_099",
+      "policy": "windowed_r5_t1",
+      "score": 0.01708941602200259,
+      "z_score": -0.1540606471261644,
+      "delta1": 0.0,
+      "delta2": 0.0,
+      "promoted": false
+    },
+    {
+      "label": "MORSE_099",
+      "policy": "windowed_r10_t2",
+      "score": 0.01708941602200259,
+      "z_score": -0.1540606471261644,
+      "delta1": 0.0,
+      "delta2": 0.0,
+      "promoted": false
+    }
+  ]
+}

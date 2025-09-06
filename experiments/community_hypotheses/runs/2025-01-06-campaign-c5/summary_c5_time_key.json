@@ -1,0 +1,10 @@
+{
+  "campaign": "C5_TIME_KEY",
+  "heads": 100,
+  "policies": 4,
+  "tests": 400,
+  "promotions": 0,
+  "promotion_rate": 0.0,
+  "file": "experiments/community_hypotheses/runs/2025-01-06-campaign-c5/scores_c5_time_key.json",
+  "hash": "6914efebef695f8a"
+}
