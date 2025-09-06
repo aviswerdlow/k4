@@ -1,0 +1,17 @@
+[
+  {
+    "label": "surveying_bearing",
+    "plaintext": "SETTHEBEARINGTRUEREADTHENDIALEASTNORTHEASTWECANSEETHETEXTISCODEBERLINCLOCKTHEJOYOFANANGLEISTHEARC",
+    "description": "SET THE BEARING TRUE variant"
+  },
+  {
+    "label": "surveying_berlin",
+    "plaintext": "READTHEBERLINCLOCKEASTNORTHEASTWESETTHECOURSETRUEWECANSEETHECODE[TAIL]",
+    "description": "READ THE BERLIN CLOCK variant (incomplete tail)"
+  },
+  {
+    "label": "surveying_observe",
+    "plaintext": "OBSERVETHEDIALSEASTNORTHEASTSETTHEBEARINGTRUEREADTHENSEEBERLINCLOCKTHEJOYOFANANGLEISTHEARC",
+    "description": "OBSERVE THE DIALS variant"
+  }
+]

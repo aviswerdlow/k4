@@ -322,8 +322,9 @@ def main():
     args = parser.parse_args()
     
     # Load candidates
-    if Path(args.candidates).exists():
-        with open(args.candidates) as f:
+    candidates_path = Path(args.candidates)
+    if candidates_path.exists():
+        with open(candidates_path) as f:
             candidates = json.load(f)
     else:
         # Create example candidates for testing

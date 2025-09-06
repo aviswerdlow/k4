@@ -1,0 +1,63 @@
+{
+  "timestamp": "neg_controls",
+  "seed": 1337,
+  "baseline_score": 0.24206185567010305,
+  "controls": [
+    {
+      "control_type": "original",
+      "modification": "none",
+      "score": 0.24206185567010305,
+      "coverage": 0.6079896907216495,
+      "ngram": 0.03402061855670103,
+      "compress": 0.10309278350515459,
+      "delta_from_original": 0.0,
+      "ratio_to_original": 1.0
+    },
+    {
+      "control_type": "scrambled_anchors",
+      "modification": "anchors_permuted",
+      "score": 0.19373711340206182,
+      "coverage": 0.5048969072164948,
+      "ngram": 0.028350515463917526,
+      "compress": 0.10309278350515459,
+      "delta_from_original": -0.04832474226804123,
+      "ratio_to_original": 0.800362010221465
+    },
+    {
+      "control_type": "permuted_seam",
+      "modification": "seam_at_74",
+      "score": 0.2136082474226804,
+      "coverage": 0.5711340206185567,
+      "ngram": 0.028350515463917526,
+      "compress": 0.10309278350515459,
+      "delta_from_original": -0.028453608247422657,
+      "ratio_to_original": 0.8824531516183988
+    },
+    {
+      "control_type": "anchor_free",
+      "modification": "no_anchor_scoring",
+      "score": 0.22693298969072162,
+      "coverage": 0.6079896907216495,
+      "ngram": 0.03402061855670103,
+      "compress": 0.10309278350515459,
+      "delta_from_original": -0.015128865979381428,
+      "ratio_to_original": 0.9375
+    },
+    {
+      "control_type": "random_shuffle",
+      "modification": "complete_shuffle",
+      "score": 0.06326583210603828,
+      "coverage": 0.1368556701030928,
+      "ngram": 0.011340206185567008,
+      "compress": 0.05891016200294546,
+      "delta_from_original": -0.17879602356406477,
+      "ratio_to_original": 0.2613622535896812
+    }
+  ],
+  "summary": {
+    "scrambled_degrades": false,
+    "seam_affects": true,
+    "anchors_matter": true,
+    "random_worst": true
+  }
+}
