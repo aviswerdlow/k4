@@ -46,8 +46,8 @@
     "max_repeat": 2
   },
   "cadence_ref": {
-    "thresholds_sha256": "<sha256 of cadence/THRESHOLDS.json>",
-    "policy_sha256": "<sha256 of POLICY.cadence.json>"
+    "thresholds_sha256": "0d6ba5c3c3134e23a080653ef5b083bdd34737ab9ff1d54e728ba20d197e36c1",
+    "policy_sha256": "2161a32ee615f34823cb45b917bc51c6d4e0967fd5c2fb40829901adfbb4defc"
   },
   "generic": {
     "perplexity_top_percent": 1.0,

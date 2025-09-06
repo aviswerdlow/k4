@@ -1,6 +1,6 @@
 # Analysis Plan: Full Bars, Clear Tests Package
 **Pre-registered**: 2025-01-06  
-**Commit Hash**: [TO BE FILLED POST-COMMIT]  
+**Commit Hash**: 650162be7327b697569e3e64ae2ef8f87d1812a6  
 **Master Seed**: 1337  
 **CT SHA-256**: eea813570c7f1fd3b34674e47b5c3da8948026f5cefee612a0b38ffaa515ceab
 

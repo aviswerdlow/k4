@@ -16,8 +16,8 @@
     "per_text": 2000,
     "seed": 1337,
     "hashes": {
-      "ref_windows_dump": "<to be filled post-bootstrap>",
-      "thresholds_json": "<to be filled post-bootstrap>"
+      "ref_windows_dump": "windows_not_persisted_see_REF_BOOTSTRAP.json",
+      "thresholds_json": "0d6ba5c3c3134e23a080653ef5b083bdd34737ab9ff1d54e728ba20d197e36c1"
     }
   }
 }
