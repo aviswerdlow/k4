@@ -1,0 +1,515 @@
+[
+  {
+    "text": "THE TRUTH IS [DIR1] OF THE LIFE IF SHADOW THEN THINK THE TEXT BEFORE THE",
+    "length": 72,
+    "f_words": 8,
+    "has_verb": true,
+    "coverage": 0.8666666666666667,
+    "score": 29.733333333333334,
+    "placeholders": [
+      "[DIR1]"
+    ],
+    "id": "GRAMMAR_0000"
+  },
+  {
+    "text": "FIRST STEP THEN KNOW THE HALL AND WHERE IS THE DOOR AND THE SKY ARE MORE",
+    "length": 72,
+    "f_words": 10,
+    "has_verb": true,
+    "coverage": 1.0,
+    "score": 33.0,
+    "placeholders": [],
+    "id": "GRAMMAR_0001"
+  },
+  {
+    "text": "WHAT GO THE LAW BRIGHT IF SIGN THEN FORGET THE LOCK WHERE IS THE CODE AND",
+    "length": 73,
+    "f_words": 9,
+    "has_verb": true,
+    "coverage": 1.0,
+    "score": 32.7,
+    "placeholders": [],
+    "id": "GRAMMAR_0002"
+  },
+  {
+    "text": "BEFORE THE LIFE GIVE THE HALL WHAT REMEMBER THE SIGN FIRST SO HAS IF NOT",
+    "length": 72,
+    "f_words": 8,
+    "has_verb": true,
+    "coverage": 0.9333333333333333,
+    "score": 31.06666666666667,
+    "placeholders": [],
+    "id": "GRAMMAR_0003"
+  },
+  {
+    "text": "LOOK DARK AND SET LAST. SET THE MARK TO HIGH. WHERE IS THE TIME AND THE",
+    "length": 71,
+    "f_words": 8,
+    "has_verb": true,
+    "coverage": 0.875,
+    "score": 29.9,
+    "placeholders": [],
+    "id": "GRAMMAR_0004"
+  },
+  {
+    "text": "WHERE IS THE LINE AND THE MARK AND IF THE HOUR IS WRONG THEN SEND [DIR1]",
+    "length": 72,
+    "f_words": 10,
+    "has_verb": true,
+    "coverage": 0.9375,
+    "score": 31.75,
+    "placeholders": [
+      "[DIR1]"
+    ],
+    "id": "GRAMMAR_0005"
+  },
+  {
+    "text": "THE WALL IS [DIR1] OF THE WAY AND STOP THE SKY FIRST AND KEEP THE GROUND",
+    "length": 72,
+    "f_words": 8,
+    "has_verb": true,
+    "coverage": 0.9375,
+    "score": 31.15,
+    "placeholders": [
+      "[DIR1]"
+    ],
+    "id": "GRAMMAR_0006"
+  },
+  {
+    "text": "MOVE THE TEXT AND ASK THE LAW AND APPLY THE WAY AND NOTE THEN THEIR OR",
+    "length": 70,
+    "f_words": 9,
+    "has_verb": true,
+    "coverage": 1.0,
+    "score": 32.7,
+    "placeholders": [],
+    "id": "GRAMMAR_0007"
+  },
+  {
+    "text": "SET THE SIGN TO WRONG AND MARK THEN LOOK AND WAIT NOT OR WHO BUT FROM THEIR",
+    "length": 75,
+    "f_words": 11,
+    "has_verb": true,
+    "coverage": 1.0,
+    "score": 33.3,
+    "placeholders": [],
+    "id": "GRAMMAR_0008"
+  },
+  {
+    "text": "IF HALL THEN COME THE TIME WAIT BAD AND TURN DARK HAD NO AND ARE SO WITH",
+    "length": 72,
+    "f_words": 10,
+    "has_verb": true,
+    "coverage": 1.0,
+    "score": 33.0,
+    "placeholders": [],
+    "id": "GRAMMAR_0009"
+  },
+  {
+    "text": "WHEN OLD REMEMBER THE PAGE. IF YEAR THEN SHOW THE PLAN. A THE IS OR TO",
+    "length": 70,
+    "f_words": 10,
+    "has_verb": true,
+    "coverage": 0.875,
+    "score": 30.5,
+    "placeholders": [],
+    "id": "GRAMMAR_0010"
+  },
+  {
+    "text": "WHERE IS THE SHADOW AND THE SHADOW. LOOK THEN MOVE AND SEE. SO BUT HAVE",
+    "length": 71,
+    "f_words": 10,
+    "has_verb": true,
+    "coverage": 0.8666666666666667,
+    "score": 30.333333333333336,
+    "placeholders": [],
+    "id": "GRAMMAR_0011"
+  },
+  {
+    "text": "WHERE IS THE LIE AND THE SIGN AND WHEN CLEAR NOTE THE LAW WHO THEN IN HAS",
+    "length": 73,
+    "f_words": 12,
+    "has_verb": true,
+    "coverage": 1.0,
+    "score": 33.6,
+    "placeholders": [],
+    "id": "GRAMMAR_0012"
+  },
+  {
+    "text": "IF GROUND THEN SEND THE WORD. GO THEN FIND AND KEEP. AN HAS AS AN WHO BY",
+    "length": 72,
+    "f_words": 11,
+    "has_verb": true,
+    "coverage": 0.8823529411764706,
+    "score": 30.947058823529414,
+    "placeholders": [],
+    "id": "GRAMMAR_0013"
+  },
+  {
+    "text": "WAIT THEN STEP AND SEEK APPLY THE MAP AND PUT BEEN TO WHERE OR THAT THE",
+    "length": 71,
+    "f_words": 10,
+    "has_verb": true,
+    "coverage": 1.0,
+    "score": 33.0,
+    "placeholders": [],
+    "id": "GRAMMAR_0014"
+  },
+  {
+    "text": "STEP THE LINE NEW AND MARK THE LIE TRUE APPLY THE BOOK AND READ IF THE YEAR",
+    "length": 75,
+    "f_words": 7,
+    "has_verb": true,
+    "coverage": 1.0,
+    "score": 32.1,
+    "placeholders": [],
+    "id": "GRAMMAR_0015"
+  },
+  {
+    "text": "IF STAR THEN POINT THE SIGN AND WHAT KEEP THE TRUTH OLD AND WHEN NEXT TELL",
+    "length": 74,
+    "f_words": 8,
+    "has_verb": true,
+    "coverage": 1.0,
+    "score": 32.4,
+    "placeholders": [],
+    "id": "GRAMMAR_0016"
+  },
+  {
+    "text": "IF WALL THEN APPLY THE MOON AND STOP LOW AND HOLD FALSE HAD BY WHEN FROM",
+    "length": 72,
+    "f_words": 9,
+    "has_verb": true,
+    "coverage": 1.0,
+    "score": 32.7,
+    "placeholders": [],
+    "id": "GRAMMAR_0017"
+  },
+  {
+    "text": "WHERE IS THE KEY AND THE PATH FIRST LOOK THEN PUT THE YEAR WILL A ONE WAS",
+    "length": 73,
+    "f_words": 11,
+    "has_verb": true,
+    "coverage": 1.0,
+    "score": 33.3,
+    "placeholders": [],
+    "id": "GRAMMAR_0018"
+  },
+  {
+    "text": "IF THE DAY IS FAR THEN TURN [DIR1] AND THE TIME IS [DIR1] OF THE LOCK AND",
+    "length": 73,
+    "f_words": 10,
+    "has_verb": true,
+    "coverage": 0.8823529411764706,
+    "score": 30.647058823529413,
+    "placeholders": [
+      "[DIR1]"
+    ],
+    "id": "GRAMMAR_0019"
+  },
+  {
+    "text": "SET THE TRUTH TO NEAR AND FIRST REMEMBER THEN SEND THE TIME AND TAKE THE",
+    "length": 72,
+    "f_words": 7,
+    "has_verb": true,
+    "coverage": 1.0,
+    "score": 32.1,
+    "placeholders": [],
+    "id": "GRAMMAR_0020"
+  },
+  {
+    "text": "ASK THE SKY AND TELL THE TRUTH TAKE THEN FIND AND KEEP THIS FROM AS FOR",
+    "length": 71,
+    "f_words": 9,
+    "has_verb": true,
+    "coverage": 1.0,
+    "score": 32.7,
+    "placeholders": [],
+    "id": "GRAMMAR_0021"
+  },
+  {
+    "text": "MOVE THE GATE FALSE AND FIRST THINK THEN TELL THE SUN WHAT OF ALL OR HAVE",
+    "length": 73,
+    "f_words": 9,
+    "has_verb": true,
+    "coverage": 1.0,
+    "score": 32.7,
+    "placeholders": [],
+    "id": "GRAMMAR_0022"
+  },
+  {
+    "text": "WHERE IS THE PLAN AND THE DOOR APPLY THE ROOM AND KEEP BEFORE THE KEY USE",
+    "length": 73,
+    "f_words": 8,
+    "has_verb": true,
+    "coverage": 0.9375,
+    "score": 31.15,
+    "placeholders": [],
+    "id": "GRAMMAR_0023"
+  },
+  {
+    "text": "IF PLAN THEN MAKE THE MOON WHERE IS THE DARK AND THE LINE MARK THEN TAKE",
+    "length": 72,
+    "f_words": 9,
+    "has_verb": true,
+    "coverage": 1.0,
+    "score": 32.7,
+    "placeholders": [],
+    "id": "GRAMMAR_0024"
+  },
+  {
+    "text": "GO THE PLAN WRONG IF DEATH THEN LOOK THE MAP WHAT THAT THAT THEN WILL ALL",
+    "length": 73,
+    "f_words": 10,
+    "has_verb": true,
+    "coverage": 1.0,
+    "score": 33.0,
+    "placeholders": [],
+    "id": "GRAMMAR_0025"
+  },
+  {
+    "text": "FIRST SEEK THEN REMEMBER THE LIGHT WHERE IS THE LOCK AND THE PLAN IF THE",
+    "length": 72,
+    "f_words": 9,
+    "has_verb": true,
+    "coverage": 1.0,
+    "score": 32.7,
+    "placeholders": [],
+    "id": "GRAMMAR_0026"
+  },
+  {
+    "text": "APPLY THE CODE AND REMEMBER TAKE THE PAGE DIM CAN THEN AN BUT HAVE AT WOULD",
+    "length": 75,
+    "f_words": 10,
+    "has_verb": true,
+    "coverage": 1.0,
+    "score": 33.0,
+    "placeholders": [],
+    "id": "GRAMMAR_0027"
+  },
+  {
+    "text": "IF YEAR THEN HOLD THE KEY AND KEEP [DIR1] AND SEE [DIR2] THERE OF FOR BUT",
+    "length": 73,
+    "f_words": 9,
+    "has_verb": true,
+    "coverage": 0.875,
+    "score": 30.2,
+    "placeholders": [
+      "[DIR1]",
+      "[DIR2]"
+    ],
+    "id": "GRAMMAR_0028"
+  },
+  {
+    "text": "APPLY THE ROOM AND KNOW. TAKE THE SIGN NEAR. AN OR IS THIS TWO A WAS IN",
+    "length": 71,
+    "f_words": 11,
+    "has_verb": true,
+    "coverage": 0.8823529411764706,
+    "score": 30.947058823529414,
+    "placeholders": [],
+    "id": "GRAMMAR_0029"
+  },
+  {
+    "text": "APPLY THE STAR AND TURN AND THE RULE IS [DIR1] OF THE PAGE ONE WITH OR",
+    "length": 70,
+    "f_words": 10,
+    "has_verb": true,
+    "coverage": 0.9375,
+    "score": 31.75,
+    "placeholders": [
+      "[DIR1]"
+    ],
+    "id": "GRAMMAR_0030"
+  },
+  {
+    "text": "APPLY THE LIE AND APPLY IF DEATH THEN LOOK THE LINE TURN NEW AND SET FAR",
+    "length": 72,
+    "f_words": 6,
+    "has_verb": true,
+    "coverage": 1.0,
+    "score": 31.8,
+    "placeholders": [],
+    "id": "GRAMMAR_0031"
+  },
+  {
+    "text": "WHEN HIGH KNOW THE DEATH FIRST TURN THEN GIVE THE SUN IF THE PLAN IS RIGHT",
+    "length": 74,
+    "f_words": 7,
+    "has_verb": true,
+    "coverage": 1.0,
+    "score": 32.1,
+    "placeholders": [],
+    "id": "GRAMMAR_0032"
+  },
+  {
+    "text": "SEEK BRIGHT AND MOVE LAST AND LOOK THE DAY HIGH AND IF THE WALL IS FAST",
+    "length": 71,
+    "f_words": 7,
+    "has_verb": true,
+    "coverage": 1.0,
+    "score": 32.1,
+    "placeholders": [],
+    "id": "GRAMMAR_0033"
+  },
+  {
+    "text": "CHECK THE LIGHT DIM APPLY THE GROUND AND SEND WHERE IS THE KEY AND THE ROOM",
+    "length": 75,
+    "f_words": 8,
+    "has_verb": true,
+    "coverage": 1.0,
+    "score": 32.4,
+    "placeholders": [],
+    "id": "GRAMMAR_0034"
+  },
+  {
+    "text": "WHEN DARK GO THE MARK AND FIND THE DOOR HARD AND MARK THE SUN WRONG SO",
+    "length": 70,
+    "f_words": 7,
+    "has_verb": true,
+    "coverage": 1.0,
+    "score": 32.1,
+    "placeholders": [],
+    "id": "GRAMMAR_0035"
+  },
+  {
+    "text": "WHAT BRING THE DARK NEW AND FIRST TELL THEN CHECK THE STEP AND WHEN FAR",
+    "length": 71,
+    "f_words": 7,
+    "has_verb": true,
+    "coverage": 1.0,
+    "score": 32.1,
+    "placeholders": [],
+    "id": "GRAMMAR_0036"
+  },
+  {
+    "text": "STOP THEN SEEK AND GO AND SET THE MAP TO LAST THAT IS AND TO OR BE AT WHAT",
+    "length": 74,
+    "f_words": 13,
+    "has_verb": true,
+    "coverage": 1.0,
+    "score": 33.9,
+    "placeholders": [],
+    "id": "GRAMMAR_0037"
+  },
+  {
+    "text": "IF LAW THEN GIVE THE SIGN MARK RIGHT AND STOP NEW CAN OF IN IS WILL TWO",
+    "length": 71,
+    "f_words": 10,
+    "has_verb": true,
+    "coverage": 1.0,
+    "score": 33.0,
+    "placeholders": [],
+    "id": "GRAMMAR_0038"
+  },
+  {
+    "text": "TURN THEN SET AND STEP AND APPLY THE PAGE AND SEEK AND WHAT KEEP THE LAW",
+    "length": 72,
+    "f_words": 8,
+    "has_verb": true,
+    "coverage": 1.0,
+    "score": 32.4,
+    "placeholders": [],
+    "id": "GRAMMAR_0039"
+  },
+  {
+    "text": "BRING THE TEXT AND USE THE STEP WHAT FORGET THE WALL NEXT SET THE LIE TO",
+    "length": 72,
+    "f_words": 7,
+    "has_verb": true,
+    "coverage": 1.0,
+    "score": 32.1,
+    "placeholders": [],
+    "id": "GRAMMAR_0040"
+  },
+  {
+    "text": "SET THE DARK TO FALSE AND MOVE THE HALL NEW AND FIRST UNDERSTAND THEN THINK",
+    "length": 75,
+    "f_words": 6,
+    "has_verb": true,
+    "coverage": 1.0,
+    "score": 31.8,
+    "placeholders": [],
+    "id": "GRAMMAR_0041"
+  },
+  {
+    "text": "STEP THE MARK AND TELL THE LIFE WHERE IS THE CODE AND THE LINE THE ROOM IS",
+    "length": 74,
+    "f_words": 10,
+    "has_verb": true,
+    "coverage": 1.0,
+    "score": 33.0,
+    "placeholders": [],
+    "id": "GRAMMAR_0042"
+  },
+  {
+    "text": "APPLY THE RULE AND KNOW. WHERE IS THE TIME AND THE STAR. FROM BEEN BE THEN",
+    "length": 74,
+    "f_words": 11,
+    "has_verb": true,
+    "coverage": 0.875,
+    "score": 30.8,
+    "placeholders": [],
+    "id": "GRAMMAR_0043"
+  },
+  {
+    "text": "APPLY THE BOOK AND TAKE AND IF WAY THEN TAKE THE LIFE WHEN THEIR THEN BEEN",
+    "length": 74,
+    "f_words": 10,
+    "has_verb": true,
+    "coverage": 1.0,
+    "score": 33.0,
+    "placeholders": [],
+    "id": "GRAMMAR_0044"
+  },
+  {
+    "text": "WHERE IS THE KEY AND THE LIFE AND KEEP THE LIGHT HARD AND LOOK THE WAY BAD",
+    "length": 74,
+    "f_words": 9,
+    "has_verb": true,
+    "coverage": 1.0,
+    "score": 32.7,
+    "placeholders": [],
+    "id": "GRAMMAR_0045"
+  },
+  {
+    "text": "POINT THE MARK AND READ THE COURSE WHERE IS THE MARK AND THE HALL FIND THE",
+    "length": 74,
+    "f_words": 9,
+    "has_verb": true,
+    "coverage": 1.0,
+    "score": 32.7,
+    "placeholders": [],
+    "id": "GRAMMAR_0046"
+  },
+  {
+    "text": "BRING THE LIFE AND WATCH THE KEY. SET THE MARK TO BRIGHT. WHERE IS THE PLAN",
+    "length": 75,
+    "f_words": 8,
+    "has_verb": true,
+    "coverage": 0.875,
+    "score": 29.9,
+    "placeholders": [],
+    "id": "GRAMMAR_0047"
+  },
+  {
+    "text": "IF GATE THEN READ THE RULE. WHEN LOW READ THE PATH. THERE WILL WILL IN",
+    "length": 70,
+    "f_words": 9,
+    "has_verb": true,
+    "coverage": 0.8666666666666667,
+    "score": 30.033333333333335,
+    "placeholders": [],
+    "id": "GRAMMAR_0048"
+  },
+  {
+    "text": "MARK OLD AND MOVE LOW AND FIRST KEEP THEN PUT THE YEAR AND WHERE IS THE",
+    "length": 71,
+    "f_words": 8,
+    "has_verb": true,
+    "coverage": 1.0,
+    "score": 32.4,
+    "placeholders": [],
+    "id": "GRAMMAR_0049"
+  }
+]
