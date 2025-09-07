@@ -1,0 +1,10 @@
+{
+  "total": 50,
+  "generated": 50,
+  "pass_pre": 0,
+  "pass_post": 0,
+  "collisions": 0,
+  "has_true": 19,
+  "avg_f_words_pre": 4.3,
+  "avg_f_words_post": 3.4
+}

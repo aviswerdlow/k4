@@ -1,0 +1,545 @@
+{
+  "pre_reg_commit": "d0b03f4",
+  "master_seed": 1337,
+  "ct_sha": "eea813570c7f1fd3b34674e47b5c3da8948026f5cefee612a0b38ffaa515ceab",
+  "policy_sha": "bc083cc4129fedbc",
+  "total_candidates": 67,
+  "candidates": [
+    {
+      "label": "HEAD_0005_v522B",
+      "seed": 1842796546,
+      "delta_windowed_avg": 0.10247929306950844,
+      "delta_shuffled_avg": 0.18000321107475462,
+      "orbit_tie_fraction": 0.11758938791778219,
+      "micro_repairs": 0
+    },
+    {
+      "label": "HEAD_0011_v522B",
+      "seed": 4244259645,
+      "delta_windowed_avg": 0.07025934084525194,
+      "delta_shuffled_avg": 0.18492420422519928,
+      "orbit_tie_fraction": 0.10396711995880938,
+      "micro_repairs": 0
+    },
+    {
+      "label": "HEAD_0012_v522B",
+      "seed": 4234165210,
+      "delta_windowed_avg": 0.09573529625551182,
+      "delta_shuffled_avg": 0.22459821394029122,
+      "orbit_tie_fraction": 0.1471697124140187,
+      "micro_repairs": 0
+    },
+    {
+      "label": "HEAD_0014_v522B",
+      "seed": 3404111241,
+      "delta_windowed_avg": 0.12252770276246769,
+      "delta_shuffled_avg": 0.14288976507741366,
+      "orbit_tie_fraction": 0.06199866427228886,
+      "micro_repairs": 0
+    },
+    {
+      "label": "HEAD_0020_v522B",
+      "seed": 2772336211,
+      "delta_windowed_avg": 0.09475174771589451,
+      "delta_shuffled_avg": 0.16261459321170507,
+      "orbit_tie_fraction": 0.041068983351103004,
+      "micro_repairs": 0
+    },
+    {
+      "label": "HEAD_0021_v522B",
+      "seed": 3521722,
+      "delta_windowed_avg": 0.07834880470300455,
+      "delta_shuffled_avg": 0.17645004045049495,
+      "orbit_tie_fraction": 0.0070344674549796754,
+      "micro_repairs": 0
+    },
+    {
+      "label": "HEAD_0022_v522B",
+      "seed": 4088173419,
+      "delta_windowed_avg": 0.09896699219620518,
+      "delta_shuffled_avg": 0.15822442761947614,
+      "orbit_tie_fraction": 0.0031114139256663066,
+      "micro_repairs": 0
+    },
+    {
+      "label": "HEAD_0024_v522B",
+      "seed": 2086410434,
+      "delta_windowed_avg": 0.12544222744284902,
+      "delta_shuffled_avg": 0.2130037975290867,
+      "orbit_tie_fraction": 0.011533601495768474,
+      "micro_repairs": 0
+    },
+    {
+      "label": "HEAD_0027_v522B",
+      "seed": 3191027765,
+      "delta_windowed_avg": 0.1028153225924449,
+      "delta_shuffled_avg": 0.1915317500880131,
+      "orbit_tie_fraction": 0.0486098275884572,
+      "micro_repairs": 0
+    },
+    {
+      "label": "HEAD_0030_v522B",
+      "seed": 1691904964,
+      "delta_windowed_avg": 0.07592677573990786,
+      "delta_shuffled_avg": 0.13754723863071938,
+      "orbit_tie_fraction": 0.0503160686042149,
+      "micro_repairs": 0
+    },
+    {
+      "label": "HEAD_0032_v522B",
+      "seed": 3194825915,
+      "delta_windowed_avg": 0.12386423252491088,
+      "delta_shuffled_avg": 0.19439930839491204,
+      "orbit_tie_fraction": 0.028078007229606173,
+      "micro_repairs": 0
+    },
+    {
+      "label": "HEAD_0033_v522B",
+      "seed": 1029823139,
+      "delta_windowed_avg": 0.09408198848739355,
+      "delta_shuffled_avg": 0.18960101353117703,
+      "orbit_tie_fraction": 0.0674630846743769,
+      "micro_repairs": 0
+    },
+    {
+      "label": "HEAD_0035_v522B",
+      "seed": 4243509088,
+      "delta_windowed_avg": 0.1262730387482049,
+      "delta_shuffled_avg": 0.17062140732819064,
+      "orbit_tie_fraction": 0.12828426796551728,
+      "micro_repairs": 0
+    },
+    {
+      "label": "HEAD_0037_v522B",
+      "seed": 1280852225,
+      "delta_windowed_avg": 0.1077078424606076,
+      "delta_shuffled_avg": 0.17856057701613345,
+      "orbit_tie_fraction": 0.12628202766617527,
+      "micro_repairs": 0
+    },
+    {
+      "label": "HEAD_0038_v522B",
+      "seed": 1028467669,
+      "delta_windowed_avg": 0.12858757373099716,
+      "delta_shuffled_avg": 0.177536584469118,
+      "orbit_tie_fraction": 0.07887862790510443,
+      "micro_repairs": 0
+    },
+    {
+      "label": "HEAD_0040_v522B",
+      "seed": 3907479766,
+      "delta_windowed_avg": 0.1304538472539783,
+      "delta_shuffled_avg": 0.14533747086605037,
+      "orbit_tie_fraction": 0.08494105952150853,
+      "micro_repairs": 0
+    },
+    {
+      "label": "HEAD_0041_v522B",
+      "seed": 1108044703,
+      "delta_windowed_avg": 0.05831830328323111,
+      "delta_shuffled_avg": 0.20413047264620612,
+      "orbit_tie_fraction": 0.13971184882480955,
+      "micro_repairs": 0
+    },
+    {
+      "label": "HEAD_0045_v522B",
+      "seed": 1321940163,
+      "delta_windowed_avg": 0.10803107849515223,
+      "delta_shuffled_avg": 0.18502079782887595,
+      "orbit_tie_fraction": 0.12582326916488293,
+      "micro_repairs": 0
+    },
+    {
+      "label": "HEAD_0046_v522B",
+      "seed": 1897834182,
+      "delta_windowed_avg": 0.11459627251334935,
+      "delta_shuffled_avg": 0.12673504705743366,
+      "orbit_tie_fraction": 0.004235896787743898,
+      "micro_repairs": 0
+    },
+    {
+      "label": "HEAD_0047_v522B",
+      "seed": 2137331215,
+      "delta_windowed_avg": 0.07961053141745814,
+      "delta_shuffled_avg": 0.14035659401351608,
+      "orbit_tie_fraction": 0.12782042322100903,
+      "micro_repairs": 0
+    },
+    {
+      "label": "HEAD_0048_v522B",
+      "seed": 2138938822,
+      "delta_windowed_avg": 0.07971031922056107,
+      "delta_shuffled_avg": 0.12830742964105052,
+      "orbit_tie_fraction": 0.01459402616012435,
+      "micro_repairs": 0
+    },
+    {
+      "label": "HEAD_0052_v522B",
+      "seed": 4120854369,
+      "delta_windowed_avg": 0.07065079523843817,
+      "delta_shuffled_avg": 0.15850147749326282,
+      "orbit_tie_fraction": 0.055171721810640215,
+      "micro_repairs": 0
+    },
+    {
+      "label": "HEAD_0053_v522B",
+      "seed": 3665437950,
+      "delta_windowed_avg": 0.0905789446206629,
+      "delta_shuffled_avg": 0.17039483157429003,
+      "orbit_tie_fraction": 0.04188029070454972,
+      "micro_repairs": 0
+    },
+    {
+      "label": "HEAD_0054_v522B",
+      "seed": 3340302818,
+      "delta_windowed_avg": 0.07720772209613433,
+      "delta_shuffled_avg": 0.19480041872323423,
+      "orbit_tie_fraction": 0.009312858854341199,
+      "micro_repairs": 0
+    },
+    {
+      "label": "HEAD_0055_v522B",
+      "seed": 1496370133,
+      "delta_windowed_avg": 0.12409374871290874,
+      "delta_shuffled_avg": 0.19902915485072858,
+      "orbit_tie_fraction": 0.08322395795090794,
+      "micro_repairs": 0
+    },
+    {
+      "label": "HEAD_0057_v522B",
+      "seed": 2039933658,
+      "delta_windowed_avg": 0.10809057339527915,
+      "delta_shuffled_avg": 0.18014365758375459,
+      "orbit_tie_fraction": 0.04880015642345827,
+      "micro_repairs": 0
+    },
+    {
+      "label": "HEAD_0065_v522B",
+      "seed": 353511763,
+      "delta_windowed_avg": 0.08397318428113909,
+      "delta_shuffled_avg": 0.18884897028775793,
+      "orbit_tie_fraction": 0.050963188188228335,
+      "micro_repairs": 0
+    },
+    {
+      "label": "HEAD_0068_v522B",
+      "seed": 2553888500,
+      "delta_windowed_avg": 0.12584723195892655,
+      "delta_shuffled_avg": 0.14683324463919611,
+      "orbit_tie_fraction": 0.10527210071922627,
+      "micro_repairs": 0
+    },
+    {
+      "label": "HEAD_0074_v522B",
+      "seed": 3837192193,
+      "delta_windowed_avg": 0.058461120340900674,
+      "delta_shuffled_avg": 0.23679694925805128,
+      "orbit_tie_fraction": 0.12198304148806409,
+      "micro_repairs": 0
+    },
+    {
+      "label": "HEAD_0079_v522B",
+      "seed": 1731809798,
+      "delta_windowed_avg": 0.08713788637263782,
+      "delta_shuffled_avg": 0.2007013853258211,
+      "orbit_tie_fraction": 0.02194062132784146,
+      "micro_repairs": 0
+    },
+    {
+      "label": "HEAD_0080_v522B",
+      "seed": 308612564,
+      "delta_windowed_avg": 0.10418751984156999,
+      "delta_shuffled_avg": 0.1872117212502337,
+      "orbit_tie_fraction": 0.14706832157493288,
+      "micro_repairs": 0
+    },
+    {
+      "label": "HEAD_0083_v522B",
+      "seed": 1987739637,
+      "delta_windowed_avg": 0.1020519009633405,
+      "delta_shuffled_avg": 0.18195174412606974,
+      "orbit_tie_fraction": 0.01904237121454102,
+      "micro_repairs": 0
+    },
+    {
+      "label": "HEAD_0087_v522B",
+      "seed": 4006781667,
+      "delta_windowed_avg": 0.1007643968213298,
+      "delta_shuffled_avg": 0.18692414678885608,
+      "orbit_tie_fraction": 0.06573098458047107,
+      "micro_repairs": 0
+    },
+    {
+      "label": "HEAD_0090_v522B",
+      "seed": 283081589,
+      "delta_windowed_avg": 0.08976432032299173,
+      "delta_shuffled_avg": 0.20292011638852275,
+      "orbit_tie_fraction": 0.08522086986556199,
+      "micro_repairs": 0
+    },
+    {
+      "label": "HEAD_0091_v522B",
+      "seed": 2126966641,
+      "delta_windowed_avg": 0.0815907006855146,
+      "delta_shuffled_avg": 0.21746655864219566,
+      "orbit_tie_fraction": 0.009230637472180824,
+      "micro_repairs": 0
+    },
+    {
+      "label": "HEAD_0093_v522B",
+      "seed": 863761382,
+      "delta_windowed_avg": 0.07758711652782412,
+      "delta_shuffled_avg": 0.22474052209762846,
+      "orbit_tie_fraction": 0.03169130450028916,
+      "micro_repairs": 0
+    },
+    {
+      "label": "HEAD_0098_v522B",
+      "seed": 1518513142,
+      "delta_windowed_avg": 0.11817952535820236,
+      "delta_shuffled_avg": 0.13843739070368227,
+      "orbit_tie_fraction": 0.026089309324021415,
+      "micro_repairs": 0
+    },
+    {
+      "label": "HEAD_0099_v522B",
+      "seed": 892231017,
+      "delta_windowed_avg": 0.10244522823272187,
+      "delta_shuffled_avg": 0.16005422236293276,
+      "orbit_tie_fraction": 0.04431622120912577,
+      "micro_repairs": 0
+    },
+    {
+      "label": "HEAD_0100_v522B",
+      "seed": 2141588929,
+      "delta_windowed_avg": 0.06815122925064462,
+      "delta_shuffled_avg": 0.19123204017241405,
+      "orbit_tie_fraction": 0.11797859983036006,
+      "micro_repairs": 0
+    },
+    {
+      "label": "HEAD_0102_v522B",
+      "seed": 1722981070,
+      "delta_windowed_avg": 0.12333105862034124,
+      "delta_shuffled_avg": 0.221720993109773,
+      "orbit_tie_fraction": 0.04108294736816197,
+      "micro_repairs": 0
+    },
+    {
+      "label": "HEAD_0103_v522B",
+      "seed": 296049131,
+      "delta_windowed_avg": 0.06837011457264575,
+      "delta_shuffled_avg": 0.1561917743569432,
+      "orbit_tie_fraction": 0.12230701405078213,
+      "micro_repairs": 0
+    },
+    {
+      "label": "HEAD_0106_v522B",
+      "seed": 3976630990,
+      "delta_windowed_avg": 0.09696620139754185,
+      "delta_shuffled_avg": 0.14964332170569153,
+      "orbit_tie_fraction": 0.05023600541255411,
+      "micro_repairs": 0
+    },
+    {
+      "label": "HEAD_0107_v522B",
+      "seed": 1906486718,
+      "delta_windowed_avg": 0.13572351633475138,
+      "delta_shuffled_avg": 0.1551818150777589,
+      "orbit_tie_fraction": 0.04601330067668976,
+      "micro_repairs": 0
+    },
+    {
+      "label": "HEAD_0108_v522B",
+      "seed": 1160270834,
+      "delta_windowed_avg": 0.07887418529560969,
+      "delta_shuffled_avg": 0.1722167367077649,
+      "orbit_tie_fraction": 0.05278672698443084,
+      "micro_repairs": 0
+    },
+    {
+      "label": "HEAD_0110_v522B",
+      "seed": 416953823,
+      "delta_windowed_avg": 0.09130757554390516,
+      "delta_shuffled_avg": 0.20891471359897748,
+      "orbit_tie_fraction": 0.0007331404240062622,
+      "micro_repairs": 0
+    },
+    {
+      "label": "HEAD_0111_v522B",
+      "seed": 3416757102,
+      "delta_windowed_avg": 0.11358679567953103,
+      "delta_shuffled_avg": 0.1957400501620328,
+      "orbit_tie_fraction": 0.0862543998666596,
+      "micro_repairs": 0
+    },
+    {
+      "label": "HEAD_0114_v522B",
+      "seed": 3309679917,
+      "delta_windowed_avg": 0.10579379880734671,
+      "delta_shuffled_avg": 0.1812648179601724,
+      "orbit_tie_fraction": 0.029617425549680474,
+      "micro_repairs": 0
+    },
+    {
+      "label": "HEAD_0117_v522B",
+      "seed": 4263857672,
+      "delta_windowed_avg": 0.14548606385080814,
+      "delta_shuffled_avg": 0.1800658827616392,
+      "orbit_tie_fraction": 0.08579846921845442,
+      "micro_repairs": 0
+    },
+    {
+      "label": "HEAD_0118_v522B",
+      "seed": 1478982505,
+      "delta_windowed_avg": 0.08107619347223644,
+      "delta_shuffled_avg": 0.16399848686027282,
+      "orbit_tie_fraction": 0.06882625751426114,
+      "micro_repairs": 0
+    },
+    {
+      "label": "HEAD_0119_v522B",
+      "seed": 3416436917,
+      "delta_windowed_avg": 0.07132214517723501,
+      "delta_shuffled_avg": 0.18452754488950868,
+      "orbit_tie_fraction": 0.011346019772300852,
+      "micro_repairs": 0
+    },
+    {
+      "label": "HEAD_0123_v522B",
+      "seed": 73899490,
+      "delta_windowed_avg": 0.1390589820205244,
+      "delta_shuffled_avg": 0.1346315540681955,
+      "orbit_tie_fraction": 0.0146137934114686,
+      "micro_repairs": 0
+    },
+    {
+      "label": "HEAD_0125_v522B",
+      "seed": 2496337403,
+      "delta_windowed_avg": 0.12517898188360477,
+      "delta_shuffled_avg": 0.1907335888744099,
+      "orbit_tie_fraction": 0.04663456479782123,
+      "micro_repairs": 0
+    },
+    {
+      "label": "HEAD_0129_v522B",
+      "seed": 194722650,
+      "delta_windowed_avg": 0.11082820013940195,
+      "delta_shuffled_avg": 0.16506233530231149,
+      "orbit_tie_fraction": 0.10886777031820251,
+      "micro_repairs": 0
+    },
+    {
+      "label": "HEAD_0140_v522B",
+      "seed": 3170199537,
+      "delta_windowed_avg": 0.11093339351858517,
+      "delta_shuffled_avg": 0.15494992952639197,
+      "orbit_tie_fraction": 0.1045509188453646,
+      "micro_repairs": 0
+    },
+    {
+      "label": "HEAD_0142_v522B",
+      "seed": 2802923530,
+      "delta_windowed_avg": 0.1426717682460632,
+      "delta_shuffled_avg": 0.20146575235790426,
+      "orbit_tie_fraction": 0.08281404812079304,
+      "micro_repairs": 0
+    },
+    {
+      "label": "HEAD_0149_v522B",
+      "seed": 970463220,
+      "delta_windowed_avg": 0.08566786155427085,
+      "delta_shuffled_avg": 0.21469245066788523,
+      "orbit_tie_fraction": 0.011117005123581547,
+      "micro_repairs": 0
+    },
+    {
+      "label": "HEAD_0153_v522B",
+      "seed": 1856630119,
+      "delta_windowed_avg": 0.06835900208308705,
+      "delta_shuffled_avg": 0.2025415372190424,
+      "orbit_tie_fraction": 0.14067639525593478,
+      "micro_repairs": 0
+    },
+    {
+      "label": "HEAD_0155_v522B",
+      "seed": 1085873613,
+      "delta_windowed_avg": 0.11429061910117826,
+      "delta_shuffled_avg": 0.1874344892018887,
+      "orbit_tie_fraction": 0.025889927187358896,
+      "micro_repairs": 0
+    },
+    {
+      "label": "HEAD_0180_v522B",
+      "seed": 3534364452,
+      "delta_windowed_avg": 0.07552118610195159,
+      "delta_shuffled_avg": 0.2266932807743794,
+      "orbit_tie_fraction": 0.0769346504795139,
+      "micro_repairs": 0
+    },
+    {
+      "label": "HEAD_0181_v522B",
+      "seed": 4063542572,
+      "delta_windowed_avg": 0.07808167666837794,
+      "delta_shuffled_avg": 0.17783780191095447,
+      "orbit_tie_fraction": 0.0368115399806182,
+      "micro_repairs": 0
+    },
+    {
+      "label": "HEAD_0183_v522B",
+      "seed": 1966097199,
+      "delta_windowed_avg": 0.07592301255865525,
+      "delta_shuffled_avg": 0.18459339479287004,
+      "orbit_tie_fraction": 0.10999571666060999,
+      "micro_repairs": 0
+    },
+    {
+      "label": "HEAD_0184_v522B",
+      "seed": 1692720272,
+      "delta_windowed_avg": 0.10009514261244394,
+      "delta_shuffled_avg": 0.18090608489215626,
+      "orbit_tie_fraction": 0.07524539278835495,
+      "micro_repairs": 0
+    },
+    {
+      "label": "HEAD_0187_v522B",
+      "seed": 339941240,
+      "delta_windowed_avg": 0.11827652817306512,
+      "delta_shuffled_avg": 0.1640778251895097,
+      "orbit_tie_fraction": 0.011469811725248812,
+      "micro_repairs": 0
+    },
+    {
+      "label": "HEAD_0188_v522B",
+      "seed": 3765111579,
+      "delta_windowed_avg": 0.14777045587413853,
+      "delta_shuffled_avg": 0.19360470183342793,
+      "orbit_tie_fraction": 0.10320758476720536,
+      "micro_repairs": 0
+    },
+    {
+      "label": "HEAD_0195_v522B",
+      "seed": 2803121072,
+      "delta_windowed_avg": 0.10824537298357766,
+      "delta_shuffled_avg": 0.21049167969909247,
+      "orbit_tie_fraction": 0.14643585283543104,
+      "micro_repairs": 0
+    },
+    {
+      "label": "HEAD_0196_v522B",
+      "seed": 1904296596,
+      "delta_windowed_avg": 0.12269859713012528,
+      "delta_shuffled_avg": 0.2245105631126908,
+      "orbit_tie_fraction": 0.1236798845303721,
+      "micro_repairs": 0
+    },
+    {
+      "label": "HEAD_0198_v522B",
+      "seed": 826537356,
+      "delta_windowed_avg": 0.10574107955654397,
+      "delta_shuffled_avg": 0.188136289956103,
+      "orbit_tie_fraction": 0.14280711684378875,
+      "micro_repairs": 0
+    }
+  ]
+}

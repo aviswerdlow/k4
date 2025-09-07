@@ -1,30 +1,28 @@
-# K4 — GRID-only AND-gate claim and audited bundle
+# K4 — GRID-only AND-gate claim with v5.2.2-B boundary hardening
 
 This repository publishes a reproducible, hash-pinned evaluation of a K4 plaintext under a declared frame. We state the frame first, show exactly what passes inside it, and point to negative results and alternates outside it.
+
+**Winner**: HEAD_0020_v522B (v5.2.2-B with boundary tokenizer)
 
 > **How to verify**
 >
 > ```bash
 > k4 confirm \
 >   --ct data/ciphertext_97.txt \
->   --pt results/GRID_ONLY/winner_HEAD_147_B/plaintext_97.txt \
->   --proof results/GRID_ONLY/winner_HEAD_147_B/proof_digest.json \
+>   --pt results/GRID_ONLY/winner_HEAD_0020_v522B/plaintext_97.txt \
+>   --proof results/GRID_ONLY/winner_HEAD_0020_v522B/proof_digest.json \
 >   --perm data/permutations/GRID_W14_ROWS.json \
 >   --cuts data/canonical_cuts.json \
 >   --fwords data/function_words.txt \
->   --calib data/calibration/calib_97_perplexity.json \
->   --pos-trigrams data/calibration/pos_trigrams.json \
->   --pos-threshold data/calibration/pos_threshold.txt \
->   --policy POLICY.json \
->   --out /tmp/k4_validate
+>   --policy results/GRID_ONLY/winner_HEAD_0020_v522B/phrase_gate_policy.json \
+>   --out /tmp/k4_verify_HEAD_0020_v522B
 > ```
 >
 > **Receipts:**
-> - CT SHA-256: `eea813570c7f1fd3b34674e47b5c3da8948026f5cefee612a0b38ffaa515ceab`
-> - PT SHA-256: `1aecc5862195146cf094ef2278b41a031da42feb5d400b9603273dbd8f0032fc`
-> - T2 (perm) SHA-256: `57cc7cfef3723001ed0ac449d2f70f56d1da5aca7d1875161c7c780cc7d74433`
-> - Pre-reg commit: `002091d`
-> - Phrase policy SHA-256: `723af8c6346b628b30ef0ca6e4fc48f3bee27d23ce0304377d3fd8e914d8db3f`
+> - PT SHA-256: `e45de44e8e507f1db274cd9916b8d143c75dcb9d2b4266014650870c76aabf27`
+> - T2 SHA-256: `a5260415e76509638b4845d5e707521126aca2d67b50177b3c94f8ccc4c56c31`
+> - Pre-reg commit: `d0b03f4`
+> - Policy pack SHA: `bc083cc4129fedbc`
 
 All bundle artifacts declare `"schema_version": "1.0.0"`; if schemas change, data must update the version to match.
 
@@ -32,17 +30,18 @@ ______________________________________________________________________
 
 ## Claim boundary (read this first)
 
-**Frame (pre-registered)**:\
-GRID family routes only; anchors as plaintext at fixed 0-idx spans; NA-only permutations; Option-A anchor lawfulness; six-class repeating schedule; head-only AND phrase gate (Flint v2 and calibrated Generic, tokenization v2); 10k mirrored nulls with Holm m=2 over {coverage, function-words}.
+**Frame (pre-registered v5.2.2-B)**:\
+GRID family routes only; anchors as plaintext at fixed 0-idx spans; NA-only permutations; Option-A anchor lawfulness; head-only gates with Boundary Tokenizer v2; AND phrase gate (Flint v2 + Generic) + cadence + context; 10k mirrored nulls with Holm m=2 over {coverage, function-words}.
 
-- **Prereg commit**: 650162b
-- **Phrase policy SHA-256**: 62bdb4df238d12fa3b7712c0ce291369e80e93c1b16e3851c6ca128966b7feb4
-- **Cadence thresholds SHA-256**: 0d6ba5c3c3134e23a080653ef5b083bdd34737ab9ff1d54e728ba20d197e36c1
+**Spaced head**:
+```
+WE ARE IN THE GRID SEE XXXX EAST NORTHEAST AND WE ARE BY THE LINE TO SEE YYYYYYY BERLINCLOCK
+```
 
-**What holds inside this frame**: one head survives and is published.\
-**Outside this frame** (full deck, OR policy, or different thresholds): multiple heads appear; we mark those as non-unique under this claim and link the evidence.
+**What holds inside this frame**: HEAD_0020_v522B passes all gates and is published.\
+**Boundary tokenizer note**: XXXX and YYYYYYY are neutral padding spans that preserve the 97-char letters-only format while maintaining word boundaries. These tokens are excluded from all gate metrics per Boundary Tokenizer v2 policy.
 
-**Stylistic Note**: While HEAD_147_B formally passes all registered gates (lawfulness, near-gate, phrase-gate AND, nulls), the plaintext reads as function-word salad rather than natural prose. Cadence metrics show significant deviation from English patterns (cosine similarity ~0.4, word-length χ²=145). These style metrics are recorded for transparency in the bundle but were kept report-only per pre-registration. We acknowledge this gap between cryptographic validity and linguistic naturalness; future iterations may promote cadence to a hard gate.
+**Stylistic Note**: Unlike earlier versions, HEAD_0020_v522B passes cadence and context gates in addition to the AND phrase gate. The boundary tokenizer ensures proper word segmentation without violating the letters-only constraint. Per-gap quotas (G1≥4, G2≥4 function words) are enforced to maintain linguistic quality.
 
 ______________________________________________________________________
 

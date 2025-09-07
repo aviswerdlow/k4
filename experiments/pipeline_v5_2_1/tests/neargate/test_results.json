@@ -1,0 +1,59 @@
+{
+  "test_suite": "near_gate_fwords",
+  "function_words": [
+    "AND",
+    "ARE",
+    "AT",
+    "BY",
+    "HERE",
+    "IN",
+    "IS",
+    "OF",
+    "THE",
+    "THEN",
+    "THERE",
+    "TO",
+    "WAS",
+    "WE",
+    "WITH"
+  ],
+  "all_tests_passed": true,
+  "results": [
+    {
+      "id": "TC001",
+      "description": "Basic function-rich sentence",
+      "text": "SET THE LINE TO THE TRUE MERIDIAN AND THEN READ THE DIAL AT THE STATION",
+      "expected_f_words": 8,
+      "actual_f_words": 8,
+      "expected_length": 71,
+      "actual_length": 71,
+      "f_word_pass": true,
+      "length_pass": true,
+      "overall_pass": true
+    },
+    {
+      "id": "TC002",
+      "description": "Content-heavy with THEN",
+      "text": "FOLLOW THE DIAL TOWARD THE MERIDIAN THEN READ THE COURSE AND READ",
+      "expected_f_words": 5,
+      "actual_f_words": 5,
+      "expected_length": 65,
+      "actual_length": 65,
+      "f_word_pass": true,
+      "length_pass": true,
+      "overall_pass": true
+    },
+    {
+      "id": "TC003",
+      "description": "Edge case at 74 chars exactly",
+      "text": "APPLY DECLINATION TO THE BEARING AND THEN READ THE DIAL IN THE FIELDBOOK",
+      "expected_f_words": 7,
+      "actual_f_words": 7,
+      "expected_length": 72,
+      "actual_length": 72,
+      "f_word_pass": true,
+      "length_pass": true,
+      "overall_pass": true
+    }
+  ]
+}

@@ -1,0 +1,24 @@
+{
+  "route_id": "GRID_v522B_HEAD_0020_v522B",
+  "t2_sha": "a5260415e76509638b4845d5e707521126aca2d67b50177b3c94f8ccc4c56c31",
+  "option_a": {
+    "EAST": [
+      21,
+      24
+    ],
+    "NORTHEAST": [
+      25,
+      33
+    ],
+    "BERLINCLOCK": [
+      63,
+      73
+    ]
+  },
+  "seeds": {
+    "master": 1337,
+    "head": 2772336211
+  },
+  "pre_reg_commit": "d0b03f4",
+  "policy_sha": "bc083cc4129fedbc"
+}

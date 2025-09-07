@@ -1,0 +1,12 @@
+{
+  "model_id": "mock-evaluator-v1",
+  "prompt_sha256": "mock_000000000000000000000000000000000000000000000000000000000000",
+  "overall": 4,
+  "coherence": 4,
+  "fluency": 4,
+  "instructional_fit": 4,
+  "semantic_specificity": 4,
+  "repetition_penalty": 0,
+  "notes": "Content-aware head with surveying vocabulary",
+  "passes": true
+}

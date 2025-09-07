@@ -2,7 +2,7 @@
 
 **Version**: 5.2.2-B  
 **Date**: 2025-01-07  
-**Commit**: [TO BE FILLED AFTER COMMIT]  
+**Commit**: d0b03f4  
 **Status**: Pre-registered
 
 ## Executive Summary

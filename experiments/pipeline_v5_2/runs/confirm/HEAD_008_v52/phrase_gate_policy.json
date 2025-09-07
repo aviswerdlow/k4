@@ -1,0 +1,8 @@
+{
+  "version": "5.2",
+  "tracks": [
+    "flint_v2",
+    "generic"
+  ],
+  "combine": "AND"
+}

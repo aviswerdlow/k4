@@ -1,0 +1,14 @@
+{
+  "canonical_cuts": [
+    {
+      "start": 0,
+      "end": 74,
+      "type": "head"
+    },
+    {
+      "start": 74,
+      "end": 97,
+      "type": "seam"
+    }
+  ]
+}

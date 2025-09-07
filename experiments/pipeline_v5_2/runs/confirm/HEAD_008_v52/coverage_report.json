@@ -1,0 +1,21 @@
+{
+  "rails": {
+    "routes": "GRID-only",
+    "permutations": "NA-only",
+    "lawfulness": "Option-A",
+    "head_window": [
+      0,
+      74
+    ],
+    "tokenization": "v2"
+  },
+  "encrypts_to_ct": true,
+  "gates_passed": {
+    "lawfulness": true,
+    "near_gate": true,
+    "phrase_gate": true,
+    "cadence": true,
+    "context": true,
+    "nulls": true
+  }
+}

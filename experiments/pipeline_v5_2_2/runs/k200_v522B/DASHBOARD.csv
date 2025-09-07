@@ -1,0 +1,10 @@
+Stage,Count,Percentage
+generated,200,100.0%
+pass_neargate,200,100.0%
+pass_deltas,200,100.0%
+pass_phrase,166,83.0%
+pass_cadence,142,71.0%
+pass_context,154,77.0%
+orbit_isolated,92,46.0%
+fast_nulls_pass,147,73.5%
+promoted,67,33.5%

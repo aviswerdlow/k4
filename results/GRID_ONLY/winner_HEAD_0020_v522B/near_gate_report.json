@@ -1,0 +1,18 @@
+{
+  "label": "HEAD_0020_v522B",
+  "coverage": 0.8928818424577059,
+  "f_words_total": 10,
+  "f_words_g1": 4,
+  "f_words_g2": 6,
+  "verbs_total": 2,
+  "verbs_g1": 1,
+  "verbs_g2": 1,
+  "passes": true,
+  "requirements": {
+    "coverage": 0.85,
+    "f_words_total": 8,
+    "verbs_total": 2,
+    "f_words_g1": 4,
+    "f_words_g2": 4
+  }
+}

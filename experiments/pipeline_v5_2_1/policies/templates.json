@@ -1,0 +1,116 @@
+{
+  "templates": [
+    {
+      "id": "T001",
+      "pattern": "SET THE LINE TO THE TRUE MERIDIAN AND THEN READ THE DIAL",
+      "f_words": 8,
+      "structure": "VERB THE NOUN TO THE ADJ NOUN AND THEN VERB THE NOUN",
+      "category": "declination_true"
+    },
+    {
+      "id": "T002", 
+      "pattern": "FOLLOW THE GRID TO THE STATION AND THEN READ THE COURSE",
+      "f_words": 8,
+      "structure": "VERB THE NOUN TO THE NOUN AND THEN VERB THE NOUN",
+      "category": "navigation"
+    },
+    {
+      "id": "T003",
+      "pattern": "APPLY DECLINATION TO THE BEARING AND THEN READ THE DIAL",
+      "f_words": 6,
+      "structure": "VERB NOUN TO THE NOUN AND THEN VERB THE NOUN",
+      "category": "declination"
+    },
+    {
+      "id": "T004",
+      "pattern": "READ THE DIAL AND THEN NOTE THE ANGLE IN THE FIELD",
+      "f_words": 8,
+      "structure": "VERB THE NOUN AND THEN VERB THE NOUN IN THE NOUN",
+      "category": "observation"
+    },
+    {
+      "id": "T005",
+      "pattern": "SIGHT THE MARK AND THEN READ THE LINE TO THE TRUE MERIDIAN",
+      "f_words": 9,
+      "structure": "VERB THE NOUN AND THEN VERB THE NOUN TO THE ADJ NOUN",
+      "category": "sighting_true"
+    },
+    {
+      "id": "T006",
+      "pattern": "BRING THE COURSE TO THE TRUE MERIDIAN AND THEN READ THE DIAL",
+      "f_words": 9,
+      "structure": "VERB THE NOUN TO THE ADJ NOUN AND THEN VERB THE NOUN",
+      "category": "course_true"
+    },
+    {
+      "id": "T007",
+      "pattern": "REDUCE THE BEARING TO THE TRUE MERIDIAN AND THEN READ THE COURSE",
+      "f_words": 9,
+      "structure": "VERB THE NOUN TO THE ADJ NOUN AND THEN VERB THE NOUN",
+      "category": "bearing_true"
+    },
+    {
+      "id": "T008",
+      "pattern": "CORRECT THE COURSE TO THE TRUE MERIDIAN AND THEN READ THE DIAL",
+      "f_words": 9,
+      "structure": "VERB THE NOUN TO THE ADJ NOUN AND THEN VERB THE NOUN",
+      "category": "correction_true"
+    },
+    {
+      "id": "T009",
+      "pattern": "NOTE THE ANGLE OF THE MERIDIAN AND THEN SET THE DIAL TO THE LINE",
+      "f_words": 11,
+      "structure": "VERB THE NOUN OF THE NOUN AND THEN VERB THE NOUN TO THE NOUN",
+      "category": "complex_measurement"
+    },
+    {
+      "id": "T010",
+      "pattern": "READ THE MARK AT THE STATION AND THEN APPLY THE DECLINATION",
+      "f_words": 8,
+      "structure": "VERB THE NOUN AT THE NOUN AND THEN VERB THE NOUN",
+      "category": "station_reading"
+    },
+    {
+      "id": "T011",
+      "pattern": "SET THE DIAL BY THE TRUE BEARING AND THEN READ THE COURSE",
+      "f_words": 9,
+      "structure": "VERB THE NOUN BY THE ADJ NOUN AND THEN VERB THE NOUN",
+      "category": "dial_setting"
+    },
+    {
+      "id": "T012",
+      "pattern": "OBSERVE THE LINE IN THE FIELD AND THEN NOTE THE BEARING",
+      "f_words": 8,
+      "structure": "VERB THE NOUN IN THE NOUN AND THEN VERB THE NOUN",
+      "category": "field_observation"
+    },
+    {
+      "id": "T013",
+      "pattern": "TRACE THE ARC TO THE MERIDIAN AND THEN READ THE ANGLE AT THE DIAL",
+      "f_words": 10,
+      "structure": "VERB THE NOUN TO THE NOUN AND THEN VERB THE NOUN AT THE NOUN",
+      "category": "arc_tracing"
+    },
+    {
+      "id": "T014",
+      "pattern": "FIND THE COURSE OF THE TRUE MERIDIAN AND THEN SET THE DIAL",
+      "f_words": 9,
+      "structure": "VERB THE NOUN OF THE ADJ NOUN AND THEN VERB THE NOUN",
+      "category": "meridian_finding"
+    },
+    {
+      "id": "T015",
+      "pattern": "MARK THE POINT AT THE STATION AND THEN READ THE ANGLE OF THE LINE",
+      "f_words": 10,
+      "structure": "VERB THE NOUN AT THE NOUN AND THEN VERB THE NOUN OF THE NOUN",
+      "category": "point_marking"
+    }
+  ],
+  "metadata": {
+    "version": "5.2.1",
+    "purpose": "Function-rich templates for content+function harmonization",
+    "min_f_words": 8,
+    "key_patterns": ["AND THEN", "TO THE", "OF THE", "IN THE", "AT THE", "BY THE"],
+    "true_keyword_templates": ["T001", "T005", "T006", "T007", "T008", "T011", "T014"]
+  }
+}

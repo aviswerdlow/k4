@@ -1,0 +1,18 @@
+{
+  "flint_v2": {
+    "has_declination": false,
+    "has_instrument_verb": true,
+    "has_east": false,
+    "has_northeast": false,
+    "has_instrument_noun": true,
+    "content_count": 7,
+    "max_repeat": 3,
+    "passes": true
+  },
+  "generic": {
+    "perplexity_percentile": 0.005326758527900117,
+    "pos_trigram": 0.7413981557837798,
+    "passes": true
+  },
+  "passes": true
+}

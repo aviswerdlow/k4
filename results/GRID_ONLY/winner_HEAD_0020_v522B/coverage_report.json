@@ -1,0 +1,20 @@
+{
+  "rails": {
+    "anchors": "fixed 0-idx",
+    "t2": "GRID_W14_ROWS",
+    "t2_sha": "a5260415e76509638b4845d5e707521126aca2d67b50177b3c94f8ccc4c56c31",
+    "option": "A",
+    "head_window": [
+      0,
+      74
+    ]
+  },
+  "collisions": 0,
+  "leakage": 0.0,
+  "policy_sha": "bc083cc4129fedbc",
+  "seeds": {
+    "master": 1337,
+    "head": 2772336211
+  },
+  "route_sha": "798cb43f9e68b2da"
+}

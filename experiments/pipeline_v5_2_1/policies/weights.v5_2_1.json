@@ -1,0 +1,41 @@
+{
+  "version": "5.2.1",
+  "description": "MCMC objective weights for content+function harmonization",
+  "weights": {
+    "lambda_fw": 0.9,
+    "lambda_ng": 1.0,
+    "lambda_pat": 0.8,
+    "lambda_ctx": 0.7,
+    "lambda_run": -0.6
+  },
+  "hard_constraints": {
+    "f_words_min": 8,
+    "has_verb": true,
+    "coverage_min": 0.85,
+    "length_max": 74
+  },
+  "soft_constraints": {
+    "f_words_cap": 11,
+    "content_ratio_min": 0.35,
+    "content_ratio_target": 0.45,
+    "repetition_max": 2
+  },
+  "function_glue": {
+    "max_insertions": 2,
+    "phrases": [
+      "OF THE",
+      "TO THE", 
+      "IN THE",
+      "AND THEN",
+      "AND WE",
+      "BY THE",
+      "AT THE"
+    ],
+    "low_saliency_positions": [
+      "after_first_noun",
+      "before_and",
+      "after_verb",
+      "before_final_noun"
+    ]
+  }
+}

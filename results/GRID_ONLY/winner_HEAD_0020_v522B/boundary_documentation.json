@@ -1,0 +1,42 @@
+{
+  "boundary_tokenizer_version": "v2",
+  "purpose": "Preserve word boundaries while maintaining 97-char letters-only format",
+  "hard_splits": {
+    "indices": [20, 24, 33, 62],
+    "description": "Virtual boundaries that prevent word fusion across segments"
+  },
+  "padding_tokens": {
+    "XXXX": {
+      "position": [17, 20],
+      "gap": "G1",
+      "class": "neutral_padding",
+      "purpose": "Fill G1 to exactly 21 chars without introducing function words",
+      "gate_treatment": "Excluded from all gate metrics"
+    },
+    "YYYYYYY": {
+      "position": [56, 62],
+      "gap": "G2",
+      "class": "neutral_padding",
+      "purpose": "Fill G2 to exactly 29 chars without introducing function words",
+      "gate_treatment": "Excluded from all gate metrics"
+    }
+  },
+  "anchor_class_exclusion": {
+    "enabled": true,
+    "anchors": ["EAST", "NORTHEAST", "BERLINCLOCK"],
+    "exclusion_from": ["f_word_counts", "cadence_metrics", "phrase_scoring"],
+    "rationale": "Anchors are cryptographic constraints, not linguistic content"
+  },
+  "gate_implications": {
+    "near_gate": "Padding excluded, only real words in G1/G2 counted",
+    "phrase_gate": "Padding ignored, scoring based on actual content words",
+    "cadence_gate": "Padding does not affect FW gaps or n-gram patterns",
+    "context_gate": "Padding treated as neutral, no semantic impact"
+  },
+  "letters_only_preservation": {
+    "total_chars": 97,
+    "head_window": [0, 74],
+    "format": "A-Z only, no spaces in canonical plaintext",
+    "padding_chars": "X and Y used as neutral fill"
+  }
+}

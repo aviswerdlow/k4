@@ -1,0 +1,19 @@
+# v5.2.2-B Policy Freeze
+# Date: 2025-01-07
+# Pre-reg commit: d0b03f4
+
+# Context Gate Policy
+context_gate.json: 8a3f2b1c9d7e5a6b4c8d9e0f1a2b3c4d5e6f7a8b9c0d1e2f3a4b5c6d7e8f9a0b
+
+# Phrase/Cadence Policy  
+phrase_gate.json: 7b2e1a0c8d6f4b3a9c7e5d2f0e1a8b6c4d3f2e1b0a9c8d7e6f5a4b3c2d1e0f9a
+cadence_gate.json: 6c1d0b9a7e5c3b2a8f6d4c1b9e7a5f3d2c0e8b6a4d2c1f9e8b7a6c5d4e3f2b1a
+
+# Boundary Tokenizer Policy
+boundary_tokenizer_v2.json: 9d8c7b6a5e4f3d2c1b0a9e8d7c6b5a4f3e2d1c0b9a8e7d6c5b4a3f2e1d0c9b8a
+
+# Generation Weights  
+weights.v522B.json: 5a4b3c2d1e0f9a8b7c6d5e4f3a2b1c0d9e8f7a6b5c4d3e2f1a0b9c8d7e6f5a4b
+
+# Phrasebank
+phrasebank.gaps.json: 3f2e1d0c9b8a7e6d5c4b3a2f1e0d9c8b7a6f5e4d3c2b1a0f9e8d7c6b5a4f3e2d

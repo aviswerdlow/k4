@@ -1,0 +1,922 @@
+[
+  {
+    "head_label": "HEAD_001_v522B",
+    "hard_splits": [
+      20,
+      24,
+      33,
+      62
+    ],
+    "spans": {
+      "G1": [
+        0,
+        20
+      ],
+      "EAST": [
+        21,
+        24
+      ],
+      "NORTHEAST": [
+        25,
+        33
+      ],
+      "G2": [
+        34,
+        62
+      ],
+      "BERLINCLOCK": [
+        63,
+        73
+      ]
+    },
+    "head_tokens": [
+      {
+        "text": "WE",
+        "class": "function",
+        "start": 0,
+        "end": 1
+      },
+      {
+        "text": "ARE",
+        "class": "function",
+        "start": 2,
+        "end": 4
+      },
+      {
+        "text": "BY",
+        "class": "function",
+        "start": 5,
+        "end": 6
+      },
+      {
+        "text": "THE",
+        "class": "function",
+        "start": 7,
+        "end": 9
+      },
+      {
+        "text": "LINE",
+        "class": "content",
+        "start": 10,
+        "end": 13
+      },
+      {
+        "text": "SEE",
+        "class": "verb",
+        "start": 14,
+        "end": 16
+      },
+      {
+        "text": "XXXX",
+        "class": "content",
+        "start": 17,
+        "end": 20
+      },
+      {
+        "text": "EAST",
+        "class": "anchor",
+        "start": 21,
+        "end": 24
+      },
+      {
+        "text": "NORTHEAST",
+        "class": "anchor",
+        "start": 25,
+        "end": 33
+      },
+      {
+        "text": "AND",
+        "class": "function",
+        "start": 34,
+        "end": 36
+      },
+      {
+        "text": "WE",
+        "class": "function",
+        "start": 37,
+        "end": 38
+      },
+      {
+        "text": "ARE",
+        "class": "function",
+        "start": 39,
+        "end": 41
+      },
+      {
+        "text": "BY",
+        "class": "function",
+        "start": 42,
+        "end": 43
+      },
+      {
+        "text": "THE",
+        "class": "function",
+        "start": 44,
+        "end": 46
+      },
+      {
+        "text": "LINE",
+        "class": "content",
+        "start": 47,
+        "end": 50
+      },
+      {
+        "text": "TO",
+        "class": "function",
+        "start": 51,
+        "end": 52
+      },
+      {
+        "text": "SEE",
+        "class": "verb",
+        "start": 53,
+        "end": 55
+      },
+      {
+        "text": "YYYYYYY",
+        "class": "content",
+        "start": 56,
+        "end": 62
+      },
+      {
+        "text": "BERLINCLOCK",
+        "class": "anchor",
+        "start": 63,
+        "end": 73
+      }
+    ],
+    "summary": {
+      "total_tokens": 19,
+      "function_words": 10,
+      "verbs": 2,
+      "anchors": 3,
+      "content": 4
+    },
+    "gap_metrics": {
+      "G1": {
+        "f_words": 4,
+        "verbs": 1,
+        "tokens": [
+          "WE",
+          "ARE",
+          "BY",
+          "THE",
+          "LINE",
+          "SEE",
+          "XXXX"
+        ]
+      },
+      "G2": {
+        "f_words": 6,
+        "verbs": 1,
+        "tokens": [
+          "AND",
+          "WE",
+          "ARE",
+          "BY",
+          "THE",
+          "LINE",
+          "TO",
+          "SEE",
+          "YYYYYYY"
+        ]
+      }
+    }
+  },
+  {
+    "head_label": "HEAD_002_v522B",
+    "hard_splits": [
+      20,
+      24,
+      33,
+      62
+    ],
+    "spans": {
+      "G1": [
+        0,
+        20
+      ],
+      "EAST": [
+        21,
+        24
+      ],
+      "NORTHEAST": [
+        25,
+        33
+      ],
+      "G2": [
+        34,
+        62
+      ],
+      "BERLINCLOCK": [
+        63,
+        73
+      ]
+    },
+    "head_tokens": [
+      {
+        "text": "WE",
+        "class": "function",
+        "start": 0,
+        "end": 1
+      },
+      {
+        "text": "ARE",
+        "class": "function",
+        "start": 2,
+        "end": 4
+      },
+      {
+        "text": "AT",
+        "class": "function",
+        "start": 5,
+        "end": 6
+      },
+      {
+        "text": "THE",
+        "class": "function",
+        "start": 7,
+        "end": 9
+      },
+      {
+        "text": "DIAL",
+        "class": "content",
+        "start": 10,
+        "end": 13
+      },
+      {
+        "text": "SEE",
+        "class": "verb",
+        "start": 14,
+        "end": 16
+      },
+      {
+        "text": "XXXX",
+        "class": "content",
+        "start": 17,
+        "end": 20
+      },
+      {
+        "text": "EAST",
+        "class": "anchor",
+        "start": 21,
+        "end": 24
+      },
+      {
+        "text": "NORTHEAST",
+        "class": "anchor",
+        "start": 25,
+        "end": 33
+      },
+      {
+        "text": "WE",
+        "class": "function",
+        "start": 34,
+        "end": 35
+      },
+      {
+        "text": "ARE",
+        "class": "function",
+        "start": 36,
+        "end": 38
+      },
+      {
+        "text": "AT",
+        "class": "function",
+        "start": 39,
+        "end": 40
+      },
+      {
+        "text": "THE",
+        "class": "function",
+        "start": 41,
+        "end": 43
+      },
+      {
+        "text": "LINE",
+        "class": "content",
+        "start": 44,
+        "end": 47
+      },
+      {
+        "text": "AND",
+        "class": "function",
+        "start": 48,
+        "end": 50
+      },
+      {
+        "text": "WE",
+        "class": "function",
+        "start": 51,
+        "end": 52
+      },
+      {
+        "text": "SEE",
+        "class": "verb",
+        "start": 53,
+        "end": 55
+      },
+      {
+        "text": "YYYYYYY",
+        "class": "content",
+        "start": 56,
+        "end": 62
+      },
+      {
+        "text": "BERLINCLOCK",
+        "class": "anchor",
+        "start": 63,
+        "end": 73
+      }
+    ],
+    "summary": {
+      "total_tokens": 19,
+      "function_words": 10,
+      "verbs": 2,
+      "anchors": 3,
+      "content": 4
+    },
+    "gap_metrics": {
+      "G1": {
+        "f_words": 4,
+        "verbs": 1,
+        "tokens": [
+          "WE",
+          "ARE",
+          "AT",
+          "THE",
+          "DIAL",
+          "SEE",
+          "XXXX"
+        ]
+      },
+      "G2": {
+        "f_words": 6,
+        "verbs": 1,
+        "tokens": [
+          "WE",
+          "ARE",
+          "AT",
+          "THE",
+          "LINE",
+          "AND",
+          "WE",
+          "SEE",
+          "YYYYYYY"
+        ]
+      }
+    }
+  },
+  {
+    "head_label": "HEAD_003_v522B",
+    "hard_splits": [
+      20,
+      24,
+      33,
+      62
+    ],
+    "spans": {
+      "G1": [
+        0,
+        20
+      ],
+      "EAST": [
+        21,
+        24
+      ],
+      "NORTHEAST": [
+        25,
+        33
+      ],
+      "G2": [
+        34,
+        62
+      ],
+      "BERLINCLOCK": [
+        63,
+        73
+      ]
+    },
+    "head_tokens": [
+      {
+        "text": "WE",
+        "class": "function",
+        "start": 0,
+        "end": 1
+      },
+      {
+        "text": "ARE",
+        "class": "function",
+        "start": 2,
+        "end": 4
+      },
+      {
+        "text": "AT",
+        "class": "function",
+        "start": 5,
+        "end": 6
+      },
+      {
+        "text": "THE",
+        "class": "function",
+        "start": 7,
+        "end": 9
+      },
+      {
+        "text": "DIAL",
+        "class": "content",
+        "start": 10,
+        "end": 13
+      },
+      {
+        "text": "SEE",
+        "class": "verb",
+        "start": 14,
+        "end": 16
+      },
+      {
+        "text": "XXXX",
+        "class": "content",
+        "start": 17,
+        "end": 20
+      },
+      {
+        "text": "EAST",
+        "class": "anchor",
+        "start": 21,
+        "end": 24
+      },
+      {
+        "text": "NORTHEAST",
+        "class": "anchor",
+        "start": 25,
+        "end": 33
+      },
+      {
+        "text": "WE",
+        "class": "function",
+        "start": 34,
+        "end": 35
+      },
+      {
+        "text": "ARE",
+        "class": "function",
+        "start": 36,
+        "end": 38
+      },
+      {
+        "text": "AT",
+        "class": "function",
+        "start": 39,
+        "end": 40
+      },
+      {
+        "text": "THE",
+        "class": "function",
+        "start": 41,
+        "end": 43
+      },
+      {
+        "text": "LINE",
+        "class": "content",
+        "start": 44,
+        "end": 47
+      },
+      {
+        "text": "AND",
+        "class": "function",
+        "start": 48,
+        "end": 50
+      },
+      {
+        "text": "WE",
+        "class": "function",
+        "start": 51,
+        "end": 52
+      },
+      {
+        "text": "SEE",
+        "class": "verb",
+        "start": 53,
+        "end": 55
+      },
+      {
+        "text": "YYYYYYY",
+        "class": "content",
+        "start": 56,
+        "end": 62
+      },
+      {
+        "text": "BERLINCLOCK",
+        "class": "anchor",
+        "start": 63,
+        "end": 73
+      }
+    ],
+    "summary": {
+      "total_tokens": 19,
+      "function_words": 10,
+      "verbs": 2,
+      "anchors": 3,
+      "content": 4
+    },
+    "gap_metrics": {
+      "G1": {
+        "f_words": 4,
+        "verbs": 1,
+        "tokens": [
+          "WE",
+          "ARE",
+          "AT",
+          "THE",
+          "DIAL",
+          "SEE",
+          "XXXX"
+        ]
+      },
+      "G2": {
+        "f_words": 6,
+        "verbs": 1,
+        "tokens": [
+          "WE",
+          "ARE",
+          "AT",
+          "THE",
+          "LINE",
+          "AND",
+          "WE",
+          "SEE",
+          "YYYYYYY"
+        ]
+      }
+    }
+  },
+  {
+    "head_label": "HEAD_004_v522B",
+    "hard_splits": [
+      20,
+      24,
+      33,
+      62
+    ],
+    "spans": {
+      "G1": [
+        0,
+        20
+      ],
+      "EAST": [
+        21,
+        24
+      ],
+      "NORTHEAST": [
+        25,
+        33
+      ],
+      "G2": [
+        34,
+        62
+      ],
+      "BERLINCLOCK": [
+        63,
+        73
+      ]
+    },
+    "head_tokens": [
+      {
+        "text": "WE",
+        "class": "function",
+        "start": 0,
+        "end": 1
+      },
+      {
+        "text": "ARE",
+        "class": "function",
+        "start": 2,
+        "end": 4
+      },
+      {
+        "text": "BY",
+        "class": "function",
+        "start": 5,
+        "end": 6
+      },
+      {
+        "text": "THE",
+        "class": "function",
+        "start": 7,
+        "end": 9
+      },
+      {
+        "text": "MARK",
+        "class": "verb",
+        "start": 10,
+        "end": 13
+      },
+      {
+        "text": "NOW",
+        "class": "content",
+        "start": 14,
+        "end": 16
+      },
+      {
+        "text": "XXXX",
+        "class": "content",
+        "start": 17,
+        "end": 20
+      },
+      {
+        "text": "EAST",
+        "class": "anchor",
+        "start": 21,
+        "end": 24
+      },
+      {
+        "text": "NORTHEAST",
+        "class": "anchor",
+        "start": 25,
+        "end": 33
+      },
+      {
+        "text": "WE",
+        "class": "function",
+        "start": 34,
+        "end": 35
+      },
+      {
+        "text": "ARE",
+        "class": "function",
+        "start": 36,
+        "end": 38
+      },
+      {
+        "text": "AT",
+        "class": "function",
+        "start": 39,
+        "end": 40
+      },
+      {
+        "text": "THE",
+        "class": "function",
+        "start": 41,
+        "end": 43
+      },
+      {
+        "text": "LINE",
+        "class": "content",
+        "start": 44,
+        "end": 47
+      },
+      {
+        "text": "AND",
+        "class": "function",
+        "start": 48,
+        "end": 50
+      },
+      {
+        "text": "WE",
+        "class": "function",
+        "start": 51,
+        "end": 52
+      },
+      {
+        "text": "SEE",
+        "class": "verb",
+        "start": 53,
+        "end": 55
+      },
+      {
+        "text": "YYYYYYY",
+        "class": "content",
+        "start": 56,
+        "end": 62
+      },
+      {
+        "text": "BERLINCLOCK",
+        "class": "anchor",
+        "start": 63,
+        "end": 73
+      }
+    ],
+    "summary": {
+      "total_tokens": 19,
+      "function_words": 10,
+      "verbs": 2,
+      "anchors": 3,
+      "content": 4
+    },
+    "gap_metrics": {
+      "G1": {
+        "f_words": 4,
+        "verbs": 1,
+        "tokens": [
+          "WE",
+          "ARE",
+          "BY",
+          "THE",
+          "MARK",
+          "NOW",
+          "XXXX"
+        ]
+      },
+      "G2": {
+        "f_words": 6,
+        "verbs": 1,
+        "tokens": [
+          "WE",
+          "ARE",
+          "AT",
+          "THE",
+          "LINE",
+          "AND",
+          "WE",
+          "SEE",
+          "YYYYYYY"
+        ]
+      }
+    }
+  },
+  {
+    "head_label": "HEAD_005_v522B",
+    "hard_splits": [
+      20,
+      24,
+      33,
+      62
+    ],
+    "spans": {
+      "G1": [
+        0,
+        20
+      ],
+      "EAST": [
+        21,
+        24
+      ],
+      "NORTHEAST": [
+        25,
+        33
+      ],
+      "G2": [
+        34,
+        62
+      ],
+      "BERLINCLOCK": [
+        63,
+        73
+      ]
+    },
+    "head_tokens": [
+      {
+        "text": "WE",
+        "class": "function",
+        "start": 0,
+        "end": 1
+      },
+      {
+        "text": "ARE",
+        "class": "function",
+        "start": 2,
+        "end": 4
+      },
+      {
+        "text": "BY",
+        "class": "function",
+        "start": 5,
+        "end": 6
+      },
+      {
+        "text": "THE",
+        "class": "function",
+        "start": 7,
+        "end": 9
+      },
+      {
+        "text": "LINE",
+        "class": "content",
+        "start": 10,
+        "end": 13
+      },
+      {
+        "text": "SEE",
+        "class": "verb",
+        "start": 14,
+        "end": 16
+      },
+      {
+        "text": "XXXX",
+        "class": "content",
+        "start": 17,
+        "end": 20
+      },
+      {
+        "text": "EAST",
+        "class": "anchor",
+        "start": 21,
+        "end": 24
+      },
+      {
+        "text": "NORTHEAST",
+        "class": "anchor",
+        "start": 25,
+        "end": 33
+      },
+      {
+        "text": "WE",
+        "class": "function",
+        "start": 34,
+        "end": 35
+      },
+      {
+        "text": "ARE",
+        "class": "function",
+        "start": 36,
+        "end": 38
+      },
+      {
+        "text": "AT",
+        "class": "function",
+        "start": 39,
+        "end": 40
+      },
+      {
+        "text": "THE",
+        "class": "function",
+        "start": 41,
+        "end": 43
+      },
+      {
+        "text": "LINE",
+        "class": "content",
+        "start": 44,
+        "end": 47
+      },
+      {
+        "text": "AND",
+        "class": "function",
+        "start": 48,
+        "end": 50
+      },
+      {
+        "text": "WE",
+        "class": "function",
+        "start": 51,
+        "end": 52
+      },
+      {
+        "text": "SEE",
+        "class": "verb",
+        "start": 53,
+        "end": 55
+      },
+      {
+        "text": "YYYYYYY",
+        "class": "content",
+        "start": 56,
+        "end": 62
+      },
+      {
+        "text": "BERLINCLOCK",
+        "class": "anchor",
+        "start": 63,
+        "end": 73
+      }
+    ],
+    "summary": {
+      "total_tokens": 19,
+      "function_words": 10,
+      "verbs": 2,
+      "anchors": 3,
+      "content": 4
+    },
+    "gap_metrics": {
+      "G1": {
+        "f_words": 4,
+        "verbs": 1,
+        "tokens": [
+          "WE",
+          "ARE",
+          "BY",
+          "THE",
+          "LINE",
+          "SEE",
+          "XXXX"
+        ]
+      },
+      "G2": {
+        "f_words": 6,
+        "verbs": 1,
+        "tokens": [
+          "WE",
+          "ARE",
+          "AT",
+          "THE",
+          "LINE",
+          "AND",
+          "WE",
+          "SEE",
+          "YYYYYYY"
+        ]
+      }
+    }
+  }
+]

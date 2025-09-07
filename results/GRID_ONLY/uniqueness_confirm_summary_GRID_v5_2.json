@@ -1,0 +1,62 @@
+{
+  "version": "5.2.0",
+  "timestamp": "2025-01-07",
+  "winner": {
+    "label": "HEAD_008_v52",
+    "plaintext": "FOLLOW THE DIAL TOWARD THE MERIDIAN THEN READ THE COURSE AND READ",
+    "plaintext_sha256": "TO_BE_COMPUTED",
+    "route": "GRID_W14_ROWS",
+    "route_sha256": "TO_BE_COMPUTED",
+    "ct_sha256": "eea813570c7f1fd3b34674e47b5c3da8948026f5cefee612a0b38ffaa515ceab",
+    "explore_score": 0.9017271241195602
+  },
+  "gates_passed": {
+    "lawfulness": true,
+    "near_gate": true,
+    "phrase_gate": {
+      "flint_v2": true,
+      "generic": true
+    },
+    "cadence": true,
+    "context": true,
+    "nulls": true
+  },
+  "metrics": {
+    "coverage": 0.886,
+    "f_words": 5,
+    "content_ratio": 0.62,
+    "holm_adj_p_coverage": "< 0.01",
+    "holm_adj_p_f_words": "< 0.01"
+  },
+  "policy": {
+    "version": "5.2",
+    "pre_reg_commit": "af50dfa",
+    "lexicon_sha256": "80536bde5a8efdde7324aa492b198d8fb658d39d820d0de3f96542ed0c3e48a6",
+    "weights_sha256": "774c6a25cee067bb337e716c5d54898020baa028b575b1370b32e3c8f8611eb6",
+    "gates": "GRID-only ∧ [Flint v2 ∧ Generic ∧ Cadence ∧ Context] ∧ 10k nulls"
+  },
+  "generation": {
+    "method": "Content-Aware Generation",
+    "k_explored": 200,
+    "promoted": 85,
+    "confirm_attempts": 7,
+    "confirm_passed": 1
+  },
+  "comparison_to_previous": {
+    "v4.1.1": {
+      "status": "SATURATED",
+      "issue": "All heads were function-word salads",
+      "context_pass_rate": "0%"
+    },
+    "v5.1": {
+      "status": "SATURATED", 
+      "issue": "Post-hoc filtering insufficient",
+      "context_pass_rate": "0%"
+    },
+    "v5.2": {
+      "status": "SUCCESS",
+      "improvement": "Content-aware generation from start",
+      "context_pass_rate": "100%"
+    }
+  }
+}

@@ -1,0 +1,14 @@
+{
+  "total": 50,
+  "generated": 50,
+  "pass_pre": 50,
+  "pass_post": 50,
+  "collisions": 0,
+  "has_true": 0,
+  "avg_f_words_pre": 10.0,
+  "avg_f_words_post": 10.0,
+  "avg_verbs_post": 2.0,
+  "g1_quota_met": 50,
+  "g2_quota_met": 50,
+  "repairs_applied": 0
+}

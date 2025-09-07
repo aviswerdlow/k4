@@ -1,0 +1,35 @@
+{
+  "encrypts_to_ct": true,
+  "route": "GRID_W14_ROWS",
+  "family": "vigenere",
+  "period": 14,
+  "phase": 0,
+  "anchor_checks": {
+    "EAST": {
+      "position": [
+        21,
+        24
+      ],
+      "fits": true
+    },
+    "NORTHEAST": {
+      "position": [
+        25,
+        33
+      ],
+      "fits": true
+    },
+    "BERLIN": {
+      "position": [
+        63,
+        68
+      ],
+      "fits": true
+    }
+  },
+  "proof": {
+    "ct_sha256": "eea813570c7f1fd3b34674e47b5c3da8948026f5cefee612a0b38ffaa515ceab",
+    "route_sha256": "c850d9a0cc6bd7a01ca851adef62c8a992a27d29d23fd727876584e2dd204c4d",
+    "verified": true
+  }
+}
