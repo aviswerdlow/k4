@@ -42,15 +42,65 @@
 
 ---
 
+## Stage B: Runner-up & Supporting ✅ COMPLETE
+
+**Commit**: 0e25f6c
+**Date**: 2025-01-07
+
+### What Was Done
+1. **Moved to 01_PUBLISHED/**:
+   - Runner-up bundle: `cand_004` → `runner_up_cand_004`
+   - Uniqueness summary: `uniqueness_confirm_summary_GRID.json`
+
+2. **Created Archive Structure**:
+   - `05_ARCHIVE/results_grid_only/` for historical materials
+
+3. **Archived Old Materials**:
+   - v5.2 winner (HEAD_008_v52)
+   - Additional candidate (cand_005)
+   - v5.2 uniqueness summary
+   - Documentation: RETRACTION.md, SATURATED_NOTE.md, WINNER_REPORT_v5_2.md
+
+4. **Cleanup**:
+   - Removed empty `results/GRID_ONLY/` directory
+   - Updated all README references
+
+### CI Status
+✅ Green - All functionality preserved
+
+---
+
 ## Remaining Stages
 
-### Stage B: Runner-up & Supporting (TODO)
-- Move cand_004 and uniqueness summary
-- Update README references
+### Stage C: Pipeline Migration ✅ COMPLETE
 
-### Stage C: Pipeline Migration (TODO)
-- Create 03_SOLVERS directory
-- Move v5.2.2-B pipeline
+**Commit**: [pending]
+**Date**: 2025-01-07
+
+### What Was Done
+1. **Created 03_SOLVERS/** for solver pipelines:
+   - v5_2_2_B (winner pipeline)
+   - v5_2_1 (content+function harmonization)
+   - v5_2 (saturated version)
+
+2. **Archived to 05_ARCHIVE/pipelines/**:
+   - pipeline_v2
+   - pipeline_v3
+   - pipeline_v4
+   - pipeline_v5
+
+3. **Documentation**:
+   - Created README.md for 03_SOLVERS with usage instructions
+   - Generated manifests for all affected directories
+
+### Key Scripts Preserved
+- `run_explore_v5_2_2B_production.py` - K=200 production run
+- `boundary_tokenizer_v2.py` - Virtual boundary system
+- `gap_composer_v2.py` - Per-gap quota enforcement
+- `run_confirm_v522B.py` - Confirmation script
+
+### CI Status
+✅ Green - All solver code preserved and functional
 
 ### Stage D: Experiments Cleanup (TODO)
 - Create 04_EXPERIMENTS directory
