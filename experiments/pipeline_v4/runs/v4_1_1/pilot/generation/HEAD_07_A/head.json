@@ -1,0 +1,33 @@
+{
+  "head_id": 7,
+  "arm": "A",
+  "seed_u64": 13958752991732266769,
+  "weights_sha256": "c22ce0c4dd0c04d11e1c9d5d89b07f481532048aa233bd79470b565f7b53d41b",
+  "text_pre": "WHERE IS THE POINT AND THE LIGHT WHAT KNOW THE BOOK FIRST STOP THEN FIND",
+  "text_post_mcmc": "WHAT FOR WAS ALL AND FROM ALL BE HAVE HAVE BUT HAVE HAS WAS REMEMBER AN",
+  "text_post_anchors": "WHATEAST  FOR WAS ALL ANDNORTHEAST  FROMBERLIN  ALLCLOCK  BE HAVE HAVE BUT HAVE HAS WAS REMEMBER AN",
+  "text_final": "WHATEAST THEN READ THE FOR WAS THE ALL AND A ANDNORTHEAST A FROMBERLIN ALLCLOCK BE HAVE HAVE BUT HAVE HAS WAS REMEMBER AN",
+  "metrics": {
+    "fw_pre": 8,
+    "verbs_pre": 1,
+    "cov_pre": 1.0,
+    "fw_mcmc": 15,
+    "verbs_mcmc": 1,
+    "cov_mcmc": 1.0,
+    "fw_final": 13,
+    "verbs_final": 2,
+    "cov_final": 0.85
+  },
+  "placement": {
+    "positions": [
+      4,
+      20,
+      25,
+      29
+    ],
+    "token_boundaries": true,
+    "drop_predicted": 2.917135208707641,
+    "drop_actual": 0.47857142857142865
+  },
+  "leakage_diff": 0.0
+}

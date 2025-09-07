@@ -1,0 +1,33 @@
+{
+  "head_id": 23,
+  "arm": "A",
+  "seed_u64": 8502993200427317055,
+  "weights_sha256": "c22ce0c4dd0c04d11e1c9d5d89b07f481532048aa233bd79470b565f7b53d41b",
+  "text_pre": "APPLY THE STAR AND CHECK AND IF THE SIGN IS WRONG THEN FORGET [DIR1] AND",
+  "text_post_mcmc": "HAVE SET IN BEEN YOUR TO AT OF WITH AN CAN BY MORE THAT TWO IT YOUR HAVE WE",
+  "text_post_anchors": "HAVE SET IN BEEN YOUR THE EAST TO AT THE NORTHEAST OF WITH THE BERLIN AN THE CLOCK CAN BY MORE THAT TWO IT YOUR HAVE WE",
+  "text_final": "HAVE SET IN THE BEEN AND AND YOUR THEN NOTE THE EAST TO AT THE NORTHEAST OF WITH THE BERLIN AN THE CLOCK AND AND CAN BY MORE THAT TWO IT YOUR HAVE WE",
+  "metrics": {
+    "fw_pre": 8,
+    "verbs_pre": 1,
+    "cov_pre": 0.9333333333333333,
+    "fw_mcmc": 18,
+    "verbs_mcmc": 1,
+    "cov_mcmc": 1.0,
+    "fw_final": 18,
+    "verbs_final": 2,
+    "cov_final": 0.8823529411764706
+  },
+  "placement": {
+    "positions": [
+      22,
+      28,
+      36,
+      39
+    ],
+    "token_boundaries": true,
+    "drop_predicted": 2.6879398773060648,
+    "drop_actual": 0.34021786492374684
+  },
+  "leakage_diff": 0.0
+}

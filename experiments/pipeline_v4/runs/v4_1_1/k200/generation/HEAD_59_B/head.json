@@ -1,0 +1,33 @@
+{
+  "head_id": 59,
+  "arm": "B",
+  "seed_u64": 2679952210823343617,
+  "weights_sha256": "d2b426b77c965c3ecd804c8d25c48ab45f0635db18275f68827cd48fa0d98be0",
+  "text_pre": "BEFORE THE TRUTH PUT THE GATE AND SET THE STEP TO SOFT AT THEN AS WHEN",
+  "text_post_mcmc": "ONE THINK IT ALL THE HAS WHEN IN YOU OF SO SO THIS THE IN AT THE AN IS ITS",
+  "text_post_anchors": "ONE THINK IT ALL THE THE EAST HAS THE NORTHEAST WHEN IN THE BERLIN YOU THE CLOCK OF SO SO THIS THE IN AT THE AN IS ITS",
+  "text_final": "ONE THINK IT THE ALL THE THEN A NOTE THEN NOTE THE EAST HAS THE NORTHEAST WHEN IN THE BERLIN YOU THE CLOCK OF AND SO SO THIS THE IN AT THE AN IS ITS",
+  "metrics": {
+    "fw_pre": 9,
+    "verbs_pre": 1,
+    "cov_pre": 0.9375,
+    "fw_mcmc": 19,
+    "verbs_mcmc": 1,
+    "cov_mcmc": 1.0,
+    "fw_final": 23,
+    "verbs_final": 3,
+    "cov_final": 0.8857142857142857
+  },
+  "placement": {
+    "positions": [
+      21,
+      25,
+      33,
+      37
+    ],
+    "token_boundaries": true,
+    "drop_predicted": 2.4159999019774308,
+    "drop_actual": 0.32771672771672744
+  },
+  "leakage_diff": 0.0
+}

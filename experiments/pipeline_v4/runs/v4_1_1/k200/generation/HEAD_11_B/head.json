@@ -1,0 +1,33 @@
+{
+  "head_id": 11,
+  "arm": "B",
+  "seed_u64": 16941210253936338097,
+  "weights_sha256": "d2b426b77c965c3ecd804c8d25c48ab45f0635db18275f68827cd48fa0d98be0",
+  "text_pre": "SET THE PLAN TO LOW AND WHERE IS THE DARK AND THE TRUTH AND LOOK THEN STOP",
+  "text_post_mcmc": "BY TWO ON NOT THAT THEM WHAT THE NO ITS THEY A THEM A TO ONE BE BY GIVE OR",
+  "text_post_anchors": "BY TWO ON NOT THE EAST THAT THE NORTHEAST THEM THE BERLIN WHAT THE CLOCK THE NO ITS THEY A THEM A TO ONE BE BY GIVE OR",
+  "text_final": "BY TWO THE ON THE NOT AND A THEN READ THEN NOTE THE EAST THAT THE NORTHEAST THEM THE BERLIN WHAT THE CLOCK THE NO ITS THEY A THEM A TO ONE BE BY GIVE OR",
+  "metrics": {
+    "fw_pre": 10,
+    "verbs_pre": 1,
+    "cov_pre": 1.0,
+    "fw_mcmc": 19,
+    "verbs_mcmc": 1,
+    "cov_mcmc": 1.0,
+    "fw_final": 21,
+    "verbs_final": 3,
+    "cov_final": 0.8888888888888888
+  },
+  "placement": {
+    "positions": [
+      14,
+      19,
+      24,
+      29
+    ],
+    "token_boundaries": true,
+    "drop_predicted": 2.5084428291205696,
+    "drop_actual": 0.32771672771672744
+  },
+  "leakage_diff": 0.0
+}

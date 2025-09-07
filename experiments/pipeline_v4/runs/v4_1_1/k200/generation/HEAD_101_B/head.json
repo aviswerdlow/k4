@@ -1,0 +1,33 @@
+{
+  "head_id": 101,
+  "arm": "B",
+  "seed_u64": 509952041032557105,
+  "weights_sha256": "d2b426b77c965c3ecd804c8d25c48ab45f0635db18275f68827cd48fa0d98be0",
+  "text_pre": "WHEN LAST GET THE DARK THE CODE IS [DIR1] OF THE SUN ALL WHEN HAD WITH",
+  "text_post_mcmc": "WITH ON IS MORE WAS ARE CAN FROM WITH WILL IT THAT ON MORE TO IF FORGET ITS",
+  "text_post_anchors": "WITH ON IS MOREEAST  WASNORTHEAST  AREBERLIN  CANCLOCK  FROM WITH WILL IT THAT ON MORE TO IF FORGET ITS",
+  "text_final": "THEN SEE WITH THE ON THE IS AND AND MOREEAST THE WASNORTHEAST AREBERLIN CANCLOCK FROM WITH WILL IT THAT ON MORE TO IF FORGET ITS",
+  "metrics": {
+    "fw_pre": 10,
+    "verbs_pre": 1,
+    "cov_pre": 0.9375,
+    "fw_mcmc": 17,
+    "verbs_mcmc": 1,
+    "cov_mcmc": 1.0,
+    "fw_final": 15,
+    "verbs_final": 2,
+    "cov_final": 0.85
+  },
+  "placement": {
+    "positions": [
+      15,
+      19,
+      23,
+      27
+    ],
+    "token_boundaries": true,
+    "drop_predicted": 2.4175657504485586,
+    "drop_actual": 0.4194444444444443
+  },
+  "leakage_diff": 0.0
+}

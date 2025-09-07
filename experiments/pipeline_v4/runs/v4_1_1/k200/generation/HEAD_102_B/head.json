@@ -1,0 +1,33 @@
+{
+  "head_id": 102,
+  "arm": "B",
+  "seed_u64": 2905133608882683342,
+  "weights_sha256": "d2b426b77c965c3ecd804c8d25c48ab45f0635db18275f68827cd48fa0d98be0",
+  "text_pre": "FORGET THE RULE AND KNOW THE STAR AND IF THE TRUTH IS HARD THEN APPLY [DIR1",
+  "text_post_mcmc": "WILL YOUR BE NOT HAVE WOULD WHERE AND BE OUR WITH TWO WITH IF SO CHECK ARE",
+  "text_post_anchors": "WILLEAST  YOUR BENORTHEAST  NOTBERLIN  HAVECLOCK  WOULD WHERE AND BE OUR WITH TWO WITH IF SO CHECK ARE",
+  "text_final": "WILLEAST THEN READ YOUR BENORTHEAST THE NOTBERLIN AND HAVECLOCK A WOULD WHERE AND BE OUR WITH TWO WITH IF SO CHECK ARE",
+  "metrics": {
+    "fw_pre": 8,
+    "verbs_pre": 1,
+    "cov_pre": 0.9375,
+    "fw_mcmc": 16,
+    "verbs_mcmc": 1,
+    "cov_mcmc": 1.0,
+    "fw_final": 13,
+    "verbs_final": 2,
+    "cov_final": 0.85
+  },
+  "placement": {
+    "positions": [
+      4,
+      12,
+      16,
+      21
+    ],
+    "token_boundaries": true,
+    "drop_predicted": 2.3320486530878144,
+    "drop_actual": 0.3803921568627451
+  },
+  "leakage_diff": 0.0
+}

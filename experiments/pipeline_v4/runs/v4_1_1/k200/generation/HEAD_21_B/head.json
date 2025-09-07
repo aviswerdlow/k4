@@ -1,0 +1,33 @@
+{
+  "head_id": 21,
+  "arm": "B",
+  "seed_u64": 2644515999935403085,
+  "weights_sha256": "d2b426b77c965c3ecd804c8d25c48ab45f0635db18275f68827cd48fa0d98be0",
+  "text_pre": "WHERE IS THE PLAN AND THE PAGE WHAT REMEMBER THE HALL SLOW IF STEP THEN",
+  "text_post_mcmc": "THERE WAS TO A YOU IS ON NO BE TWO AND AND SO HAVE IF THE THEM SEEK AN",
+  "text_post_anchors": "THERE WAS TO AEAST  YOUNORTHEAST  ISBERLIN  ONCLOCK  NO BE TWO AND AND SO HAVE IF THE THEM SEEK AN",
+  "text_final": "THEN SEE THE THERE THE WAS TO THE AEAST AND YOUNORTHEAST THE ISBERLIN ONCLOCK NO BE TWO AND AND SO HAVE IF THE THEM SEEK AN",
+  "metrics": {
+    "fw_pre": 9,
+    "verbs_pre": 1,
+    "cov_pre": 1.0,
+    "fw_mcmc": 18,
+    "verbs_mcmc": 1,
+    "cov_mcmc": 1.0,
+    "fw_final": 16,
+    "verbs_final": 2,
+    "cov_final": 0.85
+  },
+  "placement": {
+    "positions": [
+      14,
+      18,
+      21,
+      24
+    ],
+    "token_boundaries": true,
+    "drop_predicted": 2.408504563306402,
+    "drop_actual": 0.39504643962848274
+  },
+  "leakage_diff": 0.0
+}

@@ -1,0 +1,33 @@
+{
+  "head_id": 146,
+  "arm": "B",
+  "seed_u64": 9487657556465765117,
+  "weights_sha256": "d2b426b77c965c3ecd804c8d25c48ab45f0635db18275f68827cd48fa0d98be0",
+  "text_pre": "IF THE LOCK IS NEXT THEN SHOW [DIR1] AND BEFORE THE BOOK MARK THE HOUR AND",
+  "text_post_mcmc": "AN NEXT THEN YOUR HAVE WHEN AND WHEN A WHERE OUR AND WHO BUT IN BOOK FOLLOW",
+  "text_post_anchors": "ANEAST  NEXT THEN YOURNORTHEAST  HAVEBERLIN  WHENCLOCK  AND WHEN A WHERE OUR AND WHO BUT IN BOOK FOLLOW",
+  "text_final": "ANEAST THE NEXT THEN READ THEN YOURNORTHEAST A HAVEBERLIN WHENCLOCK AND WHEN A WHERE OUR AND WHO BUT IN BOOK FOLLOW",
+  "metrics": {
+    "fw_pre": 8,
+    "verbs_pre": 1,
+    "cov_pre": 0.875,
+    "fw_mcmc": 14,
+    "verbs_mcmc": 1,
+    "cov_mcmc": 1.0,
+    "fw_final": 11,
+    "verbs_final": 2,
+    "cov_final": 0.85
+  },
+  "placement": {
+    "positions": [
+      2,
+      17,
+      22,
+      27
+    ],
+    "token_boundaries": true,
+    "drop_predicted": 2.665658196851363,
+    "drop_actual": 0.3803921568627455
+  },
+  "leakage_diff": 0.0
+}

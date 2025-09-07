@@ -1,0 +1,33 @@
+{
+  "head_id": 188,
+  "arm": "B",
+  "seed_u64": 5721613788460315916,
+  "weights_sha256": "d2b426b77c965c3ecd804c8d25c48ab45f0635db18275f68827cd48fa0d98be0",
+  "text_pre": "SET THE TIME TO TRUE WHAT SEEK THE GATE FIRST THE DARK IS [DIR1] OF THE",
+  "text_post_mcmc": "TO TWO BEEN WE ONE WOULD NO ONE ON AS BEEN THEY ITS AN FOR IS ITS FORGET A",
+  "text_post_anchors": "TOEAST  TWO BEEN WE ONENORTHEAST  WOULDBERLIN  NOCLOCK  ONE ON AS BEEN THEY ITS AN FOR IS ITS FORGET A",
+  "text_final": "TOEAST THEN READ THE TWO THE BEEN AND AND WE THE ONENORTHEAST WOULDBERLIN NOCLOCK ONE ON AS BEEN THEY ITS AN FOR IS ITS FORGET A",
+  "metrics": {
+    "fw_pre": 8,
+    "verbs_pre": 1,
+    "cov_pre": 0.9375,
+    "fw_mcmc": 18,
+    "verbs_mcmc": 1,
+    "cov_mcmc": 1.0,
+    "fw_final": 12,
+    "verbs_final": 2,
+    "cov_final": 0.85
+  },
+  "placement": {
+    "positions": [
+      2,
+      18,
+      24,
+      27
+    ],
+    "token_boundaries": true,
+    "drop_predicted": 2.339801710641665,
+    "drop_actual": 0.39504643962848274
+  },
+  "leakage_diff": 0.0
+}

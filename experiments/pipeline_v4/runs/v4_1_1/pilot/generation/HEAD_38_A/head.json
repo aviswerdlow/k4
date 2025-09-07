@@ -1,0 +1,33 @@
+{
+  "head_id": 38,
+  "arm": "A",
+  "seed_u64": 12253159899279343520,
+  "weights_sha256": "c22ce0c4dd0c04d11e1c9d5d89b07f481532048aa233bd79470b565f7b53d41b",
+  "text_pre": "STOP [DIR1] AND TURN [DIR2] IF TRUTH THEN PUT THE PAGE IF TWO WHERE BY",
+  "text_post_mcmc": "THERE WITH BUT HAVE THIS THEY WOULD TWO ITS SO AS SO THEY THEN BRING BUT",
+  "text_post_anchors": "THERE WITH BUT THE EAST HAVE THE NORTHEAST THIS THE BERLIN THEY THE CLOCK WOULD TWO ITS SO AS SO THEY THEN BRING BUT",
+  "text_final": "THERE THE WITH BUT THE THEN READ THE EAST HAVE THE NORTHEAST THIS THE BERLIN THEY THE CLOCK THE WOULD TWO ITS SO AS SO THEY THEN BRING BUT",
+  "metrics": {
+    "fw_pre": 8,
+    "verbs_pre": 1,
+    "cov_pre": 0.8666666666666667,
+    "fw_mcmc": 15,
+    "verbs_mcmc": 1,
+    "cov_mcmc": 1.0,
+    "fw_final": 18,
+    "verbs_final": 2,
+    "cov_final": 0.8620689655172413
+  },
+  "placement": {
+    "positions": [
+      15,
+      20,
+      25,
+      30
+    ],
+    "token_boundaries": true,
+    "drop_predicted": 2.4556905864266914,
+    "drop_actual": 0.38398268398268387
+  },
+  "leakage_diff": 0.0
+}

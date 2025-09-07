@@ -1,0 +1,33 @@
+{
+  "head_id": 130,
+  "arm": "B",
+  "seed_u64": 8465359163046187283,
+  "weights_sha256": "d2b426b77c965c3ecd804c8d25c48ab45f0635db18275f68827cd48fa0d98be0",
+  "text_pre": "WHEN FIRST WATCH THE SUN WHERE IS THE WALL AND THE LINE CHECK THE WALL NEAR",
+  "text_post_mcmc": "NO FOR ONE WE HAS THEIR AT THEIR YOU ARE THE ITS AN AT BEEN HAD TAKE IT",
+  "text_post_anchors": "NOEAST  FOR ONENORTHEAST  WEBERLIN  HASCLOCK  THEIR AT THEIR YOU ARE THE ITS AN AT BEEN HAD TAKE IT",
+  "text_final": "NOEAST THEN READ THEN READ FOR ONENORTHEAST THE WEBERLIN AND HASCLOCK A THEIR AT THEIR YOU ARE THE ITS AN AT BEEN HAD TAKE IT",
+  "metrics": {
+    "fw_pre": 8,
+    "verbs_pre": 1,
+    "cov_pre": 1.0,
+    "fw_mcmc": 17,
+    "verbs_mcmc": 1,
+    "cov_mcmc": 1.0,
+    "fw_final": 13,
+    "verbs_final": 3,
+    "cov_final": 0.85
+  },
+  "placement": {
+    "positions": [
+      2,
+      10,
+      13,
+      17
+    ],
+    "token_boundaries": true,
+    "drop_predicted": 2.5643291017633283,
+    "drop_actual": 0.3569444444444443
+  },
+  "leakage_diff": 0.0
+}

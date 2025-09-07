@@ -1,0 +1,33 @@
+{
+  "head_id": 108,
+  "arm": "B",
+  "seed_u64": 17738394431374077474,
+  "weights_sha256": "d2b426b77c965c3ecd804c8d25c48ab45f0635db18275f68827cd48fa0d98be0",
+  "text_pre": "WHAT REMEMBER THE WALL DIM AND APPLY THE DOOR AND LOOK IF ALL THE CAN WILL",
+  "text_post_mcmc": "THEM WHAT THEIR AT AS AT WHAT WILL BUT THEM WHERE YOUR OR THEM APPLY CAN",
+  "text_post_anchors": "THEMEAST  WHAT THEIR AT ASNORTHEAST  ATBERLIN  WHATCLOCK  WILL BUT THEM WHERE YOUR OR THEM APPLY CAN",
+  "text_final": "THEMEAST THEN READ THE WHAT THE THEIR AND AND AT THE ASNORTHEAST ATBERLIN WHATCLOCK WILL BUT THEM WHERE YOUR OR THEM APPLY CAN",
+  "metrics": {
+    "fw_pre": 10,
+    "verbs_pre": 1,
+    "cov_pre": 1.0,
+    "fw_mcmc": 15,
+    "verbs_mcmc": 1,
+    "cov_mcmc": 1.0,
+    "fw_final": 12,
+    "verbs_final": 2,
+    "cov_final": 0.85
+  },
+  "placement": {
+    "positions": [
+      4,
+      21,
+      24,
+      29
+    ],
+    "token_boundaries": true,
+    "drop_predicted": 2.8277457912090753,
+    "drop_actual": 0.4785714285714282
+  },
+  "leakage_diff": 0.0
+}

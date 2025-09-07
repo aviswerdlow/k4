@@ -1,0 +1,33 @@
+{
+  "head_id": 27,
+  "arm": "B",
+  "seed_u64": 7367615021488155628,
+  "weights_sha256": "d2b426b77c965c3ecd804c8d25c48ab45f0635db18275f68827cd48fa0d98be0",
+  "text_pre": "APPLY THE MOON AND MARK IF THE LIGHT IS SLOW THEN GET [DIR1] AN NO THIS",
+  "text_post_mcmc": "ARE BY FROM WILL ALL ONE ARE ON THAT BUT THE BEEN CAN ONE TO HAS OF ASK IT",
+  "text_post_anchors": "AREEAST  BY FROMNORTHEAST  WILL ALL ONEBERLIN  ARECLOCK  ON THAT BUT THE BEEN CAN ONE TO HAS OF ASK IT",
+  "text_final": "AREEAST THEN READ THEN READ BY FROMNORTHEAST THE WILL AND AND ALL ONEBERLIN AND ARECLOCK ON THAT BUT THE BEEN CAN ONE TO HAS OF ASK IT",
+  "metrics": {
+    "fw_pre": 9,
+    "verbs_pre": 1,
+    "cov_pre": 0.9375,
+    "fw_mcmc": 18,
+    "verbs_mcmc": 1,
+    "cov_mcmc": 1.0,
+    "fw_final": 14,
+    "verbs_final": 3,
+    "cov_final": 0.8518518518518519
+  },
+  "placement": {
+    "positions": [
+      3,
+      11,
+      24,
+      28
+    ],
+    "token_boundaries": true,
+    "drop_predicted": 2.502838711680908,
+    "drop_actual": 0.39504643962848274
+  },
+  "leakage_diff": 0.0
+}

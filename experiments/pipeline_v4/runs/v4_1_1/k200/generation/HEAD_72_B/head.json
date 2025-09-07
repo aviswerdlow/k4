@@ -1,0 +1,33 @@
+{
+  "head_id": 72,
+  "arm": "B",
+  "seed_u64": 3765196963725561204,
+  "weights_sha256": "d2b426b77c965c3ecd804c8d25c48ab45f0635db18275f68827cd48fa0d98be0",
+  "text_pre": "WHERE IS THE PLAN AND THE DARK GO [DIR1] AND SEE [DIR2] SET THE STEP TO",
+  "text_post_mcmc": "NO THEIR ARE HAVE TO TWO IT AND ONE AT OR ARE BE AND AT HAS FOR STEP THEM",
+  "text_post_anchors": "NOEAST  THEIR ARENORTHEAST  HAVE TO TWOBERLIN  ITCLOCK  AND ONE AT OR ARE BE AND AT HAS FOR STEP THEM",
+  "text_final": "NOEAST THEN READ THEN READ THEIR ARENORTHEAST THE HAVE TO AND TWOBERLIN ITCLOCK A AND ONE AT OR ARE BE AND AT HAS FOR STEP THEM",
+  "metrics": {
+    "fw_pre": 8,
+    "verbs_pre": 1,
+    "cov_pre": 0.875,
+    "fw_mcmc": 18,
+    "verbs_mcmc": 1,
+    "cov_mcmc": 1.0,
+    "fw_final": 15,
+    "verbs_final": 3,
+    "cov_final": 0.85
+  },
+  "placement": {
+    "positions": [
+      2,
+      12,
+      24,
+      27
+    ],
+    "token_boundaries": true,
+    "drop_predicted": 2.4147648678413907,
+    "drop_actual": 0.39504643962848274
+  },
+  "leakage_diff": 0.0
+}

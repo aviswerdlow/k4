@@ -1,0 +1,33 @@
+{
+  "head_id": 5,
+  "arm": "A",
+  "seed_u64": 15613459079833865540,
+  "weights_sha256": "c22ce0c4dd0c04d11e1c9d5d89b07f481532048aa233bd79470b565f7b53d41b",
+  "text_pre": "CHECK THE RULE DIM AND IF GATE THEN REMEMBER THE BOOK AND WHAT SHOW THE",
+  "text_post_mcmc": "WHEN MAKE NOT ONE THERE HAS MORE BE AS NO ON THIS THIS TO FOR WAS HAS THEIR",
+  "text_post_anchors": "WHEN MAKE NOT ONE THERE THE EAST HAS THE NORTHEAST MORE THE BERLIN BE AS THE CLOCK NO ON THIS THIS TO FOR WAS HAS THEIR",
+  "text_final": "WHEN MAKE NOT THE ONE AND AND THERE THEN NOTE THE EAST HAS THE NORTHEAST MORE THE BERLIN THE BE AS THE CLOCK AND NO ON THIS THIS TO FOR WAS HAS THEIR",
+  "metrics": {
+    "fw_pre": 8,
+    "verbs_pre": 1,
+    "cov_pre": 1.0,
+    "fw_mcmc": 17,
+    "verbs_mcmc": 1,
+    "cov_mcmc": 1.0,
+    "fw_final": 21,
+    "verbs_final": 2,
+    "cov_final": 0.8787878787878788
+  },
+  "placement": {
+    "positions": [
+      24,
+      28,
+      33,
+      39
+    ],
+    "token_boundaries": true,
+    "drop_predicted": 2.2980980387055703,
+    "drop_actual": 0.3536858974358972
+  },
+  "leakage_diff": 0.0
+}

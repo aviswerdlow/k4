@@ -1,0 +1,33 @@
+{
+  "head_id": 11,
+  "arm": "B",
+  "seed_u64": 16941210253936338097,
+  "weights_sha256": "d2b426b77c965c3ecd804c8d25c48ab45f0635db18275f68827cd48fa0d98be0",
+  "text_pre": "SET THE PLAN TO LOW AND WHERE IS THE DARK AND THE TRUTH AND LOOK THEN STOP",
+  "text_post_mcmc": "HAD THEIR FOR FOR ONE ITS IT IT ALL IF THEM HAVE BUT AT WILL FOLLOW AT",
+  "text_post_anchors": "HADEAST  THEIR FOR FOR ONENORTHEAST  ITSBERLIN  ITCLOCK  IT ALL IF THEM HAVE BUT AT WILL FOLLOW AT",
+  "text_final": "HADEAST THEN READ THE THEIR FOR FOR ONENORTHEAST AND ITSBERLIN THE ITCLOCK IT ALL IF THEM HAVE BUT AT WILL FOLLOW AT",
+  "metrics": {
+    "fw_pre": 10,
+    "verbs_pre": 1,
+    "cov_pre": 1.0,
+    "fw_mcmc": 16,
+    "verbs_mcmc": 1,
+    "cov_mcmc": 1.0,
+    "fw_final": 12,
+    "verbs_final": 2,
+    "cov_final": 0.85
+  },
+  "placement": {
+    "positions": [
+      3,
+      21,
+      25,
+      28
+    ],
+    "token_boundaries": true,
+    "drop_predicted": 2.544764392472559,
+    "drop_actual": 0.4470588235294115
+  },
+  "leakage_diff": 0.0
+}

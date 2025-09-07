@@ -1,0 +1,33 @@
+{
+  "head_id": 33,
+  "arm": "B",
+  "seed_u64": 397049846576534302,
+  "weights_sha256": "d2b426b77c965c3ecd804c8d25c48ab45f0635db18275f68827cd48fa0d98be0",
+  "text_pre": "WHERE IS THE LAW AND THE RULE AND MOVE [DIR1] AND SEE [DIR2] AND SEEK DIM",
+  "text_post_mcmc": "THE MARK AS THIS YOU IF TO THEN WE ON TWO HAD AS WAS HAVE SO THEY ON WE ON",
+  "text_post_anchors": "THE MARK AS THIS YOU THE EAST IF TO THEN THE NORTHEAST WE THE BERLIN ON THE CLOCK TWO HAD AS WAS HAVE SO THEY ON WE ON",
+  "text_final": "THE MARK AS THE THIS AND AND YOU THEN NOTE THE EAST IF A TO THEN THE NORTHEAST WE THE BERLIN ON THE CLOCK AND TWO HAD AS WAS HAVE SO THEY ON WE ON",
+  "metrics": {
+    "fw_pre": 8,
+    "verbs_pre": 1,
+    "cov_pre": 0.875,
+    "fw_mcmc": 19,
+    "verbs_mcmc": 1,
+    "cov_mcmc": 1.0,
+    "fw_final": 22,
+    "verbs_final": 2,
+    "cov_final": 0.8857142857142857
+  },
+  "placement": {
+    "positions": [
+      21,
+      32,
+      35,
+      38
+    ],
+    "token_boundaries": true,
+    "drop_predicted": 2.475794755838069,
+    "drop_actual": 0.32771672771672744
+  },
+  "leakage_diff": 0.0
+}

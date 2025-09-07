@@ -1,0 +1,33 @@
+{
+  "head_id": 168,
+  "arm": "B",
+  "seed_u64": 1447452981742104670,
+  "weights_sha256": "d2b426b77c965c3ecd804c8d25c48ab45f0635db18275f68827cd48fa0d98be0",
+  "text_pre": "WHERE IS THE RULE AND THE PLAN BEFORE THE PLAN MOVE THE COURSE LOOK THE",
+  "text_post_mcmc": "IS THEIR YOUR THIS IT A BY BEEN THE THEM A WITH ARE OF AN TWO WHO SEEK AN",
+  "text_post_anchors": "ISEAST  THEIR YOURNORTHEAST  THIS ITBERLIN  ACLOCK  BY BEEN THE THEM A WITH ARE OF AN TWO WHO SEEK AN",
+  "text_final": "ISEAST THEN READ THEN READ THEIR YOURNORTHEAST THIS ITBERLIN AND ACLOCK A BY BEEN THE THEM A WITH ARE OF AN TWO WHO SEEK AN",
+  "metrics": {
+    "fw_pre": 8,
+    "verbs_pre": 1,
+    "cov_pre": 0.9333333333333333,
+    "fw_mcmc": 18,
+    "verbs_mcmc": 1,
+    "cov_mcmc": 1.0,
+    "fw_final": 14,
+    "verbs_final": 3,
+    "cov_final": 0.85
+  },
+  "placement": {
+    "positions": [
+      2,
+      13,
+      21,
+      23
+    ],
+    "token_boundaries": true,
+    "drop_predicted": 2.380476770563247,
+    "drop_actual": 0.3362229102167178
+  },
+  "leakage_diff": 0.0
+}

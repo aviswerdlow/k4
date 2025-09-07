@@ -1,0 +1,33 @@
+{
+  "head_id": 160,
+  "arm": "B",
+  "seed_u64": 12178605094962726571,
+  "weights_sha256": "d2b426b77c965c3ecd804c8d25c48ab45f0635db18275f68827cd48fa0d98be0",
+  "text_pre": "IF THE SKY IS SLOW THEN HOLD [DIR1] THE POINT IS [DIR1] OF THE COURSE STOP",
+  "text_post_mcmc": "THAT WHO THEY OR WILL NOT FOR ARE CAN WHAT TWO WHEN ON HAD WHERE WHAT PUT A",
+  "text_post_anchors": "THATEAST  WHO THEY ORNORTHEAST  WILLBERLIN  NOTCLOCK  FOR ARE CAN WHAT TWO WHEN ON HAD WHERE WHAT PUT A",
+  "text_final": "THATEAST THEN READ THE WHO THE THEY AND AND ORNORTHEAST THE WILLBERLIN NOTCLOCK FOR ARE CAN WHAT TWO WHEN ON HAD WHERE WHAT PUT A",
+  "metrics": {
+    "fw_pre": 8,
+    "verbs_pre": 1,
+    "cov_pre": 0.875,
+    "fw_mcmc": 17,
+    "verbs_mcmc": 1,
+    "cov_mcmc": 1.0,
+    "fw_final": 14,
+    "verbs_final": 2,
+    "cov_final": 0.85
+  },
+  "placement": {
+    "positions": [
+      4,
+      16,
+      21,
+      25
+    ],
+    "token_boundaries": true,
+    "drop_predicted": 2.305010685002208,
+    "drop_actual": 0.4194444444444443
+  },
+  "leakage_diff": 0.0
+}

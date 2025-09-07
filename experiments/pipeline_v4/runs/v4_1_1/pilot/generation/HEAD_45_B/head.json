@@ -1,0 +1,33 @@
+{
+  "head_id": 45,
+  "arm": "B",
+  "seed_u64": 5589124774796833804,
+  "weights_sha256": "d2b426b77c965c3ecd804c8d25c48ab45f0635db18275f68827cd48fa0d98be0",
+  "text_pre": "WHAT TURN THE BOOK CLEAR APPLY THE DAY AND MAKE OF WHAT WOULD THAT AN WOULD",
+  "text_post_mcmc": "WE THEIR THEY AND BY BUT NOT THEN AN IT FOR THEM MORE SO IS IF END WHAT",
+  "text_post_anchors": "WEEAST  THEIR THEYNORTHEAST  AND BY BUTBERLIN  NOTCLOCK  THEN AN IT FOR THEM MORE SO IS IF END WHAT",
+  "text_final": "WEEAST THEN READ THEIR THEYNORTHEAST AND READ BY BUTBERLIN AND NOTCLOCK A THEN AN IT FOR THEM MORE SO IS IF END WHAT",
+  "metrics": {
+    "fw_pre": 10,
+    "verbs_pre": 1,
+    "cov_pre": 1.0,
+    "fw_mcmc": 17,
+    "verbs_mcmc": 1,
+    "cov_mcmc": 1.0,
+    "fw_final": 13,
+    "verbs_final": 3,
+    "cov_final": 0.85
+  },
+  "placement": {
+    "positions": [
+      2,
+      13,
+      24,
+      28
+    ],
+    "token_boundaries": true,
+    "drop_predicted": 2.6103579801632066,
+    "drop_actual": 0.4194444444444443
+  },
+  "leakage_diff": 0.0
+}

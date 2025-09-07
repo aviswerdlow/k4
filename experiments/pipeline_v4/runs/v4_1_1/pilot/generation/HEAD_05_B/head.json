@@ -1,0 +1,33 @@
+{
+  "head_id": 5,
+  "arm": "B",
+  "seed_u64": 2922814630681453225,
+  "weights_sha256": "d2b426b77c965c3ecd804c8d25c48ab45f0635db18275f68827cd48fa0d98be0",
+  "text_pre": "STEP THE WORD AND FIND THE LOCK WHEN OLD MOVE THE POINT ALL ONE THERE SO",
+  "text_post_mcmc": "WE FROM THEIR FROM OF HAVE IN AS WAS WHERE THEY BUT IS NO THERE LEAD IN",
+  "text_post_anchors": "WEEAST  FROM THEIR FROM OFNORTHEAST  HAVEBERLIN  INCLOCK  AS WAS WHERE THEY BUT IS NO THERE LEAD IN",
+  "text_final": "WEEAST THEN READ THE FROM THE THEIR AND AND FROM THE OFNORTHEAST HAVEBERLIN INCLOCK AS WAS WHERE THEY BUT IS NO THERE LEAD IN",
+  "metrics": {
+    "fw_pre": 9,
+    "verbs_pre": 1,
+    "cov_pre": 1.0,
+    "fw_mcmc": 16,
+    "verbs_mcmc": 1,
+    "cov_mcmc": 1.0,
+    "fw_final": 16,
+    "verbs_final": 2,
+    "cov_final": 0.85
+  },
+  "placement": {
+    "positions": [
+      2,
+      21,
+      26,
+      29
+    ],
+    "token_boundaries": true,
+    "drop_predicted": 2.532731691506071,
+    "drop_actual": 0.4470588235294115
+  },
+  "leakage_diff": 0.0
+}

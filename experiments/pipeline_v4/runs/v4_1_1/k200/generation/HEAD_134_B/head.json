@@ -1,0 +1,33 @@
+{
+  "head_id": 134,
+  "arm": "B",
+  "seed_u64": 5449398404041477038,
+  "weights_sha256": "d2b426b77c965c3ecd804c8d25c48ab45f0635db18275f68827cd48fa0d98be0",
+  "text_pre": "WHEN GOOD SEND THE HOUR AND WHAT ASK THE MAP NEAR AND WHERE IS THE LAW AND",
+  "text_post_mcmc": "WHERE GO BUT ON MORE WHEN AN IN WHO BE ONE FROM A NO THIS WHAT IF WITH BEEN",
+  "text_post_anchors": "WHEREEAST  GO BUT ONNORTHEAST  MOREBERLIN  WHENCLOCK  AN IN WHO BE ONE FROM A NO THIS WHAT IF WITH BEEN",
+  "text_final": "WHEREEAST THEN READ THEN READ THE GO BUT ONNORTHEAST AND MOREBERLIN A WHENCLOCK AN IN WHO BE ONE FROM A NO THIS WHAT IF WITH BEEN",
+  "metrics": {
+    "fw_pre": 10,
+    "verbs_pre": 1,
+    "cov_pre": 1.0,
+    "fw_mcmc": 18,
+    "verbs_mcmc": 1,
+    "cov_mcmc": 1.0,
+    "fw_final": 15,
+    "verbs_final": 3,
+    "cov_final": 0.85
+  },
+  "placement": {
+    "positions": [
+      5,
+      15,
+      20,
+      25
+    ],
+    "token_boundaries": true,
+    "drop_predicted": 2.2807921059241725,
+    "drop_actual": 0.3362229102167178
+  },
+  "leakage_diff": 0.0
+}

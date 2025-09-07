@@ -1,0 +1,33 @@
+{
+  "head_id": 111,
+  "arm": "B",
+  "seed_u64": 7585227431639874781,
+  "weights_sha256": "d2b426b77c965c3ecd804c8d25c48ab45f0635db18275f68827cd48fa0d98be0",
+  "text_pre": "IF PATH THEN NOTE THE SUN AND WHAT FORGET THE BOOK FAR AND IF THE LIFE IS",
+  "text_post_mcmc": "MORE CHECK THEIR ONE SO YOUR THEIR AN THAT WITH IT WITH ON YOU WITH OUR BY",
+  "text_post_anchors": "MORE CHECK THEIR ONE SO THE EAST YOUR THE NORTHEAST THEIR THE BERLIN AN THE CLOCK THAT WITH IT WITH ON YOU WITH OUR BY",
+  "text_final": "MORE CHECK THEIR THE ONE AND AND SO THE THEN NOTE THE EAST YOUR THE NORTHEAST THEIR THE BERLIN AN THE CLOCK THAT THE WITH IT WITH ON YOU WITH OUR BY",
+  "metrics": {
+    "fw_pre": 10,
+    "verbs_pre": 1,
+    "cov_pre": 1.0,
+    "fw_mcmc": 16,
+    "verbs_mcmc": 1,
+    "cov_mcmc": 1.0,
+    "fw_final": 20,
+    "verbs_final": 2,
+    "cov_final": 0.875
+  },
+  "placement": {
+    "positions": [
+      24,
+      29,
+      35,
+      38
+    ],
+    "token_boundaries": true,
+    "drop_predicted": 2.4286623364574087,
+    "drop_actual": 0.368231884057971
+  },
+  "leakage_diff": 0.0
+}

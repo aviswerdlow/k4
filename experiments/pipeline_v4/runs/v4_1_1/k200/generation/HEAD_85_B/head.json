@@ -1,0 +1,33 @@
+{
+  "head_id": 85,
+  "arm": "B",
+  "seed_u64": 10950149252481444476,
+  "weights_sha256": "d2b426b77c965c3ecd804c8d25c48ab45f0635db18275f68827cd48fa0d98be0",
+  "text_pre": "WAIT HARD AND TAKE FAR AND WHEN CLEAR UNDERSTAND THE SIGN WAS MORE AN THEIR",
+  "text_post_mcmc": "OF TO FROM THEM ALL AT THE FAR NOT YOUR WHO BY ARE TO THIS HAS NOT GIVE",
+  "text_post_anchors": "OFEAST  TO FROMNORTHEAST  THEMBERLIN  ALL AT THECLOCK  FAR NOT YOUR WHO BY ARE TO THIS HAS NOT GIVE",
+  "text_final": "OFEAST TO FROMNORTHEAST THE THEMBERLIN AND AND ALL AT THECLOCK THE FAR NOT YOUR WHO BY ARE TO THIS HAS NOT GIVE",
+  "metrics": {
+    "fw_pre": 8,
+    "verbs_pre": 1,
+    "cov_pre": 1.0,
+    "fw_mcmc": 16,
+    "verbs_mcmc": 1,
+    "cov_mcmc": 1.0,
+    "fw_final": 11,
+    "verbs_final": 1,
+    "cov_final": 0.85
+  },
+  "placement": {
+    "positions": [
+      2,
+      10,
+      15,
+      26
+    ],
+    "token_boundaries": true,
+    "drop_predicted": 2.737873824472616,
+    "drop_actual": 0.4194444444444443
+  },
+  "leakage_diff": 0.0
+}

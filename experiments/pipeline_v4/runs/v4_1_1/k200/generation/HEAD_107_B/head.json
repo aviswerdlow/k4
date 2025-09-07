@@ -1,0 +1,33 @@
+{
+  "head_id": 107,
+  "arm": "B",
+  "seed_u64": 16982571401616645507,
+  "weights_sha256": "d2b426b77c965c3ecd804c8d25c48ab45f0635db18275f68827cd48fa0d98be0",
+  "text_pre": "HOLD THE PATH AND USE THE WORD THE PLAN IS [DIR1] OF THE WAY ON MORE ARE",
+  "text_post_mcmc": "TWO WHEN CAN IN WAS THIS THEM IN TO WHERE WE MORE HAVE AND THEN THINK WE",
+  "text_post_anchors": "TWOEAST  WHEN CAN IN WASNORTHEAST  THISBERLIN  THEMCLOCK  IN TO WHERE WE MORE HAVE AND THEN THINK WE",
+  "text_final": "TWOEAST THEN READ THEN READ THE WHEN CAN THE IN WASNORTHEAST A THISBERLIN THEMCLOCK IN TO WHERE WE MORE HAVE AND THEN THINK WE",
+  "metrics": {
+    "fw_pre": 10,
+    "verbs_pre": 1,
+    "cov_pre": 0.9411764705882353,
+    "fw_mcmc": 16,
+    "verbs_mcmc": 1,
+    "cov_mcmc": 1.0,
+    "fw_final": 12,
+    "verbs_final": 3,
+    "cov_final": 0.85
+  },
+  "placement": {
+    "positions": [
+      3,
+      19,
+      24,
+      29
+    ],
+    "token_boundaries": true,
+    "drop_predicted": 2.411054540019077,
+    "drop_actual": 0.4470588235294115
+  },
+  "leakage_diff": 0.0
+}

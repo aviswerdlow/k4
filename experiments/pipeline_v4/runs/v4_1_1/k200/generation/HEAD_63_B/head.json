@@ -1,0 +1,33 @@
+{
+  "head_id": 63,
+  "arm": "B",
+  "seed_u64": 6198068489376064704,
+  "weights_sha256": "d2b426b77c965c3ecd804c8d25c48ab45f0635db18275f68827cd48fa0d98be0",
+  "text_pre": "APPLY THE STAR AND TAKE AND HOLD THE ROOM AND POINT THE COURSE AND WHERE",
+  "text_post_mcmc": "AS AT TO THE NO WOULD THE THE WHAT BE YOU BUT AT WAS YOU YOUR IT IS SEND IN",
+  "text_post_anchors": "AS AT TO THE THE EAST NO THE NORTHEAST WOULD THE BERLIN THE THE CLOCK THE WHAT BE YOU BUT AT WAS YOU YOUR IT IS SEND IN",
+  "text_final": "AS AT TO THE THEN AND AND READ THEN READ THE EAST NO THE NORTHEAST WOULD THE BERLIN THE THE CLOCK THE WHAT AND BE YOU BUT AT WAS YOU YOUR IT IS SEND IN",
+  "metrics": {
+    "fw_pre": 8,
+    "verbs_pre": 1,
+    "cov_pre": 1.0,
+    "fw_mcmc": 19,
+    "verbs_mcmc": 1,
+    "cov_mcmc": 1.0,
+    "fw_final": 23,
+    "verbs_final": 3,
+    "cov_final": 0.8857142857142857
+  },
+  "placement": {
+    "positions": [
+      13,
+      16,
+      22,
+      26
+    ],
+    "token_boundaries": true,
+    "drop_predicted": 2.7794079316792812,
+    "drop_actual": 0.32771672771672744
+  },
+  "leakage_diff": 0.0
+}

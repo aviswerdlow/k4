@@ -1,0 +1,33 @@
+{
+  "head_id": 45,
+  "arm": "A",
+  "seed_u64": 3284911744327727027,
+  "weights_sha256": "c22ce0c4dd0c04d11e1c9d5d89b07f481532048aa233bd79470b565f7b53d41b",
+  "text_pre": "WHERE IS THE POINT AND THE PLAN WHEN HIGH GET THE SHADOW HAVE SO CAN BEEN",
+  "text_post_mcmc": "NOT HOLD THE SO YOUR FOR ON WILL AN NO IS NO A THAT A IT FROM ON ONE TO",
+  "text_post_anchors": "NOT HOLD THE SO YOUR THE EAST FOR THE NORTHEAST ON THE BERLIN WILL THE CLOCK AN NO IS NO A THAT A IT FROM ON ONE TO",
+  "text_final": "NOT HOLD THE SO THE YOUR AND A THEN NOTE THE EAST FOR THE NORTHEAST ON THE BERLIN WILL THE CLOCK A AN THE NO IS NO A THAT A IT FROM ON ONE TO",
+  "metrics": {
+    "fw_pre": 11,
+    "verbs_pre": 1,
+    "cov_pre": 1.0,
+    "fw_mcmc": 19,
+    "verbs_mcmc": 1,
+    "cov_mcmc": 1.0,
+    "fw_final": 22,
+    "verbs_final": 2,
+    "cov_final": 0.8857142857142857
+  },
+  "placement": {
+    "positions": [
+      21,
+      25,
+      28,
+      33
+    ],
+    "token_boundaries": true,
+    "drop_predicted": 2.4600325994050944,
+    "drop_actual": 0.32771672771672744
+  },
+  "leakage_diff": 0.0
+}

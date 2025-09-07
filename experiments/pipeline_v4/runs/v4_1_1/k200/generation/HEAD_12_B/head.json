@@ -1,0 +1,33 @@
+{
+  "head_id": 12,
+  "arm": "B",
+  "seed_u64": 5425356122684808648,
+  "weights_sha256": "d2b426b77c965c3ecd804c8d25c48ab45f0635db18275f68827cd48fa0d98be0",
+  "text_pre": "BEFORE THE GATE BRING THE LIE AND WHERE IS THE LIFE AND THE MAP AND IF CODE",
+  "text_post_mcmc": "OF AND THEN FOR IN WHERE YOU ARE FOR ALL IN BE CAN ITS IF ON NO READ WE",
+  "text_post_anchors": "OFEAST  AND THEN FOR INNORTHEAST  WHEREBERLIN  YOUCLOCK  ARE FOR ALL IN BE CAN ITS IF ON NO READ WE",
+  "text_final": "OFEAST THEN READ THE AND THEN FOR AND INNORTHEAST A WHEREBERLIN A YOUCLOCK ARE FOR ALL IN BE CAN ITS IF ON NO READ WE",
+  "metrics": {
+    "fw_pre": 10,
+    "verbs_pre": 1,
+    "cov_pre": 0.9411764705882353,
+    "fw_mcmc": 18,
+    "verbs_mcmc": 1,
+    "cov_mcmc": 1.0,
+    "fw_final": 15,
+    "verbs_final": 2,
+    "cov_final": 0.85
+  },
+  "placement": {
+    "positions": [
+      2,
+      18,
+      24,
+      28
+    ],
+    "token_boundaries": true,
+    "drop_predicted": 2.557007876357836,
+    "drop_actual": 0.39504643962848274
+  },
+  "leakage_diff": 0.0
+}

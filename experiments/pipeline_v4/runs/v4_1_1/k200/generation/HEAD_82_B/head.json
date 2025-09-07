@@ -1,0 +1,33 @@
+{
+  "head_id": 82,
+  "arm": "B",
+  "seed_u64": 655761319597582102,
+  "weights_sha256": "d2b426b77c965c3ecd804c8d25c48ab45f0635db18275f68827cd48fa0d98be0",
+  "text_pre": "WHERE IS THE WALL AND THE SKY BEFORE THE MOON NOTE THE CODE WHAT READ THE",
+  "text_post_mcmc": "IS ON WILL AND THE WHO BEFORE MOON WHAT SEND ITS CODE NOT A THE THERE",
+  "text_post_anchors": "ISEAST  ON WILLNORTHEAST  AND THE WHOBERLIN  BEFORECLOCK  MOON WHAT SEND ITS CODE NOT A THE THERE",
+  "text_final": "ISEAST THEN READ ON WILLNORTHEAST AND READ THE WHOBERLIN A BEFORECLOCK MOON WHAT SEND ITS CODE NOT A THE THERE",
+  "metrics": {
+    "fw_pre": 9,
+    "verbs_pre": 1,
+    "cov_pre": 0.9375,
+    "fw_mcmc": 12,
+    "verbs_mcmc": 1,
+    "cov_mcmc": 0.9375,
+    "fw_final": 9,
+    "verbs_final": 3,
+    "cov_final": 0.85
+  },
+  "placement": {
+    "positions": [
+      2,
+      10,
+      22,
+      29
+    ],
+    "token_boundaries": true,
+    "drop_predicted": 2.4459070755534738,
+    "drop_actual": 0.25178571428571406
+  },
+  "leakage_diff": 0.0
+}

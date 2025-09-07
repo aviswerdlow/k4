@@ -1,0 +1,33 @@
+{
+  "head_id": 16,
+  "arm": "B",
+  "seed_u64": 13470124672769208408,
+  "weights_sha256": "d2b426b77c965c3ecd804c8d25c48ab45f0635db18275f68827cd48fa0d98be0",
+  "text_pre": "WHAT KNOW THE MARK HARD AND APPLY THE YEAR AND REMEMBER ON ON WAS MORE",
+  "text_post_mcmc": "WHO THE ON WHO OF ON WE ITS IF TWO HAVE AT ALL THAT ARE IF APPLY AS",
+  "text_post_anchors": "WHOEAST  THE ON WHONORTHEAST  OF ONBERLIN  WECLOCK  ITS IF TWO HAVE AT ALL THAT ARE IF APPLY AS",
+  "text_final": "WHOEAST THEN READ THE ON WHONORTHEAST OF ONBERLIN AND WECLOCK THE ITS IF TWO HAVE AT ALL THAT ARE IF APPLY AS",
+  "metrics": {
+    "fw_pre": 9,
+    "verbs_pre": 1,
+    "cov_pre": 1.0,
+    "fw_mcmc": 17,
+    "verbs_mcmc": 1,
+    "cov_mcmc": 1.0,
+    "fw_final": 13,
+    "verbs_final": 2,
+    "cov_final": 0.85
+  },
+  "placement": {
+    "positions": [
+      3,
+      14,
+      20,
+      23
+    ],
+    "token_boundaries": true,
+    "drop_predicted": 2.3041638989288216,
+    "drop_actual": 0.4194444444444443
+  },
+  "leakage_diff": 0.0
+}

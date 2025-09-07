@@ -1,0 +1,33 @@
+{
+  "head_id": 141,
+  "arm": "B",
+  "seed_u64": 6943731162129976418,
+  "weights_sha256": "d2b426b77c965c3ecd804c8d25c48ab45f0635db18275f68827cd48fa0d98be0",
+  "text_pre": "BEFORE THE RULE HOLD THE RULE THE DAY IS [DIR1] OF THE GROUND TO WHEN TWO",
+  "text_post_mcmc": "THEM USE IS IF AN THAT MORE THERE HAS WILL TWO NOT WOULD OUR IT ARE WHAT OR",
+  "text_post_anchors": "THEM USE IS IF AN THAT THE EAST MORE THE NORTHEAST THERE HAS WILL THE BERLIN TWO THE CLOCK NOT WOULD OUR IT ARE WHAT OR",
+  "text_final": "THEM USE IS IF THE AN AND A THAT THEN SEE THE EAST MORE THE NORTHEAST A THERE THE HAS WILL THE BERLIN TWO THE CLOCK NOT WOULD OUR IT ARE WHAT OR",
+  "metrics": {
+    "fw_pre": 9,
+    "verbs_pre": 1,
+    "cov_pre": 0.875,
+    "fw_mcmc": 17,
+    "verbs_mcmc": 1,
+    "cov_mcmc": 1.0,
+    "fw_final": 19,
+    "verbs_final": 2,
+    "cov_final": 0.8787878787878788
+  },
+  "placement": {
+    "positions": [
+      23,
+      28,
+      43,
+      47
+    ],
+    "token_boundaries": true,
+    "drop_predicted": 2.3793577145593297,
+    "drop_actual": 0.3536858974358976
+  },
+  "leakage_diff": 0.0
+}

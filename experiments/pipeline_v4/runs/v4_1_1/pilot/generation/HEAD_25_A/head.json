@@ -1,0 +1,33 @@
+{
+  "head_id": 25,
+  "arm": "A",
+  "seed_u64": 7760575852807844271,
+  "weights_sha256": "c22ce0c4dd0c04d11e1c9d5d89b07f481532048aa233bd79470b565f7b53d41b",
+  "text_pre": "IF THE DARK IS TRUE THEN TURN [DIR1] AND IF YEAR THEN GIVE THE DAY AND APPL",
+  "text_post_mcmc": "THEN AND A WAS HAVE AS IF THERE WAS WAS BE IN IN AS NO THEM HAS WILL GO AND",
+  "text_post_anchors": "THENEAST  AND ANORTHEAST  WASBERLIN  HAVECLOCK  AS IF THERE WAS WAS BE IN IN AS NO THEM HAS WILL GO AND",
+  "text_final": "THENEAST AND ANORTHEAST THE WASBERLIN AND HAVECLOCK A AS IF THERE WAS WAS BE IN IN AS NO THEM HAS WILL GO AND",
+  "metrics": {
+    "fw_pre": 9,
+    "verbs_pre": 1,
+    "cov_pre": 0.8823529411764706,
+    "fw_mcmc": 19,
+    "verbs_mcmc": 1,
+    "cov_mcmc": 1.0,
+    "fw_final": 14,
+    "verbs_final": 1,
+    "cov_final": 0.85
+  },
+  "placement": {
+    "positions": [
+      4,
+      10,
+      14,
+      19
+    ],
+    "token_boundaries": true,
+    "drop_predicted": 2.7591440609793825,
+    "drop_actual": 0.3177777777777777
+  },
+  "leakage_diff": 0.0
+}

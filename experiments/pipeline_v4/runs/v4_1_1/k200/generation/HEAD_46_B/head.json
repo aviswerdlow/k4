@@ -1,0 +1,33 @@
+{
+  "head_id": 46,
+  "arm": "B",
+  "seed_u64": 4512188494912444598,
+  "weights_sha256": "d2b426b77c965c3ecd804c8d25c48ab45f0635db18275f68827cd48fa0d98be0",
+  "text_pre": "SET THE PLAN TO BRIGHT MOVE [DIR1] AND SEE [DIR2] BEEN ARE THE THE WILL",
+  "text_post_mcmc": "ON END IT THEIR THAT THIS THEY WILL THAT OR BUT WE AND THEN",
+  "text_post_anchors": "ONEAST  END ITNORTHEAST  THEIR THAT THIS THE BERLIN THEY THE CLOCK WILL THAT OR BUT WE AND THEN",
+  "text_final": "ONEAST THEN READ THE END THE ITNORTHEAST AND AND THEIR THE THAT THIS THE BERLIN THEY THE CLOCK WILL THAT OR BUT WE AND THEN",
+  "metrics": {
+    "fw_pre": 8,
+    "verbs_pre": 1,
+    "cov_pre": 0.8666666666666667,
+    "fw_mcmc": 13,
+    "verbs_mcmc": 1,
+    "cov_mcmc": 1.0,
+    "fw_final": 16,
+    "verbs_final": 2,
+    "cov_final": 0.85
+  },
+  "placement": {
+    "positions": [
+      2,
+      9,
+      26,
+      31
+    ],
+    "token_boundaries": true,
+    "drop_predicted": 2.699639435232131,
+    "drop_actual": 0.4090277777777773
+  },
+  "leakage_diff": 0.0
+}

@@ -1,0 +1,33 @@
+{
+  "head_id": 10,
+  "arm": "B",
+  "seed_u64": 826317727972303153,
+  "weights_sha256": "d2b426b77c965c3ecd804c8d25c48ab45f0635db18275f68827cd48fa0d98be0",
+  "text_pre": "IF HOUR THEN PUT THE TIME. LOOK THEN SEEK AND STOP. TWO THAT AT ON HAVE",
+  "text_post_mcmc": "HAS WITH WAS THEM WHAT IS SO WITH THERE OUR THERE IF THAT OF YOU SEEK IT",
+  "text_post_anchors": "HASEAST  WITH WASNORTHEAST  THEMBERLIN  WHAT IS SOCLOCK  WITH THERE OUR THERE IF THAT OF YOU SEEK IT",
+  "text_final": "HASEAST THEN READ THEN READ WITH WASNORTHEAST THE THEMBERLIN AND AND WHAT THE IS SOCLOCK WITH THERE OUR THERE IF THAT OF YOU SEEK IT",
+  "metrics": {
+    "fw_pre": 10,
+    "verbs_pre": 1,
+    "cov_pre": 0.875,
+    "fw_mcmc": 16,
+    "verbs_mcmc": 1,
+    "cov_mcmc": 1.0,
+    "fw_final": 15,
+    "verbs_final": 3,
+    "cov_final": 0.85
+  },
+  "placement": {
+    "positions": [
+      3,
+      12,
+      17,
+      28
+    ],
+    "token_boundaries": true,
+    "drop_predicted": 2.590963545311488,
+    "drop_actual": 0.4470588235294115
+  },
+  "leakage_diff": 0.0
+}

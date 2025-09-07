@@ -1,0 +1,33 @@
+{
+  "head_id": 193,
+  "arm": "B",
+  "seed_u64": 11113443395544827637,
+  "weights_sha256": "d2b426b77c965c3ecd804c8d25c48ab45f0635db18275f68827cd48fa0d98be0",
+  "text_pre": "THE PAGE IS [DIR1] OF THE WALL WHERE IS THE LIE AND THE POINT WHEN FIRST",
+  "text_post_mcmc": "FROM OR IN TWO IF BEEN HAD THEIR TO THERE WHERE IS MORE THE BE OUR THINK IN",
+  "text_post_anchors": "FROM OR IN TWOEAST  IFNORTHEAST  BEENBERLIN  HADCLOCK  THEIR TO THERE WHERE IS MORE THE BE OUR THINK IN",
+  "text_final": "THEN SEE THE FROM THE OR IN THE TWOEAST AND IFNORTHEAST THE BEENBERLIN HADCLOCK THEIR TO THERE WHERE IS MORE THE BE OUR THINK IN",
+  "metrics": {
+    "fw_pre": 10,
+    "verbs_pre": 1,
+    "cov_pre": 0.9375,
+    "fw_mcmc": 17,
+    "verbs_mcmc": 1,
+    "cov_mcmc": 1.0,
+    "fw_final": 17,
+    "verbs_final": 2,
+    "cov_final": 0.85
+  },
+  "placement": {
+    "positions": [
+      14,
+      17,
+      22,
+      26
+    ],
+    "token_boundaries": true,
+    "drop_predicted": 2.4608609843805764,
+    "drop_actual": 0.4194444444444443
+  },
+  "leakage_diff": 0.0
+}

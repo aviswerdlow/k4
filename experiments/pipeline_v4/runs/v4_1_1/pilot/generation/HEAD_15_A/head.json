@@ -1,0 +1,33 @@
+{
+  "head_id": 15,
+  "arm": "A",
+  "seed_u64": 13578156951612518162,
+  "weights_sha256": "c22ce0c4dd0c04d11e1c9d5d89b07f481532048aa233bd79470b565f7b53d41b",
+  "text_pre": "FIND [DIR1] AND WAIT [DIR2] WHEN CLEAR SEND THE WALL IN HAVE IN ONE TWO",
+  "text_post_mcmc": "A TAKE SO AS TWO WITH BUT SO HAD MORE THEN AN THERE THERE OR OR TO ARE BY",
+  "text_post_anchors": "A TAKE SO AS TWO THE EAST WITH BUT SO THE NORTHEAST HAD THE BERLIN MORE THE CLOCK THEN AN THERE THERE OR OR TO ARE BY",
+  "text_final": "A TAKE SO THE AS AND AND TWO THEN NOTE THE EAST WITH A BUT SO THE NORTHEAST HAD THE BERLIN MORE THE CLOCK AND THEN AN THERE THERE OR OR TO ARE BY",
+  "metrics": {
+    "fw_pre": 8,
+    "verbs_pre": 1,
+    "cov_pre": 0.8666666666666667,
+    "fw_mcmc": 18,
+    "verbs_mcmc": 1,
+    "cov_mcmc": 1.0,
+    "fw_final": 25,
+    "verbs_final": 2,
+    "cov_final": 0.8823529411764706
+  },
+  "placement": {
+    "positions": [
+      17,
+      29,
+      33,
+      38
+    ],
+    "token_boundaries": true,
+    "drop_predicted": 2.5381230887281134,
+    "drop_actual": 0.34021786492374684
+  },
+  "leakage_diff": 0.0
+}

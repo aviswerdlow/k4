@@ -1,0 +1,33 @@
+{
+  "head_id": 127,
+  "arm": "B",
+  "seed_u64": 1900806575102723336,
+  "weights_sha256": "d2b426b77c965c3ecd804c8d25c48ab45f0635db18275f68827cd48fa0d98be0",
+  "text_pre": "THE STEP IS [DIR1] OF THE LAW AND BEFORE THE SKY READ THE SHADOW IF THERE",
+  "text_post_mcmc": "ITS OF TWO IN WHO ON AT A BE BE A HAVE HAVE MORE WITH TWO POINT THEIR",
+  "text_post_anchors": "ITSEAST  OF TWO IN WHONORTHEAST  ONBERLIN  ATCLOCK  A BE BE A HAVE HAVE MORE WITH TWO POINT THEIR",
+  "text_final": "ITSEAST THEN READ THEN READ THE OF TWO IN AND WHONORTHEAST A ONBERLIN ATCLOCK A BE BE A HAVE HAVE MORE WITH TWO POINT THEIR",
+  "metrics": {
+    "fw_pre": 9,
+    "verbs_pre": 1,
+    "cov_pre": 0.875,
+    "fw_mcmc": 17,
+    "verbs_mcmc": 1,
+    "cov_mcmc": 1.0,
+    "fw_final": 13,
+    "verbs_final": 3,
+    "cov_final": 0.85
+  },
+  "placement": {
+    "positions": [
+      3,
+      17,
+      20,
+      23
+    ],
+    "token_boundaries": true,
+    "drop_predicted": 2.5934174927178697,
+    "drop_actual": 0.4194444444444443
+  },
+  "leakage_diff": 0.0
+}

@@ -1,0 +1,33 @@
+{
+  "head_id": 41,
+  "arm": "B",
+  "seed_u64": 4304261876498653604,
+  "weights_sha256": "d2b426b77c965c3ecd804c8d25c48ab45f0635db18275f68827cd48fa0d98be0",
+  "text_pre": "TURN THE PATH RIGHT AND LOOK THEN TURN AND SET NOT NOT NO MORE HAD ON NO",
+  "text_post_mcmc": "IS SO ITS AT THEIR NO WITH AT WOULD BUT OR THE ITS YOU ON THEM THEM GO ONE",
+  "text_post_anchors": "ISEAST  SO ITSNORTHEAST  AT THE BERLIN THEIR THE CLOCK NO WITH AT WOULD BUT OR THE ITS YOU ON THEM THEM GO ONE",
+  "text_final": "ISEAST SO ITSNORTHEAST THEN READ THEN READ THE AT THE BERLIN THEIR THE CLOCK NO A WITH AT WOULD BUT OR THE ITS YOU ON THEM THEM GO ONE",
+  "metrics": {
+    "fw_pre": 11,
+    "verbs_pre": 1,
+    "cov_pre": 1.0,
+    "fw_mcmc": 18,
+    "verbs_mcmc": 1,
+    "cov_mcmc": 1.0,
+    "fw_final": 16,
+    "verbs_final": 3,
+    "cov_final": 0.8620689655172413
+  },
+  "placement": {
+    "positions": [
+      2,
+      9,
+      13,
+      19
+    ],
+    "token_boundaries": true,
+    "drop_predicted": 2.4061373015864267,
+    "drop_actual": 0.3148946535135795
+  },
+  "leakage_diff": 0.0
+}

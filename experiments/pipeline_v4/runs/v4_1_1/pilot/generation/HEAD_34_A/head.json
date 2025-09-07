@@ -1,0 +1,33 @@
+{
+  "head_id": 34,
+  "arm": "A",
+  "seed_u64": 7712823768353611645,
+  "weights_sha256": "c22ce0c4dd0c04d11e1c9d5d89b07f481532048aa233bd79470b565f7b53d41b",
+  "text_pre": "IF THE STAR IS NEW THEN SEND [DIR1] IF YEAR THEN PUT THE DOOR WHAT FROM",
+  "text_post_mcmc": "FOR HAD HAD BE THEY BY THAT YOU IT HAD TWO THEM AN AND WILL LEAD NO",
+  "text_post_anchors": "FOREAST  HAD HADNORTHEAST  BE THEYBERLIN  BY THATCLOCK  YOU IT HAD TWO THEM AN AND WILL LEAD NO",
+  "text_final": "FOREAST THEN READ THEN READ HAD HADNORTHEAST BE THEYBERLIN BY THATCLOCK A A YOU IT HAD TWO THEM AN AND WILL LEAD NO",
+  "metrics": {
+    "fw_pre": 9,
+    "verbs_pre": 1,
+    "cov_pre": 0.9375,
+    "fw_mcmc": 16,
+    "verbs_mcmc": 1,
+    "cov_mcmc": 1.0,
+    "fw_final": 8,
+    "verbs_final": 3,
+    "cov_final": 0.85
+  },
+  "placement": {
+    "positions": [
+      3,
+      11,
+      19,
+      27
+    ],
+    "token_boundaries": true,
+    "drop_predicted": 2.5854325019520354,
+    "drop_actual": 0.3137254901960782
+  },
+  "leakage_diff": 0.0
+}

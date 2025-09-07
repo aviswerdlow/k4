@@ -1,0 +1,33 @@
+{
+  "head_id": 191,
+  "arm": "B",
+  "seed_u64": 753793888342298808,
+  "weights_sha256": "d2b426b77c965c3ecd804c8d25c48ab45f0635db18275f68827cd48fa0d98be0",
+  "text_pre": "APPLY THE HALL AND GIVE. STEP THEN SEE AND MOVE. OR SO WAS HAD SO WHAT",
+  "text_post_mcmc": "OUR ASK WILL ALL WHEN HAVE TO OF YOU BEEN AN WILL ONE WILL NOT MORE",
+  "text_post_anchors": "OUREAST  ASK WILL ALLNORTHEAST  WHENBERLIN  HAVECLOCK  TO OF YOU BEEN AN WILL ONE WILL NOT MORE",
+  "text_final": "OUREAST THEN READ THEN READ THE ASK WILL ALLNORTHEAST AND WHENBERLIN HAVECLOCK TO OF YOU BEEN AN WILL ONE WILL NOT MORE",
+  "metrics": {
+    "fw_pre": 10,
+    "verbs_pre": 1,
+    "cov_pre": 0.875,
+    "fw_mcmc": 15,
+    "verbs_mcmc": 1,
+    "cov_mcmc": 1.0,
+    "fw_final": 7,
+    "verbs_final": 3,
+    "cov_final": 0.85
+  },
+  "placement": {
+    "positions": [
+      3,
+      16,
+      21,
+      26
+    ],
+    "token_boundaries": true,
+    "drop_predicted": 2.413748673841181,
+    "drop_actual": 0.40714285714285703
+  },
+  "leakage_diff": 0.0
+}

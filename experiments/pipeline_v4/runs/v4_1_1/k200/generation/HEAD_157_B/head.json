@@ -1,0 +1,33 @@
+{
+  "head_id": 157,
+  "arm": "B",
+  "seed_u64": 10838478525351744713,
+  "weights_sha256": "d2b426b77c965c3ecd804c8d25c48ab45f0635db18275f68827cd48fa0d98be0",
+  "text_pre": "FIRST POINT THEN KNOW THE DARK AND SET THE SKY TO FALSE AND WHERE IS THE",
+  "text_post_mcmc": "WAS SHOW THEN ARE OR TWO BUT IS WITH ON OR ON BUT IF MORE WOULD MORE ALL ON",
+  "text_post_anchors": "WASEAST  SHOW THEN ARE ORNORTHEAST  TWOBERLIN  BUTCLOCK  IS WITH ON OR ON BUT IF MORE WOULD MORE ALL ON",
+  "text_final": "WASEAST THEN READ THE SHOW THEN READ ARE ORNORTHEAST A TWOBERLIN A BUTCLOCK IS WITH ON OR ON BUT IF MORE WOULD MORE ALL ON",
+  "metrics": {
+    "fw_pre": 9,
+    "verbs_pre": 1,
+    "cov_pre": 1.0,
+    "fw_mcmc": 18,
+    "verbs_mcmc": 1,
+    "cov_mcmc": 1.0,
+    "fw_final": 16,
+    "verbs_final": 3,
+    "cov_final": 0.85
+  },
+  "placement": {
+    "positions": [
+      3,
+      20,
+      24,
+      28
+    ],
+    "token_boundaries": true,
+    "drop_predicted": 2.5372260636742783,
+    "drop_actual": 0.39504643962848274
+  },
+  "leakage_diff": 0.0
+}

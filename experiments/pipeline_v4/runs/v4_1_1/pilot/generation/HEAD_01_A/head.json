@@ -1,0 +1,33 @@
+{
+  "head_id": 1,
+  "arm": "A",
+  "seed_u64": 13090451440531909799,
+  "weights_sha256": "c22ce0c4dd0c04d11e1c9d5d89b07f481532048aa233bd79470b565f7b53d41b",
+  "text_pre": "WHERE IS THE DEATH AND THE DOOR APPLY THE GATE AND FORGET SEND THE LOCK",
+  "text_post_mcmc": "ON HOLD FROM IN WHO AN AS AS OUR IN IF HAD IT AND THEIR IS THIS WILL THIS",
+  "text_post_anchors": "ON HOLD FROM IN WHO THE EAST AN AS AS THE NORTHEAST OUR THE BERLIN IN THE CLOCK IF HAD IT AND THEIR IS THIS WILL THIS",
+  "text_final": "ON HOLD FROM THE IN WHO AND THEN NOTE THE EAST THE AN AND A AS AS THE NORTHEAST OUR THE BERLIN IN THE CLOCK IF HAD IT AND THEIR IS THIS WILL THIS",
+  "metrics": {
+    "fw_pre": 8,
+    "verbs_pre": 1,
+    "cov_pre": 1.0,
+    "fw_mcmc": 18,
+    "verbs_mcmc": 1,
+    "cov_mcmc": 1.0,
+    "fw_final": 23,
+    "verbs_final": 2,
+    "cov_final": 0.8823529411764706
+  },
+  "placement": {
+    "positions": [
+      20,
+      29,
+      33,
+      36
+    ],
+    "token_boundaries": true,
+    "drop_predicted": 2.4659415266584497,
+    "drop_actual": 0.34021786492374684
+  },
+  "leakage_diff": 0.0
+}

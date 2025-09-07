@@ -1,0 +1,33 @@
+{
+  "head_id": 0,
+  "arm": "B",
+  "seed_u64": 1975402098572957550,
+  "weights_sha256": "d2b426b77c965c3ecd804c8d25c48ab45f0635db18275f68827cd48fa0d98be0",
+  "text_pre": "ASK THE ROOM AND ASK THE GATE AND BEFORE THE WALL GO THE MARK WITH WHEN",
+  "text_post_mcmc": "A OR HAD YOUR BUT AS THIS FOR NOT IF WE THE WHAT WILL AT WHEN TWO NOTE ITS",
+  "text_post_anchors": "AEAST  OR HADNORTHEAST  YOUR THE BERLIN BUT THE CLOCK AS THIS FOR NOT IF WE THE WHAT WILL AT WHEN TWO NOTE ITS",
+  "text_final": "AEAST THEN READ OR HADNORTHEAST THE YOUR THE BERLIN BUT THE CLOCK AND A AS THIS FOR NOT IF WE THE WHAT WILL AT WHEN TWO NOTE ITS",
+  "metrics": {
+    "fw_pre": 8,
+    "verbs_pre": 1,
+    "cov_pre": 0.9375,
+    "fw_mcmc": 18,
+    "verbs_mcmc": 1,
+    "cov_mcmc": 1.0,
+    "fw_final": 16,
+    "verbs_final": 2,
+    "cov_final": 0.8571428571428571
+  },
+  "placement": {
+    "positions": [
+      1,
+      8,
+      14,
+      18
+    ],
+    "token_boundaries": true,
+    "drop_predicted": 2.3259567270826538,
+    "drop_actual": 0.3148946535135795
+  },
+  "leakage_diff": 0.0
+}

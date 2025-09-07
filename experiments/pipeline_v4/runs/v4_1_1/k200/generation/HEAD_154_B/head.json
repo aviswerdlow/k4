@@ -1,0 +1,33 @@
+{
+  "head_id": 154,
+  "arm": "B",
+  "seed_u64": 16296050982047341212,
+  "weights_sha256": "d2b426b77c965c3ecd804c8d25c48ab45f0635db18275f68827cd48fa0d98be0",
+  "text_pre": "WAIT THE LIGHT CLEAR AND SEEK THE LIGHT FAST AND THE MOON IS [DIR1] OF THE",
+  "text_post_mcmc": "ITS AN OF WOULD THIS WOULD CAN BEEN IT HAD MORE AND IS BY BY AT SO KEEP NO",
+  "text_post_anchors": "ITSEAST  AN OF WOULD THE NORTHEAST THIS WOULD THE BERLIN CAN THE CLOCK BEEN IT HAD MORE AND IS BY BY AT SO KEEP NO",
+  "text_final": "ITSEAST THEN READ THEN READ THE AN OF WOULD THE NORTHEAST A THIS WOULD THE BERLIN CAN THE CLOCK THE BEEN IT HAD MORE AND IS BY BY AT SO KEEP NO",
+  "metrics": {
+    "fw_pre": 8,
+    "verbs_pre": 1,
+    "cov_pre": 0.9375,
+    "fw_mcmc": 18,
+    "verbs_mcmc": 1,
+    "cov_mcmc": 1.0,
+    "fw_final": 19,
+    "verbs_final": 3,
+    "cov_final": 0.875
+  },
+  "placement": {
+    "positions": [
+      3,
+      16,
+      27,
+      31
+    ],
+    "token_boundaries": true,
+    "drop_predicted": 2.6221988635673474,
+    "drop_actual": 0.3286751918158566
+  },
+  "leakage_diff": 0.0
+}

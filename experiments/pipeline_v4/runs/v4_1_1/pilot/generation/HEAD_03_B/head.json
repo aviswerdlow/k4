@@ -1,0 +1,33 @@
+{
+  "head_id": 3,
+  "arm": "B",
+  "seed_u64": 13776871397737721034,
+  "weights_sha256": "d2b426b77c965c3ecd804c8d25c48ab45f0635db18275f68827cd48fa0d98be0",
+  "text_pre": "APPLY THE WORD AND SEEK AND LOOK RIGHT AND STEP LAST SO ALL FOR WITH AT",
+  "text_post_mcmc": "THEIR BE ITS TWO FOR SO WHEN AT THERE ITS A BE BEEN THEY TWO CHECK ITS",
+  "text_post_anchors": "THEIR BE ITSEAST  TWONORTHEAST  FOR SOBERLIN  WHENCLOCK  AT THERE ITS A BE BEEN THEY TWO CHECK ITS",
+  "text_final": "THEN SEE THE THEIR THE BE ITSEAST THE TWONORTHEAST FOR SOBERLIN A WHENCLOCK AT THERE ITS A BE BEEN THEY TWO CHECK ITS",
+  "metrics": {
+    "fw_pre": 9,
+    "verbs_pre": 1,
+    "cov_pre": 1.0,
+    "fw_mcmc": 16,
+    "verbs_mcmc": 1,
+    "cov_mcmc": 1.0,
+    "fw_final": 12,
+    "verbs_final": 2,
+    "cov_final": 0.85
+  },
+  "placement": {
+    "positions": [
+      12,
+      16,
+      23,
+      28
+    ],
+    "token_boundaries": true,
+    "drop_predicted": 2.3546367740387595,
+    "drop_actual": 0.5137254901960779
+  },
+  "leakage_diff": 0.0
+}

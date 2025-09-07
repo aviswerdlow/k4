@@ -1,0 +1,33 @@
+{
+  "head_id": 44,
+  "arm": "B",
+  "seed_u64": 15566061185739901712,
+  "weights_sha256": "d2b426b77c965c3ecd804c8d25c48ab45f0635db18275f68827cd48fa0d98be0",
+  "text_pre": "WHERE IS THE SHADOW AND THE SUN GIVE THE GATE AND HOLD THE MOON SET THE",
+  "text_post_mcmc": "YOU ONE HAVE ITS HAD ARE NO ON CAN FROM THEY A WOULD AT AS IF WILL SEE ALL",
+  "text_post_anchors": "YOUEAST  ONE HAVENORTHEAST  ITSBERLIN  HADCLOCK  ARE NO ON CAN FROM THEY A WOULD AT AS IF WILL SEE ALL",
+  "text_final": "YOUEAST THEN READ ONE HAVENORTHEAST THE ITSBERLIN AND HADCLOCK A ARE NO ON CAN FROM THEY A WOULD AT AS IF WILL SEE ALL",
+  "metrics": {
+    "fw_pre": 9,
+    "verbs_pre": 1,
+    "cov_pre": 1.0,
+    "fw_mcmc": 18,
+    "verbs_mcmc": 1,
+    "cov_mcmc": 1.0,
+    "fw_final": 13,
+    "verbs_final": 2,
+    "cov_final": 0.85
+  },
+  "placement": {
+    "positions": [
+      3,
+      12,
+      16,
+      20
+    ],
+    "token_boundaries": true,
+    "drop_predicted": 2.439788583561043,
+    "drop_actual": 0.3362229102167178
+  },
+  "leakage_diff": 0.0
+}

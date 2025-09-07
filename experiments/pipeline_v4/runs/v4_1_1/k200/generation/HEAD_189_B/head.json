@@ -1,0 +1,33 @@
+{
+  "head_id": 189,
+  "arm": "B",
+  "seed_u64": 13900240829804372727,
+  "weights_sha256": "d2b426b77c965c3ecd804c8d25c48ab45f0635db18275f68827cd48fa0d98be0",
+  "text_pre": "HOLD THE PATH NEW APPLY THE TEXT AND TAKE ALL WHAT MORE AT TWO TWO MORE",
+  "text_post_mcmc": "IT YOU ALL WILL THE ON WILL ITS THEY IS A THEY THIS WILL WHEN THINK OR",
+  "text_post_anchors": "ITEAST  YOU ALL WILLNORTHEAST  THE ONBERLIN  WILLCLOCK  ITS THEY IS A THEY THIS WILL WHEN THINK OR",
+  "text_final": "ITEAST THEN READ THEN READ THE YOU THE ALL WILLNORTHEAST THE ONBERLIN AND WILLCLOCK ITS THEY IS A THEY THIS WILL WHEN THINK OR",
+  "metrics": {
+    "fw_pre": 10,
+    "verbs_pre": 1,
+    "cov_pre": 1.0,
+    "fw_mcmc": 16,
+    "verbs_mcmc": 1,
+    "cov_mcmc": 1.0,
+    "fw_final": 12,
+    "verbs_final": 3,
+    "cov_final": 0.85
+  },
+  "placement": {
+    "positions": [
+      2,
+      15,
+      22,
+      27
+    ],
+    "token_boundaries": true,
+    "drop_predicted": 2.483120148177554,
+    "drop_actual": 0.4470588235294115
+  },
+  "leakage_diff": 0.0
+}

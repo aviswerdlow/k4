@@ -1,0 +1,33 @@
+{
+  "head_id": 27,
+  "arm": "A",
+  "seed_u64": 16345859946786690041,
+  "weights_sha256": "c22ce0c4dd0c04d11e1c9d5d89b07f481532048aa233bd79470b565f7b53d41b",
+  "text_pre": "IF PAGE THEN SHOW THE GATE STEP BRIGHT AND SET NEXT ON A THIS WHEN OF THEIR",
+  "text_post_mcmc": "AND SO AN IT OF THAT THAT BUT THEN AN HAD FOR WE HAD OUR BE FOR WITH GO BE",
+  "text_post_anchors": "AND SO AN IT THE EAST OF THE NORTHEAST THAT THE BERLIN THAT THE CLOCK BUT THEN AN HAD FOR WE HAD OUR BE FOR WITH GO BE",
+  "text_final": "AND SO THE AN THE IT AND A THEN NOTE THE EAST OF THE NORTHEAST THAT THE BERLIN THAT THE CLOCK A BUT THEN AN HAD FOR WE HAD OUR BE FOR WITH GO BE",
+  "metrics": {
+    "fw_pre": 10,
+    "verbs_pre": 1,
+    "cov_pre": 1.0,
+    "fw_mcmc": 19,
+    "verbs_mcmc": 1,
+    "cov_mcmc": 1.0,
+    "fw_final": 24,
+    "verbs_final": 2,
+    "cov_final": 0.8857142857142857
+  },
+  "placement": {
+    "positions": [
+      13,
+      16,
+      21,
+      26
+    ],
+    "token_boundaries": true,
+    "drop_predicted": 2.523784534414017,
+    "drop_actual": 0.32771672771672744
+  },
+  "leakage_diff": 0.0
+}

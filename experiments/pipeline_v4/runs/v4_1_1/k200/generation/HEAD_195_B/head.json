@@ -1,0 +1,33 @@
+{
+  "head_id": 195,
+  "arm": "B",
+  "seed_u64": 10452036813506755169,
+  "weights_sha256": "d2b426b77c965c3ecd804c8d25c48ab45f0635db18275f68827cd48fa0d98be0",
+  "text_pre": "THE LINE IS [DIR1] OF THE STEP AND SET THE SKY TO NEXT AND APPLY THE SKY",
+  "text_post_mcmc": "WHEN THAT WITH NOT MORE ONE BEEN THE AT ARE THEM NO OR FROM FROM SEEK CAN",
+  "text_post_anchors": "WHENEAST  THAT WITH NOTNORTHEAST  MOREBERLIN  ONECLOCK  BEEN THE AT ARE THEM NO OR FROM FROM SEEK CAN",
+  "text_final": "WHENEAST THEN READ THEN READ THE THAT WITH THE NOTNORTHEAST AND MOREBERLIN THE ONECLOCK BEEN THE AT ARE THEM NO OR FROM FROM SEEK CAN",
+  "metrics": {
+    "fw_pre": 9,
+    "verbs_pre": 1,
+    "cov_pre": 0.9411764705882353,
+    "fw_mcmc": 16,
+    "verbs_mcmc": 1,
+    "cov_mcmc": 1.0,
+    "fw_final": 14,
+    "verbs_final": 3,
+    "cov_final": 0.85
+  },
+  "placement": {
+    "positions": [
+      4,
+      18,
+      23,
+      27
+    ],
+    "token_boundaries": true,
+    "drop_predicted": 2.481055310303698,
+    "drop_actual": 0.4470588235294115
+  },
+  "leakage_diff": 0.0
+}

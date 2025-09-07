@@ -1,0 +1,33 @@
+{
+  "head_id": 129,
+  "arm": "B",
+  "seed_u64": 6891483256442036801,
+  "weights_sha256": "d2b426b77c965c3ecd804c8d25c48ab45f0635db18275f68827cd48fa0d98be0",
+  "text_pre": "WHERE IS THE RULE AND THE LIE AND SEE THEN FIND AND KEEP BEEN AN THERE",
+  "text_post_mcmc": "ITS AN ON WHERE HAD IS LIE THE BEEN THE BY AND FOR RULE THEN WOULD SEE BEEN",
+  "text_post_anchors": "ITSEAST  AN ONNORTHEAST  WHERE THE BERLIN HAD THE CLOCK IS LIE THE BEEN THE BY AND FOR RULE THEN WOULD SEE BEEN",
+  "text_final": "ITSEAST THEN READ AN ONNORTHEAST THE WHERE THE BERLIN HAD THE CLOCK IS LIE THE BEEN THE BY AND FOR RULE THEN WOULD SEE BEEN",
+  "metrics": {
+    "fw_pre": 11,
+    "verbs_pre": 1,
+    "cov_pre": 1.0,
+    "fw_mcmc": 15,
+    "verbs_mcmc": 1,
+    "cov_mcmc": 1.0,
+    "fw_final": 14,
+    "verbs_final": 2,
+    "cov_final": 0.85
+  },
+  "placement": {
+    "positions": [
+      3,
+      9,
+      16,
+      20
+    ],
+    "token_boundaries": true,
+    "drop_predicted": 2.3409238869694455,
+    "drop_actual": 0.2301136363636367
+  },
+  "leakage_diff": 0.0
+}

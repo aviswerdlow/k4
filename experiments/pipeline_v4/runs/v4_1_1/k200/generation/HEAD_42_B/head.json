@@ -1,0 +1,33 @@
+{
+  "head_id": 42,
+  "arm": "B",
+  "seed_u64": 5333355457926779827,
+  "weights_sha256": "d2b426b77c965c3ecd804c8d25c48ab45f0635db18275f68827cd48fa0d98be0",
+  "text_pre": "WHAT GO THE WORD BAD. FIRST KEEP THEN READ THE WAY. WHERE IS THE LIFE AND",
+  "text_post_mcmc": "THEM HOLD BUT HAD OR YOU ITS AN WE BUT WE ARE IS OUR AT THEM YOU WHEN TWO",
+  "text_post_anchors": "THEM HOLD BUT HAD OR THE EAST YOU THE NORTHEAST ITS THE BERLIN AN WE BUT THE CLOCK WE ARE IS OUR AT THEM YOU WHEN TWO",
+  "text_final": "THEM HOLD BUT THE HAD AND AND OR THEN NOTE THE EAST YOU THE NORTHEAST ITS THE BERLIN THE AN A WE BUT THE CLOCK WE ARE IS OUR AT THEM YOU WHEN TWO",
+  "metrics": {
+    "fw_pre": 8,
+    "verbs_pre": 1,
+    "cov_pre": 0.875,
+    "fw_mcmc": 18,
+    "verbs_mcmc": 1,
+    "cov_mcmc": 1.0,
+    "fw_final": 18,
+    "verbs_final": 2,
+    "cov_final": 0.8823529411764706
+  },
+  "placement": {
+    "positions": [
+      21,
+      25,
+      29,
+      39
+    ],
+    "token_boundaries": true,
+    "drop_predicted": 2.386246423633542,
+    "drop_actual": 0.3402178649237473
+  },
+  "leakage_diff": 0.0
+}

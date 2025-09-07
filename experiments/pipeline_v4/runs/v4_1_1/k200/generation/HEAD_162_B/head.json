@@ -1,0 +1,33 @@
+{
+  "head_id": 162,
+  "arm": "B",
+  "seed_u64": 4652563937008650223,
+  "weights_sha256": "d2b426b77c965c3ecd804c8d25c48ab45f0635db18275f68827cd48fa0d98be0",
+  "text_pre": "SET THE STAR TO CLEAR. WHERE IS THE TIME AND THE DARK. IF THE DEATH IS HIGH",
+  "text_post_mcmc": "IS HAVE ARE OF ALL NO AND FROM NO ALL NOT TWO IS HAS AS WE MORE FIND ONE",
+  "text_post_anchors": "ISEAST  HAVE ARE OF ALLNORTHEAST  NOBERLIN  ANDCLOCK  FROM NO ALL NOT TWO IS HAS AS WE MORE FIND ONE",
+  "text_final": "ISEAST THEN READ THE HAVE ARE THE OF ALLNORTHEAST A NOBERLIN A ANDCLOCK FROM NO ALL NOT TWO IS HAS AS WE MORE FIND ONE",
+  "metrics": {
+    "fw_pre": 10,
+    "verbs_pre": 1,
+    "cov_pre": 0.8823529411764706,
+    "fw_mcmc": 18,
+    "verbs_mcmc": 1,
+    "cov_mcmc": 1.0,
+    "fw_final": 11,
+    "verbs_final": 2,
+    "cov_final": 0.85
+  },
+  "placement": {
+    "positions": [
+      2,
+      18,
+      21,
+      25
+    ],
+    "token_boundaries": true,
+    "drop_predicted": 2.54697649560803,
+    "drop_actual": 0.39504643962848274
+  },
+  "leakage_diff": 0.0
+}

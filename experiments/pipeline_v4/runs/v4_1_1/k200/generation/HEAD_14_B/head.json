@@ -1,0 +1,33 @@
+{
+  "head_id": 14,
+  "arm": "B",
+  "seed_u64": 7940465571352179079,
+  "weights_sha256": "d2b426b77c965c3ecd804c8d25c48ab45f0635db18275f68827cd48fa0d98be0",
+  "text_pre": "WAIT THE KEY LOW APPLY THE LINE AND USE NOT HAS THEIR WHO BE AND A THERE",
+  "text_post_mcmc": "NOT PUT IT WE AT A IT THAT OR HAS THEN THE CAN THE BY AT OUR WE WHEN",
+  "text_post_anchors": "NOTEAST  PUT IT WENORTHEAST  AT ABERLIN  ITCLOCK  THAT OR HAS THEN THE CAN THE BY AT OUR WE WHEN",
+  "text_final": "NOTEAST THEN READ THEN READ THE PUT IT WENORTHEAST AT ABERLIN AND ITCLOCK A THAT OR HAS THEN THE CAN THE BY AT OUR WE WHEN",
+  "metrics": {
+    "fw_pre": 11,
+    "verbs_pre": 1,
+    "cov_pre": 1.0,
+    "fw_mcmc": 18,
+    "verbs_mcmc": 1,
+    "cov_mcmc": 1.0,
+    "fw_final": 14,
+    "verbs_final": 3,
+    "cov_final": 0.85
+  },
+  "placement": {
+    "positions": [
+      3,
+      13,
+      18,
+      21
+    ],
+    "token_boundaries": true,
+    "drop_predicted": 2.3305837652251524,
+    "drop_actual": 0.3362229102167178
+  },
+  "leakage_diff": 0.0
+}

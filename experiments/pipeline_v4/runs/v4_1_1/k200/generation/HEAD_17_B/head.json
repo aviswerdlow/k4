@@ -1,0 +1,33 @@
+{
+  "head_id": 17,
+  "arm": "B",
+  "seed_u64": 2913821652081449598,
+  "weights_sha256": "d2b426b77c965c3ecd804c8d25c48ab45f0635db18275f68827cd48fa0d98be0",
+  "text_pre": "FIND FAR AND SET OLD. GO THEN STOP AND SEE. OR ONE WHAT AS WHEN AN THEIR",
+  "text_post_mcmc": "ONE REMEMBER WITH TELL OF SO TWO IN WHERE AS WITH OUR OR NO IN THEN WAS NO",
+  "text_post_anchors": "ONEEAST  REMEMBER WITH TELL THE NORTHEAST OF THE BERLIN SO THE CLOCK TWO IN WHERE AS WITH OUR OR NO IN THEN WAS NO",
+  "text_final": "ONEEAST THEN READ THEN READ THE REMEMBER WITH TELL THE NORTHEAST OF THE BERLIN SO THE CLOCK TWO THE IN WHERE AS WITH OUR OR NO IN THEN WAS NO",
+  "metrics": {
+    "fw_pre": 10,
+    "verbs_pre": 1,
+    "cov_pre": 0.8823529411764706,
+    "fw_mcmc": 16,
+    "verbs_mcmc": 1,
+    "cov_mcmc": 1.0,
+    "fw_final": 18,
+    "verbs_final": 4,
+    "cov_final": 0.8666666666666667
+  },
+  "placement": {
+    "positions": [
+      3,
+      23,
+      26,
+      29
+    ],
+    "token_boundaries": true,
+    "drop_predicted": 2.34261399354417,
+    "drop_actual": 0.28901515151515156
+  },
+  "leakage_diff": 0.0
+}

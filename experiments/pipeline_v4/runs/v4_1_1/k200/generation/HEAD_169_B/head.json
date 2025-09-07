@@ -1,0 +1,33 @@
+{
+  "head_id": 169,
+  "arm": "B",
+  "seed_u64": 13696071684484685327,
+  "weights_sha256": "d2b426b77c965c3ecd804c8d25c48ab45f0635db18275f68827cd48fa0d98be0",
+  "text_pre": "SET THE PLAN TO LAST. WHAT SEE THE TRUTH SOFT. WHAT THIS WHEN ONE ARE WHO",
+  "text_post_mcmc": "HAD SEE ONE WHAT OR ONE ARE BE BE AND THEM BE A OUR HAS HAD THEN NO ONE",
+  "text_post_anchors": "HAD SEE ONE WHAT OR THE EAST ONE THE NORTHEAST ARE BE THE BERLIN BE AND THE CLOCK THEM BE A OUR HAS HAD THEN NO ONE",
+  "text_final": "HAD SEE ONE THE WHAT AND AND OR THEN NOTE THE EAST ONE THE NORTHEAST A ARE BE THE BERLIN BE AND THE CLOCK AND THEM BE A OUR HAS HAD THEN NO ONE",
+  "metrics": {
+    "fw_pre": 10,
+    "verbs_pre": 1,
+    "cov_pre": 0.875,
+    "fw_mcmc": 18,
+    "verbs_mcmc": 1,
+    "cov_mcmc": 1.0,
+    "fw_final": 19,
+    "verbs_final": 2,
+    "cov_final": 0.8823529411764706
+  },
+  "placement": {
+    "positions": [
+      20,
+      24,
+      31,
+      38
+    ],
+    "token_boundaries": true,
+    "drop_predicted": 2.5808794110929547,
+    "drop_actual": 0.3402178649237473
+  },
+  "leakage_diff": 0.0
+}

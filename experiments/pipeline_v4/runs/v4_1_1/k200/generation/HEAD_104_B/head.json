@@ -1,0 +1,33 @@
+{
+  "head_id": 104,
+  "arm": "B",
+  "seed_u64": 8309678134930398532,
+  "weights_sha256": "d2b426b77c965c3ecd804c8d25c48ab45f0635db18275f68827cd48fa0d98be0",
+  "text_pre": "BEFORE THE LIGHT MAKE THE CODE AND WHERE IS THE SIGN AND THE DARK AND SET",
+  "text_post_mcmc": "WITH THEN YOU THEY SO IS BE WAS HAVE IS WHAT THEM IN THERE WE WILL MOVE TO",
+  "text_post_anchors": "WITHEAST  THEN YOUNORTHEAST  THEYBERLIN  SO IS BECLOCK  WAS HAVE IS WHAT THEM IN THERE WE WILL MOVE TO",
+  "text_final": "WITHEAST THEN READ THEN YOUNORTHEAST THE THEYBERLIN AND AND SO THE IS BECLOCK WAS HAVE IS WHAT THEM IN THERE WE WILL MOVE TO",
+  "metrics": {
+    "fw_pre": 9,
+    "verbs_pre": 1,
+    "cov_pre": 0.9375,
+    "fw_mcmc": 17,
+    "verbs_mcmc": 1,
+    "cov_mcmc": 1.0,
+    "fw_final": 14,
+    "verbs_final": 2,
+    "cov_final": 0.85
+  },
+  "placement": {
+    "positions": [
+      4,
+      13,
+      18,
+      27
+    ],
+    "token_boundaries": true,
+    "drop_predicted": 2.5261445139143657,
+    "drop_actual": 0.4194444444444443
+  },
+  "leakage_diff": 0.0
+}

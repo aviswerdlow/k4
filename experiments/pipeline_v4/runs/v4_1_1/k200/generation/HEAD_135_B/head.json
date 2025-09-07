@@ -1,0 +1,33 @@
+{
+  "head_id": 135,
+  "arm": "B",
+  "seed_u64": 7689758218473226886,
+  "weights_sha256": "d2b426b77c965c3ecd804c8d25c48ab45f0635db18275f68827cd48fa0d98be0",
+  "text_pre": "SEEK THE SKY FALSE AND CHECK THE GATE FALSE WHERE IS THE COURSE AND THE",
+  "text_post_mcmc": "ON THIS THERE WOULD AS OUR THIS YOUR WHERE THAT BE THEM THE FOLLOW WITH",
+  "text_post_anchors": "ONEAST  THIS THERE WOULD ASNORTHEAST  OURBERLIN  THISCLOCK  YOUR WHERE THAT BE THEM THE FOLLOW WITH",
+  "text_final": "ONEAST THEN READ THE THIS AND AND THERE THE WOULD ASNORTHEAST OURBERLIN THISCLOCK YOUR WHERE THAT BE THEM THE FOLLOW WITH",
+  "metrics": {
+    "fw_pre": 8,
+    "verbs_pre": 1,
+    "cov_pre": 1.0,
+    "fw_mcmc": 14,
+    "verbs_mcmc": 1,
+    "cov_mcmc": 1.0,
+    "fw_final": 13,
+    "verbs_final": 2,
+    "cov_final": 0.85
+  },
+  "placement": {
+    "positions": [
+      2,
+      22,
+      26,
+      31
+    ],
+    "token_boundaries": true,
+    "drop_predicted": 2.461150241979387,
+    "drop_actual": 0.5148717948717949
+  },
+  "leakage_diff": 0.0
+}

@@ -1,0 +1,33 @@
+{
+  "head_id": 175,
+  "arm": "B",
+  "seed_u64": 2467014906838667114,
+  "weights_sha256": "d2b426b77c965c3ecd804c8d25c48ab45f0635db18275f68827cd48fa0d98be0",
+  "text_pre": "IF THE STEP IS NEAR THEN MAKE [DIR1] APPLY THE WORD AND READ IF LIFE THEN",
+  "text_post_mcmc": "SO FORGET HAVE IN TWO THEIR OF HAVE WILL THAT FOR ONE WE THAT THEN OUR FROM",
+  "text_post_anchors": "SOEAST  FORGET HAVE IN TWONORTHEAST  THEIRBERLIN  OFCLOCK  HAVE WILL THAT FOR ONE WE THAT THEN OUR FROM",
+  "text_final": "SOEAST THEN READ THEN READ THE FORGET HAVE THE IN TWONORTHEAST A THEIRBERLIN A OFCLOCK HAVE WILL THAT FOR ONE WE THAT THEN OUR FROM",
+  "metrics": {
+    "fw_pre": 8,
+    "verbs_pre": 1,
+    "cov_pre": 0.9375,
+    "fw_mcmc": 16,
+    "verbs_mcmc": 1,
+    "cov_mcmc": 1.0,
+    "fw_final": 12,
+    "verbs_final": 3,
+    "cov_final": 0.85
+  },
+  "placement": {
+    "positions": [
+      2,
+      21,
+      27,
+      30
+    ],
+    "token_boundaries": true,
+    "drop_predicted": 2.437135372923123,
+    "drop_actual": 0.4470588235294115
+  },
+  "leakage_diff": 0.0
+}

@@ -1,0 +1,33 @@
+{
+  "head_id": 2,
+  "arm": "B",
+  "seed_u64": 3950149287242314772,
+  "weights_sha256": "d2b426b77c965c3ecd804c8d25c48ab45f0635db18275f68827cd48fa0d98be0",
+  "text_pre": "APPLY THE DEATH AND GIVE WAIT THE DOOR AND BRING THE POINT ALL HAVE WHO",
+  "text_post_mcmc": "IS NOTE HAVE TO THEM TWO WHO AND BY THEY IN MORE HAVE WHO AND THEN MORE WAS",
+  "text_post_anchors": "IS NOTE HAVE TO THEM TWO THE EAST WHO THE NORTHEAST AND THE BERLIN BY THE CLOCK THEY IN MORE HAVE WHO AND THEN MORE WAS",
+  "text_final": "IS NOTE HAVE TO THE THEM TWO THE EAST WHO THE NORTHEAST AND SEE THE BERLIN BY THE CLOCK THEY IN MORE HAVE WHO AND THEN MORE WAS",
+  "metrics": {
+    "fw_pre": 8,
+    "verbs_pre": 1,
+    "cov_pre": 1.0,
+    "fw_mcmc": 17,
+    "verbs_mcmc": 1,
+    "cov_mcmc": 1.0,
+    "fw_final": 13,
+    "verbs_final": 2,
+    "cov_final": 0.8571428571428571
+  },
+  "placement": {
+    "positions": [
+      25,
+      29,
+      33,
+      36
+    ],
+    "token_boundaries": true,
+    "drop_predicted": 2.499385491173434,
+    "drop_actual": 0.3536858974358976
+  },
+  "leakage_diff": 0.0
+}

@@ -1,0 +1,33 @@
+{
+  "head_id": 13,
+  "arm": "B",
+  "seed_u64": 12039931183824672265,
+  "weights_sha256": "d2b426b77c965c3ecd804c8d25c48ab45f0635db18275f68827cd48fa0d98be0",
+  "text_pre": "THE KEY IS [DIR1] OF THE CODE AND APPLY THE SHADOW AND FIND AND WHEN NEXT",
+  "text_post_mcmc": "NO WHAT IF WHAT FROM A IF HAVE THEM TO THEN TWO ON ONE AND IF CAN HOLD THEM",
+  "text_post_anchors": "NOEAST  WHAT IF WHAT FROMNORTHEAST  ABERLIN  IFCLOCK  HAVE THEM TO THEN TWO ON ONE AND IF CAN HOLD THEM",
+  "text_final": "NOEAST THEN READ THE WHAT THE IF AND AND WHAT THE FROMNORTHEAST ABERLIN IFCLOCK HAVE THEM TO THEN TWO ON ONE AND IF CAN HOLD THEM",
+  "metrics": {
+    "fw_pre": 9,
+    "verbs_pre": 1,
+    "cov_pre": 0.9375,
+    "fw_mcmc": 18,
+    "verbs_mcmc": 1,
+    "cov_mcmc": 1.0,
+    "fw_final": 14,
+    "verbs_final": 2,
+    "cov_final": 0.85
+  },
+  "placement": {
+    "positions": [
+      2,
+      20,
+      22,
+      25
+    ],
+    "token_boundaries": true,
+    "drop_predicted": 2.5546635661914157,
+    "drop_actual": 0.39504643962848274
+  },
+  "leakage_diff": 0.0
+}

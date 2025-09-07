@@ -1,0 +1,33 @@
+{
+  "head_id": 66,
+  "arm": "B",
+  "seed_u64": 8641653326629709423,
+  "weights_sha256": "d2b426b77c965c3ecd804c8d25c48ab45f0635db18275f68827cd48fa0d98be0",
+  "text_pre": "APPLY THE HALL AND WAIT THE PATH IS [DIR1] OF THE BOOK SET THE LINE TO HARD",
+  "text_post_mcmc": "WITH TO AS BUT BEEN CAN AN FOR HAS AN HAVE BE NOT FOR GO YOU",
+  "text_post_anchors": "WITH TO AS BUTEAST  BEENNORTHEAST  CANBERLIN  ANCLOCK  FOR HAS AN HAVE BE NOT FOR GO YOU",
+  "text_final": "THEN SEE THEN SEE WITH TO AS THE BUTEAST AND BEENNORTHEAST A CANBERLIN ANCLOCK FOR HAS AN HAVE BE NOT FOR GO YOU",
+  "metrics": {
+    "fw_pre": 8,
+    "verbs_pre": 1,
+    "cov_pre": 0.9411764705882353,
+    "fw_mcmc": 15,
+    "verbs_mcmc": 1,
+    "cov_mcmc": 1.0,
+    "fw_final": 12,
+    "verbs_final": 3,
+    "cov_final": 0.85
+  },
+  "placement": {
+    "positions": [
+      14,
+      19,
+      23,
+      26
+    ],
+    "token_boundaries": true,
+    "drop_predicted": 2.3610534307199385,
+    "drop_actual": 0.4785714285714282
+  },
+  "leakage_diff": 0.0
+}

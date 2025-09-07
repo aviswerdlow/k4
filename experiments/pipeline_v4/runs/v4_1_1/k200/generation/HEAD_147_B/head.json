@@ -1,0 +1,33 @@
+{
+  "head_id": 147,
+  "arm": "B",
+  "seed_u64": 14336215761553056179,
+  "weights_sha256": "d2b426b77c965c3ecd804c8d25c48ab45f0635db18275f68827cd48fa0d98be0",
+  "text_pre": "IF POINT THEN SET THE STEP. FIND THE MOON TRUE. IF THE TIME IS HARD THEN",
+  "text_post_mcmc": "MORE NOT SO THEY THEIR AT THEIR A TWO HAVE THEM NO IS HAS UNDERSTAND THE",
+  "text_post_anchors": "MOREEAST  NOT SONORTHEAST  THEYBERLIN  THEIR AT THEIRCLOCK  A TWO HAVE THEM NO IS HAS UNDERSTAND THE",
+  "text_final": "MOREEAST THEN READ THEN READ NOT SONORTHEAST THE THEYBERLIN AND AND THEIR THE AT THEIRCLOCK A TWO HAVE THEM NO IS HAS UNDERSTAND THE",
+  "metrics": {
+    "fw_pre": 8,
+    "verbs_pre": 1,
+    "cov_pre": 0.875,
+    "fw_mcmc": 15,
+    "verbs_mcmc": 1,
+    "cov_mcmc": 1.0,
+    "fw_final": 11,
+    "verbs_final": 3,
+    "cov_final": 0.85
+  },
+  "placement": {
+    "positions": [
+      4,
+      11,
+      16,
+      31
+    ],
+    "token_boundaries": true,
+    "drop_predicted": 2.6987664381458973,
+    "drop_actual": 0.4785714285714282
+  },
+  "leakage_diff": 0.0
+}

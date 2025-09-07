@@ -1,0 +1,33 @@
+{
+  "head_id": 137,
+  "arm": "B",
+  "seed_u64": 5967741321673643544,
+  "weights_sha256": "d2b426b77c965c3ecd804c8d25c48ab45f0635db18275f68827cd48fa0d98be0",
+  "text_pre": "WHAT KEEP THE MOON FAR BEFORE THE HALL TAKE THE BOOK OF BUT WITH WHEN FROM",
+  "text_post_mcmc": "ARE USE WAS BUT IN OF TWO IS WHO YOU ITS THIS AS ALL AT BY THAT BY IS WE A",
+  "text_post_anchors": "ARE USE WAS BUT IN OF THE EAST TWO IS THE NORTHEAST WHO THE BERLIN YOU THE CLOCK ITS THIS AS ALL AT BY THAT BY IS WE A",
+  "text_final": "ARE USE WAS BUT IN OF THEN A NOTE THEN NOTE THE EAST THE TWO IS THE NORTHEAST WHO THE BERLIN YOU THE CLOCK AND AND ITS THIS AS ALL AT BY THAT BY IS WE A",
+  "metrics": {
+    "fw_pre": 9,
+    "verbs_pre": 1,
+    "cov_pre": 0.9375,
+    "fw_mcmc": 20,
+    "verbs_mcmc": 1,
+    "cov_mcmc": 1.0,
+    "fw_final": 25,
+    "verbs_final": 3,
+    "cov_final": 0.8918918918918919
+  },
+  "placement": {
+    "positions": [
+      22,
+      29,
+      33,
+      37
+    ],
+    "token_boundaries": true,
+    "drop_predicted": 2.5849721001826507,
+    "drop_actual": 0.31608523223768215
+  },
+  "leakage_diff": 0.0
+}

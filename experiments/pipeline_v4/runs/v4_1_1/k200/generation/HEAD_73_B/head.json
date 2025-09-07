@@ -1,0 +1,33 @@
+{
+  "head_id": 73,
+  "arm": "B",
+  "seed_u64": 11574732928587777735,
+  "weights_sha256": "d2b426b77c965c3ecd804c8d25c48ab45f0635db18275f68827cd48fa0d98be0",
+  "text_pre": "IF THE DARK IS FAST THEN MAKE [DIR1] AND HOLD THE SUN CLEAR AND STOP THEN",
+  "text_post_mcmc": "BE USE IS ONE ONE A AS THIS A A TWO THEIR ALL WHEN SO FOR IT BEEN IT",
+  "text_post_anchors": "BE USE IS ONE ONE A AS THE EAST THIS THE NORTHEAST A THE BERLIN A THE CLOCK TWO THEIR ALL WHEN SO FOR IT BEEN IT",
+  "text_final": "BE USE IS ONE ONE AND A AS THE THEN SEE THEN READ THE EAST THIS THE NORTHEAST A THE BERLIN A THE CLOCK AND AND TWO THEIR ALL WHEN SO FOR IT BEEN IT",
+  "metrics": {
+    "fw_pre": 8,
+    "verbs_pre": 1,
+    "cov_pre": 0.9375,
+    "fw_mcmc": 18,
+    "verbs_mcmc": 1,
+    "cov_mcmc": 1.0,
+    "fw_final": 22,
+    "verbs_final": 3,
+    "cov_final": 0.8857142857142857
+  },
+  "placement": {
+    "positions": [
+      23,
+      28,
+      30,
+      32
+    ],
+    "token_boundaries": true,
+    "drop_predicted": 2.266027996922768,
+    "drop_actual": 0.3402178649237473
+  },
+  "leakage_diff": 0.0
+}

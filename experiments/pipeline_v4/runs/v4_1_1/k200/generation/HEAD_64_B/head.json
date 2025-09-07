@@ -1,0 +1,33 @@
+{
+  "head_id": 64,
+  "arm": "B",
+  "seed_u64": 10550022767777552308,
+  "weights_sha256": "d2b426b77c965c3ecd804c8d25c48ab45f0635db18275f68827cd48fa0d98be0",
+  "text_pre": "WHERE IS THE TEXT AND THE RULE LOOK THE HALL FAR IF TIME THEN SHOW THE RULE",
+  "text_post_mcmc": "THEN TELL OF BE ITS SO TWO ON THEN SO BEEN WHO TWO NO SO THERE AS WAS",
+  "text_post_anchors": "THENEAST  TELL OFNORTHEAST  BEBERLIN  ITS SO TWOCLOCK  ON THEN SO BEEN WHO TWO NO SO THERE AS WAS",
+  "text_final": "THENEAST THEN READ THE TELL THE OFNORTHEAST THE BEBERLIN THE READ SO TWOCLOCK ON THEN SO BEEN WHO TWO NO SO THERE AS WAS",
+  "metrics": {
+    "fw_pre": 9,
+    "verbs_pre": 1,
+    "cov_pre": 1.0,
+    "fw_mcmc": 17,
+    "verbs_mcmc": 1,
+    "cov_mcmc": 1.0,
+    "fw_final": 13,
+    "verbs_final": 3,
+    "cov_final": 0.85
+  },
+  "placement": {
+    "positions": [
+      4,
+      12,
+      15,
+      26
+    ],
+    "token_boundaries": true,
+    "drop_predicted": 2.476270775764937,
+    "drop_actual": 0.3569444444444443
+  },
+  "leakage_diff": 0.0
+}

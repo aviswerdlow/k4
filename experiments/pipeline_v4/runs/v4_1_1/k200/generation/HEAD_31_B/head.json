@@ -1,0 +1,33 @@
+{
+  "head_id": 31,
+  "arm": "B",
+  "seed_u64": 13960285862306881115,
+  "weights_sha256": "d2b426b77c965c3ecd804c8d25c48ab45f0635db18275f68827cd48fa0d98be0",
+  "text_pre": "TURN THE WALL LOW. CHECK THEN GO AND KEEP. OR ALL HAD WILL THEN ALL WHAT",
+  "text_post_mcmc": "THAT SET ARE YOU BY FOR BY CAN WHAT WOULD BE THE IS BEEN THEY WITH A NO AT",
+  "text_post_anchors": "THAT SET ARE YOU BY FOR THE EAST BY THE NORTHEAST CAN THE BERLIN WHAT WOULD THE CLOCK BE THE IS BEEN THEY WITH A NO AT",
+  "text_final": "THAT SET ARE YOU THE BY FOR A THEN SEE THE EAST BY THE NORTHEAST CAN THE BERLIN THE WHAT WOULD THE CLOCK BE THE IS BEEN THEY WITH A NO AT",
+  "metrics": {
+    "fw_pre": 10,
+    "verbs_pre": 1,
+    "cov_pre": 0.875,
+    "fw_mcmc": 18,
+    "verbs_mcmc": 1,
+    "cov_mcmc": 1.0,
+    "fw_final": 21,
+    "verbs_final": 2,
+    "cov_final": 0.875
+  },
+  "placement": {
+    "positions": [
+      24,
+      27,
+      31,
+      42
+    ],
+    "token_boundaries": true,
+    "drop_predicted": 2.7273219773347854,
+    "drop_actual": 0.3402178649237473
+  },
+  "leakage_diff": 0.0
+}

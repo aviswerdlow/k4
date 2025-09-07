@@ -1,0 +1,33 @@
+{
+  "head_id": 18,
+  "arm": "A",
+  "seed_u64": 5481058956051901754,
+  "weights_sha256": "c22ce0c4dd0c04d11e1c9d5d89b07f481532048aa233bd79470b565f7b53d41b",
+  "text_pre": "IF THE DEATH IS TRUE THEN MARK [DIR1] AND MARK THE TIME SOFT AND MARK THE",
+  "text_post_mcmc": "IT TWO ALL WHAT BEEN FROM THERE THEN NO BY WHO TO YOUR OF FOR WITH LEAD BUT",
+  "text_post_anchors": "ITEAST  TWO ALLNORTHEAST  WHATBERLIN  BEENCLOCK  FROM THERE THEN NO BY WHO TO YOUR OF FOR WITH LEAD BUT",
+  "text_final": "ITEAST THEN READ THEN READ TWO ALLNORTHEAST THE WHATBERLIN AND BEENCLOCK A FROM THERE THEN NO BY WHO TO YOUR OF FOR WITH LEAD BUT",
+  "metrics": {
+    "fw_pre": 8,
+    "verbs_pre": 1,
+    "cov_pre": 0.9375,
+    "fw_mcmc": 17,
+    "verbs_mcmc": 1,
+    "cov_mcmc": 1.0,
+    "fw_final": 14,
+    "verbs_final": 3,
+    "cov_final": 0.85
+  },
+  "placement": {
+    "positions": [
+      2,
+      10,
+      15,
+      20
+    ],
+    "token_boundaries": true,
+    "drop_predicted": 2.3984953224967,
+    "drop_actual": 0.3569444444444443
+  },
+  "leakage_diff": 0.0
+}

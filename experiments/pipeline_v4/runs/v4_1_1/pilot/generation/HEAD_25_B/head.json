@@ -1,0 +1,33 @@
+{
+  "head_id": 25,
+  "arm": "B",
+  "seed_u64": 6722617410761508978,
+  "weights_sha256": "d2b426b77c965c3ecd804c8d25c48ab45f0635db18275f68827cd48fa0d98be0",
+  "text_pre": "SEE THEN STEP AND WAIT THE MARK IS [DIR1] OF THE LIE MORE WILL TO THEIR",
+  "text_post_mcmc": "NO SEEK THIS NOT WHO FOR THEIR TO YOUR HAS AS SO YOUR WHAT AS TWO WE AT",
+  "text_post_anchors": "NO SEEK THIS NOT WHO FOR THEIR THE EAST TO THE NORTHEAST YOUR THE BERLIN HAS THE CLOCK AS SO YOUR WHAT AS TWO WE AT",
+  "text_final": "NO SEEK THIS NOT WHO AND FOR THEIR THE THEN SEE THEN READ THE EAST TO THE NORTHEAST YOUR THE BERLIN HAS THE CLOCK AND AND AS SO YOUR WHAT AS TWO WE AT",
+  "metrics": {
+    "fw_pre": 10,
+    "verbs_pre": 1,
+    "cov_pre": 0.9375,
+    "fw_mcmc": 17,
+    "verbs_mcmc": 1,
+    "cov_mcmc": 1.0,
+    "fw_final": 19,
+    "verbs_final": 3,
+    "cov_final": 0.8823529411764706
+  },
+  "placement": {
+    "positions": [
+      31,
+      34,
+      39,
+      43
+    ],
+    "token_boundaries": true,
+    "drop_predicted": 2.393657281784118,
+    "drop_actual": 0.3536858974358976
+  },
+  "leakage_diff": 0.0
+}

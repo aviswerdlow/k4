@@ -1,0 +1,33 @@
+{
+  "head_id": 14,
+  "arm": "A",
+  "seed_u64": 16231054945296850372,
+  "weights_sha256": "c22ce0c4dd0c04d11e1c9d5d89b07f481532048aa233bd79470b565f7b53d41b",
+  "text_pre": "FIRST FORGET THEN POINT THE LIFE SET THE SHADOW TO RIGHT AND OR TO TWO",
+  "text_post_mcmc": "FROM FOLLOW ON HAS THIS WHERE NO WHAT ALL IS ONE THE THIS THEIR IN OR",
+  "text_post_anchors": "FROM FOLLOW ON THE EAST HAS THE NORTHEAST THIS THE BERLIN WHERE THE CLOCK NO WHAT ALL IS ONE THE THIS THEIR IN OR",
+  "text_final": "FROM FOLLOW THEN READ THE ON THE EAST HAS THE NORTHEAST THIS THE BERLIN WHERE THE CLOCK THE NO WHAT ALL IS ONE THE THIS THEIR IN OR",
+  "metrics": {
+    "fw_pre": 8,
+    "verbs_pre": 1,
+    "cov_pre": 1.0,
+    "fw_mcmc": 15,
+    "verbs_mcmc": 1,
+    "cov_mcmc": 1.0,
+    "fw_final": 19,
+    "verbs_final": 2,
+    "cov_final": 0.8571428571428571
+  },
+  "placement": {
+    "positions": [
+      15,
+      19,
+      24,
+      30
+    ],
+    "token_boundaries": true,
+    "drop_predicted": 2.4480996506892017,
+    "drop_actual": 0.38398268398268387
+  },
+  "leakage_diff": 0.0
+}

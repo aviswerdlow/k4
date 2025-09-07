@@ -1,0 +1,33 @@
+{
+  "head_id": 39,
+  "arm": "B",
+  "seed_u64": 13221746601947675737,
+  "weights_sha256": "d2b426b77c965c3ecd804c8d25c48ab45f0635db18275f68827cd48fa0d98be0",
+  "text_pre": "WHAT SET THE SHADOW FAST AND STEP THE YEAR AND ASK THE PATH AND IF THE DAY",
+  "text_post_mcmc": "HAD TAKE WITH THEM AN IT WHAT YOU THAT YOUR ALL SO IN WHO CAN FROM ONE",
+  "text_post_anchors": "HAD TAKE WITH THEM AN IT THE EAST WHAT THE NORTHEAST YOU THE BERLIN THAT THE CLOCK YOUR ALL SO IN WHO CAN FROM ONE",
+  "text_final": "HAD TAKE WITH THEM THE AN AND A IT A THEN SEE THE EAST WHAT THE NORTHEAST YOU THE BERLIN THAT THE CLOCK THE YOUR ALL SO IN WHO CAN FROM ONE",
+  "metrics": {
+    "fw_pre": 9,
+    "verbs_pre": 1,
+    "cov_pre": 1.0,
+    "fw_mcmc": 16,
+    "verbs_mcmc": 1,
+    "cov_mcmc": 1.0,
+    "fw_final": 18,
+    "verbs_final": 2,
+    "cov_final": 0.875
+  },
+  "placement": {
+    "positions": [
+      25,
+      30,
+      34,
+      39
+    ],
+    "token_boundaries": true,
+    "drop_predicted": 2.4980770280286264,
+    "drop_actual": 0.368231884057971
+  },
+  "leakage_diff": 0.0
+}

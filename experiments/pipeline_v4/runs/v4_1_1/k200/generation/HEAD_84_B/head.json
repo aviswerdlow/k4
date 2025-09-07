@@ -1,0 +1,33 @@
+{
+  "head_id": 84,
+  "arm": "B",
+  "seed_u64": 3163020126469407733,
+  "weights_sha256": "d2b426b77c965c3ecd804c8d25c48ab45f0635db18275f68827cd48fa0d98be0",
+  "text_pre": "STEP THEN WAIT AND SET. WHEN NEXT BRING THE GATE. FROM AND FROM WITH CAN",
+  "text_post_mcmc": "IT SO IF WHEN OUR THEIR IT HAD WHAT BE SO IF NOT WHO IF BE WHEN TELL YOUR",
+  "text_post_anchors": "ITEAST  SO IF WHEN THE NORTHEAST OUR THEIR THE BERLIN IT THE CLOCK HAD WHAT BE SO IF NOT WHO IF BE WHEN TELL YOUR",
+  "text_final": "ITEAST THEN READ THEN READ THE SO THE IF WHEN THE NORTHEAST THE OUR THEIR THE BERLIN IT THE CLOCK HAD WHAT BE SO IF NOT WHO IF BE WHEN TELL YOUR",
+  "metrics": {
+    "fw_pre": 9,
+    "verbs_pre": 1,
+    "cov_pre": 0.8666666666666667,
+    "fw_mcmc": 18,
+    "verbs_mcmc": 1,
+    "cov_mcmc": 1.0,
+    "fw_final": 19,
+    "verbs_final": 3,
+    "cov_final": 0.875
+  },
+  "placement": {
+    "positions": [
+      2,
+      14,
+      24,
+      27
+    ],
+    "token_boundaries": true,
+    "drop_predicted": 2.2221173049440868,
+    "drop_actual": 0.3286751918158566
+  },
+  "leakage_diff": 0.0
+}

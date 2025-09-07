@@ -1,0 +1,33 @@
+{
+  "head_id": 37,
+  "arm": "B",
+  "seed_u64": 13118398416653754356,
+  "weights_sha256": "d2b426b77c965c3ecd804c8d25c48ab45f0635db18275f68827cd48fa0d98be0",
+  "text_pre": "KEEP THE DAY OLD IF THE HOUR IS CLEAR THEN UNDERSTAND [DIR1] BUT BE BEEN",
+  "text_post_mcmc": "ALL BE YOU SO ALL THEM A HAVE WOULD THERE WOULD ALL NOT CAN OF WHO USE AN",
+  "text_post_anchors": "ALLEAST  BE YOUNORTHEAST  SOBERLIN  ALLCLOCK  THEM A HAVE WOULD THERE WOULD ALL NOT CAN OF WHO USE AN",
+  "text_final": "ALLEAST THEN READ THEN READ BE YOUNORTHEAST THE SOBERLIN AND ALLCLOCK THEM A HAVE WOULD THERE WOULD ALL NOT CAN OF WHO USE AN",
+  "metrics": {
+    "fw_pre": 8,
+    "verbs_pre": 1,
+    "cov_pre": 0.9333333333333333,
+    "fw_mcmc": 17,
+    "verbs_mcmc": 1,
+    "cov_mcmc": 1.0,
+    "fw_final": 12,
+    "verbs_final": 3,
+    "cov_final": 0.85
+  },
+  "placement": {
+    "positions": [
+      3,
+      10,
+      13,
+      17
+    ],
+    "token_boundaries": true,
+    "drop_predicted": 2.3800735827184427,
+    "drop_actual": 0.3569444444444443
+  },
+  "leakage_diff": 0.0
+}

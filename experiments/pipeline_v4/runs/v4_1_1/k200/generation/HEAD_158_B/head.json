@@ -1,0 +1,33 @@
+{
+  "head_id": 158,
+  "arm": "B",
+  "seed_u64": 3659574998658102677,
+  "weights_sha256": "d2b426b77c965c3ecd804c8d25c48ab45f0635db18275f68827cd48fa0d98be0",
+  "text_pre": "WHAT APPLY THE YEAR TRUE AND THE YEAR IS [DIR1] OF THE LINE AND USE THE",
+  "text_post_mcmc": "THE ARE WE YOU THERE AND OF OF NOT NOT THEY ALL YOUR WILL YOU WHAT SEE IS",
+  "text_post_anchors": "THEEAST  ARE WENORTHEAST  YOUBERLIN  THERE AND OFCLOCK  OF NOT NOT THEY ALL YOUR WILL YOU WHAT SEE IS",
+  "text_final": "THEEAST THEN READ ARE WENORTHEAST THE YOUBERLIN THERE AND AND OFCLOCK OF NOT NOT THEY ALL YOUR WILL YOU WHAT SEE IS",
+  "metrics": {
+    "fw_pre": 9,
+    "verbs_pre": 1,
+    "cov_pre": 0.9375,
+    "fw_mcmc": 17,
+    "verbs_mcmc": 1,
+    "cov_mcmc": 1.0,
+    "fw_final": 10,
+    "verbs_final": 2,
+    "cov_final": 0.85
+  },
+  "placement": {
+    "positions": [
+      3,
+      10,
+      14,
+      27
+    ],
+    "token_boundaries": true,
+    "drop_predicted": 2.5307842881352056,
+    "drop_actual": 0.4194444444444443
+  },
+  "leakage_diff": 0.0
+}

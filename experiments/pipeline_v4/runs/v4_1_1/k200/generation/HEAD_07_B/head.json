@@ -1,0 +1,33 @@
+{
+  "head_id": 7,
+  "arm": "B",
+  "seed_u64": 13093165621624778819,
+  "weights_sha256": "d2b426b77c965c3ecd804c8d25c48ab45f0635db18275f68827cd48fa0d98be0",
+  "text_pre": "WHEN FAR STEP THE SIGN AND IF STEP THEN MARK THE DAY AND SET THE COURSE TO",
+  "text_post_mcmc": "HAD STOP WILL OF THIS A BE WHO NO YOU WAS AN AT THIS IN NO AND ONE A ON ARE",
+  "text_post_anchors": "HADEAST  STOP WILL OF THISNORTHEAST  ABERLIN  BECLOCK  WHO NO YOU WAS AN AT THIS IN NO AND ONE A ON ARE",
+  "text_final": "HADEAST THEN READ THE STOP WILL THE OF THISNORTHEAST A ABERLIN A BECLOCK WHO NO YOU WAS AN AT THIS IN NO AND ONE A ON ARE",
+  "metrics": {
+    "fw_pre": 9,
+    "verbs_pre": 1,
+    "cov_pre": 1.0,
+    "fw_mcmc": 20,
+    "verbs_mcmc": 1,
+    "cov_mcmc": 1.0,
+    "fw_final": 15,
+    "verbs_final": 2,
+    "cov_final": 0.8518518518518519
+  },
+  "placement": {
+    "positions": [
+      3,
+      21,
+      23,
+      26
+    ],
+    "token_boundaries": true,
+    "drop_predicted": 2.372608734424798,
+    "drop_actual": 0.35388471177944814
+  },
+  "leakage_diff": 0.0
+}

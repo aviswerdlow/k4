@@ -1,0 +1,33 @@
+{
+  "head_id": 31,
+  "arm": "A",
+  "seed_u64": 14025833081335416694,
+  "weights_sha256": "c22ce0c4dd0c04d11e1c9d5d89b07f481532048aa233bd79470b565f7b53d41b",
+  "text_pre": "WHERE IS THE DOOR AND THE STAR KEEP THEN STOP AND SEE MOVE THE DAY CLEAR",
+  "text_post_mcmc": "WAS AND A HAS NO FROM ARE BE HAS TO OUR WHO THE CAN WHERE THERE STEP THERE",
+  "text_post_anchors": "WAS AND AEAST  HAS THE NORTHEAST NO THE BERLIN FROM ARE THE CLOCK BE HAS TO OUR WHO THE CAN WHERE THERE STEP THERE",
+  "text_final": "THEN SEE THEN SEE THE WAS THE AND AEAST HAS THE NORTHEAST NO THE BERLIN AND A FROM ARE THE CLOCK BE HAS TO OUR WHO THE CAN WHERE THERE STEP THERE",
+  "metrics": {
+    "fw_pre": 8,
+    "verbs_pre": 1,
+    "cov_pre": 1.0,
+    "fw_mcmc": 17,
+    "verbs_mcmc": 1,
+    "cov_mcmc": 1.0,
+    "fw_final": 19,
+    "verbs_final": 3,
+    "cov_final": 0.875
+  },
+  "placement": {
+    "positions": [
+      9,
+      14,
+      17,
+      26
+    ],
+    "token_boundaries": true,
+    "drop_predicted": 2.6029796261892217,
+    "drop_actual": 0.38844696969696946
+  },
+  "leakage_diff": 0.0
+}

@@ -1,0 +1,33 @@
+{
+  "head_id": 136,
+  "arm": "B",
+  "seed_u64": 15197339941386720917,
+  "weights_sha256": "d2b426b77c965c3ecd804c8d25c48ab45f0635db18275f68827cd48fa0d98be0",
+  "text_pre": "THE LOCK IS [DIR1] OF THE SIGN GO THE SKY AND LOOK THE PAGE WHERE IS THE",
+  "text_post_mcmc": "ARE ON YOU WHERE OUR IS WILL WILL HAS IT YOUR ITS IN A IN IF AND BEGIN MORE",
+  "text_post_anchors": "AREEAST  ON YOUNORTHEAST  WHERE OURBERLIN  IS WILLCLOCK  WILL HAS IT YOUR ITS IN A IN IF AND BEGIN MORE",
+  "text_final": "AREEAST THEN READ ON YOUNORTHEAST WHERE OURBERLIN IS WILLCLOCK A A WILL HAS IT YOUR ITS IN A IN IF AND BEGIN MORE",
+  "metrics": {
+    "fw_pre": 10,
+    "verbs_pre": 1,
+    "cov_pre": 0.9411764705882353,
+    "fw_mcmc": 18,
+    "verbs_mcmc": 1,
+    "cov_mcmc": 1.0,
+    "fw_final": 11,
+    "verbs_final": 2,
+    "cov_final": 0.85
+  },
+  "placement": {
+    "positions": [
+      3,
+      10,
+      20,
+      28
+    ],
+    "token_boundaries": true,
+    "drop_predicted": 2.48909318559767,
+    "drop_actual": 0.2773993808049533
+  },
+  "leakage_diff": 0.0
+}

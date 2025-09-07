@@ -1,0 +1,33 @@
+{
+  "head_id": 4,
+  "arm": "A",
+  "seed_u64": 14159493773846325436,
+  "weights_sha256": "c22ce0c4dd0c04d11e1c9d5d89b07f481532048aa233bd79470b565f7b53d41b",
+  "text_pre": "PUT THE GATE AND PUT THE MARK BEFORE THE LOCK WAIT THE KEY WHAT THEIR WOULD",
+  "text_post_mcmc": "WILL WHAT NO ALL NOT SO IN NOT IF THE YOUR IF FOR NO THE BEEN PLACE SO",
+  "text_post_anchors": "WILLEAST  WHAT NO ALL NOTNORTHEAST  SOBERLIN  INCLOCK  NOT IF THE YOUR IF FOR NO THE BEEN PLACE SO",
+  "text_final": "WILLEAST THEN READ THE WHAT THE NO AND AND ALL THE NOTNORTHEAST SOBERLIN INCLOCK NOT IF THE YOUR IF FOR NO THE BEEN PLACE SO",
+  "metrics": {
+    "fw_pre": 8,
+    "verbs_pre": 1,
+    "cov_pre": 0.9375,
+    "fw_mcmc": 17,
+    "verbs_mcmc": 1,
+    "cov_mcmc": 1.0,
+    "fw_final": 14,
+    "verbs_final": 2,
+    "cov_final": 0.85
+  },
+  "placement": {
+    "positions": [
+      4,
+      20,
+      23,
+      26
+    ],
+    "token_boundaries": true,
+    "drop_predicted": 2.4010604418842543,
+    "drop_actual": 0.4194444444444443
+  },
+  "leakage_diff": 0.0
+}

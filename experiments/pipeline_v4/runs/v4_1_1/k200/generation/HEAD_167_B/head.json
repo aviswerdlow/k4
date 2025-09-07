@@ -1,0 +1,33 @@
+{
+  "head_id": 167,
+  "arm": "B",
+  "seed_u64": 11050506580864500933,
+  "weights_sha256": "d2b426b77c965c3ecd804c8d25c48ab45f0635db18275f68827cd48fa0d98be0",
+  "text_pre": "SET THE MAP TO FIRST WHAT NOTE THE TIME SOFT WITH HAS WHERE NO AT THIS",
+  "text_post_mcmc": "THEN SEND BY AS FROM WHO AT CAN MORE NOT WHEN ALL WHAT BUT WE OR ALL AS AND",
+  "text_post_anchors": "THENEAST  SEND BY AS FROMNORTHEAST  WHOBERLIN  ATCLOCK  CAN MORE NOT WHEN ALL WHAT BUT WE OR ALL AS AND",
+  "text_final": "THENEAST THEN READ THE SEND THE BY AND AND AS THE FROMNORTHEAST WHOBERLIN ATCLOCK CAN MORE NOT WHEN ALL WHAT BUT WE OR ALL AS AND",
+  "metrics": {
+    "fw_pre": 10,
+    "verbs_pre": 1,
+    "cov_pre": 1.0,
+    "fw_mcmc": 18,
+    "verbs_mcmc": 1,
+    "cov_mcmc": 1.0,
+    "fw_final": 16,
+    "verbs_final": 2,
+    "cov_final": 0.85
+  },
+  "placement": {
+    "positions": [
+      4,
+      20,
+      24,
+      27
+    ],
+    "token_boundaries": true,
+    "drop_predicted": 2.7451600181000817,
+    "drop_actual": 0.39504643962848274
+  },
+  "leakage_diff": 0.0
+}

@@ -1,0 +1,33 @@
+{
+  "head_id": 6,
+  "arm": "B",
+  "seed_u64": 16833068982366365622,
+  "weights_sha256": "d2b426b77c965c3ecd804c8d25c48ab45f0635db18275f68827cd48fa0d98be0",
+  "text_pre": "MARK THE LIGHT LOW AND SEEK THE LAW NEW AND WHERE IS THE LIFE AND THE LIE",
+  "text_post_mcmc": "BY HAVE BUT IF WITH BE WAS AND THIS OF HAS FOR WHEN WHAT FOR UNDERSTAND WAS",
+  "text_post_anchors": "BYEAST  HAVE BUT IF WITHNORTHEAST  BEBERLIN  WASCLOCK  AND THIS OF HAS FOR WHEN WHAT FOR UNDERSTAND WAS",
+  "text_final": "BYEAST THEN READ THE HAVE THE BUT AND AND IF THE WITHNORTHEAST BEBERLIN WASCLOCK AND THIS OF HAS FOR WHEN WHAT FOR UNDERSTAND WAS",
+  "metrics": {
+    "fw_pre": 9,
+    "verbs_pre": 1,
+    "cov_pre": 1.0,
+    "fw_mcmc": 16,
+    "verbs_mcmc": 1,
+    "cov_mcmc": 1.0,
+    "fw_final": 16,
+    "verbs_final": 2,
+    "cov_final": 0.85
+  },
+  "placement": {
+    "positions": [
+      2,
+      19,
+      22,
+      26
+    ],
+    "token_boundaries": true,
+    "drop_predicted": 2.6393247637744652,
+    "drop_actual": 0.4470588235294115
+  },
+  "leakage_diff": 0.0
+}

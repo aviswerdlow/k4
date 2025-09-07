@@ -1,0 +1,33 @@
+{
+  "head_id": 48,
+  "arm": "A",
+  "seed_u64": 1867374517031594321,
+  "weights_sha256": "c22ce0c4dd0c04d11e1c9d5d89b07f481532048aa233bd79470b565f7b53d41b",
+  "text_pre": "TAKE THE CODE NEXT THE BOOK IS [DIR1] OF THE WAY ALL A NO TWO THEIR ON",
+  "text_post_mcmc": "YOUR SEND AS THEY THAT IN WE ON WOULD ARE THEN IS BUT ARE MORE OF OR OF AS",
+  "text_post_anchors": "YOUREAST  SEND ASNORTHEAST  THEYBERLIN  THATCLOCK  IN WE ON WOULD ARE THEN IS BUT ARE MORE OF OR OF AS",
+  "text_final": "YOUREAST THE SEND THE ASNORTHEAST THE THEYBERLIN THE THATCLOCK IN WE ON WOULD ARE THEN IS BUT ARE MORE OF OR OF AS",
+  "metrics": {
+    "fw_pre": 11,
+    "verbs_pre": 1,
+    "cov_pre": 0.9411764705882353,
+    "fw_mcmc": 18,
+    "verbs_mcmc": 1,
+    "cov_mcmc": 1.0,
+    "fw_final": 16,
+    "verbs_final": 1,
+    "cov_final": 0.85
+  },
+  "placement": {
+    "positions": [
+      4,
+      12,
+      17,
+      22
+    ],
+    "token_boundaries": true,
+    "drop_predicted": 2.3831462726168926,
+    "drop_actual": 0.27739938080495374
+  },
+  "leakage_diff": 0.0
+}

@@ -1,0 +1,33 @@
+{
+  "head_id": 124,
+  "arm": "B",
+  "seed_u64": 3242728309043727387,
+  "weights_sha256": "d2b426b77c965c3ecd804c8d25c48ab45f0635db18275f68827cd48fa0d98be0",
+  "text_pre": "IF THE DARK IS BAD THEN HOLD [DIR1] AND TAKE THE LOCK NEW AND THE SKY IS",
+  "text_post_mcmc": "BUT TO THAT OF HAVE BY WILL WE HAVE OR BEEN ARE IS THEY FOR THAT THEY ASK",
+  "text_post_anchors": "BUTEAST  TO THAT OF HAVENORTHEAST  BYBERLIN  WILLCLOCK  WE HAVE OR BEEN ARE IS THEY FOR THAT THEY ASK",
+  "text_final": "BUTEAST THEN READ THEN READ THE TO THAT OF AND HAVENORTHEAST A BYBERLIN A WILLCLOCK WE HAVE OR BEEN ARE IS THEY FOR THAT THEY ASK",
+  "metrics": {
+    "fw_pre": 9,
+    "verbs_pre": 1,
+    "cov_pre": 0.9411764705882353,
+    "fw_mcmc": 17,
+    "verbs_mcmc": 1,
+    "cov_mcmc": 1.0,
+    "fw_final": 14,
+    "verbs_final": 3,
+    "cov_final": 0.85
+  },
+  "placement": {
+    "positions": [
+      3,
+      19,
+      22,
+      27
+    ],
+    "token_boundaries": true,
+    "drop_predicted": 2.4957866166922176,
+    "drop_actual": 0.4194444444444443
+  },
+  "leakage_diff": 0.0
+}

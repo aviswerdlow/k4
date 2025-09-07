@@ -1,0 +1,33 @@
+{
+  "head_id": 74,
+  "arm": "B",
+  "seed_u64": 6010505499593117633,
+  "weights_sha256": "d2b426b77c965c3ecd804c8d25c48ab45f0635db18275f68827cd48fa0d98be0",
+  "text_pre": "IF DEATH THEN TAKE THE POINT AND WHERE IS THE HALL AND THE LIFE AND SET",
+  "text_post_mcmc": "ALL ARE AN WOULD YOU WITH WILL HAVE ALL ON WHERE IN FOR IN THERE ALL SEND",
+  "text_post_anchors": "ALLEAST  ARE AN WOULD YOUNORTHEAST  WITHBERLIN  WILLCLOCK  HAVE ALL ON WHERE IN FOR IN THERE ALL SEND",
+  "text_final": "ALLEAST THEN READ THE ARE THE AN AND AND WOULD THE YOUNORTHEAST WITHBERLIN WILLCLOCK HAVE ALL ON WHERE IN FOR IN THERE ALL SEND",
+  "metrics": {
+    "fw_pre": 10,
+    "verbs_pre": 1,
+    "cov_pre": 1.0,
+    "fw_mcmc": 16,
+    "verbs_mcmc": 1,
+    "cov_mcmc": 1.0,
+    "fw_final": 17,
+    "verbs_final": 2,
+    "cov_final": 0.85
+  },
+  "placement": {
+    "positions": [
+      3,
+      20,
+      25,
+      30
+    ],
+    "token_boundaries": true,
+    "drop_predicted": 2.586725267093545,
+    "drop_actual": 0.4470588235294115
+  },
+  "leakage_diff": 0.0
+}

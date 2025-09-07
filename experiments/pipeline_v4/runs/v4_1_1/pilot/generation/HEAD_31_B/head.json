@@ -1,0 +1,33 @@
+{
+  "head_id": 31,
+  "arm": "B",
+  "seed_u64": 13960285862306881115,
+  "weights_sha256": "d2b426b77c965c3ecd804c8d25c48ab45f0635db18275f68827cd48fa0d98be0",
+  "text_pre": "TURN THE WALL LOW. CHECK THEN GO AND KEEP. OR ALL HAD WILL THEN ALL WHAT",
+  "text_post_mcmc": "CAN ON ON BUT ONE OR AND WILL TO YOUR OF ON NO IN TO CAN SO IS AND ASK AN",
+  "text_post_anchors": "CANEAST  ON ON BUT THE NORTHEAST ONE THE BERLIN OR AND THE CLOCK WILL TO YOUR OF ON NO IN TO CAN SO IS AND ASK AN",
+  "text_final": "CANEAST THEN READ THEN READ THE ON THE ON BUT THE NORTHEAST ONE THE BERLIN OR AND THE CLOCK WILL TO YOUR OF ON NO IN TO CAN SO IS AND ASK AN",
+  "metrics": {
+    "fw_pre": 10,
+    "verbs_pre": 1,
+    "cov_pre": 0.875,
+    "fw_mcmc": 20,
+    "verbs_mcmc": 1,
+    "cov_mcmc": 1.0,
+    "fw_final": 21,
+    "verbs_final": 3,
+    "cov_final": 0.8787878787878788
+  },
+  "placement": {
+    "positions": [
+      3,
+      14,
+      18,
+      25
+    ],
+    "token_boundaries": true,
+    "drop_predicted": 2.403223280939586,
+    "drop_actual": 0.3033138401559454
+  },
+  "leakage_diff": 0.0
+}

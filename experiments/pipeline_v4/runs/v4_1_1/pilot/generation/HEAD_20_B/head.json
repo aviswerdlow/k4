@@ -1,0 +1,33 @@
+{
+  "head_id": 20,
+  "arm": "B",
+  "seed_u64": 13148033676609627799,
+  "weights_sha256": "d2b426b77c965c3ecd804c8d25c48ab45f0635db18275f68827cd48fa0d98be0",
+  "text_pre": "WHEN TRUE GO THE WAY AND IF BOOK THEN SEND THE BOOK THIS ON THE THEN AND",
+  "text_post_mcmc": "FROM SHOW YOUR ON YOUR A NOT IF ALL WHAT THIS THEIR HAVE OUR TWO OUR OF",
+  "text_post_anchors": "FROMEAST  SHOW YOURNORTHEAST  ON YOURBERLIN  A NOTCLOCK  IF ALL WHAT THIS THEIR HAVE OUR TWO OUR OF",
+  "text_final": "FROMEAST THEN READ THEN READ THE SHOW THE YOURNORTHEAST ON YOURBERLIN A NOTCLOCK A IF ALL WHAT THIS THEIR HAVE OUR TWO OUR OF",
+  "metrics": {
+    "fw_pre": 11,
+    "verbs_pre": 1,
+    "cov_pre": 1.0,
+    "fw_mcmc": 16,
+    "verbs_mcmc": 1,
+    "cov_mcmc": 1.0,
+    "fw_final": 13,
+    "verbs_final": 3,
+    "cov_final": 0.85
+  },
+  "placement": {
+    "positions": [
+      4,
+      14,
+      22,
+      28
+    ],
+    "token_boundaries": true,
+    "drop_predicted": 2.495359614060402,
+    "drop_actual": 0.31372549019607865
+  },
+  "leakage_diff": 0.0
+}

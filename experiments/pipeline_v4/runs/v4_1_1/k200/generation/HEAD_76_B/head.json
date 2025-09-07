@@ -1,0 +1,33 @@
+{
+  "head_id": 76,
+  "arm": "B",
+  "seed_u64": 5181716810684656086,
+  "weights_sha256": "d2b426b77c965c3ecd804c8d25c48ab45f0635db18275f68827cd48fa0d98be0",
+  "text_pre": "BEFORE THE PLAN ASK THE PATH IF PLAN THEN BRING THE HALL WHERE IS THE ROOM",
+  "text_post_mcmc": "THE GET ITS OF NOT OF HAVE BE AND BE SO THE THAT THERE HAVE NO YOUR BUT BY",
+  "text_post_anchors": "THEEAST  GET ITSNORTHEAST  OFBERLIN  NOT OF HAVECLOCK  BE AND BE SO THE THAT THERE HAVE NO YOUR BUT BY",
+  "text_final": "THEEAST THEN READ THEN READ THE GET THE ITSNORTHEAST THE OFBERLIN NOT THE OF HAVECLOCK BE AND BE SO THE THAT THERE HAVE NO YOUR BUT BY",
+  "metrics": {
+    "fw_pre": 8,
+    "verbs_pre": 1,
+    "cov_pre": 0.9375,
+    "fw_mcmc": 18,
+    "verbs_mcmc": 1,
+    "cov_mcmc": 1.0,
+    "fw_final": 16,
+    "verbs_final": 3,
+    "cov_final": 0.8518518518518519
+  },
+  "placement": {
+    "positions": [
+      3,
+      11,
+      14,
+      26
+    ],
+    "token_boundaries": true,
+    "drop_predicted": 2.5029192262049826,
+    "drop_actual": 0.3362229102167178
+  },
+  "leakage_diff": 0.0
+}

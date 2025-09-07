@@ -1,0 +1,33 @@
+{
+  "head_id": 19,
+  "arm": "B",
+  "seed_u64": 13924051287747377235,
+  "weights_sha256": "d2b426b77c965c3ecd804c8d25c48ab45f0635db18275f68827cd48fa0d98be0",
+  "text_pre": "APPLY THE SKY AND SEE. WHERE IS THE LIFE AND THE STAR. SEE THE HOUR NEAR",
+  "text_post_mcmc": "WE OR THIS FROM MORE TO THERE WHEN OF BEEN BEEN THIS THEM ARE ALL START",
+  "text_post_anchors": "WEEAST  OR THIS FROM MORENORTHEAST  TOBERLIN  THERECLOCK  WHEN OF BEEN BEEN THIS THEM ARE ALL START",
+  "text_final": "WEEAST THEN READ THE OR AND AND THIS THE FROM MORENORTHEAST TOBERLIN THERECLOCK WHEN OF BEEN BEEN THIS THEM ARE ALL START",
+  "metrics": {
+    "fw_pre": 8,
+    "verbs_pre": 1,
+    "cov_pre": 0.875,
+    "fw_mcmc": 15,
+    "verbs_mcmc": 1,
+    "cov_mcmc": 1.0,
+    "fw_final": 13,
+    "verbs_final": 2,
+    "cov_final": 0.85
+  },
+  "placement": {
+    "positions": [
+      2,
+      20,
+      23,
+      29
+    ],
+    "token_boundaries": true,
+    "drop_predicted": 2.424808381887238,
+    "drop_actual": 0.4785714285714282
+  },
+  "leakage_diff": 0.0
+}

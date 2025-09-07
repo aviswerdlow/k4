@@ -1,0 +1,33 @@
+{
+  "head_id": 29,
+  "arm": "B",
+  "seed_u64": 890696704844860377,
+  "weights_sha256": "d2b426b77c965c3ecd804c8d25c48ab45f0635db18275f68827cd48fa0d98be0",
+  "text_pre": "SEE THEN TAKE AND WAIT AND WHERE IS THE MARK AND THE DAY AND BELIEVE THE",
+  "text_post_mcmc": "NO YOUR YOUR BEEN MORE THEM HAS IF IN OF YOU WOULD AT TWO WAS OR WILL SEE",
+  "text_post_anchors": "NOEAST  YOUR YOUR BEENNORTHEAST  MOREBERLIN  THEMCLOCK  HAS IF IN OF YOU WOULD AT TWO WAS OR WILL SEE",
+  "text_final": "NOEAST THEN READ THE YOUR THE YOUR AND AND BEENNORTHEAST THE MOREBERLIN THEMCLOCK HAS IF IN OF YOU WOULD AT TWO WAS OR WILL SEE",
+  "metrics": {
+    "fw_pre": 10,
+    "verbs_pre": 1,
+    "cov_pre": 1.0,
+    "fw_mcmc": 17,
+    "verbs_mcmc": 1,
+    "cov_mcmc": 1.0,
+    "fw_final": 13,
+    "verbs_final": 2,
+    "cov_final": 0.85
+  },
+  "placement": {
+    "positions": [
+      2,
+      17,
+      22,
+      27
+    ],
+    "token_boundaries": true,
+    "drop_predicted": 2.483656940516262,
+    "drop_actual": 0.4194444444444443
+  },
+  "leakage_diff": 0.0
+}

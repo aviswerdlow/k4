@@ -1,0 +1,33 @@
+{
+  "head_id": 8,
+  "arm": "A",
+  "seed_u64": 1706772296666690069,
+  "weights_sha256": "c22ce0c4dd0c04d11e1c9d5d89b07f481532048aa233bd79470b565f7b53d41b",
+  "text_pre": "SET THE DOOR TO LOW AND STEP THE SHADOW AND BELIEVE THE TRUTH AND WHEN LOW",
+  "text_post_mcmc": "IT THEM THEY TWO THERE WHO NO ITS CAN FROM IT TWO WOULD WITH AS FORGET IT",
+  "text_post_anchors": "ITEAST  THEM THEY TWONORTHEAST  THERE WHOBERLIN  NOCLOCK  ITS CAN FROM IT TWO WOULD WITH AS FORGET IT",
+  "text_final": "ITEAST THEN READ THE THEM THE THEY AND AND TWONORTHEAST THERE WHOBERLIN AND NOCLOCK ITS CAN FROM IT TWO WOULD WITH AS FORGET IT",
+  "metrics": {
+    "fw_pre": 8,
+    "verbs_pre": 1,
+    "cov_pre": 1.0,
+    "fw_mcmc": 16,
+    "verbs_mcmc": 1,
+    "cov_mcmc": 1.0,
+    "fw_final": 11,
+    "verbs_final": 2,
+    "cov_final": 0.85
+  },
+  "placement": {
+    "positions": [
+      2,
+      16,
+      26,
+      29
+    ],
+    "token_boundaries": true,
+    "drop_predicted": 2.4804611348459518,
+    "drop_actual": 0.44705882352941195
+  },
+  "leakage_diff": 0.0
+}

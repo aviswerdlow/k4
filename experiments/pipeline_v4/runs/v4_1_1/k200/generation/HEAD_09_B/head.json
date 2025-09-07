@@ -1,0 +1,33 @@
+{
+  "head_id": 9,
+  "arm": "B",
+  "seed_u64": 10347509652114435445,
+  "weights_sha256": "d2b426b77c965c3ecd804c8d25c48ab45f0635db18275f68827cd48fa0d98be0",
+  "text_pre": "WHERE IS THE SKY AND THE HALL AND IF STEP THEN BELIEVE THE WAY WHERE MORE",
+  "text_post_mcmc": "AN NOT WOULD WHEN AN AN A WAS IF THEY WAS FROM BY OR IF ON THEN KNOW THERE",
+  "text_post_anchors": "ANEAST  NOT WOULD WHENNORTHEAST  AN ANBERLIN  ACLOCK  WAS IF THEY WAS FROM BY OR IF ON THEN KNOW THERE",
+  "text_final": "ANEAST THEN READ THE NOT THE WOULD AND AND WHENNORTHEAST AN ANBERLIN AND ACLOCK WAS IF THEY WAS FROM BY OR IF ON THEN KNOW THERE",
+  "metrics": {
+    "fw_pre": 11,
+    "verbs_pre": 1,
+    "cov_pre": 1.0,
+    "fw_mcmc": 18,
+    "verbs_mcmc": 1,
+    "cov_mcmc": 1.0,
+    "fw_final": 18,
+    "verbs_final": 2,
+    "cov_final": 0.85
+  },
+  "placement": {
+    "positions": [
+      2,
+      17,
+      23,
+      25
+    ],
+    "token_boundaries": true,
+    "drop_predicted": 2.6063403129638782,
+    "drop_actual": 0.39504643962848274
+  },
+  "leakage_diff": 0.0
+}

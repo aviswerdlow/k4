@@ -1,0 +1,33 @@
+{
+  "head_id": 199,
+  "arm": "B",
+  "seed_u64": 13715252027559610794,
+  "weights_sha256": "d2b426b77c965c3ecd804c8d25c48ab45f0635db18275f68827cd48fa0d98be0",
+  "text_pre": "IF THE SIGN IS SLOW THEN PUT [DIR1] AND KEEP THE DAY HIGH WHEN TO TWO THEN",
+  "text_post_mcmc": "ON AT THE OR AND AND TO WILL WHEN MORE IT BUT BY OR TO WHERE YOU TURN ITS",
+  "text_post_anchors": "ONEAST  AT THE OR AND THE NORTHEAST AND THE BERLIN TO THE CLOCK WILL WHEN MORE IT BUT BY OR TO WHERE YOU TURN ITS",
+  "text_final": "ONEAST THE AT THE OR AND THE NORTHEAST AND READ THE BERLIN TO THE CLOCK THE WILL WHEN MORE IT BUT BY OR TO WHERE YOU TURN ITS",
+  "metrics": {
+    "fw_pre": 10,
+    "verbs_pre": 1,
+    "cov_pre": 0.9411764705882353,
+    "fw_mcmc": 18,
+    "verbs_mcmc": 1,
+    "cov_mcmc": 1.0,
+    "fw_final": 17,
+    "verbs_final": 2,
+    "cov_final": 0.8571428571428571
+  },
+  "placement": {
+    "positions": [
+      2,
+      17,
+      21,
+      24
+    ],
+    "token_boundaries": true,
+    "drop_predicted": 2.8076566067431363,
+    "drop_actual": 0.3286751918158566
+  },
+  "leakage_diff": 0.0
+}

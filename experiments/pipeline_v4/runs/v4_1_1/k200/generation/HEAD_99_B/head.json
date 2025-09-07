@@ -1,0 +1,33 @@
+{
+  "head_id": 99,
+  "arm": "B",
+  "seed_u64": 13674197184142548486,
+  "weights_sha256": "d2b426b77c965c3ecd804c8d25c48ab45f0635db18275f68827cd48fa0d98be0",
+  "text_pre": "WHEN BRIGHT HOLD THE WAY IF THE WAY IS DIM THEN READ [DIR1] WHERE IS THE",
+  "text_post_mcmc": "OF ITS WHERE THEY ALL IS IF FROM WHERE HAD WHEN THEM IF FOR THEN LEAD THEIR",
+  "text_post_anchors": "OFEAST  ITS WHERENORTHEAST  THEYBERLIN  ALL IS IFCLOCK  FROM WHERE HAD WHEN THEM IF FOR THEN LEAD THEIR",
+  "text_final": "OFEAST ITS WHERENORTHEAST THEN READ THEN READ THE THEYBERLIN AND AND ALL THE IS IFCLOCK FROM WHERE HAD WHEN THEM IF FOR THEN LEAD THEIR",
+  "metrics": {
+    "fw_pre": 9,
+    "verbs_pre": 1,
+    "cov_pre": 0.9375,
+    "fw_mcmc": 16,
+    "verbs_mcmc": 1,
+    "cov_mcmc": 1.0,
+    "fw_final": 15,
+    "verbs_final": 3,
+    "cov_final": 0.85
+  },
+  "placement": {
+    "positions": [
+      2,
+      12,
+      17,
+      27
+    ],
+    "token_boundaries": true,
+    "drop_predicted": 2.6645139633368964,
+    "drop_actual": 0.4470588235294115
+  },
+  "leakage_diff": 0.0
+}

@@ -1,0 +1,33 @@
+{
+  "head_id": 60,
+  "arm": "B",
+  "seed_u64": 3704560471731577377,
+  "weights_sha256": "d2b426b77c965c3ecd804c8d25c48ab45f0635db18275f68827cd48fa0d98be0",
+  "text_pre": "SET THE DAY TO NEW BEFORE THE GATE LOOK THE TRUTH ARE WITH SO AND HAVE",
+  "text_post_mcmc": "THERE SHOW IS WHO WAS AND A YOUR TO TO BUT IS OF ALL WHAT THEIR THAT WOULD",
+  "text_post_anchors": "THEREEAST  SHOW IS THE NORTHEAST WHO THE BERLIN WAS AND THE CLOCK A YOUR TO TO BUT IS OF ALL WHAT THEIR THAT WOULD",
+  "text_final": "THEREEAST THEN READ THEN READ THE SHOW IS THE NORTHEAST WHO THE BERLIN WAS AND THE CLOCK A YOUR TO TO BUT IS OF ALL WHAT THEIR THAT WOULD",
+  "metrics": {
+    "fw_pre": 9,
+    "verbs_pre": 1,
+    "cov_pre": 0.9375,
+    "fw_mcmc": 17,
+    "verbs_mcmc": 1,
+    "cov_mcmc": 1.0,
+    "fw_final": 20,
+    "verbs_final": 3,
+    "cov_final": 0.8620689655172413
+  },
+  "placement": {
+    "positions": [
+      5,
+      14,
+      18,
+      26
+    ],
+    "token_boundaries": true,
+    "drop_predicted": 2.5703817104320157,
+    "drop_actual": 0.3429924242424245
+  },
+  "leakage_diff": 0.0
+}

@@ -1,0 +1,33 @@
+{
+  "head_id": 53,
+  "arm": "B",
+  "seed_u64": 17603076224554458774,
+  "weights_sha256": "d2b426b77c965c3ecd804c8d25c48ab45f0635db18275f68827cd48fa0d98be0",
+  "text_pre": "APPLY THE GROUND AND KEEP IF DOOR THEN GIVE THE PATH BEEN IS AN ARE AN",
+  "text_post_mcmc": "HAVE WHERE ON BEEN SO THAT ON HAD WHERE HAVE HAVE IN THERE BUT SEEK ALL",
+  "text_post_anchors": "HAVEEAST  WHERE THE NORTHEAST ON THE BERLIN BEEN SO THAT THE CLOCK ON HAD WHERE HAVE HAVE IN THERE BUT SEEK ALL",
+  "text_final": "HAVEEAST THEN READ THEN READ THE WHERE THE NORTHEAST ON THE BERLIN THE BEEN AND A SO THAT THE CLOCK ON HAD WHERE HAVE HAVE IN THERE BUT SEEK ALL",
+  "metrics": {
+    "fw_pre": 10,
+    "verbs_pre": 1,
+    "cov_pre": 1.0,
+    "fw_mcmc": 15,
+    "verbs_mcmc": 1,
+    "cov_mcmc": 1.0,
+    "fw_final": 19,
+    "verbs_final": 3,
+    "cov_final": 0.8666666666666667
+  },
+  "placement": {
+    "positions": [
+      4,
+      11,
+      14,
+      27
+    ],
+    "token_boundaries": true,
+    "drop_predicted": 2.550928902042821,
+    "drop_actual": 0.37564935064935057
+  },
+  "leakage_diff": 0.0
+}

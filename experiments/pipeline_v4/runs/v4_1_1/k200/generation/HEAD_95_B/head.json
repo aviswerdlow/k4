@@ -1,0 +1,33 @@
+{
+  "head_id": 95,
+  "arm": "B",
+  "seed_u64": 15186422819184905830,
+  "weights_sha256": "d2b426b77c965c3ecd804c8d25c48ab45f0635db18275f68827cd48fa0d98be0",
+  "text_pre": "WHAT GO THE SIGN SOFT. STOP SOFT AND SEE TRUE. WHO ARE NOT MORE THAT AN",
+  "text_post_mcmc": "NOT BY A AND BEEN WHERE WITH YOU NOT WOULD THIS OR A IT HAS ONE FORGET FOR",
+  "text_post_anchors": "NOT BY A AND THE EAST BEEN THE NORTHEAST WHERE THE BERLIN WITH THE CLOCK YOU NOT WOULD THIS OR A IT HAS ONE FORGET FOR",
+  "text_final": "NOT BY A AND THE EAST THEN NOTE THEN NOTE THE BEEN THE NORTHEAST WHERE THE BERLIN WITH THE CLOCK THE YOU AND NOT WOULD THIS OR A IT HAS ONE FORGET FOR",
+  "metrics": {
+    "fw_pre": 9,
+    "verbs_pre": 1,
+    "cov_pre": 0.875,
+    "fw_mcmc": 17,
+    "verbs_mcmc": 1,
+    "cov_mcmc": 1.0,
+    "fw_final": 19,
+    "verbs_final": 3,
+    "cov_final": 0.8787878787878788
+  },
+  "placement": {
+    "positions": [
+      13,
+      18,
+      24,
+      29
+    ],
+    "token_boundaries": true,
+    "drop_predicted": 2.3240380310498714,
+    "drop_actual": 0.3536858974358976
+  },
+  "leakage_diff": 0.0
+}

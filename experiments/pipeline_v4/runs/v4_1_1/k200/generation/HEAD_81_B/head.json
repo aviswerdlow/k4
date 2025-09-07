@@ -1,0 +1,33 @@
+{
+  "head_id": 81,
+  "arm": "B",
+  "seed_u64": 16367321412607164581,
+  "weights_sha256": "d2b426b77c965c3ecd804c8d25c48ab45f0635db18275f68827cd48fa0d98be0",
+  "text_pre": "BEFORE THE KEY NOTE THE SHADOW MOVE THEN GO AND STEP A BE IN A WHO WAS",
+  "text_post_mcmc": "IT FROM AT TWO ARE TO MORE THE THEM A WHEN AND A ALL TO THEIR IN APPLY ARE",
+  "text_post_anchors": "ITEAST  FROM ATNORTHEAST  TWOBERLIN  ARE TOCLOCK  MORE THE THEM A WHEN AND A ALL TO THEIR IN APPLY ARE",
+  "text_final": "ITEAST THEN READ FROM ATNORTHEAST THE TWOBERLIN ARE TOCLOCK A A MORE THE THEM A WHEN AND A ALL TO THEIR IN APPLY ARE",
+  "metrics": {
+    "fw_pre": 10,
+    "verbs_pre": 1,
+    "cov_pre": 0.9411764705882353,
+    "fw_mcmc": 18,
+    "verbs_mcmc": 1,
+    "cov_mcmc": 1.0,
+    "fw_final": 16,
+    "verbs_final": 2,
+    "cov_final": 0.85
+  },
+  "placement": {
+    "positions": [
+      2,
+      10,
+      14,
+      21
+    ],
+    "token_boundaries": true,
+    "drop_predicted": 2.3543583798313192,
+    "drop_actual": 0.3362229102167178
+  },
+  "leakage_diff": 0.0
+}

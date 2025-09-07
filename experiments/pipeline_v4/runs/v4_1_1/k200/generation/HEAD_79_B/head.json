@@ -1,0 +1,33 @@
+{
+  "head_id": 79,
+  "arm": "B",
+  "seed_u64": 7742539262912519199,
+  "weights_sha256": "d2b426b77c965c3ecd804c8d25c48ab45f0635db18275f68827cd48fa0d98be0",
+  "text_pre": "WHAT THINK THE GATE WRONG IF THE STAR IS GOOD THEN READ [DIR1] ALL A THEIR",
+  "text_post_mcmc": "ON BUT IF ONE BEEN WHAT WOULD WHEN BEEN FROM TWO WHAT OF HAS THERE BEGIN IS",
+  "text_post_anchors": "ON BUT IF ONE THE EAST BEEN THE NORTHEAST WHAT THE BERLIN WOULD THE CLOCK WHEN BEEN FROM TWO WHAT OF HAS THERE BEGIN IS",
+  "text_final": "ON BUT THE IF THE ONE AND A THEN NOTE THE EAST BEEN THE NORTHEAST WHAT THE BERLIN WOULD THE CLOCK A WHEN BEEN FROM TWO WHAT OF HAS THERE BEGIN IS",
+  "metrics": {
+    "fw_pre": 9,
+    "verbs_pre": 1,
+    "cov_pre": 0.9375,
+    "fw_mcmc": 16,
+    "verbs_mcmc": 1,
+    "cov_mcmc": 1.0,
+    "fw_final": 21,
+    "verbs_final": 2,
+    "cov_final": 0.875
+  },
+  "placement": {
+    "positions": [
+      14,
+      19,
+      24,
+      30
+    ],
+    "token_boundaries": true,
+    "drop_predicted": 2.324328904327766,
+    "drop_actual": 0.368231884057971
+  },
+  "leakage_diff": 0.0
+}

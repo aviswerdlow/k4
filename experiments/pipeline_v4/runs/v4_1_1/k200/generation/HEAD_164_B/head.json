@@ -1,0 +1,33 @@
+{
+  "head_id": 164,
+  "arm": "B",
+  "seed_u64": 15001867416563736896,
+  "weights_sha256": "d2b426b77c965c3ecd804c8d25c48ab45f0635db18275f68827cd48fa0d98be0",
+  "text_pre": "IF THE TIME IS BAD THEN GET [DIR1] AND BEFORE THE YEAR SEE THE SIGN AND",
+  "text_post_mcmc": "WAS THERE ON WHO MORE HAVE FROM FROM HAD THEIR SO TWO WILL THEIR THINK AN",
+  "text_post_anchors": "WAS THERE ON WHOEAST  MORENORTHEAST  HAVEBERLIN  FROMCLOCK  FROM HAD THEIR SO TWO WILL THEIR THINK AN",
+  "text_final": "THEN SEE WAS THE THERE THE ON AND AND WHOEAST THE MORENORTHEAST HAVEBERLIN FROMCLOCK FROM HAD THEIR SO TWO WILL THEIR THINK AN",
+  "metrics": {
+    "fw_pre": 8,
+    "verbs_pre": 1,
+    "cov_pre": 0.875,
+    "fw_mcmc": 15,
+    "verbs_mcmc": 1,
+    "cov_mcmc": 1.0,
+    "fw_final": 14,
+    "verbs_final": 2,
+    "cov_final": 0.85
+  },
+  "placement": {
+    "positions": [
+      16,
+      21,
+      26,
+      31
+    ],
+    "token_boundaries": true,
+    "drop_predicted": 2.5262435734133577,
+    "drop_actual": 0.4785714285714282
+  },
+  "leakage_diff": 0.0
+}

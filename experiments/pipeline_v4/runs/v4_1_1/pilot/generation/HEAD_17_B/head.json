@@ -1,0 +1,33 @@
+{
+  "head_id": 17,
+  "arm": "B",
+  "seed_u64": 2913821652081449598,
+  "weights_sha256": "d2b426b77c965c3ecd804c8d25c48ab45f0635db18275f68827cd48fa0d98be0",
+  "text_pre": "FIND FAR AND SET OLD. GO THEN STOP AND SEE. OR ONE WHAT AS WHEN AN THEIR",
+  "text_post_mcmc": "ARE IT THAT IN HAD WHEN WE IS WAS IS NOT CAN BEEN IS TO THE BEEN READ SO",
+  "text_post_anchors": "AREEAST  IT THATNORTHEAST  IN HADBERLIN  WHENCLOCK  WE IS WAS IS NOT CAN BEEN IS TO THE BEEN READ SO",
+  "text_final": "AREEAST THEN READ IT THATNORTHEAST IN HADBERLIN AND WHENCLOCK A WE IS WAS IS NOT CAN BEEN IS TO THE BEEN READ SO",
+  "metrics": {
+    "fw_pre": 10,
+    "verbs_pre": 1,
+    "cov_pre": 0.8823529411764706,
+    "fw_mcmc": 18,
+    "verbs_mcmc": 1,
+    "cov_mcmc": 1.0,
+    "fw_final": 11,
+    "verbs_final": 2,
+    "cov_final": 0.85
+  },
+  "placement": {
+    "positions": [
+      3,
+      11,
+      18,
+      23
+    ],
+    "token_boundaries": true,
+    "drop_predicted": 2.4125667775797197,
+    "drop_actual": 0.3362229102167178
+  },
+  "leakage_diff": 0.0
+}

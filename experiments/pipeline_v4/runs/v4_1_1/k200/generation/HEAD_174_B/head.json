@@ -1,0 +1,33 @@
+{
+  "head_id": 174,
+  "arm": "B",
+  "seed_u64": 14612157927170912677,
+  "weights_sha256": "d2b426b77c965c3ecd804c8d25c48ab45f0635db18275f68827cd48fa0d98be0",
+  "text_pre": "SET THEN LOOK AND MARK MARK THE TRUTH FAR AN A OR A THE AND BEEN BE OF",
+  "text_post_mcmc": "OF OF BY ARE OF WHO SO OR FOR WHEN HAVE FOR IT THE WAS MAKE AS BELIEVE CAN",
+  "text_post_anchors": "OF OF BY ARE THE EAST OF THE NORTHEAST WHO THE BERLIN SO THE CLOCK OR FOR WHEN HAVE FOR IT THE WAS MAKE AS BELIEVE CAN",
+  "text_final": "OF OF BY THE ARE AND AND THEN READ THEN SEE THE EAST OF THE NORTHEAST WHO THE BERLIN SO THE CLOCK OR A FOR WHEN HAVE FOR IT THE WAS MAKE AS BELIEVE CAN",
+  "metrics": {
+    "fw_pre": 12,
+    "verbs_pre": 1,
+    "cov_pre": 1.0,
+    "fw_mcmc": 17,
+    "verbs_mcmc": 1,
+    "cov_mcmc": 1.0,
+    "fw_final": 23,
+    "verbs_final": 4,
+    "cov_final": 0.8857142857142857
+  },
+  "placement": {
+    "positions": [
+      13,
+      16,
+      20,
+      23
+    ],
+    "token_boundaries": true,
+    "drop_predicted": 2.70103908574748,
+    "drop_actual": 0.3308061002178646
+  },
+  "leakage_diff": 0.0
+}

@@ -1,0 +1,33 @@
+{
+  "head_id": 39,
+  "arm": "A",
+  "seed_u64": 14738846338821136225,
+  "weights_sha256": "c22ce0c4dd0c04d11e1c9d5d89b07f481532048aa233bd79470b565f7b53d41b",
+  "text_pre": "THE LIE IS [DIR1] OF THE LIE WHERE IS THE HALL AND THE LIE SET THE STAR TO",
+  "text_post_mcmc": "MORE BUT IT HAS OUR AND THEIR AN WHAT TWO WE FOR THEM YOU ALL WHAT IS ASK",
+  "text_post_anchors": "MOREEAST  BUT ITNORTHEAST  HASBERLIN  OURCLOCK  AND THEIR AN WHAT TWO WE FOR THEM YOU ALL WHAT IS ASK",
+  "text_final": "MOREEAST THEN READ THEN READ BUT ITNORTHEAST THE HASBERLIN OURCLOCK AND AND THEIR AN WHAT TWO WE FOR THEM YOU ALL WHAT IS ASK",
+  "metrics": {
+    "fw_pre": 11,
+    "verbs_pre": 1,
+    "cov_pre": 0.9444444444444444,
+    "fw_mcmc": 17,
+    "verbs_mcmc": 1,
+    "cov_mcmc": 1.0,
+    "fw_final": 13,
+    "verbs_final": 3,
+    "cov_final": 0.85
+  },
+  "placement": {
+    "positions": [
+      4,
+      11,
+      15,
+      19
+    ],
+    "token_boundaries": true,
+    "drop_predicted": 2.5606732953839835,
+    "drop_actual": 0.3569444444444443
+  },
+  "leakage_diff": 0.0
+}

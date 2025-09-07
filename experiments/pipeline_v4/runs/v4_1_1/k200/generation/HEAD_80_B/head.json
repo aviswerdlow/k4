@@ -1,0 +1,33 @@
+{
+  "head_id": 80,
+  "arm": "B",
+  "seed_u64": 7514687245077175576,
+  "weights_sha256": "d2b426b77c965c3ecd804c8d25c48ab45f0635db18275f68827cd48fa0d98be0",
+  "text_pre": "SET THE LIFE TO NEW SEE THEN MOVE AND TAKE A MORE NO OF IF BUT MORE HAS",
+  "text_post_mcmc": "AND TELL HAS HAD TO THE HAD YOU BE BY IS IN WHO BE OR AS NOT WHAT NO CAN IN",
+  "text_post_anchors": "ANDEAST  TELL HAS HADNORTHEAST  TO THEBERLIN  HADCLOCK  YOU BE BY IS IN WHO BE OR AS NOT WHAT NO CAN IN",
+  "text_final": "ANDEAST THE TELL HAS HADNORTHEAST TO THEBERLIN AND HADCLOCK A YOU BE BY IS IN WHO BE OR AS NOT WHAT NO CAN IN",
+  "metrics": {
+    "fw_pre": 12,
+    "verbs_pre": 1,
+    "cov_pre": 1.0,
+    "fw_mcmc": 20,
+    "verbs_mcmc": 1,
+    "cov_mcmc": 1.0,
+    "fw_final": 13,
+    "verbs_final": 1,
+    "cov_final": 0.85
+  },
+  "placement": {
+    "positions": [
+      3,
+      16,
+      23,
+      27
+    ],
+    "token_boundaries": true,
+    "drop_predicted": 2.3416520824350986,
+    "drop_actual": 0.30125313283208
+  },
+  "leakage_diff": 0.0
+}

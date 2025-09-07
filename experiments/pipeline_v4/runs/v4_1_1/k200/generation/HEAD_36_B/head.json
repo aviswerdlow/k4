@@ -1,0 +1,33 @@
+{
+  "head_id": 36,
+  "arm": "B",
+  "seed_u64": 10486488143344256544,
+  "weights_sha256": "d2b426b77c965c3ecd804c8d25c48ab45f0635db18275f68827cd48fa0d98be0",
+  "text_pre": "IF MOON THEN KNOW THE SUN FIND THE SHADOW AND BELIEVE THE TEXT THE LIE IS",
+  "text_post_mcmc": "BE IN BE THERE AS BY AN THEM OUR WOULD HAS CAN AT WOULD THERE HAD LEAD BY",
+  "text_post_anchors": "BE IN BE THERE THE EAST AS THE NORTHEAST BY THE BERLIN AN THE CLOCK THEM OUR WOULD HAS CAN AT WOULD THERE HAD LEAD BY",
+  "text_final": "BE IN THE BE THE THERE AND A THEN NOTE THE EAST AS THE NORTHEAST BY THE BERLIN AN THE CLOCK A THEM OUR WOULD HAS CAN AT WOULD THERE HAD LEAD BY",
+  "metrics": {
+    "fw_pre": 8,
+    "verbs_pre": 1,
+    "cov_pre": 1.0,
+    "fw_mcmc": 17,
+    "verbs_mcmc": 1,
+    "cov_mcmc": 1.0,
+    "fw_final": 22,
+    "verbs_final": 2,
+    "cov_final": 0.8787878787878788
+  },
+  "placement": {
+    "positions": [
+      15,
+      18,
+      21,
+      24
+    ],
+    "token_boundaries": true,
+    "drop_predicted": 2.737041212305537,
+    "drop_actual": 0.3536858974358976
+  },
+  "leakage_diff": 0.0
+}

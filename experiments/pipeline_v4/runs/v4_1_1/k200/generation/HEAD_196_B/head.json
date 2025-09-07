@@ -1,0 +1,33 @@
+{
+  "head_id": 196,
+  "arm": "B",
+  "seed_u64": 5190390478279817402,
+  "weights_sha256": "d2b426b77c965c3ecd804c8d25c48ab45f0635db18275f68827cd48fa0d98be0",
+  "text_pre": "WHEN NEW READ THE LIFE. KEEP THEN TAKE AND SEE. IN HAD OF BUT WAS ON TO",
+  "text_post_mcmc": "WAS WAS NO IN ARE AND BEEN THEN YOUR TWO OF MORE AT BUT WOULD BELIEVE THEN",
+  "text_post_anchors": "WASEAST  WAS NONORTHEAST  IN ARE ANDBERLIN  BEENCLOCK  THEN YOUR TWO OF MORE AT BUT WOULD BELIEVE THEN",
+  "text_final": "WASEAST THEN READ THEN READ WAS NONORTHEAST THE IN ARE ANDBERLIN AND BEENCLOCK A THEN YOUR TWO OF MORE AT BUT WOULD BELIEVE THEN",
+  "metrics": {
+    "fw_pre": 11,
+    "verbs_pre": 1,
+    "cov_pre": 0.8823529411764706,
+    "fw_mcmc": 16,
+    "verbs_mcmc": 1,
+    "cov_mcmc": 1.0,
+    "fw_final": 14,
+    "verbs_final": 3,
+    "cov_final": 0.85
+  },
+  "placement": {
+    "positions": [
+      3,
+      10,
+      21,
+      26
+    ],
+    "token_boundaries": true,
+    "drop_predicted": 2.6520188853090483,
+    "drop_actual": 0.4470588235294115
+  },
+  "leakage_diff": 0.0
+}
