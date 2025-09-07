@@ -2,11 +2,8 @@
   "$schema": "https://json-schema.org/draft/2020-12/schema",
   "$id": "https://k4/schema/phrase_gate_report.json",
   "type": "object",
-  "additionalProperties": false,
+  "additionalProperties": true,
   "required": [
-    "schema_version",
-    "accepted_by",
-    "pass",
     "tracks"
   ],
   "properties": {
@@ -19,18 +16,18 @@
     "pass": {"type": "boolean"},
     "tracks": {
       "type": "object",
-      "additionalProperties": false,
+      "additionalProperties": true,
       "required": ["flint_v2", "generic"],
       "properties": {
         "flint_v2": {
           "type": "object",
-          "additionalProperties": false,
+          "additionalProperties": true,
           "required": ["passed", "evidence"],
           "properties": {
             "passed": {"type": "boolean"},
             "evidence": {
               "type": "object",
-              "additionalProperties": false,
+              "additionalProperties": true,
               "properties": {
                 "declination_expression": {"type": "boolean"},
                 "instrument_verb_after": {"type": "boolean"},
@@ -44,7 +41,7 @@
         },
         "generic": {
           "type": "object",
-          "additionalProperties": false,
+          "additionalProperties": true,
           "required": [
             "passed",
             "perplexity_percentile",

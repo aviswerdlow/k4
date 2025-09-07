@@ -1,0 +1,9 @@
+# manifest_version: 1.0.0
+# generated_at: 2025-09-07T16:07:08.347632Z
+# git_commit: e8e9f7effff0381aa4eaa09e10607894179160ff
+# THRESHOLDS.json: cbff0f462242509006e589dc08313d9450540f92dbc113278f739059e5a77323
+# POLICY.phrase_gate.json: 74abcbfda4b32587b2fe62b51d28e6bc230a3a2ee729aa2657cf31bb90b36b9d
+de14974cd47645d6d4b41ea24e68457da4290e2310680135eafe497cba0e471c  canonical_cuts.json
+eea813570c7f1fd3b34674e47b5c3da8948026f5cefee612a0b38ffaa515ceab  ciphertext_97.txt
+46ea2c2142ba19188e6a02f27cab7e2ebc6c6416303557695ec7976a246e9149  function_words.txt
+a5260415e76509638b4845d5e707521126aca2d67b50177b3c94f8ccc4c56c31  permutations/GRID_W14_ROWS.json

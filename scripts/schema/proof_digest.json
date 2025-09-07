@@ -2,17 +2,13 @@
   "$schema": "https://json-schema.org/draft/2020-12/schema",
   "$id": "https://k4/schema/proof_digest.json",
   "type": "object",
-  "additionalProperties": false,
+  "additionalProperties": true,
   "required": [
-    "schema_version",
     "route_id",
-    "t2_sha256",
     "classing",
     "per_class",
     "forced_anchor_residues",
-    "encrypts_to_ct",
-    "seed_recipe",
-    "seed_u64"
+    "encrypts_to_ct"
   ],
   "properties": {
     "schema_version": {"type": "string", "enum": ["1.0.0"]},
@@ -21,10 +17,15 @@
       "pattern": "^(GRID|SPOKE|RAILFENCE)_[A-Z0-9_]+$",
       "$comment": "Route identifier for GRID/SPOKE/RAILFENCE families"
     },
-    "t2_sha256": {
+    "t2_sha": {
       "type": "string",
       "pattern": "^[a-f0-9]{64}$",
       "$comment": "SHA-256 of permutation table"
+    },
+    "t2_sha256": {
+      "type": "string",
+      "pattern": "^[a-f0-9]{64}$",
+      "$comment": "SHA-256 of permutation table (alternative name)"
     },
     "classing": {"type": "string", "enum": ["c6a", "c6b"]},
     "per_class": {

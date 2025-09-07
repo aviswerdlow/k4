@@ -1,0 +1,36 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://k4/schema/boundary_documentation.json",
+  "type": "object",
+  "additionalProperties": true,
+  "required": [
+    "boundary_tokenizer_version"
+  ],
+  "properties": {
+    "schema_version": {
+      "type": "string",
+      "enum": ["1.0.0"]
+    },
+    "boundary_tokenizer_version": {
+      "type": "string",
+      "enum": ["v2"]
+    },
+    "padding_tokens": {
+      "type": "array",
+      "items": {
+        "type": "string",
+        "pattern": "^[A-Z]+$"
+      }
+    },
+    "anchor_tokens": {
+      "type": "array",
+      "items": {
+        "type": "string",
+        "enum": ["EAST", "NORTHEAST", "BERLINCLOCK"]
+      }
+    },
+    "explanation": {
+      "type": "string"
+    }
+  }
+}

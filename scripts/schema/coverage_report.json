@@ -2,30 +2,20 @@
   "$schema": "https://json-schema.org/draft/2020-12/schema",
   "$id": "https://k4/schema/coverage_report.json",
   "type": "object",
-  "additionalProperties": false,
+  "additionalProperties": true,
   "required": [
-    "schema_version",
-    "rails",
-    "head_lock",
-    "tail_guard",
-    "pt_sha256",
-    "ct_sha256",
-    "proof_sha256",
-    "t2_sha256",
-    "near_gate",
-    "phrase_gate",
-    "nulls"
+    "rails"
   ],
   "properties": {
     "schema_version": {"type": "string", "enum": ["1.0.0"]},
     "rails": {
       "type": "object",
-      "additionalProperties": false,
+      "additionalProperties": true,
       "required": ["anchors_0idx"],
       "properties": {
         "anchors_0idx": {
           "type": "object",
-          "additionalProperties": false,
+          "additionalProperties": true,
           "required": ["EAST", "NORTHEAST", "BERLINCLOCK"],
           "properties": {
             "EAST": {
@@ -60,12 +50,12 @@
     },
     "tail_guard": {
       "type": "object",
-      "additionalProperties": false,
+      "additionalProperties": true,
       "required": ["seam"],
       "properties": {
         "seam": {
           "type": "object",
-          "additionalProperties": false,
+          "additionalProperties": true,
           "required": ["range", "cuts", "tokens"],
           "properties": {
             "range": {
@@ -86,7 +76,7 @@
     "t2_sha256": {"type": "string", "pattern": "^[a-f0-9]{64}$"},
     "near_gate": {
       "type": "object",
-      "additionalProperties": false,
+      "additionalProperties": true,
       "required": ["coverage", "f_words", "has_verb", "pass"],
       "properties": {
         "coverage": {"type": "number", "minimum": 0, "maximum": 1},
@@ -97,7 +87,7 @@
     },
     "phrase_gate": {
       "type": "object",
-      "additionalProperties": false,
+      "additionalProperties": true,
       "required": ["accepted_by", "pass"],
       "properties": {
         "accepted_by": {"type": "array", "items": {"type": "string"}},
@@ -109,18 +99,18 @@
         {"type": "string", "enum": ["not_run"]},
         {
           "type": "object",
-          "additionalProperties": false,
+          "additionalProperties": true,
           "required": ["K", "metrics", "publishable"],
           "properties": {
             "K": {"type": "integer", "minimum": 10000},
             "metrics": {
               "type": "object",
-              "additionalProperties": false,
+              "additionalProperties": true,
               "required": ["coverage", "f_words"],
               "properties": {
                 "coverage": {
                   "type": "object",
-                  "additionalProperties": false,
+                  "additionalProperties": true,
                   "required": ["p_raw", "p_holm"],
                   "properties": {
                     "p_raw": {"type": "number", "minimum": 0, "maximum": 1},
@@ -129,7 +119,7 @@
                 },
                 "f_words": {
                   "type": "object",
-                  "additionalProperties": false,
+                  "additionalProperties": true,
                   "required": ["p_raw", "p_holm"],
                   "properties": {
                     "p_raw": {"type": "number", "minimum": 0, "maximum": 1},

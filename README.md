@@ -8,13 +8,13 @@ This repository publishes a reproducible, hash-pinned evaluation of a K4 plainte
 >
 > ```bash
 > k4 confirm \
->   --ct data/ciphertext_97.txt \
->   --pt results/GRID_ONLY/winner_HEAD_0020_v522B/plaintext_97.txt \
->   --proof results/GRID_ONLY/winner_HEAD_0020_v522B/proof_digest.json \
->   --perm data/permutations/GRID_W14_ROWS.json \
->   --cuts data/canonical_cuts.json \
->   --fwords data/function_words.txt \
->   --policy results/GRID_ONLY/winner_HEAD_0020_v522B/phrase_gate_policy.json \
+>   --ct 02_DATA/ciphertext_97.txt \
+>   --pt 01_PUBLISHED/winner_HEAD_0020_v522B/plaintext_97.txt \
+>   --proof 01_PUBLISHED/winner_HEAD_0020_v522B/proof_digest.json \
+>   --perm 02_DATA/permutations/GRID_W14_ROWS.json \
+>   --cuts 02_DATA/canonical_cuts.json \
+>   --fwords 02_DATA/function_words.txt \
+>   --policy 01_PUBLISHED/winner_HEAD_0020_v522B/phrase_gate_policy.json \
 >   --out /tmp/k4_verify_HEAD_0020_v522B
 > ```
 >
@@ -85,7 +85,7 @@ ______________________________________________________________________
 
 ## Winner bundle (what you can verify)
 
-`results/GRID_ONLY/cand_005/`
+`01_PUBLISHED/winner_HEAD_0020_v522B/`
 
 - `plaintext_97.txt` — 97 letters (anchors in place)
 - `proof_digest.json` — ⟨family,L,phase⟩×6; forced residues; route SHA; seed recipe
@@ -96,8 +96,8 @@ ______________________________________________________________________
 - `coverage_report.json` — rails echo, encrypts_to_ct:true, route digest, seed
 - `hashes.txt` — SHA-256 of all files in the bundle
 
-**Runner-up**: minimal bundle in `results/GRID_ONLY/cand_004/` for tie-breaker comparison.\
-**Uniqueness summary**: `results/GRID_ONLY/uniqueness_confirm_summary_GRID.json`.
+**Runner-up**: [To be migrated in Stage B]
+**Uniqueness summary**: [To be migrated in Stage B]
 
 ______________________________________________________________________
 
@@ -177,9 +177,9 @@ ______________________________________________________________________
 
 ## Paths you'll want
 
-- **Winner bundle**: `results/GRID_ONLY/cand_005/`
-- **Runner-up**: `results/GRID_ONLY/cand_004/`
-- **Uniqueness summary**: `results/GRID_ONLY/uniqueness_confirm_summary_GRID.json`
+- **Winner bundle**: `01_PUBLISHED/winner_HEAD_0020_v522B/`
+- **Runner-up**: [To be migrated in Stage B]
+- **Uniqueness summary**: [To be migrated in Stage B]
 - **Validation guide**: `VALIDATION.md`
 - **Cadence panel (report-only)**: `experiments/cadence_panel/runs/2025-09-05/`
 - **Seam-free appendix**: `experiments/seam_free/runs/20250903/`
