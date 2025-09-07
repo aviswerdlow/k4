@@ -2,5 +2,6 @@
   "coverage": 0.9230769230769231,
   "function_words": 10,
   "has_verb": true,
-  "passed": true
+  "passed": true,
+  "schema_version": "1.0.0"
 }

@@ -7,6 +7,12 @@ from pathlib import Path
 
 from jsonschema import ValidationError, validate
 
+REQUIRED_FILES = [
+    "coverage_report.json",
+    "phrase_gate_report.json",
+    "holm_report_canonical.json",
+    "hashes.txt",
+]
 
 def load_schemas(schema_dir: Path):
     schemas = {}
@@ -15,17 +21,16 @@ def load_schemas(schema_dir: Path):
             schemas[path.stem] = json.load(f)
     return schemas
 
-
 def match_schema(file_name: str, schemas):
     for name in schemas:
         if file_name.startswith(name):
             return schemas[name]
     return None
 
-
-def validate_bundle(bundle_dir: Path, schema_dir: Path) -> bool:
+def validate_bundle(bundle_dir: Path, schema_dir: Path, mode: str = "strict") -> bool:
     schemas = load_schemas(schema_dir)
     ok = True
+    errors = []
     for json_path in bundle_dir.rglob("*.json"):
         schema = match_schema(json_path.name, schemas)
         if schema is None:
@@ -38,19 +43,33 @@ def validate_bundle(bundle_dir: Path, schema_dir: Path) -> bool:
             print(f"{json_path}: ok")
         except (json.JSONDecodeError, ValidationError) as e:
             print(f"{json_path}: {e}")
+            if mode == "strict":
+                ok = False
+                errors.append(f"{json_path}: {e}")
+    if mode == "strict":
+        summary = list(bundle_dir.glob("uniqueness_confirm_summary*.json"))
+        if not summary:
             ok = False
+            errors.append("missing uniqueness summary")
+        for cand_dir in bundle_dir.glob("cand_*"):
+            for name in REQUIRED_FILES:
+                if not (cand_dir / name).exists():
+                    ok = False
+                    errors.append(f"missing {cand_dir / name}")
+    if errors:
+        print("Validation errors:")
+        for e in errors:
+            print(f" - {e}")
     return ok
-
 
 def main():
     parser = argparse.ArgumentParser(description="Validate bundle JSON files")
     parser.add_argument("bundle", type=Path, help="Path to bundle directory")
     parser.add_argument("--schema", type=Path, default=Path("scripts/schema"))
+    parser.add_argument("--mode", choices=["strict", "lenient"], default="strict")
     args = parser.parse_args()
-
-    success = validate_bundle(args.bundle, args.schema)
+    success = validate_bundle(args.bundle, args.schema, args.mode)
     raise SystemExit(0 if success else 1)
-
 
 if __name__ == "__main__":
     main()

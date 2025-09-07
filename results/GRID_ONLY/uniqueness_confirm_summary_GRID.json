@@ -49,9 +49,9 @@
       },
       "holm_adj_p": {
         "coverage": 0.00019998000199980003,
-        "f_words": 9.999000099990002e-05
+        "f_words": 0.00009999000099990002
       },
-      "holm_adj_p_min": 9.999000099990002e-05,
+      "holm_adj_p_min": 0.00009999000099990002,
       "coverage": 0.8846153846153846,
       "perplexity_percentile": 0.1,
       "publishable": true
@@ -71,19 +71,36 @@
       },
       "holm_adj_p": {
         "coverage": 0.00019998000199980003,
-        "f_words": 9.999000099990002e-05
+        "f_words": 0.00009999000099990002
       },
-      "holm_adj_p_min": 9.999000099990002e-05,
+      "holm_adj_p_min": 0.00009999000099990002,
       "coverage": 0.9230769230769231,
       "perplexity_percentile": 0.1,
       "publishable": true
     }
   ],
   "tie_breakers_applied": [
-    {"metric": "holm_adj_p_min", "result": "tie"},
-    {"metric": "perplexity_percentile", "result": "tie"},
-    {"metric": "coverage", "winner": "cand_005", "values": {"cand_005": 0.9230769230769231, "cand_004": 0.8846153846153846}, "decisive": true},
-    {"metric": "route_complexity", "result": "not_reached"}
+    {
+      "metric": "holm_adj_p_min",
+      "result": "tie"
+    },
+    {
+      "metric": "perplexity_percentile",
+      "result": "tie"
+    },
+    {
+      "metric": "coverage",
+      "winner": "cand_005",
+      "values": {
+        "cand_005": 0.9230769230769231,
+        "cand_004": 0.8846153846153846
+      },
+      "decisive": true
+    },
+    {
+      "metric": "route_complexity",
+      "result": "not_reached"
+    }
   ],
   "uniqueness": {
     "unique": true,
@@ -91,17 +108,18 @@
     "winner": "cand_005",
     "comparison": {
       "cand_004": {
-        "holm_adj_p_min": 9.999000099990002e-05,
+        "holm_adj_p_min": 0.00009999000099990002,
         "perplexity_percentile": 0.1,
         "coverage": 0.8846153846153846,
         "route_complexity": 101
       },
       "cand_005": {
-        "holm_adj_p_min": 9.999000099990002e-05,
+        "holm_adj_p_min": 0.00009999000099990002,
         "perplexity_percentile": 0.1,
         "coverage": 0.9230769230769231,
         "route_complexity": 141
       }
     }
-  }
+  },
+  "schema_version": "1.0.0"
 }

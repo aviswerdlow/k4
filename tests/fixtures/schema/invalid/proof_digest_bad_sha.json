@@ -1,0 +1,16 @@
+{
+  "schema_version": "1.0.0",
+  "route_id": "GRID_W14_ROWS",
+  "t2_sha256": "deadbeef",
+  "classing": "c6a",
+  "per_class": [
+    {"family": "vigenere", "L": 10, "phase": 0},
+    {"family": "vigenere", "L": 10, "phase": 0},
+    {"family": "vigenere", "L": 10, "phase": 0},
+    {"family": "vigenere", "L": 10, "phase": 0},
+    {"family": "vigenere", "L": 10, "phase": 0},
+    {"family": "vigenere", "L": 10, "phase": 0}
+  ],
+  "forced_anchor_residues": [],
+  "encrypts_to_ct": true
+}

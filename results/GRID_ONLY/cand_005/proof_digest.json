@@ -206,5 +206,6 @@
   ],
   "seed_recipe": "UNIQUENESS|K4|eea813570c7f1fd3b34674e47b5c3da8948026f5cefee612a0b38ffaa515ceab|route:GRID_W14_ROWS|classing:c6a|label:cand_005",
   "seed_u64": 2249824697487296346,
-  "lm_manifest_sha256": "lane_pinned_manifest"
+  "lm_manifest_sha256": "lane_pinned_manifest",
+  "schema_version": "1.0.0"
 }

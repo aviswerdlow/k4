@@ -1,0 +1,13 @@
+{
+  "schema_version": "1.0.0",
+  "flint_v2": {"passed": true},
+  "generic": {
+    "perplexity_percentile": 0.1,
+    "pos_score": 0.6,
+    "content_words": 0,
+    "max_repeat_non_anchor": 0,
+    "passed": true
+  },
+  "accepted_by": ["flint_v2", "generic"],
+  "passed": true
+}

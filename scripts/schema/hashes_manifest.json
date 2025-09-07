@@ -1,0 +1,13 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://k4/schema/hashes_manifest.json",
+  "type": "object",
+  "patternProperties": {
+    ".+": {"type": "string", "pattern": "^[a-f0-9]{64}$"}
+  },
+  "additionalProperties": false,
+  "required": ["schema_version"],
+  "properties": {
+    "schema_version": {"type": "string", "enum": ["1.0.0"]}
+  }
+}
