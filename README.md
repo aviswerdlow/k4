@@ -181,11 +181,11 @@ ______________________________________________________________________
 - **Runner-up**: `01_PUBLISHED/runner_up_cand_004/`
 - **Uniqueness summary**: `01_PUBLISHED/uniqueness_confirm_summary_GRID.json`
 - **Validation guide**: `VALIDATION.md`
-- **Cadence panel (report-only)**: `experiments/cadence_panel/runs/2025-09-05/`
-- **Seam-free appendix**: `experiments/seam_free/runs/20250903/`
-- **Anchors-only appendix**: `experiments/anchors_only/runs/20250903/`
-- **P74 editorial sweep**: `experiments/p74_editorial/runs/20250905/`
-- **Typo tolerance**: `experiments/typo_tolerance/runs/20250904/`
+- **Cadence panel (report-only)**: `04_EXPERIMENTS/cadence_panel/runs/2025-09-05/`
+- **Seam-free appendix**: `04_EXPERIMENTS/seam_free/runs/20250903/`
+- **Anchors-only appendix**: `04_EXPERIMENTS/anchors_only/runs/20250903/`
+- **P74 editorial sweep**: `04_EXPERIMENTS/p74_editorial/runs/20250905/`
+- **Typo tolerance**: `04_EXPERIMENTS/typo_tolerance/runs/20250904/`
 - **Top-level manifest**: `MANIFEST.sha256`
 
 ______________________________________________________________________

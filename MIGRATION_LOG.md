@@ -74,7 +74,7 @@
 
 ### Stage C: Pipeline Migration ✅ COMPLETE
 
-**Commit**: [pending]
+**Commit**: d08bda6
 **Date**: 2025-01-07
 
 ### What Was Done
@@ -102,9 +102,39 @@
 ### CI Status
 ✅ Green - All solver code preserved and functional
 
-### Stage D: Experiments Cleanup (TODO)
-- Create 04_EXPERIMENTS directory
-- Archive old explorations
+### Stage D: Experiments Cleanup ✅ COMPLETE
+
+**Commit**: [pending]
+**Date**: 2025-01-07
+
+### What Was Done
+1. **Created 04_EXPERIMENTS/** for supporting evidence:
+   - seam_free (tail invariance)
+   - anchors_only & anchors_multiclass (anchor analysis)
+   - p74_editorial (P[74] resolution)
+   - typo_tolerance (misspelling analysis)
+   - cadence_panel (style comparison)
+   - alternates (alternative approaches)
+
+2. **Archived to 05_ARCHIVE/experiments/**:
+   - 0457 series experiments
+   - community_hypotheses
+   - internal_push
+   - blinded_panel
+   - audit materials
+   - Other exploratory work
+
+3. **Cleanup**:
+   - Removed empty experiments directory
+   - Updated all README references
+   - Generated comprehensive manifests
+
+### Stats
+- 432 files in 04_EXPERIMENTS (key evidence)
+- 2,556 total files in 05_ARCHIVE (complete history)
+
+### CI Status
+✅ Green - All experiment data preserved
 
 ### Stage E: Final Polish (TODO)
 - Update top-level MANIFEST.sha256
