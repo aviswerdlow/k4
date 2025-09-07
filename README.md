@@ -96,8 +96,8 @@ ______________________________________________________________________
 - `coverage_report.json` — rails echo, encrypts_to_ct:true, route digest, seed
 - `hashes.txt` — SHA-256 of all files in the bundle
 
-**Runner-up**: [To be migrated in Stage B]
-**Uniqueness summary**: [To be migrated in Stage B]
+**Runner-up**: minimal bundle in `01_PUBLISHED/runner_up_cand_004/` for tie-breaker comparison.
+**Uniqueness summary**: `01_PUBLISHED/uniqueness_confirm_summary_GRID.json`.
 
 ______________________________________________________________________
 
@@ -178,8 +178,8 @@ ______________________________________________________________________
 ## Paths you'll want
 
 - **Winner bundle**: `01_PUBLISHED/winner_HEAD_0020_v522B/`
-- **Runner-up**: [To be migrated in Stage B]
-- **Uniqueness summary**: [To be migrated in Stage B]
+- **Runner-up**: `01_PUBLISHED/runner_up_cand_004/`
+- **Uniqueness summary**: `01_PUBLISHED/uniqueness_confirm_summary_GRID.json`
 - **Validation guide**: `VALIDATION.md`
 - **Cadence panel (report-only)**: `experiments/cadence_panel/runs/2025-09-05/`
 - **Seam-free appendix**: `experiments/seam_free/runs/20250903/`

@@ -1,0 +1,15 @@
+{
+  "stage": "B",
+  "description": "Runner-up and supporting materials migration",
+  "changes": [
+    "Moved runner-up cand_004 to 01_PUBLISHED/runner_up_cand_004",
+    "Moved uniqueness summary to 01_PUBLISHED",
+    "Archived v5.2 materials to 05_ARCHIVE/results_grid_only",
+    "Archived remaining candidates and reports"
+  ],
+  "validation": {
+    "runner_up": "/Users/aviswerdlow/Downloads/Kryptos Team/k4_cli_plus/01_PUBLISHED/runner_up_cand_004",
+    "archive_items": 6,
+    "ci_status": "green"
+  }
+}
