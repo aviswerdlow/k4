@@ -1,0 +1,33 @@
+{
+  "head_id": 57,
+  "arm": "B",
+  "seed_u64": 9908423258425526131,
+  "weights_sha256": "d2b426b77c965c3ecd804c8d25c48ab45f0635db18275f68827cd48fa0d98be0",
+  "text_pre": "SET THE POINT TO LOW AND WHAT ASK THE TEXT FAR AND PLACE THE MOON AND REMEM",
+  "text_post_mcmc": "THEN PLACE BE IN CAN CAN YOUR NO THEM ONE ALL WHAT THEN OF THEIR IS YOUR",
+  "text_post_anchors": "THEN PLACE THE EAST BE THE NORTHEAST IN CAN THE BERLIN CAN THE CLOCK YOUR NO THEM ONE ALL WHAT THEN OF THEIR IS YOUR",
+  "text_final": "THEN SEE THEN SEE THEN PLACE THE EAST BE THE NORTHEAST IN CAN THE BERLIN CAN THE CLOCK THE YOUR A NO THEM ONE ALL WHAT THEN OF THEIR IS YOUR",
+  "metrics": {
+    "fw_pre": 8,
+    "verbs_pre": 1,
+    "cov_pre": 0.9411764705882353,
+    "fw_mcmc": 16,
+    "verbs_mcmc": 1,
+    "cov_mcmc": 1.0,
+    "fw_final": 17,
+    "verbs_final": 3,
+    "cov_final": 0.8709677419354839
+  },
+  "placement": {
+    "positions": [
+      11,
+      14,
+      21,
+      25
+    ],
+    "token_boundaries": true,
+    "drop_predicted": 2.519653662965756,
+    "drop_actual": 0.3247536231884056
+  },
+  "leakage_diff": 0.0
+}

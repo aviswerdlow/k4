@@ -1,0 +1,33 @@
+{
+  "head_id": 156,
+  "arm": "B",
+  "seed_u64": 17592288930943452235,
+  "weights_sha256": "d2b426b77c965c3ecd804c8d25c48ab45f0635db18275f68827cd48fa0d98be0",
+  "text_pre": "CHECK THE SHADOW AND NOTE THE GATE APPLY THE LIFE AND TAKE WITH AS THIS",
+  "text_post_mcmc": "ALL THE BUT THE OF WAS AT BE OUR HAS THE OR A TWO ON THAT NOT NO SEND THEIR",
+  "text_post_anchors": "ALLEAST  THE BUT THE OFNORTHEAST  WASBERLIN  ATCLOCK  BE OUR HAS THE OR A TWO ON THAT NOT NO SEND THEIR",
+  "text_final": "ALLEAST THEN READ THEN READ THE BUT THE OFNORTHEAST AND WASBERLIN A ATCLOCK A BE OUR HAS THE OR A TWO ON THAT NOT NO SEND THEIR",
+  "metrics": {
+    "fw_pre": 8,
+    "verbs_pre": 1,
+    "cov_pre": 1.0,
+    "fw_mcmc": 19,
+    "verbs_mcmc": 1,
+    "cov_mcmc": 1.0,
+    "fw_final": 15,
+    "verbs_final": 3,
+    "cov_final": 0.8518518518518519
+  },
+  "placement": {
+    "positions": [
+      3,
+      18,
+      22,
+      25
+    ],
+    "token_boundaries": true,
+    "drop_predicted": 2.9245825984145295,
+    "drop_actual": 0.3733333333333335
+  },
+  "leakage_diff": 0.0
+}

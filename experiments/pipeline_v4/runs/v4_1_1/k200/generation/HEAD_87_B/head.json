@@ -1,0 +1,33 @@
+{
+  "head_id": 87,
+  "arm": "B",
+  "seed_u64": 558986586380440976,
+  "weights_sha256": "d2b426b77c965c3ecd804c8d25c48ab45f0635db18275f68827cd48fa0d98be0",
+  "text_pre": "WHEN LAST READ THE KEY AND GO THE WORD OLD AND THE BOOK IS [DIR1] OF THE",
+  "text_post_mcmc": "OF CAN FROM WHERE WHERE THEM TWO IF IF FOR ITS BEEN WHERE YOU ONE STEP HAS",
+  "text_post_anchors": "OF CAN FROM WHEREEAST  WHERENORTHEAST  THEMBERLIN  TWOCLOCK  IF IF FOR ITS BEEN WHERE YOU ONE STEP HAS",
+  "text_final": "THEN SEE OF THE CAN THE FROM AND AND WHEREEAST THE WHERENORTHEAST THEMBERLIN TWOCLOCK IF IF FOR ITS BEEN WHERE YOU ONE STEP HAS",
+  "metrics": {
+    "fw_pre": 9,
+    "verbs_pre": 1,
+    "cov_pre": 0.9411764705882353,
+    "fw_mcmc": 16,
+    "verbs_mcmc": 1,
+    "cov_mcmc": 1.0,
+    "fw_final": 12,
+    "verbs_final": 2,
+    "cov_final": 0.85
+  },
+  "placement": {
+    "positions": [
+      17,
+      23,
+      28,
+      32
+    ],
+    "token_boundaries": true,
+    "drop_predicted": 2.5890171673998847,
+    "drop_actual": 0.4470588235294115
+  },
+  "leakage_diff": 0.0
+}

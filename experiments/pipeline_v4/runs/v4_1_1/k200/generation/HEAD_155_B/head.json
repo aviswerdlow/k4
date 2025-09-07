@@ -1,0 +1,33 @@
+{
+  "head_id": 155,
+  "arm": "B",
+  "seed_u64": 14396504223716511810,
+  "weights_sha256": "d2b426b77c965c3ecd804c8d25c48ab45f0635db18275f68827cd48fa0d98be0",
+  "text_pre": "WHERE IS THE YEAR AND THE SKY. IF MARK THEN KNOW THE GROUND. MOVE THE YEAR",
+  "text_post_mcmc": "ITS THAT THEM YOU BEEN WHEN THEIR TO WHERE ON BY OF HAS FOR THEN MARK TWO",
+  "text_post_anchors": "ITSEAST  THAT THEMNORTHEAST  YOUBERLIN  BEENCLOCK  WHEN THEIR TO WHERE ON BY OF HAS FOR THEN MARK TWO",
+  "text_final": "ITSEAST THEN READ THAT THEMNORTHEAST THE YOUBERLIN AND BEENCLOCK A WHEN THEIR TO WHERE ON BY OF HAS FOR THEN MARK TWO",
+  "metrics": {
+    "fw_pre": 9,
+    "verbs_pre": 1,
+    "cov_pre": 0.875,
+    "fw_mcmc": 16,
+    "verbs_mcmc": 1,
+    "cov_mcmc": 1.0,
+    "fw_final": 14,
+    "verbs_final": 2,
+    "cov_final": 0.85
+  },
+  "placement": {
+    "positions": [
+      3,
+      13,
+      17,
+      22
+    ],
+    "token_boundaries": true,
+    "drop_predicted": 2.49189435505554,
+    "drop_actual": 0.3803921568627451
+  },
+  "leakage_diff": 0.0
+}

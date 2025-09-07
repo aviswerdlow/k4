@@ -1,0 +1,33 @@
+{
+  "head_id": 176,
+  "arm": "B",
+  "seed_u64": 10173409432377975014,
+  "weights_sha256": "d2b426b77c965c3ecd804c8d25c48ab45f0635db18275f68827cd48fa0d98be0",
+  "text_pre": "SET THE POINT TO FIRST WHERE IS THE TRUTH AND THE WAY IF THE ROOM IS DARK",
+  "text_post_mcmc": "THERE A YOU BE A NOT WHAT IF WE THEY WHO TWO THERE NOT IF OR ITS READ ALL",
+  "text_post_anchors": "THEREEAST  A YOUNORTHEAST  BE ABERLIN  NOTCLOCK  WHAT IF WE THEY WHO TWO THERE NOT IF OR ITS READ ALL",
+  "text_final": "THEREEAST THEN READ A YOUNORTHEAST BE ABERLIN AND NOTCLOCK A WHAT IF WE THEY WHO TWO THERE NOT IF OR ITS READ ALL",
+  "metrics": {
+    "fw_pre": 10,
+    "verbs_pre": 1,
+    "cov_pre": 1.0,
+    "fw_mcmc": 18,
+    "verbs_mcmc": 1,
+    "cov_mcmc": 1.0,
+    "fw_final": 11,
+    "verbs_final": 2,
+    "cov_final": 0.85
+  },
+  "placement": {
+    "positions": [
+      5,
+      11,
+      16,
+      20
+    ],
+    "token_boundaries": true,
+    "drop_predicted": 2.3503970291375262,
+    "drop_actual": 0.3362229102167178
+  },
+  "leakage_diff": 0.0
+}

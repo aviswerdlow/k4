@@ -1,0 +1,33 @@
+{
+  "head_id": 4,
+  "arm": "B",
+  "seed_u64": 15511068292415480193,
+  "weights_sha256": "d2b426b77c965c3ecd804c8d25c48ab45f0635db18275f68827cd48fa0d98be0",
+  "text_pre": "IF GROUND THEN PLACE THE WORD WHEN OLD READ THE MAP OF HAVE AN WHERE A",
+  "text_post_mcmc": "SO WE THAT BE WAS BUT AT THERE WHO YOUR WHO NOTE THEM",
+  "text_post_anchors": "SOEAST  WE THATNORTHEAST  BE WAS BUTBERLIN  ATCLOCK  THERE WHO YOUR WHO NOTE THEM",
+  "text_final": "SOEAST THEN READ WE THATNORTHEAST THE BE AND AND WAS BUTBERLIN AND ATCLOCK THERE WHO YOUR WHO NOTE THEM",
+  "metrics": {
+    "fw_pre": 10,
+    "verbs_pre": 1,
+    "cov_pre": 1.0,
+    "fw_mcmc": 12,
+    "verbs_mcmc": 1,
+    "cov_mcmc": 1.0,
+    "fw_final": 8,
+    "verbs_final": 2,
+    "cov_final": 0.85
+  },
+  "placement": {
+    "positions": [
+      2,
+      10,
+      21,
+      24
+    ],
+    "token_boundaries": true,
+    "drop_predicted": 2.6874316041953445,
+    "drop_actual": 0.6069930069930067
+  },
+  "leakage_diff": 0.0
+}

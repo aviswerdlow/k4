@@ -1,0 +1,33 @@
+{
+  "head_id": 179,
+  "arm": "B",
+  "seed_u64": 2592959180583622221,
+  "weights_sha256": "d2b426b77c965c3ecd804c8d25c48ab45f0635db18275f68827cd48fa0d98be0",
+  "text_pre": "IF DAY THEN TELL THE LOCK AND THE SIGN IS [DIR1] OF THE YEAR AND SET THE",
+  "text_post_mcmc": "ONE HOLD THEM HAVE WE THEY AN WOULD CAN WILL CAN A AN AN OF YOU IS HAVE ALL",
+  "text_post_anchors": "ONE HOLD THEM HAVE WE THEY THE EAST AN THE NORTHEAST WOULD THE BERLIN CAN THE CLOCK WILL CAN A AN AN OF YOU IS HAVE ALL",
+  "text_final": "ONE HOLD THEM HAVE THE WE AND A THEY A THEN SEE THE EAST AN THE NORTHEAST WOULD THE BERLIN CAN THE CLOCK THE WILL CAN A AN AN OF YOU IS HAVE ALL",
+  "metrics": {
+    "fw_pre": 10,
+    "verbs_pre": 1,
+    "cov_pre": 0.9411764705882353,
+    "fw_mcmc": 18,
+    "verbs_mcmc": 1,
+    "cov_mcmc": 1.0,
+    "fw_final": 18,
+    "verbs_final": 2,
+    "cov_final": 0.8823529411764706
+  },
+  "placement": {
+    "positions": [
+      27,
+      30,
+      36,
+      40
+    ],
+    "token_boundaries": true,
+    "drop_predicted": 2.376927996899861,
+    "drop_actual": 0.3402178649237473
+  },
+  "leakage_diff": 0.0
+}

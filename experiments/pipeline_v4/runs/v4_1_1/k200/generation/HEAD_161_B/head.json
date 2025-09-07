@@ -1,0 +1,33 @@
+{
+  "head_id": 161,
+  "arm": "B",
+  "seed_u64": 1888128333267764961,
+  "weights_sha256": "d2b426b77c965c3ecd804c8d25c48ab45f0635db18275f68827cd48fa0d98be0",
+  "text_pre": "IF THE DAY IS TRUE THEN UNDERSTAND [DIR1] AND KEEP THE WAY FIRST AND THE",
+  "text_post_mcmc": "A BEEN IS ONE MORE WOULD WHAT ONE OR FROM WOULD OF SO HAS OR THEY LOOK OUR",
+  "text_post_anchors": "A BEEN IS ONE THE EAST MORE THE NORTHEAST WOULD THE BERLIN WHAT THE CLOCK ONE OR FROM WOULD OF SO HAS OR THEY LOOK OUR",
+  "text_final": "A BEEN THE IS THE ONE AND A THEN NOTE THE EAST MORE THE NORTHEAST WOULD THE BERLIN WHAT THE CLOCK A ONE OR FROM WOULD OF SO HAS OR THEY LOOK OUR",
+  "metrics": {
+    "fw_pre": 8,
+    "verbs_pre": 1,
+    "cov_pre": 0.9333333333333333,
+    "fw_mcmc": 17,
+    "verbs_mcmc": 1,
+    "cov_mcmc": 1.0,
+    "fw_final": 20,
+    "verbs_final": 2,
+    "cov_final": 0.8787878787878788
+  },
+  "placement": {
+    "positions": [
+      14,
+      19,
+      25,
+      30
+    ],
+    "token_boundaries": true,
+    "drop_predicted": 2.3447492764720543,
+    "drop_actual": 0.3536858974358976
+  },
+  "leakage_diff": 0.0
+}

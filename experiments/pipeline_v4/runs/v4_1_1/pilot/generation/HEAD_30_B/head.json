@@ -1,0 +1,33 @@
+{
+  "head_id": 30,
+  "arm": "B",
+  "seed_u64": 8748203877846751005,
+  "weights_sha256": "d2b426b77c965c3ecd804c8d25c48ab45f0635db18275f68827cd48fa0d98be0",
+  "text_pre": "SET THE LIE TO TRUE AND LOOK THE LIE TRUE AND SET THE GROUND CLEAR AND WHAT",
+  "text_post_mcmc": "IT FIND ONE IT BUT A HAVE THEY THAT CAN WE BE SO THEY THEN WHERE IS THAT OR",
+  "text_post_anchors": "IT FIND ONE IT BUT THE EAST A HAVE THEY THE NORTHEAST THAT THE BERLIN CAN THE CLOCK WE BE SO THEY THEN WHERE IS THAT OR",
+  "text_final": "IT FIND ONE THE IT AND AND BUT THEN NOTE THE EAST A HAVE THEY THE NORTHEAST THAT THE BERLIN CAN THE CLOCK AND AND WE BE SO THEY THEN WHERE IS THAT OR",
+  "metrics": {
+    "fw_pre": 8,
+    "verbs_pre": 1,
+    "cov_pre": 1.0,
+    "fw_mcmc": 18,
+    "verbs_mcmc": 1,
+    "cov_mcmc": 1.0,
+    "fw_final": 20,
+    "verbs_final": 2,
+    "cov_final": 0.8823529411764706
+  },
+  "placement": {
+    "positions": [
+      19,
+      31,
+      36,
+      40
+    ],
+    "token_boundaries": true,
+    "drop_predicted": 2.3750793458903083,
+    "drop_actual": 0.3402178649237473
+  },
+  "leakage_diff": 0.0
+}

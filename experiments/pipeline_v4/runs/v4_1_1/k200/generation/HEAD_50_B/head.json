@@ -1,0 +1,33 @@
+{
+  "head_id": 50,
+  "arm": "B",
+  "seed_u64": 16063067471411344649,
+  "weights_sha256": "d2b426b77c965c3ecd804c8d25c48ab45f0635db18275f68827cd48fa0d98be0",
+  "text_pre": "GO THE WORD WRONG AND FIND THE DAY LAST AND FIND THE MAP NEXT AND WHERE IS",
+  "text_post_mcmc": "WITH AT TO WITH WAS IS ONE TO MORE IF WHO BY IT THIS IT OF WITH READ THEM",
+  "text_post_anchors": "WITHEAST  AT TO WITH WASNORTHEAST  ISBERLIN  ONECLOCK  TO MORE IF WHO BY IT THIS IT OF WITH READ THEM",
+  "text_final": "WITHEAST THEN READ THE AT TO WITH WASNORTHEAST AND ISBERLIN ONECLOCK A TO MORE IF WHO BY IT THIS IT OF WITH READ THEM",
+  "metrics": {
+    "fw_pre": 8,
+    "verbs_pre": 1,
+    "cov_pre": 1.0,
+    "fw_mcmc": 18,
+    "verbs_mcmc": 1,
+    "cov_mcmc": 1.0,
+    "fw_final": 13,
+    "verbs_final": 2,
+    "cov_final": 0.85
+  },
+  "placement": {
+    "positions": [
+      4,
+      19,
+      22,
+      26
+    ],
+    "token_boundaries": true,
+    "drop_predicted": 2.6509862327420617,
+    "drop_actual": 0.39504643962848274
+  },
+  "leakage_diff": 0.0
+}

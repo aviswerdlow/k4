@@ -1,0 +1,33 @@
+{
+  "head_id": 83,
+  "arm": "B",
+  "seed_u64": 15889494720201329393,
+  "weights_sha256": "d2b426b77c965c3ecd804c8d25c48ab45f0635db18275f68827cd48fa0d98be0",
+  "text_pre": "WHERE IS THE SKY AND THE POINT. CHECK THE COURSE FIRST AND MARK THE DOOR",
+  "text_post_mcmc": "TO ON ITS IS AT ON THIS A HAD IF BUT IS SO MOVE MORE",
+  "text_post_anchors": "TOEAST  ON ITSNORTHEAST  IS AT ON THE BERLIN THIS THE CLOCK A HAD IF BUT IS SO MOVE MORE",
+  "text_final": "TOEAST THEN READ ON ITSNORTHEAST THE IS AND AND AT ON THE BERLIN THIS THE CLOCK A HAD IF BUT IS SO MOVE MORE",
+  "metrics": {
+    "fw_pre": 8,
+    "verbs_pre": 1,
+    "cov_pre": 0.9333333333333333,
+    "fw_mcmc": 14,
+    "verbs_mcmc": 1,
+    "cov_mcmc": 1.0,
+    "fw_final": 16,
+    "verbs_final": 2,
+    "cov_final": 0.85
+  },
+  "placement": {
+    "positions": [
+      2,
+      9,
+      19,
+      24
+    ],
+    "token_boundaries": true,
+    "drop_predicted": 2.445447442147906,
+    "drop_actual": 0.38599666587282666
+  },
+  "leakage_diff": 0.0
+}

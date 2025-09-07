@@ -1,0 +1,33 @@
+{
+  "head_id": 8,
+  "arm": "B",
+  "seed_u64": 10815399083731120431,
+  "weights_sha256": "d2b426b77c965c3ecd804c8d25c48ab45f0635db18275f68827cd48fa0d98be0",
+  "text_pre": "IF WORD THEN TELL THE DARK AND HOLD THE YEAR FAR AND HOLD THE WAY LOW NOT",
+  "text_post_mcmc": "IF AT THEM SO ITS WILL WHERE IN NOT AND THERE WAS AS FOR CAN IF AND SEEK IT",
+  "text_post_anchors": "IFEAST  AT THEMNORTHEAST  SO ITSBERLIN  WILLCLOCK  WHERE IN NOT AND THERE WAS AS FOR CAN IF AND SEEK IT",
+  "text_final": "IFEAST THEN READ THEN READ AT THEMNORTHEAST SO ITSBERLIN AND WILLCLOCK WHERE THE IN NOT AND THERE WAS AS FOR CAN IF AND SEEK IT",
+  "metrics": {
+    "fw_pre": 8,
+    "verbs_pre": 1,
+    "cov_pre": 1.0,
+    "fw_mcmc": 18,
+    "verbs_mcmc": 1,
+    "cov_mcmc": 1.0,
+    "fw_final": 15,
+    "verbs_final": 3,
+    "cov_final": 0.85
+  },
+  "placement": {
+    "positions": [
+      2,
+      10,
+      17,
+      22
+    ],
+    "token_boundaries": true,
+    "drop_predicted": 2.559765184969661,
+    "drop_actual": 0.3362229102167178
+  },
+  "leakage_diff": 0.0
+}

@@ -1,0 +1,33 @@
+{
+  "head_id": 0,
+  "arm": "A",
+  "seed_u64": 10703616161622850427,
+  "weights_sha256": "c22ce0c4dd0c04d11e1c9d5d89b07f481532048aa233bd79470b565f7b53d41b",
+  "text_pre": "APPLY THE LIE AND KEEP WHERE IS THE DEATH AND THE WALL SHOW THE WORD AND",
+  "text_post_mcmc": "TO MOVE IN THE TO FROM ON WOULD WOULD NO IT YOUR NOT IS AT NO THIS SO THERE",
+  "text_post_anchors": "TO MOVE IN THE TO FROM THE EAST ON WOULD THE NORTHEAST WOULD THE BERLIN NO THE CLOCK IT YOUR NOT IS AT NO THIS SO THERE",
+  "text_final": "TO MOVE IN THE TO FROM AND A THEN NOTE THE EAST THE ON WOULD THE NORTHEAST WOULD THE BERLIN NO THE CLOCK AND AND IT YOUR NOT IS AT NO THIS SO THERE",
+  "metrics": {
+    "fw_pre": 9,
+    "verbs_pre": 1,
+    "cov_pre": 1.0,
+    "fw_mcmc": 18,
+    "verbs_mcmc": 1,
+    "cov_mcmc": 1.0,
+    "fw_final": 23,
+    "verbs_final": 2,
+    "cov_final": 0.8823529411764706
+  },
+  "placement": {
+    "positions": [
+      23,
+      32,
+      38,
+      41
+    ],
+    "token_boundaries": true,
+    "drop_predicted": 2.711917374715142,
+    "drop_actual": 0.34021786492374684
+  },
+  "leakage_diff": 0.0
+}

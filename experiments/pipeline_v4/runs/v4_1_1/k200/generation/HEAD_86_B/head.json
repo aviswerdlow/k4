@@ -1,0 +1,33 @@
+{
+  "head_id": 86,
+  "arm": "B",
+  "seed_u64": 18244093149286838192,
+  "weights_sha256": "d2b426b77c965c3ecd804c8d25c48ab45f0635db18275f68827cd48fa0d98be0",
+  "text_pre": "STOP THEN TAKE AND SEE. WHEN SLOW TURN THE STAR. ONE BUT WHO NO ARE IS",
+  "text_post_mcmc": "AN APPLY THIS THINK TWO ONE THIS IS IF SO YOU BE AT THEY OUR AT AS OF HAD",
+  "text_post_anchors": "AN APPLY THIS THINK TWO ONE THIS THE EAST IS IF SO THE NORTHEAST YOU THE BERLIN BE THE CLOCK AT THEY OUR AT AS OF HAD",
+  "text_final": "AN APPLY THIS THINK TWO AND AND ONE THE THIS THEN SEE THE EAST A IS A IF SO THE NORTHEAST YOU THE BERLIN BE THE CLOCK AT THEY OUR AT AS OF HAD",
+  "metrics": {
+    "fw_pre": 10,
+    "verbs_pre": 1,
+    "cov_pre": 0.875,
+    "fw_mcmc": 17,
+    "verbs_mcmc": 1,
+    "cov_mcmc": 1.0,
+    "fw_final": 21,
+    "verbs_final": 3,
+    "cov_final": 0.8823529411764706
+  },
+  "placement": {
+    "positions": [
+      33,
+      42,
+      46,
+      49
+    ],
+    "token_boundaries": true,
+    "drop_predicted": 2.4712119510925166,
+    "drop_actual": 0.3308061002178646
+  },
+  "leakage_diff": 0.0
+}

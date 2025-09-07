@@ -1,0 +1,33 @@
+{
+  "head_id": 62,
+  "arm": "B",
+  "seed_u64": 3071608809210456514,
+  "weights_sha256": "d2b426b77c965c3ecd804c8d25c48ab45f0635db18275f68827cd48fa0d98be0",
+  "text_pre": "MAKE THE PAGE AND POINT THE DARK AND SET THE LIE TO HARD AND MARK THE KEY",
+  "text_post_mcmc": "HAVE BRING NOT AS YOUR YOUR WE YOU TWO NOT IT OF BE THEY ITS",
+  "text_post_anchors": "HAVEEAST  BRING NOT THE NORTHEAST AS YOUR THE BERLIN YOUR THE CLOCK WE YOU TWO NOT IT OF BE THEY ITS",
+  "text_final": "HAVEEAST THEN READ THE BRING NOT THE NORTHEAST AND A AS YOUR THE BERLIN YOUR THE CLOCK WE YOU TWO NOT IT OF BE THEY ITS",
+  "metrics": {
+    "fw_pre": 8,
+    "verbs_pre": 1,
+    "cov_pre": 1.0,
+    "fw_mcmc": 14,
+    "verbs_mcmc": 1,
+    "cov_mcmc": 1.0,
+    "fw_final": 10,
+    "verbs_final": 2,
+    "cov_final": 0.85
+  },
+  "placement": {
+    "positions": [
+      4,
+      15,
+      23,
+      28
+    ],
+    "token_boundaries": true,
+    "drop_predicted": 2.8614642223258713,
+    "drop_actual": 0.39437054173896247
+  },
+  "leakage_diff": 0.0
+}

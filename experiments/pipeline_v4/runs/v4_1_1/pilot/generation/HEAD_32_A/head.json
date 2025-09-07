@@ -1,0 +1,33 @@
+{
+  "head_id": 32,
+  "arm": "A",
+  "seed_u64": 13525961559570984731,
+  "weights_sha256": "c22ce0c4dd0c04d11e1c9d5d89b07f481532048aa233bd79470b565f7b53d41b",
+  "text_pre": "WHEN HARD TELL THE GROUND WHERE IS THE WAY AND THE LIE IF THE SKY IS RIGHT",
+  "text_post_mcmc": "OR READ AND TO THERE MORE IN OR BUT HAS TWO BE AND THAT WOULD BY BE THE",
+  "text_post_anchors": "OR READ AND TO THERE THE EAST MORE THE NORTHEAST IN OR BUT THE BERLIN HAS THE CLOCK TWO BE AND THAT WOULD BY BE THE",
+  "text_final": "OR READ AND TO THERE AND AND THEN NOTE THE EAST MORE THE NORTHEAST IN A OR BUT THE BERLIN HAS THE CLOCK AND AND TWO BE AND THAT WOULD BY BE THE",
+  "metrics": {
+    "fw_pre": 10,
+    "verbs_pre": 1,
+    "cov_pre": 1.0,
+    "fw_mcmc": 17,
+    "verbs_mcmc": 1,
+    "cov_mcmc": 1.0,
+    "fw_final": 24,
+    "verbs_final": 2,
+    "cov_final": 0.8787878787878788
+  },
+  "placement": {
+    "positions": [
+      21,
+      26,
+      36,
+      40
+    ],
+    "token_boundaries": true,
+    "drop_predicted": 2.3957237042017288,
+    "drop_actual": 0.3536858974358972
+  },
+  "leakage_diff": 0.0
+}

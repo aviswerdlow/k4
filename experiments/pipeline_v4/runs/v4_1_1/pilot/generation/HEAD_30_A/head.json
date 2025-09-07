@@ -1,0 +1,33 @@
+{
+  "head_id": 30,
+  "arm": "A",
+  "seed_u64": 9713069199359143547,
+  "weights_sha256": "c22ce0c4dd0c04d11e1c9d5d89b07f481532048aa233bd79470b565f7b53d41b",
+  "text_pre": "IF THE COURSE IS FALSE THEN TAKE [DIR1] IF KEY THEN KEEP THE SUN APPLY THE",
+  "text_post_mcmc": "TO IN TO ITS YOUR WE YOU WHO THEM AT FROM ARE CAN BEEN ALL KEEP THEM",
+  "text_post_anchors": "TO IN TO ITS THE EAST YOUR THE NORTHEAST WE THE BERLIN YOU THE CLOCK WHO THEM AT FROM ARE CAN BEEN ALL KEEP THEM",
+  "text_final": "TO IN TO ITS THE THEN AND NOTE THEN READ THE EAST YOUR THE NORTHEAST WE THE BERLIN YOU THE CLOCK THE WHO AND THEM AT FROM ARE CAN BEEN ALL KEEP THEM",
+  "metrics": {
+    "fw_pre": 8,
+    "verbs_pre": 1,
+    "cov_pre": 0.9375,
+    "fw_mcmc": 16,
+    "verbs_mcmc": 1,
+    "cov_mcmc": 1.0,
+    "fw_final": 17,
+    "verbs_final": 3,
+    "cov_final": 0.8787878787878788
+  },
+  "placement": {
+    "positions": [
+      13,
+      18,
+      21,
+      25
+    ],
+    "token_boundaries": true,
+    "drop_predicted": 2.523125651760793,
+    "drop_actual": 0.368231884057971
+  },
+  "leakage_diff": 0.0
+}

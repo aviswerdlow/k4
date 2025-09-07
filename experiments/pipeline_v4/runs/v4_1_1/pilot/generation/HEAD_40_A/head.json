@@ -1,0 +1,33 @@
+{
+  "head_id": 40,
+  "arm": "A",
+  "seed_u64": 6513237495333987912,
+  "weights_sha256": "c22ce0c4dd0c04d11e1c9d5d89b07f481532048aa233bd79470b565f7b53d41b",
+  "text_pre": "FIRST MOVE THEN GIVE THE PAGE WHERE IS THE PLAN AND THE LAW MARK THE POINT",
+  "text_post_mcmc": "OUR THIS AND BE AND ON BE IF WAS A IT IN WE CAN HAS ALL WAS AS HAD USE BY",
+  "text_post_anchors": "OUREAST  THIS AND BE ANDNORTHEAST  ONBERLIN  BECLOCK  IF WAS A IT IN WE CAN HAS ALL WAS AS HAD USE BY",
+  "text_final": "OUREAST THEN READ THE THIS AND THE BE AND A ANDNORTHEAST A ONBERLIN BECLOCK IF WAS A IT IN WE CAN HAS ALL WAS AS HAD USE BY",
+  "metrics": {
+    "fw_pre": 8,
+    "verbs_pre": 1,
+    "cov_pre": 1.0,
+    "fw_mcmc": 20,
+    "verbs_mcmc": 1,
+    "cov_mcmc": 1.0,
+    "fw_final": 17,
+    "verbs_final": 2,
+    "cov_final": 0.8571428571428571
+  },
+  "placement": {
+    "positions": [
+      3,
+      19,
+      22,
+      25
+    ],
+    "token_boundaries": true,
+    "drop_predicted": 2.8075928851205774,
+    "drop_actual": 0.3538847117794486
+  },
+  "leakage_diff": 0.0
+}

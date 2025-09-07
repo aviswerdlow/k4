@@ -1,0 +1,33 @@
+{
+  "head_id": 7,
+  "arm": "B",
+  "seed_u64": 13093165621624778819,
+  "weights_sha256": "d2b426b77c965c3ecd804c8d25c48ab45f0635db18275f68827cd48fa0d98be0",
+  "text_pre": "WHEN FAR STEP THE SIGN AND IF STEP THEN MARK THE DAY AND SET THE COURSE TO",
+  "text_post_mcmc": "WHAT WE THEM TO THEN TO BY FOR WAS FOR THEY BE BUT THAT THERE ON BEGIN TWO",
+  "text_post_anchors": "WHATEAST  WE THEMNORTHEAST  TO THEN TOBERLIN  BYCLOCK  FOR WAS FOR THEY BE BUT THAT THERE ON BEGIN TWO",
+  "text_final": "WHATEAST THEN READ WE THEMNORTHEAST THE TO THEN TOBERLIN AND BYCLOCK FOR WAS FOR THEY BE BUT THAT THERE ON BEGIN TWO",
+  "metrics": {
+    "fw_pre": 9,
+    "verbs_pre": 1,
+    "cov_pre": 1.0,
+    "fw_mcmc": 17,
+    "verbs_mcmc": 1,
+    "cov_mcmc": 1.0,
+    "fw_final": 13,
+    "verbs_final": 2,
+    "cov_final": 0.85
+  },
+  "placement": {
+    "positions": [
+      4,
+      12,
+      23,
+      26
+    ],
+    "token_boundaries": true,
+    "drop_predicted": 2.6950263547035047,
+    "drop_actual": 0.4194444444444443
+  },
+  "leakage_diff": 0.0
+}

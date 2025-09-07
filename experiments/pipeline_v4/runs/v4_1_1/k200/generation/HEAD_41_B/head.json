@@ -1,0 +1,33 @@
+{
+  "head_id": 41,
+  "arm": "B",
+  "seed_u64": 4304261876498653604,
+  "weights_sha256": "d2b426b77c965c3ecd804c8d25c48ab45f0635db18275f68827cd48fa0d98be0",
+  "text_pre": "TURN THE PATH RIGHT AND LOOK THEN TURN AND SET NOT NOT NO MORE HAD ON NO",
+  "text_post_mcmc": "IN POINT YOUR FOR HAD BY THAT ONE TO HAS ALL WHO YOUR AT OF BEEN AT WE ON",
+  "text_post_anchors": "INEAST  POINT YOURNORTHEAST  FOR HAD BYBERLIN  THATCLOCK  ONE TO HAS ALL WHO YOUR AT OF BEEN AT WE ON",
+  "text_final": "INEAST THEN READ THEN READ THE POINT THE YOURNORTHEAST FOR AND HAD BYBERLIN AND THATCLOCK ONE TO HAS ALL WHO YOUR AT OF BEEN AT WE ON",
+  "metrics": {
+    "fw_pre": 11,
+    "verbs_pre": 1,
+    "cov_pre": 1.0,
+    "fw_mcmc": 18,
+    "verbs_mcmc": 1,
+    "cov_mcmc": 1.0,
+    "fw_final": 13,
+    "verbs_final": 3,
+    "cov_final": 0.8518518518518519
+  },
+  "placement": {
+    "positions": [
+      2,
+      13,
+      24,
+      29
+    ],
+    "token_boundaries": true,
+    "drop_predicted": 2.340872802349846,
+    "drop_actual": 0.39504643962848274
+  },
+  "leakage_diff": 0.0
+}

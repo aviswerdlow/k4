@@ -1,0 +1,33 @@
+{
+  "head_id": 16,
+  "arm": "A",
+  "seed_u64": 6818225366580373039,
+  "weights_sha256": "c22ce0c4dd0c04d11e1c9d5d89b07f481532048aa233bd79470b565f7b53d41b",
+  "text_pre": "IF CODE THEN MAKE THE LIGHT AND FIND THE TIME FAR AND SET THE ROOM TO FAST",
+  "text_post_mcmc": "AT WATCH YOUR OF WHAT YOUR ONE OR A THEY YOUR ARE TWO NO WHAT AN WHO NO",
+  "text_post_anchors": "AT WATCH YOUR OF WHAT THE EAST YOUR THE NORTHEAST ONE OR A THE BERLIN THEY THE CLOCK YOUR ARE TWO NO WHAT AN WHO NO",
+  "text_final": "AT WATCH YOUR THE OF WHAT AND A THEN NOTE THE EAST YOUR THE NORTHEAST A ONE OR A THE BERLIN THEY THE CLOCK AND YOUR ARE TWO NO WHAT AN WHO NO",
+  "metrics": {
+    "fw_pre": 8,
+    "verbs_pre": 1,
+    "cov_pre": 1.0,
+    "fw_mcmc": 17,
+    "verbs_mcmc": 1,
+    "cov_mcmc": 1.0,
+    "fw_final": 18,
+    "verbs_final": 2,
+    "cov_final": 0.8787878787878788
+  },
+  "placement": {
+    "positions": [
+      22,
+      27,
+      36,
+      41
+    ],
+    "token_boundaries": true,
+    "drop_predicted": 1.9617706634135699,
+    "drop_actual": 0.3536858974358972
+  },
+  "leakage_diff": 0.0
+}

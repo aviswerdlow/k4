@@ -1,0 +1,33 @@
+{
+  "head_id": 126,
+  "arm": "B",
+  "seed_u64": 14425952663795189334,
+  "weights_sha256": "d2b426b77c965c3ecd804c8d25c48ab45f0635db18275f68827cd48fa0d98be0",
+  "text_pre": "APPLY THE DEATH AND MOVE AND CHECK THE PATH AND MOVE THE GATE THIS A AN",
+  "text_post_mcmc": "OUR YOU ON WE AS AND ARE ON ITS OF TWO ONE WE THAT WILL HAD HAS CHECK ARE",
+  "text_post_anchors": "OUREAST  YOU ONNORTHEAST  WEBERLIN  AS AND ARECLOCK  ON ITS OF TWO ONE WE THAT WILL HAD HAS CHECK ARE",
+  "text_final": "OUREAST THEN READ YOU ONNORTHEAST THE WEBERLIN AS AND AND ARECLOCK A ON ITS OF TWO ONE WE THAT WILL HAD HAS CHECK ARE",
+  "metrics": {
+    "fw_pre": 9,
+    "verbs_pre": 1,
+    "cov_pre": 1.0,
+    "fw_mcmc": 18,
+    "verbs_mcmc": 1,
+    "cov_mcmc": 1.0,
+    "fw_final": 10,
+    "verbs_final": 2,
+    "cov_final": 0.85
+  },
+  "placement": {
+    "positions": [
+      3,
+      10,
+      13,
+      24
+    ],
+    "token_boundaries": true,
+    "drop_predicted": 2.732574513566633,
+    "drop_actual": 0.39504643962848274
+  },
+  "leakage_diff": 0.0
+}

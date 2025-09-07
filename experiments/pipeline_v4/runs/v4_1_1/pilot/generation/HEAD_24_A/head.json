@@ -1,0 +1,33 @@
+{
+  "head_id": 24,
+  "arm": "A",
+  "seed_u64": 11738806056851030178,
+  "weights_sha256": "c22ce0c4dd0c04d11e1c9d5d89b07f481532048aa233bd79470b565f7b53d41b",
+  "text_pre": "STOP THE STEP LAST WHERE IS THE GATE AND THE COURSE HAVE AN FROM ALL AT",
+  "text_post_mcmc": "TWO IT AS ALL NOT TWO SO HAS BEEN WILL AT IT WOULD AT OUR OUR TWO SHOW HAVE",
+  "text_post_anchors": "TWOEAST  IT AS ALL THE NORTHEAST NOT THE BERLIN TWO THE CLOCK SO HAS BEEN WILL AT IT WOULD AT OUR OUR TWO SHOW HAVE",
+  "text_final": "TWOEAST THEN READ THEN READ THE IT THE AS ALL THE NORTHEAST NOT THE BERLIN TWO THE CLOCK THE SO HAS BEEN WILL AT IT WOULD AT OUR OUR TWO SHOW HAVE",
+  "metrics": {
+    "fw_pre": 11,
+    "verbs_pre": 1,
+    "cov_pre": 1.0,
+    "fw_mcmc": 18,
+    "verbs_mcmc": 1,
+    "cov_mcmc": 1.0,
+    "fw_final": 14,
+    "verbs_final": 3,
+    "cov_final": 0.875
+  },
+  "placement": {
+    "positions": [
+      3,
+      14,
+      18,
+      22
+    ],
+    "token_boundaries": true,
+    "drop_predicted": 2.291987971527718,
+    "drop_actual": 0.328675191815857
+  },
+  "leakage_diff": 0.0
+}

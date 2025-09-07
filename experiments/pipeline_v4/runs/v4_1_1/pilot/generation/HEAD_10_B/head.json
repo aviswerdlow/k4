@@ -1,0 +1,33 @@
+{
+  "head_id": 10,
+  "arm": "B",
+  "seed_u64": 826317727972303153,
+  "weights_sha256": "d2b426b77c965c3ecd804c8d25c48ab45f0635db18275f68827cd48fa0d98be0",
+  "text_pre": "IF HOUR THEN PUT THE TIME. LOOK THEN SEEK AND STOP. TWO THAT AT ON HAVE",
+  "text_post_mcmc": "IN TELL AND ALL IT TWO BY IT WHO ONE WHAT IS WOULD YOU OF IS NOT AS NOT TWO",
+  "text_post_anchors": "IN TELL AND ALLEAST  ITNORTHEAST  TWOBERLIN  BYCLOCK  IT WHO ONE WHAT IS WOULD YOU OF IS NOT AS NOT TWO",
+  "text_final": "IN TELL AND ALLEAST THE ITNORTHEAST AND TWOBERLIN THE BYCLOCK IT WHO ONE WHAT IS WOULD YOU OF IS NOT AS NOT TWO",
+  "metrics": {
+    "fw_pre": 10,
+    "verbs_pre": 1,
+    "cov_pre": 0.875,
+    "fw_mcmc": 19,
+    "verbs_mcmc": 1,
+    "cov_mcmc": 1.0,
+    "fw_final": 11,
+    "verbs_final": 1,
+    "cov_final": 0.85
+  },
+  "placement": {
+    "positions": [
+      15,
+      18,
+      22,
+      25
+    ],
+    "token_boundaries": true,
+    "drop_predicted": 2.3557730461602717,
+    "drop_actual": 0.31777777777777727
+  },
+  "leakage_diff": 0.0
+}

@@ -1,0 +1,33 @@
+{
+  "head_id": 22,
+  "arm": "B",
+  "seed_u64": 11339605460005497507,
+  "weights_sha256": "d2b426b77c965c3ecd804c8d25c48ab45f0635db18275f68827cd48fa0d98be0",
+  "text_pre": "WHERE IS THE GROUND AND THE LIGHT LOOK THE SKY GOOD HOLD THEN WAIT AND SET",
+  "text_post_mcmc": "THEY ON THEY SO WHERE WHAT OR IS ON IS YOU WHERE WITH WHO NOT WITH STEP ONE",
+  "text_post_anchors": "THEYEAST  ON THEY SO WHERENORTHEAST  WHATBERLIN  ORCLOCK  IS ON IS YOU WHERE WITH WHO NOT WITH STEP ONE",
+  "text_final": "THEYEAST THEN READ THE ON THE THEY AND AND SO THE WHERENORTHEAST WHATBERLIN ORCLOCK IS ON IS YOU WHERE WITH WHO NOT WITH STEP ONE",
+  "metrics": {
+    "fw_pre": 8,
+    "verbs_pre": 1,
+    "cov_pre": 1.0,
+    "fw_mcmc": 17,
+    "verbs_mcmc": 1,
+    "cov_mcmc": 1.0,
+    "fw_final": 14,
+    "verbs_final": 2,
+    "cov_final": 0.85
+  },
+  "placement": {
+    "positions": [
+      4,
+      21,
+      26,
+      29
+    ],
+    "token_boundaries": true,
+    "drop_predicted": 2.6042973767558424,
+    "drop_actual": 0.4194444444444443
+  },
+  "leakage_diff": 0.0
+}

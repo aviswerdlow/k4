@@ -1,0 +1,33 @@
+{
+  "head_id": 47,
+  "arm": "B",
+  "seed_u64": 9449819907817827475,
+  "weights_sha256": "d2b426b77c965c3ecd804c8d25c48ab45f0635db18275f68827cd48fa0d98be0",
+  "text_pre": "WHEN FIRST PLACE THE LOCK. SET THE WAY TO NEW. AS WILL AND WOULD TO AS",
+  "text_post_mcmc": "WHEN THEY AS FROM NOT WHERE WHERE TO MORE BE THIS IS ARE THEN WE TELL AS",
+  "text_post_anchors": "WHENEAST  THEY AS FROMNORTHEAST  NOTBERLIN  WHERECLOCK  WHERE TO MORE BE THIS IS ARE THEN WE TELL AS",
+  "text_final": "WHENEAST THEN READ THE THEY THE AS AND AND FROMNORTHEAST THE NOTBERLIN WHERECLOCK WHERE TO MORE BE THIS IS ARE THEN WE TELL AS",
+  "metrics": {
+    "fw_pre": 10,
+    "verbs_pre": 1,
+    "cov_pre": 0.875,
+    "fw_mcmc": 16,
+    "verbs_mcmc": 1,
+    "cov_mcmc": 1.0,
+    "fw_final": 15,
+    "verbs_final": 2,
+    "cov_final": 0.85
+  },
+  "placement": {
+    "positions": [
+      4,
+      17,
+      21,
+      27
+    ],
+    "token_boundaries": true,
+    "drop_predicted": 2.3859967268487674,
+    "drop_actual": 0.4470588235294115
+  },
+  "leakage_diff": 0.0
+}

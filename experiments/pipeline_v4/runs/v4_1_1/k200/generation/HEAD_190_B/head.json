@@ -1,0 +1,33 @@
+{
+  "head_id": 190,
+  "arm": "B",
+  "seed_u64": 13362979600866798465,
+  "weights_sha256": "d2b426b77c965c3ecd804c8d25c48ab45f0635db18275f68827cd48fa0d98be0",
+  "text_pre": "KEEP THEN MOVE AND KEEP FIRST HOLD THEN BELIEVE THE STEP AN IN TWO NO IN",
+  "text_post_mcmc": "THEN HAS BY HAD HAD IT MORE WE IT BEEN YOUR ALL TO IF HAS IN LOOK CAN",
+  "text_post_anchors": "THEN HAS BY HADEAST  HADNORTHEAST  ITBERLIN  MORECLOCK  WE IT BEEN YOUR ALL TO IF HAS IN LOOK CAN",
+  "text_final": "THEN SEE THEN THE HAS THE BY AND AND HADEAST THE HADNORTHEAST ITBERLIN MORECLOCK WE IT BEEN YOUR ALL TO IF HAS IN LOOK CAN",
+  "metrics": {
+    "fw_pre": 9,
+    "verbs_pre": 1,
+    "cov_pre": 1.0,
+    "fw_mcmc": 17,
+    "verbs_mcmc": 1,
+    "cov_mcmc": 1.0,
+    "fw_final": 12,
+    "verbs_final": 2,
+    "cov_final": 0.85
+  },
+  "placement": {
+    "positions": [
+      15,
+      19,
+      22,
+      27
+    ],
+    "token_boundaries": true,
+    "drop_predicted": 2.530195392979972,
+    "drop_actual": 0.4194444444444443
+  },
+  "leakage_diff": 0.0
+}

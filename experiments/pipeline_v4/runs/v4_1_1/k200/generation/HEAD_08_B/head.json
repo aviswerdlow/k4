@@ -1,0 +1,33 @@
+{
+  "head_id": 8,
+  "arm": "B",
+  "seed_u64": 10815399083731120431,
+  "weights_sha256": "d2b426b77c965c3ecd804c8d25c48ab45f0635db18275f68827cd48fa0d98be0",
+  "text_pre": "IF WORD THEN TELL THE DARK AND HOLD THE YEAR FAR AND HOLD THE WAY LOW NOT",
+  "text_post_mcmc": "NOT UNDERSTAND IN MORE CAN NOT IF IS MORE MORE YOUR NO BE BEEN IT AT ON TWO",
+  "text_post_anchors": "NOTEAST  UNDERSTAND THE NORTHEAST IN MORE CAN THE BERLIN NOT THE CLOCK IF IS MORE MORE YOUR NO BE BEEN IT AT ON TWO",
+  "text_final": "NOTEAST THEN READ THEN READ THE UNDERSTAND THE NORTHEAST IN AND MORE CAN THE BERLIN NOT THE CLOCK THE IF IS MORE MORE YOUR NO BE BEEN IT AT ON TWO",
+  "metrics": {
+    "fw_pre": 8,
+    "verbs_pre": 1,
+    "cov_pre": 1.0,
+    "fw_mcmc": 17,
+    "verbs_mcmc": 1,
+    "cov_mcmc": 1.0,
+    "fw_final": 14,
+    "verbs_final": 3,
+    "cov_final": 0.8709677419354839
+  },
+  "placement": {
+    "positions": [
+      3,
+      15,
+      27,
+      31
+    ],
+    "token_boundaries": true,
+    "drop_predicted": 2.86771482489518,
+    "drop_actual": 0.2975378787878791
+  },
+  "leakage_diff": 0.0
+}

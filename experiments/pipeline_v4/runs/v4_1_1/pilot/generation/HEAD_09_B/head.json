@@ -1,0 +1,33 @@
+{
+  "head_id": 9,
+  "arm": "B",
+  "seed_u64": 10347509652114435445,
+  "weights_sha256": "d2b426b77c965c3ecd804c8d25c48ab45f0635db18275f68827cd48fa0d98be0",
+  "text_pre": "WHERE IS THE SKY AND THE HALL AND IF STEP THEN BELIEVE THE WAY WHERE MORE",
+  "text_post_mcmc": "SO TO BEEN BE WHAT WAS WHERE WAS THEIR WHAT IT OUR THIS HAD IS FIND THIS",
+  "text_post_anchors": "SOEAST  TO BEENNORTHEAST  BE WHAT WASBERLIN  WHERECLOCK  WAS THEIR WHAT IT OUR THIS HAD IS FIND THIS",
+  "text_final": "SOEAST THEN READ TO BEENNORTHEAST THE BE AND AND WHAT WASBERLIN AND WHERECLOCK WAS THEIR WHAT IT OUR THIS HAD IS FIND THIS",
+  "metrics": {
+    "fw_pre": 11,
+    "verbs_pre": 1,
+    "cov_pre": 1.0,
+    "fw_mcmc": 16,
+    "verbs_mcmc": 1,
+    "cov_mcmc": 1.0,
+    "fw_final": 14,
+    "verbs_final": 2,
+    "cov_final": 0.85
+  },
+  "placement": {
+    "positions": [
+      2,
+      10,
+      22,
+      28
+    ],
+    "token_boundaries": true,
+    "drop_predicted": 2.584652500141551,
+    "drop_actual": 0.4470588235294115
+  },
+  "leakage_diff": 0.0
+}

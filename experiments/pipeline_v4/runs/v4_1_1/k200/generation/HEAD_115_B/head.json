@@ -1,0 +1,33 @@
+{
+  "head_id": 115,
+  "arm": "B",
+  "seed_u64": 15271239905781975224,
+  "weights_sha256": "d2b426b77c965c3ecd804c8d25c48ab45f0635db18275f68827cd48fa0d98be0",
+  "text_pre": "MOVE RIGHT AND TAKE WRONG AND THE SHADOW IS [DIR1] OF THE DEATH AND IF THE",
+  "text_post_mcmc": "ALL BE THEY IS WITH AT CAN BUT IS ALL OR ARE A A THIS TWO WHO ONE SEND AT",
+  "text_post_anchors": "ALLEAST  BE THEYNORTHEAST  IS WITH ATBERLIN  CANCLOCK  BUT IS ALL OR ARE A A THIS TWO WHO ONE SEND AT",
+  "text_final": "ALLEAST THEN READ THEN READ BE THEYNORTHEAST THE IS WITH ATBERLIN AND CANCLOCK A BUT IS ALL OR ARE A A THIS TWO WHO ONE SEND AT",
+  "metrics": {
+    "fw_pre": 9,
+    "verbs_pre": 1,
+    "cov_pre": 0.9375,
+    "fw_mcmc": 19,
+    "verbs_mcmc": 1,
+    "cov_mcmc": 1.0,
+    "fw_final": 17,
+    "verbs_final": 3,
+    "cov_final": 0.8518518518518519
+  },
+  "placement": {
+    "positions": [
+      3,
+      11,
+      22,
+      26
+    ],
+    "token_boundaries": true,
+    "drop_predicted": 2.5851372311891856,
+    "drop_actual": 0.3733333333333335
+  },
+  "leakage_diff": 0.0
+}

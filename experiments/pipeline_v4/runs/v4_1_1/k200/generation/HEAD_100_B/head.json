@@ -1,0 +1,33 @@
+{
+  "head_id": 100,
+  "arm": "B",
+  "seed_u64": 5002783831601996121,
+  "weights_sha256": "d2b426b77c965c3ecd804c8d25c48ab45f0635db18275f68827cd48fa0d98be0",
+  "text_pre": "SET THE TRUTH TO SLOW IF THE PATH IS TRUE THEN CHECK [DIR1] THIS WHERE",
+  "text_post_mcmc": "IS MARK FROM IF YOUR WE NOT THERE MORE BE THAT AN MORE SO BE AS IF THIS TWO",
+  "text_post_anchors": "IS MARK FROM IF YOUR THE EAST WE THE NORTHEAST NOT THE BERLIN THERE THE CLOCK MORE BE THAT AN MORE SO BE AS IF THIS TWO",
+  "text_final": "IS MARK FROM THE IF AND AND YOUR THEN NOTE THE EAST WE THE NORTHEAST NOT THE BERLIN THERE THE CLOCK AND THE MORE BE THAT AN MORE SO BE AS IF THIS TWO",
+  "metrics": {
+    "fw_pre": 8,
+    "verbs_pre": 1,
+    "cov_pre": 0.9333333333333333,
+    "fw_mcmc": 18,
+    "verbs_mcmc": 1,
+    "cov_mcmc": 1.0,
+    "fw_final": 22,
+    "verbs_final": 2,
+    "cov_final": 0.8823529411764706
+  },
+  "placement": {
+    "positions": [
+      21,
+      24,
+      28,
+      34
+    ],
+    "token_boundaries": true,
+    "drop_predicted": 2.5444772010284558,
+    "drop_actual": 0.3402178649237473
+  },
+  "leakage_diff": 0.0
+}

@@ -1,0 +1,33 @@
+{
+  "head_id": 93,
+  "arm": "B",
+  "seed_u64": 11684739611460009008,
+  "weights_sha256": "d2b426b77c965c3ecd804c8d25c48ab45f0635db18275f68827cd48fa0d98be0",
+  "text_pre": "SET THE PATH TO FAST AND WHERE IS THE WAY AND THE DARK AND BEFORE THE MAP",
+  "text_post_mcmc": "FROM THINK OF OUR THEM BUT WAS BEEN THE WE THEY CAN BE IT HAS NO YOU WHEN A",
+  "text_post_anchors": "FROM THINK OF OUR THEM THE EAST BUT THE NORTHEAST WAS THE BERLIN BEEN THE WE THE CLOCK THEY CAN BE IT HAS NO YOU WHEN A",
+  "text_final": "FROM THINK OF THE OUR AND AND THEM THEN NOTE THE EAST BUT THE NORTHEAST WAS THE BERLIN BEEN THE WE THE CLOCK AND AND THEY CAN BE IT HAS NO YOU WHEN A",
+  "metrics": {
+    "fw_pre": 10,
+    "verbs_pre": 1,
+    "cov_pre": 0.9411764705882353,
+    "fw_mcmc": 18,
+    "verbs_mcmc": 1,
+    "cov_mcmc": 1.0,
+    "fw_final": 18,
+    "verbs_final": 2,
+    "cov_final": 0.8823529411764706
+  },
+  "placement": {
+    "positions": [
+      23,
+      27,
+      31,
+      43
+    ],
+    "token_boundaries": true,
+    "drop_predicted": 2.4935352674951443,
+    "drop_actual": 0.3402178649237473
+  },
+  "leakage_diff": 0.0
+}

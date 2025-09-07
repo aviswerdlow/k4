@@ -1,0 +1,33 @@
+{
+  "head_id": 128,
+  "arm": "B",
+  "seed_u64": 11568814396930399901,
+  "weights_sha256": "d2b426b77c965c3ecd804c8d25c48ab45f0635db18275f68827cd48fa0d98be0",
+  "text_pre": "IF WALL THEN GIVE THE WAY MOVE THE LINE SLOW HAVE NO HAVE NOT NO NOT OR",
+  "text_post_mcmc": "A ARE BUT THERE THEY IT IF THEM OUR WHO TO ON NO IS A NO MOVE A END WAS",
+  "text_post_anchors": "A ARE BUT THERE THE EAST THEY THE NORTHEAST IT THE BERLIN IF THE CLOCK THEM OUR WHO TO ON NO IS A NO MOVE A END WAS",
+  "text_final": "A ARE THE BUT THE THERE AND A THEN NOTE THE EAST THEY THE NORTHEAST IT THE BERLIN IF THE CLOCK A THEM OUR WHO TO ON NO IS A NO MOVE A END WAS",
+  "metrics": {
+    "fw_pre": 11,
+    "verbs_pre": 1,
+    "cov_pre": 1.0,
+    "fw_mcmc": 18,
+    "verbs_mcmc": 1,
+    "cov_mcmc": 1.0,
+    "fw_final": 21,
+    "verbs_final": 3,
+    "cov_final": 0.8857142857142857
+  },
+  "placement": {
+    "positions": [
+      16,
+      21,
+      24,
+      27
+    ],
+    "token_boundaries": true,
+    "drop_predicted": 2.3878864166979996,
+    "drop_actual": 0.3191697191697189
+  },
+  "leakage_diff": 0.0
+}

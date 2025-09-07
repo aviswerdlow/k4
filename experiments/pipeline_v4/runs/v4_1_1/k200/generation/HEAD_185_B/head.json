@@ -1,0 +1,33 @@
+{
+  "head_id": 185,
+  "arm": "B",
+  "seed_u64": 1057931076727277605,
+  "weights_sha256": "d2b426b77c965c3ecd804c8d25c48ab45f0635db18275f68827cd48fa0d98be0",
+  "text_pre": "IF TIME THEN APPLY THE CODE THE LIFE IS [DIR1] OF THE ROOM SET THE TIME TO",
+  "text_post_mcmc": "WHERE THE CAN HAD WILL HAS FOR IN MORE AN THAT YOUR ON YOU THIS MARK THEN",
+  "text_post_anchors": "WHEREEAST  THE CAN HADNORTHEAST  WILLBERLIN  HASCLOCK  FOR IN MORE AN THAT YOUR ON YOU THIS MARK THEN",
+  "text_final": "WHEREEAST THEN READ THE CAN THE HADNORTHEAST AND WILLBERLIN HASCLOCK FOR IN MORE AN THAT YOUR ON YOU THIS MARK THEN",
+  "metrics": {
+    "fw_pre": 9,
+    "verbs_pre": 1,
+    "cov_pre": 0.9411764705882353,
+    "fw_mcmc": 16,
+    "verbs_mcmc": 1,
+    "cov_mcmc": 1.0,
+    "fw_final": 11,
+    "verbs_final": 2,
+    "cov_final": 0.85
+  },
+  "placement": {
+    "positions": [
+      5,
+      17,
+      22,
+      26
+    ],
+    "token_boundaries": true,
+    "drop_predicted": 2.482300548159584,
+    "drop_actual": 0.4470588235294115
+  },
+  "leakage_diff": 0.0
+}

@@ -1,0 +1,33 @@
+{
+  "head_id": 6,
+  "arm": "A",
+  "seed_u64": 9176909003849143184,
+  "weights_sha256": "c22ce0c4dd0c04d11e1c9d5d89b07f481532048aa233bd79470b565f7b53d41b",
+  "text_pre": "FIRST TAKE THEN WATCH THE STAR FIND THE PLAN CLEAR BY THEN BEEN MORE ALL",
+  "text_post_mcmc": "BUT ALL FOR IS WOULD OF THAT ONE TWO AN WOULD FOR THIS IF MORE WHEN GET A",
+  "text_post_anchors": "BUTEAST  ALL FOR IS WOULDNORTHEAST  OFBERLIN  THATCLOCK  ONE TWO AN WOULD FOR THIS IF MORE WHEN GET A",
+  "text_final": "BUTEAST THEN READ THE ALL FOR THE IS AND A WOULDNORTHEAST A OFBERLIN THATCLOCK ONE TWO AN WOULD FOR THIS IF MORE WHEN GET A",
+  "metrics": {
+    "fw_pre": 8,
+    "verbs_pre": 1,
+    "cov_pre": 1.0,
+    "fw_mcmc": 17,
+    "verbs_mcmc": 1,
+    "cov_mcmc": 1.0,
+    "fw_final": 16,
+    "verbs_final": 2,
+    "cov_final": 0.85
+  },
+  "placement": {
+    "positions": [
+      3,
+      20,
+      23,
+      28
+    ],
+    "token_boundaries": true,
+    "drop_predicted": 2.7685352645609487,
+    "drop_actual": 0.4194444444444443
+  },
+  "leakage_diff": 0.0
+}

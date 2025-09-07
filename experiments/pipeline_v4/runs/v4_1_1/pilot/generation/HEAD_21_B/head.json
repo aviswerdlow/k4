@@ -1,0 +1,33 @@
+{
+  "head_id": 21,
+  "arm": "B",
+  "seed_u64": 2644515999935403085,
+  "weights_sha256": "d2b426b77c965c3ecd804c8d25c48ab45f0635db18275f68827cd48fa0d98be0",
+  "text_pre": "WHERE IS THE PLAN AND THE PAGE WHAT REMEMBER THE HALL SLOW IF STEP THEN",
+  "text_post_mcmc": "THIS BY FOR WILL THEM IN YOU OF A SO MORE THEY ITS BUT NO THAT BELIEVE THE",
+  "text_post_anchors": "THISEAST  BY FORNORTHEAST  WILLBERLIN  THEMCLOCK  IN YOU OF A SO MORE THEY ITS BUT NO THAT BELIEVE THE",
+  "text_final": "THISEAST THEN READ THEN READ BY FORNORTHEAST THE WILLBERLIN THEMCLOCK AND IN YOU OF A SO MORE THEY ITS BUT NO THAT BELIEVE THE",
+  "metrics": {
+    "fw_pre": 9,
+    "verbs_pre": 1,
+    "cov_pre": 1.0,
+    "fw_mcmc": 17,
+    "verbs_mcmc": 1,
+    "cov_mcmc": 1.0,
+    "fw_final": 12,
+    "verbs_final": 3,
+    "cov_final": 0.85
+  },
+  "placement": {
+    "positions": [
+      4,
+      11,
+      16,
+      21
+    ],
+    "token_boundaries": true,
+    "drop_predicted": 2.385068804986164,
+    "drop_actual": 0.3569444444444443
+  },
+  "leakage_diff": 0.0
+}

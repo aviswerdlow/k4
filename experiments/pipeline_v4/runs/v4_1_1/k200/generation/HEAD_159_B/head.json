@@ -1,0 +1,33 @@
+{
+  "head_id": 159,
+  "arm": "B",
+  "seed_u64": 188291926679453090,
+  "weights_sha256": "d2b426b77c965c3ecd804c8d25c48ab45f0635db18275f68827cd48fa0d98be0",
+  "text_pre": "WHEN LOW WATCH THE DAY AND IF THE LOCK IS LOW THEN SEND [DIR1] SO AN IF",
+  "text_post_mcmc": "TO IF THEN ALL BUT WE BY YOUR THEY THE WHO AT AS BE NOT HAS BUT CAN MARK NO",
+  "text_post_anchors": "TOEAST  IF THEN ALL BUTNORTHEAST  WEBERLIN  BYCLOCK  YOUR THEY THE WHO AT AS BE NOT HAS BUT CAN MARK NO",
+  "text_final": "TOEAST THEN READ THE IF THE THEN AND AND ALL THE BUTNORTHEAST WEBERLIN BYCLOCK YOUR THEY THE WHO AT AS BE NOT HAS BUT CAN MARK NO",
+  "metrics": {
+    "fw_pre": 10,
+    "verbs_pre": 1,
+    "cov_pre": 0.9411764705882353,
+    "fw_mcmc": 19,
+    "verbs_mcmc": 1,
+    "cov_mcmc": 1.0,
+    "fw_final": 14,
+    "verbs_final": 2,
+    "cov_final": 0.8518518518518519
+  },
+  "placement": {
+    "positions": [
+      2,
+      18,
+      21,
+      24
+    ],
+    "token_boundaries": true,
+    "drop_predicted": 2.764764992514842,
+    "drop_actual": 0.3733333333333335
+  },
+  "leakage_diff": 0.0
+}

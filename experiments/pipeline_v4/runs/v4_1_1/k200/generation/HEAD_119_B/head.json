@@ -1,0 +1,33 @@
+{
+  "head_id": 119,
+  "arm": "B",
+  "seed_u64": 10148570892255915730,
+  "weights_sha256": "d2b426b77c965c3ecd804c8d25c48ab45f0635db18275f68827cd48fa0d98be0",
+  "text_pre": "APPLY THE LOCK AND USE AND GO THE MAP TRUE AND TAKE THE SUN DARK AND IF",
+  "text_post_mcmc": "TO THINK HAD ONE WHAT AT OR THE ITS CAN IS ONE THEY THE AS FOR TWO ON THERE",
+  "text_post_anchors": "TO THINK HAD ONE WHAT AT THE EAST OR THE THE NORTHEAST ITS THE BERLIN CAN THE CLOCK IS ONE THEY THE AS FOR TWO ON THERE",
+  "text_final": "TO THINK HAD ONE THE WHAT AND A AT THEN SEE THE EAST OR THE THE NORTHEAST ITS THE BERLIN CAN THE CLOCK AND AND IS ONE THEY THE AS FOR TWO ON THERE",
+  "metrics": {
+    "fw_pre": 8,
+    "verbs_pre": 1,
+    "cov_pre": 1.0,
+    "fw_mcmc": 18,
+    "verbs_mcmc": 1,
+    "cov_mcmc": 1.0,
+    "fw_final": 21,
+    "verbs_final": 2,
+    "cov_final": 0.8823529411764706
+  },
+  "placement": {
+    "positions": [
+      25,
+      32,
+      36,
+      40
+    ],
+    "token_boundaries": true,
+    "drop_predicted": 2.428423358296394,
+    "drop_actual": 0.3402178649237473
+  },
+  "leakage_diff": 0.0
+}

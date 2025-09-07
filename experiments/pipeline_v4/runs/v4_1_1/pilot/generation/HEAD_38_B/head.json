@@ -1,0 +1,33 @@
+{
+  "head_id": 38,
+  "arm": "B",
+  "seed_u64": 6811282190982147458,
+  "weights_sha256": "d2b426b77c965c3ecd804c8d25c48ab45f0635db18275f68827cd48fa0d98be0",
+  "text_pre": "SET THE YEAR TO NEXT WHEN FIRST SEND THE SIGN WHERE IS THE WALL AND THE",
+  "text_post_mcmc": "TO WAS IT ONE WITH AN HAD WHERE TO YOU AS WHO A NO IN FOR NOT HAVE GIVE IF",
+  "text_post_anchors": "TO WAS ITEAST  ONE WITH THE NORTHEAST AN THE BERLIN HAD THE CLOCK WHERE TO YOU AS WHO A NO IN FOR NOT HAVE GIVE IF",
+  "text_final": "THEN SEE THEN SEE TO THE WAS THE ITEAST ONE WITH THE NORTHEAST AN THE BERLIN HAD THE CLOCK WHERE TO YOU AS WHO A NO IN FOR NOT HAVE GIVE IF",
+  "metrics": {
+    "fw_pre": 9,
+    "verbs_pre": 1,
+    "cov_pre": 1.0,
+    "fw_mcmc": 19,
+    "verbs_mcmc": 1,
+    "cov_mcmc": 1.0,
+    "fw_final": 18,
+    "verbs_final": 3,
+    "cov_final": 0.875
+  },
+  "placement": {
+    "positions": [
+      9,
+      19,
+      22,
+      26
+    ],
+    "token_boundaries": true,
+    "drop_predicted": 2.247529200982363,
+    "drop_actual": 0.3571581196581195
+  },
+  "leakage_diff": 0.0
+}

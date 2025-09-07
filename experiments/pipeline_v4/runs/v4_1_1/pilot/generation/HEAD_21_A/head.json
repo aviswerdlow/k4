@@ -1,0 +1,33 @@
+{
+  "head_id": 21,
+  "arm": "A",
+  "seed_u64": 820716032148234953,
+  "weights_sha256": "c22ce0c4dd0c04d11e1c9d5d89b07f481532048aa233bd79470b565f7b53d41b",
+  "text_pre": "APPLY THE GROUND AND GET AND THE LINE IS [DIR1] OF THE BOOK AND IF THE GROU",
+  "text_post_mcmc": "TO BUT A BE THAT BUT ON CAN ONE MORE THAT SO FOR THEIR AS THAT SET AND",
+  "text_post_anchors": "TO BUT A BE THE EAST THAT THE NORTHEAST BUT THE BERLIN ON THE CLOCK CAN ONE MORE THAT SO FOR THEIR AS THAT SET AND",
+  "text_final": "TO BUT A BE THE THEN READ THE EAST THAT THE NORTHEAST BUT THE BERLIN ON THE CLOCK THE CAN AND ONE MORE THAT SO FOR THEIR AS THAT SET AND",
+  "metrics": {
+    "fw_pre": 10,
+    "verbs_pre": 1,
+    "cov_pre": 0.8823529411764706,
+    "fw_mcmc": 17,
+    "verbs_mcmc": 1,
+    "cov_mcmc": 1.0,
+    "fw_final": 22,
+    "verbs_final": 2,
+    "cov_final": 0.8709677419354839
+  },
+  "placement": {
+    "positions": [
+      12,
+      17,
+      21,
+      24
+    ],
+    "token_boundaries": true,
+    "drop_predicted": 2.488006295312296,
+    "drop_actual": 0.3536858974358972
+  },
+  "leakage_diff": 0.0
+}

@@ -1,0 +1,33 @@
+{
+  "head_id": 69,
+  "arm": "B",
+  "seed_u64": 1435903151240975074,
+  "weights_sha256": "d2b426b77c965c3ecd804c8d25c48ab45f0635db18275f68827cd48fa0d98be0",
+  "text_pre": "FIRST USE THEN HOLD THE RULE WHERE IS THE GROUND AND THE HOUR APPLY THE",
+  "text_post_mcmc": "THEM BE THE WE OF NOT TWO OF IS TO WAS AT WILL HAD WHAT IS ON HAD WAIT FROM",
+  "text_post_anchors": "THEMEAST  BE THENORTHEAST  WE OF NOTBERLIN  TWOCLOCK  OF IS TO WAS AT WILL HAD WHAT IS ON HAD WAIT FROM",
+  "text_final": "THEMEAST THEN READ BE THENORTHEAST THE WE OF AND NOTBERLIN TWOCLOCK A OF IS TO WAS AT WILL HAD WHAT IS ON HAD WAIT FROM",
+  "metrics": {
+    "fw_pre": 8,
+    "verbs_pre": 1,
+    "cov_pre": 1.0,
+    "fw_mcmc": 19,
+    "verbs_mcmc": 1,
+    "cov_mcmc": 1.0,
+    "fw_final": 15,
+    "verbs_final": 2,
+    "cov_final": 0.85
+  },
+  "placement": {
+    "positions": [
+      4,
+      11,
+      21,
+      25
+    ],
+    "token_boundaries": true,
+    "drop_predicted": 2.4183858334322363,
+    "drop_actual": 0.3733333333333335
+  },
+  "leakage_diff": 0.0
+}

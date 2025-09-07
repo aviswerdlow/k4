@@ -1,0 +1,33 @@
+{
+  "head_id": 1,
+  "arm": "B",
+  "seed_u64": 13460563473273333777,
+  "weights_sha256": "d2b426b77c965c3ecd804c8d25c48ab45f0635db18275f68827cd48fa0d98be0",
+  "text_pre": "TURN THE TEXT FAST MOVE THEN CHECK AND MOVE WHERE IS THE DARK AND THE HOUR",
+  "text_post_mcmc": "AN AS THE WAS NOT WILL NOT HAVE ON THEIR YOU IT IN THIS HAD NO A STEP NOT",
+  "text_post_anchors": "AN AS THE WAS THE EAST NOT THE NORTHEAST WILL THE BERLIN NOT THE CLOCK HAVE ON THEIR YOU IT IN THIS HAD NO A STEP NOT",
+  "text_final": "AN AS THE WAS THE THEN AND NOTE THEN READ THE EAST NOT THE NORTHEAST WILL THE BERLIN NOT THE CLOCK THE HAVE AND ON THEIR YOU IT IN THIS HAD NO A STEP NOT",
+  "metrics": {
+    "fw_pre": 8,
+    "verbs_pre": 1,
+    "cov_pre": 1.0,
+    "fw_mcmc": 18,
+    "verbs_mcmc": 1,
+    "cov_mcmc": 1.0,
+    "fw_final": 19,
+    "verbs_final": 3,
+    "cov_final": 0.8857142857142857
+  },
+  "placement": {
+    "positions": [
+      14,
+      18,
+      23,
+      27
+    ],
+    "token_boundaries": true,
+    "drop_predicted": 2.57101075609314,
+    "drop_actual": 0.3402178649237473
+  },
+  "leakage_diff": 0.0
+}

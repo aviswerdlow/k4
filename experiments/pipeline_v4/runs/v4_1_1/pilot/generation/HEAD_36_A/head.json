@@ -1,0 +1,33 @@
+{
+  "head_id": 36,
+  "arm": "A",
+  "seed_u64": 16505268541459969824,
+  "weights_sha256": "c22ce0c4dd0c04d11e1c9d5d89b07f481532048aa233bd79470b565f7b53d41b",
+  "text_pre": "WHEN FAR HOLD THE GATE. SET THE PAGE CLEAR. MORE HAD THE WHEN BE THERE",
+  "text_post_mcmc": "TWO NOTE BUT AT NO OUR HAD THE TO THEM ARE YOU ON THIS SO YOUR FOR AND HAVE",
+  "text_post_anchors": "TWO NOTE BUT AT NO OUR THE EAST HAD THE NORTHEAST THE THE BERLIN TO THE CLOCK THEM ARE YOU ON THIS SO YOUR FOR AND HAVE",
+  "text_final": "TWO NOTE BUT AT THE NO AND A OUR A THEN SEE THE EAST HAD THE NORTHEAST THE THE BERLIN TO THE CLOCK THE THEM ARE YOU ON THIS SO YOUR FOR AND HAVE",
+  "metrics": {
+    "fw_pre": 9,
+    "verbs_pre": 1,
+    "cov_pre": 0.8666666666666667,
+    "fw_mcmc": 18,
+    "verbs_mcmc": 1,
+    "cov_mcmc": 1.0,
+    "fw_final": 20,
+    "verbs_final": 2,
+    "cov_final": 0.8823529411764706
+  },
+  "placement": {
+    "positions": [
+      23,
+      27,
+      31,
+      34
+    ],
+    "token_boundaries": true,
+    "drop_predicted": 2.364248461146905,
+    "drop_actual": 0.34021786492374684
+  },
+  "leakage_diff": 0.0
+}

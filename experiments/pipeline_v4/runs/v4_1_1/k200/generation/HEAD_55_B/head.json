@@ -1,0 +1,33 @@
+{
+  "head_id": 55,
+  "arm": "B",
+  "seed_u64": 13436520328784381149,
+  "weights_sha256": "d2b426b77c965c3ecd804c8d25c48ab45f0635db18275f68827cd48fa0d98be0",
+  "text_pre": "WHERE IS THE LOCK AND THE RULE WHAT POINT THE DARK NEW WHAT WITH WHAT NOT",
+  "text_post_mcmc": "AND OUR ONE BEEN THERE IT AND THAT THEN OR THEM SO MORE NO BUT OF IT PUT IS",
+  "text_post_anchors": "ANDEAST  OUR ONENORTHEAST  BEENBERLIN  THERECLOCK  IT AND THAT THEN OR THEM SO MORE NO BUT OF IT PUT IS",
+  "text_final": "ANDEAST THEN READ THEN READ OUR ONENORTHEAST THE BEENBERLIN AND THERECLOCK IT AND THAT THEN OR THEM SO MORE NO BUT OF IT PUT IS",
+  "metrics": {
+    "fw_pre": 11,
+    "verbs_pre": 1,
+    "cov_pre": 1.0,
+    "fw_mcmc": 18,
+    "verbs_mcmc": 1,
+    "cov_mcmc": 1.0,
+    "fw_final": 12,
+    "verbs_final": 3,
+    "cov_final": 0.85
+  },
+  "placement": {
+    "positions": [
+      3,
+      11,
+      16,
+      22
+    ],
+    "token_boundaries": true,
+    "drop_predicted": 2.5090090379917935,
+    "drop_actual": 0.3362229102167178
+  },
+  "leakage_diff": 0.0
+}

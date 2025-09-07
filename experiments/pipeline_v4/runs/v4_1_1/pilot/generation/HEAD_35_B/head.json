@@ -1,0 +1,33 @@
+{
+  "head_id": 35,
+  "arm": "B",
+  "seed_u64": 16026486443713661808,
+  "weights_sha256": "d2b426b77c965c3ecd804c8d25c48ab45f0635db18275f68827cd48fa0d98be0",
+  "text_pre": "HOLD SOFT AND HOLD OLD AND WHERE IS THE SUN AND THE KEY HAD THE TWO THE",
+  "text_post_mcmc": "CAN HAD HAS HAS ARE THE OR NOT AN HAD NO ALL WHERE THEIR WILL PLACE HAD",
+  "text_post_anchors": "CANEAST  HAD HASNORTHEAST  HASBERLIN  ARE THE ORCLOCK  NOT AN HAD NO ALL WHERE THEIR WILL PLACE HAD",
+  "text_final": "CANEAST THEN READ THEN READ HAD HASNORTHEAST THE HASBERLIN ARE THE ORCLOCK THE NOT AN HAD NO ALL WHERE THEIR WILL PLACE HAD",
+  "metrics": {
+    "fw_pre": 11,
+    "verbs_pre": 1,
+    "cov_pre": 1.0,
+    "fw_mcmc": 16,
+    "verbs_mcmc": 1,
+    "cov_mcmc": 1.0,
+    "fw_final": 10,
+    "verbs_final": 3,
+    "cov_final": 0.85
+  },
+  "placement": {
+    "positions": [
+      3,
+      11,
+      15,
+      26
+    ],
+    "token_boundaries": true,
+    "drop_predicted": 2.621136176664045,
+    "drop_actual": 0.4470588235294115
+  },
+  "leakage_diff": 0.0
+}

@@ -1,0 +1,33 @@
+{
+  "head_id": 27,
+  "arm": "B",
+  "seed_u64": 7367615021488155628,
+  "weights_sha256": "d2b426b77c965c3ecd804c8d25c48ab45f0635db18275f68827cd48fa0d98be0",
+  "text_pre": "APPLY THE MOON AND MARK IF THE LIGHT IS SLOW THEN GET [DIR1] AN NO THIS",
+  "text_post_mcmc": "WITH IT ON NOT NOT YOU THEIR YOU THEY BUT THEY ON ITS AND ARE AS WAS ASK WE",
+  "text_post_anchors": "WITH IT ON NOTEAST  NOTNORTHEAST  YOUBERLIN  THEIRCLOCK  YOU THEY BUT THEY ON ITS AND ARE AS WAS ASK WE",
+  "text_final": "THEN SEE WITH THE IT THE ON AND AND NOTEAST THE NOTNORTHEAST YOUBERLIN THEIRCLOCK YOU THEY BUT THEY ON ITS AND ARE AS WAS ASK WE",
+  "metrics": {
+    "fw_pre": 9,
+    "verbs_pre": 1,
+    "cov_pre": 0.9375,
+    "fw_mcmc": 18,
+    "verbs_mcmc": 1,
+    "cov_mcmc": 1.0,
+    "fw_final": 14,
+    "verbs_final": 2,
+    "cov_final": 0.85
+  },
+  "placement": {
+    "positions": [
+      14,
+      18,
+      22,
+      28
+    ],
+    "token_boundaries": true,
+    "drop_predicted": 2.4162793011849697,
+    "drop_actual": 0.39504643962848274
+  },
+  "leakage_diff": 0.0
+}

@@ -1,0 +1,33 @@
+{
+  "head_id": 94,
+  "arm": "B",
+  "seed_u64": 13765122100226405156,
+  "weights_sha256": "d2b426b77c965c3ecd804c8d25c48ab45f0635db18275f68827cd48fa0d98be0",
+  "text_pre": "SET THE STEP TO LOW IF THE ROOM IS SLOW THEN FORGET [DIR1] SET THEN GO AND",
+  "text_post_mcmc": "THAT OR WE ON IT SO NO BUT A WOULD THEN YOU WILL OF IT BY THERE COME THE",
+  "text_post_anchors": "THATEAST  OR WENORTHEAST  ON ITBERLIN  SO NOCLOCK  BUT A WOULD THEN YOU WILL OF IT BY THERE COME THE",
+  "text_final": "THATEAST THEN READ THEN READ OR WENORTHEAST ON ITBERLIN SO NOCLOCK A A BUT A WOULD THEN YOU WILL OF IT BY THERE COME THE",
+  "metrics": {
+    "fw_pre": 8,
+    "verbs_pre": 1,
+    "cov_pre": 0.9411764705882353,
+    "fw_mcmc": 18,
+    "verbs_mcmc": 1,
+    "cov_mcmc": 1.0,
+    "fw_final": 15,
+    "verbs_final": 3,
+    "cov_final": 0.85
+  },
+  "placement": {
+    "positions": [
+      4,
+      10,
+      16,
+      22
+    ],
+    "token_boundaries": true,
+    "drop_predicted": 2.688772669498884,
+    "drop_actual": 0.2773993808049533
+  },
+  "leakage_diff": 0.0
+}

@@ -1,0 +1,33 @@
+{
+  "head_id": 170,
+  "arm": "B",
+  "seed_u64": 17029188104442674664,
+  "weights_sha256": "d2b426b77c965c3ecd804c8d25c48ab45f0635db18275f68827cd48fa0d98be0",
+  "text_pre": "MARK THE KEY AND READ THE PAGE. WHEN HIGH GO THE STAR. HAS HAD BUT WHERE",
+  "text_post_mcmc": "BUT IF BEEN WHEN IN ONE IT A ON BUT IF THIS WHO WAS WAS THEM REMEMBER NOT",
+  "text_post_anchors": "BUTEAST  IF BEENNORTHEAST  WHEN IN ONEBERLIN  ITCLOCK  A ON BUT IF THIS WHO WAS WAS THEM REMEMBER NOT",
+  "text_final": "BUTEAST THEN READ THEN READ IF BEENNORTHEAST THE WHEN IN AND ONEBERLIN ITCLOCK A A ON BUT IF THIS WHO WAS WAS THEM REMEMBER NOT",
+  "metrics": {
+    "fw_pre": 9,
+    "verbs_pre": 1,
+    "cov_pre": 0.875,
+    "fw_mcmc": 17,
+    "verbs_mcmc": 1,
+    "cov_mcmc": 1.0,
+    "fw_final": 15,
+    "verbs_final": 3,
+    "cov_final": 0.85
+  },
+  "placement": {
+    "positions": [
+      3,
+      11,
+      23,
+      26
+    ],
+    "token_boundaries": true,
+    "drop_predicted": 2.2679101954009524,
+    "drop_actual": 0.4194444444444443
+  },
+  "leakage_diff": 0.0
+}

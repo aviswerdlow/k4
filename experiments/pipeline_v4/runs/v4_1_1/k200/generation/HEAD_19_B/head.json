@@ -1,0 +1,33 @@
+{
+  "head_id": 19,
+  "arm": "B",
+  "seed_u64": 13924051287747377235,
+  "weights_sha256": "d2b426b77c965c3ecd804c8d25c48ab45f0635db18275f68827cd48fa0d98be0",
+  "text_pre": "APPLY THE SKY AND SEE. WHERE IS THE LIFE AND THE STAR. SEE THE HOUR NEAR",
+  "text_post_mcmc": "AND SEEK BE OF BEEN AS WOULD AN BEEN WHEN OF YOU AT AN MORE WILL YOUR",
+  "text_post_anchors": "AND SEEK BE OF BEEN THE EAST AS WOULD AN THE NORTHEAST BEEN THE BERLIN WHEN THE CLOCK OF YOU AT AN MORE WILL YOUR",
+  "text_final": "AND SEEK BE THE OF BEEN AND THEN NOTE THE EAST THE AS AND A WOULD AN THE NORTHEAST BEEN THE BERLIN WHEN THE CLOCK OF YOU AT AN MORE WILL YOUR",
+  "metrics": {
+    "fw_pre": 8,
+    "verbs_pre": 1,
+    "cov_pre": 0.875,
+    "fw_mcmc": 16,
+    "verbs_mcmc": 1,
+    "cov_mcmc": 1.0,
+    "fw_final": 20,
+    "verbs_final": 2,
+    "cov_final": 0.875
+  },
+  "placement": {
+    "positions": [
+      20,
+      32,
+      37,
+      42
+    ],
+    "token_boundaries": true,
+    "drop_predicted": 2.4298633258440208,
+    "drop_actual": 0.368231884057971
+  },
+  "leakage_diff": 0.0
+}

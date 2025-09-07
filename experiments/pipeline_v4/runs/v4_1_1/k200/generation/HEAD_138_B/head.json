@@ -1,0 +1,33 @@
+{
+  "head_id": 138,
+  "arm": "B",
+  "seed_u64": 11704810113182018129,
+  "weights_sha256": "d2b426b77c965c3ecd804c8d25c48ab45f0635db18275f68827cd48fa0d98be0",
+  "text_pre": "KEEP [DIR1] AND SEE [DIR2] HOLD THE MAP FAST OR WITH AT ONE THAT THIS SO",
+  "text_post_mcmc": "THIS A YOU WHO WE THAT THERE ITS WAS THAT BY THEM MORE THEIR THAT SET IF",
+  "text_post_anchors": "THISEAST  A YOUNORTHEAST  WHOBERLIN  WECLOCK  THAT THERE ITS WAS THAT BY THEM MORE THEIR THAT SET IF",
+  "text_final": "THISEAST THEN READ A YOUNORTHEAST THE WHOBERLIN AND WECLOCK A THAT THERE ITS WAS THAT BY THEM MORE THEIR THAT SET IF",
+  "metrics": {
+    "fw_pre": 9,
+    "verbs_pre": 1,
+    "cov_pre": 0.875,
+    "fw_mcmc": 16,
+    "verbs_mcmc": 1,
+    "cov_mcmc": 1.0,
+    "fw_final": 13,
+    "verbs_final": 2,
+    "cov_final": 0.85
+  },
+  "placement": {
+    "positions": [
+      4,
+      10,
+      14,
+      17
+    ],
+    "token_boundaries": true,
+    "drop_predicted": 2.3952758050162117,
+    "drop_actual": 0.3803921568627451
+  },
+  "leakage_diff": 0.0
+}

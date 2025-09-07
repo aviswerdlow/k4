@@ -1,0 +1,33 @@
+{
+  "head_id": 153,
+  "arm": "B",
+  "seed_u64": 11575954436346818596,
+  "weights_sha256": "d2b426b77c965c3ecd804c8d25c48ab45f0635db18275f68827cd48fa0d98be0",
+  "text_pre": "TURN FAST AND TAKE BRIGHT AND TAKE THEN WAIT AND MOVE TO ALL BEEN THIS",
+  "text_post_mcmc": "AND SEND OUR THEIR THIS ARE IN ONE IF OF THEM ITS BUT HAD A ITS CAN HAS",
+  "text_post_anchors": "ANDEAST  SEND OUR THEIR THISNORTHEAST  AREBERLIN  INCLOCK  ONE IF OF THEM ITS BUT HAD A ITS CAN HAS",
+  "text_final": "ANDEAST THEN READ THE SEND THE OUR AND AND THEIR THE THISNORTHEAST AREBERLIN INCLOCK ONE IF OF THEM ITS BUT HAD A ITS CAN HAS",
+  "metrics": {
+    "fw_pre": 8,
+    "verbs_pre": 1,
+    "cov_pre": 1.0,
+    "fw_mcmc": 17,
+    "verbs_mcmc": 1,
+    "cov_mcmc": 1.0,
+    "fw_final": 11,
+    "verbs_final": 2,
+    "cov_final": 0.85
+  },
+  "placement": {
+    "positions": [
+      3,
+      23,
+      27,
+      30
+    ],
+    "token_boundaries": true,
+    "drop_predicted": 2.393260421546419,
+    "drop_actual": 0.4194444444444443
+  },
+  "leakage_diff": 0.0
+}

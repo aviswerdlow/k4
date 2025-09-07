@@ -1,0 +1,33 @@
+{
+  "head_id": 39,
+  "arm": "B",
+  "seed_u64": 13221746601947675737,
+  "weights_sha256": "d2b426b77c965c3ecd804c8d25c48ab45f0635db18275f68827cd48fa0d98be0",
+  "text_pre": "WHAT SET THE SHADOW FAST AND STEP THE YEAR AND ASK THE PATH AND IF THE DAY",
+  "text_post_mcmc": "WITH WOULD THEIR IN OF THEIR MORE ARE MORE WOULD WHERE IS WITH MARK WOULD",
+  "text_post_anchors": "WITHEAST  WOULD THEIR THE NORTHEAST IN THE BERLIN OF THEIR THE CLOCK MORE ARE MORE WOULD WHERE IS WITH MARK WOULD",
+  "text_final": "WITHEAST THEN READ THE WOULD THEIR THE NORTHEAST IN THE BERLIN OF THEIR THE CLOCK A MORE ARE MORE WOULD WHERE IS WITH MARK WOULD",
+  "metrics": {
+    "fw_pre": 9,
+    "verbs_pre": 1,
+    "cov_pre": 1.0,
+    "fw_mcmc": 14,
+    "verbs_mcmc": 1,
+    "cov_mcmc": 1.0,
+    "fw_final": 17,
+    "verbs_final": 2,
+    "cov_final": 0.85
+  },
+  "placement": {
+    "positions": [
+      4,
+      17,
+      20,
+      29
+    ],
+    "token_boundaries": true,
+    "drop_predicted": 2.5631783695735106,
+    "drop_actual": 0.39437054173896247
+  },
+  "leakage_diff": 0.0
+}

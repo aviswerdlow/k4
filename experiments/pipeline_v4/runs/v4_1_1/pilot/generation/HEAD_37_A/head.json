@@ -1,0 +1,33 @@
+{
+  "head_id": 37,
+  "arm": "A",
+  "seed_u64": 14798905515817721327,
+  "weights_sha256": "c22ce0c4dd0c04d11e1c9d5d89b07f481532048aa233bd79470b565f7b53d41b",
+  "text_pre": "WHERE IS THE SUN AND THE DAY. WHEN LAST SEND THE KEY. SEND THE DOOR AND",
+  "text_post_mcmc": "AN AND FOR THIS FROM IF WAS CAN OF WOULD ON A WITH OR OUR HAS CAN PLACE IS",
+  "text_post_anchors": "ANEAST  AND FORNORTHEAST  THISBERLIN  FROM IF WASCLOCK  CAN OF WOULD ON A WITH OR OUR HAS CAN PLACE IS",
+  "text_final": "ANEAST THEN READ THEN READ AND FORNORTHEAST THE THISBERLIN AND AND FROM THE IF WASCLOCK CAN OF WOULD ON A WITH OR OUR HAS CAN PLACE IS",
+  "metrics": {
+    "fw_pre": 9,
+    "verbs_pre": 1,
+    "cov_pre": 0.875,
+    "fw_mcmc": 18,
+    "verbs_mcmc": 1,
+    "cov_mcmc": 1.0,
+    "fw_final": 16,
+    "verbs_final": 3,
+    "cov_final": 0.8518518518518519
+  },
+  "placement": {
+    "positions": [
+      2,
+      10,
+      15,
+      27
+    ],
+    "token_boundaries": true,
+    "drop_predicted": 2.70591193127417,
+    "drop_actual": 0.39504643962848274
+  },
+  "leakage_diff": 0.0
+}

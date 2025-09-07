@@ -1,0 +1,33 @@
+{
+  "head_id": 3,
+  "arm": "B",
+  "seed_u64": 13776871397737721034,
+  "weights_sha256": "d2b426b77c965c3ecd804c8d25c48ab45f0635db18275f68827cd48fa0d98be0",
+  "text_pre": "APPLY THE WORD AND SEEK AND LOOK RIGHT AND STEP LAST SO ALL FOR WITH AT",
+  "text_post_mcmc": "AS THEY SO ON OR MORE WHO WHO MORE AN OUR CAN NOT HAS WE ALL THEN FORGET AT",
+  "text_post_anchors": "ASEAST  THEY SO ON ORNORTHEAST  MOREBERLIN  WHOCLOCK  WHO MORE AN OUR CAN NOT HAS WE ALL THEN FORGET AT",
+  "text_final": "ASEAST THEN READ THEY READ ON ORNORTHEAST AND MOREBERLIN A WHOCLOCK A WHO MORE AN OUR CAN NOT HAS WE ALL THEN FORGET AT",
+  "metrics": {
+    "fw_pre": 9,
+    "verbs_pre": 1,
+    "cov_pre": 1.0,
+    "fw_mcmc": 18,
+    "verbs_mcmc": 1,
+    "cov_mcmc": 1.0,
+    "fw_final": 9,
+    "verbs_final": 3,
+    "cov_final": 0.85
+  },
+  "placement": {
+    "positions": [
+      2,
+      16,
+      21,
+      25
+    ],
+    "token_boundaries": true,
+    "drop_predicted": 2.621013702477296,
+    "drop_actual": 0.39504643962848274
+  },
+  "leakage_diff": 0.0
+}

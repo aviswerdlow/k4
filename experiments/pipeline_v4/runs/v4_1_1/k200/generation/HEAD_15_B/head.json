@@ -1,0 +1,33 @@
+{
+  "head_id": 15,
+  "arm": "B",
+  "seed_u64": 6770422667288037831,
+  "weights_sha256": "d2b426b77c965c3ecd804c8d25c48ab45f0635db18275f68827cd48fa0d98be0",
+  "text_pre": "IF THE RULE IS LOW THEN SEEK [DIR1] AND STOP THEN WAIT AND WAIT AND FIRST",
+  "text_post_mcmc": "IS WE OR ON HAS THEM AS WILL WITH AS AS TWO THAT THEY WHAT BE APPLY WAS",
+  "text_post_anchors": "IS WE OREAST  ON THE NORTHEAST HAS THE BERLIN THEM AS THE CLOCK WILL WITH AS AS TWO THAT THEY WHAT BE APPLY WAS",
+  "text_final": "THEN SEE THE IS THE WE THE OREAST ON THE NORTHEAST HAS THE BERLIN A THEM AS THE CLOCK WILL WITH AS AS TWO THAT THEY WHAT BE APPLY WAS",
+  "metrics": {
+    "fw_pre": 8,
+    "verbs_pre": 1,
+    "cov_pre": 0.9375,
+    "fw_mcmc": 17,
+    "verbs_mcmc": 1,
+    "cov_mcmc": 1.0,
+    "fw_final": 18,
+    "verbs_final": 2,
+    "cov_final": 0.8666666666666667
+  },
+  "placement": {
+    "positions": [
+      8,
+      12,
+      16,
+      24
+    ],
+    "token_boundaries": true,
+    "drop_predicted": 2.414254568472617,
+    "drop_actual": 0.3884469696969699
+  },
+  "leakage_diff": 0.0
+}

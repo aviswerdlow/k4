@@ -1,0 +1,33 @@
+{
+  "head_id": 198,
+  "arm": "B",
+  "seed_u64": 2334923677233481550,
+  "weights_sha256": "d2b426b77c965c3ecd804c8d25c48ab45f0635db18275f68827cd48fa0d98be0",
+  "text_pre": "WHEN NEAR TELL THE YEAR AND PUT THE CODE AND MAKE THE DOOR AND WHERE IS",
+  "text_post_mcmc": "IT WHAT MORE BY ON AT ITS THEN WHO ARE ALL TWO HAVE TWO ITS IS AT MOVE AT",
+  "text_post_anchors": "ITEAST  WHAT MORENORTHEAST  BY ON ATBERLIN  ITSCLOCK  THEN WHO ARE ALL TWO HAVE TWO ITS IS AT MOVE AT",
+  "text_final": "ITEAST THEN READ WHAT MORENORTHEAST THE BY AND AND ON ATBERLIN AND ITSCLOCK THEN WHO ARE ALL TWO HAVE TWO ITS IS AT MOVE AT",
+  "metrics": {
+    "fw_pre": 9,
+    "verbs_pre": 1,
+    "cov_pre": 1.0,
+    "fw_mcmc": 18,
+    "verbs_mcmc": 1,
+    "cov_mcmc": 1.0,
+    "fw_final": 14,
+    "verbs_final": 2,
+    "cov_final": 0.85
+  },
+  "placement": {
+    "positions": [
+      2,
+      12,
+      21,
+      25
+    ],
+    "token_boundaries": true,
+    "drop_predicted": 2.599171882616178,
+    "drop_actual": 0.39504643962848274
+  },
+  "leakage_diff": 0.0
+}

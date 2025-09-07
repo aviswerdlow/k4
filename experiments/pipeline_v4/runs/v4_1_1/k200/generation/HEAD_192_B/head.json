@@ -1,0 +1,33 @@
+{
+  "head_id": 192,
+  "arm": "B",
+  "seed_u64": 13074682740029882593,
+  "weights_sha256": "d2b426b77c965c3ecd804c8d25c48ab45f0635db18275f68827cd48fa0d98be0",
+  "text_pre": "SET THE TRUTH TO FAST AND MOVE [DIR1] AND LOOK [DIR2] AND IF THE SUN IS",
+  "text_post_mcmc": "BUT LEAD ON SO ON THIS CAN THEM FROM IT OUR OUR WHO NOT WILL HAVE IS IT",
+  "text_post_anchors": "BUT LEAD ON SO ON THIS CAN THEM THE EAST FROM THE NORTHEAST IT THE BERLIN OUR THE CLOCK OUR WHO NOT WILL HAVE IS IT",
+  "text_final": "BUT LEAD ON SO ON THIS AND AND CAN A THEM A THEN NOTE THE EAST FROM THE NORTHEAST IT THE BERLIN OUR THE CLOCK THE OUR WHO NOT WILL HAVE IS IT",
+  "metrics": {
+    "fw_pre": 8,
+    "verbs_pre": 1,
+    "cov_pre": 0.875,
+    "fw_mcmc": 17,
+    "verbs_mcmc": 1,
+    "cov_mcmc": 1.0,
+    "fw_final": 17,
+    "verbs_final": 2,
+    "cov_final": 0.8787878787878788
+  },
+  "placement": {
+    "positions": [
+      32,
+      37,
+      40,
+      44
+    ],
+    "token_boundaries": true,
+    "drop_predicted": 2.4751909954500126,
+    "drop_actual": 0.3536858974358976
+  },
+  "leakage_diff": 0.0
+}

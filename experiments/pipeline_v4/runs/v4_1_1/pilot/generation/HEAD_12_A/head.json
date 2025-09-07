@@ -1,0 +1,33 @@
+{
+  "head_id": 12,
+  "arm": "A",
+  "seed_u64": 6051573173032205351,
+  "weights_sha256": "c22ce0c4dd0c04d11e1c9d5d89b07f481532048aa233bd79470b565f7b53d41b",
+  "text_pre": "THE LIGHT IS [DIR1] OF THE SUN AND IF THE TIME IS HIGH THEN THINK [DIR1]",
+  "text_post_mcmc": "AN [DIR1] A IS FROM THE SUN AND THIS IF THE THEIR WHERE IS THEN THINK THE",
+  "text_post_anchors": "ANEAST  [DIR1] ANORTHEAST  IS FROM THEBERLIN  SUNCLOCK  AND THIS IF THE THEIR WHERE IS THEN THINK THE",
+  "text_final": "ANEAST THE [DIR1] THE ANORTHEAST AND IS FROM THEBERLIN AND SUNCLOCK AND THIS IF THE THEIR WHERE IS THEN THINK THE",
+  "metrics": {
+    "fw_pre": 9,
+    "verbs_pre": 1,
+    "cov_pre": 0.875,
+    "fw_mcmc": 14,
+    "verbs_mcmc": 1,
+    "cov_mcmc": 1.0,
+    "fw_final": 15,
+    "verbs_final": 1,
+    "cov_final": 0.85
+  },
+  "placement": {
+    "positions": [
+      2,
+      11,
+      23,
+      27
+    ],
+    "token_boundaries": true,
+    "drop_predicted": 2.6081487320300156,
+    "drop_actual": 0.31666666666666643
+  },
+  "leakage_diff": 0.0
+}

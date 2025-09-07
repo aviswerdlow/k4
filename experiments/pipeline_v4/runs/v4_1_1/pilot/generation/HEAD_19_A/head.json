@@ -1,0 +1,33 @@
+{
+  "head_id": 19,
+  "arm": "A",
+  "seed_u64": 386734084084477187,
+  "weights_sha256": "c22ce0c4dd0c04d11e1c9d5d89b07f481532048aa233bd79470b565f7b53d41b",
+  "text_pre": "IF SIGN THEN STEP THE LIFE AND LOOK [DIR1] AND SET [DIR2] HAVE SO THERE",
+  "text_post_mcmc": "WHERE TAKE BE HAD ARE THEY ONE ON AN OR WHO IT BEEN NO THEM BUT ARE YOU",
+  "text_post_anchors": "WHERE TAKE BE HAD ARE THE EAST THEY THE NORTHEAST ONE THE BERLIN ON AN OR THE CLOCK WHO IT BEEN NO THEM BUT ARE YOU",
+  "text_final": "WHERE TAKE BE THE HAD AND AND ARE THEN NOTE THE EAST THEY THE NORTHEAST ONE THE BERLIN THE ON A AN OR THE CLOCK WHO IT BEEN NO THEM BUT ARE YOU",
+  "metrics": {
+    "fw_pre": 8,
+    "verbs_pre": 1,
+    "cov_pre": 0.8666666666666667,
+    "fw_mcmc": 17,
+    "verbs_mcmc": 1,
+    "cov_mcmc": 1.0,
+    "fw_final": 18,
+    "verbs_final": 2,
+    "cov_final": 0.8787878787878788
+  },
+  "placement": {
+    "positions": [
+      22,
+      27,
+      31,
+      40
+    ],
+    "token_boundaries": true,
+    "drop_predicted": 2.459747233000496,
+    "drop_actual": 0.3536858974358972
+  },
+  "leakage_diff": 0.0
+}

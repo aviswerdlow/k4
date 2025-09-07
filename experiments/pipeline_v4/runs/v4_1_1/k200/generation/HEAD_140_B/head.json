@@ -1,0 +1,33 @@
+{
+  "head_id": 140,
+  "arm": "B",
+  "seed_u64": 12858790773684456371,
+  "weights_sha256": "d2b426b77c965c3ecd804c8d25c48ab45f0635db18275f68827cd48fa0d98be0",
+  "text_pre": "WHAT WAIT THE WAY BRIGHT AND SET THE LOCK TO RIGHT AND APPLY THE TRUTH AND",
+  "text_post_mcmc": "AS THAT OR TO OF THERE NOT BE THEN IS WHEN IF A IT WITH MORE WHO TURN IN",
+  "text_post_anchors": "ASEAST  THAT OR TO OFNORTHEAST  THEREBERLIN  NOTCLOCK  BE THEN IS WHEN IF A IT WITH MORE WHO TURN IN",
+  "text_final": "ASEAST THEN READ THE THAT OR THE TO OFNORTHEAST A THEREBERLIN A NOTCLOCK BE THEN IS WHEN IF A IT WITH MORE WHO TURN IN",
+  "metrics": {
+    "fw_pre": 8,
+    "verbs_pre": 1,
+    "cov_pre": 1.0,
+    "fw_mcmc": 18,
+    "verbs_mcmc": 1,
+    "cov_mcmc": 1.0,
+    "fw_final": 16,
+    "verbs_final": 2,
+    "cov_final": 0.85
+  },
+  "placement": {
+    "positions": [
+      2,
+      16,
+      22,
+      26
+    ],
+    "token_boundaries": true,
+    "drop_predicted": 2.726216983750287,
+    "drop_actual": 0.39504643962848274
+  },
+  "leakage_diff": 0.0
+}

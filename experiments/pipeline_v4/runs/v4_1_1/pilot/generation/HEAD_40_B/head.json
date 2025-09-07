@@ -1,0 +1,33 @@
+{
+  "head_id": 40,
+  "arm": "B",
+  "seed_u64": 17964125000071540582,
+  "weights_sha256": "d2b426b77c965c3ecd804c8d25c48ab45f0635db18275f68827cd48fa0d98be0",
+  "text_pre": "BEFORE THE GROUND THINK THE DARK AND SET THE HALL TO NEAR AND IF THE LIFE",
+  "text_post_mcmc": "OR THEN WHO BE THEN ITS BUT HAVE WITH OR OR WILL HAVE ON AT ALL BE STEP WE",
+  "text_post_anchors": "OREAST  THEN WHONORTHEAST  BEBERLIN  THENCLOCK  ITS BUT HAVE WITH OR OR WILL HAVE ON AT ALL BE STEP WE",
+  "text_final": "OREAST THEN READ THEN READ THEN WHONORTHEAST THE BEBERLIN AND THENCLOCK A ITS BUT HAVE WITH OR OR WILL HAVE ON AT ALL BE STEP WE",
+  "metrics": {
+    "fw_pre": 8,
+    "verbs_pre": 1,
+    "cov_pre": 0.9375,
+    "fw_mcmc": 18,
+    "verbs_mcmc": 1,
+    "cov_mcmc": 1.0,
+    "fw_final": 14,
+    "verbs_final": 3,
+    "cov_final": 0.85
+  },
+  "placement": {
+    "positions": [
+      2,
+      11,
+      14,
+      19
+    ],
+    "token_boundaries": true,
+    "drop_predicted": 2.3785423613903163,
+    "drop_actual": 0.3362229102167178
+  },
+  "leakage_diff": 0.0
+}

@@ -1,0 +1,33 @@
+{
+  "head_id": 28,
+  "arm": "B",
+  "seed_u64": 6889758647716654504,
+  "weights_sha256": "d2b426b77c965c3ecd804c8d25c48ab45f0635db18275f68827cd48fa0d98be0",
+  "text_pre": "GO THE DARK HIGH AND WHERE IS THE SHADOW AND THE MARK ALL THE ARE AS WAS",
+  "text_post_mcmc": "ARE THIS WHERE IS THIS IN AT AS ONE WHO CAN THIS HAD HAS WITH WOULD PUT OUR",
+  "text_post_anchors": "AREEAST  THIS WHERENORTHEAST  ISBERLIN  THISCLOCK  IN AT AS ONE WHO CAN THIS HAD HAS WITH WOULD PUT OUR",
+  "text_final": "AREEAST THEN READ THEN READ THIS WHERENORTHEAST THE ISBERLIN THISCLOCK AND IN AT AS ONE WHO CAN THIS HAD HAS WITH WOULD PUT OUR",
+  "metrics": {
+    "fw_pre": 12,
+    "verbs_pre": 1,
+    "cov_pre": 1.0,
+    "fw_mcmc": 17,
+    "verbs_mcmc": 1,
+    "cov_mcmc": 1.0,
+    "fw_final": 11,
+    "verbs_final": 3,
+    "cov_final": 0.85
+  },
+  "placement": {
+    "positions": [
+      3,
+      14,
+      17,
+      22
+    ],
+    "token_boundaries": true,
+    "drop_predicted": 2.614374369779398,
+    "drop_actual": 0.3569444444444443
+  },
+  "leakage_diff": 0.0
+}

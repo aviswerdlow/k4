@@ -1,0 +1,33 @@
+{
+  "head_id": 122,
+  "arm": "B",
+  "seed_u64": 4765048244028916087,
+  "weights_sha256": "d2b426b77c965c3ecd804c8d25c48ab45f0635db18275f68827cd48fa0d98be0",
+  "text_pre": "FIRST TURN THEN LOOK THE CODE. WHEN LAST WATCH THE BOOK. OF NOT WHAT AN",
+  "text_post_mcmc": "NO ALL THAT HAD YOU FOR AS ALL IT WHEN THEY ON BE THEY TAKE IS",
+  "text_post_anchors": "NOEAST  ALL THATNORTHEAST  HADBERLIN  YOUCLOCK  FOR AS ALL IT WHEN THEY ON BE THEY TAKE IS",
+  "text_final": "NOEAST THEN READ THE READ THE THATNORTHEAST THE HADBERLIN THE YOUCLOCK FOR AS ALL IT WHEN THEY ON BE THEY TAKE IS",
+  "metrics": {
+    "fw_pre": 8,
+    "verbs_pre": 1,
+    "cov_pre": 0.8666666666666667,
+    "fw_mcmc": 15,
+    "verbs_mcmc": 1,
+    "cov_mcmc": 1.0,
+    "fw_final": 12,
+    "verbs_final": 3,
+    "cov_final": 0.85
+  },
+  "placement": {
+    "positions": [
+      2,
+      11,
+      15,
+      19
+    ],
+    "token_boundaries": true,
+    "drop_predicted": 2.5569009228909567,
+    "drop_actual": 0.40714285714285703
+  },
+  "leakage_diff": 0.0
+}

@@ -1,0 +1,33 @@
+{
+  "head_id": 35,
+  "arm": "B",
+  "seed_u64": 16026486443713661808,
+  "weights_sha256": "d2b426b77c965c3ecd804c8d25c48ab45f0635db18275f68827cd48fa0d98be0",
+  "text_pre": "HOLD SOFT AND HOLD OLD AND WHERE IS THE SUN AND THE KEY HAD THE TWO THE",
+  "text_post_mcmc": "THAT NOT WHAT THEIR OF BE THEY HAD ARE OR IT WE TWO TO A MORE BY NOTE BUT",
+  "text_post_anchors": "THATEAST  NOT WHAT THEIR OFNORTHEAST  BEBERLIN  THEYCLOCK  HAD ARE OR IT WE TWO TO A MORE BY NOTE BUT",
+  "text_final": "THATEAST THEN READ THE NOT THE WHAT AND AND THEIR THE OFNORTHEAST BEBERLIN THEYCLOCK HAD ARE OR IT WE TWO TO A MORE BY NOTE BUT",
+  "metrics": {
+    "fw_pre": 11,
+    "verbs_pre": 1,
+    "cov_pre": 1.0,
+    "fw_mcmc": 18,
+    "verbs_mcmc": 1,
+    "cov_mcmc": 1.0,
+    "fw_final": 14,
+    "verbs_final": 2,
+    "cov_final": 0.85
+  },
+  "placement": {
+    "positions": [
+      4,
+      22,
+      25,
+      30
+    ],
+    "token_boundaries": true,
+    "drop_predicted": 2.4061058233863584,
+    "drop_actual": 0.39504643962848274
+  },
+  "leakage_diff": 0.0
+}

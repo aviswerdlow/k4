@@ -1,0 +1,33 @@
+{
+  "head_id": 26,
+  "arm": "A",
+  "seed_u64": 16308644883468597086,
+  "weights_sha256": "c22ce0c4dd0c04d11e1c9d5d89b07f481532048aa233bd79470b565f7b53d41b",
+  "text_pre": "TAKE THE MAP LOW. SEEK THE PATH AND KNOW THE GATE. HAVE TWO MORE HAS OF",
+  "text_post_mcmc": "CAN THE THEM THERE WE WE IS HAVE IN HAVE AT NOT WE AN IF SO WITH MAKE THEN",
+  "text_post_anchors": "CANEAST  THE THEM THERENORTHEAST  WEBERLIN  WECLOCK  IS HAVE IN HAVE AT NOT WE AN IF SO WITH MAKE THEN",
+  "text_final": "CANEAST THEN READ THEN READ THE THEM THE THERENORTHEAST AND WEBERLIN A WECLOCK IS HAVE IN HAVE AT NOT WE AN IF SO WITH MAKE THEN",
+  "metrics": {
+    "fw_pre": 9,
+    "verbs_pre": 1,
+    "cov_pre": 0.875,
+    "fw_mcmc": 18,
+    "verbs_mcmc": 1,
+    "cov_mcmc": 1.0,
+    "fw_final": 14,
+    "verbs_final": 3,
+    "cov_final": 0.85
+  },
+  "placement": {
+    "positions": [
+      3,
+      18,
+      21,
+      24
+    ],
+    "token_boundaries": true,
+    "drop_predicted": 2.4101611062721355,
+    "drop_actual": 0.39504643962848274
+  },
+  "leakage_diff": 0.0
+}

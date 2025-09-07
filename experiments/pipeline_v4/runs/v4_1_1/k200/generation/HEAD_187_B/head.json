@@ -1,0 +1,33 @@
+{
+  "head_id": 187,
+  "arm": "B",
+  "seed_u64": 337650120096511631,
+  "weights_sha256": "d2b426b77c965c3ecd804c8d25c48ab45f0635db18275f68827cd48fa0d98be0",
+  "text_pre": "WHERE IS THE SKY AND THE STEP AND WHAT SHOW THE SUN TRUE AND FIRST BELIEVE",
+  "text_post_mcmc": "ON A CAN IF SO ONE MORE AN WAS OF ONE THE THEIR THEIR ON TWO ONE HOLD WHAT",
+  "text_post_anchors": "ONEAST  A CANNORTHEAST  IF SO THE BERLIN ONE THE CLOCK MORE AN WAS OF ONE THE THEIR THEIR ON TWO ONE HOLD WHAT",
+  "text_final": "ONEAST THEN READ A CANNORTHEAST IF READ THE BERLIN ONE THE CLOCK AND A MORE AN WAS OF ONE THE THEIR THEIR ON TWO ONE HOLD WHAT",
+  "metrics": {
+    "fw_pre": 9,
+    "verbs_pre": 1,
+    "cov_pre": 1.0,
+    "fw_mcmc": 18,
+    "verbs_mcmc": 1,
+    "cov_mcmc": 1.0,
+    "fw_final": 15,
+    "verbs_final": 3,
+    "cov_final": 0.8518518518518519
+  },
+  "placement": {
+    "positions": [
+      2,
+      8,
+      15,
+      19
+    ],
+    "token_boundaries": true,
+    "drop_predicted": 2.279798931367563,
+    "drop_actual": 0.3148946535135795
+  },
+  "leakage_diff": 0.0
+}

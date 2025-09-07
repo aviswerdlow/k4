@@ -1,0 +1,33 @@
+{
+  "head_id": 110,
+  "arm": "B",
+  "seed_u64": 11150404887570473488,
+  "weights_sha256": "d2b426b77c965c3ecd804c8d25c48ab45f0635db18275f68827cd48fa0d98be0",
+  "text_pre": "FIRST GET THEN TAKE THE WAY. WHEN NEXT GET THE DEATH. WHERE AS AND BE THEN",
+  "text_post_mcmc": "BY HAVE AS MORE WHEN ON THAT BE ITS TO THAT BY MORE THEM AS TWO FORGET THEM",
+  "text_post_anchors": "BYEAST  HAVE ASNORTHEAST  MOREBERLIN  WHENCLOCK  ON THAT BE ITS TO THAT BY MORE THEM AS TWO FORGET THEM",
+  "text_final": "BYEAST THEN READ THEN READ HAVE ASNORTHEAST THE MOREBERLIN AND WHENCLOCK A ON THAT BE ITS TO THAT BY MORE THEM AS TWO FORGET THEM",
+  "metrics": {
+    "fw_pre": 9,
+    "verbs_pre": 1,
+    "cov_pre": 0.875,
+    "fw_mcmc": 17,
+    "verbs_mcmc": 1,
+    "cov_mcmc": 1.0,
+    "fw_final": 12,
+    "verbs_final": 3,
+    "cov_final": 0.85
+  },
+  "placement": {
+    "positions": [
+      2,
+      10,
+      15,
+      20
+    ],
+    "token_boundaries": true,
+    "drop_predicted": 2.4529323260692237,
+    "drop_actual": 0.3569444444444443
+  },
+  "leakage_diff": 0.0
+}

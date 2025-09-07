@@ -1,0 +1,33 @@
+{
+  "head_id": 28,
+  "arm": "B",
+  "seed_u64": 6889758647716654504,
+  "weights_sha256": "d2b426b77c965c3ecd804c8d25c48ab45f0635db18275f68827cd48fa0d98be0",
+  "text_pre": "GO THE DARK HIGH AND WHERE IS THE SHADOW AND THE MARK ALL THE ARE AS WAS",
+  "text_post_mcmc": "AT AT WAS AT OUR YOU THEM THEM IT THERE TO SO FOR WHO TWO OR THAT WAIT WHAT",
+  "text_post_anchors": "AT AT WAS AT THE EAST OUR THE NORTHEAST YOU THE BERLIN THEM THE CLOCK THEM IT THERE TO SO FOR WHO TWO OR THAT WAIT WHAT",
+  "text_final": "AT AT THE WAS THE AT AND A THEN NOTE THE EAST OUR THE NORTHEAST YOU THE BERLIN THEM THE CLOCK A THEM IT THERE TO SO FOR WHO TWO OR THAT WAIT WHAT",
+  "metrics": {
+    "fw_pre": 12,
+    "verbs_pre": 1,
+    "cov_pre": 1.0,
+    "fw_mcmc": 18,
+    "verbs_mcmc": 1,
+    "cov_mcmc": 1.0,
+    "fw_final": 21,
+    "verbs_final": 2,
+    "cov_final": 0.8823529411764706
+  },
+  "placement": {
+    "positions": [
+      13,
+      17,
+      21,
+      26
+    ],
+    "token_boundaries": true,
+    "drop_predicted": 2.5754537492268677,
+    "drop_actual": 0.3402178649237473
+  },
+  "leakage_diff": 0.0
+}

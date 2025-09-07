@@ -1,0 +1,33 @@
+{
+  "head_id": 91,
+  "arm": "B",
+  "seed_u64": 18044723854763170728,
+  "weights_sha256": "d2b426b77c965c3ecd804c8d25c48ab45f0635db18275f68827cd48fa0d98be0",
+  "text_pre": "GET THE STAR AND KEEP THE DAY MARK WRONG AND STOP DARK SO HAS HAS WITH",
+  "text_post_mcmc": "WHAT THERE OF THEIR THEIR THIS WHAT WHO TO THE BEEN IF WAS IN IS WAS STOP A",
+  "text_post_anchors": "WHATEAST  THERE THE NORTHEAST OF THEIR THE BERLIN THEIR THE CLOCK THIS WHAT WHO TO THE BEEN IF WAS IN IS WAS STOP A",
+  "text_final": "WHATEAST THEN READ THE THERE THE NORTHEAST OF THEIR THE BERLIN THEIR THE CLOCK A THIS WHAT WHO TO THE BEEN IF WAS IN IS WAS STOP A",
+  "metrics": {
+    "fw_pre": 8,
+    "verbs_pre": 1,
+    "cov_pre": 1.0,
+    "fw_mcmc": 17,
+    "verbs_mcmc": 1,
+    "cov_mcmc": 1.0,
+    "fw_final": 20,
+    "verbs_final": 2,
+    "cov_final": 0.8571428571428571
+  },
+  "placement": {
+    "positions": [
+      4,
+      11,
+      20,
+      26
+    ],
+    "token_boundaries": true,
+    "drop_predicted": 2.58756887143097,
+    "drop_actual": 0.3429924242424245
+  },
+  "leakage_diff": 0.0
+}

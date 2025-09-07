@@ -1,0 +1,33 @@
+{
+  "head_id": 33,
+  "arm": "A",
+  "seed_u64": 14803678476797390494,
+  "weights_sha256": "c22ce0c4dd0c04d11e1c9d5d89b07f481532048aa233bd79470b565f7b53d41b",
+  "text_pre": "SEEK THEN STEP AND TAKE AND WHERE IS THE MAP AND THE STEP AND MOVE THE HOUR",
+  "text_post_mcmc": "FOR STEP OF ONE AND IN FROM IS WHEN A THIS THEY THIS BEEN OF YOUR HAD CAN",
+  "text_post_anchors": "FOREAST  STEP OF ONENORTHEAST  AND INBERLIN  FROMCLOCK  IS WHEN A THIS THEY THIS BEEN OF YOUR HAD CAN",
+  "text_final": "FOREAST THEN READ THEN READ THE STEP OF ONENORTHEAST AND INBERLIN AND FROMCLOCK A IS WHEN A THIS THEY THIS BEEN OF YOUR HAD CAN",
+  "metrics": {
+    "fw_pre": 10,
+    "verbs_pre": 1,
+    "cov_pre": 1.0,
+    "fw_mcmc": 17,
+    "verbs_mcmc": 1,
+    "cov_mcmc": 1.0,
+    "fw_final": 13,
+    "verbs_final": 3,
+    "cov_final": 0.85
+  },
+  "placement": {
+    "positions": [
+      3,
+      15,
+      22,
+      27
+    ],
+    "token_boundaries": true,
+    "drop_predicted": 2.641170589924036,
+    "drop_actual": 0.3569444444444443
+  },
+  "leakage_diff": 0.0
+}

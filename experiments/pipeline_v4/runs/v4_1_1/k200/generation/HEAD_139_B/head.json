@@ -1,0 +1,33 @@
+{
+  "head_id": 139,
+  "arm": "B",
+  "seed_u64": 17406781302943184782,
+  "weights_sha256": "d2b426b77c965c3ecd804c8d25c48ab45f0635db18275f68827cd48fa0d98be0",
+  "text_pre": "WHERE IS THE LAW AND THE TIME AND SEE THEN GO AND MARK AND IF THE YEAR IS",
+  "text_post_mcmc": "IT AS YOUR WITH FOR WHO IS AND WAS THERE YOU HAVE THE FROM MORE READ WE",
+  "text_post_anchors": "ITEAST  AS YOURNORTHEAST  WITH FORBERLIN  WHOCLOCK  IS AND WAS THERE YOU HAVE THE FROM MORE READ WE",
+  "text_final": "ITEAST THEN READ AS YOURNORTHEAST WITH FORBERLIN AND WHOCLOCK IS THE AND WAS THERE YOU HAVE THE FROM MORE READ WE",
+  "metrics": {
+    "fw_pre": 12,
+    "verbs_pre": 1,
+    "cov_pre": 1.0,
+    "fw_mcmc": 16,
+    "verbs_mcmc": 1,
+    "cov_mcmc": 1.0,
+    "fw_final": 11,
+    "verbs_final": 2,
+    "cov_final": 0.85
+  },
+  "placement": {
+    "positions": [
+      2,
+      10,
+      19,
+      23
+    ],
+    "token_boundaries": true,
+    "drop_predicted": 2.554392327960801,
+    "drop_actual": 0.3803921568627451
+  },
+  "leakage_diff": 0.0
+}

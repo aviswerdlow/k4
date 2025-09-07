@@ -1,0 +1,33 @@
+{
+  "head_id": 6,
+  "arm": "B",
+  "seed_u64": 16833068982366365622,
+  "weights_sha256": "d2b426b77c965c3ecd804c8d25c48ab45f0635db18275f68827cd48fa0d98be0",
+  "text_pre": "MARK THE LIGHT LOW AND SEEK THE LAW NEW AND WHERE IS THE LIFE AND THE LIE",
+  "text_post_mcmc": "IN ALL A THE IS TWO OR ARE YOUR THEM YOU BY FOR NO OUR A OR SHOW WHO",
+  "text_post_anchors": "IN ALL A THE THE EAST IS THE NORTHEAST TWO THE BERLIN OR THE CLOCK ARE YOUR THEM YOU BY FOR NO OUR A OR SHOW WHO",
+  "text_final": "IN ALL A THE THEN AND AND READ THEN READ THE EAST IS THE NORTHEAST TWO THE BERLIN OR THE CLOCK THE ARE AND YOUR THEM YOU BY FOR NO OUR A OR SHOW WHO",
+  "metrics": {
+    "fw_pre": 9,
+    "verbs_pre": 1,
+    "cov_pre": 1.0,
+    "fw_mcmc": 18,
+    "verbs_mcmc": 1,
+    "cov_mcmc": 1.0,
+    "fw_final": 21,
+    "verbs_final": 3,
+    "cov_final": 0.8857142857142857
+  },
+  "placement": {
+    "positions": [
+      13,
+      16,
+      20,
+      23
+    ],
+    "token_boundaries": true,
+    "drop_predicted": 2.5654847650155563,
+    "drop_actual": 0.3402178649237473
+  },
+  "leakage_diff": 0.0
+}

@@ -1,0 +1,33 @@
+{
+  "head_id": 51,
+  "arm": "B",
+  "seed_u64": 15040549053326765019,
+  "weights_sha256": "d2b426b77c965c3ecd804c8d25c48ab45f0635db18275f68827cd48fa0d98be0",
+  "text_pre": "MOVE THEN TAKE AND HOLD AND SET THE SHADOW TO CLEAR AND THE STAR IS [DIR1]",
+  "text_post_mcmc": "AT WHAT WHO CAN NO IF TO WE OR THERE WE WHEN ONE YOUR A HAS UNDERSTAND FROM",
+  "text_post_anchors": "ATEAST  WHAT WHO CANNORTHEAST  NOBERLIN  IF TOCLOCK  WE OR THERE WE WHEN ONE YOUR A HAS UNDERSTAND FROM",
+  "text_final": "ATEAST THEN READ THEN READ THE WHAT THE WHO CANNORTHEAST THE NOBERLIN IF TOCLOCK WE OR THERE WE WHEN ONE YOUR A HAS UNDERSTAND FROM",
+  "metrics": {
+    "fw_pre": 8,
+    "verbs_pre": 1,
+    "cov_pre": 0.9375,
+    "fw_mcmc": 17,
+    "verbs_mcmc": 1,
+    "cov_mcmc": 1.0,
+    "fw_final": 12,
+    "verbs_final": 3,
+    "cov_final": 0.85
+  },
+  "placement": {
+    "positions": [
+      2,
+      15,
+      18,
+      24
+    ],
+    "token_boundaries": true,
+    "drop_predicted": 2.8243538156794976,
+    "drop_actual": 0.4194444444444443
+  },
+  "leakage_diff": 0.0
+}

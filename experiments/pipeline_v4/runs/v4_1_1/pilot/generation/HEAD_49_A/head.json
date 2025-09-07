@@ -1,0 +1,33 @@
+{
+  "head_id": 49,
+  "arm": "A",
+  "seed_u64": 4253430287851825493,
+  "weights_sha256": "c22ce0c4dd0c04d11e1c9d5d89b07f481532048aa233bd79470b565f7b53d41b",
+  "text_pre": "SEE BAD AND HOLD LOW. APPLY THE KEY AND HOLD. WHERE IS THE TRUTH AND THE",
+  "text_post_mcmc": "AND ONE ARE HAD BUT WE WAS HAVE NO BEEN BEEN A ITS WITH FOR WAS WE READ IF",
+  "text_post_anchors": "ANDEAST  ONE ARE HADNORTHEAST  BUT WEBERLIN  WASCLOCK  HAVE NO BEEN BEEN A ITS WITH FOR WAS WE READ IF",
+  "text_final": "ANDEAST THEN READ THE ONE THE ARE AND AND HADNORTHEAST BUT WEBERLIN AND WASCLOCK HAVE NO BEEN BEEN A ITS WITH FOR WAS WE READ IF",
+  "metrics": {
+    "fw_pre": 8,
+    "verbs_pre": 1,
+    "cov_pre": 0.875,
+    "fw_mcmc": 18,
+    "verbs_mcmc": 1,
+    "cov_mcmc": 1.0,
+    "fw_final": 13,
+    "verbs_final": 2,
+    "cov_final": 0.85
+  },
+  "placement": {
+    "positions": [
+      3,
+      15,
+      22,
+      26
+    ],
+    "token_boundaries": true,
+    "drop_predicted": 2.676861135782576,
+    "drop_actual": 0.39504643962848274
+  },
+  "leakage_diff": 0.0
+}

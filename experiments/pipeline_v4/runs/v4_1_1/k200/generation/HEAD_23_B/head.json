@@ -1,0 +1,33 @@
+{
+  "head_id": 23,
+  "arm": "B",
+  "seed_u64": 11932419314105630688,
+  "weights_sha256": "d2b426b77c965c3ecd804c8d25c48ab45f0635db18275f68827cd48fa0d98be0",
+  "text_pre": "THE PAGE IS [DIR1] OF THE GATE MOVE THE CODE AND MOVE THE LAW MARK THE STAR",
+  "text_post_mcmc": "OUR BRING ONE THERE YOUR CAN IS THEN BEEN TO WITH BEEN IT IN BE ON ON OF",
+  "text_post_anchors": "OUREAST  BRING ONE THERENORTHEAST  YOURBERLIN  CANCLOCK  IS THEN BEEN TO WITH BEEN IT IN BE ON ON OF",
+  "text_final": "OUREAST THEN READ THE BRING ONE THERENORTHEAST AND YOURBERLIN A CANCLOCK IS THEN BEEN TO WITH BEEN IT IN BE ON ON OF",
+  "metrics": {
+    "fw_pre": 8,
+    "verbs_pre": 1,
+    "cov_pre": 0.9411764705882353,
+    "fw_mcmc": 17,
+    "verbs_mcmc": 1,
+    "cov_mcmc": 1.0,
+    "fw_final": 13,
+    "verbs_final": 2,
+    "cov_final": 0.85
+  },
+  "placement": {
+    "positions": [
+      3,
+      19,
+      24,
+      28
+    ],
+    "token_boundaries": true,
+    "drop_predicted": 2.2977998777208364,
+    "drop_actual": 0.3569444444444443
+  },
+  "leakage_diff": 0.0
+}

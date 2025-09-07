@@ -1,0 +1,33 @@
+{
+  "head_id": 52,
+  "arm": "B",
+  "seed_u64": 10177912822230589594,
+  "weights_sha256": "d2b426b77c965c3ecd804c8d25c48ab45f0635db18275f68827cd48fa0d98be0",
+  "text_pre": "TAKE [DIR1] AND MARK [DIR2] AND STOP THE LOCK NEAR THE ONE CAN THE WHEN",
+  "text_post_mcmc": "ITS IT BE OR THAT ALL HAVE THEN AN AND BE FROM WE WHEN THAT ARE APPLY WITH",
+  "text_post_anchors": "ITSEAST  IT BENORTHEAST  OR THE BERLIN THAT ALL THE CLOCK HAVE THEN AN AND BE FROM WE WHEN THAT ARE APPLY WITH",
+  "text_final": "ITSEAST IT BENORTHEAST THE OR THE BERLIN THAT SEE THE CLOCK A HAVE THEN AN AND BE FROM WE WHEN THAT ARE APPLY WITH",
+  "metrics": {
+    "fw_pre": 8,
+    "verbs_pre": 1,
+    "cov_pre": 0.8666666666666667,
+    "fw_mcmc": 17,
+    "verbs_mcmc": 1,
+    "cov_mcmc": 1.0,
+    "fw_final": 15,
+    "verbs_final": 2,
+    "cov_final": 0.85
+  },
+  "placement": {
+    "positions": [
+      3,
+      9,
+      13,
+      22
+    ],
+    "token_boundaries": true,
+    "drop_predicted": 2.4497833269890292,
+    "drop_actual": 0.33011363636363633
+  },
+  "leakage_diff": 0.0
+}

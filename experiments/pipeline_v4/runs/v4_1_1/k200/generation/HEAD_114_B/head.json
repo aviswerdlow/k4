@@ -1,0 +1,33 @@
+{
+  "head_id": 114,
+  "arm": "B",
+  "seed_u64": 2808156856356939726,
+  "weights_sha256": "d2b426b77c965c3ecd804c8d25c48ab45f0635db18275f68827cd48fa0d98be0",
+  "text_pre": "APPLY THE SHADOW AND REMEMBER BRING THE YEAR AND STEP THE DARK FOR ON OR",
+  "text_post_mcmc": "AND ITS AT BY AN THERE THEIR ON HAD WILL WHEN ON ITS BEEN SO AN IF MARK WE",
+  "text_post_anchors": "ANDEAST  ITS AT BY ANNORTHEAST  THEREBERLIN  THEIRCLOCK  ON HAD WILL WHEN ON ITS BEEN SO AN IF MARK WE",
+  "text_final": "ANDEAST THEN READ THE ITS THE AT AND AND BY THE ANNORTHEAST THEREBERLIN THEIRCLOCK ON HAD WILL WHEN ON ITS BEEN SO AN IF MARK WE",
+  "metrics": {
+    "fw_pre": 8,
+    "verbs_pre": 1,
+    "cov_pre": 1.0,
+    "fw_mcmc": 18,
+    "verbs_mcmc": 1,
+    "cov_mcmc": 1.0,
+    "fw_final": 14,
+    "verbs_final": 2,
+    "cov_final": 0.85
+  },
+  "placement": {
+    "positions": [
+      3,
+      16,
+      22,
+      28
+    ],
+    "token_boundaries": true,
+    "drop_predicted": 2.877039280938438,
+    "drop_actual": 0.39504643962848274
+  },
+  "leakage_diff": 0.0
+}

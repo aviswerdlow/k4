@@ -1,0 +1,33 @@
+{
+  "head_id": 22,
+  "arm": "A",
+  "seed_u64": 2178193444317276359,
+  "weights_sha256": "c22ce0c4dd0c04d11e1c9d5d89b07f481532048aa233bd79470b565f7b53d41b",
+  "text_pre": "WHAT WATCH THE WALL TRUE. STOP THEN SET AND SET. IF NOT CAN IS THE SO WILL",
+  "text_post_mcmc": "AND WHEN THEM WHERE BEEN IS THEY SO BE AN FOR YOUR AS AN BE A GO BE",
+  "text_post_anchors": "ANDEAST  WHEN THEMNORTHEAST  WHEREBERLIN  BEEN IS THEYCLOCK  SO BE AN FOR YOUR AS AN BE A GO BE",
+  "text_final": "ANDEAST THEN READ THEN READ WHEN THEMNORTHEAST THE WHEREBERLIN AND AND BEEN THE IS THEYCLOCK SO BE AN FOR YOUR AS AN BE A GO BE",
+  "metrics": {
+    "fw_pre": 11,
+    "verbs_pre": 1,
+    "cov_pre": 0.8823529411764706,
+    "fw_mcmc": 17,
+    "verbs_mcmc": 1,
+    "cov_mcmc": 1.0,
+    "fw_final": 17,
+    "verbs_final": 3,
+    "cov_final": 0.85
+  },
+  "placement": {
+    "positions": [
+      3,
+      13,
+      19,
+      32
+    ],
+    "token_boundaries": true,
+    "drop_predicted": 2.546322594876577,
+    "drop_actual": 0.4194444444444443
+  },
+  "leakage_diff": 0.0
+}

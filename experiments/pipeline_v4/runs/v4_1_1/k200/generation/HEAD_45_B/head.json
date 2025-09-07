@@ -1,0 +1,33 @@
+{
+  "head_id": 45,
+  "arm": "B",
+  "seed_u64": 5589124774796833804,
+  "weights_sha256": "d2b426b77c965c3ecd804c8d25c48ab45f0635db18275f68827cd48fa0d98be0",
+  "text_pre": "WHAT TURN THE BOOK CLEAR APPLY THE DAY AND MAKE OF WHAT WOULD THAT AN WOULD",
+  "text_post_mcmc": "ON THAT IF BEEN HAS BUT IS YOUR OR MORE THERE NOT NOT HAVE STOP IF",
+  "text_post_anchors": "ON THAT IF BEENEAST  HASNORTHEAST  BUTBERLIN  ISCLOCK  YOUR OR MORE THERE NOT NOT HAVE STOP IF",
+  "text_final": "THEN SEE ON THE THAT THE IF AND AND BEENEAST THE HASNORTHEAST BUTBERLIN ISCLOCK YOUR OR MORE THERE NOT NOT HAVE STOP IF",
+  "metrics": {
+    "fw_pre": 10,
+    "verbs_pre": 1,
+    "cov_pre": 1.0,
+    "fw_mcmc": 15,
+    "verbs_mcmc": 1,
+    "cov_mcmc": 1.0,
+    "fw_final": 12,
+    "verbs_final": 2,
+    "cov_final": 0.85
+  },
+  "placement": {
+    "positions": [
+      15,
+      19,
+      23,
+      26
+    ],
+    "token_boundaries": true,
+    "drop_predicted": 2.3463131688480674,
+    "drop_actual": 0.4785714285714282
+  },
+  "leakage_diff": 0.0
+}

@@ -1,0 +1,33 @@
+{
+  "head_id": 9,
+  "arm": "A",
+  "seed_u64": 11624431075201963032,
+  "weights_sha256": "c22ce0c4dd0c04d11e1c9d5d89b07f481532048aa233bd79470b565f7b53d41b",
+  "text_pre": "BEFORE THE MAP WATCH THE SHADOW WHEN FAST TURN THE PLAN IS THEN OF ONE",
+  "text_post_mcmc": "ON STOP IT AN WHAT THEY TO YOUR NO WOULD WHO OF WHO IN THEN ARE BE ALL YOUR",
+  "text_post_anchors": "ONEAST  STOP ITNORTHEAST  ANBERLIN  WHATCLOCK  THEY TO YOUR NO WOULD WHO OF WHO IN THEN ARE BE ALL YOUR",
+  "text_final": "ONEAST THE STOP THE ITNORTHEAST THE ANBERLIN THE WHATCLOCK THEY TO YOUR NO WOULD WHO OF WHO IN THEN ARE BE ALL YOUR",
+  "metrics": {
+    "fw_pre": 8,
+    "verbs_pre": 1,
+    "cov_pre": 0.9333333333333333,
+    "fw_mcmc": 18,
+    "verbs_mcmc": 1,
+    "cov_mcmc": 1.0,
+    "fw_final": 12,
+    "verbs_final": 1,
+    "cov_final": 0.85
+  },
+  "placement": {
+    "positions": [
+      2,
+      10,
+      13,
+      18
+    ],
+    "token_boundaries": true,
+    "drop_predicted": 2.3565065629255484,
+    "drop_actual": 0.27739938080495374
+  },
+  "leakage_diff": 0.0
+}

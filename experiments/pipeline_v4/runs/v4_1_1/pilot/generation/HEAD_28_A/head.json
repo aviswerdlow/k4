@@ -1,0 +1,33 @@
+{
+  "head_id": 28,
+  "arm": "A",
+  "seed_u64": 8468587667118526838,
+  "weights_sha256": "c22ce0c4dd0c04d11e1c9d5d89b07f481532048aa233bd79470b565f7b53d41b",
+  "text_pre": "IF YEAR THEN HOLD THE BOOK AND TURN THE DOOR LAST AND SET THE KEY TO FAR",
+  "text_post_mcmc": "AN ASK WHAT IS WHO WILL YOU ONE YOUR WHO OUR TO OR TO IS IS THE BE IT THEY",
+  "text_post_anchors": "AN ASK WHAT ISEAST  WHONORTHEAST  WILLBERLIN  YOUCLOCK  ONE YOUR WHO OUR TO OR TO IS IS THE BE IT THEY",
+  "text_final": "AN ASK WHAT ISEAST THE WHONORTHEAST AND WILLBERLIN THE YOUCLOCK ONE YOUR WHO OUR TO OR TO IS IS THE BE IT THEY",
+  "metrics": {
+    "fw_pre": 8,
+    "verbs_pre": 1,
+    "cov_pre": 1.0,
+    "fw_mcmc": 19,
+    "verbs_mcmc": 1,
+    "cov_mcmc": 1.0,
+    "fw_final": 12,
+    "verbs_final": 1,
+    "cov_final": 0.85
+  },
+  "placement": {
+    "positions": [
+      14,
+      18,
+      23,
+      27
+    ],
+    "token_boundaries": true,
+    "drop_predicted": 2.534596901337841,
+    "drop_actual": 0.3177777777777777
+  },
+  "leakage_diff": 0.0
+}

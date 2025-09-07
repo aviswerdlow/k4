@@ -1,0 +1,33 @@
+{
+  "head_id": 42,
+  "arm": "A",
+  "seed_u64": 16233368177553055410,
+  "weights_sha256": "c22ce0c4dd0c04d11e1c9d5d89b07f481532048aa233bd79470b565f7b53d41b",
+  "text_pre": "SET THE TIME TO DARK AND IF THE DARK IS NEXT THEN USE [DIR1] AND FIND THE",
+  "text_post_mcmc": "BUT TELL OF HAS OUR AND BY ARE WITH ITS WHERE ON BE WILL IT THEM BY THAT",
+  "text_post_anchors": "BUTEAST  TELL OFNORTHEAST  HASBERLIN  OURCLOCK  AND BY ARE WITH ITS WHERE ON BE WILL IT THEM BY THAT",
+  "text_final": "BUTEAST THEN READ THEN READ THE TELL THE OFNORTHEAST THE HASBERLIN THE OURCLOCK AND BY ARE WITH ITS WHERE ON BE WILL IT THEM BY THAT",
+  "metrics": {
+    "fw_pre": 9,
+    "verbs_pre": 1,
+    "cov_pre": 0.9411764705882353,
+    "fw_mcmc": 17,
+    "verbs_mcmc": 1,
+    "cov_mcmc": 1.0,
+    "fw_final": 15,
+    "verbs_final": 3,
+    "cov_final": 0.85
+  },
+  "placement": {
+    "positions": [
+      3,
+      11,
+      15,
+      19
+    ],
+    "token_boundaries": true,
+    "drop_predicted": 2.5731836204124514,
+    "drop_actual": 0.2944444444444443
+  },
+  "leakage_diff": 0.0
+}

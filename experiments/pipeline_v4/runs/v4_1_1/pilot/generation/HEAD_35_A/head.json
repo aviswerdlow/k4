@@ -1,0 +1,33 @@
+{
+  "head_id": 35,
+  "arm": "A",
+  "seed_u64": 8353529579381749720,
+  "weights_sha256": "c22ce0c4dd0c04d11e1c9d5d89b07f481532048aa233bd79470b565f7b53d41b",
+  "text_pre": "STOP THE LINE FAST. SET THEN SEE AND SEE. NO THEIR ONE FROM WITH HAD HAD",
+  "text_post_mcmc": "WHERE AN CAN ARE AN ARE CAN ALL A BE WITH A SO SO MORE IS THEN SHOW THEN",
+  "text_post_anchors": "WHEREEAST  AN CANNORTHEAST  ARE AN AREBERLIN  CANCLOCK  ALL A BE WITH A SO SO MORE IS THEN SHOW THEN",
+  "text_final": "WHEREEAST THEN READ THEN READ AN CANNORTHEAST THE ARE AND AND AN AREBERLIN AND CANCLOCK ALL A BE WITH A SO SO MORE IS THEN SHOW THEN",
+  "metrics": {
+    "fw_pre": 10,
+    "verbs_pre": 1,
+    "cov_pre": 0.875,
+    "fw_mcmc": 18,
+    "verbs_mcmc": 1,
+    "cov_mcmc": 1.0,
+    "fw_final": 19,
+    "verbs_final": 3,
+    "cov_final": 0.8518518518518519
+  },
+  "placement": {
+    "positions": [
+      5,
+      12,
+      23,
+      27
+    ],
+    "token_boundaries": true,
+    "drop_predicted": 2.6826967597694216,
+    "drop_actual": 0.39504643962848274
+  },
+  "leakage_diff": 0.0
+}

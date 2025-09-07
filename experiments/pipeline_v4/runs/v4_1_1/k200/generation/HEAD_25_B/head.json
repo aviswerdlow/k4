@@ -1,0 +1,33 @@
+{
+  "head_id": 25,
+  "arm": "B",
+  "seed_u64": 6722617410761508978,
+  "weights_sha256": "d2b426b77c965c3ecd804c8d25c48ab45f0635db18275f68827cd48fa0d98be0",
+  "text_pre": "SEE THEN STEP AND WAIT THE MARK IS [DIR1] OF THE LIE MORE WILL TO THEIR",
+  "text_post_mcmc": "ARE THERE WITH AN WHO CONTINUE THEIR THEIR ARE THEN WHEN THERE WHEN SET ITS",
+  "text_post_anchors": "AREEAST  THERE WITH ANNORTHEAST  WHOBERLIN  CONTINUECLOCK  THEIR THEIR ARE THEN WHEN THERE WHEN SET ITS",
+  "text_final": "AREEAST THEN READ THE THERE WITH AND ANNORTHEAST THE WHOBERLIN CONTINUECLOCK THEIR THEIR ARE THEN WHEN THERE WHEN SET ITS",
+  "metrics": {
+    "fw_pre": 10,
+    "verbs_pre": 1,
+    "cov_pre": 0.9375,
+    "fw_mcmc": 13,
+    "verbs_mcmc": 1,
+    "cov_mcmc": 1.0,
+    "fw_final": 13,
+    "verbs_final": 2,
+    "cov_final": 0.85
+  },
+  "placement": {
+    "positions": [
+      3,
+      17,
+      21,
+      30
+    ],
+    "token_boundaries": true,
+    "drop_predicted": 2.560342818683548,
+    "drop_actual": 0.3994871794871795
+  },
+  "leakage_diff": 0.0
+}

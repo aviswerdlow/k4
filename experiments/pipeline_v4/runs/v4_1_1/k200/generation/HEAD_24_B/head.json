@@ -1,0 +1,33 @@
+{
+  "head_id": 24,
+  "arm": "B",
+  "seed_u64": 5851794905893938905,
+  "weights_sha256": "d2b426b77c965c3ecd804c8d25c48ab45f0635db18275f68827cd48fa0d98be0",
+  "text_pre": "BRING THE WORD AND POINT THE DAY WHERE IS THE SIGN AND THE LAW WHEN NEXT",
+  "text_post_mcmc": "A NO WHERE WHAT THEY THAT A BUT WE WHERE THEIR THERE AN YOU TWO ON GET IF",
+  "text_post_anchors": "AEAST  NO WHERE WHATNORTHEAST  THEYBERLIN  THATCLOCK  A BUT WE WHERE THEIR THERE AN YOU TWO ON GET IF",
+  "text_final": "AEAST THEN READ THE NO THE WHERE AND AND WHATNORTHEAST THE THEYBERLIN THATCLOCK A BUT WE WHERE THEIR THERE AN YOU TWO ON GET IF",
+  "metrics": {
+    "fw_pre": 9,
+    "verbs_pre": 1,
+    "cov_pre": 1.0,
+    "fw_mcmc": 17,
+    "verbs_mcmc": 1,
+    "cov_mcmc": 1.0,
+    "fw_final": 15,
+    "verbs_final": 2,
+    "cov_final": 0.85
+  },
+  "placement": {
+    "positions": [
+      1,
+      15,
+      20,
+      25
+    ],
+    "token_boundaries": true,
+    "drop_predicted": 2.2322450174302686,
+    "drop_actual": 0.4194444444444443
+  },
+  "leakage_diff": 0.0
+}

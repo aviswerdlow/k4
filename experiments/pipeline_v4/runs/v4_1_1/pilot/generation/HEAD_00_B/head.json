@@ -1,0 +1,33 @@
+{
+  "head_id": 0,
+  "arm": "B",
+  "seed_u64": 1975402098572957550,
+  "weights_sha256": "d2b426b77c965c3ecd804c8d25c48ab45f0635db18275f68827cd48fa0d98be0",
+  "text_pre": "ASK THE ROOM AND ASK THE GATE AND BEFORE THE WALL GO THE MARK WITH WHEN",
+  "text_post_mcmc": "TWO BY WOULD OUR HAD WHAT NO NO TO IS WHERE WAS TWO THERE IT OR BE TURN AT",
+  "text_post_anchors": "TWOEAST  BY WOULD OURNORTHEAST  HADBERLIN  WHAT NOCLOCK  NO TO IS WHERE WAS TWO THERE IT OR BE TURN AT",
+  "text_final": "TWOEAST THEN READ THE BY THE WOULD OURNORTHEAST THE HADBERLIN WHAT NOCLOCK NO TO IS WHERE WAS TWO THERE IT OR BE TURN AT",
+  "metrics": {
+    "fw_pre": 8,
+    "verbs_pre": 1,
+    "cov_pre": 0.9375,
+    "fw_mcmc": 18,
+    "verbs_mcmc": 1,
+    "cov_mcmc": 1.0,
+    "fw_final": 15,
+    "verbs_final": 2,
+    "cov_final": 0.85
+  },
+  "placement": {
+    "positions": [
+      3,
+      16,
+      20,
+      28
+    ],
+    "token_boundaries": true,
+    "drop_predicted": 2.2401905889591003,
+    "drop_actual": 0.39504643962848274
+  },
+  "leakage_diff": 0.0
+}

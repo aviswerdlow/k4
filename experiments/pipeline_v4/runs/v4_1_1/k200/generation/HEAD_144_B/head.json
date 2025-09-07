@@ -1,0 +1,33 @@
+{
+  "head_id": 144,
+  "arm": "B",
+  "seed_u64": 5395465281350314237,
+  "weights_sha256": "d2b426b77c965c3ecd804c8d25c48ab45f0635db18275f68827cd48fa0d98be0",
+  "text_pre": "WHEN NEXT SEE THE LINE MARK THEN STOP AND STEP ARE AS OR ON THERE OR WOULD",
+  "text_post_mcmc": "NO REMEMBER A A AS WITH OUR FOR OF ALL AN AS AT IN THEM HAS SO HAS",
+  "text_post_anchors": "NOEAST  REMEMBER THE NORTHEAST A THE BERLIN A AS WITH THE CLOCK OUR FOR OF ALL AN AS AT IN THEM HAS SO HAS",
+  "text_final": "NOEAST THEN READ THEN READ THE REMEMBER THE NORTHEAST A THE BERLIN A AS WITH THE CLOCK OUR FOR OF ALL AN AS AT IN THEM HAS SO HAS",
+  "metrics": {
+    "fw_pre": 11,
+    "verbs_pre": 1,
+    "cov_pre": 1.0,
+    "fw_mcmc": 17,
+    "verbs_mcmc": 1,
+    "cov_mcmc": 1.0,
+    "fw_final": 18,
+    "verbs_final": 3,
+    "cov_final": 0.8620689655172413
+  },
+  "placement": {
+    "positions": [
+      2,
+      12,
+      14,
+      24
+    ],
+    "token_boundaries": true,
+    "drop_predicted": 2.5628510579351924,
+    "drop_actual": 0.2975378787878791
+  },
+  "leakage_diff": 0.0
+}

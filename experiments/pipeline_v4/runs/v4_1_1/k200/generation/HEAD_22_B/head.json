@@ -1,0 +1,33 @@
+{
+  "head_id": 22,
+  "arm": "B",
+  "seed_u64": 11339605460005497507,
+  "weights_sha256": "d2b426b77c965c3ecd804c8d25c48ab45f0635db18275f68827cd48fa0d98be0",
+  "text_pre": "WHERE IS THE GROUND AND THE LIGHT LOOK THE SKY GOOD HOLD THEN WAIT AND SET",
+  "text_post_mcmc": "NOT WOULD A IT THAT ALL WHO IF BEEN FOR CAN WAS TO IS NOT HAD HAS END THEN",
+  "text_post_anchors": "NOTEAST  WOULD ANORTHEAST  ITBERLIN  THATCLOCK  ALL WHO IF BEEN FOR CAN WAS TO IS NOT HAD HAS END THEN",
+  "text_final": "NOTEAST THEN READ THEN READ WOULD ANORTHEAST THE ITBERLIN AND THATCLOCK A ALL WHO IF BEEN FOR CAN WAS TO IS NOT HAD HAS END THEN",
+  "metrics": {
+    "fw_pre": 8,
+    "verbs_pre": 1,
+    "cov_pre": 1.0,
+    "fw_mcmc": 18,
+    "verbs_mcmc": 1,
+    "cov_mcmc": 1.0,
+    "fw_final": 13,
+    "verbs_final": 3,
+    "cov_final": 0.85
+  },
+  "placement": {
+    "positions": [
+      3,
+      11,
+      14,
+      19
+    ],
+    "token_boundaries": true,
+    "drop_predicted": 2.326084711246023,
+    "drop_actual": 0.3362229102167178
+  },
+  "leakage_diff": 0.0
+}

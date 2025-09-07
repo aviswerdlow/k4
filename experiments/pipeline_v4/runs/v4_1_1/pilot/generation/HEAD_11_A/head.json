@@ -1,0 +1,33 @@
+{
+  "head_id": 11,
+  "arm": "A",
+  "seed_u64": 4583867692944105248,
+  "weights_sha256": "c22ce0c4dd0c04d11e1c9d5d89b07f481532048aa233bd79470b565f7b53d41b",
+  "text_pre": "WHERE IS THE YEAR AND THE LIGHT AND BEFORE THE STEP CHECK THE RULE AND APPL",
+  "text_post_mcmc": "MORE AS IS THE TO NO AT THEIR YOU AT TWO WAS THEIR BE FROM THERE SEEK TWO",
+  "text_post_anchors": "MOREEAST  AS IS THE TONORTHEAST  NOBERLIN  ATCLOCK  THEIR YOU AT TWO WAS THEIR BE FROM THERE SEEK TWO",
+  "text_final": "MOREEAST THEN READ THEN READ THE AS IS THE TONORTHEAST AND NOBERLIN THE ATCLOCK THEIR YOU AT TWO WAS THEIR BE FROM THERE SEEK TWO",
+  "metrics": {
+    "fw_pre": 9,
+    "verbs_pre": 1,
+    "cov_pre": 0.875,
+    "fw_mcmc": 17,
+    "verbs_mcmc": 1,
+    "cov_mcmc": 1.0,
+    "fw_final": 15,
+    "verbs_final": 3,
+    "cov_final": 0.85
+  },
+  "placement": {
+    "positions": [
+      4,
+      17,
+      20,
+      23
+    ],
+    "token_boundaries": true,
+    "drop_predicted": 2.429275792213141,
+    "drop_actual": 0.4194444444444443
+  },
+  "leakage_diff": 0.0
+}

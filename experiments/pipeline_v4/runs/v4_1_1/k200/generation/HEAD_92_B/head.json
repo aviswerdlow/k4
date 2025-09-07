@@ -1,0 +1,33 @@
+{
+  "head_id": 92,
+  "arm": "B",
+  "seed_u64": 3752907116322186849,
+  "weights_sha256": "d2b426b77c965c3ecd804c8d25c48ab45f0635db18275f68827cd48fa0d98be0",
+  "text_pre": "SEEK THE PAGE LOW AND LOOK THE DEATH RIGHT. WHERE IS THE LIGHT AND THE LIE.",
+  "text_post_mcmc": "WAS WE AS IT IT WAS OR ALL AND WOULD THEM ON WOULD THEIR CAN THEN MAKE IS",
+  "text_post_anchors": "WASEAST  WE AS IT THE NORTHEAST IT THE BERLIN WAS THE CLOCK OR ALL AND WOULD THEM ON WOULD THEIR CAN THEN MAKE IS",
+  "text_final": "WASEAST THEN READ THEN READ THE WE THE AS IT THE NORTHEAST IT THE BERLIN WAS THE CLOCK THE OR ALL AND WOULD THEM ON WOULD THEIR CAN THEN MAKE IS",
+  "metrics": {
+    "fw_pre": 8,
+    "verbs_pre": 1,
+    "cov_pre": 0.875,
+    "fw_mcmc": 17,
+    "verbs_mcmc": 1,
+    "cov_mcmc": 1.0,
+    "fw_final": 19,
+    "verbs_final": 3,
+    "cov_final": 0.8709677419354839
+  },
+  "placement": {
+    "positions": [
+      3,
+      13,
+      16,
+      20
+    ],
+    "token_boundaries": true,
+    "drop_predicted": 2.5178449509269294,
+    "drop_actual": 0.3429924242424245
+  },
+  "leakage_diff": 0.0
+}

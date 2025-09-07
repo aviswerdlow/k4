@@ -1,0 +1,33 @@
+{
+  "head_id": 48,
+  "arm": "B",
+  "seed_u64": 1979726295375567330,
+  "weights_sha256": "d2b426b77c965c3ecd804c8d25c48ab45f0635db18275f68827cd48fa0d98be0",
+  "text_pre": "FIRST PLACE THEN MOVE THE LINE AND SET THE WALL TO SOFT HAVE THEIR IN THIS",
+  "text_post_mcmc": "THERE THINK THIS AND WHAT SO BUT BUT HAD THAT IF OR TO AN BE AS YOU CAN",
+  "text_post_anchors": "THERE THINK THIS AND WHAT THE EAST SO BUT THE NORTHEAST BUT THE BERLIN HAD THE CLOCK THAT IF OR TO AN BE AS YOU CAN",
+  "text_final": "THERE THINK THIS THE AND WHAT AND A THEN NOTE THE EAST THE SO BUT THE NORTHEAST BUT THE BERLIN HAD THE CLOCK AND THAT IF OR TO AN BE AS YOU CAN",
+  "metrics": {
+    "fw_pre": 9,
+    "verbs_pre": 1,
+    "cov_pre": 1.0,
+    "fw_mcmc": 17,
+    "verbs_mcmc": 1,
+    "cov_mcmc": 1.0,
+    "fw_final": 24,
+    "verbs_final": 2,
+    "cov_final": 0.8787878787878788
+  },
+  "placement": {
+    "positions": [
+      26,
+      33,
+      37,
+      41
+    ],
+    "token_boundaries": true,
+    "drop_predicted": 2.5602545155813594,
+    "drop_actual": 0.3536858974358976
+  },
+  "leakage_diff": 0.0
+}

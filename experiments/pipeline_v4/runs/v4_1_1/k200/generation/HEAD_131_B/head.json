@@ -1,0 +1,33 @@
+{
+  "head_id": 131,
+  "arm": "B",
+  "seed_u64": 4595425098490074754,
+  "weights_sha256": "d2b426b77c965c3ecd804c8d25c48ab45f0635db18275f68827cd48fa0d98be0",
+  "text_pre": "GO THE MAP AND MOVE THE MOON AND WAIT FALSE AND GO FAR AND THE WALL IS [DIR",
+  "text_post_mcmc": "HAVE NO ALL THE WILL FROM TO IS WE YOU THIS HAD BY WITH WAS IT KNOW WITH",
+  "text_post_anchors": "HAVEEAST  NO ALLNORTHEAST  THEBERLIN  WILLCLOCK  FROM TO IS WE YOU THIS HAD BY WITH WAS IT KNOW WITH",
+  "text_final": "HAVEEAST THEN READ THEN READ NO ALLNORTHEAST THE THEBERLIN AND WILLCLOCK FROM TO IS WE YOU THIS HAD BY WITH WAS IT KNOW WITH",
+  "metrics": {
+    "fw_pre": 8,
+    "verbs_pre": 1,
+    "cov_pre": 0.9444444444444444,
+    "fw_mcmc": 17,
+    "verbs_mcmc": 1,
+    "cov_mcmc": 1.0,
+    "fw_final": 12,
+    "verbs_final": 3,
+    "cov_final": 0.85
+  },
+  "placement": {
+    "positions": [
+      4,
+      11,
+      15,
+      20
+    ],
+    "token_boundaries": true,
+    "drop_predicted": 2.488494641509354,
+    "drop_actual": 0.3569444444444443
+  },
+  "leakage_diff": 0.0
+}

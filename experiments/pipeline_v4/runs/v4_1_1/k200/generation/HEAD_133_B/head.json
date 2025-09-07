@@ -1,0 +1,33 @@
+{
+  "head_id": 133,
+  "arm": "B",
+  "seed_u64": 2420025485721422715,
+  "weights_sha256": "d2b426b77c965c3ecd804c8d25c48ab45f0635db18275f68827cd48fa0d98be0",
+  "text_pre": "IF THE MAP IS DIM THEN FORGET [DIR1] THE HALL IS [DIR1] OF THE TRUTH THE",
+  "text_post_mcmc": "THE KEEP ITS HAS BEEN WITH TWO AS THEN HAS MORE BE AND IN ITS SO OF WAS ALL",
+  "text_post_anchors": "THE KEEP ITS HAS BEEN WITH TWO THE EAST AS THE NORTHEAST THEN THE BERLIN HAS THE CLOCK MORE BE AND IN ITS SO OF WAS ALL",
+  "text_final": "THE KEEP ITS HAS BEEN AND WITH TWO THE THEN READ THE EAST AS THE NORTHEAST THEN SEE THE BERLIN HAS THE CLOCK AND MORE BE AND IN ITS SO OF WAS ALL",
+  "metrics": {
+    "fw_pre": 9,
+    "verbs_pre": 1,
+    "cov_pre": 0.875,
+    "fw_mcmc": 18,
+    "verbs_mcmc": 1,
+    "cov_mcmc": 1.0,
+    "fw_final": 19,
+    "verbs_final": 3,
+    "cov_final": 0.8787878787878788
+  },
+  "placement": {
+    "positions": [
+      31,
+      34,
+      39,
+      43
+    ],
+    "token_boundaries": true,
+    "drop_predicted": 2.312420254665633,
+    "drop_actual": 0.3402178649237473
+  },
+  "leakage_diff": 0.0
+}

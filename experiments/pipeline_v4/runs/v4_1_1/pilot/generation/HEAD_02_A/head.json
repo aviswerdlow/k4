@@ -1,0 +1,33 @@
+{
+  "head_id": 2,
+  "arm": "A",
+  "seed_u64": 13683542060426772316,
+  "weights_sha256": "c22ce0c4dd0c04d11e1c9d5d89b07f481532048aa233bd79470b565f7b53d41b",
+  "text_pre": "IF THE GROUND IS HARD THEN MOVE [DIR1] AND WHERE IS THE SHADOW AND THE SIGN",
+  "text_post_mcmc": "IS IS THAT OF THAT NOT AN IF BY WHO BY THE HAD WHAT YOUR WHERE TAKE ITS",
+  "text_post_anchors": "ISEAST  IS THAT OFNORTHEAST  THATBERLIN  NOTCLOCK  AN IF BY WHO BY THE HAD WHAT YOUR WHERE TAKE ITS",
+  "text_final": "ISEAST THEN READ THE IS THE THAT AND AND OFNORTHEAST THE THATBERLIN NOTCLOCK AN IF BY WHO BY THE HAD WHAT YOUR WHERE TAKE ITS",
+  "metrics": {
+    "fw_pre": 10,
+    "verbs_pre": 1,
+    "cov_pre": 0.9375,
+    "fw_mcmc": 17,
+    "verbs_mcmc": 1,
+    "cov_mcmc": 1.0,
+    "fw_final": 15,
+    "verbs_final": 2,
+    "cov_final": 0.85
+  },
+  "placement": {
+    "positions": [
+      2,
+      13,
+      18,
+      22
+    ],
+    "token_boundaries": true,
+    "drop_predicted": 2.452692462211689,
+    "drop_actual": 0.4194444444444443
+  },
+  "leakage_diff": 0.0
+}

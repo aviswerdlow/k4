@@ -1,0 +1,33 @@
+{
+  "head_id": 143,
+  "arm": "B",
+  "seed_u64": 7331033604599769840,
+  "weights_sha256": "d2b426b77c965c3ecd804c8d25c48ab45f0635db18275f68827cd48fa0d98be0",
+  "text_pre": "STOP FALSE AND GO LAST WHEN BRIGHT POINT THE WALL FROM TWO BE ALL HAVE",
+  "text_post_mcmc": "THEN COME TO OUR WILL BE OF OF AS ARE BY WHAT AN FOR WHAT SO ARE OF AS WAS",
+  "text_post_anchors": "THENEAST  COME TONORTHEAST  OURBERLIN  WILLCLOCK  BE OF OF AS ARE BY WHAT AN FOR WHAT SO ARE OF AS WAS",
+  "text_final": "THENEAST THE COME THE TONORTHEAST THE OURBERLIN THE WILLCLOCK BE OF OF AS ARE BY WHAT AN FOR WHAT SO ARE OF AS WAS",
+  "metrics": {
+    "fw_pre": 8,
+    "verbs_pre": 1,
+    "cov_pre": 1.0,
+    "fw_mcmc": 19,
+    "verbs_mcmc": 1,
+    "cov_mcmc": 1.0,
+    "fw_final": 19,
+    "verbs_final": 1,
+    "cov_final": 0.85
+  },
+  "placement": {
+    "positions": [
+      4,
+      12,
+      16,
+      21
+    ],
+    "token_boundaries": true,
+    "drop_predicted": 2.5709730413141427,
+    "drop_actual": 0.2622222222222219
+  },
+  "leakage_diff": 0.0
+}

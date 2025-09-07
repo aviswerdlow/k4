@@ -1,0 +1,33 @@
+{
+  "head_id": 34,
+  "arm": "B",
+  "seed_u64": 10068894256177647060,
+  "weights_sha256": "d2b426b77c965c3ecd804c8d25c48ab45f0635db18275f68827cd48fa0d98be0",
+  "text_pre": "SET THE LOCK TO CLEAR AND BEFORE THE PLAN FIND THE LAW NO THEN WHEN AN",
+  "text_post_mcmc": "YOU IT ON THEY WHO YOUR WILL FROM OF FROM AND WHEN ALL WAS WHERE SEEK ON",
+  "text_post_anchors": "YOUEAST  IT ON THEY THE NORTHEAST WHO THE BERLIN YOUR THE CLOCK WILL FROM OF FROM AND WHEN ALL WAS WHERE SEEK ON",
+  "text_final": "YOUEAST THEN READ THEN READ THE IT THE ON THEY THE NORTHEAST WHO THE BERLIN YOUR THE CLOCK THE WILL FROM OF FROM AND WHEN ALL WAS WHERE SEEK ON",
+  "metrics": {
+    "fw_pre": 9,
+    "verbs_pre": 1,
+    "cov_pre": 0.9375,
+    "fw_mcmc": 16,
+    "verbs_mcmc": 1,
+    "cov_mcmc": 1.0,
+    "fw_final": 18,
+    "verbs_final": 3,
+    "cov_final": 0.8666666666666667
+  },
+  "placement": {
+    "positions": [
+      3,
+      15,
+      19,
+      24
+    ],
+    "token_boundaries": true,
+    "drop_predicted": 2.487543790003041,
+    "drop_actual": 0.35859213250517596
+  },
+  "leakage_diff": 0.0
+}

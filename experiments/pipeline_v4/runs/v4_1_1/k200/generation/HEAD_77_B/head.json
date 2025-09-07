@@ -1,0 +1,33 @@
+{
+  "head_id": 77,
+  "arm": "B",
+  "seed_u64": 14743775396288030144,
+  "weights_sha256": "d2b426b77c965c3ecd804c8d25c48ab45f0635db18275f68827cd48fa0d98be0",
+  "text_pre": "KNOW THE TEXT AND BRING THE LIE AND SET THE STEP TO RIGHT BY THEIR WHEN",
+  "text_post_mcmc": "WHO WITH NO ONE WHERE A HAD BY YOU HAVE AS BY WE AN NO FROM NOT AN NOTE AND",
+  "text_post_anchors": "WHOEAST  WITH NONORTHEAST  ONEBERLIN  WHERECLOCK  A HAD BY YOU HAVE AS BY WE AN NO FROM NOT AN NOTE AND",
+  "text_final": "WHOEAST THEN READ WITH NONORTHEAST THE ONEBERLIN WHERECLOCK AND A HAD BY YOU HAVE AS BY WE AN NO FROM NOT AN NOTE AND",
+  "metrics": {
+    "fw_pre": 9,
+    "verbs_pre": 1,
+    "cov_pre": 1.0,
+    "fw_mcmc": 19,
+    "verbs_mcmc": 1,
+    "cov_mcmc": 1.0,
+    "fw_final": 12,
+    "verbs_final": 2,
+    "cov_final": 0.85
+  },
+  "placement": {
+    "positions": [
+      3,
+      11,
+      15,
+      21
+    ],
+    "token_boundaries": true,
+    "drop_predicted": 2.417286259176035,
+    "drop_actual": 0.31777777777777727
+  },
+  "leakage_diff": 0.0
+}

@@ -1,0 +1,33 @@
+{
+  "head_id": 173,
+  "arm": "B",
+  "seed_u64": 7685867934569744175,
+  "weights_sha256": "d2b426b77c965c3ecd804c8d25c48ab45f0635db18275f68827cd48fa0d98be0",
+  "text_pre": "SET THE CODE TO HIGH WHERE IS THE DARK AND THE YEAR THAT SO WITH THEN FROM",
+  "text_post_mcmc": "TO TWO WAS BY AN NOT OR AND AT IF ON NO WE IS AT TO AS WOULD WILL GIVE HAVE",
+  "text_post_anchors": "TOEAST  TWO WAS BY ANNORTHEAST  NOTBERLIN  ORCLOCK  AND AT IF ON NO WE IS AT TO AS WOULD WILL GIVE HAVE",
+  "text_final": "TOEAST THEN READ THE TWO THE WAS AND AND BY THE ANNORTHEAST NOTBERLIN ORCLOCK AND AT IF ON NO WE IS AT TO AS WOULD WILL GIVE HAVE",
+  "metrics": {
+    "fw_pre": 12,
+    "verbs_pre": 1,
+    "cov_pre": 1.0,
+    "fw_mcmc": 20,
+    "verbs_mcmc": 1,
+    "cov_mcmc": 1.0,
+    "fw_final": 17,
+    "verbs_final": 2,
+    "cov_final": 0.8571428571428571
+  },
+  "placement": {
+    "positions": [
+      2,
+      16,
+      20,
+      23
+    ],
+    "token_boundaries": true,
+    "drop_predicted": 2.73134219524063,
+    "drop_actual": 0.35388471177944814
+  },
+  "leakage_diff": 0.0
+}

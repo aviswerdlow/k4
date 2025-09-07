@@ -1,0 +1,33 @@
+{
+  "head_id": 89,
+  "arm": "B",
+  "seed_u64": 1185322281079792120,
+  "weights_sha256": "d2b426b77c965c3ecd804c8d25c48ab45f0635db18275f68827cd48fa0d98be0",
+  "text_pre": "APPLY THE GROUND AND UNDERSTAND. WHERE IS THE STAR AND THE DAY. THE LAW IS",
+  "text_post_mcmc": "WHO BUT BE HAD AND HAS AN WOULD THE AND IT WHAT OF WITH HAVE GET TWO",
+  "text_post_anchors": "WHOEAST  BUT BENORTHEAST  HADBERLIN  AND HASCLOCK  AN WOULD THE AND IT WHAT OF WITH HAVE GET TWO",
+  "text_final": "WHOEAST THEN READ THEN READ BUT BENORTHEAST THE HADBERLIN AND HASCLOCK A AN WOULD THE AND IT WHAT OF WITH HAVE GET TWO",
+  "metrics": {
+    "fw_pre": 9,
+    "verbs_pre": 1,
+    "cov_pre": 0.8666666666666667,
+    "fw_mcmc": 16,
+    "verbs_mcmc": 1,
+    "cov_mcmc": 1.0,
+    "fw_final": 13,
+    "verbs_final": 3,
+    "cov_final": 0.85
+  },
+  "placement": {
+    "positions": [
+      3,
+      10,
+      14,
+      22
+    ],
+    "token_boundaries": true,
+    "drop_predicted": 2.5198593667063203,
+    "drop_actual": 0.3803921568627451
+  },
+  "leakage_diff": 0.0
+}

@@ -1,0 +1,33 @@
+{
+  "head_id": 96,
+  "arm": "B",
+  "seed_u64": 16781205438106049186,
+  "weights_sha256": "d2b426b77c965c3ecd804c8d25c48ab45f0635db18275f68827cd48fa0d98be0",
+  "text_pre": "WAIT THEN KEEP AND SET. SEEK HIGH AND STEP FAR. IN HAVE NOT OF NOT AND",
+  "text_post_mcmc": "OR TELL BEEN HAD AN HAD HAVE THEN BEEN ON AND BY THIS OR WAS IN IT AN BE TO",
+  "text_post_anchors": "OREAST  TELL BEEN HADNORTHEAST  ANBERLIN  HADCLOCK  HAVE THEN BEEN ON AND BY THIS OR WAS IN IT AN BE TO",
+  "text_final": "OREAST THE TELL BEEN HADNORTHEAST AND ANBERLIN A HADCLOCK HAVE THEN BEEN ON AND BY THIS OR WAS IN IT AN BE TO",
+  "metrics": {
+    "fw_pre": 9,
+    "verbs_pre": 1,
+    "cov_pre": 0.875,
+    "fw_mcmc": 19,
+    "verbs_mcmc": 1,
+    "cov_mcmc": 1.0,
+    "fw_final": 14,
+    "verbs_final": 1,
+    "cov_final": 0.85
+  },
+  "placement": {
+    "positions": [
+      2,
+      16,
+      19,
+      23
+    ],
+    "token_boundaries": true,
+    "drop_predicted": 2.3475287190265455,
+    "drop_actual": 0.31777777777777727
+  },
+  "leakage_diff": 0.0
+}

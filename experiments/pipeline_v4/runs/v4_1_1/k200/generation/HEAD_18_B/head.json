@@ -1,0 +1,33 @@
+{
+  "head_id": 18,
+  "arm": "B",
+  "seed_u64": 7868373126219719948,
+  "weights_sha256": "d2b426b77c965c3ecd804c8d25c48ab45f0635db18275f68827cd48fa0d98be0",
+  "text_pre": "THE MOON IS [DIR1] OF THE LIFE AND WHAT NOTE THE RULE GOOD OF NOT ON HAD",
+  "text_post_mcmc": "WAS BELIEVE HAD BEEN THEY SO THERE AT FROM ALL TO SO THEIR IN CAN WE THE A",
+  "text_post_anchors": "WAS BELIEVE HAD BEEN THE EAST THEY THE NORTHEAST SO THERE THE BERLIN AT FROM THE CLOCK ALL TO SO THEIR IN CAN WE THE A",
+  "text_final": "WAS BELIEVE THEN READ THEN READ THE HAD BEEN THE EAST THEY THE NORTHEAST AND A SO THERE THE BERLIN A AT FROM THE CLOCK ALL TO SO THEIR IN CAN WE THE A",
+  "metrics": {
+    "fw_pre": 11,
+    "verbs_pre": 1,
+    "cov_pre": 0.9411764705882353,
+    "fw_mcmc": 17,
+    "verbs_mcmc": 1,
+    "cov_mcmc": 1.0,
+    "fw_final": 22,
+    "verbs_final": 3,
+    "cov_final": 0.8823529411764706
+  },
+  "placement": {
+    "positions": [
+      21,
+      26,
+      35,
+      43
+    ],
+    "token_boundaries": true,
+    "drop_predicted": 2.7580439059477238,
+    "drop_actual": 0.3536858974358976
+  },
+  "leakage_diff": 0.0
+}

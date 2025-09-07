@@ -1,0 +1,33 @@
+{
+  "head_id": 103,
+  "arm": "B",
+  "seed_u64": 9016086496093237766,
+  "weights_sha256": "d2b426b77c965c3ecd804c8d25c48ab45f0635db18275f68827cd48fa0d98be0",
+  "text_pre": "THE LAW IS [DIR1] OF THE TRUTH IF THE SKY IS DIM THEN SEEK [DIR1] WHO WAS",
+  "text_post_mcmc": "YOUR TO TO OF AT SO ITS IF MORE YOUR YOU TWO TO THEM FOR THE AND MOVE HAS",
+  "text_post_anchors": "YOUREAST  TO TO OF ATNORTHEAST  SOBERLIN  ITSCLOCK  IF MORE YOUR YOU TWO TO THEM FOR THE AND MOVE HAS",
+  "text_final": "YOUREAST THEN READ TO TO OF ATNORTHEAST AND SOBERLIN A ITSCLOCK A IF MORE YOUR YOU TWO TO THEM FOR THE AND MOVE HAS",
+  "metrics": {
+    "fw_pre": 10,
+    "verbs_pre": 1,
+    "cov_pre": 0.8823529411764706,
+    "fw_mcmc": 18,
+    "verbs_mcmc": 1,
+    "cov_mcmc": 1.0,
+    "fw_final": 12,
+    "verbs_final": 2,
+    "cov_final": 0.85
+  },
+  "placement": {
+    "positions": [
+      4,
+      16,
+      19,
+      23
+    ],
+    "token_boundaries": true,
+    "drop_predicted": 2.794211770455952,
+    "drop_actual": 0.39504643962848274
+  },
+  "leakage_diff": 0.0
+}

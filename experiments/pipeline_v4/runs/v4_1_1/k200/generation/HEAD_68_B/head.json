@@ -1,0 +1,33 @@
+{
+  "head_id": 68,
+  "arm": "B",
+  "seed_u64": 9571762051942134205,
+  "weights_sha256": "d2b426b77c965c3ecd804c8d25c48ab45f0635db18275f68827cd48fa0d98be0",
+  "text_pre": "SET THE SKY TO HARD AND APPLY THE PATH AND TELL AND IF STEP THEN STEP THE",
+  "text_post_mcmc": "OR HAD WITH OUR NOT THIS WHEN ALL THEN SO WHO A WITH BEEN AT WHEN SEND A",
+  "text_post_anchors": "OR HAD WITH OUREAST  NOTNORTHEAST  THISBERLIN  WHENCLOCK  ALL THEN SO WHO A WITH BEEN AT WHEN SEND A",
+  "text_final": "THEN SEE THE OR THE HAD WITH THE OUREAST AND NOTNORTHEAST THE THISBERLIN WHENCLOCK ALL THEN SO WHO A WITH BEEN AT WHEN SEND A",
+  "metrics": {
+    "fw_pre": 9,
+    "verbs_pre": 1,
+    "cov_pre": 1.0,
+    "fw_mcmc": 17,
+    "verbs_mcmc": 1,
+    "cov_mcmc": 1.0,
+    "fw_final": 16,
+    "verbs_final": 2,
+    "cov_final": 0.85
+  },
+  "placement": {
+    "positions": [
+      15,
+      19,
+      24,
+      29
+    ],
+    "token_boundaries": true,
+    "drop_predicted": 2.5955494348253643,
+    "drop_actual": 0.4194444444444443
+  },
+  "leakage_diff": 0.0
+}

@@ -1,0 +1,33 @@
+{
+  "head_id": 5,
+  "arm": "B",
+  "seed_u64": 2922814630681453225,
+  "weights_sha256": "d2b426b77c965c3ecd804c8d25c48ab45f0635db18275f68827cd48fa0d98be0",
+  "text_pre": "STEP THE WORD AND FIND THE LOCK WHEN OLD MOVE THE POINT ALL ONE THERE SO",
+  "text_post_mcmc": "WHERE ALL OUR FROM AND A WITH IS AS CAN WHO BY THEY IN NO ALL SO THINK MORE",
+  "text_post_anchors": "WHEREEAST  ALL OURNORTHEAST  FROM ANDBERLIN  ACLOCK  WITH IS AS CAN WHO BY THEY IN NO ALL SO THINK MORE",
+  "text_final": "WHEREEAST ALL OURNORTHEAST THEN READ THEN READ FROM ANDBERLIN AND ACLOCK WITH THE IS AS CAN WHO BY THEY IN NO ALL SO THINK MORE",
+  "metrics": {
+    "fw_pre": 9,
+    "verbs_pre": 1,
+    "cov_pre": 1.0,
+    "fw_mcmc": 18,
+    "verbs_mcmc": 1,
+    "cov_mcmc": 1.0,
+    "fw_final": 13,
+    "verbs_final": 3,
+    "cov_final": 0.85
+  },
+  "placement": {
+    "positions": [
+      5,
+      13,
+      22,
+      24
+    ],
+    "token_boundaries": true,
+    "drop_predicted": 2.5784096903789475,
+    "drop_actual": 0.3362229102167178
+  },
+  "leakage_diff": 0.0
+}

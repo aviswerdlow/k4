@@ -1,0 +1,33 @@
+{
+  "head_id": 32,
+  "arm": "B",
+  "seed_u64": 17834609683462753083,
+  "weights_sha256": "d2b426b77c965c3ecd804c8d25c48ab45f0635db18275f68827cd48fa0d98be0",
+  "text_pre": "MARK THEN STOP AND KEEP SEEK THE WALL NEAR SET THE MARK TO FAST AT NO TO",
+  "text_post_mcmc": "NO KEEP AN ITS SO OR THIS OR HAD THEN WHEN CAN ITS WITH BEEN THERE TO IT AS",
+  "text_post_anchors": "NO KEEP AN ITS SO THE EAST OR THE NORTHEAST THIS OR HAD THE BERLIN THEN THE CLOCK WHEN CAN ITS WITH BEEN THERE TO IT AS",
+  "text_final": "NO KEEP AN THE ITS AND SO THEN NOTE THE EAST OR THE NORTHEAST A THIS A OR HAD THE BERLIN THEN SEE THE CLOCK WHEN CAN ITS WITH BEEN THERE TO IT AS",
+  "metrics": {
+    "fw_pre": 8,
+    "verbs_pre": 1,
+    "cov_pre": 1.0,
+    "fw_mcmc": 18,
+    "verbs_mcmc": 1,
+    "cov_mcmc": 1.0,
+    "fw_final": 20,
+    "verbs_final": 3,
+    "cov_final": 0.8823529411764706
+  },
+  "placement": {
+    "positions": [
+      18,
+      21,
+      33,
+      38
+    ],
+    "token_boundaries": true,
+    "drop_predicted": 2.509436518121683,
+    "drop_actual": 0.3402178649237473
+  },
+  "leakage_diff": 0.0
+}

@@ -1,0 +1,33 @@
+{
+  "head_id": 44,
+  "arm": "B",
+  "seed_u64": 15566061185739901712,
+  "weights_sha256": "d2b426b77c965c3ecd804c8d25c48ab45f0635db18275f68827cd48fa0d98be0",
+  "text_pre": "WHERE IS THE SHADOW AND THE SUN GIVE THE GATE AND HOLD THE MOON SET THE",
+  "text_post_mcmc": "HAS NOTE YOUR YOU OF THERE WHERE WAS MORE BEEN IN FROM BY ARE IT TWO ON NOT",
+  "text_post_anchors": "HAS NOTE YOUR YOU OF THE EAST THERE THE NORTHEAST WHERE WAS THE BERLIN MORE THE CLOCK BEEN IN FROM BY ARE IT TWO ON NOT",
+  "text_final": "HAS NOTE YOUR THE YOU OF AND THEN NOTE THE EAST THERE THE NORTHEAST A WHERE WAS THE BERLIN MORE THE CLOCK BEEN IN FROM BY ARE IT TWO ON NOT",
+  "metrics": {
+    "fw_pre": 9,
+    "verbs_pre": 1,
+    "cov_pre": 1.0,
+    "fw_mcmc": 17,
+    "verbs_mcmc": 1,
+    "cov_mcmc": 1.0,
+    "fw_final": 17,
+    "verbs_final": 2,
+    "cov_final": 0.8709677419354839
+  },
+  "placement": {
+    "positions": [
+      21,
+      27,
+      37,
+      42
+    ],
+    "token_boundaries": true,
+    "drop_predicted": 2.3796607545429476,
+    "drop_actual": 0.3536858974358976
+  },
+  "leakage_diff": 0.0
+}

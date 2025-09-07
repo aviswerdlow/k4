@@ -1,0 +1,33 @@
+{
+  "head_id": 171,
+  "arm": "B",
+  "seed_u64": 12961895947263042119,
+  "weights_sha256": "d2b426b77c965c3ecd804c8d25c48ab45f0635db18275f68827cd48fa0d98be0",
+  "text_pre": "IF THE WALL IS HIGH THEN BELIEVE [DIR1] AND SET THE PAGE TO SOFT IN ARE",
+  "text_post_mcmc": "TO WITH SO BE HAD SO ARE AN MORE TWO AN YOUR IT SO OF AS TAKE IN STEP FOR",
+  "text_post_anchors": "TOEAST  WITH SO BENORTHEAST  HADBERLIN  SO ARECLOCK  AN MORE TWO AN YOUR IT SO OF AS TAKE IN STEP FOR",
+  "text_final": "TOEAST THEN READ THEN READ THE WITH SO BENORTHEAST THE HADBERLIN SO ARECLOCK A A AN MORE TWO AN YOUR IT SO OF AS TAKE IN STEP FOR",
+  "metrics": {
+    "fw_pre": 9,
+    "verbs_pre": 1,
+    "cov_pre": 0.9375,
+    "fw_mcmc": 18,
+    "verbs_mcmc": 1,
+    "cov_mcmc": 1.0,
+    "fw_final": 16,
+    "verbs_final": 4,
+    "cov_final": 0.8571428571428571
+  },
+  "placement": {
+    "positions": [
+      2,
+      13,
+      17,
+      24
+    ],
+    "token_boundaries": true,
+    "drop_predicted": 2.578129868127321,
+    "drop_actual": 0.3733333333333335
+  },
+  "leakage_diff": 0.0
+}

@@ -1,0 +1,33 @@
+{
+  "head_id": 181,
+  "arm": "B",
+  "seed_u64": 11350045829092834592,
+  "weights_sha256": "d2b426b77c965c3ecd804c8d25c48ab45f0635db18275f68827cd48fa0d98be0",
+  "text_pre": "FIRST MOVE THEN SHOW THE GATE. GO BAD AND WAIT FALSE. MORE THE ON FOR BY",
+  "text_post_mcmc": "THEM THE SO BEEN ITS ITS BE BUT BY OF BE WOULD WHO AN WOULD IF CAN MAKE BY",
+  "text_post_anchors": "THEMEAST  THE SONORTHEAST  BEENBERLIN  ITSCLOCK  ITS BE BUT BY OF BE WOULD WHO AN WOULD IF CAN MAKE BY",
+  "text_final": "THEMEAST THEN READ THEN READ THE SONORTHEAST THE BEENBERLIN AND ITSCLOCK A ITS BE BUT BY OF BE WOULD WHO AN WOULD IF CAN MAKE BY",
+  "metrics": {
+    "fw_pre": 8,
+    "verbs_pre": 1,
+    "cov_pre": 0.875,
+    "fw_mcmc": 18,
+    "verbs_mcmc": 1,
+    "cov_mcmc": 1.0,
+    "fw_final": 16,
+    "verbs_final": 3,
+    "cov_final": 0.85
+  },
+  "placement": {
+    "positions": [
+      4,
+      11,
+      16,
+      20
+    ],
+    "token_boundaries": true,
+    "drop_predicted": 2.4948391620427186,
+    "drop_actual": 0.3362229102167178
+  },
+  "leakage_diff": 0.0
+}

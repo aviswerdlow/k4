@@ -1,0 +1,33 @@
+{
+  "head_id": 106,
+  "arm": "B",
+  "seed_u64": 10095498845528949575,
+  "weights_sha256": "d2b426b77c965c3ecd804c8d25c48ab45f0635db18275f68827cd48fa0d98be0",
+  "text_pre": "COME THE WALL AND READ THE MARK IF PATH THEN WATCH THE LIGHT WILL WHEN",
+  "text_post_mcmc": "AND HAD ITS WHEN BUT WHERE BY TO IF BEEN WILL MORE WHAT BE WAS WITH TAKE BE",
+  "text_post_anchors": "ANDEAST  HAD ITSNORTHEAST  WHEN BUTBERLIN  WHERECLOCK  BY TO IF BEEN WILL MORE WHAT BE WAS WITH TAKE BE",
+  "text_final": "ANDEAST THEN READ THEN READ HAD ITSNORTHEAST WHEN BUTBERLIN AND WHERECLOCK BY THE TO IF BEEN WILL MORE WHAT BE WAS WITH TAKE BE",
+  "metrics": {
+    "fw_pre": 8,
+    "verbs_pre": 1,
+    "cov_pre": 1.0,
+    "fw_mcmc": 17,
+    "verbs_mcmc": 1,
+    "cov_mcmc": 1.0,
+    "fw_final": 13,
+    "verbs_final": 3,
+    "cov_final": 0.85
+  },
+  "placement": {
+    "positions": [
+      3,
+      11,
+      20,
+      26
+    ],
+    "token_boundaries": true,
+    "drop_predicted": 2.620128681744109,
+    "drop_actual": 0.3569444444444443
+  },
+  "leakage_diff": 0.0
+}

@@ -1,0 +1,33 @@
+{
+  "head_id": 165,
+  "arm": "B",
+  "seed_u64": 7349289281087391795,
+  "weights_sha256": "d2b426b77c965c3ecd804c8d25c48ab45f0635db18275f68827cd48fa0d98be0",
+  "text_pre": "SET THE GROUND TO HIGH STOP BRIGHT AND TURN SLOW AS HAD BEEN THE HAD IS",
+  "text_post_mcmc": "YOUR BUT IS SO OR THAT WE OR YOUR THEY WITH MORE WE THE FOR THINK THEIR",
+  "text_post_anchors": "YOUREAST  BUT IS SO ORNORTHEAST  THATBERLIN  WECLOCK  OR YOUR THEY WITH MORE WE THE FOR THINK THEIR",
+  "text_final": "YOUREAST THEN READ THE BUT THE IS AND AND SO THE ORNORTHEAST THATBERLIN WECLOCK OR YOUR THEY WITH MORE WE THE FOR THINK THEIR",
+  "metrics": {
+    "fw_pre": 9,
+    "verbs_pre": 1,
+    "cov_pre": 1.0,
+    "fw_mcmc": 16,
+    "verbs_mcmc": 1,
+    "cov_mcmc": 1.0,
+    "fw_final": 14,
+    "verbs_final": 2,
+    "cov_final": 0.85
+  },
+  "placement": {
+    "positions": [
+      4,
+      17,
+      22,
+      25
+    ],
+    "token_boundaries": true,
+    "drop_predicted": 2.441487548132849,
+    "drop_actual": 0.4470588235294115
+  },
+  "leakage_diff": 0.0
+}
