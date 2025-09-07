@@ -1,0 +1,9 @@
+{
+  "policy_sha": "bc083cc4129fedbc",
+  "flint_v2": "enabled",
+  "generic": "enabled",
+  "thresholds": {
+    "flint_v2": 0.7,
+    "generic": 0.6
+  }
+}

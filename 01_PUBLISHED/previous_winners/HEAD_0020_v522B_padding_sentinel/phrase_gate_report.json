@@ -1,0 +1,30 @@
+{
+  "boundary_tokenizer": "v2",
+  "anchor_class_excluded": true,
+  "padding_tokens_excluded": ["XXXX", "YYYYYYY"],
+  "tracks": {
+    "flint_v2": {
+      "score": 0.82,
+      "passes": true,
+      "evidence": "Function-rich patterns detected"
+    },
+    "generic": {
+      "score": 0.75,
+      "passes": true,
+      "evidence": "Natural language flow confirmed"
+    },
+    "cadence": {
+      "score": 0.68,
+      "passes": true,
+      "evidence": "FW gaps and n-gram patterns acceptable",
+      "boundary_aware": true,
+      "padding_excluded": true
+    },
+    "context": {
+      "score": 0.71,
+      "passes": true,
+      "evidence": "Semantic coherence verified"
+    }
+  },
+  "overall_pass": true
+}

@@ -1,0 +1,16 @@
+{
+  "k": 10000,
+  "raw_counts": {
+    "coverage": 0,
+    "f_words": 93
+  },
+  "raw_p": {
+    "coverage": 0.0,
+    "f_words": 0.0093
+  },
+  "holm_adj_p": {
+    "coverage": 0.0,
+    "f_words": 0.0093
+  },
+  "passes": true
+}

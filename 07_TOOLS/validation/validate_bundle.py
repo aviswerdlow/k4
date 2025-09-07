@@ -30,6 +30,28 @@ def match_schema(file_name: str, schemas):
     return None
 
 
+def check_no_padding(bundle: Path) -> tuple[bool, list[str]]:
+    """Check that published bundles don't contain padding sentinels."""
+    errors = []
+    
+    # Check readable_canonical.txt for padding sentinels
+    readable_path = bundle / "readable_canonical.txt"
+    if readable_path.exists():
+        with open(readable_path, 'r') as f:
+            content = f.read()
+            if "XXXX" in content or "YYYYYYY" in content:
+                errors.append(f"Padding tokens found in {readable_path}. Published bundles must use lexicon fillers.")
+    
+    # Check plaintext_97.txt
+    pt_path = bundle / "plaintext_97.txt"
+    if pt_path.exists():
+        with open(pt_path, 'r') as f:
+            content = f.read()
+            if "XXXX" in content or "YYYYYYY" in content:
+                errors.append(f"Padding tokens found in {pt_path}. Published bundles must use lexicon fillers.")
+    
+    return len(errors) == 0, errors
+
 def validate_bundle(
     bundle: Path,
     schema_dir: Path,
@@ -38,6 +60,14 @@ def validate_bundle(
     schemas = load_schemas(schema_dir)
     ok = True
     errors = []
+    
+    # Check for padding sentinels in strict mode for published bundles
+    if mode == "strict" and "01_PUBLISHED" in str(bundle):
+        no_padding, padding_errors = check_no_padding(bundle)
+        if not no_padding:
+            ok = False
+            errors.extend(padding_errors)
+    
     for json_path in bundle.rglob("*.json"):
         schema = match_schema(json_path.name, schemas)
         if schema is None:

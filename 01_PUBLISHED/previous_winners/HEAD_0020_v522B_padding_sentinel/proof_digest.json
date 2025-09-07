@@ -17,15 +17,8 @@
   },
   "seeds": {
     "master": 1337,
-    "head": 2772336211,
-    "filler": 15254849010086659901
+    "head": 2772336211
   },
   "pre_reg_commit": "d0b03f4",
-  "policy_sha": "bc083cc4129fedbc",
-  "pt_sha256": "e2c4daaff4f9ac567032c587085ac6a8290e10f153eb0b41814cfc6235ddc89e",
-  "filler_mode": "lexicon",
-  "filler_tokens": {
-    "gap4": "THEN",
-    "gap7": "BETWEEN"
-  }
+  "policy_sha": "bc083cc4129fedbc"
 }

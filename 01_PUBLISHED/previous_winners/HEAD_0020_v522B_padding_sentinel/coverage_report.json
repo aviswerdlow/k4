@@ -16,7 +16,5 @@
     "master": 1337,
     "head": 2772336211
   },
-  "route_sha": "798cb43f9e68b2da",
-  "pt_sha256": "e2c4daaff4f9ac567032c587085ac6a8290e10f153eb0b41814cfc6235ddc89e",
-  "filler_mode": "lexicon"
+  "route_sha": "798cb43f9e68b2da"
 }
