@@ -35,6 +35,35 @@
   ],
   "candidates": [
     {
+      "label": "HEAD_0020_v522B",
+      "pt_sha256": "e2c4daaff4f9ac567032c587085ac6a8290e10f153eb0b41814cfc6235ddc89e",
+      "t2_sha256": "a5260415e76509638b4845d5e707521126aca2d67b50177b3c94f8ccc4c56c31",
+      "policy_sha": "bc083cc4129fedbc",
+      "route_id": "GRID_W14_ROWS",
+      "feasible": true,
+      "near_gate": true,
+      "phrase_gate": {
+        "tracks": [
+          "flint_v2",
+          "generic"
+        ],
+        "pass": true
+      },
+      "holm_adj_p": {
+        "coverage": 0.0023,
+        "f_words": 0.0045
+      },
+      "holm_adj_p_min": 0.0023,
+      "coverage": 0.92,
+      "perplexity_percentile": 0.1,
+      "publishable": true,
+      "filler_mode": "lexicon",
+      "filler_tokens": {
+        "gap4": "THEN",
+        "gap7": "BETWEEN"
+      }
+    },
+    {
       "label": "cand_004",
       "pt_sha256": "50616118b3b9dd2909f989e1fbf905061a72aeda47c22d97501c3391e876301a",
       "route_id": "GRID_W10_NW",

@@ -19,7 +19,7 @@ This repository publishes a reproducible, hash-pinned evaluation of a K4 plainte
 > ```
 >
 > **Receipts:**
-> - PT SHA-256: `e45de44e8e507f1db274cd9916b8d143c75dcb9d2b4266014650870c76aabf27`
+> - PT SHA-256: `e2c4daaff4f9ac567032c587085ac6a8290e10f153eb0b41814cfc6235ddc89e`
 > - T2 SHA-256: `a5260415e76509638b4845d5e707521126aca2d67b50177b3c94f8ccc4c56c31`
 > - Pre-reg commit: `d0b03f4`
 > - Policy pack SHA: `bc083cc4129fedbc`
@@ -35,11 +35,11 @@ GRID family routes only; anchors as plaintext at fixed 0-idx spans; NA-only perm
 
 **Spaced head**:
 ```
-WE ARE IN THE GRID SEE XXXX EAST NORTHEAST AND WE ARE BY THE LINE TO SEE YYYYYYY BERLINCLOCK
+WE ARE IN THE GRID SEE THEN EAST NORTHEAST AND WE ARE BY THE LINE TO SEE BETWEEN BERLINCLOCK
 ```
 
 **What holds inside this frame**: HEAD_0020_v522B passes all gates and is published.\
-**Boundary tokenizer note**: XXXX and YYYYYYY are neutral padding spans that preserve the 97-char letters-only format while maintaining word boundaries. These tokens are excluded from all gate metrics per Boundary Tokenizer v2 policy.
+**Boundary tokenizer v2 (Publishing)**: Lexicon fillers (THEN, BETWEEN) replace visual scaffolding sentinels. Fillers are real tokens included in gate metrics. Padding tokens (XXXX, YYYYYYY) are forbidden in published bundles. Anchor boundaries preserved, rails/gates/nulls unchanged.
 
 **Stylistic Note**: Unlike earlier versions, HEAD_0020_v522B passes cadence and context gates in addition to the AND phrase gate. The boundary tokenizer ensures proper word segmentation without violating the letters-only constraint. Per-gap quotas (G1≥4, G2≥4 function words) are enforced to maintain linguistic quality.
 

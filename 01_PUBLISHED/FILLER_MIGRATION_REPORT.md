@@ -14,6 +14,8 @@ Successfully replaced padding sentinels (XXXX, YYYYYYY) with lexicon fillers (TH
 - **4-char slot**: `THEN` (replaces `XXXX`)
 - **7-char slot**: `BETWEEN` (replaces `YYYYYYY`)
 - **Selection seed**: 15254849010086659901 (deterministic from seed recipe)
+- **Candidate pairs attempted**: 1 (THEN + BETWEEN was first pair, passed all gates)
+- **Tie-break**: Not needed (first pair successful)
 
 ## Cryptographic Receipts
 

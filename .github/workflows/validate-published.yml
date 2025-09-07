@@ -1,0 +1,73 @@
+name: Validate Published Bundles
+
+on:
+  push:
+    branches: [ main ]
+    paths:
+      - '01_PUBLISHED/**'
+      - '07_TOOLS/validation/**'
+  pull_request:
+    branches: [ main ]
+    paths:
+      - '01_PUBLISHED/**'
+      - '07_TOOLS/validation/**'
+
+jobs:
+  validate-published:
+    runs-on: ubuntu-latest
+    
+    steps:
+      - uses: actions/checkout@v4
+      
+      - name: Set up Python
+        uses: actions/setup-python@v4
+        with:
+          python-version: '3.10'
+      
+      - name: Install dependencies
+        run: |
+          pip install jsonschema
+      
+      - name: Validate latest bundle (strict mode)
+        run: |
+          if [ -L "01_PUBLISHED/latest" ]; then
+            echo "Validating latest bundle in strict mode..."
+            python 07_TOOLS/validation/validate_bundle.py 01_PUBLISHED/latest --mode strict
+          else
+            echo "No latest symlink found, validating winner bundle..."
+            python 07_TOOLS/validation/validate_bundle.py 01_PUBLISHED/winner_HEAD_0020_v522B --mode strict
+          fi
+      
+      - name: Check for padding sentinels
+        run: |
+          echo "Checking that published bundles don't contain padding sentinels..."
+          
+          # Check winner bundle
+          if grep -q "XXXX\|YYYYYYY" 01_PUBLISHED/winner_HEAD_0020_v522B/readable_canonical.txt 2>/dev/null; then
+            echo "::error::Padding sentinels found in published bundle! Use lexicon fillers instead."
+            exit 1
+          fi
+          
+          if grep -q "XXXX\|YYYYYYY" 01_PUBLISHED/winner_HEAD_0020_v522B/plaintext_97.txt 2>/dev/null; then
+            echo "::error::Padding sentinels found in plaintext! Use lexicon fillers instead."
+            exit 1
+          fi
+          
+          echo "✅ No padding sentinels found in published bundles"
+      
+      - name: Verify manifests
+        run: |
+          echo "Verifying bundle manifests..."
+          
+          cd 01_PUBLISHED/winner_HEAD_0020_v522B
+          if [ -f "hashes.txt" ]; then
+            shasum -a 256 -c hashes.txt || exit 1
+            echo "✅ Bundle hashes verified"
+          fi
+      
+      - name: Run regression tests
+        run: |
+          if [ -f "tests/test_no_padding.py" ]; then
+            echo "Running padding detection tests..."
+            python tests/test_no_padding.py
+          fi
