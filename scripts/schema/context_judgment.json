@@ -1,0 +1,101 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "title": "Context Gate Judgment Schema",
+  "description": "Schema for LLM-based Context Gate evaluation results",
+  "type": "object",
+  "required": [
+    "label",
+    "overall",
+    "coherence",
+    "fluency",
+    "instructional_fit",
+    "semantic_specificity",
+    "repetition_penalty",
+    "notes",
+    "model_id",
+    "prompt_sha256",
+    "seed",
+    "elapsed_ms"
+  ],
+  "properties": {
+    "label": {
+      "type": "string",
+      "description": "Candidate label"
+    },
+    "overall": {
+      "type": "integer",
+      "minimum": 1,
+      "maximum": 5,
+      "description": "Overall quality score"
+    },
+    "coherence": {
+      "type": "integer",
+      "minimum": 1,
+      "maximum": 5,
+      "description": "Logical flow and avoidance of non-sequiturs"
+    },
+    "fluency": {
+      "type": "integer",
+      "minimum": 1,
+      "maximum": 5,
+      "description": "Grammar and naturalness"
+    },
+    "instructional_fit": {
+      "type": "integer",
+      "minimum": 0,
+      "maximum": 5,
+      "description": "Imperative/surveying instruction vibe"
+    },
+    "semantic_specificity": {
+      "type": "integer",
+      "minimum": 0,
+      "maximum": 5,
+      "description": "Concrete, content-bearing tokens vs pure function words"
+    },
+    "repetition_penalty": {
+      "type": "integer",
+      "minimum": 0,
+      "maximum": 1,
+      "description": "1 if repeated words detected, 0 otherwise"
+    },
+    "notes": {
+      "type": "string",
+      "description": "Short explanation of judgment"
+    },
+    "model_id": {
+      "type": "string",
+      "description": "LLM model identifier"
+    },
+    "prompt_sha256": {
+      "type": "string",
+      "pattern": "^[a-f0-9]{64}$",
+      "description": "SHA-256 hash of concatenated prompts"
+    },
+    "seed": {
+      "type": "integer",
+      "description": "Deterministic seed for LLM call"
+    },
+    "elapsed_ms": {
+      "type": "integer",
+      "minimum": 0,
+      "description": "Time taken for LLM call in milliseconds"
+    },
+    "cache_key": {
+      "type": "string",
+      "pattern": "^[a-f0-9]{64}$",
+      "description": "Cache key for response"
+    },
+    "context_pass": {
+      "type": "boolean",
+      "description": "Whether the candidate passes all Context Gate thresholds"
+    },
+    "parse_error": {
+      "type": "boolean",
+      "description": "True if LLM returned invalid JSON"
+    },
+    "api_error": {
+      "type": "boolean",
+      "description": "True if API call failed"
+    }
+  }
+}

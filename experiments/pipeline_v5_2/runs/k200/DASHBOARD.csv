@@ -1,0 +1,13 @@
+Gate,Count,Rate
+generated,200,1.000
+content_valid,200,1.000
+anchors_placed,200,1.000
+near_gate,200,1.000
+flint_v2,200,1.000
+generic,200,1.000
+cadence,157,0.785
+context,200,1.000
+deltas,200,1.000
+orbit,150,0.750
+nulls,146,0.730
+promoted,85,0.425

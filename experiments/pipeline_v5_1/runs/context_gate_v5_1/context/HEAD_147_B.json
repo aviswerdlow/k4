@@ -1,0 +1,16 @@
+{
+  "label": "HEAD_147_B",
+  "overall": 2,
+  "coherence": 2,
+  "fluency": 2,
+  "instructional_fit": 4,
+  "semantic_specificity": 1,
+  "repetition_penalty": 0,
+  "notes": "Function-word salad pattern detected",
+  "model_id": "mock-evaluator-v1",
+  "prompt_sha256": "mock_000000000000000000000000000000000000000000000000000000000000",
+  "seed": 12719430714641376045,
+  "elapsed_ms": 10,
+  "cache_key": "b6c61aea71f9b6ebc83724dd3f29158e40c2bc869fc694f8dbf74a7a187b212d",
+  "context_pass": false
+}

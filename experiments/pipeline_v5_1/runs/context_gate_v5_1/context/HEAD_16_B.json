@@ -1,0 +1,16 @@
+{
+  "label": "HEAD_16_B",
+  "overall": 4,
+  "coherence": 5,
+  "fluency": 5,
+  "instructional_fit": 3,
+  "semantic_specificity": 1,
+  "repetition_penalty": 0,
+  "notes": "Mock evaluation: func_ratio=0.00, content=0",
+  "model_id": "mock-evaluator-v1",
+  "prompt_sha256": "mock_000000000000000000000000000000000000000000000000000000000000",
+  "seed": 6525953077692060103,
+  "elapsed_ms": 10,
+  "cache_key": "6ba4febb9494f23edfb8d892a8e45794cb0069f54ade2b27c7af418c5293436e",
+  "context_pass": false
+}

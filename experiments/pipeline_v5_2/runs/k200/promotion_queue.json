@@ -1,0 +1,523 @@
+{
+  "policy_version": "5.2.0",
+  "timestamp": "2025-09-06 23:38:50",
+  "policy_hashes": {
+    "lexicon_sha256": "80536bde5a8efdde7324aa492b198d8fb658d39d820d0de3f96542ed0c3e48a6",
+    "weights_sha256": "774c6a25cee067bb337e716c5d54898020baa028b575b1370b32e3c8f8611eb6",
+    "master_seed": 1337,
+    "ct_sha256": "eea813570c7f1fd3b34674e47b5c3da8948026f5cefee612a0b38ffaa515ceab",
+    "k": 200
+  },
+  "candidates": [
+    {
+      "label": "HEAD_001_v52",
+      "seed": 2337,
+      "head_0_74": "BRING THE STONE TO LINE THEN APPLY THE STONE THEN MARK AT STATION",
+      "score": 0.8980725681893155
+    },
+    {
+      "label": "HEAD_008_v52",
+      "seed": 9337,
+      "head_0_74": "FOLLOW THE DIAL TOWARD THE MERIDIAN THEN READ THE COURSE AND READ",
+      "score": 0.9017271241195602
+    },
+    {
+      "label": "HEAD_009_v52",
+      "seed": 10337,
+      "head_0_74": "MARK THE MARKER THEN ADJUST THE STATION THEN MARK THEN MARK THEN NOTE",
+      "score": 0.9205334879645334
+    },
+    {
+      "label": "HEAD_010_v52",
+      "seed": 11337,
+      "head_0_74": "OBSERVE THE PLATE THEN REDUCE THE DISTANCE TO TRUE AND READ AND READ",
+      "score": 0.9079149168663542
+    },
+    {
+      "label": "HEAD_014_v52",
+      "seed": 15337,
+      "head_0_74": "SET THE ARC TO ARCMINUTE POLE THEN READ THE STONE AT STATION",
+      "score": 0.8670454769558412
+    },
+    {
+      "label": "HEAD_021_v52",
+      "seed": 22337,
+      "head_0_74": "OBSERVE THE ARC THEN REDUCE THE ANGLE TO SECONDS AT STATION AND READ",
+      "score": 0.9224849735426797
+    },
+    {
+      "label": "HEAD_023_v52",
+      "seed": 24337,
+      "head_0_74": "SET THE ARC TO TRUE ANGLE THEN READ THE STONE AND READ THEN NOTE",
+      "score": 0.8695897350447306
+    },
+    {
+      "label": "HEAD_025_v52",
+      "seed": 26337,
+      "head_0_74": "SIGHT THE SECTOR THEN NOTE THE STONE THEN NOTE AT STATION THEN MARK",
+      "score": 0.923900091702661
+    },
+    {
+      "label": "HEAD_027_v52",
+      "seed": 28337,
+      "head_0_74": "TRACE THE DISTANCE THEN SET THE ROSE THEN MARK THEN MARK THEN MARK",
+      "score": 0.9331466749385371
+    },
+    {
+      "label": "HEAD_034_v52",
+      "seed": 35337,
+      "head_0_74": "SIGHT THE QUADRANT THEN NOTE THE DISTANCE AND READ AND READ AND READ",
+      "score": 0.8889167012395657
+    },
+    {
+      "label": "HEAD_035_v52",
+      "seed": 36337,
+      "head_0_74": "OBSERVE THE RING THEN REDUCE THE DISTANCE TO ARCSECOND AND READ",
+      "score": 0.9382277432364095
+    },
+    {
+      "label": "HEAD_039_v52",
+      "seed": 40337,
+      "head_0_74": "MARK THE MARKER THEN ADJUST THE CIRCLE AT STATION AT STATION",
+      "score": 0.8701065926176015
+    },
+    {
+      "label": "HEAD_041_v52",
+      "seed": 42337,
+      "head_0_74": "OBSERVE THE RING THEN REDUCE THE YARD TO DECLINATION THEN MARK",
+      "score": 0.8567518864189844
+    },
+    {
+      "label": "HEAD_043_v52",
+      "seed": 44337,
+      "head_0_74": "TRACE THE DISTANCE THEN SET THE STATION THEN MARK AND READ AND READ",
+      "score": 0.8947114646091358
+    },
+    {
+      "label": "HEAD_046_v52",
+      "seed": 47337,
+      "head_0_74": "NOTE THE YARD AT THE COURSE THEN REDUCE AND READ THEN MARK THEN NOTE",
+      "score": 0.9402673179955228
+    },
+    {
+      "label": "HEAD_049_v52",
+      "seed": 50337,
+      "head_0_74": "SET THE ANGLE TO DECLINATION CIRCLE THEN READ THE ROSE THEN MARK",
+      "score": 0.8514094447745844
+    },
+    {
+      "label": "HEAD_051_v52",
+      "seed": 52337,
+      "head_0_74": "SIGHT THE SECTOR THEN NOTE THE GRID AT STATION AND READ AT STATION",
+      "score": 0.860713528197119
+    },
+    {
+      "label": "HEAD_053_v52",
+      "seed": 54337,
+      "head_0_74": "OBSERVE THE PLATE THEN REDUCE THE QUADRANT TO DECLINATION THEN NOTE",
+      "score": 0.9496026395943855
+    },
+    {
+      "label": "HEAD_058_v52",
+      "seed": 59337,
+      "head_0_74": "SIGHT THE QUADRANT THEN NOTE THE MERIDIAN AND READ AND READ THEN MARK",
+      "score": 0.8567971618359946
+    },
+    {
+      "label": "HEAD_061_v52",
+      "seed": 62337,
+      "head_0_74": "FOLLOW THE DISTANCE AT THE MERIDIAN THEN READ THE STONE AND READ",
+      "score": 0.8501816256306178
+    },
+    {
+      "label": "HEAD_062_v52",
+      "seed": 63337,
+      "head_0_74": "OBSERVE THE PLATE THEN REDUCE THE LINE TO DECLINATION THEN MARK",
+      "score": 0.9129166962252026
+    },
+    {
+      "label": "HEAD_064_v52",
+      "seed": 65337,
+      "head_0_74": "TRACE THE DISTANCE THEN SET THE SECTOR THEN NOTE THEN MARK THEN MARK",
+      "score": 0.9075255876775687
+    },
+    {
+      "label": "HEAD_066_v52",
+      "seed": 67337,
+      "head_0_74": "SIGHT THE QUADRANT THEN NOTE THE PLATE AT STATION THEN NOTE AT STATION",
+      "score": 0.9158461457506292
+    },
+    {
+      "label": "HEAD_067_v52",
+      "seed": 68337,
+      "head_0_74": "TRACE THE STATION THEN SET THE MERIDIAN THEN NOTE THEN NOTE AND READ",
+      "score": 0.9297321250933047
+    },
+    {
+      "label": "HEAD_071_v52",
+      "seed": 72337,
+      "head_0_74": "MARK THE MARKER THEN ADJUST THE COURSE AND READ THEN MARK AT STATION",
+      "score": 0.9327113042329871
+    },
+    {
+      "label": "HEAD_072_v52",
+      "seed": 73337,
+      "head_0_74": "OBSERVE THE SECTOR THEN REDUCE THE MARKER TO DEGREES AND READ",
+      "score": 0.8990378358414943
+    },
+    {
+      "label": "HEAD_078_v52",
+      "seed": 79337,
+      "head_0_74": "SIGHT THE POLE THEN NOTE THE MARKER AT STATION THEN NOTE AND READ",
+      "score": 0.9156387668705798
+    },
+    {
+      "label": "HEAD_079_v52",
+      "seed": 80337,
+      "head_0_74": "SET THE ANGLE TO ARCSECOND PLATE THEN READ THE ARC THEN NOTE",
+      "score": 0.89720867145976
+    },
+    {
+      "label": "HEAD_080_v52",
+      "seed": 81337,
+      "head_0_74": "TRACE THE COURSE THEN SET THE GRID AT STATION THEN NOTE AND READ",
+      "score": 0.9115216749688311
+    },
+    {
+      "label": "HEAD_081_v52",
+      "seed": 82337,
+      "head_0_74": "MARK THE ROSE THEN ADJUST THE STATION AND READ THEN MARK THEN MARK",
+      "score": 0.8554679624132526
+    },
+    {
+      "label": "HEAD_084_v52",
+      "seed": 85337,
+      "head_0_74": "TRACE THE COURSE THEN SET THE QUADRANT THEN NOTE AND READ THEN MARK",
+      "score": 0.9490014021950364
+    },
+    {
+      "label": "HEAD_086_v52",
+      "seed": 87337,
+      "head_0_74": "SIGHT THE SECTOR THEN NOTE THE COURSE AND READ AND READ AT STATION",
+      "score": 0.9023869424278498
+    },
+    {
+      "label": "HEAD_087_v52",
+      "seed": 88337,
+      "head_0_74": "SIGHT THE SECTOR THEN NOTE THE STONE AND READ THEN NOTE AT STATION",
+      "score": 0.8698385275325593
+    },
+    {
+      "label": "HEAD_092_v52",
+      "seed": 93337,
+      "head_0_74": "OBSERVE THE PLATE THEN REDUCE THE STONE TO ARCSECOND AT STATION",
+      "score": 0.8613028360010144
+    },
+    {
+      "label": "HEAD_093_v52",
+      "seed": 94337,
+      "head_0_74": "SIGHT THE PLINTH THEN NOTE THE QUADRANT THEN NOTE AND READ THEN NOTE",
+      "score": 0.9460415756599402
+    },
+    {
+      "label": "HEAD_095_v52",
+      "seed": 96337,
+      "head_0_74": "OBSERVE THE RING THEN REDUCE THE SECTOR TO ARCMINUTE THEN NOTE",
+      "score": 0.8736989311780199
+    },
+    {
+      "label": "HEAD_097_v52",
+      "seed": 98337,
+      "head_0_74": "OBSERVE THE RING THEN REDUCE THE ARC TO MAGNETIC THEN NOTE THEN MARK",
+      "score": 0.9389173910346064
+    },
+    {
+      "label": "HEAD_099_v52",
+      "seed": 100337,
+      "head_0_74": "TRACE THE COURSE THEN SET THE RING AT STATION AND READ THEN MARK",
+      "score": 0.9261333689414317
+    },
+    {
+      "label": "HEAD_100_v52",
+      "seed": 101337,
+      "head_0_74": "TRACE THE COURSE THEN SET THE MERIDIAN AND READ THEN MARK AT STATION",
+      "score": 0.9323877192216783
+    },
+    {
+      "label": "HEAD_104_v52",
+      "seed": 105337,
+      "head_0_74": "TRACE THE PLATE THEN SET THE YARD THEN MARK THEN MARK AND READ",
+      "score": 0.863870958564855
+    },
+    {
+      "label": "HEAD_105_v52",
+      "seed": 106337,
+      "head_0_74": "MARK THE ROSE THEN ADJUST THE MERIDIAN AND READ AT STATION AT STATION",
+      "score": 0.9192668816394193
+    },
+    {
+      "label": "HEAD_106_v52",
+      "seed": 107337,
+      "head_0_74": "NOTE THE MERIDIAN AT THE CIRCLE THEN MARK AT STATION AT STATION",
+      "score": 0.8893451442966925
+    },
+    {
+      "label": "HEAD_110_v52",
+      "seed": 111337,
+      "head_0_74": "BRING THE POLE TO RING THEN NOTE THE POLE AT STATION AND READ",
+      "score": 0.8930574816422575
+    },
+    {
+      "label": "HEAD_114_v52",
+      "seed": 115337,
+      "head_0_74": "SIGHT THE SECTOR THEN NOTE THE DISTANCE AND READ AT STATION AT STATION",
+      "score": 0.8571371048059216
+    },
+    {
+      "label": "HEAD_116_v52",
+      "seed": 117337,
+      "head_0_74": "SIGHT THE QUADRANT THEN NOTE THE BEARING AND READ THEN MARK AT STATION",
+      "score": 0.8511009758615625
+    },
+    {
+      "label": "HEAD_117_v52",
+      "seed": 118337,
+      "head_0_74": "NOTE THE YARD AT THE ARC THEN READ THEN NOTE THEN NOTE AT STATION",
+      "score": 0.8859477124845866
+    },
+    {
+      "label": "HEAD_122_v52",
+      "seed": 123337,
+      "head_0_74": "TRACE THE COURSE THEN SET THE DISTANCE AND READ AT STATION AND READ",
+      "score": 0.9138038850527683
+    },
+    {
+      "label": "HEAD_124_v52",
+      "seed": 125337,
+      "head_0_74": "TRACE THE COURSE THEN SET THE COURSE AND READ THEN NOTE AT STATION",
+      "score": 0.8503295527360746
+    },
+    {
+      "label": "HEAD_125_v52",
+      "seed": 126337,
+      "head_0_74": "SET THE ANGLE TO SECONDS ANGLE THEN READ THE ANGLE AND READ THEN NOTE",
+      "score": 0.9236936595956485
+    },
+    {
+      "label": "HEAD_127_v52",
+      "seed": 128337,
+      "head_0_74": "BRING THE POLE TO GRID THEN APPLY THE MARKER AT STATION THEN MARK",
+      "score": 0.9307432837824395
+    },
+    {
+      "label": "HEAD_129_v52",
+      "seed": 130337,
+      "head_0_74": "FOLLOW THE DIAL ALONG THE ANGLE THEN READ THE LINE AND READ THEN NOTE",
+      "score": 0.9136010690697073
+    },
+    {
+      "label": "HEAD_130_v52",
+      "seed": 131337,
+      "head_0_74": "SIGHT THE SECTOR THEN NOTE THE PLATE AT STATION AT STATION THEN NOTE",
+      "score": 0.8670332407642867
+    },
+    {
+      "label": "HEAD_131_v52",
+      "seed": 132337,
+      "head_0_74": "SIGHT THE SECTOR THEN NOTE THE ROSE THEN MARK THEN MARK THEN MARK",
+      "score": 0.8530211114060838
+    },
+    {
+      "label": "HEAD_132_v52",
+      "seed": 133337,
+      "head_0_74": "MARK THE ROSE THEN ADJUST THE PLINTH THEN MARK AT STATION THEN MARK",
+      "score": 0.9262822739380645
+    },
+    {
+      "label": "HEAD_133_v52",
+      "seed": 134337,
+      "head_0_74": "SIGHT THE QUADRANT THEN NOTE THE GRID AT STATION AND READ THEN NOTE",
+      "score": 0.9303518509983049
+    },
+    {
+      "label": "HEAD_135_v52",
+      "seed": 136337,
+      "head_0_74": "FOLLOW THE DIAL ALONG THE MERIDIAN THEN READ THE ROSE AND READ",
+      "score": 0.8524828219322864
+    },
+    {
+      "label": "HEAD_136_v52",
+      "seed": 137337,
+      "head_0_74": "TRACE THE COURSE THEN SET THE STONE AT STATION AND READ THEN NOTE",
+      "score": 0.9394656597503606
+    },
+    {
+      "label": "HEAD_140_v52",
+      "seed": 141337,
+      "head_0_74": "OBSERVE THE RING THEN REDUCE THE LINE TO ARCMINUTE THEN MARK",
+      "score": 0.8854785282154021
+    },
+    {
+      "label": "HEAD_141_v52",
+      "seed": 142337,
+      "head_0_74": "BRING THE POLE TO RING THEN CORRECT THE MARKER AT STATION THEN MARK",
+      "score": 0.9378860819936782
+    },
+    {
+      "label": "HEAD_143_v52",
+      "seed": 144337,
+      "head_0_74": "OBSERVE THE ROSE THEN REDUCE THE YARD TO DEGREES AND READ AND READ",
+      "score": 0.9246460940450778
+    },
+    {
+      "label": "HEAD_144_v52",
+      "seed": 145337,
+      "head_0_74": "FOLLOW THE LINE AT THE SECTOR THEN READ THE ROSE THEN MARK THEN NOTE",
+      "score": 0.8805749714966841
+    },
+    {
+      "label": "HEAD_152_v52",
+      "seed": 153337,
+      "head_0_74": "NOTE THE STATION AT THE STATION THEN SIGHT AND READ THEN NOTE",
+      "score": 0.8761807285130254
+    },
+    {
+      "label": "HEAD_154_v52",
+      "seed": 155337,
+      "head_0_74": "MARK THE ROSE THEN ADJUST THE QUADRANT THEN NOTE THEN MARK AND READ",
+      "score": 0.91790717828491
+    },
+    {
+      "label": "HEAD_155_v52",
+      "seed": 156337,
+      "head_0_74": "FOLLOW THE LINE BETWEEN THE ROSE THEN READ THE CIRCLE AT STATION",
+      "score": 0.9070403477977513
+    },
+    {
+      "label": "HEAD_157_v52",
+      "seed": 158337,
+      "head_0_74": "FOLLOW THE DIAL OVER THE BEARING THEN READ THE PLATE THEN MARK",
+      "score": 0.9080638071393244
+    },
+    {
+      "label": "HEAD_159_v52",
+      "seed": 160337,
+      "head_0_74": "FOLLOW THE PLATE BETWEEN THE STONE THEN READ THE QUADRANT THEN MARK",
+      "score": 0.8516247437190366
+    },
+    {
+      "label": "HEAD_160_v52",
+      "seed": 161337,
+      "head_0_74": "SET THE ARC TO ARCMINUTE ROSE THEN READ THE COURSE THEN NOTE",
+      "score": 0.8667570275323785
+    },
+    {
+      "label": "HEAD_162_v52",
+      "seed": 163337,
+      "head_0_74": "BRING THE STONE TO PLINTH THEN FOLLOW THE MERIDIAN AND READ AND READ",
+      "score": 0.9229987147973341
+    },
+    {
+      "label": "HEAD_163_v52",
+      "seed": 164337,
+      "head_0_74": "FOLLOW THE DIAL OVER THE PLINTH THEN READ THE ARC THEN MARK THEN NOTE",
+      "score": 0.9302147091418498
+    },
+    {
+      "label": "HEAD_167_v52",
+      "seed": 168337,
+      "head_0_74": "BRING THE POLE TO RING THEN REDUCE THE BEARING AT STATION AND READ",
+      "score": 0.8522309292392709
+    },
+    {
+      "label": "HEAD_168_v52",
+      "seed": 169337,
+      "head_0_74": "NOTE THE YARD AT THE ANGLE THEN CORRECT THEN NOTE AND READ AT STATION",
+      "score": 0.8722074219347745
+    },
+    {
+      "label": "HEAD_170_v52",
+      "seed": 171337,
+      "head_0_74": "TRACE THE COURSE THEN SET THE ROSE THEN MARK AT STATION THEN MARK",
+      "score": 0.9174465211939976
+    },
+    {
+      "label": "HEAD_174_v52",
+      "seed": 175337,
+      "head_0_74": "OBSERVE THE PLATE THEN REDUCE THE ANGLE TO MAGNETIC THEN NOTE",
+      "score": 0.8645866337950561
+    },
+    {
+      "label": "HEAD_178_v52",
+      "seed": 179337,
+      "head_0_74": "FOLLOW THE LINE TO THE MERIDIAN THEN READ THE DISTANCE THEN NOTE",
+      "score": 0.8770372648892085
+    },
+    {
+      "label": "HEAD_179_v52",
+      "seed": 180337,
+      "head_0_74": "OBSERVE THE RING THEN REDUCE THE PLATE TO TRUE AT STATION AND READ",
+      "score": 0.85304398549388
+    },
+    {
+      "label": "HEAD_182_v52",
+      "seed": 183337,
+      "head_0_74": "SIGHT THE QUADRANT THEN NOTE THE RING AT STATION THEN MARK AT STATION",
+      "score": 0.9422127623285423
+    },
+    {
+      "label": "HEAD_185_v52",
+      "seed": 186337,
+      "head_0_74": "SET THE ANGLE TO MAGNETIC PLATE THEN READ THE PLATE THEN MARK",
+      "score": 0.8871363010906175
+    },
+    {
+      "label": "HEAD_186_v52",
+      "seed": 187337,
+      "head_0_74": "SIGHT THE QUADRANT THEN NOTE THE POLE THEN NOTE THEN MARK AND READ",
+      "score": 0.9056006293829654
+    },
+    {
+      "label": "HEAD_187_v52",
+      "seed": 188337,
+      "head_0_74": "FOLLOW THE SECTOR BETWEEN THE POLE THEN READ THE RING AND READ",
+      "score": 0.8522275314033776
+    },
+    {
+      "label": "HEAD_188_v52",
+      "seed": 189337,
+      "head_0_74": "BRING THE POLE TO PLATE THEN NOTE THE DIAL AND READ THEN MARK",
+      "score": 0.870097847007095
+    },
+    {
+      "label": "HEAD_190_v52",
+      "seed": 191337,
+      "head_0_74": "MARK THE ROSE THEN ADJUST THE DISTANCE AND READ AND READ AND READ",
+      "score": 0.9183591629612156
+    },
+    {
+      "label": "HEAD_193_v52",
+      "seed": 194337,
+      "head_0_74": "SIGHT THE STONE THEN NOTE THE PLATE THEN MARK THEN MARK THEN MARK",
+      "score": 0.9194421659336746
+    },
+    {
+      "label": "HEAD_194_v52",
+      "seed": 195337,
+      "head_0_74": "BRING THE POLE TO ANGLE THEN ADJUST THE SECTOR THEN NOTE AT STATION",
+      "score": 0.8710997285455768
+    },
+    {
+      "label": "HEAD_195_v52",
+      "seed": 196337,
+      "head_0_74": "SET THE ANGLE TO VARIATION ARC THEN READ THE RING AT STATION",
+      "score": 0.9075866031728669
+    },
+    {
+      "label": "HEAD_197_v52",
+      "seed": 198337,
+      "head_0_74": "OBSERVE THE PLATE THEN REDUCE THE PLATE TO ARCSECOND THEN NOTE",
+      "score": 0.866218360623632
+    }
+  ]
+}

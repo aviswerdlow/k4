@@ -1,0 +1,13 @@
+# Policy SHA-256 Hashes for v5.2 Content-Aware Generation
+# Generated: 2025-01-07
+# Frozen for production K=200 run
+
+80536bde5a8efdde7324aa492b198d8fb658d39d820d0de3f96542ed0c3e48a6  policies/lexicon.content.json
+774c6a25cee067bb337e716c5d54898020baa028b575b1370b32e3c8f8611eb6  policies/weights.explore_v5_2.json
+
+# Pre-registration
+ANALYSIS_PLAN_v5_2.md commit: [TO BE UPDATED POST-COMMIT]
+
+# Fixed parameters
+MASTER_SEED: 1337
+CT_SHA256: eea813570c7f1fd3b34674e47b5c3da8948026f5cefee612a0b38ffaa515ceab

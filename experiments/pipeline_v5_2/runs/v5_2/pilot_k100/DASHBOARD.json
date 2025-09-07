@@ -1,0 +1,29 @@
+{
+  "version": "5.2.0",
+  "timestamp": "2025-09-06 23:31:39",
+  "policy_hashes": {
+    "lexicon_sha256": "80536bde5a8efdde7324aa492b198d8fb658d39d820d0de3f96542ed0c3e48a6",
+    "weights_sha256": "774c6a25cee067bb337e716c5d54898020baa028b575b1370b32e3c8f8611eb6",
+    "master_seed": 1337,
+    "k": 100
+  },
+  "results": {
+    "k": 100,
+    "generated": 100,
+    "passed_generation": 100,
+    "generation_rate": 1.0,
+    "context_evaluated": 100,
+    "context_passed": 100,
+    "context_pass_rate": 1.0
+  },
+  "metrics": {
+    "avg_content_ratio": 0.6200058275058274,
+    "avg_np_count": 2.11,
+    "avg_unique_types": 6.99
+  },
+  "acceptance_criteria": {
+    "head_gate_pre_anchor": 1.0,
+    "context_pass_rate": 1.0,
+    "meets_pilot_criteria": true
+  }
+}

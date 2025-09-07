@@ -1,0 +1,24 @@
+{
+  "lambda_ng": 1.0,
+  "lambda_fw": 0.6,
+  "lambda_cov": 0.2,
+  "lambda_pattern": 0.8,
+  "lambda_verb": 1.0,
+  "lambda_content_ratio": 1.0,
+  "lambda_np": 0.8,
+  "lambda_mi": 0.6,
+  "penalty_consec_function": 1.0,
+  "penalty_repetition": 1.0,
+  "description": {
+    "lambda_ng": "Near-gate score importance",
+    "lambda_fw": "Function word density weight",
+    "lambda_cov": "Coverage maximization weight",
+    "lambda_pattern": "Flint pattern match weight",
+    "lambda_verb": "Verb presence weight",
+    "lambda_content_ratio": "Content word ratio enforcement",
+    "lambda_np": "Noun phrase count weight",
+    "lambda_mi": "Mutual information for content coherence",
+    "penalty_consec_function": "Penalty for 3+ consecutive function words",
+    "penalty_repetition": "Penalty for repeated function bigrams"
+  }
+}
