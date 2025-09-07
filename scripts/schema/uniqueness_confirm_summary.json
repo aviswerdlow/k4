@@ -1,0 +1,34 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "title": "Uniqueness Confirm Summary",
+  "type": "object",
+  "required": ["model_class", "phrase_gate_policy", "candidates", "uniqueness"],
+  "properties": {
+    "model_class": {"type": "object"},
+    "phrase_gate_policy": {"type": "object"},
+    "tie_breakers": {
+      "type": "array",
+      "items": {"type": "string"}
+    },
+    "candidates": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "required": ["label", "publishable"],
+        "properties": {
+          "label": {"type": "string"},
+          "publishable": {"type": "boolean"}
+        }
+      }
+    },
+    "tie_breakers_applied": {"type": "array"},
+    "uniqueness": {
+      "type": "object",
+      "required": ["unique", "winner"],
+      "properties": {
+        "unique": {"type": "boolean"},
+        "winner": {"type": "string"}
+      }
+    }
+  }
+}
