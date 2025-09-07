@@ -28,13 +28,25 @@ jobs:
       - name: Check policy hashes
         run: |
           set -e
-          if [ -d data/policy ]; then
-            sha=$(sha256sum data/policy/POLICY.phrase_gate.json | cut -d' ' -f1)
-            expected=$(cut -d' ' -f1 data/registry/policies.sha256)
-            [ "$sha" = "$expected" ] || (echo "policy hash mismatch"; exit 1)
-          fi
-          if [ -f data/cadence/THRESHOLDS.json ]; then
-            sha=$(sha256sum data/cadence/THRESHOLDS.json | cut -d' ' -f1)
-            expected=$(cut -d' ' -f1 data/registry/cadence_thresholds.sha256)
-            [ "$sha" = "$expected" ] || (echo "cadence hash mismatch"; exit 1)
-          fi
+          for reg in data/registry/*.sha256; do
+            [ -f "$reg" ] || continue
+            expected=$(cut -d' ' -f1 "$reg")
+            target=$(cut -d' ' -f2 "$reg")
+            actual=$(sha256sum "$target" | cut -d' ' -f1)
+            [ "$actual" = "$expected" ] || (echo "hash mismatch for $target"; exit 1)
+          done
+  manifest:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+      - name: Install deps
+        run: pip install -r requirements.txt
+      - name: Verify manifests
+        run: |
+          python scripts/tools/make_manifest.py results /tmp/results_manifest.sha256
+          diff -u /tmp/results_manifest.sha256 results/MANIFEST.sha256
+          python scripts/tools/make_manifest.py data /tmp/data_manifest.sha256
+          diff -u /tmp/data_manifest.sha256 data/MANIFEST.sha256

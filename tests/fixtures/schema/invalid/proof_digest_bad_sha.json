@@ -12,5 +12,7 @@
     {"family": "vigenere", "L": 10, "phase": 0}
   ],
   "forced_anchor_residues": [],
-  "encrypts_to_ct": true
+  "encrypts_to_ct": true,
+  "seed_recipe": "demo",
+  "seed_u64": 0
 }

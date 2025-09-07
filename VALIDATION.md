@@ -5,20 +5,33 @@ Step-by-step instructions for external reviewers to reproduce and validate the G
 ## Prerequisites
 
 1. **Clone Repository**:
+
    ```bash
    git clone https://github.com/aviswerdlow/k4.git
    cd k4
    ```
 
-2. **Install Dependencies**:
+1. **Install Dependencies**:
+
    ```bash
    pip install -r requirements.txt
    ```
 
-3. **Verify Repository Structure**:
+1. **Verify Repository Structure**:
+
    ```bash
    ls -la  # Should show: README.md, POLICY.json, VALIDATION.md, k4cli/, data/, results/, scripts/
    ```
+
+> **Before you publish**
+>
+> ```bash
+> python scripts/tools/validate_bundle.py results/GRID_ONLY --schema scripts/schema
+> ```
+>
+> Expected: every JSON reports `ok`.
+
+All published JSON files declare `"schema_version": "1.0.0"`. If schemas change, bundles must update to the matching version before release.
 
 ## Step 1: Verify File Integrity
 
@@ -61,10 +74,11 @@ k4 confirm \
 ```
 
 **Expected Results**:
+
 - Rails Validation: All checks PASS (format, anchors, head_lock, seam_guard)
-- Near Gate: Coverage ≥0.8, function words ≥6, has verb = true → PASS  
+- Near Gate: Coverage ≥0.8, function words ≥6, has verb = true → PASS
 - Phrase Gate: Both Flint v2 AND Generic tracks → PASS
-- AND Gate: accepted_by = ["flint_v2", "generic"] → PASS
+- AND Gate: accepted_by = \["flint_v2", "generic"\] → PASS
 - Overall: `✅ CANDIDATE CONFIRMED - ALL GATES PASSED`
 
 **Validation Bundle**: Check generated files in `/tmp/k4_validate_cand_005/` match the reference bundle in `results/GRID_ONLY/cand_005/`.
@@ -81,6 +95,7 @@ k4 grid-unique \
 ```
 
 **Expected Results**:
+
 ```
 === Tie-breaker Analysis ===
 1. Holm adj_p_min: TIE (both ~9.999e-05)
@@ -102,11 +117,12 @@ k4 verify --bundle results/GRID_ONLY/cand_005 --policy POLICY.json
 ```
 
 **Expected Results**:
+
 - Required Files: PASS (all present)
 - Rails Validation: PASS (format, anchors, head lock, seam)
-- Policy Compliance: PASS (AND gate, tracks passed)  
+- Policy Compliance: PASS (AND gate, tracks passed)
 - Encryption Check: PASS (PT encrypts to CT)
-- Nulls Validation: PASS (p_cov < 0.01, p_fw < 0.01)
+- Nulls Validation: PASS (p_cov \< 0.01, p_fw \< 0.01)
 - Overall: `✅ BUNDLE VERIFICATION PASSED`
 
 ## Step 5: Generate Summary (Optional)
@@ -121,6 +137,7 @@ k4 summarize --grid-only \
 ```
 
 Compare with the reference:
+
 ```bash
 diff results/GRID_ONLY/uniqueness_confirm_summary_GRID.json /tmp/uniqueness_summary_regenerated.json
 ```
@@ -157,6 +174,7 @@ experiments/seam_free/runs/20250903/FINAL_SUMMARY.md
 You can independently verify the algebraic analysis showing anchors alone do not force the tail:
 
 **Single-Key Test** (demonstrates over-constraint):
+
 ```bash
 python experiments/anchors_only/scripts/tail_forcing_scan.py \
   --ct experiments/anchors_only/data/ciphertext_97.txt \
@@ -169,6 +187,7 @@ python experiments/anchors_only/scripts/tail_forcing_scan.py \
 ```
 
 **Multi-Class Test** (demonstrates insufficient coverage):
+
 ```bash
 python experiments/anchors_multiclass/scripts/multiclass_tail_forcing_scan.py \
   --ct experiments/anchors_multiclass/data/ciphertext_97.txt \
@@ -180,10 +199,12 @@ python experiments/anchors_multiclass/scripts/multiclass_tail_forcing_scan.py \
 ```
 
 **Expected Results**:
-- Single-key: 0% feasible models (anchor collisions)  
+
+- Single-key: 0% feasible models (anchor collisions)
 - Multi-class: 100% feasible, 0% tail-forced (insufficient residue coverage)
 
 **Analysis Files**:
+
 ```
 experiments/anchors_only/runs/20250903/TAIL_FORCING_REPORT.md
 experiments/anchors_multiclass/runs/20250903/TAIL_FORCING_REPORT.md
@@ -191,27 +212,30 @@ experiments/anchors_only/MANIFEST.sha256
 experiments/anchors_multiclass/MANIFEST.sha256
 ```
 
-## Optional: P[74] Sweep Review
+## Optional: P\[74\] Sweep Review
 
-For reviewers wanting to inspect the P[74] analysis showing editorial choice rather than cryptographic forcing, see the sweep summary: `experiments/p74/runs/20250903_final_corrected/P74_SWEEP_SUMMARY.csv`.
+For reviewers wanting to inspect the P\[74\] analysis showing editorial choice rather than cryptographic forcing, see the sweep summary: `experiments/p74/runs/20250903_final_corrected/P74_SWEEP_SUMMARY.csv`.
 
 ## Acceptance Criteria
 
 For validation to be considered successful, **ALL** of the following must be true:
 
 ### ✅ Core Validation
+
 - [ ] File integrity checks pass (Step 1)
-- [ ] Winner confirmation passes all gates (Step 2): rails, near-gate, phrase-gate (AND), nulls  
+- [ ] Winner confirmation passes all gates (Step 2): rails, near-gate, phrase-gate (AND), nulls
 - [ ] `encrypts_to_ct: true` in coverage report
 - [ ] `accepted_by: ["flint_v2", "generic"]` in phrase gate report
-- [ ] Holm adjusted p-values < 0.01 for both coverage and f_words metrics
+- [ ] Holm adjusted p-values \< 0.01 for both coverage and f_words metrics
 
-### ✅ Uniqueness Validation  
+### ✅ Uniqueness Validation
+
 - [ ] Tie-breaker sequence operates correctly (Step 3)
 - [ ] Coverage separates candidates: cand_005 (0.923) > cand_004 (0.885)
 - [ ] Summary reports `"unique": true` and `"winner": "cand_005"`
 
 ### ✅ Technical Compliance
+
 - [ ] Bundle verification passes (Step 4)
 - [ ] SHA-256 hashes match expected values
 - [ ] Permutation SHA matches: `a5260415e76509638b4845d5e707521126aca2d67b50177b3c94f8ccc4c56c31`
@@ -220,12 +244,14 @@ For validation to be considered successful, **ALL** of the following must be tru
 ## Quick Sanity Checks
 
 ### Plaintext Verification
+
 ```bash
 cat results/GRID_ONLY/cand_005/plaintext_97.txt
 # Expected: WECANSEETHETEXTISCODEEASTNORTHEASTWESETTHECOURSETRUEREADTHENSEEBERLINCLOCKTHEJOYOFANANGLEISTHEARC
 ```
 
-### Policy Verification  
+### Policy Verification
+
 ```bash
 grep -A 5 '"combine"' POLICY.json
 # Expected: "combine": "AND"
@@ -235,6 +261,7 @@ grep -A 3 '"pos_threshold"' POLICY.json
 ```
 
 ### Route Verification
+
 ```bash
 grep '"route_id"' results/GRID_ONLY/cand_005/proof_digest.json
 # Expected: "route_id": "GRID_W14_ROWS"
@@ -253,7 +280,7 @@ grep '"route_id"' results/GRID_ONLY/cand_005/proof_digest.json
 ## Expected Runtime
 
 - Step 1 (Hash verification): ~5 seconds
-- Step 2 (Winner confirmation): ~10 seconds  
+- Step 2 (Winner confirmation): ~10 seconds
 - Step 3 (Uniqueness validation): ~2 seconds
 - Step 4 (Bundle verification): ~2 seconds
 - Step 5 (Summary generation): ~3 seconds
@@ -265,8 +292,8 @@ grep '"route_id"' results/GRID_ONLY/cand_005/proof_digest.json
 Upon successful completion of all validation steps, you will have independently verified:
 
 1. **Mathematical Uniqueness**: cand_005 is the unique GRID-only AND gate winner
-2. **Cryptographic Validity**: The solution satisfies all rail, gate, and null hypothesis requirements  
-3. **Reproducible Evidence**: All results are deterministic and backed by SHA-256 integrity
-4. **Audit Trail**: Complete provenance from input data to final uniqueness verdict
+1. **Cryptographic Validity**: The solution satisfies all rail, gate, and null hypothesis requirements
+1. **Reproducible Evidence**: All results are deterministic and backed by SHA-256 integrity
+1. **Audit Trail**: Complete provenance from input data to final uniqueness verdict
 
 This constitutes a complete, independent validation of the K4 GRID-only uniqueness claim.

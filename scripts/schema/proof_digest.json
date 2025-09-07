@@ -3,14 +3,29 @@
   "$id": "https://k4/schema/proof_digest.json",
   "type": "object",
   "additionalProperties": false,
-  "required": ["schema_version", "route_id", "t2_sha256", "classing", "per_class", "forced_anchor_residues"],
+  "required": [
+    "schema_version",
+    "route_id",
+    "t2_sha256",
+    "classing",
+    "per_class",
+    "forced_anchor_residues",
+    "encrypts_to_ct",
+    "seed_recipe",
+    "seed_u64"
+  ],
   "properties": {
     "schema_version": {"type": "string", "enum": ["1.0.0"]},
-    "ct_sha256": {"type": "string", "pattern": "^[a-f0-9]{64}$"},
-    "pt_sha256": {"type": "string", "pattern": "^[a-f0-9]{64}$"},
-    "route_id": {"type": "string", "pattern": "^GRID_W(10|12|14)_(ROWS|BOU|NE|NW)$"},
-    "t2_path": {"type": "string"},
-    "t2_sha256": {"type": "string", "pattern": "^[a-f0-9]{64}$"},
+    "route_id": {
+      "type": "string",
+      "pattern": "^(GRID|SPOKE|RAILFENCE)_[A-Z0-9_]+$",
+      "$comment": "Route identifier for GRID/SPOKE/RAILFENCE families"
+    },
+    "t2_sha256": {
+      "type": "string",
+      "pattern": "^[a-f0-9]{64}$",
+      "$comment": "SHA-256 of permutation table"
+    },
     "classing": {"type": "string", "enum": ["c6a", "c6b"]},
     "per_class": {
       "type": "array",
@@ -19,17 +34,14 @@
       "items": {
         "type": "object",
         "additionalProperties": false,
-        "required": ["class_id", "family", "L", "phase"],
+        "required": ["family", "L", "phase"],
         "properties": {
-          "class_id": {"type": "integer", "minimum": 0, "maximum": 5},
           "family": {"type": "string", "enum": ["vigenere", "variant_beaufort", "beaufort"]},
           "L": {"type": "integer", "minimum": 10, "maximum": 22},
           "phase": {"type": "integer", "minimum": 0}
         }
       }
     },
-    "anchor_policy": {"type": "string"},
-    "anchors_0idx": {"type": "object"},
     "forced_anchor_residues": {
       "type": "array",
       "items": {
@@ -44,9 +56,15 @@
         }
       }
     },
+    "encrypts_to_ct": {"type": "boolean"},
     "seed_recipe": {"type": "string"},
-    "seed_u64": {"type": "integer", "minimum": 0},
-    "lm_manifest_sha256": {"type": "string"},
-    "encrypts_to_ct": {"type": "boolean"}
+    "seed_u64": {
+      "type": "integer",
+      "minimum": 0,
+      "maximum": 18446744073709551615,
+      "$comment": "u64 seed for RNG"
+    },
+    "pt_sha256": {"type": "string", "pattern": "^[a-f0-9]{64}$"},
+    "ct_sha256": {"type": "string", "pattern": "^[a-f0-9]{64}$"}
   }
 }

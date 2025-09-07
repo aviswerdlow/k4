@@ -1,0 +1,33 @@
+{
+  "schema_version": "1.0.0",
+  "rails": {
+    "anchors_0idx": {
+      "EAST": [21, 24],
+      "NORTHEAST": [25, 33],
+      "BERLINCLOCK": [63, 73]
+    }
+  },
+  "head_lock": [0, 74],
+  "tail_guard": {
+    "seam": {
+      "range": [80, 96],
+      "cuts": [81, 83, 88, 90, 93],
+      "tokens": ["OF", "AN", "ANGLE", "IS", "THE", "ARC"]
+    }
+  },
+  "pt_sha256": "aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa",
+  "ct_sha256": "bbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbb",
+  "proof_sha256": "cccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccc",
+  "t2_sha256": "dddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddd",
+  "near_gate": {
+    "coverage": 0.9,
+    "f_words": 10,
+    "has_verb": true,
+    "pass": true
+  },
+  "phrase_gate": {
+    "accepted_by": ["flint_v2", "generic"],
+    "pass": true
+  },
+  "nulls": "not_run"
+}
