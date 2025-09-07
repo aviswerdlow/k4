@@ -1,22 +1,54 @@
 {
   "$schema": "https://json-schema.org/draft/2020-12/schema",
   "$id": "https://k4/schema/holm_report_canonical.json",
-  "type": "object",
-  "additionalProperties": false,
-  "required": ["schema_version", "num_trials", "p_cov_holm", "p_fw_holm", "publishable"],
-  "properties": {
-    "schema_version": {"type": "string", "enum": ["1.0.0"]},
-    "num_trials": {"type": "integer", "minimum": 10000},
-    "seed_recipe": {"type": "string"},
-    "seed_u64": {"type": "integer", "minimum": 0},
-    "obs_coverage": {"type": "number"},
-    "obs_f_words": {"type": "integer"},
-    "count_cov_ge_obs": {"type": "integer"},
-    "count_fw_ge_obs": {"type": "integer"},
-    "p_cov_raw": {"type": "number", "minimum": 0, "maximum": 1},
-    "p_fw_raw": {"type": "number", "minimum": 0, "maximum": 1},
-    "p_cov_holm": {"type": "number", "minimum": 0, "maximum": 1},
-    "p_fw_holm": {"type": "number", "minimum": 0, "maximum": 1},
-    "publishable": {"type": "boolean"}
-  }
+  "oneOf": [
+    {
+      "type": "object",
+      "additionalProperties": false,
+      "required": ["schema_version", "K", "metrics", "publishable"],
+      "properties": {
+        "schema_version": {"type": "string", "enum": ["1.0.0"]},
+        "K": {"type": "integer", "minimum": 10000},
+        "metrics": {
+          "type": "object",
+          "additionalProperties": false,
+          "required": ["coverage", "f_words"],
+          "properties": {
+            "coverage": {
+              "type": "object",
+              "additionalProperties": false,
+              "required": ["p_raw", "p_holm"],
+              "properties": {
+                "p_raw": {"type": "number", "minimum": 0, "maximum": 1},
+                "p_holm": {"type": "number", "minimum": 0, "maximum": 1}
+              }
+            },
+            "f_words": {
+              "type": "object",
+              "additionalProperties": false,
+              "required": ["p_raw", "p_holm"],
+              "properties": {
+                "p_raw": {"type": "number", "minimum": 0, "maximum": 1},
+                "p_holm": {"type": "number", "minimum": 0, "maximum": 1}
+              }
+            }
+          }
+        },
+        "publishable": {"type": "boolean"}
+      }
+    },
+    {
+      "type": "object",
+      "additionalProperties": false,
+      "required": ["schema_version", "status", "reason"],
+      "properties": {
+        "schema_version": {"type": "string", "enum": ["1.0.0"]},
+        "status": {"const": "not_run"},
+        "reason": {
+          "type": "string",
+          "enum": ["phrase_gate_failed", "resource_limit", "not_applicable"]
+        }
+      }
+    }
+  ]
 }

@@ -1,15 +1,9 @@
 {
-  "num_trials": 10000,
-  "seed_recipe": "GRID_AND_GATE_cand_004",
-  "seed_u64": 1906775582,
-  "obs_coverage": 0.8846153846153846,
-  "obs_f_words": 10,
-  "count_cov_ge_obs": 0,
-  "count_fw_ge_obs": 0,
-  "p_cov_raw": 0.00009999000099990002,
-  "p_fw_raw": 0.00009999000099990002,
-  "p_cov_holm": 0.00019998000199980003,
-  "p_fw_holm": 0.00009999000099990002,
-  "publishable": true,
-  "schema_version": "1.0.0"
+  "schema_version": "1.0.0",
+  "K": 10000,
+  "metrics": {
+    "coverage": {"p_raw": 0.00009999, "p_holm": 0.00019998},
+    "f_words": {"p_raw": 0.00009999, "p_holm": 0.00009999}
+  },
+  "publishable": true
 }

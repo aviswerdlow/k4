@@ -1,5 +1,8 @@
 # manifest_version: 1.0.0
-# generated: 2025-09-07T00:17:35.097187Z
+# generated_at: 2025-09-07T00:37:14.066066Z
+# git_commit: ae2677bf49b5cf0687d57cb8abd2cdf68735e5b4
+# THRESHOLDS.json: cbff0f462242509006e589dc08313d9450540f92dbc113278f739059e5a77323
+# POLICY.phrase_gate.json: 74abcbfda4b32587b2fe62b51d28e6bc230a3a2ee729aa2657cf31bb90b36b9d
 cbff0f462242509006e589dc08313d9450540f92dbc113278f739059e5a77323  cadence/THRESHOLDS.json
 c3b8c5770ab1aceddf6b651b27a94cdb0eba3fd3d481eda781aeba2dff6fd61f  calibration/calib_97_perplexity.json
 7d680231e9793ecd6ad7252404e91c726e564cd57fcbf140289b9256e077143d  calibration/pos_threshold.txt

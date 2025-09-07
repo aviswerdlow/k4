@@ -14,6 +14,7 @@ REQUIRED_FILES = [
     "hashes.txt",
 ]
 
+
 def load_schemas(schema_dir: Path):
     schemas = {}
     for path in schema_dir.glob("*.json"):
@@ -21,17 +22,23 @@ def load_schemas(schema_dir: Path):
             schemas[path.stem] = json.load(f)
     return schemas
 
+
 def match_schema(file_name: str, schemas):
     for name in schemas:
         if file_name.startswith(name):
             return schemas[name]
     return None
 
-def validate_bundle(bundle_dir: Path, schema_dir: Path, mode: str = "strict") -> bool:
+
+def validate_bundle(
+    bundle: Path,
+    schema_dir: Path,
+    mode: str = "strict",
+) -> bool:
     schemas = load_schemas(schema_dir)
     ok = True
     errors = []
-    for json_path in bundle_dir.rglob("*.json"):
+    for json_path in bundle.rglob("*.json"):
         schema = match_schema(json_path.name, schemas)
         if schema is None:
             print(f"{json_path}: no matching schema; skipped")
@@ -47,29 +54,41 @@ def validate_bundle(bundle_dir: Path, schema_dir: Path, mode: str = "strict") ->
                 ok = False
                 errors.append(f"{json_path}: {e}")
     if mode == "strict":
-        summary = list(bundle_dir.glob("uniqueness_confirm_summary*.json"))
-        if not summary:
-            ok = False
-            errors.append("missing uniqueness summary")
-        for cand_dir in bundle_dir.glob("cand_*"):
-            for name in REQUIRED_FILES:
-                if not (cand_dir / name).exists():
-                    ok = False
-                    errors.append(f"missing {cand_dir / name}")
+        cand_dirs = list(bundle.glob("cand_*"))
+        if cand_dirs:
+            summary = list(bundle.glob("uniqueness_confirm_summary*.json"))
+            if not summary:
+                ok = False
+                errors.append("missing uniqueness summary")
+            for cand_dir in cand_dirs:
+                for name in REQUIRED_FILES:
+                    if not (cand_dir / name).exists():
+                        ok = False
+                        errors.append(f"missing {cand_dir / name}")
     if errors:
         print("Validation errors:")
         for e in errors:
             print(f" - {e}")
     return ok
 
+
 def main():
     parser = argparse.ArgumentParser(description="Validate bundle JSON files")
     parser.add_argument("bundle", type=Path, help="Path to bundle directory")
     parser.add_argument("--schema", type=Path, default=Path("scripts/schema"))
-    parser.add_argument("--mode", choices=["strict", "lenient"], default="strict")
+    parser.add_argument(
+        "--mode",
+        choices=["strict", "lenient"],
+        default="strict",
+    )
     args = parser.parse_args()
-    success = validate_bundle(args.bundle, args.schema, args.mode)
+    success = validate_bundle(
+        bundle=args.bundle,
+        schema_dir=args.schema,
+        mode=args.mode,
+    )
     raise SystemExit(0 if success else 1)
+
 
 if __name__ == "__main__":
     main()

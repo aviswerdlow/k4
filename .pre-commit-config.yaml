@@ -23,3 +23,4 @@ repos:
         entry: python scripts/tools/validate_bundle.py results/GRID_ONLY --schema scripts/schema
         language: system
         pass_filenames: false
+        files: ^results/

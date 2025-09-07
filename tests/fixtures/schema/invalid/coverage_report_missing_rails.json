@@ -1,0 +1,12 @@
+{
+  "schema_version": "1.0.0",
+  "head_lock": [0, 74],
+  "tail_guard": {"seam": {"range": [80,96], "cuts": [], "tokens": []}},
+  "pt_sha256": "aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa",
+  "ct_sha256": "bbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbb",
+  "proof_sha256": "cccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccc",
+  "t2_sha256": "dddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddd",
+  "near_gate": {"coverage": 0.9, "f_words": 10, "has_verb": true, "pass": true},
+  "phrase_gate": {"accepted_by": ["flint_v2", "generic"], "pass": true},
+  "nulls": "not_run"
+}

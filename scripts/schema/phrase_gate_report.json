@@ -3,39 +3,81 @@
   "$id": "https://k4/schema/phrase_gate_report.json",
   "type": "object",
   "additionalProperties": false,
-  "required": ["schema_version", "flint_v2", "generic", "accepted_by", "passed"],
+  "required": [
+    "schema_version",
+    "accepted_by",
+    "pass",
+    "tracks"
+  ],
   "properties": {
     "schema_version": {"type": "string", "enum": ["1.0.0"]},
-    "flint_v2": {
+    "combine": {"type": "string", "enum": ["AND", "OR"]},
+    "accepted_by": {
+      "type": "array",
+      "items": {"type": "string"}
+    },
+    "pass": {"type": "boolean"},
+    "tracks": {
       "type": "object",
       "additionalProperties": false,
-      "required": ["passed"],
+      "required": ["flint_v2", "generic"],
       "properties": {
-        "declination_found": {"type": "boolean"},
-        "declination_type": {"type": "string"},
-        "instrument_verb_found": {"type": "boolean"},
-        "instrument_verb": {"type": "string"},
-        "direction_tokens": {"type": "array", "items": {"type": "string"}},
-        "instrument_noun_found": {"type": "boolean"},
-        "instrument_noun": {"type": "string"},
-        "content_words": {"type": "integer", "minimum": 0},
-        "max_repeat_non_anchor": {"type": "integer", "minimum": 0},
-        "passed": {"type": "boolean"}
+        "flint_v2": {
+          "type": "object",
+          "additionalProperties": false,
+          "required": ["passed", "evidence"],
+          "properties": {
+            "passed": {"type": "boolean"},
+            "evidence": {
+              "type": "object",
+              "additionalProperties": false,
+              "properties": {
+                "declination_expression": {"type": "boolean"},
+                "instrument_verb_after": {"type": "boolean"},
+                "directions_present": {"type": "boolean"},
+                "instrument_nouns": {"type": "boolean"},
+                "content_count": {"type": "integer", "minimum": 0},
+                "max_repeat_non_anchor_content": {"type": "integer", "minimum": 0}
+              }
+            }
+          }
+        },
+        "generic": {
+          "type": "object",
+          "additionalProperties": false,
+          "required": [
+            "passed",
+            "perplexity_percentile",
+            "pos_score",
+            "threshold_T",
+            "content_count",
+            "max_repeat_non_anchor_content"
+          ],
+          "properties": {
+            "passed": {"type": "boolean"},
+            "perplexity_percentile": {"type": "number", "minimum": 0},
+            "pos_score": {"type": "number", "minimum": 0},
+            "threshold_T": {"type": "number"},
+            "content_count": {"type": "integer", "minimum": 0},
+            "max_repeat_non_anchor_content": {"type": "integer", "minimum": 0}
+          }
+        }
       }
-    },
-    "generic": {
-      "type": "object",
-      "additionalProperties": false,
-      "required": ["passed", "perplexity_percentile", "pos_score", "content_words", "max_repeat_non_anchor"],
-      "properties": {
-        "perplexity_percentile": {"type": "number", "minimum": 0},
-        "pos_score": {"type": "number", "minimum": 0},
-        "content_words": {"type": "integer", "minimum": 0},
-        "max_repeat_non_anchor": {"type": "integer", "minimum": 0},
-        "passed": {"type": "boolean"}
+    }
+  },
+  "allOf": [
+    {
+      "if": {"properties": {"combine": {"const": "AND"}}},
+      "then": {
+        "properties": {
+          "accepted_by": {
+            "allOf": [
+              {"contains": {"const": "flint_v2"}},
+              {"contains": {"const": "generic"}}
+            ]
+          }
+        }
       }
-    },
-    "accepted_by": {"type": "array", "items": {"type": "string"}},
-    "passed": {"type": "boolean"}
-  }
+    }
+  ]
 }

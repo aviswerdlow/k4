@@ -1,7 +1,8 @@
 {
-  "model_class_restriction": "GRID_only",
+  "schema_version": "1.0.0",
   "combine": "AND",
-  "tokenization_v2": true,
+  "tokenization": "v2",
+  "window": [0, 74],
   "flint_v2": {
     "declination_patterns": [
       "SET COURSE TRUE",
@@ -10,36 +11,23 @@
       "APPLY DECLINATION",
       "BRING TRUE MERIDIAN"
     ],
-    "instrument_verbs": [
-      "READ",
-      "SEE",
-      "NOTE",
-      "SIGHT",
-      "OBSERVE"
-    ],
-    "direction_tokens": [
-      "EAST",
-      "NORTHEAST"
-    ],
-    "instrument_nouns": [
-      "BERLIN",
-      "CLOCK",
-      "BERLINCLOCK",
-      "DIAL"
-    ],
-    "min_content_words": 6,
-    "max_repeat_non_anchor": 2
+    "instrument_verbs": ["READ", "SEE", "NOTE", "SIGHT", "OBSERVE"],
+    "directions": ["EAST", "NORTHEAST"],
+    "instrument_nouns": ["BERLIN", "CLOCK", "BERLINCLOCK", "DIAL"],
+    "min_content": 6,
+    "max_repeat": 2
   },
   "generic": {
-    "percentile_top": 1,
+    "perplexity_top_percent": 1.0,
     "pos_threshold": 0.6,
-    "min_content_words": 6,
-    "max_repeat": 2,
-    "calib_files": {
+    "calibration_hashes": {
       "perplexity": "9bbcf015635ccf5b1a3b225f9732d9a587c32eb97ab1eaeb3f52742aecdc45db",
       "pos_trigrams": "a5fad7d87294b1c968e58e43e0106bbb49b377e952cdb420db92ce65cdfda3b9",
       "pos_threshold": "7d680231e9793ecd6ad7252404e91c726e564cd57fcbf140289b9256e077143d"
     }
   },
-  "schema_version": "1.0.0"
+  "cadence_ref": {
+    "policy_sha256": "74abcbfda4b32587b2fe62b51d28e6bc230a3a2ee729aa2657cf31bb90b36b9d",
+    "thresholds_sha256": "cbff0f462242509006e589dc08313d9450540f92dbc113278f739059e5a77323"
+  }
 }

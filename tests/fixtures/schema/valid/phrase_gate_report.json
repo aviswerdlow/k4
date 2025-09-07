@@ -1,13 +1,24 @@
 {
   "schema_version": "1.0.0",
-  "flint_v2": {"passed": true},
-  "generic": {
-    "perplexity_percentile": 0.1,
-    "pos_score": 0.6,
-    "content_words": 0,
-    "max_repeat_non_anchor": 0,
-    "passed": true
-  },
+  "combine": "AND",
   "accepted_by": ["flint_v2", "generic"],
-  "passed": true
+  "pass": true,
+  "tracks": {
+    "flint_v2": {
+      "passed": true,
+      "evidence": {
+        "directions_present": true,
+        "content_count": 6,
+        "max_repeat_non_anchor_content": 1
+      }
+    },
+    "generic": {
+      "passed": true,
+      "perplexity_percentile": 0.1,
+      "pos_score": 0.7,
+      "threshold_T": 0.6,
+      "content_count": 6,
+      "max_repeat_non_anchor_content": 1
+    }
+  }
 }

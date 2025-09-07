@@ -4,13 +4,15 @@
   "t2_sha256": "a5260415e76509638b4845d5e707521126aca2d67b50177b3c94f8ccc4c56c31",
   "classing": "c6a",
   "per_class": [
-    {"class_id":0,"family": "vigenere", "L": 10, "phase": 0},
-    {"class_id":1,"family": "vigenere", "L": 10, "phase": 0},
-    {"class_id":2,"family": "vigenere", "L": 10, "phase": 0},
-    {"class_id":3,"family": "vigenere", "L": 10, "phase": 0},
-    {"class_id":4,"family": "vigenere", "L": 10, "phase": 0},
-    {"class_id":5,"family": "vigenere", "L": 10, "phase": 0}
+    {"family": "vigenere", "L": 10, "phase": 0},
+    {"family": "vigenere", "L": 10, "phase": 0},
+    {"family": "vigenere", "L": 10, "phase": 0},
+    {"family": "vigenere", "L": 10, "phase": 0},
+    {"family": "vigenere", "L": 10, "phase": 0},
+    {"family": "vigenere", "L": 10, "phase": 0}
   ],
   "forced_anchor_residues": [],
-  "encrypts_to_ct": true
+  "encrypts_to_ct": true,
+  "seed_recipe": "demo",
+  "seed_u64": 0
 }

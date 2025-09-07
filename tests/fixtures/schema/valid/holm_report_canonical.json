@@ -1,0 +1,9 @@
+{
+  "schema_version": "1.0.0",
+  "K": 10000,
+  "metrics": {
+    "coverage": {"p_raw": 0.001, "p_holm": 0.002},
+    "f_words": {"p_raw": 0.003, "p_holm": 0.004}
+  },
+  "publishable": true
+}

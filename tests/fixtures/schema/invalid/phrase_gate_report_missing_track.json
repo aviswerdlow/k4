@@ -1,8 +1,0 @@
-{
-  "schema_version": "1.0.0",
-  "combine": "AND",
-  "accepted_by": ["flint_v2"],
-  "tracks": {
-    "flint_v2": {"passed": true}
-  }
-}
