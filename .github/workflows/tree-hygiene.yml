@@ -1,0 +1,79 @@
+name: Tree Hygiene
+
+on:
+  push:
+    branches: [ main ]
+  pull_request:
+    branches: [ main ]
+
+jobs:
+  tree-hygiene:
+    runs-on: ubuntu-latest
+    
+    steps:
+      - uses: actions/checkout@v4
+      
+      - name: Check for stray top-level directories
+        run: |
+          # List of disallowed top-level directories
+          disallowed="data results release review runs scripts k4cli docs archive"
+          
+          # Check each disallowed directory
+          for d in $disallowed; do
+            if [ -d "$d" ]; then
+              echo "::error::Legacy directory '$d' found at root. Please migrate to appropriate 0X_ directory"
+              echo "  - data/ → 02_DATA/"
+              echo "  - results/ → 01_PUBLISHED/ or 05_ARCHIVE/"
+              echo "  - release/ → GitHub Releases or 05_ARCHIVE/"
+              echo "  - review/ → 04_EXPERIMENTS/reviews/"
+              echo "  - runs/ → 04_EXPERIMENTS/ or 05_ARCHIVE/"
+              echo "  - scripts/ → 03_SOLVERS/ or 07_TOOLS/"
+              echo "  - k4cli/ → 07_TOOLS/"
+              echo "  - docs/ → 06_DOCUMENTATION/"
+              echo "  - archive/ → 05_ARCHIVE/"
+              exit 1
+            fi
+          done
+          
+          echo "✅ No legacy directories found at root"
+      
+      - name: Check for stray files at root
+        run: |
+          # Check for duplicate POLICY.json at root
+          if [ -f "POLICY.json" ]; then
+            echo "::error::POLICY.json found at root. Canonical location is 03_SOLVERS/v5_2_2_B/configs/"
+            exit 1
+          fi
+          
+          # Check for log files at root
+          log_count=$(find . -maxdepth 1 -name "*.log" | wc -l)
+          if [ "$log_count" -gt 0 ]; then
+            echo "::error::Log files found at root. Please move to 04_EXPERIMENTS/logs/"
+            find . -maxdepth 1 -name "*.log" -exec basename {} \;
+            exit 1
+          fi
+          
+          echo "✅ No stray files found at root"
+      
+      - name: Verify expected structure
+        run: |
+          # Required directories
+          required="01_PUBLISHED 02_DATA 03_SOLVERS 04_EXPERIMENTS 05_ARCHIVE"
+          
+          for d in $required; do
+            if [ ! -d "$d" ]; then
+              echo "::error::Required directory '$d' not found"
+              exit 1
+            fi
+          done
+          
+          echo "✅ All required directories present"
+          
+          # Optional but expected directories
+          optional="06_DOCUMENTATION 07_TOOLS"
+          
+          for d in $optional; do
+            if [ -d "$d" ]; then
+              echo "✅ Optional directory '$d' present"
+            fi
+          done

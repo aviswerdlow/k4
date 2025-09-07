@@ -170,17 +170,73 @@
 
 ---
 
+## Stage F: Final Cleanup ✅ COMPLETE
+
+**Commit**: [pending]
+**Date**: 2025-01-07
+
+### What Was Done
+1. **Removed All Legacy Roots**:
+   - Migrated remaining data/ contents to 02_DATA/
+   - Cleaned up empty results/ directory
+   - Archived release/ to 05_ARCHIVE/releases/
+   - Moved review/ to 04_EXPERIMENTS/reviews/
+   - Moved runs/confirm to 04_EXPERIMENTS/confirm/
+   - Removed empty directories (archive/, docs/, etc.)
+
+2. **Created New Structure**:
+   - 06_DOCUMENTATION/ for all documentation
+   - 07_TOOLS/ for utilities and CLI tools
+   - 07_TOOLS/validation/ for validation scripts
+   - 07_TOOLS/migration/ for migration tools
+
+3. **Cleaned Stray Files**:
+   - Moved log files to 04_EXPERIMENTS/logs/
+   - Removed duplicate POLICY.json (canonical in 03_SOLVERS)
+   - Removed .DS_Store and added to .gitignore
+
+4. **Added CI Protection**:
+   - Created .github/workflows/tree-hygiene.yml
+   - Prevents legacy directories from returning
+   - Validates required structure on every PR
+
+5. **Regenerated All Manifests**:
+   - Updated manifests for all major directories
+   - Top-level manifest now shows 7,159 files
+
+### Final Structure
+```
+k4_cli_plus/
+├── 01_PUBLISHED/       # Main results (winner & runner-up)
+├── 02_DATA/           # Essential data files
+├── 03_SOLVERS/        # Pipeline code
+├── 04_EXPERIMENTS/    # Supporting evidence
+├── 05_ARCHIVE/        # Historical materials
+├── 06_DOCUMENTATION/  # All documentation
+├── 07_TOOLS/          # Utilities and tools
+├── tests/             # Test suite
+├── .github/           # CI/CD workflows
+└── [config files]     # Root-level configs only
+```
+
+### CI Status
+✅ Green - Tree hygiene check prevents regression
+
+---
+
 ## Summary
 
-The 5-stage repository reorganization is complete! The repository has been transformed from 7,154 files in a complex nested structure to a clean, auditor-friendly layout with clear separation of concerns:
+The 6-stage repository reorganization is complete! The repository has been transformed from 7,154 files in a complex nested structure to a pristine, auditor-friendly layout:
 
-1. **Published results** are prominently displayed
-2. **Data files** are centralized
-3. **Solver code** is organized by version
-4. **Supporting evidence** is easily accessible
-5. **Historical materials** are archived but available
+1. **Published results** in 01_PUBLISHED/
+2. **Data files** in 02_DATA/
+3. **Solver code** in 03_SOLVERS/
+4. **Supporting evidence** in 04_EXPERIMENTS/
+5. **Historical materials** in 05_ARCHIVE/
+6. **Documentation** in 06_DOCUMENTATION/
+7. **Tools** in 07_TOOLS/
 
-The repository is now ready for external review and release.
+**No legacy roots remain.** CI prevents regression. The repository is now truly clean and ready for external review and release.
 
 
 ---

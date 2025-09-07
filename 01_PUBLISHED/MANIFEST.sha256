@@ -1,8 +1,6 @@
 # manifest_version: 1.0.0
-# generated_at: 2025-09-07T22:16:44.058810Z
-# git_commit: 5da430e0a5d2a67cf3ead032fc60258042971e2c
-# THRESHOLDS.json: cbff0f462242509006e589dc08313d9450540f92dbc113278f739059e5a77323
-# POLICY.phrase_gate.json: 74abcbfda4b32587b2fe62b51d28e6bc230a3a2ee729aa2657cf31bb90b36b9d
+# generated_at: 2025-09-07T23:08:35.812798Z
+# git_commit: 8e49995ee151e7ff27cbd73dcd5cb3eaffda4672
 dc73981d59b5917143a0e09c2d8a36d7ec2e22a968825a63ce8a6100fcdf49da  runner_up_cand_004/coverage_report.json
 22f3ca9557189a484ac897a06bdbc722477311e2f15a1dd06f9ac11e05222533  runner_up_cand_004/hashes.txt
 0993c905a4fb6ab26389ef7c8bdd5f0fbf6145b63f23c8be1779b05072baa300  runner_up_cand_004/holm_report_canonical.json
