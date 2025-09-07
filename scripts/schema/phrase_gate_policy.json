@@ -1,0 +1,47 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://k4/schema/phrase_gate_policy.json",
+  "type": "object",
+  "additionalProperties": false,
+  "required": ["schema_version", "model_class_restriction", "combine", "tokenization_v2", "flint_v2", "generic"],
+  "properties": {
+    "schema_version": {"type": "string", "enum": ["1.0.0"]},
+    "model_class_restriction": {"type": "string"},
+    "combine": {"type": "string", "enum": ["AND", "OR"]},
+    "tokenization_v2": {"type": "boolean"},
+    "flint_v2": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": ["declination_patterns", "instrument_verbs", "direction_tokens", "instrument_nouns", "min_content_words", "max_repeat_non_anchor"],
+      "properties": {
+        "declination_patterns": {"type": "array", "items": {"type": "string"}},
+        "instrument_verbs": {"type": "array", "items": {"type": "string"}},
+        "direction_tokens": {"type": "array", "items": {"type": "string"}},
+        "instrument_nouns": {"type": "array", "items": {"type": "string"}},
+        "min_content_words": {"type": "integer", "minimum": 0},
+        "max_repeat_non_anchor": {"type": "integer", "minimum": 0}
+      }
+    },
+    "generic": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": ["percentile_top", "pos_threshold", "min_content_words", "max_repeat", "calib_files"],
+      "properties": {
+        "percentile_top": {"type": "number"},
+        "pos_threshold": {"type": "number"},
+        "min_content_words": {"type": "integer", "minimum": 0},
+        "max_repeat": {"type": "integer", "minimum": 0},
+        "calib_files": {
+          "type": "object",
+          "additionalProperties": false,
+          "required": ["perplexity", "pos_trigrams", "pos_threshold"],
+          "properties": {
+            "perplexity": {"type": "string", "pattern": "^[a-f0-9]{64}$"},
+            "pos_trigrams": {"type": "string", "pattern": "^[a-f0-9]{64}$"},
+            "pos_threshold": {"type": "string", "pattern": "^[a-f0-9]{64}$"}
+          }
+        }
+      }
+    }
+  }
+}

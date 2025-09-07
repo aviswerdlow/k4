@@ -1,0 +1,40 @@
+name: Validate Bundles
+
+on:
+  push:
+  pull_request:
+  schedule:
+    - cron: "0 3 * * *"
+
+jobs:
+  validate:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+      - name: Install deps
+        run: pip install -r requirements.txt
+      - name: Validate published bundles
+        run: |
+          python scripts/tools/validate_bundle.py results/GRID_ONLY --schema scripts/schema
+          python scripts/tools/validate_bundle.py experiments --schema scripts/schema --mode lenient
+          bash tests/schema/test_validation.sh
+  policy-hash:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: Check policy hashes
+        run: |
+          set -e
+          if [ -d data/policy ]; then
+            sha=$(sha256sum data/policy/POLICY.phrase_gate.json | cut -d' ' -f1)
+            expected=$(cut -d' ' -f1 data/registry/policies.sha256)
+            [ "$sha" = "$expected" ] || (echo "policy hash mismatch"; exit 1)
+          fi
+          if [ -f data/cadence/THRESHOLDS.json ]; then
+            sha=$(sha256sum data/cadence/THRESHOLDS.json | cut -d' ' -f1)
+            expected=$(cut -d' ' -f1 data/registry/cadence_thresholds.sha256)
+            [ "$sha" = "$expected" ] || (echo "cadence hash mismatch"; exit 1)
+          fi

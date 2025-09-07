@@ -1,0 +1,25 @@
+repos:
+  - repo: https://github.com/psf/black
+    rev: 24.8.0
+    hooks:
+      - id: black
+  - repo: https://github.com/pycqa/flake8
+    rev: 7.0.0
+    hooks:
+      - id: flake8
+  - repo: https://github.com/executablebooks/mdformat
+    rev: 0.7.17
+    hooks:
+      - id: mdformat
+        additional_dependencies: [mdformat-gfm]
+  - repo: https://github.com/pre-commit/mirrors-eslint
+    rev: v9.5.0
+    hooks:
+      - id: eslint
+  - repo: local
+    hooks:
+      - id: validate-results
+        name: Validate published bundles
+        entry: python scripts/tools/validate_bundle.py results/GRID_ONLY --schema scripts/schema
+        language: system
+        pass_filenames: false

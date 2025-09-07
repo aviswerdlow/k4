@@ -1,0 +1,41 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://k4/schema/phrase_gate_report.json",
+  "type": "object",
+  "additionalProperties": false,
+  "required": ["schema_version", "flint_v2", "generic", "accepted_by", "passed"],
+  "properties": {
+    "schema_version": {"type": "string", "enum": ["1.0.0"]},
+    "flint_v2": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": ["passed"],
+      "properties": {
+        "declination_found": {"type": "boolean"},
+        "declination_type": {"type": "string"},
+        "instrument_verb_found": {"type": "boolean"},
+        "instrument_verb": {"type": "string"},
+        "direction_tokens": {"type": "array", "items": {"type": "string"}},
+        "instrument_noun_found": {"type": "boolean"},
+        "instrument_noun": {"type": "string"},
+        "content_words": {"type": "integer", "minimum": 0},
+        "max_repeat_non_anchor": {"type": "integer", "minimum": 0},
+        "passed": {"type": "boolean"}
+      }
+    },
+    "generic": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": ["passed", "perplexity_percentile", "pos_score", "content_words", "max_repeat_non_anchor"],
+      "properties": {
+        "perplexity_percentile": {"type": "number", "minimum": 0},
+        "pos_score": {"type": "number", "minimum": 0},
+        "content_words": {"type": "integer", "minimum": 0},
+        "max_repeat_non_anchor": {"type": "integer", "minimum": 0},
+        "passed": {"type": "boolean"}
+      }
+    },
+    "accepted_by": {"type": "array", "items": {"type": "string"}},
+    "passed": {"type": "boolean"}
+  }
+}

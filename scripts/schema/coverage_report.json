@@ -1,0 +1,38 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://k4/schema/coverage_report.json",
+  "type": "object",
+  "additionalProperties": false,
+  "required": ["schema_version", "pt_sha256", "ct_sha256", "t2_sha256", "encrypts_to_ct", "option_a_passed", "rails_valid", "near_gate", "phrase_gate", "nulls"],
+  "properties": {
+    "schema_version": {"type": "string", "enum": ["1.0.0"]},
+    "pt_sha256": {"type": "string", "pattern": "^[a-f0-9]{64}$"},
+    "ct_sha256": {"type": "string", "pattern": "^[a-f0-9]{64}$"},
+    "t2_sha256": {"type": "string", "pattern": "^[a-f0-9]{64}$"},
+    "encrypts_to_ct": {"type": "boolean"},
+    "option_a_passed": {"type": "boolean"},
+    "rails_valid": {"type": "boolean"},
+    "near_gate": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": ["coverage", "function_words", "has_verb", "passed"],
+      "properties": {
+        "coverage": {"type": "number", "minimum": 0, "maximum": 1},
+        "function_words": {"type": "integer", "minimum": 0},
+        "has_verb": {"type": "boolean"},
+        "passed": {"type": "boolean"}
+      }
+    },
+    "phrase_gate": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": ["combine", "tracks", "pass"],
+      "properties": {
+        "combine": {"type": "string"},
+        "tracks": {"type": "array", "items": {"type": "string"}},
+        "pass": {"type": "boolean"}
+      }
+    },
+    "nulls": {"type": "object"}
+  }
+}

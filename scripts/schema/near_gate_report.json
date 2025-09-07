@@ -1,0 +1,14 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://k4/schema/near_gate_report.json",
+  "type": "object",
+  "additionalProperties": false,
+  "required": ["schema_version", "coverage", "function_words", "has_verb", "passed"],
+  "properties": {
+    "schema_version": {"type": "string", "enum": ["1.0.0"]},
+    "coverage": {"type": "number", "minimum": 0, "maximum": 1},
+    "function_words": {"type": "integer", "minimum": 0},
+    "has_verb": {"type": "boolean"},
+    "passed": {"type": "boolean"}
+  }
+}

@@ -1,3 +1,9 @@
+Before starting, validate the published bundle:
+
+```bash
+python scripts/tools/validate_bundle.py results/GRID_ONLY/cand_005 --schema scripts/schema
+```
+
 This verification packet is written for a pencil-and-paper cryptographer: clear inputs, step-by-step rails checks, and exactly how to go from the K4 ciphertext to the plaintext, with small worked examples and the right modular-arithmetic rules. 
 
 ---

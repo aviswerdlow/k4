@@ -6,9 +6,10 @@
   "obs_f_words": 10,
   "count_cov_ge_obs": 0,
   "count_fw_ge_obs": 0,
-  "p_cov_raw": 9.999000099990002e-05,
-  "p_fw_raw": 9.999000099990002e-05,
+  "p_cov_raw": 0.00009999000099990002,
+  "p_fw_raw": 0.00009999000099990002,
   "p_cov_holm": 0.00019998000199980003,
-  "p_fw_holm": 9.999000099990002e-05,
-  "publishable": true
+  "p_fw_holm": 0.00009999000099990002,
+  "publishable": true,
+  "schema_version": "1.0.0"
 }

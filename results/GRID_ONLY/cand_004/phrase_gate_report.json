@@ -25,5 +25,6 @@
     "flint_v2",
     "generic"
   ],
-  "passed": true
+  "passed": true,
+  "schema_version": "1.0.0"
 }

@@ -31,6 +31,16 @@ python scripts/make_manifest.py --check data/ data/MANIFEST.sha256
 
 **Expected Result**: `✅ All files verified successfully` for both directories.
 
+## Step 1b: Validate Bundle Schemas
+
+Run schema validation on the published bundle:
+
+```bash
+python scripts/tools/validate_bundle.py results/GRID_ONLY/cand_005 --schema scripts/schema
+```
+
+**Expected Result**: all JSON files report `ok`.
+
 ## Step 2: Validate the Winner (cand_005)
 
 Run the complete confirmation pipeline on the winner:
