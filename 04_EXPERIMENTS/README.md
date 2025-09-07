@@ -32,6 +32,10 @@ K1-K3 vs K4 style comparison with token windows and character windows.
 Survey of alternative approaches and adjacent frames.
 - See: `runs/2025-09-05/`
 
+### filler_rescreen/
+Rescreen of entire v5.2.2-B promotion queue (67 candidates) with lexicon fillers replacing padding sentinels. Status field shows metrics remain unchanged or slightly improved - no degradation from filler application.
+- See: `FILLER_RESCREEN.csv`
+
 ## Usage
 
 These experiments provide context and validation for the main solution. They demonstrate:

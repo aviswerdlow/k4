@@ -1,0 +1,15 @@
+{
+  "seed_u64_filler": 15254849010086659901,
+  "gap4_choices": [
+    "THEN",
+    "OVER",
+    "NEAR",
+    "ALSO"
+  ],
+  "gap7_choices": [
+    "BETWEEN",
+    "TOWARDS"
+  ],
+  "selected_gap4": "THEN",
+  "selected_gap7": "BETWEEN"
+}

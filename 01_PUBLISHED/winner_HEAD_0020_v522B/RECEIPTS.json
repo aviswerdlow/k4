@@ -1,0 +1,15 @@
+{
+  "pt_sha256": "e2c4daaff4f9ac567032c587085ac6a8290e10f153eb0b41814cfc6235ddc89e",
+  "t2_sha256": "a5260415e76509638b4845d5e707521126aca2d67b50177b3c94f8ccc4c56c31",
+  "policy_sha": "bc083cc4129fedbc",
+  "pre_reg_commit": "d0b03f4",
+  "phrase_gate_policy_path": "03_SOLVERS/v5_2_2_B/policies/phrase_gate_policy.json",
+  "boundary_tokenizer": "v2",
+  "filler_mode": "lexicon",
+  "fillers": {
+    "gap4": "THEN",
+    "gap7": "BETWEEN"
+  },
+  "padding_forbidden": true,
+  "timestamp": "2025-01-07T19:45:00Z"
+}

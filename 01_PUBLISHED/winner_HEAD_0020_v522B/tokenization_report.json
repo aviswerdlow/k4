@@ -66,8 +66,8 @@
       "end": 16
     },
     {
-      "text": "XXXX",
-      "class": "content",
+      "text": "THEN",
+      "class": "function",
       "start": 17,
       "end": 20
     },
@@ -132,8 +132,8 @@
       "end": 55
     },
     {
-      "text": "YYYYYYY",
-      "class": "content",
+      "text": "BETWEEN",
+      "class": "function",
       "start": 56,
       "end": 62
     },
@@ -146,14 +146,14 @@
   ],
   "summary": {
     "total_tokens": 19,
-    "function_words": 10,
+    "function_words": 12,
     "verbs": 2,
     "anchors": 3,
-    "content": 4
+    "content": 2
   },
   "gap_metrics": {
     "G1": {
-      "f_words": 4,
+      "f_words": 5,
       "verbs": 1,
       "tokens": [
         "WE",
@@ -162,11 +162,11 @@
         "THE",
         "GRID",
         "SEE",
-        "XXXX"
+        "THEN"
       ]
     },
     "G2": {
-      "f_words": 6,
+      "f_words": 7,
       "verbs": 1,
       "tokens": [
         "AND",
@@ -177,8 +177,14 @@
         "LINE",
         "TO",
         "SEE",
-        "YYYYYYY"
+        "BETWEEN"
       ]
     }
-  }
+  },
+  "filler_mode": "lexicon",
+  "fillers_used": {
+    "gap4": "THEN",
+    "gap7": "BETWEEN"
+  },
+  "note": "Boundary tokenizer v2 with lexicon fillers preserves word boundaries at fixed anchor indices. Fillers are ordinary English tokens scored by all gates."
 }

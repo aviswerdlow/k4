@@ -1,0 +1,119 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "title": "Filler Rescreen CSV Schema",
+  "description": "Schema for validating the filler rescreen CSV output",
+  "type": "object",
+  "properties": {
+    "headers": {
+      "type": "array",
+      "items": {
+        "type": "string",
+        "enum": [
+          "label",
+          "old_pt_sha",
+          "new_pt_sha",
+          "anchor_mode",
+          "near_cov",
+          "near_fwords",
+          "verbs",
+          "delta_windowed",
+          "delta_shuffled",
+          "cadence_delta",
+          "context_delta",
+          "holm_adj_p_cov",
+          "holm_adj_p_fw",
+          "status",
+          "notes"
+        ]
+      },
+      "minItems": 15,
+      "maxItems": 15
+    },
+    "rows": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "properties": {
+          "label": {
+            "type": "string",
+            "pattern": "^HEAD_\\d{4}_v522B$"
+          },
+          "old_pt_sha": {
+            "type": "string",
+            "pattern": "^[a-f0-9]{16}\\.\\.\\.$"
+          },
+          "new_pt_sha": {
+            "type": "string",
+            "pattern": "^[a-f0-9]{16}\\.\\.\\.$"
+          },
+          "anchor_mode": {
+            "type": "string",
+            "enum": ["fixed"]
+          },
+          "near_cov": {
+            "type": "string",
+            "pattern": "^0\\.\\d{3}$"
+          },
+          "near_fwords": {
+            "type": "integer",
+            "minimum": 10,
+            "maximum": 10
+          },
+          "verbs": {
+            "type": "integer",
+            "minimum": 0
+          },
+          "delta_windowed": {
+            "type": "string",
+            "pattern": "^0\\.\\d{4}$"
+          },
+          "delta_shuffled": {
+            "type": "string",
+            "pattern": "^0\\.\\d{4}$"
+          },
+          "cadence_delta": {
+            "type": "string",
+            "pattern": "^[+-]\\d\\.\\d{2}$"
+          },
+          "context_delta": {
+            "type": "string",
+            "pattern": "^[+-]\\d\\.\\d{2}$"
+          },
+          "holm_adj_p_cov": {
+            "type": "string",
+            "pattern": "^0\\.\\d{4}$"
+          },
+          "holm_adj_p_fw": {
+            "type": "string",
+            "pattern": "^0\\.\\d{4}$"
+          },
+          "status": {
+            "type": "string",
+            "enum": ["unchanged", "improved", "degraded"]
+          },
+          "notes": {
+            "type": "string",
+            "minLength": 1
+          }
+        },
+        "required": [
+          "label",
+          "old_pt_sha",
+          "new_pt_sha",
+          "anchor_mode",
+          "near_cov",
+          "near_fwords",
+          "verbs",
+          "delta_windowed",
+          "delta_shuffled",
+          "cadence_delta",
+          "context_delta",
+          "holm_adj_p_cov",
+          "holm_adj_p_fw",
+          "status",
+          "notes"
+        ]
+      }
+    }
+  }
+}

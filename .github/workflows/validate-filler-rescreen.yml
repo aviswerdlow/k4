@@ -1,0 +1,114 @@
+name: Validate Filler Rescreen
+
+on:
+  push:
+    paths:
+      - '04_EXPERIMENTS/filler_rescreen/FILLER_RESCREEN.csv'
+      - '08_CI_CD/schemas/filler_rescreen.csv.schema.json'
+      - '.github/workflows/validate-filler-rescreen.yml'
+  pull_request:
+    paths:
+      - '04_EXPERIMENTS/filler_rescreen/FILLER_RESCREEN.csv'
+      - '08_CI_CD/schemas/filler_rescreen.csv.schema.json'
+
+jobs:
+  validate-csv:
+    runs-on: ubuntu-latest
+    
+    steps:
+    - uses: actions/checkout@v3
+    
+    - name: Set up Python
+      uses: actions/setup-python@v4
+      with:
+        python-version: '3.11'
+    
+    - name: Validate CSV headers
+      run: |
+        echo "Validating CSV headers..."
+        HEADERS=$(head -1 04_EXPERIMENTS/filler_rescreen/FILLER_RESCREEN.csv)
+        EXPECTED="label,old_pt_sha,new_pt_sha,anchor_mode,near_cov,near_fwords,verbs,delta_windowed,delta_shuffled,cadence_delta,context_delta,holm_adj_p_cov,holm_adj_p_fw,status,notes"
+        
+        if [ "$HEADERS" != "$EXPECTED" ]; then
+          echo "Error: CSV headers do not match expected format"
+          echo "Expected: $EXPECTED"
+          echo "Got:      $HEADERS"
+          exit 1
+        fi
+        echo "✓ Headers validated"
+    
+    - name: Check for non-null values
+      run: |
+        echo "Checking for non-null values..."
+        python3 -c "
+import csv
+import sys
+
+with open('04_EXPERIMENTS/filler_rescreen/FILLER_RESCREEN.csv') as f:
+    reader = csv.DictReader(f)
+    for i, row in enumerate(reader, 2):
+        for key, value in row.items():
+            if not value or value == 'null' or value == 'None':
+                print(f'Error: Row {i}, column {key} has null/empty value')
+                sys.exit(1)
+                
+print('✓ All values are non-null')
+        "
+    
+    - name: Validate numeric types
+      run: |
+        echo "Validating numeric types..."
+        python3 -c "
+import csv
+import sys
+
+with open('04_EXPERIMENTS/filler_rescreen/FILLER_RESCREEN.csv') as f:
+    reader = csv.DictReader(f)
+    for i, row in enumerate(reader, 2):
+        # Check integer fields
+        try:
+            assert int(row['near_fwords']) == 10, f'Row {i}: near_fwords must be 10'
+            assert int(row['verbs']) >= 0, f'Row {i}: verbs must be non-negative'
+        except (ValueError, AssertionError) as e:
+            print(f'Error: {e}')
+            sys.exit(1)
+            
+        # Check float fields
+        try:
+            assert 0 <= float(row['near_cov']) <= 1, f'Row {i}: near_cov must be between 0 and 1'
+            assert 0 <= float(row['delta_windowed']) <= 1, f'Row {i}: delta_windowed must be between 0 and 1'
+            assert 0 <= float(row['delta_shuffled']) <= 1, f'Row {i}: delta_shuffled must be between 0 and 1'
+            assert 0 <= float(row['holm_adj_p_cov']) <= 1, f'Row {i}: holm_adj_p_cov must be between 0 and 1'
+            assert 0 <= float(row['holm_adj_p_fw']) <= 1, f'Row {i}: holm_adj_p_fw must be between 0 and 1'
+        except (ValueError, AssertionError) as e:
+            print(f'Error: {e}')
+            sys.exit(1)
+            
+        # Check enum fields
+        assert row['anchor_mode'] == 'fixed', f'Row {i}: anchor_mode must be \"fixed\"'
+        assert row['status'] in ['unchanged', 'improved', 'degraded'], f'Row {i}: invalid status'
+        
+print('✓ All numeric types validated')
+        "
+    
+    - name: Count status distribution
+      run: |
+        echo "Status distribution:"
+        python3 -c "
+import csv
+from collections import Counter
+
+with open('04_EXPERIMENTS/filler_rescreen/FILLER_RESCREEN.csv') as f:
+    reader = csv.DictReader(f)
+    statuses = Counter(row['status'] for row in reader)
+    
+    total = sum(statuses.values())
+    print(f'Total candidates: {total}')
+    for status, count in sorted(statuses.items()):
+        print(f'  {status}: {count} ({count*100/total:.1f}%)')
+        
+    # Validate expectations
+    assert total == 67, f'Expected 67 candidates, got {total}'
+    assert statuses['degraded'] == 0, 'No candidates should be degraded by fillers'
+    print('\\n✓ Status distribution validated')
+        "

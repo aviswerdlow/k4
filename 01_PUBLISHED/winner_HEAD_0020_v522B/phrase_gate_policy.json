@@ -5,5 +5,8 @@
   "thresholds": {
     "flint_v2": 0.7,
     "generic": 0.6
-  }
+  },
+  "padding_forbidden": true,
+  "boundary_tokenizer": "v2",
+  "filler_mode": "lexicon"
 }
