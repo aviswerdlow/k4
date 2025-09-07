@@ -1,0 +1,41 @@
+{
+  "schema_version": "1.0.0",
+  "combine": "AND",
+  "tokenization": "v2",
+  "window": [
+    0,
+    74
+  ],
+  "flint_v2": {
+    "declination_patterns": [
+      "READ",
+      "FOLLOW"
+    ],
+    "instrument_verbs": [
+      "READ",
+      "FOLLOW"
+    ],
+    "directions": [
+      "EAST",
+      "NORTHEAST"
+    ],
+    "instrument_nouns": [
+      "CLOCK"
+    ],
+    "min_content": 6,
+    "max_repeat": 2
+  },
+  "generic": {
+    "perplexity_top_percent": 1.0,
+    "pos_threshold": 0.6,
+    "calibration_hashes": {
+      "perplexity": "2afbc43bc1931485c3a71f7fc0dac7a7ff8b62c189ebbc1664bb3413eb1477de",
+      "pos_trigrams": "18cb6ce86b00e0f1fa58c67531559801e4a87492de74b2078926aee748102e6f",
+      "pos_threshold": "91614835f92820577f1d5b0d93354166c148f64ad8feb58251f66affa3730a01"
+    }
+  },
+  "cadence_ref": {
+    "policy_sha256": "74edb279c8163a4de5b64bdd537ece6b03db1c182d7643dd1eb60ec94689f5b9",
+    "thresholds_sha256": "7d17708c4d5b1b547f37c7c1554faac570195cf248f9d5fa91013bd1ffc627d3"
+  }
+}

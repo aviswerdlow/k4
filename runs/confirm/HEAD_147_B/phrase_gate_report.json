@@ -1,0 +1,29 @@
+{
+  "schema_version": "1.0.0",
+  "tracks": {
+    "flint_v2": {
+      "passed": true,
+      "evidence": {
+        "declination_expression": true,
+        "instrument_verb_after": true,
+        "directions_present": true,
+        "instrument_nouns": true,
+        "content_count": 7,
+        "max_repeat_non_anchor_content": 2
+      }
+    },
+    "generic": {
+      "passed": true,
+      "perplexity_percentile": 0.5,
+      "pos_score": 0.65,
+      "threshold_T": 0.6,
+      "content_count": 7,
+      "max_repeat_non_anchor_content": 2
+    }
+  },
+  "accepted_by": [
+    "flint_v2",
+    "generic"
+  ],
+  "pass": true
+}

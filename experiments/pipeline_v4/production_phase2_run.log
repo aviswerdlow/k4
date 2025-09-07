@@ -1,0 +1,23 @@
+
+================================================================================
+EXPLORE v4.1 PRODUCTION - CONTINUING FROM PHASE 2
+Commit: 34ec244e0566bbd166ce63f7b5428e440383f2ce
+MASTER_SEED: 1337
+================================================================================
+Loaded 200 heads from Phase 1
+
+================================================================================
+PHASE 2: Anchor placement and repair (200 heads)
+================================================================================
+
+Processing heads 1-20...
+Traceback (most recent call last):
+  File "/Users/aviswerdlow/Downloads/Kryptos Team/k4_cli_plus/experiments/pipeline_v4/scripts/v4.1/run_production_phase2_onwards.py", line 683, in <module>
+    main()
+  File "/Users/aviswerdlow/Downloads/Kryptos Team/k4_cli_plus/experiments/pipeline_v4/scripts/v4.1/run_production_phase2_onwards.py", line 679, in main
+    pipeline.run_from_phase2()
+  File "/Users/aviswerdlow/Downloads/Kryptos Team/k4_cli_plus/experiments/pipeline_v4/scripts/v4.1/run_production_phase2_onwards.py", line 642, in run_from_phase2
+    heads = self.phase2_anchor_placement(heads)
+  File "/Users/aviswerdlow/Downloads/Kryptos Team/k4_cli_plus/experiments/pipeline_v4/scripts/v4.1/run_production_phase2_onwards.py", line 134, in phase2_anchor_placement
+    list(self.anchor_placer.content_words) + 
+AttributeError: 'ImprovedAnchorPlacer' object has no attribute 'content_words'

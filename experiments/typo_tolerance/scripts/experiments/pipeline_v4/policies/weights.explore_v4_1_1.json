@@ -1,0 +1,9 @@
+{
+  "lambda_ng": 1.0,
+  "lambda_fw": 0.8,
+  "lambda_cov": 0.2,
+  "lambda_pattern": 0.8,
+  "lambda_verb": 1.2,
+  "lambda_fw_cap": 0.2,
+  "lambda_fratio": 0.3
+}

@@ -1,0 +1,2 @@
+rank,label,seed_u64,route_id,coverage,f_words,cosine_bigram,cosine_trigram,fw_gap_mean,fw_gap_cv,wordlen_chi2,vc_ratio,passed_metrics,cadence_pass
+1,HEAD_147_B,,GRID_W14_ROWS,0.0,0,0.0,0.0,1.36,0.47,17.1,0.609,2,False

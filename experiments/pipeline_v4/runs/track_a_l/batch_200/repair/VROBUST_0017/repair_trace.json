@@ -1,0 +1,9 @@
+{
+  "label": "VROBUST_0017",
+  "moves_made": 5,
+  "initial_drop": -3.0,
+  "final_recovery": 0.0,
+  "verb_count_post": 5,
+  "f_words_post": 15,
+  "coverage_post": 0.8
+}

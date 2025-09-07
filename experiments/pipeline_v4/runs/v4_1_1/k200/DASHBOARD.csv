@@ -1,0 +1,2 @@
+total_heads,passed_head_gate,passed_delta_fixed,passed_delta_windowed,leakage_ok,orbit_isolated,nulls_publishable,promoted
+200,197,200,200,200,200,200,200

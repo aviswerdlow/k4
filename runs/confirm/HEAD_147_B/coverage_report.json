@@ -1,0 +1,61 @@
+{
+  "schema_version": "1.0.0",
+  "rails": {
+    "anchors_0idx": {
+      "EAST": [
+        21,
+        25
+      ],
+      "NORTHEAST": [
+        25,
+        34
+      ],
+      "BERLINCLOCK": [
+        63,
+        74
+      ]
+    }
+  },
+  "head_lock": [
+    0,
+    74
+  ],
+  "tail_guard": {
+    "seam": {
+      "range": [74, 74],
+      "cuts": [],
+      "tokens": []
+    }
+  },
+  "pt_sha256": "1aecc5862195146cf094ef2278b41a031da42feb5d400b9603273dbd8f0032fc",
+  "ct_sha256": "eea813570c7f1fd3b34674e47b5c3da8948026f5cefee612a0b38ffaa515ceab",
+  "proof_sha256": "38265d0fe13b4f0ab1bfb863ba72e2e823e58ee6a69a712c0b0860b52257b71b",
+  "t2_sha256": "57cc7cfef3723001ed0ac449d2f70f56d1da5aca7d1875161c7c780cc7d74433",
+  "near_gate": {
+    "coverage": 0.895,
+    "f_words": 10,
+    "has_verb": true,
+    "pass": true
+  },
+  "phrase_gate": {
+    "accepted_by": [
+      "flint_v2",
+      "generic"
+    ],
+    "pass": true
+  },
+  "nulls": {
+    "K": 10000,
+    "metrics": {
+      "coverage": {
+        "p_raw": 0.0003,
+        "p_holm": 0.0006
+      },
+      "f_words": {
+        "p_raw": 0.00025,
+        "p_holm": 0.0005
+      }
+    },
+    "publishable": true
+  }
+}

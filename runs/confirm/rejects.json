@@ -1,0 +1,14 @@
+[
+  {
+    "label": "HEAD_135_B",
+    "seed_u64": 7689758218473226886,
+    "failure_reason": "phrase_gate",
+    "details": "generic gate failed (content_words < 6)"
+  },
+  {
+    "label": "HEAD_66_B",
+    "seed_u64": 8641653326629709423,
+    "failure_reason": "lawfulness",
+    "details": "No GRID route found"
+  }
+]

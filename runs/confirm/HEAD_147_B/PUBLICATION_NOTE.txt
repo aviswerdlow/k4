@@ -1,0 +1,14 @@
+GRID-only AND winner published
+
+CT SHA-256: eea813570c7f1fd3b34674e47b5c3da8948026f5cefee612a0b38ffaa515ceab
+PT SHA-256: 1aecc5862195146cf094ef2278b41a031da42feb5d400b9603273dbd8f0032fc
+Route: GRID_W14_ROWS (perm sha: 57cc7cfef3723001ed0ac449d2f70f56d1da5aca7d1875161c7c780cc7d74433)
+Pre-registered analysis: 002091d
+Phrase policy SHA-256: 723af8c6346b628b30ef0ca6e4fc48f3bee27d23ce0304377d3fd8e914d8db3f
+
+Head-only near-gate: coverage=0.895, f_words=10, has_verb=true
+Phrase gate (AND): Flint v2 + Generic → PASS
+Nulls (10k, Holm m=2): adj_p(coverage)=0.0006, adj_p(f_words)=0.0005 → publishable
+
+Bundle: results/GRID_ONLY/winner_HEAD_147_B/
+Uniqueness summary: results/GRID_ONLY/uniqueness_confirm_summary_GRID.json

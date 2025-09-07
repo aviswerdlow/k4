@@ -2,13 +2,29 @@
 
 This repository publishes a reproducible, hash-pinned evaluation of a K4 plaintext under a declared frame. We state the frame first, show exactly what passes inside it, and point to negative results and alternates outside it.
 
-> **Before you publish**
+> **How to verify**
 >
 > ```bash
-> python scripts/tools/validate_bundle.py results/GRID_ONLY --schema scripts/schema
+> k4 confirm \
+>   --ct data/ciphertext_97.txt \
+>   --pt results/GRID_ONLY/winner_HEAD_147_B/plaintext_97.txt \
+>   --proof results/GRID_ONLY/winner_HEAD_147_B/proof_digest.json \
+>   --perm data/permutations/GRID_W14_ROWS.json \
+>   --cuts data/canonical_cuts.json \
+>   --fwords data/function_words.txt \
+>   --calib data/calibration/calib_97_perplexity.json \
+>   --pos-trigrams data/calibration/pos_trigrams.json \
+>   --pos-threshold data/calibration/pos_threshold.txt \
+>   --policy POLICY.json \
+>   --out /tmp/k4_validate
 > ```
 >
-> Expected: every JSON reports `ok`.
+> **Receipts:**
+> - CT SHA-256: `eea813570c7f1fd3b34674e47b5c3da8948026f5cefee612a0b38ffaa515ceab`
+> - PT SHA-256: `1aecc5862195146cf094ef2278b41a031da42feb5d400b9603273dbd8f0032fc`
+> - T2 (perm) SHA-256: `57cc7cfef3723001ed0ac449d2f70f56d1da5aca7d1875161c7c780cc7d74433`
+> - Pre-reg commit: `002091d`
+> - Phrase policy SHA-256: `723af8c6346b628b30ef0ca6e4fc48f3bee27d23ce0304377d3fd8e914d8db3f`
 
 All bundle artifacts declare `"schema_version": "1.0.0"`; if schemas change, data must update the version to match.
 
@@ -26,18 +42,19 @@ GRID family routes only; anchors as plaintext at fixed 0-idx spans; NA-only perm
 **What holds inside this frame**: one head survives and is published.\
 **Outside this frame** (full deck, OR policy, or different thresholds): multiple heads appear; we mark those as non-unique under this claim and link the evidence.
 
+**Stylistic Note**: While HEAD_147_B formally passes all registered gates (lawfulness, near-gate, phrase-gate AND, nulls), the plaintext reads as function-word salad rather than natural prose. Cadence metrics show significant deviation from English patterns (cosine similarity ~0.4, word-length χ²=145). These style metrics are recorded for transparency in the bundle but were kept report-only per pre-registration. We acknowledge this gap between cryptographic validity and linguistic naturalness; future iterations may promote cadence to a hard gate.
+
 ______________________________________________________________________
 
 ## Executive summary
 
-- **Winner (within frame)**: `cand_005` on `GRID_W14_ROWS`
-- **Why unique here**: GRID-only class + AND gate + mirrored nulls; runner-up fails the coverage tie-breaker (pre-registered order: Holm-min → perplexity → coverage).
-- **Winner coverage**: 0.923 (decisive); function-words: 10; Holm adj-p: coverage 0.0002, f-words 0.0001 (\< 0.01 both).
-- **Plaintext (letters only)**:
-
-```
-WECANSEETHETEXTISCODEEASTNORTHEASTWESETTHECOURSETRUEREADTHENSEEBERLINCLOCKTHEJOYOFANANGLEISTHEARC
-```
+- **Winner (within frame)**: **NONE** under policy v5 (mandatory cadence gate)
+- **Status**: SATURATED - No candidates pass style requirements
+- **Provisional v4 winner**: HEAD_147_B (RETRACTED - failed cadence)
+- **Cadence failures**: All candidates exhibit word-salad structure
+  - Best candidate: HEAD_147_B with only 2/6 style metrics passed
+  - Cosine similarity: 0.0 (threshold ≥0.65)
+  - Vowel-consonant ratio: 0.609 (threshold 0.95-1.15)
 
 **Repro tip**: use `VALIDATION.md` for step-by-step rechecks (encrypts-to-CT, gates, nulls), or the `k4 confirm` CLI if available on your system.
 

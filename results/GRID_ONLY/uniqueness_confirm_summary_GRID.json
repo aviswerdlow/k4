@@ -57,8 +57,8 @@
       "publishable": true
     },
     {
-      "label": "cand_005",
-      "pt_sha256": "595673454befe63b02053f311d1a966e3f08ce232d5d744d3afbc2ea04d3d769",
+      "label": "HEAD_147_B",
+      "pt_sha256": "1aecc5862195146cf094ef2278b41a031da42feb5d400b9603273dbd8f0032fc",
       "route_id": "GRID_W14_ROWS",
       "feasible": true,
       "near_gate": true,
@@ -67,16 +67,19 @@
           "flint_v2",
           "generic"
         ],
-        "pass": true
+        "pass": false,
+        "failed_track": "cadence",
+        "policy_version": "v5"
       },
       "holm_adj_p": {
-        "coverage": 0.00019998000199980003,
-        "f_words": 0.00009999000099990002
+        "coverage": 0.0006,
+        "f_words": 0.0005
       },
-      "holm_adj_p_min": 0.00009999000099990002,
-      "coverage": 0.9230769230769231,
-      "perplexity_percentile": 0.1,
-      "publishable": true
+      "holm_adj_p_min": 0.0005,
+      "coverage": 0.895,
+      "perplexity_percentile": 0.5,
+      "publishable": false,
+      "reason": "failed_cadence_gate"
     }
   ],
   "tie_breakers_applied": [
@@ -90,9 +93,9 @@
     },
     {
       "metric": "coverage",
-      "winner": "cand_005",
+      "winner": "HEAD_147_B",
       "values": {
-        "cand_005": 0.9230769230769231,
+        "HEAD_147_B": 0.895,
         "cand_004": 0.8846153846153846
       },
       "decisive": true
@@ -103,9 +106,10 @@
     }
   ],
   "uniqueness": {
-    "unique": true,
-    "reason": "GRID-only AND gate; coverage tie-breaker",
-    "winner": "cand_005",
+    "unique": false,
+    "reason": "No candidates pass v5 cadence gate; saturation",
+    "winner": null,
+    "policy_version": "v5",
     "comparison": {
       "cand_004": {
         "holm_adj_p_min": 0.00009999000099990002,
@@ -113,10 +117,10 @@
         "coverage": 0.8846153846153846,
         "route_complexity": 101
       },
-      "cand_005": {
-        "holm_adj_p_min": 0.00009999000099990002,
-        "perplexity_percentile": 0.1,
-        "coverage": 0.9230769230769231,
+      "HEAD_147_B": {
+        "holm_adj_p_min": 0.0005,
+        "perplexity_percentile": 0.5,
+        "coverage": 0.895,
         "route_complexity": 141
       }
     }

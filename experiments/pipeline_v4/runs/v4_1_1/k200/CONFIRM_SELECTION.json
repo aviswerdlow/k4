@@ -1,0 +1,43 @@
+{
+  "selected_candidate": {
+    "label": "HEAD_66_B",
+    "seed_u64": 8641653326629709423,
+    "weights_sha256": "d2b426b77c965c3ecd804c8d25c48ab45f0635db18275f68827cd48fa0d98be0",
+    "deltas": {
+      "fixed": 0.4785714285714282,
+      "r2": 0.4307142857142854,
+      "r3": 0.4546428571428568,
+      "r4": 0.44028571428571395,
+      "shuffled": 0.2392857142857141
+    },
+    "leakage_diff": 0.0,
+    "orbit": {
+      "tie_fraction": 0.06,
+      "n_neighbors": 220,
+      "is_isolated": true
+    },
+    "holm": {
+      "coverage": {
+        "p_holm": 0.003
+      },
+      "f_words": {
+        "p_holm": 0.006
+      }
+    },
+    "bundle_dir": "experiments/pipeline_v4/runs/v4_1_1/k200/generation/HEAD_66_B"
+  },
+  "ranking_key": {
+    "k1_window_robust_delta": 0.4307142857142854,
+    "k2_shuffled_margin": 0.2392857142857141,
+    "k3_coverage": 0.85,
+    "k4_statistical_strength": -0.006,
+    "k5_orbit_isolation": -0.06,
+    "k6_verb_robustness": 3,
+    "k7_function_words": 12,
+    "k8_seed_tiebreaker": -8641653326629709423
+  },
+  "attempt_number": 3,
+  "previously_rejected": [
+    "HEAD_135_B"
+  ]
+}

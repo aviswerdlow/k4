@@ -1,0 +1,189 @@
+{
+  "schema_version": "1.0.0",
+  "route_id": "GRID_W14_ROWS",
+  "t2_sha256": "57cc7cfef3723001ed0ac449d2f70f56d1da5aca7d1875161c7c780cc7d74433",
+  "classing": "c6a",
+  "per_class": [
+    {
+      "family": "vigenere",
+      "L": 15,
+      "phase": 7
+    },
+    {
+      "family": "variant_beaufort",
+      "L": 15,
+      "phase": 8
+    },
+    {
+      "family": "beaufort",
+      "L": 15,
+      "phase": 9
+    },
+    {
+      "family": "vigenere",
+      "L": 15,
+      "phase": 10
+    },
+    {
+      "family": "variant_beaufort",
+      "L": 15,
+      "phase": 11
+    },
+    {
+      "family": "beaufort",
+      "L": 15,
+      "phase": 12
+    }
+  ],
+  "forced_anchor_residues": [
+    {
+      "i": 21,
+      "class_id": 3,
+      "residue": 6,
+      "kv": 4
+    },
+    {
+      "i": 22,
+      "class_id": 4,
+      "residue": 7,
+      "kv": 0
+    },
+    {
+      "i": 23,
+      "class_id": 5,
+      "residue": 8,
+      "kv": 18
+    },
+    {
+      "i": 24,
+      "class_id": 0,
+      "residue": 9,
+      "kv": 19
+    },
+    {
+      "i": 25,
+      "class_id": 1,
+      "residue": 10,
+      "kv": 13
+    },
+    {
+      "i": 26,
+      "class_id": 2,
+      "residue": 11,
+      "kv": 14
+    },
+    {
+      "i": 27,
+      "class_id": 3,
+      "residue": 12,
+      "kv": 17
+    },
+    {
+      "i": 28,
+      "class_id": 4,
+      "residue": 13,
+      "kv": 19
+    },
+    {
+      "i": 29,
+      "class_id": 5,
+      "residue": 14,
+      "kv": 7
+    },
+    {
+      "i": 30,
+      "class_id": 0,
+      "residue": 0,
+      "kv": 4
+    },
+    {
+      "i": 31,
+      "class_id": 1,
+      "residue": 1,
+      "kv": 0
+    },
+    {
+      "i": 32,
+      "class_id": 2,
+      "residue": 2,
+      "kv": 18
+    },
+    {
+      "i": 33,
+      "class_id": 3,
+      "residue": 3,
+      "kv": 19
+    },
+    {
+      "i": 63,
+      "class_id": 3,
+      "residue": 3,
+      "kv": 1
+    },
+    {
+      "i": 64,
+      "class_id": 4,
+      "residue": 4,
+      "kv": 4
+    },
+    {
+      "i": 65,
+      "class_id": 5,
+      "residue": 5,
+      "kv": 17
+    },
+    {
+      "i": 66,
+      "class_id": 0,
+      "residue": 6,
+      "kv": 11
+    },
+    {
+      "i": 67,
+      "class_id": 1,
+      "residue": 7,
+      "kv": 8
+    },
+    {
+      "i": 68,
+      "class_id": 2,
+      "residue": 8,
+      "kv": 13
+    },
+    {
+      "i": 69,
+      "class_id": 3,
+      "residue": 9,
+      "kv": 2
+    },
+    {
+      "i": 70,
+      "class_id": 4,
+      "residue": 10,
+      "kv": 11
+    },
+    {
+      "i": 71,
+      "class_id": 5,
+      "residue": 11,
+      "kv": 14
+    },
+    {
+      "i": 72,
+      "class_id": 0,
+      "residue": 12,
+      "kv": 2
+    },
+    {
+      "i": 73,
+      "class_id": 1,
+      "residue": 13,
+      "kv": 10
+    }
+  ],
+  "encrypts_to_ct": true,
+  "seed_recipe": "CONFIRM_PROOF|HEAD_147_B|seed:14336215761553056179",
+  "seed_u64": 14336215761553056179,
+  "pt_sha256": "1aecc5862195146cf094ef2278b41a031da42feb5d400b9603273dbd8f0032fc",
+  "ct_sha256": "eea813570c7f1fd3b34674e47b5c3da8948026f5cefee612a0b38ffaa515ceab"
+}

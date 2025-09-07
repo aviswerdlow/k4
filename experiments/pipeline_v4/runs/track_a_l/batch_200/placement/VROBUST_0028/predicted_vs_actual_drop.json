@@ -1,0 +1,30 @@
+{
+  "label": "VROBUST_0028",
+  "predicted_drops": [
+    0.6593245672816702,
+    0.6338703987940206,
+    0.6541719545814549,
+    0.5657597162959093
+  ],
+  "predicted_sum": 2.513126636953055,
+  "actual_drop": -5.0,
+  "anchor_configs": [
+    {
+      "anchor": "EAST",
+      "position": 51
+    },
+    {
+      "anchor": "NORTHEAST",
+      "position": 55
+    },
+    {
+      "anchor": "BERLIN",
+      "position": 59
+    },
+    {
+      "anchor": "CLOCK",
+      "position": 67
+    }
+  ],
+  "recovery_fraction": 0.0
+}
