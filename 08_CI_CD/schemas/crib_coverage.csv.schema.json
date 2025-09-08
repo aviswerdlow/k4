@@ -1,0 +1,48 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "title": "Crib Coverage CSV Schema",
+  "description": "Schema for validating crib ablation coverage CSV files",
+  "type": "object",
+  "properties": {
+    "run_id": {
+      "type": "integer",
+      "minimum": 0,
+      "description": "Unique identifier matching ablation matrix run"
+    },
+    "constraints_used": {
+      "type": "string",
+      "enum": ["anchors_only", "anchors_plus_tail"],
+      "description": "Type of constraints used for wheel solving"
+    },
+    "classes_json": {
+      "type": "string",
+      "pattern": "^\\{.*\\}$",
+      "description": "JSON object with class sizes"
+    },
+    "undetermined_indices_json": {
+      "type": "string",
+      "pattern": "^\\[.*\\]$",
+      "description": "JSON array of undetermined plaintext indices"
+    },
+    "undetermined_count": {
+      "type": "integer",
+      "minimum": -1,
+      "maximum": 97,
+      "description": "Number of undetermined positions"
+    },
+    "per_class_missing_slots_json": {
+      "type": "string",
+      "pattern": "^\\{.*\\}$",
+      "description": "JSON object mapping class_id to missing wheel slots"
+    }
+  },
+  "required": [
+    "run_id",
+    "constraints_used",
+    "classes_json",
+    "undetermined_indices_json",
+    "undetermined_count",
+    "per_class_missing_slots_json"
+  ],
+  "additionalProperties": false
+}

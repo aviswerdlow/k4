@@ -1,0 +1,60 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "title": "Crib Ablation CSV Schema",
+  "description": "Schema for validating crib ablation matrix CSV files",
+  "type": "object",
+  "properties": {
+    "run_id": {
+      "type": "integer",
+      "minimum": 0,
+      "description": "Unique identifier for the ablation run"
+    },
+    "removed_cells_json": {
+      "type": "string",
+      "pattern": "^\\[.*\\]$",
+      "description": "JSON array of removed cell indices"
+    },
+    "num_removed": {
+      "type": "integer",
+      "minimum": 0,
+      "maximum": 24,
+      "description": "Number of anchor cells removed"
+    },
+    "constraints_used": {
+      "type": "string",
+      "enum": ["anchors_only", "anchors_plus_tail"],
+      "description": "Type of constraints used for wheel solving"
+    },
+    "undetermined_count": {
+      "type": "integer",
+      "minimum": -1,
+      "maximum": 97,
+      "description": "Number of plaintext positions that cannot be derived (-1 for error)"
+    },
+    "feasible": {
+      "type": "boolean",
+      "description": "Whether the configuration produces the correct plaintext"
+    },
+    "reason": {
+      "type": "string",
+      "pattern": "^(success|incomplete_derivation|wrong_plaintext|no_constraints_class_[0-5]|solve_failed_class_[0-5]|error:.*)$",
+      "description": "Reason for feasibility result"
+    },
+    "pt_sha256": {
+      "type": "string",
+      "pattern": "^([a-f0-9]{64}|)$",
+      "description": "SHA256 hash of derived plaintext if successful"
+    }
+  },
+  "required": [
+    "run_id",
+    "removed_cells_json",
+    "num_removed",
+    "constraints_used",
+    "undetermined_count",
+    "feasible",
+    "reason",
+    "pt_sha256"
+  ],
+  "additionalProperties": false
+}

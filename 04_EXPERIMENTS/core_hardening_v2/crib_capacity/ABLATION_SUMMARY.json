@@ -1,0 +1,14 @@
+{
+  "seed": 1337,
+  "constraints_used": "anchors_only",
+  "runs": 81,
+  "feasible": 0,
+  "incomplete_derivation_runs": 69,
+  "baseline_undetermined_count": 26,
+  "control": {
+    "constraints_used": "anchors_plus_tail",
+    "feasible": true,
+    "pt_sha256": "4eceb739ab655d6f4ec87753569b8bf04573fe26d01c0caa68d36776dd052d79",
+    "undetermined_count": 0
+  }
+}

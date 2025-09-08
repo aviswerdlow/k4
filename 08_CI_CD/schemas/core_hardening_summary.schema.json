@@ -1,0 +1,34 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "title": "Core Hardening Summary Schema",
+  "description": "Schema for study SUMMARY.json files",
+  "type": "object",
+  "required": [
+    "attempted",
+    "feasible",
+    "matching_pt_sha",
+    "distinct_tails",
+    "notes"
+  ],
+  "properties": {
+    "attempted": {
+      "type": "integer",
+      "minimum": 0
+    },
+    "feasible": {
+      "type": "integer",
+      "minimum": 0
+    },
+    "matching_pt_sha": {
+      "type": "integer",
+      "minimum": 0
+    },
+    "distinct_tails": {
+      "type": "integer",
+      "minimum": 0
+    },
+    "notes": {
+      "type": "string"
+    }
+  }
+}

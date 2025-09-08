@@ -1,0 +1,103 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "title": "Skeleton Survey CSV Schema",
+  "description": "Schema for validating skeleton_survey RESULTS.csv",
+  "type": "array",
+  "items": {
+    "type": "object",
+    "required": [
+      "skeleton_id",
+      "mapping_spec",
+      "T",
+      "anchor_east_span",
+      "anchor_ne_span",
+      "anchor_berlin_span",
+      "anchor_clock_span",
+      "feasible",
+      "optionA_ok",
+      "wheels_solved",
+      "present_slots_pct",
+      "pt_sha256",
+      "matches_winner_pt",
+      "tail_str",
+      "families_json",
+      "L_json",
+      "phase_json",
+      "seed_u64",
+      "runtime_ms"
+    ],
+    "properties": {
+      "skeleton_id": {
+        "type": "string",
+        "pattern": "^[A-Z0-9_(),]+$"
+      },
+      "mapping_spec": {
+        "type": "string",
+        "minLength": 1
+      },
+      "T": {
+        "type": "integer",
+        "minimum": 2,
+        "maximum": 8
+      },
+      "anchor_east_span": {
+        "type": "string",
+        "pattern": "^\\d+-\\d+$"
+      },
+      "anchor_ne_span": {
+        "type": "string",
+        "pattern": "^\\d+-\\d+$"
+      },
+      "anchor_berlin_span": {
+        "type": "string",
+        "pattern": "^\\d+-\\d+$"
+      },
+      "anchor_clock_span": {
+        "type": "string",
+        "pattern": "^\\d+-\\d+$"
+      },
+      "feasible": {
+        "type": "boolean"
+      },
+      "optionA_ok": {
+        "type": "boolean"
+      },
+      "wheels_solved": {
+        "type": "boolean"
+      },
+      "present_slots_pct": {
+        "type": "number",
+        "minimum": 0,
+        "maximum": 100
+      },
+      "pt_sha256": {
+        "type": "string",
+        "pattern": "^([a-f0-9]{64})?$"
+      },
+      "matches_winner_pt": {
+        "type": "boolean"
+      },
+      "tail_str": {
+        "type": "string",
+        "pattern": "^[A-Z]{0,22}$"
+      },
+      "families_json": {
+        "type": "string"
+      },
+      "L_json": {
+        "type": "string"
+      },
+      "phase_json": {
+        "type": "string"
+      },
+      "seed_u64": {
+        "type": "integer",
+        "minimum": 0
+      },
+      "runtime_ms": {
+        "type": "integer",
+        "minimum": 0
+      }
+    }
+  }
+}

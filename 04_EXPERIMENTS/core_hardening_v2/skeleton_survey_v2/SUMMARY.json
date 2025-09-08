@@ -1,0 +1,9 @@
+{
+  "patterns_tested": 48,
+  "feasible": 1,
+  "feasible_patterns": [
+    "BASELINE"
+  ],
+  "master_seed": 1337,
+  "runtime_seconds": 0.5034687519073486
+}

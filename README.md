@@ -218,6 +218,33 @@ Contains:
 
 * hashes.txt, MANIFEST.sha256, RECEIPTS.json
 
+---
+
+### **Core-Hardening Studies**
+
+We ran three adversarial studies to test the algebraic robustness of the cipher core:
+
+* **Skeleton uniqueness**: 24 alternative periodic classing schemes tested; **only the baseline** six-track `class(i)=((i%2)*3)+(i%3)` re-derives the 97-char plaintext from CT under the four anchors (**1/24 feasible**; [proof](04_EXPERIMENTS/core_hardening/skeleton_survey/PROOFS/skeleton_S0_BASELINE.json) included). → [Results](04_EXPERIMENTS/core_hardening/skeleton_survey/RESULTS.csv) | [Analysis](04_EXPERIMENTS/core_hardening/skeleton_survey/README.md)
+
+* **Tail necessity**: 550 single-letter tail mutations tested (22 positions × 25 letters); **0/550 feasible**—tail is algebraically locked, not assumed. → [Results](04_EXPERIMENTS/core_hardening/tail_necessity/RESULTS.csv) | [Analysis](04_EXPERIMENTS/core_hardening/tail_necessity/README.md)
+
+* **Anchor exactness**: ±1 index shifts and BERLIN/CLOCK split/combined modes tested (27 cases); **0/27 feasible** under the same CT→PT solve—anchors are exact. → [Results](04_EXPERIMENTS/core_hardening/anchor_perturbations/RESULTS.csv) | [Analysis](04_EXPERIMENTS/core_hardening/anchor_perturbations/README.md)
+
+**Claim map**: CT + four anchors + six-track classing → wheels (Option-A) → PT97; route (T₂) for display only.
+
+**How to re-run**:
+```bash
+make core-harden           # all three studies
+make core-harden-skeletons # study A
+make core-harden-tail      # study B
+make core-harden-anchors   # study C
+make core-harden-validate  # validate results
+```
+
+See [04_EXPERIMENTS/core_hardening/](04_EXPERIMENTS/core_hardening/) for full details.
+
+---
+
 **Immutable inputs** → 02\_DATA/
 
 * ciphertext\_97.txt (CT SHA-256 eea81357…a515ceab)
