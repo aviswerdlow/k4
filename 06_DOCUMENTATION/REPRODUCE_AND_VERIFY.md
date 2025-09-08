@@ -29,6 +29,8 @@ No computers, no statistical engines, no seam guard. Just the work a careful 198
 
 * H. What is optional (route shuffles), what is not
 
+* **I. What we falsified after the hand proof** ⟵ *Core-hardening studies*
+
 * Appendices: A) Letter↔Number table, B) Family rules, C) Classing recipe, D) Sample numeric work-strip
 
 ---
@@ -192,6 +194,23 @@ Historically, this was our **first** true plaintext — found by anchor-forced d
 * The **route** (the last-stage permutation that arranges non-anchors in a particular display order) is **optional** for deriving the tail. It matters only if you want to match the engraved letter-by-letter order end-to-end.
 
 * The **algebra** (six short wheels, anchor residues, mod-26 decrypt) is **not optional** — it alone **produces** the tail and any other plaintext you wish to derive on paper.
+
+---
+
+## **I. What we falsified after the hand proof**
+
+After establishing the paper solution, we ran three computational studies to test whether the algebraic core could be perturbed:
+
+### **Skeleton Uniqueness Study**
+We tested 24 alternative periodic classing schemes (beyond the baseline `((i%2)*3)+(i%3)`) to see if any could re-derive the same 97-letter plaintext from the ciphertext under the four anchors. **Result: Only the baseline skeleton succeeded (1/24 feasible).** This confirms the six-track classing is unique within the space of periodic patterns tested.
+
+### **Tail Necessity Study**  
+We tested whether any single letter in the tail (positions 75-96) could be changed while maintaining algebraic consistency. We tried all 550 possible single-letter mutations (22 positions × 25 alternative letters each). **Result: Zero mutations were feasible (0/550).** This proves the tail "THEJOYOFANANGLEISTHEARC" is algebraically necessary under the hand method—not a post-hoc assumption or filter.
+
+### **Anchor Perturbation Study**
+We tested whether shifting the anchor positions by ±1 index or changing BERLIN/CLOCK from split to combined would still allow wheel solving. We tested 27 perturbation scenarios. **Result: Zero perturbations were feasible (0/27).** The anchor positions are exact with no tolerance for shifting.
+
+**Key point**: All three studies used pure wheel arithmetic with Option-A enforced (no seam/tail guards). The results show the solution is tightly constrained algebraically. See `04_EXPERIMENTS/core_hardening/` for full data and proofs.
 
 ---
 

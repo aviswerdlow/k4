@@ -1,0 +1,29 @@
+{
+  "seed": 1337,
+  "invariants": {
+    "optionA": true,
+    "no_tail_guard": true,
+    "anchors": {
+      "EAST": [
+        21,
+        24
+      ],
+      "NORTHEAST": [
+        25,
+        33
+      ],
+      "BERLIN": [
+        63,
+        68
+      ],
+      "CLOCK": [
+        69,
+        73
+      ]
+    }
+  },
+  "constraints_used": "anchors_only",
+  "runs": 81,
+  "date_utc": "2025-09-08T04:28:57Z",
+  "commit": "HEAD"
+}

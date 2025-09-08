@@ -1,0 +1,78 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "title": "Crib Summary JSON Schema",
+  "description": "Schema for validating crib ablation summary JSON file",
+  "type": "object",
+  "properties": {
+    "seed": {
+      "type": "integer",
+      "const": 1337,
+      "description": "Master seed for reproducibility"
+    },
+    "constraints_used": {
+      "type": "string",
+      "enum": ["anchors_only"],
+      "description": "Primary constraint mode for ablation"
+    },
+    "runs": {
+      "type": "integer",
+      "minimum": 1,
+      "description": "Total number of ablation runs"
+    },
+    "feasible": {
+      "type": "integer",
+      "minimum": 0,
+      "description": "Number of feasible configurations"
+    },
+    "incomplete_derivation_runs": {
+      "type": "integer",
+      "minimum": 0,
+      "description": "Number of runs with incomplete derivation"
+    },
+    "baseline_undetermined_count": {
+      "type": "integer",
+      "minimum": 0,
+      "maximum": 97,
+      "description": "Undetermined positions with no cells removed"
+    },
+    "control": {
+      "type": "object",
+      "properties": {
+        "constraints_used": {
+          "type": "string",
+          "const": "anchors_plus_tail"
+        },
+        "feasible": {
+          "type": "boolean",
+          "const": true
+        },
+        "pt_sha256": {
+          "type": "string",
+          "const": "4eceb739ab655d6f4ec87753569b8bf04573fe26d01c0caa68d36776dd052d79"
+        },
+        "undetermined_count": {
+          "type": "integer",
+          "const": 0
+        }
+      },
+      "required": [
+        "constraints_used",
+        "feasible",
+        "pt_sha256",
+        "undetermined_count"
+      ],
+      "additionalProperties": false,
+      "description": "Control run with full constraints"
+    }
+  },
+  "required": [
+    "seed",
+    "constraints_used",
+    "runs",
+    "feasible",
+    "incomplete_derivation_runs",
+    "baseline_undetermined_count",
+    "control"
+  ],
+  "additionalProperties": false
+}

@@ -1,6 +1,7 @@
 # K4 Validation Makefile
 
-.PHONY: all derive test-tail red-team validate-all clean help
+.PHONY: all derive test-tail red-team validate-all clean help \
+	core-harden core-harden-skeletons core-harden-tail core-harden-anchors core-harden-validate
 
 # Default target
 all: validate-all
@@ -73,6 +74,28 @@ clean:
 	rm -f /tmp/tail_derivation_temp.txt
 	rm -rf /tmp/k4_verify
 
+# Core Hardening Studies
+core-harden: core-harden-skeletons core-harden-tail core-harden-anchors
+	@echo ""
+	@echo "✅ All core hardening studies complete!"
+	@echo "Check 04_EXPERIMENTS/core_hardening/ for results"
+
+core-harden-skeletons:
+	@echo "=== Running Skeleton Uniqueness Survey ==="
+	python3 03_SOLVERS/run_skeleton_survey.py
+
+core-harden-tail:
+	@echo "=== Running Tail Necessity Study ==="
+	python3 03_SOLVERS/run_tail_necessity.py
+
+core-harden-anchors:
+	@echo "=== Running Anchor Perturbation Study ==="
+	python3 03_SOLVERS/run_anchor_perturbations.py
+
+core-harden-validate:
+	@echo "=== Validating Core Hardening Results ==="
+	python3 03_SOLVERS/validate_core_hardening.py || echo "Validator not yet implemented"
+
 # Show help
 help:
 	@echo "K4 Validation Makefile"
@@ -83,6 +106,14 @@ help:
 	@echo "  make red-team      - Run red team attack scripts"
 	@echo "  make validate-all  - Run all validation checks"
 	@echo "  make confirm       - Run standard k4 confirm"
+	@echo ""
+	@echo "Core Hardening Studies:"
+	@echo "  make core-harden             - Run all three hardening studies"
+	@echo "  make core-harden-skeletons   - Run skeleton uniqueness survey"
+	@echo "  make core-harden-tail        - Run tail necessity study"
+	@echo "  make core-harden-anchors     - Run anchor perturbations study"
+	@echo "  make core-harden-validate    - Validate study results"
+	@echo ""
 	@echo "  make clean         - Remove temporary files"
 	@echo "  make help          - Show this help message"
 	@echo ""

@@ -1,0 +1,64 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "title": "Tail Necessity CSV Schema",
+  "description": "Schema for validating tail_necessity RESULTS.csv",
+  "type": "array",
+  "items": {
+    "type": "object",
+    "required": [
+      "index",
+      "orig_letter",
+      "mutant_letter",
+      "feasible",
+      "failure_reason",
+      "pt_sha256_mutant",
+      "families_json",
+      "L_json",
+      "phase_json",
+      "seed_u64",
+      "runtime_ms"
+    ],
+    "properties": {
+      "index": {
+        "type": "integer",
+        "minimum": 75,
+        "maximum": 96
+      },
+      "orig_letter": {
+        "type": "string",
+        "pattern": "^[A-Z]$"
+      },
+      "mutant_letter": {
+        "type": "string",
+        "pattern": "^[A-Z]$"
+      },
+      "feasible": {
+        "type": "boolean"
+      },
+      "failure_reason": {
+        "type": "string"
+      },
+      "pt_sha256_mutant": {
+        "type": "string",
+        "pattern": "^([a-f0-9]{64})?$"
+      },
+      "families_json": {
+        "type": "string"
+      },
+      "L_json": {
+        "type": "string"
+      },
+      "phase_json": {
+        "type": "string"
+      },
+      "seed_u64": {
+        "type": "integer",
+        "minimum": 0
+      },
+      "runtime_ms": {
+        "type": "integer",
+        "minimum": 0
+      }
+    }
+  }
+}

@@ -1,0 +1,30 @@
+{
+  "schema_version": "1.0.0",
+  "ct_sha256": "eea813570c7f1fd3b34674e47b5c3da8948026f5cefee612a0b38ffaa515ceab",
+  "pt_sha256": "4eceb739ab655d6f4ec87753569b8bf04573fe26d01c0caa68d36776dd052d79",
+  "class_formula": "((i % 2) * 3) + (i % 3)",
+  "anchors": {
+    "EAST": [21, 24],
+    "NORTHEAST": [25, 33],
+    "BERLIN": [63, 68],
+    "CLOCK": [69, 73],
+    "mode": "SPLIT"
+  },
+  "studies": {
+    "skeleton_uniqueness": {
+      "attempted": 24,
+      "feasible": 1,
+      "proofs": ["04_EXPERIMENTS/core_hardening/skeleton_survey/PROOFS/skeleton_S0_BASELINE.json"]
+    },
+    "tail_necessity": {
+      "attempted": 550,
+      "feasible": 0
+    },
+    "anchor_perturbations": {
+      "attempted": 27,
+      "feasible": 0
+    }
+  },
+  "optionA_checks": [],
+  "notes": "Only the baseline skeleton re-derives PT from CT under anchors; tail is algebraically necessary; anchors are exact."
+}

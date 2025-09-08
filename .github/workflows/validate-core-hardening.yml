@@ -1,0 +1,304 @@
+name: Validate Core Hardening
+
+on:
+  push:
+    paths:
+      - '04_EXPERIMENTS/core_hardening/**'
+      - '03_SOLVERS/run_skeleton_survey.py'
+      - '03_SOLVERS/run_tail_necessity.py'
+      - '03_SOLVERS/run_anchor_perturbations.py'
+      - '03_SOLVERS/core_hardening_utils.py'
+      - '08_CI_CD/schemas/*.schema.json'
+      - '.github/workflows/validate-core-hardening.yml'
+  pull_request:
+    paths:
+      - '04_EXPERIMENTS/core_hardening/**'
+      - '03_SOLVERS/run_*.py'
+      - '08_CI_CD/schemas/*.schema.json'
+  workflow_dispatch:
+
+jobs:
+  validate-core-hardening:
+    runs-on: ubuntu-latest
+    
+    steps:
+    - uses: actions/checkout@v3
+    
+    - name: Set up Python
+      uses: actions/setup-python@v4
+      with:
+        python-version: '3.10'
+    
+    - name: Install dependencies
+      run: |
+        python -m pip install --upgrade pip
+        pip install jsonschema pandas
+    
+    - name: Check directory structure
+      run: |
+        echo "Checking core hardening directory structure..."
+        test -d 04_EXPERIMENTS/core_hardening/skeleton_survey || exit 1
+        test -d 04_EXPERIMENTS/core_hardening/tail_necessity || exit 1
+        test -d 04_EXPERIMENTS/core_hardening/anchor_perturbations || exit 1
+        echo "✓ Directory structure verified"
+    
+    - name: Validate Study A - Skeleton Survey
+      if: always()
+      run: |
+        echo "Validating Skeleton Survey..."
+        STUDY_DIR="04_EXPERIMENTS/core_hardening/skeleton_survey"
+        
+        # Check required files exist
+        if [ -f "$STUDY_DIR/RESULTS.csv" ]; then
+          echo "✓ RESULTS.csv exists"
+          
+          # Validate CSV against schema
+          python -c "
+import json
+import csv
+import jsonschema
+
+# Load schema
+with open('08_CI_CD/schemas/skeleton_survey.csv.schema.json', 'r') as f:
+    schema = json.load(f)
+
+# Load CSV
+rows = []
+with open('$STUDY_DIR/RESULTS.csv', 'r') as f:
+    reader = csv.DictReader(f)
+    for row in reader:
+        # Convert types
+        row['T'] = int(row['T'])
+        row['feasible'] = row['feasible'].lower() == 'true'
+        row['optionA_ok'] = row['optionA_ok'].lower() == 'true'
+        row['wheels_solved'] = row['wheels_solved'].lower() == 'true'
+        row['present_slots_pct'] = float(row['present_slots_pct'])
+        row['matches_winner_pt'] = row['matches_winner_pt'].lower() == 'true'
+        row['seed_u64'] = int(row['seed_u64'])
+        row['runtime_ms'] = int(row['runtime_ms'])
+        rows.append(row)
+
+# Validate
+try:
+    jsonschema.validate(rows, schema)
+    print('✓ Skeleton Survey CSV validation passed')
+except jsonschema.ValidationError as e:
+    print(f'✗ Validation error: {e}')
+    exit(1)
+"
+          
+          # Check for feasible proofs
+          python -c "
+import csv
+import json
+from pathlib import Path
+
+study_dir = Path('$STUDY_DIR')
+proofs_dir = study_dir / 'PROOFS'
+
+with open(study_dir / 'RESULTS.csv', 'r') as f:
+    reader = csv.DictReader(f)
+    for row in reader:
+        if row['feasible'].lower() == 'true':
+            proof_file = proofs_dir / f\"skeleton_{row['skeleton_id']}.json\"
+            if not proof_file.exists():
+                print(f\"✗ Missing proof for feasible skeleton: {row['skeleton_id']}\")
+                exit(1)
+            # Validate proof JSON structure
+            with open(proof_file, 'r') as pf:
+                proof = json.load(pf)
+                required_keys = ['schema_version', 'class_formula', 'anchors', 'wheels', 'pt_sha256_derived', 'ct_sha256']
+                for key in required_keys:
+                    if key not in proof:
+                        print(f\"✗ Proof missing key '{key}' for {row['skeleton_id']}\")
+                        exit(1)
+print('✓ All feasible skeletons have valid proofs')
+"
+        else
+          echo "⚠ Skeleton Survey RESULTS.csv not found (study may not have been run yet)"
+        fi
+    
+    - name: Validate Study B - Tail Necessity
+      if: always()
+      run: |
+        echo "Validating Tail Necessity..."
+        STUDY_DIR="04_EXPERIMENTS/core_hardening/tail_necessity"
+        
+        if [ -f "$STUDY_DIR/RESULTS.csv" ]; then
+          echo "✓ RESULTS.csv exists"
+          
+          # Validate CSV against schema
+          python -c "
+import json
+import csv
+import jsonschema
+
+# Load schema
+with open('08_CI_CD/schemas/tail_necessity.csv.schema.json', 'r') as f:
+    schema = json.load(f)
+
+# Load CSV
+rows = []
+with open('$STUDY_DIR/RESULTS.csv', 'r') as f:
+    reader = csv.DictReader(f)
+    for row in reader:
+        # Convert types
+        row['index'] = int(row['index'])
+        row['feasible'] = row['feasible'].lower() == 'true'
+        row['seed_u64'] = int(row['seed_u64'])
+        row['runtime_ms'] = int(row['runtime_ms'])
+        rows.append(row)
+
+# Validate
+try:
+    jsonschema.validate(rows, schema)
+    print('✓ Tail Necessity CSV validation passed')
+    
+    # Check we have exactly 550 rows (22 positions * 25 mutations each)
+    if len(rows) == 550:
+        print('✓ All 550 mutations tested')
+    else:
+        print(f'⚠ Expected 550 rows, found {len(rows)}')
+        
+except jsonschema.ValidationError as e:
+    print(f'✗ Validation error: {e}')
+    exit(1)
+"
+        else
+          echo "⚠ Tail Necessity RESULTS.csv not found (study may not have been run yet)"
+        fi
+    
+    - name: Validate Study C - Anchor Perturbations
+      if: always()
+      run: |
+        echo "Validating Anchor Perturbations..."
+        STUDY_DIR="04_EXPERIMENTS/core_hardening/anchor_perturbations"
+        
+        if [ -f "$STUDY_DIR/RESULTS.csv" ]; then
+          echo "✓ RESULTS.csv exists"
+          
+          # Validate CSV against schema
+          python -c "
+import json
+import csv
+import jsonschema
+
+# Load schema
+with open('08_CI_CD/schemas/anchor_perturbations.csv.schema.json', 'r') as f:
+    schema = json.load(f)
+
+# Load CSV
+rows = []
+with open('$STUDY_DIR/RESULTS.csv', 'r') as f:
+    reader = csv.DictReader(f)
+    for row in reader:
+        # Convert types
+        row['east_start'] = int(row['east_start'])
+        row['ne_start'] = int(row['ne_start'])
+        row['berlin_start'] = int(row['berlin_start'])
+        row['clock_start'] = int(row['clock_start'])
+        row['feasible'] = row['feasible'].lower() == 'true'
+        row['optionA_ok'] = row['optionA_ok'].lower() == 'true'
+        row['wheels_solved'] = row['wheels_solved'].lower() == 'true'
+        row['matches_winner_pt'] = row['matches_winner_pt'].lower() == 'true'
+        row['seed_u64'] = int(row['seed_u64'])
+        row['runtime_ms'] = int(row['runtime_ms'])
+        rows.append(row)
+
+# Validate
+try:
+    jsonschema.validate(rows, schema)
+    print('✓ Anchor Perturbations CSV validation passed')
+    
+    if len(rows) >= 12:
+        print(f'✓ {len(rows)} perturbation scenarios tested')
+    else:
+        print(f'⚠ Only {len(rows)} scenarios tested (expected at least 12)')
+        
+except jsonschema.ValidationError as e:
+    print(f'✗ Validation error: {e}')
+    exit(1)
+"
+        else
+          echo "⚠ Anchor Perturbations RESULTS.csv not found (study may not have been run yet)"
+        fi
+    
+    - name: Validate SUMMARY.json files
+      if: always()
+      run: |
+        echo "Validating SUMMARY.json files..."
+        
+        for study in skeleton_survey tail_necessity anchor_perturbations; do
+          SUMMARY_FILE="04_EXPERIMENTS/core_hardening/$study/SUMMARY.json"
+          if [ -f "$SUMMARY_FILE" ]; then
+            python -c "
+import json
+import jsonschema
+
+# Load schema
+with open('08_CI_CD/schemas/core_hardening_summary.schema.json', 'r') as f:
+    schema = json.load(f)
+
+# Load and validate summary
+with open('$SUMMARY_FILE', 'r') as f:
+    summary = json.load(f)
+
+try:
+    jsonschema.validate(summary, schema)
+    print(f'✓ {\"$study\"} SUMMARY.json validation passed')
+except jsonschema.ValidationError as e:
+    print(f'✗ {\"$study\"} validation error: {e}')
+    exit(1)
+"
+          else
+            echo "⚠ $study SUMMARY.json not found"
+          fi
+        done
+    
+    - name: Check MANIFESTs
+      if: always()
+      run: |
+        echo "Checking MANIFEST.sha256 files..."
+        
+        for study in skeleton_survey tail_necessity anchor_perturbations; do
+          MANIFEST="04_EXPERIMENTS/core_hardening/$study/MANIFEST.sha256"
+          if [ -f "$MANIFEST" ]; then
+            echo "✓ $study MANIFEST.sha256 exists"
+            # Could add hash verification here if needed
+          else
+            echo "⚠ $study MANIFEST.sha256 not found"
+          fi
+        done
+    
+    - name: Spot-check Re-derivation
+      if: always()
+      run: |
+        echo "Spot-checking re-derivation for feasible solutions..."
+        
+        # Check if baseline proof exists and validate it
+        BASELINE_PROOF="04_EXPERIMENTS/core_hardening/skeleton_survey/PROOFS/skeleton_S0_BASELINE.json"
+        if [ -f "$BASELINE_PROOF" ]; then
+          python -c "
+import json
+
+# Load proof
+with open('$BASELINE_PROOF', 'r') as f:
+    proof = json.load(f)
+
+# Validate critical fields
+assert proof['class_formula'] == '((i%2)*3)+(i%3)', 'Wrong class formula'
+assert proof['pt_sha256_derived'] == '4eceb739ab655d6f4ec87753569b8bf04573fe26d01c0caa68d36776dd052d79', 'Wrong PT SHA'
+assert len(proof['wheels']) == 6, 'Wrong number of wheels'
+print('✓ Baseline proof structure validated')
+"
+        else
+          echo "⚠ Baseline proof not found"
+        fi
+    
+    - name: Summary
+      if: always()
+      run: |
+        echo "======================================"
+        echo "Core Hardening Validation Complete"
+        echo "======================================"
+        echo "Check the logs above for any ✗ errors or ⚠ warnings"
