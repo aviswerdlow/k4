@@ -17,8 +17,8 @@ The K4 Core-Hardening Program v3.1 has successfully completed all validation stu
 - **Implication**: The tail cannot be shortened without breaking the algebraic system
 
 ### 3. Undetermined Positions ✅
-- **Result**: 73/97 positions remain undetermined with anchors alone
-- **Evidence**: Visual map shows even distribution across all 6 classes
+- **Result**: 26/97 positions remain undetermined with anchors alone
+- **Evidence**: Wheel propagation determines 71 positions; 26 need tail
 - **Implication**: The tail provides essential constraints for unique determination
 
 ## Validation Studies
@@ -63,10 +63,10 @@ Status: VERIFIED ✅
 ### Constraint System
 ```
 Total positions: 97
-Anchor-constrained: 24
-Tail-constrained: 22
-Undetermined: 73
-Coverage: 47.4%
+Anchor-constrained: 24 (direct)
+Wheel-determined: 71 (via propagation)
+Undetermined: 26 (need tail)
+Coverage: 73.2%
 ```
 
 ## Reproducibility
@@ -112,7 +112,7 @@ make core-harden     # v1 baseline studies
 - [x] All alternative patterns infeasible
 - [x] Full 22-character tail required
 - [x] No valid alternative tails exist
-- [x] 73/97 positions undetermined without tail
+- [x] 26/97 positions undetermined without tail
 - [x] SHA-256 verification passes
 - [x] Deterministic reproducibility confirmed
 - [x] All wheel configurations valid
@@ -125,7 +125,7 @@ The K4 Core-Hardening v3.1 program conclusively demonstrates:
 
 1. **Uniqueness**: The baseline skeleton pattern is the only feasible solution
 2. **Necessity**: All 22 tail characters are algebraically required
-3. **Determination**: The tail provides essential constraints for 73 undetermined positions
+3. **Determination**: The tail provides essential constraints for 26 undetermined positions
 4. **Integrity**: All cryptographic verifications pass
 
 The solution's mathematical structure is robust, unique, and cryptographically verifiable.

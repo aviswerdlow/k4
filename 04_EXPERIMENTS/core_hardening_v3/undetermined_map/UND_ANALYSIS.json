@@ -1,7 +1,8 @@
 {
   "total_positions": 97,
   "anchor_constrained": 24,
-  "undetermined": 73,
+  "wheel_determined": 71,
+  "undetermined": 26,
   "tail_region": [
     75,
     76,
@@ -28,11 +29,11 @@
   ],
   "undetermined_in_tail": 22,
   "undetermined_by_class": {
-    "0": 13,
-    "1": 12,
-    "2": 13,
-    "3": 11,
-    "4": 12,
-    "5": 12
+    "0": 5,
+    "1": 4,
+    "2": 5,
+    "3": 3,
+    "4": 4,
+    "5": 5
   }
 }
