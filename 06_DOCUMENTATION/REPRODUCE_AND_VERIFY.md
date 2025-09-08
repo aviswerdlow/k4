@@ -269,6 +269,18 @@ Continue i=85..96. You will complete the phrase *OF AN ANGLE IS THE ARC*, preced
 
 ## **Closing**
 
-What makes K4 crackable by hand is not a hidden table or a computing trick; it’s the **discipline** of rails → six short lines → anchor algebra → period wheels → tail **by propagation**. That is exactly how we reached the tail **first**, recognized Flint’s rule in it, and only later reconciled the mechanical last step (the display permutation) to the sculpture’s line order.
+What makes K4 crackable by hand is not a hidden table or a computing trick; it's the **discipline** of rails → six short lines → anchor algebra → period wheels → tail **by propagation**. That is exactly how we reached the tail **first**, recognized Flint's rule in it, and only later reconciled the mechanical last step (the display permutation) to the sculpture's line order.
 
-Everything above can be done **with pencil and paper**. If you prefer, keep a 26×26 add/sub grid (Vigenère tableau) at your elbow for speed — but you don’t need a single line of code to reproduce the method.
+Everything above can be done **with pencil and paper**. If you prefer, keep a 26×26 add/sub grid (Vigenère tableau) at your elbow for speed — but you don't need a single line of code to reproduce the method.
+
+---
+
+## **Appendix: Modern Parity Check**
+
+For auditors verifying the computational implementation matches the hand method:
+
+- **Class assignment**: `rederive_plaintext.py` uses `class(i) = ((i % 2) * 3) + (i % 3)` exactly as shown
+- **Wheel lookup**: Retrieves residue from `wheel[class].residues[i % L]` matching hand worksheet
+- **Decryption**: Applies Vigenère/Beaufort/Variant-Beaufort rules with no modifications
+- **No seam logic**: The tail at indices 74-96 emerges directly from wheels, no guards or corrections
+- **Gates remain head-only**: Scoring functions never touch the tail positions

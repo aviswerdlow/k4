@@ -54,6 +54,27 @@ python scripts/tools/validate_bundle.py results/GRID_ONLY/cand_005 --schema scri
 
 **Expected Result**: all JSON files report `ok`.
 
+## Step 1c: Derivation Verification (Derive, Don't Assume)
+
+Verify that the plaintext is fully derivable from ciphertext + proof:
+
+```bash
+# Derive plaintext from CT + proof; compare SHAs
+python 07_TOOLS/validation/rederive_plaintext.py \
+  --ct 02_DATA/ciphertext_97.txt \
+  --proof 01_PUBLISHED/winner_HEAD_0020_v522B/proof_digest_enhanced.json \
+  --out /tmp/derived_plaintext_97.txt
+
+# Verify coverage_report reports equal SHAs and tail flag:
+jq '.pt_sha256_bundle,.pt_sha256_derived,.tail_derivation_verified' \
+  01_PUBLISHED/winner_HEAD_0020_v522B/coverage_report.json
+```
+
+**Expected Results**:
+- Both SHA values should be identical when complete proof is available
+- `tail_derivation_verified` should be `true`
+- The tail (indices 75-96) is decoded from anchor-forced wheels, never assumed
+
 ## Step 2: Validate the Winner (cand_005)
 
 Run the complete confirmation pipeline on the winner:

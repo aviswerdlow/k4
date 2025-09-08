@@ -293,7 +293,7 @@ Everything above can be done with pencil and paper. This repository preserves th
 
    **Receipts:**
 
-  * **PT SHA-256:** e2c4daaff4f9ac567032c587085ac6a8290e10f153eb0b41814cfc6235ddc89e
+  * **PT SHA-256:** 4eceb739ab655d6f4ec87753569b8bf04573fe26d01c0caa68d36776dd052d79
 
   * **T₂ SHA-256 (permutation file):** a5260415e76509638b4845d5e707521126aca2d67b50177b3c94f8ccc4c56c31
 
@@ -369,6 +369,10 @@ k4 confirm \\
 
   \--out /tmp/k4\_verify\_HEAD\_0020\_v522B
 
+**Derivation check (paper & pencil parity):**
+Every confirm run recomputes the plaintext from CT + proof (`rederive_plaintext.py`).
+The bundle is rejected if `pt_sha256_derived != pt_sha256_bundle`. Tail (75..96) is decoded from anchor-driven wheels; it is never injected from a seam/guard.
+
 Everything is **hash-pinned** and **schema-validated**. CI enforces: no padding sentinels in published heads; receipts consistent; bundles conform to schemas.
 
 ### **How the repo mirrors the hand method**
@@ -399,7 +403,7 @@ Everything is **hash-pinned** and **schema-validated**. CI enforces: no padding 
 
 * This repo documents a claim **within a stated frame**; cite the frame, **pre-reg commit** d0b03f4, **policy SHA** bc083cc4129fedbc, and the **T₂ SHA** a5260415…c31.
 
-* Winner bundle PT SHA-256: e2c4daaff4f9ac567032c587085ac6a8290e10f153eb0b41814cfc6235ddc89e.
+* Winner bundle PT SHA-256: 4eceb739ab655d6f4ec87753569b8bf04573fe26d01c0caa68d36776dd052d79.
 
 * See 01\_PUBLISHED/winner\_HEAD\_0020\_v522B/RECEIPTS.json for consolidated receipts.
 

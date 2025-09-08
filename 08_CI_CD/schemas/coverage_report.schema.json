@@ -1,0 +1,79 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "title": "Coverage Report Schema",
+  "description": "Schema for K4 coverage report with derivation verification",
+  "type": "object",
+  "required": [
+    "rails",
+    "collisions",
+    "leakage",
+    "policy_sha",
+    "seeds",
+    "route_sha",
+    "pt_sha256_bundle",
+    "pt_sha256_derived",
+    "tail_derivation_verified",
+    "gates_head_only",
+    "no_tail_guard"
+  ],
+  "properties": {
+    "rails": {
+      "type": "object",
+      "properties": {
+        "anchors": {"type": "string"},
+        "t2": {"type": "string"},
+        "t2_sha": {"type": "string", "pattern": "^[a-f0-9]{64}$"},
+        "option": {"type": "string", "enum": ["A"]},
+        "head_window": {
+          "type": "array",
+          "items": {"type": "integer"},
+          "minItems": 2,
+          "maxItems": 2
+        }
+      }
+    },
+    "collisions": {"type": "integer", "minimum": 0},
+    "leakage": {"type": "number", "minimum": 0},
+    "policy_sha": {"type": "string", "pattern": "^[a-f0-9]{16}$"},
+    "seeds": {
+      "type": "object",
+      "properties": {
+        "master": {"type": "integer"},
+        "head": {"type": "integer"}
+      }
+    },
+    "route_sha": {"type": "string"},
+    "pt_sha256_bundle": {
+      "type": "string",
+      "pattern": "^[a-f0-9]{64}$",
+      "description": "SHA-256 of the bundle's plaintext_97.txt"
+    },
+    "pt_sha256_derived": {
+      "type": "string",
+      "pattern": "^[a-f0-9]{64}$",
+      "description": "SHA-256 of plaintext derived from CT + proof, must match pt_sha256_bundle"
+    },
+    "tail_derivation_verified": {
+      "type": "boolean",
+      "const": true,
+      "description": "Must be true - tail (74-96) verified as derived from anchors"
+    },
+    "gates_head_only": {
+      "type": "boolean",
+      "description": "True if gates apply only to head window"
+    },
+    "no_tail_guard": {
+      "type": "boolean",
+      "description": "True if no tail guard used in decryption"
+    },
+    "filler_mode": {
+      "type": "string",
+      "enum": ["lexicon", "padding", "none"]
+    },
+    "derivation_note": {
+      "type": "string",
+      "description": "Note about derivation method"
+    }
+  },
+  "additionalProperties": false
+}

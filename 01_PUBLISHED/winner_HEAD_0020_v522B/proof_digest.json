@@ -22,7 +22,7 @@
   },
   "pre_reg_commit": "d0b03f4",
   "policy_sha": "bc083cc4129fedbc",
-  "pt_sha256": "e2c4daaff4f9ac567032c587085ac6a8290e10f153eb0b41814cfc6235ddc89e",
+  "pt_sha256": "4eceb739ab655d6f4ec87753569b8bf04573fe26d01c0caa68d36776dd052d79",
   "filler_mode": "lexicon",
   "filler_tokens": {
     "gap4": "THEN",

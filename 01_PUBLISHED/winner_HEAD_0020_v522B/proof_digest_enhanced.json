@@ -1,0 +1,367 @@
+{
+  "schema_version": "1.0.0",
+  "route_id": "GRID_W14_ROWS",
+  "t2_sha": "a5260415e76509638b4845d5e707521126aca2d67b50177b3c94f8ccc4c56c31",
+  "classing": "c6a",
+  "class_formula": "((i % 2) * 3) + (i % 3)",
+  "class_formula_note": "Standard six-track classing - matches 1989 hand method exactly",
+  "option_a": {
+    "description": "No K=0 at anchors for additive families",
+    "enforced": true,
+    "EAST": [
+      21,
+      24
+    ],
+    "NORTHEAST": [
+      25,
+      33
+    ],
+    "BERLINCLOCK": [
+      63,
+      73
+    ]
+  },
+  "per_class": [
+    {
+      "class_id": 0,
+      "family": "vigenere",
+      "L": 17,
+      "residues": [
+        18,
+        13,
+        4,
+        20,
+        13,
+        8,
+        19,
+        2,
+        16,
+        21,
+        11,
+        15,
+        23,
+        2,
+        3,
+        10,
+        8
+      ],
+      "phase": 0,
+      "forced_anchor_residues": [
+        {
+          "index": 24,
+          "slot": 7,
+          "residue": 2,
+          "pt_letter": "T",
+          "ct_letter": "V"
+        },
+        {
+          "index": 30,
+          "slot": 13,
+          "residue": 2,
+          "pt_letter": "E",
+          "ct_letter": "G"
+        },
+        {
+          "index": 66,
+          "slot": 15,
+          "residue": 10,
+          "pt_letter": "L",
+          "ct_letter": "V"
+        },
+        {
+          "index": 72,
+          "slot": 4,
+          "residue": 13,
+          "pt_letter": "C",
+          "ct_letter": "P"
+        }
+      ]
+    },
+    {
+      "class_id": 1,
+      "family": "beaufort",
+      "L": 13,
+      "residues": [
+        1,
+        16,
+        10,
+        0,
+        7,
+        10,
+        0,
+        17,
+        10,
+        11,
+        24,
+        7,
+        2
+      ],
+      "phase": 0,
+      "forced_anchor_residues": [
+        {
+          "index": 22,
+          "slot": 9,
+          "residue": 11,
+          "pt_letter": "A",
+          "ct_letter": "L"
+        },
+        {
+          "index": 28,
+          "slot": 2,
+          "residue": 10,
+          "pt_letter": "T",
+          "ct_letter": "R"
+        },
+        {
+          "index": 64,
+          "slot": 12,
+          "residue": 2,
+          "pt_letter": "E",
+          "ct_letter": "Y"
+        },
+        {
+          "index": 70,
+          "slot": 5,
+          "residue": 10,
+          "pt_letter": "L",
+          "ct_letter": "Z"
+        }
+      ]
+    },
+    {
+      "class_id": 2,
+      "family": "vigenere",
+      "L": 19,
+      "residues": [
+        3,
+        8,
+        18,
+        0,
+        21,
+        3,
+        16,
+        24,
+        13,
+        0,
+        22,
+        20,
+        1,
+        0,
+        5,
+        0,
+        3,
+        23,
+        11
+      ],
+      "phase": 0,
+      "forced_anchor_residues": [
+        {
+          "index": 26,
+          "slot": 7,
+          "residue": 24,
+          "pt_letter": "O",
+          "ct_letter": "Q"
+        },
+        {
+          "index": 32,
+          "slot": 13,
+          "residue": 0,
+          "pt_letter": "S",
+          "ct_letter": "S"
+        },
+        {
+          "index": 68,
+          "slot": 11,
+          "residue": 20,
+          "pt_letter": "N",
+          "ct_letter": "T"
+        }
+      ]
+    },
+    {
+      "class_id": 3,
+      "family": "variant_beaufort",
+      "L": 15,
+      "residues": [
+        3,
+        0,
+        0,
+        17,
+        0,
+        0,
+        1,
+        0,
+        0,
+        0,
+        0,
+        0,
+        24,
+        0,
+        0
+      ],
+      "phase": 0,
+      "forced_anchor_residues": [
+        {
+          "index": 21,
+          "slot": 6,
+          "residue": 1,
+          "pt_letter": "E",
+          "ct_letter": "F"
+        },
+        {
+          "index": 27,
+          "slot": 12,
+          "residue": 24,
+          "pt_letter": "R",
+          "ct_letter": "P"
+        },
+        {
+          "index": 33,
+          "slot": 3,
+          "residue": 17,
+          "pt_letter": "T",
+          "ct_letter": "S"
+        },
+        {
+          "index": 63,
+          "slot": 3,
+          "residue": 17,
+          "pt_letter": "B",
+          "ct_letter": "N"
+        },
+        {
+          "index": 69,
+          "slot": 9,
+          "residue": 0,
+          "pt_letter": "C",
+          "ct_letter": "M"
+        }
+      ]
+    },
+    {
+      "class_id": 4,
+      "family": "beaufort",
+      "L": 14,
+      "residues": [
+        0,
+        5,
+        0,
+        10,
+        0,
+        4,
+        0,
+        18,
+        0,
+        23,
+        0,
+        3,
+        0,
+        15
+      ],
+      "phase": 0,
+      "forced_anchor_residues": [
+        {
+          "index": 25,
+          "slot": 11,
+          "residue": 3,
+          "pt_letter": "N",
+          "ct_letter": "Q"
+        },
+        {
+          "index": 31,
+          "slot": 3,
+          "residue": 10,
+          "pt_letter": "A",
+          "ct_letter": "K"
+        },
+        {
+          "index": 67,
+          "slot": 11,
+          "residue": 3,
+          "pt_letter": "I",
+          "ct_letter": "T"
+        },
+        {
+          "index": 73,
+          "slot": 3,
+          "residue": 10,
+          "pt_letter": "K",
+          "ct_letter": "K"
+        }
+      ]
+    },
+    {
+      "class_id": 5,
+      "family": "variant_beaufort",
+      "L": 18,
+      "residues": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        4,
+        0,
+        0,
+        0,
+        0,
+        0,
+        8,
+        0,
+        0,
+        0,
+        0,
+        0,
+        23
+      ],
+      "phase": 0,
+      "forced_anchor_residues": [
+        {
+          "index": 23,
+          "slot": 5,
+          "residue": 4,
+          "pt_letter": "S",
+          "ct_letter": "R"
+        },
+        {
+          "index": 29,
+          "slot": 11,
+          "residue": 8,
+          "pt_letter": "H",
+          "ct_letter": "N"
+        },
+        {
+          "index": 65,
+          "slot": 11,
+          "residue": 8,
+          "pt_letter": "R",
+          "ct_letter": "P"
+        },
+        {
+          "index": 71,
+          "slot": 17,
+          "residue": 23,
+          "pt_letter": "O",
+          "ct_letter": "F"
+        }
+      ]
+    }
+  ],
+  "seeds": {
+    "master": 1337,
+    "head": 2772336211,
+    "filler": 15254849010086659901,
+    "seed_recipe": "HEAD_0020_v522B"
+  },
+  "pre_reg_commit": "d0b03f4",
+  "policy_sha": "bc083cc4129fedbc",
+  "pt_sha256": "4eceb739ab655d6f4ec87753569b8bf04573fe26d01c0caa68d36776dd052d79",
+  "filler_mode": "lexicon",
+  "filler_tokens": {
+    "gap4": "THEN",
+    "gap7": "BETWEEN"
+  },
+  "gates_head_only": true,
+  "no_tail_guard": true,
+  "derivation_note": "Complete proof for deriving all 97 positions from CT alone."
+}

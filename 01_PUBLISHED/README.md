@@ -26,7 +26,7 @@ k4 confirm \
 ```
 
 ### Receipts
-- **PT SHA-256**: `e2c4daaff4f9ac567032c587085ac6a8290e10f153eb0b41814cfc6235ddc89e`
+- **PT SHA-256**: `4eceb739ab655d6f4ec87753569b8bf04573fe26d01c0caa68d36776dd052d79`
 - **T2 SHA-256**: `a5260415e76509638b4845d5e707521126aca2d67b50177b3c94f8ccc4c56c31`
 - **Policy SHA**: `bc083cc4129fedbc`
 

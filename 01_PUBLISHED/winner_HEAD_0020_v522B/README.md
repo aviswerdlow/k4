@@ -4,7 +4,7 @@ This bundle contains the published K4 solution with lexicon fillers.
 
 ## Key Points
 
-- **Plaintext SHA-256**: `e2c4daaff4f9ac567032c587085ac6a8290e10f153eb0b41814cfc6235ddc89e`
+- **Plaintext SHA-256**: `4eceb739ab655d6f4ec87753569b8bf04573fe26d01c0caa68d36776dd052d79`
 - **T2 SHA-256**: `a5260415e76509638b4845d5e707521126aca2d67b50177b3c94f8ccc4c56c31`
 - **Policy SHA**: `bc083cc4129fedbc`
 
@@ -31,6 +31,21 @@ Boundary tokenizer v2 with lexicon fillers (THEN, BETWEEN) is used to preserve w
 ## Reports
 
 - Filler rescreen results (entire promotion queue): `04_EXPERIMENTS/filler_rescreen/FILLER_RESCREEN.csv`
+
+## By-Hand Parity
+
+This solution maintains exact parity with the 1989 pencil-and-paper method:
+
+- **Classing formula**: `class(i) = ((i % 2) * 3) + (i % 3)` produces 6 classes  
+- **Wheel data**: See `proof_digest_enhanced.json` for complete wheel residues
+- **No seam/tail guard**: The tail emerges at indices 74-96 from anchor-forced wheels
+- **Tail derivation**: "THEJOYOFANANGLEISTHEARC" decoded cryptographically, not assumed
+
+## Tail Verification (Derive, Don't Assume)
+
+- This bundle **re-derives** all 97 letters from the ciphertext and the proof tuple (families/L/phase + forced anchor residues).
+- The SHA of the derived plaintext equals the bundle plaintext (`pt_sha256_derived == pt_sha256_bundle` in coverage_report.json).
+- The tail (74–96) is **decoded**, not assumed; `tail_derivation_verified: true`, and no tail guard is used in decryption (`no_tail_guard: true`).
 
 ## Verification
 
