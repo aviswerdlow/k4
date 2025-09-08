@@ -65,6 +65,7 @@
         "K",
         "I"
       ],
+      "present_slots_mask": "11111111111111111",
       "forced_anchor_residues": [
         {
           "index": 24,
@@ -98,7 +99,8 @@
           "P": "C",
           "family": "vigenere"
         }
-      ]
+      ],
+      "optionA_checks": []
     },
     {
       "class_id": 1,
@@ -121,7 +123,7 @@
         21,
         20,
         2,
-        0,
+        null,
         4
       ],
       "residues_alpha": [
@@ -140,9 +142,10 @@
         "V",
         "U",
         "C",
-        "A",
+        null,
         "E"
       ],
+      "present_slots_mask": "11111111111111101",
       "forced_anchor_residues": [
         {
           "index": 22,
@@ -176,7 +179,8 @@
           "P": "L",
           "family": "vigenere"
         }
-      ]
+      ],
+      "optionA_checks": []
     },
     {
       "class_id": 2,
@@ -197,7 +201,7 @@
         23,
         14,
         7,
-        0,
+        null,
         6,
         10,
         23
@@ -216,11 +220,12 @@
         "X",
         "O",
         "H",
-        "A",
+        null,
         "G",
         "K",
         "X"
       ],
+      "present_slots_mask": "11111111111110111",
       "forced_anchor_residues": [
         {
           "index": 26,
@@ -246,7 +251,8 @@
           "P": "N",
           "family": "beaufort"
         }
-      ]
+      ],
+      "optionA_checks": []
     },
     {
       "class_id": 3,
@@ -268,7 +274,7 @@
         3,
         12,
         4,
-        0,
+        null,
         7,
         25
       ],
@@ -287,10 +293,11 @@
         "D",
         "M",
         "E",
-        "A",
+        null,
         "H",
         "Z"
       ],
+      "present_slots_mask": "11111111111111011",
       "forced_anchor_residues": [
         {
           "index": 21,
@@ -332,7 +339,8 @@
           "P": "C",
           "family": "vigenere"
         }
-      ]
+      ],
+      "optionA_checks": []
     },
     {
       "class_id": 4,
@@ -352,7 +360,7 @@
         16,
         9,
         21,
-        0,
+        null,
         21,
         10,
         13,
@@ -371,12 +379,13 @@
         "Q",
         "J",
         "V",
-        "A",
+        null,
         "V",
         "K",
         "N",
         "B"
       ],
+      "present_slots_mask": "11111111111101111",
       "forced_anchor_residues": [
         {
           "index": 25,
@@ -410,7 +419,8 @@
           "P": "K",
           "family": "beaufort"
         }
-      ]
+      ],
+      "optionA_checks": []
     },
     {
       "class_id": 5,
@@ -434,7 +444,7 @@
         14,
         24,
         16,
-        0
+        null
       ],
       "residues_alpha": [
         "M",
@@ -453,8 +463,9 @@
         "O",
         "Y",
         "Q",
-        "A"
+        null
       ],
+      "present_slots_mask": "11111111111111110",
       "forced_anchor_residues": [
         {
           "index": 23,
@@ -488,7 +499,8 @@
           "P": "O",
           "family": "vigenere"
         }
-      ]
+      ],
+      "optionA_checks": []
     }
   ],
   "seed_recipe": "ENHANCED_PROOF|K4|ct:eea813570c7f1fd3b34674e47b5c3da8948026f5cefee612a0b38ffaa515ceab|pt:4eceb739ab655d6f4ec87753569b8bf04573fe26d01c0caa68d36776dd052d79|t2:a5260415e76509638b4845d5e707521126aca2d67b50177b3c94f8ccc4c56c31",

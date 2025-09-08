@@ -137,26 +137,34 @@ def solve_class_wheel(
                 # Check coverage
                 missing_slots = [slot for slot in range(L) if slot not in wheel]
                 
-                # Build complete residue array
-                if missing_slots:
-                    # Try to fill missing slots by checking if any unused indices could fill them
-                    # This is less ideal but sometimes necessary
-                    if len(missing_slots) <= 2:  # Allow up to 2 missing slots
-                        residues = []
-                        for slot in range(L):
-                            if slot in wheel:
-                                residues.append(wheel[slot])
-                            else:
-                                # Use a deterministic placeholder based on neighboring slots
-                                # This maintains consistency but marks incomplete solution
-                                residues.append(0)
-                                print(f"    Warning: Class {class_id} slot {slot} unfilled (L={L}, phase={phase})")
+                # Build complete residue array with null for missing slots
+                residues = []
+                present_slots_mask = []
+                
+                for slot in range(L):
+                    if slot in wheel:
+                        residues.append(wheel[slot])
+                        present_slots_mask.append('1')
                     else:
-                        # Too many missing slots - reject this configuration
-                        continue
-                else:
-                    # Perfect coverage!
-                    residues = [wheel[slot] for slot in range(L)]
+                        residues.append(None)  # Use None/null for missing slots
+                        present_slots_mask.append('0')
+                        if len(missing_slots) <= 2:  # Only warn for small gaps
+                            print(f"    Warning: Class {class_id} slot {slot} unfilled (L={L}, phase={phase})")
+                
+                # Too many missing slots - reject this configuration
+                if len(missing_slots) > 2:
+                    continue
+                
+                present_slots_mask_str = ''.join(present_slots_mask)
+                
+                # Check Option-A violations
+                optionA_violations = []
+                for anchor in forced_anchors:
+                    if anchor['residue'] == 0 and family in ['vigenere', 'variant_beaufort']:
+                        optionA_violations.append({
+                            'index': anchor['index'],
+                            'violation': 'K=0 at anchor for additive family'
+                        })
                 
                 # Store this valid configuration
                 valid_configs.append({
@@ -165,7 +173,9 @@ def solve_class_wheel(
                     'L': L,
                     'phase': phase,
                     'residues': residues,
+                    'present_slots_mask': present_slots_mask_str,
                     'forced_anchor_residues': forced_anchors,
+                    'optionA_checks': optionA_violations,
                     'missing_slots': len(missing_slots)
                 })
     

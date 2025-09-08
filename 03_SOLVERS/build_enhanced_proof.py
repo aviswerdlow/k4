@@ -59,8 +59,13 @@ def main():
     for class_id in range(6):
         config = wheels[class_id]
         
-        # Add residues_alpha (A-Z representation)
-        residues_alpha = [chr(r + ord('A')) for r in config['residues']]
+        # Add residues_alpha (A-Z representation) for non-null slots
+        residues_alpha = []
+        for r in config['residues']:
+            if r is not None:
+                residues_alpha.append(chr(r + ord('A')))
+            else:
+                residues_alpha.append(None)
         
         per_class.append({
             'class_id': class_id,
@@ -69,7 +74,9 @@ def main():
             'phase': config['phase'],
             'residues': config['residues'],
             'residues_alpha': residues_alpha,
-            'forced_anchor_residues': config['forced_anchor_residues']
+            'present_slots_mask': config.get('present_slots_mask', '1' * config['L']),
+            'forced_anchor_residues': config['forced_anchor_residues'],
+            'optionA_checks': config.get('optionA_checks', [])
         })
     
     # Create enhanced proof

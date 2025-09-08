@@ -286,6 +286,12 @@ python3 07\_TOOLS/validation/rederive\_plaintext.py \\
 \# Both should show: 4eceb739ab655d6f4ec87753569b8bf04573fe26d01c0caa68d36776dd052d79
 shasum -a 256 /tmp/derived\_pt.txt 01\_PUBLISHED/winner\_HEAD\_0020\_v522B/plaintext\_97.txt
 
+\# Explain decryption for a specific index (e.g., index 80 in the tail):
+python3 07\_TOOLS/validation/rederive\_plaintext.py \\
+  \--ct 02\_DATA/ciphertext\_97.txt \\
+  \--proof 01\_PUBLISHED/winner\_HEAD\_0020\_v522B/proof\_digest\_enhanced.json \\
+  \--explain 80
+
   \--out /tmp/k4\_verify\_HEAD\_0020\_v522B
 
 **Tail derivation check (parity with paper)**

@@ -41,6 +41,22 @@ This solution maintains exact parity with the 1989 pencil-and-paper method:
 - **No seam/tail guard**: The tail emerges at indices 74-96 from anchor-forced wheels
 - **Tail derivation**: "THEJOYOFANANGLEISTHEARC" decoded cryptographically, not assumed
 
+### Example: Decrypting Index 80 (in the tail)
+
+```
+Index: 80
+Ciphertext: T (19)
+Class: 2 (computed as ((80 % 2) * 3) + (80 % 3) = 2)
+Family: beaufort
+L: 17, Phase: 0
+Slot: 12 (computed as (80 - 0) % 17 = 12)
+K: 7 (H)
+Decrypt rule: P = K - C = 7 - 19 = -12 ≡ 14 (mod 26)
+Plaintext: O (14)
+```
+
+This character is part of "JOY" in the tail, which emerges naturally from the anchor-constrained wheels without any assumptions.
+
 ## Tail Verification (Derive, Don't Assume)
 
 - This bundle **re-derives** all 97 letters from the ciphertext and the proof tuple (families/L/phase + forced anchor residues).

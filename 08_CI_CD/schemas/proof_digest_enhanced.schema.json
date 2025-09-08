@@ -1,0 +1,267 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "title": "Enhanced Proof Digest Schema",
+  "description": "Schema for K4 enhanced proof with complete wheel derivation from CT+PT",
+  "type": "object",
+  "required": [
+    "schema_version",
+    "route_id",
+    "t2_sha",
+    "classing",
+    "class_formula",
+    "option_a",
+    "per_class",
+    "seed_recipe",
+    "seed_u64",
+    "pre_reg_commit",
+    "policy_sha",
+    "pt_sha256_bundle",
+    "derivation_guarantee"
+  ],
+  "properties": {
+    "schema_version": {
+      "type": "string",
+      "pattern": "^\\d+\\.\\d+\\.\\d+$",
+      "description": "Schema version (semver)"
+    },
+    "route_id": {
+      "type": "string",
+      "description": "Unique identifier for this solving route"
+    },
+    "t2_sha": {
+      "type": "string",
+      "pattern": "^[a-f0-9]{64}$",
+      "description": "SHA-256 of T2 content"
+    },
+    "classing": {
+      "type": "string",
+      "enum": ["c6a"],
+      "description": "Six-track classing method"
+    },
+    "class_formula": {
+      "type": "string",
+      "const": "((i % 2) * 3) + (i % 3)",
+      "description": "Mathematical formula for class assignment"
+    },
+    "class_formula_note": {
+      "type": "string",
+      "description": "Explanation of the class formula"
+    },
+    "option_a": {
+      "type": "object",
+      "required": ["description", "enforced"],
+      "properties": {
+        "description": {
+          "type": "string",
+          "description": "Explanation of Option-A constraint"
+        },
+        "enforced": {
+          "type": "boolean",
+          "const": true,
+          "description": "Option-A must be enforced"
+        },
+        "EAST": {
+          "type": "array",
+          "items": {"type": "integer"},
+          "minItems": 2,
+          "maxItems": 2
+        },
+        "NORTHEAST": {
+          "type": "array",
+          "items": {"type": "integer"},
+          "minItems": 2,
+          "maxItems": 2
+        },
+        "BERLINCLOCK": {
+          "type": "array",
+          "items": {"type": "integer"},
+          "minItems": 2,
+          "maxItems": 2
+        }
+      }
+    },
+    "per_class": {
+      "type": "array",
+      "minItems": 6,
+      "maxItems": 6,
+      "items": {
+        "type": "object",
+        "required": [
+          "class_id",
+          "family",
+          "L",
+          "phase",
+          "residues",
+          "residues_alpha",
+          "present_slots_mask",
+          "forced_anchor_residues",
+          "optionA_checks"
+        ],
+        "properties": {
+          "class_id": {
+            "type": "integer",
+            "minimum": 0,
+            "maximum": 5,
+            "description": "Class identifier (0-5)"
+          },
+          "family": {
+            "type": "string",
+            "enum": ["vigenere", "beaufort", "variant_beaufort"],
+            "description": "Cipher family for this class"
+          },
+          "L": {
+            "type": "integer",
+            "minimum": 10,
+            "maximum": 22,
+            "description": "Period length of the wheel"
+          },
+          "phase": {
+            "type": "integer",
+            "minimum": 0,
+            "description": "Phase offset for the wheel"
+          },
+          "residues": {
+            "type": "array",
+            "items": {
+              "oneOf": [
+                {"type": "integer", "minimum": 0, "maximum": 25},
+                {"type": "null"}
+              ]
+            },
+            "minItems": 10,
+            "maxItems": 22,
+            "description": "Residue values (0-25) or null for missing slots"
+          },
+          "residues_alpha": {
+            "type": "array",
+            "items": {
+              "oneOf": [
+                {"type": "string", "pattern": "^[A-Z]$"},
+                {"type": "null"}
+              ]
+            },
+            "minItems": 10,
+            "maxItems": 22,
+            "description": "Alphabetic representation of residues"
+          },
+          "present_slots_mask": {
+            "type": "string",
+            "pattern": "^[01]+$",
+            "description": "Binary mask showing which slots are filled (1) or missing (0)"
+          },
+          "forced_anchor_residues": {
+            "type": "array",
+            "items": {
+              "type": "object",
+              "required": ["index", "slot", "residue", "C", "P", "family"],
+              "properties": {
+                "index": {
+                  "type": "integer",
+                  "minimum": 0,
+                  "maximum": 96,
+                  "description": "Position in the ciphertext (0-96)"
+                },
+                "slot": {
+                  "type": "integer",
+                  "minimum": 0,
+                  "maximum": 21,
+                  "description": "Slot on the wheel"
+                },
+                "residue": {
+                  "type": "integer",
+                  "minimum": 0,
+                  "maximum": 25,
+                  "description": "K value at this position"
+                },
+                "C": {
+                  "type": "string",
+                  "pattern": "^[A-Z]$",
+                  "description": "Ciphertext character"
+                },
+                "P": {
+                  "type": "string",
+                  "pattern": "^[A-Z]$",
+                  "description": "Plaintext character"
+                },
+                "family": {
+                  "type": "string",
+                  "enum": ["vigenere", "beaufort", "variant_beaufort"],
+                  "description": "Cipher family for validation"
+                }
+              }
+            },
+            "description": "Anchor-constrained residues from cribs"
+          },
+          "optionA_checks": {
+            "type": "array",
+            "items": {
+              "type": "object",
+              "required": ["index", "C", "P", "K", "violation"],
+              "properties": {
+                "index": {"type": "integer"},
+                "C": {"type": "string"},
+                "P": {"type": "string"},
+                "K": {"type": "integer"},
+                "violation": {"type": "string"}
+              }
+            },
+            "description": "Option-A violations (should be empty for valid solution)"
+          }
+        }
+      }
+    },
+    "seed_recipe": {
+      "type": "string",
+      "description": "Recipe for seed generation"
+    },
+    "seed_u64": {
+      "type": "integer",
+      "description": "64-bit seed value"
+    },
+    "pre_reg_commit": {
+      "type": "string",
+      "pattern": "^[a-f0-9]{7}$",
+      "description": "Git commit hash for pre-registration"
+    },
+    "policy_sha": {
+      "type": "string",
+      "pattern": "^[a-f0-9]{16}$",
+      "description": "Policy SHA hash"
+    },
+    "pt_sha256_bundle": {
+      "type": "string",
+      "pattern": "^[a-f0-9]{64}$",
+      "description": "SHA-256 of the plaintext (must match derived)"
+    },
+    "derivation_guarantee": {
+      "type": "object",
+      "required": ["method", "tail_derivation", "no_assumptions", "gates_head_only", "no_tail_guard"],
+      "properties": {
+        "method": {
+          "type": "string",
+          "description": "How wheels were derived"
+        },
+        "tail_derivation": {
+          "type": "string",
+          "description": "How tail emerges from anchors"
+        },
+        "no_assumptions": {
+          "type": "boolean",
+          "const": true,
+          "description": "True if no plaintext assumptions made"
+        },
+        "gates_head_only": {
+          "type": "boolean",
+          "const": true,
+          "description": "True if gates apply only to head"
+        },
+        "no_tail_guard": {
+          "type": "boolean",
+          "const": true,
+          "description": "True if no tail guard used"
+        }
+      }
+    }
+  },
+  "additionalProperties": false
+}
