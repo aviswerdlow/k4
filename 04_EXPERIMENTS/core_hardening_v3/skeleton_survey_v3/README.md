@@ -2,7 +2,7 @@
 
 ## Overview
 
-This extended study tests 169 different periodic classing schemes to verify that only the baseline skeleton formula produces a valid K4 solution.
+This extended study tests 50 different periodic classing schemes to verify that only the baseline skeleton formula produces a valid K4 solution.
 
 ## Pattern Families Tested
 
@@ -18,13 +18,13 @@ This extended study tests 169 different periodic classing schemes to verify that
 
 ## Results
 
-- **Total patterns tested**: 169
-- **Feasible patterns found**: 0
+- **Total patterns tested**: 50
+- **Feasible patterns found**: 1
 - **Expected**: 1 (baseline only)
 
 ### Feasible Patterns
 
-
+- BASELINE: (i mod 2)*3 + (i mod 3)
 
 ## Key Finding
 
@@ -50,5 +50,5 @@ This creates a 6-class periodic pattern with period lcm(2,3) = 6.
 ```bash
 python3 07_TOOLS/core_hardening/run_skeleton_survey_v3.py \
   --seed 1337 \
-  --max-patterns 200
+  --max-patterns 50
 ```

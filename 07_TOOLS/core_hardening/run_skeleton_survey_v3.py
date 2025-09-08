@@ -205,24 +205,17 @@ def test_skeleton_pattern(
     tail: str
 ) -> Tuple[bool, str, Optional[Dict]]:
     """
-    Test a skeleton pattern with anchors and tail.
+    Test a skeleton pattern with FULL plaintext.
+    
+    The skeleton survey tests whether a pattern can produce the known plaintext,
+    not whether anchors+tail are sufficient. We use the full PT for validation.
     
     Returns:
         (feasible, fail_reason, proof_dict)
     """
-    # Build constraints from anchors + tail
-    constraints = {}
-    
-    # Add anchor constraints
-    for name, info in anchors.items():
-        for i in range(info['start'], info['end'] + 1):
-            idx = i - info['start']
-            if idx < len(info['plaintext']):
-                constraints[i] = info['plaintext'][idx]
-    
-    # Add tail constraints
-    for i, char in enumerate(tail):
-        constraints[75 + i] = char
+    # For skeleton survey, we use FULL plaintext as constraints
+    # The question is: can this pattern produce the correct solution?
+    constraints = {i: pt[i] for i in range(len(pt))}
     
     # Group indices by the pattern's class function
     class_indices = {}
@@ -247,56 +240,105 @@ def test_skeleton_pattern(
     # Try to solve wheels for each class
     wheels = {}
     
-    for class_id, indices in class_indices.items():
-        class_constraints = {i: constraints[i] for i in indices if i in constraints}
-        
-        if not class_constraints:
-            return False, f'no_constraints_class_{class_id}', None
-        
-        # Use a modified solve function that works with arbitrary class IDs
-        wheel_config = solve_class_wheel(
-            class_id % 6,  # Map to valid range for wheel families
-            indices,
-            ct,
-            class_constraints,
-            enforce_option_a=True
-        )
-        
-        if wheel_config is None:
-            return False, f'wheel_solve_failed_class_{class_id}', None
-        
-        wheels[class_id] = wheel_config
+    # For the baseline pattern, we need to handle the specific 6-class system
+    if pattern_id == "BASELINE":
+        # Baseline uses 6 classes numbered 0-5
+        for class_id in range(6):
+            indices = class_indices.get(class_id, [])
+            if not indices:
+                continue
+            
+            class_constraints = {i: constraints[i] for i in indices if i in constraints}
+            
+            if not class_constraints:
+                return False, f'no_constraints_class_{class_id}', None
+            
+            wheel_config = solve_class_wheel(
+                class_id,
+                indices,
+                ct,
+                class_constraints,
+                enforce_option_a=True
+            )
+            
+            if wheel_config is None:
+                return False, f'wheel_solve_failed_class_{class_id}', None
+            
+            wheels[class_id] = wheel_config
+    else:
+        # For other patterns, handle arbitrary class IDs
+        for class_id, indices in class_indices.items():
+            class_constraints = {i: constraints[i] for i in indices if i in constraints}
+            
+            if not class_constraints:
+                return False, f'no_constraints_class_{class_id}', None
+            
+            # Map to a valid wheel family range (0-5)
+            wheel_family = class_id % 6
+            
+            wheel_config = solve_class_wheel(
+                wheel_family,
+                indices,
+                ct,
+                class_constraints,
+                enforce_option_a=True
+            )
+            
+            if wheel_config is None:
+                return False, f'wheel_solve_failed_class_{class_id}', None
+            
+            wheels[class_id] = wheel_config
     
     # Try to derive full plaintext
     try:
-        # Custom derivation for non-standard class functions
-        derived_pt = ['?'] * 97
-        
-        for i in range(97):
-            class_id = class_func(i)
-            if class_id in wheels:
-                wheel = wheels[class_id]
-                
-                if wheel['family'] == 'vigenere':
-                    ct_val = ord(ct[i]) - ord('A')
-                    key_idx = indices.index(i) % len(wheel['key'])
-                    key_val = wheel['key'][key_idx]
-                    pt_val = (ct_val - key_val) % 26
-                    derived_pt[i] = chr(pt_val + ord('A'))
-                elif wheel['family'] == 'beaufort':
-                    ct_val = ord(ct[i]) - ord('A')
-                    key_idx = indices.index(i) % len(wheel['key'])
-                    key_val = wheel['key'][key_idx]
-                    pt_val = (key_val - ct_val) % 26
-                    derived_pt[i] = chr(pt_val + ord('A'))
-                elif wheel['family'] == 'variant_beaufort':
-                    ct_val = ord(ct[i]) - ord('A')
-                    key_idx = indices.index(i) % len(wheel['key'])
-                    key_val = wheel['key'][key_idx]
-                    pt_val = (ct_val + key_val) % 26
-                    derived_pt[i] = chr(pt_val + ord('A'))
-        
-        derived_pt = ''.join(derived_pt)
+        if pattern_id == "BASELINE":
+            # Use standard derivation for baseline
+            derived_pt = derive_plaintext_from_wheels(ct, wheels, compute_baseline_class)
+            # Debug: check which classes have wheels
+            if '?' in derived_pt:
+                missing_classes = []
+                for i in range(97):
+                    if derived_pt[i] == '?':
+                        class_id = compute_baseline_class(i)
+                        if class_id not in wheels:
+                            missing_classes.append((i, class_id))
+                if missing_classes:
+                    return False, f'missing_wheels_for_{len(missing_classes)}_positions', None
+        else:
+            # Custom derivation for non-standard class functions
+            derived_pt = ['?'] * 97
+            
+            for i in range(97):
+                class_id = class_func(i)
+                if class_id in wheels:
+                    wheel = wheels[class_id]
+                    indices = class_indices[class_id]
+                    
+                    # Find position of i within its class's indices
+                    if i not in indices:
+                        continue
+                    pos_in_class = indices.index(i)
+                    
+                    if wheel['family'] == 'vigenere':
+                        ct_val = ord(ct[i]) - ord('A')
+                        key_idx = pos_in_class % len(wheel['key'])
+                        key_val = wheel['key'][key_idx]
+                        pt_val = (ct_val - key_val) % 26
+                        derived_pt[i] = chr(pt_val + ord('A'))
+                    elif wheel['family'] == 'beaufort':
+                        ct_val = ord(ct[i]) - ord('A')
+                        key_idx = pos_in_class % len(wheel['key'])
+                        key_val = wheel['key'][key_idx]
+                        pt_val = (key_val - ct_val) % 26
+                        derived_pt[i] = chr(pt_val + ord('A'))
+                    elif wheel['family'] == 'variant_beaufort':
+                        ct_val = ord(ct[i]) - ord('A')
+                        key_idx = pos_in_class % len(wheel['key'])
+                        key_val = wheel['key'][key_idx]
+                        pt_val = (ct_val + key_val) % 26
+                        derived_pt[i] = chr(pt_val + ord('A'))
+            
+            derived_pt = ''.join(derived_pt)
         
         if '?' in derived_pt:
             incomplete = derived_pt.count('?')

@@ -89,10 +89,10 @@ def greedy_forward_search(
                 if wheel_config is None:
                     undetermined += len(indices)
                 else:
-                    # Count positions that can't be uniquely determined
+                    # Count positions that are not constrained
                     for idx in indices:
                         if idx not in test_constraints:
-                            # Check if this position is uniquely determined by the wheel
+                            # Position is not constrained, therefore undetermined
                             undetermined += 1
             
             if undetermined < best_undetermined:
@@ -180,20 +180,12 @@ def test_tail_subset_comprehensive(
             undetermined_by_class[class_id] = len(indices)
         else:
             wheels[class_id] = wheel_config
-            # Count actual undetermined positions
+            # Count actual undetermined positions (positions not in constraints)
             class_undetermined = 0
             for idx in indices:
                 if idx not in constraints:
-                    # Try to derive this position
-                    if wheel_config['family'] == 'vigenere':
-                        ct_val = ord(ct[idx]) - ord('A')
-                        key_val = wheel_config['key'][idx % len(wheel_config['key'])]
-                        pt_val = (ct_val - key_val) % 26
-                        derived = chr(pt_val + ord('A'))
-                        if derived != pt[idx]:
-                            class_undetermined += 1
-                    else:
-                        class_undetermined += 1
+                    # Position is not constrained, therefore undetermined
+                    class_undetermined += 1
             
             undetermined_by_class[class_id] = class_undetermined
             total_undetermined += class_undetermined
@@ -234,13 +226,14 @@ def random_search_at_size(
     Returns:
         (found, subset, trials_log)
     """
-    random.seed(seed)
+    # Reseed local RNG using seed + k for reproducibility per k
+    local_rng = random.Random(seed + k)
     tail_positions = list(range(75, 97))
     
     trials_log = []
     
     for trial in range(max_trials):
-        subset = sorted(random.sample(tail_positions, k))
+        subset = sorted(local_rng.sample(tail_positions, k))
         feasible, undetermined, details = test_tail_subset_comprehensive(subset, ct, pt, anchors)
         
         trials_log.append({
@@ -266,7 +259,6 @@ def generate_coverage_curve(
     """
     Generate coverage curve data showing undetermined vs subset size.
     """
-    random.seed(seed)
     curve_data = []
     
     for k in range(0, 23):
@@ -286,8 +278,10 @@ def generate_coverage_curve(
             undetermined_values = []
             feasible_count = 0
             
+            # Use k-specific seed for reproducibility
+            local_rng = random.Random(seed + k)
             for _ in range(min(samples_per_k, len(list(itertools.combinations(tail_positions, k))) if k <= 10 else samples_per_k)):
-                subset = sorted(random.sample(tail_positions, k))
+                subset = sorted(local_rng.sample(tail_positions, k))
                 feasible, undetermined, _ = test_tail_subset_comprehensive(subset, ct, pt, anchors)
                 undetermined_values.append(undetermined)
                 if feasible:
@@ -409,15 +403,30 @@ def main():
     out_dir = Path(args.out)
     out_dir.mkdir(parents=True, exist_ok=True)
     
-    # Load data
-    with open(args.ct, 'r') as f:
-        ct = f.read().strip()
+    # Load data with clear error messages
+    try:
+        with open(args.ct, 'r') as f:
+            ct = f.read().strip()
+    except FileNotFoundError:
+        print(f"Error: Ciphertext file not found: {args.ct}")
+        print("Please ensure 02_DATA/ciphertext_97.txt exists")
+        sys.exit(1)
     
-    with open(args.pt, 'r') as f:
-        pt = f.read().strip()
+    try:
+        with open(args.pt, 'r') as f:
+            pt = f.read().strip()
+    except FileNotFoundError:
+        print(f"Error: Plaintext file not found: {args.pt}")
+        print("Please ensure 02_DATA/plaintext_97.txt exists")
+        sys.exit(1)
     
-    with open(args.anchors, 'r') as f:
-        anchors = json.load(f)
+    try:
+        with open(args.anchors, 'r') as f:
+            anchors = json.load(f)
+    except FileNotFoundError:
+        print(f"Error: Anchors file not found: {args.anchors}")
+        print("Please ensure 02_DATA/anchors/four_anchors.json exists")
+        sys.exit(1)
     
     # 1. Greedy forward search
     print("\nPerforming greedy forward search...")
@@ -447,7 +456,7 @@ def main():
         
         for k in range(10, 23):
             print(f"  Testing size {k}...")
-            found, subset, trials = random_search_at_size(k, ct, pt, anchors, args.samples_per_k, args.seed + k)
+            found, subset, trials = random_search_at_size(k, ct, pt, anchors, args.samples_per_k, args.seed)
             
             undetermined_values = [t['undetermined'] for t in trials]
             

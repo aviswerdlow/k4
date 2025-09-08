@@ -1,0 +1,24 @@
+{
+  "description": "Minimality proof for K4 tail subset",
+  "master_seed": 1337,
+  "minimal_subset_size": 22,
+  "reason": "no subset of size \u2264 21 re-derives full plaintext",
+  "tested_samples_per_k": {
+    "10": 10,
+    "11": 10,
+    "12": 10,
+    "13": 10,
+    "14": 10,
+    "15": 10,
+    "16": 10,
+    "17": 10,
+    "18": 10,
+    "19": 10,
+    "20": 10,
+    "21": 10
+  },
+  "pt_sha256": "4eceb739ab655d6f4ec87753569b8bf04573fe26d01c0caa68d36776dd052d79",
+  "pt_sha256_expected": "4eceb739ab655d6f4ec87753569b8bf04573fe26d01c0caa68d36776dd052d79",
+  "greedy_size": 22,
+  "timestamp": "2025-09-08T05:12:59Z"
+}

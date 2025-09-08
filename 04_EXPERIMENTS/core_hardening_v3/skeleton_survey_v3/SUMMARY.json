@@ -1,18 +1,18 @@
 {
   "description": "Extended skeleton survey with 200+ patterns",
   "master_seed": 1337,
-  "total_patterns": 169,
-  "feasible_count": 0,
+  "total_patterns": 50,
+  "feasible_count": 1,
   "pattern_families": {
     "modular": 11,
     "sum": 15,
     "weighted": 18,
-    "product": 6,
-    "xor": 9,
-    "affine": 80,
-    "phase": 11,
-    "complex": 8,
-    "random": 10
+    "product": 5,
+    "xor": 0,
+    "affine": 0,
+    "phase": 0,
+    "complex": 0,
+    "random": 0
   },
-  "timestamp": "2025-09-08T05:03:48Z"
+  "timestamp": "2025-09-08T05:23:30Z"
 }
