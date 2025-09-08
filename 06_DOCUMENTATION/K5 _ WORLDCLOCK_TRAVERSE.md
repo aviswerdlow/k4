@@ -1,205 +1,217 @@
-This document shows how to use a round dial (e.g., the **Urania World Clock** at Alexanderplatz, a.k.a. the “Berlin world clock”) as your surveying circle to go from **ciphertext → plaintext instruction → bearing → rectangular reduction**. 
+# **K5 — From “World Clock” to Traverse (pencil-and-paper)**
+
+**How to use a round dial (e.g., the Urania World Clock at Alexanderplatz) as your surveying circle to go from ciphertext → plaintext instruction → bearing → rectangular reduction.**
 
 ---
 
-# **From “World Clock” to Traverse: a pencil-and-paper guide**
+## **TL;DR**
 
-**TL;DR**  
- Treat a round plaza dial (e.g., the Urania World Clock) as your **surveying circle**.
+Treat the plaza’s round dial as a **surveying circle** (a limb). The text’s **direction words** (e.g., **EAST NORTHEAST**) tell you **which arc** to read on the circle; the **tail** you’ve already decrypted tells you **how** to interpret it:
 
-1. Read a **direction as an arc** in the named sector (e.g., EAST NORTHEAST).
+**“… OF AN ANGLE IS THE ARC.”**  
+*Read the angle as an arc on the circle; then act as a surveyor.*
 
-2. Correct that direction to **true** with magnetic **declination** (δ).
+Then:
 
-3. Choose or measure a **distance** `d`.
+1. Read the arc \\theta\_{\\text{dial}} in the named sector (NE, ENE, etc.).
 
-4. Reduce to rectangular components:  
-    ΔN=d⋅cos⁡(θtrue),ΔE=d⋅sin⁡(θtrue)\\Delta N \= d\\cdot \\cos(\\theta\_{\\text{true}}),\\quad \\Delta E \= d\\cdot \\sin(\\theta\_{\\text{true}})
+2. Correct to **true** with declination \\delta:
 
-That’s the entire traverse step.
+    \\boxed{\\ \\theta\_{\\text{true}} \= \\theta\_{\\text{dial}} \+ \\delta\\ }
 
-This note assumes you already verified the 97-character plaintext instruction under rails (anchors fixed; tail locked) and now want to carry out the **surveying interpretation** by hand.
+3. Choose or measure a **distance** d.
 
----
+4. Reduce to rectangular components (true meridian basis):
 
-## **0\) Inputs you’ll need**
+    \\Delta N \= d \\cos \\theta\_{\\text{true}},\\qquad \\Delta E \= d \\sin \\theta\_{\\text{true}}
 
-* **Plaintext (97 letters; A..Z)** you’ve verified under rails — example:  
-   `WECANSEETHETEXTISREALEASTNORTHEASTWESETTHECOURSETRUEREADTHENSEEBERLINCLOCKTHEJOYOFANANGLEISTHEARC`
+That’s one traverse leg.
 
-* **Direction phrase** in the head (0..74) — example: `EAST NORTHEAST` (ENE sector implied).
-
-* **Declination** δ at your location/epoch (east positive, west negative). If you don’t have a specific date, you can use the illustrative value **\+16.6959°** that we’ve logged previously.
-
-* **A distance** `d`. The text doesn’t encode one; you either:
-
-  * adopt a **unit** distance (d \= 1\) to get a direction vector, or
-
-  * **measure** a yard length (pace it or use a plan scale), or
-
-  * choose a conventional demo number (e.g., d \= 5).
-
-Optional: a printed overhead photo of the **Urania World Clock** (or any clear round dial), a square, a protractor, and a pencil.
+**Assumptions:** You’ve already verified the **97-character** plaintext under rails (anchors at 21–24, 25–33, 63–73; tail **derived**, not assumed). This note is **surveying-only**: how to turn the words into a direction and a traverse row using paper tools.
 
 ---
 
-## **1\) Read the direction as an arc on the circle**
+## **0\) What you need**
 
-1. Draw or print a circle with **north** at the top (0°/360°), **east** at 90°, **south** at 180°, **west** at 270°.  
-    A 16-point wind rose divides the circle every 22.5°:
+* **Plaintext (97 letters, A..Z)** you have verified under rails.
+
+   Example head tokens: … EAST NORTHEAST …
+
+   Example tail (derived arithmetically): … THE JOY OF AN ANGLE IS THE ARC.
+
+* **Declination** \\delta for location/epoch (east **\+**, west **−**).
+
+   If you lack a date, you may use the illustrative value \\delta \= \+16.6959^\\circ (document your choice).
+
+* **Distance** d. Either:
+
+  * adopt a **unit** distance ( d \= 1 ) for a direction vector,
+
+  * **measure** on site or from a plan (paces, meters, etc.), or
+
+  * pick a demo value (e.g., d \= 5 ).
+
+**Paper kit:** protractor (or ticked printout), ruler, pencil, a square or straightedge.
+
+---
+
+## **1\) Read the direction as an arc (not as a word)**
+
+Draw/print a circle with **north** at the top (0°/360°), **east** at 90°, **south** at 180°, **west** at 270°. A **16-point wind rose** divides the circle every **22.5°**:
 
 | Point | Deg | Point | Deg | Point | Deg | Point | Deg |
 | ----- | ----- | ----- | ----- | ----- | ----- | ----- | ----- |
 | N | 0.0 | ENE | 67.5 | S | 180.0 | WNW | 292.5 |
 | NNE | 22.5 | E | 90.0 | SSW | 202.5 | W | 270.0 |
 | NE | 45.0 | ESE | 112.5 | SW | 225.0 | WSW | 247.5 |
-| NEE \= NE | 45.0 (alias) | SE | 135.0 | WSW | 247.5 | NW | 315.0 |
-| NEE/ENE pair | 45–67.5 |  |  |  |  |  |  |
+| NEE (alias NE) | 45.0 | SE | 135.0 | NW | 315.0 | NNW | 337.5 |
 
-2.   
-   Locate the **named sector**.
+**Locate the named sector** in your head clause:
 
-   * If the line says **EAST NORTHEAST**, read the arc in/near **ENE \= 67.5°**.
+* **NORTHEAST** → read near **45.0°**.
 
-   * If it says **NORTHEAST**, read near **45.0°**.  
-      Use the dial’s tick marks or a protractor on your printout.
+* **EAST NORTHEAST** → read near **67.5°** (ENE).
 
-**Arc, not words.** The plaza dial is a surveying limb. You **read an arc** (degrees on the circle), then convert that into a bearing.
+* **EAST** → read at **90.0°**.
 
----
+**Why “arc”?** The plaza’s circular limb is a surveying circle. Per your decrypted tail (Flint’s rule), *the measure of an angle is the arc*. You read the **degrees** on the circle, not do wordplay.
 
-## **2\) Correct to the true meridian (declination δ)**
-
-Take your dial reading `θ_dial` and apply local **declination** (east positive):
-
- θtrue=θdial+δ \\boxed{\\ \\theta\_{\\text{true}} \= \\theta\_{\\text{dial}} \+ \\delta\\ }
-
-* Example A (NE): `θ_dial = 45.0°`, `δ = +16.6959°` → `θ_true ≈ 61.6959°`
-
-* Example B (ENE): `θ_dial = 67.5°`, `δ = +16.6959°` → `θ_true ≈ 84.1959°`
-
-If you don’t have a dated δ, pick the one you’re using elsewhere and **record it**; this is an audit step, not a trick.
+Call your reading \\theta\_{\\text{dial}}.
 
 ---
 
-## **3\) Pick a distance `d` and reduce to ΔN/ΔE**
+## **2\) Correct to the true meridian (declination)**
 
-Rectangular reduction (Robinson/Flint):
+Apply local **magnetic declination** \\delta to obtain the **true-meridian** azimuth:
 
-ΔN=d⋅cos⁡(θtrue),ΔE=d⋅sin⁡(θtrue)\\Delta N \= d\\cdot \\cos(\\theta\_{\\text{true}}),\\quad \\Delta E \= d\\cdot \\sin(\\theta\_{\\text{true}})
+\\boxed{\\ \\theta\_{\\text{true}} \= \\theta\_{\\text{dial}} \+ \\delta\\ } \\quad \\text{(east \\(+\\), west \\(−\\))}
 
-Two standard choices:
+**Examples (using** \\delta \= \+16.6959^\\circ**):**
 
-* **Unit course** (d \= 1): gives a **direction vector** you can scale later.
+* NE case: \\theta\_{\\text{dial}} \= 45.0^\\circ \\Rightarrow \\theta\_{\\text{true}} \\approx 61.6959^\\circ
 
-* **Measured/scaled course**: choose any d to get a concrete traverse row.
+* ENE case: \\theta\_{\\text{dial}} \= 67.5^\\circ \\Rightarrow \\theta\_{\\text{true}} \\approx 84.1959^\\circ
 
-**Worked example (NE \+ δ):**  
- Use `θ_true = 61.6959°`.
-
-* Unit course:  
-   `ΔN_unit ≈ cos(61.6959°) ≈ 0.474151`  
-   `ΔE_unit ≈ sin(61.6959°) ≈ 0.880443`
-
-* For **d \= 5** (demo distance):  
-   `ΔN ≈ 5 × 0.474151 = 2.370756`  
-   `ΔE ≈ 5 × 0.880443 = 4.402217`
-
-**Worked example (ENE \+ δ):**  
- Use `θ_true = 84.1959°`.
-
-* Unit course: `ΔN_unit ≈ 0.0999`, `ΔE_unit ≈ 0.9950`
-
-* For **d \= 5**: `ΔN ≈ 0.4995`, `ΔE ≈ 4.9751`
-
-Both are correct **methods**; your `θ_true` depends on the sector you read (NE vs ENE) and the δ you chose.
+**Note:** Record the source/epoch of \\delta. This is a normal audit step in field books.
 
 ---
 
-## **4\) Write a one-row “traverse table”**
+## **3\) Pick distance d and reduce to \\Delta N, \\Delta E**
 
-| Leg | Bearing (true) | Distance d | ΔN \= d·cosθ | ΔE \= d·sinθ |
+Use Robinson/Flint rectangular reduction:
+
+\\Delta N \= d \\cos \\theta\_{\\text{true}},\\qquad \\Delta E \= d \\sin \\theta\_{\\text{true}}
+
+Two common choices:
+
+* **Unit course** (d \= 1): yields a **direction vector** you can scale later.
+
+* **Measured/scaled**: pick any d to get a concrete traverse leg.
+
+**Worked example (NE with** \\delta**)**
+
+\\theta\_{\\text{true}} \= 61.6959^\\circ
+
+* d \= 1: \\Delta N \\approx 0.474151,\\ \\Delta E \\approx 0.880443
+
+* d \= 5: \\Delta N \\approx 2.370756,\\ \\Delta E \\approx 4.402217
+
+**Worked example (ENE with** \\delta**)**
+
+\\theta\_{\\text{true}} \= 84.1959^\\circ
+
+* d \= 1: \\Delta N \\approx 0.0999,\\ \\Delta E \\approx 0.9950
+
+* d \= 5: \\Delta N \\approx 0.4995,\\ \\Delta E \\approx 4.9751
+
+**No calculator?** Use a printed trig table (5-place is plenty). Lookup \\cos and \\sin for your \\theta\_{\\text{true}}.
+
+---
+
+## **4\) Write a one-row traverse table**
+
+| Leg | Bearing (true) | Distance d | \\Delta N \= d \\cos \\theta | \\Delta E \= d \\sin \\theta |
 | ----- | ----- | ----- | ----- | ----- |
-| 1 | N 61.6959° E | 1 | 0.474151 | 0.880443 |
+| 1 | N 61.6959^\\circ E | 1 | 0.474151 | 0.880443 |
 
-To use a **different** distance, just multiply ΔN/ΔE by that d.
+To re-use this bearing at a different length, scale \\Delta N, \\Delta E by that d.
 
 ---
 
-## **5\) Sanity checks & common pitfalls**
+## **5\) Sanity checks & pitfalls**
 
-* **Head vs tail.** The **tail** is already the textbook rule: “**… OF AN ANGLE IS THE ARC**.” You act on it by reading the arc on the circle; you don’t need a distance word in the head.
+* **Tail vs head.** The **tail** you decrypted is the **rule**: “*… OF AN ANGLE IS THE ARC*.” The **head** gives a **sector** (NE/ENE/etc.). You **read degrees** from the circle, then compute.
 
-* **Declination sign.** East declination **adds**; west **subtracts**. Note epoch & location.
+* **Declination sign.** East declination **adds**; west **subtracts**.
 
-* **Sector vs exact degree.** The words (NE, ENE, EAST) pick a **sector**. The **circle** gives you the numeric arc.
+* **Sector ≠ exactness.** The sector points you near 45°/67.5°/90°; the **dial** gives the numeric arc you actually use.
 
-* **Units.** Any distance unit works (pace, meters, rods) — the **direction** is the point, the traverse just scales it.
+* **Units.** Any length unit works; only direction is fixed by the angle.
 
 ---
 
 ## **6\) Minimal worksheet (printable)**
 
-PLAZA CIRCLE — WORLD CLOCK WORKSHEET
+**PLAZA CIRCLE — WORLD CLOCK WORKSHEET**
 
-\------------------------------------
+Head sector (NE/ENE/E):  \_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_
 
-Head sector (circle):  \_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_   (e.g., NE, ENE)
+Dial reading θ\_dial (deg):  \_\_\_\_\_\_\_\_.\_\_\_\_
 
-Dial reading θ\_dial:   \_\_\_\_\_\_\_.\_\_\_\_   degrees
+Declination δ (deg, \+E/−W):  \_\_\_\_\_\_\_\_.\_\_\_\_
 
-Declination δ (epoch): \_\_\_\_\_\_\_.\_\_\_\_   degrees   (+E / \-W)
+θ\_true \= θ\_dial \+ δ \=  \_\_\_\_\_\_\_\_.\_\_\_\_  deg
 
-θ\_true \= θ\_dial \+ δ \=  \_\_\_\_\_\_\_.\_\_\_\_   degrees
+Distance d (units):  \_\_\_\_\_\_\_\_.\_\_\_\_
 
-Distance d (unit):     \_\_\_\_\_\_\_.\_\_\_\_
+ΔN \= d·cos(θ\_true) \=  \_\_\_\_\_\_\_\_\_\_\_\_\_
 
-ΔN \= d·cos(θ\_true) \=   \_\_\_\_\_\_\_.\_\_\_\_\_\_   (northings)
+ΔE \= d·sin(θ\_true) \=  \_\_\_\_\_\_\_\_\_\_\_\_\_
 
-ΔE \= d·sin(θ\_true) \=   \_\_\_\_\_\_\_.\_\_\_\_\_\_   (eastings)
-
-Notes: \_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_
+Notes: \_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_
 
 ---
 
 ## **7\) Why this matches the text**
 
-* The instruction **tells you to read an arc** (“the measure of an angle is the arc”).
+* Your **anchor-driven decryption** produced the tail: **“… OF AN ANGLE IS THE ARC.”**
 
-* Direction tokens like **EAST NORTHEAST** refer to **sectors on the circle**, not wordplay.
+   That’s **Abel Flint’s** rule: *the measure of an angle is the arc cut off by the rays on a circle*.
 
-* The plaza’s form is a **surveying plate**: circle/meridian/quadrants. After reading the arc, you do what a 19th-century field book says:
+* The **head** supplies the **sector** (NE/ENE/E). The **circle** supplies the **degrees**.
 
-  * correct to **true** (declination),
+   The **field work** is classical: correct to **true**, then **rectangular reduction** (\\Delta N,\\Delta E).
 
-  * reduce to **ΔN/ΔE** (rectangular surveying),
-
-  * and proceed (offsets/intersections as needed) — all without needing the word “ROD.”
+* The **plaza** (circle, meridian, quadrants) is a **surveying plate**. The instruction is operational, not decorative.
 
 ---
 
-### **Appendix A — 16-point wind rose (degrees from true north)**
+## **Appendix A — 16-point wind rose (degrees from true north)**
 
-N 0° • NNE 22.5° • NE 45° • ENE 67.5° • E 90° • ESE 112.5° • SE 135° • SSE 157.5° •  
- S 180° • SSW 202.5° • SW 225° • WSW 247.5° • W 270° • WNW 292.5° • NW 315° • NNW 337.5°
+N 0° • NNE 22.5° • NE 45° • ENE 67.5° • E 90° • ESE 112.5° • SE 135° • SSE 157.5° •
 
----
-
-### **Appendix B — If you’re using a photo of the Urania World Clock**
-
-1. Print a clear, overhead view (or a perfectly level oblique).
-
-2. Draw the **meridian** (north–south line) through the center.
-
-3. Mark the 16-point ticks (every 22.5°).
-
-4. Read **NE** or **ENE** arc as needed; measure `θ_dial`.
-
-5. Apply `θ_true = θ_dial + δ`, then reduce.
-
-If you can get an on-site reading, you can literally stand on the meridian line, sight the ENE sector, and read the arc from the dial.
+S 180° • SSW 202.5° • SW 225° • WSW 247.5° • W 270° • WNW 292.5° • NW 315° • NNW 337.5°
 
 ---
 
-That’s all a pencil-and-paper cryptographer needs: a circle, a declination, a distance, and the two lines of trigonometry. The cryptography proved the **letters**; the plaza (plus Flint) tells you **what to do** with them.
+## **Appendix B — Using a photo of the Urania World Clock**
 
+1. Print a clear **overhead** (or perfectly level oblique).
+
+2. Draw the **true meridian** (N–S) through the center.
+
+3. Mark the 16-point **tick marks** (22.5° spacing).
+
+4. Read the **NE/ENE** arc for \\theta\_{\\text{dial}}.
+
+5. Compute \\theta\_{\\text{true}} \= \\theta\_{\\text{dial}} \+ \\delta.
+
+6. Reduce: \\Delta N \= d \\cos \\theta\_{\\text{true}},\\ \\Delta E \= d \\sin \\theta\_{\\text{true}}.
+
+On site: stand on the meridian, sight ENE, read the arc, then do the table work.
+
+---
+
+### **Historical note (why K5 matters)**
+
+K4’s cryptography (anchors → six short wheels) produced the **tail** arithmetically. **K5** is “what you do next”: interpret the **head’s sector** on a **real circle**, correct for declination, and run a **rectangular traverse**. This document is deliberately **pencil-friendly** so a 1989 cryptographer can complete the operation without any digital tools.
