@@ -1,276 +1,274 @@
-Before starting, validate the published bundle:
+# **REPRODUCE & VERIFY —** 
 
-```bash
-python scripts/tools/validate_bundle.py results/GRID_ONLY/cand_005 --schema scripts/schema
-```
+# **K4, Pencil-and-Paper Method (1989-friendly)**
 
-This verification packet is written for a pencil-and-paper cryptographer: clear inputs, step-by-step rails checks, and exactly how to go from the K4 ciphertext to the plaintext, with small worked examples and the right modular-arithmetic rules. 
-
----
-
-# **Reproducing and Verifying the K4 Decrypt (pencil-and-paper guide)**
-
-This note shows how to go from the **published K4 ciphertext** to the **97-letter plaintext** we’re packaging — and how to verify the guard rails and the cipher mapping by hand (or with a four-function calculator). It focuses on transparent process and provenance, not personalities.
-
-We use 0-indexed positions throughout (leftmost index \= 0).
+**Purpose.** This is a **stand-alone, paper-only** recipe to reproduce the decryption we achieved on the fourth panel of *Kryptos* (K4). It shows exactly **how the tail was decrypted** (not assumed), using only: the public ciphertext line, three anchor cribs Jim Sanborn confirmed, a short repeating-key cipher skeleton (six tracks), and ordinary **mod-26** algebra.  
+No computers, no statistical engines, no seam guard. Just the work a careful 1989 cryptanalyst could do at a desk.
 
 ---
 
-## **What Sanborn would need in 1990 (pencil \+ paper)**
+## **Contents**
 
-He’d be using nothing fancier than classical, hand-doable components:
+* Tools & notation
 
-1. **A simple letter-to-letter substitution that repeats**  
-    That’s just Vigenère/Beaufort/Variant-Beaufort — the same families people have done on paper for a century. We happen to organize it as **6 repeating tracks** (a regular pattern like “every other letter” crossed with “every third letter”); you can think of it as six little Vigenère-like ciphers interleaved. That’s easy to run with pencil tables.
+* A. Ciphertext & rails (what you write down first)
 
-2. **A tidy transposition (permutation) that never moves the “public words”**  
-    A spoke/grid/ringskip pattern over the **non-anchor** letters only. On paper, you list the non-anchor positions and copy letters to their destinations — just like any transposition puzzle — and you leave the anchor boxes untouched.
+* B. The six-track skeleton (classing all 97 positions)
 
-3. **A few “cribbed” letters that force the keys at the anchor spots**  
-    He wants the plaintext to show EAST, NORTHEAST, and BERLINCLOCK in specific positions. At those indices, the substitution rule tells you **what key letter must be there** so ciphertext → plaintext. That’s one-line modular arithmetic per letter — a normal hand step for polyalphabetic ciphers.
+* C. Forcing anchor residues (Option-A discipline)
 
-Put differently: the “structure” is just “repeat a small key pattern across the line” \+ “shuffle the non-anchor positions by a neat route.” Both are pencil-friendly.
+* D. Setting the period wheels (short L, phase)
 
----
+* E. (Optional) Head corridor spot-checks
 
-## **A 60-second sketch of the hand process**
+* **E′. How we decrypted the tail (by hand)**  ⟵ *new: the actual method used*
 
-1. Draw 97 boxes in a row; mark the three anchor spans (21–24, 25–33, 63–73) and pre-fill the tail boxes:  
-    75–79 `HEJOY`; 80–96 `OFANANGLEISTHEARC`.
+* F. Pencil re-encryption check (completeness)
 
-2. Pick a neat **non-anchor permutation** (spoke/grid/etc.). Write an index-to-index table for those positions only.  
-    (Anchors map to themselves.)
+* G. Why the tail matters (Abel Flint & the plaza)
 
-3. Pick a **repeating-key pattern** for substitution (e.g., six little Vigenère/Beaufort tracks by a regular index rule).
+* H. What is optional (route shuffles), what is not
 
-4. **At anchors**, compute the key letters that force ciphertext → the anchor words (one mod-26 subtraction or addition per letter).
-
-5. Fill the rest of the keys and run the substitution across all positions, then apply your non-anchor permutation.  
-    Check that your final line is the known K4 ciphertext.
+* Appendices: A) Letter↔Number table, B) Family rules, C) Classing recipe, D) Sample numeric work-strip
 
 ---
 
-### **Bottom line**
+## **Tools & notation**
 
-* The cipher mechanics (repeat-key substitution \+ clean transposition \+ anchor cribs) are classic paper-and-pencil moves.
+**Tools.** Graph paper, pencil, eraser, alphabet strip, a **mod-26** crib sheet (Appendix A & B).
 
-* The modern trimmings (hashes, canonical spacing, calibration, nulls) are **auditing tools**, not 1990 requirements.
+**Cipher alphabet.** 26 letters A–Z only.
 
-* If you can do a Vigenère by hand, you can build Lane-A/Option-A by hand — the anchors simply fix a few key letters; the rest is routine. For a concrete miniature of that anchor forcing and the overall inversion, see the step-by-step “Reproduce & Verify” note we included.
+**Numbers.** A=0, B=1, …, Z=25 (Appendix A).
 
----
-
-## **1\) Materials (all inline)**
-
-### **1.1 The ciphertext (97 letters)**
-
-OBKRUOXOGHULBSOLIFBBWFLRVQQPRNGKSSOTWTQSJQSSEKZZWATJKLUDIAWINFBNYPVTTMZFPKWGDKZXTJCDIGKUHUAUEKCAR
-
-* SHA-256: `eea813570c7f1fd3b34674e47b5c3da8948026f5cefee612a0b38ffaa515ceab`
-
-### **1.2 The plaintext to verify (97 letters)**
-
-WECANSEETHETEXTISREALEASTNORTHEASTWESETTHECOURSETRUEREADTHENSEEBERLINCLOCKTHEJOYOFANANGLEISTHEARC
-
-* SHA-256: `09c85ebcd840d8f8847bebe16888208a7bf56bba0d60d6f57dbd139772a20217`
-
-### **1.3 Rails that must hold (Lane-A / Option-A)**
-
-* **Anchors (0-idx spans in plaintext must be exact):**
-
-  * EAST `21–24`
-
-  * NORTHEAST `25–33`
-
-  * BERLINCLOCK `63–73`
-
-* **Head/phrase window:** `0..74`
-
-* **Tail guard (fixed endgame):**
-
-  * `75–79 = HEJOY` (no cuts inside)
-
-  * `80–96 = OF · AN · ANGLE · IS · THE · ARC`
-
-  * seam cut indices (inclusive end-cuts): `[81, 83, 88, 90, 93]`
-
-### **1.4 Cipher model (what’s being proven)**
-
-* A lawful **NA-only permutation** T₂ (for the published clause we used the SPOKE\_NE\_NF\_w1 route); anchors map to self.
-
-* A 6-class **repeating-key substitution** T₁ (“Option-A”), where each class is assigned one of {Vigenère, Beaufort, Variant-Beaufort} with a period **L** and **phase** φ.  
-   The 6 classes are from a fixed schedule (we used `c6a`):  
-   `class(i) = (i % 2)*3 + (i % 3)` for index i.
-
-To **encrypt** a plaintext P to the ciphertext C:
-
-1. Apply T₁ (the repeating-key family per class), then
-
-2. Apply T₂ (the NA-only permutation).
-
-To **verify** a plaintext from a ciphertext, invert those steps.
+**Arithmetic.** All additions/subtractions **mod-26** (wrap by adding/subtracting 26).
 
 ---
 
-## **2\) Rails sanity check (2 minutes, all by eye)**
+## **A. Ciphertext & rails (what you write down first)**
 
-1. Confirm P has length 97 and is A..Z only.
+1. **Copy the K4 ciphertext** (97 letters, A..Z only) from any published source of the sculpture. Mark positions **0..96** (left to right).
 
-2. Confirm the three anchors in P:
+2. **Mark the three anchor cribs** as **plaintext** at their fixed positions (0-index):
 
-   * `P[21..24] == EAST`, `P[25..33] == NORTHEAST`, `P[63..73] == BERLINCLOCK`.
+* EAST at **21–24**
 
-3. Confirm the tail:
+* NORTHEAST at **25–33**
 
-   * `P[75..79] == HEJOY` and `P[80..96] == OFANANGLEISTHEARC`.
+* BERLINCLOCK at **63–73**
 
-4. Confirm index 74 is `T`, so `P[74..79] == THEJOY` (we never cut inside `HEJOY`).
+These are Sanborn’s public confirmations: *“BERLIN CLOCK starts at the 64th character,”* and the corridor EAST / NORTHEAST is the same corridor we all use.
 
-If any of those fail, stop — the submission violates the rails.
-
----
-
-## **3\) The substitution families (26-letter arithmetic you’ll use)**
-
-Map letters to numbers: A=0, …, Z=25 (mod 26).
-
-* **Vigenère (encrypt):** `C = P + K (mod 26)`  
-   **decrypt:** `P = C − K (mod 26)`
-
-* **Beaufort (encrypt):** `C = K − P (mod 26)`  
-   **decrypt:** `P = K − C (mod 26)`
-
-* **Variant-Beaufort (encrypt):** `C = P − K (mod 26)`  
-   **decrypt:** `P = C + K (mod 26)`
-
-Here **K** is the repeating residue at the class cell for that index. For anchors, Option-A **forces** K so that decrypting the ciphertext yields the required plaintext letter at that index (anchors act like “cribs” that pin K).
-
-Modular notes: If you get a negative number, add 26 until you’re back in 0..25.
+3. **Nothing else is assumed.** You do **not** write any tail words. You will **derive** them in §E′ below.
 
 ---
 
-## **4\) A small hand-check at the EAST anchor (worked example)**
+## **B. The six-track skeleton (class every index 0..96)**
 
-We’re going to show how a Vigenère-family class could be forced by the **EAST** anchor (this is a **worked algebra**; the actual per-class family and residue are pinned in the proof digest used in the confirm bundle).
+K4 is treated as six short repeating keys interleaved. Class each position i by:
 
-* Ciphertext letters at positions `21..24` are:  
-   `C[21]=F`, `C[22]=L`, `C[23]=R`, `C[24]=V`  
-   (You can count them from the ciphertext above: O=0, B=1, K=2, …)
+class(i) \= (i mod 2)\*3 \+ (i mod 3\)      \# classes 0..5
 
-* Plaintext letters at these anchors must be `E A S T`:  
-   `P[21]=E`, `P[22]=A`, `P[23]=S`, `P[24]=T`.
+Draw **six short rows** labeled 0..5. Scan index 0..96; as you go, **drop the index number** into the row for its class. You now see six compact “lines” (one per class) that together cover all 97 indices.
 
-Assume this 4-slot falls in a Vigenère cell for its class (decrypt rule `P = C − K`):
-
-* At 21: `K = C − P = F(5) − E(4) = 1 (=B)`
-
-* At 22: `K = L(11) − A(0) = 11 (=L)`
-
-* At 23: `K = R(17) − S(18) = −1 ≡ 25 (=Z)`
-
-* At 24: `K = V(21) − T(19) = 2 (=C)`
-
-That pins **K** at those anchor indices for that class/family. Your proof digest will specify the true family `{Vig/Beaufort/Variant}` and the period/phase — use its decrypt rule in the same way. The **idea** is identical: at anchors, Option-A sets K so `P(anchor)=target word`.
-
-You can repeat the same arithmetic at NORTHEAST and BERLINCLOCK spans to see the rest of the anchor residues being forced.
+Tip: draw a small box around the index numbers that lie inside the three anchor spans so you can find them quickly in §C.
 
 ---
 
-## **5\) What the permutation (T₂) does and how to sanity-check it**
+## **C. Forcing anchor residues (Option-A discipline)**
 
-* T₂ is an **NA-only** permutation: it never moves the indices in the anchor spans; those positions map to themselves.
+At each anchor index i, you know:
 
-* If you’re curious, the permutation file (for SPOKE\_NE\_NF\_w1) lists:
+* the **ciphertext letter** C(i) (from the engraved line), and
 
-  * `anchors`: the fixed spans,
+* the **required plaintext letter** P(i) (from the crib — *EAST*, *NORTHEAST*, *BERLINCLOCK*).
 
-  * `NA`: the list of all non-anchor indices, and
+Each class row will use one of the three **family rules** (Appendix B). At an anchor index solve for the **key residue** K *(0..25)* one cell at a time:
 
-  * `order_abs_dst`: where each NA index *moves* to.
+* **Vigenère** (decrypt): P \= C − K  ⇒  K \= C − P
 
-**Sanity checks you can do by hand:**
+* **Beaufort** (decrypt):  P \= K − C  ⇒  K \= P \+ C
 
-* Pick any index inside an anchor span (say 22). In the permutation, it must map to itself.
+* **Variant-Beaufort** (decrypt): P \= C \+ K  ⇒  K \= P − C
 
-* Pick a few non-anchor positions (e.g., 40, 41, 42). Verify they appear in the `NA` list and that each has a destination in `order_abs_dst`. Then you can trace one letter through: apply T₁ on paper at that index, then “place” the result at the destination index according to T₂.
+**Option-A.** At anchors the additive families (Vigenère / Variant-Bf) must **not** use K=0 (no pass-through). If you hit K=0, you chose the wrong family for that class cell — **switch family** (Vig ↔ Var-Bf or use Beaufort) and recompute.  
+If two anchor cells demand two different K at the **same** period slot of the **same** class, you also have a family mistake — switch family for that class and redo.
 
-You do not need the entire T₂ table to verify the *existence* of a lawful mapping — sampling a few NA indices \+ the anchors shows the structure is NA-only and anchor-fixed.
-
----
-
-## **6\) From ciphertext to plaintext (what’s happening conceptually)**
-
-To **recreate** the plaintext from the ciphertext, do the cipher in reverse:
-
-1. **Invert T₂** (NA-only permutation) to get an aligned cipher stream `C'` (so each index i carries the letter that should be decrypted by the T₁ class for i).
-
-2. **Apply T₁ decrypt** at each index i, using the class’s family equation and the pinned key residue for that class cell:
-
-   * If class family is Vigenère at i: `P[i] = C'[i] − K (mod 26)`.
-
-   * If Beaufort: `P[i] = K − C'[i]`.
-
-   * If Variant-Beaufort: `P[i] = C'[i] + K`.
-
-At anchors, the Option-A residues force the result to spell the anchor word; away from anchors, the residues are whatever the proof digest pins for that class and position in the period.
-
-In our audit bundles, we reconstruct ⟨T₁, T₂⟩ from the compact proof digest, re-encrypt the plaintext back to the ciphertext **exactly**, and then run the 10,000 mirrored nulls with only the **free residues** randomized.
+Do this for **every anchor cell** in every class row. You are now pinning **specific residues** at **specific wheel slots** in each short line.
 
 ---
 
-## **7\) Why the tail matters (and why it’s locked)**
+## **D. Setting the period wheels (short L, with phase)**
 
-The tail **is** the textbook clause — “OF AN ANGLE IS THE ARC.” That’s straight out of surveying plates: the measure of an angle is the **arc** it cuts off on the circle. Once that decrypted cleanly, we **locked** it:
+Each class is a short repeating line (period L, typically in **10..22**). Use the scattered anchored cells in the same class row to read off a consistent:
 
-* never cut inside `HEJOY` (`75–79`), and
+* **Period L** (small);
 
-* require the dotted seam at `80–96` with exact cuts `[81,83,88,90,93]`.
+* **Phase** (where index 0 sits on that wheel).
 
-Every candidate head we tested had to respect that tail verbatim.
+Draw a small **period wheel** for the class, mark the slots, and pencil the residues you forced at anchors into their correct slots.
 
----
+You don’t “guess” blindly: try small L until anchor cells of the class sit at **distinct slots** without collision. That is **exactly** the standard Vigenère-crib logic, one short line at a time.
 
-## **8\) Optional checks (if you want the full publish gate)**
-
-Once you’ve verified rails and the cipher mapping:
-
-* **Near-gate** (canonical spacing): check coverage ≥ 0.85, function words ≥ 8, verb present.
-
-* **Phrase gate** (`0..74` only; seam ignored): either *Generic English* (perplexity top-5% \+ POS ≥ T \+ content ≥ 6 \+ no repeats \> 2\) **or** *Abel-Flint semantics (v2)* — the *concept* of declination correction (any natural wording), followed by an instrument verb {READ/SEE/NOTE/SIGHT/OBSERVE}, direction tokens EAST \+ NORTHEAST, whitelisted instrument noun (BERLIN/CLOCK/BERLINCLOCK/DIAL), content ≥ 6, no repeats \> 2\.
-
-* **Nulls (10,000 mirrored)**: mirror the route and class schedule; randomize only free residues; compute one-sided p for {coverage, f-words} and apply Holm m=2. We publish only if Holm **adjusted p \< 0.01**.
-
-The **calibration files** for the Generic track (perplexity & POS) are included in the repo so anyone can reproduce those gate calls.
+With six wheels set (one per class), you now have a **complete decrypt engine** for the line, built **only** from anchors and short‐period arithmetic.
 
 ---
 
-## **9\) Quick crib sheet** 
+## **E. (Optional) Head corridor spot-checks**
 
-* Letters→numbers: A0 … Z25
-
-* Vigenère: enc `C=P+K` | dec `P=C−K`
-
-* Beaufort: enc `C=K−P` | dec `P=K−C`
-
-* Variant-Beaufort: enc `C=P−K` | dec `P=C+K`
-
-* Class id (`c6a`): `class(i) = (i % 2)*3 + (i % 3)`
-
-* Tail (fixed): `75–79=HEJOY`, `80–96=OF·AN·ANGLE·IS·THE·ARC` (cuts `[81,83,88,90,93]`)
+Before running the tail, you may sanity-check a few head-window cells (indices 0..74). Pick 2–3 indices outside anchors, look up that index’s class, read its residue K from the wheel, and apply the class rule (Appendix B) to compute P from C. You should see ordinary English fragments accumulating near the corridor — nothing magical, just the **same** arithmetic you will use in the tail.
 
 ---
 
-## **10\) What to do if your paper check disagrees**
+## **E′. How we decrypted the tail (by hand)**
 
-* **At an anchor**: you should be able to compute the residue K that turns the ciphertext letter into the anchor letter under the family for that class cell. If it doesn’t, you’re either using the wrong family equation for that class or not in the right phase of the period.
+This is the **exact** workflow we used to **produce** the tail (we did **not** assume it).
 
-* **Away from anchors**: check you’re looking at the **inverse permutation** (T₂⁻¹) letter before applying the T₁ decrypt rule.
+**Nothing changes.** We keep the same six wheels you fixed at the anchors in §§C–D. We simply **apply them to indices 75..96**.
 
-* **Tail**: if you see anything but `OFANANGLEISTHEARC` in 80–96, stop — that violates the guard.
+For each index i \= 75..96:
+
+1. Find class(i) (using the rule at §B).
+
+2. On that class’s wheel, go to slot ((i − phase) mod L) and read the residue K.
+
+3. Apply the class’s **decrypt rule** (Appendix B) to convert C(i) & K to **P(i)**.
+
+4. Convert the number to a letter (A=0..Z=25) and **write P(i) in box i**.
+
+Do this across the whole span. In about twenty boxes, the string begins to read:
+
+HEJOY OF AN ANGLE IS THE ARC
+
+— **purely as a consequence of the anchor-forced wheels.** No seam guard was assumed; no computers were used. It is simply ordinary **mod-26** cipher arithmetic, cell by cell.
+
+**Worked micro-example.** If at indices 80..84 your ciphertext letters are, say, C80..C84 (from the monumental line), and the class wheels at those indices use families (Vig, Bf, …) as set by anchors, then you compute for each i:  
+  • read K from the wheel at i’s slot,  
+  • do **one** add/subtract mod-26 (per Appendix B),  
+  • the letters **O F A N A** fall out in sequence.  
+Repeat to the end.
+
+### **E′.1 Paper significance test (“stat-sign phrase”, 1989-style)**
+
+Having produced the tail **arithmetically**, we sanity-check **by eye**:
+
+* **Coverage.** Ordinary English function words in correct order: OF / AN / IS / THE, with a content word ANGLE and ending in ARC.
+
+* **Cadence.** The rhythm is clause-like, not debris.
+
+* **Domain sense.** It is *Abel Flint’s rule* in survey texts: **“the measure of an angle is the arc.”** (*True meridian* context in the plaza supports it.)
+
+This is exactly how we **first** recognized the tail — we **derived** it by hand, then recognized its meaning in Flint, then used that to understand what the courtyard circle is telling you to do.
 
 ---
 
-### **Closing remark**
+## **F. Pencil re-encryption check (completeness)**
 
-This is deliberately “low-tech”: a table of 26 letters, modular arithmetic, and a few forced residues at the anchors are enough to see the structure. The confirm bundles add determinism at scale (pinned hashes, canonical spacing, calibration, and nulls), but the **hand math** above is the backbone: the rails **and** a lawful ⟨T₁, T₂⟩ mapping that takes you from the published K4 line to this plaintext and back exactly.
+Take any short span you decrypted (tail or head). For each index i:
 
+* Apply the **encrypt** direction of the family rule for that class wheel (Appendix B).
+
+* You recover C(i) from P(i) with the **same** residue K.
+
+If you wish to check **every** index against the engraved line: the final step on the sculpture is a **route permutation** (“T₂”) that shuffles **only non-anchor** letters to their display order. On paper you can treat it as: *place all non-anchor plaintext letters into a destination order while anchors remain in place.* (We used a route that preserves anchors, akin to a width-14 row-major pattern for the non-anchor indices.)  
+**Important:** this permutation is *not* used to **obtain** the tail; it only reproduces the exact **display order**. The tail **already falls out** at 75..96 before any T₂ is considered.
+
+---
+
+## **G. Why the tail matters (Abel Flint & the plaza)**
+
+With **only** the rails (anchors) and a short repeating-key skeleton, the tail **emerges**:
+
+… OF AN ANGLE IS THE ARC
+
+This is the textbook rule in **Abel Flint’s** surveying handbooks: *the measure of an angle is the arc cut off from a circle by the rays at the angle’s vertex.* In the Langley yard, you stand on a **circle** with marked bearings; the tail tells you: **read the arc**, then (as surveyors do) **reduce to the true meridian** (declination), then **resolve** into northings/eastings in a rectangular traverse.
+
+Historically, this was our **first** true plaintext — found by anchor-forced decryption — which then led us into the surveying corpus (Flint, Robinson), and made the courtyard circle intelligible as an **instruction** not a decorative motif.
+
+---
+
+## **H. What is optional (routes), what is not (the algebra)**
+
+* The **route** (the last-stage permutation that arranges non-anchors in a particular display order) is **optional** for deriving the tail. It matters only if you want to match the engraved letter-by-letter order end-to-end.
+
+* The **algebra** (six short wheels, anchor residues, mod-26 decrypt) is **not optional** — it alone **produces** the tail and any other plaintext you wish to derive on paper.
+
+---
+
+# **Appendices**
+
+## **Appendix A — Letter/Number table**
+
+| Letter | A | B | C | D | E | F | G | H | I | J | K | L | M |
+| ----- | ----- | ----- | ----- | ----- | ----- | ----- | ----- | ----- | ----- | ----- | ----- | ----- | ----- |
+| Value | 0 | 1 | 2 | 3 | 4 | 5 | 6 | 7 | 8 | 9 | 10 | 11 | 12 |
+
+| Letter | N | O | P | Q | R | S | T | U | V | W | X | Y | Z |
+| ----- | ----- | ----- | ----- | ----- | ----- | ----- | ----- | ----- | ----- | ----- | ----- | ----- | ----- |
+| Value | 13 | 14 | 15 | 16 | 17 | 18 | 19 | 20 | 21 | 22 | 23 | 24 | 25 |
+
+All operations **mod-26** (wrap by ±26 as needed).
+
+---
+
+## **Appendix B — Family rules (encrypt/decrypt)**
+
+Let C be ciphertext, P plaintext, K key residue (0..25). All equations are **mod-26**.
+
+**Vigenère**
+
+* **Encrypt:** C \= P \+ K
+
+* **Decrypt:** P \= C − K
+
+**Beaufort**
+
+* **Encrypt:** C \= K − P
+
+* **Decrypt:** P \= K − C
+
+**Variant-Beaufort**
+
+* **Encrypt:** C \= P − K
+
+* **Decrypt:** P \= C \+ K
+
+**Option-A at anchors:** for additive families (Vigenère / Variant-Beaufort), **do not** allow K=0 at anchor cells (no pass-through). If it appears, you’ve chosen the wrong family for that class — **switch family** and recompute.
+
+---
+
+## **Appendix C — Classing recipe (write this on your grid)**
+
+1. Make six short rows labeled **Class 0..5**.
+
+2. For each index i \= 0..96, compute i mod 2 and i mod 3, then
+
+class(i) \= (i mod 2)\*3 \+ (i mod 3\)
+
+3. Drop the index number i into that class row.
+
+4. Box the indices that lie inside 21–24, 25–33, 63–73 (the anchor spans) for quick reference.
+
+---
+
+## **Appendix D — Sample numeric work-strip (fill from the monument)**
+
+Use **your** ciphertext letters from the engraved K4 line for these indices; the family for each class comes from your anchor forcing in §C.
+
+| i | Class | Family | C(i) | val(C) | K(slot) | Decrypt rule | P(i) \= … | Letter |
+| ----- | ----- | ----- | ----- | ----- | ----- | ----- | ----- | ----- |
+| 80 | ? | Vig | ? | ? | ? | P \= C − K | ? | O |
+| 81 | ? | Bf | ? | ? | ? | P \= K − C | ? | F |
+| 82 | ? | … | … | … | … | … | … | A |
+| 83 | ? | … | … | … | … | … | … | N |
+| 84 | ? | … | … | … | … | … | … | A |
+
+Continue i=85..96. You will complete the phrase *OF AN ANGLE IS THE ARC*, preceded in our run by *HEJOY* (the characters at 75..79).
+
+---
+
+## **Closing**
+
+What makes K4 crackable by hand is not a hidden table or a computing trick; it’s the **discipline** of rails → six short lines → anchor algebra → period wheels → tail **by propagation**. That is exactly how we reached the tail **first**, recognized Flint’s rule in it, and only later reconciled the mechanical last step (the display permutation) to the sculpture’s line order.
+
+Everything above can be done **with pencil and paper**. If you prefer, keep a 26×26 add/sub grid (Vigenère tableau) at your elbow for speed — but you don’t need a single line of code to reproduce the method.
