@@ -1,212 +1,196 @@
 # **K4 — Pencil-and-Paper Decrypt (1989-friendly)**
 
-# **and**
+**and**
 
 # **Modern, Audited Reproduction**
 
-This README has two parts:
+This README has two jobs:
 
-1. **Exactly** the hand method we used to **decrypt the K4 tail** with paper, pencil, and mod-26 arithmetic (no computers, no seam guard; the tail is **derived**, not assumed).
+1. teach a careful 1989 cryptanalyst exactly how to **decrypt the whole K4 line by hand** (no computers, no seam/tail guard), and
 
-2. How this repository reflects the **same** method with modern, auditable artifacts (hash-pinned data, bundles, CLI, schemas, CI).
+2. show how this repository mirrors the same method with **hash-pinned, schema-validated** artifacts you can verify in minutes.
 
 ---
 
-## **Part 1 — REPRODUCE & VERIFY (paper-only, 1989-friendly)**
+## **Part 1 —** 
 
-**Purpose.** This is a stand-alone, paper-only recipe to reproduce the decryption we achieved on the fourth panel of *Kryptos* (K4). It shows exactly **how the tail was decrypted** (not assumed), using only: the public ciphertext line, three anchor cribs Jim Sanborn confirmed, a short repeating-key cipher skeleton (six tracks), and ordinary **mod-26** algebra.
+## **REPRODUCE & VERIFY (paper-only, 1989-friendly)**
 
-No computers, no statistical engines, **no seam guard**. Just the work a careful 1989 cryptanalyst could do at a desk.
+**Goal.** Decrypt the **entire** 97-letter line on *Kryptos* panel K4 with paper & pencil. You will use only:
 
-### **Contents**
+* the engraved **ciphertext** (97 letters A..Z),
 
-* Tools & notation
+* the four **anchors as plaintext at fixed indices** (public confirmations),
 
-* A. Ciphertext & rails (what you write first)
+* a short **six-track repeating-key** skeleton, and
 
-* B. The six-track skeleton (class all 97 positions)
+* ordinary **mod-26** algebra (Vigenère / Beaufort / Variant-Beaufort).
 
-* C. Forcing anchor residues (Option-A discipline)
-
-* D. Setting the period wheels (short L, with phase)
-
-* E. (Optional) Head corridor spot-checks
-
-* **E′. How we decrypted the tail (by hand)**  ⟵ *the actual method used*
-
-* F. Pencil re-encryption check (completeness)
-
-* G. Why the tail matters (Abel Flint & the plaza)
-
-* H. What is optional (routes) vs what is not (the algebra)
-
-* Appendices: A) Letter↔Number table, B) Family rules, C) Classing recipe, D) Sample numeric strip
+**No seam/tail guard.** The tail is **derived by propagation**, not assumed.
 
 ### **Tools & notation**
 
-* **Tools.** Graph paper, pencil, eraser, alphabet strip, **mod-26** crib sheet (Appendix A & B).
+* Graph paper, pencil, eraser, alphabet strip.
 
-* **Numbers.** A=0, B=1, …, Z=25 (Appendix A).
+* Numbers: **A=0, …, Z=25** (all work **mod-26**).
 
-* **Arithmetic.** All add/subtract **mod-26**.
+* Three family rules (decrypt direction):
+
+  * **Vigenère**: P \= C − K
+
+  * **Beaufort**: P \= K − C
+
+  * **Variant-Beaufort**: P \= C \+ K
+
+* **Option-A at anchors:** for additive families (Vig / Var-Bf) **forbid K=0** (no pass-through). If K=0 at an anchor, you picked the wrong family for that class — flip family and recompute.
 
 ---
 
 ### **A. Ciphertext & rails (what you write first)**
 
-1. **Copy the K4 ciphertext** (97 letters A..Z) and index positions **0..96** left→right.
+1. Copy the 97-letter ciphertext and index positions **0..96** left→right.
 
-2. **Mark the three anchor cribs** as **plaintext** at fixed 0-index spans:
+2. Mark **four** plaintext anchors (0-indexed, inclusive ends):
 
-   * EAST at **21–24**
+   * EAST **21–24**
 
-   * NORTHEAST at **25–33**
+   * NORTHEAST **25–33**
 
-   * BERLINCLOCK at **63–73**
+   * BERLIN **63–68**
 
-3. **Nothing else is assumed.** You do **not** write any tail words. You will **derive** them in §E′.
+   * CLOCK **69–73**
 
----
-
-### **B. The six-track skeleton (class every index 0..96)**
-
-Treat K4 as six short interleaved repeating keys. Class(i) is:
-
-class(i) \= (i % 2)\*3 \+ (i % 3\)        \# classes 0..5
-
-Draw **six short rows** labeled 0..5. Scan i=0..96; drop index i into the row for its class. Box any indices lying inside the three anchor spans for easy reference.
+3. Nothing else is assumed (especially not the tail).
 
 ---
 
-### **C. Forcing anchor residues (Option-A discipline)**
+### **B. Six-track skeleton (class every index)**
 
-At each **anchor** index i you know:
+Treat K4 as six interleaved short keys (classes **0..5**):
 
-* **ciphertext** C(i) from the line, and
+class(i) \= ((i % 2\) \* 3\) \+ (i % 3\)
 
-* required **plaintext** P(i) from the crib at that span.
-
-Each class line uses one of three **families** (Appendix B). At an anchor index solve for residue K (0..25):
-
-* **Vigenère** (decrypt):  P \= C − K   ⇒  **K \= C − P**
-
-* **Beaufort** (decrypt):  P \= K − C   ⇒  **K \= P \+ C**
-
-* **Variant-Beaufort** (decrypt): P \= C \+ K ⇒ **K \= P − C**
-
-**Option-A (anchors only):** The additive families (Vig / Var-Bf) **must not** use **K=0** (no pass-through). If you get K=0 at an anchor, you chose the wrong family for that class slot — **switch family** (or use Beaufort) and recompute. If two anchor cells in the **same** class wheel demand different K for the **same** wheel slot, your family choice for that class is wrong — switch and redo.
-
-Do this for **every** anchor cell in each class row: you are pinning **specific residues** to **specific wheel slots** in each short line.
+Draw six short rows labeled 0..5. For each index **i** (0..96) drop **i** into its class row. Box the indices that lie inside the four anchor spans.
 
 ---
 
-### **D. Setting the period wheels (short L, with phase)**
+### **C. Force residues at anchors (Option-A)**
 
-Each class is a short repeating key (period L, typically **10..22**). Use the anchored cells in the same class to read off a consistent **L** and **phase** (index 0’s slot). Draw the **wheel**, mark slots, pencil in the anchor-forced residues at the correct slots.
+At each anchor index **i** you know **C(i)** (cipher) and **P(i)** (anchor word). For that class’s family, solve **K** in **mod-26** (see rules above). Enforce:
 
-You don’t guess blindly: try small L until anchor cells for that class land at **distinct slots without collision** — exactly standard Vigenère-crib work, one short line at a time.
+* **No K=0** in additive families at anchors (Option-A).
 
-With six wheels set (one per class), you now have a complete **decrypt engine** for the line, built **only** from anchors and short-period arithmetic.
+* No residue collisions at the **same wheel slot** inside a class; if a collision appears, you chose the wrong family — flip and recompute.
 
----
-
-### **E. (Optional) Head corridor spot-checks**
-
-Pick a few head indices (0..74) outside anchors; for each: find the class, read K from the wheel at the right slot, and apply the family **decrypt** rule (Appendix B) to compute P from C. English fragments will accumulate near the corridor — the **same** arithmetic you will use in the tail.
+This pins **specific residues K** into **specific wheel slots** for each class.
 
 ---
 
-### **E′. How we decrypted the tail (by hand)**
+### **D. Set the period wheels (short** 
 
-This is the **exact** workflow we used to **produce** the tail (we did **not** assume it).
+### **L**
 
-Keep the same six wheels fixed at anchors (C–D). Now simply **apply them to indices 75..96**. For each i:
+### **, with phase)**
 
-1. class(i) \= (i % 2)\*3 \+ (i % 3\)
+Each class is a short repeating key of period **L** (typically **10..22**) and **phase** (which wheel slot index 0 maps to). Choose **L, phase** per class so that all its anchored indices land on **distinct slots** (no collisions). Draw a small wheel per class and pencil the forced residues into the correct slots.
 
-2. wheel slot s \= (i − phase) % L on that class
-
-3. read residue K at s
-
-4. apply that class’s **decrypt** rule to C(i), K → **P(i)** (Appendix B)
-
-5. map number→letter (A=0..Z=25) and write P(i) at index i
-
-Proceed across the span. In about twenty boxes, the phrase becomes clear:
-
-HEJOY OF AN ANGLE IS THE ARC
-
-— **purely from the anchor-forced wheels.** No seam guard is used or needed; no computers either. It is ordinary **mod-26** arithmetic, one cell at a time.
-
-*Micro-example.* Suppose at 80..84 you read the correct K from the class wheels and apply the appropriate family rules: you compute **O F A N A** from the engraved letters at those positions. Continue to 96 to finish the clause.
-
-#### **E′.1 Paper significance test (“stat-sign phrase”, 1989-style)**
-
-Having produced the tail **arithmetically**, sanity-check by eye:
-
-* **Coverage**: OF / AN / IS / THE in order; ANGLE and ARC as content words.
-
-* **Cadence**: phrase-like rhythm (not debris).
-
-* **Domain sense**: this is Abel Flint’s surveying rule — **“the measure of an angle is the arc.”**
-
-This is exactly what we found first: we **derived** the tail, then recognized Flint, then used that to understand the courtyard circle as **instruction** rather than ornament.
+You now have a complete **decrypt engine**: six short wheels, residues pinned at some slots, families fixed.
 
 ---
 
-### **F. Pencil re-encryption check**
+### **E. Optional head spot-checks**
 
-Take any span you decrypted; apply the **encrypt** direction of each class’s family rule with the same K residues — you recover the original C letters. If you want full display parity with the sculpture, apply a **route permutation** (T₂) that rearranges **non-anchors** to their monument destinations while anchors remain fixed. Crucially, **T₂ is not used to obtain the tail** — the tail already falls out at 75..96 before any permutation.
+Pick a few indices in **0..74** outside anchors. For each index **i**:
+
+1. compute the class, 2\) find the wheel slot for **i**, 3\) read **K**, 4\) apply the class decrypt rule to **C(i)** → **P(i)**. You’ll see plain English accumulating.
+
+---
+
+### **E′.** 
+
+### **Derive the tail by propagation (no guard)**
+
+Apply the six wheels to **indices 75..96** exactly the same way:
+
+1. class(i) \= ((i % 2)\*3) \+ (i % 3\)
+
+2. slot s \= (i − phase) % L in that class
+
+3. read residue **K** at slot **s**
+
+4. apply that class’s decrypt rule to **C(i)** and **K** → **P(i)**
+
+5. map number→letter (A=0..Z=25) and write **P(i)** at index **i**
+
+Going across the span, the phrase appears:
+
+HEJOY · OF · AN · ANGLE · IS · THE · ARC
+
+It falls out **purely** from the anchor-forced wheels. **No seam/tail guard** is used or needed.
+
+---
+
+### **F. Pencil re-encryption (quick completeness check)**
+
+For any decrypted span, apply the **encrypt** direction of each family with the same residues to get back **C(i)**. If you want monument display parity, apply the **route** permutation **after** decryption to shuffle **non-anchors** into display order. (Route is not used to obtain the tail.)
 
 ---
 
 ### **G. Why the tail matters (Abel Flint & the plaza)**
 
-With **only** anchors and six short keys, the tail **emerges**:
+**Abel Flint** (19th-century surveying manuals) states:
 
-… OF AN ANGLE IS THE ARC
+“**The measure of an angle is the arc** cut off from a circle by the two rays whose vertex is the center.”
 
-This is the textbook rule in **Abel Flint**: *the measure of an angle is the arc cut off from a circle by the rays at the angle’s vertex*. In the Langley yard, you stand on a **circle** with bearings — the tail tells you to **read the arc**, then (as surveyors do) **reduce to the true meridian** (declination), and **resolve** into northings/eastings.
+The Langley yard presents a **surveying circle**. The tail instructs you to **read an arc** (direction on the circle), **correct to true** with **declination**, then **reduce to rectangulars**:
+
+ΔN \= d · cos(θ\_true)   ,   ΔE \= d · sin(θ\_true)
+
+A printable K5 worksheet (world-clock traverse) is included in the docs.
 
 ---
 
 ### **H. Optional vs non-optional**
 
-* **Optional:** the **route (T₂)** used only for display parity.
+* **Optional:** the last-stage **route** permutation (display order only).
 
-* **Non-optional:** the algebra (six short wheels, anchor residues, family rules) — that alone **produces** the tail.
-
----
-
-### **Appendices**
-
-**A. Letter/Number table** — A=0..Z=25 (do all math mod-26).
-
-**B. Family rules** — Vigenère/Beaufort/Variant-Bf encrypt/decrypt formulas \+ **Option-A** (no K=0 for additive families at anchors).
-
-**C. Classing formula** — class(i) \= (i % 2)\*3 \+ (i % 3\) (write this on your grid).
-
-**D. Sample numeric strip** — fill from the monument and your class wheels; compute P(i) step-by-step.
+* **Non-optional:** anchors → six short wheels → family rules → cell-by-cell propagation. That’s what **produces** the plaintext.
 
 ---
 
-## **Part 2 — How the repo mirrors the hand method (modern, audited)**
+### **Full plaintext (for hand check)**
 
-Everything above can be done with pencil and paper. This repository preserves the **same** logic with modern, **reproducible** artifacts.
-
-### **What’s published (winner bundle)**
-
-**Spaced head (publishing view)**
-
-WE ARE IN THE GRID SEE THEN EAST NORTHEAST AND WE ARE BY THE LINE TO SEE BETWEEN BERLINCLOCK
-
-**Letters-only PT (97) including tail**
+**Letters-only (97)**
 
 WEAREINTHEGRIDSEETHENEASTNORTHEASTANDWEAREBYTHELINETOSEEBETWEENBERLINCLOCKTHEJOYOFANANGLEISTHEARC
 
-**Receipts (current)**
+**Spaced with anchors marked**
 
-* **PT SHA-256 (derived \= bundle):** 4eceb739ab655d6f4ec87753569b8bf04573fe26d01c0caa68d36776dd052d79
+WE ARE IN THE GRID SEE THEN \[EAST\] \[NORTHEAST\] AND WE ARE BY THE LINE TO SEE BETWEEN \[BERLIN\] \[CLOCK\] THE JOY OF AN ANGLE IS THE ARC
+
+---
+
+## **Part 2 —** 
+
+## **Modern, audited reproduction**
+
+##  **(hash-pinned)**
+
+Everything above can be done on paper. The repo mirrors the same logic with **receipts, schemas, and CI** so anyone can re-run the checks.
+
+### **What’s published (winner bundle)**
+
+* **Spaced head (publishing view)**
+
+   WE ARE IN THE GRID SEE THEN EAST NORTHEAST AND WE ARE BY THE LINE TO SEE BETWEEN BERLINCLOCK
+
+* **Letters-only PT (97) including tail**
+
+   WEAREINTHEGRIDSEETHENEASTNORTHEASTANDWEAREBYTHELINETOSEEBETWEENBERLINCLOCKTHEJOYOFANANGLEISTHEARC
+
+**Receipts**
+
+* **PT SHA-256 (bundle \= derived):** 4eceb739ab655d6f4ec87753569b8bf04573fe26d01c0caa68d36776dd052d79
 
 * **T₂ SHA-256 (GRID\_W14\_ROWS.json):** a5260415e76509638b4845d5e707521126aca2d67b50177b3c94f8ccc4c56c31
 
@@ -214,47 +198,45 @@ WEAREINTHEGRIDSEETHENEASTNORTHEASTANDWEAREBYTHELINETOSEEBETWEENBERLINCLOCKTHEJOY
 
 * **Policy pack SHA:** bc083cc4129fedbc
 
-**Winner bundle** — 01\_PUBLISHED/winner\_HEAD\_0020\_v522B/
+**Bundle path** → 01\_PUBLISHED/winner\_HEAD\_0020\_v522B/
+
+Contains:
 
 * plaintext\_97.txt — 97 letters (anchors fixed at 21–24, 25–33, 63–73)
 
-* proof\_digest.json & proof\_digest\_enhanced.json — six class wheels (family/L/phase) with **forced anchor residues**; seed recipe; **class\_formula** recorded (((i % 2\) \* 3\) \+ (i % 3))
+* proof\_digest.json & proof\_digest\_enhanced.json — six class wheels (**family/L/phase**) with **forced anchor residues**; class\_formula: "((i%2)\*3)+(i%3)"; Option-A enforced
 
 * coverage\_report.json — encrypts\_to\_ct:true; pt\_sha256\_bundle \== pt\_sha256\_derived; tail\_derivation\_verified:true; gates\_head\_only:true; no\_tail\_guard:true
 
 * phrase\_gate\_policy.json — AND policy; padding\_forbidden:true; boundary\_tokenizer:"v2"; filler\_mode:"lexicon"
 
-* phrase\_gate\_report.json — Flint v2 & Generic, cadence/context sections
+* phrase\_gate\_report.json — Flint v2 & Generic with cadence/context sections
 
 * holm\_report\_canonical.json — **10k mirrored nulls**, Holm m=2 for {coverage, f-words} (both adj-p \< 0.01)
 
 * tokenization\_report.json — boundary splits documented; lexicon fillers (“THEN”, “BETWEEN”) noted; function-word counts per gap
 
-* hashes.txt, MANIFEST.sha256, and RECEIPTS.json — SHA-256 for every artifact
+* hashes.txt, MANIFEST.sha256, RECEIPTS.json
 
-**Immutable data** — 02\_DATA/
+**Immutable inputs** → 02\_DATA/
 
 * ciphertext\_97.txt (CT SHA-256 eea81357…a515ceab)
 
 * permutations/GRID\_W14\_ROWS.json (T₂ SHA above; NA-only; anchors map to self)
 
-* constraints/canonical\_cuts.json (for display parity)
+* constraints/canonical\_cuts.json , constraints/function\_words.txt
 
-* constraints/function\_words.txt (lane list)
+* calibration/\* (perplexity/POS tables; all hash-pinned)
 
-* calibration/\* (perplexity/POS, all hash-pinned)
+**Solvers that reflect the hand method** → 03\_SOLVERS/
 
-**Solvers (modern reflection of the hand method)** — 03\_SOLVERS/
+* build the **same six wheels** you drew on paper (anchors → residues → short **L** → phase → family rules)
 
-* The code builds the **same six short wheels** you built on paper: **forces anchor residues** under Option-A, chooses **small L** to avoid collisions, and decrypts with the **same** three family rules (Vig/Bf/Var-Bf).
+* apply the **route** only for display parity
 
-* The **route** (T₂) is applied **only** to match the monument’s display order; it is **not** used to obtain the tail.
+* **boundary tokenizer v2** is presentation-layer only (spaced head), never changes the 97-letter line
 
-* The **boundary tokenizer v2** is **presentation-layer only** (word segmentation for the spaced head); it **never** changes the 97-letter line or any gate outcome.
-
-**Experiments & appendices** — 04\_EXPERIMENTS/
-
-* Seam-free runs, anchors-only algebra, P74 editorial sweep, cadence panel (report-only), and filler rescreen (showing fillers keep or slightly improve metrics).
+---
 
 ### **Quick verify (modern)**
 
@@ -268,41 +250,21 @@ k4 confirm \\
 
   \--perm 02\_DATA/permutations/GRID\_W14\_ROWS.json \\
 
-  \--cuts 02\_DATA/canonical\_cuts.json \\
+  \--cuts 02\_DATA/constraints/canonical\_cuts.json \\
 
-  \--fwords 02\_DATA/function\_words.txt \\
+  \--fwords 02\_DATA/constraints/function\_words.txt \\
 
   \--policy 01\_PUBLISHED/winner\_HEAD\_0020\_v522B/phrase\_gate\_policy.json \\
 
-### **Derivation parity check**
-
-For auditors verifying the tail is derived (not assumed):
-
-python3 07\_TOOLS/validation/rederive\_plaintext.py \\
-  \--ct 02\_DATA/ciphertext\_97.txt \\
-  \--proof 01\_PUBLISHED/winner\_HEAD\_0020\_v522B/proof\_digest\_enhanced.json \\
-  \--out /tmp/derived\_pt.txt
-
-\# Both should show: 4eceb739ab655d6f4ec87753569b8bf04573fe26d01c0caa68d36776dd052d79
-shasum -a 256 /tmp/derived\_pt.txt 01\_PUBLISHED/winner\_HEAD\_0020\_v522B/plaintext\_97.txt
-
-\# Explain decryption for a specific index (e.g., index 80 in the tail):
-python3 07\_TOOLS/validation/rederive\_plaintext.py \\
-  \--ct 02\_DATA/ciphertext\_97.txt \\
-  \--proof 01\_PUBLISHED/winner\_HEAD\_0020\_v522B/proof\_digest\_enhanced.json \\
-  \--explain 80
-
   \--out /tmp/k4\_verify\_HEAD\_0020\_v522B
 
-**Tail derivation check (parity with paper)**
+### **Derivation parity check (tail is derived, not assumed)**
 
-python 07\_TOOLS/validation/rederive\_plaintext.py \\
+python3 07\_TOOLS/validation/rederive\_plaintext.py \\
 
   \--ct 02\_DATA/ciphertext\_97.txt \\
 
   \--proof 01\_PUBLISHED/winner\_HEAD\_0020\_v522B/proof\_digest\_enhanced.json \\
-
-  \--perm 02\_DATA/permutations/GRID\_W14\_ROWS.json \\
 
   \--out /tmp/derived\_pt\_97.txt
 
@@ -314,33 +276,21 @@ shasum \-a 256 \\
 
 \# \-\> 4eceb739ab655d6f4ec87753569b8bf04573fe26d01c0caa68d36776dd052d79 (both)
 
-### **How the repo mirrors the hand method**
-
-* **Anchors first.** The proof logs **forced residues** at every anchor cell; Option-A checked (no K=0 pass-through in additive families).
-
-* **Six short tracks.** For each class (0..5) family/L/phase are pinned — the same “wheel” you drew on paper.
-
-* **Tail by propagation.** Decrypting 75..96 with those wheels yields the tail; the modern code does the **same** one add/sub per cell that you did by hand.
-
-* **Route last.** T₂ rearranges **non-anchors** to match the display order; it does not produce the tail.
-
-* **Presentation.** The boundary tokenizer v2 and lexicon fillers (“THEN”, “BETWEEN”) are publishing choices to make the spaced head readable; they **do not** change the letters-only line or any gate outcome.
-
 ---
 
 ## **Notes on scope**
 
-* **Tail (“OF AN ANGLE IS THE ARC”).** We *derived* it cell-by-cell from the anchor-forced wheels, then recognized its sense in **Abel Flint**. Seam-free runs under the same rails replicate the tail across families and heads. We present this as **empirical** under the rails, not a universal proof.
+* **Tail (“OF AN ANGLE IS THE ARC”).** We *derived* it cell-by-cell from anchor-forced wheels; we then recognized its meaning in **Abel Flint**. Seam-free runs under the same rails replicate the tail across route families and heads. We present this as **empirical** under the rails, not a universal proof.
 
-* **Anchors-only algebra.** Single-key Vigenère-family is infeasible (collisions); six-track is feasible but does not determine all tail residues by anchors alone. The tail invariance emerges when anchors \+ NA-only permutations \+ Option-A \+ multi-class keys \+ head-only gates act **together**.
+* **Anchors-only algebra.** Single-key Vigenère family is infeasible (collisions); six-track is feasible but anchors alone don’t fix all tail residues. The tail invariance emerges when **anchors \+ NA-only permutation \+ Option-A \+ multi-class keys \+ head-only gates** act together.
 
-* **P\[74\].** All 26 letters are lawful with the same rails; nulls do not distinguish — the “T” in *THE JOY* is an editorial pre-seam choice.
+* **P\[74\].** All 26 letters are lawful under the same rails; the null model does not distinguish — the “T” in **THE JOY** is an editorial pre-seam choice.
 
 ---
 
 ## **Licenses, receipts, and contact**
 
-This repo documents a claim **within a stated frame**; cite the frame, **pre-reg commit** d0b03f4, **policy SHA** bc083cc4129fedbc, and the **T₂ SHA** a5260415e76509638b4845d5e707521126aca2d67b50177b3c94f8ccc4c56c31.
+This repo documents a claim **within a stated frame**; please cite the frame, **pre-reg commit** d0b03f4, **policy SHA** bc083cc4129fedbc, and the **T₂ SHA** a5260415e76509638b4845d5e707521126aca2d67b50177b3c94f8ccc4c56c31.
 
 * Winner PT SHA-256: 4eceb739ab655d6f4ec87753569b8bf04573fe26d01c0caa68d36776dd052d79 (bundle \= derived).
 
@@ -350,4 +300,4 @@ This repo documents a claim **within a stated frame**; cite the frame, **pre-reg
 
 **Solution date:** September 2025
 
-**Method:** Anchors → six short tracks (Option-A) → tail by propagation → route for display parity → modern audited replay (hashes, schemas, CI)
+**Method:** Anchors → six short tracks (Option-A) → cell-by-cell propagation (tail derived) → route for display parity → modern audited replay (hashes, schemas, CI)
