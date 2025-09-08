@@ -1,0 +1,32 @@
+{
+  "description": "Enhanced alternate tail test with stratified candidates",
+  "master_seed": 1337,
+  "total_candidates": 500,
+  "feasible_count": 0,
+  "buckets": {
+    "f_heavy": {
+      "count": 100,
+      "feasible": 0
+    },
+    "f_light": {
+      "count": 100,
+      "feasible": 0
+    },
+    "content_heavy": {
+      "count": 100,
+      "feasible": 0
+    },
+    "random_clean": {
+      "count": 100,
+      "feasible": 0
+    },
+    "near_miss": {
+      "count": 100,
+      "feasible": 0
+    }
+  },
+  "fail_reasons": {
+    "cannot_fill_slots": 500
+  },
+  "timestamp": "2025-09-08T05:00:48Z"
+}

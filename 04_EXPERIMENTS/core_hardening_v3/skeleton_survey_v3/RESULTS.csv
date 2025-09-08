@@ -1,0 +1,170 @@
+pattern_id,formula_repr,feasible,fail_reason,period_hint
+BASELINE,(i mod 2)*3 + (i mod 3),False,derivation_error:0 is not in list,3
+MOD_2,i mod 2,False,wheel_solve_failed_class_0,2
+MOD_3,i mod 3,False,wheel_solve_failed_class_0,3
+MOD_4,i mod 4,False,derivation_error:0 is not in list,4
+MOD_5,i mod 5,False,derivation_error:0 is not in list,5
+MOD_6,i mod 6,False,derivation_error:0 is not in list,6
+MOD_7,i mod 7,False,derivation_error:0 is not in list,7
+MOD_8,i mod 8,False,derivation_error:0 is not in list,8
+MOD_9,i mod 9,False,derivation_error:0 is not in list,9
+MOD_10,i mod 10,False,derivation_error:0 is not in list,10
+MOD_11,i mod 11,False,derivation_error:0 is not in list,11
+MOD_12,i mod 12,False,derivation_error:0 is not in list,12
+SUM_2_3,(i mod 2) + (i mod 3),False,wheel_solve_failed_class_2,3
+SUM_2_4,(i mod 2) + (i mod 4),False,wheel_solve_failed_class_2,4
+SUM_2_5,(i mod 2) + (i mod 5),False,derivation_error:0 is not in list,5
+SUM_2_6,(i mod 2) + (i mod 6),False,wheel_solve_failed_class_2,6
+SUM_2_7,(i mod 2) + (i mod 7),False,derivation_error:0 is not in list,7
+SUM_3_4,(i mod 3) + (i mod 4),False,derivation_error:0 is not in list,4
+SUM_3_5,(i mod 3) + (i mod 5),False,derivation_error:0 is not in list,5
+SUM_3_6,(i mod 3) + (i mod 6),False,derivation_error:0 is not in list,6
+SUM_3_7,(i mod 3) + (i mod 7),False,derivation_error:0 is not in list,7
+SUM_4_5,(i mod 4) + (i mod 5),False,derivation_error:0 is not in list,5
+SUM_4_6,(i mod 4) + (i mod 6),False,wheel_solve_failed_class_4,6
+SUM_4_7,(i mod 4) + (i mod 7),False,derivation_error:0 is not in list,7
+SUM_5_6,(i mod 5) + (i mod 6),False,derivation_error:0 is not in list,6
+SUM_5_7,(i mod 5) + (i mod 7),False,derivation_error:0 is not in list,7
+SUM_6_7,(i mod 6) + (i mod 7),False,derivation_error:0 is not in list,7
+WEIGHTED_2_3_1_2,1*(i mod 2) + 2*(i mod 3),False,derivation_error:0 is not in list,3
+WEIGHTED_2_3_2_1,2*(i mod 2) + 1*(i mod 3),False,wheel_solve_failed_class_2,3
+WEIGHTED_2_3_2_2,2*(i mod 2) + 2*(i mod 3),False,wheel_solve_failed_class_4,3
+WEIGHTED_2_4_1_2,1*(i mod 2) + 2*(i mod 4),False,derivation_error:0 is not in list,4
+WEIGHTED_2_4_2_1,2*(i mod 2) + 1*(i mod 4),False,derivation_error:0 is not in list,4
+WEIGHTED_2_4_2_2,2*(i mod 2) + 2*(i mod 4),False,wheel_solve_failed_class_4,4
+WEIGHTED_2_5_1_2,1*(i mod 2) + 2*(i mod 5),False,derivation_error:0 is not in list,5
+WEIGHTED_2_5_2_1,2*(i mod 2) + 1*(i mod 5),False,derivation_error:0 is not in list,5
+WEIGHTED_2_5_2_2,2*(i mod 2) + 2*(i mod 5),False,derivation_error:0 is not in list,5
+WEIGHTED_3_4_1_2,1*(i mod 3) + 2*(i mod 4),False,derivation_error:0 is not in list,4
+WEIGHTED_3_4_2_1,2*(i mod 3) + 1*(i mod 4),False,derivation_error:0 is not in list,4
+WEIGHTED_3_4_2_2,2*(i mod 3) + 2*(i mod 4),False,derivation_error:0 is not in list,4
+WEIGHTED_3_5_1_2,1*(i mod 3) + 2*(i mod 5),False,derivation_error:0 is not in list,5
+WEIGHTED_3_5_2_1,2*(i mod 3) + 1*(i mod 5),False,derivation_error:0 is not in list,5
+WEIGHTED_3_5_2_2,2*(i mod 3) + 2*(i mod 5),False,derivation_error:0 is not in list,5
+WEIGHTED_4_5_1_2,1*(i mod 4) + 2*(i mod 5),False,derivation_error:0 is not in list,5
+WEIGHTED_4_5_2_1,2*(i mod 4) + 1*(i mod 5),False,derivation_error:0 is not in list,5
+WEIGHTED_4_5_2_2,2*(i mod 4) + 2*(i mod 5),False,derivation_error:0 is not in list,5
+PROD_2_3,(i mod 2) * (i mod 3),False,wheel_solve_failed_class_0,3
+PROD_2_4,(i mod 2) * (i mod 4),False,wheel_solve_failed_class_0,4
+PROD_2_5,(i mod 2) * (i mod 5),False,wheel_solve_failed_class_0,5
+PROD_3_3,(i mod 3) * (i mod 3),False,wheel_solve_failed_class_0,3
+PROD_3_4,(i mod 3) * (i mod 4),False,wheel_solve_failed_class_0,4
+PROD_3_5,(i mod 3) * (i mod 5),False,wheel_solve_failed_class_0,5
+XOR_2_3,(i mod 2) XOR (i mod 3),False,wheel_solve_failed_class_0,3
+XOR_2_4,(i mod 2) XOR (i mod 4),False,wheel_solve_failed_class_0,4
+XOR_2_5,(i mod 2) XOR (i mod 5),False,derivation_error:0 is not in list,5
+XOR_3_3,(i mod 3) XOR (i mod 3),False,wrong_class_count:1,3
+XOR_3_4,(i mod 3) XOR (i mod 4),False,derivation_error:0 is not in list,4
+XOR_3_5,(i mod 3) XOR (i mod 5),False,derivation_error:0 is not in list,5
+XOR_4_3,(i mod 4) XOR (i mod 3),False,derivation_error:0 is not in list,4
+XOR_4_4,(i mod 4) XOR (i mod 4),False,wrong_class_count:1,4
+XOR_4_5,(i mod 4) XOR (i mod 5),False,derivation_error:0 is not in list,5
+AFFINE_1_0_4,(1*i + 0) mod 4,False,derivation_error:0 is not in list,4
+AFFINE_1_0_5,(1*i + 0) mod 5,False,derivation_error:0 is not in list,5
+AFFINE_1_0_6,(1*i + 0) mod 6,False,derivation_error:0 is not in list,6
+AFFINE_1_0_7,(1*i + 0) mod 7,False,derivation_error:0 is not in list,7
+AFFINE_1_0_8,(1*i + 0) mod 8,False,derivation_error:0 is not in list,8
+AFFINE_1_1_4,(1*i + 1) mod 4,False,derivation_error:0 is not in list,4
+AFFINE_1_1_5,(1*i + 1) mod 5,False,derivation_error:0 is not in list,5
+AFFINE_1_1_6,(1*i + 1) mod 6,False,derivation_error:0 is not in list,6
+AFFINE_1_1_7,(1*i + 1) mod 7,False,derivation_error:0 is not in list,7
+AFFINE_1_1_8,(1*i + 1) mod 8,False,derivation_error:0 is not in list,8
+AFFINE_1_2_4,(1*i + 2) mod 4,False,derivation_error:0 is not in list,4
+AFFINE_1_2_5,(1*i + 2) mod 5,False,derivation_error:0 is not in list,5
+AFFINE_1_2_6,(1*i + 2) mod 6,False,derivation_error:0 is not in list,6
+AFFINE_1_2_7,(1*i + 2) mod 7,False,derivation_error:0 is not in list,7
+AFFINE_1_2_8,(1*i + 2) mod 8,False,derivation_error:0 is not in list,8
+AFFINE_1_3_4,(1*i + 3) mod 4,False,derivation_error:0 is not in list,4
+AFFINE_1_3_5,(1*i + 3) mod 5,False,derivation_error:0 is not in list,5
+AFFINE_1_3_6,(1*i + 3) mod 6,False,derivation_error:0 is not in list,6
+AFFINE_1_3_7,(1*i + 3) mod 7,False,derivation_error:0 is not in list,7
+AFFINE_1_3_8,(1*i + 3) mod 8,False,derivation_error:0 is not in list,8
+AFFINE_2_0_4,(2*i + 0) mod 4,False,wheel_solve_failed_class_0,4
+AFFINE_2_0_5,(2*i + 0) mod 5,False,derivation_error:0 is not in list,5
+AFFINE_2_0_6,(2*i + 0) mod 6,False,wheel_solve_failed_class_0,6
+AFFINE_2_0_7,(2*i + 0) mod 7,False,derivation_error:0 is not in list,7
+AFFINE_2_0_8,(2*i + 0) mod 8,False,derivation_error:0 is not in list,8
+AFFINE_2_1_4,(2*i + 1) mod 4,False,wheel_solve_failed_class_1,4
+AFFINE_2_1_5,(2*i + 1) mod 5,False,derivation_error:0 is not in list,5
+AFFINE_2_1_6,(2*i + 1) mod 6,False,wheel_solve_failed_class_1,6
+AFFINE_2_1_7,(2*i + 1) mod 7,False,derivation_error:0 is not in list,7
+AFFINE_2_1_8,(2*i + 1) mod 8,False,derivation_error:0 is not in list,8
+AFFINE_2_2_4,(2*i + 2) mod 4,False,wheel_solve_failed_class_2,4
+AFFINE_2_2_5,(2*i + 2) mod 5,False,derivation_error:0 is not in list,5
+AFFINE_2_2_6,(2*i + 2) mod 6,False,wheel_solve_failed_class_2,6
+AFFINE_2_2_7,(2*i + 2) mod 7,False,derivation_error:0 is not in list,7
+AFFINE_2_2_8,(2*i + 2) mod 8,False,derivation_error:0 is not in list,8
+AFFINE_2_3_4,(2*i + 3) mod 4,False,wheel_solve_failed_class_3,4
+AFFINE_2_3_5,(2*i + 3) mod 5,False,derivation_error:0 is not in list,5
+AFFINE_2_3_6,(2*i + 3) mod 6,False,wheel_solve_failed_class_3,6
+AFFINE_2_3_7,(2*i + 3) mod 7,False,derivation_error:0 is not in list,7
+AFFINE_2_3_8,(2*i + 3) mod 8,False,derivation_error:0 is not in list,8
+AFFINE_3_0_4,(3*i + 0) mod 4,False,derivation_error:0 is not in list,4
+AFFINE_3_0_5,(3*i + 0) mod 5,False,derivation_error:0 is not in list,5
+AFFINE_3_0_6,(3*i + 0) mod 6,False,wheel_solve_failed_class_0,6
+AFFINE_3_0_7,(3*i + 0) mod 7,False,derivation_error:0 is not in list,7
+AFFINE_3_0_8,(3*i + 0) mod 8,False,derivation_error:0 is not in list,8
+AFFINE_3_1_4,(3*i + 1) mod 4,False,derivation_error:0 is not in list,4
+AFFINE_3_1_5,(3*i + 1) mod 5,False,derivation_error:0 is not in list,5
+AFFINE_3_1_6,(3*i + 1) mod 6,False,wheel_solve_failed_class_1,6
+AFFINE_3_1_7,(3*i + 1) mod 7,False,derivation_error:0 is not in list,7
+AFFINE_3_1_8,(3*i + 1) mod 8,False,derivation_error:0 is not in list,8
+AFFINE_3_2_4,(3*i + 2) mod 4,False,derivation_error:0 is not in list,4
+AFFINE_3_2_5,(3*i + 2) mod 5,False,derivation_error:0 is not in list,5
+AFFINE_3_2_6,(3*i + 2) mod 6,False,wheel_solve_failed_class_2,6
+AFFINE_3_2_7,(3*i + 2) mod 7,False,derivation_error:0 is not in list,7
+AFFINE_3_2_8,(3*i + 2) mod 8,False,derivation_error:0 is not in list,8
+AFFINE_3_3_4,(3*i + 3) mod 4,False,derivation_error:0 is not in list,4
+AFFINE_3_3_5,(3*i + 3) mod 5,False,derivation_error:0 is not in list,5
+AFFINE_3_3_6,(3*i + 3) mod 6,False,wheel_solve_failed_class_3,6
+AFFINE_3_3_7,(3*i + 3) mod 7,False,derivation_error:0 is not in list,7
+AFFINE_3_3_8,(3*i + 3) mod 8,False,derivation_error:0 is not in list,8
+AFFINE_5_0_4,(5*i + 0) mod 4,False,derivation_error:0 is not in list,4
+AFFINE_5_0_5,(5*i + 0) mod 5,False,wrong_class_count:1,5
+AFFINE_5_0_6,(5*i + 0) mod 6,False,derivation_error:0 is not in list,6
+AFFINE_5_0_7,(5*i + 0) mod 7,False,derivation_error:0 is not in list,7
+AFFINE_5_0_8,(5*i + 0) mod 8,False,derivation_error:0 is not in list,8
+AFFINE_5_1_4,(5*i + 1) mod 4,False,derivation_error:0 is not in list,4
+AFFINE_5_1_5,(5*i + 1) mod 5,False,wrong_class_count:1,5
+AFFINE_5_1_6,(5*i + 1) mod 6,False,derivation_error:0 is not in list,6
+AFFINE_5_1_7,(5*i + 1) mod 7,False,derivation_error:0 is not in list,7
+AFFINE_5_1_8,(5*i + 1) mod 8,False,derivation_error:0 is not in list,8
+AFFINE_5_2_4,(5*i + 2) mod 4,False,derivation_error:0 is not in list,4
+AFFINE_5_2_5,(5*i + 2) mod 5,False,wrong_class_count:1,5
+AFFINE_5_2_6,(5*i + 2) mod 6,False,derivation_error:0 is not in list,6
+AFFINE_5_2_7,(5*i + 2) mod 7,False,derivation_error:0 is not in list,7
+AFFINE_5_2_8,(5*i + 2) mod 8,False,derivation_error:0 is not in list,8
+AFFINE_5_3_4,(5*i + 3) mod 4,False,derivation_error:0 is not in list,4
+AFFINE_5_3_5,(5*i + 3) mod 5,False,wrong_class_count:1,5
+AFFINE_5_3_6,(5*i + 3) mod 6,False,derivation_error:0 is not in list,6
+AFFINE_5_3_7,(5*i + 3) mod 7,False,derivation_error:0 is not in list,7
+AFFINE_5_3_8,(5*i + 3) mod 8,False,derivation_error:0 is not in list,8
+PHASE_1,((i+1) mod 2)*3 + ((i+1) mod 3),False,derivation_error:0 is not in list,3
+PHASE_2,((i+2) mod 2)*3 + ((i+2) mod 3),False,derivation_error:0 is not in list,3
+PHASE_3,((i+3) mod 2)*3 + ((i+3) mod 3),False,derivation_error:0 is not in list,3
+PHASE_4,((i+4) mod 2)*3 + ((i+4) mod 3),False,derivation_error:0 is not in list,3
+PHASE_5,((i+5) mod 2)*3 + ((i+5) mod 3),False,derivation_error:0 is not in list,3
+PHASE_6,((i+6) mod 2)*3 + ((i+6) mod 3),False,derivation_error:0 is not in list,3
+PHASE_7,((i+7) mod 2)*3 + ((i+7) mod 3),False,derivation_error:0 is not in list,3
+PHASE_8,((i+8) mod 2)*3 + ((i+8) mod 3),False,derivation_error:0 is not in list,3
+PHASE_9,((i+9) mod 2)*3 + ((i+9) mod 3),False,derivation_error:0 is not in list,3
+PHASE_10,((i+10) mod 2)*3 + ((i+10) mod 3),False,derivation_error:0 is not in list,3
+PHASE_11,((i+11) mod 2)*3 + ((i+11) mod 3),False,derivation_error:0 is not in list,3
+FIB_4,Fibonacci(i) mod 4,False,wheel_solve_failed_class_1,4
+FIB_5,Fibonacci(i) mod 5,False,derivation_error:0 is not in list,5
+FIB_6,Fibonacci(i) mod 6,False,wheel_solve_failed_class_1,6
+TRIANGULAR_5,(i*(i+1)/2) mod 5,False,wheel_solve_failed_class_0,5
+TRIANGULAR_6,(i*(i+1)/2) mod 6,False,wheel_solve_failed_class_0,6
+TRIANGULAR_7,(i*(i+1)/2) mod 7,False,wheel_solve_failed_class_1,7
+DIGITAL_ROOT,DigitalRoot(i) mod 6,False,derivation_error:0 is not in list,6
+COLLATZ_6,CollatzSteps(i+1) mod 6,False,wheel_solve_failed_class_2,6
+RANDOM_1337_0,"RandomPeriodic(seed=1337, idx=0, period=12)",False,wheel_solve_failed_class_2,N/A
+RANDOM_1337_1,"RandomPeriodic(seed=1337, idx=1, period=7)",False,wheel_solve_failed_class_5,N/A
+RANDOM_1337_2,"RandomPeriodic(seed=1337, idx=2, period=12)",False,wheel_solve_failed_class_5,N/A
+RANDOM_1337_3,"RandomPeriodic(seed=1337, idx=3, period=11)",False,wheel_solve_failed_class_1,N/A
+RANDOM_1337_4,"RandomPeriodic(seed=1337, idx=4, period=5)",False,wheel_solve_failed_class_4,N/A
+RANDOM_1337_5,"RandomPeriodic(seed=1337, idx=5, period=5)",False,wheel_solve_failed_class_5,N/A
+RANDOM_1337_6,"RandomPeriodic(seed=1337, idx=6, period=4)",False,wheel_solve_failed_class_1,N/A
+RANDOM_1337_7,"RandomPeriodic(seed=1337, idx=7, period=8)",False,derivation_error:0 is not in list,N/A
+RANDOM_1337_8,"RandomPeriodic(seed=1337, idx=8, period=10)",False,wheel_solve_failed_class_4,N/A
+RANDOM_1337_9,"RandomPeriodic(seed=1337, idx=9, period=6)",False,wheel_solve_failed_class_4,N/A

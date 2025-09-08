@@ -1,0 +1,6 @@
+bucket,fail_reason,count
+f_heavy,cannot_fill_slots,100
+f_light,cannot_fill_slots,100
+content_heavy,cannot_fill_slots,100
+random_clean,cannot_fill_slots,100
+near_miss,cannot_fill_slots,100

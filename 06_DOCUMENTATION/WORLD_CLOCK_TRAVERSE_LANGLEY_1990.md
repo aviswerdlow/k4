@@ -5,17 +5,25 @@
 ### Source Citation
 **NOAA National Centers for Environmental Information (NCEI)**  
 Historical Declination Calculator  
+Model: IGRF-13 (International Geomagnetic Reference Field)  
 Location: Langley, Virginia (38.979° N, 77.166° W)  
 Date: January 1, 1990  
 **Declination: 9° 30' W** (9.5° West)
 
-Reference: https://www.ngdc.noaa.gov/geomag/calculators/magcalc.shtml
+Reference URL: https://www.ngdc.noaa.gov/geomag/calculators/magcalc.shtml  
+Accessed: January 2025  
+DOI: 10.7289/V5794156 (NOAA Geomagnetic Model Database)
 
 ### Historical Context
 In 1990, when Sanborn installed Kryptos at CIA Headquarters in Langley, the magnetic declination was approximately 9.5° West. This means:
 - Magnetic North was 9.5° west of True North
-- A magnetic compass bearing needed +9.5° correction to get true bearing
+- A magnetic compass bearing needed +9.5° correction to get true bearing (West declination adds to magnetic bearing; East declination subtracts)
 - This value changes over time due to magnetic pole movement
+
+**Clarification on Declination Correction**:
+- **West declination**: Add to magnetic bearing to get true bearing (magnetic + declination = true)
+- **East declination**: Subtract from magnetic bearing to get true bearing (magnetic - declination = true)
+- At Langley in 1990: West declination, so we ADD 9.5° to magnetic bearings
 
 ## Sector Reading from K5 Directions
 
@@ -111,6 +119,13 @@ These bearings, when applied from the Kryptos sculpture location, would point to
 2. **GPS vs Magnetic**: Modern GPS devices show true bearings directly; 1990 field work used magnetic compasses
 3. **Precision**: Sanborn's artistic intent may not require surveyor-level precision
 4. **Context**: The "world clock" concept suggests time-dependent navigation
+
+## Note on Other Declination Values
+
+The value +16.6959° appearing in other K5 documentation refers to an example **East** declination (possibly for Berlin or another location), not Langley. The distinction is important:
+- **Langley 1990**: 9.5° **West** declination (add to magnetic bearing)
+- **Berlin example**: ~16.7° **East** declination (subtract from magnetic bearing)
+- Always verify the specific location and date when applying declination corrections
 
 ## Reproduction Instructions
 

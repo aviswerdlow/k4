@@ -1,0 +1,185 @@
+{
+  "description": "Greedy forward search path for minimal tail subset",
+  "master_seed": 1337,
+  "final_subset_size": 22,
+  "final_indices": [
+    75,
+    76,
+    77,
+    78,
+    79,
+    80,
+    81,
+    82,
+    83,
+    84,
+    85,
+    86,
+    87,
+    88,
+    89,
+    90,
+    91,
+    92,
+    93,
+    94,
+    95,
+    96
+  ],
+  "path": [
+    {
+      "step": 1,
+      "added_index": 75,
+      "relative_tail_index": 0,
+      "undetermined_after": 72,
+      "subset_size": 1
+    },
+    {
+      "step": 2,
+      "added_index": 76,
+      "relative_tail_index": 1,
+      "undetermined_after": 71,
+      "subset_size": 2
+    },
+    {
+      "step": 3,
+      "added_index": 77,
+      "relative_tail_index": 2,
+      "undetermined_after": 70,
+      "subset_size": 3
+    },
+    {
+      "step": 4,
+      "added_index": 78,
+      "relative_tail_index": 3,
+      "undetermined_after": 69,
+      "subset_size": 4
+    },
+    {
+      "step": 5,
+      "added_index": 79,
+      "relative_tail_index": 4,
+      "undetermined_after": 68,
+      "subset_size": 5
+    },
+    {
+      "step": 6,
+      "added_index": 80,
+      "relative_tail_index": 5,
+      "undetermined_after": 67,
+      "subset_size": 6
+    },
+    {
+      "step": 7,
+      "added_index": 81,
+      "relative_tail_index": 6,
+      "undetermined_after": 66,
+      "subset_size": 7
+    },
+    {
+      "step": 8,
+      "added_index": 82,
+      "relative_tail_index": 7,
+      "undetermined_after": 65,
+      "subset_size": 8
+    },
+    {
+      "step": 9,
+      "added_index": 83,
+      "relative_tail_index": 8,
+      "undetermined_after": 64,
+      "subset_size": 9
+    },
+    {
+      "step": 10,
+      "added_index": 84,
+      "relative_tail_index": 9,
+      "undetermined_after": 63,
+      "subset_size": 10
+    },
+    {
+      "step": 11,
+      "added_index": 85,
+      "relative_tail_index": 10,
+      "undetermined_after": 62,
+      "subset_size": 11
+    },
+    {
+      "step": 12,
+      "added_index": 86,
+      "relative_tail_index": 11,
+      "undetermined_after": 61,
+      "subset_size": 12
+    },
+    {
+      "step": 13,
+      "added_index": 87,
+      "relative_tail_index": 12,
+      "undetermined_after": 60,
+      "subset_size": 13
+    },
+    {
+      "step": 14,
+      "added_index": 88,
+      "relative_tail_index": 13,
+      "undetermined_after": 59,
+      "subset_size": 14
+    },
+    {
+      "step": 15,
+      "added_index": 89,
+      "relative_tail_index": 14,
+      "undetermined_after": 58,
+      "subset_size": 15
+    },
+    {
+      "step": 16,
+      "added_index": 90,
+      "relative_tail_index": 15,
+      "undetermined_after": 57,
+      "subset_size": 16
+    },
+    {
+      "step": 17,
+      "added_index": 91,
+      "relative_tail_index": 16,
+      "undetermined_after": 56,
+      "subset_size": 17
+    },
+    {
+      "step": 18,
+      "added_index": 92,
+      "relative_tail_index": 17,
+      "undetermined_after": 55,
+      "subset_size": 18
+    },
+    {
+      "step": 19,
+      "added_index": 93,
+      "relative_tail_index": 18,
+      "undetermined_after": 54,
+      "subset_size": 19
+    },
+    {
+      "step": 20,
+      "added_index": 94,
+      "relative_tail_index": 19,
+      "undetermined_after": 53,
+      "subset_size": 20
+    },
+    {
+      "step": 21,
+      "added_index": 95,
+      "relative_tail_index": 20,
+      "undetermined_after": 52,
+      "subset_size": 21
+    },
+    {
+      "step": 22,
+      "added_index": 96,
+      "relative_tail_index": 21,
+      "undetermined_after": 51,
+      "subset_size": 22
+    }
+  ]
+}
