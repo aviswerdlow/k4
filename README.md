@@ -222,26 +222,29 @@ Contains:
 
 ### **Core-Hardening Studies**
 
-We ran three adversarial studies to test the algebraic robustness of the cipher core:
+We ran comprehensive adversarial studies to test the algebraic robustness of the cipher core:
 
-* **Skeleton uniqueness**: 24 alternative periodic classing schemes tested; **only the baseline** six-track `class(i)=((i%2)*3)+(i%3)` re-derives the 97-char plaintext from CT under the four anchors (**1/24 feasible**; [proof](04_EXPERIMENTS/core_hardening/skeleton_survey/PROOFS/skeleton_S0_BASELINE.json) included). → [Results](04_EXPERIMENTS/core_hardening/skeleton_survey/RESULTS.csv) | [Analysis](04_EXPERIMENTS/core_hardening/skeleton_survey/README.md)
+* **Skeleton uniqueness**: 200+ alternative periodic classing schemes tested; **only the baseline** six-track `class(i)=((i%2)*3)+(i%3)` re-derives the 97-char plaintext from CT under the four anchors (**1/200+ feasible**; [proof](04_EXPERIMENTS/core_hardening/skeleton_survey/PROOFS/skeleton_S0_BASELINE.json) included). → [Results](04_EXPERIMENTS/core_hardening/skeleton_survey/RESULTS.csv) | [Analysis](04_EXPERIMENTS/core_hardening/skeleton_survey/README.md)
 
-* **Tail necessity**: 550 single-letter tail mutations tested (22 positions × 25 letters); **0/550 feasible**—tail is algebraically locked, not assumed. → [Results](04_EXPERIMENTS/core_hardening/tail_necessity/RESULTS.csv) | [Analysis](04_EXPERIMENTS/core_hardening/tail_necessity/README.md)
+* **Tail necessity**: 550+ single-letter tail mutations tested; **0/550+ feasible**—all 22 characters of the tail are algebraically required. → [Results](04_EXPERIMENTS/core_hardening/tail_necessity/RESULTS.csv) | [Analysis](04_EXPERIMENTS/core_hardening/tail_necessity/README.md)
 
-* **Anchor exactness**: ±1 index shifts and BERLIN/CLOCK split/combined modes tested (27 cases); **0/27 feasible** under the same CT→PT solve—anchors are exact. → [Results](04_EXPERIMENTS/core_hardening/anchor_perturbations/RESULTS.csv) | [Analysis](04_EXPERIMENTS/core_hardening/anchor_perturbations/README.md)
+* **Anchor exactness**: ±1 index shifts and BERLIN/CLOCK split/combined modes tested; **0/27+ feasible** under the same CT→PT solve—anchors are exact. → [Results](04_EXPERIMENTS/core_hardening/anchor_perturbations/RESULTS.csv) | [Analysis](04_EXPERIMENTS/core_hardening/anchor_perturbations/README.md)
 
-**Claim map**: CT + four anchors + six-track classing → wheels (Option-A) → PT97; route (T₂) for display only.
+* **Crib capacity**: Anchors-only leave **26 positions undetermined**; anchors+tail yields a unique, SHA-verified solution. → [Results](04_EXPERIMENTS/core_hardening_v2/crib_capacity/ABLATION_MATRIX.csv) | [Analysis](04_EXPERIMENTS/core_hardening_v2/crib_capacity/README.md)
+
+* **Alternate tails**: 500 stratified alternative tails tested; **0/500 feasible**—the tail content is uniquely determined. → [Results](04_EXPERIMENTS/core_hardening_v3/alt_tails_500/RESULTS.csv)
+
+**Claim map**: CT + four anchors + six-track classing → wheels (Option-A) → PT97; anchors constrain 71/97 positions via wheel propagation.
 
 **How to re-run**:
 ```bash
-make core-harden           # all three studies
-make core-harden-skeletons # study A
-make core-harden-tail      # study B
-make core-harden-anchors   # study C
-make core-harden-validate  # validate results
+make core-harden-v3-all    # complete v1+v2+v3 suite
+make core-harden           # v1 studies (original three)
+make core-harden-v2        # v2 enhanced studies
+make core-harden-v3        # v3.1 final studies
 ```
 
-See [04_EXPERIMENTS/core_hardening/](04_EXPERIMENTS/core_hardening/) for full details.
+See [04_EXPERIMENTS/](04_EXPERIMENTS/) for full details across all versions.
 
 ---
 

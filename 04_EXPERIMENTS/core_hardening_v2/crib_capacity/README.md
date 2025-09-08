@@ -4,6 +4,8 @@
 
 This study quantifies the information-theoretic necessity of K4's anchor and tail constraints through systematic ablation testing. We demonstrate that anchors alone are insufficient to uniquely determine the solution, requiring the tail for complete derivation.
 
+**Key Finding**: Anchors-only constrain ~71/97 positions; 26 remain undetermined until the tail is added. Control (anchors+tail) yields a unique SHA-verified solution.
+
 ## How to Read This
 
 ### Key Understanding Points
