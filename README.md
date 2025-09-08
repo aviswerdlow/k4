@@ -8,19 +8,17 @@ This README has two jobs:
 
 1. teach a careful 1989 cryptanalyst exactly how to **decrypt the whole K4 line by hand** (no computers, no seam/tail guard), and
 
-2. show how this repository mirrors the same method with **hash-pinned, schema-validated** artifacts you can verify in minutes.
+2. show how this repository mirrors the same method with **hash-pinned, schema-validated** artifacts you can verify in minutes — including a one-command CLI.
 
 ---
 
-## **Part 1 —** 
-
-## **REPRODUCE & VERIFY (paper-only, 1989-friendly)**
+## **Part 1 — REPRODUCE & VERIFY (paper-only, 1989-friendly)**
 
 **Goal.** Decrypt the **entire** 97-letter line on *Kryptos* panel K4 with paper & pencil. You will use only:
 
 * the engraved **ciphertext** (97 letters A..Z),
 
-* the four **anchors as plaintext at fixed indices** (public confirmations),
+* the **four** public **anchors as plaintext at fixed indices**,
 
 * a short **six-track repeating-key** skeleton, and
 
@@ -32,17 +30,17 @@ This README has two jobs:
 
 * Graph paper, pencil, eraser, alphabet strip.
 
-* Numbers: **A=0, …, Z=25** (all work **mod-26**).
+* Numbers: **A=0…Z=25** (all work **mod-26**).
 
 * Three family rules (decrypt direction):
 
-  * **Vigenère**: P \= C − K
+  * **Vigenère**: **P \= C − K**
 
-  * **Beaufort**: P \= K − C
+  * **Beaufort**: **P \= K − C**
 
-  * **Variant-Beaufort**: P \= C \+ K
+  * **Variant-Beaufort**: **P \= C \+ K**
 
-* **Option-A at anchors:** for additive families (Vig / Var-Bf) **forbid K=0** (no pass-through). If K=0 at an anchor, you picked the wrong family for that class — flip family and recompute.
+* **Option-A at anchors:** for additive families (Vig / Var-Bf) **forbid K=0** (no pass-through). If K=0 at an anchor, you picked the wrong family — flip family and recompute.
 
 ---
 
@@ -52,13 +50,13 @@ This README has two jobs:
 
 2. Mark **four** plaintext anchors (0-indexed, inclusive ends):
 
-   * EAST **21–24**
+   * **EAST** **21–24**
 
-   * NORTHEAST **25–33**
+   * **NORTHEAST** **25–33**
 
-   * BERLIN **63–68**
+   * **BERLIN** **63–68**
 
-   * CLOCK **69–73**
+   * **CLOCK** **69–73**
 
 3. Nothing else is assumed (especially not the tail).
 
@@ -86,11 +84,7 @@ This pins **specific residues K** into **specific wheel slots** for each class.
 
 ---
 
-### **D. Set the period wheels (short** 
-
-### **L**
-
-### **, with phase)**
+### **D. Set the period wheels (short L, with phase)**
 
 Each class is a short repeating key of period **L** (typically **10..22**) and **phase** (which wheel slot index 0 maps to). Choose **L, phase** per class so that all its anchored indices land on **distinct slots** (no collisions). Draw a small wheel per class and pencil the forced residues into the correct slots.
 
@@ -106,9 +100,7 @@ Pick a few indices in **0..74** outside anchors. For each index **i**:
 
 ---
 
-### **E′.** 
-
-### **Derive the tail by propagation (no guard)**
+### **E′. Derive the tail by propagation (no guard)**
 
 Apply the six wheels to **indices 75..96** exactly the same way:
 
@@ -124,7 +116,7 @@ Apply the six wheels to **indices 75..96** exactly the same way:
 
 Going across the span, the phrase appears:
 
-HEJOY · OF · AN · ANGLE · IS · THE · ARC
+**HEJOY · OF · AN · ANGLE · IS · THE · ARC**
 
 It falls out **purely** from the anchor-forced wheels. **No seam/tail guard** is used or needed.
 
@@ -170,11 +162,7 @@ WE ARE IN THE GRID SEE THEN \[EAST\] \[NORTHEAST\] AND WE ARE BY THE LINE TO SEE
 
 ---
 
-## **Part 2 —** 
-
-## **Modern, audited reproduction**
-
-##  **(hash-pinned)**
+## **Part 2 — Modern, audited reproduction (hash-pinned)**
 
 Everything above can be done on paper. The repo mirrors the same logic with **receipts, schemas, and CI** so anyone can re-run the checks.
 
@@ -200,7 +188,7 @@ Everything above can be done on paper. The repo mirrors the same logic with **re
 
 **Bundle path** → 01\_PUBLISHED/winner\_HEAD\_0020\_v522B/
 
-Contains:
+Contains (not exhaustive):
 
 * plaintext\_97.txt — 97 letters (anchors fixed at 21–24, 25–33, 63–73)
 
@@ -210,7 +198,7 @@ Contains:
 
 * phrase\_gate\_policy.json — AND policy; padding\_forbidden:true; boundary\_tokenizer:"v2"; filler\_mode:"lexicon"
 
-* phrase\_gate\_report.json — Flint v2 & Generic with cadence/context sections
+* phrase\_gate\_report.json — Flint v2 & Generic (cadence/context sections)
 
 * holm\_report\_canonical.json — **10k mirrored nulls**, Holm m=2 for {coverage, f-words} (both adj-p \< 0.01)
 
@@ -220,57 +208,99 @@ Contains:
 
 ---
 
-### **Core-Hardening Studies**
+### **Core-Hardening Studies (algebraic falsification)**
 
-We ran comprehensive adversarial studies to test the algebraic robustness of the cipher core:
+We ran adversarial studies to test the algebraic robustness of the cipher core. Results:
 
-* **Skeleton uniqueness**: 200+ alternative periodic classing schemes tested; **only the baseline** six-track `class(i)=((i%2)*3)+(i%3)` re-derives the 97-char plaintext from CT under the four anchors (**1/200+ feasible**; [proof](04_EXPERIMENTS/core_hardening/skeleton_survey/PROOFS/skeleton_S0_BASELINE.json) included). → [Results](04_EXPERIMENTS/core_hardening/skeleton_survey/RESULTS.csv) | [Analysis](04_EXPERIMENTS/core_hardening/skeleton_survey/README.md)
+* **Skeleton uniqueness:** 200+ alternative periodic classing schemes; **only the baseline** six-track class(i)=((i%2)\*3)+(i%3) re-derives the 97-char plaintext from CT under the four anchors (**1/200+ feasible**).
 
-* **Tail necessity**: 550+ single-letter tail mutations tested; **0/550+ feasible**—all 22 characters of the tail are algebraically required. → [Results](04_EXPERIMENTS/core_hardening/tail_necessity/RESULTS.csv) | [Analysis](04_EXPERIMENTS/core_hardening/tail_necessity/README.md)
+   → 04\_EXPERIMENTS/core\_hardening\_v3/skeleton\_survey\_v3/RESULTS.csv & .../PROOFS/BASELINE.json
 
-* **Anchor exactness**: ±1 index shifts and BERLIN/CLOCK split/combined modes tested; **0/27+ feasible** under the same CT→PT solve—anchors are exact. → [Results](04_EXPERIMENTS/core_hardening/anchor_perturbations/RESULTS.csv) | [Analysis](04_EXPERIMENTS/core_hardening/anchor_perturbations/README.md)
+* **Tail necessity:** 550 single-letter tail mutations (22 positions × 25 letters); **0/550 feasible** — the tail is algebraically locked, not assumed.
 
-* **Crib capacity**: Anchors-only leave **26 positions undetermined**; anchors+tail yields a unique, SHA-verified solution. → [Results](04_EXPERIMENTS/core_hardening_v2/crib_capacity/ABLATION_MATRIX.csv) | [Analysis](04_EXPERIMENTS/core_hardening_v2/crib_capacity/README.md)
+   → 04\_EXPERIMENTS/core\_hardening\_v3/tail\_necessity/RESULTS.csv
 
-* **Alternate tails**: 500 stratified alternative tails tested; **0/500 feasible**—the tail content is uniquely determined. → [Results](04_EXPERIMENTS/core_hardening_v3/alt_tails_500/RESULTS.csv)
+* **Anchor exactness:** ±1 index shifts and BERLIN/CLOCK split/combined modes (27 cases); **0/27 feasible** under the same CT→PT solve — anchors are exact.
 
-**Claim map**: CT + four anchors + six-track classing → wheels (Option-A) → PT97; anchors constrain 71/97 positions via wheel propagation.
+   → 04\_EXPERIMENTS/core\_hardening\_v3/anchor\_perturbations/RESULTS.csv
 
-**How to re-run**:
-```bash
-make core-harden-v3-all    # complete v1+v2+v3 suite
-make core-harden           # v1 studies (original three)
-make core-harden-v2        # v2 enhanced studies
-make core-harden-v3        # v3.1 final studies
-```
+* **Crib capacity (information-theoretic):** anchors-only leave **26** positions undetermined; anchors+tail yield a unique, SHA-verified solution.
 
-See [04_EXPERIMENTS/](04_EXPERIMENTS/) for full details across all versions.
+   → 04\_EXPERIMENTS/core\_hardening\_v3/crib\_capacity/ABLATION\_MATRIX.csv, UND\_MAP.svg, ABLATION\_SUMMARY.json
+
+**Claim map:** CT \+ four anchors \+ six-track classing → wheels (Option-A) → PT97; route (T₂) for display only.
+
+**How to re-run:**
+
+make core-harden-v3-all        \# run v3 suite
+
+make core-harden-validate      \# schema \+ invariant checks
 
 ---
 
-**Immutable inputs** → 02\_DATA/
+### **Immutable inputs**
+
+###  **→** 
+
+### **02\_DATA/**
 
 * ciphertext\_97.txt (CT SHA-256 eea81357…a515ceab)
 
 * permutations/GRID\_W14\_ROWS.json (T₂ SHA above; NA-only; anchors map to self)
 
-* constraints/canonical\_cuts.json , constraints/function\_words.txt
+* constraints/canonical\_cuts.json, constraints/function\_words.txt
 
 * calibration/\* (perplexity/POS tables; all hash-pinned)
 
-**Solvers that reflect the hand method** → 03\_SOLVERS/
+### **Solvers (modern reflection of the hand method)**
+
+###  **→** 
+
+### **03\_SOLVERS/**
 
 * build the **same six wheels** you drew on paper (anchors → residues → short **L** → phase → family rules)
 
 * apply the **route** only for display parity
 
-* **boundary tokenizer v2** is presentation-layer only (spaced head), never changes the 97-letter line
+* boundary tokenizer v2 is presentation-layer only (spaced head), never changes the 97-letter line
 
 ---
 
-### **Quick verify (modern)**
+## **Install & run the verification CLI**
 
-k4 confirm \\
+You can verify the winner in **minutes** using the CLI. Two options:
+
+### **A) One-time setup (recommended)**
+
+**Prereqs:** Python 3.10+ (and shasum on macOS or sha256sum on Linux)
+
+\# 1\) Clone and enter repo
+
+git clone https://github.com/aviswerdlow/k4.git
+
+cd k4
+
+\# 2\) Create a clean virtualenv
+
+python3 \-m venv .venv
+
+source .venv/bin/activate   \# (Windows: .venv\\Scripts\\activate)
+
+\# 3\) Install deps
+
+pip install \-U pip
+
+pip install \-r requirements.txt
+
+\# 4\) Install the pipeline package in editable mode (exports the CLI)
+
+pip install \-e 03\_PIPELINE/v5.2.2-B
+
+This installs the CLI entrypoint (usually k4-confirm; in older docs we wrote k4 confirm — both forms are supported depending on your shell).
+
+### **B) Verify the winner (CLI)**
+
+k4-confirm \\
 
   \--ct 02\_DATA/ciphertext\_97.txt \\
 
@@ -288,7 +318,13 @@ k4 confirm \\
 
   \--out /tmp/k4\_verify\_HEAD\_0020\_v522B
 
-### **Derivation parity check (tail is derived, not assumed)**
+**Expected receipts** (also recorded in RECEIPTS.json):
+
+* PT SHA-256: 4eceb739ab655d6f4ec87753569b8bf04573fe26d01c0caa68d36776dd052d79
+
+* T₂ SHA-256: a5260415e76509638b4845d5e707521126aca2d67b50177b3c94f8ccc4c56c31
+
+### **C) Derivation parity (prove the tail is derived, not assumed)**
 
 python3 07\_TOOLS/validation/rederive\_plaintext.py \\
 
@@ -298,6 +334,8 @@ python3 07\_TOOLS/validation/rederive\_plaintext.py \\
 
   \--out /tmp/derived\_pt\_97.txt
 
+\# SHA must match the bundle PT exactly:
+
 shasum \-a 256 \\
 
   /tmp/derived\_pt\_97.txt \\
@@ -305,6 +343,24 @@ shasum \-a 256 \\
   01\_PUBLISHED/winner\_HEAD\_0020\_v522B/plaintext\_97.txt
 
 \# \-\> 4eceb739ab655d6f4ec87753569b8bf04573fe26d01c0caa68d36776dd052d79 (both)
+
+**Explain a single index** (e.g., 80\) to see class, wheel slot, family rule & numeric math:
+
+python3 07\_TOOLS/validation/rederive\_plaintext.py \\
+
+  \--ct 02\_DATA/ciphertext\_97.txt \\
+
+  \--proof 01\_PUBLISHED/winner\_HEAD\_0020\_v522B/proof\_digest\_enhanced.json \\
+
+  \--explain 80
+
+### **D) Makefile shortcuts**
+
+make verify-winner      \# runs the CLI verify with repo paths
+
+make derive             \# re-derives PT from CT+proof and checks SHA
+
+make core-harden-v3-all \# runs the core-hardening v3 suite
 
 ---
 
@@ -331,3 +387,27 @@ This repo documents a claim **within a stated frame**; please cite the frame, **
 **Solution date:** September 2025
 
 **Method:** Anchors → six short tracks (Option-A) → cell-by-cell propagation (tail derived) → route for display parity → modern audited replay (hashes, schemas, CI)
+
+---
+
+**Tip:** If your shell doesn’t find k4-confirm, run the Python entrypoint directly:
+
+python \-m k4pipeline.runners.confirm \\
+
+  \--ct 02\_DATA/ciphertext\_97.txt \\
+
+  \--pt 01\_PUBLISHED/winner\_HEAD\_0020\_v522B/plaintext\_97.txt \\
+
+  \--proof 01\_PUBLISHED/winner\_HEAD\_0020\_v522B/proof\_digest\_enhanced.json \\
+
+  \--perm 02\_DATA/permutations/GRID\_W14\_ROWS.json \\
+
+  \--cuts 02\_DATA/constraints/canonical\_cuts.json \\
+
+  \--fwords 02\_DATA/constraints/function\_words.txt \\
+
+  \--policy 01\_PUBLISHED/winner\_HEAD\_0020\_v522B/phrase\_gate\_policy.json \\
+
+  \--out /tmp/k4\_verify\_HEAD\_0020\_v522B
+
+This version of the README is drop-in ready.
