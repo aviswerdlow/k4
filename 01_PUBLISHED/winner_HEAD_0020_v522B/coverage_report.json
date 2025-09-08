@@ -23,5 +23,6 @@
   "filler_mode": "lexicon",
   "gates_head_only": true,
   "no_tail_guard": true,
+  "optionA_checks": [],
   "derivation_note": "Tail emerges from anchor-forced wheels via hand method"
 }

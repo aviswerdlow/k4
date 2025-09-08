@@ -1,8 +1,8 @@
 # Anchor Provenance & Solution Method
 
-## The Three Anchor Cribs
+## The Four Anchor Cribs
 
-K4 has three anchor spans with known plaintext, confirmed by Jim Sanborn:
+K4 has four anchor spans with known plaintext, confirmed by Jim Sanborn:
 
 1. **EAST** at indices 21-24
    - Ciphertext: `FVRR`
@@ -12,9 +12,13 @@ K4 has three anchor spans with known plaintext, confirmed by Jim Sanborn:
    - Ciphertext: `QPRNGKSSO`
    - Plaintext: `NORTHEAST`
 
-3. **BERLINCLOCK** at indices 63-73
-   - Ciphertext: `NYPVTTMZFPK`
-   - Plaintext: `BERLINCLOCK`
+3. **BERLIN** at indices 63-68
+   - Ciphertext: `NYPVTT`
+   - Plaintext: `BERLIN`
+
+4. **CLOCK** at indices 69-73
+   - Ciphertext: `MZFPK`
+   - Plaintext: `CLOCK`
 
 ## How We Solved the Algebra (3 bullets)
 

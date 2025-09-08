@@ -5,6 +5,7 @@
   "classing": "c6a",
   "class_formula": "((i % 2) * 3) + (i % 3)",
   "class_formula_note": "Standard six-track classing - matches 1989 hand method exactly",
+  "unused_slots_note": "5 slots across 102 total (6×17) are unaddressed by indices 0-96: class 1 slot 15, class 2 slot 13, class 3 slot 14, class 4 slot 12, class 5 slot 16. These slots are never dereferenced during decryption.",
   "option_a": {
     "description": "No K=0 at anchors for additive families",
     "enforced": true,
@@ -16,8 +17,12 @@
       25,
       33
     ],
-    "BERLINCLOCK": [
+    "BERLIN": [
       63,
+      68
+    ],
+    "CLOCK": [
+      69,
       73
     ]
   },

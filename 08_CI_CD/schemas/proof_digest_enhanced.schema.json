@@ -47,6 +47,10 @@
       "type": "string",
       "description": "Explanation of the class formula"
     },
+    "unused_slots_note": {
+      "type": "string",
+      "description": "Documentation of slots not addressed by indices 0-96"
+    },
     "option_a": {
       "type": "object",
       "required": ["description", "enforced"],

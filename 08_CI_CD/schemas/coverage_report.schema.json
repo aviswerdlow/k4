@@ -66,6 +66,11 @@
       "type": "boolean",
       "description": "True if no tail guard used in decryption"
     },
+    "optionA_checks": {
+      "type": "array",
+      "maxItems": 0,
+      "description": "Must be empty array - Option-A violations cause CI failure"
+    },
     "filler_mode": {
       "type": "string",
       "enum": ["lexicon", "padding", "none"]

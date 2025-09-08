@@ -8,6 +8,18 @@ This bundle contains the published K4 solution with lexicon fillers.
 - **T2 SHA-256**: `a5260415e76509638b4845d5e707521126aca2d67b50177b3c94f8ccc4c56c31`
 - **Policy SHA**: `bc083cc4129fedbc`
 
+## Full Plaintext (97 letters)
+
+```
+WEAREINTHEGRIDSEETHENEASTNORTHEASTANDWEAREBYTHELINETOSEEBETWEENBERLINCLOCKTHEJOYOFANANGLEISTHEARC
+```
+
+With anchor spans indicated:
+- Indices 21-24: **EAST**
+- Indices 25-33: **NORTHEAST**
+- Indices 63-73: **BERLINCLOCK**
+- Indices 74-96: THEJOYOFANANGLEISTHEARC (derived tail)
+
 ## Boundary Tokenizer
 
 Boundary tokenizer v2 with lexicon fillers (THEN, BETWEEN) is used to preserve word boundaries across fixed anchor indices; fillers are ordinary English tokens and are scored by all gates.
@@ -37,7 +49,8 @@ Boundary tokenizer v2 with lexicon fillers (THEN, BETWEEN) is used to preserve w
 This solution maintains exact parity with the 1989 pencil-and-paper method:
 
 - **Classing formula**: `class(i) = ((i % 2) * 3) + (i % 3)` produces 6 classes  
-- **Wheel data**: See `proof_digest_enhanced.json` for complete wheel residues
+- **Wheel data**: See `proof_digest_enhanced.json` for complete wheel residues (all L=17, phase=0)
+- **Coverage**: 97/102 slots used (5 slots never addressed by indices 0-96, never dereferenced)
 - **No seam/tail guard**: The tail emerges at indices 74-96 from anchor-forced wheels
 - **Tail derivation**: "THEJOYOFANANGLEISTHEARC" decoded cryptographically, not assumed
 
@@ -75,4 +88,13 @@ k4 confirm \
   --fwords 02_DATA/function_words.txt \
   --policy 01_PUBLISHED/winner_HEAD_0020_v522B/phrase_gate_policy.json \
   --out /tmp/k4_verify
+```
+
+## View the Wheels
+
+To see the complete wheel configurations with all residues:
+
+```bash
+python3 07_TOOLS/validation/print_wheels.py \
+  01_PUBLISHED/winner_HEAD_0020_v522B/proof_digest_enhanced.json
 ```
