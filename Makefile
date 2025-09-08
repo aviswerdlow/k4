@@ -1,7 +1,8 @@
 # K4 Validation Makefile
 
 .PHONY: all derive test-tail red-team validate-all clean help \
-	core-harden core-harden-skeletons core-harden-tail core-harden-anchors core-harden-validate
+	core-harden core-harden-skeletons core-harden-tail core-harden-anchors core-harden-validate \
+	core-harden-v2 core-harden-v3 core-harden-v3-all
 
 # Default target
 all: validate-all
@@ -96,6 +97,55 @@ core-harden-validate:
 	@echo "=== Validating Core Hardening Results ==="
 	python3 03_SOLVERS/validate_core_hardening.py || echo "Validator not yet implemented"
 
+# Core Hardening v2 Studies
+core-harden-v2:
+	@echo "=== Running Core Hardening v2 Studies ==="
+	@echo "1. Crib Ablation Study..."
+	python3 07_TOOLS/core_hardening/run_crib_ablation.py
+	@echo ""
+	@echo "2. Minimum Tail Subset Study..."
+	python3 07_TOOLS/core_hardening/run_min_tail_subset.py --kmin 10 --kmax 22
+	@echo ""
+	@echo "3. Alternative Tail Test..."
+	python3 07_TOOLS/core_hardening/run_alt_tail_test.py --num-tails 100
+	@echo ""
+	@echo "4. Skeleton Survey v2..."
+	python3 07_TOOLS/core_hardening/run_skeleton_survey_v2.py --max-patterns 200
+	@echo ""
+	@echo "✅ Core Hardening v2 complete! Check 04_EXPERIMENTS/core_hardening_v2/"
+
+# Core Hardening v3 Studies  
+core-harden-v3:
+	@echo "=== Running Core Hardening v3 Studies ==="
+	@echo "1. MTS Enhanced Study..."
+	python3 07_TOOLS/core_hardening/run_min_tail_subset_enhanced.py --samples-per-k 100
+	@echo ""
+	@echo "2. Alternative Tail Enhanced..."
+	python3 07_TOOLS/core_hardening/run_alt_tail_test_enhanced.py --num-tails 500
+	@echo ""
+	@echo "3. Skeleton Survey v3..."
+	python3 07_TOOLS/core_hardening/run_skeleton_survey_v3.py --max-patterns 200
+	@echo ""
+	@echo "4. Creating Undetermined Positions Map..."
+	python3 07_TOOLS/core_hardening/create_und_map.py
+	@echo ""
+	@echo "✅ Core Hardening v3 complete! Check 04_EXPERIMENTS/core_hardening_v3/"
+
+# Run all core hardening studies
+core-harden-v3-all: core-harden core-harden-v2 core-harden-v3
+	@echo ""
+	@echo "🎯 All Core Hardening Studies Complete!"
+	@echo ""
+	@echo "Results locations:"
+	@echo "  v1: 04_EXPERIMENTS/core_hardening/"
+	@echo "  v2: 04_EXPERIMENTS/core_hardening_v2/"
+	@echo "  v3: 04_EXPERIMENTS/core_hardening_v3/"
+	@echo ""
+	@echo "Key findings:"
+	@echo "  - Only baseline skeleton pattern is feasible"
+	@echo "  - Full 22-character tail is required"
+	@echo "  - 73/97 positions are undetermined without tail"
+
 # Show help
 help:
 	@echo "K4 Validation Makefile"
@@ -107,15 +157,22 @@ help:
 	@echo "  make validate-all  - Run all validation checks"
 	@echo "  make confirm       - Run standard k4 confirm"
 	@echo ""
-	@echo "Core Hardening Studies:"
-	@echo "  make core-harden             - Run all three hardening studies"
+	@echo "Core Hardening Studies (v1):"
+	@echo "  make core-harden             - Run all three v1 hardening studies"
 	@echo "  make core-harden-skeletons   - Run skeleton uniqueness survey"
 	@echo "  make core-harden-tail        - Run tail necessity study"
 	@echo "  make core-harden-anchors     - Run anchor perturbations study"
-	@echo "  make core-harden-validate    - Validate study results"
+	@echo ""
+	@echo "Core Hardening Studies (v2/v3):"
+	@echo "  make core-harden-v2          - Run all v2 enhanced studies"
+	@echo "  make core-harden-v3          - Run all v3.1 final studies"
+	@echo "  make core-harden-v3-all      - Run complete v1+v2+v3 suite"
 	@echo ""
 	@echo "  make clean         - Remove temporary files"
 	@echo "  make help          - Show this help message"
 	@echo ""
 	@echo "Quick validation:"
 	@echo "  make validate-all"
+	@echo ""
+	@echo "Complete core hardening suite:"
+	@echo "  make core-harden-v3-all"
