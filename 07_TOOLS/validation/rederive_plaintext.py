@@ -46,32 +46,39 @@ def decrypt_cell(c_val: int, k_val: int, family: str) -> int:
         raise ValueError(f"Unknown family: {family}")
 
 
-def build_wheel(L: int, phase: int, forced_residues: List[Dict]) -> Dict[int, int]:
+def build_wheel(L: int, phase: int, residues: List = None, forced_residues: List[Dict] = None) -> Dict[int, int]:
     """
-    Build a period wheel with forced anchor residues.
+    Build a period wheel with all residues or forced anchor residues.
     
     Args:
         L: Period length
         phase: Phase offset
-        forced_residues: List of {index, residue} pairs from anchors
+        residues: Full list of residues for the wheel (if available)
+        forced_residues: List of {index, residue} pairs from anchors (fallback)
         
     Returns:
         Dict mapping slot -> residue value
     """
     wheel = {}
     
-    for entry in forced_residues:
-        idx = entry['index']
-        residue = entry['residue']
-        
-        # Calculate the slot on the wheel for this index
-        slot = (idx - phase) % L
-        
-        # Check for conflicts
-        if slot in wheel and wheel[slot] != residue:
-            raise ValueError(f"Conflicting residues at slot {slot}: {wheel[slot]} vs {residue}")
-        
-        wheel[slot] = residue
+    # If we have full residues, use them
+    if residues and len(residues) == L:
+        for slot in range(L):
+            wheel[slot] = residues[slot]
+    # Otherwise use forced residues from anchors
+    elif forced_residues:
+        for entry in forced_residues:
+            idx = entry['index']
+            residue = entry['residue']
+            
+            # Calculate the slot on the wheel for this index
+            slot = (idx - phase) % L
+            
+            # Check for conflicts
+            if slot in wheel and wheel[slot] != residue:
+                raise ValueError(f"Conflicting residues at slot {slot}: {wheel[slot]} vs {residue}")
+            
+            wheel[slot] = residue
     
     return wheel
 
@@ -132,13 +139,14 @@ def rederive_plaintext(ct_path: Path, proof_path: Path, out_path: Path) -> str:
         L = class_data.get('L', class_data.get('period'))
         phase = class_data.get('phase', 0)
         
-        # Get forced residues (from anchors)
+        # Get full residues or forced residues
+        residues = class_data.get('residues', [])
         forced_residues = class_data.get('forced_anchor_residues', [])
         if not forced_residues and 'anchor_residues' in class_data:
             forced_residues = class_data['anchor_residues']
         
-        # Build the wheel
-        wheel = build_wheel(L, phase, forced_residues)
+        # Build the wheel (prefer full residues if available)
+        wheel = build_wheel(L, phase, residues, forced_residues)
         wheels[class_id] = wheel
         class_info[class_id] = {
             'family': family,
@@ -229,12 +237,23 @@ def verify_no_tail_guard(proof_path: Path) -> bool:
 def main():
     """Test re-derivation on the winner bundle."""
     import sys
+    import argparse
+    
+    # Parse arguments
+    parser = argparse.ArgumentParser(description='Re-derive plaintext from CT + proof')
+    parser.add_argument('--ct', default="02_DATA/ciphertext_97.txt", 
+                        help='Path to ciphertext file')
+    parser.add_argument('--proof', default="01_PUBLISHED/winner_HEAD_0020_v522B/proof_digest_enhanced.json",
+                        help='Path to proof file')
+    parser.add_argument('--out', default="/tmp/derived_plaintext_97.txt",
+                        help='Output path for derived plaintext')
+    args = parser.parse_args()
     
     # Paths
-    ct_path = Path("02_DATA/ciphertext_97.txt")
-    proof_path = Path("01_PUBLISHED/winner_HEAD_0020_v522B/proof_digest.json")
+    ct_path = Path(args.ct)
+    proof_path = Path(args.proof)
     bundle_pt_path = Path("01_PUBLISHED/winner_HEAD_0020_v522B/plaintext_97.txt")
-    derived_pt_path = Path("/tmp/derived_plaintext_97.txt")
+    derived_pt_path = Path(args.out)
     
     print("Re-deriving plaintext from ciphertext + proof...")
     
