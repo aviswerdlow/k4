@@ -268,11 +268,23 @@ k4 confirm \\
 
   \--perm 02\_DATA/permutations/GRID\_W14\_ROWS.json \\
 
-  \--cuts 02\_DATA/constraints/canonical\_cuts.json \\
+  \--cuts 02\_DATA/canonical\_cuts.json \\
 
-  \--fwords 02\_DATA/constraints/function\_words.txt \\
+  \--fwords 02\_DATA/function\_words.txt \\
 
   \--policy 01\_PUBLISHED/winner\_HEAD\_0020\_v522B/phrase\_gate\_policy.json \\
+
+### **Derivation parity check**
+
+For auditors verifying the tail is derived (not assumed):
+
+python3 07\_TOOLS/validation/rederive\_plaintext.py \\
+  \--ct 02\_DATA/ciphertext\_97.txt \\
+  \--proof 01\_PUBLISHED/winner\_HEAD\_0020\_v522B/proof\_digest\_enhanced.json \\
+  \--out /tmp/derived\_pt.txt
+
+\# Both should show: 4eceb739ab655d6f4ec87753569b8bf04573fe26d01c0caa68d36776dd052d79
+shasum -a 256 /tmp/derived\_pt.txt 01\_PUBLISHED/winner\_HEAD\_0020\_v522B/plaintext\_97.txt
 
   \--out /tmp/k4\_verify\_HEAD\_0020\_v522B
 
