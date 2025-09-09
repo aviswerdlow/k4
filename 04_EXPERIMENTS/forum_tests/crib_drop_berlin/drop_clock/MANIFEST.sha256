@@ -1,0 +1,10 @@
+# SHA-256 checksums for crib drop test artifacts
+# Test case: drop_clock
+# Generated for auditor verification
+
+4ac8beab01007152c8bb993e9e4109f1a964dcb0fd198645e33be8840060f66d  anchors.json
+8fd4e10d2618d62c1051ff3efea0b7f3a2e294ee14b291e0777e0b361f5ee560  WHEELS.json
+40d3c473d5889761205247b86658c405cd90181d4aa1a23402b859c1115c5361  derived_pt.txt
+992083a5e3af2d065b4995bd947ceaccf2deb816985a5d5e67f24de2a1f9ad94  EXPLAIN_63_73.txt
+d6185cfb4e9a1b2f63390b8fc29f25d245809352f53aa8e5bb4c09ed66a3f394  RESULT.json
+1413f90fc186c125bf6c0ac06811a515f0c65eb80541837a5bf8c0da2c3653ca  RECEIPTS.json

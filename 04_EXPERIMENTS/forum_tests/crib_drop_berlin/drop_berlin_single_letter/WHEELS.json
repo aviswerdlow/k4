@@ -1,0 +1,160 @@
+{
+  "wheels": {
+    "0": {
+      "family": "vigenere",
+      "L": 17,
+      "phase": 0,
+      "residues": [
+        null,
+        null,
+        null,
+        null,
+        13,
+        null,
+        null,
+        2,
+        null,
+        null,
+        null,
+        null,
+        null,
+        2,
+        null,
+        10,
+        null
+      ]
+    },
+    "1": {
+      "family": "vigenere",
+      "L": 17,
+      "phase": 0,
+      "residues": [
+        null,
+        null,
+        14,
+        null,
+        null,
+        11,
+        null,
+        null,
+        null,
+        null,
+        null,
+        24,
+        null,
+        20,
+        null,
+        null,
+        null
+      ]
+    },
+    "2": {
+      "family": "beaufort",
+      "L": 17,
+      "phase": 0,
+      "residues": [
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        4,
+        null,
+        null,
+        null,
+        null,
+        null,
+        10,
+        null
+      ]
+    },
+    "3": {
+      "family": "vigenere",
+      "L": 17,
+      "phase": 0,
+      "residues": [
+        null,
+        10,
+        null,
+        null,
+        1,
+        null,
+        null,
+        null,
+        null,
+        null,
+        24,
+        null,
+        12,
+        null,
+        null,
+        null,
+        25
+      ]
+    },
+    "4": {
+      "family": "beaufort",
+      "L": 17,
+      "phase": 0,
+      "residues": [
+        null,
+        null,
+        null,
+        null,
+        null,
+        20,
+        null,
+        null,
+        3,
+        null,
+        null,
+        null,
+        null,
+        null,
+        10,
+        null,
+        1
+      ]
+    },
+    "5": {
+      "family": "variant_beaufort",
+      "L": 17,
+      "phase": 0,
+      "residues": [
+        null,
+        null,
+        null,
+        9,
+        null,
+        null,
+        1,
+        null,
+        null,
+        null,
+        null,
+        null,
+        20,
+        null,
+        2,
+        null,
+        null
+      ]
+    }
+  },
+  "metadata": {
+    "seed": 1337,
+    "anchors_used": [
+      "EAST",
+      "NORTHEAST",
+      "BERLI",
+      "CLOCK"
+    ],
+    "determined_positions": 23,
+    "total_positions": 102,
+    "coverage_percent": 22.54901960784314
+  }
+}

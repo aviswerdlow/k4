@@ -1,0 +1,110 @@
+
+Index 63:
+  Class: 3
+  Family: vigenere
+  Period (L): 17
+  Phase: 0
+  Slot: 12 = (63 - 0) % 17
+  Key residue (K): UNDETERMINED
+  Ciphertext (C): N
+  Plaintext: ? (undetermined - no wheel constraint)
+
+Index 64:
+  Class: 1
+  Family: vigenere
+  Period (L): 17
+  Phase: 0
+  Slot: 13 = (64 - 0) % 17
+  Key residue (K): UNDETERMINED
+  Ciphertext (C): Y
+  Plaintext: ? (undetermined - no wheel constraint)
+
+Index 65:
+  Class: 5
+  Family: variant_beaufort
+  Period (L): 17
+  Phase: 0
+  Slot: 14 = (65 - 0) % 17
+  Key residue (K): UNDETERMINED
+  Ciphertext (C): P
+  Plaintext: ? (undetermined - no wheel constraint)
+
+Index 66:
+  Class: 0
+  Family: vigenere
+  Period (L): 17
+  Phase: 0
+  Slot: 15 = (66 - 0) % 17
+  Key residue (K): UNDETERMINED
+  Ciphertext (C): V
+  Plaintext: ? (undetermined - no wheel constraint)
+
+Index 67:
+  Class: 4
+  Family: beaufort
+  Period (L): 17
+  Phase: 0
+  Slot: 16 = (67 - 0) % 17
+  Key residue (K): UNDETERMINED
+  Ciphertext (C): T
+  Plaintext: ? (undetermined - no wheel constraint)
+
+Index 68:
+  Class: 2
+  Family: beaufort
+  Period (L): 17
+  Phase: 0
+  Slot: 0 = (68 - 0) % 17
+  Key residue (K): UNDETERMINED
+  Ciphertext (C): T
+  Plaintext: ? (undetermined - no wheel constraint)
+
+Index 69:
+  Class: 3
+  Family: vigenere
+  Period (L): 17
+  Phase: 0
+  Slot: 1 = (69 - 0) % 17
+  Key residue (K): UNDETERMINED
+  Ciphertext (C): M
+  Plaintext: ? (undetermined - no wheel constraint)
+
+Index 70:
+  Class: 1
+  Family: vigenere
+  Period (L): 17
+  Phase: 0
+  Slot: 2 = (70 - 0) % 17
+  Key residue (K): UNDETERMINED
+  Ciphertext (C): Z
+  Plaintext: ? (undetermined - no wheel constraint)
+
+Index 71:
+  Class: 5
+  Family: variant_beaufort
+  Period (L): 17
+  Phase: 0
+  Slot: 3 = (71 - 0) % 17
+  Key residue (K): UNDETERMINED
+  Ciphertext (C): F
+  Plaintext: ? (undetermined - no wheel constraint)
+
+Index 72:
+  Class: 0
+  Family: vigenere
+  Period (L): 17
+  Phase: 0
+  Slot: 4 = (72 - 0) % 17
+  Key residue (K): UNDETERMINED
+  Ciphertext (C): P
+  Plaintext: ? (undetermined - no wheel constraint)
+
+Index 73:
+  Class: 4
+  Family: beaufort
+  Period (L): 17
+  Phase: 0
+  Slot: 5 = (73 - 0) % 17
+  Key residue (K): UNDETERMINED
+  Ciphertext (C): K
+  Plaintext: ? (undetermined - no wheel constraint)

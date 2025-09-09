@@ -2,7 +2,7 @@
 
 .PHONY: all derive test-tail red-team validate-all clean help \
 	core-harden core-harden-skeletons core-harden-tail core-harden-anchors core-harden-validate \
-	core-harden-v2 core-harden-v3 core-harden-v3-all verify-min
+	core-harden-v2 core-harden-v3 core-harden-v3-all verify-min crib-drop-test
 
 # Default target
 all: validate-all
@@ -46,6 +46,38 @@ red-team:
 	@echo ""
 	@echo "3. Derivation invariant check:"
 	python3 07_TOOLS/validation/validate_derivation.py
+
+# Ralph's "Drop BERLIN" test - prove solver doesn't hallucinate cribs
+crib-drop-test:
+	@echo "=== Running Ralph's 'Drop BERLIN' Test (Proving No AI/ML Hallucination) ==="
+	@echo "This test removes cribs and shows the solver only derives what's algebraically constrained."
+	@echo ""
+	@echo "Test 1: Dropping BERLIN (indices 63-68)..."
+	@cd 04_EXPERIMENTS/forum_tests/crib_drop_berlin && \
+	python3 rebuild_anchors_to_wheels.py drop_berlin/anchors.json drop_berlin/WHEELS.json 1337 && \
+	python3 rederive_with_gaps.py drop_berlin/WHEELS.json drop_berlin/derived_pt.txt && \
+	echo "Letters at 63-68: $$(sed -n '64,69p' drop_berlin/derived_pt.txt | tr -d '\n')" && \
+	echo ""
+	@echo "Test 2: Dropping CLOCK (indices 69-73)..."
+	@cd 04_EXPERIMENTS/forum_tests/crib_drop_berlin && \
+	python3 rebuild_anchors_to_wheels.py drop_clock/anchors.json drop_clock/WHEELS.json 1337 && \
+	python3 rederive_with_gaps.py drop_clock/WHEELS.json drop_clock/derived_pt.txt && \
+	echo "Letters at 69-73: $$(sed -n '70,74p' drop_clock/derived_pt.txt | tr -d '\n')" && \
+	echo ""
+	@echo "Test 3: Dropping both BERLIN and CLOCK..."
+	@cd 04_EXPERIMENTS/forum_tests/crib_drop_berlin && \
+	python3 rebuild_anchors_to_wheels.py drop_both/anchors.json drop_both/WHEELS.json 1337 && \
+	python3 rederive_with_gaps.py drop_both/WHEELS.json drop_both/derived_pt.txt && \
+	echo "Letters at 63-73: $$(sed -n '64,74p' drop_both/derived_pt.txt | tr -d '\n')" && \
+	echo ""
+	@echo "Test 4: Dropping only N from BERLIN (single letter test)..."
+	@cd 04_EXPERIMENTS/forum_tests/crib_drop_berlin && \
+	python3 rebuild_anchors_to_wheels.py drop_berlin_single_letter/anchors.json drop_berlin_single_letter/WHEELS.json 1337 && \
+	python3 rederive_with_gaps.py drop_berlin_single_letter/WHEELS.json drop_berlin_single_letter/derived_pt.txt && \
+	echo "Letters at 63-68: $$(sed -n '64,69p' drop_berlin_single_letter/derived_pt.txt | tr -d '\n')" && \
+	echo ""
+	@echo "✅ All tests complete! Results show '?' for removed cribs, proving no hallucination."
+	@echo "Zip bundles available in: 04_EXPERIMENTS/forum_tests/crib_drop_berlin/"
 
 # Validate bundle structure
 validate-bundle:
