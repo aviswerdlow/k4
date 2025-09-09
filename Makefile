@@ -2,7 +2,7 @@
 
 .PHONY: all derive test-tail red-team validate-all clean help \
 	core-harden core-harden-skeletons core-harden-tail core-harden-anchors core-harden-validate \
-	core-harden-v2 core-harden-v3 core-harden-v3-all verify-min crib-drop-test
+	core-harden-v2 core-harden-v3 core-harden-v3-all verify-min crib-drop-test rebuild-from-anchors
 
 # Default target
 all: validate-all
@@ -46,6 +46,17 @@ red-team:
 	@echo ""
 	@echo "3. Derivation invariant check:"
 	python3 07_TOOLS/validation/validate_derivation.py
+
+# Rebuild wheels from anchors only - shows algebraic constraint propagation
+rebuild-from-anchors:
+	@echo "=== Building Wheels from Anchor Constraints Only ==="
+	@echo "This proves wheels emerge from algebraic constraints, not pre-encoded lookup."
+	@python3 07_TOOLS/rebuild_from_anchors.py \
+	  --ct 02_DATA/ciphertext_97.txt \
+	  --anchors 02_DATA/anchors/four_anchors.json \
+	  --out 04_EXPERIMENTS/core_hardening/rebuild_from_anchors/
+	@echo ""
+	@echo "✅ Wheels generated with 26 undetermined positions (anchors-only)"
 
 # Ralph's "Drop BERLIN" test - prove solver doesn't hallucinate cribs
 crib-drop-test:
@@ -189,6 +200,12 @@ core-harden-v3-all: core-harden core-harden-v2 core-harden-v3
 	@echo "  - Only baseline skeleton pattern is feasible"
 	@echo "  - Full 22-character tail is required"
 	@echo "  - 73/97 positions are undetermined without tail"
+
+# Show hand derivation example
+hand-strip-80-84:
+	@echo "See: 01_PUBLISHED/winner_HEAD_0020_v522B/PROOFS/derivation_parity/HAND_DERIVATION_80-84.txt"
+	@echo ""
+	@echo "This file contains pen-and-paper calculations for indices 80-84."
 
 # Show help
 help:

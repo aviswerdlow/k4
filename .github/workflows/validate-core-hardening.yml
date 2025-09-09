@@ -8,12 +8,16 @@ on:
       - '03_SOLVERS/run_tail_necessity.py'
       - '03_SOLVERS/run_anchor_perturbations.py'
       - '03_SOLVERS/core_hardening_utils.py'
+      - '07_TOOLS/rebuild_from_anchors.py'
+      - 'tests/test_rebuild_from_anchors.py'
       - '08_CI_CD/schemas/*.schema.json'
       - '.github/workflows/validate-core-hardening.yml'
   pull_request:
     paths:
       - '04_EXPERIMENTS/core_hardening/**'
       - '03_SOLVERS/run_*.py'
+      - '07_TOOLS/rebuild_from_anchors.py'
+      - 'tests/test_rebuild_from_anchors.py'
       - '08_CI_CD/schemas/*.schema.json'
   workflow_dispatch:
 
@@ -40,7 +44,14 @@ jobs:
         test -d 04_EXPERIMENTS/core_hardening/skeleton_survey || exit 1
         test -d 04_EXPERIMENTS/core_hardening/tail_necessity || exit 1
         test -d 04_EXPERIMENTS/core_hardening/anchor_perturbations || exit 1
+        test -d 04_EXPERIMENTS/core_hardening/rebuild_from_anchors || exit 1
         echo "✓ Directory structure verified"
+    
+    - name: Test rebuild_from_anchors tool
+      run: |
+        echo "Testing rebuild_from_anchors tool..."
+        python3 tests/test_rebuild_from_anchors.py
+        echo "✓ rebuild_from_anchors smoke test passed"
     
     - name: Validate Study A - Skeleton Survey
       if: always()

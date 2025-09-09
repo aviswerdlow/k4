@@ -347,6 +347,9 @@ python3 rederive_min.py \
 
 This minimal script proves the solution using only modular arithmetic — no libraries, no AI, just math.
 
+For pen-and-paper verification, see:
+- `01_PUBLISHED/winner_HEAD_0020_v522B/PROOFS/derivation_parity/HAND_DERIVATION_80-84.txt` — pen-and-paper strip for indices 80–84
+
 ### **D) Derivation parity (prove the tail is derived, not assumed)**
 
 python3 07\_TOOLS/validation/rederive\_plaintext.py \\

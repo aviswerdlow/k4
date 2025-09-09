@@ -55,6 +55,13 @@ jobs:
           
           echo "✅ No padding sentinels found in published bundles"
       
+      - name: Check hand derivation example exists
+        run: |
+          echo "Checking hand derivation strip exists and has expected content..."
+          test -f 01_PUBLISHED/winner_HEAD_0020_v522B/PROOFS/derivation_parity/HAND_DERIVATION_80-84.txt
+          grep -c '^## Index' 01_PUBLISHED/winner_HEAD_0020_v522B/PROOFS/derivation_parity/HAND_DERIVATION_80-84.txt | grep -q '^5$'
+          echo "✅ Hand derivation strip validated (5 indices found)"
+      
       - name: Verify manifests
         run: |
           echo "Verifying bundle manifests..."

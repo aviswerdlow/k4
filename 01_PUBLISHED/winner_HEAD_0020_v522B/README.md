@@ -78,7 +78,10 @@ python3 rederive_min.py \
   --explain 80
 ```
 
-For pen-and-paper verification, see `HAND_DERIVATION_80-84.txt`.
+For pen-and-paper verification, see:
+- `PROOFS/derivation_parity/HAND_DERIVATION_80-84.txt` — pen-and-paper strip for indices 80–84
+- `RELEASE/K4_by_hand_walkthrough.pdf` — complete 10-page visual walkthrough for forum members
+- `RELEASE/K4_by_hand_walkthrough.zip` — PDF walkthrough + quick reference cheat sheet
 
 ## Files
 
