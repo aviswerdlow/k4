@@ -20,6 +20,37 @@ With anchor spans indicated:
 - Indices 63-73: **BERLINCLOCK**
 - Indices 74-96: THEJOYOFANANGLEISTHEARC (derived tail)
 
+## Directory Structure
+
+### Core Verification Files (Root Level)
+| File | Purpose |
+|------|---------|
+| `plaintext_97.txt` | The 97-letter K4 solution |
+| `proof_digest_enhanced.json` | Complete wheel specifications with annotations |
+| `proof_digest.json` | Compact wheel specifications |
+| `coverage_report.json` | Anchor coverage analysis |
+| `phrase_gate_policy.json` | Phrase validation rules |
+| `phrase_gate_report.json` | Phrase validation results |
+| `holm_report_canonical.json` | Statistical validation |
+| `tokenization_report.json` | Word boundary analysis |
+| `rederive_min.py` | Minimal Python verifier (zero dependencies) |
+| `RECEIPTS.json` | Consolidated SHA-256 hashes |
+| `MANIFEST.sha256` | File integrity checksums |
+| `HAND_PACK.zip` | Forum distribution package |
+
+### Supporting Material
+- **PROOFS/** - Mathematical and cryptographic proofs
+  - `rebuild_from_anchors/` - Shows wheels emerge from constraints
+  - `derivation_parity/` - Hand calculation examples
+  - `no_mocks/` - Proof of no mock objects
+- **DOCS/** - Documentation and guides
+  - `HOW_TO_VERIFY.txt` - Step-by-step verification
+  - `LETTER_NUMBER_TABLE.txt` - A=0..Z=25 conversions
+  - `FORUM_AUDIT_NOTES.txt` - Forum-ready guide
+- **RELEASE/** - Release artifacts and receipts
+  - Core hardening validation results
+  - Uniqueness confirmation
+
 ## Boundary Tokenizer
 
 Boundary tokenizer v2 with lexicon fillers (THEN, BETWEEN) is used to preserve word boundaries across fixed anchor indices; fillers are ordinary English tokens and are scored by all gates.

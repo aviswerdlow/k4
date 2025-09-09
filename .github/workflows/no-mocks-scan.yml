@@ -5,6 +5,9 @@ on:
     branches: [ main ]
     paths:
       - '01_PUBLISHED/**'
+      - '01_PUBLISHED/**/PROOFS/**'
+      - '01_PUBLISHED/**/DOCS/**'
+      - '01_PUBLISHED/**/RELEASE/**'
       - '02_DATA/**'
       - '03_SOLVERS/**'
       - '04_CRYPTO/**'
@@ -13,6 +16,9 @@ on:
     branches: [ main ]
     paths:
       - '01_PUBLISHED/**'
+      - '01_PUBLISHED/**/PROOFS/**'
+      - '01_PUBLISHED/**/DOCS/**'
+      - '01_PUBLISHED/**/RELEASE/**'
       - '02_DATA/**'
       - '03_SOLVERS/**'
       - '04_CRYPTO/**'
