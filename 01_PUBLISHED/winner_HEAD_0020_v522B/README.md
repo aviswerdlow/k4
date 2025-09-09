@@ -44,6 +44,10 @@ With anchor spans indicated:
   - `derivation_parity/` - Hand calculation examples
   - `no_mocks/` - Proof of no mock objects
 - **DOCS/** - Documentation and guides
+  - `K4_By_Hand_Walkthrough.pdf` - Visual 4-page walkthrough with charts and diagrams
+  - `K4_By_Hand_Walkthrough_grayscale.pdf` - Grayscale version for printing
+  - `FIG_*.png` - Individual figure exports from the visual walkthrough
+  - `INDEX.md` - Visual materials index and usage guide
   - `HOW_TO_VERIFY.txt` - Step-by-step verification
   - `LETTER_NUMBER_TABLE.txt` - A=0..Z=25 conversions
   - `FORUM_AUDIT_NOTES.txt` - Forum-ready guide
@@ -79,9 +83,10 @@ python3 rederive_min.py \
 ```
 
 For pen-and-paper verification, see:
+- `DOCS/K4_By_Hand_Walkthrough.pdf` — visual 4-page walkthrough with charts and diagrams
+- `DOCS/K4_By_Hand_Walkthrough_grayscale.pdf` — print-friendly grayscale version
 - `PROOFS/derivation_parity/HAND_DERIVATION_80-84.txt` — pen-and-paper strip for indices 80–84
-- `RELEASE/K4_by_hand_walkthrough.pdf` — complete 10-page visual walkthrough for forum members
-- `RELEASE/K4_by_hand_walkthrough.zip` — PDF walkthrough + quick reference cheat sheet
+- `RELEASE/K4_by_hand_walkthrough.pdf` — complete 10-page text-based walkthrough
 
 ## Files
 
