@@ -1,0 +1,39 @@
+# Letter-Number Conversion Table
+
+For K4 hand calculations (A=0 system):
+
+A = 0    N = 13
+B = 1    O = 14
+C = 2    P = 15
+D = 3    Q = 16
+E = 4    R = 17
+F = 5    S = 18
+G = 6    T = 19
+H = 7    U = 20
+I = 8    V = 21
+J = 9    W = 22
+K = 10   X = 23
+L = 11   Y = 24
+M = 12   Z = 25
+
+## Cipher Family Decryption Rules
+
+### Vigenère
+P = C - K (mod 26)
+Example: C=9 (J), K=4 (E) → P = 9-4 = 5 (F)
+
+### Beaufort  
+P = K - C (mod 26)
+Example: C=19 (T), K=7 (H) → P = 7-19 = -12 ≡ 14 (O)
+
+### Variant-Beaufort
+P = C + K (mod 26)
+Example: C=5 (F), K=22 (W) → P = 5+22 = 27 ≡ 1 (B)
+
+## Modular Arithmetic
+
+When result is negative, add 26:
+-12 (mod 26) = -12 + 26 = 14
+
+When result exceeds 25, subtract 26:
+27 (mod 26) = 27 - 26 = 1

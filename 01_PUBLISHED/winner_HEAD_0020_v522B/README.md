@@ -24,11 +24,37 @@ With anchor spans indicated:
 
 Boundary tokenizer v2 with lexicon fillers (THEN, BETWEEN) is used to preserve word boundaries across fixed anchor indices; fillers are ordinary English tokens and are scored by all gates.
 
+## Minimal Verification (No Dependencies)
+
+Verify the solution using pure Python stdlib:
+
+```bash
+python3 rederive_min.py \
+  --ct ../../02_DATA/ciphertext_97.txt \
+  --proof proof_digest_enhanced.json \
+  --out /tmp/k4_pt.txt
+shasum -a 256 /tmp/k4_pt.txt plaintext_97.txt
+```
+
+Expected SHA-256: `4eceb739ab655d6f4ec87753569b8bf04573fe26d01c0caa68d36776dd052d79`
+
+To see the step-by-step arithmetic for any index (e.g., index 80):
+
+```bash
+python3 rederive_min.py \
+  --ct ../../02_DATA/ciphertext_97.txt \
+  --proof proof_digest_enhanced.json \
+  --explain 80
+```
+
+For pen-and-paper verification, see `HAND_DERIVATION_80-84.txt`.
+
 ## Files
 
 - `plaintext_97.txt` - The 97-letter plaintext with lexicon fillers
 - `readable_canonical.txt` - Human-readable version with spacing
 - `proof_digest.json` - Cryptographic proof details
+- `proof_digest_enhanced.json` - Enhanced proof with complete wheel residues
 - `tokenization_report.json` - Boundary tokenizer v2 output with fillers
 - `phrase_gate_policy.json` - Gate policy with padding_forbidden flag
 - `phrase_gate_report.json` - Gate validation results
@@ -37,6 +63,12 @@ Boundary tokenizer v2 with lexicon fillers (THEN, BETWEEN) is used to preserve w
 - `holm_report_canonical.json` - Statistical null testing results
 - `boundary_documentation.json` - Boundary tokenizer v2 specification
 - `CONFIRM_REPORT_FILLERS.json` - Confirmation report for filler version
+- `rederive_min.py` - Minimal re-deriver (pure Python stdlib)
+- `HAND_DERIVATION_80-84.txt` - Hand calculation examples
+- `HOW_TO_VERIFY.txt` - Comprehensive verification guide
+- `EXPLAIN_SAMPLES.txt` - Step-by-step arithmetic examples
+- `NO_MOCKS_PROOF.txt` - Proof of no mock objects
+- `rebuild_from_anchors.py` - Demonstrates wheel emergence from constraints
 - `hashes.txt` - SHA-256 hashes of all bundle files
 - `MANIFEST.sha256` - Bundle manifest
 

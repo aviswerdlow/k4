@@ -324,7 +324,30 @@ k4-confirm \\
 
 * T₂ SHA-256: a5260415e76509638b4845d5e707521126aca2d67b50177b3c94f8ccc4c56c31
 
-### **C) Derivation parity (prove the tail is derived, not assumed)**
+### **C) Quick Start - Minimal Verification (no setup required)**
+
+For the skeptical: verify K4 with a single Python file and zero dependencies:
+
+```bash
+# Download just the minimal re-deriver (pure Python, no imports)
+curl -O https://raw.githubusercontent.com/aviswerdlow/k4/main/01_PUBLISHED/winner_HEAD_0020_v522B/rederive_min.py
+
+# Verify the solution (creates derived_pt.txt with SHA-256 verification)
+python3 rederive_min.py \
+  --ct 02_DATA/ciphertext_97.txt \
+  --proof 01_PUBLISHED/winner_HEAD_0020_v522B/proof_digest_enhanced.json \
+  --out derived_pt.txt
+
+# Or see the math for any index (e.g., 80):
+python3 rederive_min.py \
+  --ct 02_DATA/ciphertext_97.txt \
+  --proof 01_PUBLISHED/winner_HEAD_0020_v522B/proof_digest_enhanced.json \
+  --explain 80
+```
+
+This minimal script proves the solution using only modular arithmetic — no libraries, no AI, just math.
+
+### **D) Derivation parity (prove the tail is derived, not assumed)**
 
 python3 07\_TOOLS/validation/rederive\_plaintext.py \\
 

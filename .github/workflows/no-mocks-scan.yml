@@ -3,10 +3,79 @@ name: No Mocks in Live Path
 on:
   push:
     branches: [ main ]
+    paths:
+      - '01_PUBLISHED/**'
+      - '02_DATA/**'
+      - '03_SOLVERS/**'
+      - '04_CRYPTO/**'
+      - '07_TOOLS/**'
   pull_request:
     branches: [ main ]
+    paths:
+      - '01_PUBLISHED/**'
+      - '02_DATA/**'
+      - '03_SOLVERS/**'
+      - '04_CRYPTO/**'
+      - '07_TOOLS/**'
 
 jobs:
+  verify-minimal-derivation:
+    runs-on: ubuntu-latest
+    
+    steps:
+    - uses: actions/checkout@v3
+    
+    - name: Set up Python
+      uses: actions/setup-python@v4
+      with:
+        python-version: '3.9'
+    
+    - name: Run minimal re-deriver
+      run: |
+        echo "=== Running minimal K4 re-deriver ==="
+        python3 01_PUBLISHED/winner_HEAD_0020_v522B/rederive_min.py \
+          --ct 02_DATA/ciphertext_97.txt \
+          --proof 01_PUBLISHED/winner_HEAD_0020_v522B/proof_digest_enhanced.json \
+          --out /tmp/k4_derived.txt
+        
+        # Verify SHA-256
+        DERIVED_SHA=$(shasum -a 256 /tmp/k4_derived.txt | cut -d' ' -f1)
+        EXPECTED_SHA="4eceb739ab655d6f4ec87753569b8bf04573fe26d01c0caa68d36776dd052d79"
+        
+        echo "Derived SHA-256: $DERIVED_SHA"
+        echo "Expected SHA-256: $EXPECTED_SHA"
+        
+        if [ "$DERIVED_SHA" = "$EXPECTED_SHA" ]; then
+          echo "✅ SHA-256 verification PASSED"
+        else
+          echo "❌ SHA-256 verification FAILED"
+          exit 1
+        fi
+    
+    - name: Run explain mode for index 80
+      run: |
+        echo "=== Running explain mode for index 80 ==="
+        python3 01_PUBLISHED/winner_HEAD_0020_v522B/rederive_min.py \
+          --ct 02_DATA/ciphertext_97.txt \
+          --proof 01_PUBLISHED/winner_HEAD_0020_v522B/proof_digest_enhanced.json \
+          --explain 80 | tee /tmp/explain_80.txt
+        
+        # Check that it produces expected output
+        if grep -q "Plaintext: O" /tmp/explain_80.txt; then
+          echo "✅ Explain mode verification PASSED"
+        else
+          echo "❌ Explain mode verification FAILED"
+          exit 1
+        fi
+    
+    - name: Upload verification artifacts
+      if: always()
+      uses: actions/upload-artifact@v3
+      with:
+        name: minimal-verification-results
+        path: |
+          /tmp/k4_derived.txt
+          /tmp/explain_80.txt
   no-mocks-scan:
     runs-on: ubuntu-latest
     

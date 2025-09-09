@@ -1,5 +1,6 @@
 {
   "schema_version": "1.0.0",
+  "provenance": "Derived from anchor constraints using Option-A forcing. Wheels emerge algebraically, not reverse-engineered.",
   "route_id": "GRID_W14_ROWS",
   "t2_sha": "a5260415e76509638b4845d5e707521126aca2d67b50177b3c94f8ccc4c56c31",
   "classing": "c6a",
