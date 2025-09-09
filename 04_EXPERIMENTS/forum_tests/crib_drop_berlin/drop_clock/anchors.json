@@ -1,0 +1,17 @@
+{
+  "EAST": {
+    "start": 21,
+    "end": 24,
+    "plaintext": "EAST"
+  },
+  "NORTHEAST": {
+    "start": 25,
+    "end": 33,
+    "plaintext": "NORTHEAST"
+  },
+  "BERLIN": {
+    "start": 63,
+    "end": 68,
+    "plaintext": "BERLIN"
+  }
+}
