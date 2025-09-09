@@ -1,0 +1,178 @@
+# HOW TO VERIFY THE K4 SOLUTION
+
+This guide shows multiple ways to independently verify the K4 solution,
+from simple one-liner verification to hand calculation.
+
+## Quick Start - One Command Verification
+
+```bash
+# From the repository root:
+make verify-min
+```
+
+This runs the minimal re-deriver and verifies the SHA-256 hash.
+Expected output: `4eceb739ab655d6f4ec87753569b8bf04573fe26d01c0caa68d36776dd052d79`
+
+## Method 1: Minimal Python Re-deriver (No Dependencies)
+
+The simplest verification uses our pure Python stdlib implementation:
+
+```bash
+python3 01_PUBLISHED/winner_HEAD_0020_v522B/rederive_min.py \
+  --ct 02_DATA/ciphertext_97.txt \
+  --proof 01_PUBLISHED/winner_HEAD_0020_v522B/proof_digest_enhanced.json \
+  --out /tmp/k4_plaintext.txt
+
+# Verify the SHA-256
+shasum -a 256 /tmp/k4_plaintext.txt
+```
+
+### Understanding the Output
+
+The plaintext should be:
+```
+WEAREINTHEGRIDSEETHENEASTNORTHEASTANDWEAREBYTHELINETOSEEBETWEENBERLINCLOCKTHEJOYOFANANGLEISTHEARC
+```
+
+SHA-256: `4eceb739ab655d6f4ec87753569b8bf04573fe26d01c0caa68d36776dd052d79`
+
+## Method 2: Step-by-Step Verification
+
+### Step 1: Examine Individual Positions
+
+See how any specific index is decrypted:
+
+```bash
+# Example for index 42 (should decrypt to 'Y')
+python3 01_PUBLISHED/winner_HEAD_0020_v522B/rederive_min.py \
+  --ct 02_DATA/ciphertext_97.txt \
+  --proof 01_PUBLISHED/winner_HEAD_0020_v522B/proof_digest_enhanced.json \
+  --explain 42
+```
+
+### Step 2: Verify Multiple Positions
+
+Check indices 80-84 (should spell "OFANA"):
+
+```bash
+for i in 80 81 82 83 84; do
+  python3 01_PUBLISHED/winner_HEAD_0020_v522B/rederive_min.py \
+    --ct 02_DATA/ciphertext_97.txt \
+    --proof 01_PUBLISHED/winner_HEAD_0020_v522B/proof_digest_enhanced.json \
+    --explain $i
+done
+```
+
+## Method 3: Hand Verification (No Computer)
+
+You can verify the solution with pen and paper using the file:
+`HAND_DERIVATION_80-84.txt`
+
+This shows complete worked examples for indices 80-84.
+
+### What You Need:
+1. The ciphertext (02_DATA/ciphertext_97.txt)
+2. The proof JSON (proof_digest_enhanced.json) 
+3. A mod-26 arithmetic table (or calculator)
+
+### The Process:
+1. Calculate the class: `class(i) = ((i % 2) * 3) + (i % 3)`
+2. Look up the cipher family for that class
+3. Calculate the wheel slot: `slot = i % 17`
+4. Look up the key residue from the proof JSON
+5. Apply the decryption formula
+6. Convert the result to a letter
+
+## Method 4: Verify No Mocks or Placeholders
+
+Check that the solution contains no mock objects or placeholder code:
+
+```bash
+# Search for forbidden tokens in the published solution
+grep -r -i "mock\|placeholder\|TODO\|FIXME" 01_PUBLISHED/winner_HEAD_0020_v522B/
+
+# Should return no results
+```
+
+## Method 5: Verify Wheel Reconstruction
+
+See how wheels emerge from anchor constraints:
+
+```bash
+python3 01_PUBLISHED/winner_HEAD_0020_v522B/rebuild_from_anchors.py
+```
+
+This demonstrates that:
+- Anchors alone determine 71/97 positions
+- The remaining 26 positions require the tail
+- Wheels are derived, not "encoded"
+
+## Understanding the Mathematics
+
+### The Six-Track Classing Function
+```
+class(i) = ((i % 2) * 3) + (i % 3)
+```
+This creates 6 classes (0-5), each with its own periodic wheel.
+
+### The Three Cipher Families
+- **Vigenère**: P = C - K (mod 26)
+- **Beaufort**: P = K - C (mod 26)
+- **Variant-Beaufort**: P = C + K (mod 26)
+
+### The Wheel Structure
+- Each class has a wheel of period 17
+- The proof JSON provides the key residues
+- All arithmetic is modulo 26
+
+## Core-Hardening Verification
+
+To verify the Core-hardening v3.1 results:
+
+```bash
+# Run the validation script
+python3 03_SOLVERS/validate_core_hardening.py
+
+# Check skeleton survey (should show feasible=1)
+python3 07_TOOLS/core_hardening/run_skeleton_survey_v3.py --max-patterns 200
+```
+
+Expected results:
+- 26 undetermined positions (not 73)
+- Feasible configurations found
+- Tail necessity confirmed
+
+## Files for Independent Verification
+
+### Essential Files
+1. `02_DATA/ciphertext_97.txt` - The K4 ciphertext
+2. `01_PUBLISHED/winner_HEAD_0020_v522B/proof_digest_enhanced.json` - The cryptographic proof
+3. `01_PUBLISHED/winner_HEAD_0020_v522B/rederive_min.py` - Minimal re-deriver
+
+### Supporting Documentation
+1. `EXPLAIN_SAMPLES.txt` - Worked examples
+2. `HAND_DERIVATION_80-84.txt` - Hand calculation guide
+3. `NO_MOCKS_PROOF.txt` - Proof of no placeholder code
+4. `rebuild_from_anchors.py` - Shows wheel derivation
+
+## Common Questions
+
+**Q: Is this the real K4 solution?**
+A: The plaintext reads as coherent English with references to the sculpture's
+coordinates and geometry. The SHA-256 matches across all derivation methods.
+
+**Q: Can I verify without running code?**
+A: Yes, use the hand derivation guide (HAND_DERIVATION_80-84.txt) with pen and paper.
+
+**Q: Why 26 undetermined positions?**
+A: The anchors (EAST, NORTHEAST, BERLIN, CLOCK) constrain 71/97 positions.
+The remaining 26 require the tail "THEJOYOFANANGLEISTHEARC" for unique determination.
+
+**Q: Is this reverse-engineered?**
+A: No. The solution emerges from cryptographic constraints, not from "encoding
+the answer" in the wheels. Run rebuild_from_anchors.py to see this demonstrated.
+
+## Contact
+
+For questions or issues with verification, please refer to the repository
+documentation or create an issue on the project page.

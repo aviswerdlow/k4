@@ -1,0 +1,52 @@
+# K4 Mathematical Derivation Examples
+
+These examples demonstrate the pure mathematical derivation of K4 plaintext
+using only the ciphertext, proof (wheels), and modular arithmetic.
+
+Generated using: python3 rederive_min.py --explain <index>
+
+================================================================================
+Index 80:
+  Class: 2
+  Family: beaufort
+  Period (L): 17
+  Phase: 0
+  Slot: 12 = (80 - 0) % 17
+  Key residue (K): 7
+  Ciphertext (C): T = 19
+  Decrypt: P = K - C = 7 - 19 = 14 (mod 26)
+  Plaintext: O
+
+================================================================================
+Index 81:
+  Class: 3
+  Family: vigenere
+  Period (L): 17
+  Phase: 0
+  Slot: 13 = (81 - 0) % 17
+  Key residue (K): 4
+  Ciphertext (C): J = 9
+  Decrypt: P = C - K = 9 - 4 = 5 (mod 26)
+  Plaintext: F
+
+================================================================================
+Index 95:
+  Class: 5
+  Family: vigenere
+  Period (L): 17
+  Phase: 0
+  Slot: 10 = (95 - 0) % 17
+  Key residue (K): 9
+  Ciphertext (C): A = 0
+  Decrypt: P = C - K = 0 - 9 = 17 (mod 26)
+  Plaintext: R
+
+================================================================================
+
+These examples show:
+1. The six-track classing function: class(i) = ((i % 2) * 3) + (i % 3)
+2. Three cipher families: Vigenère, Beaufort, Variant-Beaufort
+3. Each class has its own wheel with period L=17 and specific phase
+4. Pure modular arithmetic (mod 26) derives each plaintext letter
+
+No external libraries or complex code required - just basic math.

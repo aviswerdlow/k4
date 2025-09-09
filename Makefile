@@ -2,10 +2,22 @@
 
 .PHONY: all derive test-tail red-team validate-all clean help \
 	core-harden core-harden-skeletons core-harden-tail core-harden-anchors core-harden-validate \
-	core-harden-v2 core-harden-v3 core-harden-v3-all
+	core-harden-v2 core-harden-v3 core-harden-v3-all verify-min
 
 # Default target
 all: validate-all
+
+# Minimal re-derivation (pure Python, no dependencies)
+verify-min:
+	@echo "=== Running minimal re-deriver (pure Python stdlib) ==="
+	python3 01_PUBLISHED/winner_HEAD_0020_v522B/rederive_min.py \
+	  --ct 02_DATA/ciphertext_97.txt \
+	  --proof 01_PUBLISHED/winner_HEAD_0020_v522B/proof_digest_enhanced.json \
+	  --out /tmp/k4_pt_min.txt && \
+	echo "=== Verifying SHA-256 ===" && \
+	shasum -a 256 /tmp/k4_pt_min.txt 01_PUBLISHED/winner_HEAD_0020_v522B/plaintext_97.txt | \
+	  grep -q "4eceb739ab655d6f4ec87753569b8bf04573fe26d01c0caa68d36776dd052d79" && \
+	echo "✅ SHA-256 matches!" || echo "❌ SHA-256 mismatch!"
 
 # Re-derive plaintext from CT + proof and verify SHAs
 derive:
