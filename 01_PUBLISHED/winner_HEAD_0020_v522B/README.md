@@ -169,3 +169,18 @@ To see the complete wheel configurations with all residues:
 python3 07_TOOLS/validation/print_wheels.py \
   01_PUBLISHED/winner_HEAD_0020_v522B/proof_digest_enhanced.json
 ```
+
+## Forward Encode (PT→CT)
+
+To demonstrate the solution works in the forward direction, encoding plaintext to ciphertext using only the recovered key schedule (without reading the ciphertext):
+
+```bash
+python3 07_TOOLS/forward_encode_min.py \
+  --pt 01_PUBLISHED/winner_HEAD_0020_v522B/plaintext_97.txt \
+  --proof 01_PUBLISHED/winner_HEAD_0020_v522B/proof_digest_enhanced.json \
+  --out /tmp/k4_forward_ct.txt --sha
+```
+
+Expected SHA-256: `eea813570c7f1fd3b34674e47b5c3da8948026f5cefee612a0b38ffaa515ceab`
+
+This proves the recovered key schedule (families, L, phase, residues) correctly encodes the plaintext to produce the K4 ciphertext, working purely in the forward direction without any reference to the ciphertext during encoding.

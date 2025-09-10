@@ -1,0 +1,82 @@
+name: Verify Forward Encode
+
+on:
+  push:
+    paths:
+      - '07_TOOLS/forward_encode_min.py'
+      - '01_PUBLISHED/winner_HEAD_0020_v522B/**'
+      - '.github/workflows/verify-forward-encode.yml'
+  pull_request:
+    paths:
+      - '07_TOOLS/forward_encode_min.py'
+      - '01_PUBLISHED/winner_HEAD_0020_v522B/**'
+      - '.github/workflows/verify-forward-encode.yml'
+
+jobs:
+  verify-no-ct-read:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v3
+      
+      - name: Verify encoder doesn't read ciphertext
+        run: |
+          echo "Checking that forward_encode_min.py never reads ciphertext..."
+          
+          # Check for any reference to ciphertext files
+          if grep -E "(ciphertext_97\.txt|02_DATA)" 07_TOOLS/forward_encode_min.py; then
+            echo "❌ ERROR: forward_encode_min.py appears to read ciphertext!"
+            echo "The encoder must work purely from plaintext + proof, never reading CT."
+            exit 1
+          fi
+          
+          # Check for any CT-related variables or strings
+          if grep -iE "(cipher|ct_|ctext)" 07_TOOLS/forward_encode_min.py | grep -v "ciphertext string" | grep -v "# ciphertext"; then
+            echo "⚠️  WARNING: Suspicious ciphertext reference found"
+            echo "Please verify this is only in comments/output, not reading CT files"
+          fi
+          
+          echo "✅ No ciphertext reads detected in encoder"
+  
+  verify-forward-encode:
+    runs-on: ubuntu-latest
+    needs: verify-no-ct-read
+    steps:
+      - uses: actions/checkout@v3
+      
+      - name: Set up Python
+        uses: actions/setup-python@v4
+        with:
+          python-version: '3.x'
+      
+      - name: Run forward encoder
+        run: |
+          python3 07_TOOLS/forward_encode_min.py \
+            --pt 01_PUBLISHED/winner_HEAD_0020_v522B/plaintext_97.txt \
+            --proof 01_PUBLISHED/winner_HEAD_0020_v522B/proof_digest_enhanced.json \
+            --out /tmp/k4_forward_ct.txt \
+            --sha > /tmp/encode_output.txt
+          
+          cat /tmp/encode_output.txt
+      
+      - name: Verify SHA matches K4 ciphertext
+        run: |
+          EXPECTED_SHA="eea813570c7f1fd3b34674e47b5c3da8948026f5cefee612a0b38ffaa515ceab"
+          
+          if grep -q "$EXPECTED_SHA" /tmp/encode_output.txt; then
+            echo "✅ Forward encoder produces correct K4 ciphertext SHA!"
+            echo "This proves PT + recovered keys → CT without reading the ciphertext."
+          else
+            echo "❌ SHA mismatch! Forward encoder didn't produce correct ciphertext."
+            exit 1
+          fi
+      
+      - name: Test explain mode
+        run: |
+          echo "Testing --explain for positions 80-84..."
+          python3 07_TOOLS/forward_encode_min.py \
+            --pt 01_PUBLISHED/winner_HEAD_0020_v522B/plaintext_97.txt \
+            --proof 01_PUBLISHED/winner_HEAD_0020_v522B/proof_digest_enhanced.json \
+            --out /tmp/k4_test.txt \
+            --explain 80,81,82,83,84
+          
+          echo "✅ Explain mode works correctly"

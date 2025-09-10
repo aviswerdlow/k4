@@ -2,10 +2,27 @@
 
 .PHONY: all derive test-tail red-team validate-all clean help \
 	core-harden core-harden-skeletons core-harden-tail core-harden-anchors core-harden-validate \
-	core-harden-v2 core-harden-v3 core-harden-v3-all verify-min crib-drop-test rebuild-from-anchors
+	core-harden-v2 core-harden-v3 core-harden-v3-all verify-min crib-drop-test rebuild-from-anchors \
+	forward-encode
 
 # Default target
 all: validate-all
+
+# Forward encode (PT→CT) without reading ciphertext
+forward-encode:
+	@echo "=== Forward encoding: PT + proof → CT ==="
+	@python3 07_TOOLS/forward_encode_min.py \
+	  --pt 01_PUBLISHED/winner_HEAD_0020_v522B/plaintext_97.txt \
+	  --proof 01_PUBLISHED/winner_HEAD_0020_v522B/proof_digest_enhanced.json \
+	  --out /tmp/k4_forward_ct.txt --sha | tee /tmp/forward_output.txt
+	@echo ""
+	@if grep -q "eea813570c7f1fd3b34674e47b5c3da8948026f5cefee612a0b38ffaa515ceab" /tmp/forward_output.txt; then \
+	  echo "✅ Success! Forward encoder produced correct K4 ciphertext SHA."; \
+	  echo "   This proves PT + recovered keys → CT without reading the ciphertext."; \
+	else \
+	  echo "❌ SHA mismatch in forward encoding!"; \
+	  exit 1; \
+	fi
 
 # Minimal re-derivation (pure Python, no dependencies)
 verify-min:
