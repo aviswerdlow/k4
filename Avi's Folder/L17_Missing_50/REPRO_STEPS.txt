@@ -1,0 +1,20 @@
+REPRODUCTION STEPS
+==================================================
+
+To reproduce all L=17 missing constraints analysis:
+
+1. Map unknown positions:
+   make l17-map-unknowns
+
+2. Test head constraints:
+   make l17-head-sweep
+
+3. Prove minimum constraints:
+   make l17-min-constraints
+
+4. Generate package:
+   make l17-package
+
+All outputs in:
+- 04_EXPERIMENTS/L17_MISSING/
+- 06_DOCUMENTATION/L17_MISSING/PACKAGE/

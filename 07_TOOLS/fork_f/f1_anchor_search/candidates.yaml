@@ -1,0 +1,68 @@
+# F1 Anchor Search Candidate Lists
+# MASTER_SEED: 1337
+# All tokens uppercase A-Z only, length 3-8
+
+surveying:
+  category: "Surveying lexicon"
+  min_len: 3
+  max_len: 8
+  tokens:
+    - TRUE
+    - LINE
+    - COURSE
+    - BEARING
+    - MERIDIAN
+    - ARC
+    - ANGLE
+    - NORTH
+    - EAST
+    - WEST
+    - SOUTH
+    - DIAL
+    - READ
+    - NOTE
+    - SIGHT
+    - THEN
+
+contextual:
+  category: "Contextual verbs/glue"
+  min_len: 2
+  max_len: 8
+  tokens:
+    - "WE"
+    - "ARE"
+    - "SEE"
+    - "BY"
+    - "TO"
+    - "OF"
+    - "AND"
+    - "THE"
+    - "SET"
+    - "APPLY"
+    - "REDUCE"
+    - "BRING"
+
+numbers:
+  category: "Numbers (spelled)"
+  min_len: 3
+  max_len: 8
+  tokens:
+    - TEN
+    - TWENTY
+    - THIRTY
+    - FORTY
+    - FIFTY
+    - ONE
+    - TWO
+    - THREE
+
+cia_site:
+  category: "CIA/site context"
+  min_len: 4
+  max_len: 8
+  tokens:
+    - YARD
+    - BASE
+    - SEAL
+    - LODE
+    - ROSE

@@ -1,0 +1,15 @@
+anchors_preserved,config,derived_count,reduction,region_size,test_id,unknown_count
+True,"mod-12 on tail, offset=0",47,0,,mod12_tail_off0,50
+True,"mod-12 on tail, offset=1",47,0,,mod12_tail_off1,50
+True,"mod-12 on tail, offset=6",47,0,,mod12_tail_off6,50
+True,"mod-60 on head_unknowns, offset=0",47,0,,mod60_head_unknowns_off0,50
+True,"mod-60 on head_unknowns, offset=15",47,0,,mod60_head_unknowns_off15,50
+True,"mod-60 on head_unknowns, offset=30",47,0,,mod60_head_unknowns_off30,50
+True,"mod-60 on head_unknowns, offset=45",47,0,,mod60_head_unknowns_off45,50
+True,clock transposition: rotate_3,47,0,,clock_trans_rotate_3,50
+True,clock transposition: rotate_6,47,0,,clock_trans_rotate_6,50
+True,clock transposition: mirror_12,47,0,,clock_trans_mirror_12,50
+True,clock transposition: spiral,47,0,,clock_trans_spiral,50
+False,"mod-12 region, radius=5 around CLOCK",47,0,11,clock_region_r5,50
+False,"mod-12 region, radius=10 around CLOCK",47,0,21,clock_region_r10,50
+False,"mod-12 region, radius=15 around CLOCK",47,0,31,clock_region_r15,50

@@ -1,0 +1,12 @@
+variant_id,derived_count,unknown_count,closure,notes
+autokey_start_0,76,21,False,Autokey starting at position 0
+autokey_start_21,76,21,False,Autokey starting at position 21
+autokey_start_34,76,21,False,Autokey starting at position 34
+autokey_start_74,47,50,False,Autokey starting at position 74
+autokey_delay_1,76,21,False,Autokey with delay=1
+autokey_delay_2,76,21,False,Autokey with delay=2
+autokey_delay_5,76,21,False,Autokey with delay=5
+autokey_delay_10,76,21,False,Autokey with delay=10
+running_key_KRYPTOS,97,0,True,Running key pattern: KRYPTOS
+running_key_PALIMPS,97,0,True,Running key pattern: PALIMPSEST
+running_key_ABCDEFG,97,0,True,Running key pattern: ABCDEFGHIJKLMNOPQ

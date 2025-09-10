@@ -1,0 +1,21 @@
+SEMANTIC EVIDENCE SUMMARY
+==================================================
+
+FACTUAL OBSERVATIONS:
+
+1. Tail region (74-96) under L=17:
+   - With anchors only: Completely unknown
+   - Canonical tail: 'THEJOYOFANANGLEISTHEARC'
+   - Semantic quality: Valid English phrase
+
+2. Tail region under L=15:
+   - With anchors only: 'IREGXUWJOKQGLICP' emerges
+   - Not valid English
+   - Suggests L=15 incorrect despite closure
+
+3. Period appropriateness:
+   - L=17 produces correct plaintext where known
+   - No semantic gates used in algebraic analysis
+   - Phrasing matches expected cryptographic style
+
+NOTE: All algebraic counts derived without language models.

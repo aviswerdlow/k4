@@ -1,0 +1,14 @@
+{
+  "mechanism": "C3_Morse_Binary",
+  "total_tests": 7,
+  "best_config": null,
+  "best_unknown_count": 97,
+  "baseline_unknown_count": 50,
+  "success": false,
+  "patterns_found": [
+    "Binary prefix 01 appears 29 times",
+    "Morse-like: ...(S), .-(A), -...(B)"
+  ],
+  "conclusion": "Found patterns: Binary prefix 01 appears 29 times, Morse-like: ...(S), .-(A), -...(B)",
+  "recommendation": "Use patterns for C5/C6 segmentation hints if meaningful"
+}

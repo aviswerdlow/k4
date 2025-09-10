@@ -1,0 +1,15 @@
+{
+  "test": "Tail-first reverse engineering",
+  "tail_constraints": 23,
+  "propagated_to_head": 0,
+  "conflicts": 0,
+  "unknowns": 50,
+  "valid": true,
+  "slot_coverage": {
+    "tail_only": 23,
+    "anchor_only": 24,
+    "both": 0,
+    "unfilled": 55
+  },
+  "conclusion": "No extra constraints from tail"
+}

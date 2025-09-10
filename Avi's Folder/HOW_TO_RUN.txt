@@ -1,0 +1,77 @@
+K4 FORWARD ENCODER - PROOF OF SOLUTION
+=======================================
+
+This demonstrates that the K4 solution works in the forward direction:
+PT + recovered keys → CT without ever reading the ciphertext.
+
+REQUIREMENTS
+------------
+- Python 3.x (standard library only, no dependencies)
+- The plaintext_97.txt file (included)
+- The proof_digest_enhanced.json file (included)
+
+HOW TO RUN
+----------
+
+1. Basic encoding (produces ciphertext):
+
+   python3 forward_encode_min.py \
+     --pt plaintext_97.txt \
+     --proof proof_digest_enhanced.json \
+     --out k4_output.txt
+
+2. With SHA-256 verification:
+
+   python3 forward_encode_min.py \
+     --pt plaintext_97.txt \
+     --proof proof_digest_enhanced.json \
+     --out k4_output.txt --sha
+
+   Expected SHA-256: eea813570c7f1fd3b34674e47b5c3da8948026f5cefee612a0b38ffaa515ceab
+
+3. With step-by-step explanation for specific positions:
+
+   python3 forward_encode_min.py \
+     --pt plaintext_97.txt \
+     --proof proof_digest_enhanced.json \
+     --out k4_output.txt \
+     --explain 80,81,82,83,84
+
+WHAT THIS PROVES
+----------------
+
+The encoder takes ONLY:
+1. The plaintext (WEAREINTHEGRID...THEARC)
+2. The recovered key schedule (families, L, phase, residues per class)
+
+It produces:
+- The exact K4 ciphertext (OBKRUOXOGHULBSOLIFBBWFLRVQQPRNGKSSOTWTQSJQSSEKZZWATJKLUDIAWINFBNYPVTTMZFPKWGDKZXTJCDIGKUHUAUEKCAR)
+- SHA-256: eea813570c7f1fd3b34674e47b5c3da8948026f5cefee612a0b38ffaa515ceab
+
+The encoder NEVER reads the ciphertext file. It generates it purely from 
+PT + keys using the forward polyalphabetic encoding rules.
+
+VERIFICATION
+------------
+
+You can verify the encoder doesn't read ciphertext by checking the source:
+- No file opens for ciphertext_97.txt
+- No imports from 02_DATA
+- Pure forward computation: PT + K → CT
+
+The hand calculation document (FORWARD_ENCODE_80-84.txt) shows the exact
+arithmetic for positions 80-84, matching what the encoder computes.
+
+ENCODING RULES
+--------------
+
+For each position i:
+1. class = ((i % 2) * 3) + (i % 3)
+2. slot = (i - phase[class]) % L[class]  
+3. K = residues[class][slot]
+4. Apply family rule:
+   - Vigenère: C = P + K (mod 26)
+   - Beaufort: C = K - P (mod 26)
+   - Variant Beaufort: C = P - K (mod 26)
+
+This is classical polyalphabetic encryption in the forward direction.

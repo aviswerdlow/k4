@@ -1,0 +1,44 @@
+[
+  {
+    "class": 0,
+    "family": "vigenere",
+    "L": 17,
+    "phase": 0,
+    "forced_slots": {}
+  },
+  {
+    "class": 1,
+    "family": "vigenere",
+    "L": 17,
+    "phase": 0,
+    "forced_slots": {}
+  },
+  {
+    "class": 2,
+    "family": "beaufort",
+    "L": 17,
+    "phase": 0,
+    "forced_slots": {}
+  },
+  {
+    "class": 3,
+    "family": "vigenere",
+    "L": 17,
+    "phase": 0,
+    "forced_slots": {}
+  },
+  {
+    "class": 4,
+    "family": "beaufort",
+    "L": 17,
+    "phase": 0,
+    "forced_slots": {}
+  },
+  {
+    "class": 5,
+    "family": "vigenere",
+    "L": 17,
+    "phase": 0,
+    "forced_slots": {}
+  }
+]

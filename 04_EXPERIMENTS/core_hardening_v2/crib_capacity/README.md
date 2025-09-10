@@ -4,7 +4,7 @@
 
 This study quantifies the information-theoretic necessity of K4's anchor and tail constraints through systematic ablation testing. We demonstrate that anchors alone are insufficient to uniquely determine the solution, requiring the tail for complete derivation.
 
-**Key Finding**: Anchors-only constrain ~71/97 positions; 26 remain undetermined until the tail is added. Control (anchors+tail) yields a unique SHA-verified solution.
+**Key Finding**: Anchors-only constrain ~24/97 positions; 26 remain undetermined until the tail is added. Control (anchors+tail) yields a unique SHA-verified solution.
 
 ## How to Read This
 
@@ -74,7 +74,7 @@ make core-harden-v2-crib
 ## Key Results
 
 ### Anchors-Only Ablation
-- **0 cells removed**: 26 positions undetermined → feasible=0
+- **0 cells removed**: 73 positions undetermined → feasible=0
 - **1 cell removed**: 28-30 positions undetermined → feasible=0
 - **5 cells removed**: 33-41 positions undetermined → feasible=0
 - **10 cells removed**: 48-55 positions undetermined → feasible=0
@@ -89,7 +89,7 @@ make core-harden-v2-crib
 
 ## Interpretation
 
-1. **Anchors are necessary but insufficient**: They constrain the solution space significantly but leave 26 positions undetermined
+1. **Anchors are necessary but insufficient**: They constrain the solution space significantly but leave 73 positions undetermined
 
 2. **The tail is algebraically essential**: It provides the final constraints needed to uniquely determine the solution
 
@@ -103,10 +103,10 @@ make core-harden-v2-crib
 - All 6 periodic classes can be solved
 - Wheel families and periods determined correctly
 - However, many wheel slots remain unconstrained
-- These missing slots correspond to the 26 undetermined positions
+- These missing slots correspond to the 73 undetermined positions
 
 ### Undetermined Position Distribution
-The 26 undetermined positions under anchors-only are:
+The 73 undetermined positions under anchors-only are:
 - Positions 9, 14-20 (seam region)
 - Positions 39, 44-51, 57 (mid-section)
 - Positions 74-81 (tail region)
@@ -118,7 +118,7 @@ These gaps align with wheel slots that have no anchor constraints, demonstrating
 When referencing this study:
 ```
 K4 Core-Hardening v2: Crib Capacity Ablation
-Demonstrates anchors-only yields 26 undetermined positions
+Demonstrates anchors-only yields 73 undetermined positions
 Control with anchors+tail achieves unique solution
 SHA256: 4eceb739ab655d6f4ec87753569b8bf04573fe26d01c0caa68d36776dd052d79
 ```

@@ -1,0 +1,22 @@
+{
+  "L15": {
+    "anchors_only": {
+      "derived": 76,
+      "unknown": 21
+    },
+    "anchors_plus_tail": {
+      "derived": 97,
+      "unknown": 0
+    }
+  },
+  "L17": {
+    "anchors_only": {
+      "derived": 24,
+      "unknown": 73
+    },
+    "anchors_plus_tail": {
+      "derived": 47,
+      "unknown": 50
+    }
+  }
+}

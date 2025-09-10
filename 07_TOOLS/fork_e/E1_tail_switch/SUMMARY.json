@@ -1,0 +1,31 @@
+{
+  "tail_positions": [
+    74,
+    75,
+    76,
+    77,
+    78,
+    79,
+    80,
+    81,
+    82,
+    83,
+    84,
+    85,
+    86,
+    87,
+    88,
+    89,
+    90,
+    91,
+    92,
+    93,
+    94,
+    95,
+    96
+  ],
+  "tail_text": "THEJOYOFANANGLEISTHEARC",
+  "mechanisms_tested": 6,
+  "valid_mechanisms": 0,
+  "conclusion": "Tail uses same L=17 as head"
+}

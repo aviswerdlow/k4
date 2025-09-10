@@ -1,0 +1,9 @@
+{
+  "mechanism": "C7_Matrix_Approach",
+  "total_tests": 11,
+  "best_config": "hill_2x2_identity",
+  "best_unknown_count": 0,
+  "baseline_unknown_count": 50,
+  "success": true,
+  "conclusion": "Matrix approach reduced unknowns to 0"
+}

@@ -1,0 +1,49 @@
+[
+  {
+    "type": "bifid",
+    "keyword": "KRYPTOS",
+    "matches": 47,
+    "total": 47,
+    "match_rate": 1.0
+  },
+  {
+    "type": "bifid",
+    "keyword": "PALIMPSEST",
+    "matches": 47,
+    "total": 47,
+    "match_rate": 1.0
+  },
+  {
+    "type": "bifid",
+    "keyword": "ABSCISSA",
+    "matches": 47,
+    "total": 47,
+    "match_rate": 1.0
+  },
+  {
+    "type": "bifid",
+    "keyword": "",
+    "matches": 47,
+    "total": 47,
+    "match_rate": 1.0
+  },
+  {
+    "type": "trifid",
+    "keyword": "KRYPTOS",
+    "matches": 47,
+    "total": 47,
+    "match_rate": 1.0
+  },
+  {
+    "type": "four_square",
+    "matches": 42,
+    "total": 46,
+    "match_rate": 0.9130434782608695
+  },
+  {
+    "type": "chaocipher",
+    "matches": 2,
+    "total": 47,
+    "match_rate": 0.0425531914893617
+  }
+]

@@ -58,10 +58,10 @@ Due to period 17, positions sharing same (class, slot) use same key:
 ALGEBRAIC DETERMINATION
 ------------------------
 From 4 cribs (22 positions):
-- 71 positions become determined
-- 26 positions remain undetermined
+- 24 positions become determined (with L=17, each slot appears once)
+- 73 positions remain undetermined
 
-The tail (positions 75-96) resolves the 26 undetermined positions.
+The tail (positions 75-96) provides additional constraints to complete the wheels.
 
 THE SOLUTION
 ------------

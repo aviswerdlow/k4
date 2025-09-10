@@ -1,0 +1,86 @@
+[
+  {
+    "type": "columnar",
+    "params": "key_length=4",
+    "matches": 2,
+    "total": 47,
+    "match_rate": 0.0425531914893617
+  },
+  {
+    "type": "columnar",
+    "params": "key_length=5",
+    "matches": 2,
+    "total": 47,
+    "match_rate": 0.0425531914893617
+  },
+  {
+    "type": "columnar",
+    "params": "key_length=7",
+    "matches": 1,
+    "total": 47,
+    "match_rate": 0.02127659574468085
+  },
+  {
+    "type": "columnar",
+    "params": "key_length=8",
+    "matches": 1,
+    "total": 47,
+    "match_rate": 0.02127659574468085
+  },
+  {
+    "type": "columnar",
+    "params": "key_length=10",
+    "matches": 3,
+    "total": 47,
+    "match_rate": 0.06382978723404255
+  },
+  {
+    "type": "rail_fence",
+    "params": "rails=2",
+    "matches": 3,
+    "total": 47,
+    "match_rate": 0.06382978723404255
+  },
+  {
+    "type": "rail_fence",
+    "params": "rails=3",
+    "matches": 1,
+    "total": 47,
+    "match_rate": 0.02127659574468085
+  },
+  {
+    "type": "rail_fence",
+    "params": "rails=4",
+    "matches": 1,
+    "total": 47,
+    "match_rate": 0.02127659574468085
+  },
+  {
+    "type": "rail_fence",
+    "params": "rails=5",
+    "matches": 5,
+    "total": 47,
+    "match_rate": 0.10638297872340426
+  },
+  {
+    "type": "route",
+    "params": "7x14",
+    "matches": 1,
+    "total": 47,
+    "match_rate": 0.02127659574468085
+  },
+  {
+    "type": "route",
+    "params": "14x7",
+    "matches": 1,
+    "total": 47,
+    "match_rate": 0.02127659574468085
+  },
+  {
+    "type": "route",
+    "params": "10x10",
+    "matches": 0,
+    "total": 47,
+    "match_rate": 0.0
+  }
+]

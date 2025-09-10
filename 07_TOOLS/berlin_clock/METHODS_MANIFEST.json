@@ -1,0 +1,46 @@
+{
+  "seed": 1337,
+  "methods": {
+    "on_off_count_per_row": {
+      "description": "Map row counts to keystream",
+      "constants": {
+        "repeat_factor": 7,
+        "position_offset": 3,
+        "formula": "k[i] = (counts[i%4] * 7 + i * 3) % 26"
+      }
+    },
+    "base5_vector": {
+      "description": "Interpret as base-5, hash to keystream",
+      "constants": {
+        "a": 11,
+        "b": 7,
+        "c": 13,
+        "formula": "k[i] = (11 * base5_num + 7 * i + 13) % 26"
+      }
+    },
+    "pattern_signature": {
+      "description": "FNV-1a hash of pattern",
+      "constants": {
+        "fnv_prime": 16777619,
+        "fnv_offset": 2166136261,
+        "extraction": "byte-wise from hash"
+      }
+    },
+    "row3_triplet_marks": {
+      "description": "Quarter-hour markers drive sparse keystream",
+      "constants": {
+        "marker_positions": [
+          0,
+          8,
+          16
+        ],
+        "marker_values": [
+          15,
+          4,
+          19
+        ],
+        "fill_formula": "k[i] = (num_quarters * 5 + i * 2) % 26"
+      }
+    }
+  }
+}

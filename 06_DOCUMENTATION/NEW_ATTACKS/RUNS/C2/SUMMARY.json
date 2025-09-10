@@ -1,0 +1,10 @@
+{
+  "mechanism": "C2_Physical_Properties",
+  "total_tests": 4,
+  "best_config": "physical_raised_flip",
+  "best_unknown_count": 50,
+  "baseline_unknown_count": 50,
+  "success": false,
+  "data_status": "placeholder",
+  "conclusion": "No physical property correlation found (awaiting real data)"
+}

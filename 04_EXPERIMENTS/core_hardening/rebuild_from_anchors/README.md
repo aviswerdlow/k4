@@ -12,7 +12,7 @@ python3 run.py
 ## Expected Results
 
 With anchors-only (no plaintext provided):
-- **26 undetermined positions** out of 97 total
+- **73 undetermined positions** out of 97 total
 - Determined positions: EAST (21-24), NORTHEAST (25-33), BERLIN (63-68), CLOCK (69-73)
 - All other positions show '?' (undetermined)
 

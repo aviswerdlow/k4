@@ -1,0 +1,13 @@
+anchors_preserved,config,derived_count,known_preserved,reduction,test_id,unknown_count
+True,"keyword=KRYPTOS, mode=additive, pos=unknowns",47,True,0,KRYPTOS_additive_unknowns,50
+True,"keyword=KRYPTOS, mode=additive, pos=0-20",47,True,0,KRYPTOS_additive_0-20,50
+True,"keyword=KRYPTOS, mode=additive, pos=34-62",47,True,0,KRYPTOS_additive_34-62,50
+False,"keyword=KRYPTOS, mode=additive, pos=head",47,False,0,KRYPTOS_additive_head,50
+True,"keyword=KRYPTOS, mode=beaufort, pos=unknowns",47,True,0,KRYPTOS_beaufort_unknowns,50
+True,"keyword=KRYPTOS, mode=beaufort, pos=0-20",47,True,0,KRYPTOS_beaufort_0-20,50
+True,"keyword=KRYPTOS, mode=beaufort, pos=34-62",47,True,0,KRYPTOS_beaufort_34-62,50
+True,"keyword=KRYPTOS, mode=xor, pos=unknowns",47,True,0,KRYPTOS_xor_unknowns,50
+False,"keyword=KRYPTOS, mode=xor, pos=per_class",47,False,0,KRYPTOS_xor_per_class,50
+True,"keyword=SANBORN, mode=additive, pos=unknowns",47,True,0,SANBORN_additive_unknowns,50
+True,"keyword=LANGLEY, mode=additive, pos=unknowns",47,True,0,LANGLEY_additive_unknowns,50
+True,"keyword=SCHEIDT, mode=additive, pos=unknowns",47,True,0,SCHEIDT_additive_unknowns,50

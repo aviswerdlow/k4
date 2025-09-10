@@ -1,0 +1,14 @@
+{
+  "unknowns_before": 50,
+  "unknowns_after": 50,
+  "changed_positions": [],
+  "mechanism_params": {
+    "type": "affine",
+    "a": 1,
+    "b": 0,
+    "matches": 47,
+    "total": 47
+  },
+  "checksum": "88042214264160a725656b0ca5cf3820ad03949aa20ed97f6e48691ee10e14ab",
+  "constraints_valid": true
+}

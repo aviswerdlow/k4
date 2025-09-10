@@ -1,0 +1,11 @@
+
+Index 0 Explanation (Clock mod-12):
+----------------------------------------
+Position: 0
+Clock state: (idx - 74) % 12 = (0 - 74) % 12 = 10
+Class: ((idx%2)*3)+(idx%3) = ((0%2)*3)+(0%3) = 0
+Slot (L=17): idx % 17 = 0 % 17 = 0
+
+Clock-driven key: clock_state % 26 = 10 % 26 = 10
+
+This fills the previously unknown slot with a clock-derived value.

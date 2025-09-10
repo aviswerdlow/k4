@@ -1,0 +1,730 @@
+[
+  {
+    "strategy": "prefix",
+    "k": 1,
+    "derived_count": 48,
+    "closed": false,
+    "sha_match": false
+  },
+  {
+    "strategy": "prefix",
+    "k": 2,
+    "derived_count": 49,
+    "closed": false,
+    "sha_match": false
+  },
+  {
+    "strategy": "prefix",
+    "k": 3,
+    "derived_count": 50,
+    "closed": false,
+    "sha_match": false
+  },
+  {
+    "strategy": "prefix",
+    "k": 4,
+    "derived_count": 51,
+    "closed": false,
+    "sha_match": false
+  },
+  {
+    "strategy": "prefix",
+    "k": 5,
+    "derived_count": 52,
+    "closed": false,
+    "sha_match": false
+  },
+  {
+    "strategy": "prefix",
+    "k": 6,
+    "derived_count": 53,
+    "closed": false,
+    "sha_match": false
+  },
+  {
+    "strategy": "prefix",
+    "k": 7,
+    "derived_count": 54,
+    "closed": false,
+    "sha_match": false
+  },
+  {
+    "strategy": "prefix",
+    "k": 8,
+    "derived_count": 55,
+    "closed": false,
+    "sha_match": false
+  },
+  {
+    "strategy": "prefix",
+    "k": 9,
+    "derived_count": 56,
+    "closed": false,
+    "sha_match": false
+  },
+  {
+    "strategy": "prefix",
+    "k": 10,
+    "derived_count": 57,
+    "closed": false,
+    "sha_match": false
+  },
+  {
+    "strategy": "prefix",
+    "k": 11,
+    "derived_count": 58,
+    "closed": false,
+    "sha_match": false
+  },
+  {
+    "strategy": "prefix",
+    "k": 12,
+    "derived_count": 59,
+    "closed": false,
+    "sha_match": false
+  },
+  {
+    "strategy": "prefix",
+    "k": 13,
+    "derived_count": 60,
+    "closed": false,
+    "sha_match": false
+  },
+  {
+    "strategy": "prefix",
+    "k": 14,
+    "derived_count": 61,
+    "closed": false,
+    "sha_match": false
+  },
+  {
+    "strategy": "prefix",
+    "k": 15,
+    "derived_count": 62,
+    "closed": false,
+    "sha_match": false
+  },
+  {
+    "strategy": "prefix",
+    "k": 16,
+    "derived_count": 63,
+    "closed": false,
+    "sha_match": false
+  },
+  {
+    "strategy": "prefix",
+    "k": 17,
+    "derived_count": 64,
+    "closed": false,
+    "sha_match": false
+  },
+  {
+    "strategy": "prefix",
+    "k": 18,
+    "derived_count": 65,
+    "closed": false,
+    "sha_match": false
+  },
+  {
+    "strategy": "prefix",
+    "k": 19,
+    "derived_count": 66,
+    "closed": false,
+    "sha_match": false
+  },
+  {
+    "strategy": "prefix",
+    "k": 20,
+    "derived_count": 67,
+    "closed": false,
+    "sha_match": false
+  },
+  {
+    "strategy": "prefix",
+    "k": 21,
+    "derived_count": 68,
+    "closed": false,
+    "sha_match": false
+  },
+  {
+    "strategy": "prefix",
+    "k": 22,
+    "derived_count": 68,
+    "closed": false,
+    "sha_match": false
+  },
+  {
+    "strategy": "prefix",
+    "k": 23,
+    "derived_count": 68,
+    "closed": false,
+    "sha_match": false
+  },
+  {
+    "strategy": "prefix",
+    "k": 24,
+    "derived_count": 68,
+    "closed": false,
+    "sha_match": false
+  },
+  {
+    "strategy": "prefix",
+    "k": 25,
+    "derived_count": 68,
+    "closed": false,
+    "sha_match": false
+  },
+  {
+    "strategy": "prefix",
+    "k": 26,
+    "derived_count": 68,
+    "closed": false,
+    "sha_match": false
+  },
+  {
+    "strategy": "prefix",
+    "k": 27,
+    "derived_count": 68,
+    "closed": false,
+    "sha_match": false
+  },
+  {
+    "strategy": "prefix",
+    "k": 28,
+    "derived_count": 68,
+    "closed": false,
+    "sha_match": false
+  },
+  {
+    "strategy": "prefix",
+    "k": 29,
+    "derived_count": 68,
+    "closed": false,
+    "sha_match": false
+  },
+  {
+    "strategy": "prefix",
+    "k": 30,
+    "derived_count": 68,
+    "closed": false,
+    "sha_match": false
+  },
+  {
+    "strategy": "every_3th",
+    "k": 1,
+    "derived_count": 48,
+    "closed": false,
+    "sha_match": false
+  },
+  {
+    "strategy": "every_3th",
+    "k": 2,
+    "derived_count": 49,
+    "closed": false,
+    "sha_match": false
+  },
+  {
+    "strategy": "every_3th",
+    "k": 3,
+    "derived_count": 50,
+    "closed": false,
+    "sha_match": false
+  },
+  {
+    "strategy": "every_3th",
+    "k": 4,
+    "derived_count": 51,
+    "closed": false,
+    "sha_match": false
+  },
+  {
+    "strategy": "every_3th",
+    "k": 5,
+    "derived_count": 52,
+    "closed": false,
+    "sha_match": false
+  },
+  {
+    "strategy": "every_3th",
+    "k": 6,
+    "derived_count": 53,
+    "closed": false,
+    "sha_match": false
+  },
+  {
+    "strategy": "every_3th",
+    "k": 7,
+    "derived_count": 54,
+    "closed": false,
+    "sha_match": false
+  },
+  {
+    "strategy": "every_3th",
+    "k": 8,
+    "derived_count": 54,
+    "closed": false,
+    "sha_match": false
+  },
+  {
+    "strategy": "every_3th",
+    "k": 9,
+    "derived_count": 54,
+    "closed": false,
+    "sha_match": false
+  },
+  {
+    "strategy": "every_3th",
+    "k": 10,
+    "derived_count": 54,
+    "closed": false,
+    "sha_match": false
+  },
+  {
+    "strategy": "every_3th",
+    "k": 11,
+    "derived_count": 54,
+    "closed": false,
+    "sha_match": false
+  },
+  {
+    "strategy": "every_3th",
+    "k": 12,
+    "derived_count": 54,
+    "closed": false,
+    "sha_match": false
+  },
+  {
+    "strategy": "every_3th",
+    "k": 13,
+    "derived_count": 55,
+    "closed": false,
+    "sha_match": false
+  },
+  {
+    "strategy": "every_3th",
+    "k": 14,
+    "derived_count": 56,
+    "closed": false,
+    "sha_match": false
+  },
+  {
+    "strategy": "every_3th",
+    "k": 15,
+    "derived_count": 57,
+    "closed": false,
+    "sha_match": false
+  },
+  {
+    "strategy": "every_3th",
+    "k": 16,
+    "derived_count": 58,
+    "closed": false,
+    "sha_match": false
+  },
+  {
+    "strategy": "every_3th",
+    "k": 17,
+    "derived_count": 59,
+    "closed": false,
+    "sha_match": false
+  },
+  {
+    "strategy": "every_3th",
+    "k": 18,
+    "derived_count": 60,
+    "closed": false,
+    "sha_match": false
+  },
+  {
+    "strategy": "every_3th",
+    "k": 19,
+    "derived_count": 61,
+    "closed": false,
+    "sha_match": false
+  },
+  {
+    "strategy": "every_3th",
+    "k": 20,
+    "derived_count": 62,
+    "closed": false,
+    "sha_match": false
+  },
+  {
+    "strategy": "every_3th",
+    "k": 21,
+    "derived_count": 63,
+    "closed": false,
+    "sha_match": false
+  },
+  {
+    "strategy": "every_3th",
+    "k": 22,
+    "derived_count": 63,
+    "closed": false,
+    "sha_match": false
+  },
+  {
+    "strategy": "every_3th",
+    "k": 23,
+    "derived_count": 63,
+    "closed": false,
+    "sha_match": false
+  },
+  {
+    "strategy": "every_3th",
+    "k": 24,
+    "derived_count": 63,
+    "closed": false,
+    "sha_match": false
+  },
+  {
+    "strategy": "greedy",
+    "k": 1,
+    "derived_count": 48,
+    "closed": false,
+    "sha_match": false
+  },
+  {
+    "strategy": "greedy",
+    "k": 2,
+    "derived_count": 49,
+    "closed": false,
+    "sha_match": false
+  },
+  {
+    "strategy": "greedy",
+    "k": 3,
+    "derived_count": 50,
+    "closed": false,
+    "sha_match": false
+  },
+  {
+    "strategy": "greedy",
+    "k": 4,
+    "derived_count": 51,
+    "closed": false,
+    "sha_match": false
+  },
+  {
+    "strategy": "greedy",
+    "k": 5,
+    "derived_count": 52,
+    "closed": false,
+    "sha_match": false
+  },
+  {
+    "strategy": "greedy",
+    "k": 6,
+    "derived_count": 53,
+    "closed": false,
+    "sha_match": false
+  },
+  {
+    "strategy": "greedy",
+    "k": 7,
+    "derived_count": 54,
+    "closed": false,
+    "sha_match": false
+  },
+  {
+    "strategy": "greedy",
+    "k": 8,
+    "derived_count": 55,
+    "closed": false,
+    "sha_match": false
+  },
+  {
+    "strategy": "greedy",
+    "k": 9,
+    "derived_count": 56,
+    "closed": false,
+    "sha_match": false
+  },
+  {
+    "strategy": "greedy",
+    "k": 10,
+    "derived_count": 57,
+    "closed": false,
+    "sha_match": false
+  },
+  {
+    "strategy": "greedy",
+    "k": 11,
+    "derived_count": 58,
+    "closed": false,
+    "sha_match": false
+  },
+  {
+    "strategy": "greedy",
+    "k": 12,
+    "derived_count": 59,
+    "closed": false,
+    "sha_match": false
+  },
+  {
+    "strategy": "greedy",
+    "k": 13,
+    "derived_count": 60,
+    "closed": false,
+    "sha_match": false
+  },
+  {
+    "strategy": "greedy",
+    "k": 14,
+    "derived_count": 61,
+    "closed": false,
+    "sha_match": false
+  },
+  {
+    "strategy": "greedy",
+    "k": 15,
+    "derived_count": 62,
+    "closed": false,
+    "sha_match": false
+  },
+  {
+    "strategy": "greedy",
+    "k": 16,
+    "derived_count": 63,
+    "closed": false,
+    "sha_match": false
+  },
+  {
+    "strategy": "greedy",
+    "k": 17,
+    "derived_count": 64,
+    "closed": false,
+    "sha_match": false
+  },
+  {
+    "strategy": "greedy",
+    "k": 18,
+    "derived_count": 65,
+    "closed": false,
+    "sha_match": false
+  },
+  {
+    "strategy": "greedy",
+    "k": 19,
+    "derived_count": 66,
+    "closed": false,
+    "sha_match": false
+  },
+  {
+    "strategy": "greedy",
+    "k": 20,
+    "derived_count": 67,
+    "closed": false,
+    "sha_match": false
+  },
+  {
+    "strategy": "greedy",
+    "k": 21,
+    "derived_count": 68,
+    "closed": false,
+    "sha_match": false
+  },
+  {
+    "strategy": "greedy",
+    "k": 22,
+    "derived_count": 69,
+    "closed": false,
+    "sha_match": false
+  },
+  {
+    "strategy": "greedy",
+    "k": 23,
+    "derived_count": 70,
+    "closed": false,
+    "sha_match": false
+  },
+  {
+    "strategy": "greedy",
+    "k": 24,
+    "derived_count": 71,
+    "closed": false,
+    "sha_match": false
+  },
+  {
+    "strategy": "greedy",
+    "k": 25,
+    "derived_count": 72,
+    "closed": false,
+    "sha_match": false
+  },
+  {
+    "strategy": "greedy",
+    "k": 26,
+    "derived_count": 73,
+    "closed": false,
+    "sha_match": false
+  },
+  {
+    "strategy": "greedy",
+    "k": 27,
+    "derived_count": 74,
+    "closed": false,
+    "sha_match": false
+  },
+  {
+    "strategy": "greedy",
+    "k": 28,
+    "derived_count": 75,
+    "closed": false,
+    "sha_match": false
+  },
+  {
+    "strategy": "greedy",
+    "k": 29,
+    "derived_count": 76,
+    "closed": false,
+    "sha_match": false
+  },
+  {
+    "strategy": "greedy",
+    "k": 30,
+    "derived_count": 77,
+    "closed": false,
+    "sha_match": false
+  },
+  {
+    "strategy": "greedy",
+    "k": 31,
+    "derived_count": 78,
+    "closed": false,
+    "sha_match": false
+  },
+  {
+    "strategy": "greedy",
+    "k": 32,
+    "derived_count": 79,
+    "closed": false,
+    "sha_match": false
+  },
+  {
+    "strategy": "greedy",
+    "k": 33,
+    "derived_count": 80,
+    "closed": false,
+    "sha_match": false
+  },
+  {
+    "strategy": "greedy",
+    "k": 34,
+    "derived_count": 81,
+    "closed": false,
+    "sha_match": false
+  },
+  {
+    "strategy": "greedy",
+    "k": 35,
+    "derived_count": 82,
+    "closed": false,
+    "sha_match": false
+  },
+  {
+    "strategy": "greedy",
+    "k": 36,
+    "derived_count": 83,
+    "closed": false,
+    "sha_match": false
+  },
+  {
+    "strategy": "greedy",
+    "k": 37,
+    "derived_count": 84,
+    "closed": false,
+    "sha_match": false
+  },
+  {
+    "strategy": "greedy",
+    "k": 38,
+    "derived_count": 85,
+    "closed": false,
+    "sha_match": false
+  },
+  {
+    "strategy": "greedy",
+    "k": 39,
+    "derived_count": 86,
+    "closed": false,
+    "sha_match": false
+  },
+  {
+    "strategy": "greedy",
+    "k": 40,
+    "derived_count": 87,
+    "closed": false,
+    "sha_match": false
+  },
+  {
+    "strategy": "greedy",
+    "k": 41,
+    "derived_count": 88,
+    "closed": false,
+    "sha_match": false
+  },
+  {
+    "strategy": "greedy",
+    "k": 42,
+    "derived_count": 89,
+    "closed": false,
+    "sha_match": false
+  },
+  {
+    "strategy": "greedy",
+    "k": 43,
+    "derived_count": 90,
+    "closed": false,
+    "sha_match": false
+  },
+  {
+    "strategy": "greedy",
+    "k": 44,
+    "derived_count": 91,
+    "closed": false,
+    "sha_match": false
+  },
+  {
+    "strategy": "greedy",
+    "k": 45,
+    "derived_count": 92,
+    "closed": false,
+    "sha_match": false
+  },
+  {
+    "strategy": "greedy",
+    "k": 46,
+    "derived_count": 93,
+    "closed": false,
+    "sha_match": false
+  },
+  {
+    "strategy": "greedy",
+    "k": 47,
+    "derived_count": 94,
+    "closed": false,
+    "sha_match": false
+  },
+  {
+    "strategy": "greedy",
+    "k": 48,
+    "derived_count": 95,
+    "closed": false,
+    "sha_match": false
+  },
+  {
+    "strategy": "greedy",
+    "k": 49,
+    "derived_count": 96,
+    "closed": false,
+    "sha_match": false
+  },
+  {
+    "strategy": "greedy",
+    "k": 50,
+    "derived_count": 97,
+    "closed": true,
+    "sha_match": true
+  }
+]

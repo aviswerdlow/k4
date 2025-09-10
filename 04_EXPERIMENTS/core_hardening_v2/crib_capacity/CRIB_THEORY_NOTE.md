@@ -96,7 +96,7 @@ The ablation study tested removing k anchor cells for k ∈ {0, 1, 2, ..., 20}:
 | ...           | ...               | ...             |
 | 20            | 0                 | 94.0 bits       |
 
-*Note: 0 feasible with 0 removed because anchors alone leave 26 positions undetermined
+*Note: 0 feasible with 0 removed because anchors alone leave 73 positions undetermined
 
 ## Conclusions
 

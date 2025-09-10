@@ -1,0 +1,62 @@
+name: Fresh-Slate Verification
+
+on:
+  push:
+    paths:
+      - '06_DOCUMENTATION/K3_HINTS/**'
+      - '07_TOOLS/rebuild_from_anchors.py'
+      - 'Makefile'
+  pull_request:
+    paths:
+      - '06_DOCUMENTATION/K3_HINTS/**'
+      - '07_TOOLS/rebuild_from_anchors.py'
+      - 'Makefile'
+
+jobs:
+  verify-fresh-slate:
+    runs-on: ubuntu-latest
+    steps:
+    - uses: actions/checkout@v3
+    
+    - name: Set up Python
+      uses: actions/setup-python@v4
+      with:
+        python-version: '3.9'
+    
+    - name: Run fresh-slate derivations
+      run: |
+        make fresh-slate
+    
+    - name: Verify counts
+      run: |
+        # Check RUN_D produces 24 derived, 73 unknown
+        cd 06_DOCUMENTATION/K3_HINTS/fresh_slate_runs/RUN_D
+        if grep -q '"derived": 24' COUNTS.json && grep -q '"unknown": 73' COUNTS.json; then
+          echo "✓ RUN_D counts correct: 24 derived, 73 unknown"
+        else
+          echo "✗ RUN_D counts incorrect!"
+          cat COUNTS.json
+          exit 1
+        fi
+        
+        # Check RUN_A produces 0 derived, 97 unknown
+        cd ../RUN_A
+        if grep -q '"derived": 0' COUNTS.json && grep -q '"unknown": 97' COUNTS.json; then
+          echo "✓ RUN_A counts correct: 0 derived, 97 unknown"
+        else
+          echo "✗ RUN_A counts incorrect!"
+          cat COUNTS.json
+          exit 1
+        fi
+    
+    - name: Check for incorrect 71/97 references
+      run: |
+        # Ensure no 71/97 references remain
+        if grep -r "71/97\|71 of 97\|26 undetermined" \
+           06_DOCUMENTATION/K3_HINTS \
+           01_PUBLISHED/winner_HEAD_0020_v522B/DOCS \
+           04_EXPERIMENTS --include="*.md" --include="*.txt"; then
+          echo "Error: Found incorrect 71/97 references"
+          exit 1
+        fi
+        echo "✓ No incorrect 71/97 references found"

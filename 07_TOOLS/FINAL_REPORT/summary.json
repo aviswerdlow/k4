@@ -1,0 +1,81 @@
+{
+  "timestamp": "2025-09-10T14:19:24.897632",
+  "master_seed": 1337,
+  "baseline_unknowns": 50,
+  "total_mechanisms_tested": 25,
+  "forks": {
+    "fork_c": {
+      "description": "New mechanism hunt within L=17",
+      "tests": [
+        {
+          "name": "C1_K3_4x7",
+          "result": "NO_REDUCTION"
+        },
+        {
+          "name": "C1_L7_overlay",
+          "result": "CONSTRAINT_VIOLATION"
+        },
+        {
+          "name": "C4_KRYPTOS",
+          "result": "NO_REDUCTION"
+        },
+        {
+          "name": "C6_clock_mod12",
+          "result": "ARTIFICIAL_FILL"
+        },
+        {
+          "name": "C6_clock_transposition",
+          "result": "NO_REDUCTION"
+        }
+      ],
+      "successful": 0
+    },
+    "fork_d": {
+      "description": "Alternative cipher families as layers",
+      "tests": [
+        {
+          "name": "D1_rotor",
+          "result": "ARTIFICIAL_REDUCTION"
+        },
+        {
+          "name": "D2_homophonic",
+          "result": "NO_REDUCTION"
+        },
+        {
+          "name": "D3_checkerboard",
+          "result": "NO_REDUCTION"
+        }
+      ],
+      "successful": 0
+    },
+    "fork_e": {
+      "description": "Alternate mechanisms beyond L=17",
+      "tests": [
+        {
+          "name": "E1_tail_switch",
+          "result": "SAME_L17"
+        },
+        {
+          "name": "E2_L97",
+          "result": "NO_ADVANTAGE"
+        },
+        {
+          "name": "E3_non_poly",
+          "result": "NOT_APPLICABLE"
+        },
+        {
+          "name": "E4_two_stage",
+          "result": "NO_TRANSPOSITION"
+        },
+        {
+          "name": "E5_tail_first",
+          "result": "NO_PROPAGATION"
+        }
+      ],
+      "successful": 0
+    }
+  },
+  "genuine_reductions": 0,
+  "conclusion": "No mechanism found that reduces unknowns below 50 while preserving constraints",
+  "mathematical_proof": "L=17 with 97 positions and 47 constraints necessarily leaves 50 unknowns"
+}

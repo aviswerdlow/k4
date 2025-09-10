@@ -1,0 +1,23 @@
+{
+  "mechanism": "F2-transposition",
+  "result": "positive",
+  "cipher_type": "rail_fence",
+  "parameters": {
+    "rails": 4,
+    "mode": "straight"
+  },
+  "anchors_match": false,
+  "anchor_violations": [
+    "pos_21_I\u2260E",
+    "pos_22_H\u2260A",
+    "pos_23_E\u2260S",
+    "pos_24_R\u2260T",
+    "pos_25_B\u2260N"
+  ],
+  "polyalpha_compatible": true,
+  "compatible_family": "vigenere",
+  "chain_hypothesis": "rail_fence \u2192 vigenere",
+  "sha_ct": "eea813570c7f1fd3",
+  "sha_transposed": "f0d46ba6691ed681",
+  "master_seed": 1337
+}

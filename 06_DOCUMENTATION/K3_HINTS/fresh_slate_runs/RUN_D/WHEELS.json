@@ -1,0 +1,74 @@
+[
+  {
+    "class": 0,
+    "family": "vigenere",
+    "L": 17,
+    "phase": 0,
+    "forced_slots": {
+      "4": 13,
+      "7": 2,
+      "13": 2,
+      "15": 10
+    }
+  },
+  {
+    "class": 1,
+    "family": "vigenere",
+    "L": 17,
+    "phase": 0,
+    "forced_slots": {
+      "2": 14,
+      "5": 11,
+      "11": 24,
+      "13": 20
+    }
+  },
+  {
+    "class": 2,
+    "family": "beaufort",
+    "L": 17,
+    "phase": 0,
+    "forced_slots": {
+      "0": 6,
+      "9": 4,
+      "15": 10
+    }
+  },
+  {
+    "class": 3,
+    "family": "vigenere",
+    "L": 17,
+    "phase": 0,
+    "forced_slots": {
+      "1": 10,
+      "4": 1,
+      "10": 24,
+      "12": 12,
+      "16": 25
+    }
+  },
+  {
+    "class": 4,
+    "family": "beaufort",
+    "L": 17,
+    "phase": 0,
+    "forced_slots": {
+      "5": 20,
+      "8": 3,
+      "14": 10,
+      "16": 1
+    }
+  },
+  {
+    "class": 5,
+    "family": "vigenere",
+    "L": 17,
+    "phase": 0,
+    "forced_slots": {
+      "3": 17,
+      "6": 25,
+      "12": 6,
+      "14": 24
+    }
+  }
+]

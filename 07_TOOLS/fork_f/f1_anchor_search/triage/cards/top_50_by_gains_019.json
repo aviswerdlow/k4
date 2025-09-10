@@ -1,0 +1,70 @@
+{
+  "mechanism": "F1-triage",
+  "rank": 20,
+  "list": "top_50_by_gains",
+  "token": "MERIDIAN",
+  "start_index": 9,
+  "L": 11,
+  "phase": 2,
+  "gains": 34,
+  "forced_slots_added": [
+    {
+      "class": 3,
+      "slot": 7,
+      "residue": 21
+    },
+    {
+      "class": 1,
+      "slot": 8,
+      "residue": 16
+    },
+    {
+      "class": 5,
+      "slot": 9,
+      "residue": 20
+    },
+    {
+      "class": 0,
+      "slot": 10,
+      "residue": 7
+    },
+    {
+      "class": 4,
+      "slot": 0,
+      "residue": 11
+    },
+    {
+      "class": 2,
+      "slot": 1,
+      "residue": 20
+    },
+    {
+      "class": 3,
+      "slot": 2,
+      "residue": 11
+    },
+    {
+      "class": 1,
+      "slot": 3,
+      "residue": 21
+    }
+  ],
+  "mechanical_score": 39.775,
+  "score_components": {
+    "gains": 34,
+    "forced_slots": 8,
+    "uniformity": 1.0,
+    "slot_reuse": 0,
+    "class_skew": 0.25
+  },
+  "weights": {
+    "w1_gains": 1.0,
+    "w2_forced_slots": 0.7,
+    "w3_uniformity": 0.3,
+    "w4_slot_reuse": 1.0,
+    "w5_class_skew": 0.5
+  },
+  "sha_ct": "eea813570c7f1fd3",
+  "sha_wheels_before": "3a641005d7942a55",
+  "sha_wheels_after": "ff9a90d76459ee4f"
+}

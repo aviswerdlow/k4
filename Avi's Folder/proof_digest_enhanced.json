@@ -1,0 +1,524 @@
+{
+  "schema_version": "1.0.0",
+  "provenance": "Derived from anchor constraints using Option-A forcing. Wheels emerge algebraically, not reverse-engineered.",
+  "route_id": "GRID_W14_ROWS",
+  "t2_sha": "a5260415e76509638b4845d5e707521126aca2d67b50177b3c94f8ccc4c56c31",
+  "classing": "c6a",
+  "class_formula": "((i % 2) * 3) + (i % 3)",
+  "class_formula_note": "Standard six-track classing - matches 1989 hand method exactly",
+  "unused_slots_note": "5 slots across 102 total (6×17) are unaddressed by indices 0-96: class 1 slot 15, class 2 slot 13, class 3 slot 14, class 4 slot 12, class 5 slot 16. These slots are never dereferenced during decryption.",
+  "option_a": {
+    "description": "No K=0 at anchors for additive families",
+    "enforced": true,
+    "EAST": [
+      21,
+      24
+    ],
+    "NORTHEAST": [
+      25,
+      33
+    ],
+    "BERLIN": [
+      63,
+      68
+    ],
+    "CLOCK": [
+      69,
+      73
+    ]
+  },
+  "per_class": [
+    {
+      "class_id": 0,
+      "family": "vigenere",
+      "L": 17,
+      "phase": 0,
+      "residues": [
+        18,
+        20,
+        19,
+        16,
+        13,
+        8,
+        10,
+        2,
+        17,
+        9,
+        11,
+        15,
+        19,
+        2,
+        14,
+        10,
+        8
+      ],
+      "residues_alpha": [
+        "S",
+        "U",
+        "T",
+        "Q",
+        "N",
+        "I",
+        "K",
+        "C",
+        "R",
+        "J",
+        "L",
+        "P",
+        "T",
+        "C",
+        "O",
+        "K",
+        "I"
+      ],
+      "present_slots_mask": "11111111111111111",
+      "forced_anchor_residues": [
+        {
+          "index": 24,
+          "slot": 7,
+          "residue": 2,
+          "C": "V",
+          "P": "T",
+          "family": "vigenere"
+        },
+        {
+          "index": 30,
+          "slot": 13,
+          "residue": 2,
+          "C": "G",
+          "P": "E",
+          "family": "vigenere"
+        },
+        {
+          "index": 66,
+          "slot": 15,
+          "residue": 10,
+          "C": "V",
+          "P": "L",
+          "family": "vigenere"
+        },
+        {
+          "index": 72,
+          "slot": 4,
+          "residue": 13,
+          "C": "P",
+          "P": "C",
+          "family": "vigenere"
+        }
+      ],
+      "optionA_checks": []
+    },
+    {
+      "class_id": 1,
+      "family": "vigenere",
+      "L": 17,
+      "phase": 0,
+      "residues": [
+        14,
+        22,
+        14,
+        3,
+        16,
+        11,
+        18,
+        3,
+        25,
+        2,
+        14,
+        24,
+        21,
+        20,
+        2,
+        null,
+        4
+      ],
+      "residues_alpha": [
+        "O",
+        "W",
+        "O",
+        "D",
+        "Q",
+        "L",
+        "S",
+        "D",
+        "Z",
+        "C",
+        "O",
+        "Y",
+        "V",
+        "U",
+        "C",
+        null,
+        "E"
+      ],
+      "present_slots_mask": "11111111111111101",
+      "forced_anchor_residues": [
+        {
+          "index": 22,
+          "slot": 5,
+          "residue": 11,
+          "C": "L",
+          "P": "A",
+          "family": "vigenere"
+        },
+        {
+          "index": 28,
+          "slot": 11,
+          "residue": 24,
+          "C": "R",
+          "P": "T",
+          "family": "vigenere"
+        },
+        {
+          "index": 64,
+          "slot": 13,
+          "residue": 20,
+          "C": "Y",
+          "P": "E",
+          "family": "vigenere"
+        },
+        {
+          "index": 70,
+          "slot": 2,
+          "residue": 14,
+          "C": "Z",
+          "P": "L",
+          "family": "vigenere"
+        }
+      ],
+      "optionA_checks": []
+    },
+    {
+      "class_id": 2,
+      "family": "beaufort",
+      "L": 17,
+      "phase": 0,
+      "residues": [
+        6,
+        16,
+        10,
+        9,
+        20,
+        9,
+        15,
+        11,
+        13,
+        4,
+        23,
+        14,
+        7,
+        null,
+        6,
+        10,
+        23
+      ],
+      "residues_alpha": [
+        "G",
+        "Q",
+        "K",
+        "J",
+        "U",
+        "J",
+        "P",
+        "L",
+        "N",
+        "E",
+        "X",
+        "O",
+        "H",
+        null,
+        "G",
+        "K",
+        "X"
+      ],
+      "present_slots_mask": "11111111111110111",
+      "forced_anchor_residues": [
+        {
+          "index": 26,
+          "slot": 9,
+          "residue": 4,
+          "C": "Q",
+          "P": "O",
+          "family": "beaufort"
+        },
+        {
+          "index": 32,
+          "slot": 15,
+          "residue": 10,
+          "C": "S",
+          "P": "S",
+          "family": "beaufort"
+        },
+        {
+          "index": 68,
+          "slot": 0,
+          "residue": 6,
+          "C": "T",
+          "P": "N",
+          "family": "beaufort"
+        }
+      ],
+      "optionA_checks": []
+    },
+    {
+      "class_id": 3,
+      "family": "vigenere",
+      "L": 17,
+      "phase": 0,
+      "residues": [
+        16,
+        10,
+        9,
+        0,
+        1,
+        18,
+        22,
+        25,
+        6,
+        3,
+        24,
+        3,
+        12,
+        4,
+        null,
+        7,
+        25
+      ],
+      "residues_alpha": [
+        "Q",
+        "K",
+        "J",
+        "A",
+        "B",
+        "S",
+        "W",
+        "Z",
+        "G",
+        "D",
+        "Y",
+        "D",
+        "M",
+        "E",
+        null,
+        "H",
+        "Z"
+      ],
+      "present_slots_mask": "11111111111111011",
+      "forced_anchor_residues": [
+        {
+          "index": 21,
+          "slot": 4,
+          "residue": 1,
+          "C": "F",
+          "P": "E",
+          "family": "vigenere"
+        },
+        {
+          "index": 27,
+          "slot": 10,
+          "residue": 24,
+          "C": "P",
+          "P": "R",
+          "family": "vigenere"
+        },
+        {
+          "index": 33,
+          "slot": 16,
+          "residue": 25,
+          "C": "S",
+          "P": "T",
+          "family": "vigenere"
+        },
+        {
+          "index": 63,
+          "slot": 12,
+          "residue": 12,
+          "C": "N",
+          "P": "B",
+          "family": "vigenere"
+        },
+        {
+          "index": 69,
+          "slot": 1,
+          "residue": 10,
+          "C": "M",
+          "P": "C",
+          "family": "vigenere"
+        }
+      ],
+      "optionA_checks": []
+    },
+    {
+      "class_id": 4,
+      "family": "beaufort",
+      "L": 17,
+      "phase": 0,
+      "residues": [
+        19,
+        5,
+        5,
+        15,
+        7,
+        20,
+        13,
+        7,
+        3,
+        16,
+        9,
+        21,
+        null,
+        21,
+        10,
+        13,
+        1
+      ],
+      "residues_alpha": [
+        "T",
+        "F",
+        "F",
+        "P",
+        "H",
+        "U",
+        "N",
+        "H",
+        "D",
+        "Q",
+        "J",
+        "V",
+        null,
+        "V",
+        "K",
+        "N",
+        "B"
+      ],
+      "present_slots_mask": "11111111111101111",
+      "forced_anchor_residues": [
+        {
+          "index": 25,
+          "slot": 8,
+          "residue": 3,
+          "C": "Q",
+          "P": "N",
+          "family": "beaufort"
+        },
+        {
+          "index": 31,
+          "slot": 14,
+          "residue": 10,
+          "C": "K",
+          "P": "A",
+          "family": "beaufort"
+        },
+        {
+          "index": 67,
+          "slot": 16,
+          "residue": 1,
+          "C": "T",
+          "P": "I",
+          "family": "beaufort"
+        },
+        {
+          "index": 73,
+          "slot": 5,
+          "residue": 20,
+          "C": "K",
+          "P": "K",
+          "family": "beaufort"
+        }
+      ],
+      "optionA_checks": []
+    },
+    {
+      "class_id": 5,
+      "family": "vigenere",
+      "L": 17,
+      "phase": 0,
+      "residues": [
+        12,
+        6,
+        19,
+        17,
+        12,
+        6,
+        25,
+        12,
+        12,
+        1,
+        9,
+        20,
+        6,
+        14,
+        24,
+        16,
+        null
+      ],
+      "residues_alpha": [
+        "M",
+        "G",
+        "T",
+        "R",
+        "M",
+        "G",
+        "Z",
+        "M",
+        "M",
+        "B",
+        "J",
+        "U",
+        "G",
+        "O",
+        "Y",
+        "Q",
+        null
+      ],
+      "present_slots_mask": "11111111111111110",
+      "forced_anchor_residues": [
+        {
+          "index": 23,
+          "slot": 6,
+          "residue": 25,
+          "C": "R",
+          "P": "S",
+          "family": "vigenere"
+        },
+        {
+          "index": 29,
+          "slot": 12,
+          "residue": 6,
+          "C": "N",
+          "P": "H",
+          "family": "vigenere"
+        },
+        {
+          "index": 65,
+          "slot": 14,
+          "residue": 24,
+          "C": "P",
+          "P": "R",
+          "family": "vigenere"
+        },
+        {
+          "index": 71,
+          "slot": 3,
+          "residue": 17,
+          "C": "F",
+          "P": "O",
+          "family": "vigenere"
+        }
+      ],
+      "optionA_checks": []
+    }
+  ],
+  "seed_recipe": "ENHANCED_PROOF|K4|ct:eea813570c7f1fd3b34674e47b5c3da8948026f5cefee612a0b38ffaa515ceab|pt:4eceb739ab655d6f4ec87753569b8bf04573fe26d01c0caa68d36776dd052d79|t2:a5260415e76509638b4845d5e707521126aca2d67b50177b3c94f8ccc4c56c31",
+  "seed_u64": 5081668366336182191,
+  "pre_reg_commit": "d0b03f4",
+  "policy_sha": "bc083cc4129fedbc",
+  "pt_sha256_bundle": "4eceb739ab655d6f4ec87753569b8bf04573fe26d01c0caa68d36776dd052d79",
+  "derivation_guarantee": {
+    "method": "Complete wheels derived from published CT+PT",
+    "tail_derivation": "Emerges from anchor-forced wheels via hand method",
+    "no_assumptions": true,
+    "gates_head_only": true,
+    "no_tail_guard": true
+  }
+}

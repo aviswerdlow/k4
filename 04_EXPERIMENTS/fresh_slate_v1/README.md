@@ -35,7 +35,7 @@ Only crib positions fill slots. Others stay "?".
 Position: 75 76 77 78 79 80 81 82 83 84 85 86 87 88 89 90 91 92 93 94 95 96
 Derived:  ?  ?  ?  ?  R  ?  ?  G  X  U  T  ?  J  O  Y  ?  Q  ?  G  M  I  C  H
 ```
-With 4 cribs, ~26 positions remain unknown ("?").
+With 4 cribs, ~73 positions remain unknown ("?").
 
 ## Results
 
@@ -58,6 +58,6 @@ make fresh-explain
 
 ## What This Proves
 
-The system derives ~71 letters from 4 cribs alone. No phrase guessing. No AI. Just fixed rules applied to ciphertext + declared cribs. The remaining 26 positions stay "?" because their wheel slots weren't touched by the cribs.
+The system derives ~71 letters from 4 cribs alone. No phrase guessing. No AI. Just fixed rules applied to ciphertext + declared cribs. The remaining 73 positions stay "?" because their wheel slots weren't touched by the cribs.
 
 This is the "fresh slate" experiment: derive what you can from cribs, leave the rest unknown.

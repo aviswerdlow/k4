@@ -1,0 +1,29 @@
+# K0 Morse Code Transcription
+# Format: dots_before WORD dots_after
+# Source: "Method to get k123 from K0" forum document
+# Note: Two variants exist for DIGETAL (with/without leading dot)
+
+# Top/Bottom designation (for counting direction)
+# Top words: count from right
+# Bottom words: count from left
+
+2 VIRTUALLY 1     # top (2+1=3 from right)
+6 INVISIBLE 0     # bottom (6 from left)
+2 SHADOW 2        # top (2+2=4 from right)
+0 FORCES 5        # bottom (5 from left)
+0 LUCID 3         # top (3 from right)
+0 MEMORY 1        # bottom (1 from left)
+0 DIGETAL 3       # top (3 from right) - no dot before per method requirement
+0 INTERPRETATI 0  # top (no dots - left of middle)
+0 T_IS_YOUR 0     # bottom (no dots - left of middle of phrase)
+0 POSITION 1      # bottom (1 from left) - dot at end per method requirement
+
+# Variant with leading dot before DIGETAL (mentioned in document)
+# 1 DIGETAL 3     # would be 1+3=4 from right
+
+# Rules:
+# 1. Count extra dots on each side, sum if both sides have dots
+# 2. For top words: count from right
+#    For bottom words: count from left
+# 3. If no dots: take letter left of middle
+# 4. Ignore words of length 2 or 3 (RQ, SOS)

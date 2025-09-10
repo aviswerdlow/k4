@@ -1,0 +1,61 @@
+NSA-STYLE STRUCTURE TESTS - CORE HARDENING V4
+==============================================
+
+COMPLETED: All deliverables ready for forum posting
+
+A) K3 NSA METHOD DEMONSTRATION
+------------------------------
+✓ K3 transposition demo showing fixed pattern from typographic cues
+✓ Co-prime coverage explainer (gcd(4,7)=1 → full coverage)
+✓ Visual PDFs demonstrating the precedent
+Files: K3_METHOD_DEMO.pdf, K3_COPRIME_EXPLAIN.pdf
+
+B) K4 CO-PRIME DIAGNOSTICS
+--------------------------
+✓ Co-prime analyzer confirming L=17 → each slot appears ≤1 time
+✓ With baseline classing + L=17: 4 anchors force 24 slots → 24 derived
+✓ SLOT_USAGE_CHART.pdf shows visually that no slot repeats
+✓ DERIVABLE_FROM_ANCHORS.csv predicts exactly 24 derived
+
+C) ANCHOR ARITHMETIC LEDGER
+---------------------------
+✓ Complete arithmetic for all 24 anchor positions
+✓ Shows C, P, K values and mod-26 calculations
+✓ Verifiable with pencil and paper
+File: K4_ANCHOR_LEDGER.pdf
+
+D) WHEEL CARDS
+--------------
+✓ Before (anchors-only): Shows 24 forced slots, rest unknown
+✓ After (full solution): Shows all slots filled
+✓ Visual explanation of "why 24" and "why 97"
+Files: K4_WHEEL_CARDS.pdf, K4_WHEEL_SUMMARY.pdf
+
+E) FRESH-SLATE VERIFICATION
+---------------------------
+✓ RUN_D: 24 derived, 73 unknown (matches co-prime analysis)
+✓ No hypothesis scaffolding, no AI, stdlib only
+✓ Pure algebraic derivation from CT + cribs
+
+F) DOCUMENTATION UPDATES
+------------------------
+✓ README.md includes NSA cue bridge section
+✓ Links co-prime property from K3 to K4
+✓ Explains why L=17 → 24 derived with 4 anchors
+
+G) DELIVERABLES
+---------------
+In Avi's Folder:
+• K3_Hints_Demo.zip - K3 precedent materials
+• K4_Coprime_Demo.zip - Complete co-prime analysis
+• K4_Hand_Cards.zip - Hand verification materials
+
+KEY INSIGHT
+-----------
+The co-prime property (L=17 with 97 positions) ensures:
+- Each slot appears at most once per class
+- Forced slots = derived positions (no multiplication)
+- 4 anchors → 24 slots → 24 derived → 73 unknown
+
+This is mathematically rigorous and paper-verifiable.
+No AI, no hypothesis layers, pure stdlib Python.

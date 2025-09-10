@@ -1,0 +1,22 @@
+K3 Transposition Demonstration
+==================================================
+
+K3 uses columnar transposition
+Grid dimensions: 24 rows × 8 columns
+
+Grid (first 10 rows shown):
+--------------------------------------------------
+Row  0: ENDYAHRO
+Row  1: HNLSRHEO
+Row  2: CPTEOIBI
+Row  3: DYSHNAIA
+Row  4: CHTNREYU
+Row  5: LDSLLSLL
+Row  6: NOHSNOSM
+Row  7: RWXMNETP
+Row  8: RNGATIHN
+Row  9: RARPESLN
+...
+
+Principle: Read columns in keyword-determined order
+This demonstrates the transposition concept used in K3

@@ -58,8 +58,8 @@ Index 80:
 
 3. **Anchor constraints**:
    - EAST (21-24), NORTHEAST (25-33), BERLIN (63-68), CLOCK (69-73)
-   - These fix 71 of 97 positions
-   - 26 positions remain undetermined (tail region 75-96)
+   - These fix 24 of 97 positions directly (with L=17, each slot appears once)
+   - The tail (22 positions) helps complete the remaining slots
 
 4. **No mocks or placeholders**:
    - CI/CD verifies zero mock objects in code
@@ -79,8 +79,8 @@ Download HAND_PACK.zip for manual verification:
 Run: `python3 07_TOOLS/rebuild_from_anchors.py` (main tool)
 Or: `cd 04_EXPERIMENTS/core_hardening/rebuild_from_anchors && python3 run.py` (runner)
 - Shows wheels are derived from constraints, not pre-encoded
-- 26 wheel positions determined by anchors
-- 71 positions undetermined without tail
+- 24 wheel positions determined by anchors alone
+- 73 positions undetermined without tail
 - Main tool: 07_TOOLS/rebuild_from_anchors.py
 - Runner: 04_EXPERIMENTS/core_hardening/rebuild_from_anchors/run.py
 
@@ -109,9 +109,9 @@ Q: Are the wheels just a lookup table?
 A: No. Run `python3 07_TOOLS/rebuild_from_anchors.py` to see wheels emerge from anchor constraints.
    The wheels are algebraically forced by the ciphertext and plaintext anchors.
 
-Q: Why 26 undetermined positions, not 73?
-A: Anchors constrain 71/97 positions directly. The tail (75-96) = 22 positions,
-   plus 4 gaps between anchors = 26 total undetermined positions.
+Q: Why 73 undetermined positions with anchors alone?
+A: With L=17, each slot appears at most once in 97 positions. Four anchors
+   force 24 unique slots, leaving 73 positions undetermined without the tail.
 
 Q: Can I verify by hand?
 A: Yes. See HAND_DERIVATION_80-84.txt for complete worked examples.

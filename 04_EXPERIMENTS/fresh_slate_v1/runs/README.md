@@ -7,7 +7,7 @@ All runs use the baseline classing: `class(i) = ((i % 2) * 3) + (i % 3)`
 ### baseline_four_anchors
 - **Cribs**: EAST, NORTHEAST, BERLIN, CLOCK  
 - **Derived**: 71 letters
-- **Undetermined**: 26 positions
+- **Undetermined**: 73 positions
 - **Key insight**: Maximum information from all 4 known cribs
 
 ### baseline_three_no_berlin
