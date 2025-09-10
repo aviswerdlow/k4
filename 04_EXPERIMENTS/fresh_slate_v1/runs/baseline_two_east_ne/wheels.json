@@ -1,0 +1,182 @@
+[
+  {
+    "class_id": 0,
+    "family": "vigenere",
+    "L": 10,
+    "phase": 0,
+    "residues": [
+      2,
+      null,
+      null,
+      null,
+      2,
+      null,
+      null,
+      null,
+      null,
+      null
+    ],
+    "present_slots_mask": [
+      1,
+      0,
+      0,
+      0,
+      1,
+      0,
+      0,
+      0,
+      0,
+      0
+    ]
+  },
+  {
+    "class_id": 1,
+    "family": "vigenere",
+    "L": 10,
+    "phase": 0,
+    "residues": [
+      null,
+      null,
+      11,
+      null,
+      null,
+      null,
+      null,
+      null,
+      24,
+      null
+    ],
+    "present_slots_mask": [
+      0,
+      0,
+      1,
+      0,
+      0,
+      0,
+      0,
+      0,
+      1,
+      0
+    ]
+  },
+  {
+    "class_id": 2,
+    "family": "beaufort",
+    "L": 10,
+    "phase": 0,
+    "residues": [
+      null,
+      null,
+      10,
+      null,
+      null,
+      null,
+      4,
+      null,
+      null,
+      null
+    ],
+    "present_slots_mask": [
+      0,
+      0,
+      1,
+      0,
+      0,
+      0,
+      1,
+      0,
+      0,
+      0
+    ]
+  },
+  {
+    "class_id": 3,
+    "family": "vigenere",
+    "L": 10,
+    "phase": 0,
+    "residues": [
+      null,
+      1,
+      null,
+      25,
+      null,
+      null,
+      null,
+      24,
+      null,
+      null
+    ],
+    "present_slots_mask": [
+      0,
+      1,
+      0,
+      1,
+      0,
+      0,
+      0,
+      1,
+      0,
+      0
+    ]
+  },
+  {
+    "class_id": 4,
+    "family": "vigenere",
+    "L": 10,
+    "phase": 0,
+    "residues": [
+      null,
+      10,
+      null,
+      null,
+      null,
+      3,
+      null,
+      null,
+      null,
+      null
+    ],
+    "present_slots_mask": [
+      0,
+      1,
+      0,
+      0,
+      0,
+      1,
+      0,
+      0,
+      0,
+      0
+    ]
+  },
+  {
+    "class_id": 5,
+    "family": "vigenere",
+    "L": 10,
+    "phase": 0,
+    "residues": [
+      null,
+      null,
+      null,
+      25,
+      null,
+      null,
+      null,
+      null,
+      null,
+      6
+    ],
+    "present_slots_mask": [
+      0,
+      0,
+      0,
+      1,
+      0,
+      0,
+      0,
+      0,
+      0,
+      1
+    ]
+  }
+]

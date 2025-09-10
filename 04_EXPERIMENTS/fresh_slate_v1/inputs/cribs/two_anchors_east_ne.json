@@ -1,0 +1,6 @@
+{
+  "cribs": [
+    {"span": [21, 24], "plaintext": "EAST"},
+    {"span": [25, 33], "plaintext": "NORTHEAST"}
+  ]
+}

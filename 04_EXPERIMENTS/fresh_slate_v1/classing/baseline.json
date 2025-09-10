@@ -1,0 +1,5 @@
+{
+  "name": "BASELINE_SIX_TRACK",
+  "classes": 6,
+  "formula": "((i % 2) * 3) + (i % 3)"
+}
