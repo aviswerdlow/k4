@@ -1,0 +1,19 @@
+{
+  "mode": "flint_as_key",
+  "key_id": "candidate_D",
+  "key_verbatim": "NOTE. In a similar manner angles may be measured; that is, with a chord of 60 degrees describe an arc on the angular point, and",
+  "key_page": 18,
+  "decode_variant": "vigenere",
+  "anchors_preserved": false,
+  "anchor_failures": [
+    "EAST: expected 'EAST', got 'SFGR'",
+    "NORTHEAST: expected 'NORTHEAST', got 'YEPTMCYOS'",
+    "BERLIN: expected 'BERLIN', got 'VVLDRC'",
+    "CLOCK: expected 'CLOCK', got 'EYBPX'"
+  ],
+  "plaintext_sample_0_40": "BNRNMBXWYVMABBCLVSXKWSFGRYEPTMCYOSWZFPNZ",
+  "consonant_cluster_5plus": true,
+  "word_hits_head": [],
+  "acceptance": false,
+  "notes": "Geometry, after Problem VII note on scale of chords"
+}

@@ -1,0 +1,72 @@
+{
+  "constants": {
+    "bearings": {
+      "true_ne_plus": 61.6959,
+      "true_ene_minus": 50.8041,
+      "mag_ne_plus_1989": 59.5959,
+      "mag_ene_minus_1989": 48.7041,
+      "offset_only": 16.6959
+    },
+    "dms_exemplars": [
+      [
+        16,
+        41,
+        45
+      ],
+      [
+        61,
+        41,
+        45
+      ],
+      [
+        50,
+        48,
+        15
+      ]
+    ],
+    "declinations": {
+      "langley_1990": 9.5,
+      "berlin_1989": -2.0
+    },
+    "rectangular_coords": {
+      "5_rods_ne": [
+        11.923,
+        22.14
+      ],
+      "5_rods_ene": [
+        15.892,
+        19.488
+      ],
+      "mag_5_rods_ne": [
+        12.726,
+        21.688
+      ],
+      "mag_5_rods_ene": [
+        16.595,
+        18.892
+      ]
+    }
+  },
+  "test_batteries": [
+    "A: Pure bearings (polyalphabetic)",
+    "B: Quadrant/angle parameters",
+    "C: Magnetic corrections",
+    "D: Distance/rectangular",
+    "E: Arc/chord/sector transforms",
+    "Hybrid: Two-stage pipelines"
+  ],
+  "cipher_families": [
+    "Vigen\u00e8re",
+    "Beaufort",
+    "Variant Beaufort",
+    "Columnar transposition",
+    "Rail fence",
+    "Route cipher",
+    "Caesar",
+    "Affine",
+    "Hill 2x2",
+    "Playfair"
+  ],
+  "total_tests": 120,
+  "passing_tests": 0
+}

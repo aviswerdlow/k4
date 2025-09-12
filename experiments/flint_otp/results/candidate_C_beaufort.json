@@ -1,0 +1,19 @@
+{
+  "mode": "flint_as_key",
+  "key_id": "candidate_C",
+  "key_verbatim": "From the line take offsets to the several bends, at right angles from the line; noticing in the Field-Book at what part of",
+  "key_page": 61,
+  "decode_variant": "beaufort",
+  "anchors_preserved": false,
+  "anchor_failures": [
+    "EAST: expected 'EAST', got 'NIXY'",
+    "NORTHEAST: expected 'NORTHEAST', got 'RODNIYHIT'",
+    "BERLIN: expected 'BERLIN', got 'AQENJP'",
+    "CLOCK: expected 'CLOCK', got 'BHDYJ'"
+  ],
+  "plaintext_sample_0_40": "RQEVZTHXCGKIZSQDXARDXNIXYRODNIYHITNLRKCI",
+  "consonant_cluster_5plus": true,
+  "word_hits_head": [],
+  "acceptance": false,
+  "notes": "Surveying, Case IX: Boundary lines very irregular"
+}

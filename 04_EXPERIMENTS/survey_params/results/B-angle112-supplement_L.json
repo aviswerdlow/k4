@@ -1,0 +1,48 @@
+{
+  "id": "B-angle112-supplement_L",
+  "family": "vigenere",
+  "stages": [
+    {
+      "name": "stage1",
+      "type": "none",
+      "params": {}
+    },
+    {
+      "name": "stage2",
+      "type": "vigenere",
+      "params": {
+        "L": 67,
+        "phase": 0,
+        "offset": 5
+      }
+    }
+  ],
+  "parameter_source": {
+    "angle_deg": 112.5,
+    "quadrant": 2,
+    "reference_angle": 67.5
+  },
+  "results": {
+    "anchors_preserved": false,
+    "anchor_failures": [
+      "EAST: Expected 'EAST' at 21-24, got 'FKPS'",
+      "NORTHEAST: Expected 'NORTHEAST' at 25-33, got 'MLJKFXAHG'",
+      "BERLIN: Expected 'BERLIN' at 63-68, got 'XHXCON'",
+      "CLOCK: Expected 'CLOCK' at 69-73, got 'FRWFZ'"
+    ],
+    "plaintext_head_0_20": "JVDJLEMCTTFVKAVRNJED",
+    "readability": {
+      "vowel_ratio": 0.15,
+      "max_consonant_run": 7,
+      "dict_words_3plus": [],
+      "bigram_score": 0.105
+    },
+    "survey_terms_found": [],
+    "notes": ""
+  },
+  "repro": {
+    "seed": 1337,
+    "ct_sha256": "eea813570c7f1fd3b34674e47b5c3da8948026f5cefee612a0b38ffaa515ceab",
+    "code_version": "667611a8"
+  }
+}

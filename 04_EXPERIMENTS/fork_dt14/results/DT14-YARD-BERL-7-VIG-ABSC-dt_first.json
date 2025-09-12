@@ -1,0 +1,38 @@
+{
+  "id": "DT14-YARD-BERL-7-VIG-ABSC-dt_first",
+  "config": {
+    "key1": "YARD",
+    "key2": "BERLINCLOCK",
+    "cols1": 7,
+    "cols2": 7,
+    "name": "YARD-BERL-7"
+  },
+  "chain_type": "vigenere",
+  "chain_key": "ABSCISSA",
+  "order": "dt_first",
+  "anchors": {
+    "preserved": false,
+    "failures": [
+      "EAST: Expected 'EAST' at 21-24, got 'LSJK'",
+      "NORTHEAST: Expected 'NORTHEAST' at 25-33, got 'FFYGQBNFO'",
+      "BERLIN: Expected 'BERLIN' at 63-68, got 'ZORPMD'",
+      "CLOCK: Expected 'CLOCK' at 69-73, got 'XQWCY'"
+    ]
+  },
+  "plaintext_head": "DJTYRROOUZCSCSUUBFFSX",
+  "plaintext_full": null,
+  "metrics": {
+    "vowel_ratio": 0.24,
+    "max_consonant_run": 6,
+    "four_letter_words": [],
+    "word_count": 1,
+    "bigram_score": 0,
+    "bigram_improvement": -0.62,
+    "head_text": "DJTYRROOUZCSCSUUBFFSX"
+  },
+  "accepted": false,
+  "repro": {
+    "seed": 1337,
+    "ct_sha256": "eea813570c7f1fd3b34674e47b5c3da8948026f5cefee612a0b38ffaa515ceab"
+  }
+}

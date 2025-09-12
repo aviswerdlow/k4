@@ -1,0 +1,31 @@
+{
+  "source": "A_System_of_Geometry_and_Trigonometry.pdf",
+  "tables_found": 3,
+  "pages_scanned": "173-175 (sample data)",
+  "tables": [
+    {
+      "page": 173,
+      "table_id": "TRAVERSE_173",
+      "rows": 6,
+      "cols": 6,
+      "total_cells": 36,
+      "digit_count": 108
+    },
+    {
+      "page": 174,
+      "table_id": "TRAVERSE_174",
+      "rows": 6,
+      "cols": 5,
+      "total_cells": 30,
+      "digit_count": 90
+    },
+    {
+      "page": 175,
+      "table_id": "TRAVERSE_175",
+      "rows": 8,
+      "cols": 4,
+      "total_cells": 32,
+      "digit_count": 96
+    }
+  ]
+}

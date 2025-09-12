@@ -1,0 +1,38 @@
+{
+  "id": "DT14-BERL-ABSC-7-VIG-KRYP-dt_first",
+  "config": {
+    "key1": "BERLINCLOCK",
+    "key2": "ABSCISSA",
+    "cols1": 7,
+    "cols2": 7,
+    "name": "BERL-ABSC-7"
+  },
+  "chain_type": "vigenere",
+  "chain_key": "KRYPTOS",
+  "order": "dt_first",
+  "anchors": {
+    "preserved": false,
+    "failures": [
+      "EAST: Expected 'EAST' at 21-24, got 'TJPT'",
+      "NORTHEAST: Expected 'NORTHEAST' at 25-33, got 'MBBGBCVGV'",
+      "BERLIN: Expected 'BERLIN' at 63-68, got 'YTGSHO'",
+      "CLOCK: Expected 'CLOCK' at 69-73, got 'ZYFAY'"
+    ]
+  },
+  "plaintext_head": "ETIFEGJFWVVZFATPWFBWI",
+  "plaintext_full": null,
+  "metrics": {
+    "vowel_ratio": 0.24,
+    "max_consonant_run": 8,
+    "four_letter_words": [],
+    "word_count": 3,
+    "bigram_score": 3,
+    "bigram_improvement": 2.38,
+    "head_text": "ETIFEGJFWVVZFATPWFBWI"
+  },
+  "accepted": false,
+  "repro": {
+    "seed": 1337,
+    "ct_sha256": "eea813570c7f1fd3b34674e47b5c3da8948026f5cefee612a0b38ffaa515ceab"
+  }
+}

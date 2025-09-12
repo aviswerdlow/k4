@@ -1,0 +1,367 @@
+{
+  "0": {
+    "impact": 0,
+    "best_char": null,
+    "original": "O"
+  },
+  "1": {
+    "impact": 0,
+    "best_char": null,
+    "original": "B"
+  },
+  "2": {
+    "impact": 5.0,
+    "best_char": "P",
+    "original": "K"
+  },
+  "3": {
+    "impact": 0,
+    "best_char": null,
+    "original": "R"
+  },
+  "4": {
+    "impact": 0,
+    "best_char": null,
+    "original": "U"
+  },
+  "5": {
+    "impact": 7.0,
+    "best_char": "C",
+    "original": "O"
+  },
+  "6": {
+    "impact": 0,
+    "best_char": null,
+    "original": "X"
+  },
+  "7": {
+    "impact": 7.0,
+    "best_char": "X",
+    "original": "O"
+  },
+  "8": {
+    "impact": 7.0,
+    "best_char": "L",
+    "original": "G"
+  },
+  "9": {
+    "impact": 5.0,
+    "best_char": "A",
+    "original": "H"
+  },
+  "10": {
+    "impact": 5.0,
+    "best_char": "A",
+    "original": "U"
+  },
+  "11": {
+    "impact": 0,
+    "best_char": null,
+    "original": "L"
+  },
+  "12": {
+    "impact": 5.0,
+    "best_char": "F",
+    "original": "B"
+  },
+  "13": {
+    "impact": 10.0,
+    "best_char": "C",
+    "original": "S"
+  },
+  "14": {
+    "impact": 15.0,
+    "best_char": "A",
+    "original": "O"
+  },
+  "15": {
+    "impact": 10.0,
+    "best_char": "D",
+    "original": "L"
+  },
+  "16": {
+    "impact": 10.0,
+    "best_char": "W",
+    "original": "I"
+  },
+  "17": {
+    "impact": 0,
+    "best_char": null,
+    "original": "F"
+  },
+  "18": {
+    "impact": 5.0,
+    "best_char": "W",
+    "original": "B"
+  },
+  "19": {
+    "impact": 2.0,
+    "best_char": "M",
+    "original": "B"
+  },
+  "20": {
+    "impact": 7.0,
+    "best_char": "C",
+    "original": "W"
+  },
+  "34": {
+    "impact": 0,
+    "best_char": null,
+    "original": "O"
+  },
+  "35": {
+    "impact": 0,
+    "best_char": null,
+    "original": "T"
+  },
+  "36": {
+    "impact": 0,
+    "best_char": null,
+    "original": "W"
+  },
+  "37": {
+    "impact": 0,
+    "best_char": null,
+    "original": "T"
+  },
+  "38": {
+    "impact": 0,
+    "best_char": null,
+    "original": "Q"
+  },
+  "39": {
+    "impact": 0,
+    "best_char": null,
+    "original": "S"
+  },
+  "40": {
+    "impact": 0,
+    "best_char": null,
+    "original": "J"
+  },
+  "41": {
+    "impact": 0,
+    "best_char": null,
+    "original": "Q"
+  },
+  "42": {
+    "impact": 0,
+    "best_char": null,
+    "original": "S"
+  },
+  "43": {
+    "impact": 0,
+    "best_char": null,
+    "original": "S"
+  },
+  "44": {
+    "impact": 0,
+    "best_char": null,
+    "original": "E"
+  },
+  "45": {
+    "impact": 0,
+    "best_char": null,
+    "original": "K"
+  },
+  "46": {
+    "impact": 0,
+    "best_char": null,
+    "original": "Z"
+  },
+  "47": {
+    "impact": 0,
+    "best_char": null,
+    "original": "Z"
+  },
+  "48": {
+    "impact": 0,
+    "best_char": null,
+    "original": "W"
+  },
+  "49": {
+    "impact": 0,
+    "best_char": null,
+    "original": "A"
+  },
+  "50": {
+    "impact": 0,
+    "best_char": null,
+    "original": "T"
+  },
+  "51": {
+    "impact": 0,
+    "best_char": null,
+    "original": "J"
+  },
+  "52": {
+    "impact": 0,
+    "best_char": null,
+    "original": "K"
+  },
+  "53": {
+    "impact": 0,
+    "best_char": null,
+    "original": "L"
+  },
+  "54": {
+    "impact": 0,
+    "best_char": null,
+    "original": "U"
+  },
+  "55": {
+    "impact": 0,
+    "best_char": null,
+    "original": "D"
+  },
+  "56": {
+    "impact": 0,
+    "best_char": null,
+    "original": "I"
+  },
+  "57": {
+    "impact": 0,
+    "best_char": null,
+    "original": "A"
+  },
+  "58": {
+    "impact": 0,
+    "best_char": null,
+    "original": "W"
+  },
+  "59": {
+    "impact": 0,
+    "best_char": null,
+    "original": "I"
+  },
+  "60": {
+    "impact": 0,
+    "best_char": null,
+    "original": "N"
+  },
+  "61": {
+    "impact": 0,
+    "best_char": null,
+    "original": "F"
+  },
+  "62": {
+    "impact": 0,
+    "best_char": null,
+    "original": "B"
+  },
+  "74": {
+    "impact": 0,
+    "best_char": null,
+    "original": "W"
+  },
+  "75": {
+    "impact": 0,
+    "best_char": null,
+    "original": "G"
+  },
+  "76": {
+    "impact": 0,
+    "best_char": null,
+    "original": "D"
+  },
+  "77": {
+    "impact": 0,
+    "best_char": null,
+    "original": "K"
+  },
+  "78": {
+    "impact": 0,
+    "best_char": null,
+    "original": "Z"
+  },
+  "79": {
+    "impact": 0,
+    "best_char": null,
+    "original": "X"
+  },
+  "80": {
+    "impact": 0,
+    "best_char": null,
+    "original": "T"
+  },
+  "81": {
+    "impact": 0,
+    "best_char": null,
+    "original": "J"
+  },
+  "82": {
+    "impact": 0,
+    "best_char": null,
+    "original": "C"
+  },
+  "83": {
+    "impact": 0,
+    "best_char": null,
+    "original": "D"
+  },
+  "84": {
+    "impact": 0,
+    "best_char": null,
+    "original": "I"
+  },
+  "85": {
+    "impact": 0,
+    "best_char": null,
+    "original": "G"
+  },
+  "86": {
+    "impact": 0,
+    "best_char": null,
+    "original": "K"
+  },
+  "87": {
+    "impact": 0,
+    "best_char": null,
+    "original": "U"
+  },
+  "88": {
+    "impact": 0,
+    "best_char": null,
+    "original": "H"
+  },
+  "89": {
+    "impact": 0,
+    "best_char": null,
+    "original": "U"
+  },
+  "90": {
+    "impact": 0,
+    "best_char": null,
+    "original": "A"
+  },
+  "91": {
+    "impact": 0,
+    "best_char": null,
+    "original": "U"
+  },
+  "92": {
+    "impact": 0,
+    "best_char": null,
+    "original": "E"
+  },
+  "93": {
+    "impact": 0,
+    "best_char": null,
+    "original": "K"
+  },
+  "94": {
+    "impact": 0,
+    "best_char": null,
+    "original": "C"
+  },
+  "95": {
+    "impact": 0,
+    "best_char": null,
+    "original": "A"
+  },
+  "96": {
+    "impact": 0,
+    "best_char": null,
+    "original": "R"
+  }
+}

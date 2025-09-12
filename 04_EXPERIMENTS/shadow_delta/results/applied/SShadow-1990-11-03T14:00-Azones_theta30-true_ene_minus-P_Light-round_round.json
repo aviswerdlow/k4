@@ -1,0 +1,875 @@
+[
+  {
+    "index": 0,
+    "zone_state": 0,
+    "family": "vigenere",
+    "L": 51,
+    "phase": 0,
+    "offset": 21,
+    "key_val": 21
+  },
+  {
+    "index": 1,
+    "zone_state": 0,
+    "family": "vigenere",
+    "L": 51,
+    "phase": 0,
+    "offset": 21,
+    "key_val": 22
+  },
+  {
+    "index": 2,
+    "zone_state": 0,
+    "family": "vigenere",
+    "L": 51,
+    "phase": 0,
+    "offset": 21,
+    "key_val": 23
+  },
+  {
+    "index": 3,
+    "zone_state": 0,
+    "family": "vigenere",
+    "L": 51,
+    "phase": 0,
+    "offset": 21,
+    "key_val": 24
+  },
+  {
+    "index": 4,
+    "zone_state": 0,
+    "family": "vigenere",
+    "L": 51,
+    "phase": 0,
+    "offset": 21,
+    "key_val": 25
+  },
+  {
+    "index": 5,
+    "zone_state": 0,
+    "family": "vigenere",
+    "L": 51,
+    "phase": 0,
+    "offset": 21,
+    "key_val": 0
+  },
+  {
+    "index": 6,
+    "zone_state": 0,
+    "family": "vigenere",
+    "L": 51,
+    "phase": 0,
+    "offset": 21,
+    "key_val": 1
+  },
+  {
+    "index": 7,
+    "zone_state": 0,
+    "family": "vigenere",
+    "L": 51,
+    "phase": 0,
+    "offset": 21,
+    "key_val": 2
+  },
+  {
+    "index": 8,
+    "zone_state": 0,
+    "family": "vigenere",
+    "L": 51,
+    "phase": 0,
+    "offset": 21,
+    "key_val": 3
+  },
+  {
+    "index": 9,
+    "zone_state": 0,
+    "family": "vigenere",
+    "L": 51,
+    "phase": 0,
+    "offset": 21,
+    "key_val": 4
+  },
+  {
+    "index": 10,
+    "zone_state": 0,
+    "family": "vigenere",
+    "L": 51,
+    "phase": 0,
+    "offset": 21,
+    "key_val": 5
+  },
+  {
+    "index": 11,
+    "zone_state": 0,
+    "family": "vigenere",
+    "L": 51,
+    "phase": 0,
+    "offset": 21,
+    "key_val": 6
+  },
+  {
+    "index": 12,
+    "zone_state": 0,
+    "family": "vigenere",
+    "L": 51,
+    "phase": 0,
+    "offset": 21,
+    "key_val": 7
+  },
+  {
+    "index": 13,
+    "zone_state": 0,
+    "family": "vigenere",
+    "L": 51,
+    "phase": 0,
+    "offset": 21,
+    "key_val": 8
+  },
+  {
+    "index": 14,
+    "zone_state": 0,
+    "family": "vigenere",
+    "L": 51,
+    "phase": 0,
+    "offset": 21,
+    "key_val": 9
+  },
+  {
+    "index": 15,
+    "zone_state": 0,
+    "family": "vigenere",
+    "L": 51,
+    "phase": 0,
+    "offset": 21,
+    "key_val": 10
+  },
+  {
+    "index": 16,
+    "zone_state": 0,
+    "family": "vigenere",
+    "L": 51,
+    "phase": 0,
+    "offset": 21,
+    "key_val": 11
+  },
+  {
+    "index": 17,
+    "zone_state": 0,
+    "family": "vigenere",
+    "L": 51,
+    "phase": 0,
+    "offset": 21,
+    "key_val": 12
+  },
+  {
+    "index": 18,
+    "zone_state": 0,
+    "family": "vigenere",
+    "L": 51,
+    "phase": 0,
+    "offset": 21,
+    "key_val": 13
+  },
+  {
+    "index": 19,
+    "zone_state": 0,
+    "family": "vigenere",
+    "L": 51,
+    "phase": 0,
+    "offset": 21,
+    "key_val": 14
+  },
+  {
+    "index": 20,
+    "zone_state": 0,
+    "family": "vigenere",
+    "L": 51,
+    "phase": 0,
+    "offset": 21,
+    "key_val": 15
+  },
+  {
+    "index": 21,
+    "zone_state": 2,
+    "family": "beaufort",
+    "L": 51,
+    "phase": 0,
+    "offset": 21,
+    "key_val": 16
+  },
+  {
+    "index": 22,
+    "zone_state": 2,
+    "family": "beaufort",
+    "L": 51,
+    "phase": 0,
+    "offset": 21,
+    "key_val": 17
+  },
+  {
+    "index": 23,
+    "zone_state": 2,
+    "family": "beaufort",
+    "L": 51,
+    "phase": 0,
+    "offset": 21,
+    "key_val": 18
+  },
+  {
+    "index": 24,
+    "zone_state": 2,
+    "family": "beaufort",
+    "L": 51,
+    "phase": 0,
+    "offset": 21,
+    "key_val": 19
+  },
+  {
+    "index": 25,
+    "zone_state": 2,
+    "family": "beaufort",
+    "L": 51,
+    "phase": 0,
+    "offset": 21,
+    "key_val": 20
+  },
+  {
+    "index": 26,
+    "zone_state": 2,
+    "family": "beaufort",
+    "L": 51,
+    "phase": 0,
+    "offset": 21,
+    "key_val": 21
+  },
+  {
+    "index": 27,
+    "zone_state": 2,
+    "family": "beaufort",
+    "L": 51,
+    "phase": 0,
+    "offset": 21,
+    "key_val": 22
+  },
+  {
+    "index": 28,
+    "zone_state": 2,
+    "family": "beaufort",
+    "L": 51,
+    "phase": 0,
+    "offset": 21,
+    "key_val": 23
+  },
+  {
+    "index": 29,
+    "zone_state": 2,
+    "family": "beaufort",
+    "L": 51,
+    "phase": 0,
+    "offset": 21,
+    "key_val": 24
+  },
+  {
+    "index": 30,
+    "zone_state": 2,
+    "family": "beaufort",
+    "L": 51,
+    "phase": 0,
+    "offset": 21,
+    "key_val": 25
+  },
+  {
+    "index": 31,
+    "zone_state": 2,
+    "family": "beaufort",
+    "L": 51,
+    "phase": 0,
+    "offset": 21,
+    "key_val": 0
+  },
+  {
+    "index": 32,
+    "zone_state": 2,
+    "family": "beaufort",
+    "L": 51,
+    "phase": 0,
+    "offset": 21,
+    "key_val": 1
+  },
+  {
+    "index": 33,
+    "zone_state": 2,
+    "family": "beaufort",
+    "L": 51,
+    "phase": 0,
+    "offset": 21,
+    "key_val": 2
+  },
+  {
+    "index": 34,
+    "zone_state": 0,
+    "family": "vigenere",
+    "L": 51,
+    "phase": 0,
+    "offset": 21,
+    "key_val": 3
+  },
+  {
+    "index": 35,
+    "zone_state": 0,
+    "family": "vigenere",
+    "L": 51,
+    "phase": 0,
+    "offset": 21,
+    "key_val": 4
+  },
+  {
+    "index": 36,
+    "zone_state": 0,
+    "family": "vigenere",
+    "L": 51,
+    "phase": 0,
+    "offset": 21,
+    "key_val": 5
+  },
+  {
+    "index": 37,
+    "zone_state": 0,
+    "family": "vigenere",
+    "L": 51,
+    "phase": 0,
+    "offset": 21,
+    "key_val": 6
+  },
+  {
+    "index": 38,
+    "zone_state": 0,
+    "family": "vigenere",
+    "L": 51,
+    "phase": 0,
+    "offset": 21,
+    "key_val": 7
+  },
+  {
+    "index": 39,
+    "zone_state": 0,
+    "family": "vigenere",
+    "L": 51,
+    "phase": 0,
+    "offset": 21,
+    "key_val": 8
+  },
+  {
+    "index": 40,
+    "zone_state": 0,
+    "family": "vigenere",
+    "L": 51,
+    "phase": 0,
+    "offset": 21,
+    "key_val": 9
+  },
+  {
+    "index": 41,
+    "zone_state": 0,
+    "family": "vigenere",
+    "L": 51,
+    "phase": 0,
+    "offset": 21,
+    "key_val": 10
+  },
+  {
+    "index": 42,
+    "zone_state": 0,
+    "family": "vigenere",
+    "L": 51,
+    "phase": 0,
+    "offset": 21,
+    "key_val": 11
+  },
+  {
+    "index": 43,
+    "zone_state": 0,
+    "family": "vigenere",
+    "L": 51,
+    "phase": 0,
+    "offset": 21,
+    "key_val": 12
+  },
+  {
+    "index": 44,
+    "zone_state": 0,
+    "family": "vigenere",
+    "L": 51,
+    "phase": 0,
+    "offset": 21,
+    "key_val": 13
+  },
+  {
+    "index": 45,
+    "zone_state": 0,
+    "family": "vigenere",
+    "L": 51,
+    "phase": 0,
+    "offset": 21,
+    "key_val": 14
+  },
+  {
+    "index": 46,
+    "zone_state": 0,
+    "family": "vigenere",
+    "L": 51,
+    "phase": 0,
+    "offset": 21,
+    "key_val": 15
+  },
+  {
+    "index": 47,
+    "zone_state": 0,
+    "family": "vigenere",
+    "L": 51,
+    "phase": 0,
+    "offset": 21,
+    "key_val": 16
+  },
+  {
+    "index": 48,
+    "zone_state": 0,
+    "family": "vigenere",
+    "L": 51,
+    "phase": 0,
+    "offset": 21,
+    "key_val": 17
+  },
+  {
+    "index": 49,
+    "zone_state": 0,
+    "family": "vigenere",
+    "L": 51,
+    "phase": 0,
+    "offset": 21,
+    "key_val": 18
+  },
+  {
+    "index": 50,
+    "zone_state": 0,
+    "family": "vigenere",
+    "L": 51,
+    "phase": 0,
+    "offset": 21,
+    "key_val": 19
+  },
+  {
+    "index": 51,
+    "zone_state": 0,
+    "family": "vigenere",
+    "L": 51,
+    "phase": 0,
+    "offset": 21,
+    "key_val": 21
+  },
+  {
+    "index": 52,
+    "zone_state": 0,
+    "family": "vigenere",
+    "L": 51,
+    "phase": 0,
+    "offset": 21,
+    "key_val": 22
+  },
+  {
+    "index": 53,
+    "zone_state": 0,
+    "family": "vigenere",
+    "L": 51,
+    "phase": 0,
+    "offset": 21,
+    "key_val": 23
+  },
+  {
+    "index": 54,
+    "zone_state": 0,
+    "family": "vigenere",
+    "L": 51,
+    "phase": 0,
+    "offset": 21,
+    "key_val": 24
+  },
+  {
+    "index": 55,
+    "zone_state": 0,
+    "family": "vigenere",
+    "L": 51,
+    "phase": 0,
+    "offset": 21,
+    "key_val": 25
+  },
+  {
+    "index": 56,
+    "zone_state": 0,
+    "family": "vigenere",
+    "L": 51,
+    "phase": 0,
+    "offset": 21,
+    "key_val": 0
+  },
+  {
+    "index": 57,
+    "zone_state": 0,
+    "family": "vigenere",
+    "L": 51,
+    "phase": 0,
+    "offset": 21,
+    "key_val": 1
+  },
+  {
+    "index": 58,
+    "zone_state": 0,
+    "family": "vigenere",
+    "L": 51,
+    "phase": 0,
+    "offset": 21,
+    "key_val": 2
+  },
+  {
+    "index": 59,
+    "zone_state": 0,
+    "family": "vigenere",
+    "L": 51,
+    "phase": 0,
+    "offset": 21,
+    "key_val": 3
+  },
+  {
+    "index": 60,
+    "zone_state": 0,
+    "family": "vigenere",
+    "L": 51,
+    "phase": 0,
+    "offset": 21,
+    "key_val": 4
+  },
+  {
+    "index": 61,
+    "zone_state": 0,
+    "family": "vigenere",
+    "L": 51,
+    "phase": 0,
+    "offset": 21,
+    "key_val": 5
+  },
+  {
+    "index": 62,
+    "zone_state": 0,
+    "family": "vigenere",
+    "L": 51,
+    "phase": 0,
+    "offset": 21,
+    "key_val": 6
+  },
+  {
+    "index": 63,
+    "zone_state": 2,
+    "family": "beaufort",
+    "L": 51,
+    "phase": 0,
+    "offset": 21,
+    "key_val": 7
+  },
+  {
+    "index": 64,
+    "zone_state": 2,
+    "family": "beaufort",
+    "L": 51,
+    "phase": 0,
+    "offset": 21,
+    "key_val": 8
+  },
+  {
+    "index": 65,
+    "zone_state": 2,
+    "family": "beaufort",
+    "L": 51,
+    "phase": 0,
+    "offset": 21,
+    "key_val": 9
+  },
+  {
+    "index": 66,
+    "zone_state": 2,
+    "family": "beaufort",
+    "L": 51,
+    "phase": 0,
+    "offset": 21,
+    "key_val": 10
+  },
+  {
+    "index": 67,
+    "zone_state": 2,
+    "family": "beaufort",
+    "L": 51,
+    "phase": 0,
+    "offset": 21,
+    "key_val": 11
+  },
+  {
+    "index": 68,
+    "zone_state": 2,
+    "family": "beaufort",
+    "L": 51,
+    "phase": 0,
+    "offset": 21,
+    "key_val": 12
+  },
+  {
+    "index": 69,
+    "zone_state": 2,
+    "family": "beaufort",
+    "L": 51,
+    "phase": 0,
+    "offset": 21,
+    "key_val": 13
+  },
+  {
+    "index": 70,
+    "zone_state": 2,
+    "family": "beaufort",
+    "L": 51,
+    "phase": 0,
+    "offset": 21,
+    "key_val": 14
+  },
+  {
+    "index": 71,
+    "zone_state": 2,
+    "family": "beaufort",
+    "L": 51,
+    "phase": 0,
+    "offset": 21,
+    "key_val": 15
+  },
+  {
+    "index": 72,
+    "zone_state": 2,
+    "family": "beaufort",
+    "L": 51,
+    "phase": 0,
+    "offset": 21,
+    "key_val": 16
+  },
+  {
+    "index": 73,
+    "zone_state": 2,
+    "family": "beaufort",
+    "L": 51,
+    "phase": 0,
+    "offset": 21,
+    "key_val": 17
+  },
+  {
+    "index": 74,
+    "zone_state": 0,
+    "family": "vigenere",
+    "L": 51,
+    "phase": 0,
+    "offset": 21,
+    "key_val": 18
+  },
+  {
+    "index": 75,
+    "zone_state": 0,
+    "family": "vigenere",
+    "L": 51,
+    "phase": 0,
+    "offset": 21,
+    "key_val": 19
+  },
+  {
+    "index": 76,
+    "zone_state": 0,
+    "family": "vigenere",
+    "L": 51,
+    "phase": 0,
+    "offset": 21,
+    "key_val": 20
+  },
+  {
+    "index": 77,
+    "zone_state": 0,
+    "family": "vigenere",
+    "L": 51,
+    "phase": 0,
+    "offset": 21,
+    "key_val": 21
+  },
+  {
+    "index": 78,
+    "zone_state": 0,
+    "family": "vigenere",
+    "L": 51,
+    "phase": 0,
+    "offset": 21,
+    "key_val": 22
+  },
+  {
+    "index": 79,
+    "zone_state": 0,
+    "family": "vigenere",
+    "L": 51,
+    "phase": 0,
+    "offset": 21,
+    "key_val": 23
+  },
+  {
+    "index": 80,
+    "zone_state": 0,
+    "family": "vigenere",
+    "L": 51,
+    "phase": 0,
+    "offset": 21,
+    "key_val": 24
+  },
+  {
+    "index": 81,
+    "zone_state": 0,
+    "family": "vigenere",
+    "L": 51,
+    "phase": 0,
+    "offset": 21,
+    "key_val": 25
+  },
+  {
+    "index": 82,
+    "zone_state": 0,
+    "family": "vigenere",
+    "L": 51,
+    "phase": 0,
+    "offset": 21,
+    "key_val": 0
+  },
+  {
+    "index": 83,
+    "zone_state": 0,
+    "family": "vigenere",
+    "L": 51,
+    "phase": 0,
+    "offset": 21,
+    "key_val": 1
+  },
+  {
+    "index": 84,
+    "zone_state": 0,
+    "family": "vigenere",
+    "L": 51,
+    "phase": 0,
+    "offset": 21,
+    "key_val": 2
+  },
+  {
+    "index": 85,
+    "zone_state": 0,
+    "family": "vigenere",
+    "L": 51,
+    "phase": 0,
+    "offset": 21,
+    "key_val": 3
+  },
+  {
+    "index": 86,
+    "zone_state": 0,
+    "family": "vigenere",
+    "L": 51,
+    "phase": 0,
+    "offset": 21,
+    "key_val": 4
+  },
+  {
+    "index": 87,
+    "zone_state": 0,
+    "family": "vigenere",
+    "L": 51,
+    "phase": 0,
+    "offset": 21,
+    "key_val": 5
+  },
+  {
+    "index": 88,
+    "zone_state": 0,
+    "family": "vigenere",
+    "L": 51,
+    "phase": 0,
+    "offset": 21,
+    "key_val": 6
+  },
+  {
+    "index": 89,
+    "zone_state": 0,
+    "family": "vigenere",
+    "L": 51,
+    "phase": 0,
+    "offset": 21,
+    "key_val": 7
+  },
+  {
+    "index": 90,
+    "zone_state": 0,
+    "family": "vigenere",
+    "L": 51,
+    "phase": 0,
+    "offset": 21,
+    "key_val": 8
+  },
+  {
+    "index": 91,
+    "zone_state": 0,
+    "family": "vigenere",
+    "L": 51,
+    "phase": 0,
+    "offset": 21,
+    "key_val": 9
+  },
+  {
+    "index": 92,
+    "zone_state": 0,
+    "family": "vigenere",
+    "L": 51,
+    "phase": 0,
+    "offset": 21,
+    "key_val": 10
+  },
+  {
+    "index": 93,
+    "zone_state": 0,
+    "family": "vigenere",
+    "L": 51,
+    "phase": 0,
+    "offset": 21,
+    "key_val": 11
+  },
+  {
+    "index": 94,
+    "zone_state": 0,
+    "family": "vigenere",
+    "L": 51,
+    "phase": 0,
+    "offset": 21,
+    "key_val": 12
+  },
+  {
+    "index": 95,
+    "zone_state": 0,
+    "family": "vigenere",
+    "L": 51,
+    "phase": 0,
+    "offset": 21,
+    "key_val": 13
+  },
+  {
+    "index": 96,
+    "zone_state": 0,
+    "family": "vigenere",
+    "L": 51,
+    "phase": 0,
+    "offset": 21,
+    "key_val": 14
+  }
+]

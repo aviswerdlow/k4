@@ -1,0 +1,38 @@
+{
+  "id": "DT14-BERL-YARD-7-BEAU-KRYP-beau_first",
+  "config": {
+    "key1": "BERLINCLOCK",
+    "key2": "YARD",
+    "cols1": 7,
+    "cols2": 7,
+    "name": "BERL-YARD-7"
+  },
+  "chain_type": "beaufort",
+  "chain_key": "KRYPTOS",
+  "order": "beau_first",
+  "anchors": {
+    "preserved": false,
+    "failures": [
+      "EAST: Expected 'EAST' at 21-24, got 'TPOQ'",
+      "NORTHEAST: Expected 'NORTHEAST' at 25-33, got 'RHJACJXZF'",
+      "BERLIN: Expected 'BERLIN' at 63-68, got 'FCZVOM'",
+      "CLOCK: Expected 'CLOCK' at 69-73, got 'SXCNN'"
+    ]
+  },
+  "plaintext_head": "DWHFOZVNDVLEFWBPFRLVU",
+  "plaintext_full": null,
+  "metrics": {
+    "vowel_ratio": 0.14,
+    "max_consonant_run": 8,
+    "four_letter_words": [],
+    "word_count": 2,
+    "bigram_score": 0,
+    "bigram_improvement": -0.62,
+    "head_text": "DWHFOZVNDVLEFWBPFRLVU"
+  },
+  "accepted": false,
+  "repro": {
+    "seed": 1337,
+    "ct_sha256": "eea813570c7f1fd3b34674e47b5c3da8948026f5cefee612a0b38ffaa515ceab"
+  }
+}

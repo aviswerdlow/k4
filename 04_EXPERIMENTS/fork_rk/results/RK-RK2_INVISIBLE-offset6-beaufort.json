@@ -1,0 +1,33 @@
+{
+  "id": "RK-RK2_INVISIBLE-offset6-beaufort",
+  "key_name": "RK2_INVISIBLE",
+  "family": "beaufort",
+  "offset": 6,
+  "anchors": {
+    "preserved": false,
+    "failures": [
+      "EAST: Expected 'EAST' at 21-24, got 'VIYT'",
+      "NORTHEAST: Expected 'NORTHEAST' at 25-33, got 'CCTKYYJPM'",
+      "BERLIN: Expected 'BERLIN' at 63-68, got 'BYDYOH'",
+      "CLOCK: Expected 'CLOCK' at 69-73, got 'HQJDI'"
+    ]
+  },
+  "plaintext_head": "ASQURKLZPBYXATQWGRRSL",
+  "plaintext_full": null,
+  "metrics": {
+    "vowel_ratio": 0.14,
+    "max_consonant_run": 8,
+    "words_found": [
+      "AT",
+      "BE"
+    ],
+    "word_count": 2,
+    "bigram_score": 1,
+    "head_text": "ASQURKLZPBYXATQWGRRSL"
+  },
+  "controls": {},
+  "repro": {
+    "seed": 1337,
+    "ct_sha256": "eea813570c7f1fd3b34674e47b5c3da8948026f5cefee612a0b38ffaa515ceab"
+  }
+}

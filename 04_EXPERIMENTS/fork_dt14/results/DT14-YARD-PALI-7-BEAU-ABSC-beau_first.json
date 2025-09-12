@@ -1,0 +1,38 @@
+{
+  "id": "DT14-YARD-PALI-7-BEAU-ABSC-beau_first",
+  "config": {
+    "key1": "YARD",
+    "key2": "PALIMPSEST",
+    "cols1": 7,
+    "cols2": 7,
+    "name": "YARD-PALI-7"
+  },
+  "chain_type": "beaufort",
+  "chain_key": "ABSCISSA",
+  "order": "beau_first",
+  "anchors": {
+    "preserved": false,
+    "failures": [
+      "EAST: Expected 'EAST' at 21-24, got 'NXUB'",
+      "NORTHEAST: Expected 'NORTHEAST' at 25-33, got 'NMJHERSMF'",
+      "BERLIN: Expected 'BERLIN' at 63-68, got 'TTWLFH'",
+      "CLOCK: Expected 'CLOCK' at 69-73, got 'QCSVW'"
+    ]
+  },
+  "plaintext_head": "IZGMHIAUMOIVYHIGRVWDS",
+  "plaintext_full": null,
+  "metrics": {
+    "vowel_ratio": 0.33,
+    "max_consonant_run": 6,
+    "four_letter_words": [],
+    "word_count": 1,
+    "bigram_score": 2,
+    "bigram_improvement": 1.38,
+    "head_text": "IZGMHIAUMOIVYHIGRVWDS"
+  },
+  "accepted": false,
+  "repro": {
+    "seed": 1337,
+    "ct_sha256": "eea813570c7f1fd3b34674e47b5c3da8948026f5cefee612a0b38ffaa515ceab"
+  }
+}

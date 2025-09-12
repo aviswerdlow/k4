@@ -1,0 +1,32 @@
+{
+  "id": "RK-RK_MISSPELL-offset20-variant_beaufort",
+  "key_name": "RK_MISSPELL",
+  "family": "variant_beaufort",
+  "offset": 20,
+  "anchors": {
+    "preserved": false,
+    "failures": [
+      "EAST: Expected 'EAST' at 21-24, got 'WRIP'",
+      "NORTHEAST: Expected 'NORTHEAST' at 25-33, got 'KDSURYZSJ'",
+      "BERLIN: Expected 'BERLIN' at 63-68, got 'NRATBJ'",
+      "CLOCK: Expected 'CLOCK' at 69-73, got 'XTXXY'"
+    ]
+  },
+  "plaintext_head": "STZRLOQZEPKWVKWZVZOEA",
+  "plaintext_full": null,
+  "metrics": {
+    "vowel_ratio": 0.24,
+    "max_consonant_run": 9,
+    "words_found": [
+      "IN"
+    ],
+    "word_count": 1,
+    "bigram_score": 3,
+    "head_text": "STZRLOQZEPKWVKWZVZOEA"
+  },
+  "controls": {},
+  "repro": {
+    "seed": 1337,
+    "ct_sha256": "eea813570c7f1fd3b34674e47b5c3da8948026f5cefee612a0b38ffaa515ceab"
+  }
+}

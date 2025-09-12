@@ -1,0 +1,38 @@
+{
+  "id": "DT14-ABSC-WEBS-7-plain",
+  "config": {
+    "key1": "ABSCISSA",
+    "key2": "WEBSTER",
+    "cols1": 7,
+    "cols2": 7,
+    "name": "ABSC-WEBS-7"
+  },
+  "chain_type": "none",
+  "chain_key": null,
+  "order": null,
+  "anchors": {
+    "preserved": false,
+    "failures": [
+      "EAST: Expected 'EAST' at 21-24, got 'TGRY'",
+      "NORTHEAST: Expected 'NORTHEAST' at 25-33, got 'VSOJESWQZ'",
+      "BERLIN: Expected 'BERLIN' at 63-68, got 'PIARQF'",
+      "CLOCK: Expected 'CLOCK' at 69-73, got 'NMKNP'"
+    ]
+  },
+  "plaintext_head": "AKOUKUXBIOGUBWQWILVNB",
+  "plaintext_full": null,
+  "metrics": {
+    "vowel_ratio": 0.38,
+    "max_consonant_run": 4,
+    "four_letter_words": [],
+    "word_count": 1,
+    "bigram_score": 1,
+    "bigram_improvement": 0.38,
+    "head_text": "AKOUKUXBIOGUBWQWILVNB"
+  },
+  "accepted": false,
+  "repro": {
+    "seed": 1337,
+    "ct_sha256": "eea813570c7f1fd3b34674e47b5c3da8948026f5cefee612a0b38ffaa515ceab"
+  }
+}

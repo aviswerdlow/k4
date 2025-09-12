@@ -1,0 +1,48 @@
+{
+  "id": "HSH-hourly-11:00",
+  "datetime_local": "1990-11-03T11:00:00-05:00",
+  "shadow": {
+    "sun_alt": -48.55,
+    "sun_az": 114.12,
+    "shadow_angle": 90.0,
+    "shadow_bearing": 294.12,
+    "mask_type": "Azones_hourly"
+  },
+  "base_params": {
+    "L": 62,
+    "phase": 41,
+    "offset": 18,
+    "source": "true_ne_plus"
+  },
+  "zone_profiles": [
+    {
+      "state": "deep_shadow",
+      "family": "variant_beaufort",
+      "L": 17,
+      "offset": 16,
+      "phase": 11
+    }
+  ],
+  "config": "S-Light",
+  "anchors": {
+    "preserved": false,
+    "failures": [
+      "EAST: Expected 'EAST' at 21-24, got 'KRHM'",
+      "NORTHEAST: Expected 'NORTHEAST' at 25-33, got 'IJJMJDIRS'",
+      "BERLIN: Expected 'BERLIN' at 63-68, got 'JVNUTU'"
+    ]
+  },
+  "plaintext_head_0_20": "PDNVZUNFYAOGXPMKIGDE",
+  "metrics": {
+    "vowel_ratio": 0.25,
+    "max_consonant_run": 5,
+    "dict_words_3plus": [],
+    "survey_terms": [],
+    "bigram_score": 0.0,
+    "head_text": "PDNVZUNFYAOGXPMKIGDE"
+  },
+  "repro": {
+    "seed": 1337,
+    "ct_sha256": "eea813570c7f1fd3b34674e47b5c3da8948026f5cefee612a0b38ffaa515ceab"
+  }
+}

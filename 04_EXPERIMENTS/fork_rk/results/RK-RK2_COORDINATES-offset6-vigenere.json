@@ -1,0 +1,30 @@
+{
+  "id": "RK-RK2_COORDINATES-offset6-vigenere",
+  "key_name": "RK2_COORDINATES",
+  "family": "vigenere",
+  "offset": 6,
+  "anchors": {
+    "preserved": false,
+    "failures": [
+      "EAST: Expected 'EAST' at 21-24, got 'BTZV'",
+      "NORTHEAST: Expected 'NORTHEAST' at 25-33, got 'KMSYGYTZU'",
+      "BERLIN: Expected 'BERLIN' at 63-68, got 'VQSGFL'",
+      "CLOCK: Expected 'CLOCK' at 69-73, got 'ZGAHP'"
+    ]
+  },
+  "plaintext_head": "AOZTYSEHYPYLJLGTXFJIK",
+  "plaintext_full": null,
+  "metrics": {
+    "vowel_ratio": 0.19,
+    "max_consonant_run": 12,
+    "words_found": [],
+    "word_count": 0,
+    "bigram_score": 1,
+    "head_text": "AOZTYSEHYPYLJLGTXFJIK"
+  },
+  "controls": {},
+  "repro": {
+    "seed": 1337,
+    "ct_sha256": "eea813570c7f1fd3b34674e47b5c3da8948026f5cefee612a0b38ffaa515ceab"
+  }
+}

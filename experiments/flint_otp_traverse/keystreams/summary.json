@@ -1,0 +1,18 @@
+{
+  "tables_processed": 10,
+  "total_keystreams": 1000,
+  "families_used": [
+    "F1",
+    "F2",
+    "F3",
+    "F4",
+    "F5",
+    "F6"
+  ],
+  "streams_per_table": [
+    "row_major",
+    "col_major",
+    "diagonal_main",
+    "diagonal_anti"
+  ]
+}

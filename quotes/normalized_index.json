@@ -1,0 +1,10 @@
+{
+  "angle_definition": "angle_definition.json",
+  "candidates": [
+    "candidate_A.json",
+    "candidate_B.json",
+    "candidate_C.json",
+    "candidate_D.json",
+    "candidate_E.json"
+  ]
+}

@@ -1,0 +1,55 @@
+{
+  "id": "HSH-1989-11-09T18:53-Bzones-true_ne_plus-S-Swap-off_alpha_round-phase41",
+  "datetime_local": "1989-11-09T18:53:00+01:00",
+  "shadow": {
+    "sun_alt": -66.19,
+    "sun_az": 154.26,
+    "shadow_angle": 90.0,
+    "shadow_bearing": 334.26,
+    "mask_type": "Bzones"
+  },
+  "base_params": {
+    "L": 62,
+    "phase": 41,
+    "offset": 18,
+    "source": "true_ne_plus"
+  },
+  "zone_profiles": [
+    {
+      "state": "light",
+      "family": "vigenere",
+      "L": 62,
+      "offset": 18,
+      "phase": 41
+    },
+    {
+      "state": "shadow",
+      "family": "beaufort",
+      "L": 32,
+      "offset": 4,
+      "phase": 41
+    }
+  ],
+  "config": "S-Swap",
+  "anchors": {
+    "preserved": false,
+    "failures": [
+      "EAST: Expected 'EAST' at 21-24, got 'NIDA'",
+      "NORTHEAST: Expected 'NORTHEAST' at 25-33, got 'GHJINVSLM'",
+      "BERLIN: Expected 'BERLIN' at 63-68, got 'BLBGTU'"
+    ]
+  },
+  "plaintext_head_0_20": "THZTRYQAJJXHSCHLPTYZ",
+  "metrics": {
+    "vowel_ratio": 0.05,
+    "max_consonant_run": 12,
+    "dict_words_3plus": [],
+    "survey_terms": [],
+    "bigram_score": 0.053,
+    "head_text": "THZTRYQAJJXHSCHLPTYZ"
+  },
+  "repro": {
+    "seed": 1337,
+    "ct_sha256": "eea813570c7f1fd3b34674e47b5c3da8948026f5cefee612a0b38ffaa515ceab"
+  }
+}

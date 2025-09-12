@@ -1,0 +1,38 @@
+{
+  "id": "DT14-ABSC-NORT-7-BEAU-KRYP-dt_first",
+  "config": {
+    "key1": "ABSCISSA",
+    "key2": "NORTHEAST",
+    "cols1": 7,
+    "cols2": 7,
+    "name": "ABSC-NORT-7"
+  },
+  "chain_type": "beaufort",
+  "chain_key": "KRYPTOS",
+  "order": "dt_first",
+  "anchors": {
+    "preserved": false,
+    "failures": [
+      "EAST: Expected 'EAST' at 21-24, got 'JTDW'",
+      "NORTHEAST: Expected 'NORTHEAST' at 25-33, got 'GSBWVIGBI'",
+      "BERLIN: Expected 'BERLIN' at 63-68, got 'FAIASJ'",
+      "CLOCK: Expected 'CLOCK' at 69-73, got 'SXCFD'"
+    ]
+  },
+  "plaintext_head": "QXOPZIENLEOZEEOGDZSGK",
+  "plaintext_full": null,
+  "metrics": {
+    "vowel_ratio": 0.38,
+    "max_consonant_run": 6,
+    "four_letter_words": [],
+    "word_count": 2,
+    "bigram_score": 3,
+    "bigram_improvement": 2.38,
+    "head_text": "QXOPZIENLEOZEEOGDZSGK"
+  },
+  "accepted": false,
+  "repro": {
+    "seed": 1337,
+    "ct_sha256": "eea813570c7f1fd3b34674e47b5c3da8948026f5cefee612a0b38ffaa515ceab"
+  }
+}

@@ -1,0 +1,57 @@
+{
+  "id": "SShadow-1990-11-03T14:00-Azones_theta30-true_ne_plus-P_Light-round_round",
+  "datetime_local": "1990-11-03T14:00:00-05:00",
+  "shadow": {
+    "sun_alt": 29.3,
+    "sun_az": 33.0,
+    "shadow_angle": 60.7,
+    "shadow_bearing": 213.0,
+    "mask_type": "Azones_theta30",
+    "mask_file": "masks/1990-11-03T14:00_Azones_theta30.json"
+  },
+  "base_params": {
+    "bearing": 61.6959,
+    "L_variant": "round_round",
+    "L": 62,
+    "phase": 41,
+    "offset": 18
+  },
+  "profile": "P_Light",
+  "per_index_applied": "logged:true@results/applied/SShadow-1990-11-03T14:00-Azones_theta30-true_ne_plus-P_Light-round_round.json",
+  "anchors": {
+    "EAST": [
+      21,
+      24,
+      false
+    ],
+    "NORTHEAST": [
+      25,
+      33,
+      false
+    ],
+    "BERLIN": [
+      63,
+      68,
+      false
+    ],
+    "CLOCK": [
+      69,
+      73,
+      false
+    ]
+  },
+  "plaintext_head_0_20": "BNVBDWEULLXNCSNJFBWVP",
+  "metrics": {
+    "vowel_ratio": 0.1,
+    "max_consonant_run": 13,
+    "survey_terms_found": [],
+    "bigram_score": 2,
+    "head_text": "BNVBDWEULLXNCSNJFBWVP"
+  },
+  "controls": {},
+  "repro": {
+    "seed": 1337,
+    "ct_sha256": "eea813570c7f1fd3b34674e47b5c3da8948026f5cefee612a0b38ffaa515ceab"
+  },
+  "notes": ""
+}

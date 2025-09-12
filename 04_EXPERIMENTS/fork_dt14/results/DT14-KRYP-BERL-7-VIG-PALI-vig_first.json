@@ -1,0 +1,38 @@
+{
+  "id": "DT14-KRYP-BERL-7-VIG-PALI-vig_first",
+  "config": {
+    "key1": "KRYPTOS",
+    "key2": "BERLINCLOCK",
+    "cols1": 7,
+    "cols2": 7,
+    "name": "KRYP-BERL-7"
+  },
+  "chain_type": "vigenere",
+  "chain_key": "PALIMPSEST",
+  "order": "vig_first",
+  "anchors": {
+    "preserved": false,
+    "failures": [
+      "EAST: Expected 'EAST' at 21-24, got 'ZQLU'",
+      "NORTHEAST: Expected 'NORTHEAST' at 25-33, got 'BCRTHUECY'",
+      "BERLIN: Expected 'BERLIN' at 63-68, got 'WVOJHD'",
+      "CLOCK: Expected 'CLOCK' at 69-73, got 'SUPZT'"
+    ]
+  },
+  "plaintext_head": "ZPPFFAZHIQOFFSVHIEEZR",
+  "plaintext_full": null,
+  "metrics": {
+    "vowel_ratio": 0.29,
+    "max_consonant_run": 5,
+    "four_letter_words": [],
+    "word_count": 0,
+    "bigram_score": 2,
+    "bigram_improvement": 1.38,
+    "head_text": "ZPPFFAZHIQOFFSVHIEEZR"
+  },
+  "accepted": false,
+  "repro": {
+    "seed": 1337,
+    "ct_sha256": "eea813570c7f1fd3b34674e47b5c3da8948026f5cefee612a0b38ffaa515ceab"
+  }
+}

@@ -1,0 +1,56 @@
+{
+  "token": "MERIDIAN",
+  "start": 9,
+  "L": 11,
+  "phase": 0,
+  "unknown_before": 73,
+  "unknown_after": 39,
+  "gains": 34,
+  "new_letters_count": 26,
+  "plaintext_head": "COKHGXQM?MERIDIAN????EASTNORTHEAST?????????????????????????????BERLINCLOCK",
+  "plaintext_tail": "?LNQIOBYH????TWVYDUMEUH",
+  "sha_plaintext": "fb0c3e1635a1e97d",
+  "new_constraints": [
+    [
+      3,
+      9,
+      21
+    ],
+    [
+      1,
+      10,
+      16
+    ],
+    [
+      5,
+      0,
+      20
+    ],
+    [
+      0,
+      1,
+      7
+    ],
+    [
+      4,
+      2,
+      11
+    ],
+    [
+      2,
+      3,
+      20
+    ],
+    [
+      3,
+      4,
+      11
+    ],
+    [
+      1,
+      5,
+      21
+    ]
+  ],
+  "master_seed": 1337
+}

@@ -1,0 +1,38 @@
+{
+  "id": "DT14-PALI-WEBS-7-VIG-KRYP-vig_first",
+  "config": {
+    "key1": "PALIMPSEST",
+    "key2": "WEBSTER",
+    "cols1": 7,
+    "cols2": 7,
+    "name": "PALI-WEBS-7"
+  },
+  "chain_type": "vigenere",
+  "chain_key": "KRYPTOS",
+  "order": "vig_first",
+  "anchors": {
+    "preserved": false,
+    "failures": [
+      "EAST: Expected 'EAST' at 21-24, got 'VKEF'",
+      "NORTHEAST: Expected 'NORTHEAST' at 25-33, got 'BIECGIUGG'",
+      "BERLIN: Expected 'BERLIN' at 63-68, got 'AVWJSE'",
+      "CLOCK: Expected 'CLOCK' at 69-73, got 'JYQUV'"
+    ]
+  },
+  "plaintext_head": "HYYKMUJFMEHGBFNIHPFZW",
+  "plaintext_full": null,
+  "metrics": {
+    "vowel_ratio": 0.14,
+    "max_consonant_run": 5,
+    "four_letter_words": [],
+    "word_count": 1,
+    "bigram_score": 0,
+    "bigram_improvement": -0.62,
+    "head_text": "HYYKMUJFMEHGBFNIHPFZW"
+  },
+  "accepted": false,
+  "repro": {
+    "seed": 1337,
+    "ct_sha256": "eea813570c7f1fd3b34674e47b5c3da8948026f5cefee612a0b38ffaa515ceab"
+  }
+}

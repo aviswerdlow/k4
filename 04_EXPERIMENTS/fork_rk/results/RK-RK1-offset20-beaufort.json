@@ -1,0 +1,33 @@
+{
+  "id": "RK-RK1-offset20-beaufort",
+  "key_name": "RK1",
+  "family": "beaufort",
+  "offset": 20,
+  "anchors": {
+    "preserved": false,
+    "failures": [
+      "EAST: Expected 'EAST' at 21-24, got 'DTBY'",
+      "NORTHEAST: Expected 'NORTHEAST' at 25-33, got 'ROYDNHSMW'",
+      "BERLIN: Expected 'BERLIN' at 63-68, got 'NPOYOL'",
+      "CLOCK: Expected 'CLOCK' at 69-73, got 'OCNPD'"
+    ]
+  },
+  "plaintext_head": "MMTCNQDNMXTRDWRAABGSP",
+  "plaintext_full": null,
+  "metrics": {
+    "vowel_ratio": 0.1,
+    "max_consonant_run": 15,
+    "words_found": [
+      "USE",
+      "IN"
+    ],
+    "word_count": 2,
+    "bigram_score": 2,
+    "head_text": "MMTCNQDNMXTRDWRAABGSP"
+  },
+  "controls": {},
+  "repro": {
+    "seed": 1337,
+    "ct_sha256": "eea813570c7f1fd3b34674e47b5c3da8948026f5cefee612a0b38ffaa515ceab"
+  }
+}

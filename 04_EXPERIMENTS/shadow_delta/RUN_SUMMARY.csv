@@ -1,0 +1,5 @@
+id,datetime,mask,base_bearing,anchors_passed,head_text,max_cc_run,survey_terms,profile,notes
+SShadow-1990-11-03T14:00-Azones_theta30-true_ne_plus-P_Light-int_floor,1990-11-03T14:00,Azones_theta30,61.6959,False,COWCEXFVMMYODTOKGCXWQ,6,,P_Light,
+SShadow-1990-11-03T14:00-Azones_theta30-true_ne_plus-P_Light-round_round,1990-11-03T14:00,Azones_theta30,61.6959,False,BNVBDWEULLXNCSNJFBWVP,13,,P_Light,
+SShadow-1990-11-03T14:00-Azones_theta30-true_ene_minus-P_Light-int_floor,1990-11-03T14:00,Azones_theta30,50.8041,False,UGOUWPXNEEQGVLGCYUPOI,7,,P_Light,
+SShadow-1990-11-03T14:00-Azones_theta30-true_ene_minus-P_Light-round_round,1990-11-03T14:00,Azones_theta30,50.8041,False,TFNTVOWMDDPFUKFBXTONH,6,,P_Light,

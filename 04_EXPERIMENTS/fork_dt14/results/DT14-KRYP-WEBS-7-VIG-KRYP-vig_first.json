@@ -1,0 +1,38 @@
+{
+  "id": "DT14-KRYP-WEBS-7-VIG-KRYP-vig_first",
+  "config": {
+    "key1": "KRYPTOS",
+    "key2": "WEBSTER",
+    "cols1": 7,
+    "cols2": 7,
+    "name": "KRYP-WEBS-7"
+  },
+  "chain_type": "vigenere",
+  "chain_key": "KRYPTOS",
+  "order": "vig_first",
+  "anchors": {
+    "preserved": false,
+    "failures": [
+      "EAST: Expected 'EAST' at 21-24, got 'HIHK'",
+      "NORTHEAST: Expected 'NORTHEAST' at 25-33, got 'MZWVOUFBV'",
+      "BERLIN: Expected 'BERLIN' at 63-68, got 'LMYLSO'",
+      "CLOCK: Expected 'CLOCK' at 69-73, got 'IDVWN'"
+    ]
+  },
+  "plaintext_head": "AMEDRBFNGIPFGEGPLCVFG",
+  "plaintext_full": null,
+  "metrics": {
+    "vowel_ratio": 0.19,
+    "max_consonant_run": 7,
+    "four_letter_words": [],
+    "word_count": 0,
+    "bigram_score": 1,
+    "bigram_improvement": 0.38,
+    "head_text": "AMEDRBFNGIPFGEGPLCVFG"
+  },
+  "accepted": false,
+  "repro": {
+    "seed": 1337,
+    "ct_sha256": "eea813570c7f1fd3b34674e47b5c3da8948026f5cefee612a0b38ffaa515ceab"
+  }
+}

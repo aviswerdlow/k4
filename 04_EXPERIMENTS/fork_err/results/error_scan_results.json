@@ -1,0 +1,67 @@
+[
+  {
+    "position": 14,
+    "original": "O",
+    "new": "A",
+    "method": "vigenere",
+    "key": "PALIMPSEST",
+    "score": 20.0,
+    "anchors": 0,
+    "all_anchors": false,
+    "plaintext_head": "ZBZJIZFKOOFLQKOWQBJIH",
+    "improvement": 15.0,
+    "baseline": 5.0
+  },
+  {
+    "position": 14,
+    "original": "O",
+    "new": "G",
+    "method": "vigenere",
+    "key": "PALIMPSEST",
+    "score": 20.0,
+    "anchors": 0,
+    "all_anchors": false,
+    "plaintext_head": "ZBZJIZFKOOFLQKUWQBJIH",
+    "improvement": 15.0,
+    "baseline": 5.0
+  },
+  {
+    "position": 14,
+    "original": "O",
+    "new": "M",
+    "method": "vigenere",
+    "key": "PALIMPSEST",
+    "score": 20.0,
+    "anchors": 0,
+    "all_anchors": false,
+    "plaintext_head": "ZBZJIZFKOOFLQKAWQBJIH",
+    "improvement": 15.0,
+    "baseline": 5.0
+  },
+  {
+    "position": 14,
+    "original": "O",
+    "new": "Q",
+    "method": "vigenere",
+    "key": "PALIMPSEST",
+    "score": 20.0,
+    "anchors": 0,
+    "all_anchors": false,
+    "plaintext_head": "ZBZJIZFKOOFLQKEWQBJIH",
+    "improvement": 15.0,
+    "baseline": 5.0
+  },
+  {
+    "position": 14,
+    "original": "O",
+    "new": "U",
+    "method": "vigenere",
+    "key": "PALIMPSEST",
+    "score": 20.0,
+    "anchors": 0,
+    "all_anchors": false,
+    "plaintext_head": "ZBZJIZFKOOFLQKIWQBJIH",
+    "improvement": 15.0,
+    "baseline": 5.0
+  }
+]
