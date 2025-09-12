@@ -1,0 +1,10 @@
+{
+  "mechanism": "C5_YAR_RIP_Markers",
+  "total_tests": 28,
+  "best_config": "boundary_21_family_flip",
+  "best_unknown_count": 50,
+  "baseline_unknown_count": 50,
+  "success": false,
+  "boundaries_tested": 7,
+  "conclusion": "No boundary mechanism reduced unknowns"
+}

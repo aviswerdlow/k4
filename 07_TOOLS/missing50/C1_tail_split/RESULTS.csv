@@ -1,0 +1,12 @@
+variant_id,derived_count,unknown_count,closure,notes
+family_flip_class_0,47,50,False,Flipped family for class 0 in tail
+family_flip_class_1,47,50,False,Flipped family for class 1 in tail
+family_flip_class_2,47,50,False,Flipped family for class 2 in tail
+family_flip_class_3,47,50,False,Flipped family for class 3 in tail
+family_flip_class_4,47,50,False,Flipped family for class 4 in tail
+family_flip_class_5,47,50,False,Flipped family for class 5 in tail
+tail_period_11,47,50,False,Tail period L=11
+tail_period_13,47,50,False,Tail period L=13
+tail_period_15,47,50,False,Tail period L=15
+tail_transpose_w11,47,50,False,Tail transposition width 11
+tail_transpose_w15,47,50,False,Tail transposition width 15

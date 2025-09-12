@@ -1,0 +1,26 @@
+{
+  "mechanism": "F3-multi-anchor",
+  "selected_candidates": [
+    {
+      "token": "MERIDIAN",
+      "start": 8,
+      "gains": 34
+    }
+  ],
+  "cumulative_L11_unknown_after": 65,
+  "cumulative_gains": 34,
+  "slots_used": 8,
+  "indices_written": {
+    "8": "MERIDIAN@8",
+    "9": "MERIDIAN@8",
+    "10": "MERIDIAN@8",
+    "11": "MERIDIAN@8",
+    "12": "MERIDIAN@8",
+    "13": "MERIDIAN@8",
+    "14": "MERIDIAN@8",
+    "15": "MERIDIAN@8"
+  },
+  "plaintext_head": "????????MERIDIAN?????EASTNORTHEAST?????????????????????????????BERLINCLOCK",
+  "plaintext_tail": "???????????????????????",
+  "master_seed": 1337
+}

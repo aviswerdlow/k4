@@ -1,0 +1,12 @@
+anchors_preserved,config,derived_count,reduction,test_id,unknown_count
+True,7×14 grid reshape,56,9,grid_7x14,41
+True,14×7 grid reshape,47,0,grid_14x7,50
+False,13×8 grid reshape,83,36,grid_13x8,14
+True,8×13 grid reshape,47,0,grid_8x13,50
+True,11×9 grid reshape,58,11,grid_11x9,39
+True,"Hill 2×2, matrix=identity",97,50,hill_2x2_identity,0
+True,"Hill 2×2, matrix=simple1",97,50,hill_2x2_simple1,0
+True,"Hill 2×2, matrix=simple2",97,50,hill_2x2_simple2,0
+True,"Playfair variant, key=KRYPTOS",97,50,playfair_kryptos,0
+True,"Playfair variant, key=SANBORN",97,50,playfair_sanborn,0
+True,"Playfair variant, key=LANGLEY",97,50,playfair_langley,0

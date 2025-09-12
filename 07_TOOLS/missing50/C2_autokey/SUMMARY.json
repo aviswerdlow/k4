@@ -1,0 +1,85 @@
+{
+  "master_seed": 1337,
+  "total_variants_tested": 11,
+  "closures_found": 3,
+  "best_derived_count": 97,
+  "results": [
+    {
+      "variant_id": "autokey_start_0",
+      "derived_count": 76,
+      "unknown_count": 21,
+      "closure": false,
+      "notes": "Autokey starting at position 0"
+    },
+    {
+      "variant_id": "autokey_start_21",
+      "derived_count": 76,
+      "unknown_count": 21,
+      "closure": false,
+      "notes": "Autokey starting at position 21"
+    },
+    {
+      "variant_id": "autokey_start_34",
+      "derived_count": 76,
+      "unknown_count": 21,
+      "closure": false,
+      "notes": "Autokey starting at position 34"
+    },
+    {
+      "variant_id": "autokey_start_74",
+      "derived_count": 47,
+      "unknown_count": 50,
+      "closure": false,
+      "notes": "Autokey starting at position 74"
+    },
+    {
+      "variant_id": "autokey_delay_1",
+      "derived_count": 76,
+      "unknown_count": 21,
+      "closure": false,
+      "notes": "Autokey with delay=1"
+    },
+    {
+      "variant_id": "autokey_delay_2",
+      "derived_count": 76,
+      "unknown_count": 21,
+      "closure": false,
+      "notes": "Autokey with delay=2"
+    },
+    {
+      "variant_id": "autokey_delay_5",
+      "derived_count": 76,
+      "unknown_count": 21,
+      "closure": false,
+      "notes": "Autokey with delay=5"
+    },
+    {
+      "variant_id": "autokey_delay_10",
+      "derived_count": 76,
+      "unknown_count": 21,
+      "closure": false,
+      "notes": "Autokey with delay=10"
+    },
+    {
+      "variant_id": "running_key_KRYPTOS",
+      "derived_count": 97,
+      "unknown_count": 0,
+      "closure": true,
+      "notes": "Running key pattern: KRYPTOS"
+    },
+    {
+      "variant_id": "running_key_PALIMPS",
+      "derived_count": 97,
+      "unknown_count": 0,
+      "closure": true,
+      "notes": "Running key pattern: PALIMPSEST"
+    },
+    {
+      "variant_id": "running_key_ABCDEFG",
+      "derived_count": 97,
+      "unknown_count": 0,
+      "closure": true,
+      "notes": "Running key pattern: ABCDEFGHIJKLMNOPQ"
+    }
+  ]
+}

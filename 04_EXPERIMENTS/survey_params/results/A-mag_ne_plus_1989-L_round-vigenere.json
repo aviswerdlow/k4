@@ -1,0 +1,47 @@
+{
+  "id": "A-mag_ne_plus_1989-L_round-vigenere",
+  "family": "vigenere",
+  "stages": [
+    {
+      "name": "stage1",
+      "type": "none",
+      "params": {}
+    },
+    {
+      "name": "stage2",
+      "type": "vigenere",
+      "params": {
+        "L": 60,
+        "phase": 0,
+        "offset": 15
+      }
+    }
+  ],
+  "parameter_source": {
+    "bearing_deg": 59.5959,
+    "bearing_name": "mag_ne_plus_1989"
+  },
+  "results": {
+    "anchors_preserved": false,
+    "anchor_failures": [
+      "EAST: Expected 'EAST' at 21-24, got 'VAFI'",
+      "NORTHEAST: Expected 'NORTHEAST' at 25-33, got 'CBZAVNQXW'",
+      "BERLIN: Expected 'BERLIN' at 63-68, got 'VFVAXW'",
+      "CLOCK: Expected 'CLOCK' at 69-73, got 'OAFOI'"
+    ],
+    "plaintext_head_0_20": "ZLTZBUCSJJVLAQLHDZUT",
+    "readability": {
+      "vowel_ratio": 0.15,
+      "max_consonant_run": 6,
+      "dict_words_3plus": [],
+      "bigram_score": 0.0
+    },
+    "survey_terms_found": [],
+    "notes": ""
+  },
+  "repro": {
+    "seed": 1337,
+    "ct_sha256": "eea813570c7f1fd3b34674e47b5c3da8948026f5cefee612a0b38ffaa515ceab",
+    "code_version": "667611a8"
+  }
+}

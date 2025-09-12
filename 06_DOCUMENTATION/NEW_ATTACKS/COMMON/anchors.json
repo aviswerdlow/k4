@@ -1,0 +1,29 @@
+{
+  "anchors": [
+    {
+      "name": "EAST",
+      "start": 21,
+      "end": 24,
+      "text": "EAST"
+    },
+    {
+      "name": "NORTHEAST", 
+      "start": 25,
+      "end": 33,
+      "text": "NORTHEAST"
+    },
+    {
+      "name": "BERLIN",
+      "start": 63,
+      "end": 68,
+      "text": "BERLIN"
+    },
+    {
+      "name": "CLOCK",
+      "start": 69,
+      "end": 73,
+      "text": "CLOCK"
+    }
+  ],
+  "total_positions": 24
+}

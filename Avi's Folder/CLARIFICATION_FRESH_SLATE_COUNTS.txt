@@ -1,0 +1,47 @@
+CLARIFICATION ON FRESH-SLATE DERIVATION COUNTS
+==============================================
+
+The fresh-slate K4 derivation with L=17 and four anchors produces:
+- 24 derived positions 
+- 73 unknown positions
+
+This is CORRECT and here's why:
+
+1. PERIOD AND SLOT MECHANICS
+   - All 6 classes use period L=17
+   - With 97 total positions, each class has ~16-17 indices
+   - Since 97/6 ≈ 16.2 < 17, each slot appears AT MOST ONCE per class
+   - No slot reuse means no additional propagation
+
+2. ANCHOR FORCING
+   - EAST (21-24): Forces 4 slots across classes
+   - NORTHEAST (25-33): Forces 9 slots across classes  
+   - BERLIN (63-68): Forces 6 slots across classes
+   - CLOCK (69-73): Forces 5 slots across classes
+   - Total: 24 unique slots forced across all wheels
+
+3. DERIVATION COUNT
+   - Each forced slot determines exactly 1 position (no reuse with L=17)
+   - 24 forced slots = 24 derived positions
+   - 97 - 24 = 73 unknown positions
+
+4. WHY NOT 71 DERIVED?
+   The "71 derived" figure would require either:
+   - A smaller period (e.g., L=11) causing slot reuse, OR
+   - Additional information beyond the 4 anchors (like the tail)
+   
+   With L=17 (as in the actual solution), 4 anchors alone give 24 derived.
+
+5. WHAT THIS PROVES
+   - The derivation is purely algebraic - no guessing
+   - Only positions with forced wheel slots can be derived
+   - The remaining 73 positions need additional information (the tail)
+   - This demonstrates the cryptographic necessity of the tail
+
+The fresh-slate runs correctly show:
+- RUN_A (no cribs): 0 derived, 97 unknown
+- RUN_B (EAST only): 4 derived, 93 unknown  
+- RUN_C (EAST+NORTHEAST): 13 derived, 84 unknown
+- RUN_D (four anchors): 24 derived, 73 unknown
+
+These numbers are mathematically correct for L=17 with the given cribs.

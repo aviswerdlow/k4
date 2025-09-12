@@ -1,0 +1,49 @@
+{
+  "id": "E-angle135-chord",
+  "family": "beaufort",
+  "stages": [
+    {
+      "name": "stage1",
+      "type": "none",
+      "params": {}
+    },
+    {
+      "name": "stage2",
+      "type": "beaufort",
+      "params": {
+        "L": 97,
+        "phase": 0,
+        "offset": 2
+      }
+    }
+  ],
+  "parameter_source": {
+    "angle_deg": 135.0,
+    "arc_length": 2.356194490192345,
+    "chord": 1.8477590650225735,
+    "sector": 0.375
+  },
+  "results": {
+    "anchors_preserved": false,
+    "anchor_failures": [
+      "EAST: Expected 'EAST' at 21-24, got 'SNIF'",
+      "NORTHEAST: Expected 'NORTHEAST' at 25-33, got 'LMONSAXQR'",
+      "BERLIN: Expected 'BERLIN' at 63-68, got 'AQAVYZ'",
+      "CLOCK: Expected 'CLOCK' at 69-73, got 'HVQHN'"
+    ],
+    "plaintext_head_0_20": "OCUOMTLVEESCNXCGKOTU",
+    "readability": {
+      "vowel_ratio": 0.35,
+      "max_consonant_run": 7,
+      "dict_words_3plus": [],
+      "bigram_score": 0.105
+    },
+    "survey_terms_found": [],
+    "notes": ""
+  },
+  "repro": {
+    "seed": 1337,
+    "ct_sha256": "eea813570c7f1fd3b34674e47b5c3da8948026f5cefee612a0b38ffaa515ceab",
+    "code_version": "667611a8"
+  }
+}

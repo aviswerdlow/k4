@@ -1,0 +1,33 @@
+{
+  "id": "RK-RK3-offset15-variant_beaufort",
+  "key_name": "RK3",
+  "family": "variant_beaufort",
+  "offset": 15,
+  "anchors": {
+    "preserved": false,
+    "failures": [
+      "EAST: Expected 'EAST' at 21-24, got 'XDRB'",
+      "NORTHEAST: Expected 'NORTHEAST' at 25-33, got 'UTTSEOCLZ'",
+      "BERLIN: Expected 'BERLIN' at 63-68, got 'QMDMPT'",
+      "CLOCK: Expected 'CLOCK' at 69-73, got 'KVFHB'"
+    ]
+  },
+  "plaintext_head": "MTVFQZVHNLLPNSWYATGQW",
+  "plaintext_full": null,
+  "metrics": {
+    "vowel_ratio": 0.05,
+    "max_consonant_run": 16,
+    "words_found": [
+      "IN",
+      "AT"
+    ],
+    "word_count": 2,
+    "bigram_score": 2,
+    "head_text": "MTVFQZVHNLLPNSWYATGQW"
+  },
+  "controls": {},
+  "repro": {
+    "seed": 1337,
+    "ct_sha256": "eea813570c7f1fd3b34674e47b5c3da8948026f5cefee612a0b38ffaa515ceab"
+  }
+}

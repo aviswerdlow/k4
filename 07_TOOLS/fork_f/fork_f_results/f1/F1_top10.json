@@ -1,0 +1,72 @@
+[
+  {
+    "token": "MERIDIAN",
+    "position": "34-41",
+    "mechanism": "polyalpha_vigenere_L11_p4",
+    "gain": 21,
+    "slots_forced": 32
+  },
+  {
+    "token": "MERIDIAN",
+    "position": "34-41",
+    "mechanism": "polyalpha_beaufort_L11_p4",
+    "gain": 21,
+    "slots_forced": 32
+  },
+  {
+    "token": "MERIDIAN",
+    "position": "34-41",
+    "mechanism": "polyalpha_variant-beaufort_L11_p4",
+    "gain": 21,
+    "slots_forced": 32
+  },
+  {
+    "token": "TRAVERSE",
+    "position": "34-41",
+    "mechanism": "polyalpha_vigenere_L11_p4",
+    "gain": 21,
+    "slots_forced": 32
+  },
+  {
+    "token": "TRAVERSE",
+    "position": "34-41",
+    "mechanism": "polyalpha_beaufort_L11_p4",
+    "gain": 21,
+    "slots_forced": 32
+  },
+  {
+    "token": "TRAVERSE",
+    "position": "34-41",
+    "mechanism": "polyalpha_variant-beaufort_L11_p4",
+    "gain": 21,
+    "slots_forced": 32
+  },
+  {
+    "token": "NORTHING",
+    "position": "34-41",
+    "mechanism": "polyalpha_vigenere_L11_p4",
+    "gain": 21,
+    "slots_forced": 32
+  },
+  {
+    "token": "NORTHING",
+    "position": "34-41",
+    "mechanism": "polyalpha_beaufort_L11_p4",
+    "gain": 21,
+    "slots_forced": 32
+  },
+  {
+    "token": "NORTHING",
+    "position": "34-41",
+    "mechanism": "polyalpha_variant-beaufort_L11_p4",
+    "gain": 21,
+    "slots_forced": 32
+  },
+  {
+    "token": "MERIDIAN",
+    "position": "55-62",
+    "mechanism": "polyalpha_vigenere_L11_p7",
+    "gain": 21,
+    "slots_forced": 32
+  }
+]

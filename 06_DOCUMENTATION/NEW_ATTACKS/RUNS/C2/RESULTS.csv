@@ -1,0 +1,5 @@
+anchors_preserved,chi_squares,config,correlations,derived_count,reduction,tag_count,test_id,unknown_count
+True,"{'raised': {'chi2': np.float64(0.207414893617021), 'p_value': np.float64(0.6488011732201622), 'correlation': 'not significant'}, 'recessed': {'chi2': np.float64(0.0), 'p_value': np.float64(1.0), 'correlation': 'not significant'}, 'patina': {'chi2': np.float64(0.0), 'p_value': np.float64(1.0), 'correlation': 'not significant'}}",chi-square analysis,"{'raised': {'overlap_count': 17, 'overlap_pct': 34.0, 'tag_count': 30}, 'recessed': {'overlap_count': 13, 'overlap_pct': 26.0, 'tag_count': 25}, 'patina': {'overlap_count': 10, 'overlap_pct': 20.0, 'tag_count': 20}}",47,0,,correlation_scan,50
+False,,Family flip for raised positions,,47,0,30,physical_raised_flip,50
+False,,Family flip for recessed positions,,47,0,25,physical_recessed_flip,50
+False,,Family flip for patina positions,,47,0,20,physical_patina_flip,50

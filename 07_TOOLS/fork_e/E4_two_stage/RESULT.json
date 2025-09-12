@@ -1,0 +1,8 @@
+{
+  "test": "Two-stage substitution + transposition",
+  "patterns_tested": 12,
+  "best_match": "rail_fence",
+  "best_params": "rails=5",
+  "best_rate": 0.10638297872340426,
+  "conclusion": "No transposition detected"
+}

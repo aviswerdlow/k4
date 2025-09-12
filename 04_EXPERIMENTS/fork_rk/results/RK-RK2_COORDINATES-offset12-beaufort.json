@@ -1,0 +1,32 @@
+{
+  "id": "RK-RK2_COORDINATES-offset12-beaufort",
+  "key_name": "RK2_COORDINATES",
+  "family": "beaufort",
+  "offset": 12,
+  "anchors": {
+    "preserved": false,
+    "failures": [
+      "EAST: Expected 'EAST' at 21-24, got 'SIQN'",
+      "NORTHEAST: Expected 'NORTHEAST' at 25-33, got 'BDJNVAXBL'",
+      "BERLIN: Expected 'BERLIN' at 63-68, got 'AVQNCL'",
+      "CLOCK: Expected 'CLOCK' at 69-73, got 'GFXZD'"
+    ]
+  },
+  "plaintext_head": "FGYBCMVTCLRPRBYTKNZFI",
+  "plaintext_full": null,
+  "metrics": {
+    "vowel_ratio": 0.05,
+    "max_consonant_run": 20,
+    "words_found": [
+      "IN"
+    ],
+    "word_count": 1,
+    "bigram_score": 4,
+    "head_text": "FGYBCMVTCLRPRBYTKNZFI"
+  },
+  "controls": {},
+  "repro": {
+    "seed": 1337,
+    "ct_sha256": "eea813570c7f1fd3b34674e47b5c3da8948026f5cefee612a0b38ffaa515ceab"
+  }
+}

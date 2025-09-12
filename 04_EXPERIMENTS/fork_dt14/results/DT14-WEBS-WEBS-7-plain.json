@@ -1,0 +1,38 @@
+{
+  "id": "DT14-WEBS-WEBS-7-plain",
+  "config": {
+    "key1": "WEBSTER",
+    "key2": "WEBSTER",
+    "cols1": 7,
+    "cols2": 7,
+    "name": "WEBS-WEBS-7"
+  },
+  "chain_type": "none",
+  "chain_key": null,
+  "order": null,
+  "anchors": {
+    "preserved": false,
+    "failures": [
+      "EAST: Expected 'EAST' at 21-24, got 'BADG'",
+      "NORTHEAST: Expected 'NORTHEAST' at 25-33, got 'UIFTFMNPK'",
+      "BERLIN: Expected 'BERLIN' at 63-68, got 'PRBRQO'",
+      "CLOCK: Expected 'CLOCK' at 69-73, got 'OSWIH'"
+    ]
+  },
+  "plaintext_head": "LGDAJUUAIOUKBWQKOLVUX",
+  "plaintext_full": null,
+  "metrics": {
+    "vowel_ratio": 0.43,
+    "max_consonant_run": 5,
+    "four_letter_words": [],
+    "word_count": 1,
+    "bigram_score": 0,
+    "bigram_improvement": -0.62,
+    "head_text": "LGDAJUUAIOUKBWQKOLVUX"
+  },
+  "accepted": false,
+  "repro": {
+    "seed": 1337,
+    "ct_sha256": "eea813570c7f1fd3b34674e47b5c3da8948026f5cefee612a0b38ffaa515ceab"
+  }
+}

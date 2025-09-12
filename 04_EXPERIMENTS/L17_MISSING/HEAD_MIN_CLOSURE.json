@@ -1,0 +1,7 @@
+{
+  "strategy": "greedy",
+  "k": 50,
+  "derived_count": 97,
+  "closed": true,
+  "sha_match": true
+}

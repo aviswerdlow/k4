@@ -1,0 +1,85 @@
+{
+  "master_seed": 1337,
+  "total_variants_tested": 11,
+  "closures_found": 0,
+  "best_derived_count": 47,
+  "results": [
+    {
+      "variant_id": "family_flip_class_0",
+      "derived_count": 47,
+      "unknown_count": 50,
+      "closure": false,
+      "notes": "Flipped family for class 0 in tail"
+    },
+    {
+      "variant_id": "family_flip_class_1",
+      "derived_count": 47,
+      "unknown_count": 50,
+      "closure": false,
+      "notes": "Flipped family for class 1 in tail"
+    },
+    {
+      "variant_id": "family_flip_class_2",
+      "derived_count": 47,
+      "unknown_count": 50,
+      "closure": false,
+      "notes": "Flipped family for class 2 in tail"
+    },
+    {
+      "variant_id": "family_flip_class_3",
+      "derived_count": 47,
+      "unknown_count": 50,
+      "closure": false,
+      "notes": "Flipped family for class 3 in tail"
+    },
+    {
+      "variant_id": "family_flip_class_4",
+      "derived_count": 47,
+      "unknown_count": 50,
+      "closure": false,
+      "notes": "Flipped family for class 4 in tail"
+    },
+    {
+      "variant_id": "family_flip_class_5",
+      "derived_count": 47,
+      "unknown_count": 50,
+      "closure": false,
+      "notes": "Flipped family for class 5 in tail"
+    },
+    {
+      "variant_id": "tail_period_11",
+      "derived_count": 47,
+      "unknown_count": 50,
+      "closure": false,
+      "notes": "Tail period L=11"
+    },
+    {
+      "variant_id": "tail_period_13",
+      "derived_count": 47,
+      "unknown_count": 50,
+      "closure": false,
+      "notes": "Tail period L=13"
+    },
+    {
+      "variant_id": "tail_period_15",
+      "derived_count": 47,
+      "unknown_count": 50,
+      "closure": false,
+      "notes": "Tail period L=15"
+    },
+    {
+      "variant_id": "tail_transpose_w11",
+      "derived_count": 47,
+      "unknown_count": 50,
+      "closure": false,
+      "notes": "Tail transposition width 11"
+    },
+    {
+      "variant_id": "tail_transpose_w15",
+      "derived_count": 47,
+      "unknown_count": 50,
+      "closure": false,
+      "notes": "Tail transposition width 15"
+    }
+  ]
+}

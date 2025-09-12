@@ -1,0 +1,39 @@
+{
+  "mechanism": "F1-anchor-search",
+  "token": "TRUE",
+  "start_index": 55,
+  "family_vector": "B,V,B,V,B,V",
+  "L": 11,
+  "phase": 0,
+  "unknown_before": 73,
+  "unknown_after": 51,
+  "gains": 22,
+  "forced_slots_added": [
+    {
+      "class": 4,
+      "slot": 0,
+      "residue": 16
+    },
+    {
+      "class": 2,
+      "slot": 1,
+      "residue": 9
+    },
+    {
+      "class": 3,
+      "slot": 2,
+      "residue": 6
+    },
+    {
+      "class": 1,
+      "slot": 3,
+      "residue": 18
+    }
+  ],
+  "rejected": false,
+  "reject_reasons": [],
+  "anchors_preserved": true,
+  "sha_ct": "eea813570c7f1fd3",
+  "sha_forced_wheels_before": "251908eeb871c497",
+  "sha_forced_wheels_after": "1bd273998c245234"
+}

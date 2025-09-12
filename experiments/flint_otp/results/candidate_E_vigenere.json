@@ -1,0 +1,19 @@
+{
+  "mode": "flint_as_key",
+  "key_id": "candidate_E",
+  "key_verbatim": "To protract a field according to the preceding rules is preferable to the method of doing it by parallel lines, though",
+  "key_page": 52,
+  "decode_variant": "vigenere",
+  "anchors_preserved": false,
+  "anchor_failures": [
+    "EAST: expected 'EAST', got 'CDEP'",
+    "NORTHEAST: expected 'NORTHEAST', got 'XCWKJRTOQ'",
+    "BERLIN: expected 'BERLIN', got 'URBSFO'",
+    "CLOCK: expected 'CLOCK', got 'JLXCE'"
+  ],
+  "plaintext_sample_0_40": "VNVAGVGOEOUGTODIIDZNFCDEPXCWKJRTOQKQOGKB",
+  "consonant_cluster_5plus": false,
+  "word_hits_head": [],
+  "acceptance": false,
+  "notes": "Surveying, Another method of protracting fields"
+}

@@ -1,0 +1,30 @@
+{
+  "id": "RK-RK_MISSPELL-offset20-vigenere",
+  "key_name": "RK_MISSPELL",
+  "family": "vigenere",
+  "offset": 20,
+  "anchors": {
+    "preserved": false,
+    "failures": [
+      "EAST: Expected 'EAST' at 21-24, got 'OFAB'",
+      "NORTHEAST: Expected 'NORTHEAST' at 25-33, got 'WDMOJOVSB'",
+      "BERLIN: Expected 'BERLIN' at 63-68, got 'NFEXLD'",
+      "CLOCK: Expected 'CLOCK' at 69-73, got 'BFNHW'"
+    ]
+  },
+  "plaintext_head": "KJVRDOEDIZEAHAGXVLOYS",
+  "plaintext_full": null,
+  "metrics": {
+    "vowel_ratio": 0.33,
+    "max_consonant_run": 5,
+    "words_found": [],
+    "word_count": 0,
+    "bigram_score": 2,
+    "head_text": "KJVRDOEDIZEAHAGXVLOYS"
+  },
+  "controls": {},
+  "repro": {
+    "seed": 1337,
+    "ct_sha256": "eea813570c7f1fd3b34674e47b5c3da8948026f5cefee612a0b38ffaa515ceab"
+  }
+}

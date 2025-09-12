@@ -1,0 +1,51 @@
+{
+  "id": "D-mag_5_rods_ne-cols25",
+  "family": "columnar_vigenere",
+  "stages": [
+    {
+      "name": "stage1",
+      "type": "columnar",
+      "params": {
+        "columns": 25
+      }
+    },
+    {
+      "name": "stage2",
+      "type": "vigenere",
+      "params": {
+        "L": 25,
+        "offset": 7
+      }
+    }
+  ],
+  "parameter_source": {
+    "coords": {
+      "dN": 12.726,
+      "dE": 21.688
+    },
+    "distance_m": 25.145982184038864
+  },
+  "results": {
+    "anchors_preserved": false,
+    "anchor_failures": [
+      "EAST: Expected 'EAST' at 21-24, got 'PRTT'",
+      "NORTHEAST: Expected 'NORTHEAST' at 25-33, got 'IEZXPEDHD'",
+      "BERLIN: Expected 'BERLIN' at 63-68, got 'CJWYSO'",
+      "CLOCK: Expected 'CLOCK' at 69-73, got 'CLNTK'"
+    ],
+    "plaintext_head_0_20": "HQVYXNSESPYLXJBUNGYT",
+    "readability": {
+      "vowel_ratio": 0.1,
+      "max_consonant_run": 7,
+      "dict_words_3plus": [],
+      "bigram_score": 0.158
+    },
+    "survey_terms_found": [],
+    "notes": ""
+  },
+  "repro": {
+    "seed": 1337,
+    "ct_sha256": "eea813570c7f1fd3b34674e47b5c3da8948026f5cefee612a0b38ffaa515ceab",
+    "code_version": "667611a8"
+  }
+}

@@ -1,0 +1,9 @@
+{
+  "mechanism": "C4_KRYPTOS_Keyword",
+  "total_tests": 12,
+  "best_config": "KRYPTOS_additive_unknowns",
+  "best_unknown_count": 50,
+  "baseline_unknown_count": 50,
+  "success": false,
+  "conclusion": "KRYPTOS keyword didn't reduce unknowns under constraints"
+}

@@ -103,6 +103,6 @@ This is pure mathematics, not AI-generated code.
 - ✅ CI/CD pipeline configured for continuous verification
 - ✅ Multiple verification methods documented
 - ✅ Hand-verifiable examples provided
-- ✅ Core-hardening v3.1 showing 26 undetermined positions
+- ✅ Core-hardening v3.1 showing 73 undetermined positions with anchors alone
 
 The solution is bulletproof and ready for public scrutiny.

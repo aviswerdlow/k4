@@ -1,0 +1,8 @@
+anchors_preserved,bit_distribution,config,derived_count,distribution,even_odd_ratio,gap_sequence,mean_distance,median_distance,mode_distance,notable_pattern,reduction,test_id,unknown_count,variance
+True,"[0, 29, 20, 23, 24, 25, 24]",7-bit analysis,47,,26:24,,,,,Binary prefix 01 appears 29 times,0,binary_structure,50,
+True,,median threshold=1.0,47,,,....................-............................,,,,"Morse-like: ...(S), .-(A), -...(B)",0,morse_gaps,50,
+True,,mod 5,47,"{0: 11, 1: 10, 2: 10, 3: 9, 4: 10}",,,,,,,0,modular_5,50,0.4
+True,,mod 6,47,"{0: 9, 1: 9, 2: 9, 3: 7, 4: 8, 5: 8}",,,,,,,0,modular_6,50,0.5555555555555556
+True,,mod 7,47,"{0: 7, 1: 7, 2: 7, 3: 7, 4: 7, 5: 7, 6: 8}",,,,,,,0,modular_7,50,0.12244897959183675
+True,,mod 12,47,"{0: 5, 1: 5, 2: 5, 3: 4, 4: 4, 5: 4, 6: 4, 7: 4, 8: 4, 9: 3, 10: 4, 11: 4}",,,,,,,0,modular_12,50,0.3055555555555554
+True,,gap analysis,47,,,,1.2653061224489797,1.0,1,Distance 1 repeats 48 times,0,distance_histogram,50,

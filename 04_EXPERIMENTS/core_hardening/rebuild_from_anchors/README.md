@@ -1,41 +1,35 @@
-# Wheel Reconstruction from Anchors - Proof
+# Rebuild From Anchors Test
 
-## What This Shows
+This experiment demonstrates building cipher wheels from anchor constraints alone, without requiring the full plaintext.
 
-This demonstration proves that K4 wheels **emerge from anchor constraints** - they are NOT "encoding the answer" or acting as a lookup table.
-
-## Key Points
-
-1. **Wheels emerge from anchor constraints**: The residues at anchor slots are forced by the ciphertext and plaintext at those indices
-2. **Residues match the enhanced proof**: All anchor-forced residues exactly match those in `proof_digest_enhanced.json`
-3. **Non-anchor slots are algebraically implied**: The remaining slots are determined by propagation and tail constraints
-4. **No lookup tables**: This is pure anchor forcing + cipher family rules (Vigenère, Beaufort, Variant-Beaufort)
-
-## The Mathematics
-
-Given:
-- Ciphertext at anchor indices
-- Plaintext at anchor indices (EAST, NORTHEAST, BERLIN, CLOCK)
-- Cipher family for each class
-
-We can derive:
-- Key residue K at each anchor position using the appropriate decryption formula
-- These residues propagate through the wheel based on the period (L=17)
-
-## Results
-
-Running `rebuild_from_anchors.py` shows:
-- 24 wheel positions determined directly by anchors
-- 78 wheel positions remain undetermined without the tail
-- 24 plaintext indices covered by anchor propagation
-- 73 plaintext indices require additional information (the tail)
-
-## Verification
-
-To reproduce this proof:
+## Quick Run
 
 ```bash
-python3 01_PUBLISHED/winner_HEAD_0020_v522B/rebuild_from_anchors.py
+# From this directory:
+python3 run.py
 ```
 
-This demonstrates that the solution is cryptographically sound - the wheels are derived from constraints, not reverse-engineered or pre-encoded with the answer.
+## Expected Results
+
+With anchors-only (no plaintext provided):
+- **73 undetermined positions** out of 97 total
+- Determined positions: EAST (21-24), NORTHEAST (25-33), BERLIN (63-68), CLOCK (69-73)
+- All other positions show '?' (undetermined)
+
+## What This Proves
+
+1. The solver uses algebraic constraint propagation, not AI/ML
+2. Only positions algebraically constrained by anchors are determined
+3. No "hallucination" of expected patterns - undetermined means undetermined
+
+## Files Generated
+
+- `wheels.json` - Cipher wheels with partial key residues
+- `derived_plaintext.txt` - Plaintext with '?' for undetermined positions
+- `summary.json` - Statistics on determined vs undetermined positions
+
+## Main Tool
+
+The core implementation is at: `07_TOOLS/rebuild_from_anchors.py`
+
+This runner simply calls that tool with the repository's default inputs.

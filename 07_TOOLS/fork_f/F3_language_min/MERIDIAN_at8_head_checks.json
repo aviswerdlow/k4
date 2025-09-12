@@ -1,0 +1,48 @@
+{
+  "vowel_ratio": 0.3125,
+  "vowel_pass": true,
+  "max_consonant_run": 7,
+  "cluster_pass": true,
+  "bigram_hits": [
+    "ER",
+    "AN"
+  ],
+  "non_token_bigrams": [],
+  "bigram_pass": false,
+  "words_found": [],
+  "word_pass": false,
+  "overall_pass": false,
+  "transposition_check": {
+    "original": {
+      "text": "COKHGXQM",
+      "bigrams": [],
+      "words": []
+    },
+    "reverse": {
+      "text": "MQXGHKOC",
+      "bigrams": [],
+      "words": []
+    },
+    "even_odd": {
+      "text": "CKGQOHXM",
+      "bigrams": [],
+      "words": []
+    },
+    "rotate_left": {
+      "text": "OKHGXQMC",
+      "bigrams": [],
+      "words": []
+    },
+    "rotate_right": {
+      "text": "MCOKHGXQ",
+      "bigrams": [],
+      "words": []
+    },
+    "pairwise": {
+      "text": "OCHKXGMQ",
+      "bigrams": [],
+      "words": []
+    }
+  },
+  "transposition_found": false
+}

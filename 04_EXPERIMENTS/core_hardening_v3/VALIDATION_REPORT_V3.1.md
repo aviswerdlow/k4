@@ -125,7 +125,7 @@ The K4 Core-Hardening v3.1 program conclusively demonstrates:
 
 1. **Uniqueness**: The baseline skeleton pattern is the only feasible solution
 2. **Necessity**: All 22 tail characters are algebraically required
-3. **Determination**: The tail provides essential constraints for 26 undetermined positions
+3. **Determination**: The tail provides essential constraints for 73 undetermined positions
 4. **Integrity**: All cryptographic verifications pass
 
 The solution's mathematical structure is robust, unique, and cryptographically verifiable.

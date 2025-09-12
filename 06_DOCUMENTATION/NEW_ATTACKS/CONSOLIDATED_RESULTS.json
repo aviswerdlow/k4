@@ -1,0 +1,78 @@
+{
+  "timestamp": "2025-09-10T13:36:57.021510",
+  "master_seed": 1337,
+  "mechanisms_tested": 7,
+  "successes": 2,
+  "results": {
+    "C1": {
+      "mechanism": "C1_K3_Connection",
+      "total_tests": 9,
+      "best_config": "L7_overlay_FFFF",
+      "best_unknown_count": 16,
+      "baseline_unknown_count": 50,
+      "success": true,
+      "conclusion": "4\u00d77 structure reduced unknowns to 16"
+    },
+    "C2": {
+      "mechanism": "C2_Physical_Properties",
+      "total_tests": 4,
+      "best_config": "physical_raised_flip",
+      "best_unknown_count": 50,
+      "baseline_unknown_count": 50,
+      "success": false,
+      "data_status": "placeholder",
+      "conclusion": "No physical property correlation found (awaiting real data)"
+    },
+    "C3": {
+      "mechanism": "C3_Morse_Binary",
+      "total_tests": 7,
+      "best_config": null,
+      "best_unknown_count": 97,
+      "baseline_unknown_count": 50,
+      "success": false,
+      "patterns_found": [
+        "Binary prefix 01 appears 29 times",
+        "Morse-like: ...(S), .-(A), -...(B)"
+      ],
+      "conclusion": "Found patterns: Binary prefix 01 appears 29 times, Morse-like: ...(S), .-(A), -...(B)",
+      "recommendation": "Use patterns for C5/C6 segmentation hints if meaningful"
+    },
+    "C4": {
+      "mechanism": "C4_KRYPTOS_Keyword",
+      "total_tests": 12,
+      "best_config": "KRYPTOS_additive_unknowns",
+      "best_unknown_count": 50,
+      "baseline_unknown_count": 50,
+      "success": false,
+      "conclusion": "KRYPTOS keyword didn't reduce unknowns under constraints"
+    },
+    "C5": {
+      "mechanism": "C5_YAR_RIP_Markers",
+      "total_tests": 28,
+      "best_config": "boundary_21_family_flip",
+      "best_unknown_count": 50,
+      "baseline_unknown_count": 50,
+      "success": false,
+      "boundaries_tested": 7,
+      "conclusion": "No boundary mechanism reduced unknowns"
+    },
+    "C6": {
+      "mechanism": "C6_Clock_Arithmetic",
+      "total_tests": 14,
+      "best_config": "mod12_tail_off0",
+      "best_unknown_count": 50,
+      "baseline_unknown_count": 50,
+      "success": false,
+      "conclusion": "No clock-based mechanism reduced unknowns"
+    },
+    "C7": {
+      "mechanism": "C7_Matrix_Approach",
+      "total_tests": 11,
+      "best_config": "hill_2x2_identity",
+      "best_unknown_count": 0,
+      "baseline_unknown_count": 50,
+      "success": true,
+      "conclusion": "Matrix approach reduced unknowns to 0"
+    }
+  }
+}

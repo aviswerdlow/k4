@@ -1,0 +1,44 @@
+{
+  "id": "H-railfence5_beaufort50",
+  "family": "hybrid",
+  "stages": [
+    {
+      "name": "stage1",
+      "type": "rail_fence",
+      "rails": 5
+    },
+    {
+      "name": "stage2",
+      "type": "beaufort",
+      "L": 50,
+      "phase": 48,
+      "offset": 15
+    }
+  ],
+  "parameter_source": {
+    "hybrid": true
+  },
+  "results": {
+    "anchors_preserved": false,
+    "anchor_failures": [
+      "EAST: Expected 'EAST' at 21-24, got 'YSOV'",
+      "NORTHEAST: Expected 'NORTHEAST' at 25-33, got 'QOPISZXZQ'",
+      "BERLIN: Expected 'BERLIN' at 63-68, got 'CXBVVL'",
+      "CLOCK: Expected 'CLOCK' at 69-73, got 'DSMHI'"
+    ],
+    "plaintext_head_0_20": "XZOHCLCNGVGPWJNSHZBB",
+    "readability": {
+      "vowel_ratio": 0.05,
+      "max_consonant_run": 17,
+      "dict_words_3plus": [],
+      "bigram_score": 0.053
+    },
+    "survey_terms_found": [],
+    "notes": ""
+  },
+  "repro": {
+    "seed": 1337,
+    "ct_sha256": "eea813570c7f1fd3b34674e47b5c3da8948026f5cefee612a0b38ffaa515ceab",
+    "code_version": "667611a8"
+  }
+}

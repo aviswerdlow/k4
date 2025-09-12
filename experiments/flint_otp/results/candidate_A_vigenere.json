@@ -1,0 +1,19 @@
+{
+  "mode": "flint_as_key",
+  "key_id": "candidate_A",
+  "key_verbatim": "At the first station A, draw a meridian line and lay off the bearings to the respective angles; draw the stationary line",
+  "key_page": 59,
+  "decode_variant": "vigenere",
+  "anchors_preserved": false,
+  "anchor_failures": [
+    "EAST: expected 'EAST', got 'JLFR'",
+    "NORTHEAST: expected 'NORTHEAST', got 'ZIMJNTZKF'",
+    "BERLIN: expected 'BERLIN', got 'YUNCLY'",
+    "CLOCK: expected 'CLOCK', got 'IZSJZ'"
+  ],
+  "plaintext_sample_0_40": "OIRKQJPXOOCSBZGXVFYKWJLFRZIMJNTZKFKTJQFS",
+  "consonant_cluster_5plus": true,
+  "word_hits_head": [],
+  "acceptance": false,
+  "notes": "Surveying, Case VII: To protract this field"
+}

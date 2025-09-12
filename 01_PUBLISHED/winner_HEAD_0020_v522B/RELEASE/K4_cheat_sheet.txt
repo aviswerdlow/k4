@@ -1,0 +1,88 @@
+K4 SOLUTION CHEAT SHEET - QUICK REFERENCE
+==========================================
+
+THE CLASSING FUNCTION
+--------------------
+class(i) = ((i mod 2) × 3) + (i mod 3)
+
+Results in pattern: 0, 3, 1, 4, 2, 5 (repeating)
+
+CIPHER FAMILIES BY CLASS
+------------------------
+Class 0: Vigenère        P = C - K (mod 26)
+Class 1: Vigenère        P = C - K (mod 26)  
+Class 2: Beaufort        P = K - C (mod 26)
+Class 3: Vigenère        P = C - K (mod 26)
+Class 4: Variant-Beaufort P = C + K (mod 26)
+Class 5: Vigenère        P = C - K (mod 26)
+
+KEY WHEEL PERIOD
+----------------
+All classes use period L = 17
+
+Slot calculation: slot = index mod 17
+
+THE FOUR CRIBS
+--------------
+EAST      (21-24):  FLRV → EAST
+NORTHEAST (25-33):  QQPRNGKSS → NORTHEAST
+BERLIN    (63-68):  YPVTTM → BERLIN
+CLOCK     (69-73):  ZFPKW → CLOCK
+
+QUICK DECRYPTION STEPS
+----------------------
+1. Calculate class: class(i) = ((i mod 2) × 3) + (i mod 3)
+2. Calculate slot: slot = i mod 17
+3. Look up key value for (class, slot) from wheels
+4. Apply cipher formula based on class
+5. Convert number to letter (A=0, B=1, ..., Z=25)
+
+MODULAR ARITHMETIC REMINDERS
+-----------------------------
+Negative results: Add 26 until positive
+Example: -12 mod 26 = 14 (because -12 + 26 = 14)
+
+Letter ↔ Number conversion:
+A=0, B=1, C=2, D=3, E=4, F=5, G=6, H=7, I=8, J=9,
+K=10, L=11, M=12, N=13, O=14, P=15, Q=16, R=17,
+S=18, T=19, U=20, V=21, W=22, X=23, Y=24, Z=25
+
+KEY PROPAGATION
+---------------
+Due to period 17, positions sharing same (class, slot) use same key:
+- Positions i and i+17 share same key
+- Positions i and i+34 share same key
+- Positions i and i+51 share same key
+- etc.
+
+ALGEBRAIC DETERMINATION
+------------------------
+From 4 cribs (22 positions):
+- 24 positions become determined (with L=17, each slot appears once)
+- 73 positions remain undetermined
+
+The tail (positions 75-96) provides additional constraints to complete the wheels.
+
+THE SOLUTION
+------------
+WEAREINTHEGRIDSEETHENEASTNORTHEASTANDWEAREBYTHE
+LINETOSEEBETWEENBERLINCLOCKTHEJOYOFANANGLEISTHEARC
+
+"WE ARE IN THE GRID SEE THE EAST NORTHEAST
+AND WE ARE BY THE LINE TO SEE BETWEEN
+BERLIN CLOCK THE JOY OF AN ANGLE IS THE ARC"
+
+WORKED EXAMPLE: Position 80 (T → O)
+------------------------------------
+1. Class: ((80 mod 2) × 3) + (80 mod 3) = 0 + 2 = 2
+2. Slot: 80 mod 17 = 12
+3. Key: Class 2, Slot 12 = H (value 7)
+4. Cipher: Beaufort, so P = K - C = 7 - 19 = -12 = 14
+5. Result: 14 = O
+
+KEY POINTS
+----------
+• Pure mathematics - no guessing required
+• Algebraic constraint propagation
+• 4 cribs + tail = unique solution
+• Can be verified entirely by hand

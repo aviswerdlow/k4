@@ -1,0 +1,22 @@
+CORE-HARDENING V5 SUMMARY
+=========================
+
+Mathematical Facts (No Language Required):
+------------------------------------------
+• With L=17: Anchors determine 24/97 positions
+• Minimal additional constraints needed: 73
+• Tail (23 positions) covers: 23/73 slots
+• Shortfall: 50 positions beyond tail required
+
+Alternative Mechanisms:
+-----------------------
+• L=15: Only 21 unknowns (tail sufficient)
+• L=20: 49 unknowns (26 beyond tail needed)
+• L=17: 73 unknowns (current hypothesis)
+
+Key Insight:
+------------
+The 1-to-1 mapping under L=17 means no algebraic
+manipulation can reduce the 73 unknown positions.
+This is a hard mathematical constraint, not a
+limitation of our analysis methods.

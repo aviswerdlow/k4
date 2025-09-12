@@ -1,0 +1,47 @@
+{
+  "id": "C-langley_1990-post_caesar",
+  "family": "vigenere_caesar",
+  "stages": [
+    {
+      "name": "stage1",
+      "type": "vigenere",
+      "params": {
+        "L": 61
+      }
+    },
+    {
+      "name": "stage2",
+      "type": "caesar",
+      "params": {
+        "shift": 16
+      }
+    }
+  ],
+  "parameter_source": {
+    "declination": 9.5,
+    "location": "langley_1990"
+  },
+  "results": {
+    "anchors_preserved": false,
+    "anchor_failures": [
+      "EAST: Expected 'EAST' at 21-24, got 'UZEH'",
+      "NORTHEAST: Expected 'NORTHEAST' at 25-33, got 'BAYZUMPWV'",
+      "BERLIN: Expected 'BERLIN' at 63-68, got 'VFVAXW'",
+      "CLOCK: Expected 'CLOCK' at 69-73, got 'OAFOI'"
+    ],
+    "plaintext_head_0_20": "YKSYATBRIIUKZPKGCYTS",
+    "readability": {
+      "vowel_ratio": 0.2,
+      "max_consonant_run": 9,
+      "dict_words_3plus": [],
+      "bigram_score": 0.053
+    },
+    "survey_terms_found": [],
+    "notes": ""
+  },
+  "repro": {
+    "seed": 1337,
+    "ct_sha256": "eea813570c7f1fd3b34674e47b5c3da8948026f5cefee612a0b38ffaa515ceab",
+    "code_version": "667611a8"
+  }
+}

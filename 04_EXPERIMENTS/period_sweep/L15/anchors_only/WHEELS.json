@@ -1,0 +1,134 @@
+{
+  "0": {
+    "family": "beaufort",
+    "L": 15,
+    "phase": 0,
+    "residues": [
+      10,
+      null,
+      null,
+      null,
+      null,
+      null,
+      6,
+      null,
+      null,
+      14,
+      null,
+      null,
+      17,
+      null,
+      null
+    ]
+  },
+  "1": {
+    "family": "vigenere",
+    "L": 15,
+    "phase": 0,
+    "residues": [
+      null,
+      null,
+      null,
+      null,
+      20,
+      null,
+      null,
+      11,
+      null,
+      null,
+      14,
+      null,
+      null,
+      24,
+      null
+    ]
+  },
+  "2": {
+    "family": "beaufort",
+    "L": 15,
+    "phase": 0,
+    "residues": [
+      null,
+      null,
+      10,
+      null,
+      null,
+      null,
+      null,
+      null,
+      6,
+      null,
+      null,
+      4,
+      null,
+      null,
+      null
+    ]
+  },
+  "3": {
+    "family": "vigenere",
+    "L": 15,
+    "phase": 0,
+    "residues": [
+      null,
+      null,
+      null,
+      25,
+      null,
+      null,
+      1,
+      null,
+      null,
+      10,
+      null,
+      null,
+      24,
+      null,
+      null
+    ]
+  },
+  "4": {
+    "family": "beaufort",
+    "L": 15,
+    "phase": 0,
+    "residues": [
+      null,
+      10,
+      null,
+      null,
+      null,
+      null,
+      null,
+      1,
+      null,
+      null,
+      3,
+      null,
+      null,
+      20,
+      null
+    ]
+  },
+  "5": {
+    "family": "vigenere",
+    "L": 15,
+    "phase": 0,
+    "residues": [
+      null,
+      null,
+      null,
+      null,
+      null,
+      24,
+      null,
+      null,
+      25,
+      null,
+      null,
+      17,
+      null,
+      null,
+      6
+    ]
+  }
+}

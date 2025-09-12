@@ -1,0 +1,19 @@
+{
+  "mode": "flint_as_key",
+  "key_id": "candidate_B",
+  "key_verbatim": "Find the bearing from each station to the respective angles; and also the bearing and distance from one station to the",
+  "key_page": 59,
+  "decode_variant": "beaufort",
+  "anchors_preserved": false,
+  "anchor_failures": [
+    "EAST: expected 'EAST', got 'CHCF'",
+    "NORTHEAST: expected 'NORTHEAST', got 'DSZWGIJPM'",
+    "BERLIN: expected 'BERLIN', got 'EKYLHU'",
+    "CLOCK: expected 'CLOCK', got 'REDDJ'"
+  ],
+  "plaintext_sample_0_40": "RHDMZTHNYTXXMORGGHDZGCHCFDSZWGIJPMDLWWOK",
+  "consonant_cluster_5plus": true,
+  "word_hits_head": [],
+  "acceptance": false,
+  "notes": "Surveying, Case VII"
+}

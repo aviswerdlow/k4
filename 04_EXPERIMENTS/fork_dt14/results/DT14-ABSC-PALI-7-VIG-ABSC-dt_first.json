@@ -1,0 +1,38 @@
+{
+  "id": "DT14-ABSC-PALI-7-VIG-ABSC-dt_first",
+  "config": {
+    "key1": "ABSCISSA",
+    "key2": "PALIMPSEST",
+    "cols1": 7,
+    "cols2": 7,
+    "name": "ABSC-PALI-7"
+  },
+  "chain_type": "vigenere",
+  "chain_key": "ABSCISSA",
+  "order": "dt_first",
+  "anchors": {
+    "preserved": false,
+    "failures": [
+      "EAST: Expected 'EAST' at 21-24, got 'EZSG'",
+      "NORTHEAST: Expected 'NORTHEAST' at 25-33, got 'NYHLAHEWJ'",
+      "BERLIN: Expected 'BERLIN' at 63-68, got 'PAEQLL'",
+      "CLOCK: Expected 'CLOCK' at 69-73, got 'UBNSJ'"
+    ]
+  },
+  "plaintext_head": "GNCIPCJLOAQUNYGINVJTL",
+  "plaintext_full": null,
+  "metrics": {
+    "vowel_ratio": 0.24,
+    "max_consonant_run": 5,
+    "four_letter_words": [],
+    "word_count": 1,
+    "bigram_score": 3,
+    "bigram_improvement": 2.38,
+    "head_text": "GNCIPCJLOAQUNYGINVJTL"
+  },
+  "accepted": false,
+  "repro": {
+    "seed": 1337,
+    "ct_sha256": "eea813570c7f1fd3b34674e47b5c3da8948026f5cefee612a0b38ffaa515ceab"
+  }
+}

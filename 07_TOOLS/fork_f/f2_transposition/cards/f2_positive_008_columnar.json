@@ -1,0 +1,22 @@
+{
+  "mechanism": "F2-transposition",
+  "result": "positive",
+  "cipher_type": "columnar",
+  "parameters": {
+    "width": 10
+  },
+  "anchors_match": false,
+  "anchor_violations": [
+    "pos_21_B\u2260E",
+    "pos_22_L\u2260A",
+    "pos_24_S\u2260T",
+    "pos_25_K\u2260N",
+    "pos_26_B\u2260O"
+  ],
+  "polyalpha_compatible": true,
+  "compatible_family": "vigenere",
+  "chain_hypothesis": "columnar \u2192 vigenere",
+  "sha_ct": "eea813570c7f1fd3",
+  "sha_transposed": "f3db142b4bc69888",
+  "master_seed": 1337
+}

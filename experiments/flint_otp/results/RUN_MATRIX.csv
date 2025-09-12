@@ -1,0 +1,11 @@
+candidate,variant,anchors_pass,acceptance,page
+A,vigenere,False,False,59
+A,beaufort,False,False,59
+B,vigenere,False,False,59
+B,beaufort,False,False,59
+C,vigenere,False,False,61
+C,beaufort,False,False,61
+D,vigenere,False,False,18
+D,beaufort,False,False,18
+E,vigenere,False,False,52
+E,beaufort,False,False,52

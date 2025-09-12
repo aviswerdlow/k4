@@ -1,0 +1,32 @@
+{
+  "id": "RK-RK1-offset25-vigenere",
+  "key_name": "RK1",
+  "family": "vigenere",
+  "offset": 25,
+  "anchors": {
+    "preserved": false,
+    "failures": [
+      "EAST: Expected 'EAST' at 21-24, got 'BYXV'",
+      "NORTHEAST: Expected 'NORTHEAST' at 25-33, got 'DOLDIYUHY'",
+      "BERLIN: Expected 'BERLIN' at 63-68, got 'JYODPG'",
+      "CLOCK: Expected 'CLOCK' at 69-73, got 'KVRKZ'"
+    ]
+  },
+  "plaintext_head": "KBJZQBVKSCJDVLVAABJIP",
+  "plaintext_full": null,
+  "metrics": {
+    "vowel_ratio": 0.14,
+    "max_consonant_run": 15,
+    "words_found": [
+      "WE"
+    ],
+    "word_count": 1,
+    "bigram_score": 0,
+    "head_text": "KBJZQBVKSCJDVLVAABJIP"
+  },
+  "controls": {},
+  "repro": {
+    "seed": 1337,
+    "ct_sha256": "eea813570c7f1fd3b34674e47b5c3da8948026f5cefee612a0b38ffaa515ceab"
+  }
+}

@@ -1,0 +1,8 @@
+Index 80:
+  Ciphertext: T (value: 19)
+  Class: 2 (formula: ((80%2)*3)+(80%3))
+  Family: beaufort
+  L: 17, Phase: 0
+  Slot: 12
+  K at slot 12: UNKNOWN (not forced by cribs)
+  Plaintext: ?

@@ -1,0 +1,29 @@
+{
+  "mechanism": "F1_anchor/polyalpha_beaufort_L11_p10",
+  "constraints_in": {
+    "anchors": [
+      "EAST@21-24",
+      "NORTHEAST@25-33",
+      "BERLIN@63-68",
+      "CLOCK@69-73"
+    ],
+    "extras": [
+      "MERIDIAN@13-20"
+    ]
+  },
+  "unknowns_before": 73,
+  "unknowns_after": 52,
+  "anchors_preserved": true,
+  "new_positions_determined": [],
+  "parameters": {
+    "family": "beaufort",
+    "period": 11,
+    "phase": 10,
+    "note": "deterministic, seed=1337"
+  },
+  "receipts": {
+    "ct_sha256": "eea813570c7f1fd3",
+    "policies_sha256": "d427060c5cb0b451",
+    "run_sha256": "c39efa2e2660967f"
+  }
+}

@@ -1,0 +1,13 @@
+{
+  "function": "((i%2)*3)+(i%3)",
+  "description": "Baseline class function producing 6 interleaved tracks",
+  "classes": [0, 1, 2, 3, 4, 5],
+  "families": {
+    "0": "beaufort",
+    "1": "vigenere", 
+    "2": "beaufort",
+    "3": "vigenere",
+    "4": "beaufort",
+    "5": "vigenere"
+  }
+}

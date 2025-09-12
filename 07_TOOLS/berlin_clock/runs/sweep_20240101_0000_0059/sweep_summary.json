@@ -1,0 +1,146 @@
+[
+  {
+    "time": "00:00",
+    "method": "on_off_count_per_row",
+    "reduction": 73,
+    "valid": true
+  },
+  {
+    "time": "00:00",
+    "method": "base5_vector",
+    "reduction": 73,
+    "valid": true
+  },
+  {
+    "time": "00:05",
+    "method": "on_off_count_per_row",
+    "reduction": 73,
+    "valid": true
+  },
+  {
+    "time": "00:05",
+    "method": "base5_vector",
+    "reduction": 73,
+    "valid": true
+  },
+  {
+    "time": "00:10",
+    "method": "on_off_count_per_row",
+    "reduction": 73,
+    "valid": true
+  },
+  {
+    "time": "00:10",
+    "method": "base5_vector",
+    "reduction": 73,
+    "valid": true
+  },
+  {
+    "time": "00:15",
+    "method": "on_off_count_per_row",
+    "reduction": 73,
+    "valid": true
+  },
+  {
+    "time": "00:15",
+    "method": "base5_vector",
+    "reduction": 73,
+    "valid": true
+  },
+  {
+    "time": "00:20",
+    "method": "on_off_count_per_row",
+    "reduction": 73,
+    "valid": true
+  },
+  {
+    "time": "00:20",
+    "method": "base5_vector",
+    "reduction": 73,
+    "valid": true
+  },
+  {
+    "time": "00:25",
+    "method": "on_off_count_per_row",
+    "reduction": 73,
+    "valid": true
+  },
+  {
+    "time": "00:25",
+    "method": "base5_vector",
+    "reduction": 73,
+    "valid": true
+  },
+  {
+    "time": "00:30",
+    "method": "on_off_count_per_row",
+    "reduction": 73,
+    "valid": true
+  },
+  {
+    "time": "00:30",
+    "method": "base5_vector",
+    "reduction": 73,
+    "valid": true
+  },
+  {
+    "time": "00:35",
+    "method": "on_off_count_per_row",
+    "reduction": 73,
+    "valid": true
+  },
+  {
+    "time": "00:35",
+    "method": "base5_vector",
+    "reduction": 73,
+    "valid": true
+  },
+  {
+    "time": "00:40",
+    "method": "on_off_count_per_row",
+    "reduction": 73,
+    "valid": true
+  },
+  {
+    "time": "00:40",
+    "method": "base5_vector",
+    "reduction": 73,
+    "valid": true
+  },
+  {
+    "time": "00:45",
+    "method": "on_off_count_per_row",
+    "reduction": 73,
+    "valid": true
+  },
+  {
+    "time": "00:45",
+    "method": "base5_vector",
+    "reduction": 73,
+    "valid": true
+  },
+  {
+    "time": "00:50",
+    "method": "on_off_count_per_row",
+    "reduction": 73,
+    "valid": true
+  },
+  {
+    "time": "00:50",
+    "method": "base5_vector",
+    "reduction": 73,
+    "valid": true
+  },
+  {
+    "time": "00:55",
+    "method": "on_off_count_per_row",
+    "reduction": 73,
+    "valid": true
+  },
+  {
+    "time": "00:55",
+    "method": "base5_vector",
+    "reduction": 73,
+    "valid": true
+  }
+]

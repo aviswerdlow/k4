@@ -1,0 +1,10 @@
+{
+  "L": 16,
+  "anchor_forced_slots": 19,
+  "conflicts": 5,
+  "derived_anchors_only": 38,
+  "unknown_anchors_only": 59,
+  "tail_forced_slots": 15,
+  "derived_with_tail": 69,
+  "unknown_with_tail": 28
+}

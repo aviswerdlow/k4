@@ -1,0 +1,55 @@
+HOW TO REPRODUCE FORK D RESULTS
+================================
+
+Repository: k4_cli_plus
+MASTER_SEED: 1337 (frozen throughout)
+
+Prerequisites:
+- Python 3.9+
+- numpy, matplotlib
+
+Quick Test:
+-----------
+# From repository root:
+make test-berlin     # Test Berlin Clock simulator
+make berlin-clock-all # Run all Berlin Clock tests
+
+Full Investigation:
+------------------
+1. Berlin Clock (Sanborn's hint):
+   cd 07_TOOLS/berlin_clock
+   python3 berlin_clock_k4_fixed.py
+   # Results in runs_fixed/
+
+2. Tableau Sync:
+   cd 07_TOOLS/tableau_sync
+   python3 tableau_synchronizer.py
+   # Results in output/
+
+3. Physical Analysis:
+   cd 04_EXPERIMENTS/physical_analysis
+   python3 physical_position.py
+   # Results in output/
+
+4. Bearings:
+   cd 07_TOOLS/bearings
+   python3 bearing_analysis.py
+   # Results in output/
+
+Key Files:
+----------
+- FORK_D_REPORT.md - Full investigation report
+- 07_TOOLS/berlin_clock/README.md - Berlin Clock methods explained
+- 07_TOOLS/berlin_clock/METHODS_MANIFEST.json - Frozen constants
+- 07_TOOLS/berlin_clock/runs_fixed/RUN_SUMMARY.csv - All test results
+
+Result Validation:
+-----------------
+python3 validate_result_cards.py fork_d_results
+
+This validates all result cards against the strict schema.
+
+Expected Result:
+---------------
+CLEAN NEGATIVE - No external constraints determine additional positions
+with only 24 anchors constraining 24/102 wheel positions.

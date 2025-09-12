@@ -1,0 +1,10 @@
+test_id,config,derived_count,unknown_count,anchors_preserved,reduction
+period_28,L=28,60,37,True,13
+L7_overlay_FFFF,"L=7, toggles=FFFF",81,16,False,34
+L7_overlay_TFTF,"L=7, toggles=TFTF",81,16,False,34
+L7_overlay_FTFT,"L=7, toggles=FTFT",81,16,False,34
+L7_overlay_TTFF,"L=7, toggles=TTFF",81,16,False,34
+grid_4x7_VVBV,"4×7 grid, families=VVBV",71,26,True,24
+grid_4x7_BVBV,"4×7 grid, families=BVBV",71,26,True,24
+grid_4x7_VBVB,"4×7 grid, families=VBVB",71,26,True,24
+grid_4x7_BBVV,"4×7 grid, families=BBVV",71,26,True,24

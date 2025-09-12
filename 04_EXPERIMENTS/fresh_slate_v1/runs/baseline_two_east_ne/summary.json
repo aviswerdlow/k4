@@ -1,0 +1,14 @@
+{
+  "crib_count": 2,
+  "derived_count": 43,
+  "undetermined_count": 54,
+  "classing": "BASELINE_SIX_TRACK",
+  "families": [
+    "vigenere",
+    "vigenere",
+    "beaufort",
+    "vigenere",
+    "vigenere",
+    "vigenere"
+  ]
+}

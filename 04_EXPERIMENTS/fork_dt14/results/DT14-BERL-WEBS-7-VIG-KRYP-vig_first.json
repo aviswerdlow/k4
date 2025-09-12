@@ -1,0 +1,38 @@
+{
+  "id": "DT14-BERL-WEBS-7-VIG-KRYP-vig_first",
+  "config": {
+    "key1": "BERLINCLOCK",
+    "key2": "WEBSTER",
+    "cols1": 7,
+    "cols2": 7,
+    "name": "BERL-WEBS-7"
+  },
+  "chain_type": "vigenere",
+  "chain_key": "KRYPTOS",
+  "order": "vig_first",
+  "anchors": {
+    "preserved": false,
+    "failures": [
+      "EAST: Expected 'EAST' at 21-24, got 'HJLK'",
+      "NORTHEAST: Expected 'NORTHEAST' at 25-33, got 'MTRABYDRV'",
+      "BERLIN: Expected 'BERLIN' at 63-68, got 'VMYFBO'",
+      "CLOCK: Expected 'CLOCK' at 69-73, got 'IDYYN'"
+    ]
+  },
+  "plaintext_head": "XMEVTBFNWXPFVEZPLJVFG",
+  "plaintext_full": null,
+  "metrics": {
+    "vowel_ratio": 0.1,
+    "max_consonant_run": 10,
+    "four_letter_words": [],
+    "word_count": 0,
+    "bigram_score": 0,
+    "bigram_improvement": -0.62,
+    "head_text": "XMEVTBFNWXPFVEZPLJVFG"
+  },
+  "accepted": false,
+  "repro": {
+    "seed": 1337,
+    "ct_sha256": "eea813570c7f1fd3b34674e47b5c3da8948026f5cefee612a0b38ffaa515ceab"
+  }
+}

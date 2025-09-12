@@ -1,0 +1,12 @@
+Multi-placement consensus for MERIDIAN
+==================================================
+
+idx :  0  1  2  3  4  5  6  7  8  9 10 11 12 13 14 15 16 17 18 19 20 21 22 23
+@ 8 : C O K H G X Q M M E R I D I A N ? ? ? ? ? E A S
+@ 9 : C O K H G X Q M ? M E R I D I A N ? ? ? ? E A S
+@10 : C O K H G X Q M ? ? M E R I D I A N ? ? ? E A S
+@12 : C O K H G X Q M ? ? ? ? M E R I D I A N ? E A S
+cons: C O K H G X Q M M ! ! ! ! ! ! ! ! ! A N • E A S
+
+Words found: []
+Gate 4: FAIL

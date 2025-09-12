@@ -49,8 +49,8 @@ Plaintext indices uncovered: 73
 ======================================================================
 KEY INSIGHTS:
 ======================================================================
-1. Anchors determine 71/97 plaintext positions through algebraic constraints
-2. The remaining 26 positions REQUIRE the tail for unique determination
+1. Anchors determine 24/97 plaintext positions through algebraic constraints
+2. The remaining 73 positions REQUIRE additional information for unique determination
 3. Wheels are NOT 'encoding the answer' - they EMERGE from constraints
 4. This is pure mathematics - no guessing, no heuristics, no AI
 5. The tail provides the missing information to complete the wheels

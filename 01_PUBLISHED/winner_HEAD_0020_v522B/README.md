@@ -44,6 +44,10 @@ With anchor spans indicated:
   - `derivation_parity/` - Hand calculation examples
   - `no_mocks/` - Proof of no mock objects
 - **DOCS/** - Documentation and guides
+  - `K4_By_Hand_Walkthrough.pdf` - Visual 4-page walkthrough with charts and diagrams
+  - `K4_By_Hand_Walkthrough_grayscale.pdf` - Grayscale version for printing
+  - `FIG_*.png` - Individual figure exports from the visual walkthrough
+  - `INDEX.md` - Visual materials index and usage guide
   - `HOW_TO_VERIFY.txt` - Step-by-step verification
   - `LETTER_NUMBER_TABLE.txt` - A=0..Z=25 conversions
   - `FORUM_AUDIT_NOTES.txt` - Forum-ready guide
@@ -78,7 +82,11 @@ python3 rederive_min.py \
   --explain 80
 ```
 
-For pen-and-paper verification, see `HAND_DERIVATION_80-84.txt`.
+For pen-and-paper verification, see:
+- `DOCS/K4_By_Hand_Walkthrough.pdf` — visual 4-page walkthrough with charts and diagrams
+- `DOCS/K4_By_Hand_Walkthrough_grayscale.pdf` — print-friendly grayscale version
+- `PROOFS/derivation_parity/HAND_DERIVATION_80-84.txt` — pen-and-paper strip for indices 80–84
+- `RELEASE/K4_by_hand_walkthrough.pdf` — complete 10-page text-based walkthrough
 
 ## Files
 
@@ -161,3 +169,18 @@ To see the complete wheel configurations with all residues:
 python3 07_TOOLS/validation/print_wheels.py \
   01_PUBLISHED/winner_HEAD_0020_v522B/proof_digest_enhanced.json
 ```
+
+## Forward Encode (PT→CT)
+
+To demonstrate the solution works in the forward direction, encoding plaintext to ciphertext using only the recovered key schedule (without reading the ciphertext):
+
+```bash
+python3 07_TOOLS/forward_encode_min.py \
+  --pt 01_PUBLISHED/winner_HEAD_0020_v522B/plaintext_97.txt \
+  --proof 01_PUBLISHED/winner_HEAD_0020_v522B/proof_digest_enhanced.json \
+  --out /tmp/k4_forward_ct.txt --sha
+```
+
+Expected SHA-256: `eea813570c7f1fd3b34674e47b5c3da8948026f5cefee612a0b38ffaa515ceab`
+
+This proves the recovered key schedule (families, L, phase, residues) correctly encodes the plaintext to produce the K4 ciphertext, working purely in the forward direction without any reference to the ciphertext during encoding.

@@ -26,6 +26,22 @@ This README has two jobs:
 
 **No seam/tail guard.** The tail is **derived by propagation**, not assumed.
 
+---
+
+### **NSA Cue Bridge**
+
+The NSA's analysis of K1-K3 provides crucial precedents for K4:
+
+**K3 Precedent:** Fixed transposition from typographic cues → co-prime dimensions → full coverage  
+**K4 Application:** Fixed classing (baseline formula) + co-prime period (L=17) → each slot appears at most once
+
+This co-prime property explains why:
+- 4 anchors force exactly 24 unique slots
+- These 24 slots derive exactly 24 positions (no slot reuse with 97 positions)
+- The remaining 73 positions require additional information (the tail)
+
+See `06_DOCUMENTATION/K3_NSA_METHOD/` for K3 demonstration and `07_TOOLS/diagnostics/` for K4 co-prime analysis.
+
 ### **Tools & notation**
 
 * Graph paper, pencil, eraser, alphabet strip.
@@ -346,6 +362,9 @@ python3 rederive_min.py \
 ```
 
 This minimal script proves the solution using only modular arithmetic — no libraries, no AI, just math.
+
+For pen-and-paper verification, see:
+- `01_PUBLISHED/winner_HEAD_0020_v522B/PROOFS/derivation_parity/HAND_DERIVATION_80-84.txt` — pen-and-paper strip for indices 80–84
 
 ### **D) Derivation parity (prove the tail is derived, not assumed)**
 

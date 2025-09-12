@@ -1,0 +1,48 @@
+{
+  "id": "HSH-1989-11-09T19:53-Azones-true_ne_plus-S-Tri-off_alpha_round-phase0",
+  "datetime_local": "1989-11-09T19:53:00+01:00",
+  "shadow": {
+    "sun_alt": -67.72,
+    "sun_az": 191.25,
+    "shadow_angle": 90.0,
+    "shadow_bearing": 11.25,
+    "mask_type": "Azones"
+  },
+  "base_params": {
+    "L": 62,
+    "phase": 0,
+    "offset": 18,
+    "source": "true_ne_plus"
+  },
+  "zone_profiles": [
+    {
+      "state": "deep_shadow",
+      "family": "variant_beaufort",
+      "L": 17,
+      "offset": 16,
+      "phase": 22
+    }
+  ],
+  "config": "S-Tri",
+  "anchors": {
+    "preserved": false,
+    "failures": [
+      "EAST: Expected 'EAST' at 21-24, got 'ELSX'",
+      "NORTHEAST: Expected 'NORTHEAST' at 25-33, got 'TUUXDXCLM'",
+      "BERLIN: Expected 'BERLIN' at 63-68, got 'DPHONO'"
+    ]
+  },
+  "plaintext_head_0_20": "JXHPTOYQJLZRRJGECAXY",
+  "metrics": {
+    "vowel_ratio": 0.15,
+    "max_consonant_run": 9,
+    "dict_words_3plus": [],
+    "survey_terms": [],
+    "bigram_score": 0.053,
+    "head_text": "JXHPTOYQJLZRRJGECAXY"
+  },
+  "repro": {
+    "seed": 1337,
+    "ct_sha256": "eea813570c7f1fd3b34674e47b5c3da8948026f5cefee612a0b38ffaa515ceab"
+  }
+}

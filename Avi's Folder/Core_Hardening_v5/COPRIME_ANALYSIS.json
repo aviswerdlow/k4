@@ -1,0 +1,71 @@
+{
+  "L_17_is_one_to_one": true,
+  "minimal_set_cover_size": 73,
+  "tail_coverage": 23,
+  "shortfall": 50,
+  "alternative_L_results": [
+    {
+      "L": 11,
+      "gcd_97": 1,
+      "anchor_slots": 24,
+      "covered_positions": 42,
+      "unknown_positions": 55,
+      "unique_slots": 66,
+      "max_per_slot": 2
+    },
+    {
+      "L": 13,
+      "gcd_97": 1,
+      "anchor_slots": 24,
+      "covered_positions": 24,
+      "unknown_positions": 73,
+      "unique_slots": 78,
+      "max_per_slot": 2
+    },
+    {
+      "L": 15,
+      "gcd_97": 1,
+      "anchor_slots": 23,
+      "covered_positions": 76,
+      "unknown_positions": 21,
+      "unique_slots": 30,
+      "max_per_slot": 4
+    },
+    {
+      "L": 17,
+      "gcd_97": 1,
+      "anchor_slots": 24,
+      "covered_positions": 24,
+      "unknown_positions": 73,
+      "unique_slots": 97,
+      "max_per_slot": 1
+    },
+    {
+      "L": 19,
+      "gcd_97": 1,
+      "anchor_slots": 24,
+      "covered_positions": 24,
+      "unknown_positions": 73,
+      "unique_slots": 97,
+      "max_per_slot": 1
+    },
+    {
+      "L": 23,
+      "gcd_97": 1,
+      "anchor_slots": 24,
+      "covered_positions": 24,
+      "unknown_positions": 73,
+      "unique_slots": 97,
+      "max_per_slot": 1
+    },
+    {
+      "L": 29,
+      "gcd_97": 1,
+      "anchor_slots": 24,
+      "covered_positions": 24,
+      "unknown_positions": 73,
+      "unique_slots": 97,
+      "max_per_slot": 1
+    }
+  ]
+}

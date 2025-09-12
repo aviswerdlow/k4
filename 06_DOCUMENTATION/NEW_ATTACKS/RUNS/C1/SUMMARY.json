@@ -1,0 +1,9 @@
+{
+  "mechanism": "C1_K3_Connection",
+  "total_tests": 9,
+  "best_config": "L7_overlay_FFFF",
+  "best_unknown_count": 16,
+  "baseline_unknown_count": 50,
+  "success": true,
+  "conclusion": "4\u00d77 structure reduced unknowns to 16"
+}

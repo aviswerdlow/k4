@@ -1,0 +1,25 @@
+{
+  "l17_unknowns": 50,
+  "l7_unknowns": 16,
+  "reduction": 34,
+  "constraints_preserved": false,
+  "plaintext_l7": "USGIRCVZFBSCS????????EASTNORTHEASTPSRCROHAQBMBWNWNSDICZ????????MNQTKLOBZVAOHEJOYOFANANGLEISTHEARC",
+  "unknown_indices_l7": [
+    13,
+    14,
+    15,
+    16,
+    17,
+    18,
+    19,
+    20,
+    55,
+    56,
+    57,
+    58,
+    59,
+    60,
+    61,
+    62
+  ]
+}

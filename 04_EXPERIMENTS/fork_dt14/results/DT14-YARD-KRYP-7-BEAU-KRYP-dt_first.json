@@ -1,0 +1,38 @@
+{
+  "id": "DT14-YARD-KRYP-7-BEAU-KRYP-dt_first",
+  "config": {
+    "key1": "YARD",
+    "key2": "KRYPTOS",
+    "cols1": 7,
+    "cols2": 7,
+    "name": "YARD-KRYP-7"
+  },
+  "chain_type": "beaufort",
+  "chain_key": "KRYPTOS",
+  "order": "dt_first",
+  "anchors": {
+    "preserved": false,
+    "failures": [
+      "EAST: Expected 'EAST' at 21-24, got 'HMPH'",
+      "NORTHEAST: Expected 'NORTHEAST' at 25-33, got 'WOFWVFOEG'",
+      "BERLIN: Expected 'BERLIN' at 63-68, got 'LOGTIZ'",
+      "CLOCK: Expected 'CLOCK' at 69-73, got 'TCQWC'"
+    ]
+  },
+  "plaintext_head": "HXNVKIYWUYVJEMYLXFZJI",
+  "plaintext_full": null,
+  "metrics": {
+    "vowel_ratio": 0.19,
+    "max_consonant_run": 7,
+    "four_letter_words": [],
+    "word_count": 1,
+    "bigram_score": 1,
+    "bigram_improvement": 0.38,
+    "head_text": "HXNVKIYWUYVJEMYLXFZJI"
+  },
+  "accepted": false,
+  "repro": {
+    "seed": 1337,
+    "ct_sha256": "eea813570c7f1fd3b34674e47b5c3da8948026f5cefee612a0b38ffaa515ceab"
+  }
+}

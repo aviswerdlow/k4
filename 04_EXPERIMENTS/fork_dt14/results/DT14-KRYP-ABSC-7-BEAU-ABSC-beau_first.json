@@ -1,0 +1,38 @@
+{
+  "id": "DT14-KRYP-ABSC-7-BEAU-ABSC-beau_first",
+  "config": {
+    "key1": "KRYPTOS",
+    "key2": "ABSCISSA",
+    "cols1": 7,
+    "cols2": 7,
+    "name": "KRYP-ABSC-7"
+  },
+  "chain_type": "beaufort",
+  "chain_key": "ABSCISSA",
+  "order": "beau_first",
+  "anchors": {
+    "preserved": false,
+    "failures": [
+      "EAST: Expected 'EAST' at 21-24, got 'RMMI'",
+      "NORTHEAST: Expected 'NORTHEAST' at 25-33, got 'ECRGVIRWD'",
+      "BERLIN: Expected 'BERLIN' at 63-68, got 'AIETSQ'",
+      "CLOCK: Expected 'CLOCK' at 69-73, got 'JFQZJ'"
+    ]
+  },
+  "plaintext_head": "MIUOVYHAEZTEYYZMIGHIA",
+  "plaintext_full": null,
+  "metrics": {
+    "vowel_ratio": 0.43,
+    "max_consonant_run": 4,
+    "four_letter_words": [],
+    "word_count": 1,
+    "bigram_score": 0,
+    "bigram_improvement": -0.62,
+    "head_text": "MIUOVYHAEZTEYYZMIGHIA"
+  },
+  "accepted": false,
+  "repro": {
+    "seed": 1337,
+    "ct_sha256": "eea813570c7f1fd3b34674e47b5c3da8948026f5cefee612a0b38ffaa515ceab"
+  }
+}

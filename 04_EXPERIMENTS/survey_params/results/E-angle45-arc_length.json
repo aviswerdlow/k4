@@ -1,0 +1,49 @@
+{
+  "id": "E-angle45-arc_length",
+  "family": "beaufort",
+  "stages": [
+    {
+      "name": "stage1",
+      "type": "none",
+      "params": {}
+    },
+    {
+      "name": "stage2",
+      "type": "beaufort",
+      "params": {
+        "L": 20,
+        "phase": 0,
+        "offset": 24
+      }
+    }
+  ],
+  "parameter_source": {
+    "angle_deg": 45.0,
+    "arc_length": 0.7853981633974483,
+    "chord": 0.7653668647301796,
+    "sector": 0.125
+  },
+  "results": {
+    "anchors_preserved": false,
+    "anchor_failures": [
+      "EAST: Expected 'EAST' at 21-24, got 'UPKH'",
+      "NORTHEAST: Expected 'NORTHEAST' at 25-33, got 'NOQPUCZST'",
+      "BERLIN: Expected 'BERLIN' at 63-68, got 'OEOJMN'",
+      "CLOCK: Expected 'CLOCK' at 69-73, got 'VJEVB'"
+    ],
+    "plaintext_head_0_20": "KYQKIPHRAAOYJTYCGKPQ",
+    "readability": {
+      "vowel_ratio": 0.2,
+      "max_consonant_run": 9,
+      "dict_words_3plus": [],
+      "bigram_score": 0.0
+    },
+    "survey_terms_found": [],
+    "notes": ""
+  },
+  "repro": {
+    "seed": 1337,
+    "ct_sha256": "eea813570c7f1fd3b34674e47b5c3da8948026f5cefee612a0b38ffaa515ceab",
+    "code_version": "667611a8"
+  }
+}

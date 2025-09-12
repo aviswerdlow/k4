@@ -1,0 +1,7 @@
+{
+  "class_function": "((i%2)*3)+(i%3)",
+  "periods": [17, 17, 17, 17, 17, 17],
+  "families": ["vigenere", "vigenere", "beaufort", "vigenere", "beaufort", "vigenere"],
+  "family_try_order": ["vigenere", "variant_beaufort", "beaufort"],
+  "note": "L=17 chosen as smallest period that seats all anchors without collision. Families chosen by first-that-satisfies-Option-A rule."
+}

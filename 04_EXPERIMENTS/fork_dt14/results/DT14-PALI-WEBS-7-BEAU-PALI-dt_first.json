@@ -1,0 +1,38 @@
+{
+  "id": "DT14-PALI-WEBS-7-BEAU-PALI-dt_first",
+  "config": {
+    "key1": "PALIMPSEST",
+    "key2": "WEBSTER",
+    "cols1": 7,
+    "cols2": 7,
+    "name": "PALI-WEBS-7"
+  },
+  "chain_type": "beaufort",
+  "chain_key": "PALIMPSEST",
+  "order": "dt_first",
+  "anchors": {
+    "preserved": false,
+    "failures": [
+      "EAST: Expected 'EAST' at 21-24, got 'RDUQ'",
+      "NORTHEAST: Expected 'NORTHEAST' at 25-33, got 'ZRICPXPQJ'",
+      "BERLIN: Expected 'BERLIN' at 63-68, got 'QCCLTA'",
+      "CLOCK: Expected 'CLOCK' at 69-73, got 'AZVAP'"
+    ]
+  },
+  "plaintext_head": "PEDOCCRLIFRFRLLJBYYBB",
+  "plaintext_full": null,
+  "metrics": {
+    "vowel_ratio": 0.14,
+    "max_consonant_run": 12,
+    "four_letter_words": [],
+    "word_count": 0,
+    "bigram_score": 3,
+    "bigram_improvement": 2.38,
+    "head_text": "PEDOCCRLIFRFRLLJBYYBB"
+  },
+  "accepted": false,
+  "repro": {
+    "seed": 1337,
+    "ct_sha256": "eea813570c7f1fd3b34674e47b5c3da8948026f5cefee612a0b38ffaa515ceab"
+  }
+}

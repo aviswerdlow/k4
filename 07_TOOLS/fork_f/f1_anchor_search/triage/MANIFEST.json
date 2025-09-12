@@ -1,0 +1,16 @@
+{
+  "mechanism": "F1-triage",
+  "master_seed": 1337,
+  "weights": {
+    "w1_gains": 1.0,
+    "w2_forced_slots": 0.7,
+    "w3_uniformity": 0.3,
+    "w4_slot_reuse": 1.0,
+    "w5_class_skew": 0.5
+  },
+  "filter_thresholds": {
+    "min_forced_slots": 3,
+    "min_gains": 3,
+    "allow_slot_reuse": false
+  }
+}

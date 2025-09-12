@@ -1,0 +1,39 @@
+{
+  "mask": [
+    [
+      0,
+      20,
+      2
+    ],
+    [
+      21,
+      33,
+      2
+    ],
+    [
+      34,
+      62,
+      2
+    ],
+    [
+      63,
+      73,
+      2
+    ],
+    [
+      74,
+      96,
+      2
+    ]
+  ],
+  "strategy": "ZoneMapper",
+  "metadata": {
+    "datetime": "1989-11-09T18:08:00+01:00",
+    "sun_alt": -60.95,
+    "sun_az": 132.96,
+    "shadow_angle": 90.0,
+    "shadow_bearing": 312.96,
+    "shadow_length_unit": "inf",
+    "is_night": true
+  }
+}

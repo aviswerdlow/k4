@@ -1,0 +1,9 @@
+{
+  "mechanism": "C6_Clock_Arithmetic",
+  "total_tests": 14,
+  "best_config": "mod12_tail_off0",
+  "best_unknown_count": 50,
+  "baseline_unknown_count": 50,
+  "success": false,
+  "conclusion": "No clock-based mechanism reduced unknowns"
+}

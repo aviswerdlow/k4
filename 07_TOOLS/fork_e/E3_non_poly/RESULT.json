@@ -1,0 +1,7 @@
+{
+  "test": "Non-polyalphabetic families",
+  "ciphers_tested": 7,
+  "best_match": "bifid",
+  "best_rate": 1.0,
+  "conclusion": "bifid possible"
+}

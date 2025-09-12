@@ -1,0 +1,47 @@
+{
+  "id": "A-mag_ne_plus_1989-L_int_phase41-variant_beaufort",
+  "family": "variant_beaufort",
+  "stages": [
+    {
+      "name": "stage1",
+      "type": "none",
+      "params": {}
+    },
+    {
+      "name": "stage2",
+      "type": "variant_beaufort",
+      "params": {
+        "L": 59,
+        "phase": 41,
+        "offset": 19
+      }
+    }
+  ],
+  "parameter_source": {
+    "bearing_deg": 59.5959,
+    "bearing_name": "mag_ne_plus_1989"
+  },
+  "results": {
+    "anchors_preserved": false,
+    "anchor_failures": [
+      "EAST: Expected 'EAST' at 21-24, got 'BIPU'",
+      "NORTHEAST: Expected 'NORTHEAST' at 25-33, got 'QRRURLQZA'",
+      "BERLIN: Expected 'BERLIN' at 63-68, got 'ZLDKJK'",
+      "CLOCK: Expected 'CLOCK' at 69-73, got 'ESZKG'"
+    ],
+    "plaintext_head_0_20": "WKUCGBLDWYMEVNKIGEUV",
+    "readability": {
+      "vowel_ratio": 0.25,
+      "max_consonant_run": 8,
+      "dict_words_3plus": [],
+      "bigram_score": 0.0
+    },
+    "survey_terms_found": [],
+    "notes": ""
+  },
+  "repro": {
+    "seed": 1337,
+    "ct_sha256": "eea813570c7f1fd3b34674e47b5c3da8948026f5cefee612a0b38ffaa515ceab",
+    "code_version": "667611a8"
+  }
+}

@@ -1,0 +1,34 @@
+K4 ANCHOR ARITHMETIC LEDGER
+======================================================================
+
+Index | Anchor | Class | Slot | C    | P    | K    | Formula
+----------------------------------------------------------------------
+   21 | EAST   |     3 |    4 | F= 5 | E= 4 | B= 1 | K = C - P = 5 - 4 = 1 (mod 26)
+   22 | EAST   |     1 |    5 | L=11 | A= 0 | L=11 | K = C - P = 11 - 0 = 11 (mod 26)
+   23 | EAST   |     5 |    6 | R=17 | S=18 | Z=25 | K = C - P = 17 - 18 = 25 (mod 26)
+   24 | EAST   |     0 |    7 | V=21 | T=19 | C= 2 | K = C - P = 21 - 19 = 2 (mod 26)
+   
+   25 | NORTHE |     4 |    8 | Q=16 | N=13 | D= 3 | K = C - P = 16 - 13 = 3 (mod 26)
+   26 | NORTHE |     2 |    9 | Q=16 | O=14 | C= 2 | K = C - P = 16 - 14 = 2 (mod 26)
+   27 | NORTHE |     3 |   10 | P=15 | R=17 | Y=24 | K = C - P = 15 - 17 = 24 (mod 26)
+   28 | NORTHE |     1 |   11 | R=17 | T=19 | Y=24 | K = C - P = 17 - 19 = 24 (mod 26)
+   29 | NORTHE |     5 |   12 | N=13 | H= 7 | G= 6 | K = C - P = 13 - 7 = 6 (mod 26)
+   30 | NORTHE |     0 |   13 | G= 6 | E= 4 | C= 2 | K = C - P = 6 - 4 = 2 (mod 26)
+   31 | NORTHE |     4 |   14 | K=10 | A= 0 | K=10 | K = C - P = 10 - 0 = 10 (mod 26)
+   32 | NORTHE |     2 |   15 | S=18 | S=18 | A= 0 | K = C - P = 18 - 18 = 0 (mod 26)
+   33 | NORTHE |     3 |   16 | S=18 | T=19 | Z=25 | K = C - P = 18 - 19 = 25 (mod 26)
+   
+   63 | BERLIN |     3 |   12 | N=13 | B= 1 | M=12 | K = C - P = 13 - 1 = 12 (mod 26)
+   64 | BERLIN |     1 |   13 | Y=24 | E= 4 | U=20 | K = C - P = 24 - 4 = 20 (mod 26)
+   65 | BERLIN |     5 |   14 | P=15 | R=17 | Y=24 | K = C - P = 15 - 17 = 24 (mod 26)
+   66 | BERLIN |     0 |   15 | V=21 | L=11 | K=10 | K = C - P = 21 - 11 = 10 (mod 26)
+   67 | BERLIN |     4 |   16 | T=19 | I= 8 | L=11 | K = C - P = 19 - 8 = 11 (mod 26)
+   68 | BERLIN |     2 |    0 | T=19 | N=13 | G= 6 | K = C - P = 19 - 13 = 6 (mod 26)
+   
+   69 | CLOCK  |     3 |    1 | M=12 | C= 2 | K=10 | K = C - P = 12 - 2 = 10 (mod 26)
+   70 | CLOCK  |     1 |    2 | Z=25 | L=11 | O=14 | K = C - P = 25 - 11 = 14 (mod 26)
+   71 | CLOCK  |     5 |    3 | F= 5 | O=14 | R=17 | K = C - P = 5 - 14 = 17 (mod 26)
+   72 | CLOCK  |     0 |    4 | P=15 | C= 2 | N=13 | K = C - P = 15 - 2 = 13 (mod 26)
+   73 | CLOCK  |     4 |    5 | K=10 | K=10 | A= 0 | K = C - P = 10 - 10 = 0 (mod 26)
+
+Total: 24 positions algebraically determined by 4 anchors

@@ -1,0 +1,57 @@
+{
+  "unknown_count": 50,
+  "min_required": 50,
+  "closure_confirmed": true,
+  "one_to_one_mapping": true,
+  "empirical_trials": [
+    {
+      "test": "all_50_unknowns",
+      "n_additional": 50,
+      "derived": 97,
+      "closed": true,
+      "sha_match": true
+    },
+    {
+      "test": "random_49_trial_1",
+      "n_additional": 49,
+      "derived": 96,
+      "closed": false,
+      "sha_match": false
+    },
+    {
+      "test": "random_49_trial_2",
+      "n_additional": 49,
+      "derived": 96,
+      "closed": false,
+      "sha_match": false
+    },
+    {
+      "test": "random_49_trial_3",
+      "n_additional": 49,
+      "derived": 96,
+      "closed": false,
+      "sha_match": false
+    },
+    {
+      "test": "random_45_trial_1",
+      "n_additional": 45,
+      "derived": 92,
+      "closed": false,
+      "sha_match": false
+    },
+    {
+      "test": "random_45_trial_2",
+      "n_additional": 45,
+      "derived": 92,
+      "closed": false,
+      "sha_match": false
+    },
+    {
+      "test": "random_45_trial_3",
+      "n_additional": 45,
+      "derived": 92,
+      "closed": false,
+      "sha_match": false
+    }
+  ]
+}

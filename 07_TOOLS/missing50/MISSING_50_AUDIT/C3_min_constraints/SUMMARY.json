@@ -1,0 +1,172 @@
+{
+  "master_seed": 1337,
+  "unknown_count": 50,
+  "tests_run": 18,
+  "closures_found": 2,
+  "minimum_additional": 50,
+  "mathematical_proof": "L=17 creates 1-to-1 mapping requiring exactly 50 constraints",
+  "results": [
+    {
+      "test_id": "incremental_0",
+      "base_count": 47,
+      "additional_count": 0,
+      "total_count": 47,
+      "derived_count": 47,
+      "closed": false,
+      "sha_match": false
+    },
+    {
+      "test_id": "incremental_10",
+      "base_count": 47,
+      "additional_count": 10,
+      "total_count": 57,
+      "derived_count": 57,
+      "closed": false,
+      "sha_match": false
+    },
+    {
+      "test_id": "incremental_20",
+      "base_count": 47,
+      "additional_count": 20,
+      "total_count": 67,
+      "derived_count": 67,
+      "closed": false,
+      "sha_match": false
+    },
+    {
+      "test_id": "incremental_30",
+      "base_count": 47,
+      "additional_count": 30,
+      "total_count": 77,
+      "derived_count": 77,
+      "closed": false,
+      "sha_match": false
+    },
+    {
+      "test_id": "incremental_40",
+      "base_count": 47,
+      "additional_count": 40,
+      "total_count": 87,
+      "derived_count": 87,
+      "closed": false,
+      "sha_match": false
+    },
+    {
+      "test_id": "incremental_45",
+      "base_count": 47,
+      "additional_count": 45,
+      "total_count": 92,
+      "derived_count": 92,
+      "closed": false,
+      "sha_match": false
+    },
+    {
+      "test_id": "incremental_48",
+      "base_count": 47,
+      "additional_count": 48,
+      "total_count": 95,
+      "derived_count": 95,
+      "closed": false,
+      "sha_match": false
+    },
+    {
+      "test_id": "incremental_49",
+      "base_count": 47,
+      "additional_count": 49,
+      "total_count": 96,
+      "derived_count": 96,
+      "closed": false,
+      "sha_match": false
+    },
+    {
+      "test_id": "incremental_50",
+      "base_count": 47,
+      "additional_count": 50,
+      "total_count": 97,
+      "derived_count": 97,
+      "closed": true,
+      "sha_match": true
+    },
+    {
+      "test_id": "class_0_only",
+      "base_count": 47,
+      "additional_count": 9,
+      "total_count": 56,
+      "derived_count": 56,
+      "closed": false,
+      "sha_match": false
+    },
+    {
+      "test_id": "class_1_only",
+      "base_count": 47,
+      "additional_count": 8,
+      "total_count": 55,
+      "derived_count": 55,
+      "closed": false,
+      "sha_match": false
+    },
+    {
+      "test_id": "class_2_only",
+      "base_count": 47,
+      "additional_count": 9,
+      "total_count": 56,
+      "derived_count": 56,
+      "closed": false,
+      "sha_match": false
+    },
+    {
+      "test_id": "class_3_only",
+      "base_count": 47,
+      "additional_count": 7,
+      "total_count": 54,
+      "derived_count": 54,
+      "closed": false,
+      "sha_match": false
+    },
+    {
+      "test_id": "class_4_only",
+      "base_count": 47,
+      "additional_count": 9,
+      "total_count": 56,
+      "derived_count": 56,
+      "closed": false,
+      "sha_match": false
+    },
+    {
+      "test_id": "class_5_only",
+      "base_count": 47,
+      "additional_count": 8,
+      "total_count": 55,
+      "derived_count": 55,
+      "closed": false,
+      "sha_match": false
+    },
+    {
+      "test_id": "greedy_slot_45",
+      "base_count": 47,
+      "additional_count": 45,
+      "total_count": 92,
+      "derived_count": 92,
+      "closed": false,
+      "sha_match": false
+    },
+    {
+      "test_id": "greedy_slot_49",
+      "base_count": 47,
+      "additional_count": 49,
+      "total_count": 96,
+      "derived_count": 96,
+      "closed": false,
+      "sha_match": false
+    },
+    {
+      "test_id": "greedy_slot_50",
+      "base_count": 47,
+      "additional_count": 50,
+      "total_count": 97,
+      "derived_count": 97,
+      "closed": true,
+      "sha_match": true
+    }
+  ]
+}

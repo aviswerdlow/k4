@@ -1,0 +1,38 @@
+{
+  "id": "DT14-WEBS-BERL-7-BEAU-ABSC-dt_first",
+  "config": {
+    "key1": "WEBSTER",
+    "key2": "BERLINCLOCK",
+    "cols1": 7,
+    "cols2": 7,
+    "name": "WEBS-BERL-7"
+  },
+  "chain_type": "beaufort",
+  "chain_key": "ABSCISSA",
+  "order": "dt_first",
+  "anchors": {
+    "preserved": false,
+    "failures": [
+      "EAST: Expected 'EAST' at 21-24, got 'PYZU'",
+      "NORTHEAST: Expected 'NORTHEAST' at 25-33, got 'EYCWKZNVM'",
+      "BERLIN: Expected 'BERLIN' at 63-68, got 'ZZMBXS'",
+      "CLOCK: Expected 'CLOCK' at 69-73, got 'BKMIU'"
+    ]
+  },
+  "plaintext_head": "XRHCJJMMGBYIYKEZKQWHY",
+  "plaintext_full": null,
+  "metrics": {
+    "vowel_ratio": 0.1,
+    "max_consonant_run": 11,
+    "four_letter_words": [],
+    "word_count": 1,
+    "bigram_score": 1,
+    "bigram_improvement": 0.38,
+    "head_text": "XRHCJJMMGBYIYKEZKQWHY"
+  },
+  "accepted": false,
+  "repro": {
+    "seed": 1337,
+    "ct_sha256": "eea813570c7f1fd3b34674e47b5c3da8948026f5cefee612a0b38ffaa515ceab"
+  }
+}

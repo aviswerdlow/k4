@@ -1,0 +1,8 @@
+test,n_additional,derived,closed,sha_match
+all_50_unknowns,50,97,True,True
+random_49_trial_1,49,96,False,False
+random_49_trial_2,49,96,False,False
+random_49_trial_3,49,96,False,False
+random_45_trial_1,45,92,False,False
+random_45_trial_2,45,92,False,False
+random_45_trial_3,45,92,False,False

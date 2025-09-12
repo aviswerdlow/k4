@@ -1,0 +1,17 @@
+{
+  "timestamp": "2025-09-10T13:49:58.568896",
+  "master_seed": 1337,
+  "baseline_unknowns": 50,
+  "mechanisms_tested": [
+    "K3_4x7_transposition",
+    "L7_overlay",
+    "hybrid_4x7_L7",
+    "clock_mod12",
+    "clock_mod60",
+    "clock_transposition",
+    "anchor_gated",
+    "KRYPTOS_overlay"
+  ],
+  "successful_reductions": 0,
+  "conclusion": "No mechanism reduced unknowns below 50 while preserving constraints"
+}
