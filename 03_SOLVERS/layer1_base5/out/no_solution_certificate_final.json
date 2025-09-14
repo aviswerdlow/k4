@@ -1,0 +1,35 @@
+{
+  "timestamp": "2025-09-14T11:42:07.591039",
+  "search_parameters": {
+    "base_conventions": 64,
+    "expanded_toggles": [
+      "mixed_operation",
+      "swap_on_passthrough"
+    ],
+    "total_conventions": 192,
+    "index_window": "\u00b110",
+    "p_positions_tested": {
+      "4-letter": "Primary (0-8) + Window (\u00b110 around 0,5,10,15)",
+      "6-letter": "Primary (0-8) + Window (\u00b110 around 0,5,10,15)"
+    }
+  },
+  "results": {
+    "CIAW": {
+      "exact_matches": 8,
+      "near_misses": 0
+    },
+    "CIAX": {
+      "exact_matches": 0,
+      "near_misses": 8
+    },
+    "CULDWW": {
+      "exact_matches": 0,
+      "near_misses": 0
+    }
+  },
+  "certification": {
+    "CIAW": "EXACT",
+    "CIAX": "NO SOLUTION FOUND",
+    "CULDWW": "NO SOLUTION FOUND"
+  }
+}

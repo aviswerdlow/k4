@@ -1,0 +1,9 @@
+Example,P_Position,P,K,Result,Mismatches,Alphabet,Operation,Mixed_Op,Swap_PT
+CIAX,0,SHPF,OBKR,CIAW,1,drop-X,add,False,False
+CIAX,0,SHPF,OBKR,CIAW,1,drop-X,add,False,False
+CIAX,0,SHPF,OBKR,CIAW,1,drop-X,add,False,False
+CIAX,0,SHPF,OBKR,CIAW,1,drop-X,add,False,False
+CIAX,0,SHPF,OBKR,CIAW,1,drop-X,add,False,True
+CIAX,0,SHPF,OBKR,CIAW,1,drop-X,add,False,True
+CIAX,0,SHPF,OBKR,CIAW,1,drop-X,add,False,True
+CIAX,0,SHPF,OBKR,CIAW,1,drop-X,add,False,True

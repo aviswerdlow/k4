@@ -1,0 +1,13 @@
+{
+  "timestamp": "20250914_114431",
+  "total_tested": 100,
+  "round_trip_ok": 60,
+  "beat_nulls": 0,
+  "search_space": {
+    "masks": 5,
+    "keys": 5,
+    "ciphers": 2,
+    "orders": 2,
+    "total_combinations": 100
+  }
+}

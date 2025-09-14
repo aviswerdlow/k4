@@ -1,0 +1,13 @@
+{
+  "rule": {
+    "type": "three_segments",
+    "segment1": "FGHIJLMNQUVWXZKRYPTOSABCDEFGHIN",
+    "segment2": "GHIJLMNQUVWXZKRYPTOSABCDEFGHIJL",
+    "segment3": "OHIJLMNQUVWXZKRYPTOSABCDEFGHIJL",
+    "description": "Three fixed segments from modified KRYPTOS tableau"
+  },
+  "valid": true,
+  "configs_tested": [
+    "hoerenberg_withoutOBKR_extraL.json"
+  ]
+}

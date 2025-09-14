@@ -1,0 +1,135 @@
+{
+  "timestamp": "20250914_114207",
+  "CIAW": [
+    {
+      "convention": {
+        "alphabet": "drop-X",
+        "digit_origin": 0,
+        "grid_mapping": "row-major",
+        "digit_order": "d1=row,d0=col",
+        "operation": "add",
+        "key_direction": "forward",
+        "mixed_op": false,
+        "swap_on_passthrough": false
+      },
+      "result": "CIAW",
+      "p": "SHPF",
+      "k": "OBKR",
+      "p_position": 0
+    },
+    {
+      "convention": {
+        "alphabet": "drop-X",
+        "digit_origin": 0,
+        "grid_mapping": "row-major",
+        "digit_order": "d1=col,d0=row",
+        "operation": "add",
+        "key_direction": "forward",
+        "mixed_op": false,
+        "swap_on_passthrough": false
+      },
+      "result": "CIAW",
+      "p": "SHPF",
+      "k": "OBKR",
+      "p_position": 0
+    },
+    {
+      "convention": {
+        "alphabet": "drop-X",
+        "digit_origin": 0,
+        "grid_mapping": "col-major",
+        "digit_order": "d1=row,d0=col",
+        "operation": "add",
+        "key_direction": "forward",
+        "mixed_op": false,
+        "swap_on_passthrough": false
+      },
+      "result": "CIAW",
+      "p": "SHPF",
+      "k": "OBKR",
+      "p_position": 0
+    },
+    {
+      "convention": {
+        "alphabet": "drop-X",
+        "digit_origin": 0,
+        "grid_mapping": "col-major",
+        "digit_order": "d1=col,d0=row",
+        "operation": "add",
+        "key_direction": "forward",
+        "mixed_op": false,
+        "swap_on_passthrough": false
+      },
+      "result": "CIAW",
+      "p": "SHPF",
+      "k": "OBKR",
+      "p_position": 0
+    },
+    {
+      "convention": {
+        "alphabet": "drop-X",
+        "digit_origin": 0,
+        "grid_mapping": "row-major",
+        "digit_order": "d1=row,d0=col",
+        "operation": "add",
+        "key_direction": "forward",
+        "mixed_op": false,
+        "swap_on_passthrough": true
+      },
+      "result": "CIAW",
+      "p": "SHPF",
+      "k": "OBKR",
+      "p_position": 0
+    },
+    {
+      "convention": {
+        "alphabet": "drop-X",
+        "digit_origin": 0,
+        "grid_mapping": "row-major",
+        "digit_order": "d1=col,d0=row",
+        "operation": "add",
+        "key_direction": "forward",
+        "mixed_op": false,
+        "swap_on_passthrough": true
+      },
+      "result": "CIAW",
+      "p": "SHPF",
+      "k": "OBKR",
+      "p_position": 0
+    },
+    {
+      "convention": {
+        "alphabet": "drop-X",
+        "digit_origin": 0,
+        "grid_mapping": "col-major",
+        "digit_order": "d1=row,d0=col",
+        "operation": "add",
+        "key_direction": "forward",
+        "mixed_op": false,
+        "swap_on_passthrough": true
+      },
+      "result": "CIAW",
+      "p": "SHPF",
+      "k": "OBKR",
+      "p_position": 0
+    },
+    {
+      "convention": {
+        "alphabet": "drop-X",
+        "digit_origin": 0,
+        "grid_mapping": "col-major",
+        "digit_order": "d1=col,d0=row",
+        "operation": "add",
+        "key_direction": "forward",
+        "mixed_op": false,
+        "swap_on_passthrough": true
+      },
+      "result": "CIAW",
+      "p": "SHPF",
+      "k": "OBKR",
+      "p_position": 0
+    }
+  ],
+  "CIAX": [],
+  "CULDWW": []
+}
