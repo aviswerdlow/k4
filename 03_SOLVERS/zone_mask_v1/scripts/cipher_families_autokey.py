@@ -51,78 +51,112 @@ class AutokeyVigenere:
         """Encrypt using autokey"""
         plaintext = plaintext.upper()
         result = []
-        
-        # Build initial keystream
+
+        # Build keystream based on mode
         if self.mode == 'pt':
-            # PT-autokey: keystream = seed + plaintext
-            # We only need seed length characters from plaintext
-            keystream = self.seed_key + plaintext
+            # PT-autokey: keystream = seed + plaintext (but not using all of plaintext)
+            keystream = list(self.seed_key)
         else:
             # CT-autokey: keystream starts with seed, extended by ciphertext
             keystream = list(self.seed_key)
-        
+
         key_idx = 0
-        
-        for char in plaintext:
+
+        for i, char in enumerate(plaintext):
             if char.isalpha():
-                # For CT-autokey, extend keystream with previous ciphertext
-                if self.mode == 'ct' and key_idx >= len(keystream):
-                    # Use the last generated ciphertext character
-                    keystream.append(result[-1])
-                
-                key_char = keystream[key_idx]
-                key_idx += 1
-                
-                # Get positions in alphabet
-                pt_pos = self.alphabet.index(char)
-                key_pos = self.alphabet.index(key_char)
-                
-                # Encrypt (Vigenere: C = P + K mod 26)
-                ct_pos = (pt_pos + key_pos) % 26
-                ct_char = self.alphabet[ct_pos]
-                
-                result.append(ct_char)
+                # Extend keystream if needed
+                if key_idx >= len(keystream):
+                    if self.mode == 'pt':
+                        # PT-autokey: use plaintext character from earlier position
+                        # The position is (current - seed_length)
+                        pt_idx = i - len(self.seed_key)
+                        if pt_idx >= 0 and pt_idx < len(plaintext):
+                            keystream.append(plaintext[pt_idx])
+                    else:
+                        # CT-autokey: use the last generated ciphertext character
+                        if len(result) > 0:
+                            keystream.append(result[-1])
+
+                if key_idx < len(keystream):
+                    key_char = keystream[key_idx]
+                    key_idx += 1
+
+                    # Get positions in alphabet
+                    pt_pos = self.alphabet.index(char)
+                    key_pos = self.alphabet.index(key_char)
+
+                    # Encrypt (Vigenere: C = P + K mod 26)
+                    ct_pos = (pt_pos + key_pos) % 26
+                    ct_char = self.alphabet[ct_pos]
+
+                    result.append(ct_char)
+                else:
+                    result.append(char)
             else:
                 result.append(char)
-        
+
         return ''.join(result)
     
     def decrypt(self, ciphertext: str) -> str:
         """Decrypt using autokey"""
         ciphertext = ciphertext.upper()
         result = []
-        
+
         # Start with seed key
         keystream = list(self.seed_key)
         key_idx = 0
-        
-        for char in ciphertext:
+        pt_idx = 0  # Track plaintext character index for PT-autokey
+
+        for i, char in enumerate(ciphertext):
             if char.isalpha():
-                # Get key character for this position
-                key_char = keystream[key_idx]
-                key_idx += 1
-                
-                # Get positions in alphabet
-                ct_pos = self.alphabet.index(char)
-                key_pos = self.alphabet.index(key_char)
-                
-                # Decrypt (Vigenere: P = C - K mod 26)
-                pt_pos = (ct_pos - key_pos) % 26
-                pt_char = self.alphabet[pt_pos]
-                
-                result.append(pt_char)
-                
-                # Extend keystream based on mode
-                if key_idx >= len(self.seed_key):
-                    if self.mode == 'pt':
-                        # PT-autokey: add recovered plaintext to keystream
-                        keystream.append(pt_char)
-                    else:
-                        # CT-autokey: add ciphertext to keystream
-                        keystream.append(char)
+                # For CT-autokey, extend keystream with current ciphertext BEFORE decrypting
+                if self.mode == 'ct' and key_idx >= len(self.seed_key):
+                    # Find the ciphertext character from (current - seed_length) positions back
+                    lookback_idx = pt_idx - len(self.seed_key)
+                    if lookback_idx >= 0:
+                        # Count back through alphabetic chars in ciphertext
+                        alpha_count = 0
+                        for j, ct_char in enumerate(ciphertext[:i]):
+                            if ct_char.isalpha():
+                                if alpha_count == lookback_idx:
+                                    keystream.append(ct_char)
+                                    break
+                                alpha_count += 1
+
+                # For PT-autokey, extend after we have plaintext
+                if self.mode == 'pt' and key_idx >= len(keystream):
+                    # PT-autokey: use plaintext from (current - seed_length) positions back
+                    lookback_idx = pt_idx - len(self.seed_key)
+                    if lookback_idx >= 0 and lookback_idx < len(result):
+                        # Find the lookback_idx'th alphabetic character
+                        alpha_count = 0
+                        for r_char in result:
+                            if r_char.isalpha():
+                                if alpha_count == lookback_idx:
+                                    keystream.append(r_char)
+                                    break
+                                alpha_count += 1
+
+                if key_idx < len(keystream):
+                    # Get key character for this position
+                    key_char = keystream[key_idx]
+                    key_idx += 1
+
+                    # Get positions in alphabet
+                    ct_pos = self.alphabet.index(char)
+                    key_pos = self.alphabet.index(key_char)
+
+                    # Decrypt (Vigenere: P = C - K mod 26)
+                    pt_pos = (ct_pos - key_pos) % 26
+                    pt_char = self.alphabet[pt_pos]
+
+                    result.append(pt_char)
+                    pt_idx += 1  # Increment plaintext index
+                else:
+                    result.append(char)
             else:
                 result.append(char)
-        
+
         return ''.join(result)
 
 
@@ -151,77 +185,112 @@ class AutokeyBeaufort:
         """Encrypt using Beaufort autokey"""
         plaintext = plaintext.upper()
         result = []
-        
-        # Build initial keystream
+
+        # Build keystream based on mode
         if self.mode == 'pt':
-            # PT-autokey: keystream = seed + plaintext
-            keystream = self.seed_key + plaintext
+            # PT-autokey: keystream = seed + plaintext (but not using all of plaintext)
+            keystream = list(self.seed_key)
         else:
             # CT-autokey: keystream starts with seed, extended by ciphertext
             keystream = list(self.seed_key)
-        
+
         key_idx = 0
-        
-        for char in plaintext:
+
+        for i, char in enumerate(plaintext):
             if char.isalpha():
-                # For CT-autokey, extend keystream with previous ciphertext
-                if self.mode == 'ct' and key_idx >= len(keystream):
-                    # Use the last generated ciphertext character
-                    keystream.append(result[-1])
-                
-                key_char = keystream[key_idx]
-                key_idx += 1
-                
-                # Get positions in alphabet
-                pt_pos = self.alphabet.index(char)
-                key_pos = self.alphabet.index(key_char)
-                
-                # Encrypt (Beaufort: C = K - P mod 26)
-                ct_pos = (key_pos - pt_pos) % 26
-                ct_char = self.alphabet[ct_pos]
-                
-                result.append(ct_char)
+                # Extend keystream if needed
+                if key_idx >= len(keystream):
+                    if self.mode == 'pt':
+                        # PT-autokey: use plaintext character from earlier position
+                        # The position is (current - seed_length)
+                        pt_idx = i - len(self.seed_key)
+                        if pt_idx >= 0 and pt_idx < len(plaintext):
+                            keystream.append(plaintext[pt_idx])
+                    else:
+                        # CT-autokey: use the last generated ciphertext character
+                        if len(result) > 0:
+                            keystream.append(result[-1])
+
+                if key_idx < len(keystream):
+                    key_char = keystream[key_idx]
+                    key_idx += 1
+
+                    # Get positions in alphabet
+                    pt_pos = self.alphabet.index(char)
+                    key_pos = self.alphabet.index(key_char)
+
+                    # Encrypt (Beaufort: C = K - P mod 26)
+                    ct_pos = (key_pos - pt_pos) % 26
+                    ct_char = self.alphabet[ct_pos]
+
+                    result.append(ct_char)
+                else:
+                    result.append(char)
             else:
                 result.append(char)
-        
+
         return ''.join(result)
     
     def decrypt(self, ciphertext: str) -> str:
         """Decrypt using Beaufort autokey"""
         ciphertext = ciphertext.upper()
         result = []
-        
+
         # Start with seed key
         keystream = list(self.seed_key)
         key_idx = 0
-        
-        for char in ciphertext:
+        pt_idx = 0  # Track plaintext character index for PT-autokey
+
+        for i, char in enumerate(ciphertext):
             if char.isalpha():
-                # Get key character for this position
-                key_char = keystream[key_idx]
-                key_idx += 1
-                
-                # Get positions in alphabet
-                ct_pos = self.alphabet.index(char)
-                key_pos = self.alphabet.index(key_char)
-                
-                # Decrypt (Beaufort: P = K - C mod 26)
-                pt_pos = (key_pos - ct_pos) % 26
-                pt_char = self.alphabet[pt_pos]
-                
-                result.append(pt_char)
-                
-                # Extend keystream based on mode
-                if key_idx >= len(self.seed_key):
-                    if self.mode == 'pt':
-                        # PT-autokey: add recovered plaintext to keystream
-                        keystream.append(pt_char)
-                    else:
-                        # CT-autokey: add ciphertext to keystream
-                        keystream.append(char)
+                # For CT-autokey, extend keystream with current ciphertext BEFORE decrypting
+                if self.mode == 'ct' and key_idx >= len(self.seed_key):
+                    # Find the ciphertext character from (current - seed_length) positions back
+                    lookback_idx = pt_idx - len(self.seed_key)
+                    if lookback_idx >= 0:
+                        # Count back through alphabetic chars in ciphertext
+                        alpha_count = 0
+                        for j, ct_char in enumerate(ciphertext[:i]):
+                            if ct_char.isalpha():
+                                if alpha_count == lookback_idx:
+                                    keystream.append(ct_char)
+                                    break
+                                alpha_count += 1
+
+                # For PT-autokey, extend after we have plaintext
+                if self.mode == 'pt' and key_idx >= len(keystream):
+                    # PT-autokey: use plaintext from (current - seed_length) positions back
+                    lookback_idx = pt_idx - len(self.seed_key)
+                    if lookback_idx >= 0 and lookback_idx < len(result):
+                        # Find the lookback_idx'th alphabetic character
+                        alpha_count = 0
+                        for r_char in result:
+                            if r_char.isalpha():
+                                if alpha_count == lookback_idx:
+                                    keystream.append(r_char)
+                                    break
+                                alpha_count += 1
+
+                if key_idx < len(keystream):
+                    # Get key character for this position
+                    key_char = keystream[key_idx]
+                    key_idx += 1
+
+                    # Get positions in alphabet
+                    ct_pos = self.alphabet.index(char)
+                    key_pos = self.alphabet.index(key_char)
+
+                    # Decrypt (Beaufort: P = K - C mod 26)
+                    pt_pos = (key_pos - ct_pos) % 26
+                    pt_char = self.alphabet[pt_pos]
+
+                    result.append(pt_char)
+                    pt_idx += 1  # Increment plaintext index
+                else:
+                    result.append(char)
             else:
                 result.append(char)
-        
+
         return ''.join(result)
 
 
