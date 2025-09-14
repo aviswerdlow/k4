@@ -1,0 +1,108 @@
+{
+  "timestamp": "2025-09-13T01:08:53.306793",
+  "blender_version": "4.5.3 LTS",
+  "blend_file": {
+    "path": "/Users/aviswerdlow/Downloads/Kryptos Team/k4_cli_plus/06_DOCUMENTATION/KryptosModel/KryptosSculpture3DPrintable.Public.blend",
+    "sha256": "91c173be6974f1f5fb2b6e3c46d1ef4c21a307205dea9a73ce6703ed4c5f4f79",
+    "name": "KryptosSculpture3DPrintable.Public.blend"
+  },
+  "scale_parameters": {
+    "scale_world_per_model": 0.029695,
+    "scale_model_per_world": 33.68,
+    "unit_system": "metric",
+    "real_world_height_m": 3.7,
+    "model_height_units": 124.601,
+    "validation": "Based on known Kryptos panel height of 12 feet (3.7m)"
+  },
+  "panel_geometry": {
+    "centerline": {
+      "n_points": 294,
+      "total_length_m": 45.555,
+      "pool_arc_points": 196,
+      "away_arc_points": 98,
+      "pool_arc_fraction": 0.667,
+      "arc_length_file": "kryptos_centerline.csv"
+    },
+    "physical_dimensions": {
+      "height_m": 3.7,
+      "width_m": 2.85,
+      "thickness_estimate_m": 0.1,
+      "curvature": "piecewise_cylindrical"
+    },
+    "pool_arc_analysis": {
+      "center_x_m": -1.065,
+      "center_y_m": 0.952,
+      "radius_mean_m": 1.049,
+      "radius_std_m": 0.769,
+      "angle_sweep_deg": 311.1,
+      "fit_quality": "moderate",
+      "residual_mean_m": 0.667
+    },
+    "endpoints": {
+      "start": {
+        "x_m": -1.93,
+        "y_m": -1.544,
+        "z_m": 2.329,
+        "location": "near_petrified_tree"
+      },
+      "end": {
+        "x_m": 0.121,
+        "y_m": 2.806,
+        "z_m": 2.158,
+        "location": "near_pool_inner_ring"
+      }
+    }
+  },
+  "mesh_analysis": {
+    "copper_sheet": {
+      "vertices": 109183,
+      "faces": 231770,
+      "edges": 347655,
+      "topology": "watertight_manifold",
+      "embossing": "surface_relief",
+      "letter_representation": "merged_into_surface"
+    },
+    "relief_analysis": {
+      "z_variation_std": 35.242,
+      "high_relief_vertices": 23496,
+      "low_relief_vertices": 23377,
+      "relief_indicates": "embossed_letters",
+      "relief_data_file": "relief_analysis.csv"
+    }
+  },
+  "generated_artifacts": {
+    "centerline_ticks": {
+      "file": "panel_ticks.csv",
+      "n_ticks": 2278,
+      "spacing_m": 0.02,
+      "purpose": "deterministic_indexing_along_arc"
+    },
+    "exported_files": [
+      "kryptos_centerline.csv",
+      "kryptos_landmarks.json",
+      "panel_ticks.csv",
+      "relief_analysis.csv",
+      "morse_final_analysis.json"
+    ]
+  },
+  "morse_hypothesis_test": {
+    "result": "NEGATIVE",
+    "conclusion": "No Morse code detected in plaza shadows",
+    "method": "Rigorous statistical analysis with p<0.001 threshold",
+    "details_file": "morse_final_analysis.json"
+  },
+  "limitations": {
+    "letter_extraction": "BLOCKED - letters merged into surface",
+    "required_for_completion": "Pre-merge file with individual letter objects",
+    "workaround": "Using centerline ticks as surrogate indices"
+  },
+  "vendor_request": {
+    "status": "PENDING",
+    "need": "Pre-merge Blender file with one object per glyph",
+    "acceptable_formats": [
+      "Individual letter objects (K4_C_063, Letter_B_12, etc.)",
+      "Boolean cutter collection",
+      "Pre-merge working file"
+    ]
+  }
+}

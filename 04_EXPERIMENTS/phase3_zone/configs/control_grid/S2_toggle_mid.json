@@ -1,0 +1,31 @@
+{
+  "zones": {
+    "head": {"start": 0, "end": 20},
+    "mid": {"start": 34, "end": 73},
+    "tail": {"start": 74, "end": 96}
+  },
+  "control": {
+    "mode": "control",
+    "indices": [63, 64, 65, 66, 67, 68, 69, 70, 71, 72, 73]
+  },
+  "order": ["cipher", "mask"],
+  "mask": {
+    "type": "period7",
+    "params": {}
+  },
+  "cipher": {
+    "family": "vigenere",
+    "keys": {
+      "head": "GIRASOL",
+      "mid": "GIRASOL",
+      "tail": "GIRASOL"
+    },
+    "schedule": "static",
+    "family_overrides": {
+      "mid_switch_at": 63,
+      "mid_before": "vigenere",
+      "mid_after": "beaufort",
+      "mid_revert_at": 69
+    }
+  }
+}

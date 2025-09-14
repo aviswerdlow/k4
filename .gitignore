@@ -1,18 +1,18 @@
-# Python
+# Large Blender files (use Git LFS or separate storage)
+*.blend
+*.blend1
+*.blend2
+
+# Python cache
 __pycache__/
-*.pyc
-*.pyo
-*.pyd
-.Python
+*.py[cod]
+*$py.class
 *.so
-.pytest_cache/
-*.egg-info/
-build/
-dist/
+.Python
 
 # Virtual environments
-.venv/
 venv/
+ENV/
 env/
 
 # IDE
@@ -21,22 +21,15 @@ env/
 *.swp
 *.swo
 
-# OS
+# OS files
 .DS_Store
 Thumbs.db
 
 # Temporary files
-tmp/
-temp/
 *.tmp
+*.bak
+*.backup
+~*
 
-# Cache
-.cache/
-cache/
-
-# Large lexicon files (if excluded)
-data/lexicon/lexicon_large.tsv
-
-# Build artifacts
-*.zip
-*.tar.gz
+# Logs
+*.log

@@ -1,0 +1,206 @@
+{
+  "total_ticks": 456,
+  "sections": {
+    "K1": {
+      "tick_count": 89,
+      "x_range": [
+        -71.8415,
+        -23.214
+      ],
+      "y_range": [
+        -52.0,
+        -21.8563
+      ],
+      "z_range": [
+        67.2135,
+        86.5521
+      ],
+      "center": [
+        -39.45884323120117,
+        -38.065128326416016,
+        76.99372863769531
+      ]
+    },
+    "K2": {
+      "tick_count": 91,
+      "x_range": [
+        -24.0684,
+        -19.7021
+      ],
+      "y_range": [
+        -21.561,
+        6.9422
+      ],
+      "z_range": [
+        64.9311,
+        86.1356
+      ],
+      "center": [
+        -21.572420120239258,
+        -7.313287734985352,
+        76.99339294433594
+      ]
+    },
+    "K3": {
+      "tick_count": 138,
+      "x_range": [
+        -41.2155,
+        -21.8086
+      ],
+      "y_range": [
+        7.149,
+        49.3326
+      ],
+      "z_range": [
+        56.3149,
+        84.0037
+      ],
+      "center": [
+        -32.960636138916016,
+        27.401039123535156,
+        74.82211303710938
+      ]
+    },
+    "K4": {
+      "tick_count": 138,
+      "x_range": [
+        -41.1956,
+        10.7227
+      ],
+      "y_range": [
+        49.6172,
+        94.3712
+      ],
+      "z_range": [
+        67.1064,
+        82.3949
+      ],
+      "center": [
+        -26.90583038330078,
+        73.26232147216797,
+        75.54387664794922
+      ]
+    }
+  },
+  "multi_section_alignments": [
+    {
+      "x_position": -40.0,
+      "sections": [
+        "K1",
+        "K4",
+        "K3"
+      ],
+      "tick_count": 21
+    },
+    {
+      "x_position": -38.0,
+      "sections": [
+        "K1",
+        "K4",
+        "K3"
+      ],
+      "tick_count": 59
+    },
+    {
+      "x_position": -36.0,
+      "sections": [
+        "K1",
+        "K4",
+        "K3"
+      ],
+      "tick_count": 42
+    },
+    {
+      "x_position": -34.0,
+      "sections": [
+        "K1",
+        "K4",
+        "K3"
+      ],
+      "tick_count": 24
+    },
+    {
+      "x_position": -32.0,
+      "sections": [
+        "K1",
+        "K4",
+        "K3"
+      ],
+      "tick_count": 28
+    },
+    {
+      "x_position": -30.0,
+      "sections": [
+        "K1",
+        "K4",
+        "K3"
+      ],
+      "tick_count": 20
+    },
+    {
+      "x_position": -28.0,
+      "sections": [
+        "K1",
+        "K4",
+        "K3"
+      ],
+      "tick_count": 18
+    },
+    {
+      "x_position": -26.0,
+      "sections": [
+        "K1",
+        "K4",
+        "K3"
+      ],
+      "tick_count": 28
+    },
+    {
+      "x_position": -24.0,
+      "sections": [
+        "K1",
+        "K4",
+        "K3",
+        "K2"
+      ],
+      "tick_count": 32
+    },
+    {
+      "x_position": -22.0,
+      "sections": [
+        "K1",
+        "K4",
+        "K3",
+        "K2"
+      ],
+      "tick_count": 36
+    },
+    {
+      "x_position": -20.0,
+      "sections": [
+        "K3",
+        "K4",
+        "K2"
+      ],
+      "tick_count": 78
+    },
+    {
+      "x_position": -18.0,
+      "sections": [
+        "K4",
+        "K2"
+      ],
+      "tick_count": 6
+    }
+  ],
+  "sculpture_metrics": {
+    "total_arc_length_cm": 1267.9331,
+    "sections_identified": [
+      "K1",
+      "K2",
+      "K3",
+      "K4"
+    ],
+    "extra_text_ticks": 0
+  }
+}

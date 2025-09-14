@@ -1,0 +1,62 @@
+================================================================================
+KRYPTOS 3D SPATIAL ANALYSIS REPORT
+================================================================================
+
+Total letters analyzed: 97
+
+----------------------------------------
+LETTER SPACING ANALYSIS
+----------------------------------------
+mean_spacing: 0.0682
+std_spacing: 0.0132
+min_spacing: 0.0648
+max_spacing: 0.1191
+uniform: 0.0000
+
+----------------------------------------
+SIGNIFICANT ALIGNMENTS
+----------------------------------------
+x_lines: 3 letters at 2.000
+  Text: OBK
+y_lines: 14 letters at 0.000
+  Text: OBKRUOXOGHULBS
+y_lines: 14 letters at 0.100
+  Text: OLIFBBWFLRVQQP
+y_lines: 14 letters at 0.200
+  Text: RNGKSSOTWTQSJQ
+y_lines: 14 letters at 0.300
+  Text: SSEKZZWATJKLUD
+y_lines: 14 letters at 0.400
+  Text: IAWINFBNYPVTTM
+y_lines: 14 letters at 0.500
+  Text: ZFPKWGDKZXTJCD
+y_lines: 13 letters at 0.600
+  Text: IGKUHUAUEKCAR
+z_lines: 4 letters at 1.990
+  Text: KZJK
+z_lines: 4 letters at 2.000
+  Text: ZWAT
+
+----------------------------------------
+SPECIAL ANGLES
+----------------------------------------
+Index 1: OBK = 0°
+Index 2: BKR = 0°
+Index 3: KRU = 0°
+Index 4: RUO = 0°
+Index 5: UOX = 0°
+Index 6: OXO = 0°
+Index 7: XOG = 0°
+Index 8: OGH = 0°
+Index 9: GHU = 0°
+Index 10: HUL = 0°
+
+----------------------------------------
+CURVATURE ANALYSIS
+----------------------------------------
+Found 95 high-curvature points
+  Index 1: 'B' (curvature: 0.500)
+  Index 2: 'K' (curvature: 0.500)
+  Index 3: 'R' (curvature: 0.500)
+  Index 4: 'U' (curvature: 0.500)
+  Index 5: 'O' (curvature: 0.500)

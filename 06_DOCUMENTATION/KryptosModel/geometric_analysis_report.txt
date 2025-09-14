@@ -1,0 +1,80 @@
+================================================================================
+KRYPTOS ADVANCED GEOMETRIC ANALYSIS
+================================================================================
+
+----------------------------------------
+GOLDEN RATIO ANALYSIS
+----------------------------------------
+Golden ratio (φ) = 1.618034
+Found 8623 potential golden ratio relationships
+
+Examples:
+  OKO: ratio = 0.667
+  ORG: ratio = 0.600
+  OUU: ratio = 0.667
+  OUL: ratio = 0.572
+  OOG: ratio = 1.666
+
+----------------------------------------
+SPIRAL PATTERN ANALYSIS
+----------------------------------------
+
+Archimedean Spiral: Not detected
+
+Logarithmic Spiral: Not detected
+
+----------------------------------------
+ANCHOR GEOMETRIC RELATIONSHIPS
+----------------------------------------
+Forms regular polygon: NO
+
+Angles between anchor centers:
+  EAST-NORTHEAST-BERLIN: 141.2°
+  EAST-NORTHEAST-CLOCK: 136.3°
+  EAST-BERLIN-CLOCK: 135.5°
+  NORTHEAST-BERLIN-CLOCK: 141.1°
+
+----------------------------------------
+MATHEMATICAL CONSTANTS IN DISTANCES
+----------------------------------------
+
+PI:
+  OI: d=1.030 (0.3333333333333333×pi)
+  OF: d=1.092 (0.3333333333333333×pi)
+  OQ: d=1.579 (0.5×pi)
+
+E:
+  OO: d=0.905 (0.3333333333333333×e)
+  OF: d=1.338 (0.5×e)
+  OL: d=1.399 (0.5×e)
+
+SQRT2:
+  OO: d=0.452 (0.3333333333333333×sqrt2)
+  OG: d=0.517 (0.3333333333333333×sqrt2)
+  OL: d=0.709 (0.5×sqrt2)
+
+SQRT3:
+  OH: d=0.581 (0.3333333333333333×sqrt3)
+  OS: d=0.836 (0.5×sqrt3)
+  OO: d=0.905 (0.5×sqrt3)
+
+PHI:
+  OG: d=0.517 (0.3333333333333333×phi)
+  OH: d=0.581 (0.3333333333333333×phi)
+  OB: d=0.772 (0.5×phi)
+
+----------------------------------------
+2D PROJECTION PATTERNS
+----------------------------------------
+
+xy_plane:
+  Grid-like: NO
+  Circular: NO
+
+xz_plane:
+  Grid-like: NO
+  Circular: NO
+
+yz_plane:
+  Grid-like: NO
+  Circular: NO

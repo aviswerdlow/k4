@@ -1,0 +1,104 @@
+================================================================================
+PREREGISTERED TEST RESULTS - DEFINITIVE
+================================================================================
+
+Date: 2025-09-12
+Configuration Hash: e65d6081db465b26...
+Method: Fixed recipes, anchor masking, empirical p-values, Bonferroni correction
+
+================================================================================
+FINAL VERDICT: ALL HYPOTHESES FALSIFIED
+================================================================================
+
+Total: 0/7 tests passed the p ≤ 0.001 threshold
+
+================================================================================
+TEST RESULTS SUMMARY
+================================================================================
+
+TEST A: COORDINATE-TO-KEY (Fixed Recipe)
+----------------------------------------
+Recipe: angle → digits → A-J mapping → deduplicate → max 12 chars
+
+Angle 2.2356° → Key: CDFGKRYPTOS → p = 0.9198 → FAIL
+Angle 2.2°    → Key: CKRYPTOS    → p = 0.8842 → FAIL  
+Angle 2.3°    → Key: CDKRYPTOS   → p = 0.9948 → FAIL
+Angle 22.356° → Key: CDFGKRYPTOS → p = 0.9186 → FAIL
+Angle 223.56° → Key: CDFGKRYPTOS → p = 0.9256 → FAIL
+
+Result: NO content words (≥5 letters) found
+Conclusion: The "2.2356 produces function words" claim is FALSE
+
+TEST B: DUAL-PATH XOR STRUCTURE
+-------------------------------
+Method: XOR difference between linear and spatial paths
+
+Statistics computed:
+- Entropy: 4.3224 (p = 0.1059)
+- Index of Coincidence: 0.0422 (p = 0.1838)
+- Autocorrelation peak: 0.1111 (p = 0.2488)
+- Kasiski count: 2.0 (p = 1.0000)
+- LZMA ratio: 1.7534 (p = 0.9980)
+
+Adjusted p-value: 0.5295
+Result: FAIL - No structure detected beyond random
+
+TEST C: 7×14 GRID READOUTS
+--------------------------
+Method: Deterministic grid, column and diagonal reads
+
+Significant reads found: 0
+p-value: 1.0000
+Result: FAIL - No words found in any column or diagonal
+
+TEST D: SHADOW SELECTOR
+-----------------------
+Sun vector: Nov 3, 1990, 14:00 Langley (elevation=35°, azimuth=213.8°)
+
+Top 15 illuminated: p = 0.9600 → FAIL
+Top 20 illuminated: p = 0.9531 → FAIL
+Top 24 illuminated: p = 0.9441 → FAIL
+
+Result: No English-like patterns in shadow-selected letters
+
+================================================================================
+IMPLICATIONS
+================================================================================
+
+1. The coordinate 2.2356 does NOT produce function words through the tested recipe
+2. The XOR between paths shows NO structure beyond random permutation
+3. The 7×14 grid arrangement yields NO readable columns or diagonals
+4. Shadow-based selection produces NO meaningful text
+
+================================================================================
+DEFINITIVE CONCLUSIONS
+================================================================================
+
+✗ All "discoveries" from the combined analysis were apophenia
+✗ The patterns were artifacts of:
+  - Post-hoc hypothesis formation
+  - Multiple testing without correction
+  - Scale-dependent measurements
+  - Arbitrary parameter choices
+
+✓ The rigorous, preregistered tests with fixed recipes show:
+  - NO evidence of geometric encoding
+  - NO evidence of coordinate-based keys
+  - NO evidence of dual-path structure
+  - NO evidence of shadow-based selection
+
+================================================================================
+RECOMMENDATION
+================================================================================
+
+CLOSE this line of investigation. The geometric/spatial approach to K4 has been
+thoroughly and rigorously falsified. Any future claims about geometric patterns
+must pass similarly rigorous preregistered tests with:
+
+- Fixed recipes (no tuning)
+- Anchor masking
+- Empirical p-values from matched nulls
+- Bonferroni correction
+- Replication requirements
+
+Without meeting these standards, pattern claims are not credible evidence.

@@ -1,0 +1,15 @@
+{
+  "method": "endpoint_match",
+  "Rz_deg": 0.0,
+  "t_m": [
+    -0.1835,
+    -0.3826,
+    3.3006
+  ],
+  "mirror": false,
+  "source_files": {
+    "ticks": "../04_full_sculpture/kryptos_full_sculpture_ticks.csv",
+    "pool_arc": "../07_vesica/02_ticks/pool_arc_ticks.csv",
+    "away_arc": "../07_vesica/02_ticks/away_arc_ticks.csv"
+  }
+}

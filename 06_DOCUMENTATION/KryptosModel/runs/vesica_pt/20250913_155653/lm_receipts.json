@@ -1,0 +1,40 @@
+{
+  "timestamp": "20250913_155653",
+  "track": "PT_LM_vesica",
+  "random_seed": 20250913,
+  "n_nulls": 1000,
+  "n_tests": 4,
+  "bonferroni_divisor": 4,
+  "p_threshold": 0.001,
+  "k4_anchors_masked": [
+    [
+      21,
+      25
+    ],
+    [
+      25,
+      34
+    ],
+    [
+      63,
+      69
+    ],
+    [
+      69,
+      74
+    ]
+  ],
+  "input_hashes": {
+    "pt_map": "ef83716e76e8fb49",
+    "perimeter": "103eb2ee64d2a1a8",
+    "lens_20": "7b9123f5beacac9f",
+    "lens_30": "7b9123f5beacac9f",
+    "pairs": "595019a3f4cc8e88"
+  },
+  "best_result": {
+    "label": "perimeter",
+    "p_raw": 0.000999000999000999,
+    "p_adj": 0.003996003996003996,
+    "passes": false
+  }
+}

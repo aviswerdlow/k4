@@ -1,0 +1,33 @@
+{
+  "timestamp": "2025-09-13T15:03:21.548563",
+  "file_hashes": {
+    "grid": "0b16ba0a849f8190059903948c5f3534d7a43f9ac1933788b69ccbc8cbf78151",
+    "ticks": "a3ea7caf9969dee3f8b85cdf809348e618aea59f9da613ac17a43a8fb5e0dd40",
+    "surrogates": "d66192e57408a7ff98bd7b541976198f3201018219baa91e57c54afe5d81085f"
+  },
+  "parameters": {
+    "row_col_tolerance": 0.5,
+    "y_clustering_method": "jump_detection"
+  },
+  "validation": {
+    "section_counts": {
+      "K1": 89,
+      "K2": 78
+    },
+    "expected_counts": {
+      "K1": 89,
+      "K2": 91,
+      "K3": 138,
+      "K4": 138
+    },
+    "join_duplicates": 0,
+    "join_missing": 289,
+    "total_ticks": 167
+  },
+  "outputs": {
+    "ticks_rowcol_left": "/Users/aviswerdlow/Downloads/Kryptos Team/k4_cli_plus/06_DOCUMENTATION/KryptosModel/04_full_sculpture/ticks_rowcol_left.csv",
+    "grid_to_ticks_left": "/Users/aviswerdlow/Downloads/Kryptos Team/k4_cli_plus/06_DOCUMENTATION/KryptosModel/04_full_sculpture/grid_to_ticks_left.csv",
+    "letters_map_full_ct": "/Users/aviswerdlow/Downloads/Kryptos Team/k4_cli_plus/06_DOCUMENTATION/KryptosModel/04_full_sculpture/letters_map_full_ct.csv",
+    "letters_map_full": "/Users/aviswerdlow/Downloads/Kryptos Team/k4_cli_plus/06_DOCUMENTATION/KryptosModel/04_full_sculpture/letters_map_full.csv"
+  }
+}

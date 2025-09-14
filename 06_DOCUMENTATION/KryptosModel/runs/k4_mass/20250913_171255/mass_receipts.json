@@ -1,0 +1,11 @@
+{
+  "timestamp": "20250913_171255",
+  "ct_hash": "eea813570c7f1fd3",
+  "schedule_class": "period_5",
+  "alphabet": "kryptos",
+  "mapping": "vigenere",
+  "lm_score": 0.18230000000000005,
+  "complexity": 5,
+  "valid_roundtrip": true,
+  "anchors_verified": true
+}

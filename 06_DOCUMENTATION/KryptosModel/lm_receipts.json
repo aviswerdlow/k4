@@ -1,0 +1,39 @@
+{
+  "timestamp": "2025-09-13T01:45:03.145283",
+  "scorer": "frozen_5gram_lm_v1",
+  "scorer_hash": "7f3a2b91c4d8e5f6",
+  "file_hashes": {
+    "light_sweep_results.json": "f2eaa124819e618595b3e0c7868abf05c709202ea3beb90ac4bd6d18d25074fe",
+    "letters_map.csv": "c955c107c5583498a25a97295c792a93016356fc8a6fba4f0601fccd37b28530",
+    "letters_surrogate_k4.csv": "d66192e57408a7ff98bd7b541976198f3201018219baa91e57c54afe5d81085f"
+  },
+  "parameters": {
+    "num_nulls": 1000,
+    "mask_windows": [
+      [
+        21,
+        25
+      ],
+      [
+        25,
+        34
+      ],
+      [
+        63,
+        69
+      ],
+      [
+        69,
+        74
+      ]
+    ],
+    "bonferroni_alpha": 0.001,
+    "num_tests": 108,
+    "seed": 20250913
+  },
+  "summary": {
+    "total_scored": 108,
+    "passed_bonferroni": 0,
+    "passed_with_replication": 0
+  }
+}

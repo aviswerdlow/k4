@@ -1,0 +1,59 @@
+{
+  "scale_factor": 0.029695,
+  "panel_endpoints": {
+    "start": {
+      "model": [
+        -64.98753356933594,
+        -52.0,
+        78.43693542480469
+      ],
+      "real_m": [
+        -1.9298048093414306,
+        -1.54414,
+        2.329184797439575
+      ]
+    },
+    "end": {
+      "model": [
+        4.08721923828125,
+        94.5,
+        72.66297912597656
+      ],
+      "real_m": [
+        0.12136997528076171,
+        2.8061775,
+        2.157727165145874
+      ]
+    }
+  },
+  "centerline_stats": {
+    "n_points": 294,
+    "total_length_m": 45.55521673399779,
+    "pool_arc_points": 196,
+    "away_arc_points": 98
+  },
+  "pool_arc_circle_fit": {
+    "center_x_model": -35.86500337708551,
+    "center_y_model": 32.05373369728472,
+    "center_x_real_m": -1.065011275282554,
+    "center_y_real_m": 0.9518356221408697,
+    "radius_model": 35.333093248962925,
+    "radius_real_m": 1.049216204027954,
+    "radius_std_model": 25.910777449256226,
+    "radius_std_real_m": 0.7694205363556637,
+    "angle_sweep_deg": 311.0737172980399,
+    "mean_abs_residual_m": 0.6672815157932545,
+    "max_abs_residual_m": 1.6471860614356573
+  },
+  "scale_locked": {
+    "scale_world_per_model": 0.029695,
+    "panel_length_m": 45.555,
+    "panel_bbox_m": [
+      2.85,
+      3.7,
+      0.1
+    ],
+    "pool_arc_fraction": 0.667,
+    "validation_method": "known_panel_height_12ft"
+  }
+}

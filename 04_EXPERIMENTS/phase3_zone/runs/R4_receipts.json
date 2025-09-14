@@ -1,0 +1,24 @@
+{
+  "timestamp": "2025-09-12T14:14:27.751299",
+  "manifest_hash": "1cfc85889c091bd3a14dbb355f71ed81266171d0b10177a5f9363e7be0476023",
+  "ciphertext_hash": "eea813570c7f1fd3b34674e47b5c3da8948026f5cefee612a0b38ffaa515ceab",
+  "plaintext_hash": "518c95035f7ed1ea7fb083209f8e7464e6aab93f162a38ccfc7a3172c96bb486",
+  "roundtrip_valid": true,
+  "zones": {
+    "head": [
+      0,
+      33
+    ],
+    "mid": [
+      34,
+      73
+    ],
+    "tail": [
+      74,
+      96
+    ]
+  },
+  "control_mode": "content",
+  "berlinclock_verified": true,
+  "control_text": "BERLINCLOCK"
+}

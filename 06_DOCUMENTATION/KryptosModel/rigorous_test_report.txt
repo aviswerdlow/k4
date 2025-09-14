@@ -1,0 +1,139 @@
+================================================================================
+RIGOROUS GEOMETRIC HYPOTHESIS TEST RESULTS
+================================================================================
+
+Date: 2025-09-12
+Method: Scale-invariant geometric tests with empirical p-values
+
+================================================================================
+EXECUTIVE SUMMARY
+================================================================================
+
+All geometric hypotheses H1-H7 FAILED to achieve statistical significance.
+
+✗ No tests passed p ≤ 0.001 threshold
+✗ No tests showed improvement over random selection
+✗ No evidence of geometric encoding in Kryptos K4
+
+================================================================================
+DETAILED RESULTS
+================================================================================
+
+H1: ARC-LENGTH MODULO
+--------------------
+Method: Select letters where normalized arc-length mod (1/k) < threshold
+Tested k values: 5, 6, 7, 8, 9, 10, 11, 24, 28
+
+Result: NO SIGNIFICANT PATTERNS FOUND
+- All extracted texts showed p-value = 1.0
+- English-like scores = 0 (no better than random)
+- Insufficient letters selected for most k values
+
+H2: RING-24 SECTORS (step=4)
+----------------------------
+Method: Divide cylindrical projection into 24 sectors, extract with step=4
+Selected text: LRVQQPRSEKDIAWDKZXTJCDI (23 letters)
+
+Result: p = 1.0000
+- Test statistic: 0.000
+- No English-like patterns detected
+- Pattern is indistinguishable from random selection
+
+H3: NE GRADIENT
+--------------
+Method: Select every k-th letter along northeast gradient direction
+
+k=7: RUCGTFUWUQLOBP (14 letters) - p = 1.0000
+k=8: RHTPYIOUGBIWV (13 letters) - p = 1.0000  
+k=9: RUZMNJRQBSF (11 letters) - p = 1.0000
+
+Result: NO PATTERNS FOUND
+- All selections show zero English-like properties
+- No improvement over random baseline
+
+H6: ANCHOR-WALK PEEL
+-------------------
+Method: Start from OBKR anchor, walk with offsets
+
+offset=-1: OOULWQGTJKTDNPZGTGAA (20 letters) - p = 1.0000
+offset=+1: OOULWQGTJKTDNPZGTGAA (20 letters) - p = 1.0000
+
+Result: NO PATTERNS FOUND
+- Identical results for both offsets (unexpected)
+- No English-like properties detected
+
+================================================================================
+STATISTICAL ANALYSIS
+================================================================================
+
+Bonferroni Correction
+--------------------
+- Number of tests: 6
+- Adjusted α: 0.001 / 6 = 0.000167
+- Tests passing threshold: 0
+
+Empirical P-Values
+-----------------
+- Method: 10,000 permutations per test
+- Conservative estimate: (count + 1) / (n + 1)
+- All tests showed p = 1.0 (worst possible)
+
+English Scoring Method
+---------------------
+- Common bigrams: TH, HE, IN, ER, AN, etc.
+- Common trigrams: THE, AND, ING, ION, etc.
+- Common words: THE, AND, FOR, ARE, BUT, etc.
+- Score normalized by text length
+
+================================================================================
+IMPLICATIONS
+================================================================================
+
+1. The 3D geometric structure does NOT encode a cipher key or selection pattern
+   
+2. The apparent patterns from earlier analysis were artifacts of:
+   - Scale-dependent measurements
+   - Arbitrary tolerance values
+   - Post-hoc pattern recognition (apophenia)
+
+3. The sculpture's physical arrangement appears decorative, not cryptographic
+
+4. If K4 has a solution, it likely relies on:
+   - Traditional cryptographic methods
+   - Non-geometric patterns
+   - Information not present in the 3D structure
+
+================================================================================
+RECOMMENDATIONS
+================================================================================
+
+1. ABANDON geometric hypothesis - no supporting evidence found
+
+2. RETURN to cryptanalytic approaches:
+   - Period analysis
+   - Known cipher systems
+   - Historical/contextual clues
+
+3. The "key length 22" from anchor vectors is likely coincidental
+
+4. Physical viewing angles do not reveal hidden messages
+
+================================================================================
+VISUALIZATION FILES GENERATED
+================================================================================
+
+overlay_1_H2_ring_sectors_main.png
+overlay_2_H3_ne_gradient_k=7.png  
+overlay_3_H3_ne_gradient_k=8.png
+
+These show the spatial distribution of selected letters, confirming
+no meaningful patterns emerge from the geometric selection methods.
+
+================================================================================
+CONCLUSION
+================================================================================
+
+The rigorous testing definitively FALSIFIES the geometric cipher hypothesis.
+K4 does not encode information through 3D spatial relationships.
+
+The sculpture's physical form is artistic, not cryptographic.

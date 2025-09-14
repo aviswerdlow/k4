@@ -1,0 +1,93 @@
+[
+  {
+    "manifest": "simple_test.json",
+    "path": "/Users/aviswerdlow/Downloads/Kryptos Team/k4_cli_plus/04_EXPERIMENTS/phase3_zone/configs/control_grid/simple_test.json",
+    "berlinclock": false,
+    "roundtrip": true,
+    "control_text": "VGPVSBKRNXK",
+    "function_words": [],
+    "function_count": 0,
+    "score_excl_control": 0.037037037037037035,
+    "head_preview": "EKMCBAFEPJFSNAEUKQIN",
+    "mid_preview": "OSERIARQSRMIRHEATISJ",
+    "tail_preview": "HGSCNIBFKKTGZMVFIQMR"
+  },
+  {
+    "manifest": "S1_vig_ABSCISSA_period5.json",
+    "path": "/Users/aviswerdlow/Downloads/Kryptos Team/k4_cli_plus/04_EXPERIMENTS/phase3_zone/configs/control_grid/S1_vig_ABSCISSA_period5.json",
+    "berlinclock": false,
+    "roundtrip": false,
+    "control_text": "MGNNBBMZFPK",
+    "function_words": [],
+    "function_count": 0,
+    "score_excl_control": 0.024691358024691357,
+    "head_preview": "AKHJHOEKSQRDOSVHUOYT",
+    "mid_preview": "OSERIARQSRMIRHEATISJ",
+    "tail_preview": "WHVYFEMJDVWMRNHVSIKR"
+  },
+  {
+    "manifest": "S3_switch_mask.json",
+    "path": "/Users/aviswerdlow/Downloads/Kryptos Team/k4_cli_plus/04_EXPERIMENTS/phase3_zone/configs/control_grid/S3_switch_mask.json",
+    "berlinclock": false,
+    "roundtrip": false,
+    "control_text": "NYPVTTMZFPK",
+    "function_words": [],
+    "function_count": 0,
+    "score_excl_control": 0.024691358024691357,
+    "head_preview": "AKHJHOEKSQRDOSVLIFBB",
+    "mid_preview": "OSERIARQSRMIRHEBNXXT",
+    "tail_preview": "WHVYFEMJDVWMRNHUAUEK"
+  },
+  {
+    "manifest": "S2_toggle_mid.json",
+    "path": "/Users/aviswerdlow/Downloads/Kryptos Team/k4_cli_plus/04_EXPERIMENTS/phase3_zone/configs/control_grid/S2_toggle_mid.json",
+    "berlinclock": false,
+    "roundtrip": false,
+    "control_text": "TIRLNNGTZJE",
+    "function_words": [],
+    "function_count": 0,
+    "score_excl_control": 0.012345679012345678,
+    "head_preview": "ITTRCAMIYQUTNHIDRFJN",
+    "mid_preview": "ILFTYEYKKBESLOQSCJSX",
+    "tail_preview": "QYMKHJIDUMIOWJBMJUMW"
+  },
+  {
+    "manifest": "S4_serpentine_flip.json",
+    "path": "/Users/aviswerdlow/Downloads/Kryptos Team/k4_cli_plus/04_EXPERIMENTS/phase3_zone/configs/control_grid/S4_serpentine_flip.json",
+    "berlinclock": false,
+    "roundtrip": false,
+    "control_text": "FUDXZZGTNDI",
+    "function_words": [],
+    "function_count": 0,
+    "score_excl_control": 0.012345679012345678,
+    "head_preview": "EGQMUIVTUWULRPMSGRRG",
+    "mid_preview": "EOEKYEJRILKMTIEDVNIW",
+    "tail_preview": "PCDXUOPXFQDCWNMRIMDJ"
+  },
+  {
+    "manifest": "manifest.json",
+    "path": "/Users/aviswerdlow/Downloads/Kryptos Team/k4_cli_plus/01_PUBLISHED/candidates/zone_mask_v1_R4/manifest.json",
+    "berlinclock": true,
+    "roundtrip": true,
+    "control_text": "BERLINCLOCK",
+    "function_words": [],
+    "function_count": 0,
+    "score_excl_control": 0.012345679012345678,
+    "head_preview": "EKMCBAFEPJFSNAEUKQIN",
+    "mid_preview": "OTWTQSJQSSEKZZWATJKL",
+    "tail_preview": "HGSCNIBFKKTGZMVFIQMR"
+  },
+  {
+    "manifest": "S1_beau_LATLONG_diag12.json",
+    "path": "/Users/aviswerdlow/Downloads/Kryptos Team/k4_cli_plus/04_EXPERIMENTS/phase3_zone/configs/control_grid/S1_beau_LATLONG_diag12.json",
+    "berlinclock": false,
+    "roundtrip": false,
+    "control_text": "CENABRFGWBK",
+    "function_words": [],
+    "function_count": 0,
+    "score_excl_control": 0.0,
+    "head_preview": "XGMBYSDCKPAQSCMASDTA",
+    "mid_preview": "XHAZXKKTVGBFKMNETEBA",
+    "tail_preview": "POHMFPKTFJRNNRKSAWFE"
+  }
+]

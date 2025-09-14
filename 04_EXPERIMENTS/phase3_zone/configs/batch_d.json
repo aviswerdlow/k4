@@ -1,0 +1,55 @@
+{
+  "description": "Batch D - Twist detector",
+  "base_manifest": {
+    "zones": {
+      "head": {"start": 0, "end": 20},
+      "mid": {"start": 34, "end": 62},
+      "tail": {"start": 74, "end": 96}
+    },
+    "control": {
+      "mode": "control",
+      "indices": [64, 65, 66, 67, 68, 69, 70, 71, 72, 73]
+    },
+    "mask": {
+      "type": "period2",
+      "params": {"period": 2}
+    },
+    "route": {
+      "type": "columnar",
+      "params": {"rows": 7, "cols": 14, "passes": 1}
+    },
+    "cipher": {
+      "family": "vigenere",
+      "keys": {
+        "head": "ORDINATE",
+        "mid": "ABSCISSA",
+        "tail": "AZIMUTH"
+      },
+      "schedule": "rotate_on_control",
+      "schedule_params": {
+        "indices": [64, 69]
+      }
+    }
+  },
+  "twists": [
+    {
+      "description": "Toggle cipher family on MID",
+      "modification": {
+        "cipher.family": "beaufort"
+      }
+    },
+    {
+      "description": "Add tumble flip between passes",
+      "modification": {
+        "route.params.passes": 2,
+        "route.params.row_flip_between_passes": true
+      }
+    },
+    {
+      "description": "Rotate key at different indices",
+      "modification": {
+        "cipher.schedule_params.indices": [34, 62]
+      }
+    }
+  ]
+}

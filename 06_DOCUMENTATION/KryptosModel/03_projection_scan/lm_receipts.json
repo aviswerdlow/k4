@@ -1,0 +1,8 @@
+{
+  "timestamp": "2025-09-13T02:13:23.065270",
+  "scorer_hash": "7f3a2b91c4d8e5f6",
+  "num_tests": 540,
+  "num_nulls": 1000,
+  "k4_masked": true,
+  "bonferroni_alpha": 0.001
+}

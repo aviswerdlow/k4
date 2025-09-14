@@ -1,0 +1,128 @@
+{
+  "anchors": {
+    "EAST": {
+      "text": "EAST",
+      "start": 21,
+      "end": 24,
+      "length": 4
+    },
+    "NORTHEAST": {
+      "text": "NORTHEAST",
+      "start": 25,
+      "end": 33,
+      "length": 9
+    },
+    "BERLIN": {
+      "text": "BERLIN",
+      "start": 63,
+      "end": 68,
+      "length": 6
+    },
+    "CLOCK": {
+      "text": "CLOCK",
+      "start": 69,
+      "end": 73,
+      "length": 5
+    }
+  },
+  "ciphertext_windows": {
+    "EAST": "FLRV",
+    "NORTHEAST": "QQPRNGKSS",
+    "BERLIN": "NYPVTT",
+    "CLOCK": "MZFPK"
+  },
+  "required_keys": {
+    "vigenere": {
+      "standard": {
+        "EAST": {
+          "key": "BLZC",
+          "position": "21-24",
+          "validates": true
+        },
+        "NORTHEAST": {
+          "key": "DCYYGCKAZ",
+          "position": "25-33",
+          "validates": true
+        },
+        "BERLIN": {
+          "key": "MUYKLG",
+          "position": "63-68",
+          "validates": true
+        },
+        "CLOCK": {
+          "key": "KORNA",
+          "position": "69-73",
+          "validates": true
+        }
+      },
+      "kryptos": {
+        "EAST": {
+          "key": "IRJD",
+          "position": "21-24",
+          "validates": true
+        },
+        "NORTHEAST": {
+          "key": "HGMIMJAON",
+          "position": "25-33",
+          "validates": true
+        },
+        "BERLIN": {
+          "key": "SYMLWR",
+          "position": "63-68",
+          "validates": true
+        },
+        "CLOCK": {
+          "key": "QOYBQ",
+          "position": "69-73",
+          "validates": true
+        }
+      }
+    },
+    "beaufort": {
+      "standard": {
+        "EAST": {
+          "key": "JLJO",
+          "position": "21-24",
+          "validates": true
+        },
+        "NORTHEAST": {
+          "key": "DEGKUKKKL",
+          "position": "25-33",
+          "validates": true
+        },
+        "BERLIN": {
+          "key": "OCGGBG",
+          "position": "63-68",
+          "validates": true
+        },
+        "CLOCK": {
+          "key": "OKTRU",
+          "position": "69-73",
+          "validates": true
+        }
+      },
+      "kryptos": {
+        "EAST": {
+          "key": "CECH",
+          "position": "21-24",
+          "validates": true
+        },
+        "NORTHEAST": {
+          "key": "PTSDQDDDE",
+          "position": "25-33",
+          "validates": true
+        },
+        "BERLIN": {
+          "key": "HYSSRS",
+          "position": "63-68",
+          "validates": true
+        },
+        "CLOCK": {
+          "key": "HDNLQ",
+          "position": "69-73",
+          "validates": true
+        }
+      }
+    }
+  }
+}

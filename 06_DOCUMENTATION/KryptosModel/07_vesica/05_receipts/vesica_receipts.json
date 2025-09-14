@@ -1,0 +1,40 @@
+{
+  "timestamp": "2025-09-13T15:52:29.014097",
+  "blender_version": "4.5.3 LTS",
+  "file_hashes": {
+    "source_ticks": "a3ea7caf9969dee3f8b85cdf809348e618aea59f9da613ac17a43a8fb5e0dd40",
+    "pool_arc": "db8328ad32be3575b64675fd6371c4f6994d5cf18995445b9a47e75945233b2b",
+    "away_arc": "5738ab3ee5a7cb4f87dbf53b3d0126c5dd32563aa4da25c8e457d5c7ab27e356",
+    "away_arc_transformed": "012c5bf3bfd97b0538d71c6aa52a7f0a917964026f7edf7a2112329fc36fb36a"
+  },
+  "transform": {
+    "method": "endpoint_match",
+    "Rz_deg": 0.0,
+    "t_m": [
+      -0.1835,
+      -0.3826,
+      3.3006
+    ],
+    "mirror": false,
+    "source_files": {
+      "ticks": "../04_full_sculpture/kryptos_full_sculpture_ticks.csv",
+      "pool_arc": "../07_vesica/02_ticks/pool_arc_ticks.csv",
+      "away_arc": "../07_vesica/02_ticks/away_arc_ticks.csv"
+    }
+  },
+  "epsilon_values": [
+    0.02,
+    0.03
+  ],
+  "counts": {
+    "perimeter": 456,
+    "lens_eps20": 2,
+    "lens_eps30": 2
+  },
+  "pair_distances": {
+    "min": 0.0,
+    "median": 35.28476274861297,
+    "max": 82.42958050135886
+  },
+  "notes": "Vesica assembly using endpoint_match method with simple translation"
+}

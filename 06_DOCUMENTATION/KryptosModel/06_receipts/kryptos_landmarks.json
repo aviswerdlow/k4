@@ -1,0 +1,30 @@
+{
+  "scene_info": {
+    "units": "metric",
+    "unit_scale": 1.0,
+    "blender_version": "4.5.3 LTS",
+    "export_date": "2025-09-13T02:05:12.369327"
+  },
+  "landmarks": {
+    "pond_center": [
+      -27.821975708007812,
+      21.1851749420166,
+      76.70025634765625
+    ],
+    "panel_start": [
+      -75.89205169677734,
+      -52.18684005737305,
+      76.70025968551636
+    ],
+    "panel_end": [
+      20.248098373413086,
+      94.55718994140625,
+      76.70025968551636
+    ]
+  },
+  "measurements": {
+    "panel_arc_length_cm": 1267.93,
+    "scale_factor_world_to_model": 1.0,
+    "pool_arc_fraction": 0.25
+  }
+}

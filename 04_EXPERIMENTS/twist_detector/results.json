@@ -1,0 +1,90 @@
+[
+  {
+    "twist": "baseline",
+    "improvement": 0,
+    "result": {
+      "success": true,
+      "roundtrip_valid": true,
+      "berlin_found": false,
+      "english_score": -32.61030927835051,
+      "plaintext_preview": "OBKRUOXOGHULBSOLIFBBWFLRVQQPRNGKSSOTWTQSJQSSEKZZWA"
+    }
+  },
+  {
+    "twist": "family_toggle_mid",
+    "improvement": 0.0,
+    "result": {
+      "success": true,
+      "roundtrip_valid": true,
+      "berlin_found": false,
+      "english_score": -32.61030927835051,
+      "plaintext_preview": "OBKRUOXOGHULBSOLIFBBWFLRVQQPRNGKSSOTWTQSJQSSEKZZWA"
+    }
+  },
+  {
+    "twist": "reverse_tableau_10",
+    "improvement": 0.0,
+    "result": {
+      "success": true,
+      "roundtrip_valid": true,
+      "berlin_found": false,
+      "english_score": -32.61030927835051,
+      "plaintext_preview": "OBKRUOXOGHULBSOLIFBBWFLRVQQPRNGKSSOTWTQSJQSSEKZZWA"
+    }
+  },
+  {
+    "twist": "rotate_key_64_69",
+    "improvement": 0.0,
+    "result": {
+      "success": true,
+      "roundtrip_valid": true,
+      "berlin_found": false,
+      "english_score": -32.61030927835051,
+      "plaintext_preview": "OBKRUOXOGHULBSOLIFBBWFLRVQQPRNGKSSOTWTQSJQSSEKZZWA"
+    }
+  },
+  {
+    "twist": "add_tumble_flip",
+    "improvement": 0.0,
+    "result": {
+      "success": true,
+      "roundtrip_valid": true,
+      "berlin_found": false,
+      "english_score": -32.61030927835051,
+      "plaintext_preview": "OBKRUOXOGHULBSOLIFBBWFLRVQQPRNGKSSOTWTQSJQSSEKZZWA"
+    }
+  },
+  {
+    "twist": "swap_head_tail_keys",
+    "improvement": 0.0,
+    "result": {
+      "success": true,
+      "roundtrip_valid": true,
+      "berlin_found": false,
+      "english_score": -32.61030927835051,
+      "plaintext_preview": "OBKRUOXOGHULBSOLIFBBWFLRVQQPRNGKSSOTWTQSJQSSEKZZWA"
+    }
+  },
+  {
+    "twist": "add_period2_mask",
+    "improvement": 0.0,
+    "result": {
+      "success": true,
+      "roundtrip_valid": true,
+      "berlin_found": false,
+      "english_score": -32.61030927835051,
+      "plaintext_preview": "OBKRUOXOGHULBSOLIFBBWFLRVQQPRNGKSSOTWTQSJQSSEKZZWA"
+    }
+  },
+  {
+    "twist": "control_mode_toggle",
+    "improvement": 0.0,
+    "result": {
+      "success": true,
+      "roundtrip_valid": true,
+      "berlin_found": false,
+      "english_score": -32.61030927835051,
+      "plaintext_preview": "OBKRUOXOGHULBSOLIFBBWFLRVQQPRNGKSSOTWTQSJQSSEKZZWA"
+    }
+  }
+]

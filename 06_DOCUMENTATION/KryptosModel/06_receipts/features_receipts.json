@@ -1,0 +1,25 @@
+{
+  "task": "A2_relief_sampling",
+  "parameters": {
+    "disk_radius_mm": 6.0,
+    "gradient_method": "numpy.gradient",
+    "uv_to_pixel_width": 4096,
+    "uv_to_pixel_height": 2048
+  },
+  "file_hashes": {
+    "relief_bake_png": "7d29928e22ba7040bff9ca82f512106a6a7f0030cc6c1b6c34509be5b3a7ee4f",
+    "letters_surrogate_csv": "d66192e57408a7ff98bd7b541976198f3201018219baa91e57c54afe5d81085f",
+    "letters_features_csv": "6eb0ac65b0b354748770a282ef9123c19d3f203a728af55eff638be286f89178"
+  },
+  "statistics": {
+    "relief_mean_range": [
+      0.0,
+      0.1267
+    ],
+    "centerline_dist_range": [
+      0.0,
+      3.5436
+    ],
+    "letter_count": 97
+  }
+}

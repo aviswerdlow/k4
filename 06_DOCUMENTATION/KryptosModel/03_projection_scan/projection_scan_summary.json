@@ -1,0 +1,37 @@
+{
+  "scan_parameters": {
+    "total_angles": 180,
+    "step_degrees": 2,
+    "cylinder_radius_cm": 30.0,
+    "slit_width_degrees": 5.0,
+    "pond_center": [
+      -27.821975708007812,
+      21.1851749420166,
+      76.70025634765625
+    ]
+  },
+  "coverage_statistics": {
+    "total_letters": 97,
+    "letters_ever_illuminated": 97,
+    "avg_letters_per_angle": 4.788888888888889,
+    "max_letters_per_angle": 32,
+    "min_letters_per_angle": 0
+  },
+  "selection_statistics": {
+    "M_15": {
+      "unique_selections": 78,
+      "total_possible": 180,
+      "diversity_ratio": 0.43333333333333335
+    },
+    "M_20": {
+      "unique_selections": 79,
+      "total_possible": 180,
+      "diversity_ratio": 0.4388888888888889
+    },
+    "M_24": {
+      "unique_selections": 79,
+      "total_possible": 180,
+      "diversity_ratio": 0.4388888888888889
+    }
+  }
+}

@@ -1,0 +1,176 @@
+{
+  "config_hash": "e65d6081db465b26dc631860f03822fcf34cf2c33850ba3223abc99909e1714d",
+  "timestamp": "2025-09-12T23:40:11.638432",
+  "results": {
+    "test_A": {
+      "2.2356": {
+        "key": "CDFGKRYPTOS",
+        "decrypted_sample": "OBKRUOXOGFRGVIXNTMNJUCGLVQQPRNWTUDVFERNNDGBUPRLHUX",
+        "test_score": 0.0,
+        "p_value": 0.9198160367926415,
+        "p_adjusted": 1.0,
+        "content_words": [],
+        "passes": false
+      },
+      "2.2": {
+        "key": "CKRYPTOS",
+        "decrypted_sample": "OBKRUOXOGFKUDDVXQDRKYQSDVQQPRNOIIBQEDFYQZZUDLWHXMJ",
+        "test_score": 0.0,
+        "p_value": 0.8842231553689263,
+        "p_adjusted": 1.0,
+        "content_words": [],
+        "passes": false
+      },
+      "2.3": {
+        "key": "CDKRYPTOS",
+        "decrypted_sample": "OBKRUOXOGFRBKUZSUNZYMONCVQQPRNNWAQLJFVBZVYQPUTBKDM",
+        "test_score": -0.020618556701030927,
+        "p_value": 0.9948010397920416,
+        "p_adjusted": 1.0,
+        "content_words": [],
+        "passes": false
+      },
+      "22.356": {
+        "key": "CDFGKRYPTOS",
+        "decrypted_sample": "OBKRUOXOGFRGVIXNTMNJUCGLVQQPRNWTUDVFERNNDGBUPRLHUX",
+        "test_score": 0.0,
+        "p_value": 0.9186162767446511,
+        "p_adjusted": 1.0,
+        "content_words": [],
+        "passes": false
+      },
+      "223.56": {
+        "key": "CDFGKRYPTOS",
+        "decrypted_sample": "OBKRUOXOGFRGVIXNTMNJUCGLVQQPRNWTUDVFERNNDGBUPRLHUX",
+        "test_score": 0.0,
+        "p_value": 0.9256148770245951,
+        "p_adjusted": 1.0,
+        "content_words": [],
+        "passes": false
+      }
+    },
+    "test_B": {
+      "xor_sample": "NJKJEDDDEAFRUUWWSAEVXDDYJTYAOULADWHKZZRRVIEOVIEOAH",
+      "statistics": {
+        "entropy": 4.32243038141698,
+        "ioc": 0.04223744292237443,
+        "autocorr_peak": 0.1111111111111111,
+        "kasiski_count": 2,
+        "lzma_ratio": 1.7534246575342465
+      },
+      "p_values": {
+        "entropy": 0.10589410589410589,
+        "ioc": 0.1838161838161838,
+        "autocorr_peak": 0.24875124875124874,
+        "kasiski_count": 1.0,
+        "lzma_ratio": 0.998001998001998
+      },
+      "p_adjusted": 0.5294705294705294,
+      "passes": "False"
+    },
+    "test_C": {
+      "grid": [
+        "OBKRUOXOGHULBS",
+        "OLIFBBWFLRVQQP",
+        "RNGKSSOTWTQSJQ",
+        "SSEKZZWATJKLUD",
+        "IAWINFBNYPVTTM",
+        "ZFPKWGDKZXTJCD",
+        "IGKUHUAUEKCARX"
+      ],
+      "columns_with_words": {},
+      "diagonals_with_words": {},
+      "significant_count": 0,
+      "p_value": 1.0,
+      "passes": "False"
+    },
+    "test_D": {
+      "15": {
+        "selected_text": "WATJKLUDIAWINFB",
+        "indices": [
+          "55",
+          "54",
+          "53",
+          "52",
+          "51",
+          "57",
+          "58",
+          "56",
+          "59",
+          "50",
+          "60",
+          "61",
+          "62",
+          "49",
+          "48"
+        ],
+        "test_score": 0.0,
+        "p_value": 0.9600399600399601,
+        "words": [],
+        "passes": "False"
+      },
+      "20": {
+        "selected_text": "ZZWATJKLUDIAWINFBTTM",
+        "indices": [
+          "55",
+          "54",
+          "53",
+          "52",
+          "51",
+          "57",
+          "58",
+          "56",
+          "59",
+          "50",
+          "60",
+          "61",
+          "62",
+          "49",
+          "48",
+          "67",
+          "68",
+          "69",
+          "47",
+          "46"
+        ],
+        "test_score": 0.0,
+        "p_value": 0.9530469530469531,
+        "words": [],
+        "passes": "False"
+      },
+      "24": {
+        "selected_text": "KZZWATJKLUDIAWINFBTTMZFP",
+        "indices": [
+          "55",
+          "54",
+          "53",
+          "52",
+          "51",
+          "57",
+          "58",
+          "56",
+          "59",
+          "50",
+          "60",
+          "61",
+          "62",
+          "49",
+          "48",
+          "67",
+          "68",
+          "69",
+          "47",
+          "46",
+          "70",
+          "71",
+          "45",
+          "72"
+        ],
+        "test_score": 0.0,
+        "p_value": 0.9440559440559441,
+        "words": [],
+        "passes": "False"
+      }
+    }
+  }
+}

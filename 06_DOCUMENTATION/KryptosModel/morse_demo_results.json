@@ -1,0 +1,10 @@
+{
+  "scanline_y": 256,
+  "morse_unit_T_pixels": 5.0,
+  "decoded_text": "AT I",
+  "score": 1.0,
+  "p_value": 0.0,
+  "null_mean": 0.08924661417030248,
+  "null_std": 0.0795211552688385,
+  "null_max": 0.4937144974638337,
+  "reject_null": 

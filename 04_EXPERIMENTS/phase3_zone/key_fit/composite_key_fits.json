@@ -1,0 +1,12 @@
+{
+  "vigenere": {
+    "two_word": [],
+    "with_rotation": [],
+    "affine_shift": []
+  },
+  "beaufort": {
+    "two_word": [],
+    "with_rotation": [],
+    "affine_shift": []
+  }
+}

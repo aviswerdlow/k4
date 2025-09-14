@@ -1,0 +1,31 @@
+{
+  "plaintext_length": 97,
+  "plaintext_preview": "AKHJHOEKSQRDOSVHUOYTJFLRVQQPRNGKSSOSERIARQSRMIRHEA...",
+  "sentence_structure": {
+    "common_word_count": 0,
+    "estimated_sentences": 4,
+    "has_structure": false
+  },
+  "motifs": {
+    "secrecy": [],
+    "agency": [],
+    "location": []
+  },
+  "reordering": {
+    "block_scores": [
+      0.5625,
+      0.78125,
+      0.3939393939393939
+    ],
+    "variance": 0.3873106060606061,
+    "suggestions": []
+  },
+  "k5_readiness": {
+    "score": 0,
+    "max_score": 100,
+    "percentage": "0%",
+    "factors": [],
+    "k5_ready": false,
+    "recommendation": "Unlikely K5 candidate. Verify K4 decryption first."
+  }
+}

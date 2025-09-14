@@ -1,0 +1,187 @@
+{
+  "summary": {
+    "total_tested": 4,
+    "anchor_passed": 0,
+    "roundtrip_passed": 4,
+    "function_words_found": 0
+  },
+  "required_keys": {
+    "EAST": {
+      "key": "IRJD",
+      "position": "21-24",
+      "validates": true
+    },
+    "NORTHEAST": {
+      "key": "HGMIMJAON",
+      "position": "25-33",
+      "validates": true
+    },
+    "BERLIN": {
+      "key": "SYMLWR",
+      "position": "63-68",
+      "validates": true
+    },
+    "CLOCK": {
+      "key": "QOYBQ",
+      "position": "69-73",
+      "validates": true
+    }
+  },
+  "results": [
+    {
+      "manifest": "col714_vig_GIRASOL_kryptos.json",
+      "family": "vigenere",
+      "keys": {
+        "head": "GIRASOL",
+        "mid": "GIRASOL",
+        "tail": "GIRASOL"
+      },
+      "mask": "identity",
+      "route": "columnar",
+      "order": [
+        "cipher",
+        "route"
+      ],
+      "anchor_valid": false,
+      "anchor_results": {
+        "EAST": false,
+        "NORTHEAST": false,
+        "BERLIN": false,
+        "CLOCK": false
+      },
+      "anchor_errors": [
+        "EAST: Expected 'EAST' at 21-24, got 'FLRV'",
+        "NORTHEAST: Expected 'NORTHEAST' at 25-33, got 'QQPRNGKSS'",
+        "BERLIN: Expected 'BERLIN' at 63-68, got 'NYPVTT'",
+        "CLOCK: Expected 'CLOCK' at 69-73, got 'MZFPK'"
+      ],
+      "roundtrip": true,
+      "function_words": [],
+      "function_word_count": 0,
+      "english_score": 1,
+      "score_per_char": 0.0136986301369863,
+      "segments": {
+        "pre_EAST": "OBKRUOXOGHULBSOLIFBBW",
+        "mid_gap": "OTWTQSJQSSEKZZWATJKLUDIAWINFB",
+        "post_CLOCK": "WGDKZXTJCDIGKUHUAUEKCAR"
+      },
+      "plaintext": null
+    },
+    {
+      "manifest": "dw12_beau_LATLONG_kryptos.json",
+      "family": "beaufort",
+      "keys": {
+        "head": "LONGITUDE",
+        "mid": "LATITUDE",
+        "tail": "LONGITUDE"
+      },
+      "mask": "diag_weave",
+      "route": "none",
+      "order": [
+        "mask",
+        "cipher"
+      ],
+      "anchor_valid": false,
+      "anchor_results": {
+        "EAST": false,
+        "NORTHEAST": false,
+        "BERLIN": false,
+        "CLOCK": false
+      },
+      "anchor_errors": [
+        "EAST: Expected 'EAST' at 21-24, got 'FLRV'",
+        "NORTHEAST: Expected 'NORTHEAST' at 25-33, got 'QQPRNGKSS'",
+        "BERLIN: Expected 'BERLIN' at 63-68, got 'NYPVTT'",
+        "CLOCK: Expected 'CLOCK' at 69-73, got 'MZFPK'"
+      ],
+      "roundtrip": true,
+      "function_words": [],
+      "function_word_count": 0,
+      "english_score": 1,
+      "score_per_char": 0.0136986301369863,
+      "segments": {
+        "pre_EAST": "OBKRUOXOGHULBSOLIFBBW",
+        "mid_gap": "OTWTQSJQSSEKZZWATJKLUDIAWINFB",
+        "post_CLOCK": "WGDKZXTJCDIGKUHUAUEKCAR"
+      },
+      "plaintext": null
+    },
+    {
+      "manifest": "id_vig_ABSCISSA_kryptos.json",
+      "family": "vigenere",
+      "keys": {
+        "head": "ORDINATE",
+        "mid": "ABSCISSA",
+        "tail": "AZIMUTH"
+      },
+      "mask": "identity",
+      "route": "none",
+      "order": [
+        "cipher"
+      ],
+      "anchor_valid": false,
+      "anchor_results": {
+        "EAST": false,
+        "NORTHEAST": false,
+        "BERLIN": false,
+        "CLOCK": false
+      },
+      "anchor_errors": [
+        "EAST: Expected 'EAST' at 21-24, got 'FLRV'",
+        "NORTHEAST: Expected 'NORTHEAST' at 25-33, got 'QQPRNGKSS'",
+        "BERLIN: Expected 'BERLIN' at 63-68, got 'NYPVTT'",
+        "CLOCK: Expected 'CLOCK' at 69-73, got 'MZFPK'"
+      ],
+      "roundtrip": true,
+      "function_words": [],
+      "function_word_count": 0,
+      "english_score": 1,
+      "score_per_char": 0.0136986301369863,
+      "segments": {
+        "pre_EAST": "OBKRUOXOGHULBSOLIFBBW",
+        "mid_gap": "OTWTQSJQSSEKZZWATJKLUDIAWINFB",
+        "post_CLOCK": "WGDKZXTJCDIGKUHUAUEKCAR"
+      },
+      "plaintext": null
+    },
+    {
+      "manifest": "p24_vig_ABSCISSA_kryptos.json",
+      "family": "vigenere",
+      "keys": {
+        "head": "ORDINATE",
+        "mid": "ABSCISSA",
+        "tail": "AZIMUTH"
+      },
+      "mask": "period24",
+      "route": "none",
+      "order": [
+        "mask",
+        "cipher"
+      ],
+      "anchor_valid": false,
+      "anchor_results": {
+        "EAST": false,
+        "NORTHEAST": false,
+        "BERLIN": false,
+        "CLOCK": false
+      },
+      "anchor_errors": [
+        "EAST: Expected 'EAST' at 21-24, got 'FLRV'",
+        "NORTHEAST: Expected 'NORTHEAST' at 25-33, got 'QQPRNGKSS'",
+        "BERLIN: Expected 'BERLIN' at 63-68, got 'NYPVTT'",
+        "CLOCK: Expected 'CLOCK' at 69-73, got 'MZFPK'"
+      ],
+      "roundtrip": true,
+      "function_words": [],
+      "function_word_count": 0,
+      "english_score": 1,
+      "score_per_char": 0.0136986301369863,
+      "segments": {
+        "pre_EAST": "OBKRUOXOGHULBSOLIFBBW",
+        "mid_gap": "OTWTQSJQSSEKZZWATJKLUDIAWINFB",
+        "post_CLOCK": "WGDKZXTJCDIGKUHUAUEKCAR"
+      },
+      "plaintext": null
+    }
+  ]
+}

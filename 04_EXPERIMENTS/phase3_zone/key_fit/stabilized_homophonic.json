@@ -1,0 +1,44 @@
+{
+  "plaintext": "NLHYINPNTSIDLUNDCALLOEASTNORTHEASTNGOGVUWVUUBHFFORGWHDIMCROCKALBERLINCLOCKOTMHFPGWEMCTHISIRIBHERY",
+  "mapping": {
+    "A": "R",
+    "B": "L",
+    "C": "E",
+    "D": "M",
+    "E": "B",
+    "F": "A",
+    "G": "T",
+    "H": "S",
+    "I": "C",
+    "J": "W",
+    "K": "H",
+    "L": "D",
+    "M": "Q",
+    "N": "K",
+    "O": "N",
+    "P": "Z",
+    "Q": "V",
+    "R": "Y",
+    "S": "U",
+    "T": "G",
+    "U": "I",
+    "V": "J",
+    "W": "O",
+    "X": "P",
+    "Y": "X",
+    "Z": "F"
+  },
+  "score": 271.0352887320727,
+  "null_tests": {
+    "anchor_locked_null": 308.31122495985363,
+    "random_ct": -610.4470022302886
+  },
+  "consensus_symbols": 0,
+  "top_scores": [
+    337.0367351628993,
+    300.9821236315354,
+    273.0831521250104,
+    265.2434313666374,
+    260.7503535270782
+  ]
+}

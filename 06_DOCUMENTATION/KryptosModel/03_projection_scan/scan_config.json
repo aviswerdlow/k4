@@ -1,0 +1,14 @@
+{
+  "start_angle": 0,
+  "end_angle": 360,
+  "step_angle": 2,
+  "total_frames": 180,
+  "cylinder_radius": 30.0,
+  "pond_center": [
+    -27.821975708007812,
+    21.1851749420166,
+    76.70025634765625
+  ],
+  "slit_width": 5.0,
+  "output_dir": "/Users/aviswerdlow/Documents/Kryptos_Letter_Extraction/proj_scan_cyl"
+}

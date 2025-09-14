@@ -1,0 +1,3 @@
+/Users/aviswerdlow/Downloads/Kryptos Team/k4_cli_plus/04_EXPERIMENTS/phase3_zone/configs/sweep/id_vig_ABSCISSA_ph0_mc.json
+/Users/aviswerdlow/Downloads/Kryptos Team/k4_cli_plus/04_EXPERIMENTS/phase3_zone/configs/sweep/p5_vig_ABSCISSA_ph0_mc.json
+/Users/aviswerdlow/Downloads/Kryptos Team/k4_cli_plus/04_EXPERIMENTS/phase3_zone/configs/sweep/p5_vig_ABSCISSA_ph0_cm.json

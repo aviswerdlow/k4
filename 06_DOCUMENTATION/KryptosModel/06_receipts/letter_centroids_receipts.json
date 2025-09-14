@@ -1,0 +1,72 @@
+{
+  "version": "letters_surrogate_v1",
+  "generation_date": "2025-09-13T01:29:07.678667",
+  "blender_version": "4.5.3 LTS",
+  "blender_file": "KryptosSculpture3DPrintable.Public.blend",
+  "extraction_method": {
+    "approach": "relief_bake_detection",
+    "description": "UV-baked height map with blob detection and tick snapping",
+    "bake_resolution": "4096x2048",
+    "detection_threshold": "mean + 0.5 * std_dev",
+    "tick_spacing_cm": 2.0,
+    "total_ticks_available": 456
+  },
+  "coordinate_frames": {
+    "note": "IMPORTANT: Centroid world coordinates and tick world coordinates are in different object transforms",
+    "explanation": "The relief extraction was performed on a duplicated mesh object with different transform than the tick markers",
+    "impact": "Absolute distances between centroids and ticks should not be interpreted as fit quality",
+    "resolution": "Tick indices are correctly computed in local space and provide accurate ordering",
+    "additional_note": "Centroids extracted from CopperSheet_Relief object, ticks from world space - different transforms"
+  },
+  "results": {
+    "total_letters": 97,
+    "index_range": [
+      0,
+      96
+    ],
+    "tick_index_range": [
+      0,
+      410
+    ],
+    "arc_length_range_cm": [
+      0.0,
+      1134.9942
+    ],
+    "per_row_counts": {
+      "row_1": 25,
+      "row_2": 18,
+      "row_3": 21,
+      "row_4": 33
+    },
+    "tick_distance_statistics_cm": {
+      "min": 1.7079093566527726e-05,
+      "median": 4.936971144371657e-05,
+      "max": 7.2917148393266e-05,
+      "mean": 4.831714661080887e-05,
+      "std": 1.2568104087363974e-05
+    },
+    "monotonicity": "VERIFIED: tick indices are monotone with respect to arc length"
+  },
+  "file_hashes": {
+    "letters_surrogate_k4.csv": "d66192e57408a7ff98bd7b541976198f3201018219baa91e57c54afe5d81085f",
+    "relief_height_bake.png": "7d29928e22ba7040bff9ca82f512106a6a7f0030cc6c1b6c34509be5b3a7ee4f"
+  },
+  "validation_checks": {
+    "contiguous_indices": "PASS: Indices 0-96 with no gaps",
+    "monotone_ordering": "PASS: Tick indices increase monotonically with arc length",
+    "letter_count": "PASS: 97 letters detected (K4 expected)",
+    "uv_banding": "PASS: UV coordinates show clear horizontal banding for rows"
+  },
+  "usage_notes": [
+    "This is a SURROGATE dataset for geometry-based analysis",
+    "Letter identities are not known - only positions",
+    "When real per-letter file arrives, map letters to tick indices",
+    "All downstream analysis should key on tick_index for stability",
+    "The 's' column (arc_length) provides linear position along panel"
+  ],
+  "file_hashes_updated": {
+    "letters_surrogate_k4.csv": "d66192e57408a7ff98bd7b541976198f3201018219baa91e57c54afe5d81085f",
+    "relief_bake.png": "7d29928e22ba7040bff9ca82f512106a6a7f0030cc6c1b6c34509be5b3a7ee4f",
+    "uv_world.csv": "3c4c543cf682515f33814c1d03395c731ff9d03bb9231f38dbf233a8bc48ad31"
+  }
+}

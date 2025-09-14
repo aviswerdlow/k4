@@ -1,0 +1,103 @@
+{
+  "timestamp": "2025-09-13T01:04:51.063750",
+  "image_analyzed": "/Users/aviswerdlow/Downloads/Kryptos Team/k4_cli_plus/06_DOCUMENTATION/KryptosModel/plaza_shadow_test_az135_alt45.png",
+  "image_dimensions": [
+    512,
+    512
+  ],
+  "scanlines_tested": 10,
+  "high_score_lines": [],
+  "best_p_value": 1.0,
+  "hypothesis_test": "REJECT",
+  "conclusion": "No Morse patterns detected",
+  "all_scanline_results": [
+    {
+      "y_position": 102,
+      "y_percent": 19,
+      "morse_score": 0.0,
+      "n_segments": 6,
+      "pattern_info": {}
+    },
+    {
+      "y_position": 136,
+      "y_percent": 26,
+      "morse_score": 0.0,
+      "n_segments": 3,
+      "pattern_info": {}
+    },
+    {
+      "y_position": 170,
+      "y_percent": 33,
+      "morse_score": 0.48333333333333334,
+      "n_segments": 11,
+      "pattern_info": {
+        "morse_unit": 1,
+        "dots": 1,
+        "dashes": 0,
+        "intra_gaps": 4,
+        "inter_gaps": 0,
+        "word_gaps": 0,
+        "signal_score": 0.16666666666666666,
+        "gap_score": 0.8
+      }
+    },
+    {
+      "y_position": 204,
+      "y_percent": 39,
+      "morse_score": 0.4305555555555556,
+      "n_segments": 17,
+      "pattern_info": {
+        "morse_unit": 1,
+        "dots": 1,
+        "dashes": 0,
+        "intra_gaps": 5,
+        "inter_gaps": 0,
+        "word_gaps": 1,
+        "signal_score": 0.1111111111111111,
+        "gap_score": 0.75
+      }
+    },
+    {
+      "y_position": 238,
+      "y_percent": 46,
+      "morse_score": 0.0,
+      "n_segments": 5,
+      "pattern_info": {}
+    },
+    {
+      "y_position": 273,
+      "y_percent": 53,
+      "morse_score": 0.0,
+      "n_segments": 6,
+      "pattern_info": {}
+    },
+    {
+      "y_position": 307,
+      "y_percent": 59,
+      "morse_score": 0.0,
+      "n_segments": 4,
+      "pattern_info": {}
+    },
+    {
+      "y_position": 341,
+      "y_percent": 66,
+      "morse_score": 0.0,
+      "n_segments": 4,
+      "pattern_info": {}
+    },
+    {
+      "y_position": 375,
+      "y_percent": 73,
+      "morse_score": 0.0,
+      "n_segments": 4,
+      "pattern_info": {}
+    },
+    {
+      "y_position": 409,
+      "y_percent": 79,
+      "morse_score": 0.0,
+      "n_segments": 7,
+      "pattern_info": {}
+    }
+  ]
+}

@@ -1,0 +1,35 @@
+{
+  "description": "Batch C - Mask discovery runners",
+  "masks": [
+    {
+      "type": "fib_skip",
+      "params": {"skip_count": 15}
+    },
+    {
+      "type": "alt_sheet",
+      "params": {"n": 3, "block_size": 10}
+    },
+    {
+      "type": "alt_sheet",
+      "params": {"n": 4, "block_size": 12}
+    },
+    {
+      "type": "lowfreq_smoother",
+      "params": {"residue": 3, "target_chars": ["Q", "Z", "X"]}
+    }
+  ],
+  "routes": [
+    {
+      "type": "columnar",
+      "params": {"rows": 7, "cols": 14, "passes": 1}
+    }
+  ],
+  "ciphers": ["vigenere", "beaufort"],
+  "keys": {
+    "head": "SHADOW",
+    "mid": "LIGHT",
+    "tail": "GIRASOL"
+  },
+  "schedules": ["static"],
+  "modes": ["content"]
+}

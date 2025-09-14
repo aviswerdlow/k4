@@ -1,0 +1,26 @@
+{
+  "generation_info": {
+    "blender_version": "4.5.3 LTS",
+    "export_date": "2025-09-13T02:05:44.762844",
+    "blend_file_hash": "d4ecd2de80ea063d0ba051578c5aad8c0d441593ec7e0109aadbae48b3cce4bb"
+  },
+  "geometry_parameters": {
+    "unit_scale": 1.0,
+    "tick_spacing_cm": 2.0,
+    "total_ticks": 456,
+    "panel_arc_length_cm": 1267.93306531002,
+    "pool_arc_fraction": 0.25
+  },
+  "exports": {
+    "centerline": {
+      "file": "kryptos_centerline.csv",
+      "points": 45,
+      "hash": "99073bddc4f75b667fe8bf9be1da7c8f15641a2c8a8f77200d29f8effd6862d9"
+    },
+    "ticks": {
+      "file": "panel_ticks.csv",
+      "points": 456,
+      "hash": "30a05a56c251951061928a1acb1a31913de438ce0ca59b92cd414631aa2d09c5"
+    }
+  }
+}

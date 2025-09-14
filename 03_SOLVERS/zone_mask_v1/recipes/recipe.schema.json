@@ -1,0 +1,148 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "title": "K4 Solution Manifest Schema",
+  "type": "object",
+  "required": ["zones", "control", "cipher"],
+  "properties": {
+    "zones": {
+      "type": "object",
+      "required": ["head", "mid", "tail"],
+      "properties": {
+        "head": {
+          "type": "object",
+          "required": ["start", "end"],
+          "properties": {
+            "start": {"type": "integer", "minimum": 0},
+            "end": {"type": "integer", "maximum": 96}
+          }
+        },
+        "mid": {
+          "type": "object",
+          "required": ["start", "end"],
+          "properties": {
+            "start": {"type": "integer", "minimum": 0},
+            "end": {"type": "integer", "maximum": 96}
+          }
+        },
+        "tail": {
+          "type": "object",
+          "required": ["start", "end"],
+          "properties": {
+            "start": {"type": "integer", "minimum": 0},
+            "end": {"type": "integer", "maximum": 96}
+          }
+        }
+      }
+    },
+    "control": {
+      "type": "object",
+      "required": ["mode", "indices"],
+      "properties": {
+        "mode": {
+          "type": "string",
+          "enum": ["content", "control"]
+        },
+        "indices": {
+          "type": "array",
+          "items": {"type": "integer"},
+          "minItems": 10,
+          "maxItems": 11
+        }
+      }
+    },
+    "mask": {
+      "type": "object",
+      "required": ["type"],
+      "properties": {
+        "type": {
+          "type": "string",
+          "enum": ["period2", "period3", "cycle3", "cycle5", "diag_weave", "fib_skip", "alt_sheet", "lowfreq_smoother"]
+        },
+        "params": {
+          "type": "object",
+          "properties": {
+            "rows": {"type": "integer", "minimum": 1},
+            "cols": {"type": "integer", "minimum": 1},
+            "step": {
+              "type": "array",
+              "items": {"type": "integer"},
+              "minItems": 2,
+              "maxItems": 2
+            },
+            "n": {"type": "integer", "minimum": 2},
+            "residue": {"type": "integer", "minimum": 1},
+            "period": {"type": "integer", "minimum": 2},
+            "cycle": {"type": "integer", "minimum": 3},
+            "block_size": {"type": "integer", "minimum": 1},
+            "skip_count": {"type": "integer", "minimum": 1},
+            "target_chars": {
+              "type": "array",
+              "items": {"type": "string", "pattern": "^[A-Z]$"}
+            }
+          }
+        }
+      }
+    },
+    "route": {
+      "type": "object",
+      "required": ["type"],
+      "properties": {
+        "type": {
+          "type": "string",
+          "enum": ["columnar", "serpentine", "alt_rows", "spiral", "tumble"]
+        },
+        "params": {
+          "type": "object",
+          "properties": {
+            "rows": {"type": "integer", "minimum": 1},
+            "cols": {"type": "integer", "minimum": 1},
+            "passes": {"type": "integer", "minimum": 1},
+            "row_flip_between_passes": {"type": "boolean"},
+            "key_order": {
+              "type": "array",
+              "items": {"type": "integer"}
+            },
+            "direction": {
+              "type": "string",
+              "enum": ["in", "out"]
+            },
+            "rotations": {"type": "integer", "minimum": 1},
+            "second_pass_flip": {"type": "boolean"}
+          }
+        }
+      }
+    },
+    "cipher": {
+      "type": "object",
+      "required": ["family", "keys"],
+      "properties": {
+        "family": {
+          "type": "string",
+          "enum": ["vigenere", "beaufort"]
+        },
+        "keys": {
+          "type": "object",
+          "properties": {
+            "head": {"type": "string", "pattern": "^[A-Z]+$"},
+            "mid": {"type": "string", "pattern": "^[A-Z]+$"},
+            "tail": {"type": "string", "pattern": "^[A-Z]+$"}
+          }
+        },
+        "schedule": {
+          "type": "string",
+          "enum": ["static", "rotate_on_class", "rotate_on_control"]
+        },
+        "schedule_params": {
+          "type": "object",
+          "properties": {
+            "indices": {
+              "type": "array",
+              "items": {"type": "integer"}
+            },
+            "class_size": {"type": "integer", "minimum": 1}
+          }
+        }
+      }
+    }
+  }
+}

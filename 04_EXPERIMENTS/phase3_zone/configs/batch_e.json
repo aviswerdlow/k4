@@ -1,0 +1,28 @@
+{
+  "description": "Batch E - Antipodes cross-check",
+  "antipodes_reordering": true,
+  "masks": [
+    {
+      "type": "period2",
+      "params": {"period": 2}
+    },
+    {
+      "type": "diag_weave",
+      "params": {"rows": 7, "cols": 14, "step": [1, 1]}
+    }
+  ],
+  "routes": [
+    {
+      "type": "columnar",
+      "params": {"rows": 7, "cols": 14, "passes": 1}
+    }
+  ],
+  "ciphers": ["vigenere", "beaufort"],
+  "keys": {
+    "head": "ORDINATE",
+    "mid": "ABSCISSA",
+    "tail": "AZIMUTH"
+  },
+  "schedules": ["static"],
+  "modes": ["content"]
+}

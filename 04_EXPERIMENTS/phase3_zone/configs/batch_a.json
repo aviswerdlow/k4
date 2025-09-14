@@ -1,0 +1,39 @@
+{
+  "description": "Batch A - MID zone exploitation",
+  "masks": [
+    {
+      "type": "period2",
+      "params": {"period": 2}
+    },
+    {
+      "type": "period3",
+      "params": {"period": 3}
+    },
+    {
+      "type": "cycle3",
+      "params": {"cycle": 3}
+    },
+    {
+      "type": "diag_weave",
+      "params": {"rows": 7, "cols": 14, "step": [1, 1]}
+    },
+    {
+      "type": "diag_weave",
+      "params": {"rows": 7, "cols": 14, "step": [1, 2]}
+    }
+  ],
+  "routes": [
+    {
+      "type": "columnar",
+      "params": {"rows": 7, "cols": 14, "passes": 1}
+    }
+  ],
+  "ciphers": ["vigenere", "beaufort"],
+  "keys": {
+    "head": "ORDINATE",
+    "mid": "ABSCISSA",
+    "tail": "AZIMUTH"
+  },
+  "schedules": ["static", "rotate_on_class", "rotate_on_control"],
+  "modes": ["content", "control"]
+}

@@ -1,0 +1,46 @@
+{
+  "zones": {
+    "head": {
+      "start": 0,
+      "end": 20
+    },
+    "mid": {
+      "start": 34,
+      "end": 73
+    },
+    "tail": {
+      "start": 74,
+      "end": 96
+    }
+  },
+  "control": {
+    "mode": "content",
+    "indices": [
+      63,
+      64,
+      65,
+      66,
+      67,
+      68,
+      69,
+      70,
+      71,
+      72,
+      73
+    ]
+  },
+  "order": [
+    "mask",
+    "cipher"
+  ],
+  "cipher": {
+    "family": "vigenere",
+    "keys": {
+      "head": "KRYPTOS",
+      "mid": "TZALEXANDERPLA",
+      "tail": "PALIMPSEST"
+    },
+    "schedule": "static",
+    "cipher_direction": "decrypt"
+  }
+}

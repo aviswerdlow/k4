@@ -1,0 +1,37 @@
+{
+  "original_score": -276.10309278350513,
+  "iterations": 20,
+  "segment_results": {
+    "5": {
+      "null_mean": -285.6030927835052,
+      "null_std": 16.575584454250777,
+      "null_max": -256.10309278350513,
+      "null_min": -306.10309278350513,
+      "p_value": 0.45,
+      "z_score": 0.5731321285364269,
+      "better_nulls": 9
+    },
+    "10": {
+      "null_mean": -298.6030927835052,
+      "null_std": 7.664854858377945,
+      "null_max": -276.10309278350513,
+      "null_min": -306.10309278350513,
+      "p_value": 0.05,
+      "z_score": 2.935476328740498,
+      "better_nulls": 1
+    },
+    "15": {
+      "null_mean": -286.1030927835052,
+      "null_std": 8.94427190999916,
+      "null_max": -266.10309278350513,
+      "null_min": -296.10309278350513,
+      "p_value": 0.3,
+      "z_score": 1.1180339887499011,
+      "better_nulls": 6
+    }
+  },
+  "best_segment_size": 10,
+  "best_p_value": 0.05,
+  "best_z_score": 2.935476328740498,
+  "original_plaintext_preview": "OBKRUOXOGHULBSOLIFBBWFLRVQQPRNGKSSOTWTQSJQSSEKZZWA"
+}

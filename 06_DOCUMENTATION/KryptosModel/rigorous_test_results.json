@@ -1,0 +1,157 @@
+{
+  "H1_arc_length": {},
+  "H2_ring_sectors": {
+    "selected_text": "LRVQQPRSEKDIAWDKZXTJCDI",
+    "test_statistic": 0.0,
+    "p_value": 1.0,
+    "num_letters": 23,
+    "indices": [
+      22,
+      23,
+      24,
+      25,
+      26,
+      27,
+      28,
+      43,
+      44,
+      45,
+      55,
+      56,
+      57,
+      58,
+      76,
+      77,
+      78,
+      79,
+      80,
+      81,
+      82,
+      83,
+      84
+    ],
+    "sectors_used": 4
+  },
+  "H3_ne_gradient": {
+    "k=7": {
+      "selected_text": "RUCGTFUWUQLOBP",
+      "test_statistic": 0.0,
+      "p_value": 1.0,
+      "num_letters": 14,
+      "indices": [
+        96,
+        89,
+        82,
+        75,
+        68,
+        61,
+        54,
+        48,
+        4,
+        41,
+        11,
+        34,
+        18,
+        27
+      ]
+    },
+    "k=8": {
+      "selected_text": "RHTPYIOUGBIWV",
+      "test_statistic": 0.0,
+      "p_value": 1.0,
+      "num_letters": 13,
+      "indices": [
+        96,
+        88,
+        80,
+        72,
+        64,
+        56,
+        0,
+        4,
+        8,
+        12,
+        16,
+        20,
+        24
+      ]
+    },
+    "k=9": {
+      "selected_text": "RUZMNJRQBSF",
+      "test_statistic": 0.0,
+      "p_value": 1.0,
+      "num_letters": 11,
+      "indices": [
+        96,
+        87,
+        78,
+        69,
+        60,
+        51,
+        3,
+        41,
+        12,
+        32,
+        21
+      ]
+    }
+  },
+  "H6_anchor_walk": {
+    "offset=-1": {
+      "selected_text": "OOULWQGTJKTDNPZGTGAA",
+      "test_statistic": 0.0,
+      "p_value": 1.0,
+      "num_letters": 20,
+      "indices": [
+        0,
+        5,
+        10,
+        15,
+        20,
+        25,
+        30,
+        35,
+        40,
+        45,
+        50,
+        55,
+        60,
+        65,
+        70,
+        75,
+        80,
+        85,
+        90,
+        95
+      ]
+    },
+    "offset=+1": {
+      "selected_text": "OOULWQGTJKTDNPZGTGAA",
+      "test_statistic": 0.0,
+      "p_value": 1.0,
+      "num_letters": 20,
+      "indices": [
+        0,
+        5,
+        10,
+        15,
+        20,
+        25,
+        30,
+        35,
+        40,
+        45,
+        50,
+        55,
+        60,
+        65,
+        70,
+        75,
+        80,
+        85,
+        90,
+        95
+      ]
+    }
+  }
+}

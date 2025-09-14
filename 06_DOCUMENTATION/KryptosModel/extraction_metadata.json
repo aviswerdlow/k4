@@ -1,0 +1,39 @@
+{
+  "extraction_date": "2025-09-13T01:21:13.358019",
+  "blender_version": "4.5.3 LTS",
+  "file_name": "/Users/aviswerdlow/Downloads/Kryptos Team/k4_cli_plus/06_DOCUMENTATION/KryptosModel/KryptosSculpture3DPrintable.Public.blend",
+  "method": "relief_bake_detection",
+  "parameters": {
+    "bake_resolution": "4096x2048",
+    "tick_spacing_cm": 2.0,
+    "total_ticks": 456,
+    "detection_threshold": "mean + 0.5 * std",
+    "target_letter_count": 97
+  },
+  "results": {
+    "letters_detected": 97,
+    "arc_length_total_cm": 1267.93,
+    "tick_range": [
+      0,
+      410
+    ],
+    "row_distribution": {
+      "row_1": 25,
+      "row_2": 18,
+      "row_3": 21,
+      "row_4": 33
+    }
+  },
+  "files_generated": [
+    "letter_centroids_world.csv",
+    "letter_centroids_uv.csv",
+    "relief_height_bake.png",
+    "extraction_metadata.json"
+  ],
+  "notes": [
+    "This is a surrogate dataset based on relief detection",
+    "Letter positions are estimated from embossed relief patterns",
+    "Final positions should be verified when individual letter objects are available",
+    "Row assignments are estimated based on UV V-coordinate"
+  ]
+}

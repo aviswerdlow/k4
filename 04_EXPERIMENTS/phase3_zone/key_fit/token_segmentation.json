@@ -1,0 +1,92 @@
+{
+  "segmentation": {
+    "full_text": "NLHYINPNTSIDLUNDCALLOEASTNORTHEASTNGOGVUWVUUBHFFORGWHDIMCROCKALBERLINCLOCKOTMHFPGWEMCTHISIRIBHERY",
+    "non_anchor_text": "NLHYINPNTSIDLUNDCALLONGOGVUWVUUBHFFORGWHDIMCROCKALOTMHFPGWEMCTHISIRIBHERY",
+    "tokens": [
+      "N",
+      "L",
+      "H",
+      "Y",
+      "I",
+      "N",
+      "P",
+      "N",
+      "T",
+      "S",
+      "I",
+      "D",
+      "L",
+      "U",
+      "N",
+      "D",
+      "C",
+      "A",
+      "L",
+      "LON",
+      "GO",
+      "G",
+      "V",
+      "U",
+      "W",
+      "V",
+      "U",
+      "U",
+      "B",
+      "H",
+      "F",
+      "F",
+      "OR",
+      "G",
+      "W",
+      "H",
+      "D",
+      "I",
+      "M",
+      "C",
+      "ROCK",
+      "A",
+      "L",
+      "O",
+      "T",
+      "M",
+      "H",
+      "F",
+      "P",
+      "G",
+      "W",
+      "E",
+      "M",
+      "C",
+      "T",
+      "H",
+      "I",
+      "S",
+      "I",
+      "R",
+      "I",
+      "B",
+      "H",
+      "E",
+      "R",
+      "Y"
+    ],
+    "score": -58.10000000000001,
+    "num_tokens": 66,
+    "categories": {
+      "LOCATION_TERMS": [
+        "LON"
+      ],
+      "SURVEY_ACTIONS": [
+        "GO"
+      ],
+      "MODIFIERS": [
+        "OR"
+      ],
+      "SURVEY_FEATURES": [
+        "ROCK"
+      ]
+    },
+    "token_coverage": 0.1506849315068493
+  },
+  "interpretation": "Survey/bearing instructions possibly encoded"
+}

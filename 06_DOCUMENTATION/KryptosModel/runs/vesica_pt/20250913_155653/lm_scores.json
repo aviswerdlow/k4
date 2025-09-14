@@ -1,0 +1,16 @@
+[
+  {
+    "label":"perimeter",
+    "n":317,
+    "lm_score":0.1035662461,
+    "p_raw":0.000999001,
+    "p_adj":0.003996004
+  },
+  {
+    "label":"paired_alternation",
+    "n":234,
+    "lm_score":0.0854123932,
+    "p_raw":0.2817182817,
+    "p_adj":1.0
+  }
+]

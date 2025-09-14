@@ -1,0 +1,32 @@
+[
+  {
+    "label":"perimeter",
+    "n":455,
+    "ic":0.0470252215,
+    "bigrams":96,
+    "trigrams":13,
+    "kasiski":17,
+    "p_ic":0.9100899101,
+    "p_bi":0.000999001,
+    "p_tri":0.020979021,
+    "p_kas":0.004995005,
+    "p_raw":0.000999001,
+    "best_stat":"bigram",
+    "p_adj":0.003996004
+  },
+  {
+    "label":"paired_alternation",
+    "n":234,
+    "ic":0.0469168409,
+    "bigrams":33,
+    "trigrams":4,
+    "kasiski":4,
+    "p_ic":0.7402597403,
+    "p_bi":0.9310689311,
+    "p_tri":0.3336663337,
+    "p_kas":0.3556443556,
+    "p_raw":0.3336663337,
+    "best_stat":"trigram",
+    "p_adj":1.0
+  }
+]

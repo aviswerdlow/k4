@@ -1,0 +1,63 @@
+{
+  "experiment": "cylindrical_light_projection_scan",
+  "timestamp": "2025-09-13T01:33:36.437028",
+  "blender_version": "4.5.3 LTS",
+  "inputs": {
+    "surrogate_letters": "/Users/aviswerdlow/Documents/Kryptos_Letter_Extraction/letters_surrogate_v1/letters_surrogate_k4.csv",
+    "surrogate_hash": "d66192e57408a7ff98bd7b541976198f3201018219baa91e57c54afe5d81085f",
+    "total_letters": 97,
+    "coordinate_system": "tick_marker_based"
+  },
+  "scan_parameters": {
+    "geometry": "cylindrical",
+    "pond_center_cm": [
+      -64.9875,
+      -52.0,
+      78.4369
+    ],
+    "cylinder_radius_cm": 30.0,
+    "slit_width_degrees": 5.0,
+    "angular_step_degrees": 2,
+    "total_angles": 180,
+    "height_coverage": 0.8
+  },
+  "outputs": {
+    "full_scan_results": {
+      "file": "full_scan_results.json",
+      "hash": "3cff9a7073db98cacd9303a0bbc96ac3595794b64d8c4f526adc118b85165940"
+    },
+    "selections_M15": {
+      "file": "selections_M15.json",
+      "hash": "5b633827c66c7e76cbb3aec6f59c0653302cb7b70ae2eddfcb726b3cc805d87a"
+    },
+    "selections_M20": {
+      "file": "selections_M20.json",
+      "hash": "257d9b0de73f497f534bd0d310f4beae11210dfa3191ce6bf985b372037b783a"
+    },
+    "selections_M24": {
+      "file": "selections_M24.json",
+      "hash": "9d0dd8901a610b1a79530978752412993315402b7ca06933fd4ab9c9546653f4"
+    },
+    "light_sweep_results": {
+      "file": "light_sweep_results.json",
+      "hash": "c1da9fae3b74bba79e447f60c6c0a291fc86934b109aa66f887d04bef0d482b4"
+    }
+  },
+  "validation": {
+    "letter_coverage": "97/97",
+    "unique_selections_M15": 78,
+    "unique_selections_M20": 79,
+    "unique_selections_M24": 79,
+    "replication_angles": [
+      0,
+      2,
+      358
+    ]
+  },
+  "notes": [
+    "Projection scan using rotating slit light around cylindrical path",
+    "Letter intensities calculated using inverse square falloff",
+    "Selections sorted by tick index for consistent ordering",
+    "Ready for 5-gram LM scoring with anchor masking"
+  ]
+}

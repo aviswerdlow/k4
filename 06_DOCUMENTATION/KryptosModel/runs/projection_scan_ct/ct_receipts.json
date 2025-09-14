@@ -1,0 +1,16 @@
+{
+  "timestamp": "2025-09-13T15:33:46.545279",
+  "track": "CT_structure",
+  "input_hash": "1df71e99d7c46fbe",
+  "scan_hash": "c1da9fae3b74bba7",
+  "random_seed": 20250913,
+  "n_nulls": 1000,
+  "n_tests": 156,
+  "bonferroni_divisor": 156,
+  "p_threshold": 0.001,
+  "top_result": {
+    "label": "scan_angle116_M20",
+    "p_raw": 0.000999000999000999,
+    "p_adj": 0.15584415584415584
+  }
+}

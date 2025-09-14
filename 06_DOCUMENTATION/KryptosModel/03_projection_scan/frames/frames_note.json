@@ -1,0 +1,10 @@
+{
+  "note": "Full frame rendering not performed in test run",
+  "would_contain": "180 PNG files (light_az000.png through light_az358.png)",
+  "frame_parameters": {
+    "angular_step": 2,
+    "total_angles": 180,
+    "slit_width_degrees": 5.0,
+    "cylinder_radius_cm": 30.0
+  }
+}

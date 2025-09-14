@@ -1,0 +1,64 @@
+{
+  "plaintext": "SOAVNSPSHDNFORSFTYOOUEASTNORTHEASTSEUEGRMGRRCALLUBEMAFNITBUTKYOBERLINCLOCKUHIALPEMWITHANDNBNCAWBV",
+  "mapping": {
+    "A": "B",
+    "B": "O",
+    "C": "W",
+    "D": "I",
+    "E": "C",
+    "F": "Y",
+    "G": "H",
+    "H": "D",
+    "I": "T",
+    "J": "M",
+    "K": "A",
+    "L": "F",
+    "M": "J",
+    "N": "K",
+    "O": "S",
+    "P": "Q",
+    "Q": "G",
+    "R": "V",
+    "S": "R",
+    "T": "E",
+    "U": "N",
+    "V": "X",
+    "W": "U",
+    "X": "P",
+    "Y": "Z",
+    "Z": "L"
+  },
+  "score": 360.1559970634002,
+  "strategy": "multiple_restarts",
+  "words": [
+    "THAN",
+    "WITH",
+    "CALL",
+    "HAND",
+    "BUT",
+    "USE",
+    "YOU",
+    "ALL",
+    "FOR",
+    "AND"
+  ],
+  "phrases": [],
+  "iterations": 500000,
+  "all_strategies": [
+    {
+      "strategy": "multiple_restarts",
+      "score": 360.1559970634002,
+      "words_count": 10
+    },
+    {
+      "strategy": "adaptive_temperature",
+      "score": 360.1559970634002,
+      "words_count": 8
+    },
+    {
+      "strategy": "long_slow_cooling",
+      "score": 298.0586918194885,
+      "words_count": 8
+    }
+  ]
+}

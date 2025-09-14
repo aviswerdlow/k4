@@ -1,0 +1,62 @@
+[
+  {
+    "path": "anchor_walk",
+    "params": {
+      "offset": -1
+    },
+    "selected_indices": [
+      22,
+      28,
+      34,
+      43,
+      52,
+      65,
+      70
+    ],
+    "selected_ticks": [
+      56,
+      81,
+      91,
+      125,
+      148,
+      182,
+      204
+    ],
+    "score": 0.07613536868552293,
+    "p_raw": 0.024975024975024976,
+    "M": 7,
+    "M_scoreable": 3,
+    "replicated": true,
+    "p_adj": 0.04995004995004995
+  },
+  {
+    "path": "anchor_walk",
+    "params": {
+      "offset": 1
+    },
+    "selected_indices": [
+      24,
+      30,
+      34,
+      43,
+      52,
+      67,
+      72
+    ],
+    "selected_ticks": [
+      64,
+      85,
+      91,
+      125,
+      148,
+      187,
+      215
+    ],
+    "score": 0.07613536868552293,
+    "p_raw": 0.024975024975024976,
+    "M": 7,
+    "M_scoreable": 3,
+    "replicated": true,
+    "p_adj": 0.04995004995004995
+  }
+]

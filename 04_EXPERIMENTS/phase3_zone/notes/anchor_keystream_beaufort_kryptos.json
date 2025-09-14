@@ -1,0 +1,174 @@
+{
+  "family": "beaufort",
+  "tableau": "kryptos",
+  "constraints": [
+    {
+      "idx": 21,
+      "ct": "F",
+      "pt": "E",
+      "k": "C",
+      "anchor": "EAST"
+    },
+    {
+      "idx": 22,
+      "ct": "L",
+      "pt": "A",
+      "k": "E",
+      "anchor": "EAST"
+    },
+    {
+      "idx": 23,
+      "ct": "R",
+      "pt": "S",
+      "k": "C",
+      "anchor": "EAST"
+    },
+    {
+      "idx": 24,
+      "ct": "V",
+      "pt": "T",
+      "k": "H",
+      "anchor": "EAST"
+    },
+    {
+      "idx": 25,
+      "ct": "Q",
+      "pt": "N",
+      "k": "P",
+      "anchor": "NORTHEAST"
+    },
+    {
+      "idx": 26,
+      "ct": "Q",
+      "pt": "O",
+      "k": "T",
+      "anchor": "NORTHEAST"
+    },
+    {
+      "idx": 27,
+      "ct": "P",
+      "pt": "R",
+      "k": "S",
+      "anchor": "NORTHEAST"
+    },
+    {
+      "idx": 28,
+      "ct": "R",
+      "pt": "T",
+      "k": "D",
+      "anchor": "NORTHEAST"
+    },
+    {
+      "idx": 29,
+      "ct": "N",
+      "pt": "H",
+      "k": "Q",
+      "anchor": "NORTHEAST"
+    },
+    {
+      "idx": 30,
+      "ct": "G",
+      "pt": "E",
+      "k": "D",
+      "anchor": "NORTHEAST"
+    },
+    {
+      "idx": 31,
+      "ct": "K",
+      "pt": "A",
+      "k": "D",
+      "anchor": "NORTHEAST"
+    },
+    {
+      "idx": 32,
+      "ct": "S",
+      "pt": "S",
+      "k": "D",
+      "anchor": "NORTHEAST"
+    },
+    {
+      "idx": 33,
+      "ct": "S",
+      "pt": "T",
+      "k": "E",
+      "anchor": "NORTHEAST"
+    },
+    {
+      "idx": 63,
+      "ct": "N",
+      "pt": "B",
+      "k": "H",
+      "anchor": "BERLIN"
+    },
+    {
+      "idx": 64,
+      "ct": "Y",
+      "pt": "E",
+      "k": "Y",
+      "anchor": "BERLIN"
+    },
+    {
+      "idx": 65,
+      "ct": "P",
+      "pt": "R",
+      "k": "S",
+      "anchor": "BERLIN"
+    },
+    {
+      "idx": 66,
+      "ct": "V",
+      "pt": "L",
+      "k": "S",
+      "anchor": "BERLIN"
+    },
+    {
+      "idx": 67,
+      "ct": "T",
+      "pt": "I",
+      "k": "R",
+      "anchor": "BERLIN"
+    },
+    {
+      "idx": 68,
+      "ct": "T",
+      "pt": "N",
+      "k": "S",
+      "anchor": "BERLIN"
+    },
+    {
+      "idx": 69,
+      "ct": "M",
+      "pt": "C",
+      "k": "H",
+      "anchor": "CLOCK"
+    },
+    {
+      "idx": 70,
+      "ct": "Z",
+      "pt": "L",
+      "k": "D",
+      "anchor": "CLOCK"
+    },
+    {
+      "idx": 71,
+      "ct": "F",
+      "pt": "O",
+      "k": "N",
+      "anchor": "CLOCK"
+    },
+    {
+      "idx": 72,
+      "ct": "P",
+      "pt": "C",
+      "k": "L",
+      "anchor": "CLOCK"
+    },
+    {
+      "idx": 73,
+      "ct": "K",
+      "pt": "K",
+      "k": "Q",
+      "anchor": "CLOCK"
+    }
+  ]
+}

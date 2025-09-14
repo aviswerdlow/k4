@@ -1,0 +1,144 @@
+{
+  "function_words": {
+    "phrases": [
+      {
+        "phrase": "AND NOW WHO BUT",
+        "type": "question/instruction",
+        "significance": "Possible query about timing or identity"
+      },
+      {
+        "phrase": "WHO AND NOW BUT",
+        "type": "question/instruction",
+        "significance": "Possible query about timing or identity"
+      },
+      {
+        "phrase": "NOW WHO BUT AND",
+        "type": "question/instruction",
+        "significance": "Possible query about timing or identity"
+      },
+      {
+        "phrase": "BUT WHO AND NOW",
+        "type": "question/instruction",
+        "significance": "Possible query about timing or identity"
+      },
+      {
+        "phrase": "BUT WHO AND NOW",
+        "type": "cipher_key",
+        "decryption": "NHRVNAXBDUGPAYVPBRBOTSXVUWXTKZGXPFAXVZXWCCSFBXLDVG"
+      }
+    ],
+    "patterns": [
+      {
+        "type": "acrostic",
+        "value": "NBAW",
+        "words": [
+          "NOW",
+          "BUT",
+          "AND",
+          "WHO"
+        ]
+      }
+    ]
+  },
+  "xor_patterns": {
+    "repetitions": [
+      {
+        "pattern": "RBPP",
+        "position": 4
+      },
+      {
+        "pattern": "RQLK",
+        "position": 9
+      },
+      {
+        "pattern": "CZRR",
+        "position": 18
+      },
+      {
+        "pattern": "YLRR",
+        "position": 32
+      },
+      {
+        "pattern": "QE",
+        "positions": [
+          38,
+          74
+        ],
+        "intervals": [
+          36
+        ]
+      }
+    ],
+    "intervals": [
+      {
+        "interval": 5,
+        "text": "PBQORRERPKXLZQFEGCCH",
+        "score": 0.1
+      }
+    ],
+    "structured_reads": []
+  },
+  "shadow_selection": {
+    "shadow_paths": [
+      {
+        "method": "every_21st",
+        "angle": 213.8,
+        "text": "BNSNI"
+      }
+    ],
+    "grid_reads": [
+      {
+        "method": "grid_crossings",
+        "text": "FOSBLUHRGOXOURKTBOSS"
+      }
+    ],
+    "angular_selections": [
+      {
+        "step": 2.2356,
+        "text": "OBKUOXOGULBSOIFBBWLRVQPRNGKSOT"
+      }
+    ]
+  },
+  "coordinates": {
+    "decimal_degrees": [
+      {
+        "rotation": 0,
+        "text": "OBKRUOXOGHULBSOLIFBBWFLRVQQPRNGKSSOTWTQSJQSSEKZZWATJKLUDIAWINFBNYPVTTMZFPKWGDKZXTJCDIGKUHUAUEKCAR"
+      }
+    ],
+    "time_based": [
+      {
+        "time": "02:14:08",
+        "pattern": [
+          2,
+          23,
+          56
+        ],
+        "text": "OKQJD"
+      }
+    ],
+    "mathematical": [
+      {
+        "constant": "sqrt(5)",
+        "value": 2.23606797749979,
+        "text": "GIVSJWIYPTHROLRKSZDN"
+      }
+    ],
+    "grid_based": []
+  },
+  "path_98": {
+    "padding_tests": [],
+    "delimiter_tests": [],
+    "coordinate_notations": []
+  },
+  "combined_paths": {
+    "interleaved": [
+      {
+        "method": "alternating",
+        "text": "OSBBKLRUUHOGXOOXGOHUURLKBBSOOPLQIQFVBRBLWFFWLBRBVFQIQLPORQNJGSKQSTSWOTTOWSTSQKSGJNQRSDSUELKKZJZTWAAWTZJZKKLEUSDSIIATWTIPNMFVBNNBYYPAVWTFTNMIZDFPPFKWWGGKDZKTZXXKTDJCCJDDIIGGKAUUHUUHAUUKEEKKCCAARR"
+      }
+    ],
+    "key_plaintext": [],
+    "modular": []
+  }
+}

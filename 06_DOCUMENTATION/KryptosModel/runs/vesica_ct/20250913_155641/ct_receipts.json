@@ -1,0 +1,20 @@
+{
+  "timestamp": "20250913_155641",
+  "track": "CT_structure_vesica",
+  "random_seed": 20250913,
+  "n_nulls": 1000,
+  "n_tests": 4,
+  "bonferroni_divisor": 4,
+  "p_threshold": 0.001,
+  "input_hashes": {
+    "ct_map": "1df71e99d7c46fbe",
+    "perimeter": "103eb2ee64d2a1a8",
+    "lens_20": "7b9123f5beacac9f",
+    "lens_30": "7b9123f5beacac9f",
+    "pairs": "595019a3f4cc8e88"
+  },
+  "best_result": {
+    "label": "perimeter",
+    "p_raw": 0.000999000999000999,
+    "p_adj": 0.003996003996003996,
+    "passes": 
