@@ -1,0 +1,12 @@
+{
+  "recovered_k": "FGHIJLMNQUVLXFKRYPTRSABCDEFGSINGWTQSMQQUVKXZWRYPKOSABCDEFGHIJPOTTJLMPQUVWXZKRYPTOSABCDEFGHIJR",
+  "published_k": "FGHIJLMNQUVWXZKRYPTOSABCDEFGHINGHIJLMNQUVWXZKRYPTOSABCDEFGHIJLOHIJLMNQUVWXZKRYPTOSABCDEFGHIJL",
+  "exact_match": false,
+  "pass_through_count": 19,
+  "r27_31_count": 0,
+  "analysis": {
+    "total_positions": 93,
+    "match_count": 76,
+    "mismatch_count": 17
+  }
+}

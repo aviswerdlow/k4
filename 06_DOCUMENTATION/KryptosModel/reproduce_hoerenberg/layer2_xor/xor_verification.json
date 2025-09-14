@@ -1,0 +1,10 @@
+{
+  "exact_match": false,
+  "matches": 76,
+  "total": 93,
+  "pass_throughs": 2,
+  "r27_31": 17,
+  "computed_ioc": 0.061711079943899017,
+  "expected_ioc": 0.06077606,
+  "p_computed": "SHPFMDXBSFYAQBIPNVXCEPSSVKALAZASECAEGEBFSBBZBSMZECFEKBSLHAJGSBYBCGVKDZBQSSZSFSSPFTJWKQDSBCJKD"
+}

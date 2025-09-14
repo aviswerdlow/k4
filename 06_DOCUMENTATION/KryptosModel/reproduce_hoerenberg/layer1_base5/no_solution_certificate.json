@@ -1,0 +1,40 @@
+{
+  "timestamp": "20250914_111551",
+  "search_parameters": {
+    "alphabets": [
+      "drop-J",
+      "drop-X"
+    ],
+    "digit_origins": [
+      0,
+      1
+    ],
+    "grid_mappings": [
+      "row-major",
+      "col-major"
+    ],
+    "digit_orders": [
+      "d1=row,d0=col",
+      "d1=col,d0=row"
+    ],
+    "operations": [
+      "add",
+      "subtract"
+    ],
+    "key_directions": [
+      "forward",
+      "reverse"
+    ],
+    "total_conventions": 64,
+    "p_string_window": 3
+  },
+  "results": {
+    "CIAW": "REPRODUCED",
+    "CIAX": "NOT_FOUND",
+    "CULDWW": "NOT_FOUND"
+  },
+  "near_misses": {
+    "CIAX": 0,
+    "CULDWW": 0
+  }
+}

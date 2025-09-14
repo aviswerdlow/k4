@@ -1,0 +1,23 @@
+{
+  "keystream": "FGHIJLMNQUVWXZKRYPTOSABCDEFGHINGHIJLMNQUVWXZKRYPTOSABCDEFGHIJLOHIJLMNQUVWXZKRYPTOSABCDEFGHIJL",
+  "length": 93,
+  "l_positions": [
+    5,
+    35,
+    61,
+    66,
+    92
+  ],
+  "l_count": 5,
+  "best_alignment": {
+    "offset": 8,
+    "matches": 30,
+    "pattern": "every_26"
+  },
+  "manual_segments": {
+    "seg1_length": 31,
+    "seg2_length": 32,
+    "seg3_length": 30
+  },
+  "conclusion": "Manual construction - not algorithmic panel stream"
+}

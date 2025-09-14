@@ -1,0 +1,22 @@
+{
+  "timestamp": "2025-09-14T11:17:03.932978",
+  "search_summary": {
+    "base_grid": {
+      "conventions_tested": 64,
+      "CIAW": "FOUND (4 matches)",
+      "CIAX": "NOT_FOUND",
+      "CULDWW": "NOT_FOUND"
+    },
+    "expansions_tested": [
+      "OBKR-keyed Polybius grid",
+      "Alternating operations (row/col)",
+      "Digit swap at passthrough positions"
+    ],
+    "expansion_results": {
+      "CIAX": "NOT_FOUND",
+      "CULDWW": "NOT_FOUND"
+    }
+  },
+  "conclusion": "CIAX and CULDWW cannot be reproduced under any tested single-page convention",
+  "recommendation": "Examples appear to be idealized or use multi-step/position-dependent transformations"
+}

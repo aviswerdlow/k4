@@ -1,0 +1,12 @@
+{
+  "layer2_xor": {
+    "encoding": "A=1..Z=26",
+    "operation": "r = code5(C) XOR code5(K)",
+    "mapping": {
+      "r=0": "output C (pass-through)",
+      "r=1-26": "output letter(r)",
+      "r=27-31": "output C (pass-through)"
+    },
+    "note": "R27-31 treated as pass-through is the key discovery"
+  }
+}

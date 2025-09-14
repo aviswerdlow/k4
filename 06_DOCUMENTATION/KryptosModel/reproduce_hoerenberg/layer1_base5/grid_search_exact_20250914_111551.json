@@ -1,0 +1,63 @@
+{
+  "timestamp": "20250914_111551",
+  "CIAW": [
+    {
+      "convention": {
+        "alphabet": "drop-X",
+        "digit_origin": 0,
+        "grid_mapping": "row-major",
+        "digit_order": "d1=row,d0=col",
+        "operation": "add",
+        "key_direction": "forward"
+      },
+      "p_segment": "SHPF",
+      "key": "OBKR",
+      "result": "CIAW",
+      "target": "CIAW"
+    },
+    {
+      "convention": {
+        "alphabet": "drop-X",
+        "digit_origin": 0,
+        "grid_mapping": "row-major",
+        "digit_order": "d1=col,d0=row",
+        "operation": "add",
+        "key_direction": "forward"
+      },
+      "p_segment": "SHPF",
+      "key": "OBKR",
+      "result": "CIAW",
+      "target": "CIAW"
+    },
+    {
+      "convention": {
+        "alphabet": "drop-X",
+        "digit_origin": 0,
+        "grid_mapping": "col-major",
+        "digit_order": "d1=row,d0=col",
+        "operation": "add",
+        "key_direction": "forward"
+      },
+      "p_segment": "SHPF",
+      "key": "OBKR",
+      "result": "CIAW",
+      "target": "CIAW"
+    },
+    {
+      "convention": {
+        "alphabet": "drop-X",
+        "digit_origin": 0,
+        "grid_mapping": "col-major",
+        "digit_order": "d1=col,d0=row",
+        "operation": "add",
+        "key_direction": "forward"
+      },
+      "p_segment": "SHPF",
+      "key": "OBKR",
+      "result": "CIAW",
+      "target": "CIAW"
+    }
+  ],
+  "CIAX": [],
+  "CULDWW": []
+}

@@ -1,0 +1,6 @@
+CIAX Example (Drop-J alphabet):
+C: SHPF -> 32122410
+K: OBKR -> 23011431
+P: KGFU -> 14111034
+
+Extended: KGFUDCTLKKUZHKEYEZTA
